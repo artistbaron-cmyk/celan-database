@@ -1,0 +1,36 @@
+# macOS / editor noise
+.DS_Store
+._*
+*.swp
+*.swo
+*~
+
+# Local dependency folders
+node_modules/
+.venv/
+venv/
+env/
+__pycache__/
+*.pyc
+
+# Logs and temporary output
+*.log
+*.tmp
+*.temp
+
+# Local environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local app caches
+.cache/
+.parcel-cache/
+.vite/
+
+# Project preservation copies
+backup/
+
+# Generated throwaway exports can be rebuilt from source data
+data/dictionary_report_batches/
+

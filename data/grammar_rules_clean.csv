@@ -1,0 +1,180 @@
+lesson_order,lesson_group,learning_stage,rule_order,entry_id,source_volume,source_section,page_number,rule_name,category,original_wording,examples,canon_status,notes,related_entry_ids,relationship_type,potential_tension_id,review_status,review_reason
+1,Pronunciation,Foundations,1,GR-V1-0001,Volume 1: Fundamentals,Phonetics and Pronunciation > Vowels,2,Vowels,Phonetics,"Celan features long, flowing vowels that symbolize natural forces like water, air, and light. The vowels are pronounced clearly and smoothly to maintain the language's fluidity.","● A: Pronounced as in ""father"" – a smooth loop or crescent shape in writing.
+● E: Pronounced as in ""bed"" – a wavy line resembling flowing water.
+● I: Pronounced as in ""machine"" – a straight vertical line symbolizing clarity.
+● O: Pronounced as in ""go"" – rounded and open.
+● U: Pronounced as in ""flu"" – deep and resonant.",Canon,Bullet structure preserved in examples field.,,,,Approved,
+1,Pronunciation,Foundations,2,GR-V1-0002,Volume 1: Fundamentals,Phonetics and Pronunciation > Consonants,2,Consonants,Phonetics,"Celan's consonants are sharp and defined, providing structure and grounding to the language.","● K, T, S, R: Frequently used, these consonants add clarity and strength.
+● Other consonants follow straightforward pronunciation rules, ensuring accessibility for all speakers.",Canon,Bullet structure preserved in examples field.,,,,Approved,
+1,Pronunciation,Foundations,3,GR-V1-0003,Volume 1: Fundamentals,Phonetics and Pronunciation > Pronunciation Rules,3,Pronunciation Rules,Phonetics,"● Emphasis is placed on clarity and flow.
+● Each syllable is pronounced distinctly to maintain the language's rhythmic quality.
+● No complex tonal variations; pronunciation remains consistent across different contexts.",,Canon,Bullet structure preserved in original_wording field.,,,,Approved,
+1,Pronunciation,Core rule,4,GR-S1-0001,Supplement 1: The Rule of Euphony and Historical Variance,Section 5:1: Advanced Phonology - The Rule of Euphony and Historical Variance,1,The Rule of Euphony,Advanced Phonology,"The core principle is to avoid phonetically harsh or dissonant consonant clusters in compound words by inserting a euphonic vowel, typically a, to ensure a smooth, rhythmic flow.",Morl + Thar -> Morlathar; Rath + Thar -> Rathathar; Vok + Thal -> Vokathar,Canon,Original wording preserved. Source uses bold emphasis in examples; emphasis markers removed only where PDF extraction inserted formatting artifacts.,GR-V1-0001; GR-V1-0002; GR-V1-0003; GR-V2-0003; RM-S1-0001,expansion,PT-S1-0003,Needs Human Review,possible overlap with earlier rule
+1,Pronunciation,Core rule,5,GR-S1-0002,Supplement 1: The Rule of Euphony and Historical Variance,Tiers of Application > Tier 1: Mandatory Application (Harsh & Dissonant Clusters),1-2,Tier 1: Mandatory Application,Advanced Phonology,"The euphonic vowel is considered mandatory for consonant clusters that are phonetically repetitive, difficult to articulate cleanly, or considered ""ugly"" to the Celan ear.",Rule: Insert a to break up harsh clusters. / Morl + Thar -> Morlathar (Stoicism). / Rath + Thar -> Rathathar (A Hateful Heart). / Vok + Thal -> Vokathar (A Harmonious Union).,Canon,Bullet/list structure preserved in examples field. Vok + Thal example source gives Vokathar while meaning says harmonious union; preserved as source wording.,GR-S1-0001; RM-S1-0001; PE-S1-0001; PE-S1-0002; PE-S1-0003,related usage,PT-S1-0003; PT-S1-0004,Needs Human Review,possible overlap with earlier rule
+1,Pronunciation,Variation,6,GR-S1-0003,Supplement 1: The Rule of Euphony and Historical Variance,Tiers of Application > Tier 2: Optional / Stylistic Application (Clunky but Pronounceable Clusters),2,Tier 2: Optional / Stylistic Application,Advanced Phonology / Register,"The absence of the euphonic vowel is the Standard Form (direct, common speech). The presence of the euphonic vowel is the Poetic Form (more melodic, formal, or archaic).",Standard/Marakorian Form: Krezthal. / Poetic/Jasaran Form: Krezathal. / Standard Form: Belshara. / Poetic Form: Belashara.,Canon,Original wording preserved. Examples are compound/form examples rather than full sentences.,GR-S1-0001; RM-S1-0004; PE-S1-0005; PE-S1-0006; PE-S1-0007; PE-S1-0008; CC-S1-0002,related usage,PT-S1-0005,Needs Human Review,contextual meaning overlap
+1,Pronunciation,Variation,7,GR-S1-0004,Supplement 1: The Rule of Euphony and Historical Variance,Tiers of Application > Tier 3: Never Applied (Smooth Clusters & Phonetic Fossils),2-3,Tier 3: Never Applied,Advanced Phonology / Historical Variance,"The rule is not applied in two key situations: when the consonant cluster is naturally smooth, or when the word is so ancient and fundamental that its original form is considered sacrosanct.","Smooth Clusters: Kalvok, Kalrath, Rethlian. / Phonetic Fossils: Belthal and Rethvok.",Canon,Original wording preserved.,GR-S1-0001; RM-S1-0003; LX-V3-0049; LX-V4-0060; LX-V3-0019; LX-V4-0003; LX-V4-0074; LX-V4-0075,related usage,PT-S1-0005,Needs Human Review,contextual meaning overlap
+2,Sentence Shape,Foundations,1,GR-V1-0004,Volume 1: Fundamentals,Basic Sentence Structure > Verb-Subject-Object (VSO),3,Verb-Subject-Object (VSO),Syntax,"Celan primarily follows a Verb-Subject-Object (VSO) sentence structure, facilitating clear and direct communication.",Var I dren. / “I go to the water.”,Canon,Example also appears in phrases_and_examples.csv.,PE-V1-0001; PE-V1-0020,related usage,,Approved,
+2,Sentence Shape,Foundations,2,GR-S4A-0001,Supplement 4A: VSO Cultural Notes,The Heart of Action: How Celan's VSO Structure Reflects Ohnoshan Worldview,text,VSO as Action-First Syntax Philosophy,Syntax / cultural grammar,"For Celan, the universal tongue of Ohnosha, its predominant Verb-Subject-Object (VSO) sentence structure is not an arbitrary choice but a fundamental expression of an action-oriented and relationally-focused worldview.",Var Kadron an morl.; Rinaen Terra vaar.; Ohmaen I Ya.; Seraen I an Nys'aleth.; Rinaen Ohm ser Ilin.,Canon,Supplemental syntax philosophy. Preserves older VSO rule unchanged and adds cultural interpretation.,GR-V1-0004; PE-V1-0001; CC-V4-0008; RM-S3-0018; RM-S3-0023; CC-V1-0003,refinement,PT-S4A-0001,Approved,
+2,Sentence Shape,Core grammar,3,GR-V1-0005,Volume 1: Fundamentals,Basic Sentence Structure > Forming Questions,3,Forming Questions,Syntax,"To form questions, place Ra at the beginning of the sentence.","Ra var ser? / ""Where does the friend go?""",Canon,Example also appears in phrases_and_examples.csv.,PE-V1-0002; PE-V1-0028,related usage,,Approved,
+2,Sentence Shape,Core grammar,4,GR-V1-0016,Volume 1: Fundamentals,Grammar > Questions and Imperatives,7,Questions and Imperatives,Questions/Imperatives,"● Questions: Start with Ra.
+● Negative Questions: Insert Ver before the verb.
+● Imperatives (Commands): Start with Va.","○ Example: Ra var ser? – “Where does the friend go?”
+○ Example: Ra ver var ser? – “Does the friend not go?”
+○ Example: Va var dren! – “Go to the water!”",Canon,Bullet and sub-bullet structure preserved in original_wording/examples fields.,RM-V1-0010; RM-V1-0011; PE-V1-0025; PE-V1-0026; PE-V1-0027,related usage,,Approved,
+2,Sentence Shape,Core grammar,5,GR-V1-0015,Volume 1: Fundamentals,Grammar > Negation,7,Negation,Negation,"Negation is formed by placing Ver before the verb or noun.
+● Verb Negation: Ver before the verb negates it.
+● Noun Negation: Ver before a noun negates its existence.","○ Example: Ver var I dren. – “I do not go to the water.”
+○ Example: Ver shal I dren. – “There is no light at the water.”",Canon,Bullet and sub-bullet structure preserved in original_wording/examples fields.,RM-V1-0009; PE-V1-0023; PE-V1-0024,related usage,,Approved,
+2,Sentence Shape,Core grammar,6,GR-V1-0014,Volume 1: Fundamentals,Grammar > Tenses and Aspects,7,Tenses and Aspects,Tense/Aspect,"Celan verbs do not conjugate based on tense. Instead, tenses are indicated by prefixes and suffixes.","Present Tense / Default VSO / Var I dren. / “I go to the water.”
+Past Tense / Tha- (prefix) / Tha-var I dren. / “I went to the water.”
+Future Tense / Nor- (prefix) / Nor-var I dren. / “I will go to the water.”
+Continuous / -al (suffix) / Varal I dren. / “I am going to the water.”
+Perfective / -ath (suffix) / Varath I dren. / “I have gone to the water.”
+Habitual / -as (suffix) / Varas I dren. / “I usually go to the water.”",Canon,Source table flattened into line-separated entries for CSV; Markdown preserves table structure.,RM-V1-0004; RM-V1-0005; RM-V1-0006; RM-V1-0007; RM-V1-0008; PE-V1-0017; PE-V1-0018; PE-V1-0019; PE-V1-0020; PE-V1-0021; PE-V1-0022,related usage,PT-V1-0004,Needs Human Review,terminology overlap
+2,Sentence Shape,Core grammar,7,GR-V1-0017,Volume 1: Fundamentals,Grammar > Conditionals,7-8,Conditionals,Conditionals,"● Conditional “If”: Use Rath to introduce conditions.
+● Hypothetical Future: Combine Rath with future tense.
+● Contrary-to-Fact: Use past tense markers.","○ Example: Rath var ser, I dren. – “If the friend goes, I will go to the water.”
+○ Example: Rath Nor-var ser, Nor-var I dren. – “If the friend will go, I will go to the water.”
+○ Example: Rath Tha-var ser, Tha-var I dren. – “If the friend had gone, I would have gone to the water.”",Canon,Bullet and sub-bullet structure preserved in original_wording/examples fields.,RM-V1-0012; PE-V1-0028; PE-V1-0029; PE-V1-0030,related usage,,Approved,
+2,Sentence Shape,Advanced syntax,8,GR-V3-0005,"Volume 3: Culture, Context, and Advanced Expression",Complex Sentence Structures > Conditionals,7-8,Conditionals,Complex Syntax,"Conditional Marker: Rath (if)
+Structure:
+● Rath + Clause + Main Clause","“Rath Ya var dren, Nor-var I shena.” – “If you go to the water, I will bring coinage.”
+“Rath Tha-var Ya dren, Tha-var I emil.” – “If you had gone to the water, I would have gotten food.”",Canon,Bullet/list structure preserved.,,,PT-V3-0010,Needs Human Review,possible overlap with earlier rule
+2,Sentence Shape,Advanced syntax,9,GR-V3-0002,"Volume 3: Culture, Context, and Advanced Expression",Complex Sentence Structures > Subordinate Clauses,7-8,Subordinate Clauses,Complex Syntax,"Complementizer: Aen (that)
+Structure:
+● Main Clause + Aen + Subordinate Clause","“I varin Aen Ya var dren.”
+“I know that you go to the water.”",Canon,Bullet/list structure preserved.,,,PT-V3-0008,Needs Human Review,terminology overlap
+2,Sentence Shape,Advanced syntax,10,GR-V3-0003,"Volume 3: Culture, Context, and Advanced Expression",Complex Sentence Structures > Relative Clauses,7-8,Relative Clauses,Complex Syntax,"Relative Pronoun: Lior (who/which)
+Structure:
+● Noun + Lior + Clause","“Ser Lior var dren.”
+“The friend who goes to the water.”
+“Var I terra Ser Lior var dren.”
+“I go home with the friend who goes to the water.”",Canon,Bullet/list structure preserved.,,,,Approved,
+2,Sentence Shape,Advanced syntax,11,GR-V3-0004,"Volume 3: Culture, Context, and Advanced Expression",Complex Sentence Structures > Comparatives and Superlatives,7-8,Comparatives and Superlatives,Complex Syntax,"Comparatives:
+● Ther (more than)
+Structure:
+● X Adjective Ther Y
+Superlatives:
+● Thaal (most)
+Structure:
+● X Adjective Thaal","“I dren shaleth ther La dren.” – “My water is brighter than their water.”
+“I dren shaleth thaal.” – “My water is the brightest.”
+“I dren shaleth thaal morldren.” – “My water is the brightest of the mountain waters.”",Canon,Human-approved fused spelling applied in example: morldren. Wording otherwise preserved.,,,PT-V3-0009,Needs Human Review,possible overlap with earlier rule
+2,Sentence Shape,Advanced syntax,12,GR-V4-0002,"Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",Systemic Expansion > Section 2.2: A System for Verb Mood and Modality,3,Verb Mood and Modality,Modality,"To express concepts of ability, necessity, and desire, Celan employs a system of modal adverbs placed after the subject in a VSO sentence.",Ability: Lianeth; Necessity: Belshara; Possibility: Rethlian; Desire: Thar-ka,Canon,List structure preserved.,,,PT-V4-0003,Needs Human Review,possible overlap with earlier rule
+2,Sentence Shape,Advanced syntax,13,GR-V4-0003,"Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",Systemic Expansion > Section 2.2: Subjunctive Mood,3,Subjunctive Mood,Mood,"Rule: Place the particle vael at the beginning of a clause to express wishes, hopes, suggestions, or conditions that are not currently real.","Vael vaar an shara-ya. (May peace be on your path.)
+Vael rinaen I an eshlin, varal I an esh. (If I were a bird, I would be going to the sky.)
+Vael aen Ya. (May you speak / Please speak.)",Canon,Bullet/list structure preserved.,RM-V4-0002,related usage,,Approved,
+2,Sentence Shape,Advanced syntax,14,GR-V4-0004,"Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",Systemic Expansion > Section 2.3: The Passive Voice (The Echo Particle nor-ka),4,Passive Voice: nor-ka,Passive Voice,"Celan expresses the passive voice not by modifying the verb, but by re-contextualizing the object as the ""echo"" or ""wake"" of a completed action whose agent is unknown or unimportant.","Active: Pralaen an Azron an belkor. (The woman makes the tunic.)
+Passive: Pralaen an belkor nor-ka. (The tunic is made / A tunic was made.)
+Historical: Pralaen an kaleth nor-ka. (The fortress was built.)
+Mysterious: Talaen an shenakar nor-ka. (The coinage was taken.)",Canon,"Source rule says Verb + Object + [particle]; missing particle text in extraction inferred from section particle nor-ka, flagged.",RM-V4-0003,related usage,PT-V4-0004,Source Ambiguity,source ambiguity
+2,Sentence Shape,Advanced syntax,15,GR-V4-0006,"Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",The Living Lexicon > Section 3.7: Essential Conjunctions,12,Essential Conjunctions,Conjunctions,"Conjunctions are the grammatical glue that connects words, phrases, and clauses. Ser is re-purposed from Ser (With) as And. Reth is re-purposed from Reth (Uncertainty) as Or.",Rinaen morlak ser dren. / Ra drenaen Ya dren reth phelvin?,Canon,Table rows represented as linked lexicon and phrase rows.,,,PT-V4-0006; PT-V4-0007,Needs Human Review,terminology overlap
+3,Word Building,Foundations,1,GR-V2-0001,Volume 2: Dictionary and Word Formation,Word Formation and Morphology > Pluralization,13,Pluralization,Morphology,"Rule:
+● -in is added to nouns ending in consonants.
+● -n is added to nouns ending in vowels.","● Ser (friend) → Serin (friends)
+● Thar (heart) → Tharin (hearts)
+● Esh (sky) → Eshin (skies)
+● Dren (water) → Drenin (waters)
+● Tera (home) → Teran (homes)",Canon,Bullet structure preserved in original_wording/examples fields.,RM-V2-0029; RM-V2-0030,related usage,,Approved,
+3,Word Building,Foundations,2,GR-V2-0002,Volume 2: Dictionary and Word Formation,Word Formation and Morphology > Derivation and Word Formation,14,Derivation and Word Formation,Morphology,"Suffixes:
+● -or: Place/Location
+● -en: Honorific/Respected form
+● -lin: Collective/Diminutive
+● -aen: Verb-forming
+Prefixes:
+● Tha-: Past tense
+● Nor-: Future tense
+● Ver-: Negation
+● Li-: Respect/Honorific","● -or: Place/Location / Shal + or = Shalor (sanctuary/light place)
+● -en: Honorific/Respected form / Liorin + en = Liorinen (honored elder/teacher)
+● -lin: Collective/Diminutive / Elin = child; Ilin = we
+● -aen: Verb-forming / Lian (truth) → Lianaen (to speak truth)
+● Tha-: Past tense
+● Nor-: Future tense
+● Ver-: Negation
+● Li-: Respect/Honorific",Canon,Bullet structure preserved; examples also represented as morpheme rows.,RM-V2-0031; RM-V2-0032; RM-V2-0033; RM-V2-0034; RM-V2-0035; RM-V2-0036; RM-V2-0037; RM-V2-0038,related usage,,Approved,
+3,Word Building,Foundations,3,GR-V2-0003,Volume 2: Dictionary and Word Formation,Word Formation and Morphology > Compounding,14,Compounding,Morphology,"Rule:
+● Primary root comes first, refining the meaning with the second root.","● Terra + Dren = Terradren (fertile soil/well-irrigated land)
+● Dren + Shal = Drenshal (reflective pool/crystal-clear spring)
+● Morl + Dren = Morldren (waterfall/mountain stream)
+● Terra + Esh = Terraesh (horizon/place where earth meets sky)
+● Krez + or = Krezor (forge)",Canon,Bullet structure preserved in original_wording/examples fields.,LX-V2-0142; LX-V2-0143; LX-V2-0144; LX-V2-0145; LX-V2-0146,related usage,,Approved,
+3,Word Building,Expansion,4,GR-V4-0001,"Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",Systemic Expansion > Section 2.1: The Adjectival Suffix -eth,2-3,The Adjectival Suffix -eth,Derivation,"The suffix -eth, previously observed in ceremonial nouns (e.g., Shal'taleth) and the comparative adjective shaleth (brighter), is now formally established as one of Celan's most important derivational suffixes. It serves a dual function, creating both adjectives and abstract ritual nouns from a single root.","Adjectival: Shal → Shaleth; Wor → Woreth; Gorm → Gormeth; Kal → Kaleth
+Nominal/Ritual: Shal'taleth; Aen'Moreth",Canon,Bullet/list structure preserved in examples.,RM-V4-0001; PT-V3-0009; PT-V3-0013,refinement,PT-V4-0002,Needs Human Review,possible overlap with earlier rule
+4,Possession and Relation,Foundations,1,GR-V1-0006,Volume 1: Fundamentals,Pronouns and Person Markers > Personal Pronouns,3-4,Personal Pronouns,Pronouns,"Celan distinguishes between first, second, and third persons, with singular and plural forms.","1st Person Singular: I — Remains simple and universal.
+1st Person Plural: Ilin — Represents ""we"" as a group bound by common purpose.
+2nd Person Singular: Ya — A straightforward pronoun for “you.”
+2nd Person Plural: Yalin — ""You all."" Signifies a collective of individuals addressed.
+3rd Person Singular: La — Neutral pronoun meaning “he/she/they.”
+3rd Person Plural: Lalin — Means “they” (a group not including speaker or addressee).",Canon,Source table flattened into line-separated entries for CSV; Markdown preserves table structure.,LX-V1-0001; LX-V1-0002; LX-V1-0003; LX-V1-0004; LX-V1-0005; LX-V1-0006,related usage,,Approved,
+4,Possession and Relation,Expansion,2,GR-V4-0005,"Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",Systemic Expansion > Section 2.4: Advanced Pronouns (Dual & Clusivity),4-5,Advanced Pronouns: Dual Number and Clusivity,Pronouns,The Celan pronoun system is expanded with the Dual Number and Clusivity. Dual pronouns replace plural counterparts when the group consists of exactly two entities. Use Ilin when including the listener; use Imen when referring to your group to an outsider.,Inko; Yako; Lako; Ilin; Imen,Canon,Pronoun expansion preserved separately from earlier pronoun systems.,,,PT-V4-0005,Needs Human Review,possible overlap with earlier rule
+4,Possession and Relation,Core grammar,3,GR-V1-0007,Volume 1: Fundamentals,Pronouns and Person Markers > Possessive Forms,4,Possessive Forms,Possession,"Possession is indicated by placing the pronoun before the possessed noun, optionally using the -ka linking particle.","● I ka dren – “My water”
+● Ya tera – “Your home” (singular)
+● Ilin-ka emil – “Our meal”",Canon,Bullet structure preserved in examples field.,RM-V1-0012; PE-V1-0003; PE-V1-0004; PE-V1-0005,related usage,PT-V1-0003,Needs Human Review,terminology overlap
+4,Possession and Relation,Core grammar,4,GR-V3-0006,"Volume 3: Culture, Context, and Advanced Expression",Possession (Detailed),13-14,Possession: Ian and -esh Systems,Possession,"● ""Ian"" is used for clear, personal possession (e.g., my love, my home).
+● ""-esh"" is used for deep relational ties (e.g., a partner or beloved connected to you).","My / Ian / Ian Kadron (My man) / Kadron-esh (Man connected to me)
+Your / Anen / Anen Kalvok (Your partner) / Kalvok-en (Partner bonded to you)
+His/Her/Their / Eshen / Eshen Ohmbaen (Their beloved) / Ohmbaen-el (Beloved bound to them)
+Our / Velian / Velian Morlak (Our bread) / Morlak-vel (Bread shared among us)",Canon,Bullet and chart structure preserved in fields.,,,PT-V3-0012,Needs Human Review,possible overlap with earlier rule
+4,Possession and Relation,Core grammar,5,GR-V1-0018,Volume 1: Fundamentals,Grammar > Prepositions and Case Markers > Basic Prepositions,8,Basic Prepositions,Prepositions,Basic Prepositions,"Var / To, towards / Var dren (to the water)
+Ser / With / Var I ser ser (with a friend)
+Thal / From, out of / Tha-var La thal Terra.
+Ka / Without / Var I ka shal.
+An / At, in (place) / Varan I an Varthas.
+Nor / At/in (time) / Nor-var I nor Varthas.
+Esh / Above, over / Var I esh dren.
+Morl / Under, beneath / Var I morl dren.",Canon,Source table flattened into line-separated entries for CSV; Markdown preserves table structure.,LX-V1-0015; LX-V1-0016; LX-V1-0017; LX-V1-0018; LX-V1-0019; LX-V1-0020; LX-V1-0021; LX-V1-0022; PE-V1-0031; PE-V1-0032; PE-V1-0033; PE-V1-0034; PE-V1-0035; PE-V1-0036; PE-V1-0037; PE-V1-0038; PE-V1-0039; PE-V1-0040; PE-V1-0041; PE-V1-0042; PE-V1-0043; PE-V1-0044; PE-V1-0045,related usage,PT-V1-0001; PT-V1-0002; PT-V1-0003; PT-V1-0004,Needs Human Review,terminology overlap
+4,Possession and Relation,Core grammar,6,GR-V1-0019,Volume 1: Fundamentals,Grammar > Prepositions and Case Markers > Dedicated Spatial Preposition,8,Dedicated Spatial Preposition,Prepositions,"To avoid confusion with temporal usage, An is introduced for spatial contexts (“at/in” location).",,Canon,Preserved as separate entry because source gives a specific clarification.,LX-V1-0019; RM-V1-0013,refinement,,Approved,
+4,Possession and Relation,Core grammar,7,GR-V1-0020,Volume 1: Fundamentals,Grammar > Prepositions and Case Markers > Case Markers,9,Case Markers,Case Markers,"Celan relies on word order and prepositions for clarity, minimizing the need for extensive case markers. The -ka particle can act as a possessive/linking marker.",,Canon,Potential terminology overlap with Ka as preposition “Without” is flagged.,RM-V1-0014; GR-V1-0007,related usage; terminology overlap,PT-V1-0003,Needs Human Review,terminology overlap
+5,Number and Measure,Foundations,1,GR-V3-0007,"Volume 3: Culture, Context, and Advanced Expression",Numbering System and Basic Math in Celan > Numbering System,29-31,Numbering System,Numbering,"Numbers beyond ten use the prefix ""Ten-"" combined with the base numbers.
+Mixed numbers are constructed by combining tens and units.
+Hundreds are expressed with the prefix ""Hek-"".
+Thousands are expressed with the prefix ""Mel-"".
+Tens of thousands use the prefix ""Fen-"".
+For numbers in the hundreds of thousands, ""Hek-"" combines with ""Mel-"".","20 = Ten-del (Two tens)
+11 = Tenar unar (10 + 1)
+100 = Hek-unar (One hundred)
+1,000 = Mel-unar (One thousand)
+10,000 = Fen-unar (Ten thousand)
+100,000 = Hek-Mel-unar (One hundred thousand)",Canon,List structure preserved.,,,,Approved,
+5,Number and Measure,Foundations,2,GR-V3-0008,"Volume 3: Culture, Context, and Advanced Expression",Numbering System and Basic Math in Celan > Basic Math,31,Basic Math,Math,"Addition is expressed through the additive construction of numbers.
+Subtraction is indicated with the marker ""Ven"", meaning ""minus"" or ""subtract.""
+Expression Form:
+● ""X Ven Y"" = X minus Y","""Tenar unar"" = 11 (10 + 1)
+""Hek-quen Ten-peth"" = 450 (400 + 50)
+""Hek-quen Ven Hek-del"" = 400 - 200 = 200",Canon,Bullet/list structure preserved.,,,,Approved,
+5,Number and Measure,Support,3,GR-V2-0004,Volume 2: Dictionary and Word Formation,Nuances of Quantification and Specificity > Articles (Definite/Indefinite),22,Articles (Definite/Indefinite),Articles,"Decision: Confirming Celan generally lacks specific articles like ""the"" or ""a/an"". Definiteness and indefiniteness are primarily determined by context, word order (VSO often places known info earlier), or specific demonstratives if needed (though none explicitly listed, could be developed).",,Canon,"Source contains ""could be developed"" uncertainty; preserved without resolving.",,,PT-V2-0020,Source Ambiguity,source ambiguity
+5,Number and Measure,Support,4,GR-V2-0005,Volume 2: Dictionary and Word Formation,Nuances of Quantification and Specificity > Quantifiers,22-23,Quantifiers,Quantification,Quantifiers are placed before the noun they modify.,Ilinor; Som; Melen; Felin; Ekor,Canon,"Rule inferred from repeated source usage lines that say ""Usage: Placed before the noun."" No canon wording changed.",,related usage,,Approved,
+6,"Gender, Address, and Social Use",Foundations,1,GR-V1-0008,Volume 1: Fundamentals,Gendered and Neutral Terms > Rules for Usage > 1. Relational and Poetic Focus,5-6,Relational and Poetic Focus,Usage,Celan terms prioritize relationships and qualities over rigid definitions. For example:,"● Kal ohm Kadron ian: My strong friend who is a man.
+● Azron nor shal: The woman flows with the light.
+● Theon dren kal thal: The neutral person brings strength and balance.",Canon,Bullet structure preserved in examples field.,PE-V1-0006; PE-V1-0007; PE-V1-0008,related usage,,Approved,
+6,"Gender, Address, and Social Use",Foundations,2,GR-V1-0009,Volume 1: Fundamentals,Gendered and Neutral Terms > Rules for Usage > 2. Contextual Flexibility,6,Contextual Flexibility,Usage,"These terms can describe identities in various ways:
+● Default Use: Standalone nouns (e.g., Kadron, Azron, Theon).
+● Descriptive Use: Combine with other terms for clarity or depth.","○ Kadfel ohmbaen: Beloved boy.
+○ Azon nor velkrel: A feminine man near the breeze.",Canon,Bullet and sub-bullet structure preserved in original_wording/examples fields.,PE-V1-0009; PE-V1-0010,related usage,,Approved,
+6,"Gender, Address, and Social Use",Foundations,3,GR-V1-0010,Volume 1: Fundamentals,Gendered and Neutral Terms > Rules for Usage > 3. Cultural Variations,6,Cultural Variations,Usage,"Each Ohnoshan culture may adapt these terms to fit their values:
+● Pelagae: Emphasizes fluidity and uses Azon frequently for spiritual men.
+● Nivveil: Highlights balance, favoring Thee-based descriptors.
+● Valkeldor: Values strength and may use Kadon to honor warrior women.",,Canon,Bullet structure preserved in original_wording field. Also represented in culture_and_context.csv.,CC-V1-0004,related usage,,Approved,
+6,"Gender, Address, and Social Use",Advanced use,4,GR-V1-0011,Volume 1: Fundamentals,Gendered and Neutral Terms > Advanced Applications > 1. Gender-Neutral Address,6,Gender-Neutral Address,Usage,Use Thee terms for inclusivity in formal or neutral contexts:,"● Theon ian kal nor dren: My neutral companion flows with the water.
+● Theefel pralmor an shal: The neutral child creates with the light.",Canon,Bullet structure preserved in examples field.,PE-V1-0011; PE-V1-0012,related usage,,Approved,
+6,"Gender, Address, and Social Use",Advanced use,5,GR-V1-0012,Volume 1: Fundamentals,Gendered and Neutral Terms > Advanced Applications > 2. Combining Qualities,6,Combining Qualities,Usage,Layer terms to reflect specific traits:,"● Kadron-Azon: A man with both masculine and feminine qualities.
+● Azron-Theon: A woman embodying neutrality and balance.",Canon,Bullet structure preserved in examples field.,PE-V1-0013; PE-V1-0014,related usage,,Approved,
+6,"Gender, Address, and Social Use",Advanced use,6,GR-V1-0013,Volume 1: Fundamentals,Gendered and Neutral Terms > Advanced Applications > 3. Poetic Expressions,6,Poetic Expressions,Usage,Celan thrives on poeticism:,"● Azfel kal dren morl: The girl brings strength to the flowing mountain.
+● Kadron var thal nor: The man stands in balance with time.",Canon,Bullet structure preserved in examples field.,PE-V1-0015; PE-V1-0016,related usage,,Approved,
+6,"Gender, Address, and Social Use",Core grammar,7,GR-V3-0001,"Volume 3: Culture, Context, and Advanced Expression",Politeness and Honorifics > Levels of Politeness,4,Levels of Politeness,Politeness,"1. Casual/Familiar:
+○ Use plain pronouns and address by name or role without modifiers.
+2. Respectful/Polite:
+○ Add Li- prefix to show respect.
+3. Honorific/Formal-High Respect:
+○ Use both Li- and -en suffix.","“Var I dren, Ser.” – “I go to the water, friend.”
+“Var I dren, Li-Ser.” – “I go to the water, respected friend.”
+“Li-Ya var dren.” – “You (respected one) go to the water.”
+“Liorin(en)” – “Honored elder/teacher”
+“Li-Liorinen” – “Respected honored elder/teacher”",Canon,Numbered/bulleted structure preserved.,RM-V3-0001; RM-V3-0002,related usage,PT-V3-0001,Needs Human Review,possible overlap with earlier rule
+7,Writing Conventions,Foundations,1,GR-S4B-0001,Supplement 4B: Celan Capitalization Rules,Rule 1: The First Word of a Sentence is NOT Capitalized,text,Sentence-initial lowercase,Orthography / capitalization,Sentences begin with a lowercase letter unless the first word itself meets one of the other criteria for capitalization.,Correct: var I an dren. / Incorrect: Var I an dren.,Canon,Supplemental orthography rule. Existing older examples are preserved as source-specific rows and not rewritten.,GR-V1-0004; PE-V1-0001,refinement,PT-S4B-0001; PT-S4B-0003,Needs Human Review,orthography overlap
+7,Writing Conventions,Foundations,2,GR-S4B-0002,Supplement 4B: Celan Capitalization Rules,Rule 2: Capitalize Archetypal and Primordial Concepts,text,Semantic capitalization for archetypal concepts,Orthography / capitalization,"Words are capitalized when they refer to the fundamental, archetypal forces or concepts that govern the world, rather than their mundane, everyday instances.",Terra vs. terra; Dral vs. dral; Rathor vs. rathor,Canon,Expands Terra/terra capitalization distinction from Supplement 3 into a broader semantic capitalization rule.,RM-S3-0007; CC-S3-0002; PE-S3-0003; PE-S3-0004; PT-S3-0003; LX-V2-0001; LX-V4-0108,expansion,PT-S4B-0001; PT-S4B-0002,Needs Human Review,orthography overlap
+7,Writing Conventions,Foundations,3,GR-S4B-0003,Supplement 4B: Celan Capitalization Rules,"Rule 3: Capitalize Names of Nations, Specific Titles, and Proper Names",text,"Names, nations, titles, and Four Pillars capitalization",Orthography / capitalization,"Nations: Names of the eight nations are always capitalized. Proper Names: Personal names are capitalized. Titles of Reverence: Formal, specific titles are capitalized when used as a name.",var an Velmarin an verdor.; Aen Velmarin.; Eh'lara; Ka'tharyn,Canon,"Adds capitalization rule for names, reverential titles, and Four Pillars. Existing source capitalization preserved.",CC-S2-0001; CC-S2-0003; PE-V3-0050,refinement,PT-S4B-0001,Needs Human Review,orthography overlap
+7,Writing Conventions,Foundations,4,GR-S4B-0004,Supplement 4B: Celan Capitalization Rules,"Rule 4: Capitalize the Pronoun ""I"" (I)",text,Capitalized pronoun I,Orthography / pronouns,"The pronoun for the self, I, is always capitalized.",I,Canon,Adds philosophical capitalization rule for the self-pronoun; older rows already generally preserve I as capitalized.,GR-V1-0006; PE-V1-0001,refinement,PT-S4B-0001,Approved,
+7,Writing Conventions,Advanced use,5,GR-S4B-0005,Supplement 4B: Celan Capitalization Rules,Rule 5: Poetic and Emotional Emphasis,text,Poetic and emotional capitalization,Orthography / register,"In poetry, scripture, or highly emotional speech, a speaker may capitalize a word to give it immense personal or spiritual weight, even if it does not normally meet the criteria.",Standard: Ohmaen I an thar-ka. / Poetic/Emotional: Rinaen I an Thar-ka.,Canon,Adds poetic/register-based capitalization; no older rows changed.,GR-S4B-0002; PE-S4B-0008; PE-S4B-0009,refinement,PT-S4B-0001,Needs Human Review,orthography overlap
+8,Cultural Voice,Advanced companion,1,GR-S1-0005,Supplement 1: The Rule of Euphony and Historical Variance,"It's Not a Universal Rule; It's a ""Cultural Voice"" Indicator",3,Rule of Euphony as Cultural Voice Indicator,Advanced Phonology / Cultural Voice,"The preference for euphonic smoothness versus harsh directness is a key marker of a nation's ""Cultural Voice.""","National brief gives preferences for Zarithan, Mechuman, Valkeldorian, Marakorian, Pelagaean, Verdalrisian, Nivveilian, and Jasaran speech.",Canon,Original wording preserved. Cross-linked to existing national vernacular material.,CC-V4-0009; PT-V4-0011; CC-S1-0002; CC-S1-0003; CC-S1-0004; CC-S1-0005; CC-S1-0006; CC-S1-0007; CC-S1-0008; CC-S1-0009; CC-S1-0010,expansion,PT-S1-0002; PT-S1-0006,Needs Human Review,possible overlap with earlier rule

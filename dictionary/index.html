@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Ohnosha Celan Dictionary</title>
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <div class="bg"></div>
+  <main class="app">
+    <header class="top">
+      <h1>Celan Dictionary</h1>
+      <p>Canonical lexicon, rules, roots, and examples.</p>
+    </header>
+
+    <nav class="view-switcher" aria-label="Dictionary views">
+      <button id="dictionaryViewBtn" class="active" type="button">Dictionary</button>
+      <button id="rulesViewBtn" type="button">Grammar Guide</button>
+      <button id="forgeViewBtn" type="button">Phrase Builder</button>
+    </nav>
+
+    <section id="dictionaryView">
+      <section class="controls">
+        <input id="searchInput" type="search" placeholder="Search Celan term, meaning, or category..." />
+        <select id="wordTypeFilter" aria-label="Filter by word type">
+          <option value="ALL">All word types</option>
+        </select>
+      </section>
+
+      <nav id="azBar" class="az-bar" aria-label="A to Z term filter"></nav>
+
+      <section class="layout">
+        <aside class="panel list-panel">
+          <div class="panel-head">
+            <h2>Lexicon</h2>
+            <span id="resultCount">0</span>
+          </div>
+          <ul id="resultList"></ul>
+        </aside>
+
+        <section class="panel detail-panel">
+          <div id="emptyState" class="empty">
+            Select a term to view details.
+          </div>
+          <article id="detailView" class="hidden"></article>
+        </section>
+      </section>
+    </section>
+
+    <section id="rulesView" class="hidden">
+      <section class="rules-intro panel">
+        <div class="forge-head">
+          <h2>Grammar Guide</h2>
+          <p>Learn how Celan sounds, moves, builds meaning, and shifts with culture and register.</p>
+        </div>
+        <div id="lessonStrip" class="lesson-strip"></div>
+        <div class="companion-block">
+          <h3>Advanced Companion</h3>
+          <div id="companionStrip" class="companion-strip"></div>
+        </div>
+      </section>
+
+      <section class="controls rules-controls">
+        <input id="ruleSearchInput" type="search" placeholder="Search rule, grammar topic, or example..." />
+      </section>
+
+      <section id="ruleSearchResults" class="panel rule-results hidden"></section>
+
+      <section class="rules-stage">
+        <section class="panel detail-panel rules-detail-panel">
+          <div id="ruleEmptyState" class="empty">
+            Choose a lesson to begin.
+          </div>
+          <article id="ruleDetailView" class="hidden"></article>
+        </section>
+      </section>
+    </section>
+
+    <section id="forgeView" class="hidden">
+      <section class="forge" aria-label="Phrase Builder">
+        <div class="forge-head">
+          <h2>Phrase Builder</h2>
+          <p>Start from what you want to say, choose a cultural lens if you want one, and let Celan shape the phrasing.</p>
+        </div>
+        <form id="forgeForm" class="forge-controls">
+          <div class="forge-grid">
+            <input id="forgeInput" type="search" placeholder="Try a phrase like I miss home, walk gently with me, or get this jerk out of my face, please..." />
+            <select id="forgeCultureSelect" aria-label="Cultural lens">
+              <option value="neutral">Neutral Celan</option>
+              <option value="verdalrisian">Verdalrisian</option>
+              <option value="pelagaean">Pelagaean</option>
+              <option value="zarithan">Zarithan</option>
+              <option value="valkeldorian">Valkeldorian</option>
+              <option value="mechuman">Mechuman</option>
+              <option value="nivveilian">Nivveilian</option>
+              <option value="jasaran">Jasaran</option>
+              <option value="marakorian">Marakorian</option>
+            </select>
+          </div>
+          <div class="forge-actions">
+            <button id="forgeSubmitBtn" type="submit">Send</button>
+          </div>
+        </form>
+        <div id="forgeOutput" class="forge-output">
+          Type a phrase, press send, and the builder will shape it into Celan.
+        </div>
+      </section>
+    </section>
+  </main>
+  <script src="./embedded_data.js"></script>
+  <script src="./script.js"></script>
+</body>
+</html>
