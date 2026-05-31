@@ -2709,7 +2709,19 @@ function renderLessonStrip() {
       state.selectedRuleId = resolveLessonSelection(btn.dataset.lessonId);
       renderLessonStrip();
       applyRuleFilters();
+      scrollRuleDetailIntoView();
     });
+  });
+}
+
+function scrollRuleDetailIntoView() {
+  if (!window.matchMedia("(max-width: 950px)").matches) return;
+  const target = els.ruleDetailView.classList.contains("hidden")
+    ? document.querySelector(".rules-detail-panel")
+    : els.ruleDetailView;
+  if (!target) return;
+  window.requestAnimationFrame(() => {
+    target.scrollIntoView({ behavior: "smooth", block: "start" });
   });
 }
 
@@ -2729,6 +2741,7 @@ function renderCompanionStrip() {
       renderLessonStrip();
       renderCompanionStrip();
       applyRuleFilters();
+      scrollRuleDetailIntoView();
     });
   });
 }
@@ -2769,7 +2782,10 @@ function renderRuleSearchResults() {
       renderCompanionStrip();
       renderRuleSearchResults();
       const selected = state.grammarRules.find((rule) => rule.id === state.selectedRuleId);
-      if (selected) renderRuleDetail(selected);
+      if (selected) {
+        renderRuleDetail(selected);
+        scrollRuleDetailIntoView();
+      }
     });
   });
 }
