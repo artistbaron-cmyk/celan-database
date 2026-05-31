@@ -4002,12 +4002,10 @@ els.dictionaryViewBtn.addEventListener("click", () => {
 els.rulesViewBtn.addEventListener("click", () => {
   state.activeView = "rules";
   renderActiveView();
-  els.ruleSearchInput.focus();
 });
 els.forgeViewBtn.addEventListener("click", () => {
   state.activeView = "forge";
   renderActiveView();
-  els.forgeInput.focus();
 });
 
 init().catch((err) => {

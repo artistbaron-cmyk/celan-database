@@ -16,6 +16,7 @@ body {
   font-family: "Trebuchet MS", "Avenir Next", sans-serif;
   color: var(--ink);
   background: var(--bg);
+  overflow-x: hidden;
 }
 
 .bg {
@@ -331,8 +332,23 @@ body {
 }
 
 @media (max-width: 840px) {
+  .app {
+    padding: 14px;
+  }
+
   .controls {
     grid-template-columns: 1fr;
+  }
+
+  .view-switcher {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    width: 100%;
+  }
+
+  .view-switcher button {
+    padding: 10px 8px;
+    font-size: 16px;
   }
 
   .forge-grid {
@@ -345,6 +361,24 @@ body {
 
   .forge-actions button {
     width: 100%;
+  }
+
+  input,
+  select {
+    font-size: 16px;
+  }
+
+  .top h1 {
+    font-size: 1.7rem;
+  }
+
+  .top p,
+  .lesson-card-copy,
+  .forge-head p,
+  .sub,
+  .rule-result-copy,
+  .rule-meta {
+    font-size: 0.95rem;
   }
 }
 
@@ -392,6 +426,7 @@ input, select {
   display: grid;
   grid-template-columns: 360px 1fr;
   gap: 12px;
+  min-width: 0;
 }
 
 .panel {
@@ -399,6 +434,7 @@ input, select {
   border: 1px solid var(--line);
   border-radius: 8px;
   min-height: 68vh;
+  min-width: 0;
 }
 
 .panel-head {
@@ -427,6 +463,7 @@ input, select {
   margin: 0;
   max-height: 68vh;
   overflow: auto;
+  overflow-x: hidden;
 }
 
 #resultList li {
@@ -732,6 +769,7 @@ input, select {
   .az-bar { grid-template-columns: repeat(7, minmax(0, 1fr)); }
   .layout { grid-template-columns: 1fr; }
   .panel { min-height: auto; }
+  .list-panel { overflow: hidden; }
   #resultList { max-height: 260px; }
   .detail-grid { grid-template-columns: 1fr; }
 }
