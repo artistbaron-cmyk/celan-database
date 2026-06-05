@@ -762,6 +762,34 @@ function buildSupplementalDictionaryEntries() {
   ];
 }
 
+function buildCreatureEntries(creatures) {
+  return (creatures || [])
+    .map((row, index) => {
+      const name = (row.name || "").trim();
+      if (!name) return null;
+      const region = (row.region || "").trim();
+      const creatureType = (row.creature_type || "").trim();
+      const description = (row.description || "").trim();
+      const role = (row.cultural_role || "").trim();
+      const notes = (row.notes || "").trim();
+      const usageParts = [];
+      if (region) usageParts.push(region);
+      if (description) usageParts.push(description);
+      if (role) usageParts.push(`Cultural role: ${role}`);
+      return {
+        entry_id: `OHC-${String(index + 1).padStart(4, "0")}`,
+        celan_term: name,
+        english_meaning: creatureType || "Noun",
+        category: "Noun",
+        usage_context: usageParts.join("; "),
+        original_wording: description || `${name} is a canon creature.`,
+        notes: notes || "User-defined canon creature.",
+        canon_status: row.canon_status || "Canon"
+      };
+    })
+    .filter(Boolean);
+}
+
 function isFamilyAnchorType(value) {
   const text = (value || "").toLowerCase();
   return text.includes("root") || text.includes("morpheme") || text.includes("marker");
@@ -3974,18 +4002,20 @@ function renderDetail(group) {
 }
 
 async function init() {
-  const [lexicon, roots, phrases, expandedRoots, grammarRules] = await Promise.all([
+  const [lexicon, roots, phrases, expandedRoots, grammarRules, creatures] = await Promise.all([
     loadCsv("../data/lexicon.csv"),
     loadCsv("../data/roots_and_morphology.csv"),
     loadCsv("../data/phrases_and_examples.csv"),
     loadCsv("../data/expanded_root_database.csv"),
-    loadCsv("../data/grammar_rules.csv")
+    loadCsv("../data/grammar_rules.csv"),
+    loadCsv("../data/ohnosha_creatures.csv")
   ]);
   state.lexicon = lexicon;
   const rootEntries = buildRootEntries(expandedRoots);
   const morphologyEntries = buildMorphologyEntries(roots);
   const supplementalEntries = buildSupplementalDictionaryEntries();
-  state.wordEntries = lexicon.filter(isWordEntry).concat(rootEntries, morphologyEntries, supplementalEntries);
+  const creatureEntries = buildCreatureEntries(creatures);
+  state.wordEntries = lexicon.filter(isWordEntry).concat(rootEntries, morphologyEntries, supplementalEntries, creatureEntries);
   state.groupedEntries = buildGroupedEntries(state.wordEntries);
   state.expandedRoots = expandedRoots;
   state.roots = roots;
