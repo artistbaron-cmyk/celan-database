@@ -17,7 +17,7 @@ headword,pronunciation,use_type,root_word,meaning,usage_note,related_words,examp
 -or,/-ohr/,Suffix,,Place/Location,,,,,DM-RM-V2-0031
 -vel,/-vehl/,Suffix,VEL,Bread shared among us,,Xarvel; Vellian; Velrin; Velithor; Velmek; Velthamor; Velkorin; Velkrin; Velthaen; Velarshor,,,DM-RM-V3-0013
 Aen,/ah-ehn/,Verb,,Speak / Tell / Breathe / Breath of Life,"Formal/poetic use: deeper or ritual speaking. Use in rituals, court, formal address, writing, and when emphasizing depth. Combine with Li- / -en.",Aenor; Aenvor,Aen Shalor Liorin lian nor.,The Temple Elder speaks truth now.,LX-V2-0028; LX-V2-0062; LX-V3-0009; LX-V4-0102; DM-RM-V3-0005
-Aen,/ah-ehn/,Connector,,That,,Aenor; Aenvor,Aen Shalor Liorin lian nor.,The Temple Elder speaks truth now.,LX-V2-0028; LX-V2-0062; LX-V3-0009; LX-V4-0102; DM-RM-V3-0005
+Aen,/ah-ehn/,Conjunction,,That,,Aenor; Aenvor,Aen Shalor Liorin lian nor.,The Temple Elder speaks truth now.,LX-V2-0028; LX-V2-0062; LX-V3-0009; LX-V4-0102; DM-RM-V3-0005
 Aen,/ah-ehn/,Suffix,,-aen (verb-forming),,Aenor; Aenvor,Aen Shalor Liorin lian nor.,The Temple Elder speaks truth now.,LX-V2-0028; LX-V2-0062; LX-V3-0009; LX-V4-0102; DM-RM-V3-0005
 Aen-,/ah-ehn-/,Verb,,"To speak, breathe, make a sound; also complementizer that.",Refines Aen/Aenor polysemy and complementizer usage; no resolution applied.,Amthaen; Aen; Aenor; Aenvor; Ohmbaen; Lianaen; Thalaneshen; Velthaen; Wek'aen; Rathorimaen,Nor-var I an aenor.,I will go in a moment.,DM-RM-S3-0019
 Aen'Moreth,/ah-ehn'moh-rehth/,Noun,Aen,Breath-into-Stone Ritual.,,Amthaen; Aen; Aenor; Aenvor; Ohmbaen; Lianaen; Thalaneshen; Velthaen; Wek'aen; Rathorimaen,,,LX-V3-0077
@@ -57,9 +57,11 @@ Belshen,/behlshehn/,Noun,SHEN; BEL,Price / Binding Value / Agreed Cost. The esta
 Belthal,/behlthahl/,Noun,BEL; THAL,Order (Woven Balance),Bel (bind) + Thal (balance),Belrin; Belar; Belshara; Belshen; Belmor; Belvok; Belvethral; Belkor; Sharbel; Bel,Lorin belthal Ilin.,Order guides us.,LX-V4-0074
 Belvethral,/behlvehthrahl/,Noun,VETH; RAL; BEL,Chosen Family,Bel (binding) + veth (shadow) + ral (caretaker).,Vethhar; Vethsoril; Xarvethral; Veth'tharaen; Shalorveth; Vethral; Vethrin; Veth; Dral; Jindral,Belvethral ser dren thal Teremil.,The chosen family is by the water at home.,LX-V3-0058
 Belvok,/behlvohk/,Noun,BEL; VOK,Family / Clan,Bel (binding) + vok (unity/bond).,Belrin; Belar; Belshara; Belshen; Belmor; Belvethral; Belkor; Sharbel; Belthal; Bel,Belvok ser dren an Teremil.,The family is together at home by the water.,LX-V3-0045
+Braskal,/brahskahl/,Noun,,Coastal Herbivore,Aquatic; Coral-shelled coastal herbivore that forms symbiotic relationships with reef life.; Cultural role: Reef-linked herbivore and symbiosis figure.,,,,OHC-0019
 Bren,/brehn/,Noun,,"Harvest (e.g., the act or result of gathering food).",Conceptual range: Gathering; harvest; collected yield,Brenmor; Brenvor; Xilbren,Brenmor kal dren.,The harvested roots strengthen by the water.,XR-bren; DM-RM-V2-0006
 Brenmor,/brehnmohr/,Noun,BREN; MOR,Harvested roots,Bren + mor,Brenvor; Xilbren; Bren; Kinnmor; Pralmor; Welmor; Morlak; Belmor; Tharmor; Morthas,Brenmor kal dren.,The harvested roots strengthen by the water.,LX-V2-0099
 Brenvor,/brehnvohr/,Noun,BREN,Harvested Nuts,Bren = gathering + vor = location,Brenmor; Xilbren; Bren,Brenvor kal dren.,The harvested nuts strengthen with water.,LX-V2-0177
+Brinnek,/breennehk/,Noun,,Migratory Grazer,Grassland; Long-necked migratory grazer moving in striped herds across the plains.; Cultural role: Grassland herd animal and migration marker.,,,,OHC-0011
 Bros,/brohs/,Verb,,Layering or stratification (symbolizing levels or textures).,Conceptual range: Layering; stratification; stacked texture,Brosrin; Broslak,Brosrin vanesh dren.,The layered food trades by the water.,XR-bros; DM-RM-V2-0004
 Broslak,/brohslahk/,Noun,BROS; LAK,Layered Bread,Bros + lak = stratified grain,Brosrin; Bros; Morlak; Lak,Broslak kal dren.,The layered bread strengthens by the water.,LX-V2-0150
 Brosrin,/brohsreen/,Noun,BROS; RIN,Layered food,Bros + rin = essence,Broslak; Bros; Belrin; Balrin; Talrin; Rinvarash; Velrin; Phelrin; Vethrin; Kelrin,Brosrin vanesh dren.,The layered food trades by the water.,LX-V2-0097
@@ -120,8 +122,11 @@ Felvin,/fehlveen/,Noun,FEL; VIN,Niece/Nephew,Fel (young/new) + vin (pulled).,Kad
 Fen-,/fehn-/,Prefix,,Tens of thousands prefix,,,,,DM-RM-V3-0017
 Feneth,/feh-nehth/,Adjective,,"Hot, Warm",Fen- (warmth) + -eth,,Rinaen krezor feneth.,The hearth is hot.,LX-V4-0030
 Fennil,/fehnneel/,Noun,,Leaf; herb; soft medicinal greens,"Builds words for leaves, herbs, greens, and soft botanical matter used for food or medicine.",Terafennil,Terafennil ser dren an Teremil.,The herb stew is shared with water at home.,XR-fennil
+Fennlur,/fehnnloor/,Noun,,Pack Runner,Grassland; Wind-sensitive pack runner that kicks up dust and storm-signals as it moves.; Cultural role: Movement and storm-sense creature in grassland tradition.,,,,OHC-0013
 Fenrek,/fehnrehk/,Noun,REK,Summer,The season of intense warmth.,Krezrek; Rek,Fenrek kal nor dren.,Summer strengthens by the water.,LX-V2-0200
 Gormeth,/gohrmehth/,Adjective,,"Dirty, Soiled",Gorm- (grime) + -eth,,Rinaen korin-ian gormeth.,My hands are dirty.,LX-V4-0021
+Grivol,/gree-vohl/,Noun,,Burrowing Rodent,"Grassland; Burrowing rodent and ecosystem engineer that stores seeds, aerates soil, and creates shelter for smaller life.; Cultural role: Landscape shaper and shelter-maker.",,,,OHC-0015
+Harven,/hahrvehn/,Noun,,Pack Beast,Ohnosha Forest; Domesticated mountain pack beast; compact and shaggy-furred; used for transport and companionship in rugged terrain.; Cultural role: Trusted travel companion and cargo carrier.,,,,OHC-0001
 Hek-,/hehk-/,Prefix,,Hundreds prefix,,,,,DM-RM-V3-0015
 Hek-Mel-,/hehk-mehl-/,Prefix,,Hundreds of thousands construction,,,,,DM-RM-V3-0018
 I,/ee/,Pronoun,,1st Person Singular,Remains simple and universal.,,Var I dren.,“I go to the water.”,LX-V1-0001
@@ -253,7 +258,9 @@ Lorinen,/loh-ree-nehn/,Noun,,Honored Guide,,,,,LX-V3-0006
 Lorinor,/loh-ree-nohr/,Noun,,Head,,,,,LX-V2-0047
 Lorinshal,/loh-reenshahl/,Noun,,Eye,,,,,LX-V2-0048
 Lorlivok,/lohrlee-vohk/,Noun,VOK; LOR,Earthbake,Lor + li + vok = fire-heated earth bond,Voktarin; Belvok; Kalvok; Kalvokesh; Pralvokesh; Vokaen; Drenvokesh; Zhivokesh; Velthaelvok; Zhirvok,Lorlivok shal dren.,The earthbake flows by the water.,LX-V2-0154
+Lorynth,/lohrynth/,Noun,,Legendary Figure,Mythic / Rumored; Early or rumored mythical creature or being that sits close to legend rather than confirmed common fauna.; Cultural role: Legendary / uncertain status.,,,,OHC-0023
 Lumor,/loo-mohr/,Noun,,Light (enlightenment or insight),,,Lumor var ser dren.,Carry the talisman to the water.,LX-V2-0027
+Lumora,/loo-moh-rah/,Noun,,Schooling Fish,Aquatic; Glowing schooling fish that form light-clouds underwater at night.; Cultural role: Night-water glow and collective movement.,,,,OHC-0017
 Lun,/loon/,Noun,,Lake,,Lunor; Lunwek,Rinaen esh lunor.,The sky is blue.,LX-V2-0077; XR-lun
 Lunor,/loo-nohr/,Adjective,LUN,Blue,Inspired by Lun (lake),Lun; Lunwek,Rinaen esh lunor.,The sky is blue.,LX-V4-0042
 Lunwek,/loonwehk/,Noun,LUN; WEK,Month,Lun (Lake/Moon) + Wek (Cycle). A full cycle of the moon.,Lun; Lunor; Weknor; Tharvin-Wek; Wek,Nor-var Fenrek an unar lunwek.,Summer will arrive in one month.,LX-V4-0083
@@ -285,6 +292,7 @@ Morlka,/mohrlkah/,Noun,,Foot,,,,,LX-V2-0056
 Morthas,/mohrthahs/,Noun,MOR,Sand-Roasted Nuts,Mor = earth + thas = heat-roasted,Kinnmor; Brenmor; Pralmor; Welmor; Morlak; Belmor; Tharmor; Morvenak; Krezmorath; Moreth,Morthas vanesh an dren.,The roasted nuts trade by the water.,LX-V2-0180
 Morthera,/mohrtheh-rah/,Noun,MOR,Beast of Burden,Mor (earth) + Thera (longing/pulling),Kinnmor; Brenmor; Pralmor; Welmor; Morlak; Belmor; Tharmor; Morthas; Morvenak; Krezmorath,Rinaen morthera maganeth.,The beast of burden is heavy.,LX-V4-0057
 Morvenak,/mohrveh-nahk/,Noun,VENAK; MOR,Hearty Grain Porridge,Mor = earth + venak = warm strength,Worvenak; Venak; Kinnmor; Brenmor; Pralmor; Welmor; Morlak; Belmor; Tharmor; Morthas,Morvenak kal dren.,The porridge strengthens with water.,LX-V2-0187
+Mossquill,/mohssqoo-eell/,Noun,,Pollinator,Mountain; Bee-like mountain pollinator that spreads spores between alpine plants with a soft humming swarm.; Cultural role: Highland pollination and ecological support.,,,,OHC-0008
 Nekvar,/nehkvahr/,Interjection,,"""Good morning""",,,,,LX-V2-0013
 Neth,/nehth/,Noun,,Rest; physical stillness; support,"Builds words for rest, seated stillness, support surfaces, and physically settled states.",Nethor; Nethlor; Nethaen,Nethaen Azron an nethor.,The woman sits on the chair.,XR-neth
 Nethaen,/nehthah-ehn/,Verb,NETH; Aen,"To Sit, To be at rest",Neth (rest) + -aen,Nethor; Nethlor; Neth; Amthaen; Aen; Aenor; Aenvor; Ohmbaen; Lianaen; Thalaneshen,Nethaen Azron an nethor.,The woman sits on the chair.,LX-V4-0054
@@ -358,6 +366,7 @@ Reth,/rehth/,Conjunction,Reth- / Rethvok-,Or,,Rethvok; Reth- / Rethvok-,Ra drena
 Reth- / Rethvok-,/rehth- / rehthvohk-/,Noun,,"Reth: uncertainty, confusion, doubt, a question, or. Rethvok: chaos, disorder, un-ordered state.",Refines existing Reth conjunction and Rethvok chaos rows; no resolution applied.,Reth; Rethvok,Rethvok,Chaos,DM-RM-S3-0010
 Reth‘thal,/rehththahl/,Particle,,"Perhaps, Possibly (stronger doubt than Rethlian).",Usage: Typically sentence-initial.,,,,LX-V3-0033
 Rethaen,/rehthah-ehn/,Verb,Aen,To Worry / Be Uncertain.,"Derivation: From Reth (Uncertainty) + -aen. Usage: Standard verb, follows VSO.",Amthaen; Aen; Aenor; Aenvor; Ohmbaen; Lianaen; Thalaneshen; Velthaen; Wek'aen; Rathorimaen,Ra rethaen Ya nor Varash?,Do you worry about the future?,LX-V3-0099
+Rethal,/rehthahl/,Noun,,River Predator,"Aquatic; Camouflaged river predator with reflective scales, barbels, and a powerful hidden bite.; Cultural role: Waterline predator and concealment symbol.",,,,OHC-0016
 Rethlian,/rehthlee-ahn/,Verb,,Possibility (May/Might),"""maybe/perhaps""",,Var I rethlian.,I might go.,LX-V3-0019; LX-V4-0003
 Rethlian,/rehthlee-ahn/,Interjection,,Maybe,"“Rethlian, I nor var dren.” – “Maybe, I will go to the water.”",,Var I rethlian.,I might go.,LX-V3-0019; LX-V4-0003
 Rethvok,/rehthvohk/,Noun,Reth- / Rethvok-; VOK,Chaos (A bond of confusion),Reth (confusion) + Vok (bond),Reth; Reth- / Rethvok-; Lorlivok; Voktarin; Belvok; Kalvok; Kalvokesh; Pralvokesh; Vokaen; Drenvokesh,Fahaen I rethvok.,I fear chaos.,LX-V4-0075
@@ -366,8 +375,10 @@ Rin,/reen/,Noun,,Essence; inner spirit; true self,"Builds words for essence, ide
 Rin-,/reen-/,Noun,,"Essence, core nature, spirit, intrinsic quality.",Important identity-context refinement preserved; no existing identity entries changed.,Belrin; Brosrin; Balrin; Talrin; Rinvarash; Velrin; Phelrin; Vethrin; Kelrin; Rin,shalaen an rin,to see the essence,DM-RM-S3-0012
 Rinaen,/ree-nah-ehn/,Verb,RIN; Aen,To be; to exist in essence; is-in-essence,Rin (essence) + Aen (breath/speaking) as a stative verb expressing essential being or existence.,Belrin; Brosrin; Balrin; Talrin; Rinvarash; Velrin; Phelrin; Vethrin; Kelrin; Rin,shalaen an rin,to see the essence,DX-rinaen
 Rinvarash,/rin-vah-rahsh/,Noun,RIN; ASH,Prophetic Vision / Spiritual Insight / Glimpse of Essence. Refers to receiving divine guidance or seeing future possibilities through spiritual connection.,Rin (essence) + Varash (future/prophecy),Belrin; Brosrin; Balrin; Talrin; Velrin; Phelrin; Vethrin; Kelrin; Rin; Rin-,Var Rinvarash thal liorin.,Prophetic vision comes from the elder.,LX-V2-0136
+Rynarth,/rynahrth/,Noun,,Fox-like Predator,Mountain; Clever fox-like predator adapted to rocky and wooded slopes.; Cultural role: Cunning slope hunter.,,,,OHC-0009
 Sel,/sehl/,Noun,,Physical clarity; purity; absence of grime,"Builds words for cleanliness, purity, transparency, and physically clear states.",Selineth,Rinaen dren selineth.,The water is clean.,XR-sel
 Selineth,/seh-lee-nehth/,Adjective,SEL,"Clean, Pure",Sel- (clear/pure) + -eth,Sel,Rinaen dren selineth.,The water is clean.,LX-V4-0022
+Selkari,/sehlkah-ree/,Noun,,Ocean Guardian,"Mythic / Symbolic; Serpent-like deep-sea guardian, graceful and revered, said to surface during celestial events.; Cultural role: Mythic coastal guardian and sacred ocean figure.",,,,OHC-0020
 Senar,/seh-nahr/,Noun,,Six,,,Ten-quen senar,46 (40 + 6),LX-V3-0139; XR-senar
 Ser,/ser/,Noun,,Friend / Ally,,Seraen; Ser-; Serin,Rinaen morlak ser dren.,There is bread and water.,LX-V1-0016; LX-V2-0036; LX-V2-0065; LX-V4-0076; LX-V4-0112
 Ser,/ser/,Preposition,,With,,Seraen; Ser-; Serin,Rinaen morlak ser dren.,There is bread and water.,LX-V1-0016; LX-V2-0036; LX-V2-0065; LX-V4-0076; LX-V4-0112
@@ -402,6 +413,7 @@ Shara-,/shah-rah-/,Noun,,"A path, a road, a journey; life path, strategy, decisi
 Sharaka,/shah-rah-kah/,Noun,SHARA,Freedom (Path without binding),Shara (path) + Ka (without),Shara; Belshara; Sharbel; Vershara; Shar; Kinnshara; Shara-,Ohmaen I sharaka.,I love freedom.,LX-V4-0065
 Sharbel,/shahrbehl/,Noun,SHARA; BEL,"Pants, Leggings",Shara (path) + Bel (bind),Shara; Belshara; Vershara; Sharaka; Shar; Kinnshara; Shara-; Belrin; Belar; Belshen,Rinaen sharbel maganeth.,The pants are heavy.,LX-V4-0037
 Sharvar,/shahrvahr/,Noun,,Leg,,,,,LX-V2-0055
+Shavrek,/shahvrehk/,Noun,,Cliff Forager,Mountain; Nimble cliff-dwelling forager with powerful hooves and mottled fur.; Cultural role: Mountain forager and cliff adaptation symbol.,,,,OHC-0007
 Shen,/shehn/,Noun,,Coinage / Currency,,Belshen; Thalaneshen; Ka-Shen,Tal I peth shen morlak.,I give five measures of grain.,LX-V4-0085; LX-V4-0123; XR-shen
 Shen,/shehn/,Measure,,Unit of weight / measure,,Belshen; Thalaneshen; Ka-Shen,Tal I peth shen morlak.,I give five measures of grain.,LX-V4-0085; LX-V4-0123; XR-shen
 Som,/sohm/,Quantifier,,Some / A few / Part of,Usage: Placed before the noun.,,Var som Serin.,Some Friends go.,LX-V2-0214
@@ -457,6 +469,8 @@ Thar-ka,/thahr-kah/,Verb,THAR,Desire (Want to),"""by heart's desire""",Thar; Tha
 Thar'taleth,/thahr'tah-lehth/,Verb,,Life/Heart Sacrifice Ritual (noun).,,,,,LX-V3-0085
 Tharfah,/thahrfahh/,Noun,,"""Weak-hearted"" or ""soft-rooted""; dismisses their gentle, nature-centric approach as sentimental.",Verdalrisians are mocked for being overly emotional or soft.,,,,LX-V3-0127
 Tharmor,/thahrmohr/,Noun,THAR; MOR,Rootbread,Thar = heart + mor = earth,Thar; Tharvin; Veth'tharaen; Kreztharim; Morlatharim; Tharvelim; Thar-ka; Thar-; Kinnmor; Brenmor,Tharmor nor dren kal morl.,The rootbread strengthens by the water and mountain.,LX-V2-0175
+Tharnspinners,/thahrnspeennehrs/,Noun,,Arachnid,"Ohnosha Forest; Small web-weaving arachnids whose patterned silk is culturally revered as a symbol of order and patience.; Cultural role: Symbol of order, patience, and careful making.",,,,OHC-0003
+Tharokh,/thah-rohkh/,Noun,,Endurance Mount,Desert; Endurance mount of the desert; slender and long-legged with a water-storing ridge; used by nomads for long-distance travel.; Cultural role: Nomad travel mount and endurance symbol.,,,,OHC-0005
 Tharvelim,/thahrveh-leem/,Noun,THAR; VEL,Mountain Ancestor Ritual,Derived From: Thar (heart) + vel (wisdom) + im (essence). Meaning: A ceremony where the wisdom and strength of ancestors are invoked for guidance and protection.,Thar; Tharmor; Tharvin; Veth'tharaen; Kreztharim; Morlatharim; Thar-ka; Thar-; Xarvel; Vellian,Tharvelim lian dren an Terra.,The mountain ancestor ritual speaks to the Earth.,LX-V3-0123
 Tharvin,/thahrveen/,Noun,VIN; THAR,Autumn,The balancing season; time of harvest.,Phelvin; Teravin; Jekvin; Welvinor; Felvin; Xarfelvin; Vin; Thar; Tharmor; Veth'tharaen,Tharvin nor dren kal morl.,Autumn balances the water with the mountain.,LX-V2-0201
 Tharvin-Wek,/thahrveen-wehk/,Noun,WEK,Year,"Tharvin (Autumn) + Wek (Cycle). A full cycle of the seasons, marked by the harvest/balancing season.",Weknor; Lunwek; Wek,Rinaen I Ten-del tharvinwek kaveth.,I am 20 years old.,LX-V4-0084
@@ -466,6 +480,8 @@ Theon,/theh-ohn/,Noun,Thee,Neutral person (non-binary),Represents balance or gen
 Ther,/thehr/,Particle,,Comparative marker: more than,,Thera; Theraen,I dren shaleth ther La dren.,My water is brighter than their water.,DM-RM-V3-0007
 Thera,/theh-rah/,Noun,Ther,Longing / Yearning,,Theraen; Ther,,,LX-V2-0044
 Theraen,/theh-rah-ehn/,Verb,Ther; Aen,To Long For / Yearn For.,"Derivation: From Thera (Longing) + -aen. Usage: Standard verb, follows VSO.",Thera; Ther; Amthaen; Aen; Aenor; Aenvor; Ohmbaen; Lianaen; Thalaneshen; Velthaen,Theraen La Shalor.,They long for the Sanctuary.,LX-V3-0090
+Thravic,/thrah-veec/,Noun,,Ambush Predator,Grassland; Camouflaged ambush predator that lies hidden in tall grass before striking with precision.; Cultural role: Grassland danger and precision strike symbol.,,,,OHC-0012
+Thryssal,/thryssahl/,Noun,,Swamp Scavenger,Aquatic; Algae-cloaked swamp scavenger that helps purify decaying waters.; Cultural role: Wetland purifier and decay-tender.,,,,OHC-0018
 Tl-,/tl-/,Noun,,"Movement, flow",,,,,DM-RM-V2-0028
 Tla,/tlah/,Noun,,Intimacy; closeness; unspoken connection,"Builds words for intimacy, trusted closeness, anticipation, and quietly held personal bonds.",Tlakorin; Tlakhura; Tla-,,,XR-tla
 Tla-,/tlah-/,Noun,,"Close, intimate connection",,Tlakorin; Tlakhura; Tla,,,DM-RM-V2-0023
@@ -500,6 +516,7 @@ Varkareth,/vahrkah-rehth/,Noun,,"""Metal-mover"" or ""gear-grinder""; implies re
 Varok,/vah-rohk/,Verb,,Command / Direct,,,Krezaen Kadron an varok.,The man rages at the command.,LX-V2-0029
 Varthas,/vahrthahs/,Noun,,City / Town,,,Varan I an Varthas.,,LX-V2-0082
 Varthen,/vahrthehn/,Particle,,“So” or “Thus.”,"“Varthen, Ya var dren?” – “So, you go to the water?”",,"Varthen, Ya var dren?","So, you go to the water?",LX-V3-0023
+Veilgliders,/veh-eelglee-dehrs/,Noun,,Gliding Insectivore,Ohnosha Forest; Nocturnal gliding insectivores with transparent shimmering wings that move silently through the canopy and leave glowing spores behind.; Cultural role: Canopy night-life creature associated with quiet motion.,,,,OHC-0004
 Vek,/vehk/,Noun,,Carrier; vessel; transported charge or substance,"Builds words for vessels, carriers, bars, and objects that hold or transport substance or energy.",Zhelvek,Zhelvek kal dren.,The energy bar strengthens with water.,XR-vek
 Vel,/vehl/,Noun,,Wisdom; stillness; cold endurance,"Builds words for elderhood, cold stillness, memory, and age-earned wisdom or endurance.",Xarvel; Vellian; Velrin; Velithor; Velmek; Velthamor; Velkorin; Velkrin; Velthaen; Velarshor,Arth Vel vaar.,Calm endurance preserves peace; find strength in stillness (Nivveil).,XR-vel
 Vel'rathor,/vehl'rahthohr/,Noun,VEL,Enduring Memory / Still Past.,,Xarvel; Vellian; Velrin; Velithor; Velmek; Velthamor; Velkorin; Velkrin; Velthaen; Velarshor,,,LX-V3-0067
@@ -523,12 +540,13 @@ Velpralim,/vehlprah-leem/,Noun,SHAN; PRAL; VEL,Wisdom Transfer Ritual,Derived Fr
 Velpralor,/vehlprah-lohr/,Noun,PRAL; VEL,Elder Partner,Vel (wisdom) + pral (intricacy) + or (time).,Pralmor; Pralvinor; Pralin; Pralvokesh; Velpralim; Pralor; Pralaen; Pral; Pralaen-; Xarvel,Velpralor kal dren nor Velar.,The elder partner strengthens with the elder by the water.,LX-V3-0050
 Velrathor,/vehlrahthohr/,Noun,VEL,Memory,Vel (enduring) + Rathor (past),Xarvel; Vellian; Velrin; Velithor; Velmek; Velthamor; Velkorin; Velkrin; Velthaen; Velarshor,Rinaen velrathor vaareth.,The memory is good.,LX-V4-0067
 Velrin,/vehlreen/,Noun,RIN; VEL,Meal/Food,general; unchanged; Vel + rin = sustenance essence,Belrin; Brosrin; Balrin; Talrin; Rinvarash; Phelrin; Vethrin; Kelrin; Rin; Rin-,Velrin kal dren an Serin.,The food strengthens with friends by the water.,LX-V2-0148
+Velshen,/vehlshehn/,Noun,,Burrowing Creature,Desert; Armored burrowing moisture-hoarder with spade-like claws; survives by digging deep and conserving water internally.; Cultural role: Desert survival and conservation figure.,,,,OHC-0006
 Velterim,/vehlteh-reem/,Noun,VEL,Desert Passage Ceremony,"Derived From: Vel (stillness/cold) + ter (journey) + im (essence). Meaning: A coming-of-age ritual where individuals complete a journey across the desert, symbolizing growth and resilience.",Xarvel; Vellian; Velrin; Velithor; Velmek; Velthamor; Velkorin; Velkrin; Velthaen; Velarshor,Velterim shan dren nor Zhirelorim.,The desert passage passes to the coming-of-age ritual.,LX-V3-0121
 Velthaelvok,/vehlthah-ehlvohk/,Noun,THAEL; VOK; VEL,Winter Unity Ceremony,Derived From: Vel (cold) + thael (motion) + vok (unity). Meaning: A ritual for families to renew bonds during the harsh winter season.,Eshthael; Thael; Lorlivok; Voktarin; Belvok; Kalvok; Kalvokesh; Pralvokesh; Vokaen; Drenvokesh,Velthaelvok ser dren thal Velthaen.,The winter unity flows with the cold season.,LX-V3-0117
 Velthaen,/vehlthah-ehn/,Noun,THAEN; Aen; VEL,Winter,The season of cold and spiritual stillness.,Amthaen; Thaen; Aen; Aenor; Aenvor; Ohmbaen; Lianaen; Thalaneshen; Wek'aen; Rathorimaen,Velthaen dren nor morl.,Winter flows by the mountain.,LX-V2-0202
 Velthamor,/vehlthah-mohr/,Noun,THAM; VEL,Frozen Root Mash,Vel = sustenance + tham = mashed + or = earth,Tham; Xarvel; Vellian; Velrin; Velithor; Velmek; Velkorin; Velkrin; Velthaen; Velarshor,Velthamor nor dren thal morl.,The frozen root mash is by the water and mountain.,LX-V2-0183
 Velxorin,/vehlxoh-reen/,Noun,VEL,Elder Ancestor,Vel (wisdom) + xor (hidden) + in (person).,Xarvel; Vellian; Velrin; Velithor; Velmek; Velthamor; Velkorin; Velkrin; Velthaen; Velarshor,Velxorin lian nor Terra.,The elder ancestor speaks to the Earth.,LX-V3-0054
-Ven,/vehn/,Marker,,Subtraction marker meaning minus/subtract,,,,,DM-RM-V3-0019
+Ven,/vehn/,,,Subtraction marker meaning minus/subtract,Corrected to match the actual subtraction pattern used elsewhere in the canon data.,Oven; Venak,Hek-quen Ven Hek-del,400 - 200 = 200,DM-RM-V3-0019
 Venak,/veh-nahk/,Noun,,Warmth-vessel; held heat; stew-state,"Builds words for stew-like dishes, warm held mixtures, and food gathered into a vessel-form.",Worvenak; Morvenak,Worvenak kal dren.,The abundant stew strengthens by the water.,XR-venak
 Ver,/vehr/,Particle,,Negation before the verb or noun,Preserved as standalone root/morpheme because source clearly defines it.,,Ver var I dren.,“I do not go to the water.”,DM-RM-V1-0009
 Ver-,/vehr-/,Prefix,,Negation,,,,,DM-RM-V2-0037
@@ -549,6 +567,7 @@ Vethordrenka,/vehthohrdrehnkah/,Noun,,"""Shadow-water leech""; insults their rel
 Vethral,/vehthrahl/,Noun,RAL; VETH,Pack Hunter,Veth (shadow) + Ral (caretaker/stalker),Dral; Jindral; Nkural; Xarvethral; Belvethral; Pral; Vethhar; Vethsoril; Veth'tharaen; Shalorveth,Var vethral joreth.,The pack hunter goes fast.,LX-V4-0058
 Vethrin,/vehthreen/,Noun,VETH; RIN,Dream (Essence of shadow),Veth (shadow) + Rin (essence),Vethhar; Vethsoril; Xarvethral; Belvethral; Veth'tharaen; Shalorveth; Vethral; Veth; Belrin; Brosrin,Var I an vethrin.,I go into a dream.,LX-V4-0069
 Vethsoril,/vehthsoh-reel/,Noun,SORIL; VETH,Shadowspice Stew,Veth = shadow + soril = deep flavor,Soril; Vethhar; Xarvethral; Belvethral; Veth'tharaen; Shalorveth; Vethral; Vethrin; Veth,Vethsoril ser dren.,The stew is shared with water.,LX-V2-0192
+Vexflit,/vehxfleet/,Noun,,Pollinator Bird,"Grassland; Colorful pollinator bird with bright tail plumes and a musical call, vital to seed spreading and flowering grasses.; Cultural role: Seed-spreading and flowering-grass support.",,,,OHC-0014
 Vial,/vee-ahl/,Noun,,Joy / Happiness,,,,,LX-V2-0046
 Vialaen,/vee-ahlah-ehn/,Verb,Aen,To Be Joyful / Rejoice.,"Derivation: From Vial (Joy) + -aen. Usage: Standard verb, follows VSO.",Amthaen; Aen; Aenor; Aenvor; Ohmbaen; Lianaen; Thalaneshen; Velthaen; Wek'aen; Rathorimaen,Vialaen Ilin ser vaar.,We rejoice in peace.,LX-V3-0091
 Vilor,/vee-lohr/,Noun,,Berry essence; small sweet fruit,"Builds words for berries, small fruits, and compact sweet or energetic produce.",Jorvilor; Eshvilor,Jorvilor nor dren.,The drink rests by the water.,XR-vilor
@@ -560,6 +579,7 @@ Vokaen,/voh-kah-ehn/,Verb,VOK; Aen,To Betray / Break Bond.,"Derivation: From Vok
 Voktarin,/vohktah-reen/,Noun,TARIN; VOK,Preserved Dates,Vok = bond + tarin = dried sweetness,Tarin; Lorlivok; Belvok; Kalvok; Kalvokesh; Pralvokesh; Vokaen; Drenvokesh; Zhivokesh; Velthaelvok,Voktarin nor dren.,The preserved dates rest by the water.,LX-V2-0181
 Vorkor,/vohrkohr/,Noun,KOR,"Door, Gateway (mundane)",Vor (place of bond) + Kor (source),Korin; Drenkor; Drenkorath; Shalkor; Belkor; Kor,Var I thal vorkor.,I go from/through the door.,LX-V4-0012
 Vrekthael,/vrehkthah-ehl/,Interjection,,"Ceremonial ""Greetings""",,,,,LX-V2-0019
+Vroshan,/vrohshahn/,Noun,,Scavenger,Mountain; Broad-winged high-altitude scavenger whose haunting call echoes across mountain peaks.; Cultural role: Peak scavenger and omen-like presence.,,,,OHC-0010
 Wek,/wehk/,Noun,,Circularity or cycles (symbolizing completeness or renewal).,Conceptual range: Cycle; repetition; patterned return,Weknor; Lunwek; Tharvin-Wek,Weknor nor dren.,The cyclical time rests by the water.,XR-wek; DM-RM-V2-0016
 Wek'aen,/wehk'ah-ehn/,Particle,Aen,"Again, As said before, To repeat (repetition).",Usage: Typically sentence-initial or near repeated idea.,Amthaen; Aen; Aenor; Aenvor; Ohmbaen; Lianaen; Thalaneshen; Velthaen; Rathorimaen; Fah'tharaen,,,LX-V3-0038
 Weknor,/wehknohr/,Noun,NOR; WEK,Cyclical time,Wek + nor = time,Nor; Nor-; nor-ka; Lunwek; Tharvin-Wek; Wek,Weknor nor dren.,The cyclical time rests by the water.,LX-V2-0112
@@ -591,10 +611,13 @@ Zhaeaen,/zhah-eh-ah-ehn/,Verb,Aen; Zhae-,To Feel Empathy / Sympathize.,"Derivati
 Zhael,/zhah-ehl/,Noun,,Bloom; renewal; soft opening; empathy,"Builds words for blooming, spring renewal, flowers, empathy, and soft emotional opening.",Zhaelor; Zhaelin,Zhaelor shalil nor dren.,Spring flows lightly by the water.,XR-zhael
 Zhaelin,/zhah-ehleen/,Noun,ZHAEL,Common Flower,Zhael (bloom/renewal) + -in,Zhaelor; Zhael,Rinaen zhaelin krelek an verdor.,The red flower is in the forest.,LX-V4-0063
 Zhaelor,/zhah-ehlohr/,Noun,ZHAEL,Spring,The blooming season.,Zhaelin; Zhael,Zhaelor shalil nor dren.,Spring flows lightly by the water.,LX-V2-0199
+Zharak,/zhah-rahk/,Noun,,Legendary Figure,Mythic / Rumored; Early or rumored mythical creature or being that sits close to legend rather than confirmed common fauna.; Cultural role: Legendary / uncertain status.,,,,OHC-0022
 Zharin,/zhah-reen/,Noun,ZHIR,Distant Relative,Zhir (lineage) + arin (far-reaching).,Zhiren; Zhivorin; Zhirkalor; Zhirelorim; Zhirin; Zhirvok; Zhir; Zhir-,Zharin ser dren thal Tharvok.,The distant relative is by the water under the family.,LX-V3-0053
 Zharinor,/zhah-ree-nohr/,Interjection,,"""See you soon""",,,,,LX-V2-0018
+Zharrel,/zhahrrehl/,Noun,,Forest Predator,Ohnosha Forest; Stealthy forest pack predator with sleek musculature and bioluminescent speckled fur; hunts through coordinated tactics and silent communication.; Cultural role: Forest hunter and stealth symbol.,,,,OHC-0002
 Zhel,/zhehl/,Noun,,Spark; energy; quick power-flash,"Builds words for sparks, quick energy, charge, and condensed power.",Zhelvek,Zhelvek kal dren.,The energy bar strengthens with water.,XR-zhel
 Zhelvek,/zhehlvehk/,Noun,ZHEL; MEK; VEK,Energy Bar,Zhel = spark/energy + vek = carrier,Zhel; Velmek; Mek; Vek,Zhelvek kal dren.,The energy bar strengthens with water.,LX-V2-0167
+Zhenlor,/zhehnlohr/,Noun,,Legendary Figure,Mythic / Rumored; Early or rumored mythical creature or being that sits close to legend rather than confirmed common fauna.; Cultural role: Legendary / uncertain status.,,,,OHC-0021
 Zhilva,/zheelvah/,Interjection,,"General ""Hello""",,,,,LX-V2-0011
 Zhir,/zheer/,Noun,,Lineage; thread; connection through time,"Builds words for thread, lineage, kin-connection, continuity, and ties through time.",Zhiren; Zhivorin; Zharin; Zhirkalor; Zhirelorim; Zhirin; Zhirvok; Zhir-,zhirin an Arthen,threads of fate,XR-zhir
 Zhir-,/zheer-/,Noun,,"Thread, line, cord; connection through time, lineage, history, cause-effect, fate.",Conceptual layer preserved; Bel/Ohm/Zhir distinctions flagged because they affect interpretation.,Zhiren; Zhivorin; Zharin; Zhirkalor; Zhirelorim; Zhirin; Zhirvok; Zhir,zhirin an Arthen,threads of fate,DM-RM-S3-0026

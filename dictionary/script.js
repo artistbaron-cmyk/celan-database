@@ -3565,6 +3565,9 @@ function derivationSource(entry) {
 }
 
 function detectFamilyRoots(group, rootLookup) {
+  if (group.entries.every((entry) => (entry.entry_id || "").startsWith("OHC-"))) {
+    return [];
+  }
   const term = cleanAlpha(group.term);
   const directMatches = [];
   rootLookup.forEach((root) => {
