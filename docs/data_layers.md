@@ -35,8 +35,23 @@ They are allowed to merge overlaps, normalize examples, and restructure material
 Examples include:
 
 - `/Users/admin/Documents/CELAN_DATABASE/data/grammar_rules_working.csv`
+- `/Users/admin/Documents/CELAN_DATABASE/data/lexicon_expansions.csv`
 
 This is usually the layer that matters most when we want something to feel usable rather than merely preserved.
+
+`lexicon_expansions.csv` holds explicitly approved new vocabulary created after the source volumes. It stores app-facing meanings, pronunciations, roots, national origin and usage, euphonic variants, approval batch, and example links without rewriting the extracted source lexicon.
+
+## Generated app and report files
+
+The local app opens from an embedded snapshot. After an approved data change, refresh the snapshot and reports with:
+
+```text
+node dictionary/build_embedded_data.js
+node dictionary/export_dictionary_csv.js
+node dictionary/export_dictionary_report.js
+```
+
+Do not edit `dictionary/embedded_data.js`, `data/dictionary_entries.csv`, or `data/dictionary_report.csv` by hand.
 
 ## Support files
 

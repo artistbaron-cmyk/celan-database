@@ -94,6 +94,28 @@ Use `terra` for physical land, earth, or ground.
 
 `Alterra` and `Alterran` are legacy/outdated names and should not be used in the current database layer except when discussing historical source identity or legacy naming cleanup.
 
+## ED-0003: Optional Euphony
+
+Status: Approved.
+
+Euphonic smoothing is a speaker choice, not a mandatory grammatical repair. An unsmoothed root-root construction remains valid even when most or all national voices prefer a smoother form.
+
+The neutral connecting vowel is often `a`; `e` and `o` may also be used through vowel harmony. When `Wek` is the second root, the approved euphonic choices are `-ewek` and `-owek`, not `-awek`, preserving the independent root `Awek` meaning a natural water spring.
+
+Euphonic forms remain variants of the same lexical entry. They keep the same universal core meaning, resolve to the same app entry, and do not increase the unique-headword count.
+
+Source-witness rows describing mandatory smoothing remain preserved. The current app-facing grammar guide follows this approved editorial decision.
+
+## ED-0004: National Expansion Batch 1
+
+Status: Approved.
+
+National Expansion 1 adds forty universal Celan headwords developed through the practical domains of Ohnosha's eight nations. Each entry has a universal core definition, a nation of origin, characteristic national usage, explicit pronunciation, derivation, and linked examples.
+
+National origin does not restrict a word to one nation. Other nations may use the same headword with a close contextual application while preserving its core meaning. Stable euphonic choices are stored as variants rather than separate headwords.
+
+The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-NE1-0001` through `LX-NE1-0040`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:

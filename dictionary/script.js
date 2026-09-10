@@ -1752,19 +1752,23 @@ function buildSyntheticRuleEntries(rawById) {
         ),
         makeGuideSection(
           "The Rule of Euphony (Sound-Smoothing)",
-          "When fusing roots creates a harsh or clumsy consonant cluster, Celan inserts a smoothing vowel, usually a, to maintain rhythmic flow. How and when this happens depends on the severity of the cluster and the cultural style of the speaker.",
+          "When fused roots create a harsh or clumsy consonant cluster, a Celan speaker may choose a smoothing vowel to maintain rhythmic flow. The unsmoothed construction remains valid. The neutral choice is often a, while e or o may appear through vowel harmony; before Wek, an euphonic choice uses e or o rather than a.",
           [
             {
-              title: "Mandatory Smoothing (Tier 1)",
-              copy: "Harsh, repetitive, or dissonant clusters must be broken up. `Morl` + `Thar` -> `Morlathar`; `Rath` + `Thar` -> `Rathathar`; `Vok` + `Thal` -> `Vokathar`."
+              title: "Strong Smoothing Choice",
+              copy: "Harsh, repetitive, or dissonant clusters are the most likely to be smoothed, but smoothing is not grammatically mandatory. Examples include `Morl` + `Thar` -> `Morlathar`, `Rath` + `Thar` -> `Rathathar`, and `Vok` + `Thal` -> `Vokathar`."
             },
             {
-              title: "Stylistic Contrast (Tier 2)",
+              title: "Stylistic and National Contrast",
               copy: "For clunky but pronounceable clusters, smoothing becomes a cultural choice. A pragmatic Zarithan or Valkeldorian may prefer `Krezthal` or `Belshara`, while a poetic Pelagaean or Verdalrisian may prefer `Krezathal` or `Belashara`."
             },
             {
-              title: "Never Smoothed (Tier 3)",
-              copy: "Naturally smooth clusters stay untouched, and ancient phonetic fossils remain unchanged. Smooth: `Kalvok`, `Kalrath`, `Rethlian`. Fossils: `Belthal`, `Rethvok`."
+              title: "Forms Normally Left Unsmoothed",
+              copy: "Naturally smooth clusters need no euphonic option, and ancient phonetic fossils normally remain unchanged. Smooth: `Kalvok`, `Kalrath`, `Rethlian`. Fossils: `Belthal`, `Rethvok`."
+            },
+            {
+              title: "Euphony Before Wek",
+              copy: "When `Wek` is the second root, the euphonic choices are `-ewek` and `-owek`, not `-awek`. This keeps the independent root `Awek` (water spring) distinct. Examples: `Belwek` / `Belewek` / `Belowek`; `Kalwek` / `Kalewek` / `Kalowek`; chosen headword `Mahrowek`, with unsmoothed `Mahrwek` as a variant."
             }
           ]
         ),
@@ -3464,7 +3468,11 @@ function buildGroupedEntries(entries) {
         entry.english_meaning,
         entry.category,
         entry.original_wording,
-        entry.usage_context
+        entry.usage_context,
+        entry.derivation,
+        entry.origin_nation,
+        entry.national_usage,
+        entry.variant_forms
       ].join(" ")).join(" ").toLowerCase()
     };
   });
@@ -3556,12 +3564,13 @@ function extractDerivationAnchors(text, rootLookup) {
 function derivationSource(entry) {
   const usage = (entry.usage_context || "").trim();
   const original = (entry.original_wording || "").trim();
+  const explicitDerivation = (entry.derivation || "").trim();
   const derivationUsage = /(\+|=|derived from|derivation:|root:|built from|shortened from|re-purposed from)/i.test(usage)
     ? usage
     : "";
   const derivationMatch = original.match(/(?:Derivation:|Derived From:|Root:|Built From:)\s*([^/\n]+)/i);
   const derivationOnlyOriginal = derivationMatch ? derivationMatch[1].trim() : "";
-  return [derivationUsage, derivationOnlyOriginal].filter(Boolean).join(" ");
+  return [explicitDerivation, derivationUsage, derivationOnlyOriginal].filter(Boolean).join(" ");
 }
 
 function detectFamilyRoots(group, rootLookup) {
@@ -3778,9 +3787,14 @@ function cleanInlineExampleText(headword, rawText) {
   return text;
 }
 
-function buildPronunciation(term) {
+function buildPronunciation(term, entries = null) {
   const raw = (term || "").trim();
   if (!raw) return "";
+  const sourceEntries = entries || state.groupedEntries.find((group) => group.id === normalizeHeadword(raw))?.entries || [];
+  const explicitPronunciation = sourceEntries
+    .map((entry) => (entry.pronunciation || "").trim())
+    .find(Boolean);
+  if (explicitPronunciation) return explicitPronunciation;
   const lookup = raw.toLowerCase();
   if (PRONUNCIATION_OVERRIDES[lookup]) {
     return PRONUNCIATION_OVERRIDES[lookup];
@@ -3863,6 +3877,36 @@ function buildPronunciation(term) {
   return `/${spoken}/`;
 }
 
+function expansionMetadata(group) {
+  const expansionEntries = (group.entries || []).filter((entry) =>
+    entry.origin_nation || entry.national_usage || entry.variant_forms || entry.derivation
+  );
+  if (!expansionEntries.length) return null;
+
+  const origins = uniqueStrings(expansionEntries.flatMap((entry) =>
+    (entry.origin_nation || "").split(";").map((value) => value.trim()).filter(Boolean)
+  ));
+  const nationalUses = uniqueStrings(expansionEntries
+    .map((entry) => (entry.national_usage || "").trim())
+    .filter(Boolean));
+  const derivations = uniqueStrings(expansionEntries
+    .map((entry) => (entry.derivation || "").trim())
+    .filter(Boolean));
+  const variants = [];
+
+  expansionEntries.forEach((entry) => {
+    const forms = (entry.variant_forms || "").split(";").map((value) => value.trim()).filter(Boolean);
+    const pronunciations = (entry.variant_pronunciations || "").split(";").map((value) => value.trim()).filter(Boolean);
+    forms.forEach((form, index) => {
+      if (normalizeHeadword(form) === normalizeHeadword(group.term)) return;
+      if (variants.some((variant) => normalizeHeadword(variant.form) === normalizeHeadword(form))) return;
+      variants.push({ form, pronunciation: pronunciations[index] || "" });
+    });
+  });
+
+  return { origins, nationalUses, derivations, variants };
+}
+
 function findBestLexiconMatch(rootTerm) {
   const needle = (rootTerm || "").toLowerCase();
   if (!needle) return null;
@@ -3936,7 +3980,8 @@ function renderDetail(group) {
   const examples = relatedExamples(group);
   const family = state.familyIndex.get(group.id) || { familyRoots: [], relatedEntries: [] };
   const override = headwordOverride(group.term);
-  const pronunciation = buildPronunciation(group.term);
+  const pronunciation = buildPronunciation(group.term, group.entries);
+  const metadata = expansionMetadata(group);
   const familyRoots = family.familyRoots
     .filter((rootTerm) => normalizeHeadword(rootTerm.replace(/-+$/g, "")) !== normalizeHeadword(group.term.replace(/-+$/g, "")))
     .slice(0, 3);
@@ -3973,6 +4018,15 @@ function renderDetail(group) {
         <h3>Meaning</h3>
         ${useMarkup}
       </section>
+      ${metadata ? `
+      <section class="card">
+        <h3>Usage</h3>
+        ${metadata.origins.length ? `<div class="family-group"><p class="family-label">Origin</p><p class="family-line">${metadata.origins.join(", ")}</p></div>` : ""}
+        ${metadata.nationalUses.length ? `<div class="family-group"><p class="family-label">National use</p><p class="family-line">${metadata.nationalUses.join(" ")}</p></div>` : ""}
+        ${metadata.variants.length ? `<div class="family-group"><p class="family-label">Euphonic choices</p><p class="family-line">${metadata.variants.map((variant) => `${variant.form}${variant.pronunciation ? ` ${variant.pronunciation}` : ""}`).join(", ")}</p></div>` : ""}
+        ${metadata.derivations.length ? `<div class="family-group"><p class="family-label">Built from</p><p class="family-line">${metadata.derivations.join("; ")}</p></div>` : ""}
+      </section>
+      ` : ""}
       ${hasFamilyContent ? `
       <section class="card">
         <h3>Word Family</h3>
@@ -4005,8 +4059,9 @@ function renderDetail(group) {
 }
 
 async function init() {
-  const [lexicon, roots, phrases, expandedRoots, grammarRules, creatures] = await Promise.all([
+  const [lexicon, lexiconExpansions, roots, phrases, expandedRoots, grammarRules, creatures] = await Promise.all([
     loadCsv("../data/lexicon.csv"),
+    loadCsv("../data/lexicon_expansions.csv"),
     loadCsv("../data/roots_and_morphology.csv"),
     loadCsv("../data/phrases_and_examples.csv"),
     loadCsv("../data/expanded_root_database.csv"),
@@ -4018,7 +4073,7 @@ async function init() {
   const morphologyEntries = buildMorphologyEntries(roots);
   const supplementalEntries = buildSupplementalDictionaryEntries();
   const creatureEntries = buildCreatureEntries(creatures);
-  state.wordEntries = lexicon.filter(isWordEntry).concat(rootEntries, morphologyEntries, supplementalEntries, creatureEntries);
+  state.wordEntries = lexicon.filter(isWordEntry).concat(lexiconExpansions.filter(isWordEntry), rootEntries, morphologyEntries, supplementalEntries, creatureEntries);
   state.groupedEntries = buildGroupedEntries(state.wordEntries);
   state.expandedRoots = expandedRoots;
   state.roots = roots;

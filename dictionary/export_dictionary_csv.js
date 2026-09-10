@@ -108,7 +108,10 @@ async function main() {
   grouped.forEach((group) => {
     const family = state.familyIndex.get(group.id) || { familyRoots: [], relatedEntries: [] };
     const override = headwordOverride(group.term);
-    const pronunciation = buildPronunciation(group.term);
+    const pronunciation = buildPronunciation(group.term, group.entries);
+    const groupField = (field) => Array.from(new Set(group.entries
+      .map((entry) => (entry[field] || "").trim())
+      .filter(Boolean))).join("; ");
     const familyRoots = family.familyRoots
       .filter((rootTerm) => normalizeHeadword(rootTerm.replace(/-+$/g, "")) !== normalizeHeadword(group.term.replace(/-+$/g, "")))
       .slice(0, 3);
@@ -134,6 +137,12 @@ async function main() {
         related_words: relatedEntries.map((entry) => entry.term).join("; "),
         example_count: examples.length,
         source_entry_ids: group.entries.map((entry) => entry.entry_id).join("; "),
+        derivation: groupField("derivation"),
+        origin_nation: groupField("origin_nation"),
+        national_usage: groupField("national_usage"),
+        variant_forms: groupField("variant_forms"),
+        variant_pronunciations: groupField("variant_pronunciations"),
+        approval_batch: groupField("approval_batch"),
         use_index: index + 1
       };
 
@@ -148,12 +157,18 @@ async function main() {
 
   const headers = [
     "source_entry_ids",
+    "approval_batch",
     "headword",
     "pronunciation",
     "use_type",
     "root_word",
     "meaning",
     "usage_note",
+    "derivation",
+    "origin_nation",
+    "national_usage",
+    "variant_forms",
+    "variant_pronunciations",
     "family_roots",
     "related_words",
     "example_count",

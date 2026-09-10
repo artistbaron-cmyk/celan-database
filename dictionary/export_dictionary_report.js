@@ -124,7 +124,10 @@ async function main() {
   grouped.forEach((group) => {
     const family = state.familyIndex.get(group.id) || { familyRoots: [], relatedEntries: [] };
     const override = headwordOverride(group.term);
-    const pronunciation = clean(buildPronunciation(group.term));
+    const pronunciation = clean(buildPronunciation(group.term, group.entries));
+    const groupField = (field) => clean(Array.from(new Set(group.entries
+      .map((entry) => (entry[field] || "").trim())
+      .filter(Boolean))).join("; "));
     const rootWords = family.familyRoots
       .filter((rootTerm) => normalizeHeadword(rootTerm.replace(/-+$/g, "")) !== normalizeHeadword(group.term.replace(/-+$/g, "")))
       .slice(0, 3)
@@ -153,7 +156,13 @@ async function main() {
         related_words: clean(relatedWords),
         example_celan: clean(example.celan_text),
         example_translation: clean(example.translation),
-        source_entry_ids: clean(group.entries.map((entry) => entry.entry_id).join("; "))
+        source_entry_ids: clean(group.entries.map((entry) => entry.entry_id).join("; ")),
+        derivation: groupField("derivation"),
+        origin_nation: groupField("origin_nation"),
+        national_usage: groupField("national_usage"),
+        variant_forms: groupField("variant_forms"),
+        variant_pronunciations: groupField("variant_pronunciations"),
+        approval_batch: groupField("approval_batch")
       });
     });
   });
@@ -162,10 +171,16 @@ async function main() {
   const headers = [
     "headword",
     "pronunciation",
+    "approval_batch",
     "use_type",
     "root_word",
     "meaning",
     "usage_note",
+    "derivation",
+    "origin_nation",
+    "national_usage",
+    "variant_forms",
+    "variant_pronunciations",
     "related_words",
     "example_celan",
     "example_translation",
