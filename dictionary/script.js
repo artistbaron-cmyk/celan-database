@@ -3955,13 +3955,22 @@ function isRootUse(use) {
   return !!use.rootWord || (use.type || "").toLowerCase() === "root";
 }
 
+function displayUses(group) {
+  const seen = new Set();
+  return (group.uses || []).filter((use) => {
+    const key = `${(use.type || "").trim().toLowerCase()}::${(use.meaning || "").trim().toLowerCase()}`;
+    if (seen.has(key)) return false;
+    seen.add(key);
+    return true;
+  });
+}
+
 function displayUseType(group, use) {
   return use.type || "";
 }
 
 function displayRootWordMarker(group, use) {
-  const hasRootUse = group.uses.some((candidate) => candidate.rootWord);
-  return hasRootUse ? "Root Word" : "";
+  return isRootUse(use) ? "Root Word" : "";
 }
 
 function displayUsageNote(use) {
@@ -3991,9 +4000,7 @@ function renderDetail(group) {
   ).slice(0, 10);
   const hasFamilyContent = familyRoots.length || relatedEntries.length;
   const displayExamples = override?.examples?.length ? override.examples : examples;
-  const primaryUses = group.uses.some((use) => !isRootUse(use))
-    ? group.uses.filter((use) => !isRootUse(use))
-    : group.uses;
+  const primaryUses = displayUses(group);
   const useMarkup = primaryUses.map((use) => {
     const displayType = displayUseType(group, use);
     const rootWordMarker = displayRootWordMarker(group, use);

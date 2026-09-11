@@ -76,9 +76,11 @@ function readRows(projectRoot, filename) {
 function main() {
   const projectRoot = findProjectRoot(__dirname);
   const requestedBatch = process.argv.slice(2).find((arg) => !arg.startsWith("--"));
+  const checkAssembled = process.argv.includes("--assembled");
   const expansions = readRows(projectRoot, "lexicon_expansions.csv");
   const phrases = readRows(projectRoot, "phrases_and_examples.csv");
   const sourceLexicon = readRows(projectRoot, "lexicon.csv");
+  const expandedRoots = readRows(projectRoot, "expanded_root_database.csv");
   const selected = requestedBatch
     ? expansions.filter((entry) => entry.approval_batch === requestedBatch)
     : expansions;
@@ -86,7 +88,7 @@ function main() {
   const warnings = [];
   const required = [
     "entry_id", "celan_term", "pronunciation", "english_meaning", "category",
-    "derivation", "origin_nation", "national_usage", "canon_status",
+    "derivation", "canon_status",
     "approval_batch", "related_entry_ids"
   ];
   const phraseById = new Map(phrases.map((entry) => [entry.entry_id, entry]));
@@ -108,6 +110,9 @@ function main() {
   for (const entry of selected) {
     for (const field of required) {
       if (!entry[field]) errors.push(`${entry.entry_id || "Unidentified row"}: missing ${field}`);
+    }
+    if (!!entry.origin_nation !== !!entry.national_usage) {
+      errors.push(`${entry.entry_id}: origin_nation and national_usage must either both be filled or both be blank`);
     }
     const sourceCollision = allHeadwords.get(normalize(entry.celan_term));
     if (sourceCollision) warnings.push(`${entry.entry_id}: headword also exists in source lexicon as ${sourceCollision}`);
@@ -141,6 +146,32 @@ function main() {
     }
   }
 
+  if (checkAssembled) {
+    const displayedEntries = readRows(projectRoot, "dictionary_entries.csv");
+    const displayedByHeadword = new Map();
+    displayedEntries.forEach((entry) => {
+      const key = normalize(entry.headword);
+      if (!displayedByHeadword.has(key)) displayedByHeadword.set(key, new Set());
+      displayedByHeadword.get(key).add(String(entry.meaning || "").trim().toLocaleLowerCase());
+    });
+    const rootsByHeadword = new Map(expandedRoots
+      .filter((entry) => String(entry.entry_type || "").toLocaleLowerCase() === "root")
+      .map((entry) => [normalize(entry.form), entry]));
+
+    for (const entry of selected) {
+      const key = normalize(entry.celan_term);
+      const displayedMeanings = displayedByHeadword.get(key) || new Set();
+      const expectedMeanings = [entry.english_meaning];
+      const establishedRoot = rootsByHeadword.get(key);
+      if (establishedRoot?.core_meaning) expectedMeanings.push(establishedRoot.core_meaning);
+      for (const meaning of expectedMeanings) {
+        if (!displayedMeanings.has(String(meaning).trim().toLocaleLowerCase())) {
+          errors.push(`${entry.entry_id}: assembled dictionary is missing the approved sense “${meaning}”`);
+        }
+      }
+    }
+  }
+
   console.log(`Validated ${selected.length} expansion row(s)${requestedBatch ? ` in ${requestedBatch}` : ""}.`);
   warnings.forEach((warning) => console.log(`WARNING: ${warning}`));
   errors.forEach((error) => console.error(`ERROR: ${error}`));
@@ -148,7 +179,7 @@ function main() {
     console.error(`Validation failed with ${errors.length} error(s) and ${warnings.length} warning(s).`);
     process.exit(1);
   }
-  console.log(`Validation passed with ${warnings.length} warning(s).`);
+  console.log(`Validation passed with ${warnings.length} warning(s).${checkAssembled ? " Assembled senses are preserved." : ""}`);
 }
 
 try {

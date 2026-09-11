@@ -40,7 +40,7 @@ globalThis.__dictExports = {
   headwordOverride,
   buildPronunciation,
   displayUsageNote,
-  isRootUse,
+  displayUses,
   normalizeHeadword
 };`;
 
@@ -114,7 +114,7 @@ async function main() {
     headwordOverride,
     buildPronunciation,
     displayUsageNote,
-    isRootUse,
+    displayUses,
     normalizeHeadword
   } = await loadDictionaryState();
 
@@ -140,9 +140,7 @@ async function main() {
       .slice(0, 10)
       .join("; ");
     const examples = override?.examples?.length ? override.examples : relatedExamples(group);
-    const primaryUses = group.uses.some((use) => !isRootUse(use))
-      ? group.uses.filter((use) => !isRootUse(use))
-      : group.uses;
+    const primaryUses = displayUses(group);
     const example = examples[0] || {};
 
     primaryUses.forEach((use) => {

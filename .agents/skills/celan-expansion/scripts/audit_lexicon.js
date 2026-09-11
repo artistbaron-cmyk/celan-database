@@ -34,7 +34,7 @@ async function loadAppState(projectRoot) {
   const dictionaryDir = path.join(projectRoot, "dictionary");
   const scriptPath = path.join(dictionaryDir, "script.js");
   const source = await fsp.readFile(scriptPath, "utf8");
-  const exposed = `${source}\nglobalThis.__celanAudit = { state, buildPronunciation, isRootUse };`;
+  const exposed = `${source}\nglobalThis.__celanAudit = { state, buildPronunciation, displayUses };`;
   const elements = new Map();
   const document = {
     getElementById(id) {
@@ -70,7 +70,7 @@ function unique(values) {
 
 async function main() {
   const projectRoot = findProjectRoot(__dirname);
-  const { state, buildPronunciation, isRootUse } = await loadAppState(projectRoot);
+  const { state, buildPronunciation, displayUses } = await loadAppState(projectRoot);
   const expansionEntries = state.wordEntries.filter((entry) =>
     String(entry.entry_id || "").startsWith("LX-NE") || entry.approval_batch
   );
@@ -83,7 +83,7 @@ async function main() {
   const nations = {};
   const batches = {};
   for (const entry of expansionEntries) {
-    const nation = String(entry.origin_nation || "Unspecified").trim() || "Unspecified";
+    const nation = String(entry.origin_nation || "Universal / no national origin").trim() || "Universal / no national origin";
     nations[nation] = (nations[nation] || 0) + 1;
     const batch = String(entry.approval_batch || "Unspecified").trim() || "Unspecified";
     batches[batch] = (batches[batch] || 0) + 1;
@@ -92,10 +92,7 @@ async function main() {
     String(entry.variant_forms || "").split(";").map((value) => value.trim())
   ));
   const displayedSenseRows = state.groupedEntries.reduce((total, group) => {
-    const uses = group.uses.some((use) => !isRootUse(use))
-      ? group.uses.filter((use) => !isRootUse(use))
-      : group.uses;
-    return total + uses.length;
+    return total + displayUses(group).length;
   }, 0);
   const report = {
     appHeadwords: state.groupedEntries.length,

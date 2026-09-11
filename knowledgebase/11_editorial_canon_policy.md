@@ -134,6 +134,18 @@ Expansion vocabulary reuses existing dictionary categories. A new category requi
 
 Ordinary remembering and forgetting remain distinct from ritual or memorial remembrance. `Velzhiraen` and `Kavelzhiraen` cover ordinary memory while `Rathorimaen` retains its memorial and ceremonial force.
 
+## ED-0006: Expansion Sense Preservation, Euphony, and National Origin
+
+Status: Approved.
+
+Approval date: 2026-09-11.
+
+Adding a meaning to an existing headword is additive by default. Every established semantically distinct definition must remain visible in the dictionary and generated exports. A previous definition may be replaced or deprecated only through separate explicit approval, with its earlier record kept traceable.
+
+For newly developed or revised expansion entries, the unsmoothed construction is the primary headword and the optional alternative is always the euphonic form. The euphonic form is stored as a searchable variant of the same entry and does not increase the headword count. This rule does not silently rename preserved source witnesses or earlier approved entries that are not under revision.
+
+National origin is optional expansion metadata. Leave national origin and national usage blank when a word is intended to be universal overall. Record both only when the word or its characteristic use is specifically associated with a nation. When that distinction is unclear and materially changes the entry, ask whether the word is universal or nation-specific before integration.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:

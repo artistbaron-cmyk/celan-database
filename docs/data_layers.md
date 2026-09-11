@@ -39,7 +39,7 @@ Examples include:
 
 This is usually the layer that matters most when we want something to feel usable rather than merely preserved.
 
-`lexicon_expansions.csv` holds explicitly approved new vocabulary created after the source volumes. It stores app-facing meanings, pronunciations, roots, national origin and usage, euphonic variants, approval batch, and example links without rewriting the extracted source lexicon.
+`lexicon_expansions.csv` holds explicitly approved new vocabulary created after the source volumes. It stores app-facing meanings, pronunciations, roots, optional national origin and usage when genuinely relevant, euphonic variants, approval batch, and example links without rewriting the extracted source lexicon.
 
 ## Generated app and report files
 

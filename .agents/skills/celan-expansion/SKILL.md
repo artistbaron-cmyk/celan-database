@@ -30,7 +30,7 @@ Use when brainstorming, comparing, or refining possible terms.
 1. Read [references/audit-framework.md](references/audit-framework.md) to select a genuine capability gap.
 2. Read [references/headword-admission.md](references/headword-admission.md).
 3. Check the app-facing lexicon, roots, examples, and canon policy before proposing forms.
-4. Discuss meaning, derivation, sound, pronunciation, likely use, national application, variants, and collisions with the user.
+4. Discuss meaning, derivation, sound, pronunciation, likely use, variants, and collisions with the user. Discuss national origin only when the term appears characteristic of a particular nation. If that distinction is unclear and would change the entry, ask one simple question: “Is this universal Celan, or is it specifically characteristic of a nation?”
 5. Keep candidates outside canon until the user explicitly approves them. Do not write candidate ideas into the approved expansion CSV.
 
 Prefer coherent batches of up to about 40 terms, but let semantic difficulty determine the batch size. Do not fill a numerical quota with weak derivatives.
@@ -40,7 +40,7 @@ Prefer coherent batches of up to about 40 terms, but let semantic difficulty det
 Use only after the user has explicitly approved the terms or directly asked to add a clearly identified approved set.
 
 1. Read [references/data-contract.md](references/data-contract.md).
-2. Add only the approved entries, pronunciations, examples, variants, and necessary root or editorial decisions.
+2. Add only the approved entries, pronunciations, examples, variants, and necessary root or editorial decisions. When an approved headword already exists, treat the new meaning as an additional sense unless the user explicitly approves replacement or deprecation.
 3. Run the batch validator before rebuilding.
 4. Rebuild the embedded app data and generated exports.
 5. Run the validator and lexicon audit again.
@@ -52,10 +52,11 @@ Approval applies to the discussed entries, not to every mechanically possible de
 
 - Every new headword requires explicit human approval.
 - Pronunciation is mandatory for expansion entries.
-- Give each entry a stable universal core meaning. National origin records where a word is characteristic, not who is allowed to use it.
+- Give each entry a stable universal core meaning. Leave national origin and national usage blank for vocabulary intended to be universal overall. Record a nation only when the word or use is specifically characteristic of that nation; national origin never limits who may use the word.
 - Treat national voice as a cross-cutting cultural lens across ordinary life, not as a closed vocabulary bucket.
-- Euphonic alternatives share one meaning and one app entry. Store them as searchable variants; do not count them as separate headwords.
-- Euphony is optional unless a later approved editorial decision says otherwise. For `Wek` as the second root, use `-ewek` or `-owek`, never `-awek`.
+- Euphonic alternatives share one meaning and one app entry. The unsmoothed construction is the primary headword; the optional form is always the euphonic variant. Store the euphonic form as a searchable variant and do not count it as a separate headword. Preserve older source witnesses, but never make an unsmoothed form the optional variant of a newly developed euphonic headword.
+- Euphony remains a speaker option, not a required repair. For `Wek` as the second root, optional euphony uses `-ewek` or `-owek`, never `-awek`.
+- Never remove, hide, or overwrite an established definition merely because a new sense is added to the same headword. Show every semantically distinct approved sense in the app and generated exports. Replacement or deprecation requires separate explicit user approval and a traceable editorial record.
 - Check for semantic collisions, overbroad definitions, existing synonyms, overused roots, and false derivations before recommending a term.
 - A derivative deserves a headword only when its meaning or use is independently lexicalized; transparent possibility alone is insufficient.
 - Preserve source witnesses. Put approved new vocabulary in the app-facing expansion layer.
@@ -63,4 +64,4 @@ Approval applies to the discussed entries, not to every mechanically possible de
 
 ## Completion Standard
 
-An expansion batch is complete only when its approved entries are represented correctly in the app, their variants do not inflate the count, pronunciation and linked examples are present, generated files have been refreshed, and validation passes. A milestone is complete only numerically; claims of conversational independence require scene-based capability audits.
+An expansion batch is complete only when its approved entries are represented correctly in the app, all pre-existing senses of reused headwords remain visible, their variants do not inflate the count, pronunciation and linked examples are present, generated files have been refreshed, and validation passes. Compare every reused headword before and after integration; do not rely on the total headword count to detect sense loss. A milestone is complete only numerically; claims of conversational independence require scene-based capability audits.

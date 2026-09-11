@@ -15,7 +15,7 @@ This batch contains 39 new app headwords and one new sense of the existing headw
 - `Dar` has one stable core—pausing while something remains pending. The interruption “wait/hold on” is a clipped imperative use of the verb, not a second category.
 - `Shan` already means passing, transfer, or handoff between states. “Through/across” is proposed as a `Preposition` sense of that existing headword.
 - The unsmoothed construction is the default headword. `Sivarethaen`, `Athanor`, `Nethanor`, `Rethapral`, `Belareth`, `Vethavar`, and `Vethanor` are optional euphonic variants of the corresponding unsmoothed forms and do not create additional headwords.
-- All entries have a universal Common Celan meaning. The national notes below illustrate characteristic use, not ownership or restricted usage.
+- All entries have a universal Common Celan meaning. The national notes below are scene-testing lenses rather than word-origin assignments; the integrated entries leave national origin blank.
 - The category field uses only these existing dictionary categories: `Verb`, `Noun`, `Particle`, `Quantifier`, `Interjection`, `Preposition`, and `Conjunction`. Labels such as “primitive root,” “result-state,” “aspect,” “temporal,” and “new sense” remain editorial metadata rather than categories.
 
 ## Candidate set
