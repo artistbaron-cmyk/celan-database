@@ -1,0 +1,4 @@
+interface:
+  display_name: "Celan Expansion"
+  short_description: "Audit and grow Celan through approved batches"
+  default_prompt: "Use $celan-expansion to audit Celan and develop the next practical vocabulary batch."

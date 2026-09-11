@@ -116,6 +116,24 @@ National origin does not restrict a word to one nation. Other nations may use th
 
 The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-NE1-0001` through `LX-NE1-0040`.
 
+## ED-0005: Conversational and Narrative Engine 1
+
+Status: Approved.
+
+Approval date: 2026-09-11.
+
+Conversational and Narrative Engine 1 adds forty approved entries for ordinary physical action, attempts and outcomes, thought and memory, aspect and coordination, causal explanation, conversational repair, and spatial or temporal scene description. The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-CNE1-0001` through `LX-CNE1-0040`.
+
+`Dor`, `Dar`, `Siv`, and `Kes` are approved as new primitive roots with the meanings recorded in the expanded root database. Approval of these roots does not authorize unlisted derivative families. Only the derivatives included in this approved batch are canon.
+
+`Shan` gains the approved prepositional sense “through or across from one side or boundary to another” while retaining its established passing and transfer meaning.
+
+For this batch and as the default for future expansion review, the unsmoothed construction is the primary headword and optional euphonic forms are searchable variants of that entry. A specifically approved exception may use an euphonic form as its display headword. This decision does not retroactively rename previously approved entries.
+
+Expansion vocabulary reuses existing dictionary categories. A new category requires a separate explicit schema decision; descriptive labels such as primitive root, result-state, temporal use, or new sense belong in root, derivation, usage, or editorial metadata rather than the category field.
+
+Ordinary remembering and forgetting remain distinct from ritual or memorial remembrance. `Velzhiraen` and `Kavelzhiraen` cover ordinary memory while `Rathorimaen` retains its memorial and ceremonial force.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:
