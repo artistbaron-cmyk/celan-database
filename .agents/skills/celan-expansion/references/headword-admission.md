@@ -24,6 +24,8 @@ For each candidate, establish:
 - explicit pronunciation
 - concise universal core definition
 - derivation and meaning contributed by each component
+- relevant source-established and approved created roots considered during the root-reuse pass
+- why a plausible existing root was rejected, or why a new primitive is genuinely necessary
 - nation of characteristic origin, when applicable
 - believable national application without national ownership
 - optional euphonic forms and their pronunciations
@@ -46,7 +48,9 @@ For each candidate, establish:
 
 ## Primitive Roots
 
-Propose a new primitive when a recurring concept cannot be expressed cleanly without overloading an existing root. A new primitive needs a stable semantic center and evidence that it can support more than a single decorative compound. Do not generate a derivative family automatically when approving the primitive.
+Before proposing a new primitive, search both `data/roots_and_morphology.csv` and `data/expanded_root_database.csv` by form, meaning, function, evidence, and related derivatives. Newly approved roots participate fully in this search; do not treat them as less available than roots inherited from the source volumes.
+
+Propose a new primitive when a recurring concept cannot be expressed cleanly without overloading an existing root. Document the closest roots considered and the specific mismatch that prevents honest reuse. A new primitive needs a stable semantic center and evidence that it can support more than a single decorative compound. Do not generate a derivative family automatically when approving the primitive.
 
 ## Approval Semantics
 

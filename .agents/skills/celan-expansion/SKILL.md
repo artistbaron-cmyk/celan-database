@@ -29,9 +29,11 @@ Use when brainstorming, comparing, or refining possible terms.
 
 1. Read [references/audit-framework.md](references/audit-framework.md) to select a genuine capability gap.
 2. Read [references/headword-admission.md](references/headword-admission.md).
-3. Check the app-facing lexicon, roots, examples, and canon policy before proposing forms.
-4. Discuss meaning, derivation, sound, pronunciation, likely use, variants, and collisions with the user. Discuss national origin only when the term appears characteristic of a particular nation. If that distinction is unclear and would change the entry, ask one simple question: “Is this universal Celan, or is it specifically characteristic of a nation?”
-5. Keep candidates outside canon until the user explicitly approves them. Do not write candidate ideas into the approved expansion CSV.
+3. Check the app-facing lexicon, examples, canon policy, `data/roots_and_morphology.csv`, and `data/expanded_root_database.csv` before proposing forms. Treat approved created roots as part of the active root inventory with the same reuse consideration as source-established roots.
+4. Perform a root-reuse pass for every candidate. Identify the semantically relevant original and newly approved roots, test whether one root or a natural combination expresses the concept, and record the selected roots. When a plausible root is not used, record the concrete semantic, grammatical, or euphonic reason. Prefer reuse when it preserves the intended meaning, but do not force a misleading construction merely to avoid a new primitive.
+5. Propose a new primitive only after the root-reuse pass shows that the active inventory would duplicate, distort, or overload the intended meaning. Record that conclusion in the candidate review so primitive creation remains auditable.
+6. Discuss meaning, derivation, sound, pronunciation, likely use, variants, and collisions with the user. Discuss national origin only when the term appears characteristic of a particular nation. If that distinction is unclear and would change the entry, ask one simple question: “Is this universal Celan, or is it specifically characteristic of a nation?”
+7. Keep candidates outside canon until the user explicitly approves them. Do not write candidate ideas into the approved expansion CSV.
 
 Prefer coherent batches of up to about 40 terms, but let semantic difficulty determine the batch size. Do not fill a numerical quota with weak derivatives.
 
@@ -58,6 +60,7 @@ Approval applies to the discussed entries, not to every mechanically possible de
 - Euphony remains a speaker option, not a required repair. For `Wek` as the second root, optional euphony uses `-ewek` or `-owek`, never `-awek`.
 - Never remove, hide, or overwrite a previously displayed lexical definition merely because a new sense is added to the same headword. Preserve the dictionary's intentional suppression of root-analysis descriptions when an ordinary lexical definition already represents that root. Expose a root description as an additional sense only when the user explicitly approves that specific exception, as with `Shan`. Replacement or deprecation requires separate explicit user approval and a traceable editorial record.
 - Check for semantic collisions, overbroad definitions, existing synonyms, overused roots, and false derivations before recommending a term.
+- Include both source-established and user-approved created roots in every root-reuse review. A recently approved root is not secondary or invisible during later word formation.
 - A derivative deserves a headword only when its meaning or use is independently lexicalized; transparent possibility alone is insufficient.
 - Preserve source witnesses. Put approved new vocabulary in the app-facing expansion layer.
 - Domains are overlapping audit lenses. Never reject a useful Celan concept merely because it falls outside the current taxonomy.

@@ -166,6 +166,26 @@ The primary forms are unsmoothed. `Krezapral`, `Kavavek`, `Eshapral`, `Drenatala
 
 All entries in this batch are universal overall, so national origin and national usage remain blank. The batch uses only established dictionary categories: Noun, Verb, and Adjective. Internal root status is derivational metadata rather than a dictionary word category.
 
+## ED-0008: Post-Fracture Mechanics 1
+
+Status: Approved.
+
+Approval date: 2026-09-11.
+
+Post-Fracture Mechanics 1 adds forty approved universal entries for timelines, temporal stability and sickness, fractures, skips, overlaps, recursive loops, temporal rate and displacement, non-agential Echoes, cross-timeline memory conditions, reality anomalies, abnormal gravity, field measurement, safe clearance, marking, avoidance, and anchoring. The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-PFM1-0001` through `LX-PFM1-0040`.
+
+The batch reuses the established and previously approved root inventory and introduces no new primitive roots. Approval applies only to the forty listed entries, not to additional mechanically possible derivatives.
+
+`Vethvelrathor` names an Echo as a residual memory-pattern without thought, intention, or agency. It does not mean a spirit, dream, hallucination, sound echo, or intentional ghost, and it does not alter the grammatical `nor-ka` echo particle. `Shanvelrathor` and `Shanvelzhiraen` are limited to authentic memories crossing from another timeline; ordinary and ritual remembrance remain distinct.
+
+`Kalrav` and its approved derivatives use `Kal` to constrain `Rav` to physical gravitational force. They do not replace the emotional, fated, or destination-oriented senses of the ordinary `Rav` family. `Lianreth` names incoherence in reality or natural law and does not mean deception, ordinary doubt, or generic chaos.
+
+`Retheweknor`, `Vethavelrathor`, `Rethamor`, `Lianrethaxar`, `Jekakalrav`, and `Lianrethashen` are optional euphonic variants of their corresponding unsmoothed primary headwords and do not count separately.
+
+The proper names *The Wound*, *the Veilwrought*, *the Vengeance Stone*, and *the Shard* are outside this batch and receive no automatic Celan dictionary translations. The progressive stages of *The Diminishing* remain reserved for separate lexical review.
+
+For this expansion phase, justified new headwords remain eligible even where a later polysemy review might consolidate or reinterpret part of the system. The user selected the 1,000-app-headword milestone as the point to revisit polysemy deliberately. This scheduling decision does not authorize current sense replacement, silent merging, or weakening of the dictionary's sense-preservation rules.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:
