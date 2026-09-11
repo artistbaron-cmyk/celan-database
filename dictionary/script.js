@@ -3371,6 +3371,9 @@ const HEADWORD_DISPLAY_OVERRIDES = {
         meaning: "Unit of weight / measure"
       }
     ]
+  },
+  shan: {
+    showRootSense: true
   }
 };
 
@@ -3957,12 +3960,16 @@ function isRootUse(use) {
 
 function displayUses(group) {
   const seen = new Set();
-  return (group.uses || []).filter((use) => {
+  const distinctUses = (group.uses || []).filter((use) => {
     const key = `${(use.type || "").trim().toLowerCase()}::${(use.meaning || "").trim().toLowerCase()}`;
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
   });
+  const showRootSense = !!headwordOverride(group.term)?.showRootSense;
+  return !showRootSense && distinctUses.some((use) => !isRootUse(use))
+    ? distinctUses.filter((use) => !isRootUse(use))
+    : distinctUses;
 }
 
 function displayUseType(group, use) {
@@ -3970,7 +3977,10 @@ function displayUseType(group, use) {
 }
 
 function displayRootWordMarker(group, use) {
-  return isRootUse(use) ? "Root Word" : "";
+  if (headwordOverride(group.term)?.showRootSense) {
+    return isRootUse(use) ? "Root Word" : "";
+  }
+  return group.uses.some((candidate) => candidate.rootWord) ? "Root Word" : "";
 }
 
 function displayUsageNote(use) {

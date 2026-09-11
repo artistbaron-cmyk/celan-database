@@ -140,7 +140,7 @@ Status: Approved.
 
 Approval date: 2026-09-11.
 
-Adding a meaning to an existing headword is additive by default. Every established semantically distinct definition must remain visible in the dictionary and generated exports. A previous definition may be replaced or deprecated only through separate explicit approval, with its earlier record kept traceable.
+Adding a meaning to an existing headword is additive by default. Every previously displayed lexical definition must remain visible in the dictionary and generated exports. Root-analysis descriptions remain intentionally hidden when an ordinary lexical definition already represents the root; they are not automatically promoted into additional dictionary meanings. A root sense is displayed alongside another lexical sense only through a specific approved exception. `Shan` is such an exception: its established passing/transfer verb sense remains visible beside its newer through/across prepositional sense. A previous definition may be replaced or deprecated only through separate explicit approval, with its earlier record kept traceable.
 
 For newly developed or revised expansion entries, the unsmoothed construction is the primary headword and the optional alternative is always the euphonic form. The euphonic form is stored as a searchable variant of the same entry and does not increase the headword count. This rule does not silently rename preserved source witnesses or earlier approved entries that are not under revision.
 

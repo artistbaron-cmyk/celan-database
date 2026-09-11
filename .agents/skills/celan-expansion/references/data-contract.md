@@ -31,7 +31,7 @@ Leave `origin_nation` and `national_usage` blank for vocabulary intended to be u
 
 When optional euphony exists, use the unsmoothed construction as `celan_term` and store the euphonic form in `variant_forms`. Store semicolon-separated variants and matching semicolon-separated `variant_pronunciations` in the same order. Variants must not also appear as independent expansion headwords unless the user explicitly approves a separate lexical meaning.
 
-Before adding a new sense to an existing headword, record its currently displayed definitions. The added row is additive by default: after rebuilding, every earlier semantically distinct definition and the new definition must appear in the app and generated exports. Replacement or deprecation requires explicit approval and a traceable editorial decision.
+Before adding a new sense to an existing headword, record its currently displayed lexical definitions. The added row is additive by default: after rebuilding, every earlier displayed lexical definition and the new definition must appear in the app and generated exports. Do not expose normally hidden root-analysis descriptions as extra definitions unless the user explicitly approves that headword as an exception. Replacement or deprecation requires explicit approval and a traceable editorial decision.
 
 ## Example Requirements
 
@@ -49,11 +49,11 @@ Each example must link back to the expansion `entry_id` through `related_entry_i
 3. Run:
 
    ```text
-   node .agents/skills/celan-expansion/scripts/validate_expansion_batch.js "<approval batch>" --assembled
+   node .agents/skills/celan-expansion/scripts/validate_expansion_batch.js "<approval batch>"
    node dictionary/build_embedded_data.js
    node dictionary/export_dictionary_csv.js
    node dictionary/export_dictionary_report.js
-   node .agents/skills/celan-expansion/scripts/validate_expansion_batch.js "<approval batch>"
+   node .agents/skills/celan-expansion/scripts/validate_expansion_batch.js "<approval batch>" --assembled
    node .agents/skills/celan-expansion/scripts/audit_lexicon.js
    ```
 

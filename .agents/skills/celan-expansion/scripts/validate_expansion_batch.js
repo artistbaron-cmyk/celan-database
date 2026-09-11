@@ -86,6 +86,7 @@ function main() {
     : expansions;
   const errors = [];
   const warnings = [];
+  const rootSenseDisplayExceptions = new Set(["shan"]);
   const required = [
     "entry_id", "celan_term", "pronunciation", "english_meaning", "category",
     "derivation", "canon_status",
@@ -163,7 +164,9 @@ function main() {
       const displayedMeanings = displayedByHeadword.get(key) || new Set();
       const expectedMeanings = [entry.english_meaning];
       const establishedRoot = rootsByHeadword.get(key);
-      if (establishedRoot?.core_meaning) expectedMeanings.push(establishedRoot.core_meaning);
+      if (rootSenseDisplayExceptions.has(key) && establishedRoot?.core_meaning) {
+        expectedMeanings.push(establishedRoot.core_meaning);
+      }
       for (const meaning of expectedMeanings) {
         if (!displayedMeanings.has(String(meaning).trim().toLocaleLowerCase())) {
           errors.push(`${entry.entry_id}: assembled dictionary is missing the approved sense “${meaning}”`);
