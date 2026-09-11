@@ -656,9 +656,15 @@ function buildUses(entry) {
   }];
 }
 
+// These primitives now have deliberate lexical noun entries. Keep the internal
+// root records available for derivation and family analysis, but do not surface
+// their technical root descriptions as duplicate dictionary senses.
+const ROOT_ANALYSIS_SUPPRESSED_FORMS = new Set(["tesh", "riv", "num", "nol", "tov", "mav"]);
+
 function buildRootEntries(expandedRoots) {
   return expandedRoots
     .filter((row) => (row.entry_type || "").toLowerCase() === "root")
+    .filter((row) => !ROOT_ANALYSIS_SUPPRESSED_FORMS.has(cleanAlpha(row.form)))
     .map((row) => {
       const term = formatRootHeadword(row.form);
       if (!term) return null;

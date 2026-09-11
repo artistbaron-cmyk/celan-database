@@ -146,6 +146,26 @@ For newly developed or revised expansion entries, the unsmoothed construction is
 
 National origin is optional expansion metadata. Leave national origin and national usage blank when a word is intended to be universal overall. Record both only when the word or its characteristic use is specifically associated with a nation. When that distinction is unclear and materially changes the entry, ask whether the word is universal or nation-specific before integration.
 
+## ED-0007: Domestic and Sensory Life 1
+
+Status: Approved.
+
+Approval date: 2026-09-11.
+
+Domestic and Sensory Life 1 adds forty-five approved universal entries for kitchen implements, household storage and furniture, ordinary materials, bodily pain and discomfort, sensory perception, meal actions, cleaning, bodily needs, illness, and injury. The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-DSL1-0001` through `LX-DSL1-0045`.
+
+`Shem`, `Rask`, `Lem`, `Tir`, `Aiv`, `Tesh`, `Riv`, `Zem`, `Kren`, `Num`, `Nol`, `Tov`, and `Mav` are approved as new primitive roots with the meanings recorded in the expanded root database. Approval authorizes only the roots and derivatives explicitly listed in this batch, not automatic word families.
+
+Primitive-root approval does not automatically create an additional dictionary headword. In a separate explicit decision, `Tesh`, `Riv`, `Num`, `Nol`, `Tov`, and `Mav` are approved as independently lexicalized nouns: an itch, a shiver or tremor, a swallow, the sense of smell, a touch, and illness. Their technical root-analysis descriptions remain suppressed because the approved noun definitions now represent the roots in ordinary language. This preserves the dictionary's intentional root-sense hiding rules and does not create a user-facing `Root` category. `Shan` remains the separately approved exception in which a root description is displayed alongside another lexical sense.
+
+`Lemath` uses the established completed or enduring force of `-ath` for fired clay or ceramic. `Tirkal` lexicalizes bronze specifically as strengthened copper and does not mean every copper alloy. `Pelvokaen` extends bond-breaking into a physical snap without replacing or weakening the established social meaning of `Vokaen`. `Aivkor` names a bodily wound or injured place independently of whether it still hurts; `Aiv` remains the sensation of pain.
+
+`Mekmor` is not approved and does not enter canon. The approved primitive `Kren` supplies generic metal without treating metal as merely forged earth or constructed matter.
+
+The primary forms are unsmoothed. `Krezapral`, `Kavavek`, `Eshapral`, `Drenatalaen`, `Jekathamaen`, `Emilarav`, and `Aivakor` are optional euphonic variants of their corresponding entries and do not count as separate headwords.
+
+All entries in this batch are universal overall, so national origin and national usage remain blank. The batch uses only established dictionary categories: Noun, Verb, and Adjective. Internal root status is derivational metadata rather than a dictionary word category.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:
