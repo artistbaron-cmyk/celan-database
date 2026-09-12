@@ -302,6 +302,20 @@ The approval applies the no-silent-letter requirement to this approved batch wit
 
 The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-BSPI1-0001` through `LX-BSPI1-0040`.
 
+## ED-0016: Lun Lake–Moon Polysemy
+
+Status: Approved.
+
+Approval date: 2026-09-12.
+
+`Lun` is officially polysemous as a Noun meaning both “lake” and “Moon; Ohnosha's natural satellite or lunar body.” The established `Lake` definition is preserved unchanged. `Moon` is added as a second displayed lexical sense rather than left as an inferred root association.
+
+The Moon sense is directly supported by the Volume 4 derivation of `Lunwek` as `Lun (Lake/Moon) + Wek (Cycle)`, describing a full lunar cycle. This is source-attested lexical evidence, not the automatic exposure of a normally suppressed technical root description and not a newly invented primitive.
+
+`Lunor` retains its lake and blue-color association. `Lunwek` remains “month” through the lunar-cycle sense. Context distinguishes standalone `Lun` as lake or Moon. This additive decision creates no new headword and removes no existing meaning.
+
+The approved added sense is maintained in `data/lexicon_expansions.csv` under ID `LX-LPC1-0001`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:
