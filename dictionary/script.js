@@ -606,6 +606,7 @@ function inferTypeLabel(entry, meaning) {
   if (leadingVerbGloss) return "Verb";
   if (category.includes("verb")) return "Verb";
   if (category.includes("noun")) return "Noun";
+  if (category.includes("adjective")) return "Adjective";
   if (categoryMatches(category, adjectiveCategories)) return "Adjective";
   if ((category.includes("everyday life") || category.includes("formal vocabulary") || category.includes("informal vocabulary")) && leadingNounGloss) return "Noun";
   if (categoryMatches(category, conceptNounCategories) && !startsWithVerbInfinitive && !leadingVerbGloss) return "Noun";

@@ -316,6 +316,32 @@ The Moon sense is directly supported by the Volume 4 derivation of `Lunwek` as `
 
 The approved added sense is maintained in `data/lexicon_expansions.csv` under ID `LX-LPC1-0001`.
 
+## ED-0017: Government and Civic Institutions 1
+
+Status: Approved.
+
+Approval date: 2026-09-12.
+
+Government and Civic Institutions 1 adds twenty-eight approved universal headwords for institutions, government, governing, councils, representatives, rulers, clan leaders, public officials, elections, voting, policy, decrees, permits, allocation, distribution, disputes, arbitration, citizenship, districts, borders, contracts, vetoes, and the public/private distinction.
+
+The batch introduces no new primitive roots and creates no new dictionary category. `Belor` names an organized institution generally, while `Lorbel` names government specifically and `Belthal` remains the broader condition of social or systemic order. `Lorbelaen` means to govern over time and does not replace `Varok` as an individual act of command or direction.
+
+`Khumkel` is the approved civic council headword. Established `Khumlor` remains “chosen family, circle of belonging”; the latent source-analysis possibility “council” is not exposed as a second displayed sense. `Khumkelral` and `Lorbelral` use `Ral` only for entrusted civic roles and do not authorize `-ral` as an unrestricted generic person or occupation suffix.
+
+`Kalrin` is promoted from the canonical phrase `kelka an Kalrin`, “a king's decree,” into a standalone gender-neutral ruler or sovereign headword. The source phrase remains unchanged. `Belvoklor` is the narrower chieftain or clan-leader role and does not automatically imply sovereignty.
+
+`Welkelthar` names the collective election process, while `Keltharaen` names one participant's formal act of voting and `Tharsharaen` remains ordinary deciding or choosing. `Lorshara`, `Thalbel`, and `Kalkel` distinguish policy, codified law, and a particular official decree. `Belrinpel` is an institutional permit and leaves `Rinpel` as the physical or authenticating seal or stamp.
+
+`Shental` and `Shentalaen` concern measured resource assignment; `Weltal` and `Weltalaen` concern delivery or division among recipients. `Kelreth` is an active dispute. `Thalkelreth` and `Thalkelrethaen` concern binding arbitration and remain distinct from `Khumelaen` relational reconciliation.
+
+`Welrin` is a citizen, `Welrinath` is citizenship, `Felbelor` is an administrative district, and `Lorzhir` is a jurisdictional border. `Lorzhir` does not replace `Lianrethxar` an anomaly boundary or `Ndara` a physical wall. `Kelvok` is a stated formal contract and remains distinct from `Nkuvath` an intimate or informal promise or bond of trust.
+
+`Verkalkelaen` means institutional veto only; ordinary refusal remains `Ka` or `Verka`. `Weleth` and `Kaweleth` establish public and private as an access distinction. `Kaweleth` does not mean hidden, mysterious, selfish, secretive, or antisocial.
+
+All twenty-eight entries are universal overall, so national origin and national usage remain blank. The primary forms are unsmoothed. `Khumakel`, `Khumakelral`, `Belvokalor`, `Kalakel`, `Belrinapel`, `Thalakelreth`, and `Thalakelrethaen` are optional searchable euphonic variants of their corresponding entries and do not count as separate headwords.
+
+The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-GCI1-0001` through `LX-GCI1-0028`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:
