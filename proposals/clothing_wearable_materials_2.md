@@ -1,6 +1,6 @@
 # Clothing, Wearable Protection, and Ordinary Materials 2
 
-Status: **Candidate review — not approved; not in canon**
+Status: **Approved and integrated — 2026-09-12**
 
 Scope: second material pass. This pass distinguishes common architectural stones, sand, specific metals, skeletal and marine materials, wax, resin, colorants, and alloy. It excludes materials already covered by `Morl` stone, `Mormek` worked stone, `Kren` metal, `Tir` copper, `Tirkal` bronze, `Lem` clay, `Lemath` ceramic, `Selmek` glass, `Zem` wood, `Rask` hide, `Mekrask` leather, `Olan` oil, and `Morolan` fat.
 
@@ -117,4 +117,3 @@ Reconsider tallow when candle, wick, soap, grease, rendering or melting, and hou
 4. `Kavolan` treats wax as an enduring, shapeable oil-like substance. It must remain distinct from liquid oil and ordinary fat in actual scene use.
 5. `Hir` adds a general color root because the language currently has individual color adjectives but no ordinary category for hue, pigment, or dyeing.
 6. Tallow is explicitly deferred, not rejected. No Celan headword for tallow is proposed or authorized by this document.
-

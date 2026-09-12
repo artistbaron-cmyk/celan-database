@@ -224,6 +224,26 @@ The established spice glosses are clarified for ordinary conversation without al
 
 These categories describe different salient properties and therefore need not be mutually exclusive in the physical world; the selected noun tells the listener which property matters in the conversation. `Jelkor` remains the universal umbrella term for a spice or seasoning. `Xilvar` also retains its separately established “Fragmented Salt” sense unchanged. The original Volume 2 glosses remain preserved in the source-facing lexicon, while the app-facing dictionary displays these approved clarifications.
 
+## ED-0012: Clothing, Wearable Protection, and Ordinary Materials 1–2
+
+Status: Approved.
+
+Approval date: 2026-09-12.
+
+Clothing, Wearable Protection, and Ordinary Materials 1 and 2 add forty-four approved universal headwords. Pass 1 covers general garments and wearing, climate-specific footwear and outerwear, head and face coverings, straps, harnesses, mechanical fasteners, gloves, goggles, visors, uniforms, fibers, fur, wool, linen, silk, canvas, oilskin, waterproofing, insulation, and energetic conductivity. Pass 2 covers common architectural stone classes, sand, sandstone, iron, bone, crystal, coral, shell, wax, resin, color, pigment or dye material, dyeing, and alloy.
+
+`Rema`, `Sura`, `Sadar`, `Eran`, `Osar`, and `Hir` are approved primitive roots with only the meanings and derivatives explicitly listed in these batches. `Dresh` is approved as the latent crystal-material root supported by the established `Dreshal` crystal-device usage; this promotion does not alter `Dreshal` or authorize an automatic family. No other unlisted derivatives are authorized.
+
+`Morl` remains the general stone or mountain term and `Mormek` remains worked masonry stone. `Kalmorl`, `Krezmorl`, `Brosmorl`, and `Sadarmorl` lexicalize granite, basalt, slate, and sandstone through narrow whole-word meanings; they do not make the contributing roots scientifically diagnostic. `Kren` remains metal generally, `Tir` copper, and `Tirkal` bronze. `Belkren` supplies alloy as the general class of deliberately combined metals, with bronze as one possible subtype.
+
+`Zorxar` names an animal-made shell and its material, while `Xarnesh` remains a shellfish. `Neshmorl` names coral across the living colony and the hard mineral structure or material it produces. `Kavolan` wax remains distinct from `Olan` oil and `Morolan` fat. `Verdbel` resin remains distinct from general sap, oil, and manufactured adhesive. `Hir`, `Hirmor`, and `Hiraen` distinguish color, colorant material, and the act of imparting color without replacing established individual color adjectives.
+
+Tallow is deliberately deferred rather than rejected. `Morolan` continues to cover ordinary fat; a separate tallow headword should be reconsidered with candles, wicks, soap, grease, rendering, and household fuel. No tallow headword is approved by this decision.
+
+All forty-four entries are universal overall, so national origin and national usage remain blank. The primary forms are unsmoothed constructions. `Velpralatrakor`, `Pelvelatrakor`, `Lorinshalaxar`, `Remashalaxar`, `Verdeselzhir`, `Kalamorl`, `Krezamorl`, `Brosamorl`, `Neshamorl`, `Verdabel`, and `Belakren` are optional euphonic variants of their corresponding entries and do not count as separate headwords.
+
+The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-CWM1-0001` through `LX-CWM1-0028` and `LX-CWM2-0001` through `LX-CWM2-0016`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:

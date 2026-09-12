@@ -1,6 +1,6 @@
 # Clothing, Wearable Protection, and Ordinary Materials 1
 
-Status: **Candidate review — not approved; not in canon**
+Status: **Approved and integrated — 2026-09-12**
 
 Scope: first of two category passes. This pass establishes general clothing, climate-specific footwear and outerwear, worn protection, fasteners, textile materials, oilskin, and three material-performance adjectives. Pass 2 will address stone, metals, bone, crystal, coral, shell, wax, resin, pigment, tallow, and alloys.
 
@@ -116,7 +116,8 @@ Why they were not sufficient: fur is hair attached to or taken from an animal, n
 5. `Shanartheth` generalizes the established passing/transfer root `Shan` into material insulation. This is semantically useful across heat, sound, electricity, and magic, but should be approved only if “protection against passage” feels like a natural Celan technical metaphor.
 6. `Olanbelrin` reuses the universal `Olan` oil root approved in Food, Agriculture, and Preservation 2. `Olan` remains one shared headword and is not counted again in this clothing batch.
 
-## Deferred to Pass 2
+## Addressed in Pass 2
 
-- Granite, basalt, slate, sandstone, iron, bone, crystal, coral, shell, wax, resin, dye or pigment, tallow, and alloy.
-- Approval of this candidate pass would not approve those material terms or any unlisted derivatives of `Rema` or `Sura`.
+- Granite, basalt, slate, sandstone, iron, bone, crystal, coral, shell, wax, resin, dye or pigment, and alloy are addressed by the separately approved Pass 2.
+- Tallow remains deliberately deferred to a later lighting, soap, fuel, and material-processing review.
+- Approval authorizes only the listed derivatives of `Rema` and `Sura`, not automatic word families.
