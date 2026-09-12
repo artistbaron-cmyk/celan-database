@@ -244,6 +244,44 @@ All forty-four entries are universal overall, so national origin and national us
 
 The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-CWM1-0001` through `LX-CWM1-0028` and `LX-CWM2-0001` through `LX-CWM2-0016`.
 
+## ED-0013: Tools and Machines 1
+
+Status: Approved.
+
+Approval date: 2026-09-12.
+
+Tools and Machines 1 adds forty approved universal headwords for general tools and machines, repair, crushing and cutting implements, liquid vessels, seals, writing and navigation instruments, measurement and sensing, energy production and storage, pipes, wire, filtration, pumps, valves, and foundational mechanical parts.
+
+The batch introduces no new primitive roots. It deliberately reuses the active source-established and previously approved root inventory. `Karmek` means one general working tool and remains distinct from `Karvek` a portable toolkit. `Kalmek` is a machine as a connected force- or energy-transforming system, while `Kormek` is specifically an engine or motor serving as a machine's functional power-to-motion core. `Felmek` is a constructed component and does not replace `Pralfel` as an ingredient in a prepared mixture.
+
+`Zhaelpralaen` names repair of objects and systems and does not replace bodily healing. `Kesmek` is a detecting device, while `Kes` remains a person's act of noticing. `Zhelkor`, `Zhelkav`, and established `Zhelbel` distinguish energy generation, storage, and distribution. `Selshan` and `Selshanaen` are limited to selective physical-material passage and do not automatically extend to software, social, legal, or cognitive filtering.
+
+`Shanmek` covers enclosed pipes and protective conduits. `Krenzhir` covers metallic wire and conductive cable while leaving `Zhirin` rope or cord, `Zhirbel` strap, and `Belzhir` communications network unchanged. `Jekkal` is a mechanical stored-force spring and does not replace `Awek` natural water spring or `Zhaelor` the blooming season.
+
+All forty entries are universal overall, so national origin and national usage remain blank. The primary forms are unsmoothed. `Drenakavvek`, `Krezadrenvek`, `Belapralmek`, `Jekazhirvek`, `Krenazhir`, `Korewek`, `Korowek`, `Jekemek`, `Ravekar`, and `Wekarav` are optional searchable euphonic variants of their corresponding entries and do not count as separate headwords.
+
+The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-TM1-0001` through `LX-TM1-0040`.
+
+## ED-0014: Transportation and Vehicle Operations 1
+
+Status: Approved.
+
+Approval date: 2026-09-12.
+
+Transportation and Vehicle Operations 1 adds thirty-five approved universal headwords for general vehicles, common land, rail, air, underwater, cable-supported, and flat watercraft classes, riding and vehicle control, boarding and disembarking, repeated travel, parking, speed control, towing, routes, cargo, passengers, operators, pilots, and traffic.
+
+The batch introduces no new primitive roots. `Varvek` is the general constructed transport carrier and remains distinct from `Sharavok`, a traveling company or caravan. `Mahrvek` remains the established general boat or ship. `Felvek`, `Morvek`, `Pralvek`, `Kormekvek`, `Delkormek`, `Delwek`, `Zhirvek`, `Belzhirvek`, `Shalilvek`, `Eshvek`, `Mahrxarvek`, `Krenzhirvek`, and `Mahrpral` are narrow whole-word vehicle meanings; their contributing roots do not become automatic vehicle classifiers beyond these approved entries.
+
+`Zhirvek` is one railcar, `Belzhirvek` is an operating train, and `Zhirshara` is the fixed railway or rail route. The separately discussed derivative `Zhirsharaen` is explicitly not approved and is not added; ordinary travel by rail remains expressible through established motion syntax with `Zhirshara` or `Belzhirvek`.
+
+`Vekvaraen` means traveling while carried rather than operating the conveyance. `Kormekaen` concerns powered operation, while `Lorvekaen` concerns directional control. `Anvekaen` and `Thalvekaen` form the board/disembark pair. `Dorvekaen` covers deliberate parking or berthing without naming the stopping location. `Jorvar`, `Jorvaraen`, `Velvaraen`, and `Belvekaen` distinguish speed, acceleration, deceleration, and controlled braking. `Ravvekaen` uses the approved physical-pull sense of `Rav` for towing.
+
+`Vekmor`, `Vekin`, `Lorvekral`, and `Eshlorral` distinguish cargo, passenger or rider, general transport operator, and pilot. `Welvek` names interacting collective traffic rather than parked vehicles, and `Felshara` names one designated lane rather than an entire road or railway.
+
+All thirty-five entries are universal overall, so national origin and national usage remain blank. The primary forms are unsmoothed constructions. `Varavek`, `Kormekavek`, `Delewek`, `Delowek`, `Krenazhirvek`, `Lorvekaral`, and `Eshloraral` are optional searchable euphonic variants of their corresponding entries and do not count as separate headwords.
+
+The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-TVO1-0001` through `LX-TVO1-0035`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:
