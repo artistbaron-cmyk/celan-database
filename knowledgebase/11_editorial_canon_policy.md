@@ -202,17 +202,17 @@ Status: Approved.
 
 Approval date: 2026-09-11.
 
-Food, Agriculture, and Preservation 1 and 2 add sixty-two approved universal headwords. Pass 1 covers cultivation, managed growing places, foraging, hunting, fishing, livestock, milk, gathered plant materials, nectar, honey, seasoning, infusions, and beverages. Pass 2 covers wheat, flour, dough, oil, fat, ingredients, recipes, cooking methods, brewing, distillation, fermentation, smoke, drying, curing, cold preservation, freshness, organic decay, raw and cooked states, and feeding.
+Food, Agriculture, and Preservation 1 and 2 add sixty-three approved universal headwords. Pass 1 covers cultivation, managed growing places, foraging, hunting, fishing, livestock, milk, gathered plant materials, nectar, honey, seasoning, infusions, and beverages. Pass 2 covers wheat, flour, dough, oil, fat, ingredients, recipes, cooking methods, brewing, distillation, fermentation, smoke, drying, curing, cold preservation, freshness, organic decay, raw and cooked states, and feeding.
 
 `Sov`, `Gav`, `Nesh`, `Zor`, `Nelar`, `Saren`, `Olan`, `Mura`, and `Ruvan` are approved primitive roots with only the meanings and derivatives explicitly listed in these two batches. Their approval does not authorize automatic word families.
 
-`Gav` is approved as a technical derivational root but not as an independent dictionary headword. Its approved lexical entries are `Gavaen` “to hunt” and `Gavral` “hunter.” Its technical root description remains intentionally hidden from the ordinary dictionary display.
+`Gav` is approved as an independent Noun meaning “a hunt; the purposeful pursuit of living quarry.” Its related approved lexical entries remain `Gavaen` “to hunt” and `Gavral` “hunter.” This is an explicit exception to the intentional hiding of technical-only roots; it does not expose any other suppressed root.
 
 The shortened everyday cooking and preservation forms `Xarkrezaen`, `Eshkrezaen`, `Pelkrezaen`, `Olankrezaen`, `Eshdrenaen`, `Drenpralaen`, `Muraen`, `Vindrenaen`, and `Livaraen` are canonical. Their longer discarded candidate constructions are not aliases or euphonic variants. This records the approved preference for speakable lexicalization when a repeated domain root would make an ordinary word unnecessarily long; it does not impose a new absolute syllable limit on compounds.
 
-All sixty-two entries are universal overall, so national origin and national usage remain blank. Primary headwords use their unsmoothed constructions, while explicitly listed smoother forms are optional searchable variants and do not count as separate headwords.
+All sixty-three entries are universal overall, so national origin and national usage remain blank. Primary headwords use their unsmoothed constructions, while explicitly listed smoother forms are optional searchable variants and do not count as separate headwords.
 
-The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-FAP1-0001` through `LX-FAP1-0030` and `LX-FAP2-0001` through `LX-FAP2-0032`.
+The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-FAP1-0001` through `LX-FAP1-0031` and `LX-FAP2-0001` through `LX-FAP2-0032`.
 
 ## NotebookLM Standardization Text
 

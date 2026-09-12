@@ -40,6 +40,7 @@ All candidates are universal Celan. National origin and national usage remain bl
 | 28 | `Jelkor` | /jehl-kohr/ | Noun | Spice or seasoning; a concentrated source of flavor added in a relatively small amount | `Jel` flavor or zest + `Kor` concentrated source or core | — |
 | 29 | `Fennildren` | /fehn-neel-drehn/ | Noun | Tea or herbal infusion; a drink made by steeping plant material in water | `Fennil` leaf or herb + `Dren` liquid | `Fenniladren` /fehn-nee-lah-drehn/ |
 | 30 | `Emildren` | /eh-meel-drehn/ | Noun | A beverage; prepared liquid intended for drinking | `Emil` food or meal + `Dren` liquid | `Emiladren` /eh-mee-lah-drehn/ |
+| 31 | `Gav` | /gahv/ | Noun | A hunt; the purposeful pursuit of living quarry | Approved primitive `Gav` lexicalized as an independent noun | — |
 
 ## Proposed new primitives
 
@@ -55,7 +56,7 @@ Why they were not sufficient: `Mor` and `terra` include uncultivated ground; `Ba
 
 Closest roots considered: `Shara` following a route or person, `Rath` enemy, `Veth` hiddenness, and `Ral` watching or stalking.
 
-Why they were not sufficient: hunting is not merely following, concealment, watching, or treating an animal as an enemy. `Gav` isolates purposeful tracking and pursuit of living quarry. The proposed headwords are the verb `Gavaen` and role noun `Gavral`; the technical root does not require a separate dictionary category.
+Why they were not sufficient: hunting is not merely following, concealment, watching, or treating an animal as an enemy. `Gav` isolates purposeful tracking and pursuit of living quarry. It is independently lexicalized as the noun “a hunt,” alongside the verb `Gavaen` and role noun `Gavral`.
 
 ### `Nesh` — aquatic creature
 
@@ -109,6 +110,7 @@ Why they were not sufficient: none distinguishes sweet liquid produced directly 
 | `Kesbrenaen` | searching beneath snow for edible plants | gathering wild herbs and nuts along a journey |
 | `Gavaen` | hunting mountain game for food | tracking a dangerous animal near livestock |
 | `Gavral` | asking a hunter to identify tracks | waiting for the hunters to return with food |
+| `Gav` | locating an organized hunt in the mountains | waiting during a hunt without confusing it with the hunter |
 | `Nesh` | identifying a fish caught in a lake | noticing an unfamiliar aquatic creature without knowing its species |
 | `Neshbrenaen` | fishing through lake ice | harvesting aquatic creatures from a reef or river |
 | `Neshbrenral` | a fisher selling the day's catch | an aquatic harvester repairing gear before departure |

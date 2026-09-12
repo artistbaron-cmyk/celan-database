@@ -143,6 +143,6 @@ Why they were not sufficient: rot is a positive physical process of uncontrolled
 
 ## Relationship to Pass 1
 
-- Pass 1 contains 30 approved headwords; Pass 2 contains 32 approved headwords. Together they add 62 canonical headwords.
+- Pass 1 contains 31 approved headwords; Pass 2 contains 32 approved headwords. Together they add 63 canonical headwords.
 - The two documents form one semantic category but retain separate batch identities for traceability.
 - Their approval does not make any optional euphonic form a separate headword or authorize any unlisted derivative of the approved roots.
