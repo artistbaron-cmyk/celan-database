@@ -93,7 +93,10 @@ const PRONUNCIATION_OVERRIDES = {
   "lian'lia": "/lee-ahn-lee-ah/"
 };
 
+const RESULT_BATCH_SIZE = 100;
+
 const state = {
+  visibleResultCount: RESULT_BATCH_SIZE,
   lexicon: [],
   wordEntries: [],
   groupedEntries: [],
@@ -109,6 +112,7 @@ const state = {
   selectedRuleId: null,
   activeLetter: "ALL",
   activeWordType: "ALL",
+  searchMode: "all",
   activeView: "dictionary",
   forgeLastSubmitted: "",
   forgeIsLoading: false
@@ -175,6 +179,9 @@ const els = {
   rulesView: document.getElementById("rulesView"),
   forgeView: document.getElementById("forgeView"),
   searchInput: document.getElementById("searchInput"),
+  loadMoreResults: document.getElementById("loadMoreResults"),
+  searchMode: document.getElementById("searchMode"),
+  searchHelp: document.getElementById("searchHelp"),
   wordTypeFilter: document.getElementById("wordTypeFilter"),
   ruleSearchInput: document.getElementById("ruleSearchInput"),
   forgeForm: document.getElementById("forgeForm"),
@@ -3472,6 +3479,7 @@ function buildGroupedEntries(entries) {
       ...group,
       uses,
       preview,
+      englishSenses: [...uses, ...group.entries.flatMap(buildUses)],
       searchText: group.entries.map((entry) => [
         entry.celan_term,
         entry.english_meaning,
@@ -3650,13 +3658,52 @@ function buildFamilyIndex(groupedEntries, expandedRoots, roots) {
   return index;
 }
 
+function normalizeEnglishSearch(value) {
+  return (value || "").normalize("NFKC").toLowerCase()
+    .replace(/[’']/g, "").replace(/[^\p{L}\p{N}]+/gu, " ").trim().replace(/\s+/g, " ");
+}
+
+function englishMeaningScore(meaning, query) {
+  const q = normalizeEnglishSearch(query).replace(/^to /, "");
+  if (!q) return 0;
+  const exact = meaning.split(/[;,/]|\s+or\s+/i).some((sense) =>
+    normalizeEnglishSearch(sense.replace(/\([^)]*\)/g, "")).replace(/^to /, "") === q);
+  if (exact) return 3;
+  const text = normalizeEnglishSearch(meaning);
+  return (` ${text} `).includes(` ${q} `) ? 2 : 0;
+}
+
+function findEnglishMatches(group, query, type = "ALL") {
+  return (group.englishSenses || []).filter((sense) => type === "ALL" || sense.type === type)
+    .map((sense) => ({ ...sense, score: englishMeaningScore(sense.meaning, query) }))
+    .filter((sense) => sense.score > 0).sort((a, b) => b.score - a.score);
+}
+
+function setSearchMode(mode) {
+  state.searchMode = mode;
+  els.searchMode.value = mode;
+  state.activeLetter = "ALL";
+  els.azBar.hidden = mode === "english";
+  els.azBar.classList.toggle("hidden", mode === "english");
+  els.searchInput.placeholder = mode === "english" ? "Enter an English word or phrase…" : "Search Celan term, meaning, or category...";
+  els.searchHelp.textContent = mode === "english"
+    ? "Exact meanings first, then definitions containing your word or phrase. Searches recorded meanings; unlisted synonyms may need different wording."
+    : "Search all fields, or choose English → Celan to look up an English meaning.";
+  renderAzBar();
+  applyFilters();
+}
+
 function applyFilters() {
+  state.visibleResultCount = RESULT_BATCH_SIZE;
   const q = els.searchInput.value.toLowerCase().trim();
   const selectedType = state.activeWordType;
   state.filtered = state.groupedEntries.filter((group) => {
-    if (state.activeLetter !== "ALL") {
+    if (state.searchMode !== "english" && state.activeLetter !== "ALL") {
       const starts = azBucket(group.term) === state.activeLetter;
       if (!starts) return false;
+    }
+    if (state.searchMode === "english" && q) {
+      return findEnglishMatches(group, q, selectedType).length > 0;
     }
     if (selectedType !== "ALL") {
       const matchesType = (group.uses || []).some((use) => (use.type || "").trim() === selectedType);
@@ -3664,18 +3711,41 @@ function applyFilters() {
     }
     return !q || group.searchText.includes(q);
   });
-  state.filtered.sort((a, b) => (a.term || "").localeCompare(b.term || ""));
+  const scores = new Map(state.searchMode === "english" && q
+    ? state.filtered.map((group) => [group.id, findEnglishMatches(group, q, selectedType)[0].score]) : []);
+  state.filtered.sort((a, b) => (scores.get(b.id) || 0) - (scores.get(a.id) || 0)
+    || (a.term || "").localeCompare(b.term || ""));
   renderList();
 }
 
-function renderList() {
-  els.resultList.innerHTML = "";
-  els.resultCount.textContent = `${state.filtered.length} results`;
-  state.filtered.slice(0, 400).forEach((group) => {
+function renderList(appendFrom = 0) {
+  if (!appendFrom) els.resultList.innerHTML = "";
+  const shown = Math.min(state.visibleResultCount, state.filtered.length);
+  const remaining = state.filtered.length - shown;
+  els.resultCount.textContent = `Showing ${shown} of ${state.filtered.length} results`;
+  els.loadMoreResults.hidden = remaining === 0;
+  els.loadMoreResults.textContent = `Load ${Math.min(RESULT_BATCH_SIZE, remaining)} more`;
+  if (!state.filtered.length) {
+    const message = document.createElement("li");
+    message.textContent = state.searchMode === "english"
+      ? "No matching English meaning. Try another word or phrase, or choose All word types."
+      : "No matches. Try another search or clear your filters.";
+    els.resultList.appendChild(message);
+  }
+  state.filtered.slice(appendFrom, shown).forEach((group) => {
     const li = document.createElement("li");
     const btn = document.createElement("button");
     btn.className = group.id === state.selectedId ? "active" : "";
-    btn.innerHTML = `<span class="term">${group.term}</span><span class="sub">${group.preview || "No gloss"}</span>`;
+    const matches = state.searchMode === "english"
+      ? findEnglishMatches(group, els.searchInput.value, state.activeWordType) : [];
+    const preview = matches.length ? [...new Set(matches.map((sense) => `${sense.type}: ${sense.meaning}`))].join(" ; ") : group.preview;
+    const term = document.createElement("span");
+    term.className = "term";
+    term.textContent = group.term;
+    const gloss = document.createElement("span");
+    gloss.className = "sub";
+    gloss.textContent = preview || "No gloss";
+    btn.append(term, gloss);
     btn.onclick = () => {
       state.selectedId = group.id;
       renderList();
@@ -3928,6 +3998,9 @@ function findBestLexiconMatch(rootTerm) {
 }
 
 function jumpToWordFamily(rootTerm) {
+  state.activeWordType = "ALL";
+  els.wordTypeFilter.value = "ALL";
+  setSearchMode("all");
   state.activeLetter = "ALL";
   renderAzBar();
   els.searchInput.value = rootTerm;
@@ -3935,6 +4008,7 @@ function jumpToWordFamily(rootTerm) {
   const match = findBestLexiconMatch(rootTerm);
   if (match) {
     state.selectedId = match.id;
+    revealSelectedResult();
     renderList();
     renderDetail(match);
   }
@@ -3943,13 +4017,23 @@ function jumpToWordFamily(rootTerm) {
 function jumpToHeadword(headword) {
   const match = state.groupedEntries.find((group) => group.id === normalizeHeadword(headword));
   if (!match) return;
+  state.activeWordType = "ALL";
+  els.wordTypeFilter.value = "ALL";
+  setSearchMode("all");
   state.activeLetter = "ALL";
   renderAzBar();
   els.searchInput.value = "";
   applyFilters();
   state.selectedId = match.id;
+  revealSelectedResult();
   renderList();
   renderDetail(match);
+}
+
+function revealSelectedResult() {
+  const index = state.filtered.findIndex((group) => group.id === state.selectedId);
+  state.visibleResultCount = Math.max(state.visibleResultCount,
+    Math.ceil((index + 1) / RESULT_BATCH_SIZE) * RESULT_BATCH_SIZE);
 }
 
 function renderFamilyLinks(items, attributeName) {
@@ -4113,6 +4197,12 @@ async function init() {
 }
 
 els.searchInput.addEventListener("input", applyFilters);
+els.loadMoreResults.addEventListener("click", () => {
+  const shown = Math.min(state.visibleResultCount, state.filtered.length);
+  state.visibleResultCount += RESULT_BATCH_SIZE;
+  renderList(shown);
+});
+els.searchMode.addEventListener("change", () => setSearchMode(els.searchMode.value));
 els.wordTypeFilter?.addEventListener("change", () => {
   state.activeWordType = els.wordTypeFilter.value || "ALL";
   applyFilters();

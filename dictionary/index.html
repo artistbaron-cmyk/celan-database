@@ -22,11 +22,16 @@
 
     <section id="dictionaryView">
       <section class="controls">
-        <input id="searchInput" type="search" placeholder="Search Celan term, meaning, or category..." />
+        <select id="searchMode" aria-label="Search direction">
+          <option value="all">All dictionary fields</option>
+          <option value="english">English → Celan</option>
+        </select>
+        <input id="searchInput" type="search" aria-label="Search dictionary" aria-describedby="searchHelp" placeholder="Search Celan term, meaning, or category..." />
         <select id="wordTypeFilter" aria-label="Filter by word type">
           <option value="ALL">All word types</option>
         </select>
       </section>
+      <p id="searchHelp" class="search-help">Search all fields, or choose English → Celan to look up an English meaning.</p>
 
       <nav id="azBar" class="az-bar" aria-label="A to Z term filter"></nav>
 
@@ -34,9 +39,10 @@
         <aside class="panel list-panel">
           <div class="panel-head">
             <h2>Lexicon</h2>
-            <span id="resultCount">0</span>
+            <span id="resultCount" role="status" aria-live="polite">0</span>
           </div>
           <ul id="resultList"></ul>
+          <button id="loadMoreResults" class="load-more-results" type="button" hidden>Load more</button>
         </aside>
 
         <section class="panel detail-panel">

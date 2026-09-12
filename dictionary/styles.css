@@ -64,7 +64,7 @@ body {
 
 .controls {
   display: grid;
-  grid-template-columns: minmax(0, 1fr) 220px;
+  grid-template-columns: 200px minmax(0, 1fr) 220px;
   gap: 10px;
   margin-bottom: 8px;
 }
@@ -72,6 +72,9 @@ body {
 .rules-controls {
   margin-bottom: 10px;
 }
+
+.search-help { color: var(--muted); font-size: 14px; margin: 8px 0 12px; }
+.load-more-results { margin: 12px; padding: 10px 16px; cursor: pointer; }
 
 .panel.rules-intro {
   padding: 14px 16px;
