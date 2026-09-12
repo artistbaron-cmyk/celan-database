@@ -206,7 +206,7 @@ Food, Agriculture, and Preservation 1 and 2 add sixty-three approved universal h
 
 `Sov`, `Gav`, `Nesh`, `Zor`, `Nelar`, `Saren`, `Olan`, `Mura`, and `Ruvan` are approved primitive roots with only the meanings and derivatives explicitly listed in these two batches. Their approval does not authorize automatic word families.
 
-`Gav` is approved as an independent Noun meaning “a hunt; the purposeful pursuit of living quarry.” Its related approved lexical entries remain `Gavaen` “to hunt” and `Gavral` “hunter.” This is an explicit exception to the intentional hiding of technical-only roots; it does not expose any other suppressed root.
+`Gav` is approved as an independent Noun meaning “a hunt; the purposeful pursuit of living quarry.” Its related approved lexical entries remain `Gavaen` “to hunt” and `Gavral` “hunter.” The ordinary noun now represents the root in the dictionary, while the separate technical root-analysis description remains intentionally suppressed. `Shan` remains the only approved exception in which a root description is displayed as an additional lexical sense.
 
 The shortened everyday cooking and preservation forms `Xarkrezaen`, `Eshkrezaen`, `Pelkrezaen`, `Olankrezaen`, `Eshdrenaen`, `Drenpralaen`, `Muraen`, `Vindrenaen`, and `Livaraen` are canonical. Their longer discarded candidate constructions are not aliases or euphonic variants. This records the approved preference for speakable lexicalization when a repeated domain root would make an ordinary word unnecessarily long; it does not impose a new absolute syllable limit on compounds.
 
