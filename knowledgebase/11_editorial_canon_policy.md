@@ -282,6 +282,26 @@ All thirty-five entries are universal overall, so national origin and national u
 
 The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-TVO1-0001` through `LX-TVO1-0035`.
 
+## ED-0015: Built Spaces and Public Infrastructure 1
+
+Status: Approved.
+
+Approval date: 2026-09-12.
+
+Built Spaces and Public Infrastructure 1 adds forty approved universal headwords for structural anatomy, rooms and civic places, passage and transport infrastructure, water infrastructure, and ordinary constructed features. The batch distinguishes buildings, walls, roofs, floors, ceilings, windows, screens, foundations, pillars, storeys, rooms, halls, courtyards, plazas, balconies, libraries, laboratories, observatories, data centers, control rooms, workshops, bridges, roads, stairs, tunnels, transit tubes, stations, platforms, elevators, docks, harbors, garages, parking areas, canals, aqueducts, towers, domes, fountains, furniture, and fixed vertical levels.
+
+`Ndara`, `Njor`, and `Ndavi` are approved primitive roots with only the meanings and derivatives explicitly listed in this batch. `Nd-`, `Nj-`, and the inherited `Mb-` are articulated consonant clusters: every written consonant contributes audibly and must not be treated as decorative or silent. Approval of these roots does not authorize automatic word families.
+
+`Mbalanmor` is the literal architectural pillar or column. It remains a separate headword and does not add a physical pillar sense to established `Mbalan`, whose ordinary meaning remains a person relied upon as a pillar of the community. `Drokav` remains the cistern or protected water reserve; no duplicate reservoir word is added. `Awekshara` remains a spring-fed canal beneath the generic `Droshara`. `Liankavor` remains an archive and is not absorbed by `Velkelor` library. `Thalorimor` remains a specialized lightning-management structure beneath the generic `Eshmekor` tower.
+
+`Varbelor` covers both station and terminal at the ordinary level. `Vekxaror` and `Vekpralor` distinguish an enclosed vehicle shelter from a designated parking area. `Nethmek` is the collective category furniture while established `Nethor`, `Nethlor`, and `Pralor` remain specific furnishings.
+
+All forty entries are universal overall, so national origin and national usage remain blank. The primary forms are unsmoothed. `Eshaxar`, `Morlapral`, `Aneshaxar`, `Woraxaror`, `Welapralor`, `Mekeshapral`, `Shenapralor`, `Belazhirakavor`, `Mekapralor`, `Brosashara`, `Morlashan`, `Eshapralor`, `Mahrapralor`, `Mahraxaror`, `Vekaxaror`, `Vekapralor`, `Wekaxar`, and `Nethamek` are optional searchable euphonic variants of their corresponding entries and do not count as separate headwords.
+
+The approval applies the no-silent-letter requirement to this approved batch without silently reanalyzing or respelling inherited `th` words elsewhere in the language. A language-wide phonetic review of inherited `th` remains a separate possible editorial task.
+
+The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-BSPI1-0001` through `LX-BSPI1-0040`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:
