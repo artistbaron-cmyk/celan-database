@@ -10,6 +10,11 @@ The app currently includes:
 
 The broader project also includes structured data files, phrase builder support materials, concept notes, evaluation prompts, and project documentation.
 
+## Language Design
+
+- [Celan Language Design Lineage](docs/celan_language_design_lineage.md)
+  - Creator-facing explanation of the real-world linguistic, musical, contact-language, and anthropological systems that informed Celan.
+
 ## Main Folders
 
 - `dictionary/`
@@ -39,4 +44,3 @@ dictionary/index.html
 ```
 
 in a browser to use the current local app.
-

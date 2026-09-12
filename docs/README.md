@@ -26,6 +26,9 @@ The goal is not to restate every file. The goal is to make the project easier to
 - `maintenance_notes.md`
   - Practical notes about how to update the system without muddying it.
 
+- `celan_language_design_lineage.md`
+  - The creator-facing explanation of Celan's five real-world design pillars, Day One contact formation, and constraints for future language development.
+
 ## Related docs
 
 - Phrase Builder-specific notes still live in:

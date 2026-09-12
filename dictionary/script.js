@@ -656,10 +656,10 @@ function buildUses(entry) {
   }];
 }
 
-// These primitives now have deliberate lexical noun entries. Keep the internal
-// root records available for derivation and family analysis, but do not surface
-// their technical root descriptions as duplicate dictionary senses.
-const ROOT_ANALYSIS_SUPPRESSED_FORMS = new Set(["tesh", "riv", "num", "nol", "tov", "mav"]);
+// These primitives either have deliberate lexical entries or were approved only
+// as derivational roots. Keep the internal records available for family analysis,
+// but do not surface their technical descriptions as extra dictionary senses.
+const ROOT_ANALYSIS_SUPPRESSED_FORMS = new Set(["tesh", "riv", "num", "nol", "tov", "mav", "gav"]);
 
 function buildRootEntries(expandedRoots) {
   return expandedRoots

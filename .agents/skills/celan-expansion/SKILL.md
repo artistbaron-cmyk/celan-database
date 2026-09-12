@@ -62,6 +62,7 @@ Approval applies to the discussed entries, not to every mechanically possible de
 - Check for semantic collisions, overbroad definitions, existing synonyms, overused roots, and false derivations before recommending a term.
 - Include both source-established and user-approved created roots in every root-reuse review. A recently approved root is not secondary or invisible during later word formation.
 - A derivative deserves a headword only when its meaning or use is independently lexicalized; transparent possibility alone is insufficient.
+- A newly created primitive root may contain one or two syllables, but never more than two. Do not treat one syllable as inherently preferable: choose one or two according to semantic distinctiveness, productive usefulness, collision avoidance, and natural Celan sound. This limit applies to primitive roots, not to compounds or derived headwords.
 - Preserve source witnesses. Put approved new vocabulary in the app-facing expansion layer.
 - Domains are overlapping audit lenses. Never reject a useful Celan concept merely because it falls outside the current taxonomy.
 
