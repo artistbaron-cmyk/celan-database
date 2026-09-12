@@ -42,6 +42,7 @@ globalThis.__dictExports = {
   buildPronunciation,
   displayUsageNote,
   displayRootWordMarker,
+  displayDerivation,
   displayUses,
   normalizeHeadword
 };`;
@@ -98,6 +99,7 @@ async function main() {
     buildPronunciation,
     displayUsageNote,
     displayRootWordMarker,
+    displayDerivation,
     displayUses,
     normalizeHeadword
   } = await loadDictionaryState();
@@ -135,7 +137,9 @@ async function main() {
         related_words: relatedEntries.map((entry) => entry.term).join("; "),
         example_count: examples.length,
         source_entry_ids: group.entries.map((entry) => entry.entry_id).join("; "),
-        derivation: groupField("derivation"),
+        derivation: Array.from(new Set(group.entries
+          .map((entry) => displayDerivation(entry.derivation))
+          .filter(Boolean))).join("; "),
         origin_nation: groupField("origin_nation"),
         national_usage: groupField("national_usage"),
         variant_forms: groupField("variant_forms"),

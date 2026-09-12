@@ -40,6 +40,7 @@ globalThis.__dictExports = {
   headwordOverride,
   buildPronunciation,
   displayUsageNote,
+  displayDerivation,
   displayUses,
   normalizeHeadword
 };`;
@@ -114,6 +115,7 @@ async function main() {
     headwordOverride,
     buildPronunciation,
     displayUsageNote,
+    displayDerivation,
     displayUses,
     normalizeHeadword
   } = await loadDictionaryState();
@@ -155,7 +157,9 @@ async function main() {
         example_celan: clean(example.celan_text),
         example_translation: clean(example.translation),
         source_entry_ids: clean(group.entries.map((entry) => entry.entry_id).join("; ")),
-        derivation: groupField("derivation"),
+        derivation: clean(Array.from(new Set(group.entries
+          .map((entry) => displayDerivation(entry.derivation))
+          .filter(Boolean))).join("; ")),
         origin_nation: groupField("origin_nation"),
         national_usage: groupField("national_usage"),
         variant_forms: groupField("variant_forms"),

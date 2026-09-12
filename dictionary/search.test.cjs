@@ -19,13 +19,55 @@ const source = fs.readFileSync(path.join(__dirname, 'script.js'), 'utf8');
 vm.runInContext(source.slice(0, source.lastIndexOf('init().catch')), context);
 const run = code => vm.runInContext(code, context);
 const csv = name => fs.readFileSync(path.join(__dirname, '../data', name + '.csv'), 'utf8');
-context.datasets = Object.fromEntries(['lexicon', 'lexicon_expansions', 'roots_and_morphology', 'expanded_root_database', 'ohnosha_creatures'].map(name => [name, csv(name)]));
+context.datasets = Object.fromEntries(['lexicon', 'lexicon_expansions', 'roots_and_morphology', 'expanded_root_database', 'ohnosha_creatures', 'phrases_and_examples'].map(name => [name, csv(name)]));
 run(`const data = Object.fromEntries(Object.entries(datasets).map(([key, text]) => [key, rowsToObjects(parseCsv(text))]));
+state.phrases = data.phrases_and_examples;
 state.groupedEntries = buildGroupedEntries([
   ...data.lexicon.filter(isWordEntry), ...data.lexicon_expansions.filter(isWordEntry),
   ...buildRootEntries(data.expanded_root_database), ...buildMorphologyEntries(data.roots_and_morphology),
   ...buildSupplementalDictionaryEntries(), ...buildCreatureEntries(data.ohnosha_creatures)
 ]);`);
+assert.equal(run(`displayDerivation('New two-syllable primitive: plant-produced sweet liquid')`), '');
+assert.equal(run(`displayDerivation('New primitive Gav living-quarry pursuit + -aen')`), 'Gav living-quarry pursuit + -aen');
+assert.equal(run(`displayDerivation('Zor animal + Nelar nectar')`), 'Zor animal + Nelar nectar');
+assert.equal(run(`displayDerivation('Existing Shan passing extended grammatically')`), '');
+assert.equal(run(`displayDerivation('Latent material root promoted from established Dreshal crystal device')`), '');
+assert.equal(run(`relatedExamples(state.groupedEntries.find(group => group.id === 'nelar')).map(example => example.entry_id).join('|')`),
+  'PE-FAP1-0051|PE-FAP1-0052');
+assert.equal(run(`relatedExamples(state.groupedEntries.find(group => group.id === 'dresh')).map(example => example.entry_id).join('|')`),
+  'PE-CWM2-0015|PE-CWM2-0016');
+assert.equal(run(`state.groupedEntries.find(group => group.id === 'nelar').preview`),
+  'Noun: Nectar; a sweet liquid naturally produced by a plant, especially in flowers, that may be gathered as food');
+assert.equal(run(`state.groupedEntries.find(group => group.id === 'nelar').searchText.includes('builds words for nectar')`), false);
+assert.equal(run(`state.groupedEntries.find(group => group.id === 'nelar').searchText.includes('new two-syllable primitive')`), false);
+assert.equal(run(`expansionMetadata(state.groupedEntries.find(group => group.id === 'nelar'))`), null);
+assert.ok(run(`findEnglishMatches(state.groupedEntries.find(group => group.id === 'thal'), 'from', 'Preposition').length > 0`));
+assert.ok(run(`findEnglishMatches(state.groupedEntries.find(group => group.id === 'thal'), 'balance', 'Noun').length > 0`));
+assert.equal(run(`displayRootWordMarker(state.groupedEntries.find(group => group.id === 'thal'), displayUses(state.groupedEntries.find(group => group.id === 'thal'))[0])`), 'Root Word');
+assert.equal(run(`displayUses(state.groupedEntries.find(group => group.id === 'shan')).map(use => use.type + ':' + use.meaning).join('|')`),
+  'Verb:Passing; transfer; handoff between states|Preposition:Through or across from one side or boundary to another');
+assert.equal(run(`data.phrases_and_examples.find(example => example.entry_id === 'PE-NE1-0015').celan_text`), 'drenaen I drosel.');
+assert.equal(run(`data.phrases_and_examples.find(example => example.entry_id === 'PE-FAP2-0008').celan_text`), 'dor mekral olan an karvek.');
+assert.equal(run(`data.phrases_and_examples.find(example => example.entry_id === 'PE-CNE1-0064').celan_text`), "rakel. va aen Ya wek'aen.");
+assert.equal(run(`(() => {
+  const phrasesById = new Map(data.phrases_and_examples.map(example => [example.entry_id, example]));
+  const mismatches = [];
+  data.lexicon_expansions.forEach(entry => {
+    const forms = [entry.celan_term, ...splitIds(entry.variant_forms)]
+      .map(form => cleanAlpha(form))
+      .filter(Boolean);
+    splitIds(entry.related_entry_ids).filter(id => id.startsWith('PE-')).forEach(id => {
+      const example = phrasesById.get(id);
+      if (!example) {
+        mismatches.push(entry.celan_term + ':missing:' + id);
+        return;
+      }
+      const tokens = (example.celan_text || '').toLowerCase().match(/[a-z]+/g) || [];
+      if (!forms.some(form => tokens.includes(form))) mismatches.push(entry.celan_term + ':' + id);
+    });
+  });
+  return mismatches.join('|');
+})()`), '');
 assert.equal(run(`englishMeaningScore('To drink; sip', ' DRINK ')`), 3);
 assert.equal(run(`englishMeaningScore('Heart', 'art')`), 0);
 assert.equal(run(`englishMeaningScore('Fresh-water (noun)', 'fresh water')`), 3);
@@ -51,6 +93,19 @@ const coverage = run(`(() => {
   }
   return { headwords: state.groupedEntries.length, senses: count };
 })()`);
+assert.equal(run(`(() => {
+  const missing = [];
+  for (const group of state.groupedEntries) {
+    for (const use of displayUses(group)) {
+      const key = ((use.type || '').trim().toLowerCase() + '::' + (use.meaning || '').trim().toLowerCase());
+      const indexed = group.englishSenses.some(sense =>
+        ((sense.type || '').trim().toLowerCase() + '::' + (sense.meaning || '').trim().toLowerCase()) === key
+      );
+      if (!indexed) missing.push(group.term + ':' + key);
+    }
+  }
+  return missing.join('|');
+})()`), '');
 run(`state.activeLetter = 'Z'; els.searchInput.value = 'water'; els.searchMode.value = 'english'; els.searchMode.change();`);
 assert.equal(run(`state.activeLetter`), 'ALL');
 assert.equal(run(`els.azBar.hidden`), true);

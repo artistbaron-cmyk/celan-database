@@ -3483,6 +3483,7 @@ function buildGroupedEntries(entries) {
       if (rankDiff !== 0) return rankDiff;
       return a.meaning.localeCompare(b.meaning);
     });
+    const hasRootWord = uses.some((use) => use.rootWord);
     const isRootOnly = uses.length > 0 && uses.every((use) => use.rootWord);
     if (isRootOnly) {
       const preferredEntries = [...group.entries].sort((a, b) => {
@@ -3515,28 +3516,33 @@ function buildGroupedEntries(entries) {
     }
     const override = headwordOverride(group.term);
     if (override?.uses?.length) {
-      const hasRootWord = uses.some((use) => use.rootWord);
       uses = override.uses.map((use) => ({
         ...use,
-        rootWord: hasRootWord,
+        rootWord: false,
         sourceEntries: group.entries.map((entry) => entry.entry_id)
       }));
     }
-    const preview = uses.slice(0, 2).map((use) => {
+    const visibleUses = displayUses({ term: group.term, uses });
+    const hasVisibleLexicalEntry = group.entries.some((entry) => buildUses(entry).some((use) => !isRootUse(use)));
+    const searchableEntries = hasVisibleLexicalEntry && !headwordOverride(group.term)?.showRootSense
+      ? group.entries.filter((entry) => buildUses(entry).some((use) => !isRootUse(use)))
+      : group.entries;
+    const preview = visibleUses.slice(0, 2).map((use) => {
       return use.type ? `${use.type}: ${use.meaning}` : use.meaning;
     }).join(" ; ");
     return {
       ...group,
       uses,
+      hasRootWord,
       preview,
-      englishSenses: [...uses, ...group.entries.flatMap(buildUses)],
-      searchText: group.entries.map((entry) => [
+      englishSenses: displayUses({ term: group.term, uses: [...uses, ...group.entries.flatMap(buildUses)] }),
+      searchText: searchableEntries.map((entry) => [
         entry.celan_term,
         entry.english_meaning,
         entry.category,
         entry.original_wording,
         entry.usage_context,
-        entry.derivation,
+        displayDerivation(entry.derivation),
         entry.origin_nation,
         entry.national_usage,
         entry.variant_forms
@@ -3821,18 +3827,14 @@ function sourceIdsForGroup(group) {
         ids.add(entry.entry_id);
       }
     }
-    splitIds(entry.related_entry_ids).forEach((id) => {
-      if (/^(LX|RM|DX|DM|XR)-/i.test(id)) {
-        ids.add(id);
-      }
-    });
   });
   return ids;
 }
 
 function relatedExamples(group) {
   const entries = group.entries || [];
-  const explicitIds = Array.from(new Set(entries.flatMap((entry) => splitIds(entry.related_entry_ids)).filter((id) => id.startsWith("PE-"))));
+  const lexicalEntries = entries.filter((entry) => !/^(XR|DM)-/i.test(entry.entry_id || ""));
+  const explicitIds = Array.from(new Set(lexicalEntries.flatMap((entry) => splitIds(entry.related_entry_ids)).filter((id) => id.startsWith("PE-"))));
   const explicitExamples = state.phrases.filter((p) => explicitIds.includes(p.entry_id));
   const sourceIds = sourceIdsForGroup(group);
   const reverseLinkedExamples = state.phrases.filter((phrase) => {
@@ -4019,7 +4021,7 @@ function expansionMetadata(group) {
     .map((entry) => (entry.national_usage || "").trim())
     .filter(Boolean));
   const derivations = uniqueStrings(expansionEntries
-    .map((entry) => (entry.derivation || "").trim())
+    .map((entry) => displayDerivation(entry.derivation))
     .filter(Boolean));
   const variants = [];
 
@@ -4033,7 +4035,18 @@ function expansionMetadata(group) {
     });
   });
 
-  return { origins, nationalUses, derivations, variants };
+  const metadata = { origins, nationalUses, derivations, variants };
+  return Object.values(metadata).some((values) => values.length) ? metadata : null;
+}
+
+function displayDerivation(value) {
+  const derivation = (value || "").trim();
+  if (!derivation) return "";
+  if (!derivation.includes("+")) return "";
+
+  const primitiveNote = /^New (?:(?:one|two)-syllable )?(?:primitive(?: root)?|root)\b(?::|\s+for)?\s*/i;
+  if (!primitiveNote.test(derivation)) return derivation;
+  return derivation.replace(primitiveNote, "").trim();
 }
 
 function findBestLexiconMatch(rootTerm) {
@@ -4120,7 +4133,7 @@ function displayRootWordMarker(group, use) {
   if (headwordOverride(group.term)?.showRootSense) {
     return isRootUse(use) ? "Root Word" : "";
   }
-  return group.uses.some((candidate) => candidate.rootWord) ? "Root Word" : "";
+  return group.hasRootWord || group.uses.some((candidate) => candidate.rootWord) ? "Root Word" : "";
 }
 
 function displayUsageNote(use) {
