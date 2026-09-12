@@ -214,6 +214,16 @@ All sixty-three entries are universal overall, so national origin and national u
 
 The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-FAP1-0001` through `LX-FAP1-0031` and `LX-FAP2-0001` through `LX-FAP2-0032`.
 
+## ED-0011: Conversational Spice Distinctions
+
+Status: Approved.
+
+Approval date: 2026-09-12.
+
+The established spice glosses are clarified for ordinary conversation without altering their headwords or erasing their source wording. `Belar` is a blending spice classified by its function of uniting, balancing, or mellowing flavors. `Belmor` is a root spice classified by its botanical source in a plant root or rhizome. `Jekvor` is a spiraling spice classified by its curled, coiled, or twisted physical form. `Jelvor` is a zesty spice classified by its bright, sharp, lively flavor. `Xilvar` as hidden spice is classified by the deliberate concealment of its composition or preparation.
+
+These categories describe different salient properties and therefore need not be mutually exclusive in the physical world; the selected noun tells the listener which property matters in the conversation. `Jelkor` remains the universal umbrella term for a spice or seasoning. `Xilvar` also retains its separately established “Fragmented Salt” sense unchanged. The original Volume 2 glosses remain preserved in the source-facing lexicon, while the app-facing dictionary displays these approved clarifications.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:

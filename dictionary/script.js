@@ -3385,6 +3385,56 @@ const HEADWORD_DISPLAY_OVERRIDES = {
       }
     ]
   },
+  belar: {
+    uses: [
+      {
+        type: "Noun",
+        meaning: "A blending spice; a seasoning used primarily to unite, balance, or mellow several flavors in a dish",
+        usage: "The source gloss “Binding spice” is preserved and clarified by culinary function."
+      }
+    ]
+  },
+  belmor: {
+    uses: [
+      {
+        type: "Noun",
+        meaning: "A root spice; a seasoning made from the root or rhizome of a plant",
+        usage: "The source gloss “Root Spice” is preserved and clarified by botanical source."
+      }
+    ]
+  },
+  jekvor: {
+    uses: [
+      {
+        type: "Noun",
+        meaning: "A spiraling spice; a seasoning recognizable by a curled, coiled, or twisted physical form",
+        usage: "The source gloss “Spiraling spice” is preserved and clarified by physical form."
+      }
+    ]
+  },
+  jelvor: {
+    uses: [
+      {
+        type: "Noun",
+        meaning: "A zesty spice; a seasoning distinguished by a bright, sharp, lively flavor",
+        usage: "The source gloss “Zesty spice” is preserved and clarified by flavor."
+      }
+    ]
+  },
+  xilvar: {
+    uses: [
+      {
+        type: "Noun",
+        meaning: "A hidden spice; a seasoning or blend whose composition or preparation is deliberately concealed",
+        usage: "The source gloss “Hidden spice” is preserved and clarified by concealed composition or preparation."
+      },
+      {
+        type: "Noun",
+        meaning: "Fragmented Salt",
+        usage: "The separate established salt sense remains unchanged."
+      }
+    ]
+  },
   shan: {
     showRootSense: true
   }
