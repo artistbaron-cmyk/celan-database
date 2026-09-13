@@ -3438,6 +3438,9 @@ const HEADWORD_DISPLAY_OVERRIDES = {
   },
   shan: {
     showRootSense: true
+  },
+  sel: {
+    showRootSense: true
   }
 };
 
@@ -3517,10 +3520,20 @@ function buildGroupedEntries(entries) {
     }
     const override = headwordOverride(group.term);
     if (override?.uses?.length) {
-      uses = override.uses.map((use) => ({
+      const overrideUses = override.uses.map((use) => ({
         ...use,
         rootWord: false,
         sourceEntries: group.entries.map((entry) => entry.entry_id)
+      }));
+      const additiveUses = group.entries
+        .filter((entry) => /\bapproved additive displayed sense\b/i.test(entry.notes || ""))
+        .flatMap(buildUses);
+      const overrideKeys = new Set(overrideUses.map((use) =>
+        `${(use.type || "").toLowerCase()}::${(use.meaning || "").toLowerCase()}`
+      ));
+      uses = overrideUses.concat(additiveUses.filter((use) => {
+        const key = `${(use.type || "").toLowerCase()}::${(use.meaning || "").toLowerCase()}`;
+        return !overrideKeys.has(key);
       }));
     }
     const visibleUses = displayUses({ term: group.term, uses });

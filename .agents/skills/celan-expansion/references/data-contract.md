@@ -33,6 +33,8 @@ When optional euphony exists, use the unsmoothed construction as `celan_term` an
 
 Before adding a new sense to an existing headword, record its currently displayed lexical definitions. The added row is additive by default: after rebuilding, every earlier displayed lexical definition and the new definition must appear in the app and generated exports. Do not expose normally hidden root-analysis descriptions as extra definitions unless the user explicitly approves that headword as an exception. Replacement or deprecation requires explicit approval and a traceable editorial decision.
 
+When the reused headword already has a row in `lexicon_expansions.csv`, add a second row rather than editing the earlier row. Put it in a distinct approval batch and begin its `notes` field with `Approved additive displayed sense`. The validator permits a repeated expansion spelling only under this explicit protocol: exactly one original expansion row, every later row marked as an approved additive displayed sense, and no repeated approval batch for that spelling. This exception authorizes polysemy, not accidental duplicate rows.
+
 ## Example Requirements
 
 Each approved headword normally has at least two rows in `data/phrases_and_examples.csv`:

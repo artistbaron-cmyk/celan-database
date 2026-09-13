@@ -86,7 +86,7 @@ function main() {
     : expansions;
   const errors = [];
   const warnings = [];
-  const rootSenseDisplayExceptions = new Set(["shan"]);
+  const rootSenseDisplayExceptions = new Set(["shan", "sel"]);
   const required = [
     "entry_id", "celan_term", "pronunciation", "english_meaning", "category",
     "derivation", "canon_status",
@@ -104,10 +104,28 @@ function main() {
   ]);
   duplicateEntryIds.forEach((id) => errors.push(`Duplicate lexicon entry ID: ${id}`));
 
-  const duplicateExpansionTerms = duplicates(expansions.map((entry) => normalize(entry.celan_term)));
-  duplicateExpansionTerms.forEach((term) => errors.push(`Duplicate expansion headword: ${term}`));
+  const expansionTermGroups = new Map();
+  expansions.forEach((entry) => {
+    const term = normalize(entry.celan_term);
+    if (!expansionTermGroups.has(term)) expansionTermGroups.set(term, []);
+    expansionTermGroups.get(term).push(entry);
+  });
+  expansionTermGroups.forEach((entries, term) => {
+    if (entries.length < 2) return;
+    const baseRows = entries.filter((entry) => !/\bapproved additive displayed sense\b/i.test(entry.notes || ""));
+    const additiveRows = entries.filter((entry) => /\bapproved additive displayed sense\b/i.test(entry.notes || ""));
+    const duplicateBatches = duplicates(entries.map((entry) => entry.approval_batch));
+    if (baseRows.length !== 1 || additiveRows.length !== entries.length - 1 || duplicateBatches.length) {
+      errors.push(`Duplicate expansion headword without an explicit additive-sense record: ${term}`);
+    }
+  });
 
-  const expansionTerms = new Map(expansions.map((entry) => [normalize(entry.celan_term), entry.entry_id]));
+  const expansionTerms = new Map();
+  expansions.forEach((entry) => {
+    const term = normalize(entry.celan_term);
+    if (!expansionTerms.has(term)) expansionTerms.set(term, new Set());
+    expansionTerms.get(term).add(entry.entry_id);
+  });
   for (const entry of selected) {
     for (const field of required) {
       if (!entry[field]) errors.push(`${entry.entry_id || "Unidentified row"}: missing ${field}`);
@@ -116,7 +134,10 @@ function main() {
       errors.push(`${entry.entry_id}: origin_nation and national_usage must either both be filled or both be blank`);
     }
     const sourceCollision = allHeadwords.get(normalize(entry.celan_term));
-    if (sourceCollision) warnings.push(`${entry.entry_id}: headword also exists in source lexicon as ${sourceCollision}`);
+    const isApprovedAdditiveSense = /\bapproved additive displayed sense\b/i.test(entry.notes || "");
+    if (sourceCollision && !isApprovedAdditiveSense) {
+      warnings.push(`${entry.entry_id}: headword also exists in source lexicon as ${sourceCollision}`);
+    }
 
     const variants = split(entry.variant_forms);
     const variantPronunciations = split(entry.variant_pronunciations);
@@ -125,8 +146,9 @@ function main() {
     }
     for (const variant of variants) {
       const independent = expansionTerms.get(normalize(variant));
-      if (independent && independent !== entry.entry_id) {
-        errors.push(`${entry.entry_id}: variant ${variant} is also an expansion headword (${independent})`);
+      const conflictingIds = independent ? [...independent].filter((id) => id !== entry.entry_id) : [];
+      if (conflictingIds.length) {
+        errors.push(`${entry.entry_id}: variant ${variant} is also an expansion headword (${conflictingIds.join(", ")})`);
       }
     }
     if (/\+\s*wek\b/i.test(entry.derivation)) {

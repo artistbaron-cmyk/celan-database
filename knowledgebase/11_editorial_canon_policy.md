@@ -412,6 +412,32 @@ All nine entries are universal overall, so national origin and national usage re
 
 The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-SBD1-0001` through `LX-SBD1-0009`.
 
+## ED-0022: Semantic Continuity and Polysemy 1
+
+Status: Approved.
+
+Approval date: 2026-09-13.
+
+Semantic Continuity and Polysemy 1 adds seven explicitly approved senses to existing Canon Dictionary headwords. It adds no headwords, primitive roots, variants, categories, or national origins. Every earlier displayed sense and established example remains canonical.
+
+`Kel` adds the Noun sense “a text; a connected body of written or encoded words.” It does not mean information or data generally and does not replace established `Kel` as informal say or talk, name, or word.
+
+`Anvekaen` adds “to load cargo into transport,” while retaining its established passenger sense “to board.” `Thalvekaen` adds “to unload cargo from transport,” while retaining its established passenger sense “to disembark.” Participant type and object structure distinguish the paired readings: a traveler boards or disembarks; an operator loads or unloads `Vekmor` cargo.
+
+`Keldoraen` adds the narrow sense “to write or inscribe visible language on a surface.” It retains every established use involving the marking of a location, boundary, sign, name, target, or warning and does not extend to generic recording, authorship, measurement, or data entry.
+
+`Njor` adds a relational or conceptual bridge between separated people, groups, systems, or ideas. It retains the literal structural bridge. The extended sense requires a meaningful division being crossed and does not replace `Ohm` connection or empathy, `Bel` binding or order, `Zhir` continuity through time, or `Shan` passage and transfer.
+
+`Sel` adds mental clarity as an unobscured and internally ordered state of thought. It retains physical clarity, purity, and absence of grime and does not mean truth, evidence, proof, or correctness; those distinctions remain separate from `Lian`. Because the physical sense was already displayed from its root record before this decision, `Sel` joins `Shan` as a specifically approved exception in which that established root sense remains visible beside a later lexical sense.
+
+`Ruvan` adds moral, institutional, or social corruption through the Ohnoshan metaphor of living rot spreading through a community or organized system. It retains literal organic rot in food, tissue, and once-living material and does not become the generic word for failure, disorder, evil, technical malfunction, or physical destruction.
+
+This decision formalizes the **Ohnoshan Metaphor Test**: a Celan word may develop a new meaning when speakers could naturally reach it through established Celan semantic relationships, Ohnoshan lived experience, or attested internal grammatical development. The fact that an English word carries both meanings is not sufficient evidence. Proposed extensions must be classified as a displayed sense, ordinary usage, idiom, better compound, or rejection and must preserve every established phrase using the earlier meaning.
+
+When an approved additive sense repeats a spelling already present in `data/lexicon_expansions.csv`, the earlier row remains unchanged and the new sense receives its own entry ID, approval batch, linked contrastive examples, and the explicit `Approved additive displayed sense` marker. This is a controlled polysemy exception, not permission for accidental duplicate expansion rows.
+
+The seven approved sense rows are maintained in `data/lexicon_expansions.csv` under IDs `LX-SCP1-0001` through `LX-SCP1-0007`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:
