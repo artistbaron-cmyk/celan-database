@@ -342,6 +342,58 @@ All twenty-eight entries are universal overall, so national origin and national 
 
 The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-GCI1-0001` through `LX-GCI1-0028`.
 
+## ED-0018: Work Roles and Trade 1
+
+Status: Approved.
+
+Approval date: 2026-09-12.
+
+Work Roles and Trade 1 adds fourteen approved universal headwords for stewardship, apprenticeship, skilled making, metalwork, masonry, engineering, scholarship, courier work, navigation, buying, selling, importing, exporting, and ownership.
+
+The batch introduces no new primitive roots and creates no new dictionary category. `Ral` is promoted from its established caretaker, watcher, and entrusted-role use into a standalone Noun meaning steward or caretaker. This promotion does not expose a second technical root-analysis sense and does not authorize `Ral` as an unrestricted suffix for any person who performs an activity. Existing specialized roles such as `Droral`, `Kavral`, `Mekral`, `Zhaelral`, `Balral`, `Gavral`, `Neshbrenral`, `Belzorral`, `Lorvekral`, and `Eshlorral` retain their narrower meanings.
+
+`Pralilan` is a supervised practical apprentice and remains narrower than established `Ilan` student or follower. `Pralral` is the broad artisan or craftsperson, while `Krenral` and `Mormekral` identify metalworking and masonry. `Lormekral` designs, analyzes, directs, or maintains complex constructed systems and remains distinct from `Mekral`, the mechanic or systems technician. `Shenral` formalizes the scholar or researcher form already used in approved Built Spaces examples. `Kelvekral` is responsible for an entrusted message or small delivery rather than vehicle operation. `Sharalorin` determines and guides routes across environments; it does not replace drivers, pilots, ordinary guides, or `Lormahr` ocean-navigation skill.
+
+`Anvanesh` and `Thalvanesh` distinguish buying and selling through inward and outward commercial perspective while `Vanesh` remains trade generally. `Lorzhiranshan` and `Lorzhirthalshan` distinguish commercial import and export across a jurisdictional border; neither receives a generic border-crossing meaning. `Ianath` names ownership as an established state or recognized right of direct possession. It does not alter `Ian`, `Anen`, `Eshen`, or `Velian`, and it must never extend property ownership to people, kin, partners, sacred relations, communities, or other inalienable belonging.
+
+All fourteen entries are universal overall, so national origin and national usage remain blank. The primary forms are unsmoothed. `Pralaral`, `Krenaral`, `Mormekaral`, `Lormekaral`, `Shenaral`, and `Kelvekaral` are optional searchable euphonic variants and do not count as separate headwords.
+
+The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-WRT1-0001` through `LX-WRT1-0014`.
+
+## ED-0019: Defense and Weapons 1
+
+Status: Approved.
+
+Approval date: 2026-09-12.
+
+Defense and Weapons 1 adds nine approved universal Noun headwords for weapon, sword, spear, bow, arrow, shield, firearm, energy weapon, and ammunition.
+
+`Ngar` is an approved new primitive meaning weapon or purpose-built harmful implement. Initial `Ng-` is articulated as an audible nasal-plus-stop onset. Approval authorizes only `Ngar` and the explicitly listed derivatives `Ngarpel`, `Ngarzhir`, `Ngarjor`, `Ngarzhel`, `Ngarvek`, `Ngarwel`, and `Ngarjoraen`; it does not authorize an automatic word family.
+
+Existing vocabulary remains intact. `Peleth` stays knife or blade, `Arthlor` stays a defensive formation or shield wall, `Arthaxar` stays armor, `Karmek` stays a general working tool, and `Jorkal` stays an attack or forceful offensive push. `Arthkal` names one external attack-intercepting shield and can be physical, worn, generated, or projected. `Ngarjor` is restricted to controlled material-projectile firearms, while `Ngarzhel` names weapons whose primary discharge is electrical, magical, kinetic, radiant, or comparable non-material energy. `Ngarvek` is the functional ammunition category; an ordinary battery remains `Zhelkav` unless deliberately serving as a consumable weapon charge.
+
+All nine entries are universal overall, so national origin and national usage remain blank. The primary forms are unsmoothed. `Ngarapel`, `Ngarazhir`, `Ravajor`, `Ravajorvek`, `Arthakal`, `Ngarajor`, `Ngarazhel`, and `Ngaravek` are optional searchable euphonic variants and do not count as separate headwords.
+
+The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-DW1-0001` through `LX-DW1-0009`.
+
+## ED-0020: Organized Conflict 1
+
+Status: Approved.
+
+Approval date: 2026-09-12.
+
+Organized Conflict 1 adds fourteen approved universal headwords for militia, army, patrol, siege, trap, target, aiming, firing, blocking or parrying, retreat, surrender, poison, war, and battle. It creates no additional primitive root and no new dictionary category.
+
+`Welarth` is a locally rooted community-defense body whose members commonly retain civilian roles; `Ngarwel` is a formally organized armed force prepared for sustained operations. `Kesvar` is explicitly approved with bounded activity-and-group polysemy: it can name the recurring security journey or the group performing it. `Xarkaleth` is an operation imposed around a fortified place rather than the defending position. `Vethbel` is the batch's only new `Bel` compound and uses binding or restraint literally; it does not broaden `Bel` into a default compound element.
+
+`Lorpel` is a neutral selected focus and does not imply hostility. `Lorpelaen` aligns attention, a body, a tool, a weapon, or a projected action toward such a target. `Ngarjoraen` is restricted to launching a projectile or directed weapon discharge. `Arthkaraen` intercepts one incoming attack and does not replace general `Arth` protection. `Vethvaraen` is purposeful withdrawal preserving cohesion or future action. `Kaarthaen` means to cease resistance and submit to opposing control; ordinary refusal remains `Ka` or `Verka`.
+
+`Mavmor` names a harmful substance rather than the resulting illness `Mav`. `Rathnor` means sustained organized armed conflict and remains distinct from both an ordinary dispute and `Rathor` past or history; its medial n is fully pronounced. `Rathjor` is one bounded armed encounter within or apart from a larger war. Existing `Belshara` remains the word for a coordinated maneuver, formation movement, tactical path, or tactic, with all its previously displayed senses preserved; no duplicate tactic headword was added.
+
+All fourteen entries are universal overall, so national origin and national usage remain blank. The primary forms are unsmoothed. `Ngarawel`, `Kesavar`, `Vethabel`, `Lorapel`, `Ngarajoraen`, `Arthakaraen`, `Vethavaraen`, `Mavamor`, `Rathanor`, and `Rathajor` are optional searchable euphonic variants and do not count as separate headwords.
+
+The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-OC1-0001` through `LX-OC1-0014`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:
