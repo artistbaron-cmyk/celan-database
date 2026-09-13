@@ -490,6 +490,36 @@ Primary forms are unsmoothed. The following are optional searchable euphonic var
 
 The withdrawn proposal forms `Talzhaelin`, `Talzhaelor`, `Morzhaelaen`, `Morzhaeleth`, `Rathlorkelaen`, `Mavbalxaraen`, and `Shalkavaen` are not canonical aliases or variants. The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-HTS1-0001` through `LX-HTS1-0044`.
 
+## ED-0025: Environment, Geography, and Ecology 1
+
+Status: Approved.
+
+Approval date: 2026-09-13.
+
+Environment, Geography, and Ecology 1 adds seventy-two approved universal headwords in two semantic passes. Pass 1 covers physical landforms, waterways, weather, climate, atmospheric conditions, sediment, and natural hazards. Pass 2 covers plants, fungal life, ecological organization, animal relationships, migration, food relationships, environmental damage, conservation, restoration, and resource conditions. It creates no new dictionary category and adds no new sense to an existing headword.
+
+`Mbu` is an approved one-syllable primitive for fungus or fungal life, with both `m` and `b` articulated. It remains biologically distinct from `Verd` plant life, `Zor` animal life, and `Ruvan` organic rot. Approval authorizes only `Mbu`, not an automatic derivative family.
+
+`Nali` is an approved two-syllable primitive for species as a recognized biological kind or lineage extending across organisms and generations. `Nalior`, `Welnali`, `Kornali`, `Shannali`, `Rathshannali`, `Dumanali`, and `Rathnali` distinguish habitat, population, native species, introduced species, invasive species, extinction, and endangered species. Foreign introduction is not treated as danger by default: `Shannali` remains neutral unless ecological harm justifies `Rathshannali`. Approval authorizes only the listed family.
+
+`Sul` is an approved one-syllable primitive for a usable supply, substance, energy source, or environmental provision available to meet a need. `Worsul`, `Kasul`, `Kavsul`, `Weksul`, and `Versul` distinguish resource abundance, resource scarcity, a deliberately preserved reserve, a replenishable resource, and material treated as waste. A renewable resource is not necessarily inexhaustible, and waste may return to resource status through recovery or reuse. Approval authorizes only the listed family.
+
+`Gorm` is promoted as a visible Noun meaning dirt, grime, or unwanted soiling matter from the source-established analysis of `Gormeth`, dirty or soiled. This promotion preserves `Gormeth` unchanged and authorizes the environmental compound `Welgorm`, pollution dispersed through shared surroundings. It does not expose or invent another hidden root-analysis sense.
+
+`Felmorl`, `Delmorl`, `Pelmorl`, `Morlshara`, `Xarmorl`, `Shanmorl`, `Selmor`, `Ndavimor`, `Kadromor`, `Brossadar`, and `Velkmorl` expand natural landform description without replacing established mountain, stone, soil, sand, permafrost, or built-infrastructure vocabulary. `Shanmorl` is an open natural canyon or gorge and remains distinct from established `Morlshan`, an enclosed or built tunnel.
+
+`Terramahr`, `Drenfel`, `Fellun`, `Drenverd`, `Mahrmorl`, `Drenjor`, and `Mahrwel` distinguish coastline, small flowing water, small still water, wetland, submerged reef structure, surface wave, and sustained current. `Drenverd` is the general wetland class for marshes, swamps, and bogs unless later usage proves narrower headwords necessary. `Mahrmorl` remains distinct from `Neshmorl`, coral as a biological or material substance.
+
+`Eshnor` is present or near-term weather while `Eshweknor` is the recurring long-duration climate pattern. `Drenesh`, `Eshkar`, `Eshjor`, `Eshdren`, `Kadro`, `Drenrek`, `Morkar`, `Morljor`, `Sadarjor`, `Velxar`, `Felsadar`, and `Krezshen` distinguish cloud, thunder, gale, humidity, drought, flood, earthquake, landslide, sandstorm, frost, silt, and temperature without replacing established rain, snow, fog, storm, heatwave, cold snap, ice, fertile soil, or mud vocabulary.
+
+`Verdin`, `Verdmarin`, `Morlzhir`, `Verdxar`, `Zhirverd`, `Verdpel`, `Balvek`, and `Balshan` distinguish an individual plant, tree, plant root, bark, vine, grass, seed, and pollination. `Shalrin` names one organism and `Ohmshal` the connected living community and physical environment. `Gavin`, `Rathzor`, `Welzor`, `Zornethor`, and `Wekvaraen` distinguish prey, predator, animal group, animal shelter, and migration. `Welzor` is the universal umbrella for herd, flock, pack, school, and swarm; species or context provides narrower readings.
+
+`Emilzhir` is a directional food chain while `Emilbel` is an interconnected food web. `Terramav`, `Mavverd`, `Welgorm`, `Pelnor`, and `Xilnalior` distinguish ecological degradation, plant blight, pollution, erosion, and habitat fragmentation. `Terrakav` protects what remains through conservation while `Terrazhael` assists recovery through ecological restoration. `Ruvan` organic rot and `Mavmor` poison retain their established meanings.
+
+All entries are universal overall, so national origin and national usage remain blank. Primary forms are unsmoothed. `Velkamorl`, `Eshwekenor`, `Rathashannali`, and `Wekavaraen` are optional searchable euphonic variants of their corresponding entries and do not count as separate headwords. Every letter in both primary and optional forms remains articulated.
+
+The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-EGE1-0001` through `LX-EGE1-0072`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:
