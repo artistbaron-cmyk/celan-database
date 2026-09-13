@@ -438,6 +438,26 @@ When an approved additive sense repeats a spelling already present in `data/lexi
 
 The seven approved sense rows are maintained in `data/lexicon_expansions.csv` under IDs `LX-SCP1-0001` through `LX-SCP1-0007`.
 
+## ED-0023: Recreation, Competition, Performance, Story Arts, and Celebration
+
+Status: Approved.
+
+Approval date: 2026-09-13.
+
+Recreation and Competition 1 adds twenty-two approved universal headwords. Performance, Story Arts, and Celebration 1 adds twenty-five new universal headwords and one additive Noun sense to the existing headword `Thael`. Together the two passes add forty-seven headwords and forty-eight displayed senses. They create no new dictionary category.
+
+`Dov` is an approved new primitive for voluntary play or recreation undertaken primarily for enjoyment. `Nak` is an approved new primitive for organized competition whose outcomes are compared without inherently implying hostility. Approval authorizes only the forms explicitly listed in these passes; it does not create automatic `Dov` or `Nak` families. `Dov`, game, player, and sport remain distinct from joy, work, training, and competition. `Nak`, competitor, opponent, rules, officials, rewards, results, and races remain distinct from attempt, disagreement, battle, and generic success or failure.
+
+The matched result system is `Shalnak` for victory, `Vethnak` for defeat, and `Thalnak` for a tie. The associated verbs are competition-specific; generic success remains `Sivathaen` and generic failure remains `Sivrethaen`. Generic skating is `Trakshalilaen`, whose surface or equipment context supplies ice, wheels, or another low-friction mode; the rejected proposal `Velshalilaen` is not canonical. `Mahrshalilaen` names surfing or controlled current-gliding on moving water.
+
+`Aennor` formalizes the source-defined `Aen` plus `Nor` formation for music. It supports the explicitly approved musician, song, singing, chorus, percussion, dance, melody, story, expressive-art, live-performance, audience, and stage vocabulary without converting every transparent combination into an automatic headword. `Thael` adds the Noun sense “rhythm or beat; a recurring pattern of pulse, sound, or movement.” Its established Adjective and root sense “gentle motion; breeze-like rhythm” remains unchanged and visible. This is an approved additive sense under the preservation rules of ED-0022.
+
+`Rim` is promoted as a latent root meaning celebration or festive shared observance from the established compound `Welrim`. `Welrim` remains specifically a continuous shared feast centered on food. The promotion authorizes `Rim`, `Rimaen`, and `Rimor`; it does not create an unrestricted derivative family. `Rim` celebration, `Rimaen` celebrate, and `Rimor` festival remain distinct from joy itself, a meal or feast, and sacred ritual generally.
+
+All entries are universal overall, so national origin and national usage remain blank. Primary forms are the unsmoothed canonical forms. The recorded smoothed forms are optional searchable euphonic variants and do not count as separate headwords: `Sivavok`, `Nakashara`, `Nakalorral`, `Nakatal`, `Vethanak`, `Vethanakaen`, `Trakashalilaen`, `Mahrashalilaen`, `Aenthaelaral`, `Karathael`, `Karathaelaen`, `Karathaelaral`, `Thaelaral`, `Zhirkelaral`, `Rinpralaral`, and `Norpralaral`.
+
+The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-RC1-0001` through `LX-RC1-0022` and `LX-PSAC1-0001` through `LX-PSAC1-0026`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:

@@ -3441,6 +3441,9 @@ const HEADWORD_DISPLAY_OVERRIDES = {
   },
   sel: {
     showRootSense: true
+  },
+  thael: {
+    showRootSense: true
   }
 };
 

@@ -86,7 +86,7 @@ function main() {
     : expansions;
   const errors = [];
   const warnings = [];
-  const rootSenseDisplayExceptions = new Set(["shan", "sel"]);
+  const rootSenseDisplayExceptions = new Set(["shan", "sel", "thael"]);
   const required = [
     "entry_id", "celan_term", "pronunciation", "english_meaning", "category",
     "derivation", "canon_status",
