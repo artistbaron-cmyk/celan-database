@@ -458,6 +458,38 @@ All entries are universal overall, so national origin and national usage remain 
 
 The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-RC1-0001` through `LX-RC1-0022` and `LX-PSAC1-0001` through `LX-PSAC1-0026`.
 
+## ED-0024: Health, Treatment, and Survival 1
+
+Status: Approved.
+
+Approval date: 2026-09-13.
+
+Health, Treatment, and Survival 1 adds forty-four approved universal headwords in two semantic passes: health, diagnosis, and treatment; then exposure, rescue, and survival procedure. It creates no new dictionary category and adds no new sense to an existing headword.
+
+The batch establishes a three-layer register practice rather than a new grammatical rule. Frequent household and conversational concepts favor compact common forms. Longer compounds remain appropriate where their components carry clinical, emergency, or institutional precision. Predictable meanings remain transparent phrases when a separate long derivative would add no useful lexical distinction. This is a tendency governed by frequency and semantic value, not an absolute syllable limit.
+
+`Ndem` is an approved one-syllable primitive for anatomical blood, with both `n` and `d` articulated. `Ndemaen` means to bleed. These forms remain distinct from `Dren` symbolic water or life-flow, `Dro` physical water, `Mor` matter, and `Shal` life or beginning. Approval authorizes only `Ndem` and `Ndemaen`, not an automatic blood family.
+
+`Sava` is an approved two-syllable common-register primitive for ordinary health care or treatment. `Savaen` means to care for or treat in ordinary speech, `Savin` means patient, and `Savor` means clinic or infirmary. `Talzhael` remains a narrower technical term for a defined therapeutic intervention or planned course, while `Talzhaelaen` means to administer or carry out that defined treatment. Approval authorizes only the four listed `Sava` forms.
+
+`Mavkes`, `Keshen`, and `Keshenath` distinguish symptom or clinical sign, the examination process, and the concluded diagnosis. `Zhaelphel` is medicine generally while `Fennilphel` remains specifically herbal remedy. `Zhaelshen` is one measured medicinal dose. A dosage schedule remains a transparent construction. `Morzhael` is bodily recovery occurring in the patient and remains distinct from treatment applied by a caregiver and from `Zhaelpralaen`, repair of objects or systems.
+
+`Mavkrez` fever is internally generated illness heat and remains distinct from `Rekmav`, severe systemic illness caused by environmental heat. `Velmav` is systemic cold illness or hypothermia, while `Velaivkor` is localized frostbite and `Riv` remains shivering. `Kadromav` is bodily dehydration and does not replace thirst, ordinary dryness, or deliberate drying of food or material.
+
+`Mavbal` biological infection remains distinct from illness generally, poison, and organic rot. `Mavbaleth` means infected; `Mavbalshaneth` means capable of transmitting infection. `Mavbalshanaen` is the technical verb for transmitting infection. `Mavbalxar` is health-directed quarantine of people, animals, objects, or areas and does not mean imprisonment or generic isolation. The predictable act of placing something under quarantine remains an ordinary phrase rather than receiving the withdrawn long verb `Mavbalxaraen`.
+
+`Kesrin`, `Kakesrin`, `Kakesrineth`, and `Kesrinaen` distinguish wakeful consciousness, unconsciousness, the unconscious state, and regaining consciousness. They do not replace mental clarity, noticing, sleep, dreaming, collective consciousness, sedation, spiritual absence, or death.
+
+`Vaarshan` and `Vaarshanaen` center an endangered or trapped being brought into relative safety. `Thalwelvar` and `Thalwelvaraen` center organized preventive or emergency removal from a dangerous place. Both remain distinct from carrying, retreat, and ordinary transport. `Rathlorkel` is a warning or alert noun; ordinary warning uses existing speaking or giving syntax rather than the withdrawn derivative `Rathlorkelaen`.
+
+`Shalkav` is survival as continued bodily life or essential function through danger. `Kavaen` is the shorter common verb to endure, last, or survive; context distinguishes living survival from an object, system, or institution remaining functional. `Vaarbelwek` is an executable safety or emergency protocol, `Nethvek` is a supported casualty carrier or stretcher, and `Shentalzhael` is medical triage as measured treatment priority under limited resources.
+
+`Zhaelolan`, `Aivkorxar`, `Jorzhael`, `Mavmorzhael`, and `Rekrathlor` distinguish medicinal salve, bandage or wound dressing, first aid, antidote, and emergency. All entries are universal overall, so national origin and national usage remain blank.
+
+Primary forms are unsmoothed. The following are optional searchable euphonic variants and do not count as separate headwords: `Talazhael`, `Zhaelaphel`, `Morazhael`, `Mavakrez`, `Mavabal`, `Aivakorxar`, `Mavamorzhael`, `Rekarathlor`, `Velamav`, `Rekamav`, `Mavabalxar`, `Shalakav`, and `Nethavek`.
+
+The withdrawn proposal forms `Talzhaelin`, `Talzhaelor`, `Morzhaelaen`, `Morzhaeleth`, `Rathlorkelaen`, `Mavbalxaraen`, and `Shalkavaen` are not canonical aliases or variants. The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-HTS1-0001` through `LX-HTS1-0044`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:

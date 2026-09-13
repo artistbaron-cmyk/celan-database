@@ -35,7 +35,7 @@ assert.equal(run(`displayDerivation('Latent material root promoted from establis
 assert.equal(run(`relatedExamples(state.groupedEntries.find(group => group.id === 'nelar')).map(example => example.entry_id).join('|')`),
   'PE-FAP1-0051|PE-FAP1-0052');
 assert.equal(run(`relatedExamples(state.groupedEntries.find(group => group.id === 'dresh')).map(example => example.entry_id).join('|')`),
-  'PE-CWM2-0015|PE-CWM2-0016');
+  'PE-CWM2-0015|PE-CWM2-0016|PE-SCP1-0016');
 assert.equal(run(`state.groupedEntries.find(group => group.id === 'nelar').preview`),
   'Noun: Nectar; a sweet liquid naturally produced by a plant, especially in flowers, that may be gathered as food');
 assert.equal(run(`state.groupedEntries.find(group => group.id === 'nelar').searchText.includes('builds words for nectar')`), false);
