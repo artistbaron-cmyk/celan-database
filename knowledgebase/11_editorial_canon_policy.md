@@ -520,6 +520,28 @@ All entries are universal overall, so national origin and national usage remain 
 
 The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-EGE1-0001` through `LX-EGE1-0072`.
 
+## ED-0026: Information, Computation, Automation, and Electrical Systems 1
+
+Status: Approved.
+
+Approval date: 2026-09-13.
+
+Information, Computation, Automation, and Electrical Systems 1 adds fifty-seven approved universal headwords in two semantic passes: thirty-five for information, computation, and automation; and twenty-two for electrical systems, diagnostics, and technical control. It creates no new dictionary category and adds no new sense to an existing headword.
+
+`Dava` is an approved new two-syllable primitive for information as meaningful content capable of being known, communicated, represented, or stored. It remains distinct from `Kel` language or text, `Lian` truth, `Vel` wisdom or deep memory, and `Shen` measurement or assigned value. `Shendava`, `Kavdava`, `Davaxar`, `Beldava`, `Davapral`, and `Zheldava` distinguish data, record, file, database, display, and signal. `Davaxar` is information given a bounded retrievable container, while `Xardava` is information placed under protective concealment; their reversed root order is deliberate.
+
+`Raku` is an approved new two-syllable primitive for rule-governed computation over numbers, symbols, states, or information. `Rakumek` is a complete computing device while `Rakufelmek` is its computational processor component. `Rakushara`, `Rakukel`, and `Belraku` distinguish algorithm, code, and program. `Varokraku` names automation as the transfer of moment-to-moment execution to an instruction-governed system; it does not imply intelligence, consciousness, autonomy, or freedom from human responsibility. `Belwek` remains the broader ordered recurring process and may be manual, biological, mechanical, magical, or automated.
+
+The approved information actions distinguish neutral transmission, copying, upload, download, saving or recording, search or query, synchronization, encryption, and decryption. `Mekreth`, `Felmekreth`, `Rekmekreth`, and `Rethdava` distinguish system malfunction, bounded defect or bug, abrupt crash, and corrupted information. Existing `Keldoraen` remains visible writing or inscription, `Rinshen` remains an official identifying record, `Liankavor` remains an archive, `Belzhir` remains a communications network, and `Belzhirkavor` remains the physical data-center facility.
+
+`Zhel` retains its established broad meaning of spark, energy, charge, or quick power-flash and can identify ordinary electricity through context. The approved electrical family adds current, circuit, electrical potential, conductor, insulator, capacitor, switch, terminal, surge, overload, outage, fault, short circuit, energizing, charging, discharging, circuit protection, grounding, diagnostics, control units, and signal interference without replacing `Zhelbel`, `Zhelkor`, `Zhelkav`, `Krenzhir`, `Shanmek`, `Kesmek`, `Shenmek`, or `Lormekor`.
+
+All fifty-seven entries are universal overall, so national origin and national usage remain blank. Primary forms are unsmoothed. `Kavadeldava`, `Felmekareth`, `Rekamekreth`, `Rethazhelshara`, `Arthazhelshara`, and `Rethazheldava` are optional searchable euphonic variants and do not count as separate headwords. Every letter in primary and optional forms remains articulated.
+
+Approval authorizes only `Dava`, `Raku`, and the explicitly listed derivatives in this batch, not automatic word families. Artificial intelligence, cybernetic personhood, implants, prosthetics, holography, surveillance doctrine, and detailed information ethics remain outside this decision.
+
+The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-ICAES1-0001` through `LX-ICAES1-0057`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:
