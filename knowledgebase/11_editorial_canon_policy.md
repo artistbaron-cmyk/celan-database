@@ -394,6 +394,24 @@ All fourteen entries are universal overall, so national origin and national usag
 
 The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-OC1-0001` through `LX-OC1-0014`.
 
+## ED-0021: Sex, Birth, and Death 1
+
+Status: Approved.
+
+Approval date: 2026-09-12.
+
+Sex, Birth, and Death 1 adds nine approved universal headwords covering the core noun, ordinary verb, and descriptive adjective for sex, birth, and death. It creates no new dictionary category.
+
+`Tlamor` means sexual activity or intercourse through the combination of `Tla` intimate connection and `Mor` physical embodiment. It does not inherently encode love, marriage, reproduction, consent status, participant gender, or biological sex classification. `Tlamoraen` is the ordinary action verb and `Tlamoreth` means pertaining to sexual activity or bodily sexual function; the adjective does not mean sexually attractive.
+
+`Shalbal` means birth as emergence into independent life through `Shal` life or beginning and `Bal` budding growth. It can describe human, nonhuman, egg-based, pod-based, or comparable magical modes of birth. `Shalbalaen` is active “to give birth”; its passive construction `shalbalaen nor-ka` means “to be born.” `Shalbaleth` means newborn or newly born. `Shalabal` and `Shalabaleth` are optional searchable euphonic variants and do not count as separate headwords.
+
+`Duma` is an approved new two-syllable primitive meaning death or the irreversible end of bodily life. `Dumaen` means to die and `Dumeth` means dead or deceased. These forms do not by themselves define the condition of a soul, identity, memory, afterlife, ritual status, or metaphysical persistence. They remain distinct from sleep, unconsciousness, injury, disappearance, killing, destruction, and the ontological un-making associated with The Diminishing. Approval authorizes only `Duma`, `Dumaen`, and `Dumeth`, not an automatic derivative family.
+
+All nine entries are universal overall, so national origin and national usage remain blank. The earlier discussed form `Kathaen` never entered canon and is superseded at the proposal level by `Duma`; no canonical definition was removed or replaced.
+
+The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-SBD1-0001` through `LX-SBD1-0009`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:
