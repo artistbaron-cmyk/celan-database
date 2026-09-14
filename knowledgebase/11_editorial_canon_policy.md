@@ -542,6 +542,56 @@ Approval authorizes only `Dava`, `Raku`, and the explicitly listed derivatives i
 
 The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-ICAES1-0001` through `LX-ICAES1-0057`.
 
+## ED-0027: Science, Astronomy, and Cosmology 1
+
+Status: Approved.
+
+Approval date: 2026-09-13.
+
+Science, Astronomy, and Cosmology 1 adds fifty-five approved universal headwords in two semantic passes: twenty-seven for astronomy, cosmology, and physical space; and twenty-eight for scientific inquiry, testing, and instruments. It creates no new dictionary category and adds no new sense to an existing headword.
+
+`Dral` remains heaven, sky, celestial awe, and the experienced heavens. It is not expanded to mean universe, cosmos, star, or planet. `Songa` is the approved new two-syllable primitive for the total physical universe or cosmos. `Nyel` is the approved new one-syllable primitive for an individual self-luminous star. `Vora` is the approved new two-syllable primitive for a planet. Approval authorizes only those roots and the explicitly listed derivatives in this batch, not automatic word families.
+
+`Songaeth`, `Songazun`, and `Songashen` distinguish cosmic relation, outer space, and cosmology. `Nyel`, `Kreznyel`, `Nyelbel`, `Wornyelbel`, and `Nyelzhir` distinguish star, relational sun, star system, galaxy, and constellation. `Zhirnyel` is an appearance-based “thread-star” term for comet and does not classify a comet scientifically as a star. `Vora`, `Voraeth`, and `Felvora` distinguish planet, planetary relation, and asteroid or minor planet. `Lun` retains its established Moon sense and `Luneth` supplies lunar relation.
+
+`Ravwek`, `Ravwekaen`, and `Ravwekin` distinguish orbit, orbiting, and a natural or constructed satellite through pull plus recurrence rather than through `Dral`. `Dralxar`, `Dralfel`, `Krezdralfel`, `Mordralfel`, `Dralshen`, and `Drallor` retain `Dral` only where the experienced heavens genuinely motivate eclipse, celestial fragments, meteor phenomena, astronomy, or a heaven-directed instrument.
+
+The approved scientific-method vocabulary distinguishes science, scientific relation, formal observation, evidence, experiment, hypothesis, theory, model, simulation, sample, variable, experimental control, probability, measurement uncertainty, accuracy, precision, evidence-derived prediction, replication, lens, telescope, and microscope. `Kesdava` evidence is not automatically truth. `Sivkel` hypothesis is provisional and testable. `Belkes` theory is supported and revisable rather than a casual guess or final certainty. `Rinmek` and `Varrinmek` are representations rather than the reality represented.
+
+`Rethshen` measures likelihood under uncertainty while `Shenreth` states uncertainty surrounding a measurement. `Shenlianeth` means accurate relative to a trusted reference while `Pelsheneth` means precise or narrowly resolved; neither entails the other. `Shenvarash` is an evidence-derived prediction and does not replace prophecy or intention. `Weksivshen` is experimental replication and does not replace ordinary repetition.
+
+All fifty-five entries are universal overall, so national origin and national usage remain blank. Primary forms are unsmoothed. `Krezenyel`, `Worenyelbel`, `Nyelezhir`, `Zhiranyel`, `Krezadralfel`, `Moradralfel`, `Vararinmek`, `Vararinmekaen`, `Dralalor`, and `Felalor` are optional searchable euphonic variants and do not count as separate headwords. Every letter in primary and optional forms remains articulated.
+
+The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-SAC1-0001` through `LX-SAC1-0055`.
+
+## ED-0028: General Magic and Metaphysical Practice 1
+
+Status: Approved.
+
+Approval date: 2026-09-13.
+
+General Magic and Metaphysical Practice 1 adds fifty-three approved universal headwords in two semantic passes: twenty-two shared terms for magic, practitioners, domains, spells, channeling, enchantment, protection, containment, blessings, curses, artifacts, focuses, and technomancy; and thirty-one terms for spiritual practice, elemental shaping, biomancy, mental or perceptual effects, strain, instability, and consequences. It creates no new dictionary category and adds no new displayed sense to an existing headword.
+
+`Aru` is the approved new two-syllable primitive for magic in general. Its family is deliberately restricted to the twelve explicitly approved `Aru`-bearing headwords in this batch. Earlier unapproved forms from the overextended `Aru` proposal are not headwords, aliases, or automatic derivatives.
+
+`Rinaru`, `Kalaru`, and `Esharu` describe overlapping spiritual, physical, and mental domains. They are ordinary Noun headwords, not new app categories and not exclusive schools. A practice may be described through more than one domain when its mechanism genuinely crosses them. `Mekaru` describes magical practice integrated with constructed systems rather than creating a fourth magical substance.
+
+`Arukel` treats a spell as a bounded repeatable formulation and does not restrict spells to spoken words. `Rinbel` names a sustained extraordinary property or directive bound into operative identity; it does not make every magical effect an enchantment. `Arthrin` protects while `Xarrin` seals or contains. `Vaarrin` and `Rathrin` distinguish beneficial and hostile conferred conditions without changing the existing meanings of their roots.
+
+`Thaenin` is an agentive spirit-being and is not automatically a dead person, ancestor, god, Echo, or trustworthy presence. `Thaenohm` contact does not entail control, worship, agreement, or correct interpretation. Spirit-binding and release do not predetermine consent or ethics.
+
+The elemental proposals are verbs of shaping rather than a mechanically complete set of “-mancy” nouns. `Dropralaen` uses `Dro` for physical water and does not weaken symbolic or relational `Dren`. `Esharu` selects the thought and intellect range of `Esh`, while `Eshpralaen` selects its air and wind range. `Tenarpralaen` and `Vethpralaen` preserve the rule that light and shadow do not inherently encode moral good and evil. `Shalrinaen` names biomantic alteration broadly; it is not automatically healing, consensual, or ecologically safe.
+
+`Vethshal`, `Tharbel`, and `Kesxar` distinguish illusion, compulsion, and perceptual veiling. These effects are method-neutral and may be magical, technological, chemical, ritual, artistic, or psychological; context or a domain term identifies the method. An illusion supplies a constructed appearance, a compulsion binds choice or will, and a perceptual veil blocks or redirects notice.
+
+`Worshankal`, `Rethkal`, `Shantham`, and `Ohmreth` distinguish unsafe channel load, unstable power, harmful return through a working, and disruption within an attunement. `Kaohmaen` deliberately severs an attunement and is not ordinary relational separation or the dispelling of an external effect.
+
+Existing `Terra`, `Zhel`, `Ohm`, `Rin`, `Thaen`, `Khumeth`, `Kal`, and Echo terminology retain their established meanings. Magic is not universally reducible to the Heart of Terra, energy, attunement, spirit, ritual, power, or post-Fracture phenomena. Existing healing, temporal, spatial, ritual, anomaly, and detection terms remain primary where they already express the intended action.
+
+All fifty-three entries are universal overall, so national origin and national usage remain blank. Primary forms are unsmoothed. `Artharin`, `Xararin`, `Ratharin`, `Krezapralaen`, `Vethapralaen`, `Worashankal`, and `Rethakal` are optional searchable euphonic variants and do not count as separate headwords. Every written letter in primary and optional forms remains articulated.
+
+The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-GMMP1-0001` through `LX-GMMP1-0053`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:
