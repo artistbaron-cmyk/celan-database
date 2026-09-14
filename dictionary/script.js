@@ -106,9 +106,12 @@ const state = {
   forgeParts: [],
   roots: [],
   phrases: [],
+  expressions: [],
+  filteredExpressions: [],
   filtered: [],
   filteredRules: [],
   selectedId: null,
+  selectedExpressionId: null,
   selectedRuleId: null,
   activeLetter: "ALL",
   activeWordType: "ALL",
@@ -173,9 +176,11 @@ const RULE_COMPANIONS = [
 
 const els = {
   dictionaryViewBtn: document.getElementById("dictionaryViewBtn"),
+  expressionsViewBtn: document.getElementById("expressionsViewBtn"),
   rulesViewBtn: document.getElementById("rulesViewBtn"),
   forgeViewBtn: document.getElementById("forgeViewBtn"),
   dictionaryView: document.getElementById("dictionaryView"),
+  expressionsView: document.getElementById("expressionsView"),
   rulesView: document.getElementById("rulesView"),
   forgeView: document.getElementById("forgeView"),
   searchInput: document.getElementById("searchInput"),
@@ -183,6 +188,13 @@ const els = {
   searchMode: document.getElementById("searchMode"),
   searchHelp: document.getElementById("searchHelp"),
   wordTypeFilter: document.getElementById("wordTypeFilter"),
+  expressionSearchInput: document.getElementById("expressionSearchInput"),
+  expressionTypeFilter: document.getElementById("expressionTypeFilter"),
+  expressionNationFilter: document.getElementById("expressionNationFilter"),
+  expressionResultList: document.getElementById("expressionResultList"),
+  expressionResultCount: document.getElementById("expressionResultCount"),
+  expressionEmptyState: document.getElementById("expressionEmptyState"),
+  expressionDetailView: document.getElementById("expressionDetailView"),
   ruleSearchInput: document.getElementById("ruleSearchInput"),
   forgeForm: document.getElementById("forgeForm"),
   forgeInput: document.getElementById("forgeInput"),
@@ -445,14 +457,229 @@ function renderWordTypeFilter() {
 
 function renderActiveView() {
   const dictionaryActive = state.activeView === "dictionary";
+  const expressionsActive = state.activeView === "expressions";
   const rulesActive = state.activeView === "rules";
   const forgeActive = state.activeView === "forge";
   els.dictionaryView.classList.toggle("hidden", !dictionaryActive);
+  els.expressionsView.classList.toggle("hidden", !expressionsActive);
   els.rulesView.classList.toggle("hidden", !rulesActive);
   els.forgeView.classList.toggle("hidden", !forgeActive);
   els.dictionaryViewBtn.classList.toggle("active", dictionaryActive);
+  els.expressionsViewBtn.classList.toggle("active", expressionsActive);
   els.rulesViewBtn.classList.toggle("active", rulesActive);
   els.forgeViewBtn.classList.toggle("active", forgeActive);
+}
+
+const EXPRESSION_CATEGORY_TYPES = {
+  "Greetings": "Greeting or farewell",
+  "Culturally Specific Greeting/Farewell": "Greeting or farewell",
+  "Interjection / Exclamation": "Interjection",
+  "Oath/Curse": "Oath or curse",
+  "Nuanced Affirmation/Disagreement": "Expressive response",
+  "Basic Response": "Expressive response",
+  "Hesitation Sound": "Hesitation",
+  "Discourse Particle": "Discourse expression",
+  "Slur": "Slur"
+};
+
+const EXPRESSION_NATIONS = ["Arvan", "Jasara", "Marakor", "Mechuma", "Nivveil", "Pelagae", "Trerra", "Valkeldor", "Verdalris", "Zarithan"];
+
+function escapeMarkup(value) {
+  return String(value || "")
+    .replace(/&/g, "&amp;")
+    .replace(/</g, "&lt;")
+    .replace(/>/g, "&gt;")
+    .replace(/"/g, "&quot;");
+}
+
+function inferExpressionNation(text) {
+  const source = String(text || "").toLowerCase();
+  return EXPRESSION_NATIONS.find((nation) => source.includes(nation.toLowerCase())) || "";
+}
+
+function expressionKey(value) {
+  return String(value || "").trim().toLowerCase().replace(/[.!?]+$/g, "");
+}
+
+function joinExpressionValues(left, right, separator = " / ") {
+  const values = [...String(left || "").split(separator), ...String(right || "").split(separator)]
+    .map((value) => value.trim()).filter(Boolean);
+  return [...new Set(values)].join(separator);
+}
+
+function buildExpressionEntries(expressionRows, lexiconRows, phraseRows) {
+  const entries = [];
+
+  lexiconRows.filter((row) => EXPRESSION_CATEGORY_TYPES[row.category]).forEach((row) => {
+    const type = EXPRESSION_CATEGORY_TYPES[row.category];
+    const isSlur = type === "Slur";
+    entries.push({
+      expression_id: `EX-SRC-${row.entry_id}`,
+      celan_expression: row.celan_term,
+      pronunciation: buildPronunciation(row.celan_term, [row]),
+      natural_meaning: row.english_meaning,
+      literal_meaning: "",
+      expression_type: type,
+      register: row.category,
+      origin_nation: inferExpressionNation(`${row.source_section} ${row.usage_context}`),
+      social_context: row.usage_context,
+      tone_or_risk: isSlur ? "Offensive language targeting a national community. Source wording is preserved for cultural documentation." : "",
+      source_entry_ids: row.entry_id,
+      dictionary_headwords: row.celan_term,
+      canon_status: row.canon_status,
+      review_status: row.review_status,
+      review_reason: row.review_reason,
+      approval_batch: "Source canon",
+      notes: row.notes
+    });
+  });
+
+  phraseRows.filter((row) => row.example_type === "Idiom/Proverb").forEach((row) => {
+    const literal = (row.analysis.match(/Literal:\s*([^;]+)/i) || [])[1] || "";
+    const theme = (row.analysis.match(/Theme:\s*(.+)$/i) || [])[1] || row.source_section;
+    entries.push({
+      expression_id: `EX-SRC-${row.entry_id}`,
+      celan_expression: row.celan_text,
+      pronunciation: buildPronunciation(row.celan_text, []),
+      natural_meaning: row.translation,
+      literal_meaning: literal,
+      expression_type: "Idiom or proverb",
+      register: "Proverbial",
+      origin_nation: inferExpressionNation(`${row.translation} ${row.analysis}`),
+      social_context: theme,
+      tone_or_risk: "",
+      source_entry_ids: row.entry_id,
+      dictionary_headwords: "",
+      canon_status: row.canon_status,
+      review_status: row.review_status,
+      review_reason: row.review_reason,
+      approval_batch: "Source canon",
+      notes: row.notes
+    });
+  });
+
+  expressionRows.forEach((row) => entries.push({ ...row }));
+
+  const deduped = new Map();
+  entries.forEach((entry) => {
+    const key = expressionKey(entry.celan_expression);
+    if (!deduped.has(key)) {
+      deduped.set(key, { ...entry });
+      return;
+    }
+    const existing = deduped.get(key);
+    existing.natural_meaning = joinExpressionValues(existing.natural_meaning, entry.natural_meaning);
+    existing.source_entry_ids = joinExpressionValues(existing.source_entry_ids, entry.source_entry_ids, "; ");
+    existing.dictionary_headwords = joinExpressionValues(existing.dictionary_headwords, entry.dictionary_headwords, "; ");
+    existing.review_status = joinExpressionValues(existing.review_status, entry.review_status);
+    existing.review_reason = joinExpressionValues(existing.review_reason, entry.review_reason);
+    existing.notes = joinExpressionValues(existing.notes, entry.notes);
+    existing.tone_or_risk = joinExpressionValues(existing.tone_or_risk, entry.tone_or_risk);
+  });
+
+  return [...deduped.values()].map((entry) => ({
+    ...entry,
+    searchText: Object.values(entry).join(" ").toLowerCase()
+  })).sort((a, b) => (a.celan_expression || "").localeCompare(b.celan_expression || ""));
+}
+
+function renderExpressionFilters() {
+  const populate = (select, values, allLabel) => {
+    select.innerHTML = "";
+    ["ALL", ...values].forEach((value) => {
+      const option = document.createElement("option");
+      option.value = value;
+      option.textContent = value === "ALL" ? allLabel : value;
+      select.appendChild(option);
+    });
+  };
+  populate(els.expressionTypeFilter, [...new Set(state.expressions.map((entry) => entry.expression_type).filter(Boolean))].sort(), "All expression types");
+  populate(els.expressionNationFilter, [...new Set(state.expressions.map((entry) => entry.origin_nation).filter(Boolean))].sort(), "All cultural origins");
+}
+
+function applyExpressionFilters() {
+  const query = els.expressionSearchInput.value.trim().toLowerCase();
+  const type = els.expressionTypeFilter.value || "ALL";
+  const nation = els.expressionNationFilter.value || "ALL";
+  state.filteredExpressions = state.expressions.filter((entry) => {
+    if (type !== "ALL" && entry.expression_type !== type) return false;
+    if (nation !== "ALL" && entry.origin_nation !== nation) return false;
+    return !query || entry.searchText.includes(query);
+  });
+  renderExpressionList();
+}
+
+function renderExpressionList() {
+  els.expressionResultList.innerHTML = "";
+  els.expressionResultCount.textContent = `${state.filteredExpressions.length} results`;
+  if (!state.filteredExpressions.length) {
+    const item = document.createElement("li");
+    item.textContent = "No expressions match these filters.";
+    els.expressionResultList.appendChild(item);
+    return;
+  }
+  state.filteredExpressions.forEach((entry) => {
+    const item = document.createElement("li");
+    const button = document.createElement("button");
+    button.className = entry.expression_id === state.selectedExpressionId ? "active" : "";
+    const kicker = document.createElement("span");
+    kicker.className = "expression-kicker";
+    kicker.textContent = [entry.expression_type, entry.origin_nation].filter(Boolean).join(" · ");
+    const term = document.createElement("span");
+    term.className = "term";
+    term.textContent = entry.celan_expression;
+    const meaning = document.createElement("span");
+    meaning.className = "sub";
+    meaning.textContent = entry.natural_meaning;
+    button.append(kicker, term, meaning);
+    button.addEventListener("click", () => {
+      state.selectedExpressionId = entry.expression_id;
+      renderExpressionList();
+      renderExpressionDetail(entry);
+    });
+    item.appendChild(button);
+    els.expressionResultList.appendChild(item);
+  });
+}
+
+function expressionHeadwords(entry) {
+  const listed = splitIds(entry.dictionary_headwords);
+  return listed.filter((headword) => {
+    const clean = headword.replace(/[.!?]+$/g, "");
+    return state.groupedEntries.some((group) => group.id === normalizeHeadword(clean));
+  }).map((headword) => headword.replace(/[.!?]+$/g, ""));
+}
+
+function renderExpressionDetail(entry) {
+  const isSlur = entry.expression_type === "Slur";
+  const headwords = expressionHeadwords(entry);
+  const tags = [entry.expression_type, entry.register, entry.origin_nation, entry.review_status]
+    .filter(Boolean).map((value) => `<span class="expression-tag">${escapeMarkup(value)}</span>`).join("");
+  const source = [entry.source_entry_ids, entry.approval_batch].filter(Boolean).join(" · ");
+  els.expressionEmptyState.classList.add("hidden");
+  els.expressionDetailView.classList.remove("hidden");
+  els.expressionDetailView.innerHTML = `
+    <h2 class="entry-word">${escapeMarkup(entry.celan_expression)}</h2>
+    <p class="entry-pronunciation">${escapeMarkup(entry.pronunciation || "Pronunciation not available.")}</p>
+    <div class="expression-meta">${tags}</div>
+    ${isSlur ? `<p class="expression-warning"><strong>Offensive language:</strong> This entry is preserved to document how national hostility appears in Celan. It should not be treated as neutral address.${entry.review_status && entry.review_status !== "Approved" ? ` Its source status is ${escapeMarkup(entry.review_status)}.` : ""}</p>` : ""}
+    <div class="detail-grid">
+      <section class="card"><h3>Conventional meaning</h3><p>${escapeMarkup(entry.natural_meaning)}</p></section>
+      ${entry.literal_meaning ? `<section class="card"><h3>Literal wording</h3><p>${escapeMarkup(entry.literal_meaning)}</p></section>` : ""}
+      ${entry.social_context ? `<section class="card"><h3>Where it lives</h3><p>${escapeMarkup(entry.social_context)}</p></section>` : ""}
+      ${entry.tone_or_risk ? `<section class="card"><h3>Tone and boundaries</h3><p>${escapeMarkup(entry.tone_or_risk)}</p></section>` : ""}
+      ${entry.review_reason ? `<section class="card"><h3>Editorial note</h3><p>${escapeMarkup(entry.review_reason)}</p></section>` : ""}
+      ${headwords.length ? `<section class="card"><h3>Related dictionary words</h3><div class="expression-headwords">${headwords.map((headword) => `<button class="expression-headword-link" type="button" data-expression-headword="${escapeMarkup(headword)}">${escapeMarkup(headword)}</button>`).join("")}</div></section>` : ""}
+      ${source ? `<section class="card sentence-card"><h3>Source</h3><p>${escapeMarkup(source)}</p></section>` : ""}
+    </div>
+  `;
+  els.expressionDetailView.querySelectorAll("[data-expression-headword]").forEach((button) => {
+    button.addEventListener("click", () => {
+      state.activeView = "dictionary";
+      renderActiveView();
+      jumpToHeadword(button.dataset.expressionHeadword);
+    });
+  });
 }
 
 function isWordEntry(row) {
@@ -4246,14 +4473,15 @@ function renderDetail(group) {
 }
 
 async function init() {
-  const [lexicon, lexiconExpansions, roots, phrases, expandedRoots, grammarRules, creatures] = await Promise.all([
+  const [lexicon, lexiconExpansions, roots, phrases, expandedRoots, grammarRules, creatures, expressions] = await Promise.all([
     loadCsv("../data/lexicon.csv"),
     loadCsv("../data/lexicon_expansions.csv"),
     loadCsv("../data/roots_and_morphology.csv"),
     loadCsv("../data/phrases_and_examples.csv"),
     loadCsv("../data/expanded_root_database.csv"),
     loadCsv("../data/grammar_rules.csv"),
-    loadCsv("../data/ohnosha_creatures.csv")
+    loadCsv("../data/ohnosha_creatures.csv"),
+    loadCsv("../data/expressions.csv")
   ]);
   state.lexicon = lexicon;
   const rootEntries = buildRootEntries(expandedRoots);
@@ -4265,13 +4493,17 @@ async function init() {
   state.expandedRoots = expandedRoots;
   state.roots = roots;
   state.phrases = phrases;
+  state.expressions = buildExpressionEntries(expressions, lexicon, phrases);
+  state.filteredExpressions = [...state.expressions];
   state.grammarRules = buildRuleEntries(grammarRules);
   state.familyIndex = buildFamilyIndex(state.groupedEntries, state.expandedRoots, state.roots);
   state.forgeParts = collectForgeParts(state.groupedEntries, state.roots);
   renderActiveView();
   renderWordTypeFilter();
+  renderExpressionFilters();
   renderAzBar();
   applyFilters();
+  applyExpressionFilters();
   applyRuleFilters();
   renderForgeIdle();
 }
@@ -4283,6 +4515,9 @@ els.loadMoreResults.addEventListener("click", () => {
   renderList(shown);
 });
 els.searchMode.addEventListener("change", () => setSearchMode(els.searchMode.value));
+els.expressionSearchInput?.addEventListener("input", applyExpressionFilters);
+els.expressionTypeFilter?.addEventListener("change", applyExpressionFilters);
+els.expressionNationFilter?.addEventListener("change", applyExpressionFilters);
 els.wordTypeFilter?.addEventListener("change", () => {
   state.activeWordType = els.wordTypeFilter.value || "ALL";
   applyFilters();
@@ -4294,6 +4529,10 @@ els.forgeForm?.addEventListener("submit", (event) => {
 });
 els.dictionaryViewBtn.addEventListener("click", () => {
   state.activeView = "dictionary";
+  renderActiveView();
+});
+els.expressionsViewBtn.addEventListener("click", () => {
+  state.activeView = "expressions";
   renderActiveView();
 });
 els.rulesViewBtn.addEventListener("click", () => {

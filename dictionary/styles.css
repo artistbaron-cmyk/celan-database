@@ -73,6 +73,16 @@ body {
   margin-bottom: 10px;
 }
 
+.expression-controls {
+  grid-template-columns: minmax(0, 1fr) 220px 220px;
+}
+
+.panel.expressions-intro {
+  padding: 14px 16px;
+  margin-bottom: 12px;
+  min-height: auto;
+}
+
 .search-help { color: var(--muted); font-size: 14px; margin: 8px 0 12px; }
 .load-more-results { margin: 12px; padding: 10px 16px; cursor: pointer; }
 
@@ -345,7 +355,7 @@ body {
 
   .view-switcher {
     display: grid;
-    grid-template-columns: repeat(3, minmax(0, 1fr));
+    grid-template-columns: repeat(2, minmax(0, 1fr));
     width: 100%;
   }
 
@@ -455,12 +465,14 @@ input, select {
 }
 
 #resultCount,
+#expressionResultCount,
 #ruleCount {
   color: var(--muted);
   font-size: 0.9rem;
 }
 
-#resultList {
+#resultList,
+#expressionResultList {
   list-style: none;
   padding: 0;
   margin: 0;
@@ -469,7 +481,8 @@ input, select {
   overflow-x: hidden;
 }
 
-#resultList li {
+#resultList li,
+#expressionResultList li {
   border-bottom: 1px solid #ebeff3;
 }
 
@@ -486,7 +499,8 @@ input, select {
   border-bottom: 1px solid #ebeff3;
 }
 
-#resultList button {
+#resultList button,
+#expressionResultList button {
   all: unset;
   display: block;
   width: 100%;
@@ -495,8 +509,67 @@ input, select {
 }
 
 #resultList button:hover,
-#resultList button.active {
+#resultList button.active,
+#expressionResultList button:hover,
+#expressionResultList button.active {
   background: var(--blue-soft);
+}
+
+.expression-kicker {
+  display: block;
+  color: var(--muted);
+  font-size: 0.75rem;
+  margin-bottom: 3px;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.expression-meta {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+  margin: 0 0 14px;
+}
+
+.expression-tag {
+  border: 1px solid #d7e1ec;
+  border-radius: 999px;
+  color: var(--blue);
+  background: #fbfdff;
+  padding: 4px 8px;
+  font-size: 0.78rem;
+}
+
+.expression-warning {
+  border: 1px solid #e5b9c8;
+  border-left: 4px solid var(--pink);
+  background: #fff7fa;
+  color: #7b244f;
+  border-radius: 7px;
+  padding: 10px 12px;
+  margin: 0 0 14px;
+  line-height: 1.4;
+}
+
+.expression-headwords {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.expression-headword-link {
+  border: 1px solid #d7e1ec;
+  background: #fbfdff;
+  color: var(--blue);
+  border-radius: 999px;
+  padding: 6px 10px;
+  cursor: pointer;
+  font: inherit;
+}
+
+.expression-headword-link:hover {
+  background: var(--blue-soft);
+  border-color: #b9cde5;
 }
 
 #ruleList button {
@@ -773,6 +846,7 @@ input, select {
   .layout { grid-template-columns: 1fr; }
   .panel { min-height: auto; }
   .list-panel { overflow: hidden; }
-  #resultList { max-height: 260px; }
+  #resultList,
+  #expressionResultList { max-height: 260px; }
   .detail-grid { grid-template-columns: 1fr; }
 }

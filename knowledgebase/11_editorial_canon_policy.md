@@ -592,6 +592,24 @@ All fifty-three entries are universal overall, so national origin and national u
 
 The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-GMMP1-0001` through `LX-GMMP1-0053`.
 
+## ED-0029: Living Celan 1 and the Expressions Layer
+
+Status: Approved.
+
+Approval date: 2026-09-14.
+
+Living Celan 1 approves the expressions in proposal Passes 1A, 1B, 2, and 4. Pass 3 remains exploratory and is not integrated. The approved set adds twelve elevated metaphorical expressions, ten contemporary Ohnoshan idioms, eight clipped or reanalyzed colloquial forms, and eight nationally characteristic expressions. These are expression records rather than new dictionary headwords or added dictionary senses.
+
+The app gains a first-class Expressions index assembled from `data/expressions.csv` and established expressive source records. Existing greetings and farewells, interjections, hesitation sounds, expressive responses, discourse expressions, oaths and curses, source idioms and proverbs, and the eight inherited national slurs are cross-listed without being removed from or duplicated within their authoritative lexicon and phrase sources. National origin marks characteristic development or use rather than exclusive ownership.
+
+The Phrase Builder phrasebank is explicitly excluded from the Expressions index. A sentence or translation prompt does not become an expression merely because it is stored at phrase level. Expression admission requires conventional social meaning, recognizable expressive function, or established source classification.
+
+The national slurs remain documented as offensive language. Cross-listing does not resolve their `Source Ambiguity` status, approve their derivations, or make them neutral forms of address. The Expressions interface must preserve their source and review status and display a clear usage warning.
+
+`Ilin-ka` and `Inko-ka` are approved as colloquial ellipses in which an understood possessed noun is omitted. `Ver-ilin` is approved as a socially marked contraction meaning “not us” or “not one of us,” not as a replacement for ordinary standard negation. `Nor-ka`, `Wek'aen`, and `Athnor` retain their established grammatical or discourse meanings while functioning as whole utterances in shared context.
+
+The approved records are maintained in `data/expressions.csv` under IDs `EX-LC1A-0001` through `EX-LC1A-0012`, `EX-LC1B-0001` through `EX-LC1B-0010`, `EX-LC1C-0001` through `EX-LC1C-0008`, and `EX-LC1E-0001` through `EX-LC1E-0008`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:

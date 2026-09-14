@@ -36,10 +36,13 @@ Examples include:
 
 - `/Users/admin/Documents/CELAN_DATABASE/data/grammar_rules_working.csv`
 - `/Users/admin/Documents/CELAN_DATABASE/data/lexicon_expansions.csv`
+- `/Users/admin/Documents/CELAN_DATABASE/data/expressions.csv`
 
 This is usually the layer that matters most when we want something to feel usable rather than merely preserved.
 
 `lexicon_expansions.csv` holds explicitly approved new vocabulary created after the source volumes. It stores app-facing meanings, pronunciations, roots, optional national origin and usage when genuinely relevant, euphonic variants, approval batch, and example links without rewriting the extracted source lexicon.
+
+`expressions.csv` holds explicitly approved idioms, colloquialisms, and nationally characteristic expressions that should be searchable without being counted as dictionary headwords. The app combines this file with established expressive lexicon entries and source idioms. The Phrase Builder phrasebank is not an Expressions source.
 
 ## Generated app and report files
 

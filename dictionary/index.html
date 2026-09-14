@@ -16,6 +16,7 @@
 
     <nav class="view-switcher" aria-label="Dictionary views">
       <button id="dictionaryViewBtn" class="active" type="button">Dictionary</button>
+      <button id="expressionsViewBtn" type="button">Expressions</button>
       <button id="rulesViewBtn" type="button">Grammar Guide</button>
       <button id="forgeViewBtn" type="button">Phrase Builder</button>
     </nav>
@@ -50,6 +51,41 @@
             Select a term to view details.
           </div>
           <article id="detailView" class="hidden"></article>
+        </section>
+      </section>
+    </section>
+
+    <section id="expressionsView" class="hidden">
+      <section class="expressions-intro panel">
+        <div class="forge-head">
+          <h2>Expressions</h2>
+          <p>Search the idioms, colloquialisms, reactions, oaths, greetings, slurs, and nationally characteristic sayings that give Celan its social voice.</p>
+        </div>
+      </section>
+
+      <section class="controls expression-controls">
+        <input id="expressionSearchInput" type="search" aria-label="Search expressions" placeholder="Search Celan, meaning, situation, or cultural voice..." />
+        <select id="expressionTypeFilter" aria-label="Filter by expression type">
+          <option value="ALL">All expression types</option>
+        </select>
+        <select id="expressionNationFilter" aria-label="Filter by nation">
+          <option value="ALL">All cultural origins</option>
+        </select>
+      </section>
+      <p class="search-help">Dictionary words may also appear here when their social use is expressive. Phrase Builder prompts are not included.</p>
+
+      <section class="layout">
+        <aside class="panel list-panel">
+          <div class="panel-head">
+            <h2>Expression Index</h2>
+            <span id="expressionResultCount" role="status" aria-live="polite">0</span>
+          </div>
+          <ul id="expressionResultList"></ul>
+        </aside>
+
+        <section class="panel detail-panel">
+          <div id="expressionEmptyState" class="empty">Select an expression to view its meaning, register, and social context.</div>
+          <article id="expressionDetailView" class="hidden"></article>
         </section>
       </section>
     </section>

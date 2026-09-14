@@ -10,7 +10,8 @@ const dataFiles = [
   "phrases_and_examples.csv",
   "expanded_root_database.csv",
   "grammar_rules.csv",
-  "ohnosha_creatures.csv"
+  "ohnosha_creatures.csv",
+  "expressions.csv"
 ];
 
 async function main() {

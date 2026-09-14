@@ -13,12 +13,14 @@ function createElementStub() {
     textContent: "",
     value: "",
     onclick: null,
+    append() {},
     appendChild() {},
     addEventListener() {},
     querySelectorAll() { return []; },
     classList: {
       add() {},
-      remove() {}
+      remove() {},
+      toggle() {}
     }
   };
 }

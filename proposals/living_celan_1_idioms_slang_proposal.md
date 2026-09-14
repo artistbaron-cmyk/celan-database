@@ -2,11 +2,12 @@
 
 ## Proposal report
 
-**Status:** Proposal only — no entries approved or integrated  
-**Scope:** Elevated sayings, contemporary everyday idioms, marked colloquial forms, community slang, and eight nationally characteristic expressions  
+**Status:** Approved and integrated — Passes 1A, 1B, 2, and 4
+**Scope:** Existing canonical expressive forms plus proposed elevated sayings, contemporary everyday idioms, marked colloquial forms, and eight nationally characteristic expressions
 **Audit baseline:** 1,350 app headwords and 1,428 displayed dictionary senses  
-**Proposed material:** 46 expressions and usages across elevated, contemporary, colloquial, slang, and national registers  
-**Possible dictionary effect if fully approved:** 0 new headwords under the present recommendation; up to 8 later-added slang senses only if usage becomes stable enough to justify them  
+**User-selected proposal material:** Passes 1A, 1B, 2, and 4; Pass 3 is not selected for the build
+**Dictionary effect:** 0 new headwords and 0 replaced senses; expressions are counted separately
+**Expressions build:** 107 unique searchable expressions assembled from 38 Living Celan records, 60 expressive lexicon records, and 11 source idioms/proverbs, with two overlapping forms merged
 **New primitive roots proposed:** None  
 **Review method:** Canon Dictionary audit, active-root reuse, collision review, Ohnoshan Metaphor Test, cadence review, register review, and headword-admission review
 
@@ -22,12 +23,12 @@ That gap matters because idiom and slang perform work that ordinary definitions 
 - they mark belonging, age, occupation, and cultural influence;
 - and they make dialogue sound inhabited rather than assembled.
 
-The recommended solution is not to turn every expression into a dictionary headword. This report separates five kinds of material:
+The recommended solution is not to turn every expression into a dictionary headword. The Expressions build should distinguish these kinds of material:
 
-1. **Elevated metaphorical expressions** — formal, ceremonial, literary, or proverb-like speech.
-2. **Contemporary idioms** — expressions born from networks, transit, programs, workshops, markets, performance, and other modern Ohnoshan systems.
-3. **Colloquial forms** — marked constructions, contractions, omissions, and clipped responses rather than unchanged words with reassigned glosses.
-4. **Socially situated slang** — informal uses of existing Celan words that arise in crews, households, workshops, travel, and post-Fracture life.
+1. **Established expressive forms** — canonical interjections, expressive discourse particles, nuanced responses, oaths, greetings and farewells, idioms/proverbs, and national slurs already preserved in the lexicon and source notes.
+2. **Elevated metaphorical expressions** — formal, ceremonial, literary, or proverb-like speech.
+3. **Contemporary idioms** — expressions born from networks, transit, programs, workshops, markets, performance, and other modern Ohnoshan systems.
+4. **Colloquial forms** — marked constructions, contractions, omissions, and clipped responses rather than unchanged words with reassigned glosses.
 5. **National expressions** — phrases with a universal intelligible core but a characteristic cultural origin.
 
 All proposed figurative meanings arise from established Celan semantic relationships. None depends only on an English idiom, and no new primitive root is required.
@@ -48,6 +49,8 @@ The source-facing lexicon currently contains:
 | National slurs | 8 | Source-preserved and all marked Source Ambiguity |
 
 Celan therefore already has expressive seeds. What it lacks is density, productive metaphor, and ordinary social range.
+
+For the Expressions build, the eight national slurs belong beside the other socially marked expressions even though they already appear in the Dictionary. They should be cross-listed rather than duplicated or removed from the lexicon. Their offensive function, national target, source provenance, and `Source Ambiguity` review status must remain visible.
 
 ## Editorial model
 
@@ -71,13 +74,13 @@ A proverb makes a general claim about conduct or experience. Proverbs should be 
 
 | Material | Recommended home | Headword effect |
 |---|---|---:|
-| Elevated metaphorical expressions | Phrase Builder with elevated, literary, ceremonial, or proverbial register metadata | 0 |
-| Contemporary idioms | `phrase_builder/phrasebank/phrasebank.csv` after approval and form review | 0 |
-| Colloquial forms | Phrase Builder plus register notes; new forms require explicit approval | 0 initially |
-| Socially situated slang | Phrase Builder and register notes first; additive senses only after later stability review | 0 initially |
-| National expressions | Phrase Builder with cultural voice metadata | 0 |
+| Existing interjections, discourse responses, oaths, greetings, idioms/proverbs, and slurs | First-class Expressions index, cross-linked to their existing source or dictionary entries | 0 |
+| Elevated metaphorical expressions | First-class Expressions index with elevated, literary, ceremonial, or proverbial register metadata | 0 |
+| Contemporary idioms | First-class Expressions index after approval and form review | 0 |
+| Colloquial forms | First-class Expressions index plus register notes; new forms require explicit approval | 0 initially |
+| National expressions | First-class Expressions index with cultural voice metadata | 0 |
 
-The existing Phrase Builder schema can already record the Celan phrase, literal sense, communicative function, tone, cultural voice, source support, and form-review status. A later schema refinement could add `register`, `generation`, `social_group`, and `currency_status`, but that is not required to review this batch.
+The Phrase Builder phrasebank is explicitly excluded. It contains useful sentences and prompts, but ordinary phrases do not qualify for the Expressions collection merely because they are stored at phrase level. The Expressions layer needs its own curated data model for conventional meaning, literal wording, register, social use, cultural origin, offense or sensitivity notes, source support, canon status, and review status.
 
 ---
 
@@ -269,7 +272,7 @@ None of the proposed slang usages is a protected-class slur, but `Vekmor` can be
 
 ## 6. Source-ambiguous slurs
 
-The eight inherited nation-based slurs remain outside this proposal. Their Source Ambiguity status should be resolved through a separate cultural and sensitivity review rather than normalized merely to make the slang layer larger.
+The eight inherited nation-based slurs are in scope for the Expressions build because slurs are socially marked expressive vocabulary. Inclusion does not resolve or erase their `Source Ambiguity` status. They remain cross-linked dictionary entries and must display a clear offensive-language warning, the group targeted, source provenance, usage context, and unresolved review status. No new slurs are proposed by this decision.
 
 ## 7. Proverbs remain deferred
 
@@ -279,13 +282,15 @@ Full proverbs should be tied to attested histories, occupations, famous events, 
 
 # Recommended approval structure
 
-The proposal is designed for selective approval:
+The proposal is designed for selective approval. Existing canonical expressive material is a build-content decision rather than a new lexical approval batch:
 
-1. **Living Celan 1A — Elevated metaphorical expressions:** candidates 1–12.
-2. **Living Celan 1B — Contemporary Ohnoshan idioms:** candidates C1–C10.
-3. **Living Celan 1C — Clipped and reanalyzed colloquial forms:** candidates 13–20.
-4. **Living Celan 1D — Socially situated slang:** candidates 21–28.
+1. **Established Expressions collection:** canonical interjections, expressive discourse particles and responses, oaths, greetings/farewells, idioms/proverbs, and all eight inherited national slurs. The phrasebank is excluded.
+2. **Living Celan 1A — Elevated metaphorical expressions:** candidates 1–12.
+3. **Living Celan 1B — Contemporary Ohnoshan idioms:** candidates C1–C10.
+4. **Living Celan 1C — Clipped and reanalyzed colloquial forms:** candidates 13–20.
 5. **Living Celan 1E — National expressions:** candidates 29–36.
+
+Pass 3, candidates 21–28, remains preserved in this report as exploratory work but is not selected for integration.
 
 Approval may apply to a whole sub-batch or to identified individual candidates. Discussion or permission to keep developing the report does not constitute canon approval.
 
@@ -294,11 +299,10 @@ Approval may apply to a whole sub-batch or to identified individual candidates. 
 1. Decide which elevated candidates belong as formal sayings and remove any that still pretend to be everyday speech.
 2. Put the contemporary idioms into actual transit, workshop, market, rehearsal, household, and control-room dialogue.
 3. Review `Ilin-ka`, `Ver-ilin`, and `Inko-ka` as linguistic developments rather than as English glosses.
-4. Decide whether the eight proposed slang communities and relationship dynamics feel true to Ohnoshan life.
-5. Review the eight national expressions for cultural truth and tone.
-6. Approve, revise, or reject candidates by their displayed number or ID.
-7. Only after approval, add phrase entries and approved lexical rows, validate, rebuild the app data, and audit the resulting headword and sense counts.
+4. Review the eight national expressions for cultural truth and tone.
+5. Approve, revise, or reject candidates by their displayed number or ID.
+6. Only after approval, add a dedicated Expressions data layer and approved candidate records, validate, rebuild the app data, and audit the resulting headword, sense, and expression counts.
 
 ## Final recommendation
 
-Proceed with Living Celan 1 as a register-and-phrase expansion rather than a conventional vocabulary batch. Its success should be measured by whether characters can sound familiar, suspicious, amused, dismissive, reassuring, indirect, and culturally situated—not by how many new headwords appear in the dictionary.
+Proceed with Living Celan 1 as a dedicated Expressions expansion rather than a conventional vocabulary or Phrase Builder batch. Its success should be measured by whether characters can sound familiar, suspicious, amused, dismissive, reassuring, indirect, and culturally situated—not by how many new headwords appear in the dictionary.
