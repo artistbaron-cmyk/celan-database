@@ -700,6 +700,26 @@ The direct organ roots `Khelu`, `Lumar`, and `Kedir` are theory-neutral. They na
 
 All forty-four entries are universal overall, so national origin and national usage remain blank. Approval authorizes only the listed headwords and their recorded senses, not automatic derivative families. The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-BIAOBF1-0001` through `LX-BIAOBF1-0044`, with linked examples under `PE-BIAOBF1-0001` through `PE-BIAOBF1-0088`.
 
+## ED-0034: Reproductive Anatomy, Bodily Fluids, and Extremities 2
+
+Status: Approved.
+
+Approval date: 2026-09-15.
+
+Reproductive Anatomy, Bodily Fluids, and Extremities 2 adds twenty approved universal headwords for vulva, vagina, clitoris, uterus, cervix, ovary, penis, testicle, scrotum, urethra, anus, sexual arousal, orgasm, saliva, tears, thumb, heel, and human hair. The arousal and orgasm concepts receive both noun and verb forms. The batch creates nine roots: `Noka`, `Kiri`, `Mara`, `Seki`, `Tava`, `Nderu`, `Fena`, `Leya`, and `Ruma`.
+
+Anatomical structures are independent of `Azan` feminine essence and `Kadren` masculine essence. A person's anatomy does not determine gendered essence, and gendered essence does not predict anatomy. The approved terms are therefore direct anatomical vocabulary usable for any person who has the named structure. `Noka` vulva and `Nokashan` vagina remain distinct: the former names external genital anatomy and the latter the internal muscular canal. `Mara`, `Marasorl`, and `Nokashan` separately name uterus, cervix, and vagina. `Nderu` testicle remains distinct from `Nderuxar` scrotum. `Urenshan` urethra remains distinct from both vagina and urinary bladder.
+
+`Shan` is used only where physical passage is central, in `Nokashan` and `Urenshan`. `Vek` is not a generic label for every hollow organ, and `Tash` is not mechanically attached to every internal structure. `Marasorl` uses the established neck relation for the lower narrow part of the uterus. `Nderuxar` uses protective covering for the scrotal sac. `Korpir` specifies the thumb when generic `Pir` digit is insufficient, while `Morlkavesh` names the rear weight-bearing part of `Morlka` foot through the approved bodily-back root `Vesh`.
+
+`Leya` and `Leyaen` name sexual physiological arousal and becoming or being aroused. Arousal does not establish desire, consent, willingness, pleasure, or intended action. `Leyajor` and `Leyajoraen` name orgasm as a bounded bodily event and do not establish consent, satisfaction, fertility, ejaculation, or reproduction. Sexual activity remains `Tlamor`; psychological longing remains `Thera`.
+
+`Kelvordren` saliva and `Lorinshaldren` tears use `Dren` as bodily fluid or flow without making saliva drinking water or tears evidence of sadness. `Ruma` human or person hair is historically and phonologically related to `Sura` animal hair or fur. Their formal resemblance records related bodily material, but neither is a transparent compound or an added sense of the other.
+
+`Urenashan`, `Kelvoradren`, and `Lorinshaladren` are optional searchable euphonic variants of `Urenshan`, `Kelvordren`, and `Lorinshaldren`; they do not add headwords. Approval authorizes only the listed headwords and their recorded senses, not automatic terms for labia, rectum, sperm, semen, ovum, erection, lubrication, ejaculation, contraception, infertility, pregnancy, or other mechanically possible derivatives.
+
+All twenty entries are universal overall, so national origin and national usage remain blank. The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-RABFE2-0001` through `LX-RABFE2-0020`, with linked examples under `PE-RABFE2-0001` through `PE-RABFE2-0040`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:
