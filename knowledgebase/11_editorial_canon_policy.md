@@ -684,6 +684,22 @@ Understanding, Helping, and Emotional Interiority 1 adds twenty-one approved uni
 
 All entries are universal overall, so national origin and national usage remain blank. The approved headwords are maintained in `data/lexicon_expansions.csv` under IDs `LX-UHEI1-0001` through `LX-UHEI1-0021`; the expressions are maintained in `data/expressions.csv` under IDs `EX-UHEI1-0001` and `EX-UHEI1-0002`.
 
+## ED-0033: Body, Internal Anatomy, and Ordinary Bodily Functions 1
+
+Status: Approved.
+
+Approval date: 2026-09-15.
+
+Body, Internal Anatomy, and Ordinary Bodily Functions 1 adds forty-four approved universal headwords. It supplies missing everyday body regions, joints and digits, living tissues, major internal organs, bodily pathways, common reflexes, bodily secretions and waste, menstruation, and fainting. It creates twenty new roots: `Doran`, `Breka`, `Vesh`, `Davel`, `Gora`, `Pir`, `Metha`, `Zek`, `Lera`, `Tash`, `Khelu`, `Lumar`, `Kedir`, `Lesh`, `Khos`, `Zer`, `Suv`, `Nar`, `Uren`, and `Fek`.
+
+The root admissions are deliberately connected rather than arbitrary. `Gora` produces a joint family in `Kalvargora`, `Koringora`, `Sharvargora`, and `Morlkagora`; `Pir` produces finger and `Morlkapir` toe; `Metha` produces flesh, `Xarmetha` living skin, and `Kalmetha` muscle; `Tash` produces the general organ category, `Aentash` lung, and `Emiltash` stomach. `Uren` links urine, `Urenaen` urination, and `Urenvek` urinary bladder. `Khos`, `Zer`, `Suv`, `Nar`, and `Fek` each support compact noun-verb families for frequent embodied events. Existing roots remain active in the transparent compounds `Korkalvar`, `Korsharvar`, `Numor`, `Emilshan`, `Ndemshan`, `Ndemwek`, `Ndemwekaen`, and `Kakesrinaen`.
+
+The direct organ roots `Khelu`, `Lumar`, and `Kedir` are theory-neutral. They name physical organs without forcing the lexicon to encode a speculative medical model through mind, memory, filtration, waste, or control metaphors. `Lesh` similarly names a nerve without reducing it to thread, pain, sensation, will, or strength. `Vesh` bodily back remains distinct from `Vethvar` positional behind. `Xarmetha` living skin remains distinct from `Rask` hide, and `Metha` living flesh remains distinct from `Torin` meat as food.
+
+`Zek` means tooth. Possible historical or derivational relationships among teeth, smiling, grinning, and biting remain open for later development, but approval does not assign those additional senses automatically. `Nar` names nausea while `Naraen` is the lexicalized verb vomit; the state and event are related but not identical. `Ndemwek` and `Ndemwekaen` treat menstruation as an ordinary recurring bodily function rather than an injury or illness. `Kakesrinaen` is intransitive: it means that the subject faints, not that the subject causes someone else to become unconscious.
+
+All forty-four entries are universal overall, so national origin and national usage remain blank. Approval authorizes only the listed headwords and their recorded senses, not automatic derivative families. The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-BIAOBF1-0001` through `LX-BIAOBF1-0044`, with linked examples under `PE-BIAOBF1-0001` through `PE-BIAOBF1-0088`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:
