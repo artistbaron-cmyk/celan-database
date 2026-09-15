@@ -79,7 +79,7 @@ const assembledKeys = new Set([
 ]);
 
 const errors = [];
-if (expressions.length !== 38) errors.push(`Expected 38 approved Living Celan records; found ${expressions.length}.`);
+if (expressions.length !== 40) errors.push(`Expected 40 approved expression records; found ${expressions.length}.`);
 if (expressions.some((row) => !row.expression_id || !row.celan_expression || !row.pronunciation || !row.natural_meaning)) {
   errors.push("Every approved expression needs an ID, Celan form, pronunciation, and conventional meaning.");
 }

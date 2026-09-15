@@ -610,6 +610,80 @@ The national slurs remain documented as offensive language. Cross-listing does n
 
 The approved records are maintained in `data/expressions.csv` under IDs `EX-LC1A-0001` through `EX-LC1A-0012`, `EX-LC1B-0001` through `EX-LC1B-0010`, `EX-LC1C-0001` through `EX-LC1C-0008`, and `EX-LC1E-0001` through `EX-LC1E-0008`.
 
+## ED-0030: Spatial Reference and Deixis 1
+
+Status: Approved.
+
+Approval date: 2026-09-14.
+
+Spatial Reference and Deixis 1 adds nine approved universal headwords and one additive spatial sense to existing `Kor`. It establishes ordinary left and right, center or middle, a three-way demonstrative system, interior and exterior location, generic entry and exit, and speaker-directed “come here” without creating a separate motion verb.
+
+`Naku` and `Sora` are approved two-syllable primitive roots for left-side and right-side relation within an oriented frame. A person or animal normally supplies its own facing; a vehicle, tool, or building may supply a functional front; a route may supply direction of travel; and a map may supply its stated orientation. If no frame is recoverable, the speaker must establish one. Neither word is an absolute geographic direction. `Naku` does not mean remaining or abandoned, and `Sora` does not mean correct, acceptable, entitled, or politically right.
+
+`Kor` adds the displayed Noun sense “Center or middle; the central position or region within a bounded whole.” Its established source/strength and handspan-measure senses remain visible. `Kordel` is not an approved headword in this batch. As a transparent construction it can only identify the core or midpoint of two stated references because `Del` means two; it is not the general word for middle.
+
+`Den` is an approved one-syllable bound grammatical primitive for deictic reference. It is not an independent headword or noun. `Deni`, `Denya`, and `Denla` are Particle headwords marking a referent in the speaker's immediate sphere, the listener's immediate sphere, or away from both. They follow the noun they mark. A bare particle may occur through ordinary omission of an understood noun without becoming a Noun sense. The particles do not inflect for number. Existing `An` forms the locatives `an deni` “here,” `an denya` “there by you,” and `an denla` “over there/yonder.”
+
+`Anor` names an interior or inside area. `Kaan` lexicalizes `Ka` without/not having + `An` in/at as the spatial Preposition “outside or beyond; not within a stated or understood boundary.” It remains distinct from general `Ka`, from motion-source `Thal`, and from a completed boundary crossing. The isolated source-example form `thalor` is preserved as a source witness but is not promoted as the current outside term because of its strong surface overlap with `Thalorim` lightning.
+
+`Anshanaen` and `Thalshanaen` are the generic physical verbs enter and exit. They entail crossing a boundary and remain distinct from `Anvekaen` board/load transport and `Thalvekaen` disembark/unload transport. After a motion verb, existing `An` may mark a reached or entered goal; in a static clause it continues to mark location. Speaker-directed motion uses this analytic structure, as in `va var Ya an deni` “come here,” rather than adding a separate primitive for come.
+
+The batch does not establish cardinal directions or a universal mountain-ward, sea-ward, light-ward, or shadow-ward frame. Existing star routes, wind bearings, compasses, maps, currents, passes, destinations, and contextual orientation remain the long-range navigation layer.
+
+All nine new headwords and the additive `Kor` sense are universal overall, so national origin and national usage remain blank. Approval authorizes only `Naku`, `Sora`, `Deni`, `Denya`, `Denla`, `Anor`, `Kaan`, `Anshanaen`, `Thalshanaen`, the added `Kor` sense, and the grammatical constructions stated here—not automatic derivative families.
+
+The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-SRD1-0001` through `LX-SRD1-0010`.
+
+## ED-0031: Humor, Laughter, and Playful Speech 1
+
+Status: Approved.
+
+Approval date: 2026-09-14.
+
+Humor, Laughter, and Playful Speech 1 adds thirteen approved universal headwords for laughter, laughing, funniness, humor, jokes, joking and playful teasing, wordplay, wit, comic performance, mockery, ridicule, irony, and sarcasm. It establishes one new primitive root, `Hav`, and creates no new dictionary category or expression record.
+
+`Hav` names laughter as an embodied vocal, breath-driven, facial, or bodily response. It does not by itself imply joy, humor, kindness, consent, or ridicule. `Havaen` is the ordinary verb laugh. `Haveth` evaluates something as funny or amusing in a particular context rather than declaring it universally funny. `Vial` remains joy or happiness, `Dov` remains play or recreation, and `Aen` remains speech, breath, and sound generally.
+
+`Dovhav` names humor or a comic frame by combining play with the possibility of amused response. `Dovkel` is one bounded joke conveyed through an utterance, story beat, gesture, or act. `Dovkelaen` means to joke; with a person as direct object it means to tease that person playfully. `Ser` can establish mutual joking, as in `dovkelaen I ser Ya` “I joke with you.” A recoverable playful frame distinguishes joking from deception but does not permit a speaker to erase harmful social effects merely by claiming that an act was a joke.
+
+`Keljek` names wordplay or a pun through language plus a turn in sound, wording, segmentation, or multiple meaning. `Pralhav` names wit as comic skill rather than intelligence, wisdom, education, or truth. `Dovhavral` names a person with a practiced comic role and does not classify every funny person as a comedian or professional performer. The approved smoother variants `Dovahav` and `Dovahavral` remain searchable forms of their unsmoothed headwords and do not add entries.
+
+`Havrath` and `Havrathaen` name ridicule and the act of mocking when laughter or comic treatment is used to diminish, expose, or socially lower a target. The adversarial force describes the act's social orientation rather than declaring every participant a permanent enemy. Mutual joking and teasing remain `Dovkelaen`; a speaker's private intent does not automatically override a target's or observer's accurate recognition of mockery.
+
+`Jekkel` names irony as an understood contrast between surface wording or apparent circumstances and intended evaluation or actual outcome. Irony expects the contrast to become recoverable through context, shared knowledge, tone, or events and is therefore not identical to deception. `Peljekkel` names sarcasm as pointed irony used to criticize, sting, challenge, or teasingly rebuke. Sarcasm may be affectionate or hostile but remains distinct from ridicule unless social diminishment becomes part of the act. `Jekakel` and `Pelajekkel` are optional euphonic variants and do not add headwords.
+
+All thirteen entries are universal overall, so national origin and national usage remain blank. National voices may develop characteristic comic timing, metaphor, understatement, repetition, or performance habits without owning separate meanings. Approval authorizes only `Hav`, `Havaen`, `Haveth`, `Dovhav`, `Dovkel`, `Dovkelaen`, `Keljek`, `Pralhav`, `Dovhavral`, `Havrath`, `Havrathaen`, `Jekkel`, and `Peljekkel`, not automatic derivative families.
+
+Separate headwords for smiling, specific laughter manners, dark or gallows humor, parody, satire, slapstick, farce, setups, punchlines, callbacks, and humorous national expressions remain deferred for later evidence-led development.
+
+The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-HLPS1-0001` through `LX-HLPS1-0013`.
+
+## ED-0032: Understanding, Helping, and Emotional Interiority 1
+
+Status: Approved.
+
+Approval date: 2026-09-15.
+
+Understanding, Helping, and Emotional Interiority 1 adds twenty-one approved universal headwords and two approved colloquial expressions. The batch supplies general comprehension, misunderstanding, explaining, clarifying, ordinary help, and distinct vocabulary for envy, jealousy, embarrassment, boredom, loneliness, resentment, and anxiety. It creates no new dictionary category and adds no displayed sense to an existing headword.
+
+`Nem` is an approved new one-syllable primitive for understanding or comprehension as a coherent mental grasp. It remains distinct from `Khum` patient or hearing-centered knowing, `Kes` noticing, `Sel` mental clarity, `Lian` truth, and `Vel` wisdom. `Nemaen`, `Rethnem`, `Rethnemaen`, `Kelnemaen`, and `Selnemaen` distinguish understanding, misunderstanding, explaining, and clarifying. Explanation aims to produce comprehension, while clarification removes obscurity or ambiguity from something already stated or partly grasped. Neither guarantees truth, agreement, or obedience.
+
+`Mbaen` reuses the established `Mb-` support family as the ordinary verb help or assist. Both `m` and `b` are articulated. It remains distinct from rescue, repair, bodily healing, and emotional comfort. Offering, requesting, needing, accepting, and refusing help use ordinary questions, imperatives, modality, passive construction, and the established `Lia`, `Ka`, and `Ver` forms rather than receiving separate headwords in this batch.
+
+`Zev` is an approved new one-syllable primitive for envy as painful comparative desire for what another has. `Fahohm` uses fear plus connection for jealousy as feared displacement within a valued bond, attention, or relational place. Envy and jealousy are therefore not synonyms: envy concerns another's advantage or possession, while jealousy concerns threatened relation.
+
+`Mira` is an approved new two-syllable primitive for embarrassment as immediate self-conscious social discomfort. It remains lighter and more situational than established `Veth'tharaen` shame or guilt and does not imply wrongdoing. `Hav` laughter may arise from embarrassment but does not replace it.
+
+`Daku` is an approved new two-syllable primitive for boredom as unpleasant or restless under-engagement. It does not make `Neth` rest, `Vaar` calm, leisure, or physical stillness inherently negative. A person may be bored while active or peacefully inactive without boredom.
+
+`Ravohm` uses yearning plus connection for loneliness as painful felt absence or insufficiency of connection. It does not mean physical solitude, separation, or chosen privacy. `Kavkrez` uses preservation through time plus fire or anger for resentment as anger or grievance retained because something feels unanswered; immediate anger remains `Krezaen`. `Fahreth` uses fear plus uncertainty for anxiety as sustained or recurring apprehensive activation under uncertain or anticipated threat; immediate fear remains `Fahaen`, and ordinary concern or worry remains `Rethaen`.
+
+`Rethanem`, `Rethanemaen`, `Kavakrez`, and `Kavakrezaen` are optional searchable euphonic variants of their corresponding unsmoothed primary headwords and do not add entries. Approval authorizes only `Nem`, `Nemaen`, `Rethnem`, `Rethnemaen`, `Kelnemaen`, `Selnemaen`, `Mbaen`, `Zev`, `Zevaen`, `Fahohm`, `Fahohmaen`, `Mira`, `Miraen`, `Daku`, `Dakuaen`, `Ravohm`, `Ravohmaen`, `Kavkrez`, `Kavkrezaen`, `Fahreth`, and `Fahrethaen`, not automatic derivative families.
+
+`Nem ka.` and `Ra mbaen?` are approved colloquial expression records rather than additional dictionary headwords. The first means “That makes no sense; I am not following” and is blunter than `Ver nemaen I.` The second is a cooperative elliptical offer meaning “Want help?” or “Need a hand?”
+
+All entries are universal overall, so national origin and national usage remain blank. The approved headwords are maintained in `data/lexicon_expansions.csv` under IDs `LX-UHEI1-0001` through `LX-UHEI1-0021`; the expressions are maintained in `data/expressions.csv` under IDs `EX-UHEI1-0001` and `EX-UHEI1-0002`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:
