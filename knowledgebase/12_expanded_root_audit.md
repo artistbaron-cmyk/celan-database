@@ -1,5 +1,7 @@
 # Expanded Root Audit
 
+> **Historical snapshot notice (2026-09-16):** The counts and created-root list in this file describe the original 100-entry expanded-root audit before the approved lexical expansion program. For the current 86 user-approved created roots, use `knowledgebase/16_created_roots_register.md`. The live mixed inventory remains authoritative in `data/expanded_root_database.csv` and `data/expanded_root_crosswalk.csv`.
+
 This file is the working audit for the separate expanded root database.
 
 ## Taxonomy

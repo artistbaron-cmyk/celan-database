@@ -720,6 +720,24 @@ Anatomical structures are independent of `Azan` feminine essence and `Kadren` ma
 
 All twenty entries are universal overall, so national origin and national usage remain blank. The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-RABFE2-0001` through `LX-RABFE2-0020`, with linked examples under `PE-RABFE2-0001` through `PE-RABFE2-0040`.
 
+## ED-0035: Short Interrogative Particles and the Optional Question Frame
+
+Status: Approved.
+
+Approval date: 2026-09-17.
+
+Short Interrogative Particles 1 adds six approved universal Particle headwords: `Mu` what, `Nu` when, `Zhe` why, `Sha` how, `Lo` where, and `Ri` who. They form a closed grammatical family rather than six productive lexical roots. They do not authorize compounds, suffixed derivatives, additional noun meanings, or additions to the productive root database.
+
+Standard questions continue to begin with `Ra`. A content question may optionally close with one of the six short particles to state the missing answer category explicitly. The closing particle is grammatically correct but never mandatory. A shorter form such as `ra var ser?` remains grammatical when situation, prior speech, gesture, or shared knowledge makes the requested information recoverable. The explicit `ra var ser lo?` is available when the speaker wants to identify place directly or prevent misunderstanding.
+
+The approved optional Question Frame is `ra + what is known + missing-answer particle?`. `Ra` opens an unresolved thought, the clause establishes known structure, and the final particle names the missing anchor that an answer would supply. This is an ordinary practical interpretation suited to diagnosis, navigation, repair, testimony, and coordination; it is not a compulsory ceremonial pattern.
+
+`Mu`, `Nu`, `Zhe`, `Sha`, and `Ri` are historically and phonologically related to `Mor`, `Nor`, `Zhir`, `Shara`, and `Rin` without becoming transparent modern derivatives or adding interrogative meanings to those older roots. `Lo` is historically related to place-bearing `-or`; the precise diachronic path remains open, but its living grammatical function is settled and it does not add a new sense to `Lor`. The differentiated forms avoid exact collision with ordinary lexical material in complex questions.
+
+`Ri` requests identity and does not divide English “who” from “whom.” Celan uses one particle; clause structure and context establish the participant's role.
+
+All six particles are universal overall, so national origin and national usage remain blank. The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-SIP1-0001` through `LX-SIP1-0006`, with linked examples under `PE-SIP1-0001` through `PE-SIP1-0012`. The app-facing grammar rules are maintained under `GR-SIP1-0001` and `GR-SIP1-0002`.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:

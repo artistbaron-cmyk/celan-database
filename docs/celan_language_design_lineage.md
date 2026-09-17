@@ -152,6 +152,8 @@ Celan often places grammatical meaning in stable particles rather than changing 
 
 `Ra` is functionally comparable to question particles such as Japanese *ka* and Latin *num/an*, although its sentence-initial position and Celan meaning are its own.
 
+Current Celan also permits an optional closing content-question particle: `mu` what, `nu` when, `zhe` why, `sha` how, `lo` where, or `ri` who. The resulting frame is `ra + known clause + missing-answer particle?`. The closing particle is grammatically correct but not mandatory; context may leave it unspoken. In the approved cultural interpretation, `ra` opens an unresolved thought, the clause establishes what is known, and the optional tail names the missing anchor an answer would supply. `Ri` does not distinguish English *who* from *whom*.
+
 `nor-ka` participates in the broad analytic strategy of leaving the lexical verb unchanged while a separate element reframes the clause. It is not grammatically identical to Mandarin aspect particles such as *le* or *guò*.
 
 ## 1.4 Germanic and Sinitic lexical compounding
@@ -641,4 +643,3 @@ These questions do not weaken the five-pillar framework. Answering them will mak
 - [Editorial Canon Policy](../knowledgebase/11_editorial_canon_policy.md)
 - [VSO Cultural Notes](../source_texts/Supplement_4A_VSO_Cultural_Notes.md)
 - [Data Layers](data_layers.md)
-

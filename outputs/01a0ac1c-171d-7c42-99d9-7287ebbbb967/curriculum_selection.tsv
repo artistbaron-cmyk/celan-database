@@ -1,0 +1,321 @@
+unit	stage	id	type	celan	english	source
+U01	1	PE-CNE1-0001	Expansion example	dor I drenvor an pralor.	I put the bowl on the table.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0003	Expansion example	vekaen I karvek.	I carry the toolkit.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0005	Expansion example	korinaen I zhirin.	I hold the rope.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0007	Expansion example	aloraen I kareth.	I drop the hammer.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0009	Expansion example	kaxaraen I vorkor.	I open the door.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0011	Expansion example	xaraen I vorkor.	I close the door.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0013	Expansion example	jekaen I drenvor.	I turn the bowl.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0015	Expansion example	sharaen I ser.	I follow the friend.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0017	Expansion example	dar I ser.	I wait for the friend.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0019	Expansion example	siv I pralaen krezor.	I try to make the hearth.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0021	Expansion example	sivathaen I pralaen krezor.	I succeed in making the hearth.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0023	Expansion example	sivrethaen I kaxaraen vorkor.	I fail to open the door.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0025	Expansion example	tharsharaen I dralshara.	I choose the star route.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0027	Expansion example	rinaen dralshara tharshara.	The star route is the choice.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0029	Expansion example	drenvaraen I shara.	I change the path.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0031	Expansion example	kes I eshlor.	I notice the wind bearing.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0033	Expansion example	velzhiraen I dralshara.	I remember the star route.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0035	Expansion example	kavelzhiraen I dralshara.	I forget the star route.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0037	Expansion example	tha-velaen I morlak athnor.	I already ate the bread.	Conversational Narrative Engine 1
+U01	1	PE-CNE1-0039	Expansion example	korinaen I zhirin nethnor.	I am still holding the rope.	Conversational Narrative Engine 1
+U02	1	PE-V2-0029	Relationship example	Ohmbaen nor dren.	The beloved rests near the water.	Volume 2: Dictionary and Word Formation
+U02	1	PE-V2-0030	Relationship example	Tlakorin kal dren an Varthas.	The confidant strengthens the city.	Volume 2: Dictionary and Word Formation
+U02	1	PE-V2-0031	Relationship example	Khumlor var dren.	The family gathers by the water.	Volume 2: Dictionary and Word Formation
+U02	1	PE-V2-0032	Relationship example	Nkuvath shal dren ser serathrin.	The bond flows to the confidant.	Volume 2: Dictionary and Word Formation
+U02	1	PE-V2-0033	Relationship example	Mbalan ser dren an Varthas.	The community leader stands by the water in the city.	Volume 2: Dictionary and Word Formation
+U02	1	PE-V2-0034	Relationship example	Nkural nor dren ser Ilan.	The mentor rests by the water with the student.	Volume 2: Dictionary and Word Formation
+U02	1	PE-V2-0035	Relationship example	Tlankor kal dren ser Serin.	The ally strengthens by the water with friends.	Volume 2: Dictionary and Word Formation
+U02	1	PE-V2-0036	Relationship example	Tlakhura shal dren ser Zhivor.	A bond flows with the family.	Volume 2: Dictionary and Word Formation
+U02	1	PE-V3-0030	Kinship example	Tavan shalil nor Felka.	The parent moves lightly with the child.	Volume 3: Culture, Context, and Advanced Expression
+U02	1	PE-V3-0031	Kinship example	Felka ser dren an Tavan.	The child is with the parent by the water.	Volume 3: Culture, Context, and Advanced Expression
+U02	1	PE-V3-0032	Kinship example	Zhiren vanesh dren.	The sibling trades water.	Volume 3: Culture, Context, and Advanced Expression
+U02	1	PE-V3-0033	Kinship example	Velar shalil nor dren.	The elder moves lightly by the water.	Volume 3: Culture, Context, and Advanced Expression
+U02	1	PE-V3-0034	Kinship example	Pralin ser dren thal morl.	The cousin is by the water under the mountain.	Volume 3: Culture, Context, and Advanced Expression
+U02	1	PE-V3-0035	Kinship example	Velkavor lian nor Terra.	The ancestor speaks to the Earth.	Volume 3: Culture, Context, and Advanced Expression
+U02	1	PE-V3-0036	Kinship example	Belvok ser dren an Teremil.	The family is together at home by the water.	Volume 3: Culture, Context, and Advanced Expression
+U02	1	PE-V3-0037	Kinship example	Xarvethral ser Felka thal dren.	The adoptive parent is with the child by the water.	Volume 3: Culture, Context, and Advanced Expression
+U02	1	PE-V3-0052	Emotion verb example	Fahaen I Vethor.	I fear the Shadow.	Volume 3: Culture, Context, and Advanced Expression
+U02	1	PE-V3-0054	Emotion verb example	Vialaen Ilin ser vaar.	We rejoice in peace.	Volume 3: Culture, Context, and Advanced Expression
+U02	1	PE-V3-0055	Emotion verb example	Ohmaen Ya Kalvok-en.	You love your bonded partner.	Volume 3: Culture, Context, and Advanced Expression
+U02	1	PE-V3-0056	Emotion verb example	Ravokhaen Tavan dren.	The parent desires water.	Volume 3: Culture, Context, and Advanced Expression
+U03	1	PE-DSL1-0001	Expansion example	karethaen I shem an krezvek.	I use the spoon in the cooking pot.	Domestic and Sensory Life 1
+U03	1	PE-DSL1-0002	Expansion example	dor I shem an pralor.	I put the spoon on the table.	Domestic and Sensory Life 1
+U03	1	PE-DSL1-0003	Expansion example	rinaen worvenak an krezvek.	The stew is in the cooking pot.	Domestic and Sensory Life 1
+U03	1	PE-DSL1-0004	Expansion example	drentalaen I dren an krezvek.	I pour water into the cooking pot.	Domestic and Sensory Life 1
+U03	1	PE-DSL1-0005	Expansion example	rinaen krezpral feneth.	The pan is hot.	Domestic and Sensory Life 1
+U03	1	PE-DSL1-0006	Expansion example	pelvaraen I krezpral.	I scrape the pan.	Domestic and Sensory Life 1
+U03	1	PE-DSL1-0007	Expansion example	dor I emil an emilpral.	I put the food on the plate.	Domestic and Sensory Life 1
+U03	1	PE-DSL1-0008	Expansion example	drenselaen I emilpral.	I wash the plate.	Domestic and Sensory Life 1
+U03	1	PE-DSL1-0009	Expansion example	rinaen belar an kavvek.	The spice is in the jar.	Domestic and Sensory Life 1
+U03	1	PE-DSL1-0010	Expansion example	xaraen I kavvek.	I close the jar.	Domestic and Sensory Life 1
+U03	1	PE-DSL1-0011	Expansion example	rinaen kavvek an eshpral.	The jar is on the shelf.	Domestic and Sensory Life 1
+U03	1	PE-DSL1-0012	Expansion example	tal I kavvek thal eshpral.	I take the jar from the shelf.	Domestic and Sensory Life 1
+U03	1	PE-DSL1-0013	Expansion example	rinaen belrin an xarvek.	The fabric is in the cupboard.	Domestic and Sensory Life 1
+U03	1	PE-DSL1-0014	Expansion example	kaxaraen I xarvek.	I open the storage chest.	Domestic and Sensory Life 1
+U03	1	PE-DSL1-0015	Expansion example	rinaen rask an pralor.	The raw hide is on the table.	Domestic and Sensory Life 1
+U03	1	PE-DSL1-0016	Expansion example	tovaen I rask.	I touch the raw hide.	Domestic and Sensory Life 1
+U03	1	PE-V4-0016	Mundane Objects & Tools example	Nethaen Azron an nethor.	The woman sits on the chair.	Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
+U03	1	PE-V4-0017	Mundane Objects & Tools example	Rinaen zhirin an pralor.	The rope is on the table.	Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
+U03	1	PE-V4-0018	Mundane Objects & Tools example	Var I thal vorkor.	I go from/through the door.	Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
+U03	1	PE-V4-0020	Mundane Objects & Tools example	Rinaen emil esh pralor.	The food is on the table.	Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
+U04	2	PE-V1-0027	Question/imperative example	Va var dren!	“Go to the water!”	Volume 1: Fundamentals
+U04	2	PE-SRD1-0001	Expansion example	va jekaen Ya naku.	Turn left.	Spatial Reference and Deixis 1
+U04	2	PE-SRD1-0003	Expansion example	va jekaen Ya sora.	Turn right.	Spatial Reference and Deixis 1
+U04	2	PE-SRD1-0008	Expansion example	va var Ya an deni.	Come here.	Spatial Reference and Deixis 1
+U04	2	PE-SRD1-0012	Expansion example	va sharaen Ya sharavok denla.	Follow that caravan over there.	Spatial Reference and Deixis 1
+U04	2	PE-SRD1-0017	Expansion example	va anshanaen Ya xaror.	Come inside the room.	Spatial Reference and Deixis 1
+U04	2	PE-SRD1-0020	Expansion example	va thalshanaen Yalin xaror.	You all exit the room.	Spatial Reference and Deixis 1
+U04	2	PE-UHEI1-0014	Expansion example	va mbaen Ya I.	Help me.	Understanding, Helping, and Emotional Interiority 1
+U04	2	PE-V3-0018	Discourse marker example	Ra var Ya dren?	Do you go to the water?	Volume 3: Culture, Context, and Advanced Expression
+U04	2	PE-V3-0019	Discourse marker example	Nor-var Ya dren an Varthas?	Will you go to the water in the city?	Volume 3: Culture, Context, and Advanced Expression
+U04	2	PE-V4-0076	Abstract Concepts example	Ra aen Ya kelrin?	Do you speak your name?	Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
+U04	2	PE-SRD1-0010	Expansion example	ra rinaen karvek denya lianeth?	Is that toolkit by you reliable?	Spatial Reference and Deixis 1
+U04	2	PE-UHEI1-0003	Expansion example	ra nemaen Ya?	Do you understand?	Understanding, Helping, and Emotional Interiority 1
+U04	2	PE-UHEI1-0013	Expansion example	ra mbaen I Ya?	May I help you?	Understanding, Helping, and Emotional Interiority 1
+U04	2	PE-V1-0023	Negation example	Ver var I dren.	“I do not go to the water.”	Volume 1: Fundamentals
+U04	2	PE-V1-0024	Negation example	Ver shal I dren.	“There is no light at the water.”	Volume 1: Fundamentals
+U04	2	PE-V3-0008	Politeness example	Ver var I dren, Li-Ser.	I cannot go to the water, respected friend.	Volume 3: Culture, Context, and Advanced Expression
+U04	2	PE-V4-0045	Clothing & Worn Items example	Ver var I ka trakor.	I do not go without shoes.	Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
+U04	2	PE-UHEI1-0004	Expansion example	ver nemaen I.	I do not understand.	Understanding, Helping, and Emotional Interiority 1
+U04	2	PE-UHEI1-0031	Expansion example	ver rinaen daku an neth.	There is no boredom in the rest.	Understanding, Helping, and Emotional Interiority 1
+U05	2	PE-V1-0017	Tense/aspect example	Var I dren.	“I go to the water.”	Volume 1: Fundamentals
+U05	2	PE-V1-0018	Tense/aspect example	Tha-var I dren.	“I went to the water.”	Volume 1: Fundamentals
+U05	2	PE-V1-0019	Tense/aspect example	Nor-var I dren.	“I will go to the water.”	Volume 1: Fundamentals
+U05	2	PE-V1-0020	Tense/aspect example	Varal I dren.	“I am going to the water.”	Volume 1: Fundamentals
+U05	2	PE-V1-0021	Tense/aspect example	Varath I dren.	“I have gone to the water.”	Volume 1: Fundamentals
+U05	2	PE-V1-0022	Tense/aspect example	Varas I dren.	“I usually go to the water.”	Volume 1: Fundamentals
+U05	2	PE-V2-0001	Time-of-day example	Var I dren an Kinnshal.	I go to the water at dawn.	Volume 2: Dictionary and Word Formation
+U05	2	PE-V2-0002	Time-of-day example	Kinnmor kal dren nor shal.	The morning strengthens with water and light.	Volume 2: Dictionary and Word Formation
+U05	2	PE-V2-0003	Time-of-day example	Tal I dren an Kinnlin.	I drink the water at noon.	Volume 2: Dictionary and Word Formation
+U05	2	PE-V2-0004	Time-of-day example	Nor-var I dren thal Kilvthal.	I will go to the water in the afternoon.	Volume 2: Dictionary and Word Formation
+U05	2	PE-V2-0005	Time-of-day example	Kilveth dren morl shal.	Evening rests under the light.	Volume 2: Dictionary and Word Formation
+U05	2	PE-V2-0006	Time-of-day example	Var I dren an Kilvfah.	I go to the water at nightfall.	Volume 2: Dictionary and Word Formation
+U05	2	PE-V2-0007	Time-of-day example	Tal I kilvlum dren nor veth.	I drink at midnight by the water's shadow.	Volume 2: Dictionary and Word Formation
+U05	2	PE-V2-0109	Season example	Zhaelor shalil nor dren.	Spring flows lightly by the water.	Volume 2: Dictionary and Word Formation
+U05	2	PE-V2-0110	Season example	Fenrek kal nor dren.	Summer strengthens by the water.	Volume 2: Dictionary and Word Formation
+U05	2	PE-V2-0111	Season example	Tharvin nor dren kal morl.	Autumn balances the water with the mountain.	Volume 2: Dictionary and Word Formation
+U05	2	PE-V2-0112	Season example	Velthaen dren nor morl.	Winter flows by the mountain.	Volume 2: Dictionary and Word Formation
+U05	2	PE-V3-0108	Sample Sentence	Tha-var ser nor dren.	The friend went to the water.	Volume 3: Culture, Context, and Advanced Expression
+U05	2	PE-V3-0109	Sample Sentence	Nor-var I thal Terra.	I will go in the balance of the Earth.	Volume 3: Culture, Context, and Advanced Expression
+U05	2	PE-V4-0062	Essential Verbs example	Nor-vethoraen Ilin an nethlor.	We will sleep on the beds.	Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
+U06	2	PE-FAP1-0053	Expansion example	dor I zornelar an fennildren.	I put honey in the tea.	Food, Agriculture, and Preservation 1
+U06	2	PE-FAP1-0055	Expansion example	dor I jelkor an venak.	I put seasoning in the stew.	Food, Agriculture, and Preservation 1
+U06	2	PE-FAP1-0057	Expansion example	pralaen I fennildren.	I make an herbal infusion.	Food, Agriculture, and Preservation 1
+U06	2	PE-FAP1-0058	Expansion example	tal ser fennildren an I.	The friend gives tea to me.	Food, Agriculture, and Preservation 1
+U06	2	PE-FAP1-0059	Expansion example	tal I emildren an ser.	I give a beverage to the friend.	Food, Agriculture, and Preservation 1
+U06	2	PE-FAP1-0060	Expansion example	rinaen emildren an drenvor.	The beverage is in the cup.	Food, Agriculture, and Preservation 1
+U06	2	PE-FAP2-0003	Expansion example	rinaen fellak an kavvek.	The flour is in the jar.	Food, Agriculture, and Preservation 2
+U06	2	PE-FAP2-0004	Expansion example	dor I fellak an drenvor.	I put flour in the bowl.	Food, Agriculture, and Preservation 2
+U06	2	PE-FAP2-0005	Expansion example	pralaen I drenfellak.	I make dough.	Food, Agriculture, and Preservation 2
+U06	2	PE-FAP2-0009	Expansion example	dor I emilolan an krezpral.	I put cooking oil in the pan.	Food, Agriculture, and Preservation 2
+U06	2	PE-FAP2-0013	Expansion example	kes I pralfel ka.	I notice that an ingredient is missing.	Food, Agriculture, and Preservation 2
+U06	2	PE-FAP2-0015	Expansion example	velzhiraen I emilshara.	I remember the recipe.	Food, Agriculture, and Preservation 2
+U06	2	PE-FAP2-0017	Expansion example	emilpralaen I venak.	I cook the stew.	Food, Agriculture, and Preservation 2
+U06	2	PE-FAP2-0019	Expansion example	xarkrezaen I drenfellak.	I bake the dough.	Food, Agriculture, and Preservation 2
+U06	2	PE-FAP2-0021	Expansion example	krezdrenaen I dren.	I boil the water.	Food, Agriculture, and Preservation 2
+U06	2	PE-FAP2-0023	Expansion example	eshkrezaen I teravin.	I roast the root vegetables.	Food, Agriculture, and Preservation 2
+U06	2	PE-FAP2-0029	Expansion example	eshdrenaen I fennil.	I steam the greens.	Food, Agriculture, and Preservation 2
+U06	2	PE-FAP2-0031	Expansion example	felthamaen I saren.	I grind the wheat.	Food, Agriculture, and Preservation 2
+U06	2	PE-FAP2-0033	Expansion example	pelaen I vilor.	I slice the fruit.	Food, Agriculture, and Preservation 2
+U06	2	PE-FAP2-0035	Expansion example	drenpralaen I fennildren.	I brew the herbal drink.	Food, Agriculture, and Preservation 2
+U07	3	PE-SRD1-0002	Expansion example	rinaen nethor naku I.	The chair is to my left.	Spatial Reference and Deixis 1
+U07	3	PE-SRD1-0004	Expansion example	rinaen vorkor sora I.	The door is to my right.	Spatial Reference and Deixis 1
+U07	3	PE-SRD1-0005	Expansion example	rinaen I an kor.	I am in the middle.	Spatial Reference and Deixis 1
+U07	3	PE-SRD1-0006	Expansion example	dor I vekmor an kor.	I put the cargo in the center.	Spatial Reference and Deixis 1
+U07	3	PE-SRD1-0011	Expansion example	kes I mekor denla.	I notice that building over there.	Spatial Reference and Deixis 1
+U07	3	PE-SRD1-0016	Expansion example	rinaen felka kaan mekor.	The child is outside the building.	Spatial Reference and Deixis 1
+U07	3	PE-SRD1-0018	Expansion example	anshanaen zor mekor shan vorkor.	The animal enters the building through the door.	Spatial Reference and Deixis 1
+U07	3	PE-SRD1-0019	Expansion example	thalshanaen I mekor shan vorkor.	I exit the building through the door.	Spatial Reference and Deixis 1
+U07	3	PE-BSPI1-0001	Expansion example	rinaen mekor an varthas.	The building is in the city.	Built Spaces and Public Infrastructure 1
+U07	3	PE-BSPI1-0002	Expansion example	zhaelpralaen mekral mekor.	The craftsperson repairs the building.	Built Spaces and Public Infrastructure 1
+U07	3	PE-BSPI1-0003	Expansion example	korinaen ndara eshxar.	The wall holds the roof.	Built Spaces and Public Infrastructure 1
+U07	3	PE-BSPI1-0004	Expansion example	zhaelpralaen mekral ndara.	The craftsperson repairs the wall.	Built Spaces and Public Infrastructure 1
+U07	3	PE-BSPI1-0005	Expansion example	rinaen eshxar esh mekor.	The roof is above the building.	Built Spaces and Public Infrastructure 1
+U07	3	PE-BSPI1-0006	Expansion example	zhaelpralaen mekral eshxar.	The craftsperson repairs the roof.	Built Spaces and Public Infrastructure 1
+U07	3	PE-BSPI1-0007	Expansion example	rinaen vekmor an morlpral.	The cargo is on the floor.	Built Spaces and Public Infrastructure 1
+U07	3	PE-BSPI1-0008	Expansion example	zhaelpralaen mekral morlpral.	The craftsperson repairs the floor.	Built Spaces and Public Infrastructure 1
+U07	3	PE-BSPI1-0009	Expansion example	rinaen shalkor an aneshxar.	The lamp is on the ceiling.	Built Spaces and Public Infrastructure 1
+U07	3	PE-BSPI1-0010	Expansion example	rinaen aneshxar esh nethor.	The ceiling is above the chair.	Built Spaces and Public Infrastructure 1
+U07	3	PE-BSPI1-0011	Expansion example	kaxaraen I shalshan.	I open the window.	Built Spaces and Public Infrastructure 1
+U07	3	PE-BSPI1-0012	Expansion example	xaraen I shalshan.	I close the window.	Built Spaces and Public Infrastructure 1
+U08	3	PE-TVO1-0011	Expansion example	vekvaraen I delkormek.	I ride the motorbike.	Transportation and Vehicle Operations 1
+U08	3	PE-TVO1-0013	Expansion example	weksharaen I ser delwek.	I commute by bicycle.	Transportation and Vehicle Operations 1
+U08	3	PE-TVO1-0015	Expansion example	anvekaen I zhirvek.	I board the railcar.	Transportation and Vehicle Operations 1
+U08	3	PE-TVO1-0017	Expansion example	dar I belzhirvek.	I wait for the train.	Transportation and Vehicle Operations 1
+U08	3	PE-TVO1-0018	Expansion example	var belzhirvek an zhirshara.	The train travels on the railway.	Transportation and Vehicle Operations 1
+U08	3	PE-TVO1-0024	Expansion example	anvekaen vekin eshvek.	The passenger boards the aircraft.	Transportation and Vehicle Operations 1
+U08	3	PE-TVO1-0028	Expansion example	vekvaraen I krenzhirvek.	I ride the cable car.	Transportation and Vehicle Operations 1
+U08	3	PE-TVO1-0029	Expansion example	var mahrpral an mahr.	The raft travels on the sea.	Transportation and Vehicle Operations 1
+U08	3	PE-TVO1-0033	Expansion example	kormekaen I kormekvek.	I drive the motor vehicle.	Transportation and Vehicle Operations 1
+U08	3	PE-TVO1-0041	Expansion example	anvekaen I belzhirvek.	I board the train.	Transportation and Vehicle Operations 1
+U08	3	PE-EGE1-0001	Expansion example	kes varral felmorl esh delmorl.	The traveler notices a hill above the valley.	Environment, Geography, and Ecology 1
+U08	3	PE-EGE1-0002	Expansion example	rinaen delmorl morl pelmorl.	The valley lies beneath the cliff.	Environment, Geography, and Ecology 1
+U08	3	PE-EGE1-0003	Expansion example	rinaen pelmorl an morlshara.	The cliff stands at the mountain pass.	Environment, Geography, and Ecology 1
+U08	3	PE-EGE1-0004	Expansion example	var sharavok shan morlshara var xarmorl.	The caravan travels through the mountain pass toward the cave.	Environment, Geography, and Ecology 1
+U08	3	PE-EGE1-0005	Expansion example	rinaen xarmorl an shanmorl.	The cave is within the canyon.	Environment, Geography, and Ecology 1
+U08	3	PE-EGE1-0007	Expansion example	kes I selmor thal ndavimor.	I see the plain from the plateau.	Environment, Geography, and Ecology 1
+U08	3	PE-EGE1-0008	Expansion example	rinaen ndavimor esh kadromor.	The plateau is above the desert.	Environment, Geography, and Ecology 1
+U08	3	PE-EGE1-0012	Expansion example	wel drenfel var terramahr.	The stream flows toward the coast.	Environment, Geography, and Ecology 1
+U08	3	PE-EGE1-0013	Expansion example	wel drenfel an fellun.	The stream flows into the pond.	Environment, Geography, and Ecology 1
+U08	3	PE-EGE1-0023	Expansion example	moraen eshjor eshdren thal mahr.	The gale carries humid air from the sea.	Environment, Geography, and Ecology 1
+U09	3	PE-BIAOBF1-0001	Expansion example	rinaen aiv an I ka doran.	There is pain in my torso.	Body, Internal Anatomy, and Ordinary Bodily Functions 1
+U09	3	PE-BIAOBF1-0002	Expansion example	keshenaen zhaelral aivkor an doran.	The healer examines a wound on the torso.	Body, Internal Anatomy, and Ordinary Bodily Functions 1
+U09	3	PE-BIAOBF1-0003	Expansion example	rinaen aiv an I ka breka.	There is pain in my chest.	Body, Internal Anatomy, and Ordinary Bodily Functions 1
+U09	3	PE-BIAOBF1-0004	Expansion example	khosaen I ser aiv an breka.	I cough with pain in my chest.	Body, Internal Anatomy, and Ordinary Bodily Functions 1
+U09	3	PE-BIAOBF1-0005	Expansion example	rinaen aiv an I ka vesh.	There is pain in my back.	Body, Internal Anatomy, and Ordinary Bodily Functions 1
+U09	3	PE-BIAOBF1-0007	Expansion example	rinaen aiv an felka ka davel.	There is pain in the child's belly.	Body, Internal Anatomy, and Ordinary Bodily Functions 1
+U09	3	PE-BIAOBF1-0008	Expansion example	keshenaen zhaelral davel.	The healer examines the abdomen.	Body, Internal Anatomy, and Ordinary Bodily Functions 1
+U09	3	PE-BIAOBF1-0009	Expansion example	rinaen aiv an I ka korkalvar.	There is pain in my shoulder.	Body, Internal Anatomy, and Ordinary Bodily Functions 1
+U09	3	PE-BIAOBF1-0010	Expansion example	vekaen I kavvek an korkalvar.	I carry the jar on my shoulder.	Body, Internal Anatomy, and Ordinary Bodily Functions 1
+U09	3	PE-BIAOBF1-0011	Expansion example	rinaen aivkor an kalvargora.	There is a wound at the elbow.	Body, Internal Anatomy, and Ordinary Bodily Functions 1
+U09	3	PE-DSL1-0039	Expansion example	rivaen felka an veljor.	The child shivers in the cold snap.	Domestic and Sensory Life 1
+U09	3	PE-DSL1-0040	Expansion example	rivaen ser an xarphelor.	The friend shivers in the shelter.	Domestic and Sensory Life 1
+U09	3	PE-DSL1-0041	Expansion example	jelaen I worvenak.	I taste the stew.	Domestic and Sensory Life 1
+U09	3	PE-DSL1-0042	Expansion example	jelaen zhaelral fennilphel.	The healer tastes the herbal remedy.	Domestic and Sensory Life 1
+U09	3	PE-DSL1-0043	Expansion example	kelvorthamaen I morlak.	I chew the bread.	Domestic and Sensory Life 1
+U09	3	PE-DSL1-0044	Expansion example	kelvorthamaen felka teravin.	The child chews the root vegetable.	Domestic and Sensory Life 1
+U09	3	PE-DSL1-0063	Expansion example	numaen I fennilphel.	I swallow the herbal remedy.	Domestic and Sensory Life 1
+U09	3	PE-DSL1-0064	Expansion example	numaen felka morlak.	The child swallows the bread.	Domestic and Sensory Life 1
+U09	3	PE-DSL1-0065	Expansion example	nolaen I worvenak.	I smell the stew.	Domestic and Sensory Life 1
+U09	3	PE-DSL1-0066	Expansion example	nolaen ser krez.	The friend smells the fire.	Domestic and Sensory Life 1
+U10	3	PE-HTS1-0001	Expansion example	rinaen ndem an aivkor.	There is blood at the wound.	Health, Treatment, and Survival 1
+U10	3	PE-HTS1-0002	Expansion example	kes zhaelral ndem an aivkorxar.	The healer notices blood on the bandage.	Health, Treatment, and Survival 1
+U10	3	PE-HTS1-0004	Expansion example	nethnor ndemaen ser.	The friend is still bleeding.	Health, Treatment, and Survival 1
+U10	3	PE-HTS1-0005	Expansion example	aen savin mavkes.	The patient reports a symptom.	Health, Treatment, and Survival 1
+U10	3	PE-HTS1-0006	Expansion example	kes zhaelral mavkes felka.	The healer notices the child's symptom.	Health, Treatment, and Survival 1
+U10	3	PE-HTS1-0007	Expansion example	pralaen zhaelral keshen.	The healer conducts an examination.	Health, Treatment, and Survival 1
+U10	3	PE-HTS1-0008	Expansion example	rinaen keshen shalnor talzhael.	The examination occurs before the treatment.	Health, Treatment, and Survival 1
+U10	3	PE-HTS1-0009	Expansion example	keshenaen zhaelral savin.	The healer examines the patient.	Health, Treatment, and Survival 1
+U10	3	PE-HTS1-0010	Expansion example	keshenaen zhaelral ser kakesrineth.	The healer examines the unconscious friend.	Health, Treatment, and Survival 1
+U10	3	PE-HTS1-0011	Expansion example	aen zhaelral keshenath mavbal.	The healer states a diagnosis of infection.	Health, Treatment, and Survival 1
+U10	3	PE-HTS1-0012	Expansion example	daraen savin keshenath.	The patient waits for the diagnosis.	Health, Treatment, and Survival 1
+U10	3	PE-HTS1-0013	Expansion example	tal savin sava.	The patient receives care.	Health, Treatment, and Survival 1
+U10	3	PE-HTS1-0014	Expansion example	rinaen sava an teremil.	There is care in the home.	Health, Treatment, and Survival 1
+U10	3	PE-HTS1-0015	Expansion example	savaen zhaelral savin.	The healer cares for the patient.	Health, Treatment, and Survival 1
+U10	3	PE-UHEI1-0010	Expansion example	kelnemaen liorin rethpral.	The teacher explains the mistake.	Understanding, Helping, and Emotional Interiority 1
+U10	3	PE-UHEI1-0012	Expansion example	selnemaen khumkelral kalkel.	The representative clarifies the official order.	Understanding, Helping, and Emotional Interiority 1
+U10	3	PE-UHEI1-0015	Expansion example	mbaen an I nor-ka belshara.	I need help; I must be helped.	Understanding, Helping, and Emotional Interiority 1
+U10	3	PE-UHEI1-0016	Expansion example	lia. va mbaen Ya I.	Yes. Help me.	Understanding, Helping, and Emotional Interiority 1
+U10	3	PE-UHEI1-0017	Expansion example	ka. ver mbaen Ya I.	No. Do not help me.	Understanding, Helping, and Emotional Interiority 1
+U10	3	PE-UHEI1-0045	Expansion example	fahrethaen felka nor rekrathlor.	The child feels anxious during the emergency.	Understanding, Helping, and Emotional Interiority 1
+U11	4	PE-TM1-0001	Expansion example	rinaen karmek an karvek.	The tool is in the toolkit.	Tools and Machines 1
+U11	4	PE-TM1-0002	Expansion example	tal I karmek an mekral.	I give the tool to the mechanic.	Tools and Machines 1
+U11	4	PE-TM1-0003	Expansion example	rinaen kalmek kaleth.	The machine is powerful.	Tools and Machines 1
+U11	4	PE-TM1-0004	Expansion example	zhaelpralaen mekral kalmek.	The mechanic repairs the machine.	Tools and Machines 1
+U11	4	PE-TM1-0006	Expansion example	dor mekral felmek an kalmek.	The mechanic puts the component in the machine.	Tools and Machines 1
+U11	4	PE-TM1-0007	Expansion example	zhaelpralaen mekral kormek.	The mechanic repairs the engine.	Tools and Machines 1
+U11	4	PE-TM1-0008	Expansion example	zhaelpralaen I nethor.	I repair the chair.	Tools and Machines 1
+U11	4	PE-TM1-0009	Expansion example	dor I jelkor an thamvek.	I put the spice in the mortar.	Tools and Machines 1
+U11	4	PE-TM1-0010	Expansion example	drenselaen I thamvek.	I wash the mortar.	Tools and Machines 1
+U11	4	PE-TM1-0011	Expansion example	karethaen I thamkar an thamvek.	I use the pestle in the mortar.	Tools and Machines 1
+U11	4	PE-TM1-0012	Expansion example	rinaen thamkar an karvek.	The pestle is in the toolkit.	Tools and Machines 1
+U11	4	PE-TM1-0013	Expansion example	zhaelpralaen I belxar ser zhirpel.	I repair the garment with a needle.	Tools and Machines 1
+U11	4	PE-WRT1-0001	Expansion example	lorin ral teremil.	The steward manages the household.	Work Roles and Trade 1
+U11	4	PE-WRT1-0002	Expansion example	kes ral shental.	The steward reviews the allocation.	Work Roles and Trade 1
+U11	4	PE-WRT1-0003	Expansion example	pralaen pralilan ser krenral.	The apprentice works with the smith.	Work Roles and Trade 1
+U11	4	PE-WRT1-0004	Expansion example	zhaelpralaen pralilan ndara ser mormekral.	The apprentice repairs the wall with the mason.	Work Roles and Trade 1
+U11	4	PE-WRT1-0005	Expansion example	pralaen pralral drenvor.	The artisan makes a bowl.	Work Roles and Trade 1
+U11	4	PE-WRT1-0006	Expansion example	thalvanesh pralral belrin.	The artisan sells fabric.	Work Roles and Trade 1
+U11	4	PE-WRT1-0007	Expansion example	pralaen krenral kareth.	The smith makes a hammer.	Work Roles and Trade 1
+U11	4	PE-WRT1-0008	Expansion example	zhaelpralaen krenral krenzhir.	The metalworker repairs the wire.	Work Roles and Trade 1
+U12	4	PE-GCI1-0001	Expansion example	rinaen velkelor belor.	The library is an institution.	Government and Civic Institutions 1
+U12	4	PE-GCI1-0002	Expansion example	rinaen shenpralor belor.	The laboratory is an institution.	Government and Civic Institutions 1
+U12	4	PE-GCI1-0003	Expansion example	rinaen lorbel an varthas.	The government is in the city.	Government and Civic Institutions 1
+U12	4	PE-GCI1-0004	Expansion example	lorin lorbel drobel.	The government directs the waterworks.	Government and Civic Institutions 1
+U12	4	PE-GCI1-0005	Expansion example	lorbelaen khumkel felbelor.	The council governs the district.	Government and Civic Institutions 1
+U12	4	PE-GCI1-0006	Expansion example	lorbelaen kalrin varthas.	The sovereign governs the city.	Government and Civic Institutions 1
+U12	4	PE-GCI1-0007	Expansion example	rinaen khumkel an worxaror.	The council is in the hall.	Government and Civic Institutions 1
+U12	4	PE-GCI1-0008	Expansion example	aen khumkel kelreth.	The council speaks about the dispute.	Government and Civic Institutions 1
+U12	4	PE-GCI1-0009	Expansion example	keltharaen khumkelral an khumkel.	The representative votes in the council.	Government and Civic Institutions 1
+U12	4	PE-GCI1-0010	Expansion example	rinaen khumkelral an felbelor.	The representative is in the district.	Government and Civic Institutions 1
+U12	4	PE-GCI1-0011	Expansion example	aen kalrin kalkel.	The sovereign speaks a decree.	Government and Civic Institutions 1
+U12	4	PE-GCI1-0012	Expansion example	lorbelaen kalrin lorbel.	The sovereign governs the government.	Government and Civic Institutions 1
+U12	4	PE-GCI1-0013	Expansion example	lorin belvoklor belvok.	The chieftain guides the clan.	Government and Civic Institutions 1
+U12	4	PE-GCI1-0014	Expansion example	thalkelrethaen belvoklor kelreth.	The clan leader arbitrates the dispute.	Government and Civic Institutions 1
+U12	4	PE-BSPI1-0019	Expansion example	rinaen velkelor an ndavior.	The library is on a building storey.	Built Spaces and Public Infrastructure 1
+U12	4	PE-BSPI1-0023	Expansion example	rinaen welrim an worxaror.	The feast is in the hall.	Built Spaces and Public Infrastructure 1
+U12	4	PE-BSPI1-0024	Expansion example	rinaen worxaror an mekor.	The hall is inside the building.	Built Spaces and Public Infrastructure 1
+U12	4	PE-BSPI1-0027	Expansion example	rinaen welrim an welpralor.	The feast is in the public square.	Built Spaces and Public Infrastructure 1
+U12	4	PE-BSPI1-0031	Expansion example	rinaen kel an velkelor.	The text is in the library.	Built Spaces and Public Infrastructure 1
+U12	4	PE-BSPI1-0032	Expansion example	var I an velkelor.	I go to the library.	Built Spaces and Public Infrastructure 1
+U13	4	PE-ICAES1-0002	Expansion example	rinaen shendava an kavdava.	The data is in the record.	Information, Computation, Automation, and Electrical Systems 1
+U13	4	PE-ICAES1-0003	Expansion example	rinaen kavdava an davaxar.	The record is in the file.	Information, Computation, Automation, and Electrical Systems 1
+U13	4	PE-ICAES1-0004	Expansion example	dor kavral davaxar an beldava.	The archivist puts the file in the database.	Information, Computation, Automation, and Electrical Systems 1
+U13	4	PE-ICAES1-0005	Expansion example	kes mekral beldava ser davapral.	The technician examines the database with the display.	Information, Computation, Automation, and Electrical Systems 1
+U13	4	PE-ICAES1-0006	Expansion example	rinaen zheldava an davapral.	The signal appears on the display.	Information, Computation, Automation, and Electrical Systems 1
+U13	4	PE-ICAES1-0007	Expansion example	talaen kesmek zheldava shan ohmshan.	The sensor receives the signal through the interface.	Information, Computation, Automation, and Electrical Systems 1
+U13	4	PE-ICAES1-0008	Expansion example	rinaen anmek an ohmshan.	The input is at the interface.	Information, Computation, Automation, and Electrical Systems 1
+U13	4	PE-ICAES1-0009	Expansion example	tal kalmek thalmek thal anmek.	The machine produces output from the input.	Information, Computation, Automation, and Electrical Systems 1
+U13	4	PE-ICAES1-0010	Expansion example	tal raku thalmek.	The computation produces an output.	Information, Computation, Automation, and Electrical Systems 1
+U13	4	PE-ICAES1-0012	Expansion example	rakuaen rakumek shendava.	The computer processes the data.	Information, Computation, Automation, and Electrical Systems 1
+U13	4	PE-SAC1-0002	Expansion example	kes shenral kal songaeth an songazun.	The researcher detects cosmic force in outer space.	Science, Astronomy, and Cosmology 1
+U13	4	PE-SAC1-0005	Expansion example	shen shenral shal nyeleth thal nyel.	The researcher measures stellar light from a star.	Science, Astronomy, and Cosmology 1
+U13	4	PE-SAC1-0006	Expansion example	tal kreznyel shal nyeleth an Vora.	The sun casts stellar light upon the planet.	Science, Astronomy, and Cosmology 1
+U13	4	PE-SAC1-0007	Expansion example	ravwekaen Vora an kreznyel.	The planet orbits the sun.	Science, Astronomy, and Cosmology 1
+U13	4	PE-SAC1-0008	Expansion example	kes shenral Vora ser zhel voraeth.	The researcher observes the planet and its planetary energy.	Science, Astronomy, and Cosmology 1
+U13	4	PE-SAC1-0011	Expansion example	rinaen nyelbel an wornyelbel.	The star system lies within the galaxy.	Science, Astronomy, and Cosmology 1
+U13	4	PE-SAC1-0013	Expansion example	rinaen nyelzhir esh ravwek Vora.	The constellation appears beyond the planet's orbit.	Science, Astronomy, and Cosmology 1
+U13	4	PE-SAC1-0015	Expansion example	ravwekaen ravwekin an Vora.	The satellite orbits the planet.	Science, Astronomy, and Cosmology 1
+U13	4	PE-SAC1-0016	Expansion example	kes ravwekin an dralxar.	The satellite observes the eclipse.	Science, Astronomy, and Cosmology 1
+U13	4	PE-SAC1-0018	Expansion example	dralxaraen Felvora an nyel.	The asteroid eclipses the star.	Science, Astronomy, and Cosmology 1
+U14	4	PE-UHEI1-0001	Expansion example	rinaen nem an kel.	There is understanding in the words.	Understanding, Helping, and Emotional Interiority 1
+U14	4	PE-UHEI1-0002	Expansion example	rinaen nem an khumkel.	There is understanding in the council.	Understanding, Helping, and Emotional Interiority 1
+U14	4	PE-UHEI1-0005	Expansion example	rinaen rethnem an kel.	There is a misunderstanding in the words.	Understanding, Helping, and Emotional Interiority 1
+U14	4	PE-UHEI1-0006	Expansion example	rinaen rethnem ser Ilin.	There is a misunderstanding between us.	Understanding, Helping, and Emotional Interiority 1
+U14	4	PE-UHEI1-0007	Expansion example	rethnemaen Ya I.	You misunderstand me.	Understanding, Helping, and Emotional Interiority 1
+U14	4	PE-UHEI1-0008	Expansion example	rethnemaen lorvekral shara.	The operator misunderstands the route.	Understanding, Helping, and Emotional Interiority 1
+U14	4	PE-UHEI1-0018	Expansion example	rinaen zev an I.	I feel envy.	Understanding, Helping, and Emotional Interiority 1
+U14	4	PE-UHEI1-0019	Expansion example	rinaen zev an khumlor.	There is envy in the family circle.	Understanding, Helping, and Emotional Interiority 1
+U14	4	PE-UHEI1-0020	Expansion example	zevaen I karvek denya.	I envy that toolkit beside you.	Understanding, Helping, and Emotional Interiority 1
+U14	4	PE-UHEI1-0022	Expansion example	rinaen fahohm an tharvok.	There is jealousy in the family.	Understanding, Helping, and Emotional Interiority 1
+U14	4	PE-HLPS1-0001	Expansion example	rinaen hav an teremil.	There is laughter at home.	Humor, Laughter, and Playful Speech 1
+U14	4	PE-HLPS1-0002	Expansion example	rinaen hav ser reth.	The laughter carries uncertainty.	Humor, Laughter, and Playful Speech 1
+U14	4	PE-HLPS1-0003	Expansion example	havaen felka ser ser.	The child laughs with a friend.	Humor, Laughter, and Playful Speech 1
+U14	4	PE-HLPS1-0004	Expansion example	havaen I ser reth.	I laugh in uncertainty.	Humor, Laughter, and Playful Speech 1
+U14	4	PE-HLPS1-0007	Expansion example	rinaen dovhav an khumlor.	There is humor in the family circle.	Humor, Laughter, and Playful Speech 1
+U14	4	PE-PSAC1-0001	Expansion example	rinaen aennor an welpralor.	There is music in the plaza.	Performance, Story Arts, and Celebration 1
+U14	4	PE-PSAC1-0002	Expansion example	aenaen I aennor thal teremil.	I hear music behind the house.	Performance, Story Arts, and Celebration 1
+U14	4	PE-PSAC1-0003	Expansion example	aennoraen aennorral an rimor.	The musician performs music at the festival.	Performance, Story Arts, and Celebration 1
+U14	4	PE-PSAC1-0004	Expansion example	aennoraen I ser karthael.	I make music with a drum.	Performance, Story Arts, and Celebration 1
+U14	4	PE-PSAC1-0005	Expansion example	aennoraen aennorral aennor.	The musician performs music.	Performance, Story Arts, and Celebration 1
+U15	5	PE-V3-0022	Complex sentence example	I varin Aen Ya var dren.	I know that you go to the water.	Volume 3: Culture, Context, and Advanced Expression
+U15	5	PE-V3-0023	Complex sentence example	Ser Lior var dren.	The friend who goes to the water.	Volume 3: Culture, Context, and Advanced Expression
+U15	5	PE-V3-0024	Complex sentence example	Var I terra Ser Lior var dren.	I go home with the friend who goes to the water.	Volume 3: Culture, Context, and Advanced Expression
+U15	5	PE-V3-0025	Complex sentence example	I dren shaleth ther La dren.	My water is brighter than their water.	Volume 3: Culture, Context, and Advanced Expression
+U15	5	PE-V3-0026	Complex sentence example	I dren shaleth thaal.	My water is the brightest.	Volume 3: Culture, Context, and Advanced Expression
+U15	5	PE-V3-0027	Complex sentence example	I dren shaleth thaal morldren.	My water is the brightest of the mountain waters.	Volume 3: Culture, Context, and Advanced Expression
+U15	5	PE-V3-0028	Complex sentence example	Rath Ya var dren, Nor-var I shena.	If you go to the water, I will bring coinage.	Volume 3: Culture, Context, and Advanced Expression
+U15	5	PE-V3-0029	Complex sentence example	Rath Tha-var Ya dren, Tha-var I emil.	If you had gone to the water, I would have gotten food.	Volume 3: Culture, Context, and Advanced Expression
+U15	5	PE-V4-0005	Subjunctive example	Vael vaar an shara-ya.	May peace be on your path.	Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
+U15	5	PE-V4-0006	Subjunctive example	Vael rinaen I an eshlin, varal I an esh.	If I were a bird, I would be going to the sky.	Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
+U15	5	PE-V4-0007	Subjunctive example	Vael aen Ya.	May you speak / Please speak.	Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
+U15	5	PE-V3-0111	Sample Sentence	Rath Nor-var ser, Nor-var kal Terra.	If the friend will go, I will find strength in the Earth.	Volume 3: Culture, Context, and Advanced Expression
+U15	5	PE-V4-0012	Advanced pronoun example	Var Inko an Varthas.	We two are going to the city.	Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
+U15	5	PE-V4-0013	Advanced pronoun example	Ra aen Yako an I?	Are you two speaking to me?	Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
+U15	5	PE-V4-0014	Advanced pronoun example	Velaen Ilin an morlak.	We [you and I] are eating the bread.	Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
+U15	5	PE-V4-0015	Advanced pronoun example	Arth Imen an kaleth. Var Ya.	We [the guards, not you] protect the fortress. You must go.	Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
+U15	5	PE-V3-0011	Discourse marker example	Lia, I var dren.	Yes, I go to the water.	Volume 3: Culture, Context, and Advanced Expression
+U15	5	PE-V3-0013	Discourse marker example	Rethlian, I nor var dren.	Maybe, I will go to the water.	Volume 3: Culture, Context, and Advanced Expression
+U15	5	PE-V3-0014	Discourse marker example	Lialor, serin vanesh shenakar.	Indeed, the friends trade coinage.	Volume 3: Culture, Context, and Advanced Expression
+U15	5	PE-V3-0017	Discourse marker example	Lianlor, Ver var I dren.	Honestly, I do not go to the water.	Volume 3: Culture, Context, and Advanced Expression
+U16	5	PE-V3-0112	National sample phrase	Var serilín dren Theren.	Go, sister, to the village water.	Volume 3: Culture, Context, and Advanced Expression
+U16	5	PE-V3-0113	National sample phrase	Liorin aelin var tera emil.	The teacher leads the youth home for food.	Volume 3: Culture, Context, and Advanced Expression
+U16	5	PE-V3-0114	National sample phrase	Thar Terra var shal nor.	The heart of the Earth goes with light in time.	Volume 3: Culture, Context, and Advanced Expression
+U16	5	PE-V3-0118	National sample phrase	Varadan nor var vanesh ser.	The merchant will trade with you.	Volume 3: Culture, Context, and Advanced Expression
+U16	5	PE-V3-0121	National sample phrase	Nor-var I kareth var dreshal.	I will go use the tool and the crystal device.	Volume 3: Culture, Context, and Advanced Expression
+U16	5	PE-V3-0122	National sample phrase	Var dren shal ser aen.	Go to the water's light and speak.	Volume 3: Culture, Context, and Advanced Expression
+U16	5	PE-V3-0126	National sample phrase	Aelin liorin var emil eshvan.	The youth follows the teacher to the shop for food.	Volume 3: Culture, Context, and Advanced Expression
+U16	5	PE-V3-0127	National sample phrase	Va var dren ver?	Go find water or not?	Volume 3: Culture, Context, and Advanced Expression
+U16	5	PE-V4-0093	Comparative dialogue line	Ra min Ya, Ser?	Where are you headed, Friend?	Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
+U16	5	PE-V4-0095	Comparative dialogue line	Lorin shara Ya an Kinnmor, Li-Ser?	Where does your path guide you this morning, Respected-Friend?	Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
+U16	5	PE-V4-0097	Comparative dialogue line	Aen Ya varash, Ser.	State your destination, Friend.	Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
+U16	5	PE-V4-0099	Comparative dialogue line	Ra shalil Ya, Ser?	Where do you flow, Friend?	Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
+U16	5	PE-V3-0070	Idiom/Proverb	Var Rathor ser Vethor.	History is complex, often holds darkness or mystery; the past is inescapable.	Volume 3: Culture, Context, and Advanced Expression
+U16	5	PE-V3-0072	Idiom/Proverb	Kal Belvok nor Rathor.	Family bonds are strengthened by remembering shared history/ancestors.	Volume 3: Culture, Context, and Advanced Expression
+U16	5	PE-V3-0075	Idiom/Proverb	Ver var Dren ka Shal.	Essential elements depend on each other; life requires multiple components.	Volume 3: Culture, Context, and Advanced Expression
+U16	5	PE-V3-0076	Idiom/Proverb	Aen Thar lian.	Trust your inner feelings; one's core nature reveals truth.	Volume 3: Culture, Context, and Advanced Expression
+U16	5	PE-V3-0087	National ceremonial example	Drenvokesh kal dren nor Belvok.	The water unity strengthens the family by the water.	Volume 3: Culture, Context, and Advanced Expression
+U16	5	PE-V3-0088	National ceremonial example	Eshlorien nor dren an Zhaelor.	The wave naming flows by the water in spring.	Volume 3: Culture, Context, and Advanced Expression
+U16	5	PE-V3-0089	National ceremonial example	Terrashaneth lian nor Tharvok.	The Earth blessing speaks to the family.	Volume 3: Culture, Context, and Advanced Expression
+U16	5	PE-V3-0090	National ceremonial example	Velpralim shan dren an Zhirelorim.	The wisdom transfer passes to the coming-of-age ritual.	Volume 3: Culture, Context, and Advanced Expression

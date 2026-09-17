@@ -52,9 +52,11 @@ These datasets are acknowledged as intentional editorial/analysis layers. They d
 
 | Database | Markdown | CSV | Role |
 |---|---|---|---|
-| Expanded Root Audit | `knowledgebase/12_expanded_root_audit.md` | n/a | Working taxonomy and audit for expanded root strategy. |
+| Expanded Root Audit | `knowledgebase/12_expanded_root_audit.md` | n/a | Historical 100-entry taxonomy snapshot; current created-root coverage is maintained in the Created Celan Roots Register. |
 | Expanded Root Database | `knowledgebase/12_expanded_root_audit.md` | `data/expanded_root_database.csv` | Expanded root/morpheme intelligence layer (`established`, `promoted`, `created`) for analysis and controlled future canon decisions. |
 | Expanded Root Crosswalk | `knowledgebase/12_expanded_root_audit.md` | `data/expanded_root_crosswalk.csv` | Traceability map from expanded entries back to canon evidence and source entry IDs. |
+| Created Celan Roots Register | `knowledgebase/16_created_roots_register.md` | `data/expanded_root_database.csv`; `data/expanded_root_crosswalk.csv` | Human-readable register of the 86 user-approved created roots, their histories, approved families, and restrictions. |
+| Root Relationship Laboratory | `knowledgebase/17_root_relationship_laboratory.md` | n/a | Non-canonical workspace for testing surprising compounds, semantic pathways, slang, jargon, and rejection reasons before approval. |
 
 ## Import Support
 

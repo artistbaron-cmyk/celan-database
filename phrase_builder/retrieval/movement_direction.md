@@ -18,9 +18,9 @@ The builder should notice whether the English phrase is:
 
 ## Strong phrasebank examples
 
-- `ra var ser?`
+- `ra var ser lo?`
   - Where does the friend go?
-  - Notes: direction question through the movement verb
+  - Notes: explicit direction question using optional place tail `lo`; `ra var ser?` remains grammatical when context supplies place
 
 - `ra var evan emil dren?`
   - Where is the market?

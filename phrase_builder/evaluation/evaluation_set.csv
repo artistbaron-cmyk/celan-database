@@ -1,6 +1,6 @@
 prompt_number,level,english_prompt,target_celan,evaluation_focus
 1,Easy,"I go to the water.","Var I dren.","The absolute baseline. Tests whether the builder defaults to strict Verb-Subject-Object structure rather than English Subject-Verb-Object."
-2,Easy,"Where does the friend go?","Ra var ser?","Question formation. Tests whether the interrogative particle `Ra` is placed at the very beginning of the sentence."
+2,Easy,"Where does the friend go?","Ra var ser lo? (or Ra var ser? when context supplies place)","Question formation. Tests opening `Ra` and recognizes optional final `lo` as an explicit place cue rather than a mandatory element."
 3,Easy,"I do not go to the water.","Ver var I dren.","Basic negation. Tests whether the negator `Ver` is placed directly before the verb."
 4,Easy,"The ancient tree is old.","Rinaen velmarin kaveth.","Stative verbs and adjectives. Tests whether the builder uses `Rinaen` as the stative verb and correctly applies the `-eth` adjectival suffix to `kav`."
 5,Easy,"I drink the water at noon.","Tal I dren an Kinnlin.","Spatial vs. temporal phrasing. Tests use of the specific locational or temporal preposition and the compound word `Kinnlin` for noon."
