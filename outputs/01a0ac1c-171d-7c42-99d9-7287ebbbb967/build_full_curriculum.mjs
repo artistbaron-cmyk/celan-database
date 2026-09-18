@@ -63,6 +63,9 @@ const manualUnits = {
     "PE-SRD1-0017", "PE-SRD1-0020", "PE-UHEI1-0014", "PE-V3-0018", "PE-V3-0019",
     "PE-V4-0076", "PE-SRD1-0010", "PE-UHEI1-0003", "PE-UHEI1-0013", "PE-V1-0023",
     "PE-V1-0024", "PE-V3-0008", "PE-V4-0045", "PE-UHEI1-0004", "PE-UHEI1-0031",
+    "PE-SIP1-0001", "PE-SIP1-0002", "PE-SIP1-0003", "PE-SIP1-0004", "PE-SIP1-0005",
+    "PE-SIP1-0006", "PE-SIP1-0007", "PE-SIP1-0008", "PE-SIP1-0009", "PE-SIP1-0010",
+    "PE-SIP1-0011", "PE-SIP1-0012",
   ],
   U05: [
     "PE-V1-0017", "PE-V1-0018", "PE-V1-0019", "PE-V1-0020", "PE-V1-0021",
@@ -107,7 +110,7 @@ const unitConfigs = [
     { count: 16, match: (r) => r.source_volume === "Domestic and Sensory Life 1" },
     { count: 4, match: (r) => r.example_type === "Mundane Objects & Tools example" },
   ] },
-  { id: "U04", title: "Questions Commands and Negation", stage: 2, theme: "Ask, direct, and negate", manual: true },
+  { id: "U04", title: "Questions Commands and Negation", stage: 2, theme: "Ask yes/no and content questions, direct, and negate", manual: true, sentenceTarget: 32 },
   { id: "U05", title: "Time and Aspect", stage: 2, theme: "Present, past, future, aspect, and time settings", manual: true },
   { id: "U06", title: "Food and Daily Needs", stage: 2, theme: "Food, meals, water, and practical needs", manual: true },
   { id: "U07", title: "Place and Direction", stage: 3, theme: "Location, direction, buildings, and spatial reference", match: (r) => ["Spatial Reference and Deixis 1", "Built Spaces and Public Infrastructure 1"].includes(r.source_volume), groups: [
@@ -152,7 +155,7 @@ const unitRuleMap = {
   U01: ["GR-V1-0004"],
   U02: ["GR-V1-0006"],
   U03: ["GR-V1-0004", "GR-V1-0019"],
-  U04: ["GR-V1-0005", "GR-V1-0015", "GR-V1-0016"],
+  U04: ["GR-V1-0005", "GR-V1-0015", "GR-V1-0016", "GR-SIP1-0001", "GR-SIP1-0002"],
   U05: ["GR-V1-0014"],
   U06: ["GR-V1-0004"],
   U07: ["GR-V1-0018", "GR-V1-0019"],
@@ -187,10 +190,10 @@ const objectiveDefinitions = {
     ["Describe an everyday home action", "Produce a familiar sentence about an object or domestic task.", "Both"],
   ],
   U04: [
-    ["Recognize Ra Va and Ver", "Identify the approved question, command, and negation signposts.", "Build Words"],
-    ["Distinguish sentence purpose", "Tell whether a sentence asks, commands, states, or negates.", "Both"],
-    ["Place the signpost correctly", "Repair a question, command, or negative sentence by placing its signpost correctly.", "Fix Sentences"],
-    ["Ask command or negate", "Produce an appropriate question, command, or negative response from a prompt.", "Fix Sentences"],
+    ["Recognize question command and negation forms", "Identify Ra, Va, Ver, and the optional content-question anchors mu, nu, zhe, sha, lo, and ri.", "Build Words"],
+    ["Distinguish question types and sentence purpose", "Tell whether Ra asks for yes/no confirmation or opens a content gap, and distinguish questions, commands, statements, and negation.", "Both"],
+    ["Place signposts and question anchors", "Repair a sentence by placing Ra, Va, or Ver correctly and, when useful, putting the content-question anchor at the end.", "Fix Sentences"],
+    ["Ask command or negate", "Produce a yes/no question without an anchor, an explicit content question with the appropriate optional anchor, a command, or a negative response.", "Fix Sentences"],
   ],
   U05: [
     ["Recognize time and aspect forms", "Identify approved tense, aspect, time-of-day, and season forms.", "Build Words"],
@@ -290,6 +293,7 @@ async function selectCurriculum() {
   const usedForms = new Set();
   const selected = [];
   for (const unit of unitConfigs) {
+    const sentenceTarget = unit.sentenceTarget || 20;
     let rows;
     if (unit.manual) {
       rows = manualUnits[unit.id].map((id) => {
@@ -322,9 +326,9 @@ async function selectCurriculum() {
           if (rows.length !== target) throw new Error(`${unit.id} group selected ${rows.length}, expected ${target}`);
         }
       }
-      if (rows.length < 20) take(ranked(unit.match), 20);
+      if (rows.length < sentenceTarget) take(ranked(unit.match), sentenceTarget);
     }
-    if (rows.length !== 20) throw new Error(`${unit.id} selected ${rows.length}, expected 20`);
+    if (rows.length !== sentenceTarget) throw new Error(`${unit.id} selected ${rows.length}, expected ${sentenceTarget}`);
     for (const row of rows) {
       const key = norm(row.celan_text);
       if (usedForms.has(key)) throw new Error(`Duplicate sentence selected: ${row.celan_text}`);
@@ -332,7 +336,8 @@ async function selectCurriculum() {
       selected.push({ ...row, unit_id: unit.id, unit_title: unit.title, stage: unit.stage, unit_theme: unit.theme });
     }
   }
-  if (selected.length !== 320) throw new Error(`Selected ${selected.length}, expected 320`);
+  const expectedTotal = unitConfigs.reduce((sum, unit) => sum + (unit.sentenceTarget || 20), 0);
+  if (selected.length !== expectedTotal) throw new Error(`Selected ${selected.length}, expected ${expectedTotal}`);
   return selected;
 }
 
@@ -420,6 +425,7 @@ const excelColumn = (index) => {
 };
 
 const normalizeAnswer = (value) => norm(String(value || "").replace(/[.!?]+$/g, ""));
+const questionAnchors = ["mu", "nu", "zhe", "sha", "lo", "ri"];
 
 function buildObjectives(sentences) {
   const objectives = [];
@@ -544,17 +550,45 @@ function buildExercises(sentences, objectives) {
       supportByStage[sentence.stage],
       `Approved translation: ${sentence.translation}`
     );
-    add(
-      sentence,
-      ids[3],
-      "Fix Sentences",
-      "Produce sentence",
-      `Write the approved Celan sentence for: ${sentence.translation}`,
-      sentence.stage <= 2 ? tokens.join(" | ") : "Free response",
-      sentence.celan_text,
-      supportByStage[sentence.stage],
-      `Approved form: ${sentence.celan_text}`
-    );
+    if (sentence.source_volume === "Short Interrogative Particles 1") {
+      const anchor = norm(sentence.focus_headword);
+      const compactQuestion = sentence.celan_text.replace(new RegExp(`\\s+${anchor}\\?$`, "i"), "?");
+      add(
+        sentence,
+        ids[3],
+        "Fix Sentences",
+        "Choose question anchor",
+        `Which optional final particle makes the missing answer category explicit in: ${compactQuestion} (${sentence.translation})`,
+        questionAnchors.join(" | "),
+        anchor,
+        "Ra opens the unresolved question. Choose the final particle that names the kind of answer being requested.",
+        `${anchor} names the missing answer category. It is a closed grammatical particle, not a productive root. The compact form may omit it when context already makes that category clear.`
+      );
+    } else if (sentence.unit_id === "U04" && /^ra\b/i.test(sentence.celan_text)) {
+      add(
+        sentence,
+        ids[3],
+        "Fix Sentences",
+        "Classify question frame",
+        `Does this question require a content-question anchor: ${sentence.celan_text}`,
+        "No — it asks whether the complete proposition is true | Yes — add a content-question anchor",
+        "No — it asks whether the complete proposition is true",
+        "A complete proposition after Ra asks for yes/no confirmation.",
+        "No closing anchor is required because the unresolved part is whether the proposition is true."
+      );
+    } else {
+      add(
+        sentence,
+        ids[3],
+        "Fix Sentences",
+        "Produce sentence",
+        `Write the approved Celan sentence for: ${sentence.translation}`,
+        sentence.stage <= 2 ? tokens.join(" | ") : "Free response",
+        sentence.celan_text,
+        supportByStage[sentence.stage],
+        `Approved form: ${sentence.celan_text}`
+      );
+    }
   }
   return rows;
 }
@@ -600,13 +634,20 @@ function writeTable(sheet, startRow, headers, data, tableName, widths = []) {
 
 async function buildWorkbook() {
   const evidence = await loadEvidence();
-  const selected = (await selectCurriculum()).map((row, index) => ({
-    ...attachEvidence(row, evidence),
-    asset_id: `SEN-${String(index + 1).padStart(3, "0")}`,
-    lesson_order: (index % 20) + 1,
-  }));
+  const unitOrders = new Map();
+  const selected = (await selectCurriculum()).map((row, index) => {
+    const lessonOrder = (unitOrders.get(row.unit_id) || 0) + 1;
+    unitOrders.set(row.unit_id, lessonOrder);
+    return {
+      ...attachEvidence(row, evidence),
+      asset_id: `SEN-${String(index + 1).padStart(3, "0")}`,
+      lesson_order: lessonOrder,
+    };
+  });
   const objectives = buildObjectives(selected);
   const exercises = buildExercises(selected, objectives);
+  const sentenceEndRow = 9 + selected.length;
+  const exerciseEndRow = 9 + exercises.length;
   const workbook = Workbook.create();
   const overview = workbook.worksheets.add("Overview");
   const curriculum = workbook.worksheets.add("Curriculum");
@@ -624,11 +665,11 @@ async function buildWorkbook() {
   wordLinks.tabColor = "#8BBCC9";
   ruleReview.tabColor = "#A66B2D";
 
-  writeTitle(overview, "Celan learning release curriculum", "320 approved-source sentences supporting Build Words and Fix Sentences.");
+  writeTitle(overview, "Celan learning release curriculum", `${selected.length} approved-source sentences supporting Build Words and Fix Sentences.`);
   overview.getRange("A5:C5").values = [["Metric", "Value", "What it means"]];
   overview.getRange("A6:C12").values = [
     ["Sentence assets", null, "Canonical source sentences selected for the release course"],
-    ["Units", null, "Twenty sentences in each unit"],
+    ["Units", null, "Most units contain twenty sentences; the expanded question unit contains thirty-two"],
     ["Learning objectives", null, "Four objectives in each unit"],
     ["Exercise records", null, "Five deterministic exercises per sentence"],
     ["Source-approved sentences", null, "Sentence source rows marked Canon and Approved"],
@@ -636,13 +677,13 @@ async function buildWorkbook() {
     ["Reviewer-approved curriculum sentences", null, "Curriculum rows approved in this workbook"],
   ];
   overview.getRange("B6:B12").formulas = [
-    ["=COUNTA('Sentence Bank'!A10:A329)"],
+    [`=COUNTA('Sentence Bank'!A10:A${sentenceEndRow})`],
     ["=COUNTA(Curriculum!A10:A25)"],
     ["=COUNTA(Objectives!A10:A73)"],
-    ["=COUNTA(Exercises!A10:A1609)"],
-    ["=COUNTIF('Sentence Bank'!U10:U329,\"Approved\")"],
-    ["=COUNTIF('Rule Review'!D10:D40,\"Needs Human Review\")"],
-    ["=COUNTIF('Sentence Bank'!X10:X329,\"Approved\")"],
+    [`=COUNTA(Exercises!A10:A${exerciseEndRow})`],
+    [`=COUNTIF('Sentence Bank'!U10:U${sentenceEndRow},\"Approved\")`],
+    ["=COUNTIF('Rule Review'!D10:D100,\"Needs Human Review\")"],
+    [`=COUNTIF('Sentence Bank'!X10:X${sentenceEndRow},\"Approved\")`],
   ];
   overview.getRange("A5:C12").format.borders = { preset: "outside", style: "thin", color: "#9FB6C5" };
   overview.getRange("A5:C18").format.font = { name: "Arial", size: 10, color: "#1F2937" };
@@ -675,7 +716,7 @@ async function buildWorkbook() {
       unit.stage,
       unit.title,
       unit.theme,
-      20,
+      unit.sentenceTarget || 20,
       null,
       objectiveDefinitions[unit.id][0][1],
       objectiveDefinitions[unit.id][2][1],
@@ -686,7 +727,7 @@ async function buildWorkbook() {
     ];
   });
   writeTable(curriculum, 9, ["Unit ID", "Stage", "Unit", "Unit goal", "Target sentences", "Actual sentences", "Build Words focus", "Fix Sentences focus", "Objective IDs", "Core rule IDs", "Rule review", "Status"], curriculumRows, "CurriculumTable", [11, 8, 28, 46, 16, 16, 54, 54, 28, 34, 17, 14]);
-  curriculum.getRange("F10").formulas = [["=COUNTIF('Sentence Bank'!$B$10:$B$329,A10)"]];
+  curriculum.getRange("F10").formulas = [[`=COUNTIF('Sentence Bank'!$B$10:$B$${sentenceEndRow},A10)`]];
   curriculum.getRange("F10:F25").fillDown();
   curriculum.getRange("A10:L25").format.verticalAlignment = "top";
   curriculum.getRange("D10:H25").format.wrapText = true;
@@ -709,12 +750,12 @@ async function buildWorkbook() {
     ];
   });
   writeTable(sentenceBank, 9, ["Asset ID", "Unit ID", "Unit", "Stage", "Order", "Celan", "English", "Example type", "Focus headword", "Focus meaning", "Pronunciation", "Family roots", "Recorded derivation", "Source example ID", "Source volume", "Source section", "Source related IDs", "Source rule IDs", "Curriculum rule IDs", "Source rule review", "Source review", "Objective IDs", "Curriculum status", "Reviewer decision", "Reviewer notes"], sentenceRows, "SentenceBankTable", [12, 9, 29, 8, 8, 34, 42, 24, 20, 36, 18, 24, 42, 18, 37, 48, 38, 28, 36, 19, 15, 34, 17, 19, 42]);
-  sentenceBank.getRange("W10:W329").dataValidation = { rule: { type: "list", values: ["Draft", "Approved", "Revise"] } };
-  sentenceBank.getRange("X10:X329").dataValidation = { rule: { type: "list", values: ["Unreviewed", "Approved", "Revise", "Reject"] } };
-  sentenceBank.getRange("W10:Y329").format.fill = "#FCE8B2";
+  sentenceBank.getRange(`W10:W${sentenceEndRow}`).dataValidation = { rule: { type: "list", values: ["Draft", "Approved", "Revise"] } };
+  sentenceBank.getRange(`X10:X${sentenceEndRow}`).dataValidation = { rule: { type: "list", values: ["Unreviewed", "Approved", "Revise", "Reject"] } };
+  sentenceBank.getRange(`W10:Y${sentenceEndRow}`).format.fill = "#FCE8B2";
   sentenceBank.freezePanes.freezeRows(9);
   sentenceBank.freezePanes.freezeColumns(5);
-  applyBaseStyle(sentenceBank, "A1:Y329");
+  applyBaseStyle(sentenceBank, `A1:Y${sentenceEndRow}`);
 
   writeTitle(exerciseSheet, "Exercise map", "Five deterministic exercises are tied to each sentence and shared objectives.");
   const exerciseRows = exercises.map((row) => [
@@ -723,11 +764,11 @@ async function buildWorkbook() {
     row.rule_ids, row.status,
   ]);
   writeTable(exerciseSheet, 9, ["Exercise ID", "Sentence ID", "Unit ID", "Objective ID", "Stage", "Path", "Exercise type", "Prompt", "Tokens or options", "Correct answer", "Normalized accepted answer", "Hint", "Feedback", "Source example ID", "Rule IDs", "Status"], exerciseRows, "ExerciseMapTable", [13, 13, 9, 13, 8, 16, 20, 66, 58, 42, 38, 44, 58, 19, 36, 14]);
-  exerciseSheet.getRange("P10:P1609").dataValidation = { rule: { type: "list", values: ["Draft", "Approved", "Revise"] } };
-  exerciseSheet.getRange("P10:P1609").format.fill = "#FCE8B2";
+  exerciseSheet.getRange(`P10:P${exerciseEndRow}`).dataValidation = { rule: { type: "list", values: ["Draft", "Approved", "Revise"] } };
+  exerciseSheet.getRange(`P10:P${exerciseEndRow}`).format.fill = "#FCE8B2";
   exerciseSheet.freezePanes.freezeRows(9);
   exerciseSheet.freezePanes.freezeColumns(4);
-  applyBaseStyle(exerciseSheet, "A1:P1609");
+  applyBaseStyle(exerciseSheet, `A1:P${exerciseEndRow}`);
 
   writeTitle(objectiveSheet, "Shared learning objectives", "Each objective supports one or both study paths and points to a fixed sentence range.");
   const objectiveRows = objectives.map((row) => [
@@ -750,11 +791,11 @@ async function buildWorkbook() {
     row.lexicon_id, row.dictionary_examples ? Number(row.dictionary_examples) : null, row.evidence_status, "Draft",
   ]);
   writeTable(wordLinks, 9, ["Link ID", "Sentence ID", "Unit ID", "Focus headword", "Approved meaning", "Word type", "Pronunciation", "Root word", "Family roots", "Recorded derivation", "Related words", "Source lexicon ID", "Dictionary example count", "Evidence status", "Review status"], wordRows, "WordLinksTable", [12, 13, 9, 21, 44, 21, 18, 12, 26, 46, 42, 20, 20, 16, 16]);
-  wordLinks.getRange("O10:O329").dataValidation = { rule: { type: "list", values: ["Draft", "Approved", "Revise"] } };
-  wordLinks.getRange("O10:O329").format.fill = "#FCE8B2";
+  wordLinks.getRange(`O10:O${sentenceEndRow}`).dataValidation = { rule: { type: "list", values: ["Draft", "Approved", "Revise"] } };
+  wordLinks.getRange(`O10:O${sentenceEndRow}`).format.fill = "#FCE8B2";
   wordLinks.freezePanes.freezeRows(9);
   wordLinks.freezePanes.freezeColumns(4);
-  applyBaseStyle(wordLinks, "A1:O329");
+  applyBaseStyle(wordLinks, `A1:O${sentenceEndRow}`);
 
   const usedRuleIds = Array.from(new Set([
     ...selected.flatMap((row) => row.rule_ids),
