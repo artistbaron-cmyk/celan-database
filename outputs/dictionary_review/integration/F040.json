@@ -1,0 +1,73 @@
+{
+  "flag": "F040",
+  "title": "Fog is translated as a whiteout",
+  "status": "Applied locally",
+  "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+  "followups": [],
+  "user_response": {
+    "id": "F040",
+    "status": "edited",
+    "text": "remove whiteout and add fog. ",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:32:41.688Z",
+    "title": "Fog is translated as a whiteout",
+    "originalSuggestion": "Confirm this contextual use or make the translation match fog."
+  },
+  "example_changes": [
+    {
+      "flag": "F040",
+      "entry_id": "PE-HTS1-0081",
+      "before": {
+        "entry_id": "PE-HTS1-0081",
+        "source_volume": "Health, Treatment, and Survival 1",
+        "source_section": "Common Celan > LX-HTS1-0041",
+        "page_number": "",
+        "celan_text": "kavaen varral shan velarshor.",
+        "translation": "The traveler survives through the whiteout.",
+        "example_type": "Expansion example",
+        "analysis": "Living subject selects the survival reading of the short verb.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support.",
+        "related_entry_ids": "LX-HTS1-0041",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-HTS1-0081",
+        "source_volume": "Health, Treatment, and Survival 1",
+        "source_section": "Common Celan > LX-HTS1-0041",
+        "page_number": "",
+        "celan_text": "kavaen varral shan velarshor.",
+        "translation": "The traveler survives through the fog.",
+        "example_type": "Expansion example",
+        "analysis": "Living subject selects the survival reading of the short verb.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F040: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-HTS1-0041",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    }
+  ],
+  "current_displayed_senses": [
+    {
+      "headword": "Velarshor",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Fog",
+          "usage": "A quiet, enveloping mist.",
+          "sourceEntries": [
+            "LX-V2-0206"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

@@ -19,7 +19,7 @@ const source = fs.readFileSync(path.join(__dirname, 'script.js'), 'utf8');
 vm.runInContext(source.slice(0, source.lastIndexOf('init().catch')), context);
 const run = code => vm.runInContext(code, context);
 const csv = name => fs.readFileSync(path.join(__dirname, '../data', name + '.csv'), 'utf8');
-context.datasets = Object.fromEntries(['lexicon', 'lexicon_expansions', 'roots_and_morphology', 'expanded_root_database', 'ohnosha_creatures', 'phrases_and_examples'].map(name => [name, csv(name)]));
+context.datasets = Object.fromEntries(['lexicon', 'lexicon_expansions', 'roots_and_morphology', 'expanded_root_database', 'ohnosha_creatures', 'phrases_and_examples', 'grammar_rules', 'expressions'].map(name => [name, csv(name)]));
 run(`const data = Object.fromEntries(Object.entries(datasets).map(([key, text]) => [key, rowsToObjects(parseCsv(text))]));
 state.phrases = data.phrases_and_examples;
 state.groupedEntries = buildGroupedEntries([
@@ -54,7 +54,7 @@ assert.equal(run(`(() => {
   const mismatches = [];
   data.lexicon_expansions.forEach(entry => {
     const forms = [entry.celan_term, ...splitIds(entry.variant_forms)]
-      .map(form => cleanAlpha(form))
+      .map(form => cleanAlpha(form.normalize('NFD').replace(/[\u0300-\u036f]/g, '')))
       .filter(Boolean);
     splitIds(entry.related_entry_ids).filter(id => id.startsWith('PE-')).forEach(id => {
       const example = phrasesById.get(id);
@@ -62,8 +62,12 @@ assert.equal(run(`(() => {
         mismatches.push(entry.celan_term + ':missing:' + id);
         return;
       }
-      const tokens = (example.celan_text || '').toLowerCase().match(/[a-z]+/g) || [];
-      if (!forms.some(form => tokens.includes(form))) mismatches.push(entry.celan_term + ':' + id);
+      const tokens = (example.celan_text || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase().match(/[a-z]+/g) || [];
+      // GR-V2-0001: consonants take -in; vowels take -n. Match the whole
+      // inflected token so unrelated compounds still fail this check.
+      const attestedForms = entry.category === 'Noun'
+        ? forms.flatMap(form => [form, form + (/[aeiou]$/.test(form) ? 'n' : 'in')]) : forms;
+      if (!attestedForms.some(form => tokens.includes(form))) mismatches.push(entry.celan_term + ':' + id);
     });
   });
   return mismatches.join('|');
@@ -81,6 +85,23 @@ assert.equal(run(`findEnglishMatches({ searchText: 'water in the notes', english
   { type: 'Noun', meaning: 'Fire' }
 ] }, 'water').length`), 0);
 
+
+assert.equal(run(`displayUses(state.groupedEntries.find(group => group.id === 'lianaen'))[0].type`), 'Verb');
+assert.equal(run(`data.lexicon_expansions.filter(entry => {
+  const group = state.groupedEntries.find(group => group.id === normalizeHeadword(entry.celan_term));
+  return !group || buildUses(entry).some(use => !displayUses(group).some(shown => shown.type === use.type && shown.meaning === use.meaning));
+}).map(entry => entry.entry_id).join('|')`), '');
+
+// Source tables must not silently shift columns due to unquoted commas.
+for (const filename of fs.readdirSync(path.join(__dirname, '../data')).filter(name => name.endsWith('.csv'))) {
+  context.checkedCsv = fs.readFileSync(path.join(__dirname, '../data', filename), 'utf8');
+  assert.equal(run(`(() => { const rows = parseCsv(checkedCsv); return rows.slice(1).filter(row => row.length !== rows[0].length).length; })()`), 0, filename);
+}
+
+// Search may not revive raw source senses omitted by editorial display rules.
+assert.equal(run(`state.groupedEntries.filter(group =>
+  JSON.stringify(group.englishSenses) !== JSON.stringify(displayUses(group))
+).map(group => group.term).join('|')`), '');
 // Every indexed sense must retrieve its own headword, including its word-type filter.
 const coverage = run(`(() => {
   let count = 0;

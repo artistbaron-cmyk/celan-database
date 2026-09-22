@@ -1,0 +1,55 @@
+{
+  "flag": "F081",
+  "title": "karjor appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Karjor: Impact / Mechanical surge / Strike force / Burst of energy.",
+  "followups": [
+    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+  ],
+  "user_response": {
+    "id": "F081",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. karjor (/kahr-johr/) — Noun: Impact, mechanical surge, strike force, burst of energy\nEtymology: Built from Kar (strike / mechanical force) + jor (surge / sudden burst).\nApp Entry: Noun: Impact / Mechanical surge / Strike force",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:48:02.564Z",
+    "title": "karjor appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "karjor",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Impact / Mechanical surge / Strike force / Burst of energy",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0027"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F081",
+    "entry": {
+      "entry_id": "LX-DR1-0027",
+      "celan_term": "Karjor",
+      "pronunciation": "/kahr-johr/",
+      "english_meaning": "Impact / Mechanical surge / Strike force / Burst of energy",
+      "category": "Noun",
+      "derivation": "Kar mechanical force + Jor surge.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F081. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-HTS1-0061"
+    },
+    "example_count": 1
+  }
+}

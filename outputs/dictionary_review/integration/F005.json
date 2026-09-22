@@ -1,0 +1,52 @@
+{
+  "flag": "F005",
+  "title": "Lianeth — Ability (Can/Able to)",
+  "status": "Applied locally",
+  "summary": "Applied the approved word labels and preserved the other established meanings.",
+  "followups": [],
+  "user_response": {
+    "id": "F005",
+    "status": "edited",
+    "text": "MODAL",
+    "notes": "",
+    "updatedAt": "2026-09-22T13:05:25.093Z",
+    "title": "Lianeth — Ability (Can/Able to)",
+    "originalSuggestion": "Choose the intended label for these modal uses together: Modal, Adverb, or Particle. Do not change the meaning."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Lianeth",
+      "senses": [
+        {
+          "type": "Modal",
+          "meaning": "Ability (Can/Able to)",
+          "usage": "\"having true quality\"",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0001"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "Ability (Can/Able to)",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0001"
+          ]
+        },
+        {
+          "type": "Adjective",
+          "meaning": "Reliable / Sound / Dependable / Accurate / True to function",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0001"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

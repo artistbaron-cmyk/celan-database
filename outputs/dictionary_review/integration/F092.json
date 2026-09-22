@@ -1,0 +1,200 @@
+{
+  "flag": "F092",
+  "title": "Teaching notes are stored in the translation slot",
+  "status": "Applied locally",
+  "summary": "Separated teaching notes from translations; counterexamples and phonology illustrations are labeled.",
+  "followups": [],
+  "user_response": {
+    "id": "F092",
+    "status": "edited",
+    "text": "Keep counterexamples and phonology notes clearly labeled and separate from affirmative sentence translations. 2. Data Slot Cleanup\nExample ID\nCelan Text\nCurrent Translation Slot\nRecommended Display & Translation\nPE-S1-0009\nKalvok; Kalrath; Rethlian\nSmooth clusters\nCategory: Phonology Illustration<br>Gloss: \"Clan / Apex Predator / Might [Examples of permitted smooth consonant clusters]\"\nPE-S4B-0001\nvar I an dren.\nCorrect form: first word lowercase.\nTranslation: \"I go to the water.\"<br>Grammar Note: [Correct: sentence-initial lowercasing]\nPE-S4B-0002\nVar I an dren.\nIncorrect form: first word capitalized...\nCategory: Incorrect Counterexample<br>Translation: \"I go to the water.\"<br>Badge: ❌ Incorrect initial capitalization",
+    "notes": "",
+    "updatedAt": "2026-09-22T17:39:30.192Z",
+    "title": "Teaching notes are stored in the translation slot",
+    "originalSuggestion": "Keep counterexamples and phonology notes clearly labeled and separate from affirmative sentence translations."
+  },
+  "example_changes": [
+    {
+      "flag": "F092",
+      "entry_id": "PE-S1-0009",
+      "before": {
+        "entry_id": "PE-S1-0009",
+        "source_volume": "Supplement 1: The Rule of Euphony and Historical Variance",
+        "source_section": "Section 5:1: Advanced Phonology - The Rule of Euphony and Historical Variance > Examples",
+        "page_number": "2",
+        "celan_text": "Kalvok; Kalrath; Rethlian",
+        "translation": "Smooth clusters",
+        "example_type": "Smooth cluster example",
+        "analysis": "Smooth clusters do not require a connecting vowel.",
+        "canon_status": "Canon",
+        "notes": "Example form preserved from source; not treated as a standalone lexicon definition unless separately attested.",
+        "related_entry_ids": "GR-S1-0004; RM-S1-0003",
+        "relationship_type": "related usage",
+        "potential_tension_id": "PT-S1-0005",
+        "review_status": "Needs Human Review",
+        "review_reason": "variant form overlap"
+      },
+      "after": {
+        "entry_id": "PE-S1-0009",
+        "source_volume": "Supplement 1: The Rule of Euphony and Historical Variance",
+        "source_section": "Section 5:1: Advanced Phonology - The Rule of Euphony and Historical Variance > Examples",
+        "page_number": "2",
+        "celan_text": "Kalvok; Kalrath; Rethlian",
+        "translation": "Clan / Apex Predator / Might",
+        "example_type": "Phonology illustration",
+        "analysis": "Examples of permitted smooth consonant clusters.",
+        "canon_status": "Canon",
+        "notes": "Example form preserved from source; not treated as a standalone lexicon definition unless separately attested. ED-0037 F092: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "GR-S1-0004; RM-S1-0003",
+        "relationship_type": "related usage",
+        "potential_tension_id": "PT-S1-0005",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    },
+    {
+      "flag": "F092",
+      "entry_id": "PE-S4B-0001",
+      "before": {
+        "entry_id": "PE-S4B-0001",
+        "source_volume": "Supplement 4B: Celan Capitalization Rules",
+        "source_section": "Rule 1: The First Word of a Sentence is NOT Capitalized",
+        "page_number": "text",
+        "celan_text": "var I an dren.",
+        "translation": "Correct form: first word lowercase.",
+        "example_type": "Capitalization example",
+        "analysis": "Correct: var I an dren.",
+        "canon_status": "Canon",
+        "notes": "Original supplement example preserved.",
+        "related_entry_ids": "GR-S4B-0001; GR-V1-0004",
+        "relationship_type": "refinement",
+        "potential_tension_id": "PT-S4B-0003",
+        "review_status": "Needs Human Review",
+        "review_reason": "orthography overlap"
+      },
+      "after": {
+        "entry_id": "PE-S4B-0001",
+        "source_volume": "Supplement 4B: Celan Capitalization Rules",
+        "source_section": "Rule 1: The First Word of a Sentence is NOT Capitalized",
+        "page_number": "text",
+        "celan_text": "var I an dren.",
+        "translation": "I go to the water.",
+        "example_type": "Capitalization example",
+        "analysis": "Correct: sentence-initial lowercasing.",
+        "canon_status": "Canon",
+        "notes": "Original supplement example preserved. ED-0037 F092: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "GR-S4B-0001; GR-V1-0004",
+        "relationship_type": "refinement",
+        "potential_tension_id": "PT-S4B-0003",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    },
+    {
+      "flag": "F092",
+      "entry_id": "PE-S4B-0002",
+      "before": {
+        "entry_id": "PE-S4B-0002",
+        "source_volume": "Supplement 4B: Celan Capitalization Rules",
+        "source_section": "Rule 1: The First Word of a Sentence is NOT Capitalized",
+        "page_number": "text",
+        "celan_text": "Var I an dren.",
+        "translation": "Incorrect form: first word capitalized only because sentence-initial.",
+        "example_type": "Capitalization counterexample",
+        "analysis": "Incorrect: Var I an dren.",
+        "canon_status": "Canon",
+        "notes": "Original supplement counterexample preserved; older matching examples are not rewritten.",
+        "related_entry_ids": "GR-S4B-0001; PE-V1-0001",
+        "relationship_type": "related usage",
+        "potential_tension_id": "PT-S4B-0003",
+        "review_status": "Needs Human Review",
+        "review_reason": "orthography overlap"
+      },
+      "after": {
+        "entry_id": "PE-S4B-0002",
+        "source_volume": "Supplement 4B: Celan Capitalization Rules",
+        "source_section": "Rule 1: The First Word of a Sentence is NOT Capitalized",
+        "page_number": "text",
+        "celan_text": "Var I an dren.",
+        "translation": "I go to the water.",
+        "example_type": "Incorrect counterexample",
+        "analysis": "Incorrect initial capitalization: this example demonstrates what not to write.",
+        "canon_status": "Canon",
+        "notes": "Original supplement counterexample preserved; older matching examples are not rewritten. ED-0037 F092: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "GR-S4B-0001; PE-V1-0001",
+        "relationship_type": "related usage",
+        "potential_tension_id": "PT-S4B-0003",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    }
+  ],
+  "current_displayed_senses": [
+    {
+      "headword": "Var",
+      "senses": [
+        {
+          "type": "Verb",
+          "meaning": "Go / Move",
+          "usage": "Formal/purposeful use: deliberate or directed movement.",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0015",
+            "LX-V2-0034",
+            "LX-V2-0063",
+            "LX-V3-0010",
+            "LX-V4-0099"
+          ]
+        },
+        {
+          "type": "Preposition",
+          "meaning": "To / Towards",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0015",
+            "LX-V2-0034",
+            "LX-V2-0063",
+            "LX-V3-0010",
+            "LX-V4-0099"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Rethlian",
+      "senses": [
+        {
+          "type": "Modal",
+          "meaning": "Possibility (May/Might)",
+          "usage": "\"maybe/perhaps\"",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V3-0019",
+            "LX-V4-0003"
+          ]
+        },
+        {
+          "type": "Interjection",
+          "meaning": "Maybe",
+          "usage": "“Rethlian, I nor var dren.” – “Maybe, I will go to the water.”",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V3-0019",
+            "LX-V4-0003"
+          ]
+        },
+        {
+          "type": "Particle",
+          "meaning": "Possibility (May/Might)",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V3-0019",
+            "LX-V4-0003"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

@@ -1,0 +1,125 @@
+{
+  "flag": "F030",
+  "title": "“Still” is translated as “again”",
+  "status": "Applied locally",
+  "summary": "Corrected the English to The friend is still regaining consciousness.",
+  "followups": [],
+  "user_response": {
+    "id": "F030",
+    "status": "edited",
+    "text": "Nethnor is still. so the sentence should reflect that meaning. ",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:12:53.504Z",
+    "title": "“Still” is translated as “again”",
+    "originalSuggestion": "Choose continued recovery or repeated recovery and use matching wording."
+  },
+  "example_changes": [
+    {
+      "flag": "F030",
+      "entry_id": "PE-HTS1-0066",
+      "before": {
+        "entry_id": "PE-HTS1-0066",
+        "source_volume": "Health, Treatment, and Survival 1",
+        "source_section": "Common Celan > LX-HTS1-0033",
+        "page_number": "",
+        "celan_text": "kesrinaen ser nethnor.",
+        "translation": "The friend regains consciousness again.",
+        "example_type": "Expansion example",
+        "analysis": "Return to responsive awareness can recur.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support.",
+        "related_entry_ids": "LX-HTS1-0033",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-HTS1-0066",
+        "source_volume": "Health, Treatment, and Survival 1",
+        "source_section": "Common Celan > LX-HTS1-0033",
+        "page_number": "",
+        "celan_text": "kesrinaen ser nethnor.",
+        "translation": "The friend regains consciousness still.",
+        "example_type": "Expansion example",
+        "analysis": "Return to responsive awareness can recur.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F030: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-HTS1-0033",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    },
+    {
+      "flag": "F030",
+      "entry_id": "PE-HTS1-0066",
+      "before": {
+        "entry_id": "PE-HTS1-0066",
+        "source_volume": "Health, Treatment, and Survival 1",
+        "source_section": "Common Celan > LX-HTS1-0033",
+        "page_number": "",
+        "celan_text": "kesrinaen ser nethnor.",
+        "translation": "The friend regains consciousness still.",
+        "example_type": "Expansion example",
+        "analysis": "Return to responsive awareness can recur.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F030: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-HTS1-0033",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-HTS1-0066",
+        "source_volume": "Health, Treatment, and Survival 1",
+        "source_section": "Common Celan > LX-HTS1-0033",
+        "page_number": "",
+        "celan_text": "kesrinaen ser nethnor.",
+        "translation": "The friend is still regaining consciousness.",
+        "example_type": "Expansion example",
+        "analysis": "Recovery remains ongoing; nethnor means still, not again.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F030: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-HTS1-0033",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    }
+  ],
+  "current_displayed_senses": [
+    {
+      "headword": "Nethnor",
+      "senses": [
+        {
+          "type": "Particle",
+          "rootWord": false,
+          "meaning": "Still; continuing to be true at the reference time",
+          "usage": "",
+          "sourceEntries": [
+            "LX-CNE1-0020"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Wek'aen",
+      "senses": [
+        {
+          "type": "Particle",
+          "rootWord": false,
+          "meaning": "Again, As said before, To repeat (repetition).",
+          "usage": "Usage: Typically sentence-initial or near repeated idea.",
+          "sourceEntries": [
+            "LX-V3-0038"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

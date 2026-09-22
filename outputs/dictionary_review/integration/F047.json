@@ -1,0 +1,261 @@
+{
+  "flag": "F047",
+  "title": "Some nouns act as verbs without a displayed verb sense",
+  "status": "Applied locally",
+  "summary": "Applied the approved displayed senses or grammar decision; earlier meanings remain unless explicitly corrected.",
+  "followups": [],
+  "user_response": {
+    "id": "F047",
+    "status": "edited",
+    "text": "Update the Dictionary Headwords with Secondary Verb Senses\nExpand the dictionary display entries for these 9 headwords so learners searching for the verb form see the action gloss explicitly:\nHeadword\nCurrent App Label\nRecommended Updated Display Senses\nShen\nNoun: Currency / Measure\nNoun: Currency / Measure | Verb: To measure, to count\nKal\nNoun: Strength; Adj: Strong\nNoun: Strength | Adj: Strong | Verb: To strengthen\nBren\nNoun: Harvest\nNoun: Harvest | Verb: To harvest, to gather\nVanesh\nNoun: Commerce / Trade\nNoun: Commerce | Verb: To trade, to conduct commerce\nJor\nNoun: Surge / Burst\nNoun: Surge | Verb: To surge, to burst forth\nKar\nNoun: Strike / Force\nNoun: Strike / Mechanical force | Verb: To strike, to apply force\nShara\nNoun: Path / Journey\nNoun: Path | Verb: To follow a path, to navigate, to track\nXar\nNoun: Cover / Shadow\nNoun: Cover / Boundary | Verb: To cover, to shelter, to close off\nShentalzhael\nNoun: Medical Triage\nNoun: Medical triage | Verb: To triage, to prioritize treatment\n",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:49:15.415Z",
+    "title": "Some nouns act as verbs without a displayed verb sense",
+    "originalSuggestion": "Decide whether a shared noun-to-verb rule covers them or individual action senses should be shown."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Shen",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Coinage / Currency",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0085",
+            "LX-V4-0123",
+            "XR-shen"
+          ]
+        },
+        {
+          "type": "Measure",
+          "meaning": "Unit of weight / measure",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0085",
+            "LX-V4-0123",
+            "XR-shen"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "To measure / To count",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0085",
+            "LX-V4-0123",
+            "XR-shen"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Kal",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Strength / Power",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0031",
+            "LX-V4-0111",
+            "XR-kal"
+          ]
+        },
+        {
+          "type": "Adjective",
+          "meaning": "Strong",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0031",
+            "LX-V4-0111",
+            "XR-kal"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "To strengthen",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0031",
+            "LX-V4-0111",
+            "XR-kal"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Bren",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Harvest (e.g., the act or result of gathering food).",
+          "usage": "Conceptual range: Gathering; harvest; collected yield",
+          "rootWord": false,
+          "sourceEntries": [
+            "XR-bren",
+            "DM-RM-V2-0006"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "To harvest / To gather",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "XR-bren",
+            "DM-RM-V2-0006"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Vanesh",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Commerce; formal trade; merchant work",
+          "usage": "Builds words for trade, market action, bargaining, goods, and merchant activity.",
+          "rootWord": false,
+          "sourceEntries": [
+            "XR-vanesh"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "To trade / To conduct commerce",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "XR-vanesh"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Jor",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Surge or burst (symbolizing sudden movements or energetic flows).",
+          "usage": "Conceptual range: Surge; burst; energetic flow",
+          "rootWord": false,
+          "sourceEntries": [
+            "XR-jor",
+            "DM-RM-V2-0011"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "To surge / To burst forth",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "XR-jor",
+            "DM-RM-V2-0011"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Kar",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Strike; mechanical force; tool-work",
+          "usage": "Builds words for striking, tool-use, applied force, and mechanical action.",
+          "rootWord": false,
+          "sourceEntries": [
+            "XR-kar"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "To strike / To apply force",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "XR-kar"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Shara",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Path / Journey",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0010",
+            "XR-shara"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "To follow a path / To navigate / To track",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0010",
+            "XR-shara"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Xar",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Shadow or cover (tied to concealed or protective qualities).",
+          "usage": "Conceptual range: Cover; veil; concealment for protection",
+          "rootWord": false,
+          "sourceEntries": [
+            "XR-xar",
+            "DM-RM-V2-0019"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "To cover / To shelter / To close off",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "XR-xar",
+            "DM-RM-V2-0019"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Shentalzhael",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Medical triage; measured assignment of treatment priority and limited care resources according to urgency",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-HTS1-0044"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "To triage / To prioritize treatment",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-HTS1-0044"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

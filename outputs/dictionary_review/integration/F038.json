@@ -1,0 +1,356 @@
+{
+  "flag": "F038",
+  "title": "From becomes beneath, behind, or under",
+  "status": "Applied locally",
+  "summary": "Corrected under/behind prepositions, retained explicit family phrases, and preserved the newer F048 corrections.",
+  "followups": [],
+  "user_response": {
+    "id": "F038",
+    "status": "edited",
+    "text": "Here are the direct Celan wording fixes:\n1. Sentences needing morl (under / beneath)\n\"The sharp grain rests by the water under the light.\"\nOld Celan: Pelvar nor dren thal shal.\nUpdated Celan: Pelvar nor dren morl shal.\n\"The storm flows with the water under the light.\"\nOld Celan: Dralorim nor dren thal shal.\nUpdated Celan: Dralorim nor dren morl shal.\n\"The trap is beneath the bridge.\"\nOld Celan: rinaen vethbel thal njor.\nUpdated Celan: rinaen vethbel morl njor.\n\"The cousin is by the water under the mountain.\"\nOld Celan: Pralin ser dren thal morl.\nUpdated Celan: Pralin ser dren morl morl.\n\"The distant relative is by the water under the family.\"\nOld Celan: Zharin ser dren thal Tharvok.\nUpdated Celan: Zharin ser dren morl Tharvok.\n\"The bond renewal flows under the mountain.\"\nOld Celan: Zhivokesh shalil thal morl.\nUpdated Celan: Zhivokesh shalil morl morl.\n2. Sentence needing vethvar (behind)\n\"I hear music behind the house.\"\nOld Celan: aenaen I aennor thal teremil.\nUpdated Celan: aenaen I aennor vethvar teremil.\n3. Sentences needing an thal (in/under balance)\n\"The shadowlight ritual strengthens with the family under balance.\"\nOld Celan: Shalorveth kal dren thal Tharvok.\nUpdated Celan: Shalorveth kal dren an thal.\n\"The fortress bonding ceremony is with the family under balance.\"\nOld Celan: Kalorinath ser dren thal Tharvok.\nUpdated Celan: Kalorinath ser dren an thal.",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:29:39.345Z",
+    "title": "From becomes beneath, behind, or under",
+    "originalSuggestion": "Review these sentences individually; clarify poetic/contextual readings or align the spatial wording."
+  },
+  "example_changes": [
+    {
+      "flag": "F038",
+      "entry_id": "PE-V3-0034",
+      "before": {
+        "entry_id": "PE-V3-0034",
+        "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+        "source_section": "Kinship Terms",
+        "page_number": "9-13",
+        "celan_text": "Pralin ser dren thal morl.",
+        "translation": "The cousin is by the water under the mountain.",
+        "example_type": "Kinship example",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved.",
+        "related_entry_ids": "LX-V3-0043",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-V3-0034",
+        "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+        "source_section": "Kinship Terms",
+        "page_number": "9-13",
+        "celan_text": "Pralin ser dren morl morl.",
+        "translation": "The cousin is by the water under the mountain.",
+        "example_type": "Kinship example",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved. ED-0037 F038: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-V3-0043",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    },
+    {
+      "flag": "F038",
+      "entry_id": "PE-V3-0044",
+      "before": {
+        "entry_id": "PE-V3-0044",
+        "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+        "source_section": "Kinship Terms",
+        "page_number": "9-13",
+        "celan_text": "Zharin ser dren thal Tharvok.",
+        "translation": "The distant relative is by the water under the family.",
+        "example_type": "Kinship example",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved.",
+        "related_entry_ids": "LX-V3-0053",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-V3-0044",
+        "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+        "source_section": "Kinship Terms",
+        "page_number": "9-13",
+        "celan_text": "Zharin ser dren morl Tharvok.",
+        "translation": "The distant relative is by the water under the family.",
+        "example_type": "Kinship example",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved. ED-0037 F038: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-V3-0053",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    },
+    {
+      "flag": "F038",
+      "entry_id": "PE-V3-0092",
+      "before": {
+        "entry_id": "PE-V3-0092",
+        "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+        "source_section": "Language Use Across the Nations of Ohnosha > Cultural Customization by Nation > Zarithan",
+        "page_number": "21-24",
+        "celan_text": "Zhivokesh shalil thal morl.",
+        "translation": "The bond renewal flows under the mountain.",
+        "example_type": "National ceremonial example",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved.",
+        "related_entry_ids": "LX-V3-0112",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-V3-0092",
+        "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+        "source_section": "Language Use Across the Nations of Ohnosha > Cultural Customization by Nation > Zarithan",
+        "page_number": "21-24",
+        "celan_text": "Zhivokesh shalil morl morl.",
+        "translation": "The bond renewal flows under the mountain.",
+        "example_type": "National ceremonial example",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved. ED-0037 F038: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-V3-0112",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    },
+    {
+      "flag": "F038",
+      "entry_id": "PE-V3-0100",
+      "before": {
+        "entry_id": "PE-V3-0100",
+        "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+        "source_section": "Language Use Across the Nations of Ohnosha > Cultural Customization by Nation > Jasara",
+        "page_number": "21-24",
+        "celan_text": "Shalorveth kal dren thal Tharvok.",
+        "translation": "The shadowlight ritual strengthens with the family under balance.",
+        "example_type": "National ceremonial example",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved.",
+        "related_entry_ids": "LX-V3-0120",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-V3-0100",
+        "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+        "source_section": "Language Use Across the Nations of Ohnosha > Cultural Customization by Nation > Jasara",
+        "page_number": "21-24",
+        "celan_text": "kal Shalorveth ser Tharvok an thal.",
+        "translation": "The shadowlight ritual strengthens with the family under balance.",
+        "example_type": "National ceremonial example",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved. ED-0037 F038: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-V3-0120",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    },
+    {
+      "flag": "F038",
+      "entry_id": "PE-V3-0104",
+      "before": {
+        "entry_id": "PE-V3-0104",
+        "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+        "source_section": "Language Use Across the Nations of Ohnosha > Cultural Customization by Nation > Marakor",
+        "page_number": "21-24",
+        "celan_text": "Kalorinath ser dren thal Tharvok.",
+        "translation": "The fortress bonding ceremony is with the family under balance.",
+        "example_type": "National ceremonial example",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved.",
+        "related_entry_ids": "LX-V3-0124",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-V3-0104",
+        "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+        "source_section": "Language Use Across the Nations of Ohnosha > Cultural Customization by Nation > Marakor",
+        "page_number": "21-24",
+        "celan_text": "rinaen Kalorinath ser Tharvok an thal.",
+        "translation": "The fortress bonding ceremony is with the family under balance.",
+        "example_type": "National ceremonial example",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved. ED-0037 F038: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-V3-0124",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    },
+    {
+      "flag": "F038",
+      "entry_id": "PE-OC1-0009",
+      "before": {
+        "entry_id": "PE-OC1-0009",
+        "source_volume": "Organized Conflict 1",
+        "source_section": "Common Celan > LX-OC1-0005",
+        "page_number": "",
+        "celan_text": "rinaen vethbel thal njor.",
+        "translation": "The trap is beneath the bridge.",
+        "example_type": "Expansion example",
+        "analysis": "Concealed placement of a trap.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support.",
+        "related_entry_ids": "LX-OC1-0005",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-OC1-0009",
+        "source_volume": "Organized Conflict 1",
+        "source_section": "Common Celan > LX-OC1-0005",
+        "page_number": "",
+        "celan_text": "rinaen vethbel morl njor.",
+        "translation": "The trap is beneath the bridge.",
+        "example_type": "Expansion example",
+        "analysis": "Concealed placement of a trap.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F038: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-OC1-0005",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    },
+    {
+      "flag": "F038",
+      "entry_id": "PE-PSAC1-0002",
+      "before": {
+        "entry_id": "PE-PSAC1-0002",
+        "source_volume": "Performance, Story Arts, and Celebration 1",
+        "source_section": "Common Celan > LX-PSAC1-0001",
+        "page_number": "",
+        "celan_text": "aenaen I aennor thal teremil.",
+        "translation": "I hear music behind the house.",
+        "example_type": "Expansion example",
+        "analysis": "Auditory context distinguishes music from generic sound.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support.",
+        "related_entry_ids": "LX-PSAC1-0001",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-PSAC1-0002",
+        "source_volume": "Performance, Story Arts, and Celebration 1",
+        "source_section": "Common Celan > LX-PSAC1-0001",
+        "page_number": "",
+        "celan_text": "aenaen I aennor vethvar teremil.",
+        "translation": "I hear music behind the house.",
+        "example_type": "Expansion example",
+        "analysis": "Auditory context distinguishes music from generic sound.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F038: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-PSAC1-0001",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    }
+  ],
+  "current_displayed_senses": [
+    {
+      "headword": "Thal",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Balance / Harmony",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0017",
+            "LX-V2-0008",
+            "LX-V2-0023",
+            "LX-V2-0072",
+            "LX-V4-0109",
+            "XR-thal"
+          ]
+        },
+        {
+          "type": "Preposition",
+          "meaning": "From / Out of",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0017",
+            "LX-V2-0008",
+            "LX-V2-0023",
+            "LX-V2-0072",
+            "LX-V4-0109",
+            "XR-thal"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Morl",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Mountain",
+          "usage": "",
+          "sourceEntries": [
+            "LX-V2-0005",
+            "LX-V2-0066"
+          ]
+        },
+        {
+          "type": "Preposition",
+          "rootWord": false,
+          "meaning": "Under, beneath",
+          "usage": "Var I morl dren.",
+          "sourceEntries": [
+            "LX-V1-0022"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Vethvar",
+      "senses": [
+        {
+          "type": "Preposition",
+          "rootWord": false,
+          "meaning": "Behind or at the back of relative to facing or motion",
+          "usage": "",
+          "sourceEntries": [
+            "LX-CNE1-0035"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

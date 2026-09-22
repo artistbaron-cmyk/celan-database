@@ -1,0 +1,29 @@
+{
+  "status": "Possession clarified and integration underway",
+  "decisions": {
+    "F027": "Zhelvek retains energy bar and gains energy carrier; no replacement food headword.",
+    "F025": "Use Shalor alone in the sanctuary example. Preserve separately approved participant sense of -in alongside plural use.",
+    "F053": "-al remains universal continuous suffix. Varan is a specialized locative-stative form from Var + an, expressing residing, staying, or being located; -an is not a continuous suffix.",
+    "F084": "Noral: /nohr-ahl/, Noun, Night / nighttime / nocturnal hours; Nor time + -al continuous/duration. Preserve night translations.",
+    "F091": "Accept recommended city correction: Nor-var I an Varthas; I will go to the city.",
+    "F038": "Retain explicit family phrases in the two ritual corrections; preserve already-applied F048 grain/storm corrections.",
+    "F024": "Accept home/canvas translation instead of inventing a tent sense; use Emil for meal examples.",
+    "F005/F032": "Lianeth has Modal, Adjective, and a separate Verb label, preserving the approved ability and reliability senses.",
+    "F052–F087": "Settle word definitions separately; verify derivations against the app and leave unsupported derivations pending."
+  },
+  "numbering_interpretation": "After the Noral table, final agreements numbered 5–9 correspond in sequence to city sentence, ritual family phrases, tent/home, Lianeth labels (with explicit separate Verb), and derivations.",
+  "possession": {
+    "new_spacing_rule": "Standalone ka exclusively without/no. Possessive -ka must attach to possessor with a hyphen.",
+    "new_suffix_rule": "Direct personal body parts, inner states, primary gear/personal clothes mandate possessed-noun suffixes: -ian my, -ya your, -eshen their.",
+    "collective_rule": "Use possessor-ka for collective, third-person, or multi-word ownership; examples include Ilin-ka emil, Varthas-ka vorkor, Seren-ka arthkal.",
+    "exact_approved_examples": {
+      "PE-BIAOBF1-0001": "rinaen aiv an doran-ian.",
+      "PE-BIAOBF1-0083": "rinaen ndemwek-ian nor shara.",
+      "PE-RABFE2-0001": "drenselaen I noka-ian."
+    },
+    "later_conflicting_text": "Later correction proposes La ka kelvor, despite floating-ka ban, or kelvor-esh, despite mandated -eshen for their body parts.",
+    "recommended_resolution": "Superseded by explicit La-ka kelvor clarification.",
+    "final_user_clarification": "Use La-ka kelvor; user explicitly confirmed the third-person body-part allowance."
+  },
+  "changes_applied_by_this_record": false
+}

@@ -1,0 +1,5394 @@
+[
+  {
+    "id": "F001",
+    "category": "Word labels",
+    "title": "Arthen'taleth — Sacrifice for Destiny Ritual (noun).",
+    "words": [
+      "Arthen'taleth"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "displayed_label": "Verb",
+      "displayed_meaning": "Sacrifice for Destiny Ritual (noun)."
+    },
+    "why_flagged": "The definition itself says “noun,” but the word-type label above it says “Verb.” A reader is being given two different instructions for the same meaning.",
+    "decision": "Approve Noun for this ritual meaning.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F002",
+    "category": "Word labels",
+    "title": "Belshara — Necessity (Must/Have to)",
+    "words": [
+      "Belshara"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "displayed_label": "Verb",
+      "displayed_meaning": "Necessity (Must/Have to)"
+    },
+    "why_flagged": "The stored category is “Modal Adverb.” The app searches that text for “verb” and finds it inside “adverb,” so the displayed label is produced by a text-matching mistake. The meaning expresses ability, necessity, possibility, or desire.",
+    "decision": "Choose the intended label for these modal uses together: Modal, Adverb, or Particle. Do not change the meaning.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F003",
+    "category": "Word labels",
+    "title": "Jorvar — Speed; the rate at which a person creature object or vehicle moves through distance",
+    "words": [
+      "Jorvar"
+    ],
+    "certainty": "Missing information",
+    "what_the_app_says": {
+      "displayed_label": "(blank)",
+      "displayed_meaning": "Speed; the rate at which a person creature object or vehicle moves through distance"
+    },
+    "why_flagged": "The entry has no visible word-type label. Its stored category is already Measure, but the app does not display that category.",
+    "decision": "Approve displaying Measure.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F004",
+    "category": "Word labels",
+    "title": "Kor'taleth — Offering to Power Source Ritual (noun).",
+    "words": [
+      "Kor'taleth"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "displayed_label": "Verb",
+      "displayed_meaning": "Offering to Power Source Ritual (noun)."
+    },
+    "why_flagged": "The definition itself says “noun,” but the word-type label above it says “Verb.” A reader is being given two different instructions for the same meaning.",
+    "decision": "Approve Noun for this ritual meaning.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F005",
+    "category": "Word labels",
+    "title": "Lianeth — Ability (Can/Able to)",
+    "words": [
+      "Lianeth"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "displayed_label": "Verb",
+      "displayed_meaning": "Ability (Can/Able to)"
+    },
+    "why_flagged": "The stored category is “Modal Adverb.” The app searches that text for “verb” and finds it inside “adverb,” so the displayed label is produced by a text-matching mistake. The meaning expresses ability, necessity, possibility, or desire.",
+    "decision": "Choose the intended label for these modal uses together: Modal, Adverb, or Particle. Do not change the meaning.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F006",
+    "category": "Word labels",
+    "title": "Lianrethshen — An anomaly reading; a measured value describing the intensity or instability of a reality anomaly",
+    "words": [
+      "Lianrethshen"
+    ],
+    "certainty": "Missing information",
+    "what_the_app_says": {
+      "displayed_label": "(blank)",
+      "displayed_meaning": "An anomaly reading; a measured value describing the intensity or instability of a reality anomaly"
+    },
+    "why_flagged": "The entry has no visible word-type label. Its stored category is already Measure, but the app does not display that category.",
+    "decision": "Approve displaying Measure.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F007",
+    "category": "Word labels",
+    "title": "Lorin — Guide",
+    "words": [
+      "Lorin"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "displayed_label": "Verb",
+      "displayed_meaning": "Guide"
+    },
+    "why_flagged": "This record describes a guide or teacher as a person. Its source category is a community role or title. The app labels it Verb because “guide” can also mean an action. Other examples legitimately use Lorin for guiding.",
+    "decision": "Separate the person meaning from the action meaning; preserve both rather than making all uses nouns.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F008",
+    "category": "Word labels",
+    "title": "Lorin — Guide / Teacher",
+    "words": [
+      "Lorin"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "displayed_label": "Verb",
+      "displayed_meaning": "Guide / Teacher"
+    },
+    "why_flagged": "This record describes a guide or teacher as a person. Its source category is a community role or title. The app labels it Verb because “guide” can also mean an action. Other examples legitimately use Lorin for guiding.",
+    "decision": "Separate the person meaning from the action meaning; preserve both rather than making all uses nouns.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F009",
+    "category": "Word labels",
+    "title": "Phelrin — Comfort Food",
+    "words": [
+      "Phelrin"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "displayed_label": "Verb",
+      "displayed_meaning": "Comfort Food"
+    },
+    "why_flagged": "The definition names something you eat or drink. The app calls it a verb because the English word “comfort” can also be an action. Here it describes the food or drink, not an action.",
+    "decision": "Approve Noun for this meaning, preserving every other meaning.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F010",
+    "category": "Word labels",
+    "title": "Phelvin — Comfort Drink",
+    "words": [
+      "Phelvin"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "displayed_label": "Verb",
+      "displayed_meaning": "Comfort Drink"
+    },
+    "why_flagged": "The definition names something you eat or drink. The app calls it a verb because the English word “comfort” can also be an action. Here it describes the food or drink, not an action.",
+    "decision": "Approve Noun for this meaning, preserving every other meaning.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F011",
+    "category": "Word labels",
+    "title": "Rethlian — Possibility (May/Might)",
+    "words": [
+      "Rethlian"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "displayed_label": "Verb",
+      "displayed_meaning": "Possibility (May/Might)"
+    },
+    "why_flagged": "The stored category is “Modal Adverb.” The app searches that text for “verb” and finds it inside “adverb,” so the displayed label is produced by a text-matching mistake. The meaning expresses ability, necessity, possibility, or desire.",
+    "decision": "Choose the intended label for these modal uses together: Modal, Adverb, or Particle. Do not change the meaning.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F012",
+    "category": "Word labels",
+    "title": "Thal'taleth — Act/Ritual of Sacrifice (general noun).",
+    "words": [
+      "Thal'taleth"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "displayed_label": "Verb",
+      "displayed_meaning": "Act/Ritual of Sacrifice (general noun)."
+    },
+    "why_flagged": "The definition itself says “noun,” but the word-type label above it says “Verb.” A reader is being given two different instructions for the same meaning.",
+    "decision": "Approve Noun for this ritual meaning.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F013",
+    "category": "Word labels",
+    "title": "Thar-ka — Desire (Want to)",
+    "words": [
+      "Thar-ka"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "displayed_label": "Verb",
+      "displayed_meaning": "Desire (Want to)"
+    },
+    "why_flagged": "The stored category is “Modal Adverb.” The app searches that text for “verb” and finds it inside “adverb,” so the displayed label is produced by a text-matching mistake. The meaning expresses ability, necessity, possibility, or desire.",
+    "decision": "Choose the intended label for these modal uses together: Modal, Adverb, or Particle. Do not change the meaning.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F014",
+    "category": "Word labels",
+    "title": "Thar'taleth — Life/Heart Sacrifice Ritual (noun).",
+    "words": [
+      "Thar'taleth"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "displayed_label": "Verb",
+      "displayed_meaning": "Life/Heart Sacrifice Ritual (noun)."
+    },
+    "why_flagged": "The definition itself says “noun,” but the word-type label above it says “Verb.” A reader is being given two different instructions for the same meaning.",
+    "decision": "Approve Noun for this ritual meaning.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F015",
+    "category": "Word labels",
+    "title": "Vaarshen — A safe clearance distance established between a hazard and an unprotected person or place",
+    "words": [
+      "Vaarshen"
+    ],
+    "certainty": "Missing information",
+    "what_the_app_says": {
+      "displayed_label": "(blank)",
+      "displayed_meaning": "A safe clearance distance established between a hazard and an unprotected person or place"
+    },
+    "why_flagged": "The entry has no visible word-type label. Its stored category is already Measure, but the app does not display that category.",
+    "decision": "Approve displaying Measure.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F016",
+    "category": "Word labels",
+    "title": "Ven — Subtraction marker meaning minus/subtract",
+    "words": [
+      "Ven"
+    ],
+    "certainty": "Missing information",
+    "what_the_app_says": {
+      "displayed_label": "(blank)",
+      "displayed_meaning": "Subtraction marker meaning minus/subtract"
+    },
+    "why_flagged": "The entry has no visible word-type label. Its stored category says Numeric/Math Marker; the app does not explain that function with a visible type label.",
+    "decision": "Approve a label such as Particle or Math Marker.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F017",
+    "category": "Word labels",
+    "title": "Aen mixes an action and a thing under Verb",
+    "words": [
+      "Aen"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "Aen": "Verb: Speak / Tell / Breathe / Breath of Life; Conjunction: That; Suffix: -aen (verb-forming)"
+    },
+    "why_flagged": "“Speak,” “tell,” and “breathe” name actions. “Breath of Life” names a thing or concept, but all four are under one Verb label. This may be a deliberate conceptual grouping, but the label does not explain how the noun reading works.",
+    "decision": "Decide whether to split out the noun reading while preserving all established meanings.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F018",
+    "category": "Word labels",
+    "title": "Jin says “unique or rare” but is labeled Noun",
+    "words": [
+      "Jin"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "Jin": "Noun: Unique or rare (e.g., exotic or specialty foods)."
+    },
+    "why_flagged": "The English definition reads like a quality, while the type says Noun. A root can legitimately name the quality itself, but the entry does not say “uniqueness” or explain that distinction.",
+    "decision": "Confirm whether the intended noun means uniqueness/rarity, or whether this displayed sense should be an adjective.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F019",
+    "category": "Word labels",
+    "title": "-eth is a suffix but its labels describe what it makes",
+    "words": [
+      "-eth",
+      "-aen"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "-eth": "Adjective: Suffix that marks inherent quality or essential manifestation; Noun: Also used for abstract or ritual nouns",
+      "-aen": "Suffix: Verb-forming"
+    },
+    "why_flagged": "-eth is labeled Adjective and Noun even though both definitions describe a suffix. By comparison, -aen is labeled Suffix. A learner can mistake a word-building ending for a standalone word.",
+    "decision": "Use a consistent suffix label or explicitly explain that these labels identify the kinds of words the ending forms.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F020",
+    "category": "Examples",
+    "title": "The 4,768 example spells a different number",
+    "words": [
+      "Mel-",
+      "Hek-",
+      "Ten-",
+      "Oven",
+      "Sethe"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "Mel-": "Prefix: Thousands prefix",
+      "Hek-": "Prefix: Hundreds prefix",
+      "Ten-": "Prefix: Tens prefix",
+      "Oven": "Noun: Eight",
+      "Sethe": "Noun: Seven"
+    },
+    "why_flagged": "The Celan says four thousand + seven hundred + eight tens + seven: 4,787. The English says 4,768 and even gives the breakdown 4,000 + 700 + 60 + 8. The last two Celan components do not match that breakdown.",
+    "decision": "Choose the intended number. If it is 4,768, the final components need to express six tens and eight.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0211",
+        "celan": "Mel-quen Hek-sethe Ten-oven sethe",
+        "english": "4,768 (4,000 + 700 + 60 + 8)",
+        "shown_on": [
+          "Oven",
+          "Sethe"
+        ],
+        "available_on": [
+          "Oven",
+          "Quen",
+          "Sethe"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F021",
+    "category": "Examples",
+    "title": "The oil is “with” water, but English says “apart”",
+    "words": [
+      "Ser",
+      "Kavok",
+      "Olan"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "Ser": "Noun: Friend / Ally; Preposition: With; Conjunction: And",
+      "Kavok": "Particle: Apart; separate in place company or coordinated action",
+      "Olan": "Noun: Oil; a viscous water-resistant liquid or softened fatty substance derived from plants, animals, minerals, or manufacture"
+    },
+    "why_flagged": "The example uses ser, whose recorded meanings include “with” and “and.” Its English translation says the oil is stored apart from water. There is no kavok (“apart”) in this sentence.",
+    "decision": "Decide whether the intended sentence means together/with or apart, then align the two languages.",
+    "examples": [
+      {
+        "source_id": "PE-FAP2-0007",
+        "celan": "rinaen olan ser dren an xarvek.",
+        "english": "The oil is stored apart from the water in the cupboard.",
+        "shown_on": [
+          "Olan",
+          "Xarvek"
+        ],
+        "available_on": [
+          "An",
+          "Dren",
+          "Olan",
+          "Rinaen",
+          "Ser",
+          "Xarvek"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F022",
+    "category": "Examples",
+    "title": "A brewing verb is translated as cooling a patient",
+    "words": [
+      "Drenpralaen",
+      "Rekmav"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "Drenpralaen": "Verb: To brew; to prepare a drink by steeping, heating, fermenting, or a deliberate combination of those processes",
+      "Rekmav": "Noun: Severe systemic heat illness including heatstroke; bodily failure caused by excessive environmental heat"
+    },
+    "why_flagged": "Drenpralaen means preparing a drink by brewing. In this example it means cooling a person. These are different actions, and the dictionary does not record a cooling sense.",
+    "decision": "Confirm a different verb for cooling, or explicitly approve and explain this additional sense.",
+    "examples": [
+      {
+        "source_id": "PE-HTS1-0054",
+        "celan": "drenpralaen zhaelral savin ser rekmav.",
+        "english": "The healer cools the patient with heat illness.",
+        "shown_on": [
+          "Drenpralaen",
+          "Rekmav"
+        ],
+        "available_on": [
+          "Drenpralaen",
+          "Rekmav",
+          "Savin",
+          "Ser",
+          "Zhaelral"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F023",
+    "category": "Examples",
+    "title": "Standing is translated as carrying or moving",
+    "words": [
+      "Moraen"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "Moraen": "Verb: To Stand, To be grounded"
+    },
+    "why_flagged": "Moraen is defined as standing or being grounded. Three examples instead use it for a current carrying a wave, a gale carrying humid air, and pollution moving through a stream. The entry does not explain those uses.",
+    "decision": "Decide whether the examples need movement/carrying verbs or Moraen needs an approved additional sense.",
+    "examples": [
+      {
+        "source_id": "PE-EGE1-0017",
+        "celan": "moraen mahrwel drenjor var mahr.",
+        "english": "The current carries the wave out to sea.",
+        "shown_on": [
+          "Drenjor",
+          "Mahrwel",
+          "Moraen"
+        ],
+        "available_on": [
+          "Drenjor",
+          "Mahr",
+          "Mahrwel",
+          "Moraen",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-EGE1-0023",
+        "celan": "moraen eshjor eshdren thal mahr.",
+        "english": "The gale carries humid air from the sea.",
+        "shown_on": [
+          "Eshdren",
+          "Eshjor",
+          "Moraen"
+        ],
+        "available_on": [
+          "Eshdren",
+          "Eshjor",
+          "Mahr",
+          "Moraen",
+          "Thal"
+        ]
+      },
+      {
+        "source_id": "PE-EGE1-0062",
+        "celan": "moraen welgorm shan drenfel; jor pelnor an terramahr.",
+        "english": "Pollution moves through the stream; erosion worsens on the coast.",
+        "shown_on": [
+          "Drenfel",
+          "Moraen",
+          "Pelnor",
+          "Terramahr",
+          "Welgorm"
+        ],
+        "available_on": [
+          "An",
+          "Drenfel",
+          "Jor",
+          "Moraen",
+          "Pelnor",
+          "Shan",
+          "Terramahr",
+          "Welgorm"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F024",
+    "category": "Examples",
+    "title": "Home becomes a meal or a tent",
+    "words": [
+      "Teremil"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "Teremil": "Noun: Home"
+    },
+    "why_flagged": "Teremil means home. Two examples translate it as a meal, and another translates it as a tent. A tent can be someone’s home, but the meal reading is a distinct meaning. The entry gives the reader no explanation.",
+    "decision": "Resolve the meal examples first; clarify whether tent is a contextual use of home rather than a new general meaning.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0065",
+        "celan": "Vaaranoraen Velar ser teremil.",
+        "english": "The elder feels content with the meal.",
+        "shown_on": [
+          "Vaaranoraen",
+          "Velar"
+        ],
+        "available_on": [
+          "Ser",
+          "Teremil",
+          "Vaaranoraen",
+          "Velar"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0124",
+        "celan": "Teremil dren thal nor.",
+        "english": "A balanced meal at the water in time.",
+        "shown_on": [],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Teremil",
+          "Thal"
+        ]
+      },
+      {
+        "source_id": "PE-CWM1-0047",
+        "celan": "rinaen teremil kalbelrin.",
+        "english": "The tent is canvas.",
+        "shown_on": [
+          "Kalbelrin"
+        ],
+        "available_on": [
+          "Kalbelrin",
+          "Rinaen",
+          "Teremil"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F025",
+    "category": "Examples",
+    "title": "A fruit is translated as a sanctuary",
+    "words": [
+      "Shalorin",
+      "Shalor"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "Shalorin": "Noun: Sweet Fig-Like Fruit",
+      "Shalor": "Noun: Light (discovery, vision, hope); Noun: Light / New Beginnings / Fate; Noun: Sanctuary (light-filled place)"
+    },
+    "why_flagged": "Shalorin is the sweet fig-like fruit. The example translates Shalorin as “sanctuary of light,” which resembles the recorded meaning of Shalor.",
+    "decision": "Confirm whether this sentence intended Shalor or whether Shalorin has an additional approved meaning.",
+    "examples": [
+      {
+        "source_id": "PE-V1-0041",
+        "celan": "Tha-var La thal Shalorin.",
+        "english": "“They went from the sanctuary of light.”",
+        "shown_on": [
+          "La",
+          "Shalorin",
+          "Thal"
+        ],
+        "available_on": [
+          "La",
+          "Shalorin",
+          "Thal",
+          "Var"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F026",
+    "category": "Examples",
+    "title": "Light is translated as a talisman",
+    "words": [
+      "Lumor"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "Lumor": "Noun: Light (enlightenment or insight)"
+    },
+    "why_flagged": "Lumor is defined as light in the sense of enlightenment or insight. The example asks someone to carry “the talisman.” A physical talisman is not among its displayed meanings.",
+    "decision": "Clarify whether this is an established figurative object-name or correct the example.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0135",
+        "celan": "Lumor var ser dren.",
+        "english": "Carry the talisman to the water.",
+        "shown_on": [
+          "Lumor"
+        ],
+        "available_on": [
+          "Dren",
+          "Lumor",
+          "Ser",
+          "Var"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F027",
+    "category": "Examples",
+    "title": "An energy bar is treated as a mechanical energy carrier",
+    "words": [
+      "Zhelvek"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "Zhelvek": "Noun: Energy Bar"
+    },
+    "why_flagged": "The dictionary calls Zhelvek an energy bar—a food. Three mechanical examples instead turn or use it as an energy carrier. The ordinary reader cannot tell whether this means food or a power device.",
+    "decision": "Choose the intended object in those examples, or explicitly distinguish an approved second sense.",
+    "examples": [
+      {
+        "source_id": "PE-CNE1-0014",
+        "celan": "jekaen mekral zhelvek.",
+        "english": "The mechanic turns the energy carrier.",
+        "shown_on": [
+          "Jekaen",
+          "Zhelvek"
+        ],
+        "available_on": [
+          "Jekaen",
+          "Mekral",
+          "Zhelvek"
+        ]
+      },
+      {
+        "source_id": "PE-CNE1-0022",
+        "celan": "sivathaen mekral karethaen zhelvek.",
+        "english": "The mechanic succeeds in using the energy carrier.",
+        "shown_on": [
+          "Karethaen",
+          "Sivathaen",
+          "Zhelvek"
+        ],
+        "available_on": [
+          "Karethaen",
+          "Mekral",
+          "Sivathaen",
+          "Zhelvek"
+        ]
+      },
+      {
+        "source_id": "PE-CNE1-0024",
+        "celan": "sivrethaen mekral karethaen zhelvek.",
+        "english": "The mechanic fails to use the energy carrier.",
+        "shown_on": [
+          "Karethaen",
+          "Sivrethaen",
+          "Zhelvek"
+        ],
+        "available_on": [
+          "Karethaen",
+          "Mekral",
+          "Sivrethaen",
+          "Zhelvek"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F028",
+    "category": "Examples",
+    "title": "An oasis ceremony is translated as a sacred spring",
+    "words": [
+      "Drenkorath"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "Drenkorath": "Noun: Oasis Blessing Ceremony"
+    },
+    "why_flagged": "Drenkorath names the Oasis Blessing Ceremony. The example translates it as the sacred Spring, a place or water source. Attending a ceremony may involve going to a spring, but the translation quietly changes what is named.",
+    "decision": "Clarify the intended ritual/place relationship or align the translation with the ceremony meaning.",
+    "examples": [
+      {
+        "source_id": "PE-V4-0106",
+        "celan": "Lia, var I an Drenkorath. Rinaen vethor an thar-ian.",
+        "english": "Yes, I go to the sacred Spring. There is a shadow in my heart.",
+        "shown_on": [
+          "Drenkorath",
+          "Lia",
+          "Vethor"
+        ],
+        "available_on": [
+          "An",
+          "Drenkorath",
+          "I",
+          "Ian",
+          "Lia",
+          "Rinaen",
+          "Thar",
+          "Var",
+          "Vethor"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F029",
+    "category": "Examples",
+    "title": "Face is translated as skin",
+    "words": [
+      "Rema",
+      "Xarmetha"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "Rema": "Noun: The face; the visible front of the head containing the principal social and sensory features",
+      "Xarmetha": "Noun: Living skin; the body's outer protective tissue"
+    },
+    "why_flagged": "The word rema means face. The translation says the salve protects the friend’s skin, without limiting it to the face. The dictionary separately has Xarmetha for skin.",
+    "decision": "Decide whether the example means facial protection or skin in general.",
+    "examples": [
+      {
+        "source_id": "PE-HTS1-0040",
+        "celan": "arth zhaelolan rema ser.",
+        "english": "The salve protects the friend's skin.",
+        "shown_on": [
+          "Rema",
+          "Zhaelolan"
+        ],
+        "available_on": [
+          "Arth",
+          "Rema",
+          "Ser",
+          "Zhaelolan"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F030",
+    "category": "Examples",
+    "title": "“Still” is translated as “again”",
+    "words": [
+      "Nethnor",
+      "Wek'aen"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "Nethnor": "Particle: Still; continuing to be true at the reference time",
+      "Wek'aen": "Particle: Again, As said before, To repeat (repetition)."
+    },
+    "why_flagged": "Nethnor means something is continuing. The example translates it as “again,” which means it happens another time. Those are different timing claims.",
+    "decision": "Choose continued recovery or repeated recovery and use matching wording.",
+    "examples": [
+      {
+        "source_id": "PE-HTS1-0066",
+        "celan": "kesrinaen ser nethnor.",
+        "english": "The friend regains consciousness again.",
+        "shown_on": [
+          "Kesrinaen"
+        ],
+        "available_on": [
+          "Kesrinaen",
+          "Nethnor",
+          "Ser"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F031",
+    "category": "Examples",
+    "title": "Fortress is repeatedly used to mean strong",
+    "words": [
+      "Kaleth",
+      "Kal"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "Kaleth": "Noun: Fortress / Stronghold",
+      "Kal": "Noun: Strength / Power; Adjective: Strong"
+    },
+    "why_flagged": "Kaleth is displayed only as “Fortress / Stronghold.” Examples use kaleth for strong pressure, a strong network, a strong sense of smell, strong gravity, a high reading, and a powerful machine. Kal has the displayed adjective meaning “Strong,” but Kaleth does not.",
+    "decision": "Decide whether Kaleth needs a separately approved adjective sense or these examples should use the established adjective.",
+    "examples": [
+      {
+        "source_id": "PE-S3-0012",
+        "celan": "thar an kaleth",
+        "english": "a strong heart / courage",
+        "shown_on": [
+          "Thar-"
+        ],
+        "available_on": [
+          "An",
+          "Kaleth",
+          "Thar",
+          "Thar-"
+        ]
+      },
+      {
+        "source_id": "PE-NE1-0012",
+        "celan": "rinaen mahrowek kaleth nor.",
+        "english": "The tide is strong now.",
+        "shown_on": [
+          "Mahrowek"
+        ],
+        "available_on": [
+          "Kaleth",
+          "Mahrowek",
+          "Nor",
+          "Rinaen"
+        ]
+      },
+      {
+        "source_id": "PE-NE1-0013",
+        "celan": "rinaen mahrkal kaleth.",
+        "english": "The deep-water pressure is strong.",
+        "shown_on": [
+          "Mahrkal"
+        ],
+        "available_on": [
+          "Kaleth",
+          "Mahrkal",
+          "Rinaen"
+        ]
+      },
+      {
+        "source_id": "PE-NE1-0024",
+        "celan": "rinaen belzhir kaleth.",
+        "english": "The communications network is strong.",
+        "shown_on": [
+          "Belzhir"
+        ],
+        "available_on": [
+          "Belzhir",
+          "Kaleth",
+          "Rinaen"
+        ]
+      },
+      {
+        "source_id": "PE-DSL1-0085",
+        "celan": "rinaen nol-ian kaleth.",
+        "english": "My sense of smell is strong.",
+        "shown_on": [
+          "Nol"
+        ],
+        "available_on": [
+          "Ian",
+          "Kaleth",
+          "Nol",
+          "Rinaen"
+        ]
+      },
+      {
+        "source_id": "PE-PFM1-0058",
+        "celan": "rinaen kalrav kaleth.",
+        "english": "Gravity is strong.",
+        "shown_on": [
+          "Kalrav"
+        ],
+        "available_on": [
+          "Kaleth",
+          "Kalrav",
+          "Rinaen"
+        ]
+      },
+      {
+        "source_id": "PE-PFM1-0071",
+        "celan": "rinaen lianrethshen kaleth.",
+        "english": "The anomaly reading is high.",
+        "shown_on": [
+          "Lianrethshen"
+        ],
+        "available_on": [
+          "Kaleth",
+          "Lianrethshen",
+          "Rinaen"
+        ]
+      },
+      {
+        "source_id": "PE-TM1-0003",
+        "celan": "rinaen kalmek kaleth.",
+        "english": "The machine is powerful.",
+        "shown_on": [
+          "Kalmek"
+        ],
+        "available_on": [
+          "Kaleth",
+          "Kalmek",
+          "Rinaen"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F032",
+    "category": "Examples",
+    "title": "Ability is translated as reliability",
+    "words": [
+      "Lianeth"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "Lianeth": "Verb: Ability (Can/Able to)"
+    },
+    "why_flagged": "Lianeth is displayed as “Ability (Can/Able to).” Two examples translate it as “reliable.” Being able to act and being trustworthy or dependable are not the same meaning.",
+    "decision": "Clarify or approve the reliability sense, or align the examples with the current meaning.",
+    "examples": [
+      {
+        "source_id": "PE-NE1-0074",
+        "celan": "rinaen eshlor lianeth.",
+        "english": "The wind bearing is reliable.",
+        "shown_on": [
+          "Eshlor",
+          "Lianeth"
+        ],
+        "available_on": [
+          "Eshlor",
+          "Lianeth",
+          "Rinaen"
+        ]
+      },
+      {
+        "source_id": "PE-SRD1-0010",
+        "celan": "ra rinaen karvek denya lianeth?",
+        "english": "Is that toolkit by you reliable?",
+        "shown_on": [
+          "Denya",
+          "Lianeth"
+        ],
+        "available_on": [
+          "Denya",
+          "Karvek",
+          "Lianeth",
+          "Ra",
+          "Rinaen"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F033",
+    "category": "Examples",
+    "title": "The passive marker is translated as “this moment”",
+    "words": [
+      "nor-ka"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "nor-ka": "Particle: passive voice echo particle"
+    },
+    "why_flagged": "The app defines nor-ka as a passive-voice marker. This question uses it where the English says “in this moment.” The temporal reading is not explained by its entry.",
+    "decision": "Decide whether the example needs a time word or whether this marker has an additional contextual use.",
+    "examples": [
+      {
+        "source_id": "PE-V4-0105",
+        "celan": "Shal lorin shara-ya an nor-ka, Ser?",
+        "english": "Does the light guide your path in this moment, Friend?",
+        "shown_on": [
+          "nor-ka"
+        ],
+        "available_on": [
+          "An",
+          "Ka",
+          "Lorin",
+          "Nor",
+          "Ser",
+          "Shal",
+          "Shara",
+          "Ya",
+          "nor-ka"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F034",
+    "category": "Examples",
+    "title": "Kel is used as generic information",
+    "words": [
+      "Kel",
+      "Dava"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "Kel": "Verb: Say / Talk (informal); Noun: Name; Noun: Word; Noun: A text; a connected body of written or encoded words rather than information or data generally",
+      "Dava": "Noun: Information; meaningful content capable of being known communicated represented or stored"
+    },
+    "why_flagged": "Kel’s text sense explicitly excludes information or data generally. The data-center example nevertheless translates kel as “information,” without saying it is a text.",
+    "decision": "Make the example specifically about a text, use the established information term, or clarify the intended context.",
+    "examples": [
+      {
+        "source_id": "PE-BSPI1-0038",
+        "celan": "dor mekral kel an belzhirkavor.",
+        "english": "The technician puts information in the data center.",
+        "shown_on": [
+          "Belzhirkavor"
+        ],
+        "available_on": [
+          "An",
+          "Belzhirkavor",
+          "Dor",
+          "Kel",
+          "Mekral"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F035",
+    "category": "Examples",
+    "title": "A guardian is repeatedly translated as a friend",
+    "words": [
+      "Seren",
+      "Ser"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "Seren": "Noun: Guardian / Protector; Noun: Guardian/Protector",
+      "Ser": "Noun: Friend / Ally; Preposition: With; Conjunction: And"
+    },
+    "why_flagged": "Seren is guardian/protector; Ser is friend. Several magic examples use seren but translate it as “the friend.” This can teach readers that the two words are interchangeable.",
+    "decision": "Confirm the intended participant and align the English or Celan wording.",
+    "examples": [
+      {
+        "source_id": "PE-GMMP1-0003",
+        "celan": "rinaen vek kaarueth; aruaen seren an shalor.",
+        "english": "The tool is nonmagical; the friend practices magic in the sanctuary.",
+        "shown_on": [
+          "Aruaen",
+          "Kaarueth",
+          "Vek"
+        ],
+        "available_on": [
+          "An",
+          "Aruaen",
+          "Kaarueth",
+          "Rinaen",
+          "Seren",
+          "Shalor",
+          "Vek"
+        ]
+      },
+      {
+        "source_id": "PE-GMMP1-0017",
+        "celan": "kaaruaen arural rathrin ser tal vaarrin an seren.",
+        "english": "The practitioner dispels the curse and gives the friend a blessing.",
+        "shown_on": [
+          "Kaaruaen",
+          "Rathrin",
+          "Vaarrin"
+        ],
+        "available_on": [
+          "An",
+          "Arural",
+          "Kaaruaen",
+          "Rathrin",
+          "Ser",
+          "Seren",
+          "Tal",
+          "Vaarrin"
+        ]
+      },
+      {
+        "source_id": "PE-GMMP1-0029",
+        "celan": "kathaenbelaen arural thaenin ser krezpralaen seren krez.",
+        "english": "The practitioner releases the spirit-being and the friend shapes the fire.",
+        "shown_on": [
+          "Kathaenbelaen",
+          "Krezpralaen"
+        ],
+        "available_on": [
+          "Arural",
+          "Kathaenbelaen",
+          "Krez",
+          "Krezpralaen",
+          "Ser",
+          "Seren",
+          "Thaenin"
+        ]
+      },
+      {
+        "source_id": "PE-GMMP1-0030",
+        "celan": "krezpralaen arural krez ser dropralaen seren dro.",
+        "english": "The practitioner shapes fire and the friend shapes physical water.",
+        "shown_on": [
+          "Dropralaen",
+          "Krezpralaen"
+        ],
+        "available_on": [
+          "Arural",
+          "Dro",
+          "Dropralaen",
+          "Krez",
+          "Krezpralaen",
+          "Ser",
+          "Seren"
+        ]
+      },
+      {
+        "source_id": "PE-GMMP1-0031",
+        "celan": "dropralaen arural dro ser eshpralaen seren esh.",
+        "english": "The practitioner shapes water and the friend shapes wind.",
+        "shown_on": [
+          "Dropralaen",
+          "Eshpralaen"
+        ],
+        "available_on": [
+          "Arural",
+          "Dro",
+          "Dropralaen",
+          "Esh",
+          "Eshpralaen",
+          "Ser",
+          "Seren"
+        ]
+      },
+      {
+        "source_id": "PE-GMMP1-0032",
+        "celan": "eshpralaen arural esh ser morpralaen seren mor.",
+        "english": "The practitioner shapes wind and the friend shapes matter.",
+        "shown_on": [
+          "Eshpralaen",
+          "Morpralaen"
+        ],
+        "available_on": [
+          "Arural",
+          "Esh",
+          "Eshpralaen",
+          "Mor",
+          "Morpralaen",
+          "Ser",
+          "Seren"
+        ]
+      },
+      {
+        "source_id": "PE-GMMP1-0033",
+        "celan": "morpralaen arural mor ser velpralaen seren vel.",
+        "english": "The practitioner shapes stone and the friend shapes ice.",
+        "shown_on": [
+          "Morpralaen",
+          "Vel",
+          "Velpralaen"
+        ],
+        "available_on": [
+          "Arural",
+          "Mor",
+          "Morpralaen",
+          "Ser",
+          "Seren",
+          "Vel",
+          "Velpralaen"
+        ]
+      },
+      {
+        "source_id": "PE-GMMP1-0034",
+        "celan": "velpralaen arural vel ser zhelpralaen seren zhel.",
+        "english": "The practitioner shapes ice and the friend shapes electricity.",
+        "shown_on": [
+          "Vel",
+          "Velpralaen",
+          "Zhel",
+          "Zhelpralaen"
+        ],
+        "available_on": [
+          "Arural",
+          "Ser",
+          "Seren",
+          "Vel",
+          "Velpralaen",
+          "Zhel",
+          "Zhelpralaen"
+        ]
+      },
+      {
+        "source_id": "PE-GMMP1-0035",
+        "celan": "zhelpralaen arural zhel ser tenarpralaen seren tenar.",
+        "english": "The practitioner shapes electricity and the friend shapes radiance.",
+        "shown_on": [
+          "Tenar",
+          "Tenarpralaen",
+          "Zhel",
+          "Zhelpralaen"
+        ],
+        "available_on": [
+          "Arural",
+          "Ser",
+          "Seren",
+          "Tenar",
+          "Tenarpralaen",
+          "Zhel",
+          "Zhelpralaen"
+        ]
+      },
+      {
+        "source_id": "PE-GMMP1-0036",
+        "celan": "tenarpralaen arural tenar ser vethpralaen seren veth.",
+        "english": "The practitioner shapes radiance and the friend shapes shadow.",
+        "shown_on": [
+          "Tenar",
+          "Tenarpralaen",
+          "Veth",
+          "Vethpralaen"
+        ],
+        "available_on": [
+          "Arural",
+          "Ser",
+          "Seren",
+          "Tenar",
+          "Tenarpralaen",
+          "Veth",
+          "Vethpralaen"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F036",
+    "category": "Examples",
+    "title": "Ten is used as radiance",
+    "words": [
+      "Tenar",
+      "Tenarpralaen"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "Tenar": "Noun: Ten",
+      "Tenarpralaen": "Verb: To shape direct or sustain visible light or radiance through extraordinary trained practice"
+    },
+    "why_flagged": "Tenar’s displayed definition is the number ten. Magic examples and the derivation of Tenarpralaen use tenar for radiance. The derivation preserves a root association, but the standalone entry does not show a radiance meaning.",
+    "decision": "Decide whether this is a root-only association that needs explanation or an approved standalone sense to display.",
+    "examples": [
+      {
+        "source_id": "PE-GMMP1-0035",
+        "celan": "zhelpralaen arural zhel ser tenarpralaen seren tenar.",
+        "english": "The practitioner shapes electricity and the friend shapes radiance.",
+        "shown_on": [
+          "Tenar",
+          "Tenarpralaen",
+          "Zhel",
+          "Zhelpralaen"
+        ],
+        "available_on": [
+          "Arural",
+          "Ser",
+          "Seren",
+          "Tenar",
+          "Tenarpralaen",
+          "Zhel",
+          "Zhelpralaen"
+        ]
+      },
+      {
+        "source_id": "PE-GMMP1-0036",
+        "celan": "tenarpralaen arural tenar ser vethpralaen seren veth.",
+        "english": "The practitioner shapes radiance and the friend shapes shadow.",
+        "shown_on": [
+          "Tenar",
+          "Tenarpralaen",
+          "Veth",
+          "Vethpralaen"
+        ],
+        "available_on": [
+          "Arural",
+          "Ser",
+          "Seren",
+          "Tenar",
+          "Tenarpralaen",
+          "Veth",
+          "Vethpralaen"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F037",
+    "category": "Examples",
+    "title": "The pronoun “they” is treated like a person’s name",
+    "words": [
+      "Lalin"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "Lalin": "Pronoun: 3rd Person Plural"
+    },
+    "why_flagged": "Lalin is the third-person plural pronoun. The translation reads “Lalin races on the road,” as if Lalin were a name, rather than “They race.”",
+    "decision": "Confirm whether this is deliberately a character name or translate the pronoun.",
+    "examples": [
+      {
+        "source_id": "PE-RC1-0039",
+        "celan": "jornakaen Lalin an shara.",
+        "english": "Lalin races on the road.",
+        "shown_on": [
+          "Jornakaen",
+          "Lalin"
+        ],
+        "available_on": [
+          "An",
+          "Jornakaen",
+          "Lalin",
+          "Shara"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F038",
+    "category": "Examples",
+    "title": "From becomes beneath, behind, or under",
+    "words": [
+      "Thal",
+      "Morl",
+      "Vethvar"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "Thal": "Noun: Balance / Harmony; Preposition: From / Out of",
+      "Morl": "Noun: Mountain; Preposition: Under, beneath",
+      "Vethvar": "Preposition: Behind or at the back of relative to facing or motion"
+    },
+    "why_flagged": "Thal is recorded as balance/harmony and from/out of. These examples instead make it carry a spatial reading such as beneath or behind. The dictionary has other words for those relationships, so the reader needs an explanation rather than an unexplained shift.",
+    "decision": "Review these sentences individually; clarify poetic/contextual readings or align the spatial wording.",
+    "examples": [
+      {
+        "source_id": "PE-V2-0056",
+        "celan": "Pelvar nor dren thal shal.",
+        "english": "The sharp grain rests by the water under the light.",
+        "shown_on": [
+          "Pelvar"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Pelvar",
+          "Shal",
+          "Thal"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0115",
+        "celan": "Dralorim nor dren thal shal.",
+        "english": "The storm flows with the water under the light.",
+        "shown_on": [
+          "Dralorim"
+        ],
+        "available_on": [
+          "Dralorim",
+          "Dren",
+          "Nor",
+          "Shal",
+          "Thal"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0034",
+        "celan": "Pralin ser dren thal morl.",
+        "english": "The cousin is by the water under the mountain.",
+        "shown_on": [
+          "Pralin"
+        ],
+        "available_on": [
+          "Dren",
+          "Morl",
+          "Pralin",
+          "Ser",
+          "Thal"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0044",
+        "celan": "Zharin ser dren thal Tharvok.",
+        "english": "The distant relative is by the water under the family.",
+        "shown_on": [
+          "Zharin"
+        ],
+        "available_on": [
+          "Dren",
+          "Ser",
+          "Thal",
+          "Zharin"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0092",
+        "celan": "Zhivokesh shalil thal morl.",
+        "english": "The bond renewal flows under the mountain.",
+        "shown_on": [
+          "Zhivokesh"
+        ],
+        "available_on": [
+          "Morl",
+          "Thal",
+          "Zhivokesh"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0100",
+        "celan": "Shalorveth kal dren thal Tharvok.",
+        "english": "The shadowlight ritual strengthens with the family under balance.",
+        "shown_on": [
+          "Shalorveth"
+        ],
+        "available_on": [
+          "Dren",
+          "Kal",
+          "Shalorveth",
+          "Thal"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0104",
+        "celan": "Kalorinath ser dren thal Tharvok.",
+        "english": "The fortress bonding ceremony is with the family under balance.",
+        "shown_on": [
+          "Kalorinath"
+        ],
+        "available_on": [
+          "Dren",
+          "Kalorinath",
+          "Ser",
+          "Thal"
+        ]
+      },
+      {
+        "source_id": "PE-OC1-0009",
+        "celan": "rinaen vethbel thal njor.",
+        "english": "The trap is beneath the bridge.",
+        "shown_on": [
+          "Njor",
+          "Vethbel"
+        ],
+        "available_on": [
+          "Njor",
+          "Rinaen",
+          "Thal",
+          "Vethbel"
+        ]
+      },
+      {
+        "source_id": "PE-PSAC1-0002",
+        "celan": "aenaen I aennor thal teremil.",
+        "english": "I hear music behind the house.",
+        "shown_on": [
+          "Aenaen",
+          "Aennor"
+        ],
+        "available_on": [
+          "Aenaen",
+          "Aennor",
+          "I",
+          "Teremil",
+          "Thal"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F039",
+    "category": "Examples",
+    "title": "A ship is translated as a shipwreck",
+    "words": [
+      "Mahrvek"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "Mahrvek": "Noun: Boat; ship; sea vessel"
+    },
+    "why_flagged": "Mahrvek means boat, ship, or sea vessel. The English adds a wreck and surviving after it, but the Celan contains no displayed word naming a wreck.",
+    "decision": "Explain the implied context or make the accident explicit.",
+    "examples": [
+      {
+        "source_id": "PE-HTS1-0079",
+        "celan": "rinaen shalkav thal mahrvek.",
+        "english": "There is survival after the shipwreck.",
+        "shown_on": [
+          "Shalkav"
+        ],
+        "available_on": [
+          "Mahrvek",
+          "Rinaen",
+          "Shalkav",
+          "Thal"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F040",
+    "category": "Examples",
+    "title": "Fog is translated as a whiteout",
+    "words": [
+      "Velarshor"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "Velarshor": "Noun: Fog"
+    },
+    "why_flagged": "Velarshor means fog. The example translates it as a whiteout, which suggests a different or more specific condition. The entry does not explain that extension.",
+    "decision": "Confirm this contextual use or make the translation match fog.",
+    "examples": [
+      {
+        "source_id": "PE-HTS1-0081",
+        "celan": "kavaen varral shan velarshor.",
+        "english": "The traveler survives through the whiteout.",
+        "shown_on": [
+          "Kavaen",
+          "Velarshor"
+        ],
+        "available_on": [
+          "Kavaen",
+          "Shan",
+          "Velarshor"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F041",
+    "category": "Examples",
+    "title": "The toolkit is translated as one tool",
+    "words": [
+      "Karvek",
+      "Karmek"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "Karvek": "Noun: Portable toolkit",
+      "Karmek": "Noun: A tool; a portable implement deliberately used to perform practical work"
+    },
+    "why_flagged": "Karvek is a portable toolkit; Karmek is a tool. The English says the mechanic puts oil on “the tool,” but the Celan names the toolkit.",
+    "decision": "Choose whether the mechanic oils the kit or a particular tool.",
+    "examples": [
+      {
+        "source_id": "PE-FAP2-0008",
+        "celan": "dor mekral olan an karvek.",
+        "english": "The mechanic puts oil on the tool.",
+        "shown_on": [
+          "Olan"
+        ],
+        "available_on": [
+          "An",
+          "Dor",
+          "Karvek",
+          "Mekral",
+          "Olan"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F042",
+    "category": "Examples",
+    "title": "A carrier is translated as a tool",
+    "words": [
+      "Vek",
+      "Karmek"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "Vek": "Noun: Carrier; vessel; transported charge or substance",
+      "Karmek": "Noun: A tool; a portable implement deliberately used to perform practical work"
+    },
+    "why_flagged": "Vek is a carrier or vessel. In this sentence it is translated as a nonmagical tool, without that tool meaning appearing in the entry.",
+    "decision": "Clarify the object or revise the example wording.",
+    "examples": [
+      {
+        "source_id": "PE-GMMP1-0003",
+        "celan": "rinaen vek kaarueth; aruaen seren an shalor.",
+        "english": "The tool is nonmagical; the friend practices magic in the sanctuary.",
+        "shown_on": [
+          "Aruaen",
+          "Kaarueth",
+          "Vek"
+        ],
+        "available_on": [
+          "An",
+          "Aruaen",
+          "Kaarueth",
+          "Rinaen",
+          "Seren",
+          "Shalor",
+          "Vek"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F043",
+    "category": "Examples",
+    "title": "Chaos is translated as a ruin",
+    "words": [
+      "Rethvok"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "Rethvok": "Noun: Chaos (A bond of confusion)"
+    },
+    "why_flagged": "Rethvok names chaos or disorder. The English turns it into a physical ruin. A ruin can be chaotic, but the entry does not tell the learner it can name that place.",
+    "decision": "Confirm a place-reading or align the example with chaos.",
+    "examples": [
+      {
+        "source_id": "PE-GMMP1-0018",
+        "celan": "rinaen vaarrin an teremil ser rathrin an rethvok.",
+        "english": "A blessing rests on the home and a curse on the ruin.",
+        "shown_on": [
+          "Rathrin",
+          "Rethvok",
+          "Vaarrin"
+        ],
+        "available_on": [
+          "An",
+          "Rathrin",
+          "Rethvok",
+          "Rinaen",
+          "Ser",
+          "Teremil",
+          "Vaarrin"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F044",
+    "category": "Examples",
+    "title": "Drinking is expressed with give/take",
+    "words": [
+      "Tal",
+      "Drenaen"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "Tal": "Verb: Give / Offer; Verb: Take / Receive",
+      "Drenaen": "Verb: To Drink, To take liquid"
+    },
+    "why_flagged": "Tal has give/offer and take/receive meanings. Two examples translate it as drinking water, an action separately named by Drenaen. Receiving a drink and drinking it are not identical.",
+    "decision": "Confirm an idiomatic drinking use or align these examples with the recorded actions.",
+    "examples": [
+      {
+        "source_id": "PE-V2-0003",
+        "celan": "Tal I dren an Kinnlin.",
+        "english": "I drink the water at noon.",
+        "shown_on": [
+          "An",
+          "Kinnlin",
+          "Tal"
+        ],
+        "available_on": [
+          "An",
+          "Dren",
+          "I",
+          "Kinnlin",
+          "Tal"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0007",
+        "celan": "Tal I kilvlum dren nor veth.",
+        "english": "I drink at midnight by the water's shadow.",
+        "shown_on": [
+          "Kilvlum",
+          "Tal",
+          "Veth"
+        ],
+        "available_on": [
+          "Dren",
+          "I",
+          "Kilvlum",
+          "Nor",
+          "Tal",
+          "Veth"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F045",
+    "category": "Grammar questions",
+    "title": "Nderuin disagrees with the app’s plural-ending entries",
+    "words": [
+      "Nderu",
+      "-n",
+      "-in"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "Nderu": "Noun: Testicle; a gonad that produces sperm and reproductive hormones",
+      "-n": "Suffix: Plural marker added to nouns ending in vowels",
+      "-in": "Suffix: Plural marker added to nouns ending in consonants"
+    },
+    "why_flagged": "The example has nderuin. The app’s -n entry says vowel-ending nouns take -n, while -in is for consonant-ending nouns. Nderu ends in a vowel. Both pieces of app content cannot be followed as one exception-free rule.",
+    "decision": "Keep the attested example until you decide: document an exception, adjust the rule, or approve nderun.",
+    "examples": [
+      {
+        "source_id": "PE-RABFE2-0016",
+        "celan": "keshenaen zhaelral nderuin.",
+        "english": "The healer examines the testicles.",
+        "shown_on": [
+          "Nderu"
+        ],
+        "available_on": [
+          "Keshenaen",
+          "Nderu",
+          "Zhaelral"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F046",
+    "category": "Grammar questions",
+    "title": "The same citizen sentence is both singular and plural",
+    "words": [
+      "Welrin"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "Welrin": "Noun: Citizen; a recognized member of a state or civic community with associated rights and duties"
+    },
+    "why_flagged": "Exactly the same Celan sentence is translated once as “The citizens vote” and once as “The citizen votes.” Other examples also leave number unmarked. This may be permitted, but the learner needs to know when plural endings are optional.",
+    "decision": "Clarify whether number is inferred from context here; otherwise choose matching number marking.",
+    "examples": [
+      {
+        "source_id": "PE-GCI1-0019",
+        "celan": "keltharaen welrin an welkelthar.",
+        "english": "The citizens vote in the election.",
+        "shown_on": [
+          "Keltharaen",
+          "Welkelthar",
+          "Welrin"
+        ],
+        "available_on": [
+          "An",
+          "Keltharaen",
+          "Welkelthar",
+          "Welrin"
+        ]
+      },
+      {
+        "source_id": "PE-GCI1-0042",
+        "celan": "keltharaen welrin an welkelthar.",
+        "english": "The citizen votes in the election.",
+        "shown_on": [
+          "Keltharaen",
+          "Welkelthar",
+          "Welrin"
+        ],
+        "available_on": [
+          "An",
+          "Keltharaen",
+          "Welkelthar",
+          "Welrin"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F047",
+    "category": "Grammar questions",
+    "title": "Some nouns act as verbs without a displayed verb sense",
+    "words": [
+      "Shen",
+      "Kal",
+      "Bren",
+      "Vanesh",
+      "Jor",
+      "Kar",
+      "Shara",
+      "Xar",
+      "Shentalzhael"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "Shen": "Noun: Coinage / Currency; Measure: Unit of weight / measure",
+      "Kal": "Noun: Strength / Power; Adjective: Strong",
+      "Bren": "Noun: Harvest (e.g., the act or result of gathering food).",
+      "Vanesh": "Noun: Commerce; formal trade; merchant work",
+      "Jor": "Noun: Surge or burst (symbolizing sudden movements or energetic flows).",
+      "Kar": "Noun: Strike; mechanical force; tool-work",
+      "Shara": "Noun: Path / Journey",
+      "Xar": "Noun: Shadow or cover (tied to concealed or protective qualities).",
+      "Shentalzhael": "Noun: Medical triage; measured assignment of treatment priority and limited care resources according to urgency"
+    },
+    "why_flagged": "These words have examples meaning measure/count, strengthen, harvest, trade, surge, strike, follow, shelter, or triage, but their entries do not consistently show those action readings. That may be valid Celan word conversion; it is not explained by the entry labels alone.",
+    "decision": "Decide whether a shared noun-to-verb rule covers them or individual action senses should be shown.",
+    "examples": [
+      {
+        "source_id": "PE-FAP1-0001",
+        "celan": "kal balpral belvok.",
+        "english": "Farming strengthens the family.",
+        "shown_on": [
+          "Balpral"
+        ],
+        "available_on": [
+          "Balpral",
+          "Belvok",
+          "Kal"
+        ]
+      },
+      {
+        "source_id": "PE-FAP1-0018",
+        "celan": "bren balral vilorsov.",
+        "english": "The farmer harvests the orchard.",
+        "shown_on": [
+          "Bren",
+          "Vilorsov"
+        ],
+        "available_on": [
+          "Balral",
+          "Bren",
+          "Vilorsov"
+        ]
+      },
+      {
+        "source_id": "PE-FAP1-0033",
+        "celan": "bren I mahrfennil.",
+        "english": "I harvest seaweed.",
+        "shown_on": [
+          "Bren",
+          "Mahrfennil"
+        ],
+        "available_on": [
+          "Bren",
+          "I",
+          "Mahrfennil"
+        ]
+      },
+      {
+        "source_id": "PE-OC1-0026",
+        "celan": "vanesh varadan nor rathnor.",
+        "english": "The merchant trades during the war.",
+        "shown_on": [
+          "Rathnor"
+        ],
+        "available_on": [
+          "Nor",
+          "Rathnor",
+          "Vanesh",
+          "Varadan"
+        ]
+      },
+      {
+        "source_id": "PE-HTS1-0027",
+        "celan": "shen zhaelral zhaelshen.",
+        "english": "The healer measures the dose.",
+        "shown_on": [
+          "Shen",
+          "Zhaelshen"
+        ],
+        "available_on": [
+          "Shen",
+          "Zhaelral",
+          "Zhaelshen"
+        ]
+      },
+      {
+        "source_id": "PE-HTS1-0087",
+        "celan": "shentalzhael zhaelral savin nor rekrathlor.",
+        "english": "The healer triages the patients during the emergency.",
+        "shown_on": [
+          "Rekrathlor",
+          "Shentalzhael"
+        ],
+        "available_on": [
+          "Nor",
+          "Rekrathlor",
+          "Savin",
+          "Shentalzhael",
+          "Zhaelral"
+        ]
+      },
+      {
+        "source_id": "PE-EGE1-0016",
+        "celan": "kar drenjor mahrmorl.",
+        "english": "The wave strikes the reef.",
+        "shown_on": [
+          "Drenjor",
+          "Kar",
+          "Mahrmorl"
+        ],
+        "available_on": [
+          "Drenjor",
+          "Kar",
+          "Mahrmorl"
+        ]
+      },
+      {
+        "source_id": "PE-EGE1-0018",
+        "celan": "jor mahrwel nor eshnor.",
+        "english": "The current surges during the weather change.",
+        "shown_on": [
+          "Eshnor",
+          "Jor",
+          "Mahrwel"
+        ],
+        "available_on": [
+          "Eshnor",
+          "Jor",
+          "Mahrwel",
+          "Nor"
+        ]
+      },
+      {
+        "source_id": "PE-EGE1-0028",
+        "celan": "xar kesvar shara thal morljor ser sadarjor.",
+        "english": "The patrol closes the route because of landslide and sandstorm.",
+        "shown_on": [
+          "Morljor",
+          "Sadarjor",
+          "Xar"
+        ],
+        "available_on": [
+          "Kesvar",
+          "Morljor",
+          "Sadarjor",
+          "Ser",
+          "Shara",
+          "Thal",
+          "Xar"
+        ]
+      },
+      {
+        "source_id": "PE-EGE1-0052",
+        "celan": "shara rathzor gavin shan verdor.",
+        "english": "The predator follows its prey through the forest.",
+        "shown_on": [
+          "Gavin",
+          "Rathzor"
+        ],
+        "available_on": [
+          "Gavin",
+          "Rathzor",
+          "Shan",
+          "Shara",
+          "Verdor"
+        ]
+      },
+      {
+        "source_id": "PE-EGE1-0055",
+        "celan": "xar zor zornethor shalnor wekvaraen la.",
+        "english": "The animal shelters its nest before it migrates.",
+        "shown_on": [
+          "Wekvaraen",
+          "Xar",
+          "Zornethor"
+        ],
+        "available_on": [
+          "La",
+          "Shalnor",
+          "Wekvaraen",
+          "Xar",
+          "Zor",
+          "Zornethor"
+        ]
+      },
+      {
+        "source_id": "PE-BIAOBF1-0018",
+        "celan": "shen I pirin.",
+        "english": "I count the fingers.",
+        "shown_on": [
+          "Pir"
+        ],
+        "available_on": [
+          "I",
+          "Pir",
+          "Shen"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F048",
+    "category": "Grammar questions",
+    "title": "Legacy examples give Nor, Shal, and Ser unexplained actions",
+    "words": [
+      "Nor",
+      "Shal",
+      "Ser"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "Nor": "Noun: Time / Flow of Time; Preposition: At / In (time)",
+      "Shal": "Noun: Light / New Beginnings / Fate; Verb: Hope",
+      "Ser": "Noun: Friend / Ally; Preposition: With; Conjunction: And"
+    },
+    "why_flagged": "Many older examples translate Nor as resting, Shal as flowing, and Ser as being shared. Their entries instead give time/at-in-time, light/hope, and friend/with/and. The review is not rejecting poetic usage; the missing piece is whether these are idioms, grammatical shortcuts, or additional meanings.",
+    "decision": "Review the complete attached set as one legacy example pattern; label poetic usage or document the missing rule rather than rewriting it by guesswork.",
+    "examples": [
+      {
+        "source_id": "PE-V1-0007",
+        "celan": "Azron nor shal",
+        "english": "The woman flows with the light.",
+        "shown_on": [
+          "Azron",
+          "Nor",
+          "Shal"
+        ],
+        "available_on": [
+          "Azron",
+          "Nor",
+          "Shal"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0009",
+        "celan": "Belar nor dren.",
+        "english": "The binding spice rests by the water.",
+        "shown_on": [
+          "Bel",
+          "Belar"
+        ],
+        "available_on": [
+          "Bel",
+          "Belar",
+          "Dren",
+          "Nor"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0013",
+        "celan": "Phelvin nor dren.",
+        "english": "The comforting drink rests by the water.",
+        "shown_on": [
+          "Phel",
+          "Phelvin"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Phel",
+          "Phelvin"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0015",
+        "celan": "Pelvar nor dren.",
+        "english": "The sharp grain rests by the water.",
+        "shown_on": [
+          "Pel",
+          "Pelvar"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Pel",
+          "Pelvar"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0016",
+        "celan": "Peldren var shal.",
+        "english": "The piercing water flows under the light.",
+        "shown_on": [
+          "Pel",
+          "Peldren"
+        ],
+        "available_on": [
+          "Pel",
+          "Peldren",
+          "Shal",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0018",
+        "celan": "Jorlin shal dren.",
+        "english": "The bursting water flows by the light.",
+        "shown_on": [
+          "Jor",
+          "Jorlin"
+        ],
+        "available_on": [
+          "Dren",
+          "Jor",
+          "Jorlin",
+          "Shal"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0020",
+        "celan": "Jekvor nor dren.",
+        "english": "The spiraling spice rests by the water.",
+        "shown_on": [
+          "Jek",
+          "Jekvor"
+        ],
+        "available_on": [
+          "Dren",
+          "Jek",
+          "Jekvor",
+          "Nor"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0022",
+        "celan": "Jindral nor dren.",
+        "english": "The rare fruit rests by the water.",
+        "shown_on": [
+          "Jin",
+          "Jindral"
+        ],
+        "available_on": [
+          "Dren",
+          "Jin",
+          "Jindral",
+          "Nor"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0023",
+        "celan": "Welrim ser dren an Serin.",
+        "english": "The feast is shared with friends and water.",
+        "shown_on": [
+          "Serin",
+          "Wel",
+          "Welrim"
+        ],
+        "available_on": [
+          "An",
+          "Dren",
+          "Ser",
+          "Serin",
+          "Wel",
+          "Welrim"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0025",
+        "celan": "Weknor nor dren.",
+        "english": "The cyclical time rests by the water.",
+        "shown_on": [
+          "Wek",
+          "Weknor"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Wek",
+          "Weknor"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0027",
+        "celan": "Xilvar nor dren.",
+        "english": "The hidden spice rests by the water.",
+        "shown_on": [
+          "Xil",
+          "Xilvar"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Xil",
+          "Xilvar"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0028",
+        "celan": "Xarvel nor dren.",
+        "english": "The covered meal rests by the water.",
+        "shown_on": [
+          "Xar",
+          "Xarvel"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Xar",
+          "Xarvel"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0029",
+        "celan": "Ohmbaen nor dren.",
+        "english": "The beloved rests near the water.",
+        "shown_on": [
+          "Ohmbaen"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Ohmbaen"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0032",
+        "celan": "Nkuvath shal dren ser serathrin.",
+        "english": "The bond flows to the confidant.",
+        "shown_on": [
+          "Nkuvath"
+        ],
+        "available_on": [
+          "Dren",
+          "Nkuvath",
+          "Ser",
+          "Shal"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0034",
+        "celan": "Nkural nor dren ser Ilan.",
+        "english": "The mentor rests by the water with the student.",
+        "shown_on": [
+          "Ilan",
+          "Nkural"
+        ],
+        "available_on": [
+          "Dren",
+          "Ilan",
+          "Nkural",
+          "Nor",
+          "Ser"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0036",
+        "celan": "Tlakhura shal dren ser Zhivor.",
+        "english": "A bond flows with the family.",
+        "shown_on": [
+          "Tlakhura"
+        ],
+        "available_on": [
+          "Dren",
+          "Ser",
+          "Shal",
+          "Tlakhura"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0052",
+        "celan": "Morlak nor dren.",
+        "english": "The bread rests by the water.",
+        "shown_on": [
+          "Morlak"
+        ],
+        "available_on": [
+          "Dren",
+          "Morlak",
+          "Nor"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0056",
+        "celan": "Pelvar nor dren thal shal.",
+        "english": "The sharp grain rests by the water under the light.",
+        "shown_on": [
+          "Pelvar"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Pelvar",
+          "Shal",
+          "Thal"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0057",
+        "celan": "Jorvak ser dren.",
+        "english": "The bursting stew is shared by the water.",
+        "shown_on": [
+          "Jorvak"
+        ],
+        "available_on": [
+          "Dren",
+          "Jorvak",
+          "Ser"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0059",
+        "celan": "Lorlivok shal dren.",
+        "english": "The earthbake flows by the water.",
+        "shown_on": [
+          "Lorlivok"
+        ],
+        "available_on": [
+          "Dren",
+          "Lorlivok",
+          "Shal"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0061",
+        "celan": "Xarvel nor dren.",
+        "english": "The veiled meal rests by the water.",
+        "shown_on": [
+          "Xarvel"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Xarvel"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0063",
+        "celan": "Jekvin nor dren.",
+        "english": "The spiral herb rests by the water.",
+        "shown_on": [
+          "Jekvin"
+        ],
+        "available_on": [
+          "Dren",
+          "Jekvin",
+          "Nor"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0065",
+        "celan": "Xilvar shal dren.",
+        "english": "The salt flows lightly by the water.",
+        "shown_on": [
+          "Xilvar"
+        ],
+        "available_on": [
+          "Dren",
+          "Shal",
+          "Xilvar"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0066",
+        "celan": "Vethhar nor dren.",
+        "english": "The shadowspice rests by the water.",
+        "shown_on": [
+          "Vethhar"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Vethhar"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0067",
+        "celan": "Phelvin shal dren.",
+        "english": "The comforting drink flows by the water.",
+        "shown_on": [
+          "Phelvin"
+        ],
+        "available_on": [
+          "Dren",
+          "Phelvin",
+          "Shal"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0068",
+        "celan": "Velithor nor dren.",
+        "english": "The ale rests by the water.",
+        "shown_on": [
+          "Velithor"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Velithor"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0069",
+        "celan": "Tenarorin shal dren.",
+        "english": "The glowing wine flows by the water.",
+        "shown_on": [
+          "Tenarorin"
+        ],
+        "available_on": [
+          "Dren",
+          "Shal",
+          "Tenarorin"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0071",
+        "celan": "Jorvilor nor dren.",
+        "english": "The drink rests by the water.",
+        "shown_on": [
+          "Jorvilor"
+        ],
+        "available_on": [
+          "Dren",
+          "Jorvilor",
+          "Nor"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0072",
+        "celan": "Morlak an Jorvak ser dren.",
+        "english": "The bread and stew are shared by the water.",
+        "shown_on": [
+          "Jorvak",
+          "Morlak"
+        ],
+        "available_on": [
+          "An",
+          "Dren",
+          "Jorvak",
+          "Morlak",
+          "Ser"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0075",
+        "celan": "Tenarorin shal dren nor shal.",
+        "english": "The glowing wine flows under the light by the water.",
+        "shown_on": [
+          "Tenarorin"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Shal",
+          "Tenarorin"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0079",
+        "celan": "Phelrin ser dren.",
+        "english": "The comforting food is shared with water.",
+        "shown_on": [
+          "Phelrin"
+        ],
+        "available_on": [
+          "Dren",
+          "Phelrin",
+          "Ser"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0080",
+        "celan": "Jorvalin nor dren.",
+        "english": "The effervescent beverage rests by the water.",
+        "shown_on": [
+          "Jorvalin"
+        ],
+        "available_on": [
+          "Dren",
+          "Jorvalin",
+          "Nor"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0082",
+        "celan": "Eshtenor nor dren.",
+        "english": "The glowing seaweed rests by the water.",
+        "shown_on": [
+          "Eshtenor"
+        ],
+        "available_on": [
+          "Dren",
+          "Eshtenor",
+          "Nor"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0083",
+        "celan": "Jekvarin ser dren.",
+        "english": "The shellfish is shared by the water.",
+        "shown_on": [
+          "Jekvarin"
+        ],
+        "available_on": [
+          "Dren",
+          "Jekvarin",
+          "Ser"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0084",
+        "celan": "Felorin nor dren.",
+        "english": "The berries rest by the water.",
+        "shown_on": [
+          "Felorin"
+        ],
+        "available_on": [
+          "Dren",
+          "Felorin",
+          "Nor"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0086",
+        "celan": "Terafennil ser dren an Teremil.",
+        "english": "The herb stew is shared with water at home.",
+        "shown_on": [
+          "Terafennil",
+          "Teremil"
+        ],
+        "available_on": [
+          "An",
+          "Dren",
+          "Ser",
+          "Terafennil",
+          "Teremil"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0088",
+        "celan": "Welvinor nor dren.",
+        "english": "The flowing mead rests by the water.",
+        "shown_on": [
+          "Welvinor"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Welvinor"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0091",
+        "celan": "Voktarin nor dren.",
+        "english": "The preserved dates rest by the water.",
+        "shown_on": [
+          "Voktarin"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Voktarin"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0094",
+        "celan": "Eshvilor shal dren.",
+        "english": "The snowberry wine flows lightly with the water.",
+        "shown_on": [
+          "Eshvilor"
+        ],
+        "available_on": [
+          "Dren",
+          "Eshvilor",
+          "Shal"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0096",
+        "celan": "Xarlorin nor dren.",
+        "english": "The tea rests by the water.",
+        "shown_on": [
+          "Xarlorin"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Xarlorin"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0099",
+        "celan": "Velkorin shal dren.",
+        "english": "The ration flows lightly by the water.",
+        "shown_on": [
+          "Velkorin"
+        ],
+        "available_on": [
+          "Dren",
+          "Shal",
+          "Velkorin"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0100",
+        "celan": "Xilbren nor dren.",
+        "english": "The grain cake rests by the water.",
+        "shown_on": [
+          "Xilbren"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Xilbren"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0101",
+        "celan": "Drenkor nor dren.",
+        "english": "The oasis bread rests by the water.",
+        "shown_on": [
+          "Drenkor"
+        ],
+        "available_on": [
+          "Dren",
+          "Drenkor",
+          "Nor"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0102",
+        "celan": "Vethsoril ser dren.",
+        "english": "The stew is shared with water.",
+        "shown_on": [
+          "Vethsoril"
+        ],
+        "available_on": [
+          "Dren",
+          "Ser",
+          "Vethsoril"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0103",
+        "celan": "Shalorin nor dren.",
+        "english": "The sweet fruit rests by the water.",
+        "shown_on": [
+          "Shalorin"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Shalorin"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0106",
+        "celan": "Velkrin nor dren.",
+        "english": "The fermented drink rests by the water.",
+        "shown_on": [
+          "Velkrin"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Velkrin"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0108",
+        "celan": "Pralvinor shal dren.",
+        "english": "The mead flows lightly by the water.",
+        "shown_on": [
+          "Pralvinor"
+        ],
+        "available_on": [
+          "Dren",
+          "Pralvinor",
+          "Shal"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0115",
+        "celan": "Dralorim nor dren thal shal.",
+        "english": "The storm flows with the water under the light.",
+        "shown_on": [
+          "Dralorim"
+        ],
+        "available_on": [
+          "Dralorim",
+          "Dren",
+          "Nor",
+          "Shal",
+          "Thal"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0038",
+        "celan": "Tavojorin shalil nor dren an Belvok.",
+        "english": "The parent-in-law rests with the family by the water.",
+        "shown_on": [
+          "Belvok",
+          "Tavojorin"
+        ],
+        "available_on": [
+          "An",
+          "Belvok",
+          "Dren",
+          "Nor",
+          "Tavojorin"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0043",
+        "celan": "Felvin nor dren an Tavan.",
+        "english": "The niece/nephew rests with the parent by the water.",
+        "shown_on": [
+          "Felvin",
+          "Tavan"
+        ],
+        "available_on": [
+          "An",
+          "Dren",
+          "Felvin",
+          "Nor",
+          "Tavan"
+        ]
+      },
+      {
+        "source_id": "PE-UHEI1-0035",
+        "celan": "ver rinaen ravohm nor neth.",
+        "english": "There is no loneliness during the rest.",
+        "shown_on": [
+          "Neth",
+          "Ravohm"
+        ],
+        "available_on": [
+          "Neth",
+          "Nor",
+          "Ravohm",
+          "Rinaen",
+          "Ver"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F049",
+    "category": "Grammar questions",
+    "title": "Two-verb sentences use different orders",
+    "words": [
+      "Siv",
+      "Sivrethaen"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "Siv": "Verb: To try or attempt without presupposing the outcome",
+      "Sivrethaen": "Verb: To fail or end an attempt without its intended outcome"
+    },
+    "why_flagged": "One example says “siv I pralaen…” for “I try to make…”. Another says “siv gavaen I…” for “I try to hunt…”. A later failure sentence likewise places the second action before the subject. The app needs to explain whether both patterns are permitted.",
+    "decision": "Confirm the grammar of a verb followed by another action; preserve the accepted patterns and explain any distinction.",
+    "examples": [
+      {
+        "source_id": "PE-CNE1-0019",
+        "celan": "siv I pralaen krezor.",
+        "english": "I try to make the hearth.",
+        "shown_on": [
+          "Krezor",
+          "Siv"
+        ],
+        "available_on": [
+          "I",
+          "Krezor",
+          "Pralaen",
+          "Siv"
+        ]
+      },
+      {
+        "source_id": "PE-FAP1-0022",
+        "celan": "siv gavaen I zor.",
+        "english": "I try to hunt the animal.",
+        "shown_on": [
+          "Gavaen",
+          "Siv",
+          "Zor"
+        ],
+        "available_on": [
+          "Gavaen",
+          "I",
+          "Siv",
+          "Zor"
+        ]
+      },
+      {
+        "source_id": "PE-ICAES1-0028",
+        "celan": "sivrethaen belnoraen rakumek nor mekreth.",
+        "english": "The computers fail to synchronize during the system malfunction.",
+        "shown_on": [
+          "Belnoraen",
+          "Mekreth",
+          "Rakumek",
+          "Sivrethaen"
+        ],
+        "available_on": [
+          "Belnoraen",
+          "Mekreth",
+          "Nor",
+          "Rakumek",
+          "Sivrethaen"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F050",
+    "category": "Grammar questions",
+    "title": "Possession is sometimes ka and sometimes -ka",
+    "words": [
+      "Ka",
+      "-ka",
+      "Ian"
+    ],
+    "certainty": "Needs a decision",
+    "what_the_app_says": {
+      "Ka": "Preposition: Without; Interjection: No",
+      "-ka": "Particle: Possessive/linking marker",
+      "Ian": "Possessive: My / Direct Possession marker"
+    },
+    "why_flagged": "The Ka entry says without/no; the -ka entry explains possession. Body examples use spaced “I ka …” for “my …”. The learner can misread this unless the app explains that spacing and function.",
+    "decision": "Explain the possessive construction and its relation to -ka; do not assume the body examples are wrong.",
+    "examples": [
+      {
+        "source_id": "PE-BIAOBF1-0001",
+        "celan": "rinaen aiv an I ka doran.",
+        "english": "There is pain in my torso.",
+        "shown_on": [
+          "Aiv",
+          "Doran"
+        ],
+        "available_on": [
+          "Aiv",
+          "An",
+          "Doran",
+          "I",
+          "Ka",
+          "Rinaen"
+        ]
+      },
+      {
+        "source_id": "PE-BIAOBF1-0083",
+        "celan": "rinaen I ka ndemwek nor shara.",
+        "english": "My menstrual period is present during the journey.",
+        "shown_on": [
+          "Ndemwek"
+        ],
+        "available_on": [
+          "I",
+          "Ka",
+          "Ndemwek",
+          "Nor",
+          "Rinaen",
+          "Shara"
+        ]
+      },
+      {
+        "source_id": "PE-RABFE2-0001",
+        "celan": "drenselaen I I ka noka.",
+        "english": "I wash my vulva.",
+        "shown_on": [
+          "Noka"
+        ],
+        "available_on": [
+          "Drenselaen",
+          "I",
+          "Ka",
+          "Noka"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F051",
+    "category": "Words you cannot look up",
+    "title": "tera appears in examples but has no matching entry",
+    "words": [
+      "tera"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "tera": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“tera” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V1-0004",
+        "celan": "Ya tera",
+        "english": "“Your home” (singular)",
+        "shown_on": [
+          "Ya"
+        ],
+        "available_on": [
+          "Ya"
+        ]
+      },
+      {
+        "source_id": "PE-V1-0040",
+        "celan": "Nor-var I an Tera.",
+        "english": "“I will go at the home.”",
+        "shown_on": [
+          "An"
+        ],
+        "available_on": [
+          "An",
+          "I",
+          "Nor",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0113",
+        "celan": "Liorin aelin var tera emil.",
+        "english": "The teacher leads the youth home for food.",
+        "shown_on": [
+          "Liorin"
+        ],
+        "available_on": [
+          "Emil",
+          "Liorin",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0129",
+        "celan": "Ser var tera dren vanesh.",
+        "english": "A friend goes home after trading water.",
+        "shown_on": [],
+        "available_on": [
+          "Dren",
+          "Ser",
+          "Vanesh",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0134",
+        "celan": "Aelin var tera emil ser lian.",
+        "english": "The youth go home to meals, guided by truth.",
+        "shown_on": [],
+        "available_on": [
+          "Emil",
+          "Lian",
+          "Ser",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0138",
+        "celan": "Serilin var emil tera, shal nor.",
+        "english": "The sister brings food home, guided by light in time.",
+        "shown_on": [],
+        "available_on": [
+          "Emil",
+          "Nor",
+          "Shal",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0141",
+        "celan": "Theren var tera Kaleth Rathor.",
+        "english": "The village stands at the ancient fortress-home.",
+        "shown_on": [
+          "Kaleth",
+          "Rathor"
+        ],
+        "available_on": [
+          "Kaleth",
+          "Rathor",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0148",
+        "celan": "Kal thar I tera.",
+        "english": "My heart is strong at home.",
+        "shown_on": [
+          "Thar"
+        ],
+        "available_on": [
+          "I",
+          "Kal",
+          "Thar"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F052",
+    "category": "Words you cannot look up",
+    "title": "velkrel appears in examples but has no matching entry",
+    "words": [
+      "velkrel"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "velkrel": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“velkrel” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V1-0010",
+        "celan": "Azon nor velkrel",
+        "english": "A feminine man near the breeze.",
+        "shown_on": [
+          "Azon",
+          "Nor"
+        ],
+        "available_on": [
+          "Azon",
+          "Nor"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F053",
+    "category": "Words you cannot look up",
+    "title": "varan appears in examples but has no matching entry",
+    "words": [
+      "varan"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "varan": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“varan” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V1-0035",
+        "celan": "Varan I an Varthas.",
+        "english": "",
+        "shown_on": [
+          "An",
+          "Varthas"
+        ],
+        "available_on": [
+          "An",
+          "I",
+          "Varthas"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F054",
+    "category": "Words you cannot look up",
+    "title": "shalil appears in examples but has no matching entry",
+    "words": [
+      "shalil"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "shalil": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“shalil” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V2-0014",
+        "celan": "Prakorin shalil an dren.",
+        "english": "The tender bread flows lightly by the water.",
+        "shown_on": [
+          "Prak",
+          "Prakorin"
+        ],
+        "available_on": [
+          "An",
+          "Dren",
+          "Prak",
+          "Prakorin"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0109",
+        "celan": "Zhaelor shalil nor dren.",
+        "english": "Spring flows lightly by the water.",
+        "shown_on": [
+          "Zhaelor"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Zhaelor"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0117",
+        "celan": "Drenalor shalil nor dren.",
+        "english": "The rain falls lightly over the water.",
+        "shown_on": [
+          "Drenalor"
+        ],
+        "available_on": [
+          "Dren",
+          "Drenalor",
+          "Nor"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0030",
+        "celan": "Tavan shalil nor Felka.",
+        "english": "The parent moves lightly with the child.",
+        "shown_on": [
+          "Felka",
+          "Tavan"
+        ],
+        "available_on": [
+          "Felka",
+          "Nor",
+          "Tavan"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0033",
+        "celan": "Velar shalil nor dren.",
+        "english": "The elder moves lightly by the water.",
+        "shown_on": [
+          "Velar"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Velar"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0038",
+        "celan": "Tavojorin shalil nor dren an Belvok.",
+        "english": "The parent-in-law rests with the family by the water.",
+        "shown_on": [
+          "Belvok",
+          "Tavojorin"
+        ],
+        "available_on": [
+          "An",
+          "Belvok",
+          "Dren",
+          "Nor",
+          "Tavojorin"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0050",
+        "celan": "Velmarin shalil nor dren.",
+        "english": "The honorary elder moves lightly by the water.",
+        "shown_on": [
+          "Velmarin"
+        ],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Velmarin"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0092",
+        "celan": "Zhivokesh shalil thal morl.",
+        "english": "The bond renewal flows under the mountain.",
+        "shown_on": [
+          "Zhivokesh"
+        ],
+        "available_on": [
+          "Morl",
+          "Thal",
+          "Zhivokesh"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0095",
+        "celan": "Morlatharim shalil nor dren.",
+        "english": "The stone heart flows by the water.",
+        "shown_on": [
+          "Morlatharim"
+        ],
+        "available_on": [
+          "Dren",
+          "Morlatharim",
+          "Nor"
+        ]
+      },
+      {
+        "source_id": "PE-V4-0099",
+        "celan": "Ra shalil Ya, Ser?",
+        "english": "Where do you flow, Friend?",
+        "shown_on": [],
+        "available_on": [
+          "Ra",
+          "Ser",
+          "Ya"
+        ]
+      },
+      {
+        "source_id": "PE-V4-0100",
+        "celan": "Shalil I an dren. Rinaen thar-ian ser mahr kadreneth.",
+        "english": "I flow to the water. My heart feels like a dry sea.",
+        "shown_on": [
+          "Kadreneth",
+          "Mahr"
+        ],
+        "available_on": [
+          "An",
+          "Dren",
+          "I",
+          "Ian",
+          "Kadreneth",
+          "Mahr",
+          "Rinaen",
+          "Ser",
+          "Thar"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F055",
+    "category": "Words you cannot look up",
+    "title": "serathrin appears in examples but has no matching entry",
+    "words": [
+      "serathrin"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "serathrin": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“serathrin” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V2-0032",
+        "celan": "Nkuvath shal dren ser serathrin.",
+        "english": "The bond flows to the confidant.",
+        "shown_on": [
+          "Nkuvath"
+        ],
+        "available_on": [
+          "Dren",
+          "Nkuvath",
+          "Ser",
+          "Shal"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F056",
+    "category": "Words you cannot look up",
+    "title": "zhivor appears in examples but has no matching entry",
+    "words": [
+      "zhivor"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "zhivor": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“zhivor” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V2-0036",
+        "celan": "Tlakhura shal dren ser Zhivor.",
+        "english": "A bond flows with the family.",
+        "shown_on": [
+          "Tlakhura"
+        ],
+        "available_on": [
+          "Dren",
+          "Ser",
+          "Shal",
+          "Tlakhura"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F057",
+    "category": "Words you cannot look up",
+    "title": "tharvok appears in examples but has no matching entry",
+    "words": [
+      "tharvok"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "tharvok": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“tharvok” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V2-0043",
+        "celan": "Nor-var Tharvok khumeth an Zhaelor.",
+        "english": "The Family will perform the ritual in the Spring (season).",
+        "shown_on": [
+          "Khumeth",
+          "Zhaelor"
+        ],
+        "available_on": [
+          "An",
+          "Khumeth",
+          "Nor",
+          "Var",
+          "Zhaelor"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0044",
+        "celan": "Zharin ser dren thal Tharvok.",
+        "english": "The distant relative is by the water under the family.",
+        "shown_on": [
+          "Zharin"
+        ],
+        "available_on": [
+          "Dren",
+          "Ser",
+          "Thal",
+          "Zharin"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0089",
+        "celan": "Terrashaneth lian nor Tharvok.",
+        "english": "The Earth blessing speaks to the family.",
+        "shown_on": [
+          "Terrashaneth"
+        ],
+        "available_on": [
+          "Lian",
+          "Nor",
+          "Terrashaneth"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0098",
+        "celan": "Eshvelaneth shan dren an Tharvok.",
+        "english": "The snowstorm guidance passes to the family.",
+        "shown_on": [
+          "Eshvelaneth",
+          "Shan"
+        ],
+        "available_on": [
+          "An",
+          "Dren",
+          "Eshvelaneth",
+          "Shan"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0100",
+        "celan": "Shalorveth kal dren thal Tharvok.",
+        "english": "The shadowlight ritual strengthens with the family under balance.",
+        "shown_on": [
+          "Shalorveth"
+        ],
+        "available_on": [
+          "Dren",
+          "Kal",
+          "Shalorveth",
+          "Thal"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0104",
+        "celan": "Kalorinath ser dren thal Tharvok.",
+        "english": "The fortress bonding ceremony is with the family under balance.",
+        "shown_on": [
+          "Kalorinath"
+        ],
+        "available_on": [
+          "Dren",
+          "Kalorinath",
+          "Ser",
+          "Thal"
+        ]
+      },
+      {
+        "source_id": "PE-UHEI1-0022",
+        "celan": "rinaen fahohm an tharvok.",
+        "english": "There is jealousy in the family.",
+        "shown_on": [
+          "Fahohm"
+        ],
+        "available_on": [
+          "An",
+          "Fahohm",
+          "Rinaen"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F058",
+    "category": "Words you cannot look up",
+    "title": "evan appears in examples but has no matching entry",
+    "words": [
+      "evan"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "evan": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“evan” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V2-0073",
+        "celan": "Felorin vanesh dren an Evan.",
+        "english": "The berries trade at the market.",
+        "shown_on": [
+          "Felorin"
+        ],
+        "available_on": [
+          "An",
+          "Dren",
+          "Felorin",
+          "Vanesh"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0078",
+        "celan": "Velmek nor dren an Evan.",
+        "english": "The synthetic protein is traded at the market.",
+        "shown_on": [
+          "Velmek"
+        ],
+        "available_on": [
+          "An",
+          "Dren",
+          "Nor",
+          "Velmek"
+        ]
+      },
+      {
+        "source_id": "PE-V2-0114",
+        "celan": "Shalithor kal dren an Evan.",
+        "english": "The sunlight strengthens at the market.",
+        "shown_on": [
+          "Shalithor"
+        ],
+        "available_on": [
+          "An",
+          "Dren",
+          "Kal",
+          "Shalithor"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0117",
+        "celan": "Ra var shenakar evan?",
+        "english": "Where is the coinage in the market?",
+        "shown_on": [],
+        "available_on": [
+          "Ra",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0139",
+        "celan": "Nor-var I vanesh shenakar evan.",
+        "english": "I will go trade coinage in the market.",
+        "shown_on": [],
+        "available_on": [
+          "I",
+          "Nor",
+          "Vanesh",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0142",
+        "celan": "Ra var evan emil dren?",
+        "english": "Where is the market for food near water?",
+        "shown_on": [],
+        "available_on": [
+          "Dren",
+          "Emil",
+          "Ra",
+          "Var"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F059",
+    "category": "Words you cannot look up",
+    "title": "shenakar appears in examples but has no matching entry",
+    "words": [
+      "shenakar"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "shenakar": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“shenakar” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0005",
+        "celan": "Li-Seren-en, var nor Varthas shenakar?",
+        "english": "Honored guardian, do we proceed to the city's exchange now?",
+        "shown_on": [
+          "-en",
+          "Li-Seren",
+          "Seren"
+        ],
+        "available_on": [
+          "-en",
+          "Li-Seren",
+          "Nor",
+          "Seren",
+          "Var",
+          "Varthas"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0014",
+        "celan": "Lialor, serin vanesh shenakar.",
+        "english": "Indeed, the friends trade coinage.",
+        "shown_on": [
+          "Lialor"
+        ],
+        "available_on": [
+          "Lialor",
+          "Serin",
+          "Vanesh"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0117",
+        "celan": "Ra var shenakar evan?",
+        "english": "Where is the coinage in the market?",
+        "shown_on": [],
+        "available_on": [
+          "Ra",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0131",
+        "celan": "Varadan nor-var ser shenakar.",
+        "english": "The merchant will come to you with coinage.",
+        "shown_on": [
+          "Varadan"
+        ],
+        "available_on": [
+          "Nor",
+          "Ser",
+          "Var",
+          "Varadan"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0139",
+        "celan": "Nor-var I vanesh shenakar evan.",
+        "english": "I will go trade coinage in the market.",
+        "shown_on": [],
+        "available_on": [
+          "I",
+          "Nor",
+          "Vanesh",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0143",
+        "celan": "Vanesh ser varadan shenakar.",
+        "english": "Trade with the merchant's coinage.",
+        "shown_on": [],
+        "available_on": [
+          "Ser",
+          "Vanesh",
+          "Varadan"
+        ]
+      },
+      {
+        "source_id": "PE-V4-0011",
+        "celan": "Talaen an shenakar nor-ka.",
+        "english": "The coinage was taken.",
+        "shown_on": [
+          "Talaen",
+          "nor-ka"
+        ],
+        "available_on": [
+          "An",
+          "Ka",
+          "Nor",
+          "Talaen",
+          "nor-ka"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F060",
+    "category": "Words you cannot look up",
+    "title": "em appears in examples but has no matching entry",
+    "words": [
+      "em"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "em": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“em” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0020",
+        "celan": "Em… Rethlian, Var I dren.",
+        "english": "Um… maybe I will go to the water.",
+        "shown_on": [
+          "Rethlian"
+        ],
+        "available_on": [
+          "Dren",
+          "I",
+          "Rethlian",
+          "Var"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F061",
+    "category": "Words you cannot look up",
+    "title": "varin appears in examples but has no matching entry",
+    "words": [
+      "varin"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "varin": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“varin” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0022",
+        "celan": "I varin Aen Ya var dren.",
+        "english": "I know that you go to the water.",
+        "shown_on": [
+          "Aen"
+        ],
+        "available_on": [
+          "Aen",
+          "Dren",
+          "I",
+          "Var",
+          "Ya"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F062",
+    "category": "Words you cannot look up",
+    "title": "shena appears in examples but has no matching entry",
+    "words": [
+      "shena"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "shena": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“shena” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0028",
+        "celan": "Rath Ya var dren, Nor-var I shena.",
+        "english": "If you go to the water, I will bring coinage.",
+        "shown_on": [
+          "Rath"
+        ],
+        "available_on": [
+          "Dren",
+          "I",
+          "Nor",
+          "Rath",
+          "Var",
+          "Ya"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0120",
+        "celan": "Shena ser emil teremil.",
+        "english": "Bring coins for the meal at home.",
+        "shown_on": [],
+        "available_on": [
+          "Emil",
+          "Ser",
+          "Teremil"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0128",
+        "celan": "Emil ka shena, var Eshvan nor.",
+        "english": "No food coins? I will go to the shop soon.",
+        "shown_on": [],
+        "available_on": [
+          "Emil",
+          "Ka",
+          "Nor",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0150",
+        "celan": "Va var Theren shena.",
+        "english": "Go to the village with your coin.",
+        "shown_on": [],
+        "available_on": [
+          "Va",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V4-0050",
+        "celan": "Rinaen shena shaleth.",
+        "english": "The coin is gold.",
+        "shown_on": [
+          "-eth",
+          "Shaleth"
+        ],
+        "available_on": [
+          "-eth",
+          "Rinaen",
+          "Shaleth"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F063",
+    "category": "Words you cannot look up",
+    "title": "nkathal appears in examples but has no matching entry",
+    "words": [
+      "nkathal"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "nkathal": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“nkathal” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0068",
+        "celan": "Zhaeaen Azron ser Nkathal.",
+        "english": "The woman empathizes with the sadness.",
+        "shown_on": [
+          "Azron",
+          "Zhaeaen"
+        ],
+        "available_on": [
+          "Azron",
+          "Ser",
+          "Zhaeaen"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F064",
+    "category": "Words you cannot look up",
+    "title": "thaar appears in examples but has no matching entry",
+    "words": [
+      "thaar"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "thaar": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“thaar” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0081",
+        "celan": "Dral shal thaar.",
+        "english": "The stars guide the heart.",
+        "shown_on": [
+          "Dral"
+        ],
+        "available_on": [
+          "Dral",
+          "Shal"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F065",
+    "category": "Words you cannot look up",
+    "title": "vrak appears in examples but has no matching entry",
+    "words": [
+      "vrak"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "vrak": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“vrak” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0084",
+        "celan": "Vrak dren ka.",
+        "english": "The water is gone.",
+        "shown_on": [],
+        "available_on": [
+          "Dren",
+          "Ka"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F066",
+    "category": "Words you cannot look up",
+    "title": "theren appears in examples but has no matching entry",
+    "words": [
+      "theren"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "theren": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“theren” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0112",
+        "celan": "Var serilín dren Theren.",
+        "english": "Go, sister, to the village water.",
+        "shown_on": [],
+        "available_on": [
+          "Dren",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0141",
+        "celan": "Theren var tera Kaleth Rathor.",
+        "english": "The village stands at the ancient fortress-home.",
+        "shown_on": [
+          "Kaleth",
+          "Rathor"
+        ],
+        "available_on": [
+          "Kaleth",
+          "Rathor",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0150",
+        "celan": "Va var Theren shena.",
+        "english": "Go to the village with your coin.",
+        "shown_on": [],
+        "available_on": [
+          "Va",
+          "Var"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F067",
+    "category": "Words you cannot look up",
+    "title": "serilín appears in examples but has no matching entry",
+    "words": [
+      "serilín"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "serilín": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "One example spells the form serilín with an accent; other examples use serilin. Neither spelling is a standalone headword. The relationship and intended spelling are not explained.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0112",
+        "celan": "Var serilín dren Theren.",
+        "english": "Go, sister, to the village water.",
+        "shown_on": [],
+        "available_on": [
+          "Dren",
+          "Var"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F068",
+    "category": "Words you cannot look up",
+    "title": "aelin appears in examples but has no matching entry",
+    "words": [
+      "aelin"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "aelin": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“aelin” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0113",
+        "celan": "Liorin aelin var tera emil.",
+        "english": "The teacher leads the youth home for food.",
+        "shown_on": [
+          "Liorin"
+        ],
+        "available_on": [
+          "Emil",
+          "Liorin",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0126",
+        "celan": "Aelin liorin var emil eshvan.",
+        "english": "The youth follows the teacher to the shop for food.",
+        "shown_on": [
+          "Liorin"
+        ],
+        "available_on": [
+          "Emil",
+          "Liorin",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0134",
+        "celan": "Aelin var tera emil ser lian.",
+        "english": "The youth go home to meals, guided by truth.",
+        "shown_on": [],
+        "available_on": [
+          "Emil",
+          "Lian",
+          "Ser",
+          "Var"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F069",
+    "category": "Words you cannot look up",
+    "title": "im appears in examples but has no matching entry",
+    "words": [
+      "im"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "im": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“im” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0119",
+        "celan": "Va kar im dren, vanesh ka!",
+        "english": "Use the device with water, do not hesitate to trade!",
+        "shown_on": [
+          "Kar"
+        ],
+        "available_on": [
+          "Dren",
+          "Ka",
+          "Kar",
+          "Va",
+          "Vanesh"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0140",
+        "celan": "Dreshal var im.",
+        "english": "Use the crystal device efficiently.",
+        "shown_on": [],
+        "available_on": [
+          "Var"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F070",
+    "category": "Words you cannot look up",
+    "title": "dreshal appears in examples but has no matching entry",
+    "words": [
+      "dreshal"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "dreshal": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“dreshal” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0121",
+        "celan": "Nor-var I kareth var dreshal.",
+        "english": "I will go use the tool and the crystal device.",
+        "shown_on": [
+          "Kareth"
+        ],
+        "available_on": [
+          "I",
+          "Kareth",
+          "Nor",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0140",
+        "celan": "Dreshal var im.",
+        "english": "Use the crystal device efficiently.",
+        "shown_on": [],
+        "available_on": [
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-CWM2-0015",
+        "celan": "rinaen dresh an dreshal.",
+        "english": "The crystal is in the crystal device.",
+        "shown_on": [
+          "Dresh"
+        ],
+        "available_on": [
+          "An",
+          "Dresh",
+          "Rinaen"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F071",
+    "category": "Words you cannot look up",
+    "title": "serilin appears in examples but has no matching entry",
+    "words": [
+      "serilin"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "serilin": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“serilin” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0125",
+        "celan": "Serilin var varshel nor dren.",
+        "english": "Sister, walk the road to the water.",
+        "shown_on": [],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0138",
+        "celan": "Serilin var emil tera, shal nor.",
+        "english": "The sister brings food home, guided by light in time.",
+        "shown_on": [],
+        "available_on": [
+          "Emil",
+          "Nor",
+          "Shal",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0149",
+        "celan": "Serilin var kareth emil.",
+        "english": "The sibling uses the tool for food.",
+        "shown_on": [
+          "Kareth"
+        ],
+        "available_on": [
+          "Emil",
+          "Kareth",
+          "Var"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F072",
+    "category": "Words you cannot look up",
+    "title": "varshel appears in examples but has no matching entry",
+    "words": [
+      "varshel"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "varshel": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“varshel” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0125",
+        "celan": "Serilin var varshel nor dren.",
+        "english": "Sister, walk the road to the water.",
+        "shown_on": [],
+        "available_on": [
+          "Dren",
+          "Nor",
+          "Var"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F073",
+    "category": "Words you cannot look up",
+    "title": "eshvan appears in examples but has no matching entry",
+    "words": [
+      "eshvan"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "eshvan": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“eshvan” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0126",
+        "celan": "Aelin liorin var emil eshvan.",
+        "english": "The youth follows the teacher to the shop for food.",
+        "shown_on": [
+          "Liorin"
+        ],
+        "available_on": [
+          "Emil",
+          "Liorin",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V3-0128",
+        "celan": "Emil ka shena, var Eshvan nor.",
+        "english": "No food coins? I will go to the shop soon.",
+        "shown_on": [],
+        "available_on": [
+          "Emil",
+          "Ka",
+          "Nor",
+          "Var"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F074",
+    "category": "Words you cannot look up",
+    "title": "noraen appears in examples but has no matching entry",
+    "words": [
+      "noraen"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "noraen": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“noraen” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0132",
+        "celan": "Liorin noraen var dren kal.",
+        "english": "The elders guide us to water with strength.",
+        "shown_on": [
+          "Liorin"
+        ],
+        "available_on": [
+          "Dren",
+          "Kal",
+          "Liorin",
+          "Var"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F075",
+    "category": "Words you cannot look up",
+    "title": "thalesh appears in examples but has no matching entry",
+    "words": [
+      "thalesh"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "thalesh": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“thalesh” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V3-0144",
+        "celan": "Thalesh var dren shal.",
+        "english": "Perform the ritual at the water's light.",
+        "shown_on": [],
+        "available_on": [
+          "Dren",
+          "Shal",
+          "Var"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F076",
+    "category": "Words you cannot look up",
+    "title": "thalor appears in examples but has no matching entry",
+    "words": [
+      "thalor"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "thalor": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“thalor” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V4-0085",
+        "celan": "Rinaen kaleth Hek-unar shar thalor.",
+        "english": "The fortress is 100 strides outside.",
+        "shown_on": [
+          "Shar"
+        ],
+        "available_on": [
+          "Kaleth",
+          "Rinaen",
+          "Shar",
+          "Unar"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F077",
+    "category": "Words you cannot look up",
+    "title": "tharvinwek appears in examples but has no matching entry",
+    "words": [
+      "tharvinwek"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "tharvinwek": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "The year example uses fused tharvinwek, while the headword is Tharvin-Wek. Search does not generally remove hyphens. This is a spelling/lookup mismatch, not a new meaning.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-V4-0090",
+        "celan": "Rinaen I Ten-del tharvinwek kaveth.",
+        "english": "I am 20 years old.",
+        "shown_on": [
+          "Kaveth",
+          "Tharvin-Wek"
+        ],
+        "available_on": [
+          "Del",
+          "I",
+          "Kaveth",
+          "Rinaen",
+          "Tharvin-Wek"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F078",
+    "category": "Words you cannot look up",
+    "title": "karvok appears in examples but has no matching entry",
+    "words": [
+      "karvok"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "karvok": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "The sentence uses karvok for “apart.” The dictionary has Kavok for apart, but no Karvok entry. This looks like an extra r, although the original form remains canon until reviewed.",
+    "decision": "Confirm whether karvok should be the established Kavok.",
+    "examples": [
+      {
+        "source_id": "PE-FAP2-0058",
+        "celan": "dor I vilor ruvaneth karvok.",
+        "english": "I put the rotten fruit apart.",
+        "shown_on": [
+          "Ruvaneth",
+          "Vilor"
+        ],
+        "available_on": [
+          "Dor",
+          "I",
+          "Ruvaneth",
+          "Vilor"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F079",
+    "category": "Words you cannot look up",
+    "title": "daraen appears in examples but has no matching entry",
+    "words": [
+      "daraen"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "daraen": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "The examples use daraen for waiting. The dictionary already has Dar meaning wait, but has no Daraen entry or registered variant. This may be an intentional derived form; the app does not explain it.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-HTS1-0012",
+        "celan": "daraen savin keshenath.",
+        "english": "The patient waits for the diagnosis.",
+        "shown_on": [
+          "Keshenath",
+          "Savin"
+        ],
+        "available_on": [
+          "Keshenath",
+          "Savin"
+        ]
+      },
+      {
+        "source_id": "PE-HTS1-0018",
+        "celan": "daraen savin talzhael.",
+        "english": "The patient waits for treatment.",
+        "shown_on": [
+          "Savin",
+          "Talzhael"
+        ],
+        "available_on": [
+          "Savin",
+          "Talzhael"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F080",
+    "category": "Words you cannot look up",
+    "title": "varral appears in examples but has no matching entry",
+    "words": [
+      "varral"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "varral": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“varral” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-HTS1-0051",
+        "celan": "rinaen velmav an varral.",
+        "english": "The traveler has hypothermia.",
+        "shown_on": [
+          "Velmav"
+        ],
+        "available_on": [
+          "An",
+          "Rinaen",
+          "Velmav"
+        ]
+      },
+      {
+        "source_id": "PE-HTS1-0053",
+        "celan": "rinaen rekmav an varral.",
+        "english": "The traveler has severe heat illness.",
+        "shown_on": [
+          "Rekmav"
+        ],
+        "available_on": [
+          "An",
+          "Rekmav",
+          "Rinaen"
+        ]
+      },
+      {
+        "source_id": "PE-HTS1-0057",
+        "celan": "rinaen kadromav an varral.",
+        "english": "The traveler has dehydration.",
+        "shown_on": [
+          "Kadromav"
+        ],
+        "available_on": [
+          "An",
+          "Kadromav",
+          "Rinaen"
+        ]
+      },
+      {
+        "source_id": "PE-HTS1-0069",
+        "celan": "vaarshanaen kesvar varral.",
+        "english": "The patrol rescues the traveler.",
+        "shown_on": [
+          "Vaarshanaen"
+        ],
+        "available_on": [
+          "Kesvar",
+          "Vaarshanaen"
+        ]
+      },
+      {
+        "source_id": "PE-HTS1-0081",
+        "celan": "kavaen varral shan velarshor.",
+        "english": "The traveler survives through the whiteout.",
+        "shown_on": [
+          "Kavaen",
+          "Velarshor"
+        ],
+        "available_on": [
+          "Kavaen",
+          "Shan",
+          "Velarshor"
+        ]
+      },
+      {
+        "source_id": "PE-EGE1-0001",
+        "celan": "kes varral felmorl esh delmorl.",
+        "english": "The traveler notices a hill above the valley.",
+        "shown_on": [
+          "Delmorl",
+          "Felmorl"
+        ],
+        "available_on": [
+          "Delmorl",
+          "Esh",
+          "Felmorl",
+          "Kes"
+        ]
+      },
+      {
+        "source_id": "PE-EGE1-0029",
+        "celan": "kes varral sadarjor an selmor; kes la velxar an felmorl.",
+        "english": "The traveler sees a sandstorm on the plain and frost on the hill.",
+        "shown_on": [
+          "Felmorl",
+          "Sadarjor",
+          "Selmor",
+          "Velxar"
+        ],
+        "available_on": [
+          "An",
+          "Felmorl",
+          "Kes",
+          "La",
+          "Sadarjor",
+          "Selmor",
+          "Velxar"
+        ]
+      },
+      {
+        "source_id": "PE-UHEI1-0037",
+        "celan": "ravohmaen varral ka khumlor.",
+        "english": "The traveler feels lonely without the family circle.",
+        "shown_on": [
+          "Khumlor",
+          "Ravohmaen"
+        ],
+        "available_on": [
+          "Ka",
+          "Khumlor",
+          "Ravohmaen"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F081",
+    "category": "Words you cannot look up",
+    "title": "karjor appears in examples but has no matching entry",
+    "words": [
+      "karjor"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "karjor": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“karjor” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-HTS1-0061",
+        "celan": "rinaen kakesrin thal karjor.",
+        "english": "Unconsciousness follows the impact.",
+        "shown_on": [
+          "Kakesrin"
+        ],
+        "available_on": [
+          "Kakesrin",
+          "Rinaen",
+          "Thal"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F082",
+    "category": "Words you cannot look up",
+    "title": "kavel appears in examples but has no matching entry",
+    "words": [
+      "kavel"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "kavel": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“kavel” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-EGE1-0019",
+        "celan": "jor eshnor; kavel rinaen eshweknor.",
+        "english": "Weather changes, while climate endures.",
+        "shown_on": [
+          "Eshnor",
+          "Eshweknor",
+          "Jor"
+        ],
+        "available_on": [
+          "Eshnor",
+          "Eshweknor",
+          "Jor",
+          "Rinaen"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F083",
+    "category": "Words you cannot look up",
+    "title": "vorkaral appears in examples but has no matching entry",
+    "words": [
+      "vorkaral"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "vorkaral": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“vorkaral” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-GMMP1-0041",
+        "celan": "rinaen vorkor vethshaleth ser tharbel an vorkaral.",
+        "english": "The gate is illusory and the guard is under compulsion.",
+        "shown_on": [
+          "Tharbel",
+          "Vethshaleth"
+        ],
+        "available_on": [
+          "An",
+          "Rinaen",
+          "Ser",
+          "Tharbel",
+          "Vethshaleth",
+          "Vorkor"
+        ]
+      },
+      {
+        "source_id": "PE-GMMP1-0042",
+        "celan": "rinaen tharbel an vorkaral; tharbelaen rath la var vorkor.",
+        "english": "The guard is under compulsion; the enemy compels them toward the gate.",
+        "shown_on": [
+          "Tharbel",
+          "Tharbelaen"
+        ],
+        "available_on": [
+          "An",
+          "La",
+          "Rath",
+          "Rinaen",
+          "Tharbel",
+          "Tharbelaen",
+          "Var",
+          "Vorkor"
+        ]
+      },
+      {
+        "source_id": "PE-GMMP1-0043",
+        "celan": "tharbelaen rath vorkaral; katharbelaen arural la.",
+        "english": "The enemy compels the guard; the practitioner releases them from the compulsion.",
+        "shown_on": [
+          "Katharbelaen",
+          "Tharbelaen"
+        ],
+        "available_on": [
+          "Arural",
+          "Katharbelaen",
+          "La",
+          "Rath",
+          "Tharbelaen"
+        ]
+      },
+      {
+        "source_id": "PE-GMMP1-0044",
+        "celan": "katharbelaen arural vorkaral; kes la kesxar an vorkor.",
+        "english": "The practitioner releases the guard from compulsion and detects a perceptual veil at the gate.",
+        "shown_on": [
+          "Katharbelaen",
+          "Kesxar"
+        ],
+        "available_on": [
+          "An",
+          "Arural",
+          "Katharbelaen",
+          "Kes",
+          "Kesxar",
+          "La",
+          "Vorkor"
+        ]
+      },
+      {
+        "source_id": "PE-GMMP1-0045",
+        "celan": "rinaen kesxar an vorkor; kesxaraen arural la thal vorkaral.",
+        "english": "A perceptual veil covers the gate; the practitioner veils it from the guard's notice.",
+        "shown_on": [
+          "Kesxar",
+          "Kesxaraen"
+        ],
+        "available_on": [
+          "An",
+          "Arural",
+          "Kesxar",
+          "Kesxaraen",
+          "La",
+          "Rinaen",
+          "Thal",
+          "Vorkor"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F084",
+    "category": "Words you cannot look up",
+    "title": "noral appears in examples but has no matching entry",
+    "words": [
+      "noral"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "noral": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "Three body examples use noral for “night.” The app has Nor for time and other words for night, but no Noral entry. Treating this as a regular verb ending does not explain the night meaning.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-BIAOBF1-0062",
+        "celan": "khosaen I nor noral.",
+        "english": "I cough at night.",
+        "shown_on": [
+          "Khosaen"
+        ],
+        "available_on": [
+          "I",
+          "Khosaen",
+          "Nor"
+        ]
+      },
+      {
+        "source_id": "PE-BIAOBF1-0078",
+        "celan": "urenaen felka nor noral.",
+        "english": "The child urinates at night.",
+        "shown_on": [
+          "Urenaen"
+        ],
+        "available_on": [
+          "Felka",
+          "Nor",
+          "Urenaen"
+        ]
+      },
+      {
+        "source_id": "PE-BIAOBF1-0082",
+        "celan": "fekaen felka nor noral.",
+        "english": "The child defecates at night.",
+        "shown_on": [
+          "Fekaen"
+        ],
+        "available_on": [
+          "Fekaen",
+          "Felka",
+          "Nor"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F085",
+    "category": "Words you cannot look up",
+    "title": "khumrel appears in examples but has no matching entry",
+    "words": [
+      "khumrel"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "khumrel": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“khumrel” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-S3-0019",
+        "celan": "Khumrel an thar",
+        "english": "to listen to one's heart",
+        "shown_on": [
+          "Khum-"
+        ],
+        "available_on": [
+          "An",
+          "Khum-",
+          "Thar"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F086",
+    "category": "Words you cannot look up",
+    "title": "terrarav appears in examples but has no matching entry",
+    "words": [
+      "terrarav"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "terrarav": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“terrarav” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-S3-0018",
+        "celan": "Terrarav",
+        "english": "the pull of one's homeland",
+        "shown_on": [
+          "Rav-",
+          "terra- / Terra-"
+        ],
+        "available_on": [
+          "Rav-",
+          "terra- / Terra-"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F087",
+    "category": "Words you cannot look up",
+    "title": "zhirrathor appears in examples but has no matching entry",
+    "words": [
+      "zhirrathor"
+    ],
+    "certainty": "Lookup gap",
+    "what_the_app_says": {
+      "zhirrathor": "No standalone dictionary entry or registered variant found."
+    },
+    "why_flagged": "“zhirrathor” appears in the app’s example material, but there is no standalone entry or registered variant for that exact form. A reader cannot look up the form used in the lesson. It may be an intentional derivative, older form, or missing entry; this is not a finding that the word is invalid.",
+    "decision": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word.",
+    "examples": [
+      {
+        "source_id": "PE-S3-0021",
+        "celan": "zhirrathor",
+        "english": "thread to the past",
+        "shown_on": [
+          "Zhir-"
+        ],
+        "available_on": [
+          "Zhir-"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F088",
+    "category": "App display",
+    "title": "Elan shows its English definition as a Celan sentence",
+    "words": [
+      "Elan"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "examples": [
+        {
+          "entry_id": "INLINE-LX-V3-0030-1",
+          "celan_text": "Elan: Well...",
+          "translation": "conversational starter/filler, declarative"
+        }
+      ]
+    },
+    "why_flagged": "The example-extraction code mistakes an English gloss followed by parentheses for a bilingual sentence. What appears under “Used In A Sentence” is English explanatory text, not a Celan example.",
+    "decision": "Correct the extraction rule; keep the definition and only show genuine examples.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F089",
+    "category": "App display",
+    "title": "Thaal'ra shows its English definition as a Celan sentence",
+    "words": [
+      "Thaal'ra"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "examples": [
+        {
+          "entry_id": "INLINE-LX-V3-0037-1",
+          "celan_text": "Thaal'ra: I wonder if...",
+          "translation": "speculation"
+        }
+      ]
+    },
+    "why_flagged": "The example-extraction code mistakes an English gloss followed by parentheses for a bilingual sentence. What appears under “Used In A Sentence” is English explanatory text, not a Celan example.",
+    "decision": "Correct the extraction rule; keep the definition and only show genuine examples.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F090",
+    "category": "App display",
+    "title": "Kora shows its English definition as a Celan sentence",
+    "words": [
+      "Kora"
+    ],
+    "certainty": "Direct mismatch",
+    "what_the_app_says": {
+      "examples": [
+        {
+          "entry_id": "INLINE-LX-V3-0145-1",
+          "celan_text": "Kora: Because, Since, For the reason that...",
+          "translation": "causation"
+        }
+      ]
+    },
+    "why_flagged": "The example-extraction code mistakes an English gloss followed by parentheses for a bilingual sentence. What appears under “Used In A Sentence” is English explanatory text, not a Celan example.",
+    "decision": "Correct the extraction rule; keep the definition and only show genuine examples.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F091",
+    "category": "App display",
+    "title": "Six examples have no English translation",
+    "words": [],
+    "certainty": "Missing information",
+    "what_the_app_says": {},
+    "why_flagged": "These examples have Celan text but an empty translation field. A reader cannot check what they are meant to demonstrate.",
+    "decision": "Supply reviewed translations, or clearly label them as untranslated examples.",
+    "examples": [
+      {
+        "source_id": "PE-V1-0033",
+        "celan": "Tha-var La thal Terra.",
+        "english": "",
+        "shown_on": [
+          "La",
+          "Terra",
+          "Thal"
+        ],
+        "available_on": [
+          "La",
+          "Terra",
+          "Thal",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V1-0034",
+        "celan": "Var I ka shal.",
+        "english": "",
+        "shown_on": [
+          "Ka",
+          "Shal"
+        ],
+        "available_on": [
+          "I",
+          "Ka",
+          "Shal",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V1-0035",
+        "celan": "Varan I an Varthas.",
+        "english": "",
+        "shown_on": [
+          "An",
+          "Varthas"
+        ],
+        "available_on": [
+          "An",
+          "I",
+          "Varthas"
+        ]
+      },
+      {
+        "source_id": "PE-V1-0036",
+        "celan": "Nor-var I nor Varthas.",
+        "english": "",
+        "shown_on": [
+          "Varthas"
+        ],
+        "available_on": [
+          "I",
+          "Nor",
+          "Var",
+          "Varthas"
+        ]
+      },
+      {
+        "source_id": "PE-V1-0037",
+        "celan": "Var I esh dren.",
+        "english": "",
+        "shown_on": [
+          "Esh"
+        ],
+        "available_on": [
+          "Dren",
+          "Esh",
+          "I",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-V1-0038",
+        "celan": "Var I morl dren.",
+        "english": "",
+        "shown_on": [
+          "Morl"
+        ],
+        "available_on": [
+          "Dren",
+          "I",
+          "Morl",
+          "Var"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F092",
+    "category": "App display",
+    "title": "Teaching notes are stored in the translation slot",
+    "words": [
+      "Var",
+      "Rethlian"
+    ],
+    "certainty": "Display issue",
+    "what_the_app_says": {
+      "Var": "Verb: Go / Move; Preposition: To / Towards",
+      "Rethlian": "Verb: Possibility (May/Might); Interjection: Maybe"
+    },
+    "why_flagged": "The example data includes “Correct form,” “Incorrect form,” and “Smooth clusters” in the field used for English translations. Some are not in the first five examples currently shown, but the selection routine does not distinguish them from ordinary sentence examples.",
+    "decision": "Keep counterexamples and phonology notes clearly labeled and separate from affirmative sentence translations.",
+    "examples": [
+      {
+        "source_id": "PE-S1-0009",
+        "celan": "Kalvok; Kalrath; Rethlian",
+        "english": "Smooth clusters",
+        "shown_on": [
+          "Kalrath",
+          "Kalvok",
+          "Rethlian"
+        ],
+        "available_on": [
+          "Kalrath",
+          "Kalvok",
+          "Rethlian"
+        ]
+      },
+      {
+        "source_id": "PE-S4B-0001",
+        "celan": "var I an dren.",
+        "english": "Correct form: first word lowercase.",
+        "shown_on": [],
+        "available_on": [
+          "An",
+          "Dren",
+          "I",
+          "Var"
+        ]
+      },
+      {
+        "source_id": "PE-S4B-0002",
+        "celan": "Var I an dren.",
+        "english": "Incorrect form: first word capitalized only because sentence-initial.",
+        "shown_on": [],
+        "available_on": [
+          "An",
+          "Dren",
+          "I",
+          "Var"
+        ]
+      }
+    ],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F093",
+    "category": "App display",
+    "title": "Basic English pronoun searches miss their own entries",
+    "words": [
+      "I",
+      "Ya",
+      "La",
+      "Yalin",
+      "Lalin"
+    ],
+    "certainty": "Display issue",
+    "what_the_app_says": {
+      "I": "Pronoun: 1st Person Singular",
+      "Ya": "Pronoun: 2nd Person Singular",
+      "La": "Pronoun: 3rd Person Singular",
+      "Yalin": "Pronoun: 2nd Person Plural",
+      "Lalin": "Pronoun: 3rd Person Plural"
+    },
+    "why_flagged": "The meanings say “1st Person Singular,” “2nd Person Singular,” and so on. English lookup searches those meanings, not the usage notes explaining “me,” “you,” or “they.” Runtime checks confirm those ordinary queries do not retrieve the expected entry.",
+    "decision": "Add approved English lookup equivalents without changing the pronouns’ meanings.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F094",
+    "category": "App display",
+    "title": "Two apostrophe spellings are not searchable with a normal apostrophe",
+    "words": [
+      "Reth‘thal",
+      "Lia‘ser"
+    ],
+    "certainty": "Display issue",
+    "what_the_app_says": {
+      "Reth‘thal": "Particle: Perhaps, Possibly (stronger doubt than Rethlian).",
+      "Lia‘ser": "Particle: Right, Okay, I see, Understood (acknowledgement)."
+    },
+    "why_flagged": "The stored spellings contain a left curly quote. Typing the same letters with a normal apostrophe does not match either entry in all-fields search.",
+    "decision": "Normalize apostrophe characters for search while preserving the approved display spelling.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F095",
+    "category": "App display",
+    "title": "Some root buttons lead to a different word",
+    "words": [
+      "Athnor",
+      "Deni",
+      "Varash"
+    ],
+    "certainty": "Display issue",
+    "what_the_app_says": [
+      {
+        "term": "Vethor",
+        "root": "Fah- / Vethor-"
+      },
+      {
+        "term": "Varash",
+        "root": "ASH",
+        "actual": "Varash"
+      },
+      {
+        "term": "Lorash",
+        "root": "ASH",
+        "actual": "Varash"
+      },
+      {
+        "term": "Nkuvath",
+        "root": "ATH",
+        "actual": "Athnor"
+      },
+      {
+        "term": "Rinvarash",
+        "root": "ASH",
+        "actual": "Varash"
+      },
+      {
+        "term": "Drenkorath",
+        "root": "ATH",
+        "actual": "Athnor"
+      },
+      {
+        "term": "Krezmorath",
+        "root": "ATH",
+        "actual": "Athnor"
+      },
+      {
+        "term": "Kalorinath",
+        "root": "ATH",
+        "actual": "Athnor"
+      },
+      {
+        "term": "Rathorkinash",
+        "root": "ASH",
+        "actual": "Varash"
+      },
+      {
+        "term": "Morl-karash",
+        "root": "ASH",
+        "actual": "Varash"
+      },
+      {
+        "term": "Kalrath",
+        "root": "ATH",
+        "actual": "Athnor"
+      },
+      {
+        "term": "Sivathaen",
+        "root": "ATH",
+        "actual": "Athnor"
+      },
+      {
+        "term": "Athnor",
+        "root": "ATH",
+        "actual": "Athnor"
+      },
+      {
+        "term": "Felath",
+        "root": "ATH",
+        "actual": "Athnor"
+      },
+      {
+        "term": "Zhirath",
+        "root": "ATH",
+        "actual": "Athnor"
+      },
+      {
+        "term": "Lemath",
+        "root": "ATH",
+        "actual": "Athnor"
+      },
+      {
+        "term": "Welrinath",
+        "root": "ATH",
+        "actual": "Athnor"
+      },
+      {
+        "term": "Ianath",
+        "root": "ATH",
+        "actual": "Athnor"
+      },
+      {
+        "term": "Dovath",
+        "root": "ATH",
+        "actual": "Athnor"
+      },
+      {
+        "term": "Keshenath",
+        "root": "ATH",
+        "actual": "Athnor"
+      },
+      {
+        "term": "Shenvarash",
+        "root": "ASH",
+        "actual": "Varash"
+      },
+      {
+        "term": "Deni",
+        "root": "DEN",
+        "actual": "Deni"
+      },
+      {
+        "term": "Denya",
+        "root": "DEN",
+        "actual": "Deni"
+      },
+      {
+        "term": "Denla",
+        "root": "DEN",
+        "actual": "Deni"
+      },
+      {
+        "term": "Havrath",
+        "root": "ATH",
+        "actual": "Athnor"
+      },
+      {
+        "term": "Aentash",
+        "root": "ASH",
+        "actual": "Varash"
+      },
+      {
+        "term": "Emiltash",
+        "root": "ASH",
+        "actual": "Varash"
+      },
+      {
+        "term": "-ath",
+        "root": "ATH",
+        "actual": "Athnor"
+      }
+    ],
+    "why_flagged": "ATH links resolve to Athnor, DEN links to Deni, and ASH links to Varash because the navigation falls back to a word containing the letters. These are not the same labels the user clicked. A Fah-/Vethor- root link has no match.",
+    "decision": "Make root navigation resolve the exact intended root/morpheme or show a root explanation; do not substitute a near spelling.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F096",
+    "category": "App display",
+    "title": "Word-family roots are sometimes found inside unrelated endings",
+    "words": [
+      "Aentash",
+      "Emiltash",
+      "Kalrath",
+      "Havrath"
+    ],
+    "certainty": "Display issue",
+    "what_the_app_says": {
+      "Aentash": [
+        "TASH",
+        "ASH",
+        "Aen"
+      ],
+      "Emiltash": [
+        "TASH",
+        "ASH"
+      ],
+      "Kalrath": [
+        "Rath",
+        "ATH",
+        "KAL"
+      ],
+      "Havrath": [
+        "Rath",
+        "ATH",
+        "HAV"
+      ]
+    },
+    "why_flagged": "Aentash and Emiltash have Tash (“organ”) in their derivations, but the app also adds ASH simply because the spelling ends in ash. Kalrath and Havrath similarly pick up ATH from the end of Rath. The extra root can imply an origin the recorded derivation does not claim.",
+    "decision": "Use recorded word parts rather than letter endings when assigning these family roots.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F097",
+    "category": "App display",
+    "title": "The support root disappears from the help word’s family",
+    "words": [
+      "Mbaen",
+      "Mb"
+    ],
+    "certainty": "Display issue",
+    "what_the_app_says": {
+      "Mbaen": "Verb: To help or assist; to contribute effort ability care or resources toward another's need or undertaking without necessarily taking it over",
+      "Mb": "Noun: Support; pillar; foundational weight"
+    },
+    "why_flagged": "Mbaen’s derivation explicitly says Mb support + -aen. Its family panel shows only Aen because the root-lookup code drops roots shorter than three letters.",
+    "decision": "Allow verified short roots such as Mb to appear in word families.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F098",
+    "category": "App display",
+    "title": "Verb relatives can be crowded out by the shared ending",
+    "words": [
+      "Drenpralaen"
+    ],
+    "certainty": "Display issue",
+    "what_the_app_says": {
+      "related_words": [
+        {
+          "id": "amthaen",
+          "term": "Amthaen"
+        },
+        {
+          "id": "aen",
+          "term": "Aen"
+        },
+        {
+          "id": "aenor",
+          "term": "Aenor"
+        },
+        {
+          "id": "aenvor",
+          "term": "Aenvor"
+        },
+        {
+          "id": "ohmbaen",
+          "term": "Ohmbaen"
+        },
+        {
+          "id": "lianaen",
+          "term": "Lianaen"
+        },
+        {
+          "id": "thalaneshen",
+          "term": "Thalaneshen"
+        },
+        {
+          "id": "velthaen",
+          "term": "Velthaen"
+        },
+        {
+          "id": "wek'aen",
+          "term": "Wek'aen"
+        },
+        {
+          "id": "rathorimaen",
+          "term": "Rathorimaen"
+        }
+      ]
+    },
+    "why_flagged": "The related-word panel for the brewing verb is filled with entries sharing -aen, such as a greeting and winter. The family list is capped before the closer water/craft relatives get a chance to appear. This does not prove those relationships are false, but it obscures the useful relationship the reader expects.",
+    "decision": "Prioritize the meaningful roots and show shared-suffix relationships separately.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  },
+  {
+    "id": "F099",
+    "category": "App display",
+    "title": "Root labels can look like separate vocabulary words",
+    "words": [
+      "terra- / Terra-",
+      "Reth- / Rethvok-"
+    ],
+    "certainty": "Display issue",
+    "what_the_app_says": {
+      "terra- / Terra-": "Noun: Earth, ground, soil, land; lowercase terra is mundane physical ground; capitalized Terra is the world as living spiritual entity.",
+      "Reth- / Rethvok-": "Noun: Reth: uncertainty, confusion, doubt, a question, or. Rethvok: chaos, disorder, un-ordered state."
+    },
+    "why_flagged": "These dictionary headings combine alternatives and trailing hyphens. A learner can mistake the whole heading for a single word they should write.",
+    "decision": "Explain that these are root records or link each form to its existing word; do not silently create or delete words.",
+    "examples": [],
+    "status": "Flagged only — no language change applied"
+  }
+]

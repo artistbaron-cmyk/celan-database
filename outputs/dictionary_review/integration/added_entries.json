@@ -1,0 +1,662 @@
+[
+  {
+    "flag": "F051",
+    "entry": {
+      "entry_id": "LX-DR1-0001",
+      "celan_term": "Tera",
+      "pronunciation": "/teh-rah/",
+      "english_meaning": "Home / Dwelling / Homestead (informal form of Teremil)",
+      "category": "Noun",
+      "derivation": "Informal conversational form of Teremil.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F051. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V1-0004; PE-V1-0040; PE-V3-0113; PE-V3-0129; PE-V3-0134; PE-V3-0138; PE-V3-0141; PE-V3-0148"
+    },
+    "example_count": 8
+  },
+  {
+    "flag": "F052",
+    "entry": {
+      "entry_id": "LX-DR1-0002",
+      "celan_term": "Velkrel",
+      "pronunciation": "/vehl-krehl/",
+      "english_meaning": "Breeze / Cool breeze / Light wind",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F052. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V1-0010"
+    },
+    "example_count": 1
+  },
+  {
+    "flag": "F053",
+    "entry": {
+      "entry_id": "LX-DR1-0003",
+      "celan_term": "Varan",
+      "pronunciation": "/vah-rahn/",
+      "english_meaning": "To reside / To stay / To be located at a physical place",
+      "category": "Verb",
+      "derivation": "Var movement + An location; specialized locative-stative form, not continuous -al.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F053. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V1-0035"
+    },
+    "example_count": 1
+  },
+  {
+    "flag": "F054",
+    "entry": {
+      "entry_id": "LX-DR1-0004",
+      "celan_term": "Shalil",
+      "pronunciation": "/shah-leel/",
+      "english_meaning": "To flow lightly / To move smoothly / To glide / To drift",
+      "category": "Verb",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F054. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V2-0014; PE-V2-0109; PE-V2-0117; PE-V3-0030; PE-V3-0033; PE-V3-0050; PE-V3-0092; PE-V3-0095; PE-V4-0099; PE-V4-0100"
+    },
+    "example_count": 10
+  },
+  {
+    "flag": "F055",
+    "entry": {
+      "entry_id": "LX-DR1-0005",
+      "celan_term": "Serathrin",
+      "pronunciation": "/sehr-ah-three-n/",
+      "english_meaning": "Confidant / Trusted inner friend / Sworn ally",
+      "category": "Noun",
+      "derivation": "Ser friend/ally + Ath enduring state + Rin essence; approved confidant meaning.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F055. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V2-0032"
+    },
+    "example_count": 1
+  },
+  {
+    "flag": "F056",
+    "entry": {
+      "entry_id": "LX-DR1-0006",
+      "celan_term": "Zhivor",
+      "pronunciation": "/zhee-vohr/",
+      "english_meaning": "Family line / Ancestral household / Kin group",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F056. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V2-0036"
+    },
+    "example_count": 1
+  },
+  {
+    "flag": "F057",
+    "entry": {
+      "entry_id": "LX-DR1-0007",
+      "celan_term": "Tharvok",
+      "pronunciation": "/thahr-vohk/",
+      "english_meaning": "Family / Heart-bonded family / Clan",
+      "category": "Noun",
+      "derivation": "Thar heart + Vok unity/bond.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F057. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V2-0043; PE-V3-0044; PE-V3-0089; PE-V3-0098; PE-V3-0100; PE-V3-0104; PE-UHEI1-0022"
+    },
+    "example_count": 7
+  },
+  {
+    "flag": "F058",
+    "entry": {
+      "entry_id": "LX-DR1-0008",
+      "celan_term": "Evan",
+      "pronunciation": "/eh-vahn/",
+      "english_meaning": "Market / Marketplace / Trading plaza",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F058. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V2-0073; PE-V2-0078; PE-V2-0114; PE-V3-0117; PE-V3-0139; PE-V3-0142"
+    },
+    "example_count": 6
+  },
+  {
+    "flag": "F059",
+    "entry": {
+      "entry_id": "LX-DR1-0009",
+      "celan_term": "Shenakar",
+      "pronunciation": "/sheh-nah-kahr/",
+      "english_meaning": "Coinage / Currency system / Official trade money",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F059. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0005; PE-V3-0014; PE-V3-0117; PE-V3-0131; PE-V3-0139; PE-V3-0143; PE-V4-0011"
+    },
+    "example_count": 7
+  },
+  {
+    "flag": "F060",
+    "entry": {
+      "entry_id": "LX-DR1-0010",
+      "celan_term": "Em",
+      "pronunciation": "/ehm/",
+      "english_meaning": "Um / Uh (hesitation or thinking particle)",
+      "category": "Interjection",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F060. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0020"
+    },
+    "example_count": 1
+  },
+  {
+    "flag": "F061",
+    "entry": {
+      "entry_id": "LX-DR1-0011",
+      "celan_term": "Varin",
+      "pronunciation": "/vah-reen/",
+      "english_meaning": "To know / To be aware of",
+      "category": "Verb",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F061. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0022"
+    },
+    "example_count": 1
+  },
+  {
+    "flag": "F062",
+    "entry": {
+      "entry_id": "LX-DR1-0012",
+      "celan_term": "Shena",
+      "pronunciation": "/sheh-nah/",
+      "english_meaning": "Coin / Coins / Physical money",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F062. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0028; PE-V3-0120; PE-V3-0128; PE-V3-0150; PE-V4-0050"
+    },
+    "example_count": 5
+  },
+  {
+    "flag": "F063",
+    "entry": {
+      "entry_id": "LX-DR1-0013",
+      "celan_term": "Nkathal",
+      "pronunciation": "/nkah-thahl/",
+      "english_meaning": "Sadness / Grief / Sorrow / Enduring emotional pain",
+      "category": "Noun",
+      "derivation": "Nk endurance/hidden strength + Thal balance; approved grief meaning.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F063. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0068"
+    },
+    "example_count": 1
+  },
+  {
+    "flag": "F065",
+    "entry": {
+      "entry_id": "LX-DR1-0014",
+      "celan_term": "Vrak",
+      "pronunciation": "/vrahk/",
+      "english_meaning": "Gone / Missing / Depleted / Dry (Trerran dialect)",
+      "category": "Adjective",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "Trerra",
+      "national_usage": "Dialect use for severe scarcity or absence.",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F065. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0084"
+    },
+    "example_count": 1
+  },
+  {
+    "flag": "F066",
+    "entry": {
+      "entry_id": "LX-DR1-0015",
+      "celan_term": "Theren",
+      "pronunciation": "/theh-rehn/",
+      "english_meaning": "Village / Settlement / Local community",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F066. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0112; PE-V3-0141; PE-V3-0150"
+    },
+    "example_count": 3
+  },
+  {
+    "flag": "F067",
+    "entry": {
+      "entry_id": "LX-DR1-0016",
+      "celan_term": "Serilin",
+      "pronunciation": "/seh-ree-leen/",
+      "english_meaning": "Sister / Female sibling",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "serilín",
+      "variant_pronunciations": "/seh-ree-leen/",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F067. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0112; PE-V3-0125; PE-V3-0138; PE-V3-0149"
+    },
+    "example_count": 4
+  },
+  {
+    "flag": "F068",
+    "entry": {
+      "entry_id": "LX-DR1-0017",
+      "celan_term": "Aelin",
+      "pronunciation": "/ah-eh-leen/",
+      "english_meaning": "Youth / Young person / Student / Pupil",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F068. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0113; PE-V3-0126; PE-V3-0134"
+    },
+    "example_count": 3
+  },
+  {
+    "flag": "F069",
+    "entry": {
+      "entry_id": "LX-DR1-0018",
+      "celan_term": "Im",
+      "pronunciation": "/eem/",
+      "english_meaning": "Device / Instrument / Implement / Internal mechanism",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F069. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0119; PE-V3-0140"
+    },
+    "example_count": 2
+  },
+  {
+    "flag": "F070",
+    "entry": {
+      "entry_id": "LX-DR1-0019",
+      "celan_term": "Dreshal",
+      "pronunciation": "/drehsh-ahl/",
+      "english_meaning": "Crystal device / Crystal implement",
+      "category": "Noun",
+      "derivation": "Dresh crystal + Shal light.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F070. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0121; PE-V3-0140; PE-CWM2-0015"
+    },
+    "example_count": 3
+  },
+  {
+    "flag": "F072",
+    "entry": {
+      "entry_id": "LX-DR1-0020",
+      "celan_term": "Varshel",
+      "pronunciation": "/vahr-shehl/",
+      "english_meaning": "Road / Travel path / Highway",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F072. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0125"
+    },
+    "example_count": 1
+  },
+  {
+    "flag": "F073",
+    "entry": {
+      "entry_id": "LX-DR1-0021",
+      "celan_term": "Eshvan",
+      "pronunciation": "/ehsh-vahn/",
+      "english_meaning": "Shop / Store / Market stall",
+      "category": "Noun",
+      "derivation": "Esh sky/air + Van commercial site.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F073. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0126; PE-V3-0128"
+    },
+    "example_count": 2
+  },
+  {
+    "flag": "F074",
+    "entry": {
+      "entry_id": "LX-DR1-0022",
+      "celan_term": "Noraen",
+      "pronunciation": "/nohr-ah-ehn/",
+      "english_meaning": "To guide / To lead through time or experience / To instruct",
+      "category": "Verb",
+      "derivation": "Nor time + -aen verb; approved guidance-through-experience meaning.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F074. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0132"
+    },
+    "example_count": 1
+  },
+  {
+    "flag": "F075",
+    "entry": {
+      "entry_id": "LX-DR1-0023",
+      "celan_term": "Thalesh",
+      "pronunciation": "/thah-lehsh/",
+      "english_meaning": "Ritual / Sacred balance ceremony",
+      "category": "Noun",
+      "derivation": "Thal balance + -esh relational belonging; approved balance-rite meaning.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F075. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0144"
+    },
+    "example_count": 1
+  },
+  {
+    "flag": "F076",
+    "entry": {
+      "entry_id": "LX-DR1-0024",
+      "celan_term": "Thalor",
+      "pronunciation": "/thah-lohr/",
+      "english_meaning": "Outside / Exterior / Outer place",
+      "category": "Noun",
+      "derivation": "Thal from/out of + -or place.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F076. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V4-0085"
+    },
+    "example_count": 1
+  },
+  {
+    "flag": "F079",
+    "entry": {
+      "entry_id": "LX-DR1-0025",
+      "celan_term": "Daraen",
+      "pronunciation": "/dahr-ah-ehn/",
+      "english_meaning": "To wait / To pause / To remain pending",
+      "category": "Verb",
+      "derivation": "Dar waiting + -aen verb.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F079. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-HTS1-0012; PE-HTS1-0018"
+    },
+    "example_count": 2
+  },
+  {
+    "flag": "F080",
+    "entry": {
+      "entry_id": "LX-DR1-0026",
+      "celan_term": "Varral",
+      "pronunciation": "/vahr-rahl/",
+      "english_meaning": "Traveler / Wanderer / Person on a journey",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F080. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-HTS1-0051; PE-HTS1-0053; PE-HTS1-0057; PE-HTS1-0069; PE-HTS1-0081; PE-EGE1-0001; PE-EGE1-0029; PE-UHEI1-0037"
+    },
+    "example_count": 8
+  },
+  {
+    "flag": "F081",
+    "entry": {
+      "entry_id": "LX-DR1-0027",
+      "celan_term": "Karjor",
+      "pronunciation": "/kahr-johr/",
+      "english_meaning": "Impact / Mechanical surge / Strike force / Burst of energy",
+      "category": "Noun",
+      "derivation": "Kar mechanical force + Jor surge.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F081. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-HTS1-0061"
+    },
+    "example_count": 1
+  },
+  {
+    "flag": "F082",
+    "entry": {
+      "entry_id": "LX-DR1-0028",
+      "celan_term": "Kavel",
+      "pronunciation": "/kah-vehl/",
+      "english_meaning": "Forgetfulness / Memory gap / Loss of awareness",
+      "category": "Noun",
+      "derivation": "Ka absence + Vel wisdom/stillness; approved lexicalized memory-gap meaning.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F082. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-EGE1-0019"
+    },
+    "example_count": 1
+  },
+  {
+    "flag": "F083",
+    "entry": {
+      "entry_id": "LX-DR1-0029",
+      "celan_term": "Vorkaral",
+      "pronunciation": "/vohr-kahr-ahl/",
+      "english_meaning": "Worker / Mechanic / Laborer / Tool-operator",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F083. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-GMMP1-0041; PE-GMMP1-0042; PE-GMMP1-0043; PE-GMMP1-0044; PE-GMMP1-0045"
+    },
+    "example_count": 5
+  },
+  {
+    "flag": "F084",
+    "entry": {
+      "entry_id": "LX-DR1-0030",
+      "celan_term": "Noral",
+      "pronunciation": "/nohr-ahl/",
+      "english_meaning": "Night / Nighttime / Nocturnal hours",
+      "category": "Noun",
+      "derivation": "Nor time + -al duration; lexicalized nighttime meaning approved by user.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F084. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-BIAOBF1-0062; PE-BIAOBF1-0078; PE-BIAOBF1-0082"
+    },
+    "example_count": 3
+  },
+  {
+    "flag": "F085",
+    "entry": {
+      "entry_id": "LX-DR1-0031",
+      "celan_term": "Khumrel",
+      "pronunciation": "/khoom-rehl/",
+      "english_meaning": "Compassion / Empathetic listening / Circle of care",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F085. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-S3-0019"
+    },
+    "example_count": 1
+  },
+  {
+    "flag": "F086",
+    "entry": {
+      "entry_id": "LX-DR1-0032",
+      "celan_term": "Terrarav",
+      "pronunciation": "/tehr-rah-rahv/",
+      "english_meaning": "Pull of one's homeland / Yearning for home",
+      "category": "Noun",
+      "derivation": "Terra earth/homeland + Rav pull/yearning.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F086. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-S3-0018"
+    },
+    "example_count": 1
+  },
+  {
+    "flag": "F087",
+    "entry": {
+      "entry_id": "LX-DR1-0033",
+      "celan_term": "Zhirrathor",
+      "pronunciation": "/zheer-rah-thohr/",
+      "english_meaning": "Thread to the past / Historical continuity / Lineage link",
+      "category": "Noun",
+      "derivation": "Zhir lineage/connection through time + Rathor past/history.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F087. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-S3-0021"
+    },
+    "example_count": 1
+  }
+]

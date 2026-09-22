@@ -1,0 +1,26 @@
+{
+  "headwords": 1463,
+  "senses": 1542,
+  "expansion_records": 912,
+  "registered_variant_records": 196,
+  "source_example_rows_read": 2096,
+  "unique_app_example_pairs": 2076,
+  "unique_first_five_example_pairs": 2023,
+  "example_associations": 8377,
+  "flags": 99,
+  "categories": {
+    "Word labels": 19,
+    "Examples": 25,
+    "Grammar questions": 6,
+    "Words you cannot look up": 37,
+    "App display": 12
+  },
+  "certainty": {
+    "Direct mismatch": 29,
+    "Missing information": 5,
+    "Needs a decision": 20,
+    "Lookup gap": 37,
+    "Display issue": 8
+  },
+  "input_drift": []
+}

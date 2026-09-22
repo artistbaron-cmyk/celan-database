@@ -1,0 +1,48 @@
+{
+  "flag": "F097",
+  "title": "The support root disappears from the help word’s family",
+  "status": "Applied locally",
+  "summary": "Short recorded roots, including Mb, now appear in families.",
+  "followups": [],
+  "user_response": {
+    "id": "F097",
+    "status": "approved",
+    "text": "Allow verified short roots such as Mb to appear in word families.",
+    "notes": "",
+    "updatedAt": "2026-09-22T17:46:16.907Z",
+    "title": "The support root disappears from the help word’s family",
+    "originalSuggestion": "Allow verified short roots such as Mb to appear in word families."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Mbaen",
+      "senses": [
+        {
+          "type": "Verb",
+          "rootWord": false,
+          "meaning": "To help or assist; to contribute effort ability care or resources toward another's need or undertaking without necessarily taking it over",
+          "usage": "",
+          "sourceEntries": [
+            "LX-UHEI1-0007"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Mb",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": true,
+          "meaning": "Support; pillar; foundational weight",
+          "usage": "Builds words for support, pillars, foundational burden, and figures who hold others up.",
+          "sourceEntries": [
+            "XR-mb"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

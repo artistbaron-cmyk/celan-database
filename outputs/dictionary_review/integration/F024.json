@@ -1,0 +1,149 @@
+{
+  "flag": "F024",
+  "title": "Home becomes a meal or a tent",
+  "status": "Applied locally",
+  "summary": "Used Emil for meal examples; the canvas example now says the home is made of canvas.",
+  "followups": [],
+  "user_response": {
+    "id": "F024",
+    "status": "edited",
+    "text": "Teremil is home. and Emil is food. the sentences should be updated. There is no word for tent. Kalbelrin is uses as tent in a sentence but that would need to be a separate definition then its current meaning of heavy thightly woven cloth. ",
+    "notes": "",
+    "updatedAt": "2026-09-22T13:44:57.791Z",
+    "title": "Home becomes a meal or a tent",
+    "originalSuggestion": "Resolve the meal examples first; clarify whether tent is a contextual use of home rather than a new general meaning."
+  },
+  "example_changes": [
+    {
+      "flag": "F024",
+      "entry_id": "PE-V3-0065",
+      "before": {
+        "entry_id": "PE-V3-0065",
+        "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+        "source_section": "Core Emotion Verbs",
+        "page_number": "15-16",
+        "celan_text": "Vaaranoraen Velar ser teremil.",
+        "translation": "The elder feels content with the meal.",
+        "example_type": "Emotion verb example",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved.",
+        "related_entry_ids": "LX-V3-0102",
+        "relationship_type": "related usage",
+        "potential_tension_id": "PT-V3-0014",
+        "review_status": "Source Ambiguity",
+        "review_reason": "source ambiguity"
+      },
+      "after": {
+        "entry_id": "PE-V3-0065",
+        "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+        "source_section": "Core Emotion Verbs",
+        "page_number": "15-16",
+        "celan_text": "Vaaranoraen Velar ser emil.",
+        "translation": "The elder feels content with the meal.",
+        "example_type": "Emotion verb example",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved. ED-0037 F024: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-V3-0102",
+        "relationship_type": "related usage",
+        "potential_tension_id": "PT-V3-0014",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    },
+    {
+      "flag": "F024",
+      "entry_id": "PE-V3-0124",
+      "before": {
+        "entry_id": "PE-V3-0124",
+        "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+        "source_section": "Sample Phrases and Sentences > Sample Phrases from Specific Nations > Pelagae",
+        "page_number": "27-29",
+        "celan_text": "Teremil dren thal nor.",
+        "translation": "A balanced meal at the water in time.",
+        "example_type": "National sample phrase",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved.",
+        "related_entry_ids": "",
+        "relationship_type": "",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-V3-0124",
+        "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+        "source_section": "Sample Phrases and Sentences > Sample Phrases from Specific Nations > Pelagae",
+        "page_number": "27-29",
+        "celan_text": "emil dren thal nor.",
+        "translation": "A balanced meal at the water in time.",
+        "example_type": "National sample phrase",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved. ED-0037 F024: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "",
+        "relationship_type": "",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    },
+    {
+      "flag": "F024",
+      "entry_id": "PE-CWM1-0047",
+      "before": {
+        "entry_id": "PE-CWM1-0047",
+        "source_volume": "Clothing, Wearable Protection, and Ordinary Materials 1",
+        "source_section": "Common Celan > LX-CWM1-0024",
+        "page_number": "",
+        "celan_text": "rinaen teremil kalbelrin.",
+        "translation": "The tent is canvas.",
+        "example_type": "Expansion example",
+        "analysis": "Heavy cloth in shelter construction.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support.",
+        "related_entry_ids": "LX-CWM1-0024",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-CWM1-0047",
+        "source_volume": "Clothing, Wearable Protection, and Ordinary Materials 1",
+        "source_section": "Common Celan > LX-CWM1-0024",
+        "page_number": "",
+        "celan_text": "rinaen teremil kalbelrin.",
+        "translation": "The home is made of canvas.",
+        "example_type": "Expansion example",
+        "analysis": "Heavy cloth in shelter construction.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F024: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-CWM1-0024",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    }
+  ],
+  "current_displayed_senses": [
+    {
+      "headword": "Teremil",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Home",
+          "usage": "Frequent conversational location word, often appearing in family and household examples.",
+          "sourceEntries": [
+            "DX-teremil"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

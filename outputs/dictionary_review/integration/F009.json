@@ -1,0 +1,34 @@
+{
+  "flag": "F009",
+  "title": "Phelrin — Comfort Food",
+  "status": "Applied locally",
+  "summary": "Applied the approved word labels and preserved the other established meanings.",
+  "followups": [],
+  "user_response": {
+    "id": "F009",
+    "status": "approved",
+    "text": "Approve Noun for this meaning, preserving every other meaning.",
+    "notes": "",
+    "updatedAt": "2026-09-22T13:09:01.074Z",
+    "title": "Phelrin — Comfort Food",
+    "originalSuggestion": "Approve Noun for this meaning, preserving every other meaning."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Phelrin",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Comfort Food",
+          "usage": "Phel = warmth + rin = essence",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0169"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

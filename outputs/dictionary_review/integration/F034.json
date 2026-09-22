@@ -1,0 +1,121 @@
+{
+  "flag": "F034",
+  "title": "Kel is used as generic information",
+  "status": "Applied locally",
+  "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+  "followups": [],
+  "user_response": {
+    "id": "F034",
+    "status": "edited",
+    "text": "sentence keeps kel, the English translation should be updated to specify a written or encoded text rather than generic \"information\":\nCelan: dor mekral kel an belzhirkavor.\nCorrected Translation: \"The technician puts a text [or encoded text] in the data center.\"",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:19:54.035Z",
+    "title": "Kel is used as generic information",
+    "originalSuggestion": "Make the example specifically about a text, use the established information term, or clarify the intended context."
+  },
+  "example_changes": [
+    {
+      "flag": "F034",
+      "entry_id": "PE-BSPI1-0038",
+      "before": {
+        "entry_id": "PE-BSPI1-0038",
+        "source_volume": "Built Spaces and Public Infrastructure 1",
+        "source_section": "Common Celan > LX-BSPI1-0019",
+        "page_number": "",
+        "celan_text": "dor mekral kel an belzhirkavor.",
+        "translation": "The technician puts information in the data center.",
+        "example_type": "Expansion example",
+        "analysis": "Machine-readable information placement.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support.",
+        "related_entry_ids": "LX-BSPI1-0019",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-BSPI1-0038",
+        "source_volume": "Built Spaces and Public Infrastructure 1",
+        "source_section": "Common Celan > LX-BSPI1-0019",
+        "page_number": "",
+        "celan_text": "dor mekral kel an belzhirkavor.",
+        "translation": "The technician puts an encoded text in the data center.",
+        "example_type": "Expansion example",
+        "analysis": "Machine-readable information placement.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F034: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-BSPI1-0019",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    }
+  ],
+  "current_displayed_senses": [
+    {
+      "headword": "Kel",
+      "senses": [
+        {
+          "type": "Verb",
+          "meaning": "Say / Talk (informal)",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V3-0012",
+            "LX-V4-0121",
+            "LX-SCP1-0001",
+            "XR-kel"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "Name",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V3-0012",
+            "LX-V4-0121",
+            "LX-SCP1-0001",
+            "XR-kel"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "Word",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V3-0012",
+            "LX-V4-0121",
+            "LX-SCP1-0001",
+            "XR-kel"
+          ]
+        },
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "A text; a connected body of written or encoded words rather than information or data generally",
+          "usage": "",
+          "sourceEntries": [
+            "LX-SCP1-0001"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Dava",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": true,
+          "meaning": "Information; meaningful content capable of being known communicated represented or stored",
+          "usage": "Builds the approved data record file database display signal transmission copying transfer saving search corruption encryption and interference vocabulary.",
+          "sourceEntries": [
+            "LX-ICAES1-0001",
+            "XR-dava"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

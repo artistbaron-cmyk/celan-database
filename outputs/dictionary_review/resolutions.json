@@ -1,0 +1,857 @@
+{
+  "F048": {
+    "decision_id": "ED-0036",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the user’s 50 exact example replacements; retained PE-UHEI1-0035 unchanged.",
+    "lookup_followup": [
+      "Shalilaen and Welaen occur in the approved replacements but have no standalone dictionary entries. No new headwords were added."
+    ],
+    "record": "F048_applied.json"
+  },
+  "F001": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F001.json"
+  },
+  "F002": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F002.json"
+  },
+  "F003": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F003.json"
+  },
+  "F004": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F004.json"
+  },
+  "F005": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F005.json"
+  },
+  "F006": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F006.json"
+  },
+  "F007": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F007.json"
+  },
+  "F008": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F008.json"
+  },
+  "F009": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F009.json"
+  },
+  "F010": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F010.json"
+  },
+  "F011": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F011.json"
+  },
+  "F012": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F012.json"
+  },
+  "F013": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F013.json"
+  },
+  "F014": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F014.json"
+  },
+  "F015": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F015.json"
+  },
+  "F016": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F016.json"
+  },
+  "F017": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F017.json"
+  },
+  "F018": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F018.json"
+  },
+  "F019": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved word labels and preserved the other established meanings.",
+    "lookup_followup": [],
+    "record": "integration/F019.json"
+  },
+  "F020": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+    "lookup_followup": [],
+    "record": "integration/F020.json"
+  },
+  "F021": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+    "lookup_followup": [],
+    "record": "integration/F021.json"
+  },
+  "F022": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+    "lookup_followup": [],
+    "record": "integration/F022.json"
+  },
+  "F023": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Replaced the standing verb with carrying/movement verbs in the three examples.",
+    "lookup_followup": [],
+    "record": "integration/F023.json"
+  },
+  "F024": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Used Emil for meal examples; the canvas example now says the home is made of canvas.",
+    "lookup_followup": [],
+    "record": "integration/F024.json"
+  },
+  "F025": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Used Shalor for the sanctuary place example and added the separately approved participant sense of -in.",
+    "lookup_followup": [],
+    "record": "integration/F025.json"
+  },
+  "F026": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved displayed senses or grammar decision; earlier meanings remain unless explicitly corrected.",
+    "lookup_followup": [],
+    "record": "integration/F026.json"
+  },
+  "F027": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Zhelvek retains Energy Bar and also means Energy carrier.",
+    "lookup_followup": [],
+    "record": "integration/F027.json"
+  },
+  "F028": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved displayed senses or grammar decision; earlier meanings remain unless explicitly corrected.",
+    "lookup_followup": [],
+    "record": "integration/F028.json"
+  },
+  "F029": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Kept Rema and corrected the English to face.",
+    "lookup_followup": [],
+    "record": "integration/F029.json"
+  },
+  "F030": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Corrected the English to The friend is still regaining consciousness.",
+    "lookup_followup": [],
+    "record": "integration/F030.json"
+  },
+  "F031": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved displayed senses or grammar decision; earlier meanings remain unless explicitly corrected.",
+    "lookup_followup": [],
+    "record": "integration/F031.json"
+  },
+  "F032": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Lianeth has separate Modal, Verb, and Adjective senses.",
+    "lookup_followup": [],
+    "record": "integration/F032.json"
+  },
+  "F033": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved displayed senses or grammar decision; earlier meanings remain unless explicitly corrected.",
+    "lookup_followup": [],
+    "record": "integration/F033.json"
+  },
+  "F034": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+    "lookup_followup": [],
+    "record": "integration/F034.json"
+  },
+  "F035": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+    "lookup_followup": [],
+    "record": "integration/F035.json"
+  },
+  "F036": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved displayed senses or grammar decision; earlier meanings remain unless explicitly corrected.",
+    "lookup_followup": [],
+    "record": "integration/F036.json"
+  },
+  "F037": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+    "lookup_followup": [],
+    "record": "integration/F037.json"
+  },
+  "F038": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Corrected under/behind prepositions, retained explicit family phrases, and preserved the newer F048 corrections.",
+    "lookup_followup": [],
+    "record": "integration/F038.json"
+  },
+  "F039": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+    "lookup_followup": [],
+    "record": "integration/F039.json"
+  },
+  "F040": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+    "lookup_followup": [],
+    "record": "integration/F040.json"
+  },
+  "F041": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+    "lookup_followup": [],
+    "record": "integration/F041.json"
+  },
+  "F042": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+    "lookup_followup": [],
+    "record": "integration/F042.json"
+  },
+  "F043": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+    "lookup_followup": [],
+    "record": "integration/F043.json"
+  },
+  "F044": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+    "lookup_followup": [],
+    "record": "integration/F044.json"
+  },
+  "F045": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved displayed senses or grammar decision; earlier meanings remain unless explicitly corrected.",
+    "lookup_followup": [],
+    "record": "integration/F045.json"
+  },
+  "F046": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved displayed senses or grammar decision; earlier meanings remain unless explicitly corrected.",
+    "lookup_followup": [],
+    "record": "integration/F046.json"
+  },
+  "F047": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the approved displayed senses or grammar decision; earlier meanings remain unless explicitly corrected.",
+    "lookup_followup": [],
+    "record": "integration/F047.json"
+  },
+  "F049": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Documented both approved multi-verb orders.",
+    "lookup_followup": [],
+    "record": "integration/F049.json"
+  },
+  "F050": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Applied the strict ka/-ka distinction and personal suffix rules, including the explicitly accepted La-ka kelvor.",
+    "lookup_followup": [],
+    "record": "integration/F050.json"
+  },
+  "F051": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Tera: Home / Dwelling / Homestead (informal form of Teremil).",
+    "lookup_followup": [],
+    "record": "integration/F051.json"
+  },
+  "F052": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Velkrel: Breeze / Cool breeze / Light wind.",
+    "lookup_followup": [
+      "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
+      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+    ],
+    "record": "integration/F052.json"
+  },
+  "F053": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Varan as a locative-stative verb; -al remains the universal continuous suffix.",
+    "lookup_followup": [
+      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+    ],
+    "record": "integration/F053.json"
+  },
+  "F054": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Shalil: To flow lightly / To move smoothly / To glide / To drift.",
+    "lookup_followup": [
+      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
+    ],
+    "record": "integration/F054.json"
+  },
+  "F055": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Serathrin: Confidant / Trusted inner friend / Sworn ally.",
+    "lookup_followup": [
+      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+    ],
+    "record": "integration/F055.json"
+  },
+  "F056": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Zhivor: Family line / Ancestral household / Kin group.",
+    "lookup_followup": [
+      "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
+      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+    ],
+    "record": "integration/F056.json"
+  },
+  "F057": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Tharvok: Family / Heart-bonded family / Clan.",
+    "lookup_followup": [],
+    "record": "integration/F057.json"
+  },
+  "F058": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Evan: Market / Marketplace / Trading plaza.",
+    "lookup_followup": [
+      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
+    ],
+    "record": "integration/F058.json"
+  },
+  "F059": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Shenakar: Coinage / Currency system / Official trade money.",
+    "lookup_followup": [
+      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
+    ],
+    "record": "integration/F059.json"
+  },
+  "F060": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Em: Um / Uh (hesitation or thinking particle).",
+    "lookup_followup": [
+      "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
+      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+    ],
+    "record": "integration/F060.json"
+  },
+  "F061": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Varin: To know / To be aware of.",
+    "lookup_followup": [
+      "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
+      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+    ],
+    "record": "integration/F061.json"
+  },
+  "F062": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Shena: Coin / Coins / Physical money.",
+    "lookup_followup": [
+      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
+    ],
+    "record": "integration/F062.json"
+  },
+  "F063": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Nkathal: Sadness / Grief / Sorrow / Enduring emotional pain.",
+    "lookup_followup": [
+      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+    ],
+    "record": "integration/F063.json"
+  },
+  "F064": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Thaar resolves to the existing Thar entry as an approved regional spelling.",
+    "lookup_followup": [],
+    "record": "integration/F064.json"
+  },
+  "F065": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Vrak: Gone / Missing / Depleted / Dry (Trerran dialect).",
+    "lookup_followup": [
+      "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
+      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+    ],
+    "record": "integration/F065.json"
+  },
+  "F066": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Theren: Village / Settlement / Local community.",
+    "lookup_followup": [
+      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
+    ],
+    "record": "integration/F066.json"
+  },
+  "F067": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Serilin with searchable variant serilín.",
+    "lookup_followup": [
+      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
+    ],
+    "record": "integration/F067.json"
+  },
+  "F068": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Aelin: Youth / Young person / Student / Pupil.",
+    "lookup_followup": [
+      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
+    ],
+    "record": "integration/F068.json"
+  },
+  "F069": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Im: Device / Instrument / Implement / Internal mechanism.",
+    "lookup_followup": [
+      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
+    ],
+    "record": "integration/F069.json"
+  },
+  "F070": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Dreshal: Crystal device / Crystal implement.",
+    "lookup_followup": [],
+    "record": "integration/F070.json"
+  },
+  "F071": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Serilin and serilín share one entry; no duplicate headword.",
+    "lookup_followup": [],
+    "record": "integration/F071.json"
+  },
+  "F072": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Varshel: Road / Travel path / Highway.",
+    "lookup_followup": [
+      "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
+      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+    ],
+    "record": "integration/F072.json"
+  },
+  "F073": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Eshvan: Shop / Store / Market stall.",
+    "lookup_followup": [],
+    "record": "integration/F073.json"
+  },
+  "F074": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Noraen: To guide / To lead through time or experience / To instruct.",
+    "lookup_followup": [
+      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+    ],
+    "record": "integration/F074.json"
+  },
+  "F075": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Thalesh: Ritual / Sacred balance ceremony.",
+    "lookup_followup": [
+      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+    ],
+    "record": "integration/F075.json"
+  },
+  "F076": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Thalor: Outside / Exterior / Outer place.",
+    "lookup_followup": [
+      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+    ],
+    "record": "integration/F076.json"
+  },
+  "F077": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Tharvinwek resolves to the existing Tharvin-Wek entry.",
+    "lookup_followup": [],
+    "record": "integration/F077.json"
+  },
+  "F078": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Corrected karvok to established Kavok.",
+    "lookup_followup": [],
+    "record": "integration/F078.json"
+  },
+  "F079": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Daraen: To wait / To pause / To remain pending.",
+    "lookup_followup": [],
+    "record": "integration/F079.json"
+  },
+  "F080": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Varral: Traveler / Wanderer / Person on a journey.",
+    "lookup_followup": [
+      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
+    ],
+    "record": "integration/F080.json"
+  },
+  "F081": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Karjor: Impact / Mechanical surge / Strike force / Burst of energy.",
+    "lookup_followup": [
+      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+    ],
+    "record": "integration/F081.json"
+  },
+  "F082": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Kavel: Forgetfulness / Memory gap / Loss of awareness.",
+    "lookup_followup": [
+      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+    ],
+    "record": "integration/F082.json"
+  },
+  "F083": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Vorkaral: Worker / Mechanic / Laborer / Tool-operator.",
+    "lookup_followup": [
+      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
+    ],
+    "record": "integration/F083.json"
+  },
+  "F084": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Noral as night/nighttime, preserving the night translations.",
+    "lookup_followup": [],
+    "record": "integration/F084.json"
+  },
+  "F085": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Khumrel: Compassion / Empathetic listening / Circle of care.",
+    "lookup_followup": [
+      "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
+      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+    ],
+    "record": "integration/F085.json"
+  },
+  "F086": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Terrarav: Pull of one's homeland / Yearning for home.",
+    "lookup_followup": [
+      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+    ],
+    "record": "integration/F086.json"
+  },
+  "F087": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added Zhirrathor: Thread to the past / Historical continuity / Lineage link.",
+    "lookup_followup": [
+      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+    ],
+    "record": "integration/F087.json"
+  },
+  "F088": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Corrected inline example extraction and added the two supplied Elan sentences.",
+    "lookup_followup": [],
+    "record": "integration/F088.json"
+  },
+  "F089": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Corrected inline example extraction and added the two supplied Thaal’ra sentences.",
+    "lookup_followup": [],
+    "record": "integration/F089.json"
+  },
+  "F090": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Corrected inline example extraction and added the supplied Kora sentences, using La-ka kelvor.",
+    "lookup_followup": [],
+    "record": "integration/F090.json"
+  },
+  "F091": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added all six translations and corrected the city sentence to Nor-var I an Varthas.",
+    "lookup_followup": [],
+    "record": "integration/F091.json"
+  },
+  "F092": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Separated teaching notes from translations; counterexamples and phonology illustrations are labeled.",
+    "lookup_followup": [],
+    "record": "integration/F092.json"
+  },
+  "F093": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Added the approved English pronoun glosses to displayed meanings and search.",
+    "lookup_followup": [],
+    "record": "integration/F093.json"
+  },
+  "F094": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Normalized apostrophes for search while preserving display spellings.",
+    "lookup_followup": [],
+    "record": "integration/F094.json"
+  },
+  "F095": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Root links now resolve exact entries or display a root explanation, without choosing a similar word.",
+    "lookup_followup": [],
+    "record": "integration/F095.json"
+  },
+  "F096": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Word families now use recorded parts rather than accidental letter matches.",
+    "lookup_followup": [],
+    "record": "integration/F096.json"
+  },
+  "F097": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Short recorded roots, including Mb, now appear in families.",
+    "lookup_followup": [],
+    "record": "integration/F097.json"
+  },
+  "F098": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Related words are drawn from meaningful roots, with shared affixes separated.",
+    "lookup_followup": [],
+    "record": "integration/F098.json"
+  },
+  "F099": {
+    "decision_id": "ED-0037 / ED-0038",
+    "date": "2026-09-22",
+    "status": "Applied locally",
+    "summary": "Explained combined root headings so readers do not mistake them for words to write.",
+    "lookup_followup": [],
+    "record": "integration/F099.json"
+  }
+}

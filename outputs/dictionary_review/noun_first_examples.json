@@ -1,0 +1,4676 @@
+{
+  "I": [
+    {
+      "celan": "I ka dren",
+      "english": "“My water”",
+      "ids": [
+        "PE-V1-0003"
+      ],
+      "headwords": [
+        "Dren",
+        "I",
+        "Ka"
+      ],
+      "visible_on": [
+        "Dren",
+        "I",
+        "Ka"
+      ],
+      "types": [
+        "Possession example"
+      ]
+    },
+    {
+      "celan": "I varin Aen Ya var dren.",
+      "english": "I know that you go to the water.",
+      "ids": [
+        "PE-V3-0022"
+      ],
+      "headwords": [
+        "Aen",
+        "Dren",
+        "I",
+        "Var",
+        "Ya"
+      ],
+      "visible_on": [
+        "Aen"
+      ],
+      "types": [
+        "Complex sentence example"
+      ]
+    },
+    {
+      "celan": "I dren shaleth ther La dren.",
+      "english": "My water is brighter than their water.",
+      "ids": [
+        "PE-V3-0025"
+      ],
+      "headwords": [
+        "Dren",
+        "I",
+        "La",
+        "Shaleth",
+        "Ther"
+      ],
+      "visible_on": [
+        "La",
+        "Shaleth",
+        "Ther"
+      ],
+      "types": [
+        "Complex sentence example"
+      ]
+    },
+    {
+      "celan": "I dren shaleth thaal.",
+      "english": "My water is the brightest.",
+      "ids": [
+        "PE-V3-0026"
+      ],
+      "headwords": [
+        "Dren",
+        "I",
+        "Shaleth",
+        "Thaal"
+      ],
+      "visible_on": [
+        "Shaleth",
+        "Thaal"
+      ],
+      "types": [
+        "Complex sentence example"
+      ]
+    },
+    {
+      "celan": "I dren shaleth thaal morldren.",
+      "english": "My water is the brightest of the mountain waters.",
+      "ids": [
+        "PE-V3-0027"
+      ],
+      "headwords": [
+        "Dren",
+        "I",
+        "Morldren",
+        "Shaleth",
+        "Thaal"
+      ],
+      "visible_on": [
+        "Morldren",
+        "Shaleth",
+        "Thaal"
+      ],
+      "types": [
+        "Complex sentence example"
+      ]
+    }
+  ],
+  "Kal": [
+    {
+      "celan": "Kal thar I tera.",
+      "english": "My heart is strong at home.",
+      "ids": [
+        "PE-V3-0148"
+      ],
+      "headwords": [
+        "I",
+        "Kal",
+        "Thar"
+      ],
+      "visible_on": [
+        "Thar"
+      ],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Kal ohm Kadron ian",
+      "english": "My strong friend who is a man.",
+      "ids": [
+        "PE-V1-0006"
+      ],
+      "headwords": [
+        "Ian",
+        "Kadron",
+        "Kal",
+        "Ohm"
+      ],
+      "visible_on": [
+        "Ian",
+        "Kadron",
+        "Kal",
+        "Ohm"
+      ],
+      "types": [
+        "Usage example"
+      ]
+    },
+    {
+      "celan": "Kal Ekor Kadron.",
+      "english": "Strengthens Each Man.",
+      "ids": [
+        "PE-V2-0131"
+      ],
+      "headwords": [
+        "Ekor",
+        "Kadron",
+        "Kal"
+      ],
+      "visible_on": [
+        "Ekor",
+        "Kadron"
+      ],
+      "types": [
+        "Quantifier example"
+      ]
+    },
+    {
+      "celan": "Kal var morl.",
+      "english": "Strength comes from stone.",
+      "ids": [
+        "PE-V3-0085"
+      ],
+      "headwords": [
+        "Kal",
+        "Morl",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "Trerran phrase"
+      ]
+    },
+    {
+      "celan": "Kal thar, morl lorin ser.",
+      "english": "Strength of heart, the mountain guides us.",
+      "ids": [
+        "PE-V3-0083"
+      ],
+      "headwords": [
+        "Kal",
+        "Lorin",
+        "Morl",
+        "Ser",
+        "Thar"
+      ],
+      "visible_on": [
+        "Lorin",
+        "Thar"
+      ],
+      "types": [
+        "Arvan phrase"
+      ]
+    },
+    {
+      "celan": "Kal Kalor an Reth.",
+      "english": "True strength/spirit is shown when facing the unknown or confusion.",
+      "ids": [
+        "PE-V3-0078"
+      ],
+      "headwords": [
+        "An",
+        "Kal",
+        "Kalor",
+        "Reth"
+      ],
+      "visible_on": [
+        "Kalor",
+        "Reth"
+      ],
+      "types": [
+        "Idiom/Proverb"
+      ]
+    },
+    {
+      "celan": "Kal Belvok nor Rathor.",
+      "english": "Family bonds are strengthened by remembering shared history/ancestors.",
+      "ids": [
+        "PE-V3-0072"
+      ],
+      "headwords": [
+        "Belvok",
+        "Kal",
+        "Nor",
+        "Rathor"
+      ],
+      "visible_on": [
+        "Rathor"
+      ],
+      "types": [
+        "Idiom/Proverb"
+      ]
+    },
+    {
+      "celan": "Kal Ilinor Terra.",
+      "english": "Strengthens the whole World.",
+      "ids": [
+        "PE-V2-0124"
+      ],
+      "headwords": [
+        "Ilinor",
+        "Kal",
+        "Terra"
+      ],
+      "visible_on": [
+        "Ilinor",
+        "Terra"
+      ],
+      "types": [
+        "Quantifier example"
+      ]
+    },
+    {
+      "celan": "Kal melen dren.",
+      "english": "Strengthens much water.",
+      "ids": [
+        "PE-V2-0128"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Melen"
+      ],
+      "visible_on": [
+        "Melen"
+      ],
+      "types": [
+        "Quantifier example"
+      ]
+    },
+    {
+      "celan": "kal balpral belvok.",
+      "english": "Farming strengthens the family.",
+      "ids": [
+        "PE-FAP1-0001"
+      ],
+      "headwords": [
+        "Balpral",
+        "Belvok",
+        "Kal"
+      ],
+      "visible_on": [
+        "Balpral"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  "Bren": [
+    {
+      "celan": "bren I mahrfennil.",
+      "english": "I harvest seaweed.",
+      "ids": [
+        "PE-FAP1-0033"
+      ],
+      "headwords": [
+        "Bren",
+        "I",
+        "Mahrfennil"
+      ],
+      "visible_on": [
+        "Bren",
+        "Mahrfennil"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "bren I felverd.",
+      "english": "I gather moss.",
+      "ids": [
+        "PE-FAP1-0048"
+      ],
+      "headwords": [
+        "Bren",
+        "Felverd",
+        "I"
+      ],
+      "visible_on": [
+        "Bren",
+        "Felverd"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "bren I nelar.",
+      "english": "I gather nectar.",
+      "ids": [
+        "PE-FAP1-0052"
+      ],
+      "headwords": [
+        "Bren",
+        "I",
+        "Nelar"
+      ],
+      "visible_on": [
+        "Nelar"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "bren zhaelral morlverd.",
+      "english": "The healer gathers lichen.",
+      "ids": [
+        "PE-FAP1-0050"
+      ],
+      "headwords": [
+        "Bren",
+        "Morlverd",
+        "Zhaelral"
+      ],
+      "visible_on": [
+        "Morlverd"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "bren balral vilorsov.",
+      "english": "The farmer harvests the orchard.",
+      "ids": [
+        "PE-FAP1-0018"
+      ],
+      "headwords": [
+        "Balral",
+        "Bren",
+        "Vilorsov"
+      ],
+      "visible_on": [
+        "Bren",
+        "Vilorsov"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  "Shen": [
+    {
+      "celan": "shen I pirin.",
+      "english": "I count the fingers.",
+      "ids": [
+        "PE-BIAOBF1-0018"
+      ],
+      "headwords": [
+        "I",
+        "Pir",
+        "Shen"
+      ],
+      "visible_on": [
+        "Pir"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "shen lorin eshweknor ser drenesh.",
+      "english": "The scholar measures climate through cloud patterns.",
+      "ids": [
+        "PE-EGE1-0020"
+      ],
+      "headwords": [
+        "Drenesh",
+        "Eshweknor",
+        "Lorin",
+        "Ser",
+        "Shen"
+      ],
+      "visible_on": [
+        "Drenesh",
+        "Eshweknor",
+        "Shen"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "shen lorin felsadar ser krezshen.",
+      "english": "The scholar measures the silt and temperature.",
+      "ids": [
+        "PE-EGE1-0031"
+      ],
+      "headwords": [
+        "Felsadar",
+        "Krezshen",
+        "Lorin",
+        "Ser",
+        "Shen"
+      ],
+      "visible_on": [
+        "Felsadar",
+        "Krezshen"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "shen lorin welnali ser kornali.",
+      "english": "The scholar measures the population of the native species.",
+      "ids": [
+        "PE-EGE1-0046"
+      ],
+      "headwords": [
+        "Kornali",
+        "Lorin",
+        "Ser",
+        "Shen",
+        "Welnali"
+      ],
+      "visible_on": [
+        "Kornali",
+        "Welnali"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "shen shenral kalrav voraeth ser wek luneth.",
+      "english": "The researcher measures planetary gravity and the lunar cycle.",
+      "ids": [
+        "PE-SAC1-0009"
+      ],
+      "headwords": [
+        "Kalrav",
+        "Luneth",
+        "Ser",
+        "Shen",
+        "Shenral",
+        "Voraeth",
+        "Wek"
+      ],
+      "visible_on": [
+        "Kalrav",
+        "Luneth",
+        "Voraeth",
+        "Wek"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "shen shenral felvora ser zhirnyel.",
+      "english": "The researcher measures the asteroid and the comet.",
+      "ids": [
+        "PE-SAC1-0019"
+      ],
+      "headwords": [
+        "Felvora",
+        "Ser",
+        "Shen",
+        "Shenral",
+        "Zhirnyel"
+      ],
+      "visible_on": [
+        "Felvora",
+        "Zhirnyel"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "shen shenral sivshenlian ser rethshen.",
+      "english": "The researcher measures the control condition and the probability.",
+      "ids": [
+        "PE-SAC1-0044"
+      ],
+      "headwords": [
+        "Rethshen",
+        "Ser",
+        "Shen",
+        "Shenral",
+        "Sivshenlian"
+      ],
+      "visible_on": [
+        "Rethshen",
+        "Sivshenlian"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "shen shenral shal nyeleth thal nyel.",
+      "english": "The researcher measures stellar light from a star.",
+      "ids": [
+        "PE-SAC1-0005"
+      ],
+      "headwords": [
+        "Nyel",
+        "Nyeleth",
+        "Shal",
+        "Shen",
+        "Shenral",
+        "Thal"
+      ],
+      "visible_on": [
+        "Nyel",
+        "Nyeleth"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "shen zhaelral krezshen an verdin.",
+      "english": "The healer measures the plant's temperature.",
+      "ids": [
+        "PE-EGE1-0032"
+      ],
+      "headwords": [
+        "An",
+        "Krezshen",
+        "Shen",
+        "Verdin",
+        "Zhaelral"
+      ],
+      "visible_on": [
+        "Krezshen",
+        "Verdin"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "shen lorbel sul; rinaen worsul an kavvek.",
+      "english": "The government measures the resources; abundance fills the stores.",
+      "ids": [
+        "PE-EGE1-0067"
+      ],
+      "headwords": [
+        "An",
+        "Kavvek",
+        "Lorbel",
+        "Rinaen",
+        "Shen",
+        "Sul",
+        "Worsul"
+      ],
+      "visible_on": [
+        "Sul",
+        "Worsul"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "shen mekral ravzhel an zhelshara.",
+      "english": "The technician measures voltage in the circuit.",
+      "ids": [
+        "PE-ICAES1-0037"
+      ],
+      "headwords": [
+        "An",
+        "Mekral",
+        "Ravzhel",
+        "Shen",
+        "Zhelshara"
+      ],
+      "visible_on": [
+        "Ravzhel",
+        "Zhelshara"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "shen shenral ravwek; ravwekaen Lun an Vora.",
+      "english": "The researcher measures the orbit; the moon orbits the planet.",
+      "ids": [
+        "PE-SAC1-0014"
+      ],
+      "headwords": [
+        "An",
+        "Lun",
+        "Ravwek",
+        "Ravwekaen",
+        "Shen",
+        "Shenral",
+        "Vora"
+      ],
+      "visible_on": [
+        "Ravwek",
+        "Ravwekaen",
+        "Vora"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "shen zhaelral zhaelshen.",
+      "english": "The healer measures the dose.",
+      "ids": [
+        "PE-HTS1-0027"
+      ],
+      "headwords": [
+        "Shen",
+        "Zhaelral",
+        "Zhaelshen"
+      ],
+      "visible_on": [
+        "Shen",
+        "Zhaelshen"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "shen zhaelral mavkrez.",
+      "english": "The healer measures the fever.",
+      "ids": [
+        "PE-HTS1-0032"
+      ],
+      "headwords": [
+        "Mavkrez",
+        "Shen",
+        "Zhaelral"
+      ],
+      "visible_on": [
+        "Mavkrez",
+        "Shen"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "shen kesmek eshdren shalnor kadro.",
+      "english": "The instrument measures humidity before the drought.",
+      "ids": [
+        "PE-EGE1-0024"
+      ],
+      "headwords": [
+        "Eshdren",
+        "Kadro",
+        "Kesmek",
+        "Shalnor",
+        "Shen"
+      ],
+      "visible_on": [
+        "Eshdren",
+        "Kadro",
+        "Kesmek"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "shen shenral morshen felmor.",
+      "english": "The researcher measures the mass of the dust.",
+      "ids": [
+        "PE-SAC1-0024"
+      ],
+      "headwords": [
+        "Felmor",
+        "Morshen",
+        "Shen",
+        "Shenral"
+      ],
+      "visible_on": [
+        "Felmor",
+        "Morshen"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "shen dralshen morshen Vora.",
+      "english": "Astronomy measures the mass of the planet.",
+      "ids": [
+        "PE-SAC1-0025"
+      ],
+      "headwords": [
+        "Dralshen",
+        "Morshen",
+        "Shen",
+        "Vora"
+      ],
+      "visible_on": [
+        "Dralshen",
+        "Morshen"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  "Vanesh": [
+    {
+      "celan": "Vanesh Ilin ka-shen lialor.",
+      "english": "We trade via barter indeed.",
+      "ids": [
+        "PE-V2-0050"
+      ],
+      "headwords": [
+        "Ilin",
+        "Ka",
+        "Ka-Shen",
+        "Lialor",
+        "Shen",
+        "Vanesh"
+      ],
+      "visible_on": [
+        "Ilin",
+        "Ka",
+        "Ka-Shen",
+        "Lialor",
+        "Shen",
+        "Vanesh"
+      ],
+      "types": [
+        "Jargon example"
+      ]
+    },
+    {
+      "celan": "Vanesh ser varadan shenakar.",
+      "english": "Trade with the merchant's coinage.",
+      "ids": [
+        "PE-V3-0143"
+      ],
+      "headwords": [
+        "Ser",
+        "Vanesh",
+        "Varadan"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "vanesh varadan nor rathnor.",
+      "english": "The merchant trades during the war.",
+      "ids": [
+        "PE-OC1-0026"
+      ],
+      "headwords": [
+        "Nor",
+        "Rathnor",
+        "Vanesh",
+        "Varadan"
+      ],
+      "visible_on": [
+        "Rathnor"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  "Ya": [
+    {
+      "celan": "Ya tera",
+      "english": "“Your home” (singular)",
+      "ids": [
+        "PE-V1-0004"
+      ],
+      "headwords": [
+        "Ya"
+      ],
+      "visible_on": [
+        "Ya"
+      ],
+      "types": [
+        "Possession example"
+      ]
+    }
+  ],
+  "Xar": [
+    {
+      "celan": "xar zor zornethor shalnor wekvaraen la.",
+      "english": "The animal shelters its nest before it migrates.",
+      "ids": [
+        "PE-EGE1-0055"
+      ],
+      "headwords": [
+        "La",
+        "Shalnor",
+        "Wekvaraen",
+        "Xar",
+        "Zor",
+        "Zornethor"
+      ],
+      "visible_on": [
+        "Wekvaraen",
+        "Xar",
+        "Zornethor"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "xar kesvar shara thal morljor ser sadarjor.",
+      "english": "The patrol closes the route because of landslide and sandstorm.",
+      "ids": [
+        "PE-EGE1-0028"
+      ],
+      "headwords": [
+        "Kesvar",
+        "Morljor",
+        "Sadarjor",
+        "Ser",
+        "Shara",
+        "Thal",
+        "Xar"
+      ],
+      "visible_on": [
+        "Morljor",
+        "Sadarjor",
+        "Xar"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  "Jor": [
+    {
+      "celan": "jor shantham an arural; nor kes la ohmreth.",
+      "english": "Backlash strikes the practitioner; then they detect attunement disruption.",
+      "ids": [
+        "PE-GMMP1-0051"
+      ],
+      "headwords": [
+        "An",
+        "Arural",
+        "Jor",
+        "Kes",
+        "La",
+        "Nor",
+        "Ohmreth",
+        "Shantham"
+      ],
+      "visible_on": [
+        "Ohmreth",
+        "Shantham"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "jor rathshannali an nalior; var nali var dumanali.",
+      "english": "The invasive species spreads in the habitat; another species moves toward extinction.",
+      "ids": [
+        "PE-EGE1-0049"
+      ],
+      "headwords": [
+        "An",
+        "Dumanali",
+        "Jor",
+        "Nali",
+        "Nalior",
+        "Rathshannali",
+        "Var"
+      ],
+      "visible_on": [
+        "Dumanali",
+        "Nali",
+        "Nalior",
+        "Rathshannali"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "jor emilbel nor terramav an ohmshal.",
+      "english": "The food web changes when environmental degradation affects the ecosystem.",
+      "ids": [
+        "PE-EGE1-0058"
+      ],
+      "headwords": [
+        "An",
+        "Emilbel",
+        "Jor",
+        "Nor",
+        "Ohmshal",
+        "Terramav"
+      ],
+      "visible_on": [
+        "Emilbel",
+        "Ohmshal",
+        "Terramav"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "jor mahrwel nor eshnor.",
+      "english": "The current surges during the weather change.",
+      "ids": [
+        "PE-EGE1-0018"
+      ],
+      "headwords": [
+        "Eshnor",
+        "Jor",
+        "Mahrwel",
+        "Nor"
+      ],
+      "visible_on": [
+        "Eshnor",
+        "Jor",
+        "Mahrwel"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "jor kadro; nor, jor drenrek.",
+      "english": "Drought intensifies; later, a flood rises.",
+      "ids": [
+        "PE-EGE1-0025"
+      ],
+      "headwords": [
+        "Drenrek",
+        "Jor",
+        "Kadro",
+        "Nor"
+      ],
+      "visible_on": [
+        "Drenrek",
+        "Jor",
+        "Kadro"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "jor ohmshal nor fel rinaen welnali.",
+      "english": "The ecosystem changes when the population is small.",
+      "ids": [
+        "PE-EGE1-0045"
+      ],
+      "headwords": [
+        "Fel",
+        "Jor",
+        "Nor",
+        "Ohmshal",
+        "Rinaen",
+        "Welnali"
+      ],
+      "visible_on": [
+        "Fel",
+        "Ohmshal",
+        "Welnali"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "jor mira nor rethpral.",
+      "english": "Embarrassment arose after the mistake.",
+      "ids": [
+        "PE-UHEI1-0027"
+      ],
+      "headwords": [
+        "Jor",
+        "Mira",
+        "Nor",
+        "Rethpral"
+      ],
+      "visible_on": [
+        "Mira",
+        "Rethpral"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "jor eshnor; kavel rinaen eshweknor.",
+      "english": "Weather changes, while climate endures.",
+      "ids": [
+        "PE-EGE1-0019"
+      ],
+      "headwords": [
+        "Eshnor",
+        "Eshweknor",
+        "Jor",
+        "Rinaen"
+      ],
+      "visible_on": [
+        "Eshnor",
+        "Eshweknor",
+        "Jor"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  "Kadron": [
+    {
+      "celan": "Kadron var thal nor",
+      "english": "The man stands in balance with time.",
+      "ids": [
+        "PE-V1-0016"
+      ],
+      "headwords": [
+        "Kadron",
+        "Nor",
+        "Thal",
+        "Var"
+      ],
+      "visible_on": [
+        "Kadron",
+        "Nor",
+        "Thal",
+        "Var"
+      ],
+      "types": [
+        "Usage example"
+      ]
+    }
+  ],
+  "Azron": [
+    {
+      "celan": "Azron nor shal",
+      "english": "The woman flows with the light.",
+      "ids": [
+        "PE-V1-0007"
+      ],
+      "headwords": [
+        "Azron",
+        "Nor",
+        "Shal"
+      ],
+      "visible_on": [
+        "Azron",
+        "Nor",
+        "Shal"
+      ],
+      "types": [
+        "Usage example"
+      ]
+    }
+  ],
+  "Theon": [
+    {
+      "celan": "Theon dren kal thal",
+      "english": "The neutral person brings strength and balance.",
+      "ids": [
+        "PE-V1-0008"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Thal",
+        "Theon"
+      ],
+      "visible_on": [
+        "Dren",
+        "Kal",
+        "Thal",
+        "Theon"
+      ],
+      "types": [
+        "Usage example"
+      ]
+    },
+    {
+      "celan": "Theon ian kal nor dren",
+      "english": "My neutral companion flows with the water.",
+      "ids": [
+        "PE-V1-0011"
+      ],
+      "headwords": [
+        "Dren",
+        "Ian",
+        "Kal",
+        "Nor",
+        "Theon"
+      ],
+      "visible_on": [
+        "Dren",
+        "Ian",
+        "Kal",
+        "Nor",
+        "Theon"
+      ],
+      "types": [
+        "Usage example"
+      ]
+    }
+  ],
+  "Kadfel": [
+    {
+      "celan": "Kadfel ohmbaen",
+      "english": "Beloved boy.",
+      "ids": [
+        "PE-V1-0009"
+      ],
+      "headwords": [
+        "Kadfel",
+        "Ohmbaen"
+      ],
+      "visible_on": [
+        "Kadfel",
+        "Ohmbaen"
+      ],
+      "types": [
+        "Usage example"
+      ]
+    }
+  ],
+  "Azfel": [
+    {
+      "celan": "Azfel kal dren morl",
+      "english": "The girl brings strength to the flowing mountain.",
+      "ids": [
+        "PE-V1-0015"
+      ],
+      "headwords": [
+        "Azfel",
+        "Dren",
+        "Kal",
+        "Morl"
+      ],
+      "visible_on": [
+        "Azfel",
+        "Dren",
+        "Kal",
+        "Morl"
+      ],
+      "types": [
+        "Usage example"
+      ]
+    }
+  ],
+  "Theefel": [
+    {
+      "celan": "Theefel pralmor an shal",
+      "english": "The neutral child creates with the light.",
+      "ids": [
+        "PE-V1-0012"
+      ],
+      "headwords": [
+        "An",
+        "Pralmor",
+        "Shal",
+        "Theefel"
+      ],
+      "visible_on": [
+        "An",
+        "Pralmor",
+        "Shal",
+        "Theefel"
+      ],
+      "types": [
+        "Usage example"
+      ]
+    }
+  ],
+  "Azon": [
+    {
+      "celan": "Azon nor velkrel",
+      "english": "A feminine man near the breeze.",
+      "ids": [
+        "PE-V1-0010"
+      ],
+      "headwords": [
+        "Azon",
+        "Nor"
+      ],
+      "visible_on": [
+        "Azon",
+        "Nor"
+      ],
+      "types": [
+        "Usage example"
+      ]
+    }
+  ],
+  "Balrin": [
+    {
+      "celan": "Balrin var dren.",
+      "english": "The sprouting food grows by the water.",
+      "ids": [
+        "PE-V2-0011"
+      ],
+      "headwords": [
+        "Bal",
+        "Balrin",
+        "Dren",
+        "Var"
+      ],
+      "visible_on": [
+        "Bal",
+        "Balrin"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    }
+  ],
+  "Peldren": [
+    {
+      "celan": "Peldren var shal.",
+      "english": "The piercing water flows under the light.",
+      "ids": [
+        "PE-V2-0016"
+      ],
+      "headwords": [
+        "Pel",
+        "Peldren",
+        "Shal",
+        "Var"
+      ],
+      "visible_on": [
+        "Pel",
+        "Peldren"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    }
+  ],
+  "Khumlor": [
+    {
+      "celan": "Khumlor var dren.",
+      "english": "The family gathers by the water.",
+      "ids": [
+        "PE-V2-0031"
+      ],
+      "headwords": [
+        "Dren",
+        "Khumlor",
+        "Var"
+      ],
+      "visible_on": [
+        "Khumlor"
+      ],
+      "types": [
+        "Relationship example"
+      ]
+    }
+  ],
+  "Teravin": [
+    {
+      "celan": "Teravin var dren.",
+      "english": "The root vegetable grows by the water.",
+      "ids": [
+        "PE-V2-0054"
+      ],
+      "headwords": [
+        "Dren",
+        "Teravin",
+        "Var"
+      ],
+      "visible_on": [
+        "Teravin"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    }
+  ],
+  "Ilinor": [
+    {
+      "celan": "Ilinor Serin var.",
+      "english": "All the Friends go.",
+      "ids": [
+        "PE-V2-0123"
+      ],
+      "headwords": [
+        "Ilinor",
+        "Serin",
+        "Var"
+      ],
+      "visible_on": [
+        "Ilinor",
+        "Serin"
+      ],
+      "types": [
+        "Quantifier example"
+      ]
+    }
+  ],
+  "Liorin": [
+    {
+      "celan": "Liorin aelin var tera emil.",
+      "english": "The teacher leads the youth home for food.",
+      "ids": [
+        "PE-V3-0113"
+      ],
+      "headwords": [
+        "Emil",
+        "Liorin",
+        "Var"
+      ],
+      "visible_on": [
+        "Liorin"
+      ],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Liorin noraen var dren kal.",
+      "english": "The elders guide us to water with strength.",
+      "ids": [
+        "PE-V3-0132"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Liorin",
+        "Var"
+      ],
+      "visible_on": [
+        "Liorin"
+      ],
+      "types": [
+        "National sample phrase"
+      ]
+    }
+  ],
+  "Varadan": [
+    {
+      "celan": "Varadan nor var vanesh ser.",
+      "english": "The merchant will trade with you.",
+      "ids": [
+        "PE-V3-0118"
+      ],
+      "headwords": [
+        "Nor",
+        "Ser",
+        "Vanesh",
+        "Var",
+        "Varadan"
+      ],
+      "visible_on": [
+        "Varadan"
+      ],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Varadan nor-var ser shenakar.",
+      "english": "The merchant will come to you with coinage.",
+      "ids": [
+        "PE-V3-0131"
+      ],
+      "headwords": [
+        "Nor",
+        "Ser",
+        "Var",
+        "Varadan"
+      ],
+      "visible_on": [
+        "Varadan"
+      ],
+      "types": [
+        "National sample phrase"
+      ]
+    }
+  ],
+  "Emil": [
+    {
+      "celan": "Emil ka shena, var Eshvan nor.",
+      "english": "No food coins? I will go to the shop soon.",
+      "ids": [
+        "PE-V3-0128"
+      ],
+      "headwords": [
+        "Emil",
+        "Ka",
+        "Nor",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Emil teremil ka var?",
+      "english": "Is the meal at home not ready?",
+      "ids": [
+        "PE-V3-0145"
+      ],
+      "headwords": [
+        "Emil",
+        "Ka",
+        "Teremil",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    }
+  ],
+  "Lumor": [
+    {
+      "celan": "Lumor var ser dren.",
+      "english": "Carry the talisman to the water.",
+      "ids": [
+        "PE-V3-0135"
+      ],
+      "headwords": [
+        "Dren",
+        "Lumor",
+        "Ser",
+        "Var"
+      ],
+      "visible_on": [
+        "Lumor"
+      ],
+      "types": [
+        "National sample phrase"
+      ]
+    }
+  ],
+  "Welrim": [
+    {
+      "celan": "Welrim ser dren an Serin.",
+      "english": "The feast is shared with friends and water.",
+      "ids": [
+        "PE-V2-0023"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Ser",
+        "Serin",
+        "Wel",
+        "Welrim"
+      ],
+      "visible_on": [
+        "Serin",
+        "Wel",
+        "Welrim"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    },
+    {
+      "celan": "Welrim kal dren.",
+      "english": "The feast strengthens by the water.",
+      "ids": [
+        "PE-V2-0058"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Welrim"
+      ],
+      "visible_on": [
+        "Welrim"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    }
+  ],
+  "Nkuvath": [
+    {
+      "celan": "Nkuvath shal dren ser serathrin.",
+      "english": "The bond flows to the confidant.",
+      "ids": [
+        "PE-V2-0032"
+      ],
+      "headwords": [
+        "Dren",
+        "Nkuvath",
+        "Ser",
+        "Shal"
+      ],
+      "visible_on": [
+        "Nkuvath"
+      ],
+      "types": [
+        "Relationship example"
+      ]
+    }
+  ],
+  "Mbalan": [
+    {
+      "celan": "Mbalan ser dren an Varthas.",
+      "english": "The community leader stands by the water in the city.",
+      "ids": [
+        "PE-V2-0033"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Mbalan",
+        "Ser",
+        "Varthas"
+      ],
+      "visible_on": [
+        "Mbalan",
+        "Varthas"
+      ],
+      "types": [
+        "Relationship example"
+      ]
+    }
+  ],
+  "Nkural": [
+    {
+      "celan": "Nkural nor dren ser Ilan.",
+      "english": "The mentor rests by the water with the student.",
+      "ids": [
+        "PE-V2-0034"
+      ],
+      "headwords": [
+        "Dren",
+        "Ilan",
+        "Nkural",
+        "Nor",
+        "Ser"
+      ],
+      "visible_on": [
+        "Ilan",
+        "Nkural"
+      ],
+      "types": [
+        "Relationship example"
+      ]
+    }
+  ],
+  "Tlankor": [
+    {
+      "celan": "Tlankor kal dren ser Serin.",
+      "english": "The ally strengthens by the water with friends.",
+      "ids": [
+        "PE-V2-0035"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Ser",
+        "Serin",
+        "Tlankor"
+      ],
+      "visible_on": [
+        "Serin",
+        "Tlankor"
+      ],
+      "types": [
+        "Relationship example"
+      ]
+    }
+  ],
+  "Tlakhura": [
+    {
+      "celan": "Tlakhura shal dren ser Zhivor.",
+      "english": "A bond flows with the family.",
+      "ids": [
+        "PE-V2-0036"
+      ],
+      "headwords": [
+        "Dren",
+        "Ser",
+        "Shal",
+        "Tlakhura"
+      ],
+      "visible_on": [
+        "Tlakhura"
+      ],
+      "types": [
+        "Relationship example"
+      ]
+    }
+  ],
+  "Jorvak": [
+    {
+      "celan": "Jorvak ser dren.",
+      "english": "The bursting stew is shared by the water.",
+      "ids": [
+        "PE-V2-0057"
+      ],
+      "headwords": [
+        "Dren",
+        "Jorvak",
+        "Ser"
+      ],
+      "visible_on": [
+        "Jorvak"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    },
+    {
+      "celan": "Jorvak kal dren.",
+      "english": "The warmth strengthens by the water.",
+      "ids": [
+        "PE-V2-0019"
+      ],
+      "headwords": [
+        "Dren",
+        "Jor",
+        "Jorvak",
+        "Kal"
+      ],
+      "visible_on": [
+        "Jor",
+        "Jorvak"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    }
+  ],
+  "Morlak": [
+    {
+      "celan": "Morlak an Jorvak ser dren.",
+      "english": "The bread and stew are shared by the water.",
+      "ids": [
+        "PE-V2-0072"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Jorvak",
+        "Morlak",
+        "Ser"
+      ],
+      "visible_on": [
+        "Jorvak",
+        "Morlak"
+      ],
+      "types": [
+        "Food sample sentence"
+      ]
+    },
+    {
+      "celan": "Morlak nor dren.",
+      "english": "The bread rests by the water.",
+      "ids": [
+        "PE-V2-0052"
+      ],
+      "headwords": [
+        "Dren",
+        "Morlak",
+        "Nor"
+      ],
+      "visible_on": [
+        "Morlak"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    }
+  ],
+  "Jekvarin": [
+    {
+      "celan": "Jekvarin ser dren.",
+      "english": "The shellfish is shared by the water.",
+      "ids": [
+        "PE-V2-0083"
+      ],
+      "headwords": [
+        "Dren",
+        "Jekvarin",
+        "Ser"
+      ],
+      "visible_on": [
+        "Jekvarin"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Terafennil": [
+    {
+      "celan": "Terafennil ser dren an Teremil.",
+      "english": "The herb stew is shared with water at home.",
+      "ids": [
+        "PE-V2-0086"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Ser",
+        "Terafennil",
+        "Teremil"
+      ],
+      "visible_on": [
+        "Terafennil",
+        "Teremil"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Vethsoril": [
+    {
+      "celan": "Vethsoril ser dren.",
+      "english": "The stew is shared with water.",
+      "ids": [
+        "PE-V2-0102"
+      ],
+      "headwords": [
+        "Dren",
+        "Ser",
+        "Vethsoril"
+      ],
+      "visible_on": [
+        "Vethsoril"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Felka": [
+    {
+      "celan": "Felka ser dren an Tavan.",
+      "english": "The child is with the parent by the water.",
+      "ids": [
+        "PE-V3-0031"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Felka",
+        "Ser",
+        "Tavan"
+      ],
+      "visible_on": [
+        "Felka",
+        "Tavan"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Pralin": [
+    {
+      "celan": "Pralin ser dren thal morl.",
+      "english": "The cousin is by the water under the mountain.",
+      "ids": [
+        "PE-V3-0034"
+      ],
+      "headwords": [
+        "Dren",
+        "Morl",
+        "Pralin",
+        "Ser",
+        "Thal"
+      ],
+      "visible_on": [
+        "Pralin"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Belvok": [
+    {
+      "celan": "Belvok ser dren an Teremil.",
+      "english": "The family is together at home by the water.",
+      "ids": [
+        "PE-V3-0036"
+      ],
+      "headwords": [
+        "An",
+        "Belvok",
+        "Dren",
+        "Ser",
+        "Teremil"
+      ],
+      "visible_on": [
+        "Belvok",
+        "Teremil"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Xarvethral": [
+    {
+      "celan": "Xarvethral ser Felka thal dren.",
+      "english": "The adoptive parent is with the child by the water.",
+      "ids": [
+        "PE-V3-0037"
+      ],
+      "headwords": [
+        "Dren",
+        "Felka",
+        "Ser",
+        "Thal",
+        "Xarvethral"
+      ],
+      "visible_on": [
+        "Felka",
+        "Xarvethral"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Kalvok": [
+    {
+      "celan": "Kalvok ser Belvok an Teremil.",
+      "english": "The partner is with the family at home.",
+      "ids": [
+        "PE-V3-0040"
+      ],
+      "headwords": [
+        "An",
+        "Belvok",
+        "Kalvok",
+        "Ser",
+        "Teremil"
+      ],
+      "visible_on": [
+        "Belvok",
+        "Kalvok",
+        "Teremil"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    },
+    {
+      "celan": "Kalvok; Kalrath; Rethlian",
+      "english": "Smooth clusters",
+      "ids": [
+        "PE-S1-0009"
+      ],
+      "headwords": [
+        "Kalrath",
+        "Kalvok",
+        "Rethlian"
+      ],
+      "visible_on": [
+        "Kalrath",
+        "Kalvok",
+        "Rethlian"
+      ],
+      "types": [
+        "Smooth cluster example"
+      ]
+    }
+  ],
+  "Tavrel": [
+    {
+      "celan": "Tavrel ser dren thal Felka.",
+      "english": "The uncle/aunt is by the water with the child.",
+      "ids": [
+        "PE-V3-0042"
+      ],
+      "headwords": [
+        "Dren",
+        "Felka",
+        "Ser",
+        "Tavrel",
+        "Thal"
+      ],
+      "visible_on": [
+        "Felka",
+        "Tavrel"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Zharin": [
+    {
+      "celan": "Zharin ser dren thal Tharvok.",
+      "english": "The distant relative is by the water under the family.",
+      "ids": [
+        "PE-V3-0044"
+      ],
+      "headwords": [
+        "Dren",
+        "Ser",
+        "Thal",
+        "Zharin"
+      ],
+      "visible_on": [
+        "Zharin"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Kalvokesh": [
+    {
+      "celan": "Kalvokesh ser dren an Belvok.",
+      "english": "The spouse's family is by the water with the unified family.",
+      "ids": [
+        "PE-V3-0046"
+      ],
+      "headwords": [
+        "An",
+        "Belvok",
+        "Dren",
+        "Kalvokesh",
+        "Ser"
+      ],
+      "visible_on": [
+        "Belvok",
+        "Kalvokesh"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Zhirkalor": [
+    {
+      "celan": "Zhirkalor ser dren.",
+      "english": "The partner by lineage is with the water.",
+      "ids": [
+        "PE-V3-0047"
+      ],
+      "headwords": [
+        "Dren",
+        "Ser",
+        "Zhirkalor"
+      ],
+      "visible_on": [
+        "Zhirkalor"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Xarfelvin": [
+    {
+      "celan": "Xarfelvin ser dren an Xarvethral.",
+      "english": "The adoptive niece/nephew is with the adoptive parent by the water.",
+      "ids": [
+        "PE-V3-0048"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Ser",
+        "Xarfelvin",
+        "Xarvethral"
+      ],
+      "visible_on": [
+        "Xarfelvin",
+        "Xarvethral"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Belvethral": [
+    {
+      "celan": "Belvethral ser dren thal Teremil.",
+      "english": "The chosen family is by the water at home.",
+      "ids": [
+        "PE-V3-0049"
+      ],
+      "headwords": [
+        "Belvethral",
+        "Dren",
+        "Ser",
+        "Teremil",
+        "Thal"
+      ],
+      "visible_on": [
+        "Belvethral",
+        "Teremil"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Pralvokesh": [
+    {
+      "celan": "Pralvokesh ser dren an Belvok.",
+      "english": "The trusted ally is with the family by the water.",
+      "ids": [
+        "PE-V3-0051"
+      ],
+      "headwords": [
+        "An",
+        "Belvok",
+        "Dren",
+        "Pralvokesh",
+        "Ser"
+      ],
+      "visible_on": [
+        "Belvok",
+        "Pralvokesh"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Velthaelvok": [
+    {
+      "celan": "Velthaelvok ser dren thal Velthaen.",
+      "english": "The winter unity flows with the cold season.",
+      "ids": [
+        "PE-V3-0097"
+      ],
+      "headwords": [
+        "Dren",
+        "Ser",
+        "Thal",
+        "Velthaelvok",
+        "Velthaen"
+      ],
+      "visible_on": [
+        "Velthaelvok",
+        "Velthaen"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "Kalorinath": [
+    {
+      "celan": "Kalorinath ser dren thal Tharvok.",
+      "english": "The fortress bonding ceremony is with the family under balance.",
+      "ids": [
+        "PE-V3-0104"
+      ],
+      "headwords": [
+        "Dren",
+        "Kalorinath",
+        "Ser",
+        "Thal"
+      ],
+      "visible_on": [
+        "Kalorinath"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "Pelvar": [
+    {
+      "celan": "Pelvar nor dren thal shal.",
+      "english": "The sharp grain rests by the water under the light.",
+      "ids": [
+        "PE-V2-0056"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Pelvar",
+        "Shal",
+        "Thal"
+      ],
+      "visible_on": [
+        "Pelvar"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    },
+    {
+      "celan": "Pelvar nor dren.",
+      "english": "The sharp grain rests by the water.",
+      "ids": [
+        "PE-V2-0015"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Pel",
+        "Pelvar"
+      ],
+      "visible_on": [
+        "Pel",
+        "Pelvar"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    }
+  ],
+  "Drenlivar": [
+    {
+      "celan": "Drenlivar vanesh dren thal morl.",
+      "english": "The salted fish trades by the water and the mountain.",
+      "ids": [
+        "PE-V2-0081"
+      ],
+      "headwords": [
+        "Dren",
+        "Drenlivar",
+        "Morl",
+        "Thal",
+        "Vanesh"
+      ],
+      "visible_on": [
+        "Drenlivar"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Velthamor": [
+    {
+      "celan": "Velthamor nor dren thal morl.",
+      "english": "The frozen root mash is by the water and mountain.",
+      "ids": [
+        "PE-V2-0093"
+      ],
+      "headwords": [
+        "Dren",
+        "Morl",
+        "Nor",
+        "Thal",
+        "Velthamor"
+      ],
+      "visible_on": [
+        "Velthamor"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Dralorim": [
+    {
+      "celan": "Dralorim nor dren thal shal.",
+      "english": "The storm flows with the water under the light.",
+      "ids": [
+        "PE-V2-0115"
+      ],
+      "headwords": [
+        "Dralorim",
+        "Dren",
+        "Nor",
+        "Shal",
+        "Thal"
+      ],
+      "visible_on": [
+        "Dralorim"
+      ],
+      "types": [
+        "Weather example"
+      ]
+    }
+  ],
+  "Velarshor": [
+    {
+      "celan": "Velarshor dren thal morl.",
+      "english": "The mist rests over the mountain.",
+      "ids": [
+        "PE-V2-0116"
+      ],
+      "headwords": [
+        "Dren",
+        "Morl",
+        "Thal",
+        "Velarshor"
+      ],
+      "visible_on": [
+        "Velarshor"
+      ],
+      "types": [
+        "Weather example"
+      ]
+    }
+  ],
+  "Eshvelor": [
+    {
+      "celan": "Eshvelor nor dren thal morl.",
+      "english": "The snow falls by the water and the mountain.",
+      "ids": [
+        "PE-V2-0118"
+      ],
+      "headwords": [
+        "Dren",
+        "Eshvelor",
+        "Morl",
+        "Nor",
+        "Thal"
+      ],
+      "visible_on": [
+        "Eshvelor"
+      ],
+      "types": [
+        "Weather example"
+      ]
+    }
+  ],
+  "Drenvelesh": [
+    {
+      "celan": "Drenvelesh dren thal morl.",
+      "english": "The morning dew rests on the water by the mountain.",
+      "ids": [
+        "PE-V2-0121"
+      ],
+      "headwords": [
+        "Dren",
+        "Drenvelesh",
+        "Morl",
+        "Thal"
+      ],
+      "visible_on": [
+        "Drenvelesh"
+      ],
+      "types": [
+        "Weather example"
+      ]
+    }
+  ],
+  "Zhivokesh": [
+    {
+      "celan": "Zhivokesh shalil thal morl.",
+      "english": "The bond renewal flows under the mountain.",
+      "ids": [
+        "PE-V3-0092"
+      ],
+      "headwords": [
+        "Morl",
+        "Thal",
+        "Zhivokesh"
+      ],
+      "visible_on": [
+        "Zhivokesh"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "Shalorveth": [
+    {
+      "celan": "Shalorveth kal dren thal Tharvok.",
+      "english": "The shadowlight ritual strengthens with the family under balance.",
+      "ids": [
+        "PE-V3-0100"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Shalorveth",
+        "Thal"
+      ],
+      "visible_on": [
+        "Shalorveth"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "Teremil": [
+    {
+      "celan": "Teremil dren thal nor.",
+      "english": "A balanced meal at the water in time.",
+      "ids": [
+        "PE-V3-0124"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Teremil",
+        "Thal"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    }
+  ],
+  "Prakorin": [
+    {
+      "celan": "Prakorin shalil an dren.",
+      "english": "The tender bread flows lightly by the water.",
+      "ids": [
+        "PE-V2-0014"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Prak",
+        "Prakorin"
+      ],
+      "visible_on": [
+        "Prak",
+        "Prakorin"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    }
+  ],
+  "Tlakorin": [
+    {
+      "celan": "Tlakorin kal dren an Varthas.",
+      "english": "The confidant strengthens the city.",
+      "ids": [
+        "PE-V2-0030"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Kal",
+        "Tlakorin",
+        "Varthas"
+      ],
+      "visible_on": [
+        "Tlakorin",
+        "Varthas"
+      ],
+      "types": [
+        "Relationship example"
+      ]
+    }
+  ],
+  "Velrin": [
+    {
+      "celan": "Velrin kal dren an Serin.",
+      "english": "The food strengthens with friends by the water.",
+      "ids": [
+        "PE-V2-0053"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Kal",
+        "Serin",
+        "Velrin"
+      ],
+      "visible_on": [
+        "Serin",
+        "Velrin"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    }
+  ],
+  "Felorin": [
+    {
+      "celan": "Felorin vanesh dren an Evan.",
+      "english": "The berries trade at the market.",
+      "ids": [
+        "PE-V2-0073"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Felorin",
+        "Vanesh"
+      ],
+      "visible_on": [
+        "Felorin"
+      ],
+      "types": [
+        "Food sample sentence"
+      ]
+    },
+    {
+      "celan": "Felorin nor dren.",
+      "english": "The berries rest by the water.",
+      "ids": [
+        "PE-V2-0084"
+      ],
+      "headwords": [
+        "Dren",
+        "Felorin",
+        "Nor"
+      ],
+      "visible_on": [
+        "Felorin"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    },
+    {
+      "celan": "Felorin vanesh dren.",
+      "english": "The berries trade by the water.",
+      "ids": [
+        "PE-V2-0062"
+      ],
+      "headwords": [
+        "Dren",
+        "Felorin",
+        "Vanesh"
+      ],
+      "visible_on": [
+        "Felorin",
+        "Vanesh"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    }
+  ],
+  "Lorlivok": [
+    {
+      "celan": "Lorlivok kal dren an Teremil.",
+      "english": "The earthbake strengthens at home by the water.",
+      "ids": [
+        "PE-V2-0074"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Kal",
+        "Lorlivok",
+        "Teremil"
+      ],
+      "visible_on": [
+        "Lorlivok",
+        "Teremil"
+      ],
+      "types": [
+        "Food sample sentence"
+      ]
+    },
+    {
+      "celan": "Lorlivok shal dren.",
+      "english": "The earthbake flows by the water.",
+      "ids": [
+        "PE-V2-0059"
+      ],
+      "headwords": [
+        "Dren",
+        "Lorlivok",
+        "Shal"
+      ],
+      "visible_on": [
+        "Lorlivok"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    }
+  ],
+  "Velmek": [
+    {
+      "celan": "Velmek nor dren an Evan.",
+      "english": "The synthetic protein is traded at the market.",
+      "ids": [
+        "PE-V2-0078"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Nor",
+        "Velmek"
+      ],
+      "visible_on": [
+        "Velmek"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Morthas": [
+    {
+      "celan": "Morthas vanesh an dren.",
+      "english": "The roasted nuts trade by the water.",
+      "ids": [
+        "PE-V2-0090"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Morthas",
+        "Vanesh"
+      ],
+      "visible_on": [
+        "Morthas"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Shalithor": [
+    {
+      "celan": "Shalithor kal dren an Evan.",
+      "english": "The sunlight strengthens at the market.",
+      "ids": [
+        "PE-V2-0114"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Kal",
+        "Shalithor"
+      ],
+      "visible_on": [
+        "Shalithor"
+      ],
+      "types": [
+        "Weather example"
+      ]
+    }
+  ],
+  "Tavojorin": [
+    {
+      "celan": "Tavojorin shalil nor dren an Belvok.",
+      "english": "The parent-in-law rests with the family by the water.",
+      "ids": [
+        "PE-V3-0038"
+      ],
+      "headwords": [
+        "An",
+        "Belvok",
+        "Dren",
+        "Nor",
+        "Tavojorin"
+      ],
+      "visible_on": [
+        "Belvok",
+        "Tavojorin"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Zhivorin": [
+    {
+      "celan": "Zhivorin nor dren an Tavan.",
+      "english": "The sibling-in-law is with the parent by the water.",
+      "ids": [
+        "PE-V3-0039"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Nor",
+        "Tavan",
+        "Zhivorin"
+      ],
+      "visible_on": [
+        "Tavan",
+        "Zhivorin"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Felvin": [
+    {
+      "celan": "Felvin nor dren an Tavan.",
+      "english": "The niece/nephew rests with the parent by the water.",
+      "ids": [
+        "PE-V3-0043"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Felvin",
+        "Nor",
+        "Tavan"
+      ],
+      "visible_on": [
+        "Felvin",
+        "Tavan"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Eshlorien": [
+    {
+      "celan": "Eshlorien nor dren an Zhaelor.",
+      "english": "The wave naming flows by the water in spring.",
+      "ids": [
+        "PE-V3-0088"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Eshlorien",
+        "Nor",
+        "Zhaelor"
+      ],
+      "visible_on": [
+        "Eshlorien",
+        "Zhaelor"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "Velpralim": [
+    {
+      "celan": "Velpralim shan dren an Zhirelorim.",
+      "english": "The wisdom transfer passes to the coming-of-age ritual.",
+      "ids": [
+        "PE-V3-0090"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Shan",
+        "Velpralim",
+        "Zhirelorim"
+      ],
+      "visible_on": [
+        "Shan",
+        "Velpralim",
+        "Zhirelorim"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "Dralshaneth": [
+    {
+      "celan": "Dralshaneth kal dren an Belvok.",
+      "english": "The heaven's blessing strengthens the family.",
+      "ids": [
+        "PE-V3-0093"
+      ],
+      "headwords": [
+        "An",
+        "Belvok",
+        "Dralshaneth",
+        "Dren",
+        "Kal"
+      ],
+      "visible_on": [
+        "Dralshaneth"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "Zhirelorim": [
+    {
+      "celan": "Zhirelorim nor dren an Dralorim.",
+      "english": "The coming-of-age flows with the celestial storm.",
+      "ids": [
+        "PE-V3-0094"
+      ],
+      "headwords": [
+        "An",
+        "Dralorim",
+        "Dren",
+        "Nor",
+        "Zhirelorim"
+      ],
+      "visible_on": [
+        "Dralorim",
+        "Zhirelorim"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "Eshvelaneth": [
+    {
+      "celan": "Eshvelaneth shan dren an Tharvok.",
+      "english": "The snowstorm guidance passes to the family.",
+      "ids": [
+        "PE-V3-0098"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Eshvelaneth",
+        "Shan"
+      ],
+      "visible_on": [
+        "Eshvelaneth",
+        "Shan"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    },
+    {
+      "celan": "Eshvelaneth kal morl.",
+      "english": "The hailstorm strikes the mountain.",
+      "ids": [
+        "PE-V2-0122"
+      ],
+      "headwords": [
+        "Eshvelaneth",
+        "Kal",
+        "Morl"
+      ],
+      "visible_on": [
+        "Eshvelaneth"
+      ],
+      "types": [
+        "Weather example"
+      ]
+    }
+  ],
+  "Krezmorath": [
+    {
+      "celan": "Krezmorath kal dren an Belvok.",
+      "english": "The fire bond strengthens with the family.",
+      "ids": [
+        "PE-V3-0102"
+      ],
+      "headwords": [
+        "An",
+        "Belvok",
+        "Dren",
+        "Kal",
+        "Krezmorath"
+      ],
+      "visible_on": [
+        "Krezmorath"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "Tharvelim": [
+    {
+      "celan": "Tharvelim lian dren an Terra.",
+      "english": "The mountain ancestor ritual speaks to the Earth.",
+      "ids": [
+        "PE-V3-0103"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Lian",
+        "Terra",
+        "Tharvelim"
+      ],
+      "visible_on": [
+        "Tharvelim"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "Zhirin": [
+    {
+      "celan": "zhirin an Arthen",
+      "english": "threads of fate",
+      "ids": [
+        "PE-S3-0020"
+      ],
+      "headwords": [
+        "An",
+        "Arthen",
+        "Zhir-",
+        "Zhirin"
+      ],
+      "visible_on": [
+        "Arthen",
+        "Zhir-",
+        "Zhirin"
+      ],
+      "types": [
+        "Conceptual metaphor example"
+      ]
+    }
+  ],
+  "Kelka": [
+    {
+      "celan": "kelka an Kalrin",
+      "english": "a king's decree",
+      "ids": [
+        "PE-S3-0022"
+      ],
+      "headwords": [
+        "An",
+        "Kal-",
+        "Kalrin",
+        "Kel-",
+        "Kelka"
+      ],
+      "visible_on": [
+        "Kal-",
+        "Kalrin",
+        "Kel-",
+        "Kelka"
+      ],
+      "types": [
+        "Conceptual metaphor example"
+      ]
+    }
+  ],
+  "Kinnmor": [
+    {
+      "celan": "Kinnmor kal dren nor shal.",
+      "english": "The morning strengthens with water and light.",
+      "ids": [
+        "PE-V2-0002"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Kinnmor",
+        "Nor",
+        "Shal"
+      ],
+      "visible_on": [
+        "Kal",
+        "Kinnmor",
+        "Shal"
+      ],
+      "types": [
+        "Time-of-day example"
+      ]
+    }
+  ],
+  "Belar": [
+    {
+      "celan": "Belar nor dren.",
+      "english": "The binding spice rests by the water.",
+      "ids": [
+        "PE-V2-0009"
+      ],
+      "headwords": [
+        "Bel",
+        "Belar",
+        "Dren",
+        "Nor"
+      ],
+      "visible_on": [
+        "Bel",
+        "Belar"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    }
+  ],
+  "Jekvor": [
+    {
+      "celan": "Jekvor nor dren.",
+      "english": "The spiraling spice rests by the water.",
+      "ids": [
+        "PE-V2-0020"
+      ],
+      "headwords": [
+        "Dren",
+        "Jek",
+        "Jekvor",
+        "Nor"
+      ],
+      "visible_on": [
+        "Jek",
+        "Jekvor"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    }
+  ],
+  "Jindral": [
+    {
+      "celan": "Jindral nor dren.",
+      "english": "The rare fruit rests by the water.",
+      "ids": [
+        "PE-V2-0022"
+      ],
+      "headwords": [
+        "Dren",
+        "Jin",
+        "Jindral",
+        "Nor"
+      ],
+      "visible_on": [
+        "Jin",
+        "Jindral"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    }
+  ],
+  "Weknor": [
+    {
+      "celan": "Weknor nor dren.",
+      "english": "The cyclical time rests by the water.",
+      "ids": [
+        "PE-V2-0025"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Wek",
+        "Weknor"
+      ],
+      "visible_on": [
+        "Wek",
+        "Weknor"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    }
+  ],
+  "Xilvar": [
+    {
+      "celan": "Xilvar nor dren.",
+      "english": "The hidden spice rests by the water.",
+      "ids": [
+        "PE-V2-0027"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Xil",
+        "Xilvar"
+      ],
+      "visible_on": [
+        "Xil",
+        "Xilvar"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    },
+    {
+      "celan": "Xilvar shal dren.",
+      "english": "The salt flows lightly by the water.",
+      "ids": [
+        "PE-V2-0065"
+      ],
+      "headwords": [
+        "Dren",
+        "Shal",
+        "Xilvar"
+      ],
+      "visible_on": [
+        "Xilvar"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    }
+  ],
+  "Xarvel": [
+    {
+      "celan": "Xarvel nor dren.",
+      "english": "The covered meal rests by the water.",
+      "ids": [
+        "PE-V2-0028"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Xar",
+        "Xarvel"
+      ],
+      "visible_on": [
+        "Xar",
+        "Xarvel"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    },
+    {
+      "celan": "Xarvel nor dren.",
+      "english": "The veiled meal rests by the water.",
+      "ids": [
+        "PE-V2-0061"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Xarvel"
+      ],
+      "visible_on": [
+        "Xarvel"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    }
+  ],
+  "Ohmbaen": [
+    {
+      "celan": "Ohmbaen nor dren.",
+      "english": "The beloved rests near the water.",
+      "ids": [
+        "PE-V2-0029"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Ohmbaen"
+      ],
+      "visible_on": [
+        "Ohmbaen"
+      ],
+      "types": [
+        "Relationship example"
+      ]
+    }
+  ],
+  "Jekvin": [
+    {
+      "celan": "Jekvin nor dren.",
+      "english": "The spiral herb rests by the water.",
+      "ids": [
+        "PE-V2-0063"
+      ],
+      "headwords": [
+        "Dren",
+        "Jekvin",
+        "Nor"
+      ],
+      "visible_on": [
+        "Jekvin"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    }
+  ],
+  "Vethhar": [
+    {
+      "celan": "Vethhar nor dren.",
+      "english": "The shadowspice rests by the water.",
+      "ids": [
+        "PE-V2-0066"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Vethhar"
+      ],
+      "visible_on": [
+        "Vethhar"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    }
+  ],
+  "Velithor": [
+    {
+      "celan": "Velithor nor dren.",
+      "english": "The ale rests by the water.",
+      "ids": [
+        "PE-V2-0068"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Velithor"
+      ],
+      "visible_on": [
+        "Velithor"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    }
+  ],
+  "Jorvilor": [
+    {
+      "celan": "Jorvilor nor dren.",
+      "english": "The drink rests by the water.",
+      "ids": [
+        "PE-V2-0071"
+      ],
+      "headwords": [
+        "Dren",
+        "Jorvilor",
+        "Nor"
+      ],
+      "visible_on": [
+        "Jorvilor"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    }
+  ],
+  "Tenarorin": [
+    {
+      "celan": "Tenarorin shal dren nor shal.",
+      "english": "The glowing wine flows under the light by the water.",
+      "ids": [
+        "PE-V2-0075"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Shal",
+        "Tenarorin"
+      ],
+      "visible_on": [
+        "Tenarorin"
+      ],
+      "types": [
+        "Food sample sentence"
+      ]
+    },
+    {
+      "celan": "Tenarorin shal dren.",
+      "english": "The glowing wine flows by the water.",
+      "ids": [
+        "PE-V2-0069"
+      ],
+      "headwords": [
+        "Dren",
+        "Shal",
+        "Tenarorin"
+      ],
+      "visible_on": [
+        "Tenarorin"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    }
+  ],
+  "Jorvalin": [
+    {
+      "celan": "Jorvalin nor dren.",
+      "english": "The effervescent beverage rests by the water.",
+      "ids": [
+        "PE-V2-0080"
+      ],
+      "headwords": [
+        "Dren",
+        "Jorvalin",
+        "Nor"
+      ],
+      "visible_on": [
+        "Jorvalin"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Eshtenor": [
+    {
+      "celan": "Eshtenor nor dren.",
+      "english": "The glowing seaweed rests by the water.",
+      "ids": [
+        "PE-V2-0082"
+      ],
+      "headwords": [
+        "Dren",
+        "Eshtenor",
+        "Nor"
+      ],
+      "visible_on": [
+        "Eshtenor"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Tharmor": [
+    {
+      "celan": "Tharmor nor dren kal morl.",
+      "english": "The rootbread strengthens by the water and mountain.",
+      "ids": [
+        "PE-V2-0085"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Morl",
+        "Nor",
+        "Tharmor"
+      ],
+      "visible_on": [
+        "Tharmor"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Welvinor": [
+    {
+      "celan": "Welvinor nor dren.",
+      "english": "The flowing mead rests by the water.",
+      "ids": [
+        "PE-V2-0088"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Welvinor"
+      ],
+      "visible_on": [
+        "Welvinor"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Voktarin": [
+    {
+      "celan": "Voktarin nor dren.",
+      "english": "The preserved dates rest by the water.",
+      "ids": [
+        "PE-V2-0091"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Voktarin"
+      ],
+      "visible_on": [
+        "Voktarin"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Xarlorin": [
+    {
+      "celan": "Xarlorin nor dren.",
+      "english": "The tea rests by the water.",
+      "ids": [
+        "PE-V2-0096"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Xarlorin"
+      ],
+      "visible_on": [
+        "Xarlorin"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Kreztorin": [
+    {
+      "celan": "Kreztorin nor dren kal morl.",
+      "english": "The smoked meat strengthens by the water.",
+      "ids": [
+        "PE-V2-0098"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Kreztorin",
+        "Morl",
+        "Nor"
+      ],
+      "visible_on": [
+        "Kreztorin"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Xilbren": [
+    {
+      "celan": "Xilbren nor dren.",
+      "english": "The grain cake rests by the water.",
+      "ids": [
+        "PE-V2-0100"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Xilbren"
+      ],
+      "visible_on": [
+        "Xilbren"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Drenkor": [
+    {
+      "celan": "Drenkor nor dren.",
+      "english": "The oasis bread rests by the water.",
+      "ids": [
+        "PE-V2-0101"
+      ],
+      "headwords": [
+        "Dren",
+        "Drenkor",
+        "Nor"
+      ],
+      "visible_on": [
+        "Drenkor"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Shalorin": [
+    {
+      "celan": "Shalorin nor dren.",
+      "english": "The sweet fruit rests by the water.",
+      "ids": [
+        "PE-V2-0103"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Shalorin"
+      ],
+      "visible_on": [
+        "Shalorin"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Velkrin": [
+    {
+      "celan": "Velkrin nor dren.",
+      "english": "The fermented drink rests by the water.",
+      "ids": [
+        "PE-V2-0106"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Velkrin"
+      ],
+      "visible_on": [
+        "Velkrin"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Zhaelor": [
+    {
+      "celan": "Zhaelor shalil nor dren.",
+      "english": "Spring flows lightly by the water.",
+      "ids": [
+        "PE-V2-0109"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Zhaelor"
+      ],
+      "visible_on": [
+        "Zhaelor"
+      ],
+      "types": [
+        "Season example"
+      ]
+    }
+  ],
+  "Fenrek": [
+    {
+      "celan": "Fenrek kal nor dren.",
+      "english": "Summer strengthens by the water.",
+      "ids": [
+        "PE-V2-0110"
+      ],
+      "headwords": [
+        "Dren",
+        "Fenrek",
+        "Kal",
+        "Nor"
+      ],
+      "visible_on": [
+        "Fenrek"
+      ],
+      "types": [
+        "Season example"
+      ]
+    }
+  ],
+  "Tharvin": [
+    {
+      "celan": "Tharvin nor dren kal morl.",
+      "english": "Autumn balances the water with the mountain.",
+      "ids": [
+        "PE-V2-0111"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Morl",
+        "Nor",
+        "Tharvin"
+      ],
+      "visible_on": [
+        "Tharvin"
+      ],
+      "types": [
+        "Season example"
+      ]
+    }
+  ],
+  "Velthaen": [
+    {
+      "celan": "Velthaen dren nor morl.",
+      "english": "Winter flows by the mountain.",
+      "ids": [
+        "PE-V2-0112"
+      ],
+      "headwords": [
+        "Dren",
+        "Morl",
+        "Nor",
+        "Velthaen"
+      ],
+      "visible_on": [
+        "Velthaen"
+      ],
+      "types": [
+        "Season example"
+      ]
+    }
+  ],
+  "Eshthael": [
+    {
+      "celan": "Eshthael nor dren.",
+      "english": "The breeze flows by the water.",
+      "ids": [
+        "PE-V2-0113"
+      ],
+      "headwords": [
+        "Dren",
+        "Eshthael",
+        "Nor"
+      ],
+      "visible_on": [
+        "Eshthael"
+      ],
+      "types": [
+        "Weather example"
+      ]
+    }
+  ],
+  "Drenalor": [
+    {
+      "celan": "Drenalor shalil nor dren.",
+      "english": "The rain falls lightly over the water.",
+      "ids": [
+        "PE-V2-0117"
+      ],
+      "headwords": [
+        "Dren",
+        "Drenalor",
+        "Nor"
+      ],
+      "visible_on": [
+        "Drenalor"
+      ],
+      "types": [
+        "Weather example"
+      ]
+    }
+  ],
+  "Krezrek": [
+    {
+      "celan": "Krezrek dren nor Fenrek.",
+      "english": "The heatwave flows with summer.",
+      "ids": [
+        "PE-V2-0120"
+      ],
+      "headwords": [
+        "Dren",
+        "Fenrek",
+        "Krezrek",
+        "Nor"
+      ],
+      "visible_on": [
+        "Fenrek",
+        "Krezrek"
+      ],
+      "types": [
+        "Weather example"
+      ]
+    }
+  ],
+  "Tavan": [
+    {
+      "celan": "Tavan shalil nor Felka.",
+      "english": "The parent moves lightly with the child.",
+      "ids": [
+        "PE-V3-0030"
+      ],
+      "headwords": [
+        "Felka",
+        "Nor",
+        "Tavan"
+      ],
+      "visible_on": [
+        "Felka",
+        "Tavan"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Velar": [
+    {
+      "celan": "Velar shalil nor dren.",
+      "english": "The elder moves lightly by the water.",
+      "ids": [
+        "PE-V3-0033"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Velar"
+      ],
+      "visible_on": [
+        "Velar"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Velkavor": [
+    {
+      "celan": "Velkavor lian nor Terra.",
+      "english": "The ancestor speaks to the Earth.",
+      "ids": [
+        "PE-V3-0035"
+      ],
+      "headwords": [
+        "Lian",
+        "Nor",
+        "Terra",
+        "Velkavor"
+      ],
+      "visible_on": [
+        "Lian",
+        "Terra",
+        "Velkavor"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Velpralor": [
+    {
+      "celan": "Velpralor kal dren nor Velar.",
+      "english": "The elder partner strengthens with the elder by the water.",
+      "ids": [
+        "PE-V3-0041"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Nor",
+        "Velar",
+        "Velpralor"
+      ],
+      "visible_on": [
+        "Velar",
+        "Velpralor"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Velxorin": [
+    {
+      "celan": "Velxorin lian nor Terra.",
+      "english": "The elder ancestor speaks to the Earth.",
+      "ids": [
+        "PE-V3-0045"
+      ],
+      "headwords": [
+        "Lian",
+        "Nor",
+        "Terra",
+        "Velxorin"
+      ],
+      "visible_on": [
+        "Lian",
+        "Terra",
+        "Velxorin"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Velmarin": [
+    {
+      "celan": "Velmarin shalil nor dren.",
+      "english": "The honorary elder moves lightly by the water.",
+      "ids": [
+        "PE-V3-0050"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Velmarin"
+      ],
+      "visible_on": [
+        "Velmarin"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Drenvokesh": [
+    {
+      "celan": "Drenvokesh kal dren nor Belvok.",
+      "english": "The water unity strengthens the family by the water.",
+      "ids": [
+        "PE-V3-0087"
+      ],
+      "headwords": [
+        "Belvok",
+        "Dren",
+        "Drenvokesh",
+        "Kal",
+        "Nor"
+      ],
+      "visible_on": [
+        "Drenvokesh"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "Terrashaneth": [
+    {
+      "celan": "Terrashaneth lian nor Tharvok.",
+      "english": "The Earth blessing speaks to the family.",
+      "ids": [
+        "PE-V3-0089"
+      ],
+      "headwords": [
+        "Lian",
+        "Nor",
+        "Terrashaneth"
+      ],
+      "visible_on": [
+        "Terrashaneth"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "Kreztharim": [
+    {
+      "celan": "Kreztharim kal nor dren.",
+      "english": "The fire heart strengthens by the water.",
+      "ids": [
+        "PE-V3-0091"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Kreztharim",
+        "Nor"
+      ],
+      "visible_on": [
+        "Kreztharim"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "Morlatharim": [
+    {
+      "celan": "Morlatharim shalil nor dren.",
+      "english": "The stone heart flows by the water.",
+      "ids": [
+        "PE-V3-0095"
+      ],
+      "headwords": [
+        "Dren",
+        "Morlatharim",
+        "Nor"
+      ],
+      "visible_on": [
+        "Morlatharim"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "Velmarineth": [
+    {
+      "celan": "Velmarineth lian nor Felka.",
+      "english": "The elder's blessing speaks to the child.",
+      "ids": [
+        "PE-V3-0096"
+      ],
+      "headwords": [
+        "Felka",
+        "Lian",
+        "Nor",
+        "Velmarineth"
+      ],
+      "visible_on": [
+        "Felka",
+        "Velmarineth"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "Drenkorath": [
+    {
+      "celan": "Drenkorath lian nor dren.",
+      "english": "The oasis blessing speaks to the water.",
+      "ids": [
+        "PE-V3-0099"
+      ],
+      "headwords": [
+        "Dren",
+        "Drenkorath",
+        "Lian",
+        "Nor"
+      ],
+      "visible_on": [
+        "Drenkorath"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "Velterim": [
+    {
+      "celan": "Velterim shan dren nor Zhirelorim.",
+      "english": "The desert passage passes to the coming-of-age ritual.",
+      "ids": [
+        "PE-V3-0101"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Shan",
+        "Velterim",
+        "Zhirelorim"
+      ],
+      "visible_on": [
+        "Shan",
+        "Velterim",
+        "Zhirelorim"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "Tenar": [
+    {
+      "celan": "Tenar peth Ven tren dren nor shal.",
+      "english": "Fifteen minus three waters under the light.",
+      "ids": [
+        "PE-V3-0218"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Peth",
+        "Shal",
+        "Tenar",
+        "Tren",
+        "Ven"
+      ],
+      "visible_on": [
+        "Peth",
+        "Tenar",
+        "Tren",
+        "Ven"
+      ],
+      "types": [
+        "Number/math example"
+      ]
+    },
+    {
+      "celan": "Tenar unar",
+      "english": "11 (10 + 1)",
+      "ids": [
+        "PE-V3-0203"
+      ],
+      "headwords": [
+        "Tenar",
+        "Unar"
+      ],
+      "visible_on": [
+        "Tenar",
+        "Unar"
+      ],
+      "types": [
+        "Number/math example"
+      ]
+    },
+    {
+      "celan": "Tenar peth Ven tren",
+      "english": "15 - 3 = 12",
+      "ids": [
+        "PE-V3-0217"
+      ],
+      "headwords": [
+        "Peth",
+        "Tenar",
+        "Tren",
+        "Ven"
+      ],
+      "visible_on": [
+        "Peth",
+        "Tenar",
+        "Tren",
+        "Ven"
+      ],
+      "types": [
+        "Number/math example"
+      ]
+    }
+  ],
+  "Shentalzhael": [
+    {
+      "celan": "shentalzhael zhaelral savin nor rekrathlor.",
+      "english": "The healer triages the patients during the emergency.",
+      "ids": [
+        "PE-HTS1-0087"
+      ],
+      "headwords": [
+        "Nor",
+        "Rekrathlor",
+        "Savin",
+        "Shentalzhael",
+        "Zhaelral"
+      ],
+      "visible_on": [
+        "Rekrathlor",
+        "Shentalzhael"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  "Kilveth": [
+    {
+      "celan": "Kilveth dren morl shal.",
+      "english": "Evening rests under the light.",
+      "ids": [
+        "PE-V2-0005"
+      ],
+      "headwords": [
+        "Dren",
+        "Kilveth",
+        "Morl",
+        "Shal"
+      ],
+      "visible_on": [
+        "Kilveth",
+        "Morl"
+      ],
+      "types": [
+        "Time-of-day example"
+      ]
+    }
+  ],
+  "Kar": [
+    {
+      "celan": "kar morkar morl; jor morljor.",
+      "english": "The earthquake strikes the mountain; a landslide follows.",
+      "ids": [
+        "PE-EGE1-0027"
+      ],
+      "headwords": [
+        "Jor",
+        "Kar",
+        "Morkar",
+        "Morl",
+        "Morljor"
+      ],
+      "visible_on": [
+        "Kar",
+        "Morkar",
+        "Morljor"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "kar drenjor mahrmorl.",
+      "english": "The wave strikes the reef.",
+      "ids": [
+        "PE-EGE1-0016"
+      ],
+      "headwords": [
+        "Drenjor",
+        "Kar",
+        "Mahrmorl"
+      ],
+      "visible_on": [
+        "Drenjor",
+        "Kar",
+        "Mahrmorl"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  "Terra": [
+    {
+      "celan": "Terra / terra",
+      "english": "Heart of Terra / mundane earth, soil, or ground",
+      "ids": [
+        "PE-S4B-0005"
+      ],
+      "headwords": [
+        "Terra",
+        "terra- / Terra-"
+      ],
+      "visible_on": [
+        "terra- / Terra-"
+      ],
+      "types": [
+        "Capitalization contrast"
+      ]
+    }
+  ],
+  "Belrin": [
+    {
+      "celan": "Belrin kal dren.",
+      "english": "The woven fabric strengthens with water.",
+      "ids": [
+        "PE-V2-0008"
+      ],
+      "headwords": [
+        "Bel",
+        "Belrin",
+        "Dren",
+        "Kal"
+      ],
+      "visible_on": [
+        "Bel",
+        "Belrin"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    }
+  ],
+  "Brosrin": [
+    {
+      "celan": "Brosrin vanesh dren.",
+      "english": "The layered food trades by the water.",
+      "ids": [
+        "PE-V2-0010"
+      ],
+      "headwords": [
+        "Bros",
+        "Brosrin",
+        "Dren",
+        "Vanesh"
+      ],
+      "visible_on": [
+        "Bros",
+        "Brosrin",
+        "Vanesh"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    }
+  ],
+  "Brenmor": [
+    {
+      "celan": "Brenmor kal dren.",
+      "english": "The harvested roots strengthen by the water.",
+      "ids": [
+        "PE-V2-0012"
+      ],
+      "headwords": [
+        "Bren",
+        "Brenmor",
+        "Dren",
+        "Kal"
+      ],
+      "visible_on": [
+        "Bren",
+        "Brenmor"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    }
+  ],
+  "Pralmor": [
+    {
+      "celan": "Pralmor kal dren.",
+      "english": "The carving strengthens with water.",
+      "ids": [
+        "PE-V2-0017"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Pral",
+        "Pralmor"
+      ],
+      "visible_on": [
+        "Pral",
+        "Pralmor"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    }
+  ],
+  "Jorlin": [
+    {
+      "celan": "Jorlin shal dren.",
+      "english": "The bursting water flows by the light.",
+      "ids": [
+        "PE-V2-0018"
+      ],
+      "headwords": [
+        "Dren",
+        "Jor",
+        "Jorlin",
+        "Shal"
+      ],
+      "visible_on": [
+        "Jor",
+        "Jorlin"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    }
+  ],
+  "Jelvor": [
+    {
+      "celan": "Jelvor vanesh dren.",
+      "english": "The zesty spice trades by the water.",
+      "ids": [
+        "PE-V2-0021"
+      ],
+      "headwords": [
+        "Dren",
+        "Jel",
+        "Jelvor",
+        "Vanesh"
+      ],
+      "visible_on": [
+        "Jel",
+        "Jelvor",
+        "Vanesh"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    }
+  ],
+  "Welmor": [
+    {
+      "celan": "Welmor vanesh dren.",
+      "english": "The flowing earth trades by the water.",
+      "ids": [
+        "PE-V2-0024"
+      ],
+      "headwords": [
+        "Dren",
+        "Vanesh",
+        "Wel",
+        "Welmor"
+      ],
+      "visible_on": [
+        "Vanesh",
+        "Wel",
+        "Welmor"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    }
+  ],
+  "Worvenak": [
+    {
+      "celan": "Worvenak kal dren.",
+      "english": "The abundant stew strengthens by the water.",
+      "ids": [
+        "PE-V2-0026"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Wor",
+        "Worvenak"
+      ],
+      "visible_on": [
+        "Wor",
+        "Worvenak"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    }
+  ],
+  "Broslak": [
+    {
+      "celan": "Broslak kal dren.",
+      "english": "The layered bread strengthens by the water.",
+      "ids": [
+        "PE-V2-0055"
+      ],
+      "headwords": [
+        "Broslak",
+        "Dren",
+        "Kal"
+      ],
+      "visible_on": [
+        "Broslak"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    }
+  ],
+  "Phelkarin": [
+    {
+      "celan": "Phelkarin kal dren.",
+      "english": "The porridge strengthens with water.",
+      "ids": [
+        "PE-V2-0060"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Phelkarin"
+      ],
+      "visible_on": [
+        "Phelkarin"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    }
+  ],
+  "Belmor": [
+    {
+      "celan": "Belmor kal dren.",
+      "english": "The root spice strengthens with water.",
+      "ids": [
+        "PE-V2-0064"
+      ],
+      "headwords": [
+        "Belmor",
+        "Dren",
+        "Kal"
+      ],
+      "visible_on": [
+        "Belmor"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    }
+  ],
+  "Lianfel": [
+    {
+      "celan": "Lianfel kal dren.",
+      "english": "The tea strengthens with water.",
+      "ids": [
+        "PE-V2-0070"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Lianfel"
+      ],
+      "visible_on": [
+        "Lianfel"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    }
+  ],
+  "Zhelvek": [
+    {
+      "celan": "Zhelvek kal dren.",
+      "english": "The energy bar strengthens with water.",
+      "ids": [
+        "PE-V2-0077"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Zhelvek"
+      ],
+      "visible_on": [
+        "Zhelvek"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Brenvor": [
+    {
+      "celan": "Brenvor kal dren.",
+      "english": "The harvested nuts strengthen with water.",
+      "ids": [
+        "PE-V2-0087"
+      ],
+      "headwords": [
+        "Brenvor",
+        "Dren",
+        "Kal"
+      ],
+      "visible_on": [
+        "Brenvor"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Krezfel": [
+    {
+      "celan": "Krezfel kal dren.",
+      "english": "The spiced grain strengthens with water.",
+      "ids": [
+        "PE-V2-0089"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Krezfel"
+      ],
+      "visible_on": [
+        "Krezfel"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Phelmorin": [
+    {
+      "celan": "Phelmorin kal dren.",
+      "english": "The tea strengthens with water.",
+      "ids": [
+        "PE-V2-0092"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Phelmorin"
+      ],
+      "visible_on": [
+        "Phelmorin"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Eshvilor": [
+    {
+      "celan": "Eshvilor shal dren.",
+      "english": "The snowberry wine flows lightly with the water.",
+      "ids": [
+        "PE-V2-0094"
+      ],
+      "headwords": [
+        "Dren",
+        "Eshvilor",
+        "Shal"
+      ],
+      "visible_on": [
+        "Eshvilor"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Thalshorin": [
+    {
+      "celan": "Thalshorin kal dren.",
+      "english": "The ice stew strengthens by the water.",
+      "ids": [
+        "PE-V2-0095"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Thalshorin"
+      ],
+      "visible_on": [
+        "Thalshorin"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Morvenak": [
+    {
+      "celan": "Morvenak kal dren.",
+      "english": "The porridge strengthens with water.",
+      "ids": [
+        "PE-V2-0097"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Morvenak"
+      ],
+      "visible_on": [
+        "Morvenak"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Velkorin": [
+    {
+      "celan": "Velkorin shal dren.",
+      "english": "The ration flows lightly by the water.",
+      "ids": [
+        "PE-V2-0099"
+      ],
+      "headwords": [
+        "Dren",
+        "Shal",
+        "Velkorin"
+      ],
+      "visible_on": [
+        "Velkorin"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Welkarin": [
+    {
+      "celan": "Welkarin kal dren.",
+      "english": "The drink strengthens with water.",
+      "ids": [
+        "PE-V2-0104"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Welkarin"
+      ],
+      "visible_on": [
+        "Welkarin"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Morlathor": [
+    {
+      "celan": "Morlathor kal dren.",
+      "english": "The bread strengthens by the water.",
+      "ids": [
+        "PE-V2-0105"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Morlathor"
+      ],
+      "visible_on": [
+        "Morlathor"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Krezlorin": [
+    {
+      "celan": "Krezlorin kal dren.",
+      "english": "The grilled meat strengthens with water.",
+      "ids": [
+        "PE-V2-0107"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Krezlorin"
+      ],
+      "visible_on": [
+        "Krezlorin"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Pralvinor": [
+    {
+      "celan": "Pralvinor shal dren.",
+      "english": "The mead flows lightly by the water.",
+      "ids": [
+        "PE-V2-0108"
+      ],
+      "headwords": [
+        "Dren",
+        "Pralvinor",
+        "Shal"
+      ],
+      "visible_on": [
+        "Pralvinor"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    }
+  ],
+  "Thalorim": [
+    {
+      "celan": "Thalorim kal dren.",
+      "english": "The lightning strikes the water.",
+      "ids": [
+        "PE-V2-0119"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Thalorim"
+      ],
+      "visible_on": [
+        "Thalorim"
+      ],
+      "types": [
+        "Weather example"
+      ]
+    }
+  ],
+  "Zhiren": [
+    {
+      "celan": "Zhiren vanesh dren.",
+      "english": "The sibling trades water.",
+      "ids": [
+        "PE-V3-0032"
+      ],
+      "headwords": [
+        "Dren",
+        "Vanesh",
+        "Zhiren"
+      ],
+      "visible_on": [
+        "Zhiren"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    }
+  ],
+  "Shara": [
+    {
+      "celan": "shara rathzor gavin shan verdor.",
+      "english": "The predator follows its prey through the forest.",
+      "ids": [
+        "PE-EGE1-0052"
+      ],
+      "headwords": [
+        "Gavin",
+        "Rathzor",
+        "Shan",
+        "Shara",
+        "Verdor"
+      ],
+      "visible_on": [
+        "Gavin",
+        "Rathzor"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  "Rathor": [
+    {
+      "celan": "Rathor / rathor",
+      "english": "The Past / a specific past event or memory",
+      "ids": [
+        "PE-S4B-0007"
+      ],
+      "headwords": [
+        "Rathor"
+      ],
+      "visible_on": [
+        "Rathor"
+      ],
+      "types": [
+        "Capitalization contrast"
+      ]
+    }
+  ],
+  "Belthal": [
+    {
+      "celan": "Belthal",
+      "english": "Order",
+      "ids": [
+        "PE-S1-0010"
+      ],
+      "headwords": [
+        "Belthal"
+      ],
+      "visible_on": [
+        "Belthal"
+      ],
+      "types": [
+        "Phonetic fossil example"
+      ]
+    }
+  ],
+  "Rethvok": [
+    {
+      "celan": "Rethvok",
+      "english": "Chaos",
+      "ids": [
+        "PE-S1-0011"
+      ],
+      "headwords": [
+        "Rethvok"
+      ],
+      "visible_on": [
+        "Rethvok"
+      ],
+      "types": [
+        "Phonetic fossil example"
+      ]
+    }
+  ],
+  "Pel": [
+    {
+      "celan": "pel pelnor nalior; jor xilnalior.",
+      "english": "Erosion cuts the habitat; fragmentation increases.",
+      "ids": [
+        "PE-EGE1-0063"
+      ],
+      "headwords": [
+        "Jor",
+        "Nalior",
+        "Pel",
+        "Pelnor",
+        "Xilnalior"
+      ],
+      "visible_on": [
+        "Nalior",
+        "Pel",
+        "Pelnor",
+        "Xilnalior"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ]
+}

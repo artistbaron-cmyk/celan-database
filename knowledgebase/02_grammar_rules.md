@@ -1,3 +1,9 @@
+# Current approved grammar
+
+Possession now follows ED-0038: Standalone ka is exclusively without or no. Possessive -ka must be hyphenated to the possessor. Body parts, inner states, personal clothes, and primary personal gear use post-nominal -ian (my), -ya (your), or -eshen (his/her/their). Collective, titled, compound, and other third-person possessors use possessor-ka. The user explicitly permits La-ka kelvor for their mouth, including this third-person body-part construction. -ian never means their. Relational -esh indicates a bond; it does not by itself specify a third-person owner.
+
+Multi-verb order and Varan follow GR-DR1-0002/0003. The source-rule transcript below is preserved as historical evidence; conflicting older possession wording is superseded.
+
 # Grammar Rules
 
 ## Volume 1: Fundamentals

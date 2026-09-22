@@ -1,0 +1,62 @@
+{
+  "flag": "F095",
+  "title": "Some root buttons lead to a different word",
+  "status": "Applied locally",
+  "summary": "Root links now resolve exact entries or display a root explanation, without choosing a similar word.",
+  "followups": [],
+  "user_response": {
+    "id": "F095",
+    "status": "approved",
+    "text": "Make root navigation resolve the exact intended root/morpheme or show a root explanation; do not substitute a near spelling.",
+    "notes": "",
+    "updatedAt": "2026-09-22T17:45:45.881Z",
+    "title": "Some root buttons lead to a different word",
+    "originalSuggestion": "Make root navigation resolve the exact intended root/morpheme or show a root explanation; do not substitute a near spelling."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Athnor",
+      "senses": [
+        {
+          "type": "Particle",
+          "rootWord": false,
+          "meaning": "Already; completed by the reference time",
+          "usage": "",
+          "sourceEntries": [
+            "LX-CNE1-0019"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Deni",
+      "senses": [
+        {
+          "type": "Particle",
+          "rootWord": false,
+          "meaning": "Demonstrative marking a referent within the speaker's immediate sphere; this",
+          "usage": "",
+          "sourceEntries": [
+            "LX-SRD1-0004"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Varash",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Future / Prophecy",
+          "usage": "",
+          "sourceEntries": [
+            "LX-V2-0021"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

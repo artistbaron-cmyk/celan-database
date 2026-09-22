@@ -1,0 +1,71 @@
+{
+  "source_file": "celan-dictionary-decisions-2026-09-22 (3).json",
+  "source_sha256": "b95199d7aa62760c2ea1495f7e5145b6f5e8364055b0add86605d35633b31e07",
+  "review_revision": "c16c8584887860b033cf6b8c2e2c821c26c4d87a0f74c0cc1941cf49617c0020",
+  "unique_responses": 99,
+  "edited": 84,
+  "approved": 15,
+  "dictionary_changes_this_intake": 0,
+  "questions": [
+    {
+      "flags": "F027",
+      "title": "Energy carrier and food bar",
+      "issue": "You are considering Zhelvek for the general energy carrier, with Velvek or Velzhel for the food. This is still a choice, not a settled replacement.",
+      "recommended_handling": "Confirm whether Zhelvek keeps the general meaning and choose the food name. Compare both candidates before adding one."
+    },
+    {
+      "flags": "F025",
+      "title": "Sanctuary or sanctuary member",
+      "issue": "Shalor-in is explained as a person belonging to the sanctuary, but the example still translates it as the sanctuary itself.",
+      "recommended_handling": "Use Shalor in this place-based example. Record the participant meaning of -in separately while preserving its existing plural function."
+    },
+    {
+      "flags": "F050 + F091",
+      "title": "Possession versus without",
+      "issue": "F050 says pronoun + ka + noun indicates possession, while F091 translates Var I ka shal as I go without light. The same pattern meets both descriptions.",
+      "recommended_handling": "Keep the established without example. Explain that context can distinguish the spaced possessive construction; do not use pronoun adjacency as an absolute rule. Confirm that ambiguity is intended."
+    },
+    {
+      "flags": "F053 + F090",
+      "title": "Additional endings",
+      "issue": "Varan is explained with continuous -an, but the current dictionary records -al as continuous. The new Kora example uses kelvor-ian for their mouth, but no -ian rule is recorded in the checked morphology or grammar tables.",
+      "recommended_handling": "Decide whether -an is an accepted alternative to -al. For kelvor-ian, supply the intended possessive rule or use the established possessive construction."
+    },
+    {
+      "flags": "F084",
+      "title": "Duration versus night",
+      "issue": "The proposed meaning of Noral is duration or passing time. All three flagged examples translate it as night. Adding the proposed entry alone leaves the mismatch.",
+      "recommended_handling": "Choose whether the examples should describe duration, or whether they should retain night and use a different Celan form."
+    },
+    {
+      "flags": "F091",
+      "title": "Time versus city",
+      "issue": "Nor-var I nor Varthas uses temporal nor immediately before city. The proposed English adds an appointed time and in the city, which are not separately expressed in the Celan.",
+      "recommended_handling": "If the intended sentence is I will go to the city, change it to Nor-var I an Varthas. Otherwise provide the intended time phrase."
+    },
+    {
+      "flags": "F038",
+      "title": "The family disappears",
+      "issue": "The two proposed ritual corrections replace thal Tharvok with an thal. That removes the family word, but both English translations still mention family.",
+      "recommended_handling": "Retain an explicit family phrase when rebuilding these sentences. Preserve the newer F048 corrections on the two overlapping grain/storm examples."
+    },
+    {
+      "flags": "F024",
+      "title": "Tent or home",
+      "issue": "You establish Teremil as home and Emil as food. The remaining example is rinaen teremil kalbelrin, translated The tent is canvas. You mention a possible tent meaning without clearly approving it.",
+      "recommended_handling": "Translate this as The home is made of canvas, preserving the existing meanings. Create a tent sense only if you explicitly want it."
+    },
+    {
+      "flags": "F005 + F032",
+      "title": "Lianeth labels",
+      "issue": "F005 specifies Modal, while F032 says Modal / Verb for ability and adds an Adjective sense. It is unclear whether Verb should remain a separate label.",
+      "recommended_handling": "Use Modal for can/able to and Adjective for reliable/sound/dependable. Keep Verb only if you intend a distinct verb use."
+    },
+    {
+      "flags": "F052–F087",
+      "title": "Word meanings versus explanations of their parts",
+      "issue": "Several new entries have clear proposed meanings but explain their parts using meanings or endings not established in the current app. For example, Velk currently means ice/frozen water, while the Velkrel explanation calls it cool air; -rel is described as breeze/soft flow without a standalone recorded suffix.",
+      "recommended_handling": "Treat each word meaning separately from its derivation. Verify explanations against the app and keep unsupported derivations pending rather than silently adding general root or suffix meanings."
+    }
+  ]
+}

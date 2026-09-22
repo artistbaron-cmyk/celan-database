@@ -1,0 +1,43 @@
+{
+  "flag": "F013",
+  "title": "Thar-ka — Desire (Want to)",
+  "status": "Applied locally",
+  "summary": "Applied the approved word labels and preserved the other established meanings.",
+  "followups": [],
+  "user_response": {
+    "id": "F013",
+    "status": "edited",
+    "text": "Modal and Noun",
+    "notes": "",
+    "updatedAt": "2026-09-22T13:12:35.879Z",
+    "title": "Thar-ka — Desire (Want to)",
+    "originalSuggestion": "Choose the intended label for these modal uses together: Modal, Adverb, or Particle. Do not change the meaning."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Thar-ka",
+      "senses": [
+        {
+          "type": "Modal",
+          "meaning": "Desire (Want to)",
+          "usage": "\"by heart's desire\"",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0004"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "Desire",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0004"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

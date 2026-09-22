@@ -1,0 +1,87 @@
+{
+  "flag": "F041",
+  "title": "The toolkit is translated as one tool",
+  "status": "Applied locally",
+  "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+  "followups": [],
+  "user_response": {
+    "id": "F041",
+    "status": "edited",
+    "text": "Updated Translation: \"The mechanic puts oil on the toolkit.\"",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:34:14.616Z",
+    "title": "The toolkit is translated as one tool",
+    "originalSuggestion": "Choose whether the mechanic oils the kit or a particular tool."
+  },
+  "example_changes": [
+    {
+      "flag": "F041",
+      "entry_id": "PE-FAP2-0008",
+      "before": {
+        "entry_id": "PE-FAP2-0008",
+        "source_volume": "Food, Agriculture, and Preservation 2",
+        "source_section": "Common Celan > LX-FAP2-0004",
+        "page_number": "",
+        "celan_text": "dor mekral olan an karvek.",
+        "translation": "The mechanic puts oil on the tool.",
+        "example_type": "Expansion example",
+        "analysis": "Non-food material use.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support.",
+        "related_entry_ids": "LX-FAP2-0004",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-FAP2-0008",
+        "source_volume": "Food, Agriculture, and Preservation 2",
+        "source_section": "Common Celan > LX-FAP2-0004",
+        "page_number": "",
+        "celan_text": "dor mekral olan an karvek.",
+        "translation": "The mechanic puts oil on the toolkit.",
+        "example_type": "Expansion example",
+        "analysis": "Non-food material use.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F041: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-FAP2-0004",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    }
+  ],
+  "current_displayed_senses": [
+    {
+      "headword": "Karvek",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Portable toolkit",
+          "usage": "",
+          "sourceEntries": [
+            "LX-NE1-0038"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Karmek",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "A tool; a portable implement deliberately used to perform practical work",
+          "usage": "",
+          "sourceEntries": [
+            "LX-TM1-0001"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

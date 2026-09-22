@@ -1,0 +1,48 @@
+{
+  "flag": "F049",
+  "title": "Two-verb sentences use different orders",
+  "status": "Applied locally",
+  "summary": "Documented both approved multi-verb orders.",
+  "followups": [],
+  "user_response": {
+    "id": "F049",
+    "status": "edited",
+    "text": "Both word order patterns are grammatically valid in Celan, representing two distinct ways the language handles multi-verb actions:\nPattern 1: Interposed Subject (V1 + Subject + V2 + Object)\nExample: siv I pralaen krezor.\nTranslation: \"I try to make the hearth.\"\nSyntax Breakdown: [V1: siv] + [Subject: I] + [V2: pralaen] + [Object: krezor]\nHow it works: This pattern strictly adheres to individual VSO clause mechanics. The subject (I) immediately follows the primary/governing verb (siv = try), placing the secondary action (pralaen = to make) as a complement following the subject.\nPattern 2: Verbal Complex Cluster (V1 + V2 + Subject + Object)\nExamples:\nsiv gavaen I zor. (\"I try to hunt the animal.\")\nsivrethaen belnoraen rakumek nor mekreth. (\"The computers fail to synchronize during the system malfunction.\")\nSyntax Breakdown: [V1 + V2 Cluster: siv gavaen / sivrethaen belnoraen] + [Subject: I / rakumek] + [Object/Modifier]\nHow it works: In this pattern, the auxiliary verb (siv / sivrethaen) and the main action verb (gavaen / belnoraen) fuse into a compound action cluster at the very front of the sentence. Because Celan prioritizes placing the entire action before the actor, the combined action (\"try-to-hunt\" or \"fail-to-synchronize\") is stated first, and the subject follows the full verb cluster.\nRecommendation for the App Entry\nTo ensure learners understand both constructions, the app should document both as permitted strategies:\nStrict VSO / Complement Order (V1 + S + V2 + O): Emphasizes the subject's immediate relation to the governing modal verb (\"I am trying... to make a hearth\").\nAction-Cluster Order (V1 + V2 + S + O): Emphasizes the unified compound action arriving before the subject (\"The trying-to-hunt is done by me\"), aligning with Celan's core action-first philosophy",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:59:37.959Z",
+    "title": "Two-verb sentences use different orders",
+    "originalSuggestion": "Confirm the grammar of a verb followed by another action; preserve the accepted patterns and explain any distinction."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Siv",
+      "senses": [
+        {
+          "type": "Verb",
+          "rootWord": false,
+          "meaning": "To try or attempt without presupposing the outcome",
+          "usage": "",
+          "sourceEntries": [
+            "LX-CNE1-0010"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Sivrethaen",
+      "senses": [
+        {
+          "type": "Verb",
+          "rootWord": false,
+          "meaning": "To fail or end an attempt without its intended outcome",
+          "usage": "",
+          "sourceEntries": [
+            "LX-CNE1-0012"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

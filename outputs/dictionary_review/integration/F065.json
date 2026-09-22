@@ -1,0 +1,63 @@
+{
+  "flag": "F065",
+  "title": "vrak appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Vrak: Gone / Missing / Depleted / Dry (Trerran dialect).",
+  "followups": [
+    "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
+    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+  ],
+  "user_response": {
+    "id": "F065",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Vrak / vrak (/vrahk/) — Adjective / Particle (Regional Dialect): Gone, missing, depleted, dry\nEtymology: Trerran desert dialect term used to indicate severe scarcity or absence.\nAttested In: PE-V3-0084 (\"The water is gone\").\nApp Entry: Adjective: Gone / Missing / Depleted (Trerran dialect)",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:38:30.174Z",
+    "title": "vrak appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "vrak",
+      "senses": [
+        {
+          "type": "Adjective",
+          "meaning": "Gone / Missing / Depleted / Dry (Trerran dialect)",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-DR1-0014"
+          ]
+        },
+        {
+          "type": "Particle",
+          "meaning": "Gone / Missing / Depleted (Trerran dialect)",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-DR1-0014"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F065",
+    "entry": {
+      "entry_id": "LX-DR1-0014",
+      "celan_term": "Vrak",
+      "pronunciation": "/vrahk/",
+      "english_meaning": "Gone / Missing / Depleted / Dry (Trerran dialect)",
+      "category": "Adjective",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "Trerra",
+      "national_usage": "Dialect use for severe scarcity or absence.",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F065. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0084"
+    },
+    "example_count": 1
+  }
+}

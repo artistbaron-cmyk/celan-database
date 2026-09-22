@@ -1,0 +1,53 @@
+{
+  "flag": "F084",
+  "title": "noral appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Noral as night/nighttime, preserving the night translations.",
+  "followups": [],
+  "user_response": {
+    "id": "F084",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. noral (/nohr-ahl/) — Noun / Adverb: Duration, ongoing time, passing of time\nEtymology: Built from Nor (time / flow of time) + continuous suffix -al.\nApp Entry: Noun: Duration / Passing of time\n",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:48:48.789Z",
+    "title": "noral appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "noral",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Night / Nighttime / Nocturnal hours",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0030"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F084",
+    "entry": {
+      "entry_id": "LX-DR1-0030",
+      "celan_term": "Noral",
+      "pronunciation": "/nohr-ahl/",
+      "english_meaning": "Night / Nighttime / Nocturnal hours",
+      "category": "Noun",
+      "derivation": "Nor time + -al duration; lexicalized nighttime meaning approved by user.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F084. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-BIAOBF1-0062; PE-BIAOBF1-0078; PE-BIAOBF1-0082"
+    },
+    "example_count": 3
+  }
+}

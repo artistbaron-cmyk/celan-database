@@ -1,0 +1,43 @@
+{
+  "flag": "F028",
+  "title": "An oasis ceremony is translated as a sacred spring",
+  "status": "Applied locally",
+  "summary": "Applied the approved displayed senses or grammar decision; earlier meanings remain unless explicitly corrected.",
+  "followups": [],
+  "user_response": {
+    "id": "F028",
+    "status": "edited",
+    "text": "both meanings are accurate. ",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:10:06.628Z",
+    "title": "An oasis ceremony is translated as a sacred spring",
+    "originalSuggestion": "Clarify the intended ritual/place relationship or align the translation with the ceremony meaning."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Drenkorath",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Oasis Blessing Ceremony",
+          "usage": "Derived From: Dren (water) + kor (source/strength) + ath (balance). Meaning: A ritual where families gather to honor and protect their oasis or water source.",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V3-0119"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "Sacred spring",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V3-0119"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

@@ -1,0 +1,77 @@
+{
+  "rules": [
+    {
+      "entry_id": "GR-DR1-0001",
+      "source_volume": "Dictionary Review 1",
+      "source_section": "User-approved grammar decisions",
+      "page_number": "",
+      "rule_name": "Possession: spacing and suffix hierarchy",
+      "category": "Possession",
+      "original_wording": "Standalone ka is exclusively without or no. Possessive -ka must be hyphenated to the possessor. Body parts, inner states, personal clothes, and primary personal gear use post-nominal -ian (my), -ya (your), or -eshen (his/her/their). Collective, titled, compound, and other third-person possessors use possessor-ka. The user explicitly permits La-ka kelvor for their mouth, including this third-person body-part construction. -ian never means their. Relational -esh indicates a bond; it does not by itself specify a third-person owner.",
+      "examples": "I-ka dren — My water.\nIlin-ka emil — Our meal.\nrinaen aiv an doran-ian. — There is pain in my torso.\ndrenselaen I noka-ian. — I wash my vulva.\nLa-ka kelvor — Their mouth.\nVar I ka shal. — I go without light.",
+      "canon_status": "Canon",
+      "notes": "ED-0037 / ED-0038: user-approved review and subsequent possession clarification.",
+      "related_entry_ids": "GR-V1-0007; GR-V1-0020; GR-V3-0006",
+      "relationship_type": "clarifies or supersedes earlier wording",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    },
+    {
+      "entry_id": "GR-DR1-0002",
+      "source_volume": "Dictionary Review 1",
+      "source_section": "User-approved grammar decisions",
+      "page_number": "",
+      "rule_name": "Two permitted orders for a governing verb and its complement",
+      "category": "Syntax",
+      "original_wording": "Both V1 + Subject + V2 + Object and V1 + V2 + Subject + Object are permitted. The first places the subject directly after the governing verb; the second presents the combined action before the subject.",
+      "examples": "siv I pralaen krezor. — I try to make the hearth.\nsiv gavaen I zor. — I try to hunt the animal.\nsivrethaen belnoraen rakumek nor mekreth. — The computers fail to synchronize during the system malfunction.",
+      "canon_status": "Canon",
+      "notes": "ED-0037 / ED-0038: user-approved review and subsequent possession clarification.",
+      "related_entry_ids": "",
+      "relationship_type": "clarifies or supersedes earlier wording",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    },
+    {
+      "entry_id": "GR-DR1-0003",
+      "source_volume": "Dictionary Review 1",
+      "source_section": "User-approved grammar decisions",
+      "page_number": "",
+      "rule_name": "Varan and the universal continuous suffix",
+      "category": "Aspect and location",
+      "original_wording": "-al remains the universal continuous suffix. Varan is the lexicalized locative-stative form Var + An: to reside, stay, or be located at a physical place. It does not establish continuous -an. An supplies physical location; Nor supplies time.",
+      "examples": "Varal I dren. — I am going to the water.\nVaran I an Varthas. — I am residing in the city.\nNor-var I an Varthas. — I will go to the city.",
+      "canon_status": "Canon",
+      "notes": "ED-0037 / ED-0038: user-approved review and subsequent possession clarification.",
+      "related_entry_ids": "GR-V1-0019",
+      "relationship_type": "clarifies or supersedes earlier wording",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    },
+    {
+      "entry_id": "GR-DR1-0004",
+      "source_volume": "Dictionary Review 1",
+      "source_section": "User-approved grammar decisions",
+      "page_number": "",
+      "rule_name": "Plural and participant senses of -in",
+      "category": "Morphology",
+      "original_wording": "The existing plural rule remains: consonant-final nouns take -in; vowel-final nouns take -n. Separately, -in has an approved person/participant sense connecting a person or group to a bond, place, or category. That sense does not replace ordinary plurals.",
+      "examples": "nderun — testicles.\nwelrinin — citizens.\nShalor-in — one belonging to the sanctuary.",
+      "canon_status": "Canon",
+      "notes": "ED-0037 / ED-0038: user-approved review and subsequent possession clarification.",
+      "related_entry_ids": "GR-V2-0001",
+      "relationship_type": "clarifies or supersedes earlier wording",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    }
+  ],
+  "supersedes": {
+    "GR-V1-0007": "GR-DR1-0001",
+    "GR-V1-0020": "GR-DR1-0001",
+    "GR-V3-0006": "GR-DR1-0001"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "unresolved": [],
+  "non_csv_references": [
+    {
+      "from": "GR-SIP1-0002",
+      "to": "ED-0035",
+      "resolution": "Exists in knowledgebase/11_editorial_canon_policy.md"
+    }
+  ]
+}

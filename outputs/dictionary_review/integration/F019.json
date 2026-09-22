@@ -1,0 +1,57 @@
+{
+  "flag": "F019",
+  "title": "-eth is a suffix but its labels describe what it makes",
+  "status": "Applied locally",
+  "summary": "Applied the approved word labels and preserved the other established meanings.",
+  "followups": [],
+  "user_response": {
+    "id": "F019",
+    "status": "edited",
+    "text": "label it a Suffix while sharing what the suffix actually does. ",
+    "notes": "",
+    "updatedAt": "2026-09-22T13:20:50.188Z",
+    "title": "-eth is a suffix but its labels describe what it makes",
+    "originalSuggestion": "Use a consistent suffix label or explicitly explain that these labels identify the kinds of words the ending forms."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "-eth",
+      "senses": [
+        {
+          "type": "Suffix",
+          "meaning": "Suffix that marks inherent quality or essential manifestation",
+          "usage": "Common adjectival examples: Shal -> Shaleth, Wor -> Woreth, Gorm -> Gormeth, Kal -> Kaleth.",
+          "rootWord": false,
+          "sourceEntries": [
+            "DM-RM-V4-0001"
+          ]
+        },
+        {
+          "type": "Suffix",
+          "meaning": "Also used for abstract or ritual nouns",
+          "usage": "Ritual/nominal examples: Shal'taleth, Aen'Moreth.",
+          "rootWord": false,
+          "sourceEntries": [
+            "DM-RM-V4-0001"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "-aen",
+      "senses": [
+        {
+          "type": "Suffix",
+          "rootWord": false,
+          "meaning": "Verb-forming",
+          "usage": "Original root/morpheme entry preserved.",
+          "sourceEntries": [
+            "DM-RM-V2-0034"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

@@ -1,0 +1,55 @@
+{
+  "flag": "F087",
+  "title": "zhirrathor appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Zhirrathor: Thread to the past / Historical continuity / Lineage link.",
+  "followups": [
+    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+  ],
+  "user_response": {
+    "id": "F087",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. zhirrathor (/zheer-rah-thohr/) — Noun: Thread to the past, historical continuity, lineage link\nEtymology: Built from Zhir (lineage / thread through time) + rathor (the past / history). Attested in PE-S3-0021: \"zhirrathor\" (\"thread to the past\").\nApp Entry: Noun: Thread to the past / Lineage continuity\n",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:49:23.352Z",
+    "title": "zhirrathor appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "zhirrathor",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Thread to the past / Historical continuity / Lineage link",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0033"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F087",
+    "entry": {
+      "entry_id": "LX-DR1-0033",
+      "celan_term": "Zhirrathor",
+      "pronunciation": "/zheer-rah-thohr/",
+      "english_meaning": "Thread to the past / Historical continuity / Lineage link",
+      "category": "Noun",
+      "derivation": "Zhir lineage/connection through time + Rathor past/history.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F087. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-S3-0021"
+    },
+    "example_count": 1
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "flag": "F071",
+  "title": "serilin appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Serilin and serilín share one entry; no duplicate headword.",
+  "followups": [],
+  "user_response": {
+    "id": "F071",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Serilin / serilín (/seh-ree-leen/) — Noun: Sister, female sibling\nEtymology: Built from Ser (friend/kin) + -il (affectionate diminutive) + -in (individual participant). serilín is a regional orthographic/accented variant used in Verdalris.",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:40:27.098Z",
+    "title": "serilin appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "serilin",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Sister / Female sibling",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0016"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

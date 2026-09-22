@@ -1,0 +1,129 @@
+{
+  "flag": "F020",
+  "title": "The 4,768 example spells a different number",
+  "status": "Applied locally",
+  "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+  "followups": [],
+  "user_response": {
+    "id": "F020",
+    "status": "edited",
+    "text": "Choose 4,787 as correct and update. ",
+    "notes": "",
+    "updatedAt": "2026-09-22T13:22:01.325Z",
+    "title": "The 4,768 example spells a different number",
+    "originalSuggestion": "Choose the intended number. If it is 4,768, the final components need to express six tens and eight."
+  },
+  "example_changes": [
+    {
+      "flag": "F020",
+      "entry_id": "PE-V3-0211",
+      "before": {
+        "entry_id": "PE-V3-0211",
+        "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+        "source_section": "Numbering System and Basic Math in Celan",
+        "page_number": "30-31",
+        "celan_text": "Mel-quen Hek-sethe Ten-oven sethe",
+        "translation": "4,768 (4,000 + 700 + 60 + 8)",
+        "example_type": "Number/math example",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved.",
+        "related_entry_ids": "",
+        "relationship_type": "",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-V3-0211",
+        "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+        "source_section": "Numbering System and Basic Math in Celan",
+        "page_number": "30-31",
+        "celan_text": "Mel-quen Hek-sethe Ten-oven sethe",
+        "translation": "4,787 (4,000 + 700 + 80 + 7)",
+        "example_type": "Number/math example",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved. ED-0037 F020: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "",
+        "relationship_type": "",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    }
+  ],
+  "current_displayed_senses": [
+    {
+      "headword": "Mel-",
+      "senses": [
+        {
+          "type": "Prefix",
+          "rootWord": false,
+          "meaning": "Thousands prefix",
+          "usage": "Original root/morpheme entry preserved.",
+          "sourceEntries": [
+            "DM-RM-V3-0016"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Hek-",
+      "senses": [
+        {
+          "type": "Prefix",
+          "rootWord": false,
+          "meaning": "Hundreds prefix",
+          "usage": "Original root/morpheme entry preserved.",
+          "sourceEntries": [
+            "DM-RM-V3-0015"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Ten-",
+      "senses": [
+        {
+          "type": "Prefix",
+          "rootWord": false,
+          "meaning": "Tens prefix",
+          "usage": "Original root/morpheme entry preserved.",
+          "sourceEntries": [
+            "DM-RM-V3-0014"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Oven",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Eight",
+          "usage": "",
+          "sourceEntries": [
+            "LX-V3-0141"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Sethe",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Seven",
+          "usage": "",
+          "sourceEntries": [
+            "LX-V3-0140"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

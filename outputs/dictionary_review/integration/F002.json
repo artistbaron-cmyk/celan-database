@@ -1,0 +1,69 @@
+{
+  "flag": "F002",
+  "title": "Belshara — Necessity (Must/Have to)",
+  "status": "Applied locally",
+  "summary": "Applied the approved word labels and preserved the other established meanings.",
+  "followups": [],
+  "user_response": {
+    "id": "F002",
+    "status": "edited",
+    "text": "It needs to be considerd a Modal and a Noun",
+    "notes": "",
+    "updatedAt": "2026-09-22T13:06:26.998Z",
+    "title": "Belshara — Necessity (Must/Have to)",
+    "originalSuggestion": "Choose the intended label for these modal uses together: Modal, Adverb, or Particle. Do not change the meaning."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Belshara",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Coordinated Maneuver / Formation Movement / Tactical Path. Refers to moving troops in a specific, planned way.",
+          "usage": "Bel (bind/weave) + Shara (path/journey)",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0130",
+            "LX-V4-0002",
+            "LX-V4-0066"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "Duty (Bound Path)",
+          "usage": "Bel (bind) + Shara (path)",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0130",
+            "LX-V4-0002",
+            "LX-V4-0066"
+          ]
+        },
+        {
+          "type": "Modal",
+          "meaning": "Necessity (Must/Have to)",
+          "usage": "\"on a bound path\"",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0130",
+            "LX-V4-0002",
+            "LX-V4-0066"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "Necessity / Obligation",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0130",
+            "LX-V4-0002",
+            "LX-V4-0066"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

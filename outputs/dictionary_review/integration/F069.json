@@ -1,0 +1,62 @@
+{
+  "flag": "F069",
+  "title": "im appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Im: Device / Instrument / Implement / Internal mechanism.",
+  "followups": [
+    "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
+  ],
+  "user_response": {
+    "id": "F069",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Im / im (/eem/) — Noun / Particle: Device, instrument, implement, internal mechanism\nEtymology: Attested in the root crosswalk as a primitive instrumental/essence morpheme for device / internal mechanism.\nAttested In: PE-V3-0119 (\"Use the device with water...\"), PE-V3-0140.\nApp Entry: Noun: Device / Instrument / Implement",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:39:54.392Z",
+    "title": "im appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "im",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Device / Instrument / Implement / Internal mechanism",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-DR1-0018"
+          ]
+        },
+        {
+          "type": "Particle",
+          "meaning": "Device / Instrument / Internal mechanism",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-DR1-0018"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F069",
+    "entry": {
+      "entry_id": "LX-DR1-0018",
+      "celan_term": "Im",
+      "pronunciation": "/eem/",
+      "english_meaning": "Device / Instrument / Implement / Internal mechanism",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F069. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0119; PE-V3-0140"
+    },
+    "example_count": 2
+  }
+}

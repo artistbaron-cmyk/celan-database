@@ -1,0 +1,62 @@
+{
+  "flag": "F076",
+  "title": "thalor appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Thalor: Outside / Exterior / Outer place.",
+  "followups": [
+    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+  ],
+  "user_response": {
+    "id": "F076",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Thalor / thalor (/thah-lohr/) — Noun / Adverb: Outside, exterior, outer place\nEtymology: Built from Thal (from/out of) + -or (place).\nAttested In: PE-V4-0085 (\"The fortress is 100 strides outside\"), PE-V2-0093.\nApp Entry: Noun/Adverb: Outside / Exterior / Outer place\n",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:41:43.083Z",
+    "title": "thalor appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "thalor",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Outside / Exterior / Outer place",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-DR1-0024"
+          ]
+        },
+        {
+          "type": "Adverb",
+          "meaning": "Outside",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-DR1-0024"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F076",
+    "entry": {
+      "entry_id": "LX-DR1-0024",
+      "celan_term": "Thalor",
+      "pronunciation": "/thah-lohr/",
+      "english_meaning": "Outside / Exterior / Outer place",
+      "category": "Noun",
+      "derivation": "Thal from/out of + -or place.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F076. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V4-0085"
+    },
+    "example_count": 1
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "flag": "F015",
+  "title": "Vaarshen — A safe clearance distance established between a hazard and an unprotected person or place",
+  "status": "Applied locally",
+  "summary": "Applied the approved word labels and preserved the other established meanings.",
+  "followups": [],
+  "user_response": {
+    "id": "F015",
+    "status": "edited",
+    "text": "Approve displaying Measure and Noun",
+    "notes": "",
+    "updatedAt": "2026-09-22T13:12:59.744Z",
+    "title": "Vaarshen — A safe clearance distance established between a hazard and an unprotected person or place",
+    "originalSuggestion": "Approve displaying Measure."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Vaarshen",
+      "senses": [
+        {
+          "type": "Measure",
+          "meaning": "A safe clearance distance established between a hazard and an unprotected person or place",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-PFM1-0037"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "A safe clearance distance established between a hazard and an unprotected person or place",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-PFM1-0037"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

@@ -1,0 +1,73 @@
+{
+  "flag": "F043",
+  "title": "Chaos is translated as a ruin",
+  "status": "Applied locally",
+  "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+  "followups": [],
+  "user_response": {
+    "id": "F043",
+    "status": "edited",
+    "text": "Updated Translation: \"A blessing rests on the home and a curse on chaos.\"",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:37:52.725Z",
+    "title": "Chaos is translated as a ruin",
+    "originalSuggestion": "Confirm a place-reading or align the example with chaos."
+  },
+  "example_changes": [
+    {
+      "flag": "F043",
+      "entry_id": "PE-GMMP1-0018",
+      "before": {
+        "entry_id": "PE-GMMP1-0018",
+        "source_volume": "General Magic and Metaphysical Practice 1",
+        "source_section": "Common Celan > magic and metaphysical-practice scenes",
+        "page_number": "",
+        "celan_text": "rinaen vaarrin an teremil ser rathrin an rethvok.",
+        "translation": "A blessing rests on the home and a curse on the ruin.",
+        "example_type": "Expansion example",
+        "analysis": "Connected scene tests two approved magic or metaphysical-practice headwords in ordinary or technical use.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support.",
+        "related_entry_ids": "LX-GMMP1-0018; LX-GMMP1-0019",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-GMMP1-0018",
+        "source_volume": "General Magic and Metaphysical Practice 1",
+        "source_section": "Common Celan > magic and metaphysical-practice scenes",
+        "page_number": "",
+        "celan_text": "rinaen vaarrin an teremil ser rathrin an rethvok.",
+        "translation": "A blessing rests on the home and a curse on chaos.",
+        "example_type": "Expansion example",
+        "analysis": "Connected scene tests two approved magic or metaphysical-practice headwords in ordinary or technical use.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F043: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-GMMP1-0018; LX-GMMP1-0019",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    }
+  ],
+  "current_displayed_senses": [
+    {
+      "headword": "Rethvok",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Chaos (A bond of confusion)",
+          "usage": "Reth (confusion) + Vok (bond)",
+          "sourceEntries": [
+            "LX-V4-0075"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

@@ -1,0 +1,53 @@
+{
+  "flag": "F073",
+  "title": "eshvan appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Eshvan: Shop / Store / Market stall.",
+  "followups": [],
+  "user_response": {
+    "id": "F073",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Eshvan / eshvan (/ehsh-vahn/) — Noun: Shop, store, market stall\nEtymology: Built from Esh (open/air) + van (commercial site/market place).\nAttested In: PE-V3-0126 (\"...to the shop for food\"), PE-V3-0128.\nApp Entry: Noun: Shop / Store / Market stall",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:40:51.857Z",
+    "title": "eshvan appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "eshvan",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Shop / Store / Market stall",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0021"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F073",
+    "entry": {
+      "entry_id": "LX-DR1-0021",
+      "celan_term": "Eshvan",
+      "pronunciation": "/ehsh-vahn/",
+      "english_meaning": "Shop / Store / Market stall",
+      "category": "Noun",
+      "derivation": "Esh sky/air + Van commercial site.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F073. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0126; PE-V3-0128"
+    },
+    "example_count": 2
+  }
+}

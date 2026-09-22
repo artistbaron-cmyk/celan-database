@@ -1,0 +1,73 @@
+{
+  "flag": "F037",
+  "title": "The pronoun “they” is treated like a person’s name",
+  "status": "Applied locally",
+  "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+  "followups": [],
+  "user_response": {
+    "id": "F037",
+    "status": "edited",
+    "text": "translate the pronoun.",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:22:53.983Z",
+    "title": "The pronoun “they” is treated like a person’s name",
+    "originalSuggestion": "Confirm whether this is deliberately a character name or translate the pronoun."
+  },
+  "example_changes": [
+    {
+      "flag": "F037",
+      "entry_id": "PE-RC1-0039",
+      "before": {
+        "entry_id": "PE-RC1-0039",
+        "source_volume": "Recreation and Competition 1",
+        "source_section": "Common Celan > LX-RC1-0020",
+        "page_number": "",
+        "celan_text": "jornakaen Lalin an shara.",
+        "translation": "Lalin races on the road.",
+        "example_type": "Expansion example",
+        "analysis": "Named participant and course select the racing action.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support.",
+        "related_entry_ids": "LX-RC1-0020",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-RC1-0039",
+        "source_volume": "Recreation and Competition 1",
+        "source_section": "Common Celan > LX-RC1-0020",
+        "page_number": "",
+        "celan_text": "jornakaen Lalin an shara.",
+        "translation": "They race on the road.",
+        "example_type": "Expansion example",
+        "analysis": "Named participant and course select the racing action.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F037: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-RC1-0020",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    }
+  ],
+  "current_displayed_senses": [
+    {
+      "headword": "Lalin",
+      "senses": [
+        {
+          "type": "Pronoun",
+          "meaning": "They / Them (3rd Person Plural)",
+          "usage": "Means “they” (a group not including speaker or addressee).",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0006"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

@@ -1,0 +1,59 @@
+{
+  "flag": "F036",
+  "title": "Ten is used as radiance",
+  "status": "Applied locally",
+  "summary": "Applied the approved displayed senses or grammar decision; earlier meanings remain unless explicitly corrected.",
+  "followups": [],
+  "user_response": {
+    "id": "F036",
+    "status": "edited",
+    "text": "ecision & Recommended Fix\nApprove the standalone noun sense \"Radiance / Steady Glow\" in the dictionary app.\nUpdate the app's display entry for Tenar to show both senses:\nHeadword\nPart of Speech\nDisplay Meanings / Gloss\nTenar\nNumber\nTen (10).\nNoun\nRadiance, steady glow, visible light.\nThis resolves the discrepancy across the magic examples and compounds without changing any canonical text!",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:24:24.634Z",
+    "title": "Ten is used as radiance",
+    "originalSuggestion": "Decide whether this is a root-only association that needs explanation or an approved standalone sense to display."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Tenar",
+      "senses": [
+        {
+          "type": "Number",
+          "meaning": "Ten",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V3-0143",
+            "XR-tenar"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "Radiance / Steady glow / Visible light",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V3-0143",
+            "XR-tenar"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Tenarpralaen",
+      "senses": [
+        {
+          "type": "Verb",
+          "rootWord": false,
+          "meaning": "To shape direct or sustain visible light or radiance through extraordinary trained practice",
+          "usage": "",
+          "sourceEntries": [
+            "LX-GMMP1-0036"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

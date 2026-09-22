@@ -1,0 +1,55 @@
+{
+  "flag": "F083",
+  "title": "vorkaral appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Vorkaral: Worker / Mechanic / Laborer / Tool-operator.",
+  "followups": [
+    "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
+  ],
+  "user_response": {
+    "id": "F083",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. vorkaral (/vohr-kahr-ahl/) — Noun: Worker, mechanic, laborer, tool-operator\nEtymology: Built from Vor (active role / place) + kar (tool-work / force) + -al (agent suffix).",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:48:29.126Z",
+    "title": "vorkaral appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "vorkaral",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Worker / Mechanic / Laborer / Tool-operator",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0029"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F083",
+    "entry": {
+      "entry_id": "LX-DR1-0029",
+      "celan_term": "Vorkaral",
+      "pronunciation": "/vohr-kahr-ahl/",
+      "english_meaning": "Worker / Mechanic / Laborer / Tool-operator",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F083. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-GMMP1-0041; PE-GMMP1-0042; PE-GMMP1-0043; PE-GMMP1-0044; PE-GMMP1-0045"
+    },
+    "example_count": 5
+  }
+}

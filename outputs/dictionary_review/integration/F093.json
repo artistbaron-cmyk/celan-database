@@ -1,0 +1,99 @@
+{
+  "flag": "F093",
+  "title": "Basic English pronoun searches miss their own entries",
+  "status": "Applied locally",
+  "summary": "Added the approved English pronoun glosses to displayed meanings and search.",
+  "followups": [],
+  "user_response": {
+    "id": "F093",
+    "status": "edited",
+    "text": "Add approved English lookup equivalents without changing the pronouns’ meanings. o resolve lookup failures without diluting the formal linguistic classification, update the primary meaning field for each pronoun to include both the common English glosses and the formal grammatical designation:\nCelan Headword\nCurrent App Meaning Slot\nRecommended Updated meaning (Searchable)\nGrammatical Nuance Preserved\nI\n1st Person Singular\nI / Me (1st Person Singular)\nSimple, universal 1st-person singular pronoun.\nYa\n2nd Person Singular\nYou (2nd Person Singular)\nStraightforward singular 2nd-person pronoun.\nLa\n3rd Person Singular\nHe / She / They (3rd Person Singular)\nGender-neutral 3rd-person singular pronoun.\nIlin\n1st Person Plural\nWe / Us [Inclusive] (1st Person Plural)\nCommunal \"we\" (bound by common purpose; speaker + listener).\nImen\nExclusive We\nWe / Us [Exclusive]\nGroup \"we\" excluding the listener (speaker + others).\nInko\nWe two\nWe two / Us two [Dual]\nDual 1st-person pronoun (me and you).\nYako\nYou two\nYou two [Dual]\nDual 2nd-person pronoun.\nYalin\n2nd Person Plural\nYou all / Y'all (2nd Person Plural)\nCollective 2nd-person plural pronoun.\nLako\nThey two\nThey two [Dual]\nDual 3rd-person pronoun.\nLalin\n3rd Person Plural\nThey / Them (3rd Person Plural)\nCollective 3rd-person plural pronoun (excluding speaker/addressee).",
+    "notes": "",
+    "updatedAt": "2026-09-22T17:44:40.378Z",
+    "title": "Basic English pronoun searches miss their own entries",
+    "originalSuggestion": "Add approved English lookup equivalents without changing the pronouns’ meanings."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "I",
+      "senses": [
+        {
+          "type": "Pronoun",
+          "meaning": "I / Me (1st Person Singular)",
+          "usage": "Remains simple and universal.",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0001"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Ya",
+      "senses": [
+        {
+          "type": "Pronoun",
+          "meaning": "You (2nd Person Singular)",
+          "usage": "A straightforward pronoun for “you.”",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0003"
+          ]
+        },
+        {
+          "type": "Possessive",
+          "meaning": "Your (direct personal suffix -ya)",
+          "usage": "Attach -ya to the possessed noun for body parts, inner states, and personal clothing.",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0003"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "La",
+      "senses": [
+        {
+          "type": "Pronoun",
+          "meaning": "He / She / They (3rd Person Singular)",
+          "usage": "Neutral pronoun meaning “he/she/they.”",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0005"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Yalin",
+      "senses": [
+        {
+          "type": "Pronoun",
+          "meaning": "You all / You / Y’all (2nd Person Plural)",
+          "usage": "\"You all.\" Signifies a collective of individuals addressed.",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0004"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Lalin",
+      "senses": [
+        {
+          "type": "Pronoun",
+          "meaning": "They / Them (3rd Person Plural)",
+          "usage": "Means “they” (a group not including speaker or addressee).",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0006"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

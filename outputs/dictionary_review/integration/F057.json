@@ -1,0 +1,53 @@
+{
+  "flag": "F057",
+  "title": "tharvok appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Tharvok: Family / Heart-bonded family / Clan.",
+  "followups": [],
+  "user_response": {
+    "id": "F057",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. tharvok (/thahr-vohk/) — Noun: Family, heart-bonded family, clan\nDerivation: Thar (heart/emotional core) + vok (unity/bond).",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:10:52.000Z",
+    "title": "tharvok appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "tharvok",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Family / Heart-bonded family / Clan",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0007"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F057",
+    "entry": {
+      "entry_id": "LX-DR1-0007",
+      "celan_term": "Tharvok",
+      "pronunciation": "/thahr-vohk/",
+      "english_meaning": "Family / Heart-bonded family / Clan",
+      "category": "Noun",
+      "derivation": "Thar heart + Vok unity/bond.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F057. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V2-0043; PE-V3-0044; PE-V3-0089; PE-V3-0098; PE-V3-0100; PE-V3-0104; PE-UHEI1-0022"
+    },
+    "example_count": 7
+  }
+}

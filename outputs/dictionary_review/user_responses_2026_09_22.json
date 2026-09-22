@@ -1,0 +1,898 @@
+{
+  "schema": "celan-dictionary-decisions-v1",
+  "revision": "c16c8584887860b033cf6b8c2e2c821c26c4d87a0f74c0cc1941cf49617c0020",
+  "exportedAt": "2026-09-22T17:52:12.619Z",
+  "decisions": [
+    {
+      "id": "F001",
+      "status": "approved",
+      "text": "Approve Noun for this ritual meaning.",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:06:30.814Z",
+      "title": "Arthen'taleth — Sacrifice for Destiny Ritual (noun).",
+      "originalSuggestion": "Approve Noun for this ritual meaning."
+    },
+    {
+      "id": "F002",
+      "status": "edited",
+      "text": "It needs to be considerd a Modal and a Noun",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:06:26.998Z",
+      "title": "Belshara — Necessity (Must/Have to)",
+      "originalSuggestion": "Choose the intended label for these modal uses together: Modal, Adverb, or Particle. Do not change the meaning."
+    },
+    {
+      "id": "F003",
+      "status": "edited",
+      "text": "Approve displaying Noun and Measure.",
+      "notes": "Its a noun but also a measure we should preserve both. ",
+      "updatedAt": "2026-09-22T12:58:00.947Z",
+      "title": "Jorvar — Speed; the rate at which a person creature object or vehicle moves through distance",
+      "originalSuggestion": "Approve displaying Measure."
+    },
+    {
+      "id": "F004",
+      "status": "approved",
+      "text": "Approve Noun for this ritual meaning.",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:06:48.863Z",
+      "title": "Kor'taleth — Offering to Power Source Ritual (noun).",
+      "originalSuggestion": "Approve Noun for this ritual meaning."
+    },
+    {
+      "id": "F005",
+      "status": "edited",
+      "text": "MODAL",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:05:25.093Z",
+      "title": "Lianeth — Ability (Can/Able to)",
+      "originalSuggestion": "Choose the intended label for these modal uses together: Modal, Adverb, or Particle. Do not change the meaning."
+    },
+    {
+      "id": "F007",
+      "status": "approved",
+      "text": "Separate the person meaning from the action meaning; preserve both rather than making all uses nouns.",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:08:36.593Z",
+      "title": "Lorin — Guide",
+      "originalSuggestion": "Separate the person meaning from the action meaning; preserve both rather than making all uses nouns."
+    },
+    {
+      "id": "F006",
+      "status": "edited",
+      "text": "Approve displaying Measure and Noun.",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:08:13.619Z",
+      "title": "Lianrethshen — An anomaly reading; a measured value describing the intensity or instability of a reality anomaly",
+      "originalSuggestion": "Approve displaying Measure."
+    },
+    {
+      "id": "F008",
+      "status": "approved",
+      "text": "Separate the person meaning from the action meaning; preserve both rather than making all uses nouns.",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:08:47.786Z",
+      "title": "Lorin — Guide / Teacher",
+      "originalSuggestion": "Separate the person meaning from the action meaning; preserve both rather than making all uses nouns."
+    },
+    {
+      "id": "F009",
+      "status": "approved",
+      "text": "Approve Noun for this meaning, preserving every other meaning.",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:09:01.074Z",
+      "title": "Phelrin — Comfort Food",
+      "originalSuggestion": "Approve Noun for this meaning, preserving every other meaning."
+    },
+    {
+      "id": "F010",
+      "status": "approved",
+      "text": "Approve Noun for this meaning, preserving every other meaning.",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:09:06.394Z",
+      "title": "Phelvin — Comfort Drink",
+      "originalSuggestion": "Approve Noun for this meaning, preserving every other meaning."
+    },
+    {
+      "id": "F011",
+      "status": "edited",
+      "text": "Modal and Partical ",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:10:29.148Z",
+      "title": "Rethlian — Possibility (May/Might)",
+      "originalSuggestion": "Choose the intended label for these modal uses together: Modal, Adverb, or Particle. Do not change the meaning."
+    },
+    {
+      "id": "F012",
+      "status": "approved",
+      "text": "Approve Noun for this ritual meaning.",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:10:35.756Z",
+      "title": "Thal'taleth — Act/Ritual of Sacrifice (general noun).",
+      "originalSuggestion": "Approve Noun for this ritual meaning."
+    },
+    {
+      "id": "F014",
+      "status": "approved",
+      "text": "Approve Noun for this ritual meaning.",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:11:06.910Z",
+      "title": "Thar'taleth — Life/Heart Sacrifice Ritual (noun).",
+      "originalSuggestion": "Approve Noun for this ritual meaning."
+    },
+    {
+      "id": "F013",
+      "status": "edited",
+      "text": "Modal and Noun",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:12:35.879Z",
+      "title": "Thar-ka — Desire (Want to)",
+      "originalSuggestion": "Choose the intended label for these modal uses together: Modal, Adverb, or Particle. Do not change the meaning."
+    },
+    {
+      "id": "F015",
+      "status": "edited",
+      "text": "Approve displaying Measure and Noun",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:12:59.744Z",
+      "title": "Vaarshen — A safe clearance distance established between a hazard and an unprotected person or place",
+      "originalSuggestion": "Approve displaying Measure."
+    },
+    {
+      "id": "F016",
+      "status": "edited",
+      "text": "Approve a label as Particle",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:13:30.601Z",
+      "title": "Ven — Subtraction marker meaning minus/subtract",
+      "originalSuggestion": "Approve a label such as Particle or Math Marker."
+    },
+    {
+      "id": "F017",
+      "status": "edited",
+      "text": "split out the noun reading while preserving all established meanings.",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:14:17.658Z",
+      "title": "Aen mixes an action and a thing under Verb",
+      "originalSuggestion": "Decide whether to split out the noun reading while preserving all established meanings."
+    },
+    {
+      "id": "F018",
+      "status": "edited",
+      "text": "Confirm the intended  meaning is an adjective.",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:17:29.895Z",
+      "title": "Jin says “unique or rare” but is labeled Noun",
+      "originalSuggestion": "Confirm whether the intended noun means uniqueness/rarity, or whether this displayed sense should be an adjective."
+    },
+    {
+      "id": "F019",
+      "status": "edited",
+      "text": "label it a Suffix while sharing what the suffix actually does. ",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:20:50.188Z",
+      "title": "-eth is a suffix but its labels describe what it makes",
+      "originalSuggestion": "Use a consistent suffix label or explicitly explain that these labels identify the kinds of words the ending forms."
+    },
+    {
+      "id": "F020",
+      "status": "edited",
+      "text": "Choose 4,787 as correct and update. ",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:22:01.325Z",
+      "title": "The 4,768 example spells a different number",
+      "originalSuggestion": "Choose the intended number. If it is 4,768, the final components need to express six tens and eight."
+    },
+    {
+      "id": "F021",
+      "status": "edited",
+      "text": "Update to  together/with. That's what the sentence actually says. ",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:23:00.296Z",
+      "title": "The oil is “with” water, but English says “apart”",
+      "originalSuggestion": "Decide whether the intended sentence means together/with or apart, then align the two languages."
+    },
+    {
+      "id": "F022",
+      "status": "edited",
+      "text": "Updated: \"The restorative healer brews a liquid for the patient with heatstroke\"",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:31:42.805Z",
+      "title": "A brewing verb is translated as cooling a patient",
+      "originalSuggestion": "Confirm a different verb for cooling, or explicitly approve and explain this additional sense."
+    },
+    {
+      "id": "F023",
+      "status": "edited",
+      "text": "Examples need movement/carrying verbs not Moraen.",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:38:38.445Z",
+      "title": "Standing is translated as carrying or moving",
+      "originalSuggestion": "Decide whether the examples need movement/carrying verbs or Moraen needs an approved additional sense."
+    },
+    {
+      "id": "F024",
+      "status": "edited",
+      "text": "Teremil is home. and Emil is food. the sentences should be updated. There is no word for tent. Kalbelrin is uses as tent in a sentence but that would need to be a separate definition then its current meaning of heavy thightly woven cloth. ",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:44:57.791Z",
+      "title": "Home becomes a meal or a tent",
+      "originalSuggestion": "Resolve the meal examples first; clarify whether tent is a contextual use of home rather than a new general meaning."
+    },
+    {
+      "id": "F025",
+      "status": "edited",
+      "text": "This sentence intended Shalor-in (-in = person/participant suffix denoting connection or belonging) should be an additional definition for the suffix -in) whether it is creating Serin (friends), Pralin (cousin), Savin (patient), or Shalor-in (one belonging to the sanctuary), the -in suffix consistently performs the job of tying a person or group into an overarching bond or category.",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:50:11.982Z",
+      "title": "A fruit is translated as a sanctuary",
+      "originalSuggestion": "Confirm whether this sentence intended Shalor or whether Shalorin has an additional approved meaning."
+    },
+    {
+      "id": "F026",
+      "status": "edited",
+      "text": "Lumor has many meaning and talisman is one of them. Lumor is a classic example of polysemy",
+      "notes": "",
+      "updatedAt": "2026-09-22T13:52:41.499Z",
+      "title": "Light is translated as a talisman",
+      "originalSuggestion": "Clarify whether this is an established figurative object-name or correct the example."
+    },
+    {
+      "id": "F027",
+      "status": "edited",
+      "text": "considering changing the \"zhelvek' to becoming energy carrier as standard definition. and changing the (energy bar - food) to either Velvek, or Velzhel needs support here. ",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:01:56.138Z",
+      "title": "An energy bar is treated as a mechanical energy carrier",
+      "originalSuggestion": "Choose the intended object in those examples, or explicitly distinguish an approved second sense."
+    },
+    {
+      "id": "F028",
+      "status": "edited",
+      "text": "both meanings are accurate. ",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:10:06.628Z",
+      "title": "An oasis ceremony is translated as a sacred spring",
+      "originalSuggestion": "Clarify the intended ritual/place relationship or align the translation with the ceremony meaning."
+    },
+    {
+      "id": "F029",
+      "status": "edited",
+      "text": "Xarmetha should've been used as the meaning for skin. or the sentence can be changed to reflect face. depending on where the example sits. ",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:12:03.455Z",
+      "title": "Face is translated as skin",
+      "originalSuggestion": "Decide whether the example means facial protection or skin in general."
+    },
+    {
+      "id": "F030",
+      "status": "edited",
+      "text": "Nethnor is still. so the sentence should reflect that meaning. ",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:12:53.504Z",
+      "title": "“Still” is translated as “again”",
+      "originalSuggestion": "Choose continued recovery or repeated recovery and use matching wording."
+    },
+    {
+      "id": "F031",
+      "status": "edited",
+      "text": "As an Adjective: Kaleth means \"strong, powerful, intense, or high (in magnitude/reading)\"—expressing the essential, active quality of Kal across forces, tides, machinery, senses, and gravity. As a Noun: Kaleth means \"fortress / stronghold\"—the physical or ritual manifestation of absolute strength.",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:14:55.295Z",
+      "title": "Fortress is repeatedly used to mean strong",
+      "originalSuggestion": "Decide whether Kaleth needs a separately approved adjective sense or these examples should use the established adjective."
+    },
+    {
+      "id": "F032",
+      "status": "edited",
+      "text": "Approve the \"Reliable / Sound / Dependable\" adjectival sense in the dictionary app.\nRather than changing the canon examples, update the entry for Lianeth to reflect its full polyfunctional entry:\nHeadword\nPart of Speech\nDisplay Meaning / Gloss\nLianeth\nModal / Verb\nAbility (Can / Able to). (Modifies verbs)\nAdjective\nReliable, sound, dependable, accurate, true to function. (Modifies nouns/objects)\nThis brings the app into full alignment with how -eth derivatives operate across Celan!\n",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:16:46.462Z",
+      "title": "Ability is translated as reliability",
+      "originalSuggestion": "Clarify or approve the reliability sense, or align the examples with the current meaning."
+    },
+    {
+      "id": "F033",
+      "status": "edited",
+      "text": "Do not change the example sentence. Instead, update the entry for nor-ka in the app to include its approved temporal sense:\nHeadword\nPart of Speech\nDisplay Meanings / Gloss\nnor-ka\nParticle\n1. Passive voice echo particle (marks passive state) <br> 2. Now / In this moment / At present (often used as an nor-ka)",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:18:12.776Z",
+      "title": "The passive marker is translated as “this moment”",
+      "originalSuggestion": "Decide whether the example needs a time word or whether this marker has an additional contextual use."
+    },
+    {
+      "id": "F034",
+      "status": "edited",
+      "text": "sentence keeps kel, the English translation should be updated to specify a written or encoded text rather than generic \"information\":\nCelan: dor mekral kel an belzhirkavor.\nCorrected Translation: \"The technician puts a text [or encoded text] in the data center.\"",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:19:54.035Z",
+      "title": "Kel is used as generic information",
+      "originalSuggestion": "Make the example specifically about a text, use the established information term, or clarify the intended context."
+    },
+    {
+      "id": "F035",
+      "status": "edited",
+      "text": "Keep seren in the Celan text and update the English translations to read \"the guardian\" or \"the protector\":",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:21:59.119Z",
+      "title": "A guardian is repeatedly translated as a friend",
+      "originalSuggestion": "Confirm the intended participant and align the English or Celan wording."
+    },
+    {
+      "id": "F037",
+      "status": "edited",
+      "text": "translate the pronoun.",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:22:53.983Z",
+      "title": "The pronoun “they” is treated like a person’s name",
+      "originalSuggestion": "Confirm whether this is deliberately a character name or translate the pronoun."
+    },
+    {
+      "id": "F036",
+      "status": "edited",
+      "text": "ecision & Recommended Fix\nApprove the standalone noun sense \"Radiance / Steady Glow\" in the dictionary app.\nUpdate the app's display entry for Tenar to show both senses:\nHeadword\nPart of Speech\nDisplay Meanings / Gloss\nTenar\nNumber\nTen (10).\nNoun\nRadiance, steady glow, visible light.\nThis resolves the discrepancy across the magic examples and compounds without changing any canonical text!",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:24:24.634Z",
+      "title": "Ten is used as radiance",
+      "originalSuggestion": "Decide whether this is a root-only association that needs explanation or an approved standalone sense to display."
+    },
+    {
+      "id": "F038",
+      "status": "edited",
+      "text": "Here are the direct Celan wording fixes:\n1. Sentences needing morl (under / beneath)\n\"The sharp grain rests by the water under the light.\"\nOld Celan: Pelvar nor dren thal shal.\nUpdated Celan: Pelvar nor dren morl shal.\n\"The storm flows with the water under the light.\"\nOld Celan: Dralorim nor dren thal shal.\nUpdated Celan: Dralorim nor dren morl shal.\n\"The trap is beneath the bridge.\"\nOld Celan: rinaen vethbel thal njor.\nUpdated Celan: rinaen vethbel morl njor.\n\"The cousin is by the water under the mountain.\"\nOld Celan: Pralin ser dren thal morl.\nUpdated Celan: Pralin ser dren morl morl.\n\"The distant relative is by the water under the family.\"\nOld Celan: Zharin ser dren thal Tharvok.\nUpdated Celan: Zharin ser dren morl Tharvok.\n\"The bond renewal flows under the mountain.\"\nOld Celan: Zhivokesh shalil thal morl.\nUpdated Celan: Zhivokesh shalil morl morl.\n2. Sentence needing vethvar (behind)\n\"I hear music behind the house.\"\nOld Celan: aenaen I aennor thal teremil.\nUpdated Celan: aenaen I aennor vethvar teremil.\n3. Sentences needing an thal (in/under balance)\n\"The shadowlight ritual strengthens with the family under balance.\"\nOld Celan: Shalorveth kal dren thal Tharvok.\nUpdated Celan: Shalorveth kal dren an thal.\n\"The fortress bonding ceremony is with the family under balance.\"\nOld Celan: Kalorinath ser dren thal Tharvok.\nUpdated Celan: Kalorinath ser dren an thal.",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:29:39.345Z",
+      "title": "From becomes beneath, behind, or under",
+      "originalSuggestion": "Review these sentences individually; clarify poetic/contextual readings or align the spatial wording."
+    },
+    {
+      "id": "F039",
+      "status": "edited",
+      "text": "Updated Translation: \"There is survival from the ship.\"",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:32:24.462Z",
+      "title": "A ship is translated as a shipwreck",
+      "originalSuggestion": "Explain the implied context or make the accident explicit."
+    },
+    {
+      "id": "F040",
+      "status": "edited",
+      "text": "remove whiteout and add fog. ",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:32:41.688Z",
+      "title": "Fog is translated as a whiteout",
+      "originalSuggestion": "Confirm this contextual use or make the translation match fog."
+    },
+    {
+      "id": "F041",
+      "status": "edited",
+      "text": "Updated Translation: \"The mechanic puts oil on the toolkit.\"",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:34:14.616Z",
+      "title": "The toolkit is translated as one tool",
+      "originalSuggestion": "Choose whether the mechanic oils the kit or a particular tool."
+    },
+    {
+      "id": "F042",
+      "status": "edited",
+      "text": "replace \"tool\" with \"carrier\"",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:35:02.728Z",
+      "title": "A carrier is translated as a tool",
+      "originalSuggestion": "Clarify the object or revise the example wording."
+    },
+    {
+      "id": "F043",
+      "status": "edited",
+      "text": "Updated Translation: \"A blessing rests on the home and a curse on chaos.\"",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:37:52.725Z",
+      "title": "Chaos is translated as a ruin",
+      "originalSuggestion": "Confirm a place-reading or align the example with chaos."
+    },
+    {
+      "id": "F044",
+      "status": "edited",
+      "text": "If you keep Tal in the Celan text, adjust the English translations to reflect receiving or taking water rather than drinking it:PE-V2-0003: Tal I dren an Kinnlin. $\\\\rightarrow$ \"I receive [take] the water at noon.\"PE-V2-0007: Tal I kilvlum dren nor veth. $\\\\rightarrow$ \"I receive [take] water at midnight by the water's shadow.\"",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:40:55.539Z",
+      "title": "Drinking is expressed with give/take",
+      "originalSuggestion": "Confirm an idiomatic drinking use or align these examples with the recorded actions."
+    },
+    {
+      "id": "F045",
+      "status": "edited",
+      "text": "Option A: Align with the Standard Rule (Approve Nderun — Recommended)\nUpdate the example sentence so it follows the exception-free vowel-plural rule:\nOld Celan: keshenaen zhaelral nderuin.\nUpdated Celan: keshenaen zhaelral nderun.\nTranslation: \"The healer examines the testicles.\"\nThis preserves the simplicity of Celan's pluralization rules without requiring learners to memorize an arbitrary exception. (which means adjusting the workd nderuin to nderun)\n",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:42:58.245Z",
+      "title": "Nderuin disagrees with the app’s plural-ending entries",
+      "originalSuggestion": "Keep the attested example until you decide: document an exception, adjust the rule, or approve nderun."
+    },
+    {
+      "id": "F046",
+      "status": "edited",
+      "text": "Update the plural example (PE-GCI1-0019) to include the standard consonant-plural suffix -in, preserving a clear distinction between singular and plural forms for learners:\nPE-GCI1-0019 (Plural):\nUpdated Celan: keltharaen welrinin an welkelthar.\nTranslation: \"The citizens vote in the election.\"\nPE-GCI1-0042 (Singular):\nCelan: keltharaen welrin an welkelthar.\nTranslation: \"The citizen votes in the election.\"",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:45:42.649Z",
+      "title": "The same citizen sentence is both singular and plural",
+      "originalSuggestion": "Clarify whether number is inferred from context here; otherwise choose matching number marking."
+    },
+    {
+      "id": "F047",
+      "status": "edited",
+      "text": "Update the Dictionary Headwords with Secondary Verb Senses\nExpand the dictionary display entries for these 9 headwords so learners searching for the verb form see the action gloss explicitly:\nHeadword\nCurrent App Label\nRecommended Updated Display Senses\nShen\nNoun: Currency / Measure\nNoun: Currency / Measure | Verb: To measure, to count\nKal\nNoun: Strength; Adj: Strong\nNoun: Strength | Adj: Strong | Verb: To strengthen\nBren\nNoun: Harvest\nNoun: Harvest | Verb: To harvest, to gather\nVanesh\nNoun: Commerce / Trade\nNoun: Commerce | Verb: To trade, to conduct commerce\nJor\nNoun: Surge / Burst\nNoun: Surge | Verb: To surge, to burst forth\nKar\nNoun: Strike / Force\nNoun: Strike / Mechanical force | Verb: To strike, to apply force\nShara\nNoun: Path / Journey\nNoun: Path | Verb: To follow a path, to navigate, to track\nXar\nNoun: Cover / Shadow\nNoun: Cover / Boundary | Verb: To cover, to shelter, to close off\nShentalzhael\nNoun: Medical Triage\nNoun: Medical triage | Verb: To triage, to prioritize treatment\n",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:49:15.415Z",
+      "title": "Some nouns act as verbs without a displayed verb sense",
+      "originalSuggestion": "Decide whether a shared noun-to-verb rule covers them or individual action senses should be shown."
+    },
+    {
+      "id": "F048",
+      "status": "approved",
+      "text": "Review the complete attached set as one legacy example pattern; label poetic usage or document the missing rule rather than rewriting it by guesswork.",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:58:09.491Z",
+      "title": "Legacy examples give Nor, Shal, and Ser unexplained actions",
+      "originalSuggestion": "Review the complete attached set as one legacy example pattern; label poetic usage or document the missing rule rather than rewriting it by guesswork."
+    },
+    {
+      "id": "F049",
+      "status": "edited",
+      "text": "Both word order patterns are grammatically valid in Celan, representing two distinct ways the language handles multi-verb actions:\nPattern 1: Interposed Subject (V1 + Subject + V2 + Object)\nExample: siv I pralaen krezor.\nTranslation: \"I try to make the hearth.\"\nSyntax Breakdown: [V1: siv] + [Subject: I] + [V2: pralaen] + [Object: krezor]\nHow it works: This pattern strictly adheres to individual VSO clause mechanics. The subject (I) immediately follows the primary/governing verb (siv = try), placing the secondary action (pralaen = to make) as a complement following the subject.\nPattern 2: Verbal Complex Cluster (V1 + V2 + Subject + Object)\nExamples:\nsiv gavaen I zor. (\"I try to hunt the animal.\")\nsivrethaen belnoraen rakumek nor mekreth. (\"The computers fail to synchronize during the system malfunction.\")\nSyntax Breakdown: [V1 + V2 Cluster: siv gavaen / sivrethaen belnoraen] + [Subject: I / rakumek] + [Object/Modifier]\nHow it works: In this pattern, the auxiliary verb (siv / sivrethaen) and the main action verb (gavaen / belnoraen) fuse into a compound action cluster at the very front of the sentence. Because Celan prioritizes placing the entire action before the actor, the combined action (\"try-to-hunt\" or \"fail-to-synchronize\") is stated first, and the subject follows the full verb cluster.\nRecommendation for the App Entry\nTo ensure learners understand both constructions, the app should document both as permitted strategies:\nStrict VSO / Complement Order (V1 + S + V2 + O): Emphasizes the subject's immediate relation to the governing modal verb (\"I am trying... to make a hearth\").\nAction-Cluster Order (V1 + V2 + S + O): Emphasizes the unified compound action arriving before the subject (\"The trying-to-hunt is done by me\"), aligning with Celan's core action-first philosophy",
+      "notes": "",
+      "updatedAt": "2026-09-22T14:59:37.959Z",
+      "title": "Two-verb sentences use different orders",
+      "originalSuggestion": "Confirm the grammar of a verb followed by another action; preserve the accepted patterns and explain any distinction."
+    },
+    {
+      "id": "F050",
+      "status": "edited",
+      "text": "Recommended App Clarification\nTo prevent learners from misinterpreting I ka doran as \"I without torso\", the app entries should be updated as follows:\nEntry for Ka / -ka (Particle):\nLabel: Particle (Possessive / Linking)\nNote: \"Used between a pronoun and a noun (I ka ... or Pronoun-ka ...) to indicate possession ('my', 'our', 'your').\"\nEntry for Ka (Preposition):\nLabel: Preposition (Without)\nNote: \"Used before a noun when NOT preceded by a pronoun (ka shal = 'without light').\"",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:02:41.650Z",
+      "title": "Possession is sometimes ka and sometimes -ka",
+      "originalSuggestion": "Explain the possessive construction and its relation to -ka; do not assume the body examples are wrong."
+    },
+    {
+      "id": "F051",
+      "status": "edited",
+      "text": "approve tera as a standalone dictionary entry in the app:\nHeadword\nPart of Speech\nDisplay Meaning / Gloss\ntera\nNoun\nHome, dwelling, homestead (informal / conversational form of Teremil)\n",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:05:15.230Z",
+      "title": "tera appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F052",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. velkrel\nNoun\nBreeze, cool breeze, light wind\nVelk (cool air) + -rel (breeze/flow). Early Volume 1 term; compare with formal weather term Eshthael.",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:09:56.340Z",
+      "title": "velkrel appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F053",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. varan (/vah-rahn/) — Verb (Progressive / Continuous): Going, moving, traveling, residing\nDerivation: Built from the verb root Var (go/move) + progressive suffix -an.\nExample: Varan I an Varthas. (\"I am going to / residing in the city.\")",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:10:07.141Z",
+      "title": "varan appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F054",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. shalil (/shah-leel/) — Verb: To flow lightly, move smoothly, glide, drift\nDerivation: Built from Shal (light/flow) + -il (light continuous motion).",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:10:18.873Z",
+      "title": "shalil appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F055",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. serathrin (/sehr-ah-three-n/) — Noun: Confidant, trusted inner friend, sworn ally\nDerivation: Ser (friend/ally) + ath (enduring/established) + rin (essence/person).",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:10:30.349Z",
+      "title": "serathrin appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F056",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. zhivor (/zhee-vohr/) — Noun: Family line, ancestral household, kin group\nDerivation: Zhir (lineage/thread of continuity) + -or (place/essence).",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:10:41.071Z",
+      "title": "zhivor appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F057",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. tharvok (/thahr-vohk/) — Noun: Family, heart-bonded family, clan\nDerivation: Thar (heart/emotional core) + vok (unity/bond).",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:10:52.000Z",
+      "title": "tharvok appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F058",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. evan (/eh-vahn/) — Noun: Market, marketplace, trading plaza\nDerivation: Locative commercial noun built from the market root Van (commercial space/shop).",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:11:35.112Z",
+      "title": "evan appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F059",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. shenakar (/sheh-nah-kahr/) — Noun: Coinage, currency system, official trade money\nDerivation: Shen (coin/measure) + akar (currency/exchange unit).",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:11:46.951Z",
+      "title": "shenakar appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F060",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. em (/ehm/) — Interjection / Discourse Particle: Um… / Uh…\nFunction: Conversational hesitation or thinking particle. (Also serves as the root for emil [food/meal]).",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:12:05.520Z",
+      "title": "em appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F061",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. varin (/vah-reen/) — Verb: To know, to be aware of\nUsage: Standalone cognition verb introducing a clause. (Also appears as a noun root component in Jekvarin for small sea creatures/shellfish).",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:12:37.624Z",
+      "title": "varin appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F062",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. shena (/sheh-nah/) — Noun: Coin, coins, physical money\nDerivation: Direct nominalization of the measure/currency root Shen.",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:12:49.225Z",
+      "title": "shena appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F063",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. nkathal (/nkah-thahl/) — Noun: Sadness, grief, sorrow, enduring emotional pain\nDerivation: Nk- (endurance/hidden depth) + Thal (balance). Serves as the base noun for the verb Nkathalaen (to grieve).",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:13:01.370Z",
+      "title": "nkathal appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F064",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Thaar / thaar (/thahr/) — Noun (Regional Variant): Heart / Emotional core\nEtymology: Arvan regional phonetic lengthening of Thar (heart).\nAttested In: PE-V3-0081 (\"The stars guide the heart\").\nApp Entry: Noun: Heart / Emotional core (Regional variant of Thar)",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:38:12.262Z",
+      "title": "thaar appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F065",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Vrak / vrak (/vrahk/) — Adjective / Particle (Regional Dialect): Gone, missing, depleted, dry\nEtymology: Trerran desert dialect term used to indicate severe scarcity or absence.\nAttested In: PE-V3-0084 (\"The water is gone\").\nApp Entry: Adjective: Gone / Missing / Depleted (Trerran dialect)",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:38:30.174Z",
+      "title": "vrak appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F066",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Theren / theren (/theh-rehn/) — Noun: Village, settlement, local community\nEtymology: Built from Ter (dwelling/place) + -en (collective/settlement suffix).\nAttested In: PE-V3-0112 (\"Go, sister, to the village water\"), PE-V3-0141, PE-V3-0150.\nApp Entry: Noun: Village / Settlement",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:38:56.449Z",
+      "title": "theren appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F067",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Serilin / serilín (/seh-ree-leen/) — Noun: Sister, female sibling\nEtymology: Built from Ser (friend/kin) + -il (affectionate diminutive) + -in (individual participant). serilín is a regional orthographic/accented variant used in Verdalris.\nAttested In: PE-V3-0112, PE-V3-0125, PE-V3-0138, PE-V3-0149.\nApp Entry: Noun: Sister / Female sibling (Variant: serilín)",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:39:10.496Z",
+      "title": "serilín appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F068",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Aelin / aelin (/ah-eh-leen/) — Noun: Youth, young person, student, pupil\nEtymology: Built from Ael (young/growing) + -in (individual participant).\nAttested In: PE-V3-0113 (\"The teacher leads the youth home\"), PE-V3-0126, PE-V3-0134.\nApp Entry: Noun: Youth / Young person / Pupil",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:39:32.103Z",
+      "title": "aelin appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F069",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Im / im (/eem/) — Noun / Particle: Device, instrument, implement, internal mechanism\nEtymology: Attested in the root crosswalk as a primitive instrumental/essence morpheme for device / internal mechanism.\nAttested In: PE-V3-0119 (\"Use the device with water...\"), PE-V3-0140.\nApp Entry: Noun: Device / Instrument / Implement",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:39:54.392Z",
+      "title": "im appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F070",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Dreshal / dreshal (/drehsh-ahl/) — Noun: Crystal device, crystal implement\nEtymology: Built from Dresh (crystal/ordered mineral) + shal (light/refraction).\nAttested In: PE-V3-0121 (\"...use the tool and the crystal device\"), PE-V3-0140.\nApp Entry: Noun: Crystal device / Crystal implement",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:40:14.688Z",
+      "title": "dreshal appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F071",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Serilin / serilín (/seh-ree-leen/) — Noun: Sister, female sibling\nEtymology: Built from Ser (friend/kin) + -il (affectionate diminutive) + -in (individual participant). serilín is a regional orthographic/accented variant used in Verdalris.",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:40:27.098Z",
+      "title": "serilin appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F072",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Varshel / varshel (/vahr-shehl/) — Noun: Road, travel path, highway\nEtymology: Built from Var (travel/move) + shel (way/pathway).\nAttested In: PE-V3-0125 (\"Sister, walk the road to the water\").\nApp Entry: Noun: Road / Travel path / Highway",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:40:38.650Z",
+      "title": "varshel appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F073",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Eshvan / eshvan (/ehsh-vahn/) — Noun: Shop, store, market stall\nEtymology: Built from Esh (open/air) + van (commercial site/market place).\nAttested In: PE-V3-0126 (\"...to the shop for food\"), PE-V3-0128.\nApp Entry: Noun: Shop / Store / Market stall",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:40:51.857Z",
+      "title": "eshvan appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F074",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Noraen / noraen (/nohr-ah-ehn/) — Verb: To guide through time, to lead, to instruct\nEtymology: Built from Nor (time/flow) + -aen (verb suffix).\nAttested In: PE-V3-0132 (\"The elders guide us to water...\").\nApp Entry: Verb: To guide, to lead through time/experience",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:41:12.875Z",
+      "title": "noraen appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F075",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Thalesh / thalesh (/thah-lehsh/) — Noun / Verb: Ritual, sacred balance ceremony; to perform a balance rite\nEtymology: Built from Thal (balance) + -esh (sacred/relational suffix).\nAttested In: PE-V3-0144 (\"Perform the ritual at the water's light\").\nApp Entry: Noun: Ritual / Sacred balance ceremony | Verb: To perform a balance rite\n",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:41:28.699Z",
+      "title": "thalesh appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F076",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Thalor / thalor (/thah-lohr/) — Noun / Adverb: Outside, exterior, outer place\nEtymology: Built from Thal (from/out of) + -or (place).\nAttested In: PE-V4-0085 (\"The fortress is 100 strides outside\"), PE-V2-0093.\nApp Entry: Noun/Adverb: Outside / Exterior / Outer place\n",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:41:43.083Z",
+      "title": "thalor appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F077",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. tharvinwek (/thahr-veen-wehk/) — Noun: Year (a full annual cycle)\nEtymology: Built from Tharvin (Autumn / harvest season) + Wek (cycle).\nContext: A full cycle of the four seasons marked by the returning harvest. Attested in PE-V4-0090: \"Rinaen I Ten-del tharvinwek kaveth\" (\"I am 20 years old\").\nApp Entry: Noun: Year / Annual cycle",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:45:00.896Z",
+      "title": "tharvinwek appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F078",
+      "status": "edited",
+      "text": "Confirm karvok should be the established Kavok. ",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:46:58.019Z",
+      "title": "karvok appears in examples but has no matching entry",
+      "originalSuggestion": "Confirm whether karvok should be the established Kavok."
+    },
+    {
+      "id": "F079",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. daraen (/dahr-ah-ehn/) — Verb: To wait, to pause, to remain pending\nEtymology: Active verb form derived from the primitive root Dar (to wait / pause) + verb suffix -aen.\nApp Entry: Verb: To wait / To pause",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:47:14.732Z",
+      "title": "daraen appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F080",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. varral (/vahr-rahl/) — Noun: Traveler, wanderer, person on a journey\nEtymology: Built from Var (to go / move) + practitioner/agent suffix -ral.\nApp Entry: Noun: Traveler / Wanderer",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:47:37.603Z",
+      "title": "varral appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F081",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. karjor (/kahr-johr/) — Noun: Impact, mechanical surge, strike force, burst of energy\nEtymology: Built from Kar (strike / mechanical force) + jor (surge / sudden burst).\nApp Entry: Noun: Impact / Mechanical surge / Strike force",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:48:02.564Z",
+      "title": "karjor appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F082",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. kavel (/kah-vehl/) — Noun / Root: Forgetfulness, memory gap, loss of awareness\nEtymology: Built from Ka- (absence / loss) + vel (memory / wisdom). Attested as a root element in Kavelzhiraen (to forget) and Kavelrathor (memory gap).\nApp Entry: Noun: Forgetfulness / Memory gap",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:48:10.686Z",
+      "title": "kavel appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F083",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. vorkaral (/vohr-kahr-ahl/) — Noun: Worker, mechanic, laborer, tool-operator\nEtymology: Built from Vor (active role / place) + kar (tool-work / force) + -al (agent suffix).",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:48:29.126Z",
+      "title": "vorkaral appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F084",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. noral (/nohr-ahl/) — Noun / Adverb: Duration, ongoing time, passing of time\nEtymology: Built from Nor (time / flow of time) + continuous suffix -al.\nApp Entry: Noun: Duration / Passing of time\n",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:48:48.789Z",
+      "title": "noral appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F085",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. khumrel (/khoom-rehl/) — Noun: Compassion, empathetic listening, circle of care\nEtymology: Built from Khum (reconciliation / listening circle) + -rel (soft flow). Attested in PE-S3-0019: \"Khumrel an thar\" (\"to listen to one's heart / compassionate heart\").\nApp Entry: Noun: Compassion / Empathetic listening",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:49:02.109Z",
+      "title": "khumrel appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F086",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. terrarav (/tehr-rah-rahv/) — Noun: Homeland pull, yearning for home\nEtymology: Built from Terra (homeland / earth) + rav (pull / magnetic attraction). Attested in PE-S3-0018: \"Terrarav\" (\"the pull of one's homeland\").\nApp Entry: Noun: Pull of one's homeland / Yearning for home",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:49:13.102Z",
+      "title": "terrarav appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F087",
+      "status": "edited",
+      "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. zhirrathor (/zheer-rah-thohr/) — Noun: Thread to the past, historical continuity, lineage link\nEtymology: Built from Zhir (lineage / thread through time) + rathor (the past / history). Attested in PE-S3-0021: \"zhirrathor\" (\"thread to the past\").\nApp Entry: Noun: Thread to the past / Lineage continuity\n",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:49:23.352Z",
+      "title": "zhirrathor appears in examples but has no matching entry",
+      "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+    },
+    {
+      "id": "F088",
+      "status": "edited",
+      "text": "Correct the extraction rule; keep the definition and only show genuine examples. Elan as an official discourse particle with its proper definition:\nHeadword: Elan (/eh-lahn/)\nPart of Speech: Particle\nMeaning: Well… (conversational starter/filler, declarative; typically sentence-initial)\n\nCelan: elan, var I an dren.\nEnglish: \"Well, I am going to the water.\"\n\nelan: elan, va aen lian!\nEnglish: \"Well then, speak the truth!\"\n",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:55:56.224Z",
+      "title": "Elan shows its English definition as a Celan sentence",
+      "originalSuggestion": "Correct the extraction rule; keep the definition and only show genuine examples."
+    },
+    {
+      "id": "F089",
+      "status": "edited",
+      "text": "Correct the extraction rule; keep the definition and only show genuine examples. Celan: thaal'ra var ser an Varthas.\nEnglish: \"I wonder if the friend is going to the city.\" Celan: thaal'ra rinaen dren an krezor.\nEnglish: \"I wonder if there is water at the hearth.\"",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:57:34.826Z",
+      "title": "Thaal'ra shows its English definition as a Celan sentence",
+      "originalSuggestion": "Correct the extraction rule; keep the definition and only show genuine examples."
+    },
+    {
+      "id": "F090",
+      "status": "edited",
+      "text": "Correct the extraction rule; keep the definition and only show genuine examples. Celan: var I an dren kora rinaen krezor feneth.\nEnglish: \"I go to the water because the hearth is hot.\" Celan: drenaen La dren kora rinaen kelvor-ian kadreneth.\nEnglish: \"They drink water because their mouth is dry.\"",
+      "notes": "",
+      "updatedAt": "2026-09-22T15:57:53.707Z",
+      "title": "Kora shows its English definition as a Celan sentence",
+      "originalSuggestion": "Correct the extraction rule; keep the definition and only show genuine examples."
+    },
+    {
+      "id": "F091",
+      "status": "edited",
+      "text": "Supply reviewed translations, or clearly label them as untranslated examples. 1. PE-V1-0033: Tha-var La thal Terra.\nReviewed Translation: \"They went from the Earth.\" (or \"He/she went out of the living world.\") [5, 9, 14]\nGrammatical Breakdown:\nTha-var — went (past tense verb: prefix Tha- + verb root Var) [9, 14]\nLa — he / she / they (3rd person singular neutral pronoun) [9, 14]\nthal — from / out of (preposition of origin) [9, 14]\nTerra — Earth / Living World (noun) [9, 14]\n2. PE-V1-0034: Var I ka shal.\nReviewed Translation: \"I go without light.\" [9]\nGrammatical Breakdown:\nVar — go / move (verb root) [9, 14]\nI — I / me (1st person singular pronoun) [9, 14]\nka — without (preposition) [9, 14]\nshal — light (noun) [9, 14]\n3. PE-V1-0035: Varan I an Varthas.\nReviewed Translation: \"I am in the city.\" (or \"I am residing in / traveling to the city.\") [9]\nGrammatical Breakdown:\nVaran — going / residing (progressive verb: Var + continuous suffix -an) [9, 14]\nI — I / me (1st person singular pronoun) [9, 14]\nan — at / in (preposition marking physical location) [9, 14]\nVarthas — city / town (noun) [9, 14]\n4. PE-V1-0036: Nor-var I nor Varthas.\nReviewed Translation: \"I will go at the appointed time in the city.\" [9]\nGrammatical Breakdown:\nNor-var — will go (future tense verb: prefix Nor- + verb root Var) [9, 14]\nI — I / me (1st person singular pronoun) [9, 14]\nnor — at / in (preposition marking temporal setting/time) [9, 14]\nVarthas — city / town (noun) [9, 14]\n5. PE-V1-0037: Var I esh dren.\nReviewed Translation: \"I go above the water.\" [5, 7, 9]\nGrammatical Breakdown:\nVar — go / move (verb root) [9, 14]\nI — I / me (1st person singular pronoun) [9, 14]\nesh — above / over (spatial preposition) [9, 14]\ndren — water (noun) [9, 14]\n6. PE-V1-0038: Var I morl dren.\nReviewed Translation: \"I go under the water.\" [5, 7, 9]\nGrammatical Breakdown:\nVar — go / move (verb root) [9, 14]\nI — I / me (1st person singular pronoun) [9, 14]\nmorl — under / beneath (spatial preposition) [9, 14]\ndren — water (noun) [9, 14]\n",
+      "notes": "",
+      "updatedAt": "2026-09-22T17:35:15.404Z",
+      "title": "Six examples have no English translation",
+      "originalSuggestion": "Supply reviewed translations, or clearly label them as untranslated examples."
+    },
+    {
+      "id": "F092",
+      "status": "edited",
+      "text": "Keep counterexamples and phonology notes clearly labeled and separate from affirmative sentence translations. 2. Data Slot Cleanup\nExample ID\nCelan Text\nCurrent Translation Slot\nRecommended Display & Translation\nPE-S1-0009\nKalvok; Kalrath; Rethlian\nSmooth clusters\nCategory: Phonology Illustration<br>Gloss: \"Clan / Apex Predator / Might [Examples of permitted smooth consonant clusters]\"\nPE-S4B-0001\nvar I an dren.\nCorrect form: first word lowercase.\nTranslation: \"I go to the water.\"<br>Grammar Note: [Correct: sentence-initial lowercasing]\nPE-S4B-0002\nVar I an dren.\nIncorrect form: first word capitalized...\nCategory: Incorrect Counterexample<br>Translation: \"I go to the water.\"<br>Badge: ❌ Incorrect initial capitalization",
+      "notes": "",
+      "updatedAt": "2026-09-22T17:39:30.192Z",
+      "title": "Teaching notes are stored in the translation slot",
+      "originalSuggestion": "Keep counterexamples and phonology notes clearly labeled and separate from affirmative sentence translations."
+    },
+    {
+      "id": "F093",
+      "status": "edited",
+      "text": "Add approved English lookup equivalents without changing the pronouns’ meanings. o resolve lookup failures without diluting the formal linguistic classification, update the primary meaning field for each pronoun to include both the common English glosses and the formal grammatical designation:\nCelan Headword\nCurrent App Meaning Slot\nRecommended Updated meaning (Searchable)\nGrammatical Nuance Preserved\nI\n1st Person Singular\nI / Me (1st Person Singular)\nSimple, universal 1st-person singular pronoun.\nYa\n2nd Person Singular\nYou (2nd Person Singular)\nStraightforward singular 2nd-person pronoun.\nLa\n3rd Person Singular\nHe / She / They (3rd Person Singular)\nGender-neutral 3rd-person singular pronoun.\nIlin\n1st Person Plural\nWe / Us [Inclusive] (1st Person Plural)\nCommunal \"we\" (bound by common purpose; speaker + listener).\nImen\nExclusive We\nWe / Us [Exclusive]\nGroup \"we\" excluding the listener (speaker + others).\nInko\nWe two\nWe two / Us two [Dual]\nDual 1st-person pronoun (me and you).\nYako\nYou two\nYou two [Dual]\nDual 2nd-person pronoun.\nYalin\n2nd Person Plural\nYou all / Y'all (2nd Person Plural)\nCollective 2nd-person plural pronoun.\nLako\nThey two\nThey two [Dual]\nDual 3rd-person pronoun.\nLalin\n3rd Person Plural\nThey / Them (3rd Person Plural)\nCollective 3rd-person plural pronoun (excluding speaker/addressee).",
+      "notes": "",
+      "updatedAt": "2026-09-22T17:44:40.378Z",
+      "title": "Basic English pronoun searches miss their own entries",
+      "originalSuggestion": "Add approved English lookup equivalents without changing the pronouns’ meanings."
+    },
+    {
+      "id": "F094",
+      "status": "approved",
+      "text": "Normalize apostrophe characters for search while preserving the approved display spelling.",
+      "notes": "",
+      "updatedAt": "2026-09-22T17:45:19.457Z",
+      "title": "Two apostrophe spellings are not searchable with a normal apostrophe",
+      "originalSuggestion": "Normalize apostrophe characters for search while preserving the approved display spelling."
+    },
+    {
+      "id": "F095",
+      "status": "approved",
+      "text": "Make root navigation resolve the exact intended root/morpheme or show a root explanation; do not substitute a near spelling.",
+      "notes": "",
+      "updatedAt": "2026-09-22T17:45:45.881Z",
+      "title": "Some root buttons lead to a different word",
+      "originalSuggestion": "Make root navigation resolve the exact intended root/morpheme or show a root explanation; do not substitute a near spelling."
+    },
+    {
+      "id": "F096",
+      "status": "approved",
+      "text": "Use recorded word parts rather than letter endings when assigning these family roots.",
+      "notes": "",
+      "updatedAt": "2026-09-22T17:45:55.985Z",
+      "title": "Word-family roots are sometimes found inside unrelated endings",
+      "originalSuggestion": "Use recorded word parts rather than letter endings when assigning these family roots."
+    },
+    {
+      "id": "F097",
+      "status": "approved",
+      "text": "Allow verified short roots such as Mb to appear in word families.",
+      "notes": "",
+      "updatedAt": "2026-09-22T17:46:16.907Z",
+      "title": "The support root disappears from the help word’s family",
+      "originalSuggestion": "Allow verified short roots such as Mb to appear in word families."
+    },
+    {
+      "id": "F098",
+      "status": "approved",
+      "text": "Prioritize the meaningful roots and show shared-suffix relationships separately.",
+      "notes": "",
+      "updatedAt": "2026-09-22T17:46:40.106Z",
+      "title": "Verb relatives can be crowded out by the shared ending",
+      "originalSuggestion": "Prioritize the meaningful roots and show shared-suffix relationships separately."
+    },
+    {
+      "id": "F099",
+      "status": "approved",
+      "text": "Explain that these are root records or link each form to its existing word; do not silently create or delete words.",
+      "notes": "",
+      "updatedAt": "2026-09-22T17:47:33.404Z",
+      "title": "Root labels can look like separate vocabulary words",
+      "originalSuggestion": "Explain that these are root records or link each form to its existing word; do not silently create or delete words."
+    }
+  ]
+}

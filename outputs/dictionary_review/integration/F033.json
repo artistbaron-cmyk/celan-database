@@ -1,0 +1,43 @@
+{
+  "flag": "F033",
+  "title": "The passive marker is translated as “this moment”",
+  "status": "Applied locally",
+  "summary": "Applied the approved displayed senses or grammar decision; earlier meanings remain unless explicitly corrected.",
+  "followups": [],
+  "user_response": {
+    "id": "F033",
+    "status": "edited",
+    "text": "Do not change the example sentence. Instead, update the entry for nor-ka in the app to include its approved temporal sense:\nHeadword\nPart of Speech\nDisplay Meanings / Gloss\nnor-ka\nParticle\n1. Passive voice echo particle (marks passive state) <br> 2. Now / In this moment / At present (often used as an nor-ka)",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:18:12.776Z",
+    "title": "The passive marker is translated as “this moment”",
+    "originalSuggestion": "Decide whether the example needs a time word or whether this marker has an additional contextual use."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "nor-ka",
+      "senses": [
+        {
+          "type": "Particle",
+          "meaning": "passive voice echo particle",
+          "usage": "Original root/morpheme entry preserved.",
+          "rootWord": false,
+          "sourceEntries": [
+            "DM-RM-V4-0003"
+          ]
+        },
+        {
+          "type": "Particle",
+          "meaning": "Now / In this moment / At present",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "DM-RM-V4-0003"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

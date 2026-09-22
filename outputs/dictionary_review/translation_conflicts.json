@@ -1,0 +1,488 @@
+[
+  [
+    {
+      "celan": "Moraen I an Terra.",
+      "english": "I stand on the Earth.",
+      "ids": [
+        "PE-V4-0061"
+      ],
+      "headwords": [
+        "An",
+        "I",
+        "Moraen",
+        "Terra"
+      ],
+      "visible_on": [
+        "Moraen"
+      ],
+      "types": [
+        "Essential Verbs example"
+      ]
+    },
+    {
+      "celan": "Moraen I an terra.",
+      "english": "I stand on the ground.",
+      "ids": [
+        "PE-S3-0003"
+      ],
+      "headwords": [
+        "An",
+        "I",
+        "Moraen",
+        "Terra",
+        "terra- / Terra-"
+      ],
+      "visible_on": [
+        "Moraen",
+        "terra- / Terra-"
+      ],
+      "types": [
+        "Capitalization example"
+      ]
+    }
+  ],
+  [
+    {
+      "celan": "var I an dren.",
+      "english": "Correct form: first word lowercase.",
+      "ids": [
+        "PE-S4B-0001"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "I",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "Capitalization example"
+      ]
+    },
+    {
+      "celan": "Var I an dren.",
+      "english": "Incorrect form: first word capitalized only because sentence-initial.",
+      "ids": [
+        "PE-S4B-0002"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "I",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "Capitalization counterexample"
+      ]
+    }
+  ],
+  [
+    {
+      "celan": "Ra var ser?",
+      "english": "\"Where does the friend go?\"",
+      "ids": [
+        "PE-V1-0002"
+      ],
+      "headwords": [
+        "Ra",
+        "Ser",
+        "Var"
+      ],
+      "visible_on": [
+        "Ra",
+        "Ser",
+        "Var"
+      ],
+      "types": [
+        "Question example"
+      ]
+    },
+    {
+      "celan": "Ra var ser?",
+      "english": "“Where does the friend go?”",
+      "ids": [
+        "PE-V1-0025"
+      ],
+      "headwords": [
+        "Ra",
+        "Ser",
+        "Var"
+      ],
+      "visible_on": [
+        "Ra",
+        "Ser"
+      ],
+      "types": [
+        "Question/imperative example"
+      ]
+    }
+  ],
+  [
+    {
+      "celan": "Va var dren!",
+      "english": "“Go to the water!”",
+      "ids": [
+        "PE-V1-0027"
+      ],
+      "headwords": [
+        "Dren",
+        "Va",
+        "Var"
+      ],
+      "visible_on": [
+        "Va"
+      ],
+      "types": [
+        "Question/imperative example"
+      ]
+    },
+    {
+      "celan": "Va var dren!",
+      "english": "Go to the water!",
+      "ids": [
+        "PE-V3-0006"
+      ],
+      "headwords": [
+        "Dren",
+        "Va",
+        "Var"
+      ],
+      "visible_on": [
+        "Va"
+      ],
+      "types": [
+        "Politeness example"
+      ]
+    }
+  ],
+  [
+    {
+      "celan": "var ndavivek an ndavior.",
+      "english": "The elevator moves to the storey.",
+      "ids": [
+        "PE-BSPI1-0020"
+      ],
+      "headwords": [
+        "An",
+        "Ndavior",
+        "Ndavivek",
+        "Var"
+      ],
+      "visible_on": [
+        "Ndavior",
+        "Ndavivek"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "var ndavivek an ndavior.",
+      "english": "The elevator moves to the building level.",
+      "ids": [
+        "PE-BSPI1-0058"
+      ],
+      "headwords": [
+        "An",
+        "Ndavior",
+        "Ndavivek",
+        "Var"
+      ],
+      "visible_on": [
+        "Ndavior",
+        "Ndavivek"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  [
+    {
+      "celan": "tal zhaelral fennilphel an ser.",
+      "english": "The healer gives an herbal remedy to the friend.",
+      "ids": [
+        "PE-NE1-0034"
+      ],
+      "headwords": [
+        "An",
+        "Fennilphel",
+        "Ser",
+        "Tal",
+        "Zhaelral"
+      ],
+      "visible_on": [
+        "Fennilphel",
+        "Zhaelral"
+      ],
+      "types": [
+        "National lexicon example"
+      ]
+    },
+    {
+      "celan": "tal zhaelral fennilphel an ser.",
+      "english": "The healer gives the herbal remedy to the friend.",
+      "ids": [
+        "PE-NE1-0040"
+      ],
+      "headwords": [
+        "An",
+        "Fennilphel",
+        "Ser",
+        "Tal",
+        "Zhaelral"
+      ],
+      "visible_on": [
+        "Fennilphel",
+        "Zhaelral"
+      ],
+      "types": [
+        "National lexicon example"
+      ]
+    }
+  ],
+  [
+    {
+      "celan": "keltharaen welrin an welkelthar.",
+      "english": "The citizens vote in the election.",
+      "ids": [
+        "PE-GCI1-0019"
+      ],
+      "headwords": [
+        "An",
+        "Keltharaen",
+        "Welkelthar",
+        "Welrin"
+      ],
+      "visible_on": [
+        "Keltharaen",
+        "Welkelthar",
+        "Welrin"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "keltharaen welrin an welkelthar.",
+      "english": "The citizen votes in the election.",
+      "ids": [
+        "PE-GCI1-0042"
+      ],
+      "headwords": [
+        "An",
+        "Keltharaen",
+        "Welkelthar",
+        "Welrin"
+      ],
+      "visible_on": [
+        "Keltharaen",
+        "Welkelthar",
+        "Welrin"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  [
+    {
+      "celan": "Xarvel nor dren.",
+      "english": "The covered meal rests by the water.",
+      "ids": [
+        "PE-V2-0028"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Xar",
+        "Xarvel"
+      ],
+      "visible_on": [
+        "Xar",
+        "Xarvel"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    },
+    {
+      "celan": "Xarvel nor dren.",
+      "english": "The veiled meal rests by the water.",
+      "ids": [
+        "PE-V2-0061"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Xarvel"
+      ],
+      "visible_on": [
+        "Xarvel"
+      ],
+      "types": [
+        "Food vocabulary example"
+      ]
+    }
+  ],
+  [
+    {
+      "celan": "aen kalrin kalkel.",
+      "english": "The sovereign speaks a decree.",
+      "ids": [
+        "PE-GCI1-0011"
+      ],
+      "headwords": [
+        "Aen",
+        "Kalkel",
+        "Kalrin"
+      ],
+      "visible_on": [
+        "Kalkel",
+        "Kalrin"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "aen kalrin kalkel.",
+      "english": "The ruler issues a decree.",
+      "ids": [
+        "PE-GCI1-0023"
+      ],
+      "headwords": [
+        "Aen",
+        "Kalkel",
+        "Kalrin"
+      ],
+      "visible_on": [
+        "Kalkel",
+        "Kalrin"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  [
+    {
+      "celan": "arth droral drobel.",
+      "english": "The water keeper protects the waterworks.",
+      "ids": [
+        "PE-NE1-0005"
+      ],
+      "headwords": [
+        "Arth",
+        "Drobel",
+        "Droral"
+      ],
+      "visible_on": [
+        "Drobel",
+        "Droral"
+      ],
+      "types": [
+        "National lexicon example"
+      ]
+    },
+    {
+      "celan": "arth droral drobel.",
+      "english": "The water keeper protects the water-distribution system.",
+      "ids": [
+        "PE-NE1-0008"
+      ],
+      "headwords": [
+        "Arth",
+        "Drobel",
+        "Droral"
+      ],
+      "visible_on": [
+        "Drobel",
+        "Droral"
+      ],
+      "types": [
+        "National lexicon example"
+      ]
+    }
+  ],
+  [
+    {
+      "celan": "zhaelpralaen mekral kormek.",
+      "english": "The mechanic repairs the engine.",
+      "ids": [
+        "PE-TM1-0007"
+      ],
+      "headwords": [
+        "Kormek",
+        "Mekral",
+        "Zhaelpralaen"
+      ],
+      "visible_on": [
+        "Kormek",
+        "Zhaelpralaen"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "zhaelpralaen mekral kormek.",
+      "english": "The mechanic repairs the motor.",
+      "ids": [
+        "PE-TM1-0052"
+      ],
+      "headwords": [
+        "Kormek",
+        "Mekral",
+        "Zhaelpralaen"
+      ],
+      "visible_on": [
+        "Kormek"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  [
+    {
+      "celan": "vekaen morvek vekmor.",
+      "english": "The wagon carries the cargo.",
+      "ids": [
+        "PE-TVO1-0005"
+      ],
+      "headwords": [
+        "Morvek",
+        "Vekaen",
+        "Vekmor"
+      ],
+      "visible_on": [
+        "Morvek",
+        "Vekmor"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "vekaen morvek vekmor.",
+      "english": "The wagon carries cargo.",
+      "ids": [
+        "PE-TVO1-0061"
+      ],
+      "headwords": [
+        "Morvek",
+        "Vekaen",
+        "Vekmor"
+      ],
+      "visible_on": [
+        "Morvek",
+        "Vekmor"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ]
+]

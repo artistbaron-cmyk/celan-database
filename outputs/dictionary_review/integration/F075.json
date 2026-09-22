@@ -1,0 +1,62 @@
+{
+  "flag": "F075",
+  "title": "thalesh appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Thalesh: Ritual / Sacred balance ceremony.",
+  "followups": [
+    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+  ],
+  "user_response": {
+    "id": "F075",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Thalesh / thalesh (/thah-lehsh/) — Noun / Verb: Ritual, sacred balance ceremony; to perform a balance rite\nEtymology: Built from Thal (balance) + -esh (sacred/relational suffix).\nAttested In: PE-V3-0144 (\"Perform the ritual at the water's light\").\nApp Entry: Noun: Ritual / Sacred balance ceremony | Verb: To perform a balance rite\n",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:41:28.699Z",
+    "title": "thalesh appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "thalesh",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Ritual / Sacred balance ceremony",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-DR1-0023"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "To perform a balance rite",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-DR1-0023"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F075",
+    "entry": {
+      "entry_id": "LX-DR1-0023",
+      "celan_term": "Thalesh",
+      "pronunciation": "/thah-lehsh/",
+      "english_meaning": "Ritual / Sacred balance ceremony",
+      "category": "Noun",
+      "derivation": "Thal balance + -esh relational belonging; approved balance-rite meaning.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F075. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0144"
+    },
+    "example_count": 1
+  }
+}

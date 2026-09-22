@@ -1,0 +1,53 @@
+{
+  "flag": "F051",
+  "title": "tera appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Tera: Home / Dwelling / Homestead (informal form of Teremil).",
+  "followups": [],
+  "user_response": {
+    "id": "F051",
+    "status": "edited",
+    "text": "approve tera as a standalone dictionary entry in the app:\nHeadword\nPart of Speech\nDisplay Meaning / Gloss\ntera\nNoun\nHome, dwelling, homestead (informal / conversational form of Teremil)\n",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:05:15.230Z",
+    "title": "tera appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "tera",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Home / Dwelling / Homestead (informal form of Teremil)",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0001"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F051",
+    "entry": {
+      "entry_id": "LX-DR1-0001",
+      "celan_term": "Tera",
+      "pronunciation": "/teh-rah/",
+      "english_meaning": "Home / Dwelling / Homestead (informal form of Teremil)",
+      "category": "Noun",
+      "derivation": "Informal conversational form of Teremil.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F051. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V1-0004; PE-V1-0040; PE-V3-0113; PE-V3-0129; PE-V3-0134; PE-V3-0138; PE-V3-0141; PE-V3-0148"
+    },
+    "example_count": 8
+  }
+}

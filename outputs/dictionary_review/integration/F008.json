@@ -1,0 +1,55 @@
+{
+  "flag": "F008",
+  "title": "Lorin — Guide / Teacher",
+  "status": "Applied locally",
+  "summary": "Applied the approved word labels and preserved the other established meanings.",
+  "followups": [],
+  "user_response": {
+    "id": "F008",
+    "status": "approved",
+    "text": "Separate the person meaning from the action meaning; preserve both rather than making all uses nouns.",
+    "notes": "",
+    "updatedAt": "2026-09-22T13:08:47.786Z",
+    "title": "Lorin — Guide / Teacher",
+    "originalSuggestion": "Separate the person meaning from the action meaning; preserve both rather than making all uses nouns."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Lorin",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Guide",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0039",
+            "LX-V3-0005"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "Guide / Teacher",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0039",
+            "LX-V3-0005"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "To guide",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0039",
+            "LX-V3-0005"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

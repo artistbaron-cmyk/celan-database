@@ -1,0 +1,48 @@
+{
+  "flag": "F094",
+  "title": "Two apostrophe spellings are not searchable with a normal apostrophe",
+  "status": "Applied locally",
+  "summary": "Normalized apostrophes for search while preserving display spellings.",
+  "followups": [],
+  "user_response": {
+    "id": "F094",
+    "status": "approved",
+    "text": "Normalize apostrophe characters for search while preserving the approved display spelling.",
+    "notes": "",
+    "updatedAt": "2026-09-22T17:45:19.457Z",
+    "title": "Two apostrophe spellings are not searchable with a normal apostrophe",
+    "originalSuggestion": "Normalize apostrophe characters for search while preserving the approved display spelling."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Reth‘thal",
+      "senses": [
+        {
+          "type": "Particle",
+          "rootWord": false,
+          "meaning": "Perhaps, Possibly (stronger doubt than Rethlian).",
+          "usage": "Usage: Typically sentence-initial.",
+          "sourceEntries": [
+            "LX-V3-0033"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Lia‘ser",
+      "senses": [
+        {
+          "type": "Particle",
+          "rootWord": false,
+          "meaning": "Right, Okay, I see, Understood (acknowledgement).",
+          "usage": "Usage: Response marker.",
+          "sourceEntries": [
+            "LX-V3-0034"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

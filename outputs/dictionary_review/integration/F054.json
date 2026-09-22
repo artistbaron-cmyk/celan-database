@@ -1,0 +1,55 @@
+{
+  "flag": "F054",
+  "title": "shalil appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Shalil: To flow lightly / To move smoothly / To glide / To drift.",
+  "followups": [
+    "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
+  ],
+  "user_response": {
+    "id": "F054",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. shalil (/shah-leel/) — Verb: To flow lightly, move smoothly, glide, drift\nDerivation: Built from Shal (light/flow) + -il (light continuous motion).",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:10:18.873Z",
+    "title": "shalil appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "shalil",
+      "senses": [
+        {
+          "type": "Verb",
+          "rootWord": false,
+          "meaning": "To flow lightly / To move smoothly / To glide / To drift",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0004"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F054",
+    "entry": {
+      "entry_id": "LX-DR1-0004",
+      "celan_term": "Shalil",
+      "pronunciation": "/shah-leel/",
+      "english_meaning": "To flow lightly / To move smoothly / To glide / To drift",
+      "category": "Verb",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F054. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V2-0014; PE-V2-0109; PE-V2-0117; PE-V3-0030; PE-V3-0033; PE-V3-0050; PE-V3-0092; PE-V3-0095; PE-V4-0099; PE-V4-0100"
+    },
+    "example_count": 10
+  }
+}

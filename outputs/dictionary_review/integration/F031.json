@@ -1,0 +1,79 @@
+{
+  "flag": "F031",
+  "title": "Fortress is repeatedly used to mean strong",
+  "status": "Applied locally",
+  "summary": "Applied the approved displayed senses or grammar decision; earlier meanings remain unless explicitly corrected.",
+  "followups": [],
+  "user_response": {
+    "id": "F031",
+    "status": "edited",
+    "text": "As an Adjective: Kaleth means \"strong, powerful, intense, or high (in magnitude/reading)\"—expressing the essential, active quality of Kal across forces, tides, machinery, senses, and gravity. As a Noun: Kaleth means \"fortress / stronghold\"—the physical or ritual manifestation of absolute strength.",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:14:55.295Z",
+    "title": "Fortress is repeatedly used to mean strong",
+    "originalSuggestion": "Decide whether Kaleth needs a separately approved adjective sense or these examples should use the established adjective."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Kaleth",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Fortress / Stronghold",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0081"
+          ]
+        },
+        {
+          "type": "Adjective",
+          "meaning": "Strong / Powerful / Intense / High in magnitude or reading",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0081"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Kal",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Strength / Power",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0031",
+            "LX-V4-0111",
+            "XR-kal"
+          ]
+        },
+        {
+          "type": "Adjective",
+          "meaning": "Strong",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0031",
+            "LX-V4-0111",
+            "XR-kal"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "To strengthen",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0031",
+            "LX-V4-0111",
+            "XR-kal"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

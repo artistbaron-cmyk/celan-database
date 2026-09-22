@@ -1,0 +1,58 @@
+{
+  "flag": "F078",
+  "title": "karvok appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Corrected karvok to established Kavok.",
+  "followups": [],
+  "user_response": {
+    "id": "F078",
+    "status": "edited",
+    "text": "Confirm karvok should be the established Kavok. ",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:46:58.019Z",
+    "title": "karvok appears in examples but has no matching entry",
+    "originalSuggestion": "Confirm whether karvok should be the established Kavok."
+  },
+  "example_changes": [
+    {
+      "flag": "F078",
+      "entry_id": "PE-FAP2-0058",
+      "before": {
+        "entry_id": "PE-FAP2-0058",
+        "source_volume": "Food, Agriculture, and Preservation 2",
+        "source_section": "Common Celan > LX-FAP2-0029",
+        "page_number": "",
+        "celan_text": "dor I vilor ruvaneth karvok.",
+        "translation": "I put the rotten fruit apart.",
+        "example_type": "Expansion example",
+        "analysis": "Separating spoiled food.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support.",
+        "related_entry_ids": "LX-FAP2-0029",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-FAP2-0058",
+        "source_volume": "Food, Agriculture, and Preservation 2",
+        "source_section": "Common Celan > LX-FAP2-0029",
+        "page_number": "",
+        "celan_text": "dor I vilor ruvaneth kavok.",
+        "translation": "I put the rotten fruit apart.",
+        "example_type": "Expansion example",
+        "analysis": "Separating spoiled food.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F078: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-FAP2-0029",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    }
+  ],
+  "current_displayed_senses": [],
+  "added_entry": null
+}

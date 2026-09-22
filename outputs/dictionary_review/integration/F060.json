@@ -1,0 +1,63 @@
+{
+  "flag": "F060",
+  "title": "em appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Em: Um / Uh (hesitation or thinking particle).",
+  "followups": [
+    "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
+    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+  ],
+  "user_response": {
+    "id": "F060",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. em (/ehm/) — Interjection / Discourse Particle: Um… / Uh…\nFunction: Conversational hesitation or thinking particle. (Also serves as the root for emil [food/meal]).",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:12:05.520Z",
+    "title": "em appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "em",
+      "senses": [
+        {
+          "type": "Interjection",
+          "meaning": "Um / Uh (hesitation or thinking particle)",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-DR1-0010"
+          ]
+        },
+        {
+          "type": "Particle",
+          "meaning": "Conversational hesitation / Thinking particle",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-DR1-0010"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F060",
+    "entry": {
+      "entry_id": "LX-DR1-0010",
+      "celan_term": "Em",
+      "pronunciation": "/ehm/",
+      "english_meaning": "Um / Uh (hesitation or thinking particle)",
+      "category": "Interjection",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F060. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0020"
+    },
+    "example_count": 1
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "flag": "F011",
+  "title": "Rethlian — Possibility (May/Might)",
+  "status": "Applied locally",
+  "summary": "Applied the approved word labels and preserved the other established meanings.",
+  "followups": [],
+  "user_response": {
+    "id": "F011",
+    "status": "edited",
+    "text": "Modal and Partical ",
+    "notes": "",
+    "updatedAt": "2026-09-22T13:10:29.148Z",
+    "title": "Rethlian — Possibility (May/Might)",
+    "originalSuggestion": "Choose the intended label for these modal uses together: Modal, Adverb, or Particle. Do not change the meaning."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Rethlian",
+      "senses": [
+        {
+          "type": "Modal",
+          "meaning": "Possibility (May/Might)",
+          "usage": "\"maybe/perhaps\"",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V3-0019",
+            "LX-V4-0003"
+          ]
+        },
+        {
+          "type": "Interjection",
+          "meaning": "Maybe",
+          "usage": "“Rethlian, I nor var dren.” – “Maybe, I will go to the water.”",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V3-0019",
+            "LX-V4-0003"
+          ]
+        },
+        {
+          "type": "Particle",
+          "meaning": "Possibility (May/Might)",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V3-0019",
+            "LX-V4-0003"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

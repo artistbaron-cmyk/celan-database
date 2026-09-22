@@ -691,7 +691,7 @@ function isWordEntry(row) {
 }
 
 function normalizeHeadword(term) {
-  return (term || "").trim().toLowerCase();
+  return (term || "").normalize("NFKC").replace(/[‘’ʼ]/g, "'").trim().toLowerCase();
 }
 
 function cleanAlpha(term) {
@@ -741,6 +741,8 @@ function inferTypeLabel(entry, meaning) {
   const category = (entry.category || "").toLowerCase();
   const text = (meaning || entry.english_meaning || "").toLowerCase();
   const startsWithVerbInfinitive = text.startsWith("to ");
+  if (category === "measure") return "Measure";
+  if (category === "adverb") return "Adverb";
   const leadingVerbGloss = /^(go|move|speak|tell|breathe|use|pray|love|believe|hear|see|make|yearn|long|betray|forgive|attune|cherish|comfort|guide|drink|eat|bring|take|give|rest|sit|flow|protect|defend|command|direct)\b/.test(text);
   const leadingNounGloss = /^(friend|ally|truth|honesty|water|balance|harmony|past|history|light|darkness|fear|night|peace|calm|strength|power|guardian|protector|destiny|purpose|longing|yearning|confusion|uncertainty|joy|happiness|fabric|spice|food|drink|bread|grain|carving|fruit|feast|earth|time|stew|meal|home|merchant|waterfall|spring|soil|horizon|forge)\b/.test(text);
   const nounCategories = [
@@ -1468,13 +1470,13 @@ function generateReasonedCandidates(query, culture, interpretation, evidence) {
     const desireTerm = evidence.exactCanonSupport.get("want")?.term || evidence.exactCanonSupport.get("desire")?.term || "thar-ka";
     const breathTerm = evidence.exactCanonSupport.get("breathe")?.term || evidence.exactCanonSupport.get("breath")?.term || "Aen";
     const direct = {
-      celan: `${breathTerm} I ${desireTerm.toLowerCase()} anen ${airTerm.toLowerCase()}.`,
+      celan: `${breathTerm} I ${desireTerm.toLowerCase()} ${airTerm.toLowerCase()}-ya.`,
       why: `This keeps the English image intact by using canon footing for breath, desire, and air. It treats the phrase as an intimate longing rather than a literal medical statement.`,
       wordSense: [
         `\`${breathTerm}\` = breathe / breath of life`,
         "`I` = I / me",
         `\`${desireTerm.toLowerCase()}\` = want / desire`,
-        "`anen` = your / direct possession marker",
+        "`-ya` = your / personal possessive suffix",
         `\`${airTerm.toLowerCase()}\` = air`
       ],
       culturalNote: `${culture.label} can carry this line. The main difference is how lush or restrained the feeling sounds in the voice.`,
@@ -1602,7 +1604,7 @@ function phrasePlanForIntent(query, culture, exactCanonSupport = new Map(), toke
   if (intent.kind === "desire-vision") {
     const cultureId = Object.entries(CULTURAL_LENSES).find(([, value]) => value === culture)?.[0] || "neutral";
     const eyeTerm = exactCanonSupport.get("eye")?.term || exactCanonSupport.get("eyes")?.term || "";
-    const eyePhrase = eyeTerm ? `anen ${eyeTerm.toLowerCase()}in` : "ya";
+    const eyePhrase = eyeTerm ? `${eyeTerm.toLowerCase()}${/[aeiou]$/i.test(eyeTerm) ? 'n' : 'in'}-ya` : "ya";
     const celan = cultureId === "pelagaean" || cultureId === "verdalrisian"
       ? `Shalaen I thar-ka ${eyePhrase}.`
       : `Shalaen I thar-ka ${eyePhrase}.`;
@@ -1623,7 +1625,7 @@ function phrasePlanForIntent(query, culture, exactCanonSupport = new Map(), toke
         "`I` = I / me",
         "`thar-ka` = by heart's desire / want to",
         ...(intent.exactEyes && eyeTerm
-          ? ["`anen` = your / direct possession marker", `\`${eyeTerm.toLowerCase()}in\` = eyes (from \`${eyeTerm}\`)`]
+          ? ["`-ya` = your / personal possessive suffix", `\`${eyePhrase}\` = your eyes (from \`${eyeTerm}\`)`]
           : ["`ya` = you / your"])
       ],
       culturalNote: `${culture.label} does not need to change the structure much here. The main difference is whether the line lands more direct, more lyrical, or more formal in tone.`,
@@ -2234,7 +2236,10 @@ function buildSyntheticRuleEntries(rawById) {
 }
 
 function buildRuleEntries(rows) {
+  const superseded = new Set(rows.some(row => row.entry_id === 'GR-DR1-0001')
+    ? ['GR-V1-0007', 'GR-V1-0020', 'GR-V3-0006'] : []);
   const rawEntries = rows
+    .filter(row => !superseded.has(row.entry_id))
     .filter((row) => (row.canon_status || "").toLowerCase() === "canon")
     .map((row) => ({
       ...row,
@@ -2498,59 +2503,15 @@ function lessonPageContent(lesson, childTitles) {
 
   if (lesson.id === "LESSON-POSSESSION-RELATION") {
     return {
-      ruleName: "Possession and Relation: How Celan Connects the World",
-      purpose: "How Celan distinguishes ownership, belonging, and relation between people, things, and places.",
+      ruleName: "Possession and Relation",
+      purpose: "Distinguish ownership, personal possession, relational bonds, and absence.",
       guideSections: [
-        makeGuideSection(
-          "The Core Idea: The Philosophy of Relation",
-          "In Celan, you do not just own the world around you; you are woven into it. The language makes a distinction between things you actually possess and people or places you are simply connected to. Possession is not about dominance. It is about defining your place in the network of life."
-        ),
-        makeGuideSection(
-          "Direct Ownership (ian)",
-          "When you want to show clear, personal possession of something, you use `ian` (my). You place it right before the thing you own. This is used for everyday objects, your physical home, or your own thoughts and feelings.",
-          [
-            "Example: `ian tera` (my home).",
-            "Example: `ian morlak` (my bread)."
-          ]
-        ),
-        makeGuideSection(
-          "Relational Belonging (The `-esh` Suffix)",
-          "You cannot truly own another person, so Celan offers a softer, more respectful way to show that someone belongs in your life. By attaching `-esh` to the end of a word, you show a deep relational tie. It translates closer to connected to me or bonded to rather than mine.",
-          [
-            "Example: `kadron-esh` (the man connected to me).",
-            "Example: `kalvok-esh` (the spouse's family / the family connected to one through marriage)."
-          ]
-        ),
-        makeGuideSection(
-          "Prepositions: Connecting People, Things, and Places",
-          "Prepositions in Celan do not just give directions. They act as the structural glue of society. Words like `ser` (with) and `an` (at/in) define how we relate to our environment and each other. In fact, the word for friend is built from the same relational world as with, because friendship is an act of being with someone."
-        ),
-        makeGuideSection(
-          "What to Notice",
-          null,
-          [
-            {
-              title: "Possession is not only ownership",
-              copy: "Celan asks you to think about whether you own something with `ian` or whether you are simply sharing a bond with it through `-esh`."
-            },
-            {
-              title: "Relation is structural and often social",
-              copy: "The little linking words tell you exactly how the pieces of a community fit together, making sentence structure a reflection of social bonds."
-            },
-            {
-              title: "The kind of relation matters",
-              copy: "Your choice of form reveals the nature of the bond. Saying my tool uses completely different grammar than saying my partner."
-            }
-          ]
-        )
+        makeGuideSection("Spacing changes the meaning", "Standalone ka means without or no. Possessive -ka is always hyphenated to its possessor.", ["I-ka dren — My water.", "Ilin-ka emil — Our meal.", "Var I ka shal. — I go without light."]),
+        makeGuideSection("Personal suffixes", "Body parts, inner states, personal clothing, and primary personal gear use -ian (my), -ya (your), or -eshen (his/her/their) after the possessed noun. -ian never means their.", ["doran-ian — my torso", "noka-ya — your vulva"]),
+        makeGuideSection("Groups and third-person possessors", "Collective, titled, compound, and other third-person possessors use possessor-ka. Third-person body-part possession may also use this form.", ["La-ka kelvor — their mouth", "Varthas-ka vorkor — the city's gate", "Seren-ka arthkal — the guardian's shield"]),
+        makeGuideSection("Relational belonging", "-esh expresses a bond or relationship. It does not by itself mean their or identify a third-person owner.")
       ],
-      examples: [
-        "One Personal Possession: `ian morlak` (My bread — indicating clear, personal ownership of an object).",
-        "One Relational/Belonging Phrase: `kalvok-esh` (The spouse's family — indicating an extended group bonded or connected to you).",
-        "Contrast Between Two Possessive Strategies: `ian kadron` (My man — feels like direct, literal ownership).",
-        "`kadron-esh` (The man connected to me — feels like a mutual, relational bond).",
-        "One Place Relation: `var I ser ser an tera.` (I go with a friend to the home — showing the structural relation of who is accompanying you and where you are grounded in space)."
-      ].join("\n")
+      examples: "rinaen aiv an doran-ian. — There is pain in my torso.\ndr enselaen I noka-ian. — I wash my vulva.\ndrenaen La dren kora rinaen La-ka kelvor kadreneth. — They drink water because their mouth is dry.".replace('dr enselaen', 'drenselaen')
     };
   }
 
@@ -3674,6 +3635,733 @@ const HEADWORD_DISPLAY_OVERRIDES = {
   }
 };
 
+// ED-0037: exact user-approved review senses; merged without discarding existing example overrides.
+const APPROVED_REVIEW_DISPLAY = {
+  "arthen'taleth": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Sacrifice for Destiny Ritual (noun).",
+        "usage": ""
+      }
+    ]
+  },
+  "kor'taleth": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Offering to Power Source Ritual (noun).",
+        "usage": ""
+      }
+    ]
+  },
+  "phelrin": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Comfort Food",
+        "usage": "Phel = warmth + rin = essence"
+      }
+    ]
+  },
+  "phelvin": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Comforting drink",
+        "usage": "Phel + vin = pulled/essence"
+      },
+      {
+        "type": "Noun",
+        "meaning": "Comfort Drink",
+        "usage": "Phel + vin = soothing essence"
+      }
+    ]
+  },
+  "thal'taleth": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Act/Ritual of Sacrifice (general noun).",
+        "usage": ""
+      }
+    ]
+  },
+  "thar'taleth": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Life/Heart Sacrifice Ritual (noun).",
+        "usage": ""
+      }
+    ]
+  },
+  "jorvar": {
+    "uses": [
+      {
+        "type": "Measure",
+        "meaning": "Speed; the rate at which a person creature object or vehicle moves through distance",
+        "usage": ""
+      },
+      {
+        "type": "Noun",
+        "meaning": "Speed; the rate at which a person creature object or vehicle moves through distance",
+        "usage": ""
+      }
+    ]
+  },
+  "lianrethshen": {
+    "uses": [
+      {
+        "type": "Measure",
+        "meaning": "An anomaly reading; a measured value describing the intensity or instability of a reality anomaly",
+        "usage": ""
+      },
+      {
+        "type": "Noun",
+        "meaning": "An anomaly reading; a measured value describing the intensity or instability of a reality anomaly",
+        "usage": ""
+      }
+    ]
+  },
+  "vaarshen": {
+    "uses": [
+      {
+        "type": "Measure",
+        "meaning": "A safe clearance distance established between a hazard and an unprotected person or place",
+        "usage": ""
+      },
+      {
+        "type": "Noun",
+        "meaning": "A safe clearance distance established between a hazard and an unprotected person or place",
+        "usage": ""
+      }
+    ]
+  },
+  "belshara": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Coordinated Maneuver / Formation Movement / Tactical Path. Refers to moving troops in a specific, planned way.",
+        "usage": "Bel (bind/weave) + Shara (path/journey)"
+      },
+      {
+        "type": "Noun",
+        "meaning": "Duty (Bound Path)",
+        "usage": "Bel (bind) + Shara (path)"
+      },
+      {
+        "type": "Modal",
+        "meaning": "Necessity (Must/Have to)",
+        "usage": "\"on a bound path\""
+      },
+      {
+        "type": "Noun",
+        "meaning": "Necessity / Obligation",
+        "usage": ""
+      }
+    ]
+  },
+  "lianeth": {
+    "uses": [
+      {
+        "type": "Modal",
+        "meaning": "Ability (Can/Able to)",
+        "usage": "\"having true quality\""
+      },
+      {
+        "type": "Verb",
+        "meaning": "Ability (Can/Able to)",
+        "usage": ""
+      },
+      {
+        "type": "Adjective",
+        "meaning": "Reliable / Sound / Dependable / Accurate / True to function",
+        "usage": ""
+      }
+    ]
+  },
+  "rethlian": {
+    "uses": [
+      {
+        "type": "Modal",
+        "meaning": "Possibility (May/Might)",
+        "usage": "\"maybe/perhaps\""
+      },
+      {
+        "type": "Interjection",
+        "meaning": "Maybe",
+        "usage": "“Rethlian, I nor var dren.” – “Maybe, I will go to the water.”"
+      },
+      {
+        "type": "Particle",
+        "meaning": "Possibility (May/Might)",
+        "usage": ""
+      }
+    ]
+  },
+  "thar-ka": {
+    "uses": [
+      {
+        "type": "Modal",
+        "meaning": "Desire (Want to)",
+        "usage": "\"by heart's desire\""
+      },
+      {
+        "type": "Noun",
+        "meaning": "Desire",
+        "usage": ""
+      }
+    ]
+  },
+  "lorin": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Guide",
+        "usage": ""
+      },
+      {
+        "type": "Noun",
+        "meaning": "Guide / Teacher",
+        "usage": ""
+      },
+      {
+        "type": "Verb",
+        "meaning": "To guide",
+        "usage": ""
+      }
+    ]
+  },
+  "ven": {
+    "uses": [
+      {
+        "type": "Particle",
+        "meaning": "Subtraction marker meaning minus/subtract",
+        "usage": "Corrected to match the actual subtraction pattern used elsewhere in the canon data."
+      }
+    ]
+  },
+  "jin": {
+    "uses": [
+      {
+        "type": "Adjective",
+        "meaning": "Unique or rare (e.g., exotic or specialty foods).",
+        "usage": "Original expanded vocabulary root preserved."
+      }
+    ]
+  },
+  "aen": {
+    "uses": [
+      {
+        "type": "Verb",
+        "meaning": "Speak / Tell / Breathe",
+        "usage": "Formal/poetic use: deeper or ritual speaking. Use in rituals, court, formal address, writing, and when emphasizing depth. Combine with Li- / -en."
+      },
+      {
+        "type": "Conjunction",
+        "meaning": "That"
+      },
+      {
+        "type": "Suffix",
+        "meaning": "-aen (verb-forming)"
+      },
+      {
+        "type": "Noun",
+        "meaning": "Breath of Life",
+        "usage": ""
+      }
+    ]
+  },
+  "-eth": {
+    "uses": [
+      {
+        "type": "Suffix",
+        "meaning": "Suffix that marks inherent quality or essential manifestation",
+        "usage": "Common adjectival examples: Shal -> Shaleth, Wor -> Woreth, Gorm -> Gormeth, Kal -> Kaleth."
+      },
+      {
+        "type": "Suffix",
+        "meaning": "Also used for abstract or ritual nouns",
+        "usage": "Ritual/nominal examples: Shal'taleth, Aen'Moreth."
+      }
+    ]
+  },
+  "-in": {
+    "uses": [
+      {
+        "type": "Suffix",
+        "meaning": "Plural marker added to nouns ending in consonants",
+        "usage": "Original root/morpheme entry preserved."
+      },
+      {
+        "type": "Suffix",
+        "meaning": "Person or participant connected to a bond, place, or category",
+        "usage": "Additional participant sense; the existing consonant-noun plural sense remains valid. Interpret the established word in context."
+      }
+    ]
+  },
+  "lumor": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Light (enlightenment or insight)",
+        "usage": ""
+      },
+      {
+        "type": "Noun",
+        "meaning": "Talisman",
+        "usage": ""
+      }
+    ]
+  },
+  "zhelvek": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Energy Bar",
+        "usage": "Zhel = spark/energy + vek = carrier"
+      },
+      {
+        "type": "Noun",
+        "meaning": "Energy carrier",
+        "usage": ""
+      }
+    ]
+  },
+  "drenkorath": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Oasis Blessing Ceremony",
+        "usage": "Derived From: Dren (water) + kor (source/strength) + ath (balance). Meaning: A ritual where families gather to honor and protect their oasis or water source."
+      },
+      {
+        "type": "Noun",
+        "meaning": "Sacred spring",
+        "usage": ""
+      }
+    ]
+  },
+  "kaleth": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Fortress / Stronghold",
+        "usage": ""
+      },
+      {
+        "type": "Adjective",
+        "meaning": "Strong / Powerful / Intense / High in magnitude or reading",
+        "usage": ""
+      }
+    ]
+  },
+  "nor-ka": {
+    "uses": [
+      {
+        "type": "Particle",
+        "meaning": "passive voice echo particle",
+        "usage": "Original root/morpheme entry preserved."
+      },
+      {
+        "type": "Particle",
+        "meaning": "Now / In this moment / At present",
+        "usage": ""
+      }
+    ]
+  },
+  "tenar": {
+    "uses": [
+      {
+        "type": "Number",
+        "meaning": "Ten",
+        "usage": ""
+      },
+      {
+        "type": "Noun",
+        "meaning": "Radiance / Steady glow / Visible light",
+        "usage": ""
+      }
+    ]
+  },
+  "shen": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Coinage / Currency"
+      },
+      {
+        "type": "Measure",
+        "meaning": "Unit of weight / measure"
+      },
+      {
+        "type": "Verb",
+        "meaning": "To measure / To count",
+        "usage": ""
+      }
+    ]
+  },
+  "kal": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Strength / Power"
+      },
+      {
+        "type": "Adjective",
+        "meaning": "Strong"
+      },
+      {
+        "type": "Verb",
+        "meaning": "To strengthen",
+        "usage": ""
+      }
+    ]
+  },
+  "bren": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Harvest (e.g., the act or result of gathering food).",
+        "usage": "Conceptual range: Gathering; harvest; collected yield"
+      },
+      {
+        "type": "Verb",
+        "meaning": "To harvest / To gather",
+        "usage": ""
+      }
+    ]
+  },
+  "vanesh": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Commerce; formal trade; merchant work",
+        "usage": "Builds words for trade, market action, bargaining, goods, and merchant activity."
+      },
+      {
+        "type": "Verb",
+        "meaning": "To trade / To conduct commerce",
+        "usage": ""
+      }
+    ]
+  },
+  "jor": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Surge or burst (symbolizing sudden movements or energetic flows).",
+        "usage": "Conceptual range: Surge; burst; energetic flow"
+      },
+      {
+        "type": "Verb",
+        "meaning": "To surge / To burst forth",
+        "usage": ""
+      }
+    ]
+  },
+  "kar": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Strike; mechanical force; tool-work",
+        "usage": "Builds words for striking, tool-use, applied force, and mechanical action."
+      },
+      {
+        "type": "Verb",
+        "meaning": "To strike / To apply force",
+        "usage": ""
+      }
+    ]
+  },
+  "shara": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Path / Journey",
+        "usage": ""
+      },
+      {
+        "type": "Verb",
+        "meaning": "To follow a path / To navigate / To track",
+        "usage": ""
+      }
+    ]
+  },
+  "xar": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Shadow or cover (tied to concealed or protective qualities).",
+        "usage": "Conceptual range: Cover; veil; concealment for protection"
+      },
+      {
+        "type": "Verb",
+        "meaning": "To cover / To shelter / To close off",
+        "usage": ""
+      }
+    ]
+  },
+  "shentalzhael": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Medical triage; measured assignment of treatment priority and limited care resources according to urgency",
+        "usage": ""
+      },
+      {
+        "type": "Verb",
+        "meaning": "To triage / To prioritize treatment",
+        "usage": ""
+      }
+    ]
+  },
+  "i": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "I / Me (1st Person Singular)",
+        "usage": "Remains simple and universal."
+      }
+    ]
+  },
+  "ya": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "You (2nd Person Singular)",
+        "usage": "A straightforward pronoun for “you.”"
+      },
+      {
+        "type": "Possessive",
+        "meaning": "Your (direct personal suffix -ya)",
+        "usage": "Attach -ya to the possessed noun for body parts, inner states, and personal clothing."
+      }
+    ],
+    "aliases": [
+      "-ya"
+    ]
+  },
+  "la": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "He / She / They (3rd Person Singular)",
+        "usage": "Neutral pronoun meaning “he/she/they.”"
+      }
+    ]
+  },
+  "ilin": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "We / Us [Inclusive] (1st Person Plural)",
+        "usage": "Represents \"we\" as a group bound by common purpose."
+      },
+      {
+        "type": "Pronoun",
+        "meaning": "Inclusive We: I + You (+ others). This is the communal, default \"we.\"",
+        "usage": ""
+      }
+    ]
+  },
+  "imen": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "We / Us [Exclusive]",
+        "usage": ""
+      }
+    ]
+  },
+  "inko": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "We two / Us two [Dual]",
+        "usage": ""
+      }
+    ]
+  },
+  "yako": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "You two [Dual]",
+        "usage": ""
+      }
+    ]
+  },
+  "yalin": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "You all / You / Y’all (2nd Person Plural)",
+        "usage": "\"You all.\" Signifies a collective of individuals addressed."
+      }
+    ]
+  },
+  "lako": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "They two [Dual]",
+        "usage": ""
+      }
+    ]
+  },
+  "lalin": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "They / Them (3rd Person Plural)",
+        "usage": "Means “they” (a group not including speaker or addressee)."
+      }
+    ]
+  },
+  "-ka": {
+    "uses": [
+      {
+        "type": "Particle",
+        "meaning": "Possessive/linking marker",
+        "usage": "Always hyphenated to the possessor: Ilin-ka emil (our meal); La-ka kelvor (their mouth). Standalone ka means without or no."
+      }
+    ]
+  },
+  "ka": {
+    "uses": [
+      {
+        "type": "Preposition",
+        "meaning": "Without",
+        "usage": "Standalone ka is exclusively without or no. Ownership uses a hyphenated possessor-ka form."
+      },
+      {
+        "type": "Interjection",
+        "meaning": "No",
+        "usage": "Standalone ka is exclusively without or no. Ownership uses a hyphenated possessor-ka form."
+      }
+    ]
+  },
+  "ian": {
+    "uses": [
+      {
+        "type": "Possessive",
+        "meaning": "My / Direct Possession marker",
+        "usage": "Direct personal suffix -ian, attached after the possessed noun. My. Third-person possessor-ka is also permitted, including for body parts."
+      }
+    ],
+    "aliases": [
+      "-ian"
+    ]
+  },
+  "eshen": {
+    "uses": [
+      {
+        "type": "Possessive",
+        "meaning": "His/Her/Their / Direct Possession marker",
+        "usage": "Direct personal suffix -eshen, attached after the possessed noun. His / Her / Their. Third-person possessor-ka is also permitted, including for body parts."
+      }
+    ],
+    "aliases": [
+      "-eshen"
+    ]
+  },
+  "tharvin-wek": {
+    "aliases": [
+      "tharvinwek"
+    ],
+    "usageNote": "Year / annual cycle. Tharvinwek is the fused spelling of this established entry."
+  },
+  "thar": {
+    "aliases": [
+      "Thaar"
+    ],
+    "usageNote": "Thaar is the approved Arvan regional spelling of Thar (heart / emotional core)."
+  },
+  "terra- / terra-": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Earth, ground, soil, land; lowercase terra is mundane physical ground; capitalized Terra is the world as living spiritual entity.",
+        "usage": "Root record containing alternative forms. The slash and trailing hyphens describe the roots; do not write the entire heading as one word."
+      }
+    ]
+  },
+  "reth- / rethvok-": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Reth: uncertainty, confusion, doubt, a question, or. Rethvok: chaos, disorder, un-ordered state.",
+        "usage": "Root record containing alternative forms. The slash and trailing hyphens describe the roots; do not write the entire heading as one word."
+      }
+    ]
+  },
+  "em": {
+    "uses": [
+      {
+        "type": "Interjection",
+        "meaning": "Um / Uh (hesitation or thinking particle)"
+      },
+      {
+        "type": "Particle",
+        "meaning": "Conversational hesitation / Thinking particle"
+      }
+    ]
+  },
+  "vrak": {
+    "uses": [
+      {
+        "type": "Adjective",
+        "meaning": "Gone / Missing / Depleted / Dry (Trerran dialect)"
+      },
+      {
+        "type": "Particle",
+        "meaning": "Gone / Missing / Depleted (Trerran dialect)"
+      }
+    ]
+  },
+  "im": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Device / Instrument / Implement / Internal mechanism"
+      },
+      {
+        "type": "Particle",
+        "meaning": "Device / Instrument / Internal mechanism"
+      }
+    ]
+  },
+  "thalesh": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Ritual / Sacred balance ceremony"
+      },
+      {
+        "type": "Verb",
+        "meaning": "To perform a balance rite"
+      }
+    ]
+  },
+  "thalor": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Outside / Exterior / Outer place"
+      },
+      {
+        "type": "Adverb",
+        "meaning": "Outside"
+      }
+    ]
+  }
+};
+Object.entries(APPROVED_REVIEW_DISPLAY).forEach(([term, value]) => {
+  HEADWORD_DISPLAY_OVERRIDES[term] = { ...(HEADWORD_DISPLAY_OVERRIDES[term] || {}), ...value };
+});
+
 function headwordOverride(term) {
   return HEADWORD_DISPLAY_OVERRIDES[normalizeHeadword(term)] || null;
 }
@@ -3779,8 +4467,10 @@ function buildGroupedEntries(entries) {
       uses,
       hasRootWord,
       preview,
-      englishSenses: displayUses({ term: group.term, uses: [...uses, ...group.entries.flatMap(buildUses)] }),
-      searchText: searchableEntries.map((entry) => [
+      // English lookup must use the same curated senses as the detail view.
+      // Reintroducing source rows here bypasses overrides and root suppression.
+      englishSenses: visibleUses,
+      searchText: normalizeHeadword(searchableEntries.map((entry) => [
         entry.celan_term,
         entry.english_meaning,
         entry.category,
@@ -3790,7 +4480,7 @@ function buildGroupedEntries(entries) {
         entry.origin_nation,
         entry.national_usage,
         entry.variant_forms
-      ].join(" ")).join(" ").toLowerCase()
+      ].join(" ")).join(" ") + " " + (override?.aliases || []).join(" ") + " " + preview)
     };
   });
 }
@@ -3812,7 +4502,7 @@ function buildRootLookup(expandedRoots, roots) {
     .forEach((row) => {
       const form = (row.form || "").trim();
       const normalized = cleanAlpha(form);
-      if (!normalized || normalized.length < 3) return;
+      if (!normalized) return;
       seen.set(normalized, {
         form,
         normalized,
@@ -3830,7 +4520,7 @@ function buildRootLookup(expandedRoots, roots) {
     .forEach((row) => {
       const form = (row.root_or_morpheme || "").trim();
       const normalized = cleanAlpha(form);
-      if (!normalized || normalized.length < 3) return;
+      if (!normalized) return;
       if (!seen.has(normalized)) {
         seen.set(normalized, {
           form,
@@ -3870,12 +4560,13 @@ function extractEvidenceTerms(value) {
 function extractDerivationAnchors(text, rootLookup) {
   const source = (text || "").trim();
   if (!source) return [];
-  return rootLookup.filter((root) => {
-    const token = escapeRegex(formatRootHeadword(root.form).replace(/-+$/g, ""));
-    if (!token) return false;
-    const pattern = new RegExp(`(^|[^A-Za-z-])${token}(?=[^A-Za-z]|$)`, "i");
-    return pattern.test(source);
-  });
+  // Read the named parts before their explanations, not English words within
+  // those explanations (for example the conjunction "or" is not the root OR).
+  const parts = source.split(/\+/).map(part => part.trim()
+    .replace(/^(?:derivation:|derived from:?|built from:?|built on:?|root:|established|existing|new (?:(?:one|two)-syllable )?primitive(?: root)?[: ]*)\s*/i, '')
+    .match(/^([-A-Za-z‘’']+)/)?.[1]).filter(Boolean);
+  return parts.flatMap(part => rootLookup.filter(root => root.normalized === cleanAlpha(part))
+    .map(root => ({...root, sharedAffix: part.startsWith('-')})));
 }
 
 function derivationSource(entry) {
@@ -3901,10 +4592,8 @@ function detectFamilyRoots(group, rootLookup) {
     const evidenceMatch = (root.evidenceTerms || []).some((hint) => cleanAlpha(hint) === term);
     const linkedIdMatch = group.entries.some((entry) => root.linkedEntryIds.includes(entry.entry_id));
     const exact = root.normalized === term;
-    const morphemeEdgeMatch = (root.anchorType || "").includes("morpheme") || (root.anchorType || "").includes("marker")
-      ? (term.startsWith(root.normalized) || term.endsWith(root.normalized))
-      : false;
-    if (exact || evidenceMatch || linkedIdMatch || morphemeEdgeMatch) {
+    // Spelling overlap is not evidence of a recorded word part (Tash != Ash).
+    if (exact || evidenceMatch || linkedIdMatch) {
       directMatches.push(root);
     }
   });
@@ -3913,7 +4602,11 @@ function detectFamilyRoots(group, rootLookup) {
   });
   const merged = Array.from(new Map([...directMatches, ...derivationMatches].map((root) => [root.normalized, root])).values());
   const exactRoots = merged.filter((root) => root.normalized === term);
-  return exactRoots.length ? exactRoots : merged.slice(0, 4);
+  return exactRoots.length ? exactRoots : merged.sort((a, b) => Number(isSharedAffix(a)) - Number(isSharedAffix(b))).slice(0, 4);
+}
+
+function isSharedAffix(root) {
+  return root.sharedAffix || /^-/.test(root.form) || /suffix|prefix/.test(root.anchorType);
 }
 
 function buildFamilyIndex(groupedEntries, expandedRoots, roots) {
@@ -3931,7 +4624,7 @@ function buildFamilyIndex(groupedEntries, expandedRoots, roots) {
       const isRootEntry = group.id === root.normalized;
       const linkedIdMatch = group.entries.some((entry) => root.linkedEntryIds.includes(entry.entry_id));
       const evidenceMatch = (root.evidenceTerms || []).some((hint) => cleanAlpha(hint) === group.id);
-      const derivationMatch = detectFamilyRoots(group, [root]).some((candidateRoot) => candidateRoot.normalized === root.normalized);
+      const derivationMatch = (detectedRootsByGroup.get(group.id) || []).some((candidateRoot) => candidateRoot.normalized === root.normalized);
       return isRootEntry || linkedIdMatch || evidenceMatch || derivationMatch;
     });
     membersByRoot.set(root.normalized, members);
@@ -3941,9 +4634,14 @@ function buildFamilyIndex(groupedEntries, expandedRoots, roots) {
   groupedEntries.forEach((group) => {
     const detectedRoots = detectedRootsByGroup.get(group.id) || [];
     const familyRoots = detectedRoots.map((root) => root.form);
+    const sharedAffixes = detectedRoots.filter(isSharedAffix).map((root) => root.form);
+    // Interleave families so the first large root family cannot fill every slot.
+    const pools = detectedRoots.filter(root => !isSharedAffix(root))
+      .map(root => (membersByRoot.get(root.normalized) || []).filter(candidate =>
+        (detectedRootsByGroup.get(candidate.id) || []).some(part => part.normalized === root.normalized && !isSharedAffix(part))));
+    const interleaved = Array.from({length: Math.max(0, ...pools.map(pool => pool.length))}, (_, i) => pools.map(pool => pool[i]).filter(Boolean)).flat();
     const relatedEntries = uniqueById(
-      detectedRoots
-        .flatMap((root) => membersByRoot.get(root.normalized) || [])
+      interleaved
         .filter((candidate) => candidate.id !== group.id)
         .map((candidate) => ({
           id: candidate.id,
@@ -3952,6 +4650,7 @@ function buildFamilyIndex(groupedEntries, expandedRoots, roots) {
     ).slice(0, 16);
     index.set(group.id, {
       familyRoots,
+      sharedAffixes,
       relatedEntries
     });
   });
@@ -3995,7 +4694,7 @@ function setSearchMode(mode) {
 
 function applyFilters() {
   state.visibleResultCount = RESULT_BATCH_SIZE;
-  const q = els.searchInput.value.toLowerCase().trim();
+  const q = normalizeHeadword(els.searchInput.value);
   const selectedType = state.activeWordType;
   state.filtered = state.groupedEntries.filter((group) => {
     if (state.searchMode !== "english" && state.activeLetter !== "ALL") {
@@ -4086,13 +4785,13 @@ function relatedExamples(group) {
     return ids.some((id) => sourceIds.has(id));
   });
 
-  const term = normalizeHeadword(group.term);
-  const termRegex = term
-    ? new RegExp(`(^|[^a-z])${term.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")}([^a-z]|$)`, "i")
+  const forms = [group.term, ...(headwordOverride(group.term)?.aliases || []), ...entries.flatMap(e => splitIds(e.variant_forms))].map(normalizeHeadword).filter(Boolean);
+  const termRegex = forms.length
+    ? new RegExp(`(^|[^\\p{L}])(?:${forms.map(escapeRegex).join('|')})([^\\p{L}]|$)`, "iu")
     : null;
 
   const matchedExamples = termRegex
-    ? state.phrases.filter((phrase) => termRegex.test((phrase.celan_text || "").toLowerCase()))
+    ? state.phrases.filter((phrase) => termRegex.test(normalizeHeadword(phrase.celan_text)))
     : [];
 
   const merged = [...explicitExamples];
@@ -4133,6 +4832,8 @@ function extractInlineExamples(entries) {
       const celanText = cleanInlineExampleText(headword, (match[1] || "").trim());
       const translation = (match[2] || "").trim();
       if (!celanText || !translation) continue;
+      // A headword followed by a colon is a definition, not an example sentence.
+      if (/^[^.!?]*:/.test(celanText) || /^(?:usage|meaning|definition)\b/i.test(celanText)) continue;
       const key = `${celanText}::${translation}`;
       if (seen.has(key)) continue;
       seen.add(key);
@@ -4294,14 +4995,14 @@ function displayDerivation(value) {
 }
 
 function findBestLexiconMatch(rootTerm) {
-  const needle = (rootTerm || "").toLowerCase();
+  const original = normalizeHeadword(rootTerm);
+  const direct = state.groupedEntries.find(group => normalizeHeadword(group.term) === original);
+  if (direct) return direct;
+  // A leading hyphen identifies a suffix and must not resolve to a free word.
+  const needle = original.startsWith('-') ? original : original.replace(/-$/, "");
   if (!needle) return null;
-  const exact = state.groupedEntries.find((group) => normalizeHeadword(group.term) === needle);
-  if (exact) return exact;
-  const starts = state.groupedEntries.find((group) => normalizeHeadword(group.term).startsWith(needle));
-  if (starts) return starts;
-  const contains = state.groupedEntries.find((group) => normalizeHeadword(group.term).includes(needle));
-  return contains || null;
+  return state.groupedEntries.find((group) => normalizeHeadword(group.term) === needle
+    || (headwordOverride(group.term)?.aliases || []).some(alias => normalizeHeadword(alias) === needle)) || null;
 }
 
 function jumpToWordFamily(rootTerm) {
@@ -4318,6 +5019,12 @@ function jumpToWordFamily(rootTerm) {
     revealSelectedResult();
     renderList();
     renderDetail(match);
+  } else {
+    const root = buildRootLookup(state.expandedRoots, state.roots).find(r => normalizeHeadword(r.form) === normalizeHeadword(rootTerm));
+    state.selectedId = null;
+    els.emptyState.classList.add("hidden");
+    els.detailView.classList.remove("hidden");
+    els.detailView.innerHTML = `<h2>${escapeMarkup(rootTerm)}</h2><p>Root or morpheme</p><p>${escapeMarkup(root?.meaning || 'No standalone word entry is recorded for this root.')}</p>`;
   }
 }
 
@@ -4399,13 +5106,14 @@ function renderDetail(group) {
   const pronunciation = buildPronunciation(group.term, group.entries);
   const metadata = expansionMetadata(group);
   const familyRoots = family.familyRoots
+    .filter(rootTerm => !(family.sharedAffixes || []).includes(rootTerm))
     .filter((rootTerm) => normalizeHeadword(rootTerm.replace(/-+$/g, "")) !== normalizeHeadword(group.term.replace(/-+$/g, "")))
     .slice(0, 3);
   const relatedEntries = (override?.familyTerms?.length
     ? family.relatedEntries.filter((entry) => override.familyTerms.includes(entry.term))
     : family.relatedEntries
   ).slice(0, 10);
-  const hasFamilyContent = familyRoots.length || relatedEntries.length;
+  const hasFamilyContent = familyRoots.length || relatedEntries.length || (family.sharedAffixes || []).length;
   const displayExamples = override?.examples?.length ? override.examples : examples;
   const primaryUses = displayUses(group);
   const useMarkup = primaryUses.map((use) => {
@@ -4431,19 +5139,21 @@ function renderDetail(group) {
       <section class="card">
         <h3>Meaning</h3>
         ${useMarkup}
+        ${override?.usageNote ? `<p class="sense-usage">${escapeMarkup(override.usageNote)}</p>` : ""}
       </section>
       ${metadata ? `
       <section class="card">
         <h3>Usage</h3>
         ${metadata.origins.length ? `<div class="family-group"><p class="family-label">Origin</p><p class="family-line">${metadata.origins.join(", ")}</p></div>` : ""}
         ${metadata.nationalUses.length ? `<div class="family-group"><p class="family-label">National use</p><p class="family-line">${metadata.nationalUses.join(" ")}</p></div>` : ""}
-        ${metadata.variants.length ? `<div class="family-group"><p class="family-label">Euphonic choices</p><p class="family-line">${metadata.variants.map((variant) => `${variant.form}${variant.pronunciation ? ` ${variant.pronunciation}` : ""}`).join(", ")}</p></div>` : ""}
+        ${metadata.variants.length ? `<div class="family-group"><p class="family-label">Variant forms</p><p class="family-line">${metadata.variants.map((variant) => `${variant.form}${variant.pronunciation ? ` ${variant.pronunciation}` : ""}`).join(", ")}</p></div>` : ""}
         ${metadata.derivations.length ? `<div class="family-group"><p class="family-label">Built from</p><p class="family-line">${metadata.derivations.join("; ")}</p></div>` : ""}
       </section>
       ` : ""}
       ${hasFamilyContent ? `
       <section class="card">
         <h3>Word Family</h3>
+        ${(family.sharedAffixes || []).length ? `<div class="family-group"><p class="family-label">Shared affixes</p><p>${renderFamilyLinks(family.sharedAffixes, "data-root-term")}</p></div>` : ""}
         ${familyRoots.length
           ? `<div class="family-group"><p class="family-label">Root</p><p class="family-line">${renderFamilyLinks(familyRoots, "data-root-term")}</p></div>`
           : ""}
@@ -4455,7 +5165,7 @@ function renderDetail(group) {
       ${displayExamples.length ? `
       <section class="card sentence-card">
         <h3>Used In A Sentence</h3>
-        <p>${displayExamples.slice(0, 5).map((e) => `${e.celan_text}\n${e.translation ? `"${e.translation}"` : ""}`).join("\n\n")}</p>
+        ${displayExamples.slice(0, 5).map(e => `<div class="sentence-example">${/counterexample|phonology illustration/i.test(e.example_type || '') ? `<strong>${escapeMarkup(e.example_type)}</strong>` : ''}<p>${escapeMarkup(e.celan_text)}<br>${e.translation ? `“${escapeMarkup(e.translation)}”` : ''}</p>${e.analysis ? `<p class="sense-usage">${escapeMarkup(e.analysis)}</p>` : ''}</div>`).join('')}
       </section>
       ` : ""}
     </div>

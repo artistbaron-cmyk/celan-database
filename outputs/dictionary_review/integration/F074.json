@@ -1,0 +1,55 @@
+{
+  "flag": "F074",
+  "title": "noraen appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Noraen: To guide / To lead through time or experience / To instruct.",
+  "followups": [
+    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+  ],
+  "user_response": {
+    "id": "F074",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Noraen / noraen (/nohr-ah-ehn/) — Verb: To guide through time, to lead, to instruct\nEtymology: Built from Nor (time/flow) + -aen (verb suffix).\nAttested In: PE-V3-0132 (\"The elders guide us to water...\").\nApp Entry: Verb: To guide, to lead through time/experience",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:41:12.875Z",
+    "title": "noraen appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "noraen",
+      "senses": [
+        {
+          "type": "Verb",
+          "rootWord": false,
+          "meaning": "To guide / To lead through time or experience / To instruct",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0022"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F074",
+    "entry": {
+      "entry_id": "LX-DR1-0022",
+      "celan_term": "Noraen",
+      "pronunciation": "/nohr-ah-ehn/",
+      "english_meaning": "To guide / To lead through time or experience / To instruct",
+      "category": "Verb",
+      "derivation": "Nor time + -aen verb; approved guidance-through-experience meaning.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F074. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0132"
+    },
+    "example_count": 1
+  }
+}

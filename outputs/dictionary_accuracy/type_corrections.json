@@ -1,0 +1,114 @@
+[
+  {
+    "headword": "Arthen'taleth",
+    "meaning": "Sacrifice for Destiny Ritual (noun).",
+    "current_app_type": "Verb",
+    "suggested_type": "Noun",
+    "status": "Flag only; original app content restored; awaiting user decision"
+  },
+  {
+    "headword": "Belshara",
+    "meaning": "Necessity (Must/Have to)",
+    "current_app_type": "Verb",
+    "suggested_type": "Particle",
+    "status": "Flag only; original app content restored; awaiting user decision"
+  },
+  {
+    "headword": "Jorvar",
+    "meaning": "Speed; the rate at which a person creature object or vehicle moves through distance",
+    "current_app_type": "",
+    "suggested_type": "Measure",
+    "status": "Flag only; original app content restored; awaiting user decision"
+  },
+  {
+    "headword": "Kor'taleth",
+    "meaning": "Offering to Power Source Ritual (noun).",
+    "current_app_type": "Verb",
+    "suggested_type": "Noun",
+    "status": "Flag only; original app content restored; awaiting user decision"
+  },
+  {
+    "headword": "Lianeth",
+    "meaning": "Ability (Can/Able to)",
+    "current_app_type": "Verb",
+    "suggested_type": "Particle",
+    "status": "Flag only; original app content restored; awaiting user decision"
+  },
+  {
+    "headword": "Lianrethshen",
+    "meaning": "An anomaly reading; a measured value describing the intensity or instability of a reality anomaly",
+    "current_app_type": "",
+    "suggested_type": "Measure",
+    "status": "Flag only; original app content restored; awaiting user decision"
+  },
+  {
+    "headword": "Lorin",
+    "meaning": "Guide",
+    "current_app_type": "Verb",
+    "suggested_type": "Noun",
+    "status": "Flag only; original app content restored; awaiting user decision"
+  },
+  {
+    "headword": "Lorin",
+    "meaning": "Guide / Teacher",
+    "current_app_type": "Verb",
+    "suggested_type": "Noun",
+    "status": "Flag only; original app content restored; awaiting user decision"
+  },
+  {
+    "headword": "Phelrin",
+    "meaning": "Comfort Food",
+    "current_app_type": "Verb",
+    "suggested_type": "Noun",
+    "status": "Flag only; original app content restored; awaiting user decision"
+  },
+  {
+    "headword": "Phelvin",
+    "meaning": "Comfort Drink",
+    "current_app_type": "Verb",
+    "suggested_type": "Noun",
+    "status": "Flag only; original app content restored; awaiting user decision"
+  },
+  {
+    "headword": "Rethlian",
+    "meaning": "Possibility (May/Might)",
+    "current_app_type": "Verb",
+    "suggested_type": "Particle",
+    "status": "Flag only; original app content restored; awaiting user decision"
+  },
+  {
+    "headword": "Thal'taleth",
+    "meaning": "Act/Ritual of Sacrifice (general noun).",
+    "current_app_type": "Verb",
+    "suggested_type": "Noun",
+    "status": "Flag only; original app content restored; awaiting user decision"
+  },
+  {
+    "headword": "Thar-ka",
+    "meaning": "Desire (Want to)",
+    "current_app_type": "Verb",
+    "suggested_type": "Particle",
+    "status": "Flag only; original app content restored; awaiting user decision"
+  },
+  {
+    "headword": "Thar'taleth",
+    "meaning": "Life/Heart Sacrifice Ritual (noun).",
+    "current_app_type": "Verb",
+    "suggested_type": "Noun",
+    "status": "Flag only; original app content restored; awaiting user decision"
+  },
+  {
+    "headword": "Vaarshen",
+    "meaning": "A safe clearance distance established between a hazard and an unprotected person or place",
+    "current_app_type": "",
+    "suggested_type": "Measure",
+    "status": "Flag only; original app content restored; awaiting user decision"
+  },
+  {
+    "headword": "Ven",
+    "meaning": "Subtraction marker meaning minus/subtract",
+    "current_app_type": "",
+    "suggested_type": "Particle",
+    "status": "Flag only; original app content restored; awaiting user decision"
+  }
+]

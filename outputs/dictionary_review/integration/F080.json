@@ -1,0 +1,55 @@
+{
+  "flag": "F080",
+  "title": "varral appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Varral: Traveler / Wanderer / Person on a journey.",
+  "followups": [
+    "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
+  ],
+  "user_response": {
+    "id": "F080",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. varral (/vahr-rahl/) — Noun: Traveler, wanderer, person on a journey\nEtymology: Built from Var (to go / move) + practitioner/agent suffix -ral.\nApp Entry: Noun: Traveler / Wanderer",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:47:37.603Z",
+    "title": "varral appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "varral",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Traveler / Wanderer / Person on a journey",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0026"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F080",
+    "entry": {
+      "entry_id": "LX-DR1-0026",
+      "celan_term": "Varral",
+      "pronunciation": "/vahr-rahl/",
+      "english_meaning": "Traveler / Wanderer / Person on a journey",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F080. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-HTS1-0051; PE-HTS1-0053; PE-HTS1-0057; PE-HTS1-0069; PE-HTS1-0081; PE-EGE1-0001; PE-EGE1-0029; PE-UHEI1-0037"
+    },
+    "example_count": 8
+  }
+}

@@ -1,0 +1,110 @@
+{
+  "flag": "F045",
+  "title": "Nderuin disagrees with the app’s plural-ending entries",
+  "status": "Applied locally",
+  "summary": "Applied the approved displayed senses or grammar decision; earlier meanings remain unless explicitly corrected.",
+  "followups": [],
+  "user_response": {
+    "id": "F045",
+    "status": "edited",
+    "text": "Option A: Align with the Standard Rule (Approve Nderun — Recommended)\nUpdate the example sentence so it follows the exception-free vowel-plural rule:\nOld Celan: keshenaen zhaelral nderuin.\nUpdated Celan: keshenaen zhaelral nderun.\nTranslation: \"The healer examines the testicles.\"\nThis preserves the simplicity of Celan's pluralization rules without requiring learners to memorize an arbitrary exception. (which means adjusting the workd nderuin to nderun)\n",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:42:58.245Z",
+    "title": "Nderuin disagrees with the app’s plural-ending entries",
+    "originalSuggestion": "Keep the attested example until you decide: document an exception, adjust the rule, or approve nderun."
+  },
+  "example_changes": [
+    {
+      "flag": "F045",
+      "entry_id": "PE-RABFE2-0016",
+      "before": {
+        "entry_id": "PE-RABFE2-0016",
+        "source_volume": "Reproductive Anatomy, Bodily Fluids, and Extremities 2",
+        "source_section": "Common Celan > Nderu",
+        "page_number": "",
+        "celan_text": "keshenaen zhaelral nderuin.",
+        "translation": "The healer examines the testicles.",
+        "example_type": "Expansion example",
+        "analysis": "The direct noun takes the regular plural in clinical use.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support.",
+        "related_entry_ids": "LX-RABFE2-0008",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-RABFE2-0016",
+        "source_volume": "Reproductive Anatomy, Bodily Fluids, and Extremities 2",
+        "source_section": "Common Celan > Nderu",
+        "page_number": "",
+        "celan_text": "keshenaen zhaelral nderun.",
+        "translation": "The healer examines the testicles.",
+        "example_type": "Expansion example",
+        "analysis": "The direct noun takes the regular plural in clinical use.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F045: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-RABFE2-0008",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    }
+  ],
+  "current_displayed_senses": [
+    {
+      "headword": "Nderu",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Testicle; a gonad that produces sperm and reproductive hormones",
+          "usage": "",
+          "sourceEntries": [
+            "LX-RABFE2-0008"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "-n",
+      "senses": [
+        {
+          "type": "Suffix",
+          "rootWord": false,
+          "meaning": "Plural marker added to nouns ending in vowels",
+          "usage": "Original root/morpheme entry preserved.",
+          "sourceEntries": [
+            "DM-RM-V2-0030"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "-in",
+      "senses": [
+        {
+          "type": "Suffix",
+          "meaning": "Plural marker added to nouns ending in consonants",
+          "usage": "Original root/morpheme entry preserved.",
+          "rootWord": false,
+          "sourceEntries": [
+            "DM-RM-V2-0029"
+          ]
+        },
+        {
+          "type": "Suffix",
+          "meaning": "Person or participant connected to a bond, place, or category",
+          "usage": "Additional participant sense; the existing consonant-noun plural sense remains valid. Interpret the established word in context.",
+          "rootWord": false,
+          "sourceEntries": [
+            "DM-RM-V2-0029"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

@@ -1,0 +1,149 @@
+{
+  "flag": "F023",
+  "title": "Standing is translated as carrying or moving",
+  "status": "Applied locally",
+  "summary": "Replaced the standing verb with carrying/movement verbs in the three examples.",
+  "followups": [],
+  "user_response": {
+    "id": "F023",
+    "status": "edited",
+    "text": "Examples need movement/carrying verbs not Moraen.",
+    "notes": "",
+    "updatedAt": "2026-09-22T13:38:38.445Z",
+    "title": "Standing is translated as carrying or moving",
+    "originalSuggestion": "Decide whether the examples need movement/carrying verbs or Moraen needs an approved additional sense."
+  },
+  "example_changes": [
+    {
+      "flag": "F023",
+      "entry_id": "PE-EGE1-0017",
+      "before": {
+        "entry_id": "PE-EGE1-0017",
+        "source_volume": "Environment, Geography, and Ecology 1",
+        "source_section": "Common Celan > Environmental scenes",
+        "page_number": "",
+        "celan_text": "moraen mahrwel drenjor var mahr.",
+        "translation": "The current carries the wave out to sea.",
+        "example_type": "Expansion example",
+        "analysis": "Connected scene tests two approved environmental headwords in ordinary or technical use.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support.",
+        "related_entry_ids": "LX-EGE1-0017; LX-EGE1-0018",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-EGE1-0017",
+        "source_volume": "Environment, Geography, and Ecology 1",
+        "source_section": "Common Celan > Environmental scenes",
+        "page_number": "",
+        "celan_text": "vekaen mahrwel drenjor var mahr.",
+        "translation": "The current carries the wave out to sea.",
+        "example_type": "Expansion example",
+        "analysis": "Connected scene tests two approved environmental headwords in ordinary or technical use.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F023: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-EGE1-0017; LX-EGE1-0018",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    },
+    {
+      "flag": "F023",
+      "entry_id": "PE-EGE1-0023",
+      "before": {
+        "entry_id": "PE-EGE1-0023",
+        "source_volume": "Environment, Geography, and Ecology 1",
+        "source_section": "Common Celan > Environmental scenes",
+        "page_number": "",
+        "celan_text": "moraen eshjor eshdren thal mahr.",
+        "translation": "The gale carries humid air from the sea.",
+        "example_type": "Expansion example",
+        "analysis": "Connected scene tests two approved environmental headwords in ordinary or technical use.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support.",
+        "related_entry_ids": "LX-EGE1-0023; LX-EGE1-0024",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-EGE1-0023",
+        "source_volume": "Environment, Geography, and Ecology 1",
+        "source_section": "Common Celan > Environmental scenes",
+        "page_number": "",
+        "celan_text": "vekaen eshjor eshdren thal mahr.",
+        "translation": "The gale carries humid air from the sea.",
+        "example_type": "Expansion example",
+        "analysis": "Connected scene tests two approved environmental headwords in ordinary or technical use.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F023: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-EGE1-0023; LX-EGE1-0024",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    },
+    {
+      "flag": "F023",
+      "entry_id": "PE-EGE1-0062",
+      "before": {
+        "entry_id": "PE-EGE1-0062",
+        "source_volume": "Environment, Geography, and Ecology 1",
+        "source_section": "Common Celan > Environmental scenes",
+        "page_number": "",
+        "celan_text": "moraen welgorm shan drenfel; jor pelnor an terramahr.",
+        "translation": "Pollution moves through the stream; erosion worsens on the coast.",
+        "example_type": "Expansion example",
+        "analysis": "Connected scene tests two approved environmental headwords in ordinary or technical use.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support.",
+        "related_entry_ids": "LX-EGE1-0062; LX-EGE1-0063",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-EGE1-0062",
+        "source_volume": "Environment, Geography, and Ecology 1",
+        "source_section": "Common Celan > Environmental scenes",
+        "page_number": "",
+        "celan_text": "var welgorm shan drenfel; jor pelnor an terramahr.",
+        "translation": "Pollution moves through the stream; erosion worsens on the coast.",
+        "example_type": "Expansion example",
+        "analysis": "Connected scene tests two approved environmental headwords in ordinary or technical use.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F023: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-EGE1-0062; LX-EGE1-0063",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    }
+  ],
+  "current_displayed_senses": [
+    {
+      "headword": "Moraen",
+      "senses": [
+        {
+          "type": "Verb",
+          "rootWord": false,
+          "meaning": "To Stand, To be grounded",
+          "usage": "Mor (earth) + -aen",
+          "sourceEntries": [
+            "LX-V4-0055"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

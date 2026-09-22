@@ -1,0 +1,117 @@
+{
+  "flag": "F048",
+  "title": "Legacy examples give Nor, Shal, and Ser unexplained actions",
+  "status": "Applied locally",
+  "summary": "Applied the user’s 50 exact example replacements; retained PE-UHEI1-0035 unchanged.",
+  "followups": [
+    "Shalilaen and Welaen occur in the approved replacements but have no standalone dictionary entries. No new headwords were added."
+  ],
+  "user_response": {
+    "id": "F048",
+    "status": "approved",
+    "text": "Review the complete attached set as one legacy example pattern; label poetic usage or document the missing rule rather than rewriting it by guesswork.",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:58:09.491Z",
+    "title": "Legacy examples give Nor, Shal, and Ser unexplained actions",
+    "originalSuggestion": "Review the complete attached set as one legacy example pattern; label poetic usage or document the missing rule rather than rewriting it by guesswork."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Nor",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Time / Flow of Time",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0020",
+            "LX-V2-0020",
+            "LX-V4-0100",
+            "XR-nor"
+          ]
+        },
+        {
+          "type": "Preposition",
+          "meaning": "At / In (time)",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0020",
+            "LX-V2-0020",
+            "LX-V4-0100",
+            "XR-nor"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Shal",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Light / New Beginnings / Fate",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0003",
+            "LX-V2-0069",
+            "LX-V4-0101",
+            "XR-shal"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "Hope",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0003",
+            "LX-V2-0069",
+            "LX-V4-0101",
+            "XR-shal"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Ser",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Friend / Ally",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0016",
+            "LX-V2-0036",
+            "LX-V2-0065",
+            "LX-V4-0076",
+            "LX-V4-0112"
+          ]
+        },
+        {
+          "type": "Preposition",
+          "meaning": "With",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0016",
+            "LX-V2-0036",
+            "LX-V2-0065",
+            "LX-V4-0076",
+            "LX-V4-0112"
+          ]
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "And",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0016",
+            "LX-V2-0036",
+            "LX-V2-0065",
+            "LX-V4-0076",
+            "LX-V4-0112"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

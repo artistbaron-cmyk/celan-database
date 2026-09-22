@@ -1,0 +1,43 @@
+{
+  "flag": "F027",
+  "title": "An energy bar is treated as a mechanical energy carrier",
+  "status": "Applied locally",
+  "summary": "Zhelvek retains Energy Bar and also means Energy carrier.",
+  "followups": [],
+  "user_response": {
+    "id": "F027",
+    "status": "edited",
+    "text": "considering changing the \"zhelvek' to becoming energy carrier as standard definition. and changing the (energy bar - food) to either Velvek, or Velzhel needs support here. ",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:01:56.138Z",
+    "title": "An energy bar is treated as a mechanical energy carrier",
+    "originalSuggestion": "Choose the intended object in those examples, or explicitly distinguish an approved second sense."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Zhelvek",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Energy Bar",
+          "usage": "Zhel = spark/energy + vek = carrier",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0167"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "Energy carrier",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0167"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

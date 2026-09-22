@@ -2,7 +2,15 @@
 
 This policy defines how Ohnosha 2.0 treats source inconsistencies, AI artifacts, and human-approved corrections moving forward.
 
-The source PDFs and supplemental files remain preserved as source witnesses. The knowledgebase is the current curated canon edition.
+The source PDFs and supplemental files remain preserved as source witnesses. The Dictionary App is the official source of truth for Celan; the knowledgebase and other supporting materials must be reconciled to it.
+
+## Dictionary App Authority — 2026-09-21
+
+User-established policy: the Dictionary App is the official, correct version of Celan. Its established meanings, word types, pronunciations, and usage are the canonical baseline. Existing pronunciations are treated as verified, including those produced by the app's pronunciation algorithm; no estimate labels are displayed.
+
+Authority does not prevent correction. Suspected internal inconsistencies, including nouns labeled as verbs, should be flagged with the exact app wording, evidence, a proposed correction, and any uncertainty. Present these for user review before changing established linguistic content. Older source rules or unresolved source flags do not automatically override the app. Preserve legitimate polysemy and distinguish a noun sense from a related verb sense.
+
+Technical consistency fixes may align search, exports, and supporting files with established app content without redefining that content. This authority policy supersedes earlier wording below wherever the knowledgebase or an older source would otherwise be treated as superior to the Dictionary App.
 
 ## Core Principle
 
@@ -738,6 +746,16 @@ The approved optional Question Frame is `ra + what is known + missing-answer par
 
 All six particles are universal overall, so national origin and national usage remain blank. The approved entries are maintained in `data/lexicon_expansions.csv` under IDs `LX-SIP1-0001` through `LX-SIP1-0006`, with linked examples under `PE-SIP1-0001` through `PE-SIP1-0012`. The app-facing grammar rules are maintained under `GR-SIP1-0001` and `GR-SIP1-0002`.
 
+## ED-0036: F048 Legacy Example Corrections
+
+Status: Approved and applied locally.
+
+Approval date: 2026-09-22. The user supplied “Complete Corrected Database Mappings” in response to review flag F048.
+
+Apply the user's exact 50 sentence replacements: 29 resting examples using `Nethaen`, 14 flowing examples using `Shalilaen`, and seven sharing examples using `Welaen`, with the accompanying preposition, word-order, and translation corrections. Preserve `PE-UHEI1-0035` (`ver rinaen ravohm nor neth.`) exactly as supplied; its temporal use of `nor` is accepted and the original flag was overinclusive for that sentence.
+
+The complete approved mappings are preserved in `outputs/dictionary_review/F048_user_mappings.txt`. The before/after records, entry IDs, and literal glosses are in `outputs/dictionary_review/F048_applied.json`. Original source witnesses remain unchanged. Approval is for these exact examples, not a new unrestricted passive or derivation rule. `Shalilaen` and `Welaen` have no standalone dictionary entries at application time; their lookup coverage remains a separate follow-up, without invented headwords or pronunciations.
+
 ## NotebookLM Standardization Text
 
 Use the following text as a NotebookLM source or instruction note when analyzing Celan/Ohnosha materials:
@@ -798,3 +816,25 @@ Each decision should record:
 ## Operating Rule
 
 Preserve first. Correct only after approval. Cross-link where useful. Flag unresolved uncertainty. Treat approved editorial decisions as true moving forward.
+
+## ED-0037: Dictionary Accuracy Review Decisions
+
+Status: Approved; integrated locally from all 99 review responses and subsequent clarifications.
+
+The exact user export is preserved in `outputs/dictionary_review/user_responses_2026_09_22.json`; subsequent clarifications are recorded in `user_clarifications_round_2.json`. The later explicit choices supersede tentative alternatives in the export. F048 retains ED-0036's exact mappings.
+
+The approved set includes sense-specific word labels, retained polysemy, corrected sentence pairs, restored lookup entries, and app search/family/display repairs. Zhelvek means both an energy carrier and a food energy bar. Shalor is used for the sanctuary place example. Lianeth retains separate Modal and Verb ability labels and gains the Adjective reliability sense. Noral means night/nighttime, not generic duration. Varan is a specialized locative-stative form; -al remains the universal continuous suffix. Both reviewed multi-verb orders are allowed.
+
+Preserve all earlier meanings unless the user explicitly corrected them. Thaar is a regional variant of Thar; serilín is a variant of Serilin; tharvinwek resolves to Tharvin-Wek. These do not create duplicate headwords. The approved new dictionary entries restore already-used example vocabulary. Proposed derivations that are not established in the current app remain pending; they do not create new productive roots or suffixes. Existing pronunciations remain verified.
+
+The integration retains available reviewed attestations instead of inventing extra example sentences to meet a count. Seventeen restored entries currently have one reviewed example each; the ordinary expansion validator's two-example requirement remains an outstanding coverage check, not evidence that the approved meaning is invalid.
+
+## ED-0038: Possessive Spacing and Personal Suffixes
+
+Status: Approved. The final user clarification explicitly accepts `La-ka kelvor`.
+
+Standalone ka is exclusively without or no. Possessive -ka must be hyphenated to the possessor. Body parts, inner states, personal clothes, and primary personal gear use post-nominal -ian (my), -ya (your), or -eshen (his/her/their). Collective, titled, compound, and other third-person possessors use possessor-ka. The user explicitly permits La-ka kelvor for their mouth, including this third-person body-part construction. -ian never means their. Relational -esh indicates a bond; it does not by itself specify a third-person owner.
+
+Approved examples: `rinaen aiv an doran-ian.`; `rinaen ndemwek-ian nor shara.`; `drenselaen I noka-ian.`; `drenaen La dren kora rinaen La-ka kelvor kadreneth.` Genuine negative uses such as `Var I ka shal.` remain unchanged.
+
+The app grammar cards and working grammar layer follow this decision. Earlier source rules remain preserved as witnesses and are superseded where they conflict.

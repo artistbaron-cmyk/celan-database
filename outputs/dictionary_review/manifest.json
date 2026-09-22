@@ -1,0 +1,15 @@
+{
+  "capturedAt": "2026-09-21T16:32:39.411Z",
+  "files": {
+    "dictionary/script.js": "0ff7e2f01cc25199b306f103a3b3a651dcda5b631af22b5ca0ada0b9a321c45a",
+    "dictionary/embedded_data.js": "1964651dfbc5985b37bbcef6fe070b1e32f33b51e0311b1eb2aa9597a8d7cb8e",
+    "data/lexicon.csv": "3d291e800ee61785474eb0ad9107c6fda6e887eef054ca30a9a8ef88f456b34a",
+    "data/lexicon_expansions.csv": "d9753220680e9a63c2946fc0fad98923f3c84bda7b847e772b2bd1f19025c5ca",
+    "data/roots_and_morphology.csv": "2d2f292904f35f44e84f2409cc1499c51b79a596dad3c14829df8d5688b16195",
+    "data/expanded_root_database.csv": "e26ca304071b73a0b8841937c88ba8326deba901e71f32f25b339ea260e6012d",
+    "data/ohnosha_creatures.csv": "35e86033d1b5a36c8af95cc44ab869c00bd2f64819feeeae63fae22120a27d6d",
+    "data/phrases_and_examples.csv": "c991577033a6ea885accfaed0056355f56dfb261169ce2d7463768494cdc3201",
+    "data/grammar_rules.csv": "428298893e42ca3f6c74da9a840a458c98e860b13c8decd0e2192cc425926f2a",
+    "data/expressions.csv": "f3887690b4a3b3b3ac2574bb81c05e7da3133b95fb2354ec1b9a7e4d22269dad"
+  }
+}

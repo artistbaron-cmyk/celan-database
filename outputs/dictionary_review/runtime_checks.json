@@ -1,0 +1,294 @@
+{
+  "englishPronouns": [
+    {
+      "id": "i",
+      "meaning": [
+        {
+          "type": "Pronoun",
+          "rootWord": false,
+          "meaning": "1st Person Singular",
+          "usage": "Remains simple and universal.",
+          "sourceEntries": [
+            "LX-V1-0001"
+          ]
+        }
+      ],
+      "queries": [
+        {
+          "q": "I",
+          "matches": 0
+        },
+        {
+          "q": "me",
+          "matches": 0
+        }
+      ]
+    },
+    {
+      "id": "ya",
+      "meaning": [
+        {
+          "type": "Pronoun",
+          "rootWord": false,
+          "meaning": "2nd Person Singular",
+          "usage": "A straightforward pronoun for “you.”",
+          "sourceEntries": [
+            "LX-V1-0003"
+          ]
+        }
+      ],
+      "queries": [
+        {
+          "q": "you",
+          "matches": 0
+        }
+      ]
+    },
+    {
+      "id": "la",
+      "meaning": [
+        {
+          "type": "Pronoun",
+          "rootWord": false,
+          "meaning": "3rd Person Singular",
+          "usage": "Neutral pronoun meaning “he/she/they.”",
+          "sourceEntries": [
+            "LX-V1-0005"
+          ]
+        }
+      ],
+      "queries": [
+        {
+          "q": "he",
+          "matches": 0
+        },
+        {
+          "q": "she",
+          "matches": 0
+        },
+        {
+          "q": "it",
+          "matches": 0
+        },
+        {
+          "q": "they",
+          "matches": 0
+        }
+      ]
+    },
+    {
+      "id": "yalin",
+      "meaning": [
+        {
+          "type": "Pronoun",
+          "rootWord": false,
+          "meaning": "2nd Person Plural",
+          "usage": "\"You all.\" Signifies a collective of individuals addressed.",
+          "sourceEntries": [
+            "LX-V1-0004"
+          ]
+        }
+      ],
+      "queries": [
+        {
+          "q": "you",
+          "matches": 0
+        }
+      ]
+    },
+    {
+      "id": "lalin",
+      "meaning": [
+        {
+          "type": "Pronoun",
+          "rootWord": false,
+          "meaning": "3rd Person Plural",
+          "usage": "Means “they” (a group not including speaker or addressee).",
+          "sourceEntries": [
+            "LX-V1-0006"
+          ]
+        }
+      ],
+      "queries": [
+        {
+          "q": "they",
+          "matches": 0
+        },
+        {
+          "q": "them",
+          "matches": 0
+        }
+      ]
+    }
+  ],
+  "apostrophes": [
+    {
+      "term": "Reth‘thal",
+      "straight": "Reth'thal",
+      "found": false
+    },
+    {
+      "term": "Lia‘ser",
+      "straight": "Lia'ser",
+      "found": false
+    }
+  ],
+  "rootLinks": [
+    {
+      "term": "Vethor",
+      "root": "Fah- / Vethor-"
+    },
+    {
+      "term": "Varash",
+      "root": "ASH",
+      "actual": "Varash"
+    },
+    {
+      "term": "Lorash",
+      "root": "ASH",
+      "actual": "Varash"
+    },
+    {
+      "term": "Nkuvath",
+      "root": "ATH",
+      "actual": "Athnor"
+    },
+    {
+      "term": "Rinvarash",
+      "root": "ASH",
+      "actual": "Varash"
+    },
+    {
+      "term": "Drenkorath",
+      "root": "ATH",
+      "actual": "Athnor"
+    },
+    {
+      "term": "Krezmorath",
+      "root": "ATH",
+      "actual": "Athnor"
+    },
+    {
+      "term": "Kalorinath",
+      "root": "ATH",
+      "actual": "Athnor"
+    },
+    {
+      "term": "Rathorkinash",
+      "root": "ASH",
+      "actual": "Varash"
+    },
+    {
+      "term": "Morl-karash",
+      "root": "ASH",
+      "actual": "Varash"
+    },
+    {
+      "term": "Kalrath",
+      "root": "ATH",
+      "actual": "Athnor"
+    },
+    {
+      "term": "Sivathaen",
+      "root": "ATH",
+      "actual": "Athnor"
+    },
+    {
+      "term": "Athnor",
+      "root": "ATH",
+      "actual": "Athnor"
+    },
+    {
+      "term": "Felath",
+      "root": "ATH",
+      "actual": "Athnor"
+    },
+    {
+      "term": "Zhirath",
+      "root": "ATH",
+      "actual": "Athnor"
+    },
+    {
+      "term": "Lemath",
+      "root": "ATH",
+      "actual": "Athnor"
+    },
+    {
+      "term": "Welrinath",
+      "root": "ATH",
+      "actual": "Athnor"
+    },
+    {
+      "term": "Ianath",
+      "root": "ATH",
+      "actual": "Athnor"
+    },
+    {
+      "term": "Dovath",
+      "root": "ATH",
+      "actual": "Athnor"
+    },
+    {
+      "term": "Keshenath",
+      "root": "ATH",
+      "actual": "Athnor"
+    },
+    {
+      "term": "Shenvarash",
+      "root": "ASH",
+      "actual": "Varash"
+    },
+    {
+      "term": "Deni",
+      "root": "DEN",
+      "actual": "Deni"
+    },
+    {
+      "term": "Denya",
+      "root": "DEN",
+      "actual": "Deni"
+    },
+    {
+      "term": "Denla",
+      "root": "DEN",
+      "actual": "Deni"
+    },
+    {
+      "term": "Havrath",
+      "root": "ATH",
+      "actual": "Athnor"
+    },
+    {
+      "term": "Aentash",
+      "root": "ASH",
+      "actual": "Varash"
+    },
+    {
+      "term": "Emiltash",
+      "root": "ASH",
+      "actual": "Varash"
+    },
+    {
+      "term": "-ath",
+      "root": "ATH",
+      "actual": "Athnor"
+    }
+  ],
+  "variantCollisions": [],
+  "wordTypes": [
+    "Adjective",
+    "Conjunction",
+    "Interjection",
+    "Measure",
+    "Modal",
+    "Noun",
+    "Particle",
+    "Possessive",
+    "Prefix",
+    "Preposition",
+    "Pronoun",
+    "Quantifier",
+    "Suffix",
+    "Verb"
+  ]
+}

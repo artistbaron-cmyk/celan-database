@@ -1,0 +1,76 @@
+{
+  "flag": "F096",
+  "title": "Word-family roots are sometimes found inside unrelated endings",
+  "status": "Applied locally",
+  "summary": "Word families now use recorded parts rather than accidental letter matches.",
+  "followups": [],
+  "user_response": {
+    "id": "F096",
+    "status": "approved",
+    "text": "Use recorded word parts rather than letter endings when assigning these family roots.",
+    "notes": "",
+    "updatedAt": "2026-09-22T17:45:55.985Z",
+    "title": "Word-family roots are sometimes found inside unrelated endings",
+    "originalSuggestion": "Use recorded word parts rather than letter endings when assigning these family roots."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Aentash",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Lung; a breathing or gas-exchange organ",
+          "usage": "",
+          "sourceEntries": [
+            "LX-BIAOBF1-0022"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Emiltash",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Stomach; the first food-receiving digestive organ",
+          "usage": "",
+          "sourceEntries": [
+            "LX-BIAOBF1-0025"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Kalrath",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Apex Predator (solitary)",
+          "usage": "Kal (strength) + Rath (foe)",
+          "sourceEntries": [
+            "LX-V4-0060"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Havrath",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Mockery or ridicule; laughter or comic treatment used to diminish expose or socially lower a target",
+          "usage": "",
+          "sourceEntries": [
+            "LX-HLPS1-0010"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

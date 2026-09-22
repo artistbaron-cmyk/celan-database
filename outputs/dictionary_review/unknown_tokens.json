@@ -1,0 +1,2199 @@
+{
+  "tera": [
+    {
+      "celan": "Nor-var I an Tera.",
+      "english": "“I will go at the home.”",
+      "ids": [
+        "PE-V1-0040"
+      ],
+      "headwords": [
+        "An",
+        "I",
+        "Nor",
+        "Var"
+      ],
+      "visible_on": [
+        "An"
+      ],
+      "types": [
+        "Preposition example"
+      ]
+    },
+    {
+      "celan": "Kal thar I tera.",
+      "english": "My heart is strong at home.",
+      "ids": [
+        "PE-V3-0148"
+      ],
+      "headwords": [
+        "I",
+        "Kal",
+        "Thar"
+      ],
+      "visible_on": [
+        "Thar"
+      ],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Ya tera",
+      "english": "“Your home” (singular)",
+      "ids": [
+        "PE-V1-0004"
+      ],
+      "headwords": [
+        "Ya"
+      ],
+      "visible_on": [
+        "Ya"
+      ],
+      "types": [
+        "Possession example"
+      ]
+    },
+    {
+      "celan": "Liorin aelin var tera emil.",
+      "english": "The teacher leads the youth home for food.",
+      "ids": [
+        "PE-V3-0113"
+      ],
+      "headwords": [
+        "Emil",
+        "Liorin",
+        "Var"
+      ],
+      "visible_on": [
+        "Liorin"
+      ],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Ser var tera dren vanesh.",
+      "english": "A friend goes home after trading water.",
+      "ids": [
+        "PE-V3-0129"
+      ],
+      "headwords": [
+        "Dren",
+        "Ser",
+        "Vanesh",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Aelin var tera emil ser lian.",
+      "english": "The youth go home to meals, guided by truth.",
+      "ids": [
+        "PE-V3-0134"
+      ],
+      "headwords": [
+        "Emil",
+        "Lian",
+        "Ser",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Serilin var emil tera, shal nor.",
+      "english": "The sister brings food home, guided by light in time.",
+      "ids": [
+        "PE-V3-0138"
+      ],
+      "headwords": [
+        "Emil",
+        "Nor",
+        "Shal",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Theren var tera Kaleth Rathor.",
+      "english": "The village stands at the ancient fortress-home.",
+      "ids": [
+        "PE-V3-0141"
+      ],
+      "headwords": [
+        "Kaleth",
+        "Rathor",
+        "Var"
+      ],
+      "visible_on": [
+        "Kaleth",
+        "Rathor"
+      ],
+      "types": [
+        "National sample phrase"
+      ]
+    }
+  ],
+  "em": [
+    {
+      "celan": "Em… Rethlian, Var I dren.",
+      "english": "Um… maybe I will go to the water.",
+      "ids": [
+        "PE-V3-0020"
+      ],
+      "headwords": [
+        "Dren",
+        "I",
+        "Rethlian",
+        "Var"
+      ],
+      "visible_on": [
+        "Rethlian"
+      ],
+      "types": [
+        "Discourse marker example"
+      ]
+    }
+  ],
+  "shena": [
+    {
+      "celan": "Rath Ya var dren, Nor-var I shena.",
+      "english": "If you go to the water, I will bring coinage.",
+      "ids": [
+        "PE-V3-0028"
+      ],
+      "headwords": [
+        "Dren",
+        "I",
+        "Nor",
+        "Rath",
+        "Var",
+        "Ya"
+      ],
+      "visible_on": [
+        "Rath"
+      ],
+      "types": [
+        "Complex sentence example"
+      ]
+    },
+    {
+      "celan": "Emil ka shena, var Eshvan nor.",
+      "english": "No food coins? I will go to the shop soon.",
+      "ids": [
+        "PE-V3-0128"
+      ],
+      "headwords": [
+        "Emil",
+        "Ka",
+        "Nor",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Va var Theren shena.",
+      "english": "Go to the village with your coin.",
+      "ids": [
+        "PE-V3-0150"
+      ],
+      "headwords": [
+        "Va",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Shena ser emil teremil.",
+      "english": "Bring coins for the meal at home.",
+      "ids": [
+        "PE-V3-0120"
+      ],
+      "headwords": [
+        "Emil",
+        "Ser",
+        "Teremil"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Rinaen shena shaleth.",
+      "english": "The coin is gold.",
+      "ids": [
+        "OVERRIDE",
+        "PE-V4-0050"
+      ],
+      "headwords": [
+        "-eth",
+        "Rinaen",
+        "Shaleth"
+      ],
+      "visible_on": [
+        "-eth",
+        "Shaleth"
+      ],
+      "types": [
+        "",
+        "Colors example"
+      ]
+    }
+  ],
+  "evan": [
+    {
+      "celan": "Nor-var I vanesh shenakar evan.",
+      "english": "I will go trade coinage in the market.",
+      "ids": [
+        "PE-V3-0139"
+      ],
+      "headwords": [
+        "I",
+        "Nor",
+        "Vanesh",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Ra var shenakar evan?",
+      "english": "Where is the coinage in the market?",
+      "ids": [
+        "PE-V3-0117"
+      ],
+      "headwords": [
+        "Ra",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Ra var evan emil dren?",
+      "english": "Where is the market for food near water?",
+      "ids": [
+        "PE-V3-0142"
+      ],
+      "headwords": [
+        "Dren",
+        "Emil",
+        "Ra",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Felorin vanesh dren an Evan.",
+      "english": "The berries trade at the market.",
+      "ids": [
+        "PE-V2-0073"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Felorin",
+        "Vanesh"
+      ],
+      "visible_on": [
+        "Felorin"
+      ],
+      "types": [
+        "Food sample sentence"
+      ]
+    },
+    {
+      "celan": "Velmek nor dren an Evan.",
+      "english": "The synthetic protein is traded at the market.",
+      "ids": [
+        "PE-V2-0078"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Nor",
+        "Velmek"
+      ],
+      "visible_on": [
+        "Velmek"
+      ],
+      "types": [
+        "Food-by-nation example"
+      ]
+    },
+    {
+      "celan": "Shalithor kal dren an Evan.",
+      "english": "The sunlight strengthens at the market.",
+      "ids": [
+        "PE-V2-0114"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Kal",
+        "Shalithor"
+      ],
+      "visible_on": [
+        "Shalithor"
+      ],
+      "types": [
+        "Weather example"
+      ]
+    }
+  ],
+  "shenakar": [
+    {
+      "celan": "Nor-var I vanesh shenakar evan.",
+      "english": "I will go trade coinage in the market.",
+      "ids": [
+        "PE-V3-0139"
+      ],
+      "headwords": [
+        "I",
+        "Nor",
+        "Vanesh",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Li-Seren-en, var nor Varthas shenakar?",
+      "english": "Honored guardian, do we proceed to the city's exchange now?",
+      "ids": [
+        "OVERRIDE",
+        "PE-V3-0005"
+      ],
+      "headwords": [
+        "-en",
+        "Li-Seren",
+        "Nor",
+        "Seren",
+        "Var",
+        "Varthas"
+      ],
+      "visible_on": [
+        "-en",
+        "Li-Seren",
+        "Seren"
+      ],
+      "types": [
+        "",
+        "Politeness example"
+      ]
+    },
+    {
+      "celan": "Ra var shenakar evan?",
+      "english": "Where is the coinage in the market?",
+      "ids": [
+        "PE-V3-0117"
+      ],
+      "headwords": [
+        "Ra",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Varadan nor-var ser shenakar.",
+      "english": "The merchant will come to you with coinage.",
+      "ids": [
+        "PE-V3-0131"
+      ],
+      "headwords": [
+        "Nor",
+        "Ser",
+        "Var",
+        "Varadan"
+      ],
+      "visible_on": [
+        "Varadan"
+      ],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Vanesh ser varadan shenakar.",
+      "english": "Trade with the merchant's coinage.",
+      "ids": [
+        "PE-V3-0143"
+      ],
+      "headwords": [
+        "Ser",
+        "Vanesh",
+        "Varadan"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Talaen an shenakar nor-ka.",
+      "english": "The coinage was taken.",
+      "ids": [
+        "PE-V4-0011"
+      ],
+      "headwords": [
+        "An",
+        "Ka",
+        "Nor",
+        "Talaen",
+        "nor-ka"
+      ],
+      "visible_on": [
+        "Talaen",
+        "nor-ka"
+      ],
+      "types": [
+        "Passive voice example"
+      ]
+    },
+    {
+      "celan": "Lialor, serin vanesh shenakar.",
+      "english": "Indeed, the friends trade coinage.",
+      "ids": [
+        "PE-V3-0014"
+      ],
+      "headwords": [
+        "Lialor",
+        "Serin",
+        "Vanesh"
+      ],
+      "visible_on": [
+        "Lialor"
+      ],
+      "types": [
+        "Discourse marker example"
+      ]
+    }
+  ],
+  "tharvinwek": [
+    {
+      "celan": "Rinaen I Ten-del tharvinwek kaveth.",
+      "english": "I am 20 years old.",
+      "ids": [
+        "PE-V4-0090"
+      ],
+      "headwords": [
+        "Del",
+        "I",
+        "Kaveth",
+        "Rinaen",
+        "Tharvin-Wek"
+      ],
+      "visible_on": [
+        "Kaveth",
+        "Tharvin-Wek"
+      ],
+      "types": [
+        "Measurement example"
+      ]
+    }
+  ],
+  "shalil": [
+    {
+      "celan": "Shalil I an dren. Rinaen thar-ian ser mahr kadreneth.",
+      "english": "I flow to the water. My heart feels like a dry sea.",
+      "ids": [
+        "PE-V4-0100"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "I",
+        "Ian",
+        "Kadreneth",
+        "Mahr",
+        "Rinaen",
+        "Ser",
+        "Thar"
+      ],
+      "visible_on": [
+        "Kadreneth",
+        "Mahr"
+      ],
+      "types": [
+        "Comparative dialogue line"
+      ]
+    },
+    {
+      "celan": "Ra shalil Ya, Ser?",
+      "english": "Where do you flow, Friend?",
+      "ids": [
+        "PE-V4-0099"
+      ],
+      "headwords": [
+        "Ra",
+        "Ser",
+        "Ya"
+      ],
+      "visible_on": [],
+      "types": [
+        "Comparative dialogue line"
+      ]
+    },
+    {
+      "celan": "Zhivokesh shalil thal morl.",
+      "english": "The bond renewal flows under the mountain.",
+      "ids": [
+        "PE-V3-0092"
+      ],
+      "headwords": [
+        "Morl",
+        "Thal",
+        "Zhivokesh"
+      ],
+      "visible_on": [
+        "Zhivokesh"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    },
+    {
+      "celan": "Prakorin shalil an dren.",
+      "english": "The tender bread flows lightly by the water.",
+      "ids": [
+        "PE-V2-0014"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Prak",
+        "Prakorin"
+      ],
+      "visible_on": [
+        "Prak",
+        "Prakorin"
+      ],
+      "types": [
+        "Expanded vocabulary example"
+      ]
+    },
+    {
+      "celan": "Tavojorin shalil nor dren an Belvok.",
+      "english": "The parent-in-law rests with the family by the water.",
+      "ids": [
+        "PE-V3-0038"
+      ],
+      "headwords": [
+        "An",
+        "Belvok",
+        "Dren",
+        "Nor",
+        "Tavojorin"
+      ],
+      "visible_on": [
+        "Belvok",
+        "Tavojorin"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    },
+    {
+      "celan": "Zhaelor shalil nor dren.",
+      "english": "Spring flows lightly by the water.",
+      "ids": [
+        "PE-V2-0109"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Zhaelor"
+      ],
+      "visible_on": [
+        "Zhaelor"
+      ],
+      "types": [
+        "Season example"
+      ]
+    },
+    {
+      "celan": "Drenalor shalil nor dren.",
+      "english": "The rain falls lightly over the water.",
+      "ids": [
+        "PE-V2-0117"
+      ],
+      "headwords": [
+        "Dren",
+        "Drenalor",
+        "Nor"
+      ],
+      "visible_on": [
+        "Drenalor"
+      ],
+      "types": [
+        "Weather example"
+      ]
+    },
+    {
+      "celan": "Tavan shalil nor Felka.",
+      "english": "The parent moves lightly with the child.",
+      "ids": [
+        "PE-V3-0030"
+      ],
+      "headwords": [
+        "Felka",
+        "Nor",
+        "Tavan"
+      ],
+      "visible_on": [
+        "Felka",
+        "Tavan"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    },
+    {
+      "celan": "Velar shalil nor dren.",
+      "english": "The elder moves lightly by the water.",
+      "ids": [
+        "PE-V3-0033"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Velar"
+      ],
+      "visible_on": [
+        "Velar"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    },
+    {
+      "celan": "Velmarin shalil nor dren.",
+      "english": "The honorary elder moves lightly by the water.",
+      "ids": [
+        "PE-V3-0050"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Velmarin"
+      ],
+      "visible_on": [
+        "Velmarin"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    },
+    {
+      "celan": "Morlatharim shalil nor dren.",
+      "english": "The stone heart flows by the water.",
+      "ids": [
+        "PE-V3-0095"
+      ],
+      "headwords": [
+        "Dren",
+        "Morlatharim",
+        "Nor"
+      ],
+      "visible_on": [
+        "Morlatharim"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "nys'aleth": [
+    {
+      "celan": "Seraen I an Nys'aleth.",
+      "english": "I believe in balance.",
+      "ids": [
+        "PE-S4A-0004"
+      ],
+      "headwords": [
+        "An",
+        "I",
+        "Ser-",
+        "Seraen"
+      ],
+      "visible_on": [
+        "Ser-",
+        "Seraen"
+      ],
+      "types": [
+        "VSO cultural example"
+      ]
+    }
+  ],
+  "karvok": [
+    {
+      "celan": "dor I vilor ruvaneth karvok.",
+      "english": "I put the rotten fruit apart.",
+      "ids": [
+        "PE-FAP2-0058"
+      ],
+      "headwords": [
+        "Dor",
+        "I",
+        "Ruvaneth",
+        "Vilor"
+      ],
+      "visible_on": [
+        "Ruvaneth",
+        "Vilor"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  "varral": [
+    {
+      "celan": "kes varral sadarjor an selmor; kes la velxar an felmorl.",
+      "english": "The traveler sees a sandstorm on the plain and frost on the hill.",
+      "ids": [
+        "PE-EGE1-0029"
+      ],
+      "headwords": [
+        "An",
+        "Felmorl",
+        "Kes",
+        "La",
+        "Sadarjor",
+        "Selmor",
+        "Velxar"
+      ],
+      "visible_on": [
+        "Felmorl",
+        "Sadarjor",
+        "Selmor",
+        "Velxar"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "ravohmaen varral ka khumlor.",
+      "english": "The traveler feels lonely without the family circle.",
+      "ids": [
+        "PE-UHEI1-0037"
+      ],
+      "headwords": [
+        "Ka",
+        "Khumlor",
+        "Ravohmaen"
+      ],
+      "visible_on": [
+        "Khumlor",
+        "Ravohmaen"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "rinaen velmav an varral.",
+      "english": "The traveler has hypothermia.",
+      "ids": [
+        "PE-HTS1-0051"
+      ],
+      "headwords": [
+        "An",
+        "Rinaen",
+        "Velmav"
+      ],
+      "visible_on": [
+        "Velmav"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "rinaen rekmav an varral.",
+      "english": "The traveler has severe heat illness.",
+      "ids": [
+        "PE-HTS1-0053"
+      ],
+      "headwords": [
+        "An",
+        "Rekmav",
+        "Rinaen"
+      ],
+      "visible_on": [
+        "Rekmav"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "rinaen kadromav an varral.",
+      "english": "The traveler has dehydration.",
+      "ids": [
+        "PE-HTS1-0057"
+      ],
+      "headwords": [
+        "An",
+        "Kadromav",
+        "Rinaen"
+      ],
+      "visible_on": [
+        "Kadromav"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "kes varral felmorl esh delmorl.",
+      "english": "The traveler notices a hill above the valley.",
+      "ids": [
+        "PE-EGE1-0001"
+      ],
+      "headwords": [
+        "Delmorl",
+        "Esh",
+        "Felmorl",
+        "Kes"
+      ],
+      "visible_on": [
+        "Delmorl",
+        "Felmorl"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "kavaen varral shan velarshor.",
+      "english": "The traveler survives through the whiteout.",
+      "ids": [
+        "PE-HTS1-0081"
+      ],
+      "headwords": [
+        "Kavaen",
+        "Shan",
+        "Velarshor"
+      ],
+      "visible_on": [
+        "Kavaen",
+        "Velarshor"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "vaarshanaen kesvar varral.",
+      "english": "The patrol rescues the traveler.",
+      "ids": [
+        "PE-HTS1-0069"
+      ],
+      "headwords": [
+        "Kesvar",
+        "Vaarshanaen"
+      ],
+      "visible_on": [
+        "Vaarshanaen"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  "vorkaral": [
+    {
+      "celan": "rinaen tharbel an vorkaral; tharbelaen rath la var vorkor.",
+      "english": "The guard is under compulsion; the enemy compels them toward the gate.",
+      "ids": [
+        "PE-GMMP1-0042"
+      ],
+      "headwords": [
+        "An",
+        "La",
+        "Rath",
+        "Rinaen",
+        "Tharbel",
+        "Tharbelaen",
+        "Var",
+        "Vorkor"
+      ],
+      "visible_on": [
+        "Tharbel",
+        "Tharbelaen"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "tharbelaen rath vorkaral; katharbelaen arural la.",
+      "english": "The enemy compels the guard; the practitioner releases them from the compulsion.",
+      "ids": [
+        "PE-GMMP1-0043"
+      ],
+      "headwords": [
+        "Arural",
+        "Katharbelaen",
+        "La",
+        "Rath",
+        "Tharbelaen"
+      ],
+      "visible_on": [
+        "Katharbelaen",
+        "Tharbelaen"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "katharbelaen arural vorkaral; kes la kesxar an vorkor.",
+      "english": "The practitioner releases the guard from compulsion and detects a perceptual veil at the gate.",
+      "ids": [
+        "PE-GMMP1-0044"
+      ],
+      "headwords": [
+        "An",
+        "Arural",
+        "Katharbelaen",
+        "Kes",
+        "Kesxar",
+        "La",
+        "Vorkor"
+      ],
+      "visible_on": [
+        "Katharbelaen",
+        "Kesxar"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "rinaen kesxar an vorkor; kesxaraen arural la thal vorkaral.",
+      "english": "A perceptual veil covers the gate; the practitioner veils it from the guard's notice.",
+      "ids": [
+        "PE-GMMP1-0045"
+      ],
+      "headwords": [
+        "An",
+        "Arural",
+        "Kesxar",
+        "Kesxaraen",
+        "La",
+        "Rinaen",
+        "Thal",
+        "Vorkor"
+      ],
+      "visible_on": [
+        "Kesxar",
+        "Kesxaraen"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "rinaen vorkor vethshaleth ser tharbel an vorkaral.",
+      "english": "The gate is illusory and the guard is under compulsion.",
+      "ids": [
+        "PE-GMMP1-0041"
+      ],
+      "headwords": [
+        "An",
+        "Rinaen",
+        "Ser",
+        "Tharbel",
+        "Vethshaleth",
+        "Vorkor"
+      ],
+      "visible_on": [
+        "Tharbel",
+        "Vethshaleth"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  "nkathal": [
+    {
+      "celan": "Zhaeaen Azron ser Nkathal.",
+      "english": "The woman empathizes with the sadness.",
+      "ids": [
+        "PE-V3-0068"
+      ],
+      "headwords": [
+        "Azron",
+        "Ser",
+        "Zhaeaen"
+      ],
+      "visible_on": [
+        "Azron",
+        "Zhaeaen"
+      ],
+      "types": [
+        "Emotion verb example"
+      ]
+    }
+  ],
+  "velkrel": [
+    {
+      "celan": "Azon nor velkrel",
+      "english": "A feminine man near the breeze.",
+      "ids": [
+        "PE-V1-0010"
+      ],
+      "headwords": [
+        "Azon",
+        "Nor"
+      ],
+      "visible_on": [
+        "Azon",
+        "Nor"
+      ],
+      "types": [
+        "Usage example"
+      ]
+    }
+  ],
+  "tharvok": [
+    {
+      "celan": "Nor-var Tharvok khumeth an Zhaelor.",
+      "english": "The Family will perform the ritual in the Spring (season).",
+      "ids": [
+        "PE-V2-0043"
+      ],
+      "headwords": [
+        "An",
+        "Khumeth",
+        "Nor",
+        "Var",
+        "Zhaelor"
+      ],
+      "visible_on": [
+        "Khumeth",
+        "Zhaelor"
+      ],
+      "types": [
+        "Jargon example"
+      ]
+    },
+    {
+      "celan": "Zharin ser dren thal Tharvok.",
+      "english": "The distant relative is by the water under the family.",
+      "ids": [
+        "PE-V3-0044"
+      ],
+      "headwords": [
+        "Dren",
+        "Ser",
+        "Thal",
+        "Zharin"
+      ],
+      "visible_on": [
+        "Zharin"
+      ],
+      "types": [
+        "Kinship example"
+      ]
+    },
+    {
+      "celan": "Kalorinath ser dren thal Tharvok.",
+      "english": "The fortress bonding ceremony is with the family under balance.",
+      "ids": [
+        "PE-V3-0104"
+      ],
+      "headwords": [
+        "Dren",
+        "Kalorinath",
+        "Ser",
+        "Thal"
+      ],
+      "visible_on": [
+        "Kalorinath"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    },
+    {
+      "celan": "Shalorveth kal dren thal Tharvok.",
+      "english": "The shadowlight ritual strengthens with the family under balance.",
+      "ids": [
+        "PE-V3-0100"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Shalorveth",
+        "Thal"
+      ],
+      "visible_on": [
+        "Shalorveth"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    },
+    {
+      "celan": "Eshvelaneth shan dren an Tharvok.",
+      "english": "The snowstorm guidance passes to the family.",
+      "ids": [
+        "PE-V3-0098"
+      ],
+      "headwords": [
+        "An",
+        "Dren",
+        "Eshvelaneth",
+        "Shan"
+      ],
+      "visible_on": [
+        "Eshvelaneth",
+        "Shan"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    },
+    {
+      "celan": "rinaen fahohm an tharvok.",
+      "english": "There is jealousy in the family.",
+      "ids": [
+        "PE-UHEI1-0022"
+      ],
+      "headwords": [
+        "An",
+        "Fahohm",
+        "Rinaen"
+      ],
+      "visible_on": [
+        "Fahohm"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "Terrashaneth lian nor Tharvok.",
+      "english": "The Earth blessing speaks to the family.",
+      "ids": [
+        "PE-V3-0089"
+      ],
+      "headwords": [
+        "Lian",
+        "Nor",
+        "Terrashaneth"
+      ],
+      "visible_on": [
+        "Terrashaneth"
+      ],
+      "types": [
+        "National ceremonial example"
+      ]
+    }
+  ],
+  "seril": [
+    {
+      "celan": "Var serilín dren Theren.",
+      "english": "Go, sister, to the village water.",
+      "ids": [
+        "PE-V3-0112"
+      ],
+      "headwords": [
+        "Dren",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    }
+  ],
+  "theren": [
+    {
+      "celan": "Var serilín dren Theren.",
+      "english": "Go, sister, to the village water.",
+      "ids": [
+        "PE-V3-0112"
+      ],
+      "headwords": [
+        "Dren",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Theren var tera Kaleth Rathor.",
+      "english": "The village stands at the ancient fortress-home.",
+      "ids": [
+        "PE-V3-0141"
+      ],
+      "headwords": [
+        "Kaleth",
+        "Rathor",
+        "Var"
+      ],
+      "visible_on": [
+        "Kaleth",
+        "Rathor"
+      ],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Va var Theren shena.",
+      "english": "Go to the village with your coin.",
+      "ids": [
+        "PE-V3-0150"
+      ],
+      "headwords": [
+        "Va",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    }
+  ],
+  "aelin": [
+    {
+      "celan": "Liorin aelin var tera emil.",
+      "english": "The teacher leads the youth home for food.",
+      "ids": [
+        "PE-V3-0113"
+      ],
+      "headwords": [
+        "Emil",
+        "Liorin",
+        "Var"
+      ],
+      "visible_on": [
+        "Liorin"
+      ],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Aelin liorin var emil eshvan.",
+      "english": "The youth follows the teacher to the shop for food.",
+      "ids": [
+        "PE-V3-0126"
+      ],
+      "headwords": [
+        "Emil",
+        "Liorin",
+        "Var"
+      ],
+      "visible_on": [
+        "Liorin"
+      ],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Aelin var tera emil ser lian.",
+      "english": "The youth go home to meals, guided by truth.",
+      "ids": [
+        "PE-V3-0134"
+      ],
+      "headwords": [
+        "Emil",
+        "Lian",
+        "Ser",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    }
+  ],
+  "varshel": [
+    {
+      "celan": "Serilin var varshel nor dren.",
+      "english": "Sister, walk the road to the water.",
+      "ids": [
+        "PE-V3-0125"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    }
+  ],
+  "serilin": [
+    {
+      "celan": "Serilin var varshel nor dren.",
+      "english": "Sister, walk the road to the water.",
+      "ids": [
+        "PE-V3-0125"
+      ],
+      "headwords": [
+        "Dren",
+        "Nor",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Serilin var emil tera, shal nor.",
+      "english": "The sister brings food home, guided by light in time.",
+      "ids": [
+        "PE-V3-0138"
+      ],
+      "headwords": [
+        "Emil",
+        "Nor",
+        "Shal",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Serilin var kareth emil.",
+      "english": "The sibling uses the tool for food.",
+      "ids": [
+        "PE-V3-0149"
+      ],
+      "headwords": [
+        "Emil",
+        "Kareth",
+        "Var"
+      ],
+      "visible_on": [
+        "Kareth"
+      ],
+      "types": [
+        "National sample phrase"
+      ]
+    }
+  ],
+  "eshvan": [
+    {
+      "celan": "Aelin liorin var emil eshvan.",
+      "english": "The youth follows the teacher to the shop for food.",
+      "ids": [
+        "PE-V3-0126"
+      ],
+      "headwords": [
+        "Emil",
+        "Liorin",
+        "Var"
+      ],
+      "visible_on": [
+        "Liorin"
+      ],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Emil ka shena, var Eshvan nor.",
+      "english": "No food coins? I will go to the shop soon.",
+      "ids": [
+        "PE-V3-0128"
+      ],
+      "headwords": [
+        "Emil",
+        "Ka",
+        "Nor",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    }
+  ],
+  "noraen": [
+    {
+      "celan": "Liorin noraen var dren kal.",
+      "english": "The elders guide us to water with strength.",
+      "ids": [
+        "PE-V3-0132"
+      ],
+      "headwords": [
+        "Dren",
+        "Kal",
+        "Liorin",
+        "Var"
+      ],
+      "visible_on": [
+        "Liorin"
+      ],
+      "types": [
+        "National sample phrase"
+      ]
+    }
+  ],
+  "im": [
+    {
+      "celan": "Dreshal var im.",
+      "english": "Use the crystal device efficiently.",
+      "ids": [
+        "PE-V3-0140"
+      ],
+      "headwords": [
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    },
+    {
+      "celan": "Va kar im dren, vanesh ka!",
+      "english": "Use the device with water, do not hesitate to trade!",
+      "ids": [
+        "PE-V3-0119"
+      ],
+      "headwords": [
+        "Dren",
+        "Ka",
+        "Kar",
+        "Va",
+        "Vanesh"
+      ],
+      "visible_on": [
+        "Kar"
+      ],
+      "types": [
+        "National sample phrase"
+      ]
+    }
+  ],
+  "thalesh": [
+    {
+      "celan": "Thalesh var dren shal.",
+      "english": "Perform the ritual at the water's light.",
+      "ids": [
+        "PE-V3-0144"
+      ],
+      "headwords": [
+        "Dren",
+        "Shal",
+        "Var"
+      ],
+      "visible_on": [],
+      "types": [
+        "National sample phrase"
+      ]
+    }
+  ],
+  "serathrin": [
+    {
+      "celan": "Nkuvath shal dren ser serathrin.",
+      "english": "The bond flows to the confidant.",
+      "ids": [
+        "PE-V2-0032"
+      ],
+      "headwords": [
+        "Dren",
+        "Nkuvath",
+        "Ser",
+        "Shal"
+      ],
+      "visible_on": [
+        "Nkuvath"
+      ],
+      "types": [
+        "Relationship example"
+      ]
+    }
+  ],
+  "zhivor": [
+    {
+      "celan": "Tlakhura shal dren ser Zhivor.",
+      "english": "A bond flows with the family.",
+      "ids": [
+        "PE-V2-0036"
+      ],
+      "headwords": [
+        "Dren",
+        "Ser",
+        "Shal",
+        "Tlakhura"
+      ],
+      "visible_on": [
+        "Tlakhura"
+      ],
+      "types": [
+        "Relationship example"
+      ]
+    }
+  ],
+  "vokathar": [
+    {
+      "celan": "Vok + Thal -> Vokathar",
+      "english": "A Harmonious Union",
+      "ids": [
+        "PE-S1-0003"
+      ],
+      "headwords": [
+        "Thal",
+        "Vok"
+      ],
+      "visible_on": [
+        "Vok"
+      ],
+      "types": [
+        "Euphony compound example"
+      ]
+    }
+  ],
+  "mechuma": [
+    {
+      "celan": "Ver ohmaen Mechuma lian Thal Terra.",
+      "english": "Mechuma does not honor the truth of the Balance of Terra.",
+      "ids": [
+        "PE-S3-0004"
+      ],
+      "headwords": [
+        "Lian",
+        "Ohmaen",
+        "Terra",
+        "Thal",
+        "Ver",
+        "terra- / Terra-"
+      ],
+      "visible_on": [
+        "Ohmaen",
+        "terra- / Terra-"
+      ],
+      "types": [
+        "Capitalization example"
+      ]
+    },
+    {
+      "celan": "rinaen zhelbel an Mechuma.",
+      "english": "The energy-distribution system is in Mechuma.",
+      "ids": [
+        "PE-NE1-0021"
+      ],
+      "headwords": [
+        "An",
+        "Rinaen",
+        "Zhelbel"
+      ],
+      "visible_on": [
+        "Zhelbel"
+      ],
+      "types": [
+        "National lexicon example"
+      ]
+    },
+    {
+      "celan": "rinaen kalewek an Mechuma.",
+      "english": "The repeated training cycle is used in Mechuma.",
+      "ids": [
+        "PE-NE1-0058"
+      ],
+      "headwords": [
+        "An",
+        "Kalwek",
+        "Rinaen"
+      ],
+      "visible_on": [
+        "Kalwek"
+      ],
+      "types": [
+        "National lexicon example"
+      ]
+    }
+  ],
+  "karjor": [
+    {
+      "celan": "rinaen kakesrin thal karjor.",
+      "english": "Unconsciousness follows the impact.",
+      "ids": [
+        "PE-HTS1-0061"
+      ],
+      "headwords": [
+        "Kakesrin",
+        "Rinaen",
+        "Thal"
+      ],
+      "visible_on": [
+        "Kakesrin"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  "vrak": [
+    {
+      "celan": "Vrak dren ka.",
+      "english": "The water is gone.",
+      "ids": [
+        "PE-V3-0084"
+      ],
+      "headwords": [
+        "Dren",
+        "Ka"
+      ],
+      "visible_on": [],
+      "types": [
+        "Trerran phrase"
+      ]
+    }
+  ],
+  "khumrel": [
+    {
+      "celan": "Khumrel an thar",
+      "english": "to listen to one's heart",
+      "ids": [
+        "PE-S3-0019"
+      ],
+      "headwords": [
+        "An",
+        "Khum-",
+        "Thar"
+      ],
+      "visible_on": [
+        "Khum-"
+      ],
+      "types": [
+        "Conceptual metaphor example"
+      ]
+    }
+  ],
+  "jasara": [
+    {
+      "celan": "rinaen drobel an Jasara.",
+      "english": "The water-distribution system is in Jasara.",
+      "ids": [
+        "PE-NE1-0007"
+      ],
+      "headwords": [
+        "An",
+        "Drobel",
+        "Rinaen"
+      ],
+      "visible_on": [
+        "Drobel"
+      ],
+      "types": [
+        "National lexicon example"
+      ]
+    },
+    {
+      "celan": "arth Jasara vethdren.",
+      "english": "Jasara protects the subterranean water.",
+      "ids": [
+        "PE-NE1-0080"
+      ],
+      "headwords": [
+        "Arth",
+        "Vethdren"
+      ],
+      "visible_on": [
+        "Vethdren"
+      ],
+      "types": [
+        "National lexicon example"
+      ]
+    }
+  ],
+  "pelagae": [
+    {
+      "celan": "rinaen lormahr an Pelagae.",
+      "english": "Ocean navigation is practiced in Pelagae.",
+      "ids": [
+        "PE-NE1-0020"
+      ],
+      "headwords": [
+        "An",
+        "Lormahr",
+        "Rinaen"
+      ],
+      "visible_on": [
+        "Lormahr"
+      ],
+      "types": [
+        "National lexicon example"
+      ]
+    }
+  ],
+  "marakor": [
+    {
+      "celan": "rinaen thalbel an Marakor.",
+      "english": "The legal code is established in Marakor.",
+      "ids": [
+        "PE-NE1-0062"
+      ],
+      "headwords": [
+        "An",
+        "Rinaen",
+        "Thalbel"
+      ],
+      "visible_on": [
+        "Thalbel"
+      ],
+      "types": [
+        "National lexicon example"
+      ]
+    }
+  ],
+  "vokanor": [
+    {
+      "celan": "Vok + Nor -> Voknor / Vokanor / Vokonor",
+      "english": "The unity of time / a moment of perfect synchronicity",
+      "ids": [
+        "PE-S1-0004"
+      ],
+      "headwords": [
+        "Nor",
+        "Vok"
+      ],
+      "visible_on": [
+        "Vok"
+      ],
+      "types": [
+        "Advanced euphony example"
+      ]
+    }
+  ],
+  "voknor": [
+    {
+      "celan": "Vok + Nor -> Voknor / Vokanor / Vokonor",
+      "english": "The unity of time / a moment of perfect synchronicity",
+      "ids": [
+        "PE-S1-0004"
+      ],
+      "headwords": [
+        "Nor",
+        "Vok"
+      ],
+      "visible_on": [
+        "Vok"
+      ],
+      "types": [
+        "Advanced euphony example"
+      ]
+    }
+  ],
+  "vokonor": [
+    {
+      "celan": "Vok + Nor -> Voknor / Vokanor / Vokonor",
+      "english": "The unity of time / a moment of perfect synchronicity",
+      "ids": [
+        "PE-S1-0004"
+      ],
+      "headwords": [
+        "Nor",
+        "Vok"
+      ],
+      "visible_on": [
+        "Vok"
+      ],
+      "types": [
+        "Advanced euphony example"
+      ]
+    }
+  ],
+  "morlathar": [
+    {
+      "celan": "Morl + Thar -> Morlathar",
+      "english": "Stoicism",
+      "ids": [
+        "PE-S1-0001"
+      ],
+      "headwords": [
+        "Morl",
+        "Thar"
+      ],
+      "visible_on": [],
+      "types": [
+        "Euphony compound example"
+      ]
+    }
+  ],
+  "thaar": [
+    {
+      "celan": "Dral shal thaar.",
+      "english": "The stars guide the heart.",
+      "ids": [
+        "PE-V3-0081"
+      ],
+      "headwords": [
+        "Dral",
+        "Shal"
+      ],
+      "visible_on": [
+        "Dral"
+      ],
+      "types": [
+        "Arvan phrase"
+      ]
+    }
+  ],
+  "rathathar": [
+    {
+      "celan": "Rath + Thar -> Rathathar",
+      "english": "A Hateful Heart",
+      "ids": [
+        "PE-S1-0002"
+      ],
+      "headwords": [
+        "Rath",
+        "Thar"
+      ],
+      "visible_on": [],
+      "types": [
+        "Euphony compound example"
+      ]
+    }
+  ],
+  "thalor": [
+    {
+      "celan": "Rinaen kaleth Hek-unar shar thalor.",
+      "english": "The fortress is 100 strides outside.",
+      "ids": [
+        "PE-V4-0085"
+      ],
+      "headwords": [
+        "Kaleth",
+        "Rinaen",
+        "Shar",
+        "Unar"
+      ],
+      "visible_on": [
+        "Shar"
+      ],
+      "types": [
+        "Measurement example"
+      ]
+    }
+  ],
+  "kaikoa": [
+    {
+      "celan": "Seraen Kaikoa Lianor.",
+      "english": "Kaikoa trusts the Sir.",
+      "ids": [
+        "PE-V3-0058"
+      ],
+      "headwords": [
+        "Lianor",
+        "Seraen"
+      ],
+      "visible_on": [
+        "Lianor",
+        "Seraen"
+      ],
+      "types": [
+        "Emotion verb example"
+      ]
+    }
+  ],
+  "well": [
+    {
+      "celan": "Elan: Well...",
+      "english": "conversational starter/filler, declarative",
+      "ids": [
+        "INLINE-LX-V3-0030-1"
+      ],
+      "headwords": [
+        "Elan"
+      ],
+      "visible_on": [
+        "Elan"
+      ],
+      "types": [
+        ""
+      ]
+    }
+  ],
+  "if": [
+    {
+      "celan": "Thaal'ra: I wonder if...",
+      "english": "speculation",
+      "ids": [
+        "INLINE-LX-V3-0037-1"
+      ],
+      "headwords": [
+        "Thaal'ra"
+      ],
+      "visible_on": [
+        "Thaal'ra"
+      ],
+      "types": [
+        ""
+      ]
+    }
+  ],
+  "wonder": [
+    {
+      "celan": "Thaal'ra: I wonder if...",
+      "english": "speculation",
+      "ids": [
+        "INLINE-LX-V3-0037-1"
+      ],
+      "headwords": [
+        "Thaal'ra"
+      ],
+      "visible_on": [
+        "Thaal'ra"
+      ],
+      "types": [
+        ""
+      ]
+    }
+  ],
+  "that": [
+    {
+      "celan": "Kora: Because, Since, For the reason that...",
+      "english": "causation",
+      "ids": [
+        "INLINE-LX-V3-0145-1"
+      ],
+      "headwords": [
+        "Kora"
+      ],
+      "visible_on": [
+        "Kora"
+      ],
+      "types": [
+        ""
+      ]
+    }
+  ],
+  "for": [
+    {
+      "celan": "Kora: Because, Since, For the reason that...",
+      "english": "causation",
+      "ids": [
+        "INLINE-LX-V3-0145-1"
+      ],
+      "headwords": [
+        "Kora"
+      ],
+      "visible_on": [
+        "Kora"
+      ],
+      "types": [
+        ""
+      ]
+    }
+  ],
+  "because": [
+    {
+      "celan": "Kora: Because, Since, For the reason that...",
+      "english": "causation",
+      "ids": [
+        "INLINE-LX-V3-0145-1"
+      ],
+      "headwords": [
+        "Kora"
+      ],
+      "visible_on": [
+        "Kora"
+      ],
+      "types": [
+        ""
+      ]
+    }
+  ],
+  "the": [
+    {
+      "celan": "Kora: Because, Since, For the reason that...",
+      "english": "causation",
+      "ids": [
+        "INLINE-LX-V3-0145-1"
+      ],
+      "headwords": [
+        "Kora"
+      ],
+      "visible_on": [
+        "Kora"
+      ],
+      "types": [
+        ""
+      ]
+    }
+  ],
+  "reason": [
+    {
+      "celan": "Kora: Because, Since, For the reason that...",
+      "english": "causation",
+      "ids": [
+        "INLINE-LX-V3-0145-1"
+      ],
+      "headwords": [
+        "Kora"
+      ],
+      "visible_on": [
+        "Kora"
+      ],
+      "types": [
+        ""
+      ]
+    }
+  ],
+  "since": [
+    {
+      "celan": "Kora: Because, Since, For the reason that...",
+      "english": "causation",
+      "ids": [
+        "INLINE-LX-V3-0145-1"
+      ],
+      "headwords": [
+        "Kora"
+      ],
+      "visible_on": [
+        "Kora"
+      ],
+      "types": [
+        ""
+      ]
+    }
+  ],
+  "daraen": [
+    {
+      "celan": "daraen savin keshenath.",
+      "english": "The patient waits for the diagnosis.",
+      "ids": [
+        "PE-HTS1-0012"
+      ],
+      "headwords": [
+        "Keshenath",
+        "Savin"
+      ],
+      "visible_on": [
+        "Keshenath",
+        "Savin"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    },
+    {
+      "celan": "daraen savin talzhael.",
+      "english": "The patient waits for treatment.",
+      "ids": [
+        "PE-HTS1-0018"
+      ],
+      "headwords": [
+        "Savin",
+        "Talzhael"
+      ],
+      "visible_on": [
+        "Savin",
+        "Talzhael"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  "kavel": [
+    {
+      "celan": "jor eshnor; kavel rinaen eshweknor.",
+      "english": "Weather changes, while climate endures.",
+      "ids": [
+        "PE-EGE1-0019"
+      ],
+      "headwords": [
+        "Eshnor",
+        "Eshweknor",
+        "Jor",
+        "Rinaen"
+      ],
+      "visible_on": [
+        "Eshnor",
+        "Eshweknor",
+        "Jor"
+      ],
+      "types": [
+        "Expansion example"
+      ]
+    }
+  ],
+  "terrarav": [
+    {
+      "celan": "Terrarav",
+      "english": "the pull of one's homeland",
+      "ids": [
+        "PE-S3-0018"
+      ],
+      "headwords": [
+        "Rav-",
+        "terra- / Terra-"
+      ],
+      "visible_on": [
+        "Rav-",
+        "terra- / Terra-"
+      ],
+      "types": [
+        "Conceptual metaphor example"
+      ]
+    }
+  ],
+  "zhirrathor": [
+    {
+      "celan": "zhirrathor",
+      "english": "thread to the past",
+      "ids": [
+        "PE-S3-0021"
+      ],
+      "headwords": [
+        "Zhir-"
+      ],
+      "visible_on": [
+        "Zhir-"
+      ],
+      "types": [
+        "Conceptual metaphor example"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,56 @@
+{
+  "flag": "F052",
+  "title": "velkrel appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Velkrel: Breeze / Cool breeze / Light wind.",
+  "followups": [
+    "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
+    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+  ],
+  "user_response": {
+    "id": "F052",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. velkrel\nNoun\nBreeze, cool breeze, light wind\nVelk (cool air) + -rel (breeze/flow). Early Volume 1 term; compare with formal weather term Eshthael.",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:09:56.340Z",
+    "title": "velkrel appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "velkrel",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Breeze / Cool breeze / Light wind",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0002"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F052",
+    "entry": {
+      "entry_id": "LX-DR1-0002",
+      "celan_term": "Velkrel",
+      "pronunciation": "/vehl-krehl/",
+      "english_meaning": "Breeze / Cool breeze / Light wind",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F052. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V1-0010"
+    },
+    "example_count": 1
+  }
+}

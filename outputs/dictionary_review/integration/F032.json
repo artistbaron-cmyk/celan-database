@@ -1,0 +1,52 @@
+{
+  "flag": "F032",
+  "title": "Ability is translated as reliability",
+  "status": "Applied locally",
+  "summary": "Lianeth has separate Modal, Verb, and Adjective senses.",
+  "followups": [],
+  "user_response": {
+    "id": "F032",
+    "status": "edited",
+    "text": "Approve the \"Reliable / Sound / Dependable\" adjectival sense in the dictionary app.\nRather than changing the canon examples, update the entry for Lianeth to reflect its full polyfunctional entry:\nHeadword\nPart of Speech\nDisplay Meaning / Gloss\nLianeth\nModal / Verb\nAbility (Can / Able to). (Modifies verbs)\nAdjective\nReliable, sound, dependable, accurate, true to function. (Modifies nouns/objects)\nThis brings the app into full alignment with how -eth derivatives operate across Celan!\n",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:16:46.462Z",
+    "title": "Ability is translated as reliability",
+    "originalSuggestion": "Clarify or approve the reliability sense, or align the examples with the current meaning."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Lianeth",
+      "senses": [
+        {
+          "type": "Modal",
+          "meaning": "Ability (Can/Able to)",
+          "usage": "\"having true quality\"",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0001"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "Ability (Can/Able to)",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0001"
+          ]
+        },
+        {
+          "type": "Adjective",
+          "meaning": "Reliable / Sound / Dependable / Accurate / True to function",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0001"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

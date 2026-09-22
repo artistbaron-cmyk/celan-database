@@ -1,0 +1,123 @@
+term,id,status,reason,meaning,triage
+Var,LX-V1-0015,Needs Human Review,terminology overlap,"To, towards",Curated display override exists; reconcile source flag with editorial decisions
+Ser,LX-V1-0016,Needs Human Review,terminology overlap,With,Curated display override exists; reconcile source flag with editorial decisions
+Ka,LX-V1-0018,Needs Human Review,terminology overlap,Without,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Nor,LX-V1-0020,Needs Human Review,terminology overlap,At/in (time),Curated display override exists; reconcile source flag with editorial decisions
+Thar,LX-V2-0007,Needs Human Review,contextual meaning overlap,Heart (both literal and symbolic),Curated display override exists; reconcile source flag with editorial decisions
+Thal,LX-V2-0008,Needs Human Review,terminology overlap,Balance / Harmony,Curated display override exists; reconcile source flag with editorial decisions
+Nor,LX-V2-0020,Needs Human Review,terminology overlap,Time / Flow of Time,Curated display override exists; reconcile source flag with editorial decisions
+Rathor,LX-V2-0022,Needs Human Review,contextual meaning overlap,Past / History,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Thal,LX-V2-0023,Needs Human Review,terminology overlap,Balance / Harmony,Curated display override exists; reconcile source flag with editorial decisions
+Shalor,LX-V2-0024,Needs Human Review,contextual meaning overlap,Light / New Beginnings / Fate,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Lian,LX-V2-0026,Needs Human Review,contextual meaning overlap,Truth / Honesty,Curated display override exists; reconcile source flag with editorial decisions
+Aen,LX-V2-0028,Needs Human Review,contextual meaning overlap,Speak / Tell / Breath of Life,Curated display override exists; reconcile source flag with editorial decisions
+Kalor,LX-V2-0032,Needs Human Review,contextual meaning overlap,Strength (of the mind or spirit),Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Var,LX-V2-0034,Needs Human Review,terminology overlap,Go / Move (action and empowerment),Curated display override exists; reconcile source flag with editorial decisions
+Ser,LX-V2-0036,Needs Human Review,terminology overlap,Friend / Ally,Curated display override exists; reconcile source flag with editorial decisions
+Vaar,LX-V2-0037,Needs Human Review,contextual meaning overlap,Peace / Unity,Curated display override exists; reconcile source flag with editorial decisions
+Vaar,LX-V2-0041,Needs Human Review,contextual meaning overlap,Peace / Calm,Curated display override exists; reconcile source flag with editorial decisions
+Kalor,LX-V2-0042,Needs Human Review,contextual meaning overlap,Courage / Strength of Spirit,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Thar,LX-V2-0057,Needs Human Review,contextual meaning overlap,Heart,Curated display override exists; reconcile source flag with editorial decisions
+Shalor,LX-V2-0059,Needs Human Review,contextual meaning overlap,"Light (discovery, vision, hope)",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Aen,LX-V2-0062,Needs Human Review,contextual meaning overlap,Speak / Tell,Curated display override exists; reconcile source flag with editorial decisions
+Var,LX-V2-0063,Needs Human Review,terminology overlap,Go / Move,Curated display override exists; reconcile source flag with editorial decisions
+Lian,LX-V2-0064,Needs Human Review,contextual meaning overlap,Truth / Honesty,Curated display override exists; reconcile source flag with editorial decisions
+Ser,LX-V2-0065,Needs Human Review,terminology overlap,Friend / Ally,Curated display override exists; reconcile source flag with editorial decisions
+Thal,LX-V2-0072,Needs Human Review,terminology overlap,Balance / Harmony,Curated display override exists; reconcile source flag with editorial decisions
+Shalor,LX-V2-0084,Needs Human Review,contextual meaning overlap,Sanctuary (light-filled place),Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Rathor,LX-V2-0085,Needs Human Review,contextual meaning overlap,Old City / Ancient Place,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Krezor,LX-V2-0086,Needs Human Review,terminology overlap,Forge / Place of Fire,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Khumeth,LX-V2-0133,Needs Human Review,possible derivation uncertainty,Sacred Ritual / Ceremony / Circle Rite. Refers to a formal spiritual practice or ceremony.,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Vaneshem,LX-V2-0138,Needs Human Review,possible derivation uncertainty,Goods / Wares / Trade Items. The physical products being exchanged.,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Thalaneshen,LX-V2-0139,Needs Human Review,possible derivation uncertainty,Bargaining / Haggling / Balanced Trade Talk. The process of negotiating a fair price or exchange.,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Vellian,LX-V2-0141,Needs Human Review,possible derivation uncertainty,"Quality Goods / Honest Value / True Sustenance. Refers to goods considered high quality, fairly priced, or genuinely valuable.",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Krezor,LX-V2-0146,Needs Human Review,terminology overlap,forge,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Felorin,LX-V2-0174,Needs Human Review,contextual meaning overlap,Berry from Coral Reefs,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Ilinor,LX-V2-0213,Needs Human Review,possible derivation uncertainty,All / Entire / Whole,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Melen,LX-V2-0215,Needs Human Review,possible derivation uncertainty,Many / Much / Numerous,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Ekor,LX-V2-0217,Needs Human Review,possible derivation uncertainty,Each / Every,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Aen,LX-V3-0009,Needs Human Review,terminology overlap,To speak/tell - poetic/deep,Curated display override exists; reconcile source flag with editorial decisions
+Var,LX-V3-0010,Needs Human Review,terminology overlap,To go/move - purposeful,Curated display override exists; reconcile source flag with editorial decisions
+Ar,LX-V3-0015,Needs Human Review,terminology overlap,"Intensifier - very, intensely",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Fel,LX-V3-0016,Needs Human Review,terminology overlap,"Diminisher - slightly, a bit",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Ka,LX-V3-0018,Needs Human Review,terminology overlap,No,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Kora,LX-V3-0145,Source Ambiguity,source ambiguity,"Because, Since, For the reason that... (causation).",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Ian,LX-V3-0061,Needs Human Review,possible overlap with earlier rule,My / Direct Possession marker,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Anen,LX-V3-0062,Needs Human Review,possible overlap with earlier rule,Your / Direct Possession marker,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Eshen,LX-V3-0063,Needs Human Review,possible overlap with earlier rule,His/Her/Their / Direct Possession marker,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Velian,LX-V3-0064,Needs Human Review,possible overlap with earlier rule,Our / Direct Possession marker,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Shal'taleth,LX-V3-0075,Source Ambiguity,source ambiguity,Light-Offering Ritual.,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Bel'Rathorimeth,LX-V3-0076,Source Ambiguity,source ambiguity,Memory-Weaving Ritual.,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Aen'Moreth,LX-V3-0077,Source Ambiguity,source ambiguity,Breath-into-Stone Ritual.,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Lorin'Ohmeth,LX-V3-0078,Source Ambiguity,source ambiguity,Guidance-Seeking Ritual.,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Vaaranoraen,LX-V3-0102,Source Ambiguity,source ambiguity,To Feel Contentment / Inner Peace.,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Vaar'kelaen,LX-V3-0106,Source Ambiguity,source ambiguity,To Feel Relief.,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Varkareth,LX-V3-0125,Source Ambiguity,source ambiguity,"""Metal-mover"" or ""gear-grinder""; implies reliance on machines and lack of natural warmth.",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Drenkaesh,LX-V3-0126,Source Ambiguity,source ambiguity,"""Water-waster""; suggests carelessness or indulgence in water abundance.",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Tharfah,LX-V3-0127,Source Ambiguity,source ambiguity,"""Weak-hearted"" or ""soft-rooted""; dismisses their gentle, nature-centric approach as sentimental.",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Krez-verin,LX-V3-0128,Source Ambiguity,source ambiguity,"""Fire-nothing"" or ""ash-breather""; criticizes their environment and resource scarcity.",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Eshreth,LX-V3-0129,Source Ambiguity,source ambiguity,"""Sky-confused""; implies a dreamy or detached nature under the icy skies.",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Rathorkinash,LX-V3-0130,Source Ambiguity,source ambiguity,"""Ancient-prattler""; suggests being stuck in outdated traditions and unyielding.",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Vethordrenka,LX-V3-0131,Source Ambiguity,source ambiguity,"""Shadow-water leech""; insults their reliance on hidden water resources or mysterious magic.",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Morl-karash,LX-V3-0132,Source Ambiguity,source ambiguity,"""Stone-brained""; criticizes rigidity and stubbornness, reflective of their mountain nature.",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Lianeth,LX-V4-0001,Needs Human Review,terminology overlap,Ability (Can/Able to),Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Belshara,LX-V4-0002,Needs Human Review,terminology overlap,Necessity (Must/Have to),Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Rethlian,LX-V4-0003,Needs Human Review,terminology overlap,Possibility (May/Might),Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Thar-ka,LX-V4-0004,Needs Human Review,terminology overlap,Desire (Want to),Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Ilin,LX-V4-0008,Needs Human Review,possible overlap with earlier rule,"Inclusive We: I + You (+ others). This is the communal, default ""we.""",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Imen,LX-V4-0009,Needs Human Review,possible overlap with earlier rule,"Exclusive We: I + Others (but not you). This is the group ""we.""",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Kareth,LX-V4-0013,Needs Human Review,terminology overlap,"Hammer, Striking Tool",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Peleth,LX-V4-0015,Needs Human Review,terminology overlap,"Knife, Blade",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Krezor,LX-V4-0017,Needs Human Review,terminology overlap,"Hearth, Fireplace, Forge",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Gormeth,LX-V4-0021,Needs Human Review,terminology overlap,"Dirty, Soiled",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Selineth,LX-V4-0022,Needs Human Review,terminology overlap,"Clean, Pure",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Maganeth,LX-V4-0023,Needs Human Review,terminology overlap,"Heavy, Big, Imposing",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Feleth,LX-V4-0024,Needs Human Review,terminology overlap,"Light (weight), Small, New",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Woreth,LX-V4-0025,Needs Human Review,terminology overlap,"Full, Abundant",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Kaveth,LX-V4-0027,Needs Human Review,terminology overlap,"Old, Ancient",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Vaareth,LX-V4-0028,Needs Human Review,terminology overlap,"Good, Peaceful, Harmonious",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Joreth,LX-V4-0029,Needs Human Review,terminology overlap,"Fast, Quick, Surging",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Feneth,LX-V4-0030,Needs Human Review,terminology overlap,"Hot, Warm",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Veleth,LX-V4-0031,Needs Human Review,terminology overlap,"Cold, Cool, Slow",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Praketh,LX-V4-0032,Needs Human Review,terminology overlap,"Soft, Tender",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Moreth,LX-V4-0033,Needs Human Review,terminology overlap,"Hard, Firm, Earth-like",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Dreneth,LX-V4-0034,Needs Human Review,terminology overlap,"Wet, Damp, Watery",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Kadreneth,LX-V4-0035,Needs Human Review,terminology overlap,"Dry, Waterless",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Verdeth,LX-V4-0043,Needs Human Review,terminology overlap,Green,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Shaleth,LX-V4-0044,Needs Human Review,terminology overlap,"Yellow, Gold, Bright",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Faheth,LX-V4-0045,Needs Human Review,terminology overlap,"Black, Dark",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Aenaen,LX-V4-0048,Needs Human Review,terminology overlap,"To Hear, To perceive sound",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Talaen,LX-V4-0051,Needs Human Review,terminology overlap,"To Take (contextual), To Receive",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Belshara,LX-V4-0066,Needs Human Review,terminology overlap,Duty (Bound Path),Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Kelka,LX-V4-0071,Needs Human Review,terminology overlap,Word (Particle of speech),Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Ser,LX-V4-0076,Needs Human Review,terminology overlap,And,Curated display override exists; reconcile source flag with editorial decisions
+Reth,LX-V4-0077,Needs Human Review,terminology overlap,Or,Curated display override exists; reconcile source flag with editorial decisions
+Korineth,LX-V4-0078,Needs Human Review,terminology overlap,Handspan,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Aenor,LX-V4-0081,Needs Human Review,terminology overlap,"Moment, Instant",Curated display override exists; reconcile source flag with editorial decisions
+Kinn,LX-V4-0082,Needs Human Review,terminology overlap,Day,Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Shen,LX-V4-0085,Needs Human Review,terminology overlap,Measure,Curated display override exists; reconcile source flag with editorial decisions
+Var,LX-V4-0099,Needs Human Review,contextual meaning overlap,"Verb: Go, Move; Preposition: To, Towards",Curated display override exists; reconcile source flag with editorial decisions
+Nor,LX-V4-0100,Needs Human Review,contextual meaning overlap,"Noun: Time, Flow of Time; Preposition: At/in (time)",Curated display override exists; reconcile source flag with editorial decisions
+Shal,LX-V4-0101,Needs Human Review,contextual meaning overlap,"Noun: Light; Noun: New Beginnings, Fate; Verb (as To Hope)",Curated display override exists; reconcile source flag with editorial decisions
+Aen,LX-V4-0102,Needs Human Review,contextual meaning overlap,"Verb: Speak, Breathe; Complementizer: That; Suffix: -aen (verb-forming)",Curated display override exists; reconcile source flag with editorial decisions
+Reth,LX-V4-0103,Needs Human Review,contextual meaning overlap,"Noun: Confusion, Uncertainty; Conjunction: Or; Root (in Possibility)",Curated display override exists; reconcile source flag with editorial decisions
+Fah,LX-V4-0104,Needs Human Review,contextual meaning overlap,"Noun: Darkness, Fear, Night; Interjection: Ugh! Bah!",Curated display override exists; reconcile source flag with editorial decisions
+Krez,LX-V4-0105,Needs Human Review,contextual meaning overlap,Noun: Fire; Interjection: Blast! Damn!,Curated display override exists; reconcile source flag with editorial decisions
+Dral,LX-V4-0106,Needs Human Review,contextual meaning overlap,"Noun: Sky, Wonder, Heavens; Interjection: Wow! Heavens!",Curated display override exists; reconcile source flag with editorial decisions
+Aenor,LX-V4-0107,Needs Human Review,contextual meaning overlap,"Noun: Ear; Noun: Moment, Instant",Curated display override exists; reconcile source flag with editorial decisions
+Terra,LX-V4-0108,Needs Human Review,contextual meaning overlap,Noun: Earth (physical ground); Noun: The Heart of Terra (mystical force),Curated display override exists; reconcile source flag with editorial decisions
+Thal,LX-V4-0109,Needs Human Review,contextual meaning overlap,"Noun: Balance, Harmony; Preposition: From, out of",Curated display override exists; reconcile source flag with editorial decisions
+Esh,LX-V4-0110,Needs Human Review,contextual meaning overlap,"Noun: Sky, Air; Preposition: Above, over; Suffix: -esh (Relational)",Curated display override exists; reconcile source flag with editorial decisions
+Kal,LX-V4-0111,Needs Human Review,contextual meaning overlap,"Noun: Strength, Power; Adjective (as Strong)",Curated display override exists; reconcile source flag with editorial decisions
+Ser,LX-V4-0112,Needs Human Review,contextual meaning overlap,"Noun: Friend, Ally; Preposition: With; Conjunction: And",Curated display override exists; reconcile source flag with editorial decisions
+Vaar,LX-V4-0113,Needs Human Review,contextual meaning overlap,"Noun: Peace, Unity; Interjection (as Relief); Adjective (as Good)",Curated display override exists; reconcile source flag with editorial decisions
+Lian,LX-V4-0114,Needs Human Review,contextual meaning overlap,"Noun: Truth, Honesty; Verb (as To Pray); Modal (as Can/Able to)",Curated display override exists; reconcile source flag with editorial decisions
+Thar,LX-V4-0115,Needs Human Review,contextual meaning overlap,Noun: Heart; Modal root (in Want to),Curated display override exists; reconcile source flag with editorial decisions
+Tal,LX-V4-0116,Needs Human Review,contextual meaning overlap,"Verb: Give, Offer; Verb: To Take, Receive",Curated display override exists; reconcile source flag with editorial decisions
+Vethor,LX-V4-0117,Needs Human Review,contextual meaning overlap,"Noun: Shadow, Mystery; Verb (as To Sleep)",Curated display override exists; reconcile source flag with editorial decisions
+Kor,LX-V4-0118,Needs Human Review,contextual meaning overlap,"Root: Source, Strength; Unit of length (from Handspan)",Curated display override exists; reconcile source flag with editorial decisions
+Pral,LX-V4-0119,Needs Human Review,contextual meaning overlap,"Root: Intricacy, Detail; Noun (as Table); Verb (as To Make)",Curated display override exists; reconcile source flag with editorial decisions
+Vok,LX-V4-0120,Needs Human Review,contextual meaning overlap,"Root: Unity, Bond; Verb (as To Betray)",Curated display override exists; reconcile source flag with editorial decisions
+Kel,LX-V4-0121,Needs Human Review,contextual meaning overlap,Verb: To say/talk (informal); Noun (as Name); Noun (as Word),Curated display override exists; reconcile source flag with editorial decisions
+Eth,LX-V4-0122,Needs Human Review,contextual meaning overlap,"Suffix (Adjectival): -like, -ful; Suffix (Nominal/Ritual): sacred act of",Reconcile source witness and later editorial decisions; flag alone does not prove an error
+Shen,LX-V4-0123,Needs Human Review,contextual meaning overlap,Noun (from Coinage); Unit of weight: Measure,Curated display override exists; reconcile source flag with editorial decisions

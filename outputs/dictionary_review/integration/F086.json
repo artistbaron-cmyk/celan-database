@@ -1,0 +1,55 @@
+{
+  "flag": "F086",
+  "title": "terrarav appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Terrarav: Pull of one's homeland / Yearning for home.",
+  "followups": [
+    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+  ],
+  "user_response": {
+    "id": "F086",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. terrarav (/tehr-rah-rahv/) — Noun: Homeland pull, yearning for home\nEtymology: Built from Terra (homeland / earth) + rav (pull / magnetic attraction). Attested in PE-S3-0018: \"Terrarav\" (\"the pull of one's homeland\").\nApp Entry: Noun: Pull of one's homeland / Yearning for home",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:49:13.102Z",
+    "title": "terrarav appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "terrarav",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Pull of one's homeland / Yearning for home",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0032"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F086",
+    "entry": {
+      "entry_id": "LX-DR1-0032",
+      "celan_term": "Terrarav",
+      "pronunciation": "/tehr-rah-rahv/",
+      "english_meaning": "Pull of one's homeland / Yearning for home",
+      "category": "Noun",
+      "derivation": "Terra earth/homeland + Rav pull/yearning.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F086. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-S3-0018"
+    },
+    "example_count": 1
+  }
+}

@@ -1,0 +1,55 @@
+{
+  "flag": "F068",
+  "title": "aelin appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Aelin: Youth / Young person / Student / Pupil.",
+  "followups": [
+    "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
+  ],
+  "user_response": {
+    "id": "F068",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Aelin / aelin (/ah-eh-leen/) — Noun: Youth, young person, student, pupil\nEtymology: Built from Ael (young/growing) + -in (individual participant).\nAttested In: PE-V3-0113 (\"The teacher leads the youth home\"), PE-V3-0126, PE-V3-0134.\nApp Entry: Noun: Youth / Young person / Pupil",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:39:32.103Z",
+    "title": "aelin appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "aelin",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Youth / Young person / Student / Pupil",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0017"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F068",
+    "entry": {
+      "entry_id": "LX-DR1-0017",
+      "celan_term": "Aelin",
+      "pronunciation": "/ah-eh-leen/",
+      "english_meaning": "Youth / Young person / Student / Pupil",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F068. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0113; PE-V3-0126; PE-V3-0134"
+    },
+    "example_count": 3
+  }
+}

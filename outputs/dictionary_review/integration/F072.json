@@ -1,0 +1,56 @@
+{
+  "flag": "F072",
+  "title": "varshel appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Varshel: Road / Travel path / Highway.",
+  "followups": [
+    "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
+    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+  ],
+  "user_response": {
+    "id": "F072",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Varshel / varshel (/vahr-shehl/) — Noun: Road, travel path, highway\nEtymology: Built from Var (travel/move) + shel (way/pathway).\nAttested In: PE-V3-0125 (\"Sister, walk the road to the water\").\nApp Entry: Noun: Road / Travel path / Highway",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:40:38.650Z",
+    "title": "varshel appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "varshel",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Road / Travel path / Highway",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0020"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F072",
+    "entry": {
+      "entry_id": "LX-DR1-0020",
+      "celan_term": "Varshel",
+      "pronunciation": "/vahr-shehl/",
+      "english_meaning": "Road / Travel path / Highway",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F072. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0125"
+    },
+    "example_count": 1
+  }
+}

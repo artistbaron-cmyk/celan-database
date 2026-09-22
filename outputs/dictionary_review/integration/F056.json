@@ -1,0 +1,56 @@
+{
+  "flag": "F056",
+  "title": "zhivor appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Zhivor: Family line / Ancestral household / Kin group.",
+  "followups": [
+    "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
+    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+  ],
+  "user_response": {
+    "id": "F056",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. zhivor (/zhee-vohr/) — Noun: Family line, ancestral household, kin group\nDerivation: Zhir (lineage/thread of continuity) + -or (place/essence).",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:10:41.071Z",
+    "title": "zhivor appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "zhivor",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Family line / Ancestral household / Kin group",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0006"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F056",
+    "entry": {
+      "entry_id": "LX-DR1-0006",
+      "celan_term": "Zhivor",
+      "pronunciation": "/zhee-vohr/",
+      "english_meaning": "Family line / Ancestral household / Kin group",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F056. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V2-0036"
+    },
+    "example_count": 1
+  }
+}

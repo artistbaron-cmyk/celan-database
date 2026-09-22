@@ -1,0 +1,45 @@
+{
+  "flag": "F010",
+  "title": "Phelvin — Comfort Drink",
+  "status": "Applied locally",
+  "summary": "Applied the approved word labels and preserved the other established meanings.",
+  "followups": [],
+  "user_response": {
+    "id": "F010",
+    "status": "approved",
+    "text": "Approve Noun for this meaning, preserving every other meaning.",
+    "notes": "",
+    "updatedAt": "2026-09-22T13:09:06.394Z",
+    "title": "Phelvin — Comfort Drink",
+    "originalSuggestion": "Approve Noun for this meaning, preserving every other meaning."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Phelvin",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Comforting drink",
+          "usage": "Phel + vin = pulled/essence",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0100",
+            "LX-V2-0162"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "Comfort Drink",
+          "usage": "Phel + vin = soothing essence",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0100",
+            "LX-V2-0162"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

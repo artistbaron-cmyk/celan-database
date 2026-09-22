@@ -1,0 +1,136 @@
+{
+  "flag": "F044",
+  "title": "Drinking is expressed with give/take",
+  "status": "Applied locally",
+  "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+  "followups": [],
+  "user_response": {
+    "id": "F044",
+    "status": "edited",
+    "text": "If you keep Tal in the Celan text, adjust the English translations to reflect receiving or taking water rather than drinking it:PE-V2-0003: Tal I dren an Kinnlin. $\\\\rightarrow$ \"I receive [take] the water at noon.\"PE-V2-0007: Tal I kilvlum dren nor veth. $\\\\rightarrow$ \"I receive [take] water at midnight by the water's shadow.\"",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:40:55.539Z",
+    "title": "Drinking is expressed with give/take",
+    "originalSuggestion": "Confirm an idiomatic drinking use or align these examples with the recorded actions."
+  },
+  "example_changes": [
+    {
+      "flag": "F044",
+      "entry_id": "PE-V2-0003",
+      "before": {
+        "entry_id": "PE-V2-0003",
+        "source_volume": "Volume 2: Dictionary and Word Formation",
+        "source_section": "Vocabulary > Words for Times of Day",
+        "page_number": "7-8",
+        "celan_text": "Tal I dren an Kinnlin.",
+        "translation": "I drink the water at noon.",
+        "example_type": "Time-of-day example",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved.",
+        "related_entry_ids": "LX-V2-0090",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-V2-0003",
+        "source_volume": "Volume 2: Dictionary and Word Formation",
+        "source_section": "Vocabulary > Words for Times of Day",
+        "page_number": "7-8",
+        "celan_text": "Tal I dren an Kinnlin.",
+        "translation": "I receive the water at noon.",
+        "example_type": "Time-of-day example",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved. ED-0037 F044: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-V2-0090",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    },
+    {
+      "flag": "F044",
+      "entry_id": "PE-V2-0007",
+      "before": {
+        "entry_id": "PE-V2-0007",
+        "source_volume": "Volume 2: Dictionary and Word Formation",
+        "source_section": "Vocabulary > Words for Times of Day",
+        "page_number": "7-8",
+        "celan_text": "Tal I kilvlum dren nor veth.",
+        "translation": "I drink at midnight by the water's shadow.",
+        "example_type": "Time-of-day example",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved.",
+        "related_entry_ids": "LX-V2-0094",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-V2-0007",
+        "source_volume": "Volume 2: Dictionary and Word Formation",
+        "source_section": "Vocabulary > Words for Times of Day",
+        "page_number": "7-8",
+        "celan_text": "Tal I kilvlum dren nor veth.",
+        "translation": "I receive water at midnight by the water's shadow.",
+        "example_type": "Time-of-day example",
+        "analysis": "",
+        "canon_status": "Canon",
+        "notes": "Original example preserved. ED-0037 F044: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-V2-0094",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    }
+  ],
+  "current_displayed_senses": [
+    {
+      "headword": "Tal",
+      "senses": [
+        {
+          "type": "Verb",
+          "meaning": "Give / Offer",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0061",
+            "LX-V4-0116",
+            "XR-tal"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "Take / Receive",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0061",
+            "LX-V4-0116",
+            "XR-tal"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Drenaen",
+      "senses": [
+        {
+          "type": "Verb",
+          "rootWord": false,
+          "meaning": "To Drink, To take liquid",
+          "usage": "Dren (water) + -aen",
+          "sourceEntries": [
+            "LX-V4-0053"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

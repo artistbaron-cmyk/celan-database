@@ -1,0 +1,73 @@
+{
+  "flag": "F046",
+  "title": "The same citizen sentence is both singular and plural",
+  "status": "Applied locally",
+  "summary": "Applied the approved displayed senses or grammar decision; earlier meanings remain unless explicitly corrected.",
+  "followups": [],
+  "user_response": {
+    "id": "F046",
+    "status": "edited",
+    "text": "Update the plural example (PE-GCI1-0019) to include the standard consonant-plural suffix -in, preserving a clear distinction between singular and plural forms for learners:\nPE-GCI1-0019 (Plural):\nUpdated Celan: keltharaen welrinin an welkelthar.\nTranslation: \"The citizens vote in the election.\"\nPE-GCI1-0042 (Singular):\nCelan: keltharaen welrin an welkelthar.\nTranslation: \"The citizen votes in the election.\"",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:45:42.649Z",
+    "title": "The same citizen sentence is both singular and plural",
+    "originalSuggestion": "Clarify whether number is inferred from context here; otherwise choose matching number marking."
+  },
+  "example_changes": [
+    {
+      "flag": "F046",
+      "entry_id": "PE-GCI1-0019",
+      "before": {
+        "entry_id": "PE-GCI1-0019",
+        "source_volume": "Government and Civic Institutions 1",
+        "source_section": "Common Celan > LX-GCI1-0010",
+        "page_number": "",
+        "celan_text": "keltharaen welrin an welkelthar.",
+        "translation": "The citizens vote in the election.",
+        "example_type": "Expansion example",
+        "analysis": "Formal expression of collective choice.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support.",
+        "related_entry_ids": "LX-GCI1-0010",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-GCI1-0019",
+        "source_volume": "Government and Civic Institutions 1",
+        "source_section": "Common Celan > LX-GCI1-0010",
+        "page_number": "",
+        "celan_text": "keltharaen welrinin an welkelthar.",
+        "translation": "The citizens vote in the election.",
+        "example_type": "Expansion example",
+        "analysis": "Formal expression of collective choice.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F046: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-GCI1-0010",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    }
+  ],
+  "current_displayed_senses": [
+    {
+      "headword": "Welrin",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Citizen; a recognized member of a state or civic community with associated rights and duties",
+          "usage": "",
+          "sourceEntries": [
+            "LX-GCI1-0021"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

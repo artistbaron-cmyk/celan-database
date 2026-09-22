@@ -1,0 +1,722 @@
+{
+  "arthen'taleth": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Sacrifice for Destiny Ritual (noun).",
+        "usage": ""
+      }
+    ]
+  },
+  "kor'taleth": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Offering to Power Source Ritual (noun).",
+        "usage": ""
+      }
+    ]
+  },
+  "phelrin": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Comfort Food",
+        "usage": "Phel = warmth + rin = essence"
+      }
+    ]
+  },
+  "phelvin": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Comforting drink",
+        "usage": "Phel + vin = pulled/essence"
+      },
+      {
+        "type": "Noun",
+        "meaning": "Comfort Drink",
+        "usage": "Phel + vin = soothing essence"
+      }
+    ]
+  },
+  "thal'taleth": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Act/Ritual of Sacrifice (general noun).",
+        "usage": ""
+      }
+    ]
+  },
+  "thar'taleth": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Life/Heart Sacrifice Ritual (noun).",
+        "usage": ""
+      }
+    ]
+  },
+  "jorvar": {
+    "uses": [
+      {
+        "type": "Measure",
+        "meaning": "Speed; the rate at which a person creature object or vehicle moves through distance",
+        "usage": ""
+      },
+      {
+        "type": "Noun",
+        "meaning": "Speed; the rate at which a person creature object or vehicle moves through distance",
+        "usage": ""
+      }
+    ]
+  },
+  "lianrethshen": {
+    "uses": [
+      {
+        "type": "Measure",
+        "meaning": "An anomaly reading; a measured value describing the intensity or instability of a reality anomaly",
+        "usage": ""
+      },
+      {
+        "type": "Noun",
+        "meaning": "An anomaly reading; a measured value describing the intensity or instability of a reality anomaly",
+        "usage": ""
+      }
+    ]
+  },
+  "vaarshen": {
+    "uses": [
+      {
+        "type": "Measure",
+        "meaning": "A safe clearance distance established between a hazard and an unprotected person or place",
+        "usage": ""
+      },
+      {
+        "type": "Noun",
+        "meaning": "A safe clearance distance established between a hazard and an unprotected person or place",
+        "usage": ""
+      }
+    ]
+  },
+  "belshara": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Coordinated Maneuver / Formation Movement / Tactical Path. Refers to moving troops in a specific, planned way.",
+        "usage": "Bel (bind/weave) + Shara (path/journey)"
+      },
+      {
+        "type": "Noun",
+        "meaning": "Duty (Bound Path)",
+        "usage": "Bel (bind) + Shara (path)"
+      },
+      {
+        "type": "Modal",
+        "meaning": "Necessity (Must/Have to)",
+        "usage": "\"on a bound path\""
+      },
+      {
+        "type": "Noun",
+        "meaning": "Necessity / Obligation",
+        "usage": ""
+      }
+    ]
+  },
+  "lianeth": {
+    "uses": [
+      {
+        "type": "Modal",
+        "meaning": "Ability (Can/Able to)",
+        "usage": "\"having true quality\""
+      },
+      {
+        "type": "Verb",
+        "meaning": "Ability (Can/Able to)",
+        "usage": ""
+      },
+      {
+        "type": "Adjective",
+        "meaning": "Reliable / Sound / Dependable / Accurate / True to function",
+        "usage": ""
+      }
+    ]
+  },
+  "rethlian": {
+    "uses": [
+      {
+        "type": "Modal",
+        "meaning": "Possibility (May/Might)",
+        "usage": "\"maybe/perhaps\""
+      },
+      {
+        "type": "Interjection",
+        "meaning": "Maybe",
+        "usage": "“Rethlian, I nor var dren.” – “Maybe, I will go to the water.”"
+      },
+      {
+        "type": "Particle",
+        "meaning": "Possibility (May/Might)",
+        "usage": ""
+      }
+    ]
+  },
+  "thar-ka": {
+    "uses": [
+      {
+        "type": "Modal",
+        "meaning": "Desire (Want to)",
+        "usage": "\"by heart's desire\""
+      },
+      {
+        "type": "Noun",
+        "meaning": "Desire",
+        "usage": ""
+      }
+    ]
+  },
+  "lorin": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Guide",
+        "usage": ""
+      },
+      {
+        "type": "Noun",
+        "meaning": "Guide / Teacher",
+        "usage": ""
+      },
+      {
+        "type": "Verb",
+        "meaning": "To guide",
+        "usage": ""
+      }
+    ]
+  },
+  "ven": {
+    "uses": [
+      {
+        "type": "Particle",
+        "meaning": "Subtraction marker meaning minus/subtract",
+        "usage": "Corrected to match the actual subtraction pattern used elsewhere in the canon data."
+      }
+    ]
+  },
+  "jin": {
+    "uses": [
+      {
+        "type": "Adjective",
+        "meaning": "Unique or rare (e.g., exotic or specialty foods).",
+        "usage": "Original expanded vocabulary root preserved."
+      }
+    ]
+  },
+  "aen": {
+    "uses": [
+      {
+        "type": "Verb",
+        "meaning": "Speak / Tell / Breathe",
+        "usage": "Formal/poetic use: deeper or ritual speaking. Use in rituals, court, formal address, writing, and when emphasizing depth. Combine with Li- / -en."
+      },
+      {
+        "type": "Conjunction",
+        "meaning": "That"
+      },
+      {
+        "type": "Suffix",
+        "meaning": "-aen (verb-forming)"
+      },
+      {
+        "type": "Noun",
+        "meaning": "Breath of Life",
+        "usage": ""
+      }
+    ]
+  },
+  "-eth": {
+    "uses": [
+      {
+        "type": "Suffix",
+        "meaning": "Suffix that marks inherent quality or essential manifestation",
+        "usage": "Common adjectival examples: Shal -> Shaleth, Wor -> Woreth, Gorm -> Gormeth, Kal -> Kaleth."
+      },
+      {
+        "type": "Suffix",
+        "meaning": "Also used for abstract or ritual nouns",
+        "usage": "Ritual/nominal examples: Shal'taleth, Aen'Moreth."
+      }
+    ]
+  },
+  "-in": {
+    "uses": [
+      {
+        "type": "Suffix",
+        "meaning": "Plural marker added to nouns ending in consonants",
+        "usage": "Original root/morpheme entry preserved."
+      },
+      {
+        "type": "Suffix",
+        "meaning": "Person or participant connected to a bond, place, or category",
+        "usage": "Additional participant sense; the existing consonant-noun plural sense remains valid. Interpret the established word in context."
+      }
+    ]
+  },
+  "lumor": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Light (enlightenment or insight)",
+        "usage": ""
+      },
+      {
+        "type": "Noun",
+        "meaning": "Talisman",
+        "usage": ""
+      }
+    ]
+  },
+  "zhelvek": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Energy Bar",
+        "usage": "Zhel = spark/energy + vek = carrier"
+      },
+      {
+        "type": "Noun",
+        "meaning": "Energy carrier",
+        "usage": ""
+      }
+    ]
+  },
+  "drenkorath": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Oasis Blessing Ceremony",
+        "usage": "Derived From: Dren (water) + kor (source/strength) + ath (balance). Meaning: A ritual where families gather to honor and protect their oasis or water source."
+      },
+      {
+        "type": "Noun",
+        "meaning": "Sacred spring",
+        "usage": ""
+      }
+    ]
+  },
+  "kaleth": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Fortress / Stronghold",
+        "usage": ""
+      },
+      {
+        "type": "Adjective",
+        "meaning": "Strong / Powerful / Intense / High in magnitude or reading",
+        "usage": ""
+      }
+    ]
+  },
+  "nor-ka": {
+    "uses": [
+      {
+        "type": "Particle",
+        "meaning": "passive voice echo particle",
+        "usage": "Original root/morpheme entry preserved."
+      },
+      {
+        "type": "Particle",
+        "meaning": "Now / In this moment / At present",
+        "usage": ""
+      }
+    ]
+  },
+  "tenar": {
+    "uses": [
+      {
+        "type": "Number",
+        "meaning": "Ten",
+        "usage": ""
+      },
+      {
+        "type": "Noun",
+        "meaning": "Radiance / Steady glow / Visible light",
+        "usage": ""
+      }
+    ]
+  },
+  "shen": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Coinage / Currency"
+      },
+      {
+        "type": "Measure",
+        "meaning": "Unit of weight / measure"
+      },
+      {
+        "type": "Verb",
+        "meaning": "To measure / To count",
+        "usage": ""
+      }
+    ]
+  },
+  "kal": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Strength / Power"
+      },
+      {
+        "type": "Adjective",
+        "meaning": "Strong"
+      },
+      {
+        "type": "Verb",
+        "meaning": "To strengthen",
+        "usage": ""
+      }
+    ]
+  },
+  "bren": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Harvest (e.g., the act or result of gathering food).",
+        "usage": "Conceptual range: Gathering; harvest; collected yield"
+      },
+      {
+        "type": "Verb",
+        "meaning": "To harvest / To gather",
+        "usage": ""
+      }
+    ]
+  },
+  "vanesh": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Commerce; formal trade; merchant work",
+        "usage": "Builds words for trade, market action, bargaining, goods, and merchant activity."
+      },
+      {
+        "type": "Verb",
+        "meaning": "To trade / To conduct commerce",
+        "usage": ""
+      }
+    ]
+  },
+  "jor": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Surge or burst (symbolizing sudden movements or energetic flows).",
+        "usage": "Conceptual range: Surge; burst; energetic flow"
+      },
+      {
+        "type": "Verb",
+        "meaning": "To surge / To burst forth",
+        "usage": ""
+      }
+    ]
+  },
+  "kar": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Strike; mechanical force; tool-work",
+        "usage": "Builds words for striking, tool-use, applied force, and mechanical action."
+      },
+      {
+        "type": "Verb",
+        "meaning": "To strike / To apply force",
+        "usage": ""
+      }
+    ]
+  },
+  "shara": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Path / Journey",
+        "usage": ""
+      },
+      {
+        "type": "Verb",
+        "meaning": "To follow a path / To navigate / To track",
+        "usage": ""
+      }
+    ]
+  },
+  "xar": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Shadow or cover (tied to concealed or protective qualities).",
+        "usage": "Conceptual range: Cover; veil; concealment for protection"
+      },
+      {
+        "type": "Verb",
+        "meaning": "To cover / To shelter / To close off",
+        "usage": ""
+      }
+    ]
+  },
+  "shentalzhael": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Medical triage; measured assignment of treatment priority and limited care resources according to urgency",
+        "usage": ""
+      },
+      {
+        "type": "Verb",
+        "meaning": "To triage / To prioritize treatment",
+        "usage": ""
+      }
+    ]
+  },
+  "i": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "I / Me (1st Person Singular)",
+        "usage": "Remains simple and universal."
+      }
+    ]
+  },
+  "ya": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "You (2nd Person Singular)",
+        "usage": "A straightforward pronoun for “you.”"
+      },
+      {
+        "type": "Possessive",
+        "meaning": "Your (direct personal suffix -ya)",
+        "usage": "Attach -ya to the possessed noun for body parts, inner states, and personal clothing."
+      }
+    ],
+    "aliases": [
+      "-ya"
+    ]
+  },
+  "la": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "He / She / They (3rd Person Singular)",
+        "usage": "Neutral pronoun meaning “he/she/they.”"
+      }
+    ]
+  },
+  "ilin": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "We / Us [Inclusive] (1st Person Plural)",
+        "usage": "Represents \"we\" as a group bound by common purpose."
+      },
+      {
+        "type": "Pronoun",
+        "meaning": "Inclusive We: I + You (+ others). This is the communal, default \"we.\"",
+        "usage": ""
+      }
+    ]
+  },
+  "imen": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "We / Us [Exclusive]",
+        "usage": ""
+      }
+    ]
+  },
+  "inko": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "We two / Us two [Dual]",
+        "usage": ""
+      }
+    ]
+  },
+  "yako": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "You two [Dual]",
+        "usage": ""
+      }
+    ]
+  },
+  "yalin": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "You all / You / Y’all (2nd Person Plural)",
+        "usage": "\"You all.\" Signifies a collective of individuals addressed."
+      }
+    ]
+  },
+  "lako": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "They two [Dual]",
+        "usage": ""
+      }
+    ]
+  },
+  "lalin": {
+    "uses": [
+      {
+        "type": "Pronoun",
+        "meaning": "They / Them (3rd Person Plural)",
+        "usage": "Means “they” (a group not including speaker or addressee)."
+      }
+    ]
+  },
+  "-ka": {
+    "uses": [
+      {
+        "type": "Particle",
+        "meaning": "Possessive/linking marker",
+        "usage": "Always hyphenated to the possessor: Ilin-ka emil (our meal); La-ka kelvor (their mouth). Standalone ka means without or no."
+      }
+    ]
+  },
+  "ka": {
+    "uses": [
+      {
+        "type": "Preposition",
+        "meaning": "Without",
+        "usage": "Standalone ka is exclusively without or no. Ownership uses a hyphenated possessor-ka form."
+      },
+      {
+        "type": "Interjection",
+        "meaning": "No",
+        "usage": "Standalone ka is exclusively without or no. Ownership uses a hyphenated possessor-ka form."
+      }
+    ]
+  },
+  "ian": {
+    "uses": [
+      {
+        "type": "Possessive",
+        "meaning": "My / Direct Possession marker",
+        "usage": "Direct personal suffix -ian, attached after the possessed noun. My. Third-person possessor-ka is also permitted, including for body parts."
+      }
+    ],
+    "aliases": [
+      "-ian"
+    ]
+  },
+  "eshen": {
+    "uses": [
+      {
+        "type": "Possessive",
+        "meaning": "His/Her/Their / Direct Possession marker",
+        "usage": "Direct personal suffix -eshen, attached after the possessed noun. His / Her / Their. Third-person possessor-ka is also permitted, including for body parts."
+      }
+    ],
+    "aliases": [
+      "-eshen"
+    ]
+  },
+  "tharvin-wek": {
+    "aliases": [
+      "tharvinwek"
+    ],
+    "usageNote": "Year / annual cycle. Tharvinwek is the fused spelling of this established entry."
+  },
+  "thar": {
+    "aliases": [
+      "Thaar"
+    ],
+    "usageNote": "Thaar is the approved Arvan regional spelling of Thar (heart / emotional core)."
+  },
+  "terra- / terra-": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Earth, ground, soil, land; lowercase terra is mundane physical ground; capitalized Terra is the world as living spiritual entity.",
+        "usage": "Root record containing alternative forms. The slash and trailing hyphens describe the roots; do not write the entire heading as one word."
+      }
+    ]
+  },
+  "reth- / rethvok-": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Reth: uncertainty, confusion, doubt, a question, or. Rethvok: chaos, disorder, un-ordered state.",
+        "usage": "Root record containing alternative forms. The slash and trailing hyphens describe the roots; do not write the entire heading as one word."
+      }
+    ]
+  },
+  "em": {
+    "uses": [
+      {
+        "type": "Interjection",
+        "meaning": "Um / Uh (hesitation or thinking particle)"
+      },
+      {
+        "type": "Particle",
+        "meaning": "Conversational hesitation / Thinking particle"
+      }
+    ]
+  },
+  "vrak": {
+    "uses": [
+      {
+        "type": "Adjective",
+        "meaning": "Gone / Missing / Depleted / Dry (Trerran dialect)"
+      },
+      {
+        "type": "Particle",
+        "meaning": "Gone / Missing / Depleted (Trerran dialect)"
+      }
+    ]
+  },
+  "im": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Device / Instrument / Implement / Internal mechanism"
+      },
+      {
+        "type": "Particle",
+        "meaning": "Device / Instrument / Internal mechanism"
+      }
+    ]
+  },
+  "thalesh": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Ritual / Sacred balance ceremony"
+      },
+      {
+        "type": "Verb",
+        "meaning": "To perform a balance rite"
+      }
+    ]
+  },
+  "thalor": {
+    "uses": [
+      {
+        "type": "Noun",
+        "meaning": "Outside / Exterior / Outer place"
+      },
+      {
+        "type": "Adverb",
+        "meaning": "Outside"
+      }
+    ]
+  }
+}

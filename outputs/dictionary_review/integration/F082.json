@@ -1,0 +1,55 @@
+{
+  "flag": "F082",
+  "title": "kavel appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Kavel: Forgetfulness / Memory gap / Loss of awareness.",
+  "followups": [
+    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+  ],
+  "user_response": {
+    "id": "F082",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. kavel (/kah-vehl/) — Noun / Root: Forgetfulness, memory gap, loss of awareness\nEtymology: Built from Ka- (absence / loss) + vel (memory / wisdom). Attested as a root element in Kavelzhiraen (to forget) and Kavelrathor (memory gap).\nApp Entry: Noun: Forgetfulness / Memory gap",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:48:10.686Z",
+    "title": "kavel appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "kavel",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Forgetfulness / Memory gap / Loss of awareness",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0028"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F082",
+    "entry": {
+      "entry_id": "LX-DR1-0028",
+      "celan_term": "Kavel",
+      "pronunciation": "/kah-vehl/",
+      "english_meaning": "Forgetfulness / Memory gap / Loss of awareness",
+      "category": "Noun",
+      "derivation": "Ka absence + Vel wisdom/stillness; approved lexicalized memory-gap meaning.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F082. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-EGE1-0019"
+    },
+    "example_count": 1
+  }
+}

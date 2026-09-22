@@ -1,0 +1,43 @@
+{
+  "flag": "F003",
+  "title": "Jorvar — Speed; the rate at which a person creature object or vehicle moves through distance",
+  "status": "Applied locally",
+  "summary": "Applied the approved word labels and preserved the other established meanings.",
+  "followups": [],
+  "user_response": {
+    "id": "F003",
+    "status": "edited",
+    "text": "Approve displaying Noun and Measure.",
+    "notes": "Its a noun but also a measure we should preserve both. ",
+    "updatedAt": "2026-09-22T12:58:00.947Z",
+    "title": "Jorvar — Speed; the rate at which a person creature object or vehicle moves through distance",
+    "originalSuggestion": "Approve displaying Measure."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Jorvar",
+      "senses": [
+        {
+          "type": "Measure",
+          "meaning": "Speed; the rate at which a person creature object or vehicle moves through distance",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-TVO1-0025"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "Speed; the rate at which a person creature object or vehicle moves through distance",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-TVO1-0025"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

@@ -1,0 +1,34 @@
+{
+  "flag": "F090",
+  "title": "Kora shows its English definition as a Celan sentence",
+  "status": "Applied locally",
+  "summary": "Corrected inline example extraction and added the supplied Kora sentences, using La-ka kelvor.",
+  "followups": [],
+  "user_response": {
+    "id": "F090",
+    "status": "edited",
+    "text": "Correct the extraction rule; keep the definition and only show genuine examples. Celan: var I an dren kora rinaen krezor feneth.\nEnglish: \"I go to the water because the hearth is hot.\" Celan: drenaen La dren kora rinaen kelvor-ian kadreneth.\nEnglish: \"They drink water because their mouth is dry.\"",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:57:53.707Z",
+    "title": "Kora shows its English definition as a Celan sentence",
+    "originalSuggestion": "Correct the extraction rule; keep the definition and only show genuine examples."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Kora",
+      "senses": [
+        {
+          "type": "Particle",
+          "rootWord": false,
+          "meaning": "Because, Since, For the reason that... (causation).",
+          "usage": "Usage: Introduces a reason clause. Structure might need careful handling (e.g., Main Clause, Kora + Reason Clause)",
+          "sourceEntries": [
+            "LX-V3-0145"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

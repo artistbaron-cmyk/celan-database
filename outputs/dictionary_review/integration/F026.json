@@ -1,0 +1,43 @@
+{
+  "flag": "F026",
+  "title": "Light is translated as a talisman",
+  "status": "Applied locally",
+  "summary": "Applied the approved displayed senses or grammar decision; earlier meanings remain unless explicitly corrected.",
+  "followups": [],
+  "user_response": {
+    "id": "F026",
+    "status": "edited",
+    "text": "Lumor has many meaning and talisman is one of them. Lumor is a classic example of polysemy",
+    "notes": "",
+    "updatedAt": "2026-09-22T13:52:41.499Z",
+    "title": "Light is translated as a talisman",
+    "originalSuggestion": "Clarify whether this is an established figurative object-name or correct the example."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Lumor",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Light (enlightenment or insight)",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0027"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "Talisman",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0027"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

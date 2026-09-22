@@ -1,0 +1,34 @@
+{
+  "flag": "F004",
+  "title": "Kor'taleth — Offering to Power Source Ritual (noun).",
+  "status": "Applied locally",
+  "summary": "Applied the approved word labels and preserved the other established meanings.",
+  "followups": [],
+  "user_response": {
+    "id": "F004",
+    "status": "approved",
+    "text": "Approve Noun for this ritual meaning.",
+    "notes": "",
+    "updatedAt": "2026-09-22T13:06:48.863Z",
+    "title": "Kor'taleth — Offering to Power Source Ritual (noun).",
+    "originalSuggestion": "Approve Noun for this ritual meaning."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Kor'taleth",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Offering to Power Source Ritual (noun).",
+          "usage": "",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V3-0087"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

@@ -1,0 +1,87 @@
+{
+  "flag": "F029",
+  "title": "Face is translated as skin",
+  "status": "Applied locally",
+  "summary": "Kept Rema and corrected the English to face.",
+  "followups": [],
+  "user_response": {
+    "id": "F029",
+    "status": "edited",
+    "text": "Xarmetha should've been used as the meaning for skin. or the sentence can be changed to reflect face. depending on where the example sits. ",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:12:03.455Z",
+    "title": "Face is translated as skin",
+    "originalSuggestion": "Decide whether the example means facial protection or skin in general."
+  },
+  "example_changes": [
+    {
+      "flag": "F029",
+      "entry_id": "PE-HTS1-0040",
+      "before": {
+        "entry_id": "PE-HTS1-0040",
+        "source_volume": "Health, Treatment, and Survival 1",
+        "source_section": "Common Celan > LX-HTS1-0020",
+        "page_number": "",
+        "celan_text": "arth zhaelolan rema ser.",
+        "translation": "The salve protects the friend's skin.",
+        "example_type": "Expansion example",
+        "analysis": "Protective topical use distinguishes salve from generic oil.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support.",
+        "related_entry_ids": "LX-HTS1-0020",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-HTS1-0040",
+        "source_volume": "Health, Treatment, and Survival 1",
+        "source_section": "Common Celan > LX-HTS1-0020",
+        "page_number": "",
+        "celan_text": "arth zhaelolan rema ser.",
+        "translation": "The salve protects the friend's face.",
+        "example_type": "Expansion example",
+        "analysis": "Protective topical use distinguishes salve from generic oil.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F029: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-HTS1-0020",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    }
+  ],
+  "current_displayed_senses": [
+    {
+      "headword": "Rema",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "The face; the visible front of the head containing the principal social and sensory features",
+          "usage": "",
+          "sourceEntries": [
+            "LX-CWM1-0008"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Xarmetha",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Living skin; the body's outer protective tissue",
+          "usage": "",
+          "sourceEntries": [
+            "LX-BIAOBF1-0014"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

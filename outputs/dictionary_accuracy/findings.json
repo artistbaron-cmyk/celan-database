@@ -1,0 +1,3990 @@
+{
+  "counts": {
+    "headwords": 1463,
+    "expansions": 912
+  },
+  "searchOnly": [
+    {
+      "term": "Var",
+      "type": "Preposition",
+      "meaning": "To, towards",
+      "sources": [
+        "LX-V1-0015"
+      ]
+    },
+    {
+      "term": "Var",
+      "type": "Verb",
+      "meaning": "Go / Move (action and empowerment)",
+      "sources": [
+        "LX-V2-0034"
+      ]
+    },
+    {
+      "term": "Var",
+      "type": "Verb",
+      "meaning": "To go/move - purposeful",
+      "sources": [
+        "LX-V3-0010"
+      ]
+    },
+    {
+      "term": "Var",
+      "type": "Verb",
+      "meaning": "Go, Move",
+      "sources": [
+        "LX-V4-0099"
+      ]
+    },
+    {
+      "term": "Ser",
+      "type": "Noun",
+      "meaning": "Friend, Ally",
+      "sources": [
+        "LX-V4-0112"
+      ]
+    },
+    {
+      "term": "Thal",
+      "type": "Preposition",
+      "meaning": "From, out of",
+      "sources": [
+        "LX-V1-0017"
+      ]
+    },
+    {
+      "term": "Thal",
+      "type": "Noun",
+      "meaning": "Balance, Harmony",
+      "sources": [
+        "LX-V4-0109"
+      ]
+    },
+    {
+      "term": "Nor",
+      "type": "Preposition",
+      "meaning": "At/in (time)",
+      "sources": [
+        "LX-V1-0020"
+      ]
+    },
+    {
+      "term": "Nor",
+      "type": "Noun",
+      "meaning": "Time, Flow of Time",
+      "sources": [
+        "LX-V4-0100"
+      ]
+    },
+    {
+      "term": "Esh",
+      "type": "Preposition",
+      "meaning": "Above, over",
+      "sources": [
+        "LX-V1-0021"
+      ]
+    },
+    {
+      "term": "Esh",
+      "type": "Noun",
+      "meaning": "Sky, Air",
+      "sources": [
+        "LX-V4-0110"
+      ]
+    },
+    {
+      "term": "Terra",
+      "type": "Noun",
+      "meaning": "Earth / The Heart of Terra",
+      "sources": [
+        "LX-V2-0001"
+      ]
+    },
+    {
+      "term": "Terra",
+      "type": "Noun",
+      "meaning": "Earth / Ground",
+      "sources": [
+        "LX-V2-0073"
+      ]
+    },
+    {
+      "term": "Terra",
+      "type": "Noun",
+      "meaning": "Earth (physical ground)",
+      "sources": [
+        "LX-V4-0108"
+      ]
+    },
+    {
+      "term": "Terra",
+      "type": "Noun",
+      "meaning": "The Heart of Terra (mystical force)",
+      "sources": [
+        "LX-V4-0108"
+      ]
+    },
+    {
+      "term": "Shal",
+      "type": "Noun",
+      "meaning": "Light",
+      "sources": [
+        "LX-V2-0003"
+      ]
+    },
+    {
+      "term": "Shal",
+      "type": "Noun",
+      "meaning": "Light / Brightness",
+      "sources": [
+        "LX-V2-0069"
+      ]
+    },
+    {
+      "term": "Shal",
+      "type": "Noun",
+      "meaning": "New Beginnings, Fate",
+      "sources": [
+        "LX-V4-0101"
+      ]
+    },
+    {
+      "term": "Krez",
+      "type": "Noun",
+      "meaning": "Fire / Volcanic",
+      "sources": [
+        "LX-V2-0070"
+      ]
+    },
+    {
+      "term": "Krez",
+      "type": "Interjection",
+      "meaning": "Blast! Damn!",
+      "sources": [
+        "LX-V4-0105"
+      ]
+    },
+    {
+      "term": "Thar",
+      "type": "Noun",
+      "meaning": "Heart (both literal and symbolic)",
+      "sources": [
+        "LX-V2-0007"
+      ]
+    },
+    {
+      "term": "Vethor",
+      "type": "Noun",
+      "meaning": "Shadow, Mystery",
+      "sources": [
+        "LX-V4-0117"
+      ]
+    },
+    {
+      "term": "Lian",
+      "type": "Noun",
+      "meaning": "Truth, Honesty",
+      "sources": [
+        "LX-V4-0114"
+      ]
+    },
+    {
+      "term": "Aen",
+      "type": "Verb",
+      "meaning": "Speak / Tell / Breath of Life",
+      "sources": [
+        "LX-V2-0028"
+      ]
+    },
+    {
+      "term": "Aen",
+      "type": "Verb",
+      "meaning": "Speak / Tell",
+      "sources": [
+        "LX-V2-0062"
+      ]
+    },
+    {
+      "term": "Aen",
+      "type": "Verb",
+      "meaning": "To speak/tell - poetic/deep",
+      "sources": [
+        "LX-V3-0009"
+      ]
+    },
+    {
+      "term": "Aen",
+      "type": "Verb",
+      "meaning": "Speak, Breathe",
+      "sources": [
+        "LX-V4-0102"
+      ]
+    },
+    {
+      "term": "Aen",
+      "type": "Conjunction",
+      "meaning": "Complementizer",
+      "sources": [
+        "DM-RM-V3-0005"
+      ]
+    },
+    {
+      "term": "Kal",
+      "type": "Noun",
+      "meaning": "Strength, Power",
+      "sources": [
+        "LX-V4-0111"
+      ]
+    },
+    {
+      "term": "Vaar",
+      "type": "Noun",
+      "meaning": "Peace / Calm",
+      "sources": [
+        "LX-V2-0041"
+      ]
+    },
+    {
+      "term": "Vaar",
+      "type": "Noun",
+      "meaning": "Peace, Unity",
+      "sources": [
+        "LX-V4-0113"
+      ]
+    },
+    {
+      "term": "Fah",
+      "type": "Noun",
+      "meaning": "Darkness, Fear, Night",
+      "sources": [
+        "LX-V4-0104"
+      ]
+    },
+    {
+      "term": "Fah",
+      "type": "Interjection",
+      "meaning": "Ugh! Bah!",
+      "sources": [
+        "LX-V4-0104"
+      ]
+    },
+    {
+      "term": "Reth",
+      "type": "Noun",
+      "meaning": "Confusion, Uncertainty",
+      "sources": [
+        "LX-V4-0103"
+      ]
+    },
+    {
+      "term": "Aenor",
+      "type": "Noun",
+      "meaning": "Moment, Instant",
+      "sources": [
+        "LX-V4-0081"
+      ]
+    },
+    {
+      "term": "Dral",
+      "type": "Noun",
+      "meaning": "Sky / Wonder / The Heavens",
+      "sources": [
+        "LX-V2-0058"
+      ]
+    },
+    {
+      "term": "Dral",
+      "type": "Noun",
+      "meaning": "Sky, Wonder, Heavens",
+      "sources": [
+        "LX-V4-0106"
+      ]
+    },
+    {
+      "term": "Dral",
+      "type": "Interjection",
+      "meaning": "Wow! Heavens!",
+      "sources": [
+        "LX-V4-0106"
+      ]
+    },
+    {
+      "term": "Tal",
+      "type": "Verb",
+      "meaning": "Give, Offer",
+      "sources": [
+        "LX-V4-0116"
+      ]
+    },
+    {
+      "term": "Tal",
+      "type": "Verb",
+      "meaning": "To Take, Receive",
+      "sources": [
+        "LX-V4-0116"
+      ]
+    },
+    {
+      "term": "Belar",
+      "type": "Noun",
+      "meaning": "Binding spice",
+      "sources": [
+        "LX-V2-0096"
+      ]
+    },
+    {
+      "term": "Jekvor",
+      "type": "Noun",
+      "meaning": "Spiraling spice",
+      "sources": [
+        "LX-V2-0107"
+      ]
+    },
+    {
+      "term": "Jelvor",
+      "type": "Noun",
+      "meaning": "Zesty spice",
+      "sources": [
+        "LX-V2-0108"
+      ]
+    },
+    {
+      "term": "Xilvar",
+      "type": "Noun",
+      "meaning": "Hidden spice",
+      "sources": [
+        "LX-V2-0114"
+      ]
+    },
+    {
+      "term": "Belmor",
+      "type": "Noun",
+      "meaning": "Root Spice",
+      "sources": [
+        "LX-V2-0159"
+      ]
+    },
+    {
+      "term": "Kel",
+      "type": "Verb",
+      "meaning": "To say/talk/tell - direct",
+      "sources": [
+        "LX-V3-0012"
+      ]
+    },
+    {
+      "term": "Kel",
+      "type": "Verb",
+      "meaning": "To say/talk (informal)",
+      "sources": [
+        "LX-V4-0121"
+      ]
+    },
+    {
+      "term": "Shen",
+      "type": "Noun",
+      "meaning": "Measure",
+      "sources": [
+        "LX-V4-0085"
+      ]
+    },
+    {
+      "term": "Shen",
+      "type": "Measure",
+      "meaning": "Measure",
+      "sources": [
+        "LX-V4-0123"
+      ]
+    },
+    {
+      "term": "Bel",
+      "type": "Verb",
+      "meaning": "Binding; weaving; systems; civilization",
+      "sources": [
+        "XR-bel"
+      ]
+    },
+    {
+      "term": "Jor",
+      "type": "Noun",
+      "meaning": "Surge; burst; energetic flow",
+      "sources": [
+        "XR-jor"
+      ]
+    },
+    {
+      "term": "Jek",
+      "type": "Noun",
+      "meaning": "Spiral; twist; swirling form",
+      "sources": [
+        "XR-jek"
+      ]
+    },
+    {
+      "term": "Wek",
+      "type": "Noun",
+      "meaning": "Cycle; repetition; patterned return",
+      "sources": [
+        "XR-wek"
+      ]
+    },
+    {
+      "term": "Wor",
+      "type": "Noun",
+      "meaning": "Abundance; plenty; fullness",
+      "sources": [
+        "XR-wor"
+      ]
+    },
+    {
+      "term": "Phel",
+      "type": "Noun",
+      "meaning": "Warmth; comfort; soothing ease",
+      "sources": [
+        "XR-phel"
+      ]
+    },
+    {
+      "term": "Prak",
+      "type": "Noun",
+      "meaning": "Softness; tenderness; gentle texture",
+      "sources": [
+        "XR-prak"
+      ]
+    },
+    {
+      "term": "Bros",
+      "type": "Verb",
+      "meaning": "Layering; stratification; stacked texture",
+      "sources": [
+        "XR-bros"
+      ]
+    },
+    {
+      "term": "Bal",
+      "type": "Verb",
+      "meaning": "Sprouting; development; budding growth",
+      "sources": [
+        "XR-bal"
+      ]
+    },
+    {
+      "term": "Bren",
+      "type": "Verb",
+      "meaning": "Gathering; harvest; collected yield",
+      "sources": [
+        "XR-bren"
+      ]
+    },
+    {
+      "term": "Jel",
+      "type": "Noun",
+      "meaning": "Zest; bright flavor; sensory sharpness",
+      "sources": [
+        "XR-jel"
+      ]
+    },
+    {
+      "term": "Wel",
+      "type": "Noun",
+      "meaning": "Communal flow; sharing; seamless connection",
+      "sources": [
+        "XR-wel"
+      ]
+    },
+    {
+      "term": "Xar",
+      "type": "Noun",
+      "meaning": "Cover; veil; concealment for protection",
+      "sources": [
+        "XR-xar"
+      ]
+    },
+    {
+      "term": "Xil",
+      "type": "Noun",
+      "meaning": "Shard; fragment; hidden crystal detail",
+      "sources": [
+        "XR-xil"
+      ]
+    },
+    {
+      "term": "Rav-",
+      "type": "Verb",
+      "meaning": "To pull, draw towards; desire, deep yearning, destiny pull.",
+      "sources": [
+        "DM-RM-S3-0021"
+      ]
+    },
+    {
+      "term": "Ohm-",
+      "type": "Noun",
+      "meaning": "Connection, meeting point, circuit; spiritual connection distinct from Bel.",
+      "sources": [
+        "DM-RM-S3-0016"
+      ]
+    },
+    {
+      "term": "Khum-",
+      "type": "Verb",
+      "meaning": "To listen, perceive, know through hearing; patient knowing and introspection.",
+      "sources": [
+        "DM-RM-S3-0025"
+      ]
+    },
+    {
+      "term": "-eth",
+      "type": "Suffix",
+      "meaning": "denote the inherent quality or essential manifestation of a root word",
+      "sources": [
+        "DM-RM-V4-0001"
+      ]
+    }
+  ],
+  "explicitTypeMismatch": [],
+  "untyped": [
+    {
+      "term": "Lianrethshen",
+      "meaning": "An anomaly reading; a measured value describing the intensity or instability of a reality anomaly",
+      "sources": [
+        "LX-PFM1-0036"
+      ]
+    },
+    {
+      "term": "Vaarshen",
+      "meaning": "A safe clearance distance established between a hazard and an unprotected person or place",
+      "sources": [
+        "LX-PFM1-0037"
+      ]
+    },
+    {
+      "term": "Jorvar",
+      "meaning": "Speed; the rate at which a person creature object or vehicle moves through distance",
+      "sources": [
+        "LX-TVO1-0025"
+      ]
+    },
+    {
+      "term": "Ven",
+      "meaning": "Subtraction marker meaning minus/subtract",
+      "sources": [
+        "DM-RM-V3-0019"
+      ]
+    }
+  ],
+  "unreviewed": [
+    {
+      "term": "Var",
+      "id": "LX-V1-0015",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "To, towards"
+    },
+    {
+      "term": "Ser",
+      "id": "LX-V1-0016",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "With"
+    },
+    {
+      "term": "Ka",
+      "id": "LX-V1-0018",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Without"
+    },
+    {
+      "term": "Nor",
+      "id": "LX-V1-0020",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "At/in (time)"
+    },
+    {
+      "term": "Thar",
+      "id": "LX-V2-0007",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Heart (both literal and symbolic)"
+    },
+    {
+      "term": "Thal",
+      "id": "LX-V2-0008",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Balance / Harmony"
+    },
+    {
+      "term": "Nor",
+      "id": "LX-V2-0020",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Time / Flow of Time"
+    },
+    {
+      "term": "Rathor",
+      "id": "LX-V2-0022",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Past / History"
+    },
+    {
+      "term": "Thal",
+      "id": "LX-V2-0023",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Balance / Harmony"
+    },
+    {
+      "term": "Shalor",
+      "id": "LX-V2-0024",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Light / New Beginnings / Fate"
+    },
+    {
+      "term": "Lian",
+      "id": "LX-V2-0026",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Truth / Honesty"
+    },
+    {
+      "term": "Aen",
+      "id": "LX-V2-0028",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Speak / Tell / Breath of Life"
+    },
+    {
+      "term": "Kalor",
+      "id": "LX-V2-0032",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Strength (of the mind or spirit)"
+    },
+    {
+      "term": "Var",
+      "id": "LX-V2-0034",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Go / Move (action and empowerment)"
+    },
+    {
+      "term": "Ser",
+      "id": "LX-V2-0036",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Friend / Ally"
+    },
+    {
+      "term": "Vaar",
+      "id": "LX-V2-0037",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Peace / Unity"
+    },
+    {
+      "term": "Vaar",
+      "id": "LX-V2-0041",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Peace / Calm"
+    },
+    {
+      "term": "Kalor",
+      "id": "LX-V2-0042",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Courage / Strength of Spirit"
+    },
+    {
+      "term": "Thar",
+      "id": "LX-V2-0057",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Heart"
+    },
+    {
+      "term": "Shalor",
+      "id": "LX-V2-0059",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Light (discovery, vision, hope)"
+    },
+    {
+      "term": "Aen",
+      "id": "LX-V2-0062",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Speak / Tell"
+    },
+    {
+      "term": "Var",
+      "id": "LX-V2-0063",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Go / Move"
+    },
+    {
+      "term": "Lian",
+      "id": "LX-V2-0064",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Truth / Honesty"
+    },
+    {
+      "term": "Ser",
+      "id": "LX-V2-0065",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Friend / Ally"
+    },
+    {
+      "term": "Thal",
+      "id": "LX-V2-0072",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Balance / Harmony"
+    },
+    {
+      "term": "Shalor",
+      "id": "LX-V2-0084",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Sanctuary (light-filled place)"
+    },
+    {
+      "term": "Rathor",
+      "id": "LX-V2-0085",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Old City / Ancient Place"
+    },
+    {
+      "term": "Krezor",
+      "id": "LX-V2-0086",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Forge / Place of Fire"
+    },
+    {
+      "term": "Khumeth",
+      "id": "LX-V2-0133",
+      "status": "Needs Human Review",
+      "reason": "possible derivation uncertainty",
+      "meaning": "Sacred Ritual / Ceremony / Circle Rite. Refers to a formal spiritual practice or ceremony."
+    },
+    {
+      "term": "Vaneshem",
+      "id": "LX-V2-0138",
+      "status": "Needs Human Review",
+      "reason": "possible derivation uncertainty",
+      "meaning": "Goods / Wares / Trade Items. The physical products being exchanged."
+    },
+    {
+      "term": "Thalaneshen",
+      "id": "LX-V2-0139",
+      "status": "Needs Human Review",
+      "reason": "possible derivation uncertainty",
+      "meaning": "Bargaining / Haggling / Balanced Trade Talk. The process of negotiating a fair price or exchange."
+    },
+    {
+      "term": "Vellian",
+      "id": "LX-V2-0141",
+      "status": "Needs Human Review",
+      "reason": "possible derivation uncertainty",
+      "meaning": "Quality Goods / Honest Value / True Sustenance. Refers to goods considered high quality, fairly priced, or genuinely valuable."
+    },
+    {
+      "term": "Krezor",
+      "id": "LX-V2-0146",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "forge"
+    },
+    {
+      "term": "Felorin",
+      "id": "LX-V2-0174",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Berry from Coral Reefs"
+    },
+    {
+      "term": "Ilinor",
+      "id": "LX-V2-0213",
+      "status": "Needs Human Review",
+      "reason": "possible derivation uncertainty",
+      "meaning": "All / Entire / Whole"
+    },
+    {
+      "term": "Melen",
+      "id": "LX-V2-0215",
+      "status": "Needs Human Review",
+      "reason": "possible derivation uncertainty",
+      "meaning": "Many / Much / Numerous"
+    },
+    {
+      "term": "Ekor",
+      "id": "LX-V2-0217",
+      "status": "Needs Human Review",
+      "reason": "possible derivation uncertainty",
+      "meaning": "Each / Every"
+    },
+    {
+      "term": "Aen",
+      "id": "LX-V3-0009",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "To speak/tell - poetic/deep"
+    },
+    {
+      "term": "Var",
+      "id": "LX-V3-0010",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "To go/move - purposeful"
+    },
+    {
+      "term": "Ar",
+      "id": "LX-V3-0015",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Intensifier - very, intensely"
+    },
+    {
+      "term": "Fel",
+      "id": "LX-V3-0016",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Diminisher - slightly, a bit"
+    },
+    {
+      "term": "Ka",
+      "id": "LX-V3-0018",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "No"
+    },
+    {
+      "term": "Kora",
+      "id": "LX-V3-0145",
+      "status": "Source Ambiguity",
+      "reason": "source ambiguity",
+      "meaning": "Because, Since, For the reason that... (causation)."
+    },
+    {
+      "term": "Ian",
+      "id": "LX-V3-0061",
+      "status": "Needs Human Review",
+      "reason": "possible overlap with earlier rule",
+      "meaning": "My / Direct Possession marker"
+    },
+    {
+      "term": "Anen",
+      "id": "LX-V3-0062",
+      "status": "Needs Human Review",
+      "reason": "possible overlap with earlier rule",
+      "meaning": "Your / Direct Possession marker"
+    },
+    {
+      "term": "Eshen",
+      "id": "LX-V3-0063",
+      "status": "Needs Human Review",
+      "reason": "possible overlap with earlier rule",
+      "meaning": "His/Her/Their / Direct Possession marker"
+    },
+    {
+      "term": "Velian",
+      "id": "LX-V3-0064",
+      "status": "Needs Human Review",
+      "reason": "possible overlap with earlier rule",
+      "meaning": "Our / Direct Possession marker"
+    },
+    {
+      "term": "Shal'taleth",
+      "id": "LX-V3-0075",
+      "status": "Source Ambiguity",
+      "reason": "source ambiguity",
+      "meaning": "Light-Offering Ritual."
+    },
+    {
+      "term": "Bel'Rathorimeth",
+      "id": "LX-V3-0076",
+      "status": "Source Ambiguity",
+      "reason": "source ambiguity",
+      "meaning": "Memory-Weaving Ritual."
+    },
+    {
+      "term": "Aen'Moreth",
+      "id": "LX-V3-0077",
+      "status": "Source Ambiguity",
+      "reason": "source ambiguity",
+      "meaning": "Breath-into-Stone Ritual."
+    },
+    {
+      "term": "Lorin'Ohmeth",
+      "id": "LX-V3-0078",
+      "status": "Source Ambiguity",
+      "reason": "source ambiguity",
+      "meaning": "Guidance-Seeking Ritual."
+    },
+    {
+      "term": "Vaaranoraen",
+      "id": "LX-V3-0102",
+      "status": "Source Ambiguity",
+      "reason": "source ambiguity",
+      "meaning": "To Feel Contentment / Inner Peace."
+    },
+    {
+      "term": "Vaar'kelaen",
+      "id": "LX-V3-0106",
+      "status": "Source Ambiguity",
+      "reason": "source ambiguity",
+      "meaning": "To Feel Relief."
+    },
+    {
+      "term": "Varkareth",
+      "id": "LX-V3-0125",
+      "status": "Source Ambiguity",
+      "reason": "source ambiguity",
+      "meaning": "\"Metal-mover\" or \"gear-grinder\"; implies reliance on machines and lack of natural warmth."
+    },
+    {
+      "term": "Drenkaesh",
+      "id": "LX-V3-0126",
+      "status": "Source Ambiguity",
+      "reason": "source ambiguity",
+      "meaning": "\"Water-waster\"; suggests carelessness or indulgence in water abundance."
+    },
+    {
+      "term": "Tharfah",
+      "id": "LX-V3-0127",
+      "status": "Source Ambiguity",
+      "reason": "source ambiguity",
+      "meaning": "\"Weak-hearted\" or \"soft-rooted\"; dismisses their gentle, nature-centric approach as sentimental."
+    },
+    {
+      "term": "Krez-verin",
+      "id": "LX-V3-0128",
+      "status": "Source Ambiguity",
+      "reason": "source ambiguity",
+      "meaning": "\"Fire-nothing\" or \"ash-breather\"; criticizes their environment and resource scarcity."
+    },
+    {
+      "term": "Eshreth",
+      "id": "LX-V3-0129",
+      "status": "Source Ambiguity",
+      "reason": "source ambiguity",
+      "meaning": "\"Sky-confused\"; implies a dreamy or detached nature under the icy skies."
+    },
+    {
+      "term": "Rathorkinash",
+      "id": "LX-V3-0130",
+      "status": "Source Ambiguity",
+      "reason": "source ambiguity",
+      "meaning": "\"Ancient-prattler\"; suggests being stuck in outdated traditions and unyielding."
+    },
+    {
+      "term": "Vethordrenka",
+      "id": "LX-V3-0131",
+      "status": "Source Ambiguity",
+      "reason": "source ambiguity",
+      "meaning": "\"Shadow-water leech\"; insults their reliance on hidden water resources or mysterious magic."
+    },
+    {
+      "term": "Morl-karash",
+      "id": "LX-V3-0132",
+      "status": "Source Ambiguity",
+      "reason": "source ambiguity",
+      "meaning": "\"Stone-brained\"; criticizes rigidity and stubbornness, reflective of their mountain nature."
+    },
+    {
+      "term": "Lianeth",
+      "id": "LX-V4-0001",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Ability (Can/Able to)"
+    },
+    {
+      "term": "Belshara",
+      "id": "LX-V4-0002",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Necessity (Must/Have to)"
+    },
+    {
+      "term": "Rethlian",
+      "id": "LX-V4-0003",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Possibility (May/Might)"
+    },
+    {
+      "term": "Thar-ka",
+      "id": "LX-V4-0004",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Desire (Want to)"
+    },
+    {
+      "term": "Ilin",
+      "id": "LX-V4-0008",
+      "status": "Needs Human Review",
+      "reason": "possible overlap with earlier rule",
+      "meaning": "Inclusive We: I + You (+ others). This is the communal, default \"we.\""
+    },
+    {
+      "term": "Imen",
+      "id": "LX-V4-0009",
+      "status": "Needs Human Review",
+      "reason": "possible overlap with earlier rule",
+      "meaning": "Exclusive We: I + Others (but not you). This is the group \"we.\""
+    },
+    {
+      "term": "Kareth",
+      "id": "LX-V4-0013",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Hammer, Striking Tool"
+    },
+    {
+      "term": "Peleth",
+      "id": "LX-V4-0015",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Knife, Blade"
+    },
+    {
+      "term": "Krezor",
+      "id": "LX-V4-0017",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Hearth, Fireplace, Forge"
+    },
+    {
+      "term": "Gormeth",
+      "id": "LX-V4-0021",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Dirty, Soiled"
+    },
+    {
+      "term": "Selineth",
+      "id": "LX-V4-0022",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Clean, Pure"
+    },
+    {
+      "term": "Maganeth",
+      "id": "LX-V4-0023",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Heavy, Big, Imposing"
+    },
+    {
+      "term": "Feleth",
+      "id": "LX-V4-0024",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Light (weight), Small, New"
+    },
+    {
+      "term": "Woreth",
+      "id": "LX-V4-0025",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Full, Abundant"
+    },
+    {
+      "term": "Kaveth",
+      "id": "LX-V4-0027",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Old, Ancient"
+    },
+    {
+      "term": "Vaareth",
+      "id": "LX-V4-0028",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Good, Peaceful, Harmonious"
+    },
+    {
+      "term": "Joreth",
+      "id": "LX-V4-0029",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Fast, Quick, Surging"
+    },
+    {
+      "term": "Feneth",
+      "id": "LX-V4-0030",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Hot, Warm"
+    },
+    {
+      "term": "Veleth",
+      "id": "LX-V4-0031",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Cold, Cool, Slow"
+    },
+    {
+      "term": "Praketh",
+      "id": "LX-V4-0032",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Soft, Tender"
+    },
+    {
+      "term": "Moreth",
+      "id": "LX-V4-0033",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Hard, Firm, Earth-like"
+    },
+    {
+      "term": "Dreneth",
+      "id": "LX-V4-0034",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Wet, Damp, Watery"
+    },
+    {
+      "term": "Kadreneth",
+      "id": "LX-V4-0035",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Dry, Waterless"
+    },
+    {
+      "term": "Verdeth",
+      "id": "LX-V4-0043",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Green"
+    },
+    {
+      "term": "Shaleth",
+      "id": "LX-V4-0044",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Yellow, Gold, Bright"
+    },
+    {
+      "term": "Faheth",
+      "id": "LX-V4-0045",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Black, Dark"
+    },
+    {
+      "term": "Aenaen",
+      "id": "LX-V4-0048",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "To Hear, To perceive sound"
+    },
+    {
+      "term": "Talaen",
+      "id": "LX-V4-0051",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "To Take (contextual), To Receive"
+    },
+    {
+      "term": "Belshara",
+      "id": "LX-V4-0066",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Duty (Bound Path)"
+    },
+    {
+      "term": "Kelka",
+      "id": "LX-V4-0071",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Word (Particle of speech)"
+    },
+    {
+      "term": "Ser",
+      "id": "LX-V4-0076",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "And"
+    },
+    {
+      "term": "Reth",
+      "id": "LX-V4-0077",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Or"
+    },
+    {
+      "term": "Korineth",
+      "id": "LX-V4-0078",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Handspan"
+    },
+    {
+      "term": "Aenor",
+      "id": "LX-V4-0081",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Moment, Instant"
+    },
+    {
+      "term": "Kinn",
+      "id": "LX-V4-0082",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Day"
+    },
+    {
+      "term": "Shen",
+      "id": "LX-V4-0085",
+      "status": "Needs Human Review",
+      "reason": "terminology overlap",
+      "meaning": "Measure"
+    },
+    {
+      "term": "Var",
+      "id": "LX-V4-0099",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Verb: Go, Move; Preposition: To, Towards"
+    },
+    {
+      "term": "Nor",
+      "id": "LX-V4-0100",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Noun: Time, Flow of Time; Preposition: At/in (time)"
+    },
+    {
+      "term": "Shal",
+      "id": "LX-V4-0101",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Noun: Light; Noun: New Beginnings, Fate; Verb (as To Hope)"
+    },
+    {
+      "term": "Aen",
+      "id": "LX-V4-0102",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Verb: Speak, Breathe; Complementizer: That; Suffix: -aen (verb-forming)"
+    },
+    {
+      "term": "Reth",
+      "id": "LX-V4-0103",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Noun: Confusion, Uncertainty; Conjunction: Or; Root (in Possibility)"
+    },
+    {
+      "term": "Fah",
+      "id": "LX-V4-0104",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Noun: Darkness, Fear, Night; Interjection: Ugh! Bah!"
+    },
+    {
+      "term": "Krez",
+      "id": "LX-V4-0105",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Noun: Fire; Interjection: Blast! Damn!"
+    },
+    {
+      "term": "Dral",
+      "id": "LX-V4-0106",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Noun: Sky, Wonder, Heavens; Interjection: Wow! Heavens!"
+    },
+    {
+      "term": "Aenor",
+      "id": "LX-V4-0107",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Noun: Ear; Noun: Moment, Instant"
+    },
+    {
+      "term": "Terra",
+      "id": "LX-V4-0108",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Noun: Earth (physical ground); Noun: The Heart of Terra (mystical force)"
+    },
+    {
+      "term": "Thal",
+      "id": "LX-V4-0109",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Noun: Balance, Harmony; Preposition: From, out of"
+    },
+    {
+      "term": "Esh",
+      "id": "LX-V4-0110",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Noun: Sky, Air; Preposition: Above, over; Suffix: -esh (Relational)"
+    },
+    {
+      "term": "Kal",
+      "id": "LX-V4-0111",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Noun: Strength, Power; Adjective (as Strong)"
+    },
+    {
+      "term": "Ser",
+      "id": "LX-V4-0112",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Noun: Friend, Ally; Preposition: With; Conjunction: And"
+    },
+    {
+      "term": "Vaar",
+      "id": "LX-V4-0113",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Noun: Peace, Unity; Interjection (as Relief); Adjective (as Good)"
+    },
+    {
+      "term": "Lian",
+      "id": "LX-V4-0114",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Noun: Truth, Honesty; Verb (as To Pray); Modal (as Can/Able to)"
+    },
+    {
+      "term": "Thar",
+      "id": "LX-V4-0115",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Noun: Heart; Modal root (in Want to)"
+    },
+    {
+      "term": "Tal",
+      "id": "LX-V4-0116",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Verb: Give, Offer; Verb: To Take, Receive"
+    },
+    {
+      "term": "Vethor",
+      "id": "LX-V4-0117",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Noun: Shadow, Mystery; Verb (as To Sleep)"
+    },
+    {
+      "term": "Kor",
+      "id": "LX-V4-0118",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Root: Source, Strength; Unit of length (from Handspan)"
+    },
+    {
+      "term": "Pral",
+      "id": "LX-V4-0119",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Root: Intricacy, Detail; Noun (as Table); Verb (as To Make)"
+    },
+    {
+      "term": "Vok",
+      "id": "LX-V4-0120",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Root: Unity, Bond; Verb (as To Betray)"
+    },
+    {
+      "term": "Kel",
+      "id": "LX-V4-0121",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Verb: To say/talk (informal); Noun (as Name); Noun (as Word)"
+    },
+    {
+      "term": "Eth",
+      "id": "LX-V4-0122",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Suffix (Adjectival): -like, -ful; Suffix (Nominal/Ritual): sacred act of"
+    },
+    {
+      "term": "Shen",
+      "id": "LX-V4-0123",
+      "status": "Needs Human Review",
+      "reason": "contextual meaning overlap",
+      "meaning": "Noun (from Coinage); Unit of weight: Measure"
+    }
+  ],
+  "droppedFragments": [
+    {
+      "id": "LX-V4-0101",
+      "term": "Shal",
+      "meaning": "Noun: Light; Noun: New Beginnings, Fate; Verb (as To Hope)"
+    },
+    {
+      "id": "LX-V4-0103",
+      "term": "Reth",
+      "meaning": "Noun: Confusion, Uncertainty; Conjunction: Or; Root (in Possibility)"
+    },
+    {
+      "id": "LX-V4-0111",
+      "term": "Kal",
+      "meaning": "Noun: Strength, Power; Adjective (as Strong)"
+    },
+    {
+      "id": "LX-V4-0113",
+      "term": "Vaar",
+      "meaning": "Noun: Peace, Unity; Interjection (as Relief); Adjective (as Good)"
+    },
+    {
+      "id": "LX-V4-0114",
+      "term": "Lian",
+      "meaning": "Noun: Truth, Honesty; Verb (as To Pray); Modal (as Can/Able to)"
+    },
+    {
+      "id": "LX-V4-0115",
+      "term": "Thar",
+      "meaning": "Noun: Heart; Modal root (in Want to)"
+    },
+    {
+      "id": "LX-V4-0117",
+      "term": "Vethor",
+      "meaning": "Noun: Shadow, Mystery; Verb (as To Sleep)"
+    },
+    {
+      "id": "LX-V4-0118",
+      "term": "Kor",
+      "meaning": "Root: Source, Strength; Unit of length (from Handspan)"
+    },
+    {
+      "id": "LX-V4-0119",
+      "term": "Pral",
+      "meaning": "Root: Intricacy, Detail; Noun (as Table); Verb (as To Make)"
+    },
+    {
+      "id": "LX-V4-0120",
+      "term": "Vok",
+      "meaning": "Root: Unity, Bond; Verb (as To Betray)"
+    },
+    {
+      "id": "LX-V4-0121",
+      "term": "Kel",
+      "meaning": "Verb: To say/talk (informal); Noun (as Name); Noun (as Word)"
+    },
+    {
+      "id": "LX-V4-0123",
+      "term": "Shen",
+      "meaning": "Noun (from Coinage); Unit of weight: Measure"
+    }
+  ],
+  "overrides": [
+    {
+      "term": "Var",
+      "displayed": [
+        {
+          "type": "Verb",
+          "meaning": "Go / Move",
+          "usage": "Formal/purposeful use: deliberate or directed movement.",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0015",
+            "LX-V2-0034",
+            "LX-V2-0063",
+            "LX-V3-0010",
+            "LX-V4-0099"
+          ]
+        },
+        {
+          "type": "Preposition",
+          "meaning": "To / Towards",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0015",
+            "LX-V2-0034",
+            "LX-V2-0063",
+            "LX-V3-0010",
+            "LX-V4-0099"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V1-0015",
+          "source_volume": "Volume 1: Fundamentals",
+          "source_section": "Grammar > Prepositions and Case Markers > Basic Prepositions",
+          "page_number": "8",
+          "celan_term": "Var",
+          "english_meaning": "To, towards",
+          "category": "Preposition",
+          "usage_context": "Var dren (to the water)",
+          "original_wording": "Var To, towards Var dren (to the water)",
+          "canon_status": "Canon",
+          "notes": "Source preposition table row preserved as standalone lexicon entry.",
+          "related_entry_ids": "GR-V1-0018",
+          "relationship_type": "related usage; terminology overlap",
+          "potential_tension_id": "PT-V1-0001",
+          "review_status": "Needs Human Review",
+          "review_reason": "terminology overlap"
+        },
+        {
+          "entry_id": "LX-V2-0034",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Strength & Empowerment",
+          "page_number": "4-5",
+          "celan_term": "Var",
+          "english_meaning": "Go / Move (action and empowerment)",
+          "category": "Strength & Empowerment",
+          "usage_context": "",
+          "original_wording": "Var Go / Move (action and empowerment)",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved. Flagged for overlapping Volume 1/Volume 2 usage.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "PT-V2-0002",
+          "review_status": "Needs Human Review",
+          "review_reason": "terminology overlap"
+        },
+        {
+          "entry_id": "LX-V2-0063",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Everyday Life",
+          "page_number": "6",
+          "celan_term": "Var",
+          "english_meaning": "Go / Move",
+          "category": "Everyday Life",
+          "usage_context": "",
+          "original_wording": "Var Go / Move",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved. Flagged for overlapping Volume 1/Volume 2 usage.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "PT-V2-0002",
+          "review_status": "Needs Human Review",
+          "review_reason": "terminology overlap"
+        },
+        {
+          "entry_id": "LX-V3-0010",
+          "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+          "source_section": "Register Markers",
+          "page_number": "5",
+          "celan_term": "Var",
+          "english_meaning": "To go/move - purposeful",
+          "category": "Formal Vocabulary",
+          "usage_context": "Use in rituals, court, formal address, writing, when emphasizing depth. Combine with Li- / -en.",
+          "original_wording": "Var (To go/move - purposeful). Usage: Use in rituals, court, formal address, writing, when emphasizing depth. Combine with Li- / -en.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "PT-V3-0003",
+          "review_status": "Needs Human Review",
+          "review_reason": "terminology overlap"
+        },
+        {
+          "entry_id": "LX-V4-0099",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Var",
+          "english_meaning": "Verb: Go, Move; Preposition: To, Towards",
+          "category": "Polysemy Entry",
+          "usage_context": "A classic case where a verb of motion also serves as the preposition indicating direction. The core concept is movement.",
+          "original_wording": "Var / Verb: Go, Move / Preposition: To, Towards / A classic case where a verb of motion also serves as the preposition indicating direction. The core concept is movement.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        }
+      ]
+    },
+    {
+      "term": "Ser",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Friend / Ally",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0016",
+            "LX-V2-0036",
+            "LX-V2-0065",
+            "LX-V4-0076",
+            "LX-V4-0112"
+          ]
+        },
+        {
+          "type": "Preposition",
+          "meaning": "With",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0016",
+            "LX-V2-0036",
+            "LX-V2-0065",
+            "LX-V4-0076",
+            "LX-V4-0112"
+          ]
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "And",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0016",
+            "LX-V2-0036",
+            "LX-V2-0065",
+            "LX-V4-0076",
+            "LX-V4-0112"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V1-0016",
+          "source_volume": "Volume 1: Fundamentals",
+          "source_section": "Grammar > Prepositions and Case Markers > Basic Prepositions",
+          "page_number": "8",
+          "celan_term": "Ser",
+          "english_meaning": "With",
+          "category": "Preposition",
+          "usage_context": "Var I ser ser (with a friend)",
+          "original_wording": "Ser With Var I ser ser (with a friend)",
+          "canon_status": "Canon",
+          "notes": "Source preposition table row preserved as standalone lexicon entry.",
+          "related_entry_ids": "GR-V1-0018",
+          "relationship_type": "related usage; terminology overlap",
+          "potential_tension_id": "PT-V1-0002",
+          "review_status": "Needs Human Review",
+          "review_reason": "terminology overlap"
+        },
+        {
+          "entry_id": "LX-V2-0036",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Community",
+          "page_number": "5",
+          "celan_term": "Ser",
+          "english_meaning": "Friend / Ally",
+          "category": "Community",
+          "usage_context": "",
+          "original_wording": "Ser Friend / Ally",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved. Flagged for overlapping Volume 1/Volume 2 usage.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "PT-V2-0003",
+          "review_status": "Needs Human Review",
+          "review_reason": "terminology overlap"
+        },
+        {
+          "entry_id": "LX-V2-0065",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Everyday Life",
+          "page_number": "6",
+          "celan_term": "Ser",
+          "english_meaning": "Friend / Ally",
+          "category": "Everyday Life",
+          "usage_context": "",
+          "original_wording": "Ser Friend / Ally",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved. Flagged for overlapping Volume 1/Volume 2 usage.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "PT-V2-0003",
+          "review_status": "Needs Human Review",
+          "review_reason": "terminology overlap"
+        },
+        {
+          "entry_id": "LX-V4-0076",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "The Living Lexicon > Section 3.7: Essential Conjunctions",
+          "page_number": "12",
+          "celan_term": "Ser",
+          "english_meaning": "And",
+          "category": "Conjunction",
+          "usage_context": "Re-purposed from Ser (With)",
+          "original_wording": "Ser / Re-purposed from Ser (With) / And / Rinaen morlak ser dren. (There is bread and water.)",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "GR-V4-0006; PE-V4-0082",
+          "relationship_type": "terminology overlap",
+          "potential_tension_id": "PT-V4-0006",
+          "review_status": "Needs Human Review",
+          "review_reason": "terminology overlap"
+        },
+        {
+          "entry_id": "LX-V4-0112",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Ser",
+          "english_meaning": "Noun: Friend, Ally; Preposition: With; Conjunction: And",
+          "category": "Polysemy Entry",
+          "usage_context": "And is framed as accompaniment, the essence of friend.",
+          "original_wording": "Ser / Noun: Friend, Ally / Preposition: With / Conjunction: And / And is framed as accompaniment, the essence of friend.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        }
+      ]
+    },
+    {
+      "term": "Thal",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Balance / Harmony",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0017",
+            "LX-V2-0008",
+            "LX-V2-0023",
+            "LX-V2-0072",
+            "LX-V4-0109",
+            "XR-thal"
+          ]
+        },
+        {
+          "type": "Preposition",
+          "meaning": "From / Out of",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0017",
+            "LX-V2-0008",
+            "LX-V2-0023",
+            "LX-V2-0072",
+            "LX-V4-0109",
+            "XR-thal"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V1-0017",
+          "source_volume": "Volume 1: Fundamentals",
+          "source_section": "Grammar > Prepositions and Case Markers > Basic Prepositions",
+          "page_number": "8",
+          "celan_term": "Thal",
+          "english_meaning": "From, out of",
+          "category": "Preposition",
+          "usage_context": "Tha-var La thal Terra.",
+          "original_wording": "Thal From, out of Tha-var La thal Terra.",
+          "canon_status": "Canon",
+          "notes": "Source preposition table row preserved as standalone lexicon entry.",
+          "related_entry_ids": "GR-V1-0018",
+          "relationship_type": "related usage",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V2-0008",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Nature",
+          "page_number": "3",
+          "celan_term": "Thal",
+          "english_meaning": "Balance / Harmony",
+          "category": "Nature",
+          "usage_context": "",
+          "original_wording": "Thal Balance / Harmony",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved. Flagged for overlapping Volume 1/Volume 2 usage.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "PT-V2-0004",
+          "review_status": "Needs Human Review",
+          "review_reason": "terminology overlap"
+        },
+        {
+          "entry_id": "LX-V2-0023",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Time & Mysticism",
+          "page_number": "4",
+          "celan_term": "Thal",
+          "english_meaning": "Balance / Harmony",
+          "category": "Time & Mysticism",
+          "usage_context": "",
+          "original_wording": "Thal Balance / Harmony",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved. Flagged for overlapping Volume 1/Volume 2 usage.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "PT-V2-0004",
+          "review_status": "Needs Human Review",
+          "review_reason": "terminology overlap"
+        },
+        {
+          "entry_id": "LX-V2-0072",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Nature and Landscapes",
+          "page_number": "6-7",
+          "celan_term": "Thal",
+          "english_meaning": "Balance / Harmony",
+          "category": "Nature and Landscapes",
+          "usage_context": "",
+          "original_wording": "Thal Balance / Harmony",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved. Flagged for overlapping Volume 1/Volume 2 usage.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "PT-V2-0004",
+          "review_status": "Needs Human Review",
+          "review_reason": "terminology overlap"
+        },
+        {
+          "entry_id": "LX-V4-0109",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Thal",
+          "english_meaning": "Noun: Balance, Harmony; Preposition: From, out of",
+          "category": "Polysemy Entry",
+          "usage_context": "All things originate from a place of balance.",
+          "original_wording": "Thal / Noun: Balance, Harmony / Preposition: From, out of / All things originate from a place of balance.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "XR-thal",
+          "celan_term": "Thal",
+          "english_meaning": "Balance; harmony; dynamic equilibrium",
+          "category": "Root",
+          "usage_context": "Builds words for balance, reciprocity, justice, and harmonized relations between forces.",
+          "original_wording": "Root family evidence: thal, thallian, thalvok",
+          "related_entry_ids": "RM-S3-0009",
+          "notes": "Canonical conceptual root",
+          "canon_status": "established_root"
+        }
+      ]
+    },
+    {
+      "term": "Nor",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Time / Flow of Time",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0020",
+            "LX-V2-0020",
+            "LX-V4-0100",
+            "XR-nor"
+          ]
+        },
+        {
+          "type": "Preposition",
+          "meaning": "At / In (time)",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0020",
+            "LX-V2-0020",
+            "LX-V4-0100",
+            "XR-nor"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V1-0020",
+          "source_volume": "Volume 1: Fundamentals",
+          "source_section": "Grammar > Prepositions and Case Markers > Basic Prepositions",
+          "page_number": "8",
+          "celan_term": "Nor",
+          "english_meaning": "At/in (time)",
+          "category": "Preposition",
+          "usage_context": "Nor-var I nor Varthas.",
+          "original_wording": "Nor At/in (time) Nor-var I nor Varthas.",
+          "canon_status": "Canon",
+          "notes": "Source preposition table row preserved as standalone lexicon entry.",
+          "related_entry_ids": "GR-V1-0018",
+          "relationship_type": "related usage; terminology overlap",
+          "potential_tension_id": "PT-V1-0004",
+          "review_status": "Needs Human Review",
+          "review_reason": "terminology overlap"
+        },
+        {
+          "entry_id": "LX-V2-0020",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Time & Mysticism",
+          "page_number": "4",
+          "celan_term": "Nor",
+          "english_meaning": "Time / Flow of Time",
+          "category": "Time & Mysticism",
+          "usage_context": "",
+          "original_wording": "Nor Time / Flow of Time",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved. Flagged for overlapping Volume 1/Volume 2 usage.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "PT-V2-0001",
+          "review_status": "Needs Human Review",
+          "review_reason": "terminology overlap"
+        },
+        {
+          "entry_id": "LX-V4-0100",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Nor",
+          "english_meaning": "Noun: Time, Flow of Time; Preposition: At/in (time)",
+          "category": "Polysemy Entry",
+          "usage_context": "The core noun for Time is also used as the preposition to mark a point in time. The core concept is temporality.",
+          "original_wording": "Nor / Noun: Time, Flow of Time / Preposition: At/in (time) / The core noun for Time is also used as the preposition to mark a point in time. The core concept is temporality.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "XR-nor",
+          "celan_term": "Nor",
+          "english_meaning": "Time; flow of events; temporality",
+          "category": "Root",
+          "usage_context": "Builds words for time, sequence, and temporal setting; also supports time-related grammatical extensions.",
+          "original_wording": "Root family evidence: nor, nor-ka, weknor",
+          "related_entry_ids": "RM-V1-0005; RM-V2-0036; RM-S3-0011",
+          "notes": "Canonical conceptual root",
+          "canon_status": "established_root"
+        }
+      ]
+    },
+    {
+      "term": "Esh",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Sky / Air",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0021",
+            "LX-V2-0006",
+            "LX-V2-0071",
+            "LX-V4-0110",
+            "XR-esh"
+          ]
+        },
+        {
+          "type": "Preposition",
+          "meaning": "Above / Over",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0021",
+            "LX-V2-0006",
+            "LX-V2-0071",
+            "LX-V4-0110",
+            "XR-esh"
+          ]
+        },
+        {
+          "type": "Suffix",
+          "meaning": "-esh (relational)",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V1-0021",
+            "LX-V2-0006",
+            "LX-V2-0071",
+            "LX-V4-0110",
+            "XR-esh"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V1-0021",
+          "source_volume": "Volume 1: Fundamentals",
+          "source_section": "Grammar > Prepositions and Case Markers > Basic Prepositions",
+          "page_number": "8",
+          "celan_term": "Esh",
+          "english_meaning": "Above, over",
+          "category": "Preposition",
+          "usage_context": "Var I esh dren.",
+          "original_wording": "Esh Above, over Var I esh dren.",
+          "canon_status": "Canon",
+          "notes": "Source preposition table row preserved as standalone lexicon entry.",
+          "related_entry_ids": "GR-V1-0018",
+          "relationship_type": "related usage",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V2-0006",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Nature",
+          "page_number": "3",
+          "celan_term": "Esh",
+          "english_meaning": "Sky / Air",
+          "category": "Nature",
+          "usage_context": "",
+          "original_wording": "Esh Sky / Air",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V2-0071",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Nature and Landscapes",
+          "page_number": "6-7",
+          "celan_term": "Esh",
+          "english_meaning": "Sky / Air",
+          "category": "Nature and Landscapes",
+          "usage_context": "",
+          "original_wording": "Esh Sky / Air",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V4-0110",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Esh",
+          "english_meaning": "Noun: Sky, Air; Preposition: Above, over; Suffix: -esh (Relational)",
+          "category": "Polysemy Entry",
+          "usage_context": "The relational suffix extends the sky/above sense to metaphorical connection.",
+          "original_wording": "Esh / Noun: Sky, Air / Preposition: Above, over / Suffix: -esh (Relational) / The relational suffix extends the sky/above sense to metaphorical connection.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "XR-esh",
+          "celan_term": "Esh",
+          "english_meaning": "Sky; air; mind; abstract thought",
+          "category": "Root",
+          "usage_context": "Builds words for sky, air, weather, birds, distance, and abstract or mental states.",
+          "original_wording": "Root family evidence: esh, eshlin, eshthael",
+          "related_entry_ids": "RM-V3-0010; RM-S3-0006",
+          "notes": "Canonical conceptual root",
+          "canon_status": "established_root"
+        }
+      ]
+    },
+    {
+      "term": "Terra",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Earth / Physical ground",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0001",
+            "LX-V2-0073",
+            "LX-V4-0108",
+            "XR-terra"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "The Heart of Terra / Mystical force",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0001",
+            "LX-V2-0073",
+            "LX-V4-0108",
+            "XR-terra"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0001",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Nature",
+          "page_number": "3",
+          "celan_term": "Terra",
+          "english_meaning": "Earth / The Heart of Terra",
+          "category": "Nature",
+          "usage_context": "",
+          "original_wording": "Terra Earth / The Heart of Terra",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V2-0073",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Nature and Landscapes",
+          "page_number": "6-7",
+          "celan_term": "Terra",
+          "english_meaning": "Earth / Ground",
+          "category": "Nature and Landscapes",
+          "usage_context": "",
+          "original_wording": "Terra Earth / Ground",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V4-0108",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Terra",
+          "english_meaning": "Noun: Earth (physical ground); Noun: The Heart of Terra (mystical force)",
+          "category": "Polysemy Entry",
+          "usage_context": "The physical world and mystical source are inseparable in Ohnoshan thought.",
+          "original_wording": "Terra / Noun: Earth (physical ground) / Noun: The Heart of Terra (mystical force) / The physical world and mystical source are inseparable in Ohnoshan thought.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "XR-terra",
+          "celan_term": "Terra",
+          "english_meaning": "The living world; spiritual earth entity",
+          "category": "Root",
+          "usage_context": "Anchors words to the living world, land, and sacred-earth concepts; often marks world-scale or homeland meanings.",
+          "original_wording": "Root family evidence: Terra, Terrashaneth, Terradren",
+          "related_entry_ids": "RM-S3-0007",
+          "notes": "Canonical conceptual root",
+          "canon_status": "established_root"
+        }
+      ]
+    },
+    {
+      "term": "Shal",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Light / New Beginnings / Fate",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0003",
+            "LX-V2-0069",
+            "LX-V4-0101",
+            "XR-shal"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "Hope",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0003",
+            "LX-V2-0069",
+            "LX-V4-0101",
+            "XR-shal"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0003",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Nature",
+          "page_number": "3",
+          "celan_term": "Shal",
+          "english_meaning": "Light",
+          "category": "Nature",
+          "usage_context": "",
+          "original_wording": "Shal Light",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V2-0069",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Nature and Landscapes",
+          "page_number": "6-7",
+          "celan_term": "Shal",
+          "english_meaning": "Light / Brightness",
+          "category": "Nature and Landscapes",
+          "usage_context": "",
+          "original_wording": "Shal Light / Brightness",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V4-0101",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Shal",
+          "english_meaning": "Noun: Light; Noun: New Beginnings, Fate; Verb (as To Hope)",
+          "category": "Polysemy Entry",
+          "usage_context": "In Celan philosophy, Light is the source of all positive, forward-moving concepts.",
+          "original_wording": "Shal / Noun: Light / Noun: New Beginnings, Fate / Verb (as To Hope) / In Celan philosophy, Light is the source of all positive, forward-moving concepts.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "XR-shal",
+          "celan_term": "Shal",
+          "english_meaning": "Light; hope; revelation; forward motion",
+          "category": "Root",
+          "usage_context": "Builds words for light, sight, hope, brilliance, and forward or revelatory motion.",
+          "original_wording": "Root family evidence: shal, shalaen, shalor",
+          "related_entry_ids": "RM-S3-0001",
+          "notes": "Canonical conceptual root",
+          "canon_status": "established_root"
+        }
+      ]
+    },
+    {
+      "term": "Krez",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Fire",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0004",
+            "LX-V2-0070",
+            "LX-V4-0105",
+            "XR-krez"
+          ]
+        },
+        {
+          "type": "Interjection",
+          "meaning": "Blast! / Damn!",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0004",
+            "LX-V2-0070",
+            "LX-V4-0105",
+            "XR-krez"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0004",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Nature",
+          "page_number": "3",
+          "celan_term": "Krez",
+          "english_meaning": "Fire",
+          "category": "Nature",
+          "usage_context": "",
+          "original_wording": "Krez Fire",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V2-0070",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Nature and Landscapes",
+          "page_number": "6-7",
+          "celan_term": "Krez",
+          "english_meaning": "Fire / Volcanic",
+          "category": "Nature and Landscapes",
+          "usage_context": "",
+          "original_wording": "Krez Fire / Volcanic",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V4-0105",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Krez",
+          "english_meaning": "Noun: Fire; Interjection: Blast! Damn!",
+          "category": "Polysemy Entry",
+          "usage_context": "Fire is invoked as an interjection for hot emotions like anger and frustration.",
+          "original_wording": "Krez / Noun: Fire / Interjection: Blast! Damn! / Fire is invoked as an interjection for hot emotions like anger and frustration.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "XR-krez",
+          "celan_term": "Krez",
+          "english_meaning": "Fire; heat; energy; purification",
+          "category": "Root",
+          "usage_context": "Builds words for fire, heat, intensity, anger, forging, and purification.",
+          "original_wording": "Root family evidence: krez, krezaen, krezor",
+          "related_entry_ids": "RM-S3-0003",
+          "notes": "Canonical conceptual root",
+          "canon_status": "established_root"
+        }
+      ]
+    },
+    {
+      "term": "Thar",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Heart",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0007",
+            "LX-V2-0057",
+            "LX-V4-0115",
+            "XR-thar"
+          ]
+        },
+        {
+          "type": "Modal",
+          "meaning": "Want to",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0007",
+            "LX-V2-0057",
+            "LX-V4-0115",
+            "XR-thar"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0007",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Nature",
+          "page_number": "3",
+          "celan_term": "Thar",
+          "english_meaning": "Heart (both literal and symbolic)",
+          "category": "Nature",
+          "usage_context": "",
+          "original_wording": "Thar Heart (both literal and symbolic)",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved. Flagged for overlapping Volume 1/Volume 2 usage.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "PT-V2-0008",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "LX-V2-0057",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Body",
+          "page_number": "5-6",
+          "celan_term": "Thar",
+          "english_meaning": "Heart",
+          "category": "Body",
+          "usage_context": "",
+          "original_wording": "Thar Heart",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved. Flagged for overlapping Volume 1/Volume 2 usage.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "PT-V2-0008",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "LX-V4-0115",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Thar",
+          "english_meaning": "Noun: Heart; Modal root (in Want to)",
+          "category": "Polysemy Entry",
+          "usage_context": "Heart is source of life and desire.",
+          "original_wording": "Thar / Noun: Heart / Modal root (in Want to) / Heart is source of life and desire.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "XR-thar",
+          "celan_term": "Thar",
+          "english_meaning": "Heart; will; emotional core of self",
+          "category": "Root",
+          "usage_context": "Builds words for heart, desire, longing, emotion, and the driving will of the self.",
+          "original_wording": "Root family evidence: thar, thar-ka, Morlathar",
+          "related_entry_ids": "RM-S3-0017",
+          "notes": "Canonical conceptual root",
+          "canon_status": "established_root"
+        }
+      ]
+    },
+    {
+      "term": "Vethor",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Shadow / Mystery",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0009",
+            "LX-V2-0067",
+            "LX-V4-0117"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "Sleep",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0009",
+            "LX-V2-0067",
+            "LX-V4-0117"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0009",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Nature",
+          "page_number": "3",
+          "celan_term": "Vethor",
+          "english_meaning": "Shadow / Mystery",
+          "category": "Nature",
+          "usage_context": "",
+          "original_wording": "Vethor Shadow / Mystery",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V2-0067",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Nature and Landscapes",
+          "page_number": "6-7",
+          "celan_term": "Vethor",
+          "english_meaning": "Shadow / Mystery",
+          "category": "Nature and Landscapes",
+          "usage_context": "",
+          "original_wording": "Vethor Shadow / Mystery",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V4-0117",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Vethor",
+          "english_meaning": "Noun: Shadow, Mystery; Verb (as To Sleep)",
+          "category": "Polysemy Entry",
+          "usage_context": "Sleep is entering the shadow/mystery.",
+          "original_wording": "Vethor / Noun: Shadow, Mystery / Verb (as To Sleep) / Sleep is entering the shadow/mystery.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        }
+      ]
+    },
+    {
+      "term": "Lian",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Truth / Honesty",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0026",
+            "LX-V2-0064",
+            "LX-V4-0114",
+            "XR-lian"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "Pray",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0026",
+            "LX-V2-0064",
+            "LX-V4-0114",
+            "XR-lian"
+          ]
+        },
+        {
+          "type": "Modal",
+          "meaning": "Can / Able to",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0026",
+            "LX-V2-0064",
+            "LX-V4-0114",
+            "XR-lian"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0026",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Time & Mysticism",
+          "page_number": "4",
+          "celan_term": "Lian",
+          "english_meaning": "Truth / Honesty",
+          "category": "Time & Mysticism",
+          "usage_context": "",
+          "original_wording": "Lian Truth / Honesty",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved. Flagged for overlapping Volume 1/Volume 2 usage.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "PT-V2-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "LX-V2-0064",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Everyday Life",
+          "page_number": "6",
+          "celan_term": "Lian",
+          "english_meaning": "Truth / Honesty",
+          "category": "Everyday Life",
+          "usage_context": "",
+          "original_wording": "Lian Truth / Honesty",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved. Flagged for overlapping Volume 1/Volume 2 usage.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "PT-V2-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "LX-V4-0114",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Lian",
+          "english_meaning": "Noun: Truth, Honesty; Verb (as To Pray); Modal (as Can/Able to)",
+          "category": "Polysemy Entry",
+          "usage_context": "Truth is foundation for prayer and ability.",
+          "original_wording": "Lian / Noun: Truth, Honesty / Verb (as To Pray) / Modal (as Can/Able to) / Truth is foundation for prayer and ability.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "XR-lian",
+          "celan_term": "Lian",
+          "english_meaning": "Truth; reality; natural law; genuine quality",
+          "category": "Root",
+          "usage_context": "Builds words for truth, prayer, reality, legitimacy, and what is held to be genuine.",
+          "original_wording": "Root family evidence: lian, lianaen, lianeth",
+          "related_entry_ids": "RM-S3-0008",
+          "notes": "Canonical conceptual root",
+          "canon_status": "established_root"
+        }
+      ]
+    },
+    {
+      "term": "Aen",
+      "displayed": [
+        {
+          "type": "Verb",
+          "meaning": "Speak / Tell / Breathe / Breath of Life",
+          "usage": "Formal/poetic use: deeper or ritual speaking. Use in rituals, court, formal address, writing, and when emphasizing depth. Combine with Li- / -en.",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0028",
+            "LX-V2-0062",
+            "LX-V3-0009",
+            "LX-V4-0102",
+            "DM-RM-V3-0005"
+          ]
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "That",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0028",
+            "LX-V2-0062",
+            "LX-V3-0009",
+            "LX-V4-0102",
+            "DM-RM-V3-0005"
+          ]
+        },
+        {
+          "type": "Suffix",
+          "meaning": "-aen (verb-forming)",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0028",
+            "LX-V2-0062",
+            "LX-V3-0009",
+            "LX-V4-0102",
+            "DM-RM-V3-0005"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0028",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Time & Mysticism",
+          "page_number": "4",
+          "celan_term": "Aen",
+          "english_meaning": "Speak / Tell / Breath of Life",
+          "category": "Time & Mysticism",
+          "usage_context": "",
+          "original_wording": "Aen Speak / Tell / Breath of Life",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved. Flagged for overlapping Volume 1/Volume 2 usage.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "PT-V2-0009",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "LX-V2-0062",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Everyday Life",
+          "page_number": "6",
+          "celan_term": "Aen",
+          "english_meaning": "Speak / Tell",
+          "category": "Everyday Life",
+          "usage_context": "",
+          "original_wording": "Aen Speak / Tell",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved. Flagged for overlapping Volume 1/Volume 2 usage.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "PT-V2-0009",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "LX-V3-0009",
+          "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+          "source_section": "Register Markers",
+          "page_number": "5",
+          "celan_term": "Aen",
+          "english_meaning": "To speak/tell - poetic/deep",
+          "category": "Formal Vocabulary",
+          "usage_context": "Use in rituals, court, formal address, writing, when emphasizing depth. Combine with Li- / -en.",
+          "original_wording": "Aen (To speak/tell - poetic/deep). Usage: Use in rituals, court, formal address, writing, when emphasizing depth. Combine with Li- / -en.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "PT-V3-0002",
+          "review_status": "Needs Human Review",
+          "review_reason": "terminology overlap"
+        },
+        {
+          "entry_id": "LX-V4-0102",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Aen",
+          "english_meaning": "Verb: Speak, Breathe; Complementizer: That; Suffix: -aen (verb-forming)",
+          "category": "Polysemy Entry",
+          "usage_context": "The root Aen signifies the breath of life, extending from speaking to the grammatical function of introducing a spoken clause.",
+          "original_wording": "Aen / Verb: Speak, Breathe / Complementizer: That / Suffix: -aen (verb-forming) / The root Aen signifies the breath of life, extending from speaking to the grammatical function of introducing a spoken clause.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "DM-RM-V3-0005",
+          "celan_term": "Aen",
+          "english_meaning": "Complementizer",
+          "category": "Marker",
+          "usage_context": "Original root/morpheme entry preserved.",
+          "original_wording": "Aen: Complementizer",
+          "related_entry_ids": "",
+          "notes": "Dictionary-layer entry surfaced from roots_and_morphology.csv.",
+          "canon_status": "Canon"
+        }
+      ]
+    },
+    {
+      "term": "Kal",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Strength / Power",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0031",
+            "LX-V4-0111",
+            "XR-kal"
+          ]
+        },
+        {
+          "type": "Adjective",
+          "meaning": "Strong",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0031",
+            "LX-V4-0111",
+            "XR-kal"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0031",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Strength & Empowerment",
+          "page_number": "4-5",
+          "celan_term": "Kal",
+          "english_meaning": "Strength / Power",
+          "category": "Strength & Empowerment",
+          "usage_context": "",
+          "original_wording": "Kal Strength / Power",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V4-0111",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Kal",
+          "english_meaning": "Noun: Strength, Power; Adjective (as Strong)",
+          "category": "Polysemy Entry",
+          "usage_context": "Strength is the root for the adjective describing that quality.",
+          "original_wording": "Kal / Noun: Strength, Power / Adjective (as Strong) / Strength is the root for the adjective describing that quality.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "XR-kal",
+          "celan_term": "Kal",
+          "english_meaning": "Power; strength; force; weight",
+          "category": "Root",
+          "usage_context": "Builds words for strength, force, weight, fortification, and physically or morally heavy power.",
+          "original_wording": "Root family evidence: kal, Kaleth, Serenkal",
+          "related_entry_ids": "RM-S3-0014",
+          "notes": "Canonical root family",
+          "canon_status": "established_root"
+        }
+      ]
+    },
+    {
+      "term": "Vaar",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Peace / Unity",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0037",
+            "LX-V2-0041",
+            "LX-V4-0113",
+            "XR-vaar"
+          ]
+        },
+        {
+          "type": "Adjective",
+          "meaning": "Good",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0037",
+            "LX-V2-0041",
+            "LX-V4-0113",
+            "XR-vaar"
+          ]
+        },
+        {
+          "type": "Interjection",
+          "meaning": "Relief / Phew",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0037",
+            "LX-V2-0041",
+            "LX-V4-0113",
+            "XR-vaar"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0037",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Community",
+          "page_number": "5",
+          "celan_term": "Vaar",
+          "english_meaning": "Peace / Unity",
+          "category": "Community",
+          "usage_context": "",
+          "original_wording": "Vaar Peace / Unity",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved. Flagged for overlapping Volume 1/Volume 2 usage.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "PT-V2-0006",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "LX-V2-0041",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Emotions",
+          "page_number": "5",
+          "celan_term": "Vaar",
+          "english_meaning": "Peace / Calm",
+          "category": "Emotions",
+          "usage_context": "",
+          "original_wording": "Vaar Peace / Calm",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved. Flagged for overlapping Volume 1/Volume 2 usage.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "PT-V2-0006",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "LX-V4-0113",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Vaar",
+          "english_meaning": "Noun: Peace, Unity; Interjection (as Relief); Adjective (as Good)",
+          "category": "Polysemy Entry",
+          "usage_context": "Peace/unity roots relief and goodness.",
+          "original_wording": "Vaar / Noun: Peace, Unity / Interjection (as Relief) / Adjective (as Good) / Peace/unity roots relief and goodness.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "XR-vaar",
+          "celan_term": "Vaar",
+          "english_meaning": "Peace; calm; relief; safety",
+          "category": "Root",
+          "usage_context": "Builds words for peace, relief, goodness, safety, and calm social or emotional states.",
+          "original_wording": "Root family evidence: Vaar, Vaareth, Vaarlor",
+          "related_entry_ids": "LX-V2-0037; LX-V4-0028; LX-V4-0073; LX-V2-0221",
+          "notes": "Promoted from productive lexical family",
+          "canon_status": "promoted_root"
+        }
+      ]
+    },
+    {
+      "term": "Fah",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Darkness / Fear / Night",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0043",
+            "LX-V4-0104",
+            "XR-fah"
+          ]
+        },
+        {
+          "type": "Interjection",
+          "meaning": "Ugh! / Bah!",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0043",
+            "LX-V4-0104",
+            "XR-fah"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0043",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Emotions",
+          "page_number": "5",
+          "celan_term": "Fah",
+          "english_meaning": "Darkness / Fear / Night",
+          "category": "Emotions",
+          "usage_context": "",
+          "original_wording": "Fah Darkness / Fear / Night",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V4-0104",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Fah",
+          "english_meaning": "Noun: Darkness, Fear, Night; Interjection: Ugh! Bah!",
+          "category": "Polysemy Entry",
+          "usage_context": "The core noun for a negative state is used as a visceral, emotional interjection.",
+          "original_wording": "Fah / Noun: Darkness, Fear, Night / Interjection: Ugh! Bah! / The core noun for a negative state is used as a visceral, emotional interjection.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "XR-fah",
+          "celan_term": "Fah",
+          "english_meaning": "Total darkness; void; fear; misfortune",
+          "category": "Root",
+          "usage_context": "Builds words for darkness, fear, grief, misfortune, and void-like states.",
+          "original_wording": "Root family evidence: fah, fahaen, faheth",
+          "related_entry_ids": "RM-S3-0002",
+          "notes": "Canonical conceptual root",
+          "canon_status": "established_root"
+        }
+      ]
+    },
+    {
+      "term": "Reth",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Confusion / Uncertainty",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0045",
+            "LX-V4-0077",
+            "LX-V4-0103"
+          ]
+        },
+        {
+          "type": "Conjunction",
+          "meaning": "Or",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0045",
+            "LX-V4-0077",
+            "LX-V4-0103"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0045",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Emotions",
+          "page_number": "5",
+          "celan_term": "Reth",
+          "english_meaning": "Confusion / Uncertainty",
+          "category": "Emotions",
+          "usage_context": "",
+          "original_wording": "Reth Confusion / Uncertainty",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V4-0077",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "The Living Lexicon > Section 3.7: Essential Conjunctions",
+          "page_number": "12",
+          "celan_term": "Reth",
+          "english_meaning": "Or",
+          "category": "Conjunction",
+          "usage_context": "Re-purposed from Reth (Uncertainty)",
+          "original_wording": "Reth / Re-purposed from Reth (Uncertainty) / Or / Ra drenaen Ya dren reth phelvin? (Do you drink water or the comfort-drink?)",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "GR-V4-0006; PE-V4-0083",
+          "relationship_type": "terminology overlap",
+          "potential_tension_id": "PT-V4-0007",
+          "review_status": "Needs Human Review",
+          "review_reason": "terminology overlap"
+        },
+        {
+          "entry_id": "LX-V4-0103",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Reth",
+          "english_meaning": "Noun: Confusion, Uncertainty; Conjunction: Or; Root (in Possibility)",
+          "category": "Polysemy Entry",
+          "usage_context": "The conjunction Or exists to present a choice between uncertain options.",
+          "original_wording": "Reth / Noun: Confusion, Uncertainty / Conjunction: Or / Root (in Possibility) / The conjunction Or exists to present a choice between uncertain options.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        }
+      ]
+    },
+    {
+      "term": "Aenor",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Ear",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0049",
+            "LX-V4-0081",
+            "LX-V4-0107"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "Moment / Instant",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0049",
+            "LX-V4-0081",
+            "LX-V4-0107"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0049",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Body",
+          "page_number": "5-6",
+          "celan_term": "Aenor",
+          "english_meaning": "Ear",
+          "category": "Body",
+          "usage_context": "",
+          "original_wording": "Aenor Ear",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V4-0081",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "The Living Lexicon > Section 3.10: A System of Measurement",
+          "page_number": "15-17",
+          "celan_term": "Aenor",
+          "english_meaning": "Moment, Instant",
+          "category": "Measurement Unit",
+          "usage_context": "Aen (Breath) + -or (time/place). The shortest unit of time, \"the space of a breath.\" (Context distinguishes from Aenor, ear).",
+          "original_wording": "Aenor / Aen (Breath) + -or (time/place) / Moment, Instant / The shortest unit of time, \"the space of a breath.\" (Context distinguishes from Aenor, ear). Example: Nor-var I an aenor. (I will go in a moment.)",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PE-V4-0087",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0008",
+          "review_status": "Needs Human Review",
+          "review_reason": "terminology overlap"
+        },
+        {
+          "entry_id": "LX-V4-0107",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Aenor",
+          "english_meaning": "Noun: Ear; Noun: Moment, Instant",
+          "category": "Polysemy Entry",
+          "usage_context": "A homonym. Context distinguishes them.",
+          "original_wording": "Aenor / Noun: Ear / Noun: Moment, Instant / A homonym. Context distinguishes them.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        }
+      ]
+    },
+    {
+      "term": "Dral",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Sky / Wonder / Heavens",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0058",
+            "LX-V4-0106",
+            "XR-dral"
+          ]
+        },
+        {
+          "type": "Interjection",
+          "meaning": "Wow! / Heavens!",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0058",
+            "LX-V4-0106",
+            "XR-dral"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0058",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Elements of Wonder",
+          "page_number": "6",
+          "celan_term": "Dral",
+          "english_meaning": "Sky / Wonder / The Heavens",
+          "category": "Elements of Wonder",
+          "usage_context": "",
+          "original_wording": "Dral Sky / Wonder / The Heavens",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V4-0106",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Dral",
+          "english_meaning": "Noun: Sky, Wonder, Heavens; Interjection: Wow! Heavens!",
+          "category": "Polysemy Entry",
+          "usage_context": "The concept of the Heavens is invoked to express awe, wonder, or surprise.",
+          "original_wording": "Dral / Noun: Sky, Wonder, Heavens / Interjection: Wow! Heavens! / The concept of the Heavens is invoked to express awe, wonder, or surprise.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "XR-dral",
+          "celan_term": "Dral",
+          "english_meaning": "The heavens; wonder; celestial awe",
+          "category": "Root",
+          "usage_context": "Builds words for heavens, awe, storms, rarity, and elevated or celestial wonder.",
+          "original_wording": "Root family evidence: Dral, Dralorim, Dralshaneth",
+          "related_entry_ids": "LX-V2-0058; LX-V2-0205; LX-V3-0113",
+          "notes": "Promoted from productive lexical family",
+          "canon_status": "promoted_root"
+        }
+      ]
+    },
+    {
+      "term": "Tal",
+      "displayed": [
+        {
+          "type": "Verb",
+          "meaning": "Give / Offer",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0061",
+            "LX-V4-0116",
+            "XR-tal"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "Take / Receive",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0061",
+            "LX-V4-0116",
+            "XR-tal"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0061",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Everyday Life",
+          "page_number": "6",
+          "celan_term": "Tal",
+          "english_meaning": "Give / Offer",
+          "category": "Everyday Life",
+          "usage_context": "",
+          "original_wording": "Tal Give / Offer",
+          "canon_status": "Canon",
+          "notes": "Original vocabulary table row preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V4-0116",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Tal",
+          "english_meaning": "Verb: Give, Offer; Verb: To Take, Receive",
+          "category": "Polysemy Entry",
+          "usage_context": "Context and prepositions determine exchange direction.",
+          "original_wording": "Tal / Verb: Give, Offer / Verb: To Take, Receive / Context and prepositions determine exchange direction.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "XR-tal",
+          "celan_term": "Tal",
+          "english_meaning": "Exchange; transfer; giving or taking",
+          "category": "Root",
+          "usage_context": "Builds words for giving, taking, offering, transfer, and exchange of objects or intent.",
+          "original_wording": "Root family evidence: Tal, Talrin, Talaen",
+          "related_entry_ids": "LX-V2-0061; LX-V2-0134; LX-V3-0088",
+          "notes": "Promoted from productive lexical family",
+          "canon_status": "promoted_root"
+        }
+      ]
+    },
+    {
+      "term": "Belar",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "A blending spice; a seasoning used primarily to unite, balance, or mellow several flavors in a dish",
+          "usage": "The source gloss “Binding spice” is preserved and clarified by culinary function.",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0096"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0096",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Expanded Vocabulary",
+          "page_number": "8-10",
+          "celan_term": "Belar",
+          "english_meaning": "Binding spice",
+          "category": "Expanded Vocabulary",
+          "usage_context": "Bel + ar = intensity",
+          "original_wording": "Example: Belar (\"Binding spice\"; Bel + ar = intensity).",
+          "canon_status": "Canon",
+          "notes": "Original table/list entry preserved.",
+          "related_entry_ids": "RM-V2-0003; PE-V2-0009",
+          "relationship_type": "related usage",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        }
+      ]
+    },
+    {
+      "term": "Jekvor",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "A spiraling spice; a seasoning recognizable by a curled, coiled, or twisted physical form",
+          "usage": "The source gloss “Spiraling spice” is preserved and clarified by physical form.",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0107"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0107",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Expanded Vocabulary",
+          "page_number": "8-10",
+          "celan_term": "Jekvor",
+          "english_meaning": "Spiraling spice",
+          "category": "Expanded Vocabulary",
+          "usage_context": "Jek + vor = place",
+          "original_wording": "Example: Jekvor (\"Spiraling spice\"; Jek + vor = place).",
+          "canon_status": "Canon",
+          "notes": "Original table/list entry preserved.",
+          "related_entry_ids": "RM-V2-0012; PE-V2-0020",
+          "relationship_type": "related usage",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        }
+      ]
+    },
+    {
+      "term": "Jelvor",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "A zesty spice; a seasoning distinguished by a bright, sharp, lively flavor",
+          "usage": "The source gloss “Zesty spice” is preserved and clarified by flavor.",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0108"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0108",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Expanded Vocabulary",
+          "page_number": "8-10",
+          "celan_term": "Jelvor",
+          "english_meaning": "Zesty spice",
+          "category": "Expanded Vocabulary",
+          "usage_context": "Jel + vor = location",
+          "original_wording": "Example: Jelvor (\"Zesty spice\"; Jel + vor = location).",
+          "canon_status": "Canon",
+          "notes": "Original table/list entry preserved.",
+          "related_entry_ids": "RM-V2-0013; PE-V2-0021",
+          "relationship_type": "related usage",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        }
+      ]
+    },
+    {
+      "term": "Xilvar",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "A hidden spice; a seasoning or blend whose composition or preparation is deliberately concealed",
+          "usage": "The source gloss “Hidden spice” is preserved and clarified by concealed composition or preparation.",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0114",
+            "LX-V2-0160"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "Fragmented Salt",
+          "usage": "The separate established salt sense remains unchanged.",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0114",
+            "LX-V2-0160"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0114",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Vocabulary > Expanded Vocabulary",
+          "page_number": "8-10",
+          "celan_term": "Xilvar",
+          "english_meaning": "Hidden spice",
+          "category": "Expanded Vocabulary",
+          "usage_context": "Xil + var = essence",
+          "original_wording": "Example: Xilvar (\"Hidden spice\"; Xil + var = essence).",
+          "canon_status": "Canon",
+          "notes": "Original table/list entry preserved.",
+          "related_entry_ids": "RM-V2-0018; PE-V2-0027",
+          "relationship_type": "related usage",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V2-0160",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Food Vocabulary > Specialty Ingredients",
+          "page_number": "15",
+          "celan_term": "Xilvar",
+          "english_meaning": "Fragmented Salt",
+          "category": "Specialty Ingredients",
+          "usage_context": "Xil + var = shard of substance",
+          "original_wording": "Xilvar: Fragmented Salt (Xil + var = shard of substance)",
+          "canon_status": "Canon",
+          "notes": "Original table/list entry preserved.",
+          "related_entry_ids": "PE-V2-0065",
+          "relationship_type": "related usage",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        }
+      ]
+    },
+    {
+      "term": "Belmor",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "A root spice; a seasoning made from the root or rhizome of a plant",
+          "usage": "The source gloss “Root Spice” is preserved and clarified by botanical source.",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V2-0159"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V2-0159",
+          "source_volume": "Volume 2: Dictionary and Word Formation",
+          "source_section": "Food Vocabulary > Specialty Ingredients",
+          "page_number": "15",
+          "celan_term": "Belmor",
+          "english_meaning": "Root Spice",
+          "category": "Specialty Ingredients",
+          "usage_context": "Bel + mor = binding earth",
+          "original_wording": "Belmor: Root Spice (Bel + mor = binding earth)",
+          "canon_status": "Canon",
+          "notes": "Original table/list entry preserved.",
+          "related_entry_ids": "PE-V2-0064",
+          "relationship_type": "related usage",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        }
+      ]
+    },
+    {
+      "term": "Kel",
+      "displayed": [
+        {
+          "type": "Verb",
+          "meaning": "Say / Talk (informal)",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V3-0012",
+            "LX-V4-0121",
+            "LX-SCP1-0001",
+            "XR-kel"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "Name",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V3-0012",
+            "LX-V4-0121",
+            "LX-SCP1-0001",
+            "XR-kel"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "Word",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V3-0012",
+            "LX-V4-0121",
+            "LX-SCP1-0001",
+            "XR-kel"
+          ]
+        },
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "A text; a connected body of written or encoded words rather than information or data generally",
+          "usage": "",
+          "sourceEntries": [
+            "LX-SCP1-0001"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V3-0012",
+          "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+          "source_section": "Register Markers",
+          "page_number": "5",
+          "celan_term": "Kel",
+          "english_meaning": "To say/talk/tell - direct",
+          "category": "Informal Vocabulary",
+          "usage_context": "Use in casual conversation, between friends/family, marketplaces. Avoid Li- / -en unless context requires politeness.",
+          "original_wording": "Kel (To say/talk/tell - direct). Usage: Use in casual conversation, between friends/family, marketplaces. Avoid Li- / -en unless context requires politeness.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "",
+          "relationship_type": "",
+          "potential_tension_id": "",
+          "review_status": "Approved",
+          "review_reason": ""
+        },
+        {
+          "entry_id": "LX-V4-0121",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Kel",
+          "english_meaning": "Verb: To say/talk (informal); Noun (as Name); Noun (as Word)",
+          "category": "Polysemy Entry",
+          "usage_context": "Saying is foundation for name and word.",
+          "original_wording": "Kel / Verb: To say/talk (informal) / Noun (as Name) / Noun (as Word) / Saying is foundation for name and word.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "LX-SCP1-0001",
+          "celan_term": "Kel",
+          "pronunciation": "/kehl/",
+          "english_meaning": "A text; a connected body of written or encoded words rather than information or data generally",
+          "category": "Noun",
+          "derivation": "Established Kel word or speech extended to language stabilized as a connected written body",
+          "origin_nation": "",
+          "national_usage": "",
+          "variant_forms": "",
+          "variant_pronunciations": "",
+          "canon_status": "Canon",
+          "approval_batch": "Semantic Continuity and Polysemy 1",
+          "notes": "Approved additive displayed sense; preserves say or talk name and word and does not authorize generic information or data.",
+          "related_entry_ids": "PE-SCP1-0001; PE-SCP1-0002"
+        },
+        {
+          "entry_id": "XR-kel",
+          "celan_term": "Kel",
+          "english_meaning": "Speech; naming; definition",
+          "category": "Root",
+          "usage_context": "Builds words for speech, naming, spoken definition, and reality shaped through language.",
+          "original_wording": "Root family evidence: kel, kelrin, kelka",
+          "related_entry_ids": "RM-S3-0027",
+          "notes": "Canonical conceptual root",
+          "canon_status": "established_root"
+        }
+      ]
+    },
+    {
+      "term": "Shen",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Coinage / Currency",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0085",
+            "LX-V4-0123",
+            "XR-shen"
+          ]
+        },
+        {
+          "type": "Measure",
+          "meaning": "Unit of weight / measure",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0085",
+            "LX-V4-0123",
+            "XR-shen"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V4-0085",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "The Living Lexicon > Section 3.10: A System of Measurement",
+          "page_number": "15-17",
+          "celan_term": "Shen",
+          "english_meaning": "Measure",
+          "category": "Measurement Unit",
+          "usage_context": "Shortened from Shenakar (Coinage). A small, standard measure for trade, like a handful of grain.",
+          "original_wording": "Shen / Shortened from Shenakar (Coinage) / Measure / A small, standard measure for trade, like a handful of grain. Example: Tal I peth shen morlak. (I give five measures of grain.)",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PE-V4-0091",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0008",
+          "review_status": "Needs Human Review",
+          "review_reason": "terminology overlap"
+        },
+        {
+          "entry_id": "LX-V4-0123",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Shen",
+          "english_meaning": "Noun (from Coinage); Unit of weight: Measure",
+          "category": "Polysemy Entry",
+          "usage_context": "Currency gives name to measured trade.",
+          "original_wording": "Shen / Noun (from Coinage) / Unit of weight: Measure / Currency gives name to measured trade.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "XR-shen",
+          "celan_term": "Shen",
+          "english_meaning": "Measure; counted value; assigned worth",
+          "category": "Root",
+          "usage_context": "Builds words for measure, price, coined value, and negotiated worth in trade contexts.",
+          "original_wording": "Root family evidence: Shen, Belshen, Thalaneshen",
+          "related_entry_ids": "LX-V4-0085; LX-V2-0137; LX-V2-0139",
+          "notes": "Promoted from trade and measure family",
+          "canon_status": "promoted_root"
+        }
+      ]
+    },
+    {
+      "term": "Kor",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Source / Strength",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0118",
+            "LX-SRD1-0003",
+            "XR-kor"
+          ]
+        },
+        {
+          "type": "Measure",
+          "meaning": "Unit of length / handspan measure",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0118",
+            "LX-SRD1-0003",
+            "XR-kor"
+          ]
+        },
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Center or middle; the central position or region within a bounded whole",
+          "usage": "",
+          "sourceEntries": [
+            "LX-SRD1-0003"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V4-0118",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Kor",
+          "english_meaning": "Root: Source, Strength; Unit of length (from Handspan)",
+          "category": "Polysemy Entry",
+          "usage_context": "Korin hand is source of making/action, becoming measure.",
+          "original_wording": "Kor / Root: Source, Strength / Unit of length (from Handspan) / Korin hand is source of making/action, becoming measure.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "LX-SRD1-0003",
+          "celan_term": "Kor",
+          "pronunciation": "/kohr/",
+          "english_meaning": "Center or middle; the central position or region within a bounded whole",
+          "category": "Noun",
+          "derivation": "Existing Kor core source or origin point extended spatially",
+          "origin_nation": "",
+          "national_usage": "",
+          "variant_forms": "",
+          "variant_pronunciations": "",
+          "canon_status": "Canon",
+          "approval_batch": "Spatial Reference and Deixis 1",
+          "notes": "Approved additive displayed sense; preserves the established source strength and handspan-measure senses under ED-0030.",
+          "related_entry_ids": "PE-SRD1-0005; PE-SRD1-0006"
+        },
+        {
+          "entry_id": "XR-kor",
+          "celan_term": "Kor",
+          "english_meaning": "Core; source; origin point; grip",
+          "category": "Root",
+          "usage_context": "Builds words for source, core, grip, hand-use, and places or objects defined by central function.",
+          "original_wording": "Root family evidence: Korin, Shalkor, Drenkorath",
+          "related_entry_ids": "LX-V2-0054; LX-V4-0019; LX-V3-0119",
+          "notes": "Promoted from productive lexical family",
+          "canon_status": "promoted_root"
+        }
+      ]
+    },
+    {
+      "term": "Pral",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Table",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0119",
+            "XR-pral",
+            "DM-RM-V2-0010"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "Make",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0119",
+            "XR-pral",
+            "DM-RM-V2-0010"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "Intricacy / Detail",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0119",
+            "XR-pral",
+            "DM-RM-V2-0010"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V4-0119",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Pral",
+          "english_meaning": "Root: Intricacy, Detail; Noun (as Table); Verb (as To Make)",
+          "category": "Polysemy Entry",
+          "usage_context": "Skilled work gives rise to place for work and act of doing it.",
+          "original_wording": "Pral / Root: Intricacy, Detail / Noun (as Table) / Verb (as To Make) / Skilled work gives rise to place for work and act of doing it.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "XR-pral",
+          "celan_term": "Pral",
+          "english_meaning": "Intricacy; detail; skilled craftsmanship",
+          "category": "Root",
+          "usage_context": "Builds words for craft, fine detail, deliberate making, and skilled intricate work.",
+          "original_wording": "Root family evidence: pralaen, pralor, pralmor",
+          "related_entry_ids": "RM-V2-0010",
+          "notes": "Canonical root family",
+          "canon_status": "established_root"
+        },
+        {
+          "entry_id": "DM-RM-V2-0010",
+          "celan_term": "Pral",
+          "english_meaning": "Intricacy or detail (symbolizing small, delicate work).",
+          "category": "Root",
+          "usage_context": "Original expanded vocabulary root preserved.",
+          "original_wording": "Pral: Intricacy or detail (symbolizing small, delicate work).",
+          "related_entry_ids": "",
+          "notes": "Dictionary-layer entry surfaced from roots_and_morphology.csv.",
+          "canon_status": "Canon"
+        }
+      ]
+    },
+    {
+      "term": "Vok",
+      "displayed": [
+        {
+          "type": "Noun",
+          "meaning": "Unity / Bond",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0120",
+            "XR-vok"
+          ]
+        },
+        {
+          "type": "Verb",
+          "meaning": "Betray",
+          "rootWord": false,
+          "sourceEntries": [
+            "LX-V4-0120",
+            "XR-vok"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "LX-V4-0120",
+          "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+          "source_section": "Section 3.12: The Fluidity of Meaning: Polysemy and Context in Celan",
+          "page_number": "19-25",
+          "celan_term": "Vok",
+          "english_meaning": "Root: Unity, Bond; Verb (as To Betray)",
+          "category": "Polysemy Entry",
+          "usage_context": "Unity roots the verb describing its violation.",
+          "original_wording": "Vok / Root: Unity, Bond / Verb (as To Betray) / Unity roots the verb describing its violation.",
+          "canon_status": "Canon",
+          "notes": "Original term entry preserved.",
+          "related_entry_ids": "PT-V4-0010",
+          "relationship_type": "related usage",
+          "potential_tension_id": "PT-V4-0010",
+          "review_status": "Needs Human Review",
+          "review_reason": "contextual meaning overlap"
+        },
+        {
+          "entry_id": "XR-vok",
+          "celan_term": "Vok",
+          "english_meaning": "Unity; formal bond; bond-state",
+          "category": "Root",
+          "usage_context": "Builds words for unity, bonding, alliance, partnership, and formal togetherness.",
+          "original_wording": "Root family evidence: vok, vokaen, rethvok",
+          "related_entry_ids": "RM-S3-0022",
+          "notes": "Canonical conceptual root",
+          "canon_status": "established_root"
+        }
+      ]
+    },
+    {
+      "term": "-eth",
+      "displayed": [
+        {
+          "type": "Adjective",
+          "meaning": "Suffix that marks inherent quality or essential manifestation",
+          "usage": "Common adjectival examples: Shal -> Shaleth, Wor -> Woreth, Gorm -> Gormeth, Kal -> Kaleth.",
+          "rootWord": false,
+          "sourceEntries": [
+            "DM-RM-V4-0001"
+          ]
+        },
+        {
+          "type": "Noun",
+          "meaning": "Also used for abstract or ritual nouns",
+          "usage": "Ritual/nominal examples: Shal'taleth, Aen'Moreth.",
+          "rootWord": false,
+          "sourceEntries": [
+            "DM-RM-V4-0001"
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "entry_id": "DM-RM-V4-0001",
+          "celan_term": "-eth",
+          "english_meaning": "denote the inherent quality or essential manifestation of a root word",
+          "category": "Suffix",
+          "usage_context": "Original root/morpheme entry preserved.",
+          "original_wording": "The core concept of -eth is to denote the inherent quality or essential manifestation of a root word.",
+          "related_entry_ids": "GR-V4-0001; RM-V3-0008",
+          "notes": "Dictionary-layer entry surfaced from roots_and_morphology.csv.",
+          "canon_status": "Canon"
+        }
+      ]
+    }
+  ],
+  "empty": []
+}

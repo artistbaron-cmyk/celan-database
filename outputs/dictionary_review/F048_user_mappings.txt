@@ -1,0 +1,71 @@
+Complete Corrected Database Mappings
+Group 1: The "Resting" Sentences (Fixing nor 
+→
+→
+ Nethaen ... an)
+Entry ID	Broken Legacy	Corrected Celan (VSO)	Literal Gloss	English Translation
+PE-V2-0009	Belar nor dren.	Nethaen belar an dren.	Rests spice at water.	The binding spice rests by the water.
+PE-V2-0013	Phelvin nor dren.	Nethaen phelvin an dren.	Rests comfort-drink at water.	The comforting drink rests by the water.
+PE-V2-0015	Pelvar nor dren.	Nethaen pelvar an dren.	Rests sharp-grain at water.	The sharp grain rests by the water.
+PE-V2-0020	Jekvor nor dren.	Nethaen jekvor an dren.	Rests spiral-spice at water.	The spiraling spice rests by the water.
+PE-V2-0022	Jindral nor dren.	Nethaen jindral an dren.	Rests rare-fruit at water.	The rare fruit rests by the water.
+PE-V2-0025	Weknor nor dren.	Nethaen weknor an dren.	Rests cyclical-time at water.	The cyclical time rests by the water.
+PE-V2-0027	Xilvar nor dren.	Nethaen xilvar an dren.	Rests hidden-spice at water.	The hidden spice rests by the water.
+PE-V2-0028	Xarvel nor dren.	Nethaen xarvel an dren.	Rests covered-meal at water.	The covered meal rests by the water.
+PE-V2-0029	Ohmbaen nor dren.	Nethaen ohmbaen an dren.	Rests beloved at water.	The beloved rests near the water.
+PE-V2-0034	Nkural nor dren ser Ilan.	Nethaen nkural an dren ser Ilan.	Rests mentor at water with student.	The mentor rests by the water with the student.
+PE-V2-0052	Morlak nor dren.	Nethaen morlak an dren.	Rests bread at water.	The bread rests by the water.
+PE-V2-0056	Pelvar nor dren thal shal.	Nethaen pelvar an dren morl shal.	Rests sharp-grain at water under light.	The sharp grain rests by the water under the light.
+PE-V2-0061	Xarvel nor dren.	Nethaen xarvel an dren.	Rests veiled-meal at water.	The veiled meal rests by the water.
+PE-V2-0063	Jekvin nor dren.	Nethaen jekvin an dren.	Rests spiral-herb at water.	The spiral herb rests by the water.
+PE-V2-0066	Vethhar nor dren.	Nethaen vethhar an dren.	Rests shadowspice at water.	The shadowspice rests by the water.
+PE-V2-0068	Velithor nor dren.	Nethaen velithor an dren.	Rests ale at water.	The ale rests by the water.
+PE-V2-0071	Jorvilor nor dren.	Nethaen jorvilor an dren.	Rests drink at water.	The drink rests by the water.
+PE-V2-0080	Jorvalin nor dren.	Nethaen jorvalin an dren.	Rests effervescent-drink at water.	The effervescent beverage rests by the water.
+PE-V2-0082	Eshtenor nor dren.	Nethaen eshtenor an dren.	Rests seaweed at water.	The glowing seaweed rests by the water.
+PE-V2-0084	Felorin nor dren.	Nethaen felorin an dren.	Rests berries at water.	The berries rest by the water.
+PE-V2-0088	Welvinor nor dren.	Nethaen welvinor an dren.	Rests mead at water.	The flowing mead rests by the water.
+PE-V2-0091	Voktarin nor dren.	Nethaen voktarin an dren.	Rests dates at water.	The preserved dates rest by the water.
+PE-V2-0096	Xarlorin nor dren.	Nethaen xarlorin an dren.	Rests tea at water.	The tea rests by the water.
+PE-V2-0100	Xilbren nor dren.	Nethaen xilbren an dren.	Rests grain-cake at water.	The grain cake rests by the water.
+PE-V2-0101	Drenkor nor dren.	Nethaen drenkor an dren.	Rests oasis-bread at water.	The oasis bread rests by the water.
+PE-V2-0103	Shalorin nor dren.	Nethaen shalorin an dren.	Rests sweet-fruit at water.	The sweet fruit rests by the water.
+PE-V2-0106	Velkrin nor dren.	Nethaen velkrin an dren.	Rests fermented-drink at water.	The fermented drink rests by the water.
+PE-V3-0038	Tavojorin shalil nor dren an Belvok.	Nethaen tavojorin an dren ser Belvok.	Rests parent-in-law at water with family.	The parent-in-law rests with the family by the water.
+PE-V3-0043	Felvin nor dren an Tavan.	Nethaen felvin an dren ser Tavan.	Rests niece/nephew at water with parent.	The niece/nephew rests with the parent by the water.
+Group 2: The "Flowing" Sentences (Fixing shal / nor / var 
+→
+→
+ Shalilaen ...)
+Entry ID	Broken Legacy	Corrected Celan (VSO)	Literal Gloss	English Translation
+PE-V1-0007	Azron nor shal.	Shalilaen azron ser shal.	Flows woman with light.	The woman flows with the light.
+PE-V2-0016	Peldren var shal.	Shalilaen peldren morl shal.	Flows piercing-water under light.	The piercing water flows under the light.
+PE-V2-0018	Jorlin shal dren.	Shalilaen jorlin an shal.	Flows bursting-water by light.	The bursting water flows by the light.
+PE-V2-0032	Nkuvath shal dren ser serathrin.	Shalilaen nkuvath var serathrin.	Flows bond toward confidant.	The bond flows to the confidant.
+PE-V2-0036	Tlakhura shal dren ser Zhivor.	Shalilaen tlakhura ser Zhivor.	Flows bond with family.	A bond flows with the family.
+PE-V2-0059	Lorlivok shal dren.	Shalilaen lorlivok an dren.	Flows earthbake by water.	The earthbake flows by the water.
+PE-V2-0065	Xilvar shal dren.	Shalilaen xilvar an dren.	Flows salt lightly by water.	The salt flows lightly by the water.
+PE-V2-0067	Phelvin shal dren.	Shalilaen phelvin an dren.	Flows comforting-drink by water.	The comforting drink flows by the water.
+PE-V2-0069	Tenarorin shal dren.	Shalilaen tenarorin an dren.	Flows glowing-wine by water.	The glowing wine flows by the water.
+PE-V2-0075	Tenarorin shal dren nor shal.	Shalilaen tenarorin an dren morl shal.	Flows glowing-wine by water under light.	The glowing wine flows under the light by the water.
+PE-V2-0094	Eshvilor shal dren.	Shalilaen eshvilor ser dren.	Flows snowberry-wine with water.	The snowberry wine flows lightly with the water.
+PE-V2-0099	Velkorin shal dren.	Shalilaen velkorin an dren.	Flows ration lightly by water.	The ration flows lightly by the water.
+PE-V2-0108	Pralvinor shal dren.	Shalilaen pralvinor an dren.	Flows mead lightly by water.	The mead flows lightly by the water.
+PE-V2-0115	Dralorim nor dren thal shal.	Shalilaen dralorim ser dren morl shal.	Flows storm with water under light.	The storm flows with the water under the light.
+Group 3: The "Sharing" Sentences (Fixing ser 
+→
+→
+ Welaen ...)
+Entry ID	Broken Legacy	Corrected Celan (VSO)	Literal Gloss	English Translation
+PE-V2-0023	Welrim ser dren an Serin.	Welaen welrim ser dren ser Serin.	Shares feast with water with friends.	The feast is shared with friends and water.
+PE-V2-0057	Jorvak ser dren.	Welaen jorvak an dren.	Shares bursting-stew at water.	The bursting stew is shared by the water.
+PE-V2-0072	Morlak an Jorvak ser dren.	Welaen morlak ser jorvak an dren.	Shares bread and stew at water.	The bread and stew are shared by the water.
+PE-V2-0079	Phelrin ser dren.	Welaen phelrin ser dren.	Shares comfort-food with water.	The comforting food is shared with water.
+PE-V2-0083	Jekvarin ser dren.	Welaen jekvarin an dren.	Shares shellfish at water.	The shellfish is shared by the water.
+PE-V2-0086	Terafennil ser dren an Teremil.	Welaen terafennil ser dren an teremil.	Shares herb-stew with water at home.	The herb stew is shared with water at home.
+PE-V2-0102	Vethsoril ser dren.	Welaen vethsoril ser dren.	Shares stew with water.	The stew is shared with water.
+Group 4: The One Sentence That Was Already Correct
+PE-UHEI1-0035:
+Legacy: ver rinaen ravohm nor neth.
+Literal: ver [NOT] rinaen [is] ravohm [loneliness] nor neth [during rest].
+Status: Keep exactly as is. This sentence was flagged only because it contained the word nor, but it uses nor correctly as a temporal preposition (during/at time of rest) and already follows strict VSO.

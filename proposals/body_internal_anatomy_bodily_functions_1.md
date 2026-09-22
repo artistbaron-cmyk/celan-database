@@ -1,6 +1,6 @@
 # Celan Proposal: Body, Internal Anatomy, and Ordinary Bodily Functions — Batch 1
 
-**Status:** Proposed; not approved and not canonical  
+**Status:** Approved and integrated into canon on 2026-09-15 (ED-0033)
 **Scope:** Universal Celan  
 **Proposed package:** 44 headwords  
 **Origin nation:** None; all proposed forms are universal  

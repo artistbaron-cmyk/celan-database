@@ -1,0 +1,34 @@
+{
+  "flag": "F016",
+  "title": "Ven — Subtraction marker meaning minus/subtract",
+  "status": "Applied locally",
+  "summary": "Applied the approved word labels and preserved the other established meanings.",
+  "followups": [],
+  "user_response": {
+    "id": "F016",
+    "status": "edited",
+    "text": "Approve a label as Particle",
+    "notes": "",
+    "updatedAt": "2026-09-22T13:13:30.601Z",
+    "title": "Ven — Subtraction marker meaning minus/subtract",
+    "originalSuggestion": "Approve a label such as Particle or Math Marker."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Ven",
+      "senses": [
+        {
+          "type": "Particle",
+          "meaning": "Subtraction marker meaning minus/subtract",
+          "usage": "Corrected to match the actual subtraction pattern used elsewhere in the canon data.",
+          "rootWord": false,
+          "sourceEntries": [
+            "DM-RM-V3-0019"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

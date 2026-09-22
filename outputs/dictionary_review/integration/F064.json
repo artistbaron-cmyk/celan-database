@@ -1,0 +1,19 @@
+{
+  "flag": "F064",
+  "title": "thaar appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Thaar resolves to the existing Thar entry as an approved regional spelling.",
+  "followups": [],
+  "user_response": {
+    "id": "F064",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Thaar / thaar (/thahr/) — Noun (Regional Variant): Heart / Emotional core\nEtymology: Arvan regional phonetic lengthening of Thar (heart).\nAttested In: PE-V3-0081 (\"The stars guide the heart\").\nApp Entry: Noun: Heart / Emotional core (Regional variant of Thar)",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:38:12.262Z",
+    "title": "thaar appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [],
+  "added_entry": null
+}

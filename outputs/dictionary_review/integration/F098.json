@@ -1,0 +1,34 @@
+{
+  "flag": "F098",
+  "title": "Verb relatives can be crowded out by the shared ending",
+  "status": "Applied locally",
+  "summary": "Related words are drawn from meaningful roots, with shared affixes separated.",
+  "followups": [],
+  "user_response": {
+    "id": "F098",
+    "status": "approved",
+    "text": "Prioritize the meaningful roots and show shared-suffix relationships separately.",
+    "notes": "",
+    "updatedAt": "2026-09-22T17:46:40.106Z",
+    "title": "Verb relatives can be crowded out by the shared ending",
+    "originalSuggestion": "Prioritize the meaningful roots and show shared-suffix relationships separately."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Drenpralaen",
+      "senses": [
+        {
+          "type": "Verb",
+          "rootWord": false,
+          "meaning": "To brew; to prepare a drink by steeping, heating, fermenting, or a deliberate combination of those processes",
+          "usage": "",
+          "sourceEntries": [
+            "LX-FAP2-0018"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

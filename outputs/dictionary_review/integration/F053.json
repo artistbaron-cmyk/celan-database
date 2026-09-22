@@ -1,0 +1,55 @@
+{
+  "flag": "F053",
+  "title": "varan appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Varan as a locative-stative verb; -al remains the universal continuous suffix.",
+  "followups": [
+    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+  ],
+  "user_response": {
+    "id": "F053",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. varan (/vah-rahn/) — Verb (Progressive / Continuous): Going, moving, traveling, residing\nDerivation: Built from the verb root Var (go/move) + progressive suffix -an.\nExample: Varan I an Varthas. (\"I am going to / residing in the city.\")",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:10:07.141Z",
+    "title": "varan appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "varan",
+      "senses": [
+        {
+          "type": "Verb",
+          "rootWord": false,
+          "meaning": "To reside / To stay / To be located at a physical place",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0003"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F053",
+    "entry": {
+      "entry_id": "LX-DR1-0003",
+      "celan_term": "Varan",
+      "pronunciation": "/vah-rahn/",
+      "english_meaning": "To reside / To stay / To be located at a physical place",
+      "category": "Verb",
+      "derivation": "Var movement + An location; specialized locative-stative form, not continuous -al.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F053. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V1-0035"
+    },
+    "example_count": 1
+  }
+}

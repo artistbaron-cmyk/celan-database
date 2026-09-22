@@ -1,0 +1,125 @@
+{
+  "flag": "F042",
+  "title": "A carrier is translated as a tool",
+  "status": "Applied locally",
+  "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+  "followups": [],
+  "user_response": {
+    "id": "F042",
+    "status": "edited",
+    "text": "replace \"tool\" with \"carrier\"",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:35:02.728Z",
+    "title": "A carrier is translated as a tool",
+    "originalSuggestion": "Clarify the object or revise the example wording."
+  },
+  "example_changes": [
+    {
+      "flag": "F042",
+      "entry_id": "PE-GMMP1-0003",
+      "before": {
+        "entry_id": "PE-GMMP1-0003",
+        "source_volume": "General Magic and Metaphysical Practice 1",
+        "source_section": "Common Celan > magic and metaphysical-practice scenes",
+        "page_number": "",
+        "celan_text": "rinaen vek kaarueth; aruaen seren an shalor.",
+        "translation": "The tool is nonmagical; the guardian practices magic in the sanctuary.",
+        "example_type": "Expansion example",
+        "analysis": "Connected scene tests two approved magic or metaphysical-practice headwords in ordinary or technical use.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F035: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-GMMP1-0003; LX-GMMP1-0004",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-GMMP1-0003",
+        "source_volume": "General Magic and Metaphysical Practice 1",
+        "source_section": "Common Celan > magic and metaphysical-practice scenes",
+        "page_number": "",
+        "celan_text": "rinaen vek kaarueth; aruaen seren an shalor.",
+        "translation": "The carrier is nonmagical; the friend practices magic in the sanctuary.",
+        "example_type": "Expansion example",
+        "analysis": "Connected scene tests two approved magic or metaphysical-practice headwords in ordinary or technical use.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F035: user-approved review correction; prior wording retained in integration/applied_changes.json. ED-0037 F042: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-GMMP1-0003; LX-GMMP1-0004",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    },
+    {
+      "flag": "F035 + F042",
+      "entry_id": "PE-GMMP1-0003",
+      "before": {
+        "entry_id": "PE-GMMP1-0003",
+        "source_volume": "General Magic and Metaphysical Practice 1",
+        "source_section": "Common Celan > magic and metaphysical-practice scenes",
+        "page_number": "",
+        "celan_text": "rinaen vek kaarueth; aruaen seren an shalor.",
+        "translation": "The carrier is nonmagical; the friend practices magic in the sanctuary.",
+        "example_type": "Expansion example",
+        "analysis": "Connected scene tests two approved magic or metaphysical-practice headwords in ordinary or technical use.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F035: user-approved review correction; prior wording retained in integration/applied_changes.json. ED-0037 F042: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-GMMP1-0003; LX-GMMP1-0004",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-GMMP1-0003",
+        "source_volume": "General Magic and Metaphysical Practice 1",
+        "source_section": "Common Celan > magic and metaphysical-practice scenes",
+        "page_number": "",
+        "celan_text": "rinaen vek kaarueth; aruaen seren an shalor.",
+        "translation": "The carrier is nonmagical; the guardian practices magic in the sanctuary.",
+        "example_type": "Expansion example",
+        "analysis": "Connected scene tests two approved magic or metaphysical-practice headwords in ordinary or technical use.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F035: user-approved review correction; prior wording retained in integration/applied_changes.json. ED-0037 F042: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-GMMP1-0003; LX-GMMP1-0004",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    }
+  ],
+  "current_displayed_senses": [
+    {
+      "headword": "Vek",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": true,
+          "meaning": "Carrier; vessel; transported charge or substance",
+          "usage": "Builds words for vessels, carriers, bars, and objects that hold or transport substance or energy.",
+          "sourceEntries": [
+            "XR-vek"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Karmek",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "A tool; a portable implement deliberately used to perform practical work",
+          "usage": "",
+          "sourceEntries": [
+            "LX-TM1-0001"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

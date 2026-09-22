@@ -1,0 +1,48 @@
+{
+  "flag": "F099",
+  "title": "Root labels can look like separate vocabulary words",
+  "status": "Applied locally",
+  "summary": "Explained combined root headings so readers do not mistake them for words to write.",
+  "followups": [],
+  "user_response": {
+    "id": "F099",
+    "status": "approved",
+    "text": "Explain that these are root records or link each form to its existing word; do not silently create or delete words.",
+    "notes": "",
+    "updatedAt": "2026-09-22T17:47:33.404Z",
+    "title": "Root labels can look like separate vocabulary words",
+    "originalSuggestion": "Explain that these are root records or link each form to its existing word; do not silently create or delete words."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "terra- / Terra-",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Earth, ground, soil, land; lowercase terra is mundane physical ground; capitalized Terra is the world as living spiritual entity.",
+          "usage": "Root record containing alternative forms. The slash and trailing hyphens describe the roots; do not write the entire heading as one word.",
+          "rootWord": false,
+          "sourceEntries": [
+            "DM-RM-S3-0007"
+          ]
+        }
+      ]
+    },
+    {
+      "headword": "Reth- / Rethvok-",
+      "senses": [
+        {
+          "type": "Noun",
+          "meaning": "Reth: uncertainty, confusion, doubt, a question, or. Rethvok: chaos, disorder, un-ordered state.",
+          "usage": "Root record containing alternative forms. The slash and trailing hyphens describe the roots; do not write the entire heading as one word.",
+          "rootWord": false,
+          "sourceEntries": [
+            "DM-RM-S3-0010"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

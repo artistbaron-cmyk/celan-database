@@ -1,0 +1,73 @@
+{
+  "flag": "F039",
+  "title": "A ship is translated as a shipwreck",
+  "status": "Applied locally",
+  "summary": "Applied the approved example corrections; the exact before-and-after wording is recorded below.",
+  "followups": [],
+  "user_response": {
+    "id": "F039",
+    "status": "edited",
+    "text": "Updated Translation: \"There is survival from the ship.\"",
+    "notes": "",
+    "updatedAt": "2026-09-22T14:32:24.462Z",
+    "title": "A ship is translated as a shipwreck",
+    "originalSuggestion": "Explain the implied context or make the accident explicit."
+  },
+  "example_changes": [
+    {
+      "flag": "F039",
+      "entry_id": "PE-HTS1-0079",
+      "before": {
+        "entry_id": "PE-HTS1-0079",
+        "source_volume": "Health, Treatment, and Survival 1",
+        "source_section": "Common Celan > LX-HTS1-0040",
+        "page_number": "",
+        "celan_text": "rinaen shalkav thal mahrvek.",
+        "translation": "There is survival after the shipwreck.",
+        "example_type": "Expansion example",
+        "analysis": "Continued life is distinguished from victory or comfort.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support.",
+        "related_entry_ids": "LX-HTS1-0040",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      },
+      "after": {
+        "entry_id": "PE-HTS1-0079",
+        "source_volume": "Health, Treatment, and Survival 1",
+        "source_section": "Common Celan > LX-HTS1-0040",
+        "page_number": "",
+        "celan_text": "rinaen shalkav thal mahrvek.",
+        "translation": "There is survival from the ship.",
+        "example_type": "Expansion example",
+        "analysis": "Continued life is distinguished from victory or comfort.",
+        "canon_status": "Canon",
+        "notes": "User-approved expansion support. ED-0037 F039: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "related_entry_ids": "LX-HTS1-0040",
+        "relationship_type": "related usage",
+        "potential_tension_id": "",
+        "review_status": "Approved",
+        "review_reason": ""
+      }
+    }
+  ],
+  "current_displayed_senses": [
+    {
+      "headword": "Mahrvek",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Boat; ship; sea vessel",
+          "usage": "",
+          "sourceEntries": [
+            "LX-NE1-0009"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

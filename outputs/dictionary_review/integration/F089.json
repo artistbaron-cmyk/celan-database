@@ -1,0 +1,34 @@
+{
+  "flag": "F089",
+  "title": "Thaal'ra shows its English definition as a Celan sentence",
+  "status": "Applied locally",
+  "summary": "Corrected inline example extraction and added the two supplied Thaal’ra sentences.",
+  "followups": [],
+  "user_response": {
+    "id": "F089",
+    "status": "edited",
+    "text": "Correct the extraction rule; keep the definition and only show genuine examples. Celan: thaal'ra var ser an Varthas.\nEnglish: \"I wonder if the friend is going to the city.\" Celan: thaal'ra rinaen dren an krezor.\nEnglish: \"I wonder if there is water at the hearth.\"",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:57:34.826Z",
+    "title": "Thaal'ra shows its English definition as a Celan sentence",
+    "originalSuggestion": "Correct the extraction rule; keep the definition and only show genuine examples."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "Thaal'ra",
+      "senses": [
+        {
+          "type": "Particle",
+          "rootWord": false,
+          "meaning": "I wonder if... (speculation).",
+          "usage": "Usage: Typically sentence-initial.",
+          "sourceEntries": [
+            "LX-V3-0037"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": null
+}

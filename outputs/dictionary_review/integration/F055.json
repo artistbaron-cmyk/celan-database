@@ -1,0 +1,55 @@
+{
+  "flag": "F055",
+  "title": "serathrin appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Serathrin: Confidant / Trusted inner friend / Sworn ally.",
+  "followups": [
+    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+  ],
+  "user_response": {
+    "id": "F055",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. serathrin (/sehr-ah-three-n/) — Noun: Confidant, trusted inner friend, sworn ally\nDerivation: Ser (friend/ally) + ath (enduring/established) + rin (essence/person).",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:10:30.349Z",
+    "title": "serathrin appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [
+    {
+      "headword": "serathrin",
+      "senses": [
+        {
+          "type": "Noun",
+          "rootWord": false,
+          "meaning": "Confidant / Trusted inner friend / Sworn ally",
+          "usage": "",
+          "sourceEntries": [
+            "LX-DR1-0005"
+          ]
+        }
+      ]
+    }
+  ],
+  "added_entry": {
+    "flag": "F055",
+    "entry": {
+      "entry_id": "LX-DR1-0005",
+      "celan_term": "Serathrin",
+      "pronunciation": "/sehr-ah-three-n/",
+      "english_meaning": "Confidant / Trusted inner friend / Sworn ally",
+      "category": "Noun",
+      "derivation": "Ser friend/ally + Ath enduring state + Rin essence; approved confidant meaning.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "",
+      "variant_pronunciations": "",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F055. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V2-0032"
+    },
+    "example_count": 1
+  }
+}

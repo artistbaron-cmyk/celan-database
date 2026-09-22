@@ -1,0 +1,40 @@
+{
+  "flag": "F067",
+  "title": "serilín appears in examples but has no matching entry",
+  "status": "Applied locally",
+  "summary": "Added Serilin with searchable variant serilín.",
+  "followups": [
+    "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
+  ],
+  "user_response": {
+    "id": "F067",
+    "status": "edited",
+    "text": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word. Serilin / serilín (/seh-ree-leen/) — Noun: Sister, female sibling\nEtymology: Built from Ser (friend/kin) + -il (affectionate diminutive) + -in (individual participant). serilín is a regional orthographic/accented variant used in Verdalris.\nAttested In: PE-V3-0112, PE-V3-0125, PE-V3-0138, PE-V3-0149.\nApp Entry: Noun: Sister / Female sibling (Variant: serilín)",
+    "notes": "",
+    "updatedAt": "2026-09-22T15:39:10.496Z",
+    "title": "serilín appears in examples but has no matching entry",
+    "originalSuggestion": "Identify the established meaning and connect the form to its correct entry, explain its formation, or approve an example correction. Do not automatically invent a new word."
+  },
+  "example_changes": [],
+  "current_displayed_senses": [],
+  "added_entry": {
+    "flag": "F067",
+    "entry": {
+      "entry_id": "LX-DR1-0016",
+      "celan_term": "Serilin",
+      "pronunciation": "/seh-ree-leen/",
+      "english_meaning": "Sister / Female sibling",
+      "category": "Noun",
+      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "origin_nation": "",
+      "national_usage": "",
+      "variant_forms": "serilín",
+      "variant_pronunciations": "/seh-ree-leen/",
+      "canon_status": "Canon",
+      "approval_batch": "Dictionary Review 1",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F067. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "related_entry_ids": "PE-V3-0112; PE-V3-0125; PE-V3-0138; PE-V3-0149"
+    },
+    "example_count": 4
+  }
+}
