@@ -850,3 +850,10 @@ input, select {
   #expressionResultList { max-height: 260px; }
   .detail-grid { grid-template-columns: 1fr; }
 }
+
+.entry-navigation { display: flex; flex-wrap: wrap; align-items: center; gap: 8px; margin-bottom: 16px; }
+.entry-navigation button { border: 1px solid var(--line); border-radius: 7px; padding: 8px 12px; background: var(--card); color: var(--blue); font: inherit; cursor: pointer; }
+.entry-navigation button:hover:not(:disabled) { background: var(--blue-soft); }
+.entry-navigation button:disabled { opacity: .45; cursor: default; }
+.entry-navigation button:focus-visible { outline: 2px solid var(--blue); outline-offset: 2px; }
+#entryHistoryStatus { color: var(--muted); font-size: .85rem; }

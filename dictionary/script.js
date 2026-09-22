@@ -210,6 +210,9 @@ const els = {
   emptyState: document.getElementById("emptyState"),
   ruleEmptyState: document.getElementById("ruleEmptyState"),
   ruleDetailView: document.getElementById("ruleDetailView"),
+  entryBack: document.getElementById("entryBack"),
+  entryForward: document.getElementById("entryForward"),
+  entryHistoryStatus: document.getElementById("entryHistoryStatus"),
   detailView: document.getElementById("detailView")
 };
 
@@ -4746,9 +4749,11 @@ function renderList(appendFrom = 0) {
     gloss.textContent = preview || "No gloss";
     btn.append(term, gloss);
     btn.onclick = () => {
-      state.selectedId = group.id;
-      renderList();
-      renderDetail(group);
+      navigateEntry({ kind: "word", value: group.id }, () => {
+        state.selectedId = group.id;
+        renderList();
+        renderDetail(group);
+      });
     };
     li.appendChild(btn);
     els.resultList.appendChild(li);
@@ -5005,7 +5010,131 @@ function findBestLexiconMatch(rootTerm) {
     || (headwordOverride(group.term)?.aliases || []).some(alias => normalizeHeadword(alias) === needle)) || null;
 }
 
+// Each word/root is a browser-history destination; rendering alone never adds history.
+const entryNavigation = { ready: false, index: 0, last: 0, target: null };
+
+function entrySnapshot() {
+  return {
+    target: entryNavigation.target, query: els.searchInput.value,
+    mode: state.searchMode, type: state.activeWordType, letter: state.activeLetter,
+    visible: state.visibleResultCount, scrollX: window.scrollX || 0, scrollY: window.scrollY || 0
+  };
+}
+
+function entryURL(target) {
+  return target ? `#${target.kind}=${encodeURIComponent(target.value)}` : window.location.pathname + window.location.search;
+}
+
+function updateEntryNavigation() {
+  if (els.entryBack) els.entryBack.disabled = entryNavigation.index === 0;
+  if (els.entryForward) els.entryForward.disabled = entryNavigation.index >= entryNavigation.last;
+  if (els.entryHistoryStatus) els.entryHistoryStatus.textContent = entryNavigation.target
+    ? "Word history" : "Select a word to begin";
+}
+
+function saveEntryHistory(method) {
+  window.history[method]({ celanEntry: entrySnapshot(), index: entryNavigation.index,
+    last: entryNavigation.last }, "", entryURL(entryNavigation.target));
+}
+
+function navigateEntry(target, render) {
+  if (!entryNavigation.ready) { render(); return; }
+  const changed = JSON.stringify(target) !== JSON.stringify(entryNavigation.target);
+  saveEntryHistory("replaceState");
+  render();
+  entryNavigation.target = target;
+  if (changed) {
+    entryNavigation.index += 1;
+    entryNavigation.last = entryNavigation.index;
+  }
+  saveEntryHistory(changed ? "pushState" : "replaceState");
+  updateEntryNavigation();
+}
+
+function restoreEntry(snapshot) {
+  entryNavigation.target = snapshot.target;
+  state.activeView = "dictionary";
+  renderActiveView();
+  els.searchInput.value = snapshot.query || "";
+  state.activeWordType = snapshot.type || "ALL";
+  els.wordTypeFilter.value = state.activeWordType;
+  setSearchMode(snapshot.mode || "all");
+  state.activeLetter = snapshot.letter || "ALL";
+  renderAzBar();
+  applyFilters();
+  state.visibleResultCount = snapshot.visible || RESULT_BATCH_SIZE;
+  const target = snapshot.target;
+  const match = target?.kind === "word" ? findBestLexiconMatch(target.value) : null;
+  state.selectedId = match?.id || null;
+  if (match) {
+    revealSelectedResult();
+    renderDetail(match);
+  } else if (target?.kind === "root") {
+    const root = buildRootLookup(state.expandedRoots, state.roots).find(r => normalizeHeadword(r.form) === normalizeHeadword(target.value));
+    els.emptyState.classList.add("hidden");
+    els.detailView.classList.remove("hidden");
+    els.detailView.innerHTML = `<h2>${escapeMarkup(target.value)}</h2><p>Root or morpheme</p><p>${escapeMarkup(root?.meaning || 'No standalone word entry is recorded for this root.')}</p>`;
+  } else {
+    els.detailView.classList.add("hidden");
+    els.emptyState.classList.remove("hidden");
+    els.emptyState.textContent = target ? "This word could not be found. Search the dictionary to continue." : "Select a term to view details.";
+  }
+  renderList();
+  updateEntryNavigation();
+  window.scrollTo?.(snapshot.scrollX || 0, snapshot.scrollY || 0);
+}
+
+function entryFromHash() {
+  const match = /^#(word|root)=(.*)$/.exec(window.location.hash);
+  if (!match) return null;
+  try { return { kind: match[1], value: decodeURIComponent(match[2]) }; }
+  catch { return null; }
+}
+
+function initEntryNavigation() {
+  if (!window.history || !window.location) return;
+  const saved = window.history.state;
+  entryNavigation.index = saved?.celanEntry ? saved.index : 0;
+  entryNavigation.last = saved?.celanEntry ? saved.last : 0;
+  entryNavigation.ready = true;
+  restoreEntry(saved?.celanEntry || { target: entryFromHash() });
+  saveEntryHistory("replaceState");
+  window.history.scrollRestoration = "manual";
+  window.addEventListener("popstate", event => {
+    if (event.state?.celanEntry) {
+      entryNavigation.index = event.state.index;
+      restoreEntry(event.state.celanEntry);
+      saveEntryHistory("replaceState");
+    } else {
+      entryNavigation.index += 1;
+      entryNavigation.last = entryNavigation.index;
+      restoreEntry({ target: entryFromHash() });
+      saveEntryHistory("replaceState");
+    }
+  });
+  // Keep the current destination current even when Back is used in browser chrome.
+  const remember = () => saveEntryHistory("replaceState");
+  els.searchInput.addEventListener("input", remember);
+  els.searchMode.addEventListener("change", remember);
+  els.wordTypeFilter.addEventListener("change", remember);
+  els.azBar.addEventListener("click", remember);
+  els.loadMoreResults.addEventListener("click", remember);
+  window.addEventListener("scroll", remember, { passive: true });
+  window.addEventListener("pagehide", remember);
+  els.entryBack?.addEventListener("click", () => {
+    if (entryNavigation.index > 0) { saveEntryHistory("replaceState"); window.history.back(); }
+  });
+  els.entryForward?.addEventListener("click", () => {
+    if (entryNavigation.index < entryNavigation.last) { saveEntryHistory("replaceState"); window.history.forward(); }
+  });
+}
+
 function jumpToWordFamily(rootTerm) {
+  const match = findBestLexiconMatch(rootTerm);
+  navigateEntry({ kind: match ? "word" : "root", value: match?.id || rootTerm }, () => openWordFamily(rootTerm));
+}
+
+function openWordFamily(rootTerm) {
   state.activeWordType = "ALL";
   els.wordTypeFilter.value = "ALL";
   setSearchMode("all");
@@ -5029,6 +5158,11 @@ function jumpToWordFamily(rootTerm) {
 }
 
 function jumpToHeadword(headword) {
+  const match = state.groupedEntries.find(group => group.id === normalizeHeadword(headword));
+  if (match) navigateEntry({ kind: "word", value: match.id }, () => openHeadword(headword));
+}
+
+function openHeadword(headword) {
   const match = state.groupedEntries.find((group) => group.id === normalizeHeadword(headword));
   if (!match) return;
   state.activeWordType = "ALL";
@@ -5216,6 +5350,7 @@ async function init() {
   applyExpressionFilters();
   applyRuleFilters();
   renderForgeIdle();
+  initEntryNavigation();
 }
 
 els.searchInput.addEventListener("input", applyFilters);
