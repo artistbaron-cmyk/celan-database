@@ -2,10 +2,8 @@
   "flag": "F058",
   "title": "evan appears in examples but has no matching entry",
   "status": "Applied locally",
-  "summary": "Added Evan: Market / Marketplace / Trading plaza.",
-  "followups": [
-    "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
-  ],
+  "summary": "Added Evan: Market / Marketplace / Trading plaza. Word-specific derivation confirmed under ED-0039.",
+  "followups": [],
   "user_response": {
     "id": "F058",
     "status": "edited",
@@ -40,16 +38,17 @@
       "pronunciation": "/eh-vahn/",
       "english_meaning": "Market / Marketplace / Trading plaza",
       "category": "Noun",
-      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "derivation": "Established non-productive locative noun related to Van commercial place; e- is not established as a general productive prefix.",
       "origin_nation": "",
       "national_usage": "",
       "variant_forms": "",
       "variant_pronunciations": "",
       "canon_status": "Canon",
       "approval_batch": "Dictionary Review 1",
-      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F058. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F058. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added. ED-0039: user-confirmed word-specific derivation; no automatic productive root or suffix expansion.",
       "related_entry_ids": "PE-V2-0073; PE-V2-0078; PE-V2-0114; PE-V3-0117; PE-V3-0139; PE-V3-0142"
     },
     "example_count": 6
-  }
+  },
+  "confirmed_derivation": "Established non-productive locative noun related to Van commercial place; e- is not established as a general productive prefix."
 }

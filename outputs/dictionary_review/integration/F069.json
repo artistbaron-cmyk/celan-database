@@ -2,10 +2,8 @@
   "flag": "F069",
   "title": "im appears in examples but has no matching entry",
   "status": "Applied locally",
-  "summary": "Added Im: Device / Instrument / Implement / Internal mechanism.",
-  "followups": [
-    "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
-  ],
+  "summary": "Added Im: Device / Instrument / Implement / Internal mechanism. Word-specific derivation confirmed under ED-0039.",
+  "followups": [],
   "user_response": {
     "id": "F069",
     "status": "edited",
@@ -47,16 +45,17 @@
       "pronunciation": "/eem/",
       "english_meaning": "Device / Instrument / Implement / Internal mechanism",
       "category": "Noun",
-      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "derivation": "Physical concrete extension of IM internal essence, underlying mechanism, or abstract result-state: device, instrument, mechanism.",
       "origin_nation": "",
       "national_usage": "",
       "variant_forms": "",
       "variant_pronunciations": "",
       "canon_status": "Canon",
       "approval_batch": "Dictionary Review 1",
-      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F069. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F069. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added. ED-0039: user-confirmed word-specific derivation; no automatic productive root or suffix expansion.",
       "related_entry_ids": "PE-V3-0119; PE-V3-0140"
     },
     "example_count": 2
-  }
+  },
+  "confirmed_derivation": "Physical concrete extension of IM internal essence, underlying mechanism, or abstract result-state: device, instrument, mechanism."
 }

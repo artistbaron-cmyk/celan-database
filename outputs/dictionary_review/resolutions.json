@@ -413,9 +413,8 @@
     "decision_id": "ED-0037 / ED-0038",
     "date": "2026-09-22",
     "status": "Applied locally",
-    "summary": "Added Velkrel: Breeze / Cool breeze / Light wind.",
+    "summary": "Added Velkrel: Breeze / Cool breeze / Light wind. Word-specific derivation confirmed under ED-0039.",
     "lookup_followup": [
-      "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
       "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
     ],
     "record": "integration/F052.json"
@@ -434,10 +433,8 @@
     "decision_id": "ED-0037 / ED-0038",
     "date": "2026-09-22",
     "status": "Applied locally",
-    "summary": "Added Shalil: To flow lightly / To move smoothly / To glide / To drift.",
-    "lookup_followup": [
-      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
-    ],
+    "summary": "Added Shalil: To flow lightly / To move smoothly / To glide / To drift. Word-specific derivation confirmed under ED-0039.",
+    "lookup_followup": [],
     "record": "integration/F054.json"
   },
   "F055": {
@@ -454,9 +451,8 @@
     "decision_id": "ED-0037 / ED-0038",
     "date": "2026-09-22",
     "status": "Applied locally",
-    "summary": "Added Zhivor: Family line / Ancestral household / Kin group.",
+    "summary": "Added Zhivor: Family line / Ancestral household / Kin group. Word-specific derivation confirmed under ED-0039.",
     "lookup_followup": [
-      "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
       "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
     ],
     "record": "integration/F056.json"
@@ -473,29 +469,24 @@
     "decision_id": "ED-0037 / ED-0038",
     "date": "2026-09-22",
     "status": "Applied locally",
-    "summary": "Added Evan: Market / Marketplace / Trading plaza.",
-    "lookup_followup": [
-      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
-    ],
+    "summary": "Added Evan: Market / Marketplace / Trading plaza. Word-specific derivation confirmed under ED-0039.",
+    "lookup_followup": [],
     "record": "integration/F058.json"
   },
   "F059": {
     "decision_id": "ED-0037 / ED-0038",
     "date": "2026-09-22",
     "status": "Applied locally",
-    "summary": "Added Shenakar: Coinage / Currency system / Official trade money.",
-    "lookup_followup": [
-      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
-    ],
+    "summary": "Added Shenakar: Coinage / Currency system / Official trade money. Word-specific derivation confirmed under ED-0039.",
+    "lookup_followup": [],
     "record": "integration/F059.json"
   },
   "F060": {
     "decision_id": "ED-0037 / ED-0038",
     "date": "2026-09-22",
     "status": "Applied locally",
-    "summary": "Added Em: Um / Uh (hesitation or thinking particle).",
+    "summary": "Added Em: Um / Uh (hesitation or thinking particle). Word-specific derivation confirmed under ED-0039.",
     "lookup_followup": [
-      "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
       "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
     ],
     "record": "integration/F060.json"
@@ -504,9 +495,8 @@
     "decision_id": "ED-0037 / ED-0038",
     "date": "2026-09-22",
     "status": "Applied locally",
-    "summary": "Added Varin: To know / To be aware of.",
+    "summary": "Added Varin: To know / To be aware of. Word-specific derivation confirmed under ED-0039.",
     "lookup_followup": [
-      "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
       "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
     ],
     "record": "integration/F061.json"
@@ -515,10 +505,8 @@
     "decision_id": "ED-0037 / ED-0038",
     "date": "2026-09-22",
     "status": "Applied locally",
-    "summary": "Added Shena: Coin / Coins / Physical money.",
-    "lookup_followup": [
-      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
-    ],
+    "summary": "Added Shena: Coin / Coins / Physical money. Word-specific derivation confirmed under ED-0039.",
+    "lookup_followup": [],
     "record": "integration/F062.json"
   },
   "F063": {
@@ -543,9 +531,8 @@
     "decision_id": "ED-0037 / ED-0038",
     "date": "2026-09-22",
     "status": "Applied locally",
-    "summary": "Added Vrak: Gone / Missing / Depleted / Dry (Trerran dialect).",
+    "summary": "Added Vrak: Gone / Missing / Depleted / Dry (Trerran dialect). Word-specific derivation confirmed under ED-0039.",
     "lookup_followup": [
-      "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
       "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
     ],
     "record": "integration/F065.json"
@@ -554,40 +541,32 @@
     "decision_id": "ED-0037 / ED-0038",
     "date": "2026-09-22",
     "status": "Applied locally",
-    "summary": "Added Theren: Village / Settlement / Local community.",
-    "lookup_followup": [
-      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
-    ],
+    "summary": "Added Theren: Village / Settlement / Local community. Word-specific derivation confirmed under ED-0039.",
+    "lookup_followup": [],
     "record": "integration/F066.json"
   },
   "F067": {
     "decision_id": "ED-0037 / ED-0038",
     "date": "2026-09-22",
     "status": "Applied locally",
-    "summary": "Added Serilin with searchable variant serilín.",
-    "lookup_followup": [
-      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
-    ],
+    "summary": "Added Serilin with searchable variant serilín. Word-specific derivation confirmed under ED-0039.",
+    "lookup_followup": [],
     "record": "integration/F067.json"
   },
   "F068": {
     "decision_id": "ED-0037 / ED-0038",
     "date": "2026-09-22",
     "status": "Applied locally",
-    "summary": "Added Aelin: Youth / Young person / Student / Pupil.",
-    "lookup_followup": [
-      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
-    ],
+    "summary": "Added Aelin: Youth / Young person / Student / Pupil. Word-specific derivation confirmed under ED-0039.",
+    "lookup_followup": [],
     "record": "integration/F068.json"
   },
   "F069": {
     "decision_id": "ED-0037 / ED-0038",
     "date": "2026-09-22",
     "status": "Applied locally",
-    "summary": "Added Im: Device / Instrument / Implement / Internal mechanism.",
-    "lookup_followup": [
-      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
-    ],
+    "summary": "Added Im: Device / Instrument / Implement / Internal mechanism. Word-specific derivation confirmed under ED-0039.",
+    "lookup_followup": [],
     "record": "integration/F069.json"
   },
   "F070": {
@@ -610,9 +589,8 @@
     "decision_id": "ED-0037 / ED-0038",
     "date": "2026-09-22",
     "status": "Applied locally",
-    "summary": "Added Varshel: Road / Travel path / Highway.",
+    "summary": "Added Varshel: Road / Travel path / Highway. Word-specific derivation confirmed under ED-0039.",
     "lookup_followup": [
-      "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
       "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
     ],
     "record": "integration/F072.json"
@@ -683,10 +661,8 @@
     "decision_id": "ED-0037 / ED-0038",
     "date": "2026-09-22",
     "status": "Applied locally",
-    "summary": "Added Varral: Traveler / Wanderer / Person on a journey.",
-    "lookup_followup": [
-      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
-    ],
+    "summary": "Added Varral: Traveler / Wanderer / Person on a journey. Word-specific derivation confirmed under ED-0039.",
+    "lookup_followup": [],
     "record": "integration/F080.json"
   },
   "F081": {
@@ -713,10 +689,8 @@
     "decision_id": "ED-0037 / ED-0038",
     "date": "2026-09-22",
     "status": "Applied locally",
-    "summary": "Added Vorkaral: Worker / Mechanic / Laborer / Tool-operator.",
-    "lookup_followup": [
-      "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
-    ],
+    "summary": "Added Vorkaral: Worker / Mechanic / Laborer / Tool-operator. Word-specific derivation confirmed under ED-0039.",
+    "lookup_followup": [],
     "record": "integration/F083.json"
   },
   "F084": {
@@ -731,9 +705,8 @@
     "decision_id": "ED-0037 / ED-0038",
     "date": "2026-09-22",
     "status": "Applied locally",
-    "summary": "Added Khumrel: Compassion / Empathetic listening / Circle of care.",
+    "summary": "Added Khumrel: Compassion / Empathetic listening / Circle of care. Word-specific derivation confirmed under ED-0039.",
     "lookup_followup": [
-      "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
       "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
     ],
     "record": "integration/F085.json"

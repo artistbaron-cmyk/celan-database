@@ -2,9 +2,8 @@
   "flag": "F085",
   "title": "khumrel appears in examples but has no matching entry",
   "status": "Applied locally",
-  "summary": "Added Khumrel: Compassion / Empathetic listening / Circle of care.",
+  "summary": "Added Khumrel: Compassion / Empathetic listening / Circle of care. Word-specific derivation confirmed under ED-0039.",
   "followups": [
-    "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
     "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
   ],
   "user_response": {
@@ -41,16 +40,17 @@
       "pronunciation": "/khoom-rehl/",
       "english_meaning": "Compassion / Empathetic listening / Circle of care",
       "category": "Noun",
-      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "derivation": "Khum reconciliation/listening circle + -rel soft flow or gentle expression; the same soft-flow component used in Velkrel, here describing compassion.",
       "origin_nation": "",
       "national_usage": "",
       "variant_forms": "",
       "variant_pronunciations": "",
       "canon_status": "Canon",
       "approval_batch": "Dictionary Review 1",
-      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F085. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F085. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added. ED-0039: user-confirmed word-specific derivation; no automatic productive root or suffix expansion.",
       "related_entry_ids": "PE-S3-0019"
     },
     "example_count": 1
-  }
+  },
+  "confirmed_derivation": "Khum reconciliation/listening circle + -rel soft flow or gentle expression; the same soft-flow component used in Velkrel, here describing compassion."
 }

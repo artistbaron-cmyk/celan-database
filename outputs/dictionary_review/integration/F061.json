@@ -2,9 +2,8 @@
   "flag": "F061",
   "title": "varin appears in examples but has no matching entry",
   "status": "Applied locally",
-  "summary": "Added Varin: To know / To be aware of.",
+  "summary": "Added Varin: To know / To be aware of. Word-specific derivation confirmed under ED-0039.",
   "followups": [
-    "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
     "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
   ],
   "user_response": {
@@ -41,16 +40,17 @@
       "pronunciation": "/vah-reen/",
       "english_meaning": "To know / To be aware of",
       "category": "Verb",
-      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "derivation": "Independent cognition verb. No etymological connection to the marine component with matching spelling in Jekvarin.",
       "origin_nation": "",
       "national_usage": "",
       "variant_forms": "",
       "variant_pronunciations": "",
       "canon_status": "Canon",
       "approval_batch": "Dictionary Review 1",
-      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F061. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F061. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added. ED-0039: user-confirmed word-specific derivation; no automatic productive root or suffix expansion.",
       "related_entry_ids": "PE-V3-0022"
     },
     "example_count": 1
-  }
+  },
+  "confirmed_derivation": "Independent cognition verb. No etymological connection to the marine component with matching spelling in Jekvarin."
 }

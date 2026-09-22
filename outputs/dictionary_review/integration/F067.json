@@ -2,10 +2,8 @@
   "flag": "F067",
   "title": "serilín appears in examples but has no matching entry",
   "status": "Applied locally",
-  "summary": "Added Serilin with searchable variant serilín.",
-  "followups": [
-    "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
-  ],
+  "summary": "Added Serilin with searchable variant serilín. Word-specific derivation confirmed under ED-0039.",
+  "followups": [],
   "user_response": {
     "id": "F067",
     "status": "edited",
@@ -25,16 +23,17 @@
       "pronunciation": "/seh-ree-leen/",
       "english_meaning": "Sister / Female sibling",
       "category": "Noun",
-      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "derivation": "Ser friend/kin + -il affectionate kinship diminutive + -in individual participant. The dedicated everyday meaning is sister/female sibling; the components do not broaden the headword to generic kin or sibling.",
       "origin_nation": "",
       "national_usage": "",
       "variant_forms": "serilín",
       "variant_pronunciations": "/seh-ree-leen/",
       "canon_status": "Canon",
       "approval_batch": "Dictionary Review 1",
-      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F067. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F067. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added. ED-0039: user-confirmed word-specific derivation; no automatic productive root or suffix expansion.",
       "related_entry_ids": "PE-V3-0112; PE-V3-0125; PE-V3-0138; PE-V3-0149"
     },
     "example_count": 4
-  }
+  },
+  "confirmed_derivation": "Ser friend/kin + -il affectionate kinship diminutive + -in individual participant. The dedicated everyday meaning is sister/female sibling; the components do not broaden the headword to generic kin or sibling."
 }

@@ -60,6 +60,9 @@ if resolutions:
     md[0:0] = ['> Update: ' + notice, '', *['> ' + k + ': ' + v['summary'] + ' See ' + v['record'] + '.' for k,v in resolutions.items()], '']
     if (ROOT / 'completion.md').exists():
         panel = '<section class="panel"><h2>Implementation complete locally</h2><p><b>99 decisions processed · 33 headwords added · 1,496 current headwords</b></p><p>The approved changes are applied. Nothing has been published. The counts and evidence below describe the original audit.</p><p>Follow-ups are listed separately: 17 restored words need a second reviewed example; 17 derivations remain unverified. Shalilaen and Welaen still have no separately approved standalone entries.</p><p><a href="completion.md">Read the completion report and exact follow-up lists</a></p></section>'
+        outcomes = json.loads((ROOT / 'integration/outcomes.json').read_text())
+        if not outcomes.get('derivations_pending'):
+            panel = panel.replace('17 derivations remain unverified.', 'all 17 word derivations are now confirmed, including Serilin as sister/female sibling.')
         page = page.replace('<div class="controls">', panel + '<div class="controls">', 1)
         md = [line.replace('No dictionary content was changed during this review. Suggested decisions below are proposals, not applied corrections.', 'The original suggestions are preserved as audit history. Consult the applied record for each flag and completion.md for remaining follow-ups.') for line in md]
 review_data = json.dumps({'revision': hashlib.sha256((ROOT / 'flags.json').read_bytes()).hexdigest(), 'flags': flags, 'resolutions': resolutions}, ensure_ascii=False).replace('<', '\\u003c')

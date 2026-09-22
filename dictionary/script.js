@@ -4966,7 +4966,7 @@ function expansionMetadata(group) {
     .map((entry) => (entry.national_usage || "").trim())
     .filter(Boolean));
   const derivations = uniqueStrings(expansionEntries
-    .map((entry) => displayDerivation(entry.derivation))
+    .map((entry) => displayDerivation(entry.derivation, /ED-0039/.test(entry.notes || '')))
     .filter(Boolean));
   const variants = [];
 
@@ -4984,10 +4984,10 @@ function expansionMetadata(group) {
   return Object.values(metadata).some((values) => values.length) ? metadata : null;
 }
 
-function displayDerivation(value) {
+function displayDerivation(value, confirmedOrigin = false) {
   const derivation = (value || "").trim();
   if (!derivation) return "";
-  if (!derivation.includes("+")) return "";
+  if (!derivation.includes("+") && !confirmedOrigin) return "";
 
   const primitiveNote = /^New (?:(?:one|two)-syllable )?(?:primitive(?: root)?|root)\b(?::|\s+for)?\s*/i;
   if (!primitiveNote.test(derivation)) return derivation;
@@ -5147,7 +5147,7 @@ function renderDetail(group) {
         ${metadata.origins.length ? `<div class="family-group"><p class="family-label">Origin</p><p class="family-line">${metadata.origins.join(", ")}</p></div>` : ""}
         ${metadata.nationalUses.length ? `<div class="family-group"><p class="family-label">National use</p><p class="family-line">${metadata.nationalUses.join(" ")}</p></div>` : ""}
         ${metadata.variants.length ? `<div class="family-group"><p class="family-label">Variant forms</p><p class="family-line">${metadata.variants.map((variant) => `${variant.form}${variant.pronunciation ? ` ${variant.pronunciation}` : ""}`).join(", ")}</p></div>` : ""}
-        ${metadata.derivations.length ? `<div class="family-group"><p class="family-label">Built from</p><p class="family-line">${metadata.derivations.join("; ")}</p></div>` : ""}
+        ${metadata.derivations.length ? `<div class="family-group"><p class="family-label">Word origin</p><p class="family-line">${metadata.derivations.join("; ")}</p></div>` : ""}
       </section>
       ` : ""}
       ${hasFamilyContent ? `

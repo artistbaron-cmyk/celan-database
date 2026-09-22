@@ -19,7 +19,7 @@ The normal expansion validator reports **17 missing second examples**. This chec
 
 **Second reviewed examples:** Velkrel, Varan, Serathrin, Zhivor, Em, Varin, Nkathal, Vrak, Varshel, Noraen, Thalesh, Thalor, Karjor, Kavel, Khumrel, Terrarav, Zhirrathor.
 
-**Derivations pending verification:** Velkrel, Shalil, Zhivor, Evan, Shenakar, Em, Varin, Shena, Vrak, Theren, Serilin, Aelin, Im, Varshel, Varral, Vorkaral, Khumrel.
+**Derivations:** All 17 confirmed under ED-0039. Serilin remains the dedicated word for sister/female sibling. See [the exact records](integration/confirmed_derivations.json).
 
 **Standalone lookup entries not added:** Shalilaen and Welaen appear in the approved F048 sentences, but separate entries have not been approved.
 
@@ -339,7 +339,6 @@ Added Velkrel: Breeze / Cool breeze / Light wind.
 
 [Exact record](integration/F052.json)
 
-Follow-up: The word meaning is approved and displayed. Its proposed derivation remains pending verification.
 
 Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
@@ -357,7 +356,6 @@ Added Shalil: To flow lightly / To move smoothly / To glide / To drift.
 
 [Exact record](integration/F054.json)
 
-Follow-up: The word meaning is approved and displayed. Its proposed derivation remains pending verification.
 
 ### F055 — serathrin appears in examples but has no matching entry
 
@@ -373,7 +371,6 @@ Added Zhivor: Family line / Ancestral household / Kin group.
 
 [Exact record](integration/F056.json)
 
-Follow-up: The word meaning is approved and displayed. Its proposed derivation remains pending verification.
 
 Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
@@ -389,7 +386,6 @@ Added Evan: Market / Marketplace / Trading plaza.
 
 [Exact record](integration/F058.json)
 
-Follow-up: The word meaning is approved and displayed. Its proposed derivation remains pending verification.
 
 ### F059 — shenakar appears in examples but has no matching entry
 
@@ -397,7 +393,6 @@ Added Shenakar: Coinage / Currency system / Official trade money.
 
 [Exact record](integration/F059.json)
 
-Follow-up: The word meaning is approved and displayed. Its proposed derivation remains pending verification.
 
 ### F060 — em appears in examples but has no matching entry
 
@@ -405,7 +400,6 @@ Added Em: Um / Uh (hesitation or thinking particle).
 
 [Exact record](integration/F060.json)
 
-Follow-up: The word meaning is approved and displayed. Its proposed derivation remains pending verification.
 
 Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
@@ -415,7 +409,6 @@ Added Varin: To know / To be aware of.
 
 [Exact record](integration/F061.json)
 
-Follow-up: The word meaning is approved and displayed. Its proposed derivation remains pending verification.
 
 Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
@@ -425,7 +418,6 @@ Added Shena: Coin / Coins / Physical money.
 
 [Exact record](integration/F062.json)
 
-Follow-up: The word meaning is approved and displayed. Its proposed derivation remains pending verification.
 
 ### F063 — nkathal appears in examples but has no matching entry
 
@@ -447,7 +439,6 @@ Added Vrak: Gone / Missing / Depleted / Dry (Trerran dialect).
 
 [Exact record](integration/F065.json)
 
-Follow-up: The word meaning is approved and displayed. Its proposed derivation remains pending verification.
 
 Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
@@ -457,7 +448,6 @@ Added Theren: Village / Settlement / Local community.
 
 [Exact record](integration/F066.json)
 
-Follow-up: The word meaning is approved and displayed. Its proposed derivation remains pending verification.
 
 ### F067 — serilín appears in examples but has no matching entry
 
@@ -465,7 +455,6 @@ Added Serilin with searchable variant serilín.
 
 [Exact record](integration/F067.json)
 
-Follow-up: The word meaning is approved and displayed. Its proposed derivation remains pending verification.
 
 ### F068 — aelin appears in examples but has no matching entry
 
@@ -473,7 +462,6 @@ Added Aelin: Youth / Young person / Student / Pupil.
 
 [Exact record](integration/F068.json)
 
-Follow-up: The word meaning is approved and displayed. Its proposed derivation remains pending verification.
 
 ### F069 — im appears in examples but has no matching entry
 
@@ -481,7 +469,6 @@ Added Im: Device / Instrument / Implement / Internal mechanism.
 
 [Exact record](integration/F069.json)
 
-Follow-up: The word meaning is approved and displayed. Its proposed derivation remains pending verification.
 
 ### F070 — dreshal appears in examples but has no matching entry
 
@@ -501,7 +488,6 @@ Added Varshel: Road / Travel path / Highway.
 
 [Exact record](integration/F072.json)
 
-Follow-up: The word meaning is approved and displayed. Its proposed derivation remains pending verification.
 
 Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
@@ -559,7 +545,6 @@ Added Varral: Traveler / Wanderer / Person on a journey.
 
 [Exact record](integration/F080.json)
 
-Follow-up: The word meaning is approved and displayed. Its proposed derivation remains pending verification.
 
 ### F081 — karjor appears in examples but has no matching entry
 
@@ -583,7 +568,6 @@ Added Vorkaral: Worker / Mechanic / Laborer / Tool-operator.
 
 [Exact record](integration/F083.json)
 
-Follow-up: The word meaning is approved and displayed. Its proposed derivation remains pending verification.
 
 ### F084 — noral appears in examples but has no matching entry
 
@@ -597,7 +581,6 @@ Added Khumrel: Compassion / Empathetic listening / Circle of care.
 
 [Exact record](integration/F085.json)
 
-Follow-up: The word meaning is approved and displayed. Its proposed derivation remains pending verification.
 
 Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 

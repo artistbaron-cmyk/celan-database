@@ -2,10 +2,8 @@
   "flag": "F062",
   "title": "shena appears in examples but has no matching entry",
   "status": "Applied locally",
-  "summary": "Added Shena: Coin / Coins / Physical money.",
-  "followups": [
-    "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
-  ],
+  "summary": "Added Shena: Coin / Coins / Physical money. Word-specific derivation confirmed under ED-0039.",
+  "followups": [],
   "user_response": {
     "id": "F062",
     "status": "edited",
@@ -40,16 +38,17 @@
       "pronunciation": "/sheh-nah/",
       "english_meaning": "Coin / Coins / Physical money",
       "category": "Noun",
-      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "derivation": "Established individual noun formation from Shen measure/currency. This does not establish -a as a universal noun-forming suffix.",
       "origin_nation": "",
       "national_usage": "",
       "variant_forms": "",
       "variant_pronunciations": "",
       "canon_status": "Canon",
       "approval_batch": "Dictionary Review 1",
-      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F062. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F062. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added. ED-0039: user-confirmed word-specific derivation; no automatic productive root or suffix expansion.",
       "related_entry_ids": "PE-V3-0028; PE-V3-0120; PE-V3-0128; PE-V3-0150; PE-V4-0050"
     },
     "example_count": 5
-  }
+  },
+  "confirmed_derivation": "Established individual noun formation from Shen measure/currency. This does not establish -a as a universal noun-forming suffix."
 }

@@ -22,7 +22,10 @@
     "Terrarav",
     "Zhirrathor"
   ],
-  "derivations_pending": [
+  "derivations_pending": [],
+  "applied_example_rows": 79,
+  "published": false,
+  "derivations_confirmed": [
     "Velkrel",
     "Shalil",
     "Zhivor",
@@ -40,7 +43,5 @@
     "Varral",
     "Vorkaral",
     "Khumrel"
-  ],
-  "applied_example_rows": 79,
-  "published": false
+  ]
 }

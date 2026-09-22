@@ -2,10 +2,8 @@
   "flag": "F059",
   "title": "shenakar appears in examples but has no matching entry",
   "status": "Applied locally",
-  "summary": "Added Shenakar: Coinage / Currency system / Official trade money.",
-  "followups": [
-    "The word meaning is approved and displayed. Its proposed derivation remains pending verification."
-  ],
+  "summary": "Added Shenakar: Coinage / Currency system / Official trade money. Word-specific derivation confirmed under ED-0039.",
+  "followups": [],
   "user_response": {
     "id": "F059",
     "status": "edited",
@@ -40,16 +38,17 @@
       "pronunciation": "/sheh-nah-kahr/",
       "english_meaning": "Coinage / Currency system / Official trade money",
       "category": "Noun",
-      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "derivation": "Shen measure/coin + historical akar currency or exchange unit; akar is recorded only as a component of this word, not a new productive root.",
       "origin_nation": "",
       "national_usage": "",
       "variant_forms": "",
       "variant_pronunciations": "",
       "canon_status": "Canon",
       "approval_batch": "Dictionary Review 1",
-      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F059. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F059. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added. ED-0039: user-confirmed word-specific derivation; no automatic productive root or suffix expansion.",
       "related_entry_ids": "PE-V3-0005; PE-V3-0014; PE-V3-0117; PE-V3-0131; PE-V3-0139; PE-V3-0143; PE-V4-0011"
     },
     "example_count": 7
-  }
+  },
+  "confirmed_derivation": "Shen measure/coin + historical akar currency or exchange unit; akar is recorded only as a component of this word, not a new productive root."
 }

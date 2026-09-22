@@ -838,3 +838,13 @@ Standalone ka is exclusively without or no. Possessive -ka must be hyphenated to
 Approved examples: `rinaen aiv an doran-ian.`; `rinaen ndemwek-ian nor shara.`; `drenselaen I noka-ian.`; `drenaen La dren kora rinaen La-ka kelvor kadreneth.` Genuine negative uses such as `Var I ka shal.` remain unchanged.
 
 The app grammar cards and working grammar layer follow this decision. Earlier source rules remain preserved as witnesses and are superseded where they conflict.
+
+## ED-0039: Confirmed Origins of 17 Restored Words
+
+Status: Approved and applied locally.
+
+All seventeen previously pending derivations are settled by the user's explicit confirmations, recorded in `outputs/dictionary_review/integration/confirmed_derivations.json`. These decisions concern the listed words' internal histories and do not automatically promote all components to productive roots or universal suffix rules. The approved historical spellings Zhivor and Theren remain primary.
+
+Serilin specifically and primarily means sister / female sibling in everyday Celan. Its Ser + -il + -in history does not broaden its dictionary meaning to generic kin or sibling. Em is unrelated to Emil; the cognition verb Varin is unrelated to the marine component in Jekvarin. Vrak is an unsegmented Trerran dialect primitive. Evan does not create a productive e- prefix, Shena does not create universal noun-forming -a, and Shenakar's historical akar is not promoted to a productive root.
+
+The detailed Vorkaral derivation is Vor + Kar + nominal agent -al; retain the separate continuous verbal -al. Varral uses agent/practitioner -ral while independent Ral retains its caretaker/watcher sense. The two functions of -il are recorded in Shalil and Serilin, and the shared soft-flow -rel in Velkrel and Khumrel, without unrestricted new derivative creation.

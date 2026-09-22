@@ -51,27 +51,27 @@
 > F049: Documented both approved multi-verb orders. See integration/F049.json.
 > F050: Applied the strict ka/-ka distinction and personal suffix rules, including the explicitly accepted La-ka kelvor. See integration/F050.json.
 > F051: Added Tera: Home / Dwelling / Homestead (informal form of Teremil). See integration/F051.json.
-> F052: Added Velkrel: Breeze / Cool breeze / Light wind. See integration/F052.json.
+> F052: Added Velkrel: Breeze / Cool breeze / Light wind. Word-specific derivation confirmed under ED-0039. See integration/F052.json.
 > F053: Added Varan as a locative-stative verb; -al remains the universal continuous suffix. See integration/F053.json.
-> F054: Added Shalil: To flow lightly / To move smoothly / To glide / To drift. See integration/F054.json.
+> F054: Added Shalil: To flow lightly / To move smoothly / To glide / To drift. Word-specific derivation confirmed under ED-0039. See integration/F054.json.
 > F055: Added Serathrin: Confidant / Trusted inner friend / Sworn ally. See integration/F055.json.
-> F056: Added Zhivor: Family line / Ancestral household / Kin group. See integration/F056.json.
+> F056: Added Zhivor: Family line / Ancestral household / Kin group. Word-specific derivation confirmed under ED-0039. See integration/F056.json.
 > F057: Added Tharvok: Family / Heart-bonded family / Clan. See integration/F057.json.
-> F058: Added Evan: Market / Marketplace / Trading plaza. See integration/F058.json.
-> F059: Added Shenakar: Coinage / Currency system / Official trade money. See integration/F059.json.
-> F060: Added Em: Um / Uh (hesitation or thinking particle). See integration/F060.json.
-> F061: Added Varin: To know / To be aware of. See integration/F061.json.
-> F062: Added Shena: Coin / Coins / Physical money. See integration/F062.json.
+> F058: Added Evan: Market / Marketplace / Trading plaza. Word-specific derivation confirmed under ED-0039. See integration/F058.json.
+> F059: Added Shenakar: Coinage / Currency system / Official trade money. Word-specific derivation confirmed under ED-0039. See integration/F059.json.
+> F060: Added Em: Um / Uh (hesitation or thinking particle). Word-specific derivation confirmed under ED-0039. See integration/F060.json.
+> F061: Added Varin: To know / To be aware of. Word-specific derivation confirmed under ED-0039. See integration/F061.json.
+> F062: Added Shena: Coin / Coins / Physical money. Word-specific derivation confirmed under ED-0039. See integration/F062.json.
 > F063: Added Nkathal: Sadness / Grief / Sorrow / Enduring emotional pain. See integration/F063.json.
 > F064: Thaar resolves to the existing Thar entry as an approved regional spelling. See integration/F064.json.
-> F065: Added Vrak: Gone / Missing / Depleted / Dry (Trerran dialect). See integration/F065.json.
-> F066: Added Theren: Village / Settlement / Local community. See integration/F066.json.
-> F067: Added Serilin with searchable variant serilín. See integration/F067.json.
-> F068: Added Aelin: Youth / Young person / Student / Pupil. See integration/F068.json.
-> F069: Added Im: Device / Instrument / Implement / Internal mechanism. See integration/F069.json.
+> F065: Added Vrak: Gone / Missing / Depleted / Dry (Trerran dialect). Word-specific derivation confirmed under ED-0039. See integration/F065.json.
+> F066: Added Theren: Village / Settlement / Local community. Word-specific derivation confirmed under ED-0039. See integration/F066.json.
+> F067: Added Serilin with searchable variant serilín. Word-specific derivation confirmed under ED-0039. See integration/F067.json.
+> F068: Added Aelin: Youth / Young person / Student / Pupil. Word-specific derivation confirmed under ED-0039. See integration/F068.json.
+> F069: Added Im: Device / Instrument / Implement / Internal mechanism. Word-specific derivation confirmed under ED-0039. See integration/F069.json.
 > F070: Added Dreshal: Crystal device / Crystal implement. See integration/F070.json.
 > F071: Serilin and serilín share one entry; no duplicate headword. See integration/F071.json.
-> F072: Added Varshel: Road / Travel path / Highway. See integration/F072.json.
+> F072: Added Varshel: Road / Travel path / Highway. Word-specific derivation confirmed under ED-0039. See integration/F072.json.
 > F073: Added Eshvan: Shop / Store / Market stall. See integration/F073.json.
 > F074: Added Noraen: To guide / To lead through time or experience / To instruct. See integration/F074.json.
 > F075: Added Thalesh: Ritual / Sacred balance ceremony. See integration/F075.json.
@@ -79,12 +79,12 @@
 > F077: Tharvinwek resolves to the existing Tharvin-Wek entry. See integration/F077.json.
 > F078: Corrected karvok to established Kavok. See integration/F078.json.
 > F079: Added Daraen: To wait / To pause / To remain pending. See integration/F079.json.
-> F080: Added Varral: Traveler / Wanderer / Person on a journey. See integration/F080.json.
+> F080: Added Varral: Traveler / Wanderer / Person on a journey. Word-specific derivation confirmed under ED-0039. See integration/F080.json.
 > F081: Added Karjor: Impact / Mechanical surge / Strike force / Burst of energy. See integration/F081.json.
 > F082: Added Kavel: Forgetfulness / Memory gap / Loss of awareness. See integration/F082.json.
-> F083: Added Vorkaral: Worker / Mechanic / Laborer / Tool-operator. See integration/F083.json.
+> F083: Added Vorkaral: Worker / Mechanic / Laborer / Tool-operator. Word-specific derivation confirmed under ED-0039. See integration/F083.json.
 > F084: Added Noral as night/nighttime, preserving the night translations. See integration/F084.json.
-> F085: Added Khumrel: Compassion / Empathetic listening / Circle of care. See integration/F085.json.
+> F085: Added Khumrel: Compassion / Empathetic listening / Circle of care. Word-specific derivation confirmed under ED-0039. See integration/F085.json.
 > F086: Added Terrarav: Pull of one's homeland / Yearning for home. See integration/F086.json.
 > F087: Added Zhirrathor: Thread to the past / Historical continuity / Lineage link. See integration/F087.json.
 > F088: Corrected inline example extraction and added the two supplied Elan sentences. See integration/F088.json.

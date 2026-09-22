@@ -2,9 +2,8 @@
   "flag": "F060",
   "title": "em appears in examples but has no matching entry",
   "status": "Applied locally",
-  "summary": "Added Em: Um / Uh (hesitation or thinking particle).",
+  "summary": "Added Em: Um / Uh (hesitation or thinking particle). Word-specific derivation confirmed under ED-0039.",
   "followups": [
-    "The word meaning is approved and displayed. Its proposed derivation remains pending verification.",
     "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
   ],
   "user_response": {
@@ -48,16 +47,17 @@
       "pronunciation": "/ehm/",
       "english_meaning": "Um / Uh (hesitation or thinking particle)",
       "category": "Interjection",
-      "derivation": "Established example word restored by user decision; detailed derivation pending verification.",
+      "derivation": "Independent conversational hesitation sound. No historical or etymological connection to Emil food/meal.",
       "origin_nation": "",
       "national_usage": "",
       "variant_forms": "",
       "variant_pronunciations": "",
       "canon_status": "Canon",
       "approval_batch": "Dictionary Review 1",
-      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F060. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
+      "notes": "User-approved restoration of existing example vocabulary; ED-0037 F060. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added. ED-0039: user-confirmed word-specific derivation; no automatic productive root or suffix expansion.",
       "related_entry_ids": "PE-V3-0020"
     },
     "example_count": 1
-  }
+  },
+  "confirmed_derivation": "Independent conversational hesitation sound. No historical or etymological connection to Emil food/meal."
 }
