@@ -1,0 +1,39 @@
+{
+  "audit": "root-family-v1",
+  "capturedAt": "2026-09-22T19:41:32.440Z",
+  "decisions": {
+    "RF01": {
+      "decision": "Approve proposed approach"
+    },
+    "RF02": {
+      "decision": "Approve proposed approach"
+    },
+    "RF03": {
+      "decision": "Approve proposed approach"
+    },
+    "RF04": {
+      "decision": "Approve proposed approach"
+    },
+    "RF05": {
+      "decision": "Approve proposed approach"
+    },
+    "RF06": {
+      "decision": "Approve proposed approach"
+    },
+    "RF07": {
+      "decision": "Approve proposed approach"
+    },
+    "RF08": {
+      "decision": "Approve proposed approach"
+    },
+    "RF09": {
+      "decision": "Approve proposed approach"
+    },
+    "RF10": {
+      "decision": "Approve proposed approach"
+    },
+    "RF11": {
+      "decision": "Approve proposed approach"
+    }
+  }
+}

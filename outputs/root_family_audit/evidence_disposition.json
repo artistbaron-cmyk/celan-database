@@ -1,0 +1,462 @@
+[
+  {
+    "anchor": "Reth- / Rethvok-",
+    "source_formula": "Rethvok + Shara = A Path of Ruin / A Bad Decision",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "Reth- / Rethvok-",
+    "source_formula": "Reth + Lianor = A Paradox / A Riddle",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "terra- / Terra-",
+    "source_formula": "Terra + Dren = Fertile Soil / The Source of Life",
+    "corroborated_words": [
+      "Terradren"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "terra- / Terra-",
+    "source_formula": "Terra + Rin = World-Soul / The Spirit of Ohnosha",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "terra- / Terra-",
+    "source_formula": "Terra + Bel = A Foundation / A Grounding Principle",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "Fah- / Vethor-",
+    "source_formula": "Vethor + Lian = A Hidden Truth / A Secret",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "Fah- / Vethor-",
+    "source_formula": "Fah + Thar = Despair / Sorrow",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "Fah- / Vethor-",
+    "source_formula": "Rath + Vethor = A Hidden Enemy / Ambusher",
+    "corroborated_words": [
+      "Rathvethor"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "Pralaen-",
+    "source_formula": "Pralaen + Shal = To Create Fate",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "Pralaen-",
+    "source_formula": "Pralaen + Rethvok = To cause destruction / To make a mess",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "SHARA",
+    "source_formula": "Shara + -ka = Freedom",
+    "corroborated_words": [
+      "Sharaka"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "SHARA",
+    "source_formula": "Shara + Thal = An Outcome / A Result",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "SHARA",
+    "source_formula": "Lian + Shara = The True Path / Righteousness",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "DREN",
+    "source_formula": "Dren + Thal = Harmony / Serenity",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "DREN",
+    "source_formula": "Dren + Shara = A Meandering Path / A Destiny of Change",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "DREN",
+    "source_formula": "Dren + Rin = Blood / Life-Essence",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "SHAL",
+    "source_formula": "Shal + Lian = Revelation",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "SHAL",
+    "source_formula": "Shal + Rin = Aura / Pure Essence",
+    "corroborated_words": [
+      "Shalrin"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "SHAL",
+    "source_formula": "Shal + Thar = Hope / Courage",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "KREZ",
+    "source_formula": "Krez + Thal = Dynamic Equilibrium",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "KREZ",
+    "source_formula": "Krez + Lian = A Harsh Truth",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "KREZ",
+    "source_formula": "Krez + Vok = A Forge / A Crucible",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "MORL",
+    "source_formula": "Morl + Thar = A Resolute Heart / Stoicism",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "MORL",
+    "source_formula": "Morl + Lian = A Foundational Truth / A Dogma",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "MORL",
+    "source_formula": "Morl + Karash = Stone-Without-Vision",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "LIAN",
+    "source_formula": "Lian + Thal = Justice / Fairness",
+    "corroborated_words": [
+      "Lianthal"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "LIAN",
+    "source_formula": "Lian + Bel = A Vow / An Oath",
+    "corroborated_words": [
+      "Lianbel"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "LIAN",
+    "source_formula": "Ver + Lian = A Lie / Untruth",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "THAL",
+    "source_formula": "Thal + Rin = Destiny / The Natural Order",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "THAL",
+    "source_formula": "Thal + Vok = A Perfect Bond / Harmony",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "THAR",
+    "source_formula": "Thar + -ka = Desire / Will",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "THAR",
+    "source_formula": "Thar + Lian = An Oath / A Heart-Truth",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "THAR",
+    "source_formula": "Morl + Thar = Stoicism / A Resolute Heart",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "ZHIR",
+    "source_formula": "Ka + Zhir = Without Lineage / Bastard",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "ZHIR",
+    "source_formula": "Zhir + Vok = A Severed Tie / A Betrayal of Heritage",
+    "corroborated_words": [
+      "Zhirvok"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "KHUM",
+    "source_formula": "Khum- + -rel = To Listen Deeply / To Meditate On",
+    "corroborated_words": [
+      "Khumrel"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "KHUM",
+    "source_formula": "Khum- + -lor = A Circle / A Council",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "Rath",
+    "source_formula": "Rath + -or = Enemy Territory / A Place of Great Danger",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "Rath",
+    "source_formula": "Rath + Vethor = A Hidden Enemy / An Assassin",
+    "corroborated_words": [
+      "Rathvethor"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "Rath",
+    "source_formula": "Rath + Thar = A Hateful Heart / Malevolence",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "ESH",
+    "source_formula": "Esh + Thal = Clarity of Mind / Perspective",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "ESH",
+    "source_formula": "Esh + Shara = A Sky-Path / A Celestial Journey",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "ESH",
+    "source_formula": "Esh + Lianor = An Epiphany / A Divine Thought",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "NOR",
+    "source_formula": "Nor + Vel = Continuity / Eternity",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "NOR",
+    "source_formula": "Nor + Ka = Now / This moment",
+    "corroborated_words": [
+      "nor-ka"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "RIN",
+    "source_formula": "Rin + Thal = Integrity",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "RIN",
+    "source_formula": "Ver + Rin = Soulless / Fake / Artificial",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "BEL",
+    "source_formula": "Bel + Thal = Order / The System / The Great Weave",
+    "corroborated_words": [
+      "Belthal"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "BEL",
+    "source_formula": "Bel + Shara = Duty / A Bound Path",
+    "corroborated_words": [
+      "Belshara"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "BEL",
+    "source_formula": "Bel + Vok = Clan / Family",
+    "corroborated_words": [
+      "Belvok"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "OHM",
+    "source_formula": "Ohm + -aen = To Love / To Cherish / To Attune With",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "OHM",
+    "source_formula": "Ohm + Rin = Attunement / Empathy",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "OHM",
+    "source_formula": "Ohm + Vok = The Collective Consciousness / The Great Bond",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "VOK",
+    "source_formula": "Vok + -aen = To Betray / To Break a Bond",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "VOK",
+    "source_formula": "Bel + Vok = Clan / Family",
+    "corroborated_words": [
+      "Belvok"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "VOK",
+    "source_formula": "Reth + Vok = Chaos",
+    "corroborated_words": [
+      "Rethvok"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "KEL",
+    "source_formula": "Kel- + -ka = A Word",
+    "corroborated_words": [
+      "Kelka"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "KEL",
+    "source_formula": "Kel- + Rin = A Name",
+    "corroborated_words": [
+      "Kelrin"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "KEL",
+    "source_formula": "Kel- + Ver = Silence",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "KAL",
+    "source_formula": "Kal + -or = Spiritual Strength / Willpower",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "KAL",
+    "source_formula": "Kal + Varok = Dominion / Tyranny",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "KAL",
+    "source_formula": "Kal + Rin = The Essence of Strength",
+    "corroborated_words": [
+      "Kalrin"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "RAV",
+    "source_formula": "Rav- + -okhaen = To Desire / To Yearn For",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "RAV",
+    "source_formula": "Rav- + Thar = A Yearning Heart / Passionate Longing",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "Aen",
+    "source_formula": "Aen + -or = The Ear / Place of Sound",
+    "corroborated_words": [
+      "Aenor"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "Aen",
+    "source_formula": "Aen + Nor = Music",
+    "corroborated_words": [
+      "Aennor"
+    ],
+    "disposition": "Already represented through an explicit word derivation"
+  },
+  {
+    "anchor": "Var-",
+    "source_formula": "Var + Ok = To Command / To Direct",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "Var-",
+    "source_formula": "Ver + Var = Stasis / Inaction",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "Ser-",
+    "source_formula": "Ser + Rin = Friendship / Comradery",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  },
+  {
+    "anchor": "Ser-",
+    "source_formula": "Kal + Ser = An Ally of Strength / A Bodyguard",
+    "corroborated_words": [],
+    "disposition": "Source note retained; no new relationship inferred from formula"
+  }
+]

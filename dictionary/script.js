@@ -4497,53 +4497,46 @@ function uniqueById(items) {
   });
 }
 
+// Family identities distinguish a free root from a prefix or suffix with the same letters.
+function familyIdentity(form, type = "") {
+  const word = normalizeHeadword(form);
+  if (word.startsWith('-') || /^suffix/i.test(type)) return `suffix:${cleanAlpha(word)}`;
+  if (/^(?:prefix|numeric\/math prefix)/i.test(type)) return `prefix:${cleanAlpha(word)}`;
+  return `root:${cleanAlpha(word)}`;
+}
+
 function buildRootLookup(expandedRoots, roots) {
   const seen = new Map();
-
-  expandedRoots
-    .filter((row) => isFamilyAnchorType(row.entry_type))
-    .forEach((row) => {
-      const form = (row.form || "").trim();
-      const normalized = cleanAlpha(form);
-      if (!normalized) return;
-      seen.set(normalized, {
-        form,
-        normalized,
-        meaning: row.core_meaning || "",
-        evidence: extractEvidenceTerms(row.evidence_hint),
-        evidenceTerms: extractEvidenceTerms(row.evidence_hint),
-        linkedEntryIds: [],
-        anchorType: (row.entry_type || "").toLowerCase(),
-        status: row.status || ""
-      });
-    });
-
-  roots
-    .filter((row) => isFamilyAnchorType(row.type))
-    .forEach((row) => {
-      const form = (row.root_or_morpheme || "").trim();
-      const normalized = cleanAlpha(form);
-      if (!normalized) return;
-      if (!seen.has(normalized)) {
-        seen.set(normalized, {
-          form,
-          normalized,
-          meaning: row.meaning_or_function || "",
-          evidence: extractEvidenceTerms(row.derived_forms),
-          evidenceTerms: extractEvidenceTerms(row.derived_forms),
-          linkedEntryIds: splitIds(row.related_entry_ids).filter((id) => id.startsWith("LX-")),
-          anchorType: (row.type || "").toLowerCase(),
-          status: "canon-root"
-        });
-      } else {
-        const existing = seen.get(normalized);
-        existing.evidence = Array.from(new Set(existing.evidence.concat(extractEvidenceTerms(row.derived_forms))));
-        existing.evidenceTerms = Array.from(new Set(existing.evidenceTerms.concat(extractEvidenceTerms(row.derived_forms))));
-        existing.linkedEntryIds = Array.from(new Set(existing.linkedEntryIds.concat(splitIds(row.related_entry_ids).filter((id) => id.startsWith("LX-")))));
-      }
-    });
-
-  return Array.from(seen.values()).sort((a, b) => b.normalized.length - a.normalized.length);
+  const add = (form, type, meaning, evidence, ids = []) => {
+    if (!form || form.includes('/')) return; // Comparison headings are not single roots.
+    const id = familyIdentity(form, type);
+    const affix = /^(suffix|prefix):/.test(id);
+    const label = id.startsWith('suffix:') ? `-${cleanAlpha(form)}`
+      : id.startsWith('prefix:') ? `${form.replace(/-+$/, '')}-` : form;
+    const terms = extractEvidenceTerms(evidence);
+    if (seen.has(id)) {
+      const old = seen.get(id);
+      old.evidenceTerms = uniqueStrings([...old.evidenceTerms, ...terms]);
+      old.linkedEntryIds = uniqueStrings([...old.linkedEntryIds, ...ids]);
+      old.meanings = uniqueStrings([...old.meanings, meaning]);
+      old.meaning = old.meanings.join('; ');
+      return;
+    }
+    seen.set(id, {id, form:label, normalized:cleanAlpha(form), meaning, meanings:[meaning],
+      evidenceTerms:terms, evidence:terms, linkedEntryIds:ids, anchorType:type.toLowerCase(), sharedAffix:affix});
+  };
+  expandedRoots.filter(r => isFamilyAnchorType(r.entry_type)).forEach(r =>
+    add(r.form, r.entry_type, r.core_meaning || '', r.evidence_hint));
+  roots.filter(r => isFamilyAnchorType(r.type) || /suffix|prefix|particle|preposition/i.test(r.type)).forEach(r =>
+    add(r.root_or_morpheme, r.type, r.meaning_or_function || '', r.derived_forms,
+      splitIds(r.related_entry_ids).filter(id => id.startsWith('LX-'))));
+  // ED-0038 supersedes the old combined KA explanation in the app-facing layer.
+  if (seen.has('root:ka')) Object.assign(seen.get('root:ka'), {
+    meaning:'Standalone ka means without or no. Possession uses attached -ka.',
+    evidenceTerms:seen.get('root:ka').evidenceTerms.filter(t => !normalizeHeadword(t).startsWith('-'))
+  });
+  if (seen.has('suffix:ka')) seen.get('suffix:ka').meaning = 'Possession: hyphenate -ka to the possessor. Standalone ka is negative.';
+  return [...seen.values()].sort((a,b) => b.normalized.length-a.normalized.length);
 }
 
 function escapeRegex(value) {
@@ -4551,113 +4544,128 @@ function escapeRegex(value) {
 }
 
 function extractEvidenceTerms(value) {
-  return (value || "")
-    .split(";")
-    .map((chunk) => chunk.trim())
-    .filter(Boolean)
-    .map((chunk) => chunk.split("(")[0].trim())
-    .map((chunk) => chunk.split(",")[0].trim())
-    .filter(Boolean);
-}
-
-function extractDerivationAnchors(text, rootLookup) {
-  const source = (text || "").trim();
-  if (!source) return [];
-  // Read the named parts before their explanations, not English words within
-  // those explanations (for example the conjunction "or" is not the root OR).
-  const parts = source.split(/\+/).map(part => part.trim()
-    .replace(/^(?:derivation:|derived from:?|built from:?|built on:?|root:|established|existing|new (?:(?:one|two)-syllable )?primitive(?: root)?[: ]*)\s*/i, '')
-    .match(/^([-A-Za-z‘’']+)/)?.[1]).filter(Boolean);
-  return parts.flatMap(part => rootLookup.filter(root => root.normalized === cleanAlpha(part))
-    .map(root => ({...root, sharedAffix: part.startsWith('-')})));
+  // Accept only actual forms; equations and prose remain source evidence, not inferred words.
+  return uniqueStrings((value || '').split(';').flatMap(chunk => {
+    if (/[+=]/.test(chunk)) return [];
+    return chunk.replace(/\([^)]*\)/g, '').split(/[,/]/).map(t => t.trim())
+      .filter(t => /^[-\p{L}’']+$/u.test(t));
+  }));
 }
 
 function derivationSource(entry) {
-  const usage = (entry.usage_context || "").trim();
-  const original = (entry.original_wording || "").trim();
-  const explicitDerivation = (entry.derivation || "").trim();
-  const derivationUsage = /(\+|=|derived from|derivation:|root:|built from|shortened from|re-purposed from)/i.test(usage)
-    ? usage
-    : "";
-  const derivationMatch = original.match(/(?:Derivation:|Derived From:|Root:|Built From:)\s*([^/\n]+)/i);
-  const derivationOnlyOriginal = derivationMatch ? derivationMatch[1].trim() : "";
-  return [explicitDerivation, derivationUsage, derivationOnlyOriginal].filter(Boolean).join(" ");
+  if (entry.derivation) return entry.derivation.trim();
+  const original = (entry.original_wording || '').match(/(?:Derivation:|Derived From:|Root:|Built From:)\s*([^\n]+)/i);
+  if (original) return original[1].trim();
+  const usage = entry.usage_context || '';
+  return /\+|derived from|derivation:|root:|built from/i.test(usage) ? usage.trim() : '';
+}
+
+function recordedComponents(text) {
+  if (!text || !text.includes('+') || /^Source-attested polysemy|^Independent|^Unsegmented/i.test(text)) return [];
+  return text.split('+').flatMap((raw, index) => {
+    const part = raw.trim().replace(/^(?:derivation:|derived from:?|built from:?|built on:?|root:|canonical|established|existing|new (?:(?:one|two)-syllable )?primitive(?: root)?[: ]*|nominal agent|historical)\s*/i,'');
+    const match = part.match(/^([-A-Za-z‘’']+)(.*)$/s);
+    if (!match || /^(noun-forming|source-attested|approved|the)$/i.test(match[1])) return [];
+    return [{form:match[1], description:match[2].trim().split(/[.;]/)[0], source:text}];
+  });
+}
+
+function componentIdentity(form, rootLookup) {
+  const prefix = familyIdentity(form, 'prefix');
+  return form.endsWith('-') && rootLookup.some(r=>r.id===prefix) ? prefix : familyIdentity(form);
+}
+
+function extractDerivationAnchors(text, rootLookup) {
+  return recordedComponents(text).flatMap(part => {
+    const id = componentIdentity(part.form, rootLookup);
+    return rootLookup.filter(root => root.id === id);
+  });
 }
 
 function detectFamilyRoots(group, rootLookup) {
-  if (group.entries.every((entry) => (entry.entry_id || "").startsWith("OHC-"))) {
-    return [];
-  }
-  const term = cleanAlpha(group.term);
-  const directMatches = [];
-  rootLookup.forEach((root) => {
-    if (!root.normalized) return;
-    const evidenceMatch = (root.evidenceTerms || []).some((hint) => cleanAlpha(hint) === term);
-    const linkedIdMatch = group.entries.some((entry) => root.linkedEntryIds.includes(entry.entry_id));
-    const exact = root.normalized === term;
-    // Spelling overlap is not evidence of a recorded word part (Tash != Ash).
-    if (exact || evidenceMatch || linkedIdMatch) {
-      directMatches.push(root);
-    }
-  });
-  const derivationMatches = group.entries.flatMap((entry) => {
-    return extractDerivationAnchors(derivationSource(entry), rootLookup);
-  });
-  const merged = Array.from(new Map([...directMatches, ...derivationMatches].map((root) => [root.normalized, root])).values());
-  const exactRoots = merged.filter((root) => root.normalized === term);
-  return exactRoots.length ? exactRoots : merged.sort((a, b) => Number(isSharedAffix(a)) - Number(isSharedAffix(b))).slice(0, 4);
+  if (group.entries.every(e => (e.entry_id || '').startsWith('OHC-'))) return [];
+  const own = familyIdentity(group.term, displayUses(group)[0]?.type || '');
+  const direct = rootLookup.filter(root => (!/^(suffix|prefix):/.test(own) || root.id === own) && (root.id === own ||
+    root.evidenceTerms.some(t => normalizeHeadword(t) === normalizeHeadword(group.term)) ||
+    group.entries.some(e => root.linkedEntryIds.includes(e.entry_id))));
+  const explicit = group.entries.flatMap(e => extractDerivationAnchors(derivationSource(e), rootLookup));
+  // Exact root-name matches must not hide an explicitly recorded derivation.
+  return [...new Map([...direct,...explicit].map(root => [root.id,root])).values()];
 }
 
 function isSharedAffix(root) {
-  return root.sharedAffix || /^-/.test(root.form) || /suffix|prefix/.test(root.anchorType);
+  return !!root.sharedAffix || /^-/.test(root.form) || /^(?:suffix|prefix|numeric\/math prefix)/.test(root.anchorType);
 }
 
 function buildFamilyIndex(groupedEntries, expandedRoots, roots) {
-  const rootLookup = buildRootLookup(expandedRoots, roots);
-  const detectedRootsByGroup = new Map();
-  const membersByRoot = new Map();
-
-  groupedEntries.forEach((group) => {
-    const detectedRoots = detectFamilyRoots(group, rootLookup);
-    detectedRootsByGroup.set(group.id, detectedRoots);
+  const lookup = buildRootLookup(expandedRoots, roots);
+  const groups = new Map(groupedEntries.map(g => [g.id,g]));
+  const lookupById = new Map(lookup.map(r=>[r.id,r]));
+  const componentWord = form => groups.get(normalizeHeadword(form)) ||
+    (!form.startsWith('-') && !form.endsWith('-') ? groups.get(normalizeHeadword(form.replace(/-$/, ''))) : null);
+  const partsByGroup = new Map();
+  const members = new Map();
+  const addMember = (key,group) => { if(!members.has(key)) members.set(key,[]); members.get(key).push(group); };
+  groupedEntries.forEach(group => {
+    const explicit = group.entries.flatMap(entry => recordedComponents(derivationSource(entry)).map(part => {
+      const componentId = componentIdentity(part.form, lookup);
+      const affix = /^(suffix|prefix):/.test(componentId);
+      const anchor = lookupById.get(componentId);
+      const word = componentWord(part.form);
+      // ED-0039 explanations are scoped to their specific words, especially homonymous suffixes.
+      const scoped = (affix && /ED-0039/.test(entry.notes || ''))
+        || (group.id === 'jekvarin' && normalizeHeadword(part.form) === 'varin'); // ED-0039: marine homonym, not cognition.
+      return {...part, id:scoped || (!anchor && !word) ? `local:${group.id}:${part.form}` : anchor?.id || `word:${word.id}`,
+        kind:scoped ? 'local' : affix ? (anchor ? 'affix' : 'local') : anchor ? 'root' : word ? 'word' : 'local',
+        target:scoped ? null : word?.id || null,
+        meaning:part.description || anchor?.meaning || '',
+        entryId:entry.entry_id};
+    }));
+    const rootsFound = detectFamilyRoots(group,lookup);
+    // A scoped affix must never be replaced by the inventory's different sense.
+    const scopedForms = new Set(explicit.filter(p=>p.kind==='local').map(p=>normalizeHeadword(p.form)));
+    const parts = rootsFound.filter(r=>!scopedForms.has(normalizeHeadword(r.form))).map(r=>({
+      id:r.id, form:r.form, kind:isSharedAffix(r)?'affix':'root', meaning:r.meaning,
+      target:componentWord(r.form)?.id || null
+    }));
+    const all = [...new Map([...parts,...explicit].map(p=>[p.id,p])).values()];
+    partsByGroup.set(group.id,all);
+    all.filter(p=>p.kind!=='local').forEach(p=>addMember(p.id,group));
+    // Existing base words get a reciprocal family, even if they are not primitive roots.
+    addMember(`word:${group.id}`,group);
   });
-
-  rootLookup.forEach((root) => {
-    const members = groupedEntries.filter((group) => {
-      const isRootEntry = group.id === root.normalized;
-      const linkedIdMatch = group.entries.some((entry) => root.linkedEntryIds.includes(entry.entry_id));
-      const evidenceMatch = (root.evidenceTerms || []).some((hint) => cleanAlpha(hint) === group.id);
-      const derivationMatch = (detectedRootsByGroup.get(group.id) || []).some((candidateRoot) => candidateRoot.normalized === root.normalized);
-      return isRootEntry || linkedIdMatch || evidenceMatch || derivationMatch;
-    });
-    membersByRoot.set(root.normalized, members);
-  });
-
   const index = new Map();
-  groupedEntries.forEach((group) => {
-    const detectedRoots = detectedRootsByGroup.get(group.id) || [];
-    const familyRoots = detectedRoots.map((root) => root.form);
-    const sharedAffixes = detectedRoots.filter(isSharedAffix).map((root) => root.form);
-    // Interleave families so the first large root family cannot fill every slot.
-    const pools = detectedRoots.filter(root => !isSharedAffix(root))
-      .map(root => (membersByRoot.get(root.normalized) || []).filter(candidate =>
-        (detectedRootsByGroup.get(candidate.id) || []).some(part => part.normalized === root.normalized && !isSharedAffix(part))));
-    const interleaved = Array.from({length: Math.max(0, ...pools.map(pool => pool.length))}, (_, i) => pools.map(pool => pool[i]).filter(Boolean)).flat();
-    const relatedEntries = uniqueById(
-      interleaved
-        .filter((candidate) => candidate.id !== group.id)
-        .map((candidate) => ({
-          id: candidate.id,
-          term: candidate.term
-        }))
-    ).slice(0, 16);
-    index.set(group.id, {
-      familyRoots,
-      sharedAffixes,
-      relatedEntries
+  groupedEntries.forEach(group => {
+    const parts = partsByGroup.get(group.id);
+    const ownId = familyIdentity(group.term, displayUses(group)[0]?.type || '');
+    const keys = uniqueStrings([...parts.filter(p=>p.kind==='root'||p.kind==='word').map(p=>p.id),
+      `word:${group.id}`, ...(/^(suffix|prefix):/.test(ownId) ? [ownId] : [])]);
+    const allowed = headwordOverride(group.term)?.familyTerms;
+    const buckets = keys.map(key=>({key,label:lookupById.get(key)?.form || groups.get(key.replace(/^word:/,''))?.term || key,
+      entries:uniqueById(members.get(key)||[]).filter(g=>g.id!==group.id && (!allowed || allowed.includes(g.term)))
+        .sort((a,b)=> Number(cleanAlpha(b.term)===cleanAlpha(lookupById.get(key)?.form || '')) - Number(cleanAlpha(a.term)===cleanAlpha(lookupById.get(key)?.form || '')) || a.term.localeCompare(b.term))})).filter(b=>b.entries.length);
+    const curated = (allowed || []).map(term=>groups.get(normalizeHeadword(term))).filter(Boolean);
+    if(curated.length) buckets.unshift({key:'reviewed',label:'Reviewed links',entries:curated});
+    const interleaved = Array.from({length:Math.max(0,...buckets.map(b=>b.entries.length))},(_,i)=>buckets.map(b=>b.entries[i]).filter(Boolean)).flat();
+    index.set(group.id,{
+      familyRoots:parts.filter(p=>p.kind==='root').map(p=>lookupById.get(p.id)?.form || p.form),
+      sharedAffixes:parts.filter(p=>p.kind==='affix').map(p=>p.form),
+      components:parts.filter(p=>p.entryId && normalizeHeadword(p.form)!==normalizeHeadword(group.term)),
+      notes:group.entries.filter(e=>e.derivation && !recordedComponents(e.derivation).length).map(e=>e.derivation),
+      relatedEntries:uniqueById(interleaved).map(g=>({id:g.id,term:g.term})),
+      relatedGroups:buckets.map(b=>({...b,entries:b.entries.map(g=>({id:g.id,term:g.term}))}))
     });
   });
   return index;
+}
+
+function renderComponentLinks(components) {
+  return components.map(part => {
+    const label = escapeMarkup(part.form);
+    const link = part.target ? `<button class="family-link" data-headword="${escapeMarkup(part.target)}">${label}</button>`
+      : part.kind === 'root' || part.kind === 'affix' ? renderFamilyLinks([part.form], 'data-root-term') : `<strong>${label}</strong>`;
+    return `<li>${link}${part.meaning ? ` — ${escapeMarkup(part.meaning)}` : ''}${part.kind==='local' ? ' <span class="sense-usage">(component in this word)</span>' : ''}</li>`;
+  }).join('');
 }
 
 function normalizeEnglishSearch(value) {
@@ -5188,7 +5196,7 @@ function renderFamilyLinks(items, attributeName) {
   return items.map((item, index) => {
     const label = typeof item === "string" ? item : (attributeName === "data-root-term" ? item : item.term);
     const suffix = index < items.length - 1 ? '<span class="family-separator">, </span>' : "";
-    return `<button class="family-link" ${attributeName}="${label}">${label}</button>${suffix}`;
+    return `<button class="family-link" ${attributeName}="${escapeMarkup(label)}">${escapeMarkup(label)}</button>${suffix}`;
   }).join("");
 }
 
@@ -5242,12 +5250,9 @@ function renderDetail(group) {
   const familyRoots = family.familyRoots
     .filter(rootTerm => !(family.sharedAffixes || []).includes(rootTerm))
     .filter((rootTerm) => normalizeHeadword(rootTerm.replace(/-+$/g, "")) !== normalizeHeadword(group.term.replace(/-+$/g, "")))
-    .slice(0, 3);
-  const relatedEntries = (override?.familyTerms?.length
-    ? family.relatedEntries.filter((entry) => override.familyTerms.includes(entry.term))
-    : family.relatedEntries
-  ).slice(0, 10);
-  const hasFamilyContent = familyRoots.length || relatedEntries.length || (family.sharedAffixes || []).length;
+    ;
+  const relatedEntries = family.relatedEntries;
+  const hasFamilyContent = familyRoots.length || relatedEntries.length || (family.sharedAffixes || []).length || family.components?.length || family.notes?.length;
   const displayExamples = override?.examples?.length ? override.examples : examples;
   const primaryUses = displayUses(group);
   const useMarkup = primaryUses.map((use) => {
@@ -5287,12 +5292,14 @@ function renderDetail(group) {
       ${hasFamilyContent ? `
       <section class="card">
         <h3>Word Family</h3>
+        ${family.components?.length ? `<div class="family-group"><p class="family-label">Built from</p><ul>${renderComponentLinks(family.components)}</ul></div>` : ''}
+        ${(family.notes || []).map(note=>`<p class="sense-usage">${escapeMarkup(note)}</p>`).join('')}
         ${(family.sharedAffixes || []).length ? `<div class="family-group"><p class="family-label">Shared affixes</p><p>${renderFamilyLinks(family.sharedAffixes, "data-root-term")}</p></div>` : ""}
         ${familyRoots.length
           ? `<div class="family-group"><p class="family-label">Root</p><p class="family-line">${renderFamilyLinks(familyRoots, "data-root-term")}</p></div>`
           : ""}
         ${relatedEntries.length
-          ? `<div class="family-group"><p class="family-label">Related words</p><p class="family-line">${renderFamilyLinks(relatedEntries, "data-headword")}</p></div>`
+          ? `<div class="family-group"><p class="family-label">Related words</p><p class="family-line">${renderFamilyLinks(relatedEntries.slice(0,10), "data-headword")}</p>${relatedEntries.length > 10 ? `<details class="family-all"><summary>View all ${relatedEntries.length} related words</summary>${(family.relatedGroups || []).map(bucket=>`<div class="family-group"><p class="family-label">${bucket.key === 'reviewed' ? 'Reviewed links' : 'Connected through ' + escapeMarkup(bucket.label)}</p><p>${renderFamilyLinks(bucket.entries, "data-headword")}</p></div>`).join('')}</details>` : ''}</div>`
           : (!familyRoots.length ? `` : `<p>No related word family listed.</p>`)}
       </section>
       ` : ""}

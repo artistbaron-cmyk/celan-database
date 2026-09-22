@@ -854,3 +854,13 @@ The detailed Vorkaral derivation is Vor + Kar + nominal agent -al; retain the se
 Status: Approved by the user's instruction to add the 17 second reviewed examples.
 
 PE-DR2-0001 through PE-DR2-0017 supply an additional usage sentence for each previously single-example restored entry. Each sentence is linked bidirectionally to its headword and checked against the approved senses and current possession rules. Full text is recorded in `outputs/dictionary_review/second_examples.md`. The user also closed the standalone-entry follow-up for Shalilaen and Welaen; no additional headwords are introduced.
+
+## ED-0041: Root and Family App Structure
+
+Status: Approved and applied locally from `outputs/root_family_audit/approved_decisions.json` (RF01–RF11).
+
+Root, prefix and suffix identities remain distinct even when they share letters. Standalone ka is negative; possessive -ka remains attached and follows ED-0038. A family component that is an existing whole word is linked as a component, not promoted to a primitive root. Word-specific historical components retain their approved explanations without becoming new productive roots or suffix rules. ED-0039's independent Varin and the marine component in Jekvarin remain unrelated.
+
+The app exposes complete related-word lists, preserves explicit reviewed family links, and shows recorded components without suppressing them merely because a headword also matches a root. Combined source headings are not individual family identities. Equations and prose in old evidence hints do not automatically authorize words or relationships; corroborated explicit word derivations supply links. The per-formula disposition is recorded in `outputs/root_family_audit/evidence_disposition.json`.
+
+This is an app structure change. No headwords, lexical meanings, pronunciations, or source-facing records are added or rewritten. Original audit findings remain preserved; implementation results are in `outputs/root_family_audit/applied_results.json` and `completion.md`.

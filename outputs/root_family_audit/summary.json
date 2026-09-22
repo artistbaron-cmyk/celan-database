@@ -1,0 +1,78 @@
+{
+  "capturedAt": "2026-09-22T19:41:32.440Z",
+  "headwords": 1496,
+  "source_inventory_records": 298,
+  "family_anchors": 215,
+  "issue_groups": 11,
+  "flagged_headwords": 1131,
+  "without_detected_family": 181,
+  "unresolved_visible_links": 0,
+  "categories": [
+    {
+      "id": "RF01",
+      "title": "Suffixes lose their identity and can lead to a different word",
+      "kind": "App fix",
+      "count": 7
+    },
+    {
+      "id": "RF02",
+      "title": "Shared-affix buttons use root names and root destinations",
+      "kind": "App fix",
+      "count": 257
+    },
+    {
+      "id": "RF03",
+      "title": "The lookup excludes records explicitly labeled Prefix or Suffix",
+      "kind": "App fix",
+      "count": 27
+    },
+    {
+      "id": "RF04",
+      "title": "Recorded component words are missing from the family lookup",
+      "kind": "App fix",
+      "count": 248
+    },
+    {
+      "id": "RF05",
+      "title": "Some recorded components have no usable family record",
+      "kind": "Needs interpretation",
+      "count": 52
+    },
+    {
+      "id": "RF06",
+      "title": "An exact root-name match suppresses other recorded relationships",
+      "kind": "Needs interpretation",
+      "count": 5
+    },
+    {
+      "id": "RF07",
+      "title": "Related-word lists silently stop before the family is complete",
+      "kind": "App fix",
+      "count": 921
+    },
+    {
+      "id": "RF08",
+      "title": "The KA family still carries an outdated combined explanation",
+      "kind": "App fix",
+      "count": 29
+    },
+    {
+      "id": "RF09",
+      "title": "Explicit family lists cannot restore a missing relative",
+      "kind": "App fix",
+      "count": 2
+    },
+    {
+      "id": "RF10",
+      "title": "Combined source headings remain family identities",
+      "kind": "Needs interpretation",
+      "count": 5
+    },
+    {
+      "id": "RF11",
+      "title": "Some source evidence cannot match a headword as stored",
+      "kind": "Needs interpretation",
+      "count": 27
+    }
+  ]
+}

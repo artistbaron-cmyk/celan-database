@@ -134,14 +134,14 @@ async function main() {
       .filter(Boolean))).join("; "));
     const rootWords = family.familyRoots
       .filter((rootTerm) => normalizeHeadword(rootTerm.replace(/-+$/g, "")) !== normalizeHeadword(group.term.replace(/-+$/g, "")))
-      .slice(0, 3)
+
       .join("; ");
     const relatedWords = (override?.familyTerms?.length
       ? family.relatedEntries.filter((entry) => override.familyTerms.includes(entry.term))
       : family.relatedEntries
     )
       .map((entry) => entry.term)
-      .slice(0, 10)
+
       .join("; ");
     const examples = override?.examples?.length ? override.examples : relatedExamples(group);
     const primaryUses = displayUses(group);

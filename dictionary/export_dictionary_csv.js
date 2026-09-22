@@ -118,11 +118,11 @@ async function main() {
       .filter(Boolean))).join("; ");
     const familyRoots = family.familyRoots
       .filter((rootTerm) => normalizeHeadword(rootTerm.replace(/-+$/g, "")) !== normalizeHeadword(group.term.replace(/-+$/g, "")))
-      .slice(0, 3);
+      ;
     const relatedEntries = (override?.familyTerms?.length
       ? family.relatedEntries.filter((entry) => override.familyTerms.includes(entry.term))
       : family.relatedEntries
-    ).slice(0, 10);
+    );
     const examples = override?.examples?.length ? override.examples : relatedExamples(group);
     const primaryUses = displayUses(group);
 

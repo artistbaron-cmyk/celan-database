@@ -1,0 +1,1693 @@
+# Dictionary root and family audit
+
+Checked all 1,496 app headwords against 215 family anchors and 298 source root/morphology records.
+
+This is an app-wide structural audit, not a claim that every historical derivation has been independently validated. Flags do not authorize changes to Celan. Counts overlap; source-record and component counts are not unique-word counts. No app or canon changes were made.
+
+## RF01 — Suffixes lose their identity and can lead to a different word
+
+App fix · 7 affected records
+
+The family lookup removes hyphens. That can turn a suffix into the free-standing word with the same letters. For example, -esh leads to Esh (sky/air), and -ka leads to Ka.
+
+Proposed approach: Give each root, prefix and suffix its own identity. Keep its hyphens and grammatical role throughout grouping and linking.
+
+- **-ath**: This suffix is grouped under ATH as if it were a root. Links: [{'form': 'ATH', 'target': None, 'targetId': None, 'explanation': 'Completion; perfected or enduring state'}]
+- **-ka**: This suffix is grouped under KA as if it were a root. Links: [{'form': 'KA', 'target': 'Ka', 'targetId': 'ka', 'explanation': 'Linking, possession, or without-state depending on context'}]
+- **-or**: This suffix is grouped under OR as if it were a root. Links: [{'form': 'OR', 'target': None, 'targetId': None, 'explanation': 'Domain; place; time-bounded space'}]
+- **-aen**: This suffix is grouped under Aen as if it were a root. Links: [{'form': 'Aen', 'target': 'Aen', 'targetId': 'aen', 'explanation': 'Complementizer'}]
+- **-esh**: This suffix is grouped under ESH as if it were a root. Links: [{'form': 'ESH', 'target': 'Esh', 'targetId': 'esh', 'explanation': 'Sky; air; mind; abstract thought'}]
+- **-el**: This suffix is grouped under EL as if it were a root. Links: [{'form': 'EL', 'target': None, 'targetId': None, 'explanation': 'Beloved bond; endearment; attached affection'}]
+- **-vel**: This suffix is grouped under VEL as if it were a root. Links: [{'form': 'VEL', 'target': 'Vel', 'targetId': 'vel', 'explanation': 'Wisdom; stillness; cold endurance'}]
+
+## RF02 — Shared-affix buttons use root names and root destinations
+
+App fix · 257 affected records
+
+Even when the app recognizes a suffix in a derivation, it uses the root record with the same letters for the button. Varral has a shared-affix button RAL, although the approved component is -ral.
+
+Proposed approach: Keep the approved component spelling and sense on the button. If the component has no dedicated entry, show its word-specific explanation instead of inventing a headword.
+
+- **Aenor**: Recorded suffixes are shown with root labels: OR
+- **Krezor**: Recorded suffixes are shown with root labels: OR
+- **Arthlor**: Recorded suffixes are shown with root labels: OR
+- **Lianaen**: Recorded suffixes are shown with root labels: Aen
+- **Lianor**: Recorded suffixes are shown with root labels: OR
+- **Fahaen**: Recorded suffixes are shown with root labels: Aen
+- **Theraen**: Recorded suffixes are shown with root labels: Aen
+- **Vialaen**: Recorded suffixes are shown with root labels: Aen
+- **Ohmaen**: Recorded suffixes are shown with root labels: Aen
+- **Ravokhaen**: Recorded suffixes are shown with root labels: Aen
+- **Shalaen**: Recorded suffixes are shown with root labels: Aen
+- **Seraen**: Recorded suffixes are shown with root labels: Aen
+- **Nkathalaen**: Recorded suffixes are shown with root labels: Aen
+- **Rathaen**: Recorded suffixes are shown with root labels: Aen
+- **Krezaen**: Recorded suffixes are shown with root labels: Aen
+- **Rethaen**: Recorded suffixes are shown with root labels: Aen
+- **Vershalaen**: Recorded suffixes are shown with root labels: Aen
+- **Thaalaen**: Recorded suffixes are shown with root labels: Aen
+- **Vaaranoraen**: Recorded suffixes are shown with root labels: Aen
+- **Vokaen**: Recorded suffixes are shown with root labels: Aen
+- **Veth'tharaen**: Recorded suffixes are shown with root labels: Aen
+- **Zhaeaen**: Recorded suffixes are shown with root labels: Aen
+- **Vaar'kelaen**: Recorded suffixes are shown with root labels: Aen
+- **Nethor**: Recorded suffixes are shown with root labels: OR
+- **Pralor**: Recorded suffixes are shown with root labels: OR
+- **Nethlor**: Recorded suffixes are shown with root labels: LOR
+- **Trakor**: Recorded suffixes are shown with root labels: OR
+- **Aenaen**: Recorded suffixes are shown with root labels: Aen
+- **Karethaen**: Recorded suffixes are shown with root labels: Aen
+- **Velaen**: Recorded suffixes are shown with root labels: Aen
+- **Drenaen**: Recorded suffixes are shown with root labels: Aen
+- **Nethaen**: Recorded suffixes are shown with root labels: Aen
+- **Moraen**: Recorded suffixes are shown with root labels: Aen
+- **Vethoraen**: Recorded suffixes are shown with root labels: Aen
+- **Kelka**: Recorded suffixes are shown with root labels: KA
+- **Rathlor**: Recorded suffixes are shown with root labels: LOR
+- **Vaarlor**: Recorded suffixes are shown with root labels: LOR
+- **Xarphelor**: Recorded suffixes are shown with root labels: OR
+- **Thalorimor**: Recorded suffixes are shown with root labels: OR
+- **Dralbelaen**: Recorded suffixes are shown with root labels: Aen
+- **Liankavor**: Recorded suffixes are shown with root labels: OR
+- **Vekaen**: Recorded suffixes are shown with root labels: Aen
+- **Korinaen**: Recorded suffixes are shown with root labels: Aen
+- **Aloraen**: Recorded suffixes are shown with root labels: Aen
+- **Kaxaraen**: Recorded suffixes are shown with root labels: Aen
+- **Xaraen**: Recorded suffixes are shown with root labels: Aen
+- **Jekaen**: Recorded suffixes are shown with root labels: Aen
+- **Sharaen**: Recorded suffixes are shown with root labels: Aen
+- **Sivathaen**: Recorded suffixes are shown with root labels: Aen
+- **Sivrethaen**: Recorded suffixes are shown with root labels: Aen
+- **Tharsharaen**: Recorded suffixes are shown with root labels: Aen
+- **Drenvaraen**: Recorded suffixes are shown with root labels: Aen
+- **Velzhiraen**: Recorded suffixes are shown with root labels: Aen
+- **Kavelzhiraen**: Recorded suffixes are shown with root labels: Aen
+- **Lemath**: Recorded suffixes are shown with root labels: ATH
+- **Aivaen**: Recorded suffixes are shown with root labels: Aen
+- **Pelaivaen**: Recorded suffixes are shown with root labels: Aen
+- **Rekaivaen**: Recorded suffixes are shown with root labels: Aen
+- **Teshaen**: Recorded suffixes are shown with root labels: Aen
+- **Rivaen**: Recorded suffixes are shown with root labels: Aen
+- **Jelaen**: Recorded suffixes are shown with root labels: Aen
+- **Kelvorthamaen**: Recorded suffixes are shown with root labels: Aen
+- **Feldrenaen**: Recorded suffixes are shown with root labels: Aen
+- **Pelvokaen**: Recorded suffixes are shown with root labels: Aen
+- **Selpralaen**: Recorded suffixes are shown with root labels: Aen
+- **Pelvaraen**: Recorded suffixes are shown with root labels: Aen
+- **Drentalaen**: Recorded suffixes are shown with root labels: Aen
+- **Jekthamaen**: Recorded suffixes are shown with root labels: Aen
+- **Drenselaen**: Recorded suffixes are shown with root labels: Aen
+- **Numaen**: Recorded suffixes are shown with root labels: Aen
+- **Nolaen**: Recorded suffixes are shown with root labels: Aen
+- **Tovaen**: Recorded suffixes are shown with root labels: Aen
+- **Norshanaen**: Recorded suffixes are shown with root labels: Aen
+- **Thalnoraen**: Recorded suffixes are shown with root labels: Aen
+- **Lianrethaen**: Recorded suffixes are shown with root labels: Aen
+- **Lianthalaen**: Recorded suffixes are shown with root labels: Aen
+- **Kalravaen**: Recorded suffixes are shown with root labels: Aen
+- **Keldoraen**: Recorded suffixes are shown with root labels: Aen
+- **Kasharaen**: Recorded suffixes are shown with root labels: Aen
+- **Belkoraen**: Recorded suffixes are shown with root labels: Aen
+- **Balpralaen**: Recorded suffixes are shown with root labels: Aen
+- **Drobalaen**: Recorded suffixes are shown with root labels: Aen
+- **Kesbrenaen**: Recorded suffixes are shown with root labels: Aen
+- **Gavaen**: Recorded suffixes are shown with root labels: Aen
+- **Neshbrenaen**: Recorded suffixes are shown with root labels: Aen
+- **Belzoraen**: Recorded suffixes are shown with root labels: Aen
+- **Zordrenvinaen**: Recorded suffixes are shown with root labels: Aen
+- **Emilpralaen**: Recorded suffixes are shown with root labels: Aen
+- **Xarkrezaen**: Recorded suffixes are shown with root labels: Aen
+- **Krezdrenaen**: Recorded suffixes are shown with root labels: Aen
+- **Eshkrezaen**: Recorded suffixes are shown with root labels: Aen
+- **Pelkrezaen**: Recorded suffixes are shown with root labels: Aen
+- **Olankrezaen**: Recorded suffixes are shown with root labels: Aen
+- **Eshdrenaen**: Recorded suffixes are shown with root labels: Aen
+- **Felthamaen**: Recorded suffixes are shown with root labels: Aen
+- **Pelaen**: Recorded suffixes are shown with root labels: Aen
+- **Drenpralaen**: Recorded suffixes are shown with root labels: Aen
+- **Seldrenvinaen**: Recorded suffixes are shown with root labels: Aen
+- **Balemilaen**: Recorded suffixes are shown with root labels: Aen
+- **Muraen**: Recorded suffixes are shown with root labels: Aen
+- **Vindrenaen**: Recorded suffixes are shown with root labels: Aen
+- **Livaraen**: Recorded suffixes are shown with root labels: Aen
+- **Vellivaraen**: Recorded suffixes are shown with root labels: Aen
+- **Ruvanaen**: Recorded suffixes are shown with root labels: Aen
+- **Talemilaen**: Recorded suffixes are shown with root labels: Aen
+- **Belxaraen**: Recorded suffixes are shown with root labels: Aen
+- **Belmekaen**: Recorded suffixes are shown with root labels: Aen
+- **Kabelmekaen**: Recorded suffixes are shown with root labels: Aen
+- **Hiraen**: Recorded suffixes are shown with root labels: Aen
+- **Zhaelpralaen**: Recorded suffixes are shown with root labels: Aen
+- **Shenlianaen**: Recorded suffixes are shown with root labels: Aen
+- **Selshanaen**: Recorded suffixes are shown with root labels: Aen
+- **Vekvaraen**: Recorded suffixes are shown with root labels: Aen
+- **Kormekaen**: Recorded suffixes are shown with root labels: Aen
+- **Lorvekaen**: Recorded suffixes are shown with root labels: Aen
+- **Mahrvaraen**: Recorded suffixes are shown with root labels: Aen
+- **Eshvaraen**: Recorded suffixes are shown with root labels: Aen
+- **Anvekaen**: Recorded suffixes are shown with root labels: Aen
+- **Thalvekaen**: Recorded suffixes are shown with root labels: Aen
+- **Weksharaen**: Recorded suffixes are shown with root labels: Aen
+- **Dorvekaen**: Recorded suffixes are shown with root labels: Aen
+- **Jorvaraen**: Recorded suffixes are shown with root labels: Aen
+- **Velvaraen**: Recorded suffixes are shown with root labels: Aen
+- **Belvekaen**: Recorded suffixes are shown with root labels: Aen
+- **Ravvekaen**: Recorded suffixes are shown with root labels: Aen
+- **Mekor**: Recorded suffixes are shown with root labels: OR
+- **Ndavior**: Recorded suffixes are shown with root labels: OR
+- **Xaror**: Recorded suffixes are shown with root labels: OR
+- **Xarwelor**: Recorded suffixes are shown with root labels: OR
+- **Welpralor**: Recorded suffixes are shown with root labels: OR
+- **Velkelor**: Recorded suffixes are shown with root labels: OR
+- **Shenpralor**: Recorded suffixes are shown with root labels: OR
+- **Shenkesor**: Recorded suffixes are shown with root labels: OR
+- **Belzhirkavor**: Recorded suffixes are shown with root labels: OR
+- **Mekpralor**: Recorded suffixes are shown with root labels: OR
+- **Varbelor**: Recorded suffixes are shown with root labels: OR
+- **Eshpralor**: Recorded suffixes are shown with root labels: OR
+- **Mahrpralor**: Recorded suffixes are shown with root labels: OR
+- **Mahrxaror**: Recorded suffixes are shown with root labels: OR
+- **Vekxaror**: Recorded suffixes are shown with root labels: OR
+- **Vekpralor**: Recorded suffixes are shown with root labels: OR
+- **Belor**: Recorded suffixes are shown with root labels: OR
+- **Lorbelaen**: Recorded suffixes are shown with root labels: Aen
+- **Keltharaen**: Recorded suffixes are shown with root labels: Aen
+- **Shentalaen**: Recorded suffixes are shown with root labels: Aen
+- **Weltalaen**: Recorded suffixes are shown with root labels: Aen
+- **Thalkelrethaen**: Recorded suffixes are shown with root labels: Aen
+- **Welrinath**: Recorded suffixes are shown with root labels: ATH
+- **Verkalkelaen**: Recorded suffixes are shown with root labels: Aen
+- **Ianath**: Recorded suffixes are shown with root labels: ATH
+- **Lorpelaen**: Recorded suffixes are shown with root labels: Aen
+- **Ngarjoraen**: Recorded suffixes are shown with root labels: Aen
+- **Arthkaraen**: Recorded suffixes are shown with root labels: Aen
+- **Vethvaraen**: Recorded suffixes are shown with root labels: Aen
+- **Kaarthaen**: Recorded suffixes are shown with root labels: Aen
+- **Tlamoraen**: Recorded suffixes are shown with root labels: Aen
+- **Shalbalaen**: Recorded suffixes are shown with root labels: Aen
+- **Dumaen**: Recorded suffixes are shown with root labels: Aen
+- **Dovaen**: Recorded suffixes are shown with root labels: Aen
+- **Nakaen**: Recorded suffixes are shown with root labels: Aen
+- **Shalnakaen**: Recorded suffixes are shown with root labels: Aen
+- **Vethnakaen**: Recorded suffixes are shown with root labels: Aen
+- **Jornakaen**: Recorded suffixes are shown with root labels: Aen
+- **Trakshalilaen**: Recorded suffixes are shown with root labels: Aen
+- **Mahrshalilaen**: Recorded suffixes are shown with root labels: Aen
+- **Aennoraen**: Recorded suffixes are shown with root labels: Aen
+- **Aenthaelaen**: Recorded suffixes are shown with root labels: Aen
+- **Karthaelaen**: Recorded suffixes are shown with root labels: Aen
+- **Thaelaen**: Recorded suffixes are shown with root labels: Aen
+- **Norpralaen**: Recorded suffixes are shown with root labels: Aen
+- **Norpralor**: Recorded suffixes are shown with root labels: OR
+- **Rimaen**: Recorded suffixes are shown with root labels: Aen
+- **Rimor**: Recorded suffixes are shown with root labels: OR
+- **Ndemaen**: Recorded suffixes are shown with root labels: Aen
+- **Keshenaen**: Recorded suffixes are shown with root labels: Aen
+- **Keshenath**: Recorded suffixes are shown with root labels: ATH
+- **Savaen**: Recorded suffixes are shown with root labels: Aen
+- **Savor**: Recorded suffixes are shown with root labels: OR
+- **Talzhaelaen**: Recorded suffixes are shown with root labels: Aen
+- **Kesrinaen**: Recorded suffixes are shown with root labels: Aen
+- **Vaarshanaen**: Recorded suffixes are shown with root labels: Aen
+- **Thalwelvaraen**: Recorded suffixes are shown with root labels: Aen
+- **Mavbalshanaen**: Recorded suffixes are shown with root labels: Aen
+- **Kavaen**: Recorded suffixes are shown with root labels: Aen
+- **Nalior**: Recorded suffixes are shown with root labels: OR
+- **Wekvaraen**: Recorded suffixes are shown with root labels: Aen
+- **Rakuaen**: Recorded suffixes are shown with root labels: Aen
+- **Varokrakuaen**: Recorded suffixes are shown with root labels: Aen
+- **Davashanaen**: Recorded suffixes are shown with root labels: Aen
+- **Deldavaen**: Recorded suffixes are shown with root labels: Aen
+- **Andavaen**: Recorded suffixes are shown with root labels: Aen
+- **Thaldavaen**: Recorded suffixes are shown with root labels: Aen
+- **Kavdavaen**: Recorded suffixes are shown with root labels: Aen
+- **Kesdavaen**: Recorded suffixes are shown with root labels: Aen
+- **Belnoraen**: Recorded suffixes are shown with root labels: Aen
+- **Xardavaen**: Recorded suffixes are shown with root labels: Aen
+- **Kaxardavaen**: Recorded suffixes are shown with root labels: Aen
+- **Zhelaen**: Recorded suffixes are shown with root labels: Aen
+- **Kavzhelaen**: Recorded suffixes are shown with root labels: Aen
+- **Thalzhelaen**: Recorded suffixes are shown with root labels: Aen
+- **Mekkesaen**: Recorded suffixes are shown with root labels: Aen
+- **Ravwekaen**: Recorded suffixes are shown with root labels: Aen
+- **Dralxaraen**: Recorded suffixes are shown with root labels: Aen
+- **Shenkesaen**: Recorded suffixes are shown with root labels: Aen
+- **Sivshenaen**: Recorded suffixes are shown with root labels: Aen
+- **Rinmekaen**: Recorded suffixes are shown with root labels: Aen
+- **Varrinmekaen**: Recorded suffixes are shown with root labels: Aen
+- **Felshenaen**: Recorded suffixes are shown with root labels: Aen
+- **Shenvarashaen**: Recorded suffixes are shown with root labels: Aen
+- **Weksivshenaen**: Recorded suffixes are shown with root labels: Aen
+- **Aruaen**: Recorded suffixes are shown with root labels: Aen
+- **Arural**: Recorded suffixes are shown with root labels: RAL
+- **Arukelaen**: Recorded suffixes are shown with root labels: Aen
+- **Shankalaen**: Recorded suffixes are shown with root labels: Aen
+- **Rinbelaen**: Recorded suffixes are shown with root labels: Aen
+- **Kaaruaen**: Recorded suffixes are shown with root labels: Aen
+- **Thaenohmaen**: Recorded suffixes are shown with root labels: Aen
+- **Thaenbelaen**: Recorded suffixes are shown with root labels: Aen
+- **Shalrinaen**: Recorded suffixes are shown with root labels: Aen
+- **Vethshalaen**: Recorded suffixes are shown with root labels: Aen
+- **Tharbelaen**: Recorded suffixes are shown with root labels: Aen
+- **Kesxaraen**: Recorded suffixes are shown with root labels: Aen
+- **Worshankalaen**: Recorded suffixes are shown with root labels: Aen
+- **Anor**: Recorded suffixes are shown with root labels: OR
+- **Anshanaen**: Recorded suffixes are shown with root labels: Aen
+- **Thalshanaen**: Recorded suffixes are shown with root labels: Aen
+- **Havaen**: Recorded suffixes are shown with root labels: Aen
+- **Dovkelaen**: Recorded suffixes are shown with root labels: Aen
+- **Havrathaen**: Recorded suffixes are shown with root labels: Aen
+- **Nemaen**: Recorded suffixes are shown with root labels: Aen
+- **Rethnemaen**: Recorded suffixes are shown with root labels: Aen
+- **Kelnemaen**: Recorded suffixes are shown with root labels: Aen
+- **Selnemaen**: Recorded suffixes are shown with root labels: Aen
+- **Mbaen**: Recorded suffixes are shown with root labels: Aen
+- **Zevaen**: Recorded suffixes are shown with root labels: Aen
+- **Fahohmaen**: Recorded suffixes are shown with root labels: Aen
+- **Miraen**: Recorded suffixes are shown with root labels: Aen
+- **Dakuaen**: Recorded suffixes are shown with root labels: Aen
+- **Ravohmaen**: Recorded suffixes are shown with root labels: Aen
+- **Kavkrezaen**: Recorded suffixes are shown with root labels: Aen
+- **Fahrethaen**: Recorded suffixes are shown with root labels: Aen
+- **Numor**: Recorded suffixes are shown with root labels: OR
+- **Khosaen**: Recorded suffixes are shown with root labels: Aen
+- **Zeraen**: Recorded suffixes are shown with root labels: Aen
+- **Suvaen**: Recorded suffixes are shown with root labels: Aen
+- **Naraen**: Recorded suffixes are shown with root labels: Aen
+- **Urenaen**: Recorded suffixes are shown with root labels: Aen
+- **Fekaen**: Recorded suffixes are shown with root labels: Aen
+- **Ndemwekaen**: Recorded suffixes are shown with root labels: Aen
+- **Kakesrinaen**: Recorded suffixes are shown with root labels: Aen
+- **Leyaen**: Recorded suffixes are shown with root labels: Aen
+- **Leyajoraen**: Recorded suffixes are shown with root labels: Aen
+- **Noraen**: Recorded suffixes are shown with root labels: Aen
+- **Thalesh**: Recorded suffixes are shown with root labels: ESH
+- **Thalor**: Recorded suffixes are shown with root labels: OR
+- **Daraen**: Recorded suffixes are shown with root labels: Aen
+- **Varral**: Recorded suffixes are shown with root labels: RAL
+
+## RF03 — The lookup excludes records explicitly labeled Prefix or Suffix
+
+App fix · 27 affected records
+
+The app admits types containing root, morpheme or marker, but not the labels Prefix and Suffix. Some affixes happen to re-enter through other records; others disappear. Counts here are source records, not unique words.
+
+Proposed approach: Read affix records explicitly into a separate affix inventory. Preserve multiple approved functions instead of merging by spelling.
+
+- **Tha-**: The Prefix record is excluded by the family-anchor type filter.
+- **Nor-**: The Prefix record is excluded by the family-anchor type filter.
+- **-al**: The Suffix record is excluded by the family-anchor type filter.
+- **-ath**: The Suffix record is excluded by the family-anchor type filter.
+- **-as**: The Suffix record is excluded by the family-anchor type filter.
+- **-in**: The Suffix record is excluded by the family-anchor type filter.
+- **-n**: The Suffix record is excluded by the family-anchor type filter.
+- **-or**: The Suffix record is excluded by the family-anchor type filter.
+- **-en**: The Suffix record is excluded by the family-anchor type filter.
+- **-lin**: The Suffix record is excluded by the family-anchor type filter.
+- **-aen**: The Suffix record is excluded by the family-anchor type filter.
+- **Tha-**: The Prefix record is excluded by the family-anchor type filter.
+- **Nor-**: The Prefix record is excluded by the family-anchor type filter.
+- **Ver-**: The Prefix record is excluded by the family-anchor type filter.
+- **Li-**: The Prefix record is excluded by the family-anchor type filter.
+- **Li-**: The Prefix record is excluded by the family-anchor type filter.
+- **-en**: The Suffix record is excluded by the family-anchor type filter.
+- **-esh**: The Suffix record is excluded by the family-anchor type filter.
+- **-en**: The Suffix record is excluded by the family-anchor type filter.
+- **-el**: The Suffix record is excluded by the family-anchor type filter.
+- **-vel**: The Suffix record is excluded by the family-anchor type filter.
+- **Ten-**: The Numeric/Math Prefix record is excluded by the family-anchor type filter.
+- **Hek-**: The Numeric/Math Prefix record is excluded by the family-anchor type filter.
+- **Mel-**: The Numeric/Math Prefix record is excluded by the family-anchor type filter.
+- **Fen-**: The Numeric/Math Prefix record is excluded by the family-anchor type filter.
+- **Hek-Mel-**: The Numeric/Math Prefix record is excluded by the family-anchor type filter.
+- **-eth**: The Suffix record is excluded by the family-anchor type filter.
+
+## RF04 — Recorded component words are missing from the family lookup
+
+App fix · 248 affected records
+
+The family system only knows its root inventory. It cannot connect many compounds to an existing base word named in their approved derivation. A component can be a whole word, not necessarily a primitive root.
+
+Proposed approach: Add explicit “Built from” links to existing component words. Keep these distinct from primitive roots, and do not guess further ancestry from spelling.
+
+- **Thalorimor**: Thalorim is named in the recorded derivation but is absent from the family inventory.
+- **Korinaen**: Korin is named in the recorded derivation but is absent from the family inventory.
+- **Sivrethaen**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Rethshara**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Rethpral**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Belreth**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Emilpral**: Emil is named in the recorded derivation but is absent from the family inventory.
+- **Kelvorthamaen**: Kelvor is named in the recorded derivation but is absent from the family inventory.
+- **Emilrav**: Emil is named in the recorded derivation but is absent from the family inventory.
+- **Norreth**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Normaveth**: Normav is named in the recorded derivation but is absent from the family inventory.
+- **Rethweknor**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Rethweknor**: Weknor is named in the recorded derivation but is absent from the family inventory.
+- **Norshanaen**: Norshan is named in the recorded derivation but is absent from the family inventory.
+- **Vethvelrathor**: Velrathor is named in the recorded derivation but is absent from the family inventory.
+- **Shanvelrathor**: Velrathor is named in the recorded derivation but is absent from the family inventory.
+- **Shanvelzhiraen**: Velzhiraen is named in the recorded derivation but is absent from the family inventory.
+- **Delvelrathor**: Velrathor is named in the recorded derivation but is absent from the family inventory.
+- **Belvelrathor**: Velrathor is named in the recorded derivation but is absent from the family inventory.
+- **Rathorjor**: Rathor is named in the recorded derivation but is absent from the family inventory.
+- **Kavelrathor**: Velrathor is named in the recorded derivation but is absent from the family inventory.
+- **Lianreth**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Lianrethor**: Lianreth is named in the recorded derivation but is absent from the family inventory.
+- **Lianrethaen**: Lianreth is named in the recorded derivation but is absent from the family inventory.
+- **Rethmor**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Lianrethxar**: Lianreth is named in the recorded derivation but is absent from the family inventory.
+- **Kalravor**: Kalrav is named in the recorded derivation but is absent from the family inventory.
+- **Workalrav**: Kalrav is named in the recorded derivation but is absent from the family inventory.
+- **Felkalrav**: Kalrav is named in the recorded derivation but is absent from the family inventory.
+- **Kakalrav**: Kalrav is named in the recorded derivation but is absent from the family inventory.
+- **Jekkalrav**: Kalrav is named in the recorded derivation but is absent from the family inventory.
+- **Kalravaen**: Kalrav is named in the recorded derivation but is absent from the family inventory.
+- **Lianrethshen**: Lianreth is named in the recorded derivation but is absent from the family inventory.
+- **Belzorral**: Belzor is named in the recorded derivation but is absent from the family inventory.
+- **Emildren**: Emil is named in the recorded derivation but is absent from the family inventory.
+- **Drenfellak**: Fellak is named in the recorded derivation but is absent from the family inventory.
+- **Emilolan**: Emil is named in the recorded derivation but is absent from the family inventory.
+- **Emilshara**: Emil is named in the recorded derivation but is absent from the family inventory.
+- **Emilpralaen**: Emil is named in the recorded derivation but is absent from the family inventory.
+- **Balemilaen**: Emil is named in the recorded derivation but is absent from the family inventory.
+- **Emilpraleth**: Emil is named in the recorded derivation but is absent from the family inventory.
+- **Kaemilpraleth**: Emilpraleth is named in the recorded derivation but is absent from the family inventory.
+- **Talemilaen**: Emil is named in the recorded derivation but is absent from the family inventory.
+- **Belxaraen**: Belxar is named in the recorded derivation but is absent from the family inventory.
+- **Velbelxar**: Belxar is named in the recorded derivation but is absent from the family inventory.
+- **Eshtrakor**: Trakor is named in the recorded derivation but is absent from the family inventory.
+- **Velpraltrakor**: Trakor is named in the recorded derivation but is absent from the family inventory.
+- **Pelveltrakor**: Trakor is named in the recorded derivation but is absent from the family inventory.
+- **Lorinorxar**: Lorinor is named in the recorded derivation but is absent from the family inventory.
+- **Welzhirbel**: Zhirbel is named in the recorded derivation but is absent from the family inventory.
+- **Belmekaen**: Belmek is named in the recorded derivation but is absent from the family inventory.
+- **Kabelmekaen**: Belmek is named in the recorded derivation but is absent from the family inventory.
+- **Korinxar**: Korin is named in the recorded derivation but is absent from the family inventory.
+- **Lorinshalxar**: Lorinshal is named in the recorded derivation but is absent from the family inventory.
+- **Rinbelxar**: Belxar is named in the recorded derivation but is absent from the family inventory.
+- **Kalbelrin**: Belrin is named in the recorded derivation but is absent from the family inventory.
+- **Olanbelrin**: Belrin is named in the recorded derivation but is absent from the family inventory.
+- **Pelkorin**: Korin is named in the recorded derivation but is absent from the family inventory.
+- **Delkorin**: Korin is named in the recorded derivation but is absent from the family inventory.
+- **Shenlianaen**: Shenlian is named in the recorded derivation but is absent from the family inventory.
+- **Selshanaen**: Selshan is named in the recorded derivation but is absent from the family inventory.
+- **Kormekvek**: Kormek is named in the recorded derivation but is absent from the family inventory.
+- **Delkormek**: Kormek is named in the recorded derivation but is absent from the family inventory.
+- **Belzhirvek**: Zhirvek is named in the recorded derivation but is absent from the family inventory.
+- **Shalilvek**: Shalil is named in the recorded derivation but is absent from the family inventory.
+- **Krenzhirvek**: Krenzhir is named in the recorded derivation but is absent from the family inventory.
+- **Kormekaen**: Kormek is named in the recorded derivation but is absent from the family inventory.
+- **Anvekaen**: An is named in the recorded derivation but is absent from the family inventory.
+- **Jorvaraen**: Jorvar is named in the recorded derivation but is absent from the family inventory.
+- **Aneshxar**: An is named in the recorded derivation but is absent from the family inventory.
+- **Mbalanmor**: Mbalan is named in the recorded derivation but is absent from the family inventory.
+- **Worxaror**: Xaror is named in the recorded derivation but is absent from the family inventory.
+- **Lormekor**: Mekor is named in the recorded derivation but is absent from the family inventory.
+- **Eshmekor**: Mekor is named in the recorded derivation but is absent from the family inventory.
+- **Lorbelaen**: Lorbel is named in the recorded derivation but is absent from the family inventory.
+- **Khumkelral**: Khumkel is named in the recorded derivation but is absent from the family inventory.
+- **Belvoklor**: Belvok is named in the recorded derivation but is absent from the family inventory.
+- **Lorbelral**: Lorbel is named in the recorded derivation but is absent from the family inventory.
+- **Belrinpel**: Rinpel is named in the recorded derivation but is absent from the family inventory.
+- **Shentalaen**: Shental is named in the recorded derivation but is absent from the family inventory.
+- **Weltalaen**: Weltal is named in the recorded derivation but is absent from the family inventory.
+- **Kelreth**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Thalkelreth**: Kelreth is named in the recorded derivation but is absent from the family inventory.
+- **Thalkelrethaen**: Thalkelreth is named in the recorded derivation but is absent from the family inventory.
+- **Welrinath**: Welrin is named in the recorded derivation but is absent from the family inventory.
+- **Felbelor**: Belor is named in the recorded derivation but is absent from the family inventory.
+- **Verkalkelaen**: Ver- is named in the recorded derivation but is absent from the family inventory.
+- **Verkalkelaen**: Kalkel is named in the recorded derivation but is absent from the family inventory.
+- **Pralilan**: Ilan is named in the recorded derivation but is absent from the family inventory.
+- **Mormekral**: Mormek is named in the recorded derivation but is absent from the family inventory.
+- **Sharalorin**: Lorin is named in the recorded derivation but is absent from the family inventory.
+- **Anvanesh**: An is named in the recorded derivation but is absent from the family inventory.
+- **Lorzhiranshan**: Lorzhir is named in the recorded derivation but is absent from the family inventory.
+- **Lorzhiranshan**: An is named in the recorded derivation but is absent from the family inventory.
+- **Lorzhirthalshan**: Lorzhir is named in the recorded derivation but is absent from the family inventory.
+- **Ianath**: Ian is named in the recorded derivation but is absent from the family inventory.
+- **Ravjorvek**: Ravjor is named in the recorded derivation but is absent from the family inventory.
+- **Xarkaleth**: Kaleth is named in the recorded derivation but is absent from the family inventory.
+- **Lorpelaen**: Lorpel is named in the recorded derivation but is absent from the family inventory.
+- **Vethvaraen**: Vethvar is named in the recorded derivation but is absent from the family inventory.
+- **Tlamoraen**: Tlamor is named in the recorded derivation but is absent from the family inventory.
+- **Tlamoreth**: Tlamor is named in the recorded derivation but is absent from the family inventory.
+- **Shalbalaen**: Shalbal is named in the recorded derivation but is absent from the family inventory.
+- **Shalbaleth**: Shalbal is named in the recorded derivation but is absent from the family inventory.
+- **Thalnakin**: Nakin is named in the recorded derivation but is absent from the family inventory.
+- **Shalnakaen**: Shalnak is named in the recorded derivation but is absent from the family inventory.
+- **Vethnakaen**: Vethnak is named in the recorded derivation but is absent from the family inventory.
+- **Jornakaen**: Jornak is named in the recorded derivation but is absent from the family inventory.
+- **Trakshalilaen**: Shalil is named in the recorded derivation but is absent from the family inventory.
+- **Mahrshalilaen**: Shalil is named in the recorded derivation but is absent from the family inventory.
+- **Aennoraen**: Aennor is named in the recorded derivation but is absent from the family inventory.
+- **Aennorral**: Aennor is named in the recorded derivation but is absent from the family inventory.
+- **Aenthaelaen**: Aenthael is named in the recorded derivation but is absent from the family inventory.
+- **Aenthaelral**: Aenthael is named in the recorded derivation but is absent from the family inventory.
+- **Welaenthael**: Aenthael is named in the recorded derivation but is absent from the family inventory.
+- **Karthaelaen**: Karthael is named in the recorded derivation but is absent from the family inventory.
+- **Karthaelral**: Karthael is named in the recorded derivation but is absent from the family inventory.
+- **Zhirkelral**: Zhirkel is named in the recorded derivation but is absent from the family inventory.
+- **Rinpralral**: Rinpral is named in the recorded derivation but is absent from the family inventory.
+- **Norpralaen**: Norpral is named in the recorded derivation but is absent from the family inventory.
+- **Norpralral**: Norpral is named in the recorded derivation but is absent from the family inventory.
+- **Norpralor**: Norpral is named in the recorded derivation but is absent from the family inventory.
+- **Keshenaen**: Keshen is named in the recorded derivation but is absent from the family inventory.
+- **Keshenath**: Keshen is named in the recorded derivation but is absent from the family inventory.
+- **Talzhaelaen**: Talzhael is named in the recorded derivation but is absent from the family inventory.
+- **Mavbaleth**: Mavbal is named in the recorded derivation but is absent from the family inventory.
+- **Mavbalshaneth**: Mavbal is named in the recorded derivation but is absent from the family inventory.
+- **Aivkorxar**: Aivkor is named in the recorded derivation but is absent from the family inventory.
+- **Mavmorzhael**: Mavmor is named in the recorded derivation but is absent from the family inventory.
+- **Rekrathlor**: Rathlor is named in the recorded derivation but is absent from the family inventory.
+- **Rathlorkel**: Rathlor is named in the recorded derivation but is absent from the family inventory.
+- **Velaivkor**: Aivkor is named in the recorded derivation but is absent from the family inventory.
+- **Kakesrin**: Kesrin is named in the recorded derivation but is absent from the family inventory.
+- **Kakesrineth**: Kakesrin is named in the recorded derivation but is absent from the family inventory.
+- **Kesrinaen**: Kesrin is named in the recorded derivation but is absent from the family inventory.
+- **Vaarshanaen**: Vaarshan is named in the recorded derivation but is absent from the family inventory.
+- **Thalwelvaraen**: Thalwelvar is named in the recorded derivation but is absent from the family inventory.
+- **Mavbalshanaen**: Mavbal is named in the recorded derivation but is absent from the family inventory.
+- **Mavbalxar**: Mavbal is named in the recorded derivation but is absent from the family inventory.
+- **Vaarbelwek**: Belwek is named in the recorded derivation but is absent from the family inventory.
+- **Shentalzhael**: Talzhael is named in the recorded derivation but is absent from the family inventory.
+- **Velkmorl**: Velk is named in the recorded derivation but is absent from the family inventory.
+- **Rathshannali**: Shannali is named in the recorded derivation but is absent from the family inventory.
+- **Zornethor**: Nethor is named in the recorded derivation but is absent from the family inventory.
+- **Emilzhir**: Emil is named in the recorded derivation but is absent from the family inventory.
+- **Emilbel**: Emil is named in the recorded derivation but is absent from the family inventory.
+- **Xilnalior**: Nalior is named in the recorded derivation but is absent from the family inventory.
+- **Versul**: Ver is named in the recorded derivation but is absent from the family inventory.
+- **Anmek**: An is named in the recorded derivation but is absent from the family inventory.
+- **Rakufelmek**: Felmek is named in the recorded derivation but is absent from the family inventory.
+- **Varokraku**: Varok is named in the recorded derivation but is absent from the family inventory.
+- **Varokrakuaen**: Varokraku is named in the recorded derivation but is absent from the family inventory.
+- **Varokrakueth**: Varokraku is named in the recorded derivation but is absent from the family inventory.
+- **Andavaen**: An is named in the recorded derivation but is absent from the family inventory.
+- **Mekreth**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Felmekreth**: Mekreth is named in the recorded derivation but is absent from the family inventory.
+- **Rekmekreth**: Mekreth is named in the recorded derivation but is absent from the family inventory.
+- **Rethdava**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Xardavaen**: Xardava is named in the recorded derivation but is absent from the family inventory.
+- **Kaxardavaen**: Xardava is named in the recorded derivation but is absent from the family inventory.
+- **Jorzhelkav**: Zhelkav is named in the recorded derivation but is absent from the family inventory.
+- **Zhelvorkor**: Vorkor is named in the recorded derivation but is absent from the family inventory.
+- **Zhelreth**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Rethzhelshara**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Rethzhelshara**: Zhelshara is named in the recorded derivation but is absent from the family inventory.
+- **Arthzhelshara**: Zhelshara is named in the recorded derivation but is absent from the family inventory.
+- **Morzhelshan**: Zhelshan is named in the recorded derivation but is absent from the family inventory.
+- **Mekkesaen**: Mekkes is named in the recorded derivation but is absent from the family inventory.
+- **Varokmek**: Varok is named in the recorded derivation but is absent from the family inventory.
+- **Rethzheldava**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Rethzheldava**: Zheldava is named in the recorded derivation but is absent from the family inventory.
+- **Songazun**: Zun is named in the recorded derivation but is absent from the family inventory.
+- **Zunesh**: Zun is named in the recorded derivation but is absent from the family inventory.
+- **Wornyelbel**: Nyelbel is named in the recorded derivation but is absent from the family inventory.
+- **Ravwekaen**: Ravwek is named in the recorded derivation but is absent from the family inventory.
+- **Ravwekin**: Ravwek is named in the recorded derivation but is absent from the family inventory.
+- **Dralxaraen**: Dralxar is named in the recorded derivation but is absent from the family inventory.
+- **Krezdralfel**: Dralfel is named in the recorded derivation but is absent from the family inventory.
+- **Mordralfel**: Dralfel is named in the recorded derivation but is absent from the family inventory.
+- **Shenbeleth**: Shenbel is named in the recorded derivation but is absent from the family inventory.
+- **Shenkesaen**: Shenkes is named in the recorded derivation but is absent from the family inventory.
+- **Sivshenaen**: Sivshen is named in the recorded derivation but is absent from the family inventory.
+- **Rinmekaen**: Rinmek is named in the recorded derivation but is absent from the family inventory.
+- **Varrinmek**: Rinmek is named in the recorded derivation but is absent from the family inventory.
+- **Varrinmekaen**: Varrinmek is named in the recorded derivation but is absent from the family inventory.
+- **Felshenaen**: Felshen is named in the recorded derivation but is absent from the family inventory.
+- **Drenvar**: Drenvaraen is named in the recorded derivation but is absent from the family inventory.
+- **Sivshenlian**: Sivshen is named in the recorded derivation but is absent from the family inventory.
+- **Rethshen**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Shenreth**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Shenlianeth**: Shenlian is named in the recorded derivation but is absent from the family inventory.
+- **Shenvarash**: Varash is named in the recorded derivation but is absent from the family inventory.
+- **Shenvarashaen**: Shenvarash is named in the recorded derivation but is absent from the family inventory.
+- **Weksivshen**: Sivshen is named in the recorded derivation but is absent from the family inventory.
+- **Weksivshenaen**: Weksivshen is named in the recorded derivation but is absent from the family inventory.
+- **Arukelaen**: Arukel is named in the recorded derivation but is absent from the family inventory.
+- **Rinbelaen**: Rinbel is named in the recorded derivation but is absent from the family inventory.
+- **Rinbeleth**: Rinbel is named in the recorded derivation but is absent from the family inventory.
+- **Thaenohmaen**: Thaenohm is named in the recorded derivation but is absent from the family inventory.
+- **Thaenbelaen**: Thaenbel is named in the recorded derivation but is absent from the family inventory.
+- **Kathaenbelaen**: Thaenbelaen is named in the recorded derivation but is absent from the family inventory.
+- **Shalrinaen**: Shalrin is named in the recorded derivation but is absent from the family inventory.
+- **Vethshalaen**: Vethshal is named in the recorded derivation but is absent from the family inventory.
+- **Vethshaleth**: Vethshal is named in the recorded derivation but is absent from the family inventory.
+- **Tharbelaen**: Tharbel is named in the recorded derivation but is absent from the family inventory.
+- **Katharbelaen**: Tharbelaen is named in the recorded derivation but is absent from the family inventory.
+- **Kesxaraen**: Kesxar is named in the recorded derivation but is absent from the family inventory.
+- **Worshankalaen**: Worshankal is named in the recorded derivation but is absent from the family inventory.
+- **Rethkal**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Rethkaleth**: Rethkal is named in the recorded derivation but is absent from the family inventory.
+- **Ohmreth**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Kaohmaen**: Ohmaen is named in the recorded derivation but is absent from the family inventory.
+- **Deni**: I is named in the recorded derivation but is absent from the family inventory.
+- **Denya**: Ya is named in the recorded derivation but is absent from the family inventory.
+- **Denla**: La is named in the recorded derivation but is absent from the family inventory.
+- **Anor**: An is named in the recorded derivation but is absent from the family inventory.
+- **Kaan**: An is named in the recorded derivation but is absent from the family inventory.
+- **Anshanaen**: An is named in the recorded derivation but is absent from the family inventory.
+- **Dovkelaen**: Dovkel is named in the recorded derivation but is absent from the family inventory.
+- **Dovhavral**: Dovhav is named in the recorded derivation but is absent from the family inventory.
+- **Havrathaen**: Havrath is named in the recorded derivation but is absent from the family inventory.
+- **Peljekkel**: Jekkel is named in the recorded derivation but is absent from the family inventory.
+- **Rethnem**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Rethnemaen**: Rethnem is named in the recorded derivation but is absent from the family inventory.
+- **Fahohmaen**: Fahohm is named in the recorded derivation but is absent from the family inventory.
+- **Ravohmaen**: Ravohm is named in the recorded derivation but is absent from the family inventory.
+- **Kavkrezaen**: Kavkrez is named in the recorded derivation but is absent from the family inventory.
+- **Fahreth**: Reth is named in the recorded derivation but is absent from the family inventory.
+- **Fahrethaen**: Fahreth is named in the recorded derivation but is absent from the family inventory.
+- **Korkalvar**: Kalvar is named in the recorded derivation but is absent from the family inventory.
+- **Kalvargora**: Kalvar is named in the recorded derivation but is absent from the family inventory.
+- **Koringora**: Korin is named in the recorded derivation but is absent from the family inventory.
+- **Korsharvar**: Sharvar is named in the recorded derivation but is absent from the family inventory.
+- **Sharvargora**: Sharvar is named in the recorded derivation but is absent from the family inventory.
+- **Morlkagora**: Morlka is named in the recorded derivation but is absent from the family inventory.
+- **Morlkapir**: Morlka is named in the recorded derivation but is absent from the family inventory.
+- **Emiltash**: Emil is named in the recorded derivation but is absent from the family inventory.
+- **Emilshan**: Emil is named in the recorded derivation but is absent from the family inventory.
+- **Ndemwekaen**: Ndemwek is named in the recorded derivation but is absent from the family inventory.
+- **Kakesrinaen**: Kakesrin is named in the recorded derivation but is absent from the family inventory.
+- **Marasorl**: Sorl is named in the recorded derivation but is absent from the family inventory.
+- **Leyajoraen**: Leyajor is named in the recorded derivation but is absent from the family inventory.
+- **Kelvordren**: Kelvor is named in the recorded derivation but is absent from the family inventory.
+- **Lorinshaldren**: Lorinshal is named in the recorded derivation but is absent from the family inventory.
+- **Morlkavesh**: Morlka is named in the recorded derivation but is absent from the family inventory.
+- **Velkrel**: Velk is named in the recorded derivation but is absent from the family inventory.
+- **Varan**: An is named in the recorded derivation but is absent from the family inventory.
+- **Zhirrathor**: Rathor is named in the recorded derivation but is absent from the family inventory.
+
+## RF05 — Some recorded components have no usable family record
+
+Needs interpretation · 52 affected records
+
+These derivations name a component or suffix that the family inventory does not contain. Its approved role may be historical or limited to one word, so creating a general root would overstate the decision.
+
+Proposed approach: Show the existing word-specific explanation. Confirm any new shared family identity separately; no automatic new headwords or productive grammar rules.
+
+- **Maveth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Normaveth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Zhaeleth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Ruvaneth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Emilpraleth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Drenartheth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Shanartheth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Zhelshaneth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Vekin**: -in is named in the recorded derivation but is absent from the family inventory.
+- **Weleth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Kaweleth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Tlamoreth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Shalbaleth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Dumeth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Dovin**: -in is named in the recorded derivation but is absent from the family inventory.
+- **Nakin**: -in is named in the recorded derivation but is absent from the family inventory.
+- **Savin**: -in is named in the recorded derivation but is absent from the family inventory.
+- **Mavbaleth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Mavbalshaneth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Kakesrineth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Verdin**: -in is named in the recorded derivation but is absent from the family inventory.
+- **Gavin**: -in is named in the recorded derivation but is absent from the family inventory.
+- **Varokrakueth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Songaeth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Nyeleth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Voraeth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Luneth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Ravwekin**: -in is named in the recorded derivation but is absent from the family inventory.
+- **Shenbeleth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Shenlianeth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Pelsheneth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Arueth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Kaarueth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Rinbeleth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Thaenin**: -in is named in the recorded derivation but is absent from the family inventory.
+- **Vethshaleth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Rethkaleth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Haveth**: -eth is named in the recorded derivation but is absent from the family inventory.
+- **Velkrel**: -rel is named in the recorded derivation but is absent from the family inventory.
+- **Shalil**: -il is named in the recorded derivation but is absent from the family inventory.
+- **Zhivor**: Vor is named in the recorded derivation but is absent from the family inventory.
+- **Theren**: Ter is named in the recorded derivation but is absent from the family inventory.
+- **Theren**: -en is named in the recorded derivation but is absent from the family inventory.
+- **Serilin**: -il is named in the recorded derivation but is absent from the family inventory.
+- **Serilin**: -in is named in the recorded derivation but is absent from the family inventory.
+- **Aelin**: Ael is named in the recorded derivation but is absent from the family inventory.
+- **Aelin**: -in is named in the recorded derivation but is absent from the family inventory.
+- **Varshel**: shel is named in the recorded derivation but is absent from the family inventory.
+- **Vorkaral**: Vor is named in the recorded derivation but is absent from the family inventory.
+- **Vorkaral**: -al is named in the recorded derivation but is absent from the family inventory.
+- **Noral**: -al is named in the recorded derivation but is absent from the family inventory.
+- **Khumrel**: -rel is named in the recorded derivation but is absent from the family inventory.
+
+## RF06 — An exact root-name match suppresses other recorded relationships
+
+Needs interpretation · 5 affected records
+
+When a word matches a root record, the app discards all other detected components. Pralaen therefore loses Pral + -aen. Other cases involve old evidence or combined headings and need interpretation.
+
+Proposed approach: Remove the blanket suppression only after distinguishing a word’s own derivation from a note about another word. Do not simply display every parser candidate.
+
+- **Terra**: Before early-return/cap: terra- / Terra-, TERRA. App keeps: TERRA.
+- **Fah**: Before early-return/cap: Fah- / Vethor-, FAH. App keeps: FAH.
+- **Lun**: Before early-return/cap: LUN, WEK. App keeps: LUN.
+- **Pralaen**: Before early-return/cap: Pralaen-, PRAL, Aen. App keeps: Pralaen-.
+- **Pralaen-**: Before early-return/cap: Pralaen-, PRAL. App keeps: Pralaen-.
+
+## RF07 — Related-word lists silently stop before the family is complete
+
+App fix · 921 affected records
+
+The family builder retains at most 16 relatives, and the entry page shows at most 10. Two editorial allowlists can narrow the list further. There is no “show all” control. These are app-calculated relatives, not independently certified linguistic relationships.
+
+Proposed approach: Offer a complete browsable list with a count, grouped by shared root. Retain the short preview and respect reviewed exclusions.
+
+- **Kadfel**: The current family logic finds 36 relatives but shows 10.
+- **Var**: The current family logic finds 23 relatives but shows 10.
+- **Thal**: The current family logic finds 26 relatives but shows 10.
+- **Ka**: The current family logic finds 27 relatives but shows 10.
+- **Nor**: The current family logic finds 30 relatives but shows 10.
+- **Esh**: The current family logic finds 39 relatives but shows 10.
+- **Morl**: The current family logic finds 22 relatives but shows 10.
+- **Dren**: The current family logic finds 40 relatives but shows 10.
+- **Shal**: The current family logic finds 24 relatives but shows 10.
+- **Krez**: The current family logic finds 25 relatives but shows 10.
+- **Thar**: The current family logic finds 14 relatives but shows 10.
+- **Shara**: The current family logic finds 28 relatives but shows 10.
+- **Shalor**: The current family logic finds 31 relatives but shows 10.
+- **Lian**: The current family logic finds 17 relatives but shows 10.
+- **Aen**: The current family logic finds 8 relatives but shows 1.
+- **Arth**: The current family logic finds 12 relatives but shows 10.
+- **Kal**: The current family logic finds 29 relatives but shows 10.
+- **Arthen**: The current family logic finds 12 relatives but shows 10.
+- **Lorin**: The current family logic finds 20 relatives but shows 10.
+- **Rath**: The current family logic finds 11 relatives but shows 10.
+- **Korin**: The current family logic finds 18 relatives but shows 10.
+- **Morldren**: The current family logic finds 62 relatives but shows 10.
+- **Verdor**: The current family logic finds 17 relatives but shows 10.
+- **Mahr**: The current family logic finds 14 relatives but shows 10.
+- **Kaleth**: The current family logic finds 29 relatives but shows 10.
+- **Lorash**: The current family logic finds 21 relatives but shows 10.
+- **Krezor**: The current family logic finds 25 relatives but shows 10.
+- **Kinnshal**: The current family logic finds 28 relatives but shows 10.
+- **Kinnmor**: The current family logic finds 38 relatives but shows 10.
+- **Belrin**: The current family logic finds 78 relatives but shows 10.
+- **Belar**: The current family logic finds 51 relatives but shows 10.
+- **Brosrin**: The current family logic finds 35 relatives but shows 10.
+- **Balrin**: The current family logic finds 40 relatives but shows 10.
+- **Brenmor**: The current family logic finds 40 relatives but shows 10.
+- **Phelvin**: The current family logic finds 18 relatives but shows 10.
+- **Pelvar**: The current family logic finds 47 relatives but shows 10.
+- **Peldren**: The current family logic finds 65 relatives but shows 10.
+- **Pralmor**: The current family logic finds 80 relatives but shows 10.
+- **Jorlin**: The current family logic finds 26 relatives but shows 10.
+- **Jorvak**: The current family logic finds 26 relatives but shows 10.
+- **Jekvor**: The current family logic finds 11 relatives but shows 10.
+- **Welrim**: The current family logic finds 26 relatives but shows 10.
+- **Welmor**: The current family logic finds 57 relatives but shows 10.
+- **Weknor**: The current family logic finds 47 relatives but shows 10.
+- **Worvenak**: The current family logic finds 11 relatives but shows 10.
+- **Xilvar**: The current family logic finds 27 relatives but shows 10.
+- **Xarvel**: The current family logic finds 85 relatives but shows 10.
+- **Nkural**: The current family logic finds 34 relatives but shows 10.
+- **Jorkal**: The current family logic finds 55 relatives but shows 10.
+- **Arthlor**: The current family logic finds 12 relatives but shows 10.
+- **Serenkal**: The current family logic finds 29 relatives but shows 10.
+- **Belshara**: The current family logic finds 77 relatives but shows 10.
+- **Rathvethor**: The current family logic finds 11 relatives but shows 10.
+- **Lianaen**: The current family logic finds 17 relatives but shows 10.
+- **Talrin**: The current family logic finds 37 relatives but shows 10.
+- **Rinvarash**: The current family logic finds 29 relatives but shows 10.
+- **Belshen**: The current family logic finds 82 relatives but shows 10.
+- **Thalaneshen**: The current family logic finds 70 relatives but shows 10.
+- **Ka-Shen**: The current family logic finds 60 relatives but shows 10.
+- **Vellian**: The current family logic finds 60 relatives but shows 10.
+- **Terradren**: The current family logic finds 50 relatives but shows 10.
+- **Drenshal**: The current family logic finds 64 relatives but shows 10.
+- **Terraesh**: The current family logic finds 49 relatives but shows 10.
+- **Velrin**: The current family logic finds 29 relatives but shows 10.
+- **Teravin**: The current family logic finds 21 relatives but shows 10.
+- **Lorlivok**: The current family logic finds 40 relatives but shows 10.
+- **Felorin**: The current family logic finds 32 relatives but shows 10.
+- **Jekvin**: The current family logic finds 22 relatives but shows 10.
+- **Belmor**: The current family logic finds 84 relatives but shows 10.
+- **Vethhar**: The current family logic finds 15 relatives but shows 10.
+- **Velithor**: The current family logic finds 43 relatives but shows 10.
+- **Lianfel**: The current family logic finds 49 relatives but shows 10.
+- **Jorvilor**: The current family logic finds 29 relatives but shows 10.
+- **Zhelvek**: The current family logic finds 99 relatives but shows 10.
+- **Velmek**: The current family logic finds 78 relatives but shows 10.
+- **Phelrin**: The current family logic finds 36 relatives but shows 10.
+- **Jorvalin**: The current family logic finds 26 relatives but shows 10.
+- **Drenlivar**: The current family logic finds 44 relatives but shows 10.
+- **Eshtenor**: The current family logic finds 42 relatives but shows 10.
+- **Jekvarin**: The current family logic finds 11 relatives but shows 10.
+- **Tharmor**: The current family logic finds 48 relatives but shows 10.
+- **Terafennil**: The current family logic finds 14 relatives but shows 10.
+- **Welvinor**: The current family logic finds 34 relatives but shows 10.
+- **Krezfel**: The current family logic finds 57 relatives but shows 10.
+- **Morthas**: The current family logic finds 34 relatives but shows 10.
+- **Voktarin**: The current family logic finds 21 relatives but shows 10.
+- **Velthamor**: The current family logic finds 56 relatives but shows 10.
+- **Eshvilor**: The current family logic finds 42 relatives but shows 10.
+- **Thalshorin**: The current family logic finds 26 relatives but shows 10.
+- **Xarlorin**: The current family logic finds 43 relatives but shows 10.
+- **Morvenak**: The current family logic finds 36 relatives but shows 10.
+- **Kreztorin**: The current family logic finds 26 relatives but shows 10.
+- **Velkorin**: The current family logic finds 43 relatives but shows 10.
+- **Drenkor**: The current family logic finds 57 relatives but shows 10.
+- **Vethsoril**: The current family logic finds 16 relatives but shows 10.
+- **Shalorin**: The current family logic finds 24 relatives but shows 10.
+- **Welkarin**: The current family logic finds 23 relatives but shows 10.
+- **Morlathor**: The current family logic finds 22 relatives but shows 10.
+- **Velkrin**: The current family logic finds 43 relatives but shows 10.
+- **Krezlorin**: The current family logic finds 25 relatives but shows 10.
+- **Pralvinor**: The current family logic finds 47 relatives but shows 10.
+- **Zhaelor**: The current family logic finds 13 relatives but shows 10.
+- **Tharvin**: The current family logic finds 25 relatives but shows 10.
+- **Velthaen**: The current family logic finds 48 relatives but shows 10.
+- **Eshthael**: The current family logic finds 45 relatives but shows 10.
+- **Shalithor**: The current family logic finds 24 relatives but shows 10.
+- **Velarshor**: The current family logic finds 45 relatives but shows 10.
+- **Drenalor**: The current family logic finds 42 relatives but shows 10.
+- **Eshvelor**: The current family logic finds 39 relatives but shows 10.
+- **Thalorim**: The current family logic finds 26 relatives but shows 10.
+- **Krezrek**: The current family logic finds 32 relatives but shows 10.
+- **Drenvelesh**: The current family logic finds 117 relatives but shows 10.
+- **Eshvelaneth**: The current family logic finds 81 relatives but shows 10.
+- **Felin**: The current family logic finds 32 relatives but shows 10.
+- **Lianor**: The current family logic finds 17 relatives but shows 10.
+- **Liorin**: The current family logic finds 20 relatives but shows 10.
+- **Kel**: The current family logic finds 24 relatives but shows 10.
+- **Dro**: The current family logic finds 14 relatives but shows 10.
+- **Fel**: The current family logic finds 32 relatives but shows 10.
+- **Zhiren**: The current family logic finds 38 relatives but shows 10.
+- **Velar**: The current family logic finds 43 relatives but shows 10.
+- **Pralin**: The current family logic finds 47 relatives but shows 10.
+- **Velkavor**: The current family logic finds 68 relatives but shows 10.
+- **Belvok**: The current family logic finds 70 relatives but shows 10.
+- **Xarvethral**: The current family logic finds 87 relatives but shows 10.
+- **Tavojorin**: The current family logic finds 26 relatives but shows 10.
+- **Zhivorin**: The current family logic finds 38 relatives but shows 10.
+- **Kalvok**: The current family logic finds 48 relatives but shows 10.
+- **Velpralor**: The current family logic finds 93 relatives but shows 10.
+- **Felvin**: The current family logic finds 42 relatives but shows 10.
+- **Zharin**: The current family logic finds 38 relatives but shows 10.
+- **Velxorin**: The current family logic finds 43 relatives but shows 10.
+- **Kalvokesh**: The current family logic finds 84 relatives but shows 10.
+- **Zhirkalor**: The current family logic finds 75 relatives but shows 10.
+- **Xarfelvin**: The current family logic finds 85 relatives but shows 10.
+- **Belvethral**: The current family logic finds 93 relatives but shows 10.
+- **Velmarin**: The current family logic finds 45 relatives but shows 10.
+- **Pralvokesh**: The current family logic finds 99 relatives but shows 10.
+- **Vel'rathor**: The current family logic finds 43 relatives but shows 10.
+- **Thal'vok**: The current family logic finds 26 relatives but shows 10.
+- **Shalaen**: The current family logic finds 24 relatives but shows 10.
+- **Krezaen**: The current family logic finds 25 relatives but shows 10.
+- **Vershalaen**: The current family logic finds 24 relatives but shows 10.
+- **Vokaen**: The current family logic finds 20 relatives but shows 10.
+- **Veth'tharaen**: The current family logic finds 14 relatives but shows 10.
+- **Drenvokesh**: The current family logic finds 92 relatives but shows 10.
+- **Eshlorien**: The current family logic finds 39 relatives but shows 10.
+- **Terrashaneth**: The current family logic finds 45 relatives but shows 10.
+- **Velpralim**: The current family logic finds 126 relatives but shows 10.
+- **Kreztharim**: The current family logic finds 43 relatives but shows 10.
+- **Zhivokesh**: The current family logic finds 56 relatives but shows 10.
+- **Dralshaneth**: The current family logic finds 44 relatives but shows 10.
+- **Zhirelorim**: The current family logic finds 45 relatives but shows 10.
+- **Morlatharim**: The current family logic finds 40 relatives but shows 10.
+- **Velmarineth**: The current family logic finds 45 relatives but shows 10.
+- **Velthaelvok**: The current family logic finds 69 relatives but shows 10.
+- **Drenkorath**: The current family logic finds 66 relatives but shows 10.
+- **Shalorveth**: The current family logic finds 45 relatives but shows 10.
+- **Velterim**: The current family logic finds 47 relatives but shows 10.
+- **Krezmorath**: The current family logic finds 68 relatives but shows 10.
+- **Tharvelim**: The current family logic finds 59 relatives but shows 10.
+- **Kalorinath**: The current family logic finds 38 relatives but shows 10.
+- **Lianeth**: The current family logic finds 17 relatives but shows 10.
+- **Thar-ka**: The current family logic finds 14 relatives but shows 10.
+- **Zhirin**: The current family logic finds 38 relatives but shows 10.
+- **Vorkor**: The current family logic finds 18 relatives but shows 10.
+- **Kareth**: The current family logic finds 13 relatives but shows 10.
+- **Pralor**: The current family logic finds 47 relatives but shows 10.
+- **Peleth**: The current family logic finds 25 relatives but shows 10.
+- **Drenvor**: The current family logic finds 40 relatives but shows 10.
+- **Shalkor**: The current family logic finds 42 relatives but shows 10.
+- **Lianbelrin**: The current family logic finds 17 relatives but shows 10.
+- **Selineth**: The current family logic finds 11 relatives but shows 10.
+- **Feleth**: The current family logic finds 32 relatives but shows 10.
+- **Kaveth**: The current family logic finds 19 relatives but shows 10.
+- **Joreth**: The current family logic finds 26 relatives but shows 10.
+- **Veleth**: The current family logic finds 43 relatives but shows 10.
+- **Moreth**: The current family logic finds 34 relatives but shows 10.
+- **Dreneth**: The current family logic finds 40 relatives but shows 10.
+- **Belkor**: The current family logic finds 67 relatives but shows 10.
+- **Sharbel**: The current family logic finds 77 relatives but shows 10.
+- **Xaresh**: The current family logic finds 80 relatives but shows 10.
+- **Zhirvok**: The current family logic finds 58 relatives but shows 10.
+- **Verdeth**: The current family logic finds 17 relatives but shows 10.
+- **Shaleth**: The current family logic finds 24 relatives but shows 10.
+- **Karethaen**: The current family logic finds 13 relatives but shows 10.
+- **Velaen**: The current family logic finds 43 relatives but shows 10.
+- **Drenaen**: The current family logic finds 40 relatives but shows 10.
+- **Moraen**: The current family logic finds 34 relatives but shows 10.
+- **Morthera**: The current family logic finds 34 relatives but shows 10.
+- **Vethral**: The current family logic finds 44 relatives but shows 10.
+- **Vershara**: The current family logic finds 28 relatives but shows 10.
+- **Kalrath**: The current family logic finds 40 relatives but shows 10.
+- **Eshlin**: The current family logic finds 39 relatives but shows 10.
+- **Zhaelin**: The current family logic finds 13 relatives but shows 10.
+- **Thallian**: The current family logic finds 41 relatives but shows 10.
+- **Sharaka**: The current family logic finds 54 relatives but shows 10.
+- **Velrathor**: The current family logic finds 43 relatives but shows 10.
+- **Vethrin**: The current family logic finds 44 relatives but shows 10.
+- **Kelrin**: The current family logic finds 53 relatives but shows 10.
+- **Kelka**: The current family logic finds 24 relatives but shows 10.
+- **Rathlor**: The current family logic finds 11 relatives but shows 10.
+- **Belthal**: The current family logic finds 75 relatives but shows 10.
+- **Rethvok**: The current family logic finds 22 relatives but shows 10.
+- **Kinnshara**: The current family logic finds 32 relatives but shows 10.
+- **Lunwek**: The current family logic finds 22 relatives but shows 10.
+- **Tharvin-Wek**: The current family logic finds 18 relatives but shows 10.
+- **Shen**: The current family logic finds 33 relatives but shows 10.
+- **Morkal**: The current family logic finds 63 relatives but shows 10.
+- **Kor**: The current family logic finds 18 relatives but shows 10.
+- **Pral**: The current family logic finds 47 relatives but shows 10.
+- **Vok**: The current family logic finds 20 relatives but shows 10.
+- **Droshen**: The current family logic finds 47 relatives but shows 10.
+- **Drokav**: The current family logic finds 33 relatives but shows 10.
+- **Droral**: The current family logic finds 45 relatives but shows 10.
+- **Drobel**: The current family logic finds 64 relatives but shows 10.
+- **Awekshara**: The current family logic finds 29 relatives but shows 10.
+- **Mahrowek**: The current family logic finds 32 relatives but shows 10.
+- **Mahrkal**: The current family logic finds 43 relatives but shows 10.
+- **Drosel**: The current family logic finds 25 relatives but shows 10.
+- **Mahrvek**: The current family logic finds 55 relatives but shows 10.
+- **Lormahr**: The current family logic finds 34 relatives but shows 10.
+- **Zhelbel**: The current family logic finds 72 relatives but shows 10.
+- **Belzhir**: The current family logic finds 86 relatives but shows 10.
+- **Shenlian**: The current family logic finds 50 relatives but shows 10.
+- **Belwek**: The current family logic finds 68 relatives but shows 10.
+- **Mekral**: The current family logic finds 65 relatives but shows 10.
+- **Verdvin**: The current family logic finds 28 relatives but shows 10.
+- **Fennilphel**: The current family logic finds 11 relatives but shows 10.
+- **Belverd**: The current family logic finds 66 relatives but shows 10.
+- **Arthverd**: The current family logic finds 29 relatives but shows 10.
+- **Zhaelral**: The current family logic finds 44 relatives but shows 10.
+- **Velmor**: The current family logic finds 77 relatives but shows 10.
+- **Xarphelor**: The current family logic finds 50 relatives but shows 10.
+- **Welkrez**: The current family logic finds 48 relatives but shows 10.
+- **Velalivar**: The current family logic finds 46 relatives but shows 10.
+- **Veljor**: The current family logic finds 69 relatives but shows 10.
+- **Mormek**: The current family logic finds 69 relatives but shows 10.
+- **Dralbelaen**: The current family logic finds 59 relatives but shows 10.
+- **Kalwek**: The current family logic finds 47 relatives but shows 10.
+- **Arthaxar**: The current family logic finds 55 relatives but shows 10.
+- **Thalbel**: The current family logic finds 75 relatives but shows 10.
+- **Liankavor**: The current family logic finds 36 relatives but shows 10.
+- **Kavral**: The current family logic finds 50 relatives but shows 10.
+- **Kalshen**: The current family logic finds 62 relatives but shows 10.
+- **Rinshen**: The current family logic finds 62 relatives but shows 10.
+- **Dralshara**: The current family logic finds 37 relatives but shows 10.
+- **Eshlor**: The current family logic finds 58 relatives but shows 10.
+- **Karvek**: The current family logic finds 55 relatives but shows 10.
+- **Sharavok**: The current family logic finds 48 relatives but shows 10.
+- **Vethdren**: The current family logic finds 55 relatives but shows 10.
+- **Vekaen**: The current family logic finds 42 relatives but shows 10.
+- **Kaxaraen**: The current family logic finds 70 relatives but shows 10.
+- **Xaraen**: The current family logic finds 43 relatives but shows 10.
+- **Jekaen**: The current family logic finds 11 relatives but shows 10.
+- **Sharaen**: The current family logic finds 28 relatives but shows 10.
+- **Sivathaen**: The current family logic finds 14 relatives but shows 10.
+- **Tharsharaen**: The current family logic finds 41 relatives but shows 10.
+- **Tharshara**: The current family logic finds 41 relatives but shows 10.
+- **Drenvaraen**: The current family logic finds 63 relatives but shows 10.
+- **Kes**: The current family logic finds 14 relatives but shows 10.
+- **Velzhiraen**: The current family logic finds 80 relatives but shows 10.
+- **Kavelzhiraen**: The current family logic finds 106 relatives but shows 10.
+- **Athnor**: The current family logic finds 39 relatives but shows 10.
+- **Nethnor**: The current family logic finds 36 relatives but shows 10.
+- **Felath**: The current family logic finds 41 relatives but shows 10.
+- **Worlian**: The current family logic finds 26 relatives but shows 10.
+- **Rethshara**: The current family logic finds 28 relatives but shows 10.
+- **Servok**: The current family logic finds 27 relatives but shows 10.
+- **Kavok**: The current family logic finds 47 relatives but shows 10.
+- **Zhirkor**: The current family logic finds 56 relatives but shows 10.
+- **Zhirath**: The current family logic finds 47 relatives but shows 10.
+- **Lianzhir**: The current family logic finds 55 relatives but shows 10.
+- **Rethpral**: The current family logic finds 47 relatives but shows 10.
+- **Belreth**: The current family logic finds 50 relatives but shows 10.
+- **Lianbel**: The current family logic finds 67 relatives but shows 10.
+- **Rakel**: The current family logic finds 25 relatives but shows 10.
+- **Serdel**: The current family logic finds 17 relatives but shows 10.
+- **Shalvar**: The current family logic finds 47 relatives but shows 10.
+- **Vethvar**: The current family logic finds 38 relatives but shows 10.
+- **Shan**: The current family logic finds 35 relatives but shows 10.
+- **Shalnor**: The current family logic finds 54 relatives but shows 10.
+- **Vethnor**: The current family logic finds 45 relatives but shows 10.
+- **Sernor**: The current family logic finds 37 relatives but shows 10.
+- **Varnor**: The current family logic finds 53 relatives but shows 10.
+- **Krezvek**: The current family logic finds 66 relatives but shows 10.
+- **Krezpral**: The current family logic finds 71 relatives but shows 10.
+- **Emilpral**: The current family logic finds 47 relatives but shows 10.
+- **Kavvek**: The current family logic finds 60 relatives but shows 10.
+- **Eshpral**: The current family logic finds 82 relatives but shows 10.
+- **Xarvek**: The current family logic finds 83 relatives but shows 10.
+- **Mekrask**: The current family logic finds 36 relatives but shows 10.
+- **Selmek**: The current family logic finds 46 relatives but shows 10.
+- **Tirkal**: The current family logic finds 30 relatives but shows 10.
+- **Pelaivaen**: The current family logic finds 29 relatives but shows 10.
+- **Rekaivaen**: The current family logic finds 11 relatives but shows 10.
+- **Feldrenaen**: The current family logic finds 71 relatives but shows 10.
+- **Pelvokaen**: The current family logic finds 45 relatives but shows 10.
+- **Selpralaen**: The current family logic finds 58 relatives but shows 10.
+- **Pelvaraen**: The current family logic finds 47 relatives but shows 10.
+- **Drentalaen**: The current family logic finds 48 relatives but shows 10.
+- **Jekthamaen**: The current family logic finds 18 relatives but shows 10.
+- **Drenselaen**: The current family logic finds 50 relatives but shows 10.
+- **Emilrav**: The current family logic finds 13 relatives but shows 10.
+- **Drorav**: The current family logic finds 27 relatives but shows 10.
+- **Felkal**: The current family logic finds 61 relatives but shows 10.
+- **Maveth**: The current family logic finds 11 relatives but shows 10.
+- **Aivkor**: The current family logic finds 22 relatives but shows 10.
+- **Mav**: The current family logic finds 11 relatives but shows 10.
+- **Norzhir**: The current family logic finds 68 relatives but shows 10.
+- **Thalnor**: The current family logic finds 55 relatives but shows 10.
+- **Norreth**: The current family logic finds 30 relatives but shows 10.
+- **Normav**: The current family logic finds 41 relatives but shows 10.
+- **Xilnor**: The current family logic finds 34 relatives but shows 10.
+- **Felnor**: The current family logic finds 62 relatives but shows 10.
+- **Delnor**: The current family logic finds 40 relatives but shows 10.
+- **Jornor**: The current family logic finds 56 relatives but shows 10.
+- **Velnor**: The current family logic finds 73 relatives but shows 10.
+- **Norshan**: The current family logic finds 65 relatives but shows 10.
+- **Thalnoraen**: The current family logic finds 55 relatives but shows 10.
+- **Vethvelrathor**: The current family logic finds 15 relatives but shows 10.
+- **Shanvelrathor**: The current family logic finds 35 relatives but shows 10.
+- **Shanvelzhiraen**: The current family logic finds 35 relatives but shows 10.
+- **Belvelrathor**: The current family logic finds 50 relatives but shows 10.
+- **Rathorjor**: The current family logic finds 26 relatives but shows 10.
+- **Kavelrathor**: The current family logic finds 27 relatives but shows 10.
+- **Lianreth**: The current family logic finds 17 relatives but shows 10.
+- **Lianthal**: The current family logic finds 41 relatives but shows 10.
+- **Lianthalaen**: The current family logic finds 41 relatives but shows 10.
+- **Rethmor**: The current family logic finds 34 relatives but shows 10.
+- **Lianrethxar**: The current family logic finds 43 relatives but shows 10.
+- **Kalrav**: The current family logic finds 42 relatives but shows 10.
+- **Felkalrav**: The current family logic finds 32 relatives but shows 10.
+- **Kakalrav**: The current family logic finds 27 relatives but shows 10.
+- **Jekkalrav**: The current family logic finds 11 relatives but shows 10.
+- **Lianrethshen**: The current family logic finds 33 relatives but shows 10.
+- **Vaarshen**: The current family logic finds 39 relatives but shows 10.
+- **Keldoraen**: The current family logic finds 26 relatives but shows 10.
+- **Kasharaen**: The current family logic finds 54 relatives but shows 10.
+- **Belkoraen**: The current family logic finds 67 relatives but shows 10.
+- **Balpral**: The current family logic finds 56 relatives but shows 10.
+- **Balral**: The current family logic finds 42 relatives but shows 10.
+- **Pralbal**: The current family logic finds 56 relatives but shows 10.
+- **Balpralaen**: The current family logic finds 56 relatives but shows 10.
+- **Drobalaen**: The current family logic finds 25 relatives but shows 10.
+- **Verdsov**: The current family logic finds 20 relatives but shows 10.
+- **Kesbrenaen**: The current family logic finds 20 relatives but shows 10.
+- **Gavral**: The current family logic finds 34 relatives but shows 10.
+- **Neshbrenral**: The current family logic finds 40 relatives but shows 10.
+- **Xarnesh**: The current family logic finds 47 relatives but shows 10.
+- **Mahrfennil**: The current family logic finds 18 relatives but shows 10.
+- **Belzor**: The current family logic finds 59 relatives but shows 10.
+- **Belzoraen**: The current family logic finds 59 relatives but shows 10.
+- **Belzorral**: The current family logic finds 41 relatives but shows 10.
+- **Zordren**: The current family logic finds 49 relatives but shows 10.
+- **Zordrenvinaen**: The current family logic finds 58 relatives but shows 10.
+- **Felverd**: The current family logic finds 49 relatives but shows 10.
+- **Morlverd**: The current family logic finds 39 relatives but shows 10.
+- **Zornelar**: The current family logic finds 11 relatives but shows 10.
+- **Jelkor**: The current family logic finds 21 relatives but shows 10.
+- **Fennildren**: The current family logic finds 44 relatives but shows 10.
+- **Emildren**: The current family logic finds 40 relatives but shows 10.
+- **Fellak**: The current family logic finds 35 relatives but shows 10.
+- **Drenfellak**: The current family logic finds 40 relatives but shows 10.
+- **Morolan**: The current family logic finds 40 relatives but shows 10.
+- **Pralfel**: The current family logic finds 79 relatives but shows 10.
+- **Emilshara**: The current family logic finds 28 relatives but shows 10.
+- **Emilpralaen**: The current family logic finds 47 relatives but shows 10.
+- **Xarkrezaen**: The current family logic finds 68 relatives but shows 10.
+- **Krezdrenaen**: The current family logic finds 64 relatives but shows 10.
+- **Eshkrezaen**: The current family logic finds 64 relatives but shows 10.
+- **Pelkrezaen**: The current family logic finds 50 relatives but shows 10.
+- **Olankrezaen**: The current family logic finds 31 relatives but shows 10.
+- **Eshdrenaen**: The current family logic finds 75 relatives but shows 10.
+- **Felthamaen**: The current family logic finds 39 relatives but shows 10.
+- **Pelaen**: The current family logic finds 25 relatives but shows 10.
+- **Drenpralaen**: The current family logic finds 87 relatives but shows 10.
+- **Seldrenvinaen**: The current family logic finds 59 relatives but shows 10.
+- **Balemilaen**: The current family logic finds 11 relatives but shows 10.
+- **Vindrenaen**: The current family logic finds 49 relatives but shows 10.
+- **Vellivaraen**: The current family logic finds 46 relatives but shows 10.
+- **Zhaeleth**: The current family logic finds 13 relatives but shows 10.
+- **Emilpraleth**: The current family logic finds 47 relatives but shows 10.
+- **Kaemilpraleth**: The current family logic finds 27 relatives but shows 10.
+- **Belxar**: The current family logic finds 93 relatives but shows 10.
+- **Velbelxar**: The current family logic finds 43 relatives but shows 10.
+- **Eshtrakor**: The current family logic finds 39 relatives but shows 10.
+- **Velpraltrakor**: The current family logic finds 87 relatives but shows 10.
+- **Pelveltrakor**: The current family logic finds 68 relatives but shows 10.
+- **Lorinorxar**: The current family logic finds 43 relatives but shows 10.
+- **Remaxar**: The current family logic finds 44 relatives but shows 10.
+- **Zhirbel**: The current family logic finds 86 relatives but shows 10.
+- **Welzhirbel**: The current family logic finds 23 relatives but shows 10.
+- **Belmek**: The current family logic finds 84 relatives but shows 10.
+- **Kabelmekaen**: The current family logic finds 27 relatives but shows 10.
+- **Korinxar**: The current family logic finds 43 relatives but shows 10.
+- **Lorinshalxar**: The current family logic finds 43 relatives but shows 10.
+- **Remashalxar**: The current family logic finds 68 relatives but shows 10.
+- **Rinbelxar**: The current family logic finds 29 relatives but shows 10.
+- **Felzhir**: The current family logic finds 70 relatives but shows 10.
+- **Belsura**: The current family logic finds 51 relatives but shows 10.
+- **Verdselzhir**: The current family logic finds 64 relatives but shows 10.
+- **Selzhir**: The current family logic finds 48 relatives but shows 10.
+- **Kalbelrin**: The current family logic finds 29 relatives but shows 10.
+- **Drenartheth**: The current family logic finds 52 relatives but shows 10.
+- **Shanartheth**: The current family logic finds 47 relatives but shows 10.
+- **Zhelshaneth**: The current family logic finds 56 relatives but shows 10.
+- **Kalmorl**: The current family logic finds 51 relatives but shows 10.
+- **Krezmorl**: The current family logic finds 47 relatives but shows 10.
+- **Brosmorl**: The current family logic finds 28 relatives but shows 10.
+- **Sadarmorl**: The current family logic finds 26 relatives but shows 10.
+- **Neshmorl**: The current family logic finds 26 relatives but shows 10.
+- **Zorxar**: The current family logic finds 53 relatives but shows 10.
+- **Kavolan**: The current family logic finds 25 relatives but shows 10.
+- **Verdbel**: The current family logic finds 66 relatives but shows 10.
+- **Hirmor**: The current family logic finds 36 relatives but shows 10.
+- **Belkren**: The current family logic finds 53 relatives but shows 10.
+- **Karmek**: The current family logic finds 48 relatives but shows 10.
+- **Kalmek**: The current family logic finds 64 relatives but shows 10.
+- **Felmek**: The current family logic finds 67 relatives but shows 10.
+- **Zhaelpralaen**: The current family logic finds 60 relatives but shows 10.
+- **Thamvek**: The current family logic finds 49 relatives but shows 10.
+- **Thamkar**: The current family logic finds 20 relatives but shows 10.
+- **Zhirpel**: The current family logic finds 63 relatives but shows 10.
+- **Pelkorin**: The current family logic finds 25 relatives but shows 10.
+- **Delpel**: The current family logic finds 35 relatives but shows 10.
+- **Pelkar**: The current family logic finds 38 relatives but shows 10.
+- **Drenkavvek**: The current family logic finds 99 relatives but shows 10.
+- **Krezdrenvek**: The current family logic finds 104 relatives but shows 10.
+- **Rinpel**: The current family logic finds 54 relatives but shows 10.
+- **Kelpel**: The current family logic finds 49 relatives but shows 10.
+- **Kelpral**: The current family logic finds 71 relatives but shows 10.
+- **Shenzhir**: The current family logic finds 71 relatives but shows 10.
+- **Lormek**: The current family logic finds 54 relatives but shows 10.
+- **Sharashen**: The current family logic finds 61 relatives but shows 10.
+- **Normek**: The current family logic finds 65 relatives but shows 10.
+- **Belpralmek**: The current family logic finds 129 relatives but shows 10.
+- **Jekzhirvek**: The current family logic finds 90 relatives but shows 10.
+- **Shenmek**: The current family logic finds 68 relatives but shows 10.
+- **Kesmek**: The current family logic finds 48 relatives but shows 10.
+- **Kormek**: The current family logic finds 53 relatives but shows 10.
+- **Zhelkor**: The current family logic finds 40 relatives but shows 10.
+- **Zhelkav**: The current family logic finds 40 relatives but shows 10.
+- **Shanmek**: The current family logic finds 69 relatives but shows 10.
+- **Krenzhir**: The current family logic finds 41 relatives but shows 10.
+- **Selshan**: The current family logic finds 46 relatives but shows 10.
+- **Ravshan**: The current family logic finds 48 relatives but shows 10.
+- **Belshan**: The current family logic finds 85 relatives but shows 10.
+- **Wekmek**: The current family logic finds 53 relatives but shows 10.
+- **Korwek**: The current family logic finds 36 relatives but shows 10.
+- **Jekmek**: The current family logic finds 46 relatives but shows 10.
+- **Ravkar**: The current family logic finds 26 relatives but shows 10.
+- **Wekrav**: The current family logic finds 30 relatives but shows 10.
+- **Jekkal**: The current family logic finds 40 relatives but shows 10.
+- **Varvek**: The current family logic finds 64 relatives but shows 10.
+- **Felvek**: The current family logic finds 74 relatives but shows 10.
+- **Morvek**: The current family logic finds 75 relatives but shows 10.
+- **Pralvek**: The current family logic finds 88 relatives but shows 10.
+- **Kormekvek**: The current family logic finds 42 relatives but shows 10.
+- **Delwek**: The current family logic finds 28 relatives but shows 10.
+- **Zhirvek**: The current family logic finds 79 relatives but shows 10.
+- **Belzhirvek**: The current family logic finds 50 relatives but shows 10.
+- **Zhirshara**: The current family logic finds 66 relatives but shows 10.
+- **Shalilvek**: The current family logic finds 42 relatives but shows 10.
+- **Eshvek**: The current family logic finds 81 relatives but shows 10.
+- **Mahrxarvek**: The current family logic finds 95 relatives but shows 10.
+- **Krenzhirvek**: The current family logic finds 42 relatives but shows 10.
+- **Mahrpral**: The current family logic finds 60 relatives but shows 10.
+- **Vekvaraen**: The current family logic finds 64 relatives but shows 10.
+- **Lorvekaen**: The current family logic finds 61 relatives but shows 10.
+- **Mahrvaraen**: The current family logic finds 37 relatives but shows 10.
+- **Eshvaraen**: The current family logic finds 62 relatives but shows 10.
+- **Anvekaen**: The current family logic finds 42 relatives but shows 10.
+- **Thalvekaen**: The current family logic finds 68 relatives but shows 10.
+- **Weksharaen**: The current family logic finds 46 relatives but shows 10.
+- **Dorvekaen**: The current family logic finds 44 relatives but shows 10.
+- **Jorvar**: The current family logic finds 49 relatives but shows 10.
+- **Velvaraen**: The current family logic finds 66 relatives but shows 10.
+- **Belvekaen**: The current family logic finds 92 relatives but shows 10.
+- **Ravvekaen**: The current family logic finds 55 relatives but shows 10.
+- **Felshara**: The current family logic finds 60 relatives but shows 10.
+- **Vekmor**: The current family logic finds 75 relatives but shows 10.
+- **Vekin**: The current family logic finds 42 relatives but shows 10.
+- **Lorvekral**: The current family logic finds 88 relatives but shows 10.
+- **Eshlorral**: The current family logic finds 86 relatives but shows 10.
+- **Welvek**: The current family logic finds 65 relatives but shows 10.
+- **Mekor**: The current family logic finds 35 relatives but shows 10.
+- **Eshxar**: The current family logic finds 80 relatives but shows 10.
+- **Morlpral**: The current family logic finds 69 relatives but shows 10.
+- **Aneshxar**: The current family logic finds 80 relatives but shows 10.
+- **Shalshan**: The current family logic finds 59 relatives but shows 10.
+- **Xarzhir**: The current family logic finds 81 relatives but shows 10.
+- **Kormor**: The current family logic finds 52 relatives but shows 10.
+- **Mbalanmor**: The current family logic finds 34 relatives but shows 10.
+- **Xaror**: The current family logic finds 43 relatives but shows 10.
+- **Xarwelor**: The current family logic finds 66 relatives but shows 10.
+- **Welpralor**: The current family logic finds 70 relatives but shows 10.
+- **Mekeshpral**: The current family logic finds 115 relatives but shows 10.
+- **Velkelor**: The current family logic finds 67 relatives but shows 10.
+- **Shenpralor**: The current family logic finds 80 relatives but shows 10.
+- **Shenkesor**: The current family logic finds 45 relatives but shows 10.
+- **Belzhirkavor**: The current family logic finds 105 relatives but shows 10.
+- **Lormekor**: The current family logic finds 20 relatives but shows 10.
+- **Mekpralor**: The current family logic finds 80 relatives but shows 10.
+- **Mekshara**: The current family logic finds 63 relatives but shows 10.
+- **Brosshara**: The current family logic finds 34 relatives but shows 10.
+- **Morlshan**: The current family logic finds 56 relatives but shows 10.
+- **Varshanmek**: The current family logic finds 92 relatives but shows 10.
+- **Varbelor**: The current family logic finds 73 relatives but shows 10.
+- **Eshpralor**: The current family logic finds 82 relatives but shows 10.
+- **Ndavivek**: The current family logic finds 45 relatives but shows 10.
+- **Mahrpralor**: The current family logic finds 60 relatives but shows 10.
+- **Mahrxaror**: The current family logic finds 56 relatives but shows 10.
+- **Vekxaror**: The current family logic finds 83 relatives but shows 10.
+- **Vekpralor**: The current family logic finds 88 relatives but shows 10.
+- **Droshara**: The current family logic finds 42 relatives but shows 10.
+- **Dronjor**: The current family logic finds 15 relatives but shows 10.
+- **Eshmekor**: The current family logic finds 39 relatives but shows 10.
+- **Wekxar**: The current family logic finds 61 relatives but shows 10.
+- **Drojormek**: The current family logic finds 75 relatives but shows 10.
+- **Nethmek**: The current family logic finds 41 relatives but shows 10.
+- **Belor**: The current family logic finds 50 relatives but shows 10.
+- **Lorbel**: The current family logic finds 70 relatives but shows 10.
+- **Khumkel**: The current family logic finds 30 relatives but shows 10.
+- **Khumkelral**: The current family logic finds 31 relatives but shows 10.
+- **Kalrin**: The current family logic finds 58 relatives but shows 10.
+- **Belvoklor**: The current family logic finds 20 relatives but shows 10.
+- **Lorbelral**: The current family logic finds 31 relatives but shows 10.
+- **Welkelthar**: The current family logic finds 60 relatives but shows 10.
+- **Keltharaen**: The current family logic finds 37 relatives but shows 10.
+- **Lorshara**: The current family logic finds 48 relatives but shows 10.
+- **Kalkel**: The current family logic finds 53 relatives but shows 10.
+- **Belrinpel**: The current family logic finds 50 relatives but shows 10.
+- **Shental**: The current family logic finds 41 relatives but shows 10.
+- **Weltal**: The current family logic finds 31 relatives but shows 10.
+- **Kelreth**: The current family logic finds 24 relatives but shows 10.
+- **Thalkelreth**: The current family logic finds 26 relatives but shows 10.
+- **Welrin**: The current family logic finds 52 relatives but shows 10.
+- **Felbelor**: The current family logic finds 32 relatives but shows 10.
+- **Lorzhir**: The current family logic finds 58 relatives but shows 10.
+- **Kelvok**: The current family logic finds 44 relatives but shows 10.
+- **Weleth**: The current family logic finds 23 relatives but shows 10.
+- **Kaweleth**: The current family logic finds 50 relatives but shows 10.
+- **Ral**: The current family logic finds 31 relatives but shows 10.
+- **Pralilan**: The current family logic finds 47 relatives but shows 10.
+- **Pralral**: The current family logic finds 78 relatives but shows 10.
+- **Krenral**: The current family logic finds 34 relatives but shows 10.
+- **Mormekral**: The current family logic finds 31 relatives but shows 10.
+- **Lormekral**: The current family logic finds 81 relatives but shows 10.
+- **Shenral**: The current family logic finds 64 relatives but shows 10.
+- **Kelvekral**: The current family logic finds 96 relatives but shows 10.
+- **Sharalorin**: The current family logic finds 28 relatives but shows 10.
+- **Thalvanesh**: The current family logic finds 29 relatives but shows 10.
+- **Lorzhiranshan**: The current family logic finds 35 relatives but shows 10.
+- **Lorzhirthalshan**: The current family logic finds 60 relatives but shows 10.
+- **Ngarpel**: The current family logic finds 32 relatives but shows 10.
+- **Ngarzhir**: The current family logic finds 45 relatives but shows 10.
+- **Ravjor**: The current family logic finds 39 relatives but shows 10.
+- **Ravjorvek**: The current family logic finds 42 relatives but shows 10.
+- **Arthkal**: The current family logic finds 41 relatives but shows 10.
+- **Ngarjor**: The current family logic finds 32 relatives but shows 10.
+- **Ngarzhel**: The current family logic finds 29 relatives but shows 10.
+- **Ngarvek**: The current family logic finds 49 relatives but shows 10.
+- **Welarth**: The current family logic finds 35 relatives but shows 10.
+- **Ngarwel**: The current family logic finds 30 relatives but shows 10.
+- **Kesvar**: The current family logic finds 37 relatives but shows 10.
+- **Xarkaleth**: The current family logic finds 43 relatives but shows 10.
+- **Vethbel**: The current family logic finds 64 relatives but shows 10.
+- **Lorpel**: The current family logic finds 45 relatives but shows 10.
+- **Ngarjoraen**: The current family logic finds 32 relatives but shows 10.
+- **Arthkaraen**: The current family logic finds 25 relatives but shows 10.
+- **Kaarthaen**: The current family logic finds 39 relatives but shows 10.
+- **Mavmor**: The current family logic finds 45 relatives but shows 10.
+- **Rathnor**: The current family logic finds 41 relatives but shows 10.
+- **Rathjor**: The current family logic finds 37 relatives but shows 10.
+- **Tlamor**: The current family logic finds 38 relatives but shows 10.
+- **Shalbal**: The current family logic finds 35 relatives but shows 10.
+- **Sel**: The current family logic finds 11 relatives but shows 10.
+- **Dovath**: The current family logic finds 15 relatives but shows 10.
+- **Kaldov**: The current family logic finds 35 relatives but shows 10.
+- **Nak**: The current family logic finds 13 relatives but shows 10.
+- **Nakaen**: The current family logic finds 13 relatives but shows 10.
+- **Nakin**: The current family logic finds 13 relatives but shows 10.
+- **Sivvok**: The current family logic finds 25 relatives but shows 10.
+- **Thalnakin**: The current family logic finds 38 relatives but shows 10.
+- **Nakshara**: The current family logic finds 41 relatives but shows 10.
+- **Naklorral**: The current family logic finds 61 relatives but shows 10.
+- **Naktal**: The current family logic finds 21 relatives but shows 10.
+- **Shalnak**: The current family logic finds 37 relatives but shows 10.
+- **Shalnakaen**: The current family logic finds 13 relatives but shows 10.
+- **Vethnak**: The current family logic finds 28 relatives but shows 10.
+- **Vethnakaen**: The current family logic finds 13 relatives but shows 10.
+- **Thalnak**: The current family logic finds 38 relatives but shows 10.
+- **Jornak**: The current family logic finds 39 relatives but shows 10.
+- **Jornakaen**: The current family logic finds 13 relatives but shows 10.
+- **Mahrshalilaen**: The current family logic finds 14 relatives but shows 10.
+- **Aennor**: The current family logic finds 30 relatives but shows 10.
+- **Aennorral**: The current family logic finds 31 relatives but shows 10.
+- **Aenthael**: The current family logic finds 14 relatives but shows 10.
+- **Aenthaelral**: The current family logic finds 31 relatives but shows 10.
+- **Welaenthael**: The current family logic finds 23 relatives but shows 10.
+- **Karthael**: The current family logic finds 19 relatives but shows 10.
+- **Karthaelral**: The current family logic finds 31 relatives but shows 10.
+- **Thaelral**: The current family logic finds 37 relatives but shows 10.
+- **Aenzhir**: The current family logic finds 46 relatives but shows 10.
+- **Zhirkel**: The current family logic finds 62 relatives but shows 10.
+- **Zhirkelral**: The current family logic finds 31 relatives but shows 10.
+- **Rinpral**: The current family logic finds 76 relatives but shows 10.
+- **Rinpralral**: The current family logic finds 31 relatives but shows 10.
+- **Norpral**: The current family logic finds 77 relatives but shows 10.
+- **Norpralral**: The current family logic finds 31 relatives but shows 10.
+- **Khumkes**: The current family logic finds 20 relatives but shows 10.
+- **Mavkes**: The current family logic finds 25 relatives but shows 10.
+- **Keshen**: The current family logic finds 45 relatives but shows 10.
+- **Talzhael**: The current family logic finds 21 relatives but shows 10.
+- **Zhaelphel**: The current family logic finds 20 relatives but shows 10.
+- **Zhaelshen**: The current family logic finds 46 relatives but shows 10.
+- **Morzhael**: The current family logic finds 47 relatives but shows 10.
+- **Mavkrez**: The current family logic finds 36 relatives but shows 10.
+- **Mavbal**: The current family logic finds 22 relatives but shows 10.
+- **Mavbalshaneth**: The current family logic finds 35 relatives but shows 10.
+- **Zhaelolan**: The current family logic finds 19 relatives but shows 10.
+- **Aivkorxar**: The current family logic finds 43 relatives but shows 10.
+- **Jorzhael**: The current family logic finds 39 relatives but shows 10.
+- **Mavmorzhael**: The current family logic finds 13 relatives but shows 10.
+- **Rathlorkel**: The current family logic finds 24 relatives but shows 10.
+- **Velmav**: The current family logic finds 54 relatives but shows 10.
+- **Rekmav**: The current family logic finds 18 relatives but shows 10.
+- **Velaivkor**: The current family logic finds 43 relatives but shows 10.
+- **Kadromav**: The current family logic finds 50 relatives but shows 10.
+- **Kesrin**: The current family logic finds 43 relatives but shows 10.
+- **Kakesrin**: The current family logic finds 27 relatives but shows 10.
+- **Vaarshan**: The current family logic finds 41 relatives but shows 10.
+- **Thalwelvar**: The current family logic finds 72 relatives but shows 10.
+- **Mavbalshanaen**: The current family logic finds 35 relatives but shows 10.
+- **Mavbalxar**: The current family logic finds 43 relatives but shows 10.
+- **Shalkav**: The current family logic finds 43 relatives but shows 10.
+- **Kavaen**: The current family logic finds 19 relatives but shows 10.
+- **Nethvek**: The current family logic finds 48 relatives but shows 10.
+- **Shentalzhael**: The current family logic finds 33 relatives but shows 10.
+- **Felmorl**: The current family logic finds 54 relatives but shows 10.
+- **Delmorl**: The current family logic finds 32 relatives but shows 10.
+- **Pelmorl**: The current family logic finds 47 relatives but shows 10.
+- **Morlshara**: The current family logic finds 50 relatives but shows 10.
+- **Xarmorl**: The current family logic finds 65 relatives but shows 10.
+- **Shanmorl**: The current family logic finds 56 relatives but shows 10.
+- **Selmor**: The current family logic finds 45 relatives but shows 10.
+- **Ndavimor**: The current family logic finds 37 relatives but shows 10.
+- **Kadromor**: The current family logic finds 73 relatives but shows 10.
+- **Velkmorl**: The current family logic finds 22 relatives but shows 10.
+- **Terramahr**: The current family logic finds 24 relatives but shows 10.
+- **Drenfel**: The current family logic finds 71 relatives but shows 10.
+- **Fellun**: The current family logic finds 36 relatives but shows 10.
+- **Drenverd**: The current family logic finds 57 relatives but shows 10.
+- **Mahrmorl**: The current family logic finds 36 relatives but shows 10.
+- **Drenjor**: The current family logic finds 66 relatives but shows 10.
+- **Mahrwel**: The current family logic finds 37 relatives but shows 10.
+- **Eshnor**: The current family logic finds 68 relatives but shows 10.
+- **Eshweknor**: The current family logic finds 85 relatives but shows 10.
+- **Drenesh**: The current family logic finds 75 relatives but shows 10.
+- **Eshkar**: The current family logic finds 52 relatives but shows 10.
+- **Eshjor**: The current family logic finds 65 relatives but shows 10.
+- **Eshdren**: The current family logic finds 75 relatives but shows 10.
+- **Kadro**: The current family logic finds 39 relatives but shows 10.
+- **Drenrek**: The current family logic finds 47 relatives but shows 10.
+- **Morkar**: The current family logic finds 47 relatives but shows 10.
+- **Morljor**: The current family logic finds 48 relatives but shows 10.
+- **Sadarjor**: The current family logic finds 30 relatives but shows 10.
+- **Velxar**: The current family logic finds 85 relatives but shows 10.
+- **Felsadar**: The current family logic finds 36 relatives but shows 10.
+- **Krezshen**: The current family logic finds 58 relatives but shows 10.
+- **Verdin**: The current family logic finds 17 relatives but shows 10.
+- **Verdmarin**: The current family logic finds 20 relatives but shows 10.
+- **Morlzhir**: The current family logic finds 60 relatives but shows 10.
+- **Verdxar**: The current family logic finds 60 relatives but shows 10.
+- **Zhirverd**: The current family logic finds 54 relatives but shows 10.
+- **Verdpel**: The current family logic finds 42 relatives but shows 10.
+- **Balvek**: The current family logic finds 53 relatives but shows 10.
+- **Balshan**: The current family logic finds 46 relatives but shows 10.
+- **Shalrin**: The current family logic finds 53 relatives but shows 10.
+- **Ohmshal**: The current family logic finds 33 relatives but shows 10.
+- **Welnali**: The current family logic finds 30 relatives but shows 10.
+- **Kornali**: The current family logic finds 25 relatives but shows 10.
+- **Shannali**: The current family logic finds 42 relatives but shows 10.
+- **Rathshannali**: The current family logic finds 17 relatives but shows 10.
+- **Rathnali**: The current family logic finds 17 relatives but shows 10.
+- **Rathzor**: The current family logic finds 21 relatives but shows 10.
+- **Welzor**: The current family logic finds 33 relatives but shows 10.
+- **Wekvaraen**: The current family logic finds 41 relatives but shows 10.
+- **Emilzhir**: The current family logic finds 38 relatives but shows 10.
+- **Emilbel**: The current family logic finds 50 relatives but shows 10.
+- **Terramav**: The current family logic finds 21 relatives but shows 10.
+- **Mavverd**: The current family logic finds 28 relatives but shows 10.
+- **Welgorm**: The current family logic finds 25 relatives but shows 10.
+- **Pelnor**: The current family logic finds 55 relatives but shows 10.
+- **Terrakav**: The current family logic finds 29 relatives but shows 10.
+- **Terrazhael**: The current family logic finds 23 relatives but shows 10.
+- **Worsul**: The current family logic finds 14 relatives but shows 10.
+- **Kasul**: The current family logic finds 32 relatives but shows 10.
+- **Kavsul**: The current family logic finds 24 relatives but shows 10.
+- **Weksul**: The current family logic finds 23 relatives but shows 10.
+- **Dava**: The current family logic finds 19 relatives but shows 10.
+- **Shendava**: The current family logic finds 52 relatives but shows 10.
+- **Kavdava**: The current family logic finds 36 relatives but shows 10.
+- **Davaxar**: The current family logic finds 61 relatives but shows 10.
+- **Beldava**: The current family logic finds 69 relatives but shows 10.
+- **Davapral**: The current family logic finds 66 relatives but shows 10.
+- **Zheldava**: The current family logic finds 41 relatives but shows 10.
+- **Ohmshan**: The current family logic finds 44 relatives but shows 10.
+- **Anmek**: The current family logic finds 35 relatives but shows 10.
+- **Thalmek**: The current family logic finds 61 relatives but shows 10.
+- **Rakumek**: The current family logic finds 44 relatives but shows 10.
+- **Rakushara**: The current family logic finds 37 relatives but shows 10.
+- **Rakukel**: The current family logic finds 33 relatives but shows 10.
+- **Belraku**: The current family logic finds 59 relatives but shows 10.
+- **Davashanaen**: The current family logic finds 54 relatives but shows 10.
+- **Deldavaen**: The current family logic finds 28 relatives but shows 10.
+- **Andavaen**: The current family logic finds 19 relatives but shows 10.
+- **Thaldavaen**: The current family logic finds 45 relatives but shows 10.
+- **Kavdavaen**: The current family logic finds 36 relatives but shows 10.
+- **Kavdeldava**: The current family logic finds 45 relatives but shows 10.
+- **Kesdavaen**: The current family logic finds 32 relatives but shows 10.
+- **Belnoraen**: The current family logic finds 80 relatives but shows 10.
+- **Mekreth**: The current family logic finds 35 relatives but shows 10.
+- **Felmekreth**: The current family logic finds 32 relatives but shows 10.
+- **Rethdava**: The current family logic finds 19 relatives but shows 10.
+- **Xardava**: The current family logic finds 61 relatives but shows 10.
+- **Xardavaen**: The current family logic finds 19 relatives but shows 10.
+- **Kaxardavaen**: The current family logic finds 46 relatives but shows 10.
+- **Zhelwel**: The current family logic finds 45 relatives but shows 10.
+- **Zhelshara**: The current family logic finds 50 relatives but shows 10.
+- **Ravzhel**: The current family logic finds 35 relatives but shows 10.
+- **Zhelshan**: The current family logic finds 56 relatives but shows 10.
+- **Zhelxar**: The current family logic finds 65 relatives but shows 10.
+- **Jorzhelkav**: The current family logic finds 26 relatives but shows 10.
+- **Zhelvorkor**: The current family logic finds 22 relatives but shows 10.
+- **Zhelpel**: The current family logic finds 47 relatives but shows 10.
+- **Jorzhel**: The current family logic finds 48 relatives but shows 10.
+- **Worzhel**: The current family logic finds 31 relatives but shows 10.
+- **Kazhel**: The current family logic finds 49 relatives but shows 10.
+- **Zhelreth**: The current family logic finds 22 relatives but shows 10.
+- **Zhelaen**: The current family logic finds 22 relatives but shows 10.
+- **Kavzhelaen**: The current family logic finds 40 relatives but shows 10.
+- **Thalzhelaen**: The current family logic finds 48 relatives but shows 10.
+- **Arthzhelshara**: The current family logic finds 12 relatives but shows 10.
+- **Morzhelshan**: The current family logic finds 34 relatives but shows 10.
+- **Mekkes**: The current family logic finds 48 relatives but shows 10.
+- **Varokmek**: The current family logic finds 35 relatives but shows 10.
+- **Rethzheldava**: The current family logic finds 19 relatives but shows 10.
+- **Zunesh**: The current family logic finds 39 relatives but shows 10.
+- **Kreznyel**: The current family logic finds 31 relatives but shows 10.
+- **Nyelbel**: The current family logic finds 56 relatives but shows 10.
+- **Wornyelbel**: The current family logic finds 15 relatives but shows 10.
+- **Nyelzhir**: The current family logic finds 43 relatives but shows 10.
+- **Ravwek**: The current family logic finds 30 relatives but shows 10.
+- **Dralxar**: The current family logic finds 52 relatives but shows 10.
+- **Felvora**: The current family logic finds 34 relatives but shows 10.
+- **Zhirnyel**: The current family logic finds 43 relatives but shows 10.
+- **Dralfel**: The current family logic finds 41 relatives but shows 10.
+- **Krezdralfel**: The current family logic finds 25 relatives but shows 10.
+- **Mordralfel**: The current family logic finds 34 relatives but shows 10.
+- **Felmor**: The current family logic finds 66 relatives but shows 10.
+- **Morshen**: The current family logic finds 67 relatives but shows 10.
+- **Dralshen**: The current family logic finds 42 relatives but shows 10.
+- **Songashen**: The current family logic finds 36 relatives but shows 10.
+- **Shenbel**: The current family logic finds 82 relatives but shows 10.
+- **Shenkes**: The current family logic finds 45 relatives but shows 10.
+- **Kesdava**: The current family logic finds 32 relatives but shows 10.
+- **Sivshen**: The current family logic finds 38 relatives but shows 10.
+- **Sivkel**: The current family logic finds 29 relatives but shows 10.
+- **Belkes**: The current family logic finds 64 relatives but shows 10.
+- **Rinmek**: The current family logic finds 64 relatives but shows 10.
+- **Varrinmek**: The current family logic finds 23 relatives but shows 10.
+- **Felshen**: The current family logic finds 65 relatives but shows 10.
+- **Sivshenlian**: The current family logic finds 17 relatives but shows 10.
+- **Rethshen**: The current family logic finds 33 relatives but shows 10.
+- **Shenreth**: The current family logic finds 33 relatives but shows 10.
+- **Pelsheneth**: The current family logic finds 58 relatives but shows 10.
+- **Shenvarash**: The current family logic finds 33 relatives but shows 10.
+- **Weksivshen**: The current family logic finds 18 relatives but shows 10.
+- **Shalpel**: The current family logic finds 49 relatives but shows 10.
+- **Drallor**: The current family logic finds 29 relatives but shows 10.
+- **Fellor**: The current family logic finds 52 relatives but shows 10.
+- **Aru**: The current family logic finds 11 relatives but shows 10.
+- **Arueth**: The current family logic finds 11 relatives but shows 10.
+- **Kaarueth**: The current family logic finds 37 relatives but shows 10.
+- **Aruaen**: The current family logic finds 11 relatives but shows 10.
+- **Arural**: The current family logic finds 11 relatives but shows 10.
+- **Rinaru**: The current family logic finds 40 relatives but shows 10.
+- **Kalaru**: The current family logic finds 40 relatives but shows 10.
+- **Esharu**: The current family logic finds 50 relatives but shows 10.
+- **Arukel**: The current family logic finds 35 relatives but shows 10.
+- **Arukelaen**: The current family logic finds 11 relatives but shows 10.
+- **Shankalaen**: The current family logic finds 63 relatives but shows 10.
+- **Rinbel**: The current family logic finds 78 relatives but shows 10.
+- **Arthrin**: The current family logic finds 41 relatives but shows 10.
+- **Xarrin**: The current family logic finds 72 relatives but shows 10.
+- **Kaaruaen**: The current family logic finds 37 relatives but shows 10.
+- **Vaarrin**: The current family logic finds 35 relatives but shows 10.
+- **Rathrin**: The current family logic finds 40 relatives but shows 10.
+- **Rinvek**: The current family logic finds 71 relatives but shows 10.
+- **Ohmpel**: The current family logic finds 34 relatives but shows 10.
+- **Mekaru**: The current family logic finds 46 relatives but shows 10.
+- **Thaenohm**: The current family logic finds 14 relatives but shows 10.
+- **Rinarshor**: The current family logic finds 31 relatives but shows 10.
+- **Thaenbel**: The current family logic finds 55 relatives but shows 10.
+- **Kathaenbelaen**: The current family logic finds 27 relatives but shows 10.
+- **Krezpralaen**: The current family logic finds 71 relatives but shows 10.
+- **Dropralaen**: The current family logic finds 61 relatives but shows 10.
+- **Eshpralaen**: The current family logic finds 82 relatives but shows 10.
+- **Morpralaen**: The current family logic finds 80 relatives but shows 10.
+- **Velpralaen**: The current family logic finds 87 relatives but shows 10.
+- **Zhelpralaen**: The current family logic finds 69 relatives but shows 10.
+- **Tenarpralaen**: The current family logic finds 50 relatives but shows 10.
+- **Vethpralaen**: The current family logic finds 62 relatives but shows 10.
+- **Vethshal**: The current family logic finds 38 relatives but shows 10.
+- **Tharbel**: The current family logic finds 64 relatives but shows 10.
+- **Katharbelaen**: The current family logic finds 27 relatives but shows 10.
+- **Kesxar**: The current family logic finds 57 relatives but shows 10.
+- **Worshankal**: The current family logic finds 72 relatives but shows 10.
+- **Rethkal**: The current family logic finds 29 relatives but shows 10.
+- **Shantham**: The current family logic finds 42 relatives but shows 10.
+- **Kaohmaen**: The current family logic finds 27 relatives but shows 10.
+- **Kaan**: The current family logic finds 27 relatives but shows 10.
+- **Anshanaen**: The current family logic finds 35 relatives but shows 10.
+- **Thalshanaen**: The current family logic finds 60 relatives but shows 10.
+- **Dovhav**: The current family logic finds 13 relatives but shows 10.
+- **Dovkel**: The current family logic finds 30 relatives but shows 10.
+- **Keljek**: The current family logic finds 34 relatives but shows 10.
+- **Pralhav**: The current family logic finds 54 relatives but shows 10.
+- **Dovhavral**: The current family logic finds 38 relatives but shows 10.
+- **Havrath**: The current family logic finds 18 relatives but shows 10.
+- **Jekkel**: The current family logic finds 34 relatives but shows 10.
+- **Peljekkel**: The current family logic finds 25 relatives but shows 10.
+- **Kelnemaen**: The current family logic finds 29 relatives but shows 10.
+- **Selnemaen**: The current family logic finds 16 relatives but shows 10.
+- **Fahohm**: The current family logic finds 13 relatives but shows 10.
+- **Ravohm**: The current family logic finds 22 relatives but shows 10.
+- **Kavkrez**: The current family logic finds 44 relatives but shows 10.
+- **Korkalvar**: The current family logic finds 18 relatives but shows 10.
+- **Korsharvar**: The current family logic finds 18 relatives but shows 10.
+- **Xarmetha**: The current family logic finds 45 relatives but shows 10.
+- **Kalmetha**: The current family logic finds 31 relatives but shows 10.
+- **Emilshan**: The current family logic finds 35 relatives but shows 10.
+- **Urenvek**: The current family logic finds 45 relatives but shows 10.
+- **Ndemshan**: The current family logic finds 38 relatives but shows 10.
+- **Ndemwek**: The current family logic finds 21 relatives but shows 10.
+- **Nokashan**: The current family logic finds 36 relatives but shows 10.
+- **Nderuxar**: The current family logic finds 44 relatives but shows 10.
+- **Urenshan**: The current family logic finds 38 relatives but shows 10.
+- **Leyajor**: The current family logic finds 29 relatives but shows 10.
+- **Kelvordren**: The current family logic finds 40 relatives but shows 10.
+- **Lorinshaldren**: The current family logic finds 40 relatives but shows 10.
+- **Korpir**: The current family logic finds 20 relatives but shows 10.
+- **Varan**: The current family logic finds 23 relatives but shows 10.
+- **Shalil**: The current family logic finds 24 relatives but shows 10.
+- **Serathrin**: The current family logic finds 45 relatives but shows 10.
+- **Zhivor**: The current family logic finds 38 relatives but shows 10.
+- **Tharvok**: The current family logic finds 34 relatives but shows 10.
+- **Shenakar**: The current family logic finds 33 relatives but shows 10.
+- **Nkathal**: The current family logic finds 28 relatives but shows 10.
+- **Dreshal**: The current family logic finds 25 relatives but shows 10.
+- **Varshel**: The current family logic finds 23 relatives but shows 10.
+- **Eshvan**: The current family logic finds 41 relatives but shows 10.
+- **Noraen**: The current family logic finds 30 relatives but shows 10.
+- **Thalesh**: The current family logic finds 26 relatives but shows 10.
+- **Thalor**: The current family logic finds 26 relatives but shows 10.
+- **Varral**: The current family logic finds 23 relatives but shows 10.
+- **Karjor**: The current family logic finds 39 relatives but shows 10.
+- **Kavel**: The current family logic finds 69 relatives but shows 10.
+- **Vorkaral**: The current family logic finds 13 relatives but shows 10.
+- **Noral**: The current family logic finds 30 relatives but shows 10.
+- **Terrarav**: The current family logic finds 23 relatives but shows 10.
+- **Zhirrathor**: The current family logic finds 38 relatives but shows 10.
+- **Rin**: The current family logic finds 29 relatives but shows 10.
+- **Bel**: The current family logic finds 50 relatives but shows 10.
+- **Mor**: The current family logic finds 34 relatives but shows 10.
+- **Veth**: The current family logic finds 15 relatives but shows 10.
+- **Kar**: The current family logic finds 13 relatives but shows 10.
+- **Verd**: The current family logic finds 17 relatives but shows 10.
+- **Kav**: The current family logic finds 19 relatives but shows 10.
+- **Vel**: The current family logic finds 43 relatives but shows 10.
+- **Zhir**: The current family logic finds 38 relatives but shows 10.
+- **Jor**: The current family logic finds 26 relatives but shows 10.
+- **Jek**: The current family logic finds 11 relatives but shows 10.
+- **Wek**: The current family logic finds 18 relatives but shows 10.
+- **Lor**: The current family logic finds 20 relatives but shows 10.
+- **Vin**: The current family logic finds 11 relatives but shows 10.
+- **Zhael**: The current family logic finds 13 relatives but shows 10.
+- **Bal**: The current family logic finds 11 relatives but shows 10.
+- **Wel**: The current family logic finds 23 relatives but shows 10.
+- **Xar**: The current family logic finds 43 relatives but shows 10.
+- **Rav**: The current family logic finds 13 relatives but shows 10.
+- **Zhel**: The current family logic finds 22 relatives but shows 10.
+- **Mek**: The current family logic finds 35 relatives but shows 10.
+- **Vek**: The current family logic finds 42 relatives but shows 10.
+- **Nor-**: The current family logic finds 30 relatives but shows 10.
+- **-ka**: The current family logic finds 27 relatives but shows 10.
+- **Pel**: The current family logic finds 25 relatives but shows 10.
+- **Rav-**: The current family logic finds 13 relatives but shows 10.
+- **-esh**: The current family logic finds 39 relatives but shows 10.
+- **-vel**: The current family logic finds 43 relatives but shows 10.
+- **nor-ka**: The current family logic finds 30 relatives but shows 10.
+- **Shal-**: The current family logic finds 24 relatives but shows 10.
+- **Krez-**: The current family logic finds 25 relatives but shows 10.
+- **Dren-**: The current family logic finds 40 relatives but shows 10.
+- **Morl-**: The current family logic finds 22 relatives but shows 10.
+- **Esh-**: The current family logic finds 39 relatives but shows 10.
+- **Lian-**: The current family logic finds 17 relatives but shows 10.
+- **Thal-**: The current family logic finds 26 relatives but shows 10.
+- **Rin-**: The current family logic finds 29 relatives but shows 10.
+- **Bel-**: The current family logic finds 50 relatives but shows 10.
+- **Kal-**: The current family logic finds 29 relatives but shows 10.
+- **Shara-**: The current family logic finds 28 relatives but shows 10.
+- **Thar-**: The current family logic finds 14 relatives but shows 10.
+- **Var-**: The current family logic finds 23 relatives but shows 10.
+- **Vok-**: The current family logic finds 20 relatives but shows 10.
+- **Rath-**: The current family logic finds 11 relatives but shows 10.
+- **Zhir-**: The current family logic finds 38 relatives but shows 10.
+- **Kel-**: The current family logic finds 24 relatives but shows 10.
+- **Rinaen**: The current family logic finds 37 relatives but shows 10.
+
+## RF08 — The KA family still carries an outdated combined explanation
+
+App fix · 29 affected records
+
+The family lookup says KA can mean linking, possession or without depending on context. That does not express the approved rule: standalone ka is negative; possessive -ka must be attached.
+
+Proposed approach: Apply ED-0038 to the app-facing family explanations and identities. Preserve the historical source record.
+
+- **Ka**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Ka-Shen**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Sharaka**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kelka**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kaxaraen**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kavelzhiraen**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kavok**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kavelrathor**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kakalrav**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kasharaen**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kaemilpraleth**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kabelmekaen**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kaweleth**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kaarthaen**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kadromav**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kakesrin**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kadromor**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kadro**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kasul**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kaxardavaen**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kazhel**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kaarueth**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kaaruaen**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kathaenbelaen**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Katharbelaen**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kaohmaen**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kaan**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **Kavel**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+- **-ka**: The family uses KA with the explanation: Linking, possession, or without-state depending on context
+
+## RF09 — Explicit family lists cannot restore a missing relative
+
+App fix · 2 affected records
+
+The editorial list is used only to filter existing matches. It cannot add a requested word when detection or the earlier 16-item cap omitted it.
+
+Proposed approach: Resolve explicit editorial family links directly, then apply the intended display order.
+
+- **Aen**: The explicit related-word list requests Aenaen, Aenvor, but those words are absent before the display filter runs.
+- **-eth**: The explicit related-word list requests Shaleth, Woreth, Gormeth, Kaleth, but those words are absent before the display filter runs.
+
+## RF10 — Combined source headings remain family identities
+
+Needs interpretation · 5 affected records
+
+A heading such as Fah- / Vethor- is treated as one family anchor. Those are two named forms, not a word someone can use. The current fallback explains the heading, but the family identity is still combined.
+
+Proposed approach: Retain the explanation and separate the component identities only where approved relationships establish how they connect.
+
+- **Vethor**: The family uses a combined source heading: Fah- / Vethor-
+- **Reth**: The family uses a combined source heading: Reth- / Rethvok-
+- **Rethvok**: The family uses a combined source heading: Reth- / Rethvok-
+- **terra- / Terra-**: The family uses a combined source heading: terra- / Terra-
+- **Reth- / Rethvok-**: The family uses a combined source heading: Reth- / Rethvok-
+
+## RF11 — Some source evidence cannot match a headword as stored
+
+Needs interpretation · 27 affected records
+
+The evidence reader compares an entire hint to a word. Formulas such as “Var + Ok = To Command / To Direct” do not match a headword. This shows unusable evidence formatting, not proof that every suggested source relationship is canon.
+
+Proposed approach: Convert approved evidence into explicit entry links. Review older source claims before adding relationships.
+
+- **Reth- / Rethvok-**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **terra- / Terra-**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **Fah- / Vethor-**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **Pralaen-**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **SHARA**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **DREN**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **SHAL**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **KREZ**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **MORL**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **LIAN**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **THAL**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **THAR**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **ZHIR**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **KHUM**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **Rath**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **ESH**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **NOR**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **RIN**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **BEL**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **OHM**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **VOK**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **KEL**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **KAL**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **RAV**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **Aen**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **Var-**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+- **Ser-**: The matcher requires an exact headword, but these hints contain a formula or multiple forms.
+
+## Boundaries and passing checks
+
+- All 1,496 headwords appear in coverage.json, including entries with no flags.
+- Zero visible root/affix buttons have neither an entry destination nor a fallback explanation. A resolvable button can still point at the wrong sense.
+- Em remains separate from Emil, and Varin remains separate from the marine component in Jekvarin.
+- No detected family is not inherently an error; independent words can correctly have none.
+- Related-word truncation is a completeness problem, not evidence that the hidden relatives are all linguistically correct.
+- The audit executes the actual app builders; it does not use screenshots or claim visual browser validation.
