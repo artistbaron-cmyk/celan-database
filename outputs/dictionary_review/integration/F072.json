@@ -3,9 +3,7 @@
   "title": "varshel appears in examples but has no matching entry",
   "status": "Applied locally",
   "summary": "Added Varshel: Road / Travel path / Highway. Word-specific derivation confirmed under ED-0039.",
-  "followups": [
-    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-  ],
+  "followups": [],
   "user_response": {
     "id": "F072",
     "status": "edited",
@@ -48,9 +46,9 @@
       "canon_status": "Canon",
       "approval_batch": "Dictionary Review 1",
       "notes": "User-approved restoration of existing example vocabulary; ED-0037 F072. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added. ED-0039: user-confirmed word-specific derivation; no automatic productive root or suffix expansion.",
-      "related_entry_ids": "PE-V3-0125"
+      "related_entry_ids": "PE-V3-0125; PE-DR2-0009"
     },
-    "example_count": 1
+    "example_count": 2
   },
   "confirmed_derivation": "Var travel/move + shel pathway or route component."
 }

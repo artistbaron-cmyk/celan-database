@@ -3,9 +3,7 @@
   "title": "khumrel appears in examples but has no matching entry",
   "status": "Applied locally",
   "summary": "Added Khumrel: Compassion / Empathetic listening / Circle of care. Word-specific derivation confirmed under ED-0039.",
-  "followups": [
-    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-  ],
+  "followups": [],
   "user_response": {
     "id": "F085",
     "status": "edited",
@@ -48,9 +46,9 @@
       "canon_status": "Canon",
       "approval_batch": "Dictionary Review 1",
       "notes": "User-approved restoration of existing example vocabulary; ED-0037 F085. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added. ED-0039: user-confirmed word-specific derivation; no automatic productive root or suffix expansion.",
-      "related_entry_ids": "PE-S3-0019"
+      "related_entry_ids": "PE-S3-0019; PE-DR2-0015"
     },
-    "example_count": 1
+    "example_count": 2
   },
   "confirmed_derivation": "Khum reconciliation/listening circle + -rel soft flow or gentle expression; the same soft-flow component used in Velkrel, here describing compassion."
 }

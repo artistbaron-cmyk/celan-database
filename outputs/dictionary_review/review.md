@@ -1,6 +1,6 @@
 > Update: User-approved changes for 99 review items have been applied locally. The original findings remain below as history; each item lists any remaining follow-up.
 
-> F048: Applied the user’s 50 exact example replacements; retained PE-UHEI1-0035 unchanged. See F048_applied.json.
+> F048: Applied the user’s 50 exact example replacements; retained PE-UHEI1-0035 unchanged. Standalone Shalilaen/Welaen follow-up closed at the user’s request. See F048_applied.json.
 > F001: Applied the approved word labels and preserved the other established meanings. See integration/F001.json.
 > F002: Applied the approved word labels and preserved the other established meanings. See integration/F002.json.
 > F003: Applied the approved word labels and preserved the other established meanings. See integration/F003.json.

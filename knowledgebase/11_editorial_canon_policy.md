@@ -848,3 +848,9 @@ All seventeen previously pending derivations are settled by the user's explicit 
 Serilin specifically and primarily means sister / female sibling in everyday Celan. Its Ser + -il + -in history does not broaden its dictionary meaning to generic kin or sibling. Em is unrelated to Emil; the cognition verb Varin is unrelated to the marine component in Jekvarin. Vrak is an unsegmented Trerran dialect primitive. Evan does not create a productive e- prefix, Shena does not create universal noun-forming -a, and Shenakar's historical akar is not promoted to a productive root.
 
 The detailed Vorkaral derivation is Vor + Kar + nominal agent -al; retain the separate continuous verbal -al. Varral uses agent/practitioner -ral while independent Ral retains its caretaker/watcher sense. The two functions of -il are recorded in Shalil and Serilin, and the shared soft-flow -rel in Velkrel and Khumrel, without unrestricted new derivative creation.
+
+## ED-0040: Second Reviewed Examples
+
+Status: Approved by the user's instruction to add the 17 second reviewed examples.
+
+PE-DR2-0001 through PE-DR2-0017 supply an additional usage sentence for each previously single-example restored entry. Each sentence is linked bidirectionally to its headword and checked against the approved senses and current possession rules. Full text is recorded in `outputs/dictionary_review/second_examples.md`. The user also closed the standalone-entry follow-up for Shalilaen and Welaen; no additional headwords are introduced.

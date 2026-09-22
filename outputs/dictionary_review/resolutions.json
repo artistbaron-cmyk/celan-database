@@ -3,10 +3,8 @@
     "decision_id": "ED-0036",
     "date": "2026-09-22",
     "status": "Applied locally",
-    "summary": "Applied the user’s 50 exact example replacements; retained PE-UHEI1-0035 unchanged.",
-    "lookup_followup": [
-      "Shalilaen and Welaen occur in the approved replacements but have no standalone dictionary entries. No new headwords were added."
-    ],
+    "summary": "Applied the user’s 50 exact example replacements; retained PE-UHEI1-0035 unchanged. Standalone Shalilaen/Welaen follow-up closed at the user’s request.",
+    "lookup_followup": [],
     "record": "F048_applied.json"
   },
   "F001": {
@@ -414,9 +412,7 @@
     "date": "2026-09-22",
     "status": "Applied locally",
     "summary": "Added Velkrel: Breeze / Cool breeze / Light wind. Word-specific derivation confirmed under ED-0039.",
-    "lookup_followup": [
-      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-    ],
+    "lookup_followup": [],
     "record": "integration/F052.json"
   },
   "F053": {
@@ -424,9 +420,7 @@
     "date": "2026-09-22",
     "status": "Applied locally",
     "summary": "Added Varan as a locative-stative verb; -al remains the universal continuous suffix.",
-    "lookup_followup": [
-      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-    ],
+    "lookup_followup": [],
     "record": "integration/F053.json"
   },
   "F054": {
@@ -442,9 +436,7 @@
     "date": "2026-09-22",
     "status": "Applied locally",
     "summary": "Added Serathrin: Confidant / Trusted inner friend / Sworn ally.",
-    "lookup_followup": [
-      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-    ],
+    "lookup_followup": [],
     "record": "integration/F055.json"
   },
   "F056": {
@@ -452,9 +444,7 @@
     "date": "2026-09-22",
     "status": "Applied locally",
     "summary": "Added Zhivor: Family line / Ancestral household / Kin group. Word-specific derivation confirmed under ED-0039.",
-    "lookup_followup": [
-      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-    ],
+    "lookup_followup": [],
     "record": "integration/F056.json"
   },
   "F057": {
@@ -486,9 +476,7 @@
     "date": "2026-09-22",
     "status": "Applied locally",
     "summary": "Added Em: Um / Uh (hesitation or thinking particle). Word-specific derivation confirmed under ED-0039.",
-    "lookup_followup": [
-      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-    ],
+    "lookup_followup": [],
     "record": "integration/F060.json"
   },
   "F061": {
@@ -496,9 +484,7 @@
     "date": "2026-09-22",
     "status": "Applied locally",
     "summary": "Added Varin: To know / To be aware of. Word-specific derivation confirmed under ED-0039.",
-    "lookup_followup": [
-      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-    ],
+    "lookup_followup": [],
     "record": "integration/F061.json"
   },
   "F062": {
@@ -514,9 +500,7 @@
     "date": "2026-09-22",
     "status": "Applied locally",
     "summary": "Added Nkathal: Sadness / Grief / Sorrow / Enduring emotional pain.",
-    "lookup_followup": [
-      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-    ],
+    "lookup_followup": [],
     "record": "integration/F063.json"
   },
   "F064": {
@@ -532,9 +516,7 @@
     "date": "2026-09-22",
     "status": "Applied locally",
     "summary": "Added Vrak: Gone / Missing / Depleted / Dry (Trerran dialect). Word-specific derivation confirmed under ED-0039.",
-    "lookup_followup": [
-      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-    ],
+    "lookup_followup": [],
     "record": "integration/F065.json"
   },
   "F066": {
@@ -590,9 +572,7 @@
     "date": "2026-09-22",
     "status": "Applied locally",
     "summary": "Added Varshel: Road / Travel path / Highway. Word-specific derivation confirmed under ED-0039.",
-    "lookup_followup": [
-      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-    ],
+    "lookup_followup": [],
     "record": "integration/F072.json"
   },
   "F073": {
@@ -608,9 +588,7 @@
     "date": "2026-09-22",
     "status": "Applied locally",
     "summary": "Added Noraen: To guide / To lead through time or experience / To instruct.",
-    "lookup_followup": [
-      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-    ],
+    "lookup_followup": [],
     "record": "integration/F074.json"
   },
   "F075": {
@@ -618,9 +596,7 @@
     "date": "2026-09-22",
     "status": "Applied locally",
     "summary": "Added Thalesh: Ritual / Sacred balance ceremony.",
-    "lookup_followup": [
-      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-    ],
+    "lookup_followup": [],
     "record": "integration/F075.json"
   },
   "F076": {
@@ -628,9 +604,7 @@
     "date": "2026-09-22",
     "status": "Applied locally",
     "summary": "Added Thalor: Outside / Exterior / Outer place.",
-    "lookup_followup": [
-      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-    ],
+    "lookup_followup": [],
     "record": "integration/F076.json"
   },
   "F077": {
@@ -670,9 +644,7 @@
     "date": "2026-09-22",
     "status": "Applied locally",
     "summary": "Added Karjor: Impact / Mechanical surge / Strike force / Burst of energy.",
-    "lookup_followup": [
-      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-    ],
+    "lookup_followup": [],
     "record": "integration/F081.json"
   },
   "F082": {
@@ -681,7 +653,7 @@
     "status": "Applied locally",
     "summary": "Added Kavel: Forgetfulness / Memory gap / Loss of awareness.",
     "lookup_followup": [
-      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
+      "An older Kavel example (PE-EGE1-0019) still translates kavel as “while,” although its approved meaning is memory gap/forgetfulness. The new example uses the approved meaning. The older sentence is unchanged and needs separate correction."
     ],
     "record": "integration/F082.json"
   },
@@ -706,9 +678,7 @@
     "date": "2026-09-22",
     "status": "Applied locally",
     "summary": "Added Khumrel: Compassion / Empathetic listening / Circle of care. Word-specific derivation confirmed under ED-0039.",
-    "lookup_followup": [
-      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-    ],
+    "lookup_followup": [],
     "record": "integration/F085.json"
   },
   "F086": {
@@ -716,9 +686,7 @@
     "date": "2026-09-22",
     "status": "Applied locally",
     "summary": "Added Terrarav: Pull of one's homeland / Yearning for home.",
-    "lookup_followup": [
-      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-    ],
+    "lookup_followup": [],
     "record": "integration/F086.json"
   },
   "F087": {
@@ -726,9 +694,7 @@
     "date": "2026-09-22",
     "status": "Applied locally",
     "summary": "Added Zhirrathor: Thread to the past / Historical continuity / Lineage link.",
-    "lookup_followup": [
-      "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-    ],
+    "lookup_followup": [],
     "record": "integration/F087.json"
   },
   "F088": {

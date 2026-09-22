@@ -1,0 +1,359 @@
+[
+  {
+    "term": "Velkrel",
+    "flag": "F052",
+    "entry": {
+      "entry_id": "PE-DR2-0001",
+      "source_volume": "Dictionary Review 1: Second Examples",
+      "source_section": "Reviewed usage > Velkrel",
+      "page_number": "",
+      "celan_text": "rinaen velkrel an verdor.",
+      "translation": "There is a breeze in the forest.",
+      "example_type": "Reviewed usage example",
+      "analysis": "Checked against approved headword senses, verb-first order, and ED-0038 possession where used.",
+      "canon_status": "Canon",
+      "notes": "ED-0040: user requested the second reviewed examples; authored and checked during integration.",
+      "related_entry_ids": "LX-DR1-0002",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    }
+  },
+  {
+    "term": "Varan",
+    "flag": "F053",
+    "entry": {
+      "entry_id": "PE-DR2-0002",
+      "source_volume": "Dictionary Review 1: Second Examples",
+      "source_section": "Reviewed usage > Varan",
+      "page_number": "",
+      "celan_text": "varan serilin an teremil.",
+      "translation": "The sister resides at home.",
+      "example_type": "Reviewed usage example",
+      "analysis": "Checked against approved headword senses, verb-first order, and ED-0038 possession where used.",
+      "canon_status": "Canon",
+      "notes": "ED-0040: user requested the second reviewed examples; authored and checked during integration.",
+      "related_entry_ids": "LX-DR1-0003",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    }
+  },
+  {
+    "term": "Serathrin",
+    "flag": "F055",
+    "entry": {
+      "entry_id": "PE-DR2-0003",
+      "source_volume": "Dictionary Review 1: Second Examples",
+      "source_section": "Reviewed usage > Serathrin",
+      "page_number": "",
+      "celan_text": "aen serathrin lian.",
+      "translation": "The confidant speaks the truth.",
+      "example_type": "Reviewed usage example",
+      "analysis": "Checked against approved headword senses, verb-first order, and ED-0038 possession where used.",
+      "canon_status": "Canon",
+      "notes": "ED-0040: user requested the second reviewed examples; authored and checked during integration.",
+      "related_entry_ids": "LX-DR1-0005",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    }
+  },
+  {
+    "term": "Zhivor",
+    "flag": "F056",
+    "entry": {
+      "entry_id": "PE-DR2-0004",
+      "source_volume": "Dictionary Review 1: Second Examples",
+      "source_section": "Reviewed usage > Zhivor",
+      "page_number": "",
+      "celan_text": "rinaen zhivor an Varthas.",
+      "translation": "The ancestral household is in the city.",
+      "example_type": "Reviewed usage example",
+      "analysis": "Checked against approved headword senses, verb-first order, and ED-0038 possession where used.",
+      "canon_status": "Canon",
+      "notes": "ED-0040: user requested the second reviewed examples; authored and checked during integration.",
+      "related_entry_ids": "LX-DR1-0006",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    }
+  },
+  {
+    "term": "Em",
+    "flag": "F060",
+    "entry": {
+      "entry_id": "PE-DR2-0005",
+      "source_volume": "Dictionary Review 1: Second Examples",
+      "source_section": "Reviewed usage > Em",
+      "page_number": "",
+      "celan_text": "em, dar I.",
+      "translation": "Um, I wait.",
+      "example_type": "Reviewed usage example",
+      "analysis": "Checked against approved headword senses, verb-first order, and ED-0038 possession where used.",
+      "canon_status": "Canon",
+      "notes": "ED-0040: user requested the second reviewed examples; authored and checked during integration.",
+      "related_entry_ids": "LX-DR1-0010",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    }
+  },
+  {
+    "term": "Varin",
+    "flag": "F061",
+    "entry": {
+      "entry_id": "PE-DR2-0006",
+      "source_volume": "Dictionary Review 1: Second Examples",
+      "source_section": "Reviewed usage > Varin",
+      "page_number": "",
+      "celan_text": "varin I aen var Ya an teremil.",
+      "translation": "I know that you go to the home.",
+      "example_type": "Reviewed usage example",
+      "analysis": "Checked against approved headword senses, verb-first order, and ED-0038 possession where used.",
+      "canon_status": "Canon",
+      "notes": "ED-0040: user requested the second reviewed examples; authored and checked during integration.",
+      "related_entry_ids": "LX-DR1-0011",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    }
+  },
+  {
+    "term": "Nkathal",
+    "flag": "F063",
+    "entry": {
+      "entry_id": "PE-DR2-0007",
+      "source_volume": "Dictionary Review 1: Second Examples",
+      "source_section": "Reviewed usage > Nkathal",
+      "page_number": "",
+      "celan_text": "rinaen nkathal an thar-ian.",
+      "translation": "There is sadness in my heart.",
+      "example_type": "Reviewed usage example",
+      "analysis": "Checked against approved headword senses, verb-first order, and ED-0038 possession where used.",
+      "canon_status": "Canon",
+      "notes": "ED-0040: user requested the second reviewed examples; authored and checked during integration.",
+      "related_entry_ids": "LX-DR1-0013",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    }
+  },
+  {
+    "term": "Vrak",
+    "flag": "F065",
+    "entry": {
+      "entry_id": "PE-DR2-0008",
+      "source_volume": "Dictionary Review 1: Second Examples",
+      "source_section": "Reviewed usage > Vrak",
+      "page_number": "",
+      "celan_text": "rinaen shena vrak.",
+      "translation": "The money is gone.",
+      "example_type": "Reviewed usage example",
+      "analysis": "Checked against approved headword senses, verb-first order, and ED-0038 possession where used.",
+      "canon_status": "Canon",
+      "notes": "ED-0040: user requested the second reviewed examples; authored and checked during integration.",
+      "related_entry_ids": "LX-DR1-0014",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    }
+  },
+  {
+    "term": "Varshel",
+    "flag": "F072",
+    "entry": {
+      "entry_id": "PE-DR2-0009",
+      "source_volume": "Dictionary Review 1: Second Examples",
+      "source_section": "Reviewed usage > Varshel",
+      "page_number": "",
+      "celan_text": "var I shan varshel.",
+      "translation": "I go across the road.",
+      "example_type": "Reviewed usage example",
+      "analysis": "Checked against approved headword senses, verb-first order, and ED-0038 possession where used.",
+      "canon_status": "Canon",
+      "notes": "ED-0040: user requested the second reviewed examples; authored and checked during integration.",
+      "related_entry_ids": "LX-DR1-0020",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    }
+  },
+  {
+    "term": "Noraen",
+    "flag": "F074",
+    "entry": {
+      "entry_id": "PE-DR2-0010",
+      "source_volume": "Dictionary Review 1: Second Examples",
+      "source_section": "Reviewed usage > Noraen",
+      "page_number": "",
+      "celan_text": "noraen liorin aelin.",
+      "translation": "The teacher instructs the pupil.",
+      "example_type": "Reviewed usage example",
+      "analysis": "Checked against approved headword senses, verb-first order, and ED-0038 possession where used.",
+      "canon_status": "Canon",
+      "notes": "ED-0040: user requested the second reviewed examples; authored and checked during integration.",
+      "related_entry_ids": "LX-DR1-0022",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    }
+  },
+  {
+    "term": "Thalesh",
+    "flag": "F075",
+    "entry": {
+      "entry_id": "PE-DR2-0011",
+      "source_volume": "Dictionary Review 1: Second Examples",
+      "source_section": "Reviewed usage > Thalesh",
+      "page_number": "",
+      "celan_text": "rinaen thalesh an shalor.",
+      "translation": "The sacred balance ceremony is at the sanctuary.",
+      "example_type": "Reviewed usage example",
+      "analysis": "Checked against approved headword senses, verb-first order, and ED-0038 possession where used.",
+      "canon_status": "Canon",
+      "notes": "ED-0040: user requested the second reviewed examples; authored and checked during integration.",
+      "related_entry_ids": "LX-DR1-0023",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    }
+  },
+  {
+    "term": "Thalor",
+    "flag": "F076",
+    "entry": {
+      "entry_id": "PE-DR2-0012",
+      "source_volume": "Dictionary Review 1: Second Examples",
+      "source_section": "Reviewed usage > Thalor",
+      "page_number": "",
+      "celan_text": "rinaen mekral thalor.",
+      "translation": "The mechanic is outside.",
+      "example_type": "Reviewed usage example",
+      "analysis": "Checked against approved headword senses, verb-first order, and ED-0038 possession where used.",
+      "canon_status": "Canon",
+      "notes": "ED-0040: user requested the second reviewed examples; authored and checked during integration.",
+      "related_entry_ids": "LX-DR1-0024",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    }
+  },
+  {
+    "term": "Karjor",
+    "flag": "F081",
+    "entry": {
+      "entry_id": "PE-DR2-0013",
+      "source_volume": "Dictionary Review 1: Second Examples",
+      "source_section": "Reviewed usage > Karjor",
+      "page_number": "",
+      "celan_text": "rinaen karjor kaleth.",
+      "translation": "The impact is powerful.",
+      "example_type": "Reviewed usage example",
+      "analysis": "Checked against approved headword senses, verb-first order, and ED-0038 possession where used.",
+      "canon_status": "Canon",
+      "notes": "ED-0040: user requested the second reviewed examples; authored and checked during integration.",
+      "related_entry_ids": "LX-DR1-0027",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    }
+  },
+  {
+    "term": "Kavel",
+    "flag": "F082",
+    "entry": {
+      "entry_id": "PE-DR2-0014",
+      "source_volume": "Dictionary Review 1: Second Examples",
+      "source_section": "Reviewed usage > Kavel",
+      "page_number": "",
+      "celan_text": "rinaen kavel an lianor-ian.",
+      "translation": "There is a memory gap in my thought.",
+      "example_type": "Reviewed usage example",
+      "analysis": "Checked against approved headword senses, verb-first order, and ED-0038 possession where used.",
+      "canon_status": "Canon",
+      "notes": "ED-0040: user requested the second reviewed examples; authored and checked during integration.",
+      "related_entry_ids": "LX-DR1-0028",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    }
+  },
+  {
+    "term": "Khumrel",
+    "flag": "F085",
+    "entry": {
+      "entry_id": "PE-DR2-0015",
+      "source_volume": "Dictionary Review 1: Second Examples",
+      "source_section": "Reviewed usage > Khumrel",
+      "page_number": "",
+      "celan_text": "aen serathrin ser khumrel.",
+      "translation": "The confidant speaks with compassion.",
+      "example_type": "Reviewed usage example",
+      "analysis": "Checked against approved headword senses, verb-first order, and ED-0038 possession where used.",
+      "canon_status": "Canon",
+      "notes": "ED-0040: user requested the second reviewed examples; authored and checked during integration.",
+      "related_entry_ids": "LX-DR1-0031",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    }
+  },
+  {
+    "term": "Terrarav",
+    "flag": "F086",
+    "entry": {
+      "entry_id": "PE-DR2-0016",
+      "source_volume": "Dictionary Review 1: Second Examples",
+      "source_section": "Reviewed usage > Terrarav",
+      "page_number": "",
+      "celan_text": "rinaen terrarav an thar-ian.",
+      "translation": "There is yearning for home in my heart.",
+      "example_type": "Reviewed usage example",
+      "analysis": "Checked against approved headword senses, verb-first order, and ED-0038 possession where used.",
+      "canon_status": "Canon",
+      "notes": "ED-0040: user requested the second reviewed examples; authored and checked during integration.",
+      "related_entry_ids": "LX-DR1-0032",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    }
+  },
+  {
+    "term": "Zhirrathor",
+    "flag": "F087",
+    "entry": {
+      "entry_id": "PE-DR2-0017",
+      "source_volume": "Dictionary Review 1: Second Examples",
+      "source_section": "Reviewed usage > Zhirrathor",
+      "page_number": "",
+      "celan_text": "rinaen zhirrathor an zhivor.",
+      "translation": "There is historical continuity in the family line.",
+      "example_type": "Reviewed usage example",
+      "analysis": "Checked against approved headword senses, verb-first order, and ED-0038 possession where used.",
+      "canon_status": "Canon",
+      "notes": "ED-0040: user requested the second reviewed examples; authored and checked during integration.",
+      "related_entry_ids": "LX-DR1-0033",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": ""
+    }
+  }
+]

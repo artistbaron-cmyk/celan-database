@@ -3,25 +3,7 @@
   "new_headwords": 33,
   "headwords": 1496,
   "senses": 1607,
-  "second_examples_needed": [
-    "Velkrel",
-    "Varan",
-    "Serathrin",
-    "Zhivor",
-    "Em",
-    "Varin",
-    "Nkathal",
-    "Vrak",
-    "Varshel",
-    "Noraen",
-    "Thalesh",
-    "Thalor",
-    "Karjor",
-    "Kavel",
-    "Khumrel",
-    "Terrarav",
-    "Zhirrathor"
-  ],
+  "second_examples_needed": [],
   "derivations_pending": [],
   "applied_example_rows": 79,
   "published": false,
@@ -43,5 +25,14 @@
     "Varral",
     "Vorkaral",
     "Khumrel"
-  ]
+  ],
+  "second_examples_added": 17,
+  "standalone_followup_closed_by_user": [
+    "Shalilaen",
+    "Welaen"
+  ],
+  "older_example_followup": {
+    "entry_id": "PE-EGE1-0019",
+    "note": "An older Kavel example (PE-EGE1-0019) still translates kavel as “while,” although its approved meaning is memory gap/forgetfulness. The new example uses the approved meaning. The older sentence is unchanged and needs separate correction."
+  }
 }

@@ -3,9 +3,7 @@
   "title": "noraen appears in examples but has no matching entry",
   "status": "Applied locally",
   "summary": "Added Noraen: To guide / To lead through time or experience / To instruct.",
-  "followups": [
-    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-  ],
+  "followups": [],
   "user_response": {
     "id": "F074",
     "status": "edited",
@@ -48,8 +46,8 @@
       "canon_status": "Canon",
       "approval_batch": "Dictionary Review 1",
       "notes": "User-approved restoration of existing example vocabulary; ED-0037 F074. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
-      "related_entry_ids": "PE-V3-0132"
+      "related_entry_ids": "PE-V3-0132; PE-DR2-0010"
     },
-    "example_count": 1
+    "example_count": 2
   }
 }

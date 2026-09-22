@@ -3,9 +3,7 @@
   "title": "thalor appears in examples but has no matching entry",
   "status": "Applied locally",
   "summary": "Added Thalor: Outside / Exterior / Outer place.",
-  "followups": [
-    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-  ],
+  "followups": [],
   "user_response": {
     "id": "F076",
     "status": "edited",
@@ -55,8 +53,8 @@
       "canon_status": "Canon",
       "approval_batch": "Dictionary Review 1",
       "notes": "User-approved restoration of existing example vocabulary; ED-0037 F076. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
-      "related_entry_ids": "PE-V4-0085"
+      "related_entry_ids": "PE-V4-0085; PE-DR2-0012"
     },
-    "example_count": 1
+    "example_count": 2
   }
 }

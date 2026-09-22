@@ -3,9 +3,7 @@
   "title": "terrarav appears in examples but has no matching entry",
   "status": "Applied locally",
   "summary": "Added Terrarav: Pull of one's homeland / Yearning for home.",
-  "followups": [
-    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-  ],
+  "followups": [],
   "user_response": {
     "id": "F086",
     "status": "edited",
@@ -48,8 +46,8 @@
       "canon_status": "Canon",
       "approval_batch": "Dictionary Review 1",
       "notes": "User-approved restoration of existing example vocabulary; ED-0037 F086. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
-      "related_entry_ids": "PE-S3-0018"
+      "related_entry_ids": "PE-S3-0018; PE-DR2-0016"
     },
-    "example_count": 1
+    "example_count": 2
   }
 }

@@ -3,9 +3,7 @@
   "title": "zhivor appears in examples but has no matching entry",
   "status": "Applied locally",
   "summary": "Added Zhivor: Family line / Ancestral household / Kin group. Word-specific derivation confirmed under ED-0039.",
-  "followups": [
-    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-  ],
+  "followups": [],
   "user_response": {
     "id": "F056",
     "status": "edited",
@@ -48,9 +46,9 @@
       "canon_status": "Canon",
       "approval_batch": "Dictionary Review 1",
       "notes": "User-approved restoration of existing example vocabulary; ED-0037 F056. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added. ED-0039: user-confirmed word-specific derivation; no automatic productive root or suffix expansion.",
-      "related_entry_ids": "PE-V2-0036"
+      "related_entry_ids": "PE-V2-0036; PE-DR2-0004"
     },
-    "example_count": 1
+    "example_count": 2
   },
   "confirmed_derivation": "Zhir lineage or thread through time + Vor place of bond or active role; the approved historical smoothing of this word yields Zhivor."
 }

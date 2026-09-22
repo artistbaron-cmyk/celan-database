@@ -13,15 +13,15 @@ All 99 review decisions have been processed and their approved changes applied l
 
 Dictionary integration, search/data consistency, and expression checks passed. The final phrase-generator check confirms the personal -ya suffix. Browser visual testing remains unavailable because the browser tool blocked local-file access.
 
-The normal expansion validator reports **17 missing second examples**. This check is not reported as passing. The approved definitions are present; no extra illustrative sentences were invented to satisfy a count.
+The ordinary expansion coverage requirement is now met: each restored entry has at least two linked examples.
 
 ## Remaining follow-ups
 
-**Second reviewed examples:** Velkrel, Varan, Serathrin, Zhivor, Em, Varin, Nkathal, Vrak, Varshel, Noraen, Thalesh, Thalor, Karjor, Kavel, Khumrel, Terrarav, Zhirrathor.
+**Second reviewed examples:** All 17 added; see [sentences and translations](second_examples.md).
 
 **Derivations:** All 17 confirmed under ED-0039. Serilin remains the dedicated word for sister/female sibling. See [the exact records](integration/confirmed_derivations.json).
 
-**Standalone lookup entries not added:** Shalilaen and Welaen appear in the approved F048 sentences, but separate entries have not been approved.
+**Standalone lookup follow-up:** Closed at the user’s request; no new entries for Shalilaen or Welaen.
 
 ## Every flag
 
@@ -313,7 +313,6 @@ Applied the user’s 50 exact example replacements; retained PE-UHEI1-0035 uncha
 
 [Exact record](F048_applied.json)
 
-Follow-up: Shalilaen and Welaen occur in the approved replacements but have no standalone dictionary entries. No new headwords were added.
 
 ### F049 — Two-verb sentences use different orders
 
@@ -340,7 +339,6 @@ Added Velkrel: Breeze / Cool breeze / Light wind.
 [Exact record](integration/F052.json)
 
 
-Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
 ### F053 — varan appears in examples but has no matching entry
 
@@ -348,7 +346,6 @@ Added Varan as a locative-stative verb; -al remains the universal continuous suf
 
 [Exact record](integration/F053.json)
 
-Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
 ### F054 — shalil appears in examples but has no matching entry
 
@@ -363,7 +360,6 @@ Added Serathrin: Confidant / Trusted inner friend / Sworn ally.
 
 [Exact record](integration/F055.json)
 
-Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
 ### F056 — zhivor appears in examples but has no matching entry
 
@@ -372,7 +368,6 @@ Added Zhivor: Family line / Ancestral household / Kin group.
 [Exact record](integration/F056.json)
 
 
-Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
 ### F057 — tharvok appears in examples but has no matching entry
 
@@ -401,7 +396,6 @@ Added Em: Um / Uh (hesitation or thinking particle).
 [Exact record](integration/F060.json)
 
 
-Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
 ### F061 — varin appears in examples but has no matching entry
 
@@ -410,7 +404,6 @@ Added Varin: To know / To be aware of.
 [Exact record](integration/F061.json)
 
 
-Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
 ### F062 — shena appears in examples but has no matching entry
 
@@ -425,7 +418,6 @@ Added Nkathal: Sadness / Grief / Sorrow / Enduring emotional pain.
 
 [Exact record](integration/F063.json)
 
-Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
 ### F064 — thaar appears in examples but has no matching entry
 
@@ -440,7 +432,6 @@ Added Vrak: Gone / Missing / Depleted / Dry (Trerran dialect).
 [Exact record](integration/F065.json)
 
 
-Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
 ### F066 — theren appears in examples but has no matching entry
 
@@ -489,7 +480,6 @@ Added Varshel: Road / Travel path / Highway.
 [Exact record](integration/F072.json)
 
 
-Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
 ### F073 — eshvan appears in examples but has no matching entry
 
@@ -503,7 +493,6 @@ Added Noraen: To guide / To lead through time or experience / To instruct.
 
 [Exact record](integration/F074.json)
 
-Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
 ### F075 — thalesh appears in examples but has no matching entry
 
@@ -511,7 +500,6 @@ Added Thalesh: Ritual / Sacred balance ceremony.
 
 [Exact record](integration/F075.json)
 
-Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
 ### F076 — thalor appears in examples but has no matching entry
 
@@ -519,7 +507,6 @@ Added Thalor: Outside / Exterior / Outer place.
 
 [Exact record](integration/F076.json)
 
-Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
 ### F077 — tharvinwek appears in examples but has no matching entry
 
@@ -552,7 +539,6 @@ Added Karjor: Impact / Mechanical surge / Strike force / Burst of energy.
 
 [Exact record](integration/F081.json)
 
-Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
 ### F082 — kavel appears in examples but has no matching entry
 
@@ -560,7 +546,6 @@ Added Kavel: Forgetfulness / Memory gap / Loss of awareness.
 
 [Exact record](integration/F082.json)
 
-Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
 ### F083 — vorkaral appears in examples but has no matching entry
 
@@ -582,7 +567,6 @@ Added Khumrel: Compassion / Empathetic listening / Circle of care.
 [Exact record](integration/F085.json)
 
 
-Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
 ### F086 — terrarav appears in examples but has no matching entry
 
@@ -590,7 +574,6 @@ Added Terrarav: Pull of one's homeland / Yearning for home.
 
 [Exact record](integration/F086.json)
 
-Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
 ### F087 — zhirrathor appears in examples but has no matching entry
 
@@ -598,7 +581,6 @@ Added Zhirrathor: Thread to the past / Historical continuity / Lineage link.
 
 [Exact record](integration/F087.json)
 
-Follow-up: This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check.
 
 ### F088 — Elan shows its English definition as a Celan sentence
 
@@ -671,3 +653,7 @@ Related words are drawn from meaningful roots, with shared affixes separated.
 Explained combined root headings so readers do not mistake them for words to write.
 
 [Exact record](integration/F099.json)
+
+## Older example requiring correction
+
+An older Kavel example (PE-EGE1-0019) still translates kavel as “while,” although its approved meaning is memory gap/forgetfulness. The new example uses the approved meaning. The older sentence is unchanged and needs separate correction.

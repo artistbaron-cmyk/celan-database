@@ -63,6 +63,11 @@ if resolutions:
         outcomes = json.loads((ROOT / 'integration/outcomes.json').read_text())
         if not outcomes.get('derivations_pending'):
             panel = panel.replace('17 derivations remain unverified.', 'all 17 word derivations are now confirmed, including Serilin as sister/female sibling.')
+        if not outcomes.get('second_examples_needed'):
+            panel = panel.replace('17 restored words need a second reviewed example;', 'all 17 second examples are now added;')
+            panel = panel.replace('Shalilaen and Welaen still have no separately approved standalone entries.', 'The standalone-entry follow-up is closed at your request.')
+            panel = panel.replace('Read the completion report and exact follow-up lists', 'Read the completion report')
+            panel = panel.replace('</section>', '<p><a href="second_examples.md">Read all 17 new sentences and translations</a></p></section>')
         page = page.replace('<div class="controls">', panel + '<div class="controls">', 1)
         md = [line.replace('No dictionary content was changed during this review. Suggested decisions below are proposals, not applied corrections.', 'The original suggestions are preserved as audit history. Consult the applied record for each flag and completion.md for remaining follow-ups.') for line in md]
 review_data = json.dumps({'revision': hashlib.sha256((ROOT / 'flags.json').read_bytes()).hexdigest(), 'flags': flags, 'resolutions': resolutions}, ensure_ascii=False).replace('<', '\\u003c')

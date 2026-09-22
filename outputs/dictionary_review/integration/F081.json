@@ -3,9 +3,7 @@
   "title": "karjor appears in examples but has no matching entry",
   "status": "Applied locally",
   "summary": "Added Karjor: Impact / Mechanical surge / Strike force / Burst of energy.",
-  "followups": [
-    "This restored word has one existing reviewed example. A second reviewed example is still needed for the normal expansion coverage check."
-  ],
+  "followups": [],
   "user_response": {
     "id": "F081",
     "status": "edited",
@@ -48,8 +46,8 @@
       "canon_status": "Canon",
       "approval_batch": "Dictionary Review 1",
       "notes": "User-approved restoration of existing example vocabulary; ED-0037 F081. Uses existing reviewed attestations; no unapproved illustrative sentences or productive roots added.",
-      "related_entry_ids": "PE-HTS1-0061"
+      "related_entry_ids": "PE-HTS1-0061; PE-DR2-0013"
     },
-    "example_count": 1
+    "example_count": 2
   }
 }
