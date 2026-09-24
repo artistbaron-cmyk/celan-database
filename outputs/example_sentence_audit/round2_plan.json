@@ -1,0 +1,2238 @@
+{
+  "SENSE-PE-EGE1-0045": {
+    "kind": "translation",
+    "records": [
+      "PE-EGE1-0045"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "jor ohmshal nor fel rinaen welnali.",
+        "The ecosystem surges [destabilizes in a surge] when the population is small."
+      ]
+    ],
+    "notes": "Celan: jor ohmshal nor fel rinaen welnali.\nRevised Translation: \"The ecosystem surges [destabilizes in a surge] when the population is small.\""
+  },
+  "SENSE-PE-EGE1-0059": {
+    "kind": "translation",
+    "records": [
+      "PE-EGE1-0059"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "rinaen terramav an verd; jor mavverd an sov.",
+        "Environmental degradation affects plant life; plant blight surges through the field."
+      ]
+    ],
+    "notes": "Celan: rinaen terramav an verd; jor mavverd an sov.\nRevised Translation: \"Environmental degradation affects plant life; plant blight surges through the field.\"\n"
+  },
+  "SENSE-PE-EGE1-0062": {
+    "kind": "translation",
+    "records": [
+      "PE-EGE1-0062"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "var welgorm shan drenfel; jor pelnor an terramahr.",
+        "Pollution moves through the stream; erosion surges along the coast."
+      ]
+    ],
+    "notes": "Celan: var welgorm shan drenfel; jor pelnor an terramahr.\nRevised Translation: \"Pollution moves through the stream; erosion surges along the coast.\""
+  },
+  "SENSE-PE-EGE1-0063": {
+    "kind": "translation",
+    "records": [
+      "PE-EGE1-0063"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "pel pelnor nalior; jor xilnalior.",
+        "Erosion cuts the habitat; fragmentation surges."
+      ]
+    ],
+    "notes": "Celan: pel pelnor nalior; jor xilnalior.\nRevised Translation: \"Erosion cuts the habitat; fragmentation surges.\"\n"
+  },
+  "SENSE-PE-EGE1-0006": {
+    "kind": "translation",
+    "records": [
+      "PE-EGE1-0006"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "wel dren shan shanmorl an selmor.",
+        "Water flows continuously through the canyon into the plain."
+      ]
+    ],
+    "notes": "Celan: wel dren shan shanmorl an selmor.\nRevised Translation: \"Water flows continuously through the canyon into the plain.\""
+  },
+  "SENSE-PE-EGE1-0011": {
+    "kind": "translation",
+    "records": [
+      "PE-EGE1-0011"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "wel dren thal velkmorl var terramahr.",
+        "Water flows continuously from the glacier toward the coast."
+      ]
+    ],
+    "notes": "Celan: wel dren thal velkmorl var terramahr.\nRevised Translation: \"Water flows continuously from the glacier toward the coast.\"\n"
+  },
+  "SENSE-PE-EGE1-0012": {
+    "kind": "translation",
+    "records": [
+      "PE-EGE1-0012"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "wel drenfel var terramahr.",
+        "The stream flows continuously toward the coast."
+      ]
+    ],
+    "notes": "Celan: wel drenfel var terramahr.\nRevised Translation: \"The stream flows continuously toward the coast.\"\n"
+  },
+  "SENSE-PE-EGE1-0013": {
+    "kind": "translation",
+    "records": [
+      "PE-EGE1-0013"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "wel drenfel an fellun.",
+        "The stream flows continuously into the pond."
+      ]
+    ],
+    "notes": "Celan: wel drenfel an fellun.\nRevised Translation: \"The stream flows continuously into the pond.\""
+  },
+  "FORM-PE-V1-0013": {
+    "kind": "form",
+    "records": [
+      "PE-V1-0013"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "moraen kadron-azon thal nor.",
+        "The man of balanced masculine and feminine qualities stands in harmony with time."
+      ]
+    ],
+    "notes": "Action: Replace the isolated fragment with your approved complete sentence, corrected for Celan grammar (strict VSO, sentence-initial lowercase, moraen for \"stands\"):\nCelan: moraen kadron-azon thal nor.\nTranslation: \"The man of balanced masculine and feminine qualities stands in harmony with time.\""
+  },
+  "FORM-PE-V1-0014": {
+    "kind": "form",
+    "records": [
+      "PE-V1-0014"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "shalaen I azron-theon.",
+        "I see the woman who embodies neutrality and balance."
+      ]
+    ],
+    "notes": "ction: Replace the isolated fragment with your approved complete sentence, corrected for Celan grammar (shalaen takes a direct object without preposition an; sentence-initial lowercase):\nCelan: shalaen I azron-theon.\nTranslation: \"I see the woman who embodies neutrality and balance.\""
+  },
+  "FORM-PE-V3-0200": {
+    "kind": "form",
+    "records": [
+      "PE-V3-0200"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "nakaen del sivvok.",
+        "Two teams compete."
+      ]
+    ],
+    "notes": "Action: Move to Number System.\nDirect Base Sentence for Del (Two):\nnakaen del sivvok. (\"Two teams compete.\" "
+  },
+  "FORM-PE-V3-0201": {
+    "kind": "form",
+    "records": [
+      "PE-V3-0201"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "var tren serin an dren.",
+        "Three friends go to the water."
+      ]
+    ],
+    "notes": "Action: Move to Number System.\nDirect Base Sentence for Tren (Three):\nvar Ilin an tren kinn. (\"We go in three days.\""
+  },
+  "FORM-PE-V3-0202": {
+    "kind": "form",
+    "records": [
+      "PE-V3-0202"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "rinaen quen serin an teremil.",
+        "There are four friends at home."
+      ]
+    ],
+    "notes": "Action: Move to Number System.\nDirect Base Sentence for Quen (Four):\nrinaen quen serin an teremil. (\"There are four friends at home.\")\n"
+  },
+  "FORM-PE-V3-0206": {
+    "kind": "form",
+    "records": [
+      "PE-V3-0206"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "ver aen I unar kelka.",
+        "I do not speak one word."
+      ]
+    ],
+    "notes": "Action: Move to Number System.\nDirect Base Sentence for Unar (One):\nver aen I unar kelka. (\"I do not speak one word.\" "
+  },
+  "FORM-PE-V3-0207": {
+    "kind": "form",
+    "records": [
+      "PE-V3-0207"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "rinaen quen trakor an xaror.",
+        "There are four boots in the room."
+      ]
+    ],
+    "notes": "Action: Move to Number System.\nDirect Base Sentence for Quen (Four):\nrinaen quen trakor an xaror. (\"There are four boots in the room.\")"
+  },
+  "FORM-PE-V3-0209": {
+    "kind": "form",
+    "records": [
+      "PE-V3-0209"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "ver aen I unar kelka.",
+        "I do not speak one word."
+      ]
+    ],
+    "notes": "Classification: Number / Math Scale Formula.\nAction: Relabel as Number System / Scaled Form. Remove from sentence examples.\nDirect VSO Sentence for Unar (One):\nver aen I unar kelka. (\"I do not speak one word.\" — LX-V4-0071)"
+  },
+  "FORM-PE-V3-0210": {
+    "kind": "form",
+    "records": [
+      "PE-V3-0210"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "rinaen quen serin an teremil.",
+        "There are four friends at home."
+      ]
+    ],
+    "notes": "Classification: Number / Math Scale Formula.\nAction: Relabel as Number System / Scaled Form. Remove from sentence examples.\nDirect VSO Sentence for Quen (Four):\nrinaen quen serin an teremil. (\"There are four friends at home.\")\n"
+  },
+  "FORM-PE-V3-0212": {
+    "kind": "form",
+    "records": [
+      "PE-V3-0212"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "rinaen unar shalkor an xaror.",
+        "There is one lamp in the room."
+      ]
+    ],
+    "notes": "Classification: Number / Math Scale Formula.\nAction: Relabel as Number System / Scaled Form. Remove from sentence examples.\nDirect VSO Sentence for Unar (One):\nrinaen unar shalkor an xaror. (\"There is one lamp in the room.\")"
+  },
+  "FORM-PE-V3-0213": {
+    "kind": "form",
+    "records": [
+      "PE-V3-0213"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "tal I peth shen morlak.",
+        "I give five measures of grain."
+      ]
+    ],
+    "notes": "Classification: Number / Math Scale Formula.\nAction: Relabel as Number System / Scaled Form. Remove from sentence examples.\nDirect VSO Sentence for Peth (Five):\ntal I peth shen morlak. (\"I give five measures of grain.\" — LX-V4-0085)\n"
+  },
+  "FORM-PE-V3-0214": {
+    "kind": "form",
+    "records": [
+      "PE-V3-0214"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "dar unar morthera an vorkor.",
+        "One pack beast waits at the gate."
+      ]
+    ],
+    "notes": "Classification: Number / Math Scale Formula.\nAction: Relabel as Number System / Scaled Form. Remove from sentence examples.\nDirect VSO Sentence for Unar (One):\ndar unar morthera an vorkor. (\"One pack beast waits at the gate.\")"
+  },
+  "FORM-PE-S1-0003": {
+    "kind": "form",
+    "records": [
+      "PE-S1-0003"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "rinaen vok an belvok.",
+        "There is a bond in the family."
+      ]
+    ],
+    "notes": "Classification: Compounding / Euphony Formula.\nAction: Relabel as Compound Derivation Formula under grammar rule GR-S1-0001 (Euphony). Remove from sentence examples.\nDirect VSO Sentence for Vok (Noun: Unity/Bond):\nrinaen vok an belvok. (\"There is a bond in the family.\")"
+  },
+  "FORM-PE-S1-0004": {
+    "kind": "form",
+    "records": [
+      "PE-S1-0004"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "arth Ilin vok ser vaar.",
+        "We protect the bond with peace."
+      ]
+    ],
+    "notes": "PE-S1-0004 (Vok + Nor -> Voknor / Vokanor / Vokonor)\nClassification: Phonological Alternation Formula.\nAction: Relabel as Compound Derivation Formula under grammar rule GR-S1-0001 (Advanced Euphony). Remove from sentence examples.\nDirect VSO Sentence for Vok (Noun: Unity/Bond):\narth Ilin vok ser vaar. (\"We protect the bond with peace.\")\n"
+  },
+  "FORM-PE-S1-0007": {
+    "kind": "form",
+    "records": [
+      "PE-S1-0007"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "lorin belshara Ilin shan vethor.",
+        "Duty guides us through the shadow."
+      ]
+    ],
+    "notes": "Classification: Headword Citation / Dictionary Header.\nAction: Relabel as Headword Citation Form. Remove from sentence examples.\nDirect VSO Sentence for Belshara (Noun: Duty / Bound Path):\nlorin Ilin belshara an vethor. (\"Duty guides us through the shadow.\""
+  },
+  "TEACH-PE-S1-0009": {
+    "kind": "form",
+    "records": [
+      "PE-S1-0009"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "ohmaen Ya kalvok-en.",
+        "You love your bonded partner."
+      ],
+      [
+        "vethoraen kalrath an morl.",
+        "The apex predator sleeps in the mountains."
+      ],
+      [
+        "var I rethlian.",
+        "I might go."
+      ]
+    ],
+    "notes": "Classification: Teaching Word List / Phonology Illustration.\nAction: Move to the Teaching Notes / Phonology Section. Unlink completely from the sentence examples of all three headwords.\nDirect VSO Sentence for Kalvok (Spouse / Partner):\nohmaen Ya kalvok-en. (\"You love your bonded partner.\" — LX-V3-0092)\nDirect VSO Sentence for Kalrath (Apex Predator):\nvethoraen kalrath an morl. (\"The apex predator sleeps in the mountains.\" — LX-V4-0060)\nDirect VSO Sentence for Rethlian (Modal: Might / May):\nvar I rethlian. (\"I might go.\" — LX-V3-0019)\n"
+  },
+  "FORM-PE-S1-0010": {
+    "kind": "form",
+    "records": [
+      "PE-S1-0010"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "lorin belthal Ilin.",
+        "Order guides us."
+      ]
+    ],
+    "notes": "PE-S1-0010 (Belthal — \"Order\")\nClassification: Headword Citation / Dictionary Header.\nAction: Relabel as Headword Citation Form. Remove from sentence examples.\nDirect VSO Sentence for Belthal (Noun: Order / Woven Balance):\nlorin belthal Ilin. (\"Order guides us.\""
+  },
+  "FORM-PE-S1-0011": {
+    "kind": "form",
+    "records": [
+      "PE-S1-0011"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "fahaen I rethvok.",
+        "I fear chaos."
+      ]
+    ],
+    "notes": "Classification: Single-word citation.\nAction: Relabel as Word Form / Citation under Rethvok.\nDirect VSO Sentence:\nfahaen I rethvok. (\"I fear chaos.\"\n"
+  },
+  "FORM-PE-S3-0001": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0001"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "rathaen lalin fah.",
+        "They hate the darkness."
+      ]
+    ],
+    "notes": "Classification: Inverted metaphorical fragment.\nAction: Relabel as Conceptual Metaphor under Fah.\nDirect VSO Sentence:\nrathaen lalin fah. (\"They hate the darkness.\""
+  },
+  "FORM-PE-S3-0002": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0002"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "var gavral an morl.",
+        "The hunter goes to the mountain."
+      ]
+    ],
+    "notes": "Classification: Subjectless infinitive idiom.\nAction: Relabel as Idiomatic Phrase under Pralaen and Morl.\nDirect VSO Sentence:\nvar gavral an morl. (\"The hunter goes to the mountain.\" "
+  },
+  "FORM-PE-S3-0005": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0005"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "tal theon thal an Ilin.",
+        "The neutral person gives balance to us."
+      ]
+    ],
+    "notes": "Classification: Subjectless infinitive idiom.\nAction: Relabel as Idiomatic Phrase under Talaen and Thal.\nDirect VSO Sentence:\ntheon dren kal thal. (\"The neutral person brings strength and balance.\" "
+  },
+  "FORM-PE-S3-0006": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0006"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "ver var I an dren.",
+        "I do not go to the water."
+      ]
+    ],
+    "notes": "Classification: Negative particle fragment.\nAction: Relabel as Philosophical Note under Thal and Reth.\nDirect VSO Sentence:\nver var I an dren. (\"I do not go to the water.\")\n"
+  },
+  "FORM-PE-S3-0007": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0007"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "fahaen ser rethvok.",
+        "The friend fears chaos."
+      ]
+    ],
+    "notes": "Classification: Noun phrase fragment.\nAction: Relabel as Metaphorical Phrase under Thar and Rethvok.\nDirect VSO Sentence:\nfahaen ser rethvok. (\"The friend fears chaos.\")"
+  },
+  "FORM-PE-S3-0008": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0008"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "ver rinaen ravohm nor neth.",
+        "There is no loneliness during the rest."
+      ]
+    ],
+    "notes": "Classification: Prepositional fragment.\nAction: Relabel as Philosophical Phrase under Nor.\nDirect VSO Sentence:\nver rinaen ravohm nor neth. (\"There is no loneliness during the rest.\" "
+  },
+  "FORM-PE-S3-0009": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0009"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "shalaen I rin an ser.",
+        "I see the essence in the friend."
+      ]
+    ],
+    "notes": "Classification: Subjectless infinitive idiom.\nAction: Relabel as Idiomatic Phrase under Shalaen and Rin.\nDirect VSO Sentence:\nshalaen I rin an ser. (\"I see the essence in the friend.\")\n"
+  },
+  "FORM-PE-S3-0010": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0010"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "bel mekral zhelvorkor ser zhelpel.",
+        "The technician connects the switch to the terminal."
+      ]
+    ],
+    "notes": "Classification: Suffixed grammatical form (-esh).\nAction: Relabel as Inflected / Bound Form under Bel and -esh.\nDirect VSO Sentence:\nbel mekral zhelvorkor ser zhelpel. (\"The technician connects the switch to the terminal.\" "
+  },
+  "FORM-PE-S3-0011": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0011"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "rinaen ohm ser Ilin.",
+        "Connection is with us."
+      ]
+    ],
+    "notes": "PE-S3-0011 (talaen an ohm — \"to find connection\")\nClassification: Subjectless infinitive idiom.\nAction: Relabel as Idiomatic Phrase under Talaen and Ohm.\nDirect VSO Sentence:\nrinaen ohm ser Ilin. (\"Connection is with us.\")"
+  },
+  "FORM-PE-S3-0012": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0012"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "aen thar lian.",
+        "The heart speaks truth."
+      ]
+    ],
+    "notes": "PE-S3-0012 (thar an kaleth — \"a strong heart / courage\")\nClassification: Idiomatic Noun Phrase (Fragment).\nAction: Relabel as Idiomatic Metaphor under Thar. Remove from the primary sentence feed.\nDirect VSO Sentence for Thar:\naen thar lian. (\"The heart speaks truth.\" — LX-V2-0007)\n"
+  },
+  "FORM-PE-S3-0013": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0013"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "rinaen thar-ian vaareth.",
+        "My heart is peaceful."
+      ]
+    ],
+    "notes": "Classification: Idiomatic Noun Phrase (Fragment).\nAction: Relabel as Idiomatic Metaphor under Thar. Remove from the primary sentence feed.\nDirect VSO Sentence for Thar:\nrinaen thar-ian vaareth. (\"My heart is peaceful.\")\n"
+  },
+  "FORM-PE-S3-0014": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0014"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "var I an vaar.",
+        "I go in peace."
+      ]
+    ],
+    "notes": "Classification: Valid Sentence (needs capitalization & punctuation fix).\nAction: Keep as an Ordinary Sentence Example, but update text to strict grammar rules:\n var I an vaar. (sentence-initial lowercase, period at end)."
+  },
+  "FORM-PE-S3-0015": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0015"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "var I an shara.",
+        "I go on the path."
+      ]
+    ],
+    "notes": "Classification: Proverbial Infinitive (Fragment).\nAction: Relabel as Proverbial Phrase under Var and Shara. Remove from primary sentence feed.\nDirect VSO Sentence for Var:\nvar I an shara. (\"I go on the path.\")"
+  },
+  "FORM-PE-S3-0016": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0016"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "aen liorin lian.",
+        "The elder speaks truth."
+      ]
+    ],
+    "notes": "Classification: Traditional Title / Formula.\nAction: Relabel as Traditional Title under Dral and Aen. Remove from primary sentence feed.\nDirect VSO Sentence for Aen:\naen liorin lian. (\"The elder speaks truth.\" — LX-V2-0028)"
+  },
+  "FORM-PE-S3-0017": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0017"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "pralaen I shara.",
+        "I make a path."
+      ]
+    ],
+    "notes": "Classification: Proverbial Infinitive (Fragment).\nAction: Relabel as Proverbial Phrase under Pralaen and Shara. Remove from primary sentence feed.\nDirect VSO Sentence for Pralaen:\npralaen I shara. (\"I make a path.\")\n"
+  },
+  "FORM-PE-S3-0018": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0018"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "rinaen terrarav an thar-ian.",
+        "The pull of my homeland is in my heart."
+      ]
+    ],
+    "notes": "Classification: Single Compound Noun.\nAction: Relabel as Compound Form under Rav and Terra.\nDirect VSO Sentence using Terrarav:\nrinaen terrarav an thar-ian. (\"The pull of my homeland is in my heart.\")\n"
+  },
+  "FORM-PE-S3-0019": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0019"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "pralaen I khumrel an teremil.",
+        "I practice compassionate listening at home."
+      ]
+    ],
+    "notes": "Classification: Idiomatic Metaphor (Fragment).\nAction: Relabel as Idiomatic Phrase under Khumrel and Thar.\nDirect VSO Sentence using Khumrel:\npralaen I khumrel an teremil. (\"I practice compassionate listening at home.\")\n"
+  },
+  "FORM-PE-S3-0020": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0020"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "korinaen I zhirin.",
+        "I hold the rope/cord."
+      ]
+    ],
+    "notes": "Classification: Poetic Noun Phrase (Fragment).\nAction: Relabel as Poetic Phrase under Zhirin and Arthen.\nDirect VSO Sentence for Zhirin:\nkorinaen I zhirin. (\"I hold the rope/cord.\" \n"
+  },
+  "FORM-PE-S3-0021": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0021"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "shalaen I zhirrathor an liankavor.",
+        "I see the thread to the past in the archive."
+      ]
+    ],
+    "notes": "Classification: Single Compound Noun.\nAction: Relabel as Compound Form under Zhir and Rathor.\nDirect VSO Sentence using zhirrathor:\nshalaen I zhirrathor an liankavor. (\"I see the thread to the past in the archive.\")\n"
+  },
+  "FORM-PE-S3-0022": {
+    "kind": "form",
+    "records": [
+      "PE-S3-0022"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "ver aen I unar kelka.",
+        "I do not speak one word."
+      ]
+    ],
+    "notes": "Classification: Noun Phrase (Fragment).\nAction: Relabel as Noun Phrase under Kelka and Kalrin.\nDirect VSO Sentence for Kelka:\nver aen I unar kelka. (\"I do not speak one word.\" "
+  },
+  "FORM-PE-S4B-0005": {
+    "kind": "form",
+    "records": [
+      "PE-S4B-0005"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "moraen I an terra.",
+        "I stand on the ground."
+      ],
+      [
+        "rinaen Terra vaar.",
+        "The Earth is peaceful."
+      ]
+    ],
+    "notes": "Classification: Orthographic Reference Header.\nAction: Relabel as Capitalization Contrast Note under rule GR-S4B-0002. Remove completely from the sentence examples table.\nDirect VSO Sentences Showing the Contrast:\nMundane ground: moraen I an terra. (\"I stand on the ground.\" \nSacred entity: rinaen Terra vaar. (\"The Earth is peaceful.\""
+  },
+  "FORM-PE-S4B-0007": {
+    "kind": "form",
+    "records": [
+      "PE-S4B-0007"
+    ],
+    "headwords": [],
+    "examples": [
+      [
+        "rinaen rathor an liankavor.",
+        "History is preserved in the archive."
+      ],
+      [
+        "nkathalaen velar rathor.",
+        "The elder grieves for the past."
+      ]
+    ],
+    "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen rathor an liankavor. (LX-NE1-0032)\nTranslation: \"History is preserved in the archive.\"\nSentence 2 (Noun as Object):\nCelan: nkathalaen velar rathor. (LX-V3-0096)\nTranslation: \"The elder grieves for the past.\""
+  },
+  "LINK-kadron": {
+    "kind": "placement",
+    "records": [
+      "PE-V1-0013"
+    ],
+    "headwords": [
+      "Kadron"
+    ],
+    "examples": [
+      [
+        "krezaen kadron an varok.",
+        "The man rages at the command."
+      ],
+      [
+        "var kadron an morl.",
+        "The man goes to the mountain."
+      ]
+    ],
+    "notes": "Sentence 1 (Subject in VSO):\nCelan: krezaen kadron an varok. (LX-V3-0098)\nTranslation: \"The man rages at the command.\"\nSentence 2 (Subject in VSO):\nCelan: var kadron an morl. (PE-S4A-0001)\nTranslation: \"The man goes to the mountain.\""
+  },
+  "LINK-azron": {
+    "kind": "placement",
+    "records": [
+      "PE-V1-0014"
+    ],
+    "headwords": [
+      "Azron"
+    ],
+    "examples": [
+      [
+        "nethaen Azron an nethor.",
+        "The woman sits on the chair."
+      ]
+    ],
+    "notes": "Nethaen Azron an nethor = The woman sits on the chair."
+  },
+  "LINK-theon": {
+    "kind": "placement",
+    "records": [
+      "PE-V1-0014"
+    ],
+    "headwords": [
+      "Theon"
+    ],
+    "examples": [
+      [
+        "tal theon thal an Ilin.",
+        "The neutral person gives balance to us."
+      ]
+    ],
+    "notes": "Theon dren kal thal. = The neutral person brings strength and balance."
+  },
+  "LINK-azon": {
+    "kind": "placement",
+    "records": [
+      "PE-V1-0013"
+    ],
+    "headwords": [
+      "Azon"
+    ],
+    "examples": [
+      [
+        "nethaen azon an nethor.",
+        "The feminine man sits on the chair."
+      ]
+    ],
+    "notes": "Nethaen Azron an nethor. = The woman sits on the chair."
+  },
+  "LINK-ka": {
+    "kind": "placement",
+    "records": [
+      "PE-V1-0003",
+      "PE-V1-0005",
+      "PE-V2-0050"
+    ],
+    "headwords": [
+      "Ka"
+    ],
+    "examples": [
+      [
+        "var I ka shal.",
+        "I go without light."
+      ],
+      [
+        "ver var I ka trakor.",
+        "I do not go without shoes."
+      ],
+      [
+        "aen ser: \"ka.\"",
+        "The friend says: 'No.'"
+      ]
+    ],
+    "notes": ". Direct Example Sentences for Standalone Ka\nUsage 1 (Documented Part of Speech: PREPOSITION — Without):\nCelan: var I ka shal. (LX-V1-0018)\nTranslation: \"I go without light.\"\nUsage 2 (Documented Part of Speech: PREPOSITION — Without in Negative Context):\nCelan: ver var I ka trakor. (LX-V4-0039)\nTranslation: \"I do not go without shoes.\"\nUsage 3 (Documented Part of Speech: INTERJECTION — No):\nCelan: aen ser: \"ka.\"\nTranslation: \"The friend says: 'No.'\""
+  },
+  "LINK-nor": {
+    "kind": "placement",
+    "records": [
+      "PE-V1-0019",
+      "PE-V1-0029"
+    ],
+    "headwords": [
+      "Nor"
+    ],
+    "examples": [
+      [
+        "ver rinaen ravohm nor neth.",
+        "There is no loneliness during the rest."
+      ],
+      [
+        "lorin nor shara-ian.",
+        "Time guides my path."
+      ]
+    ],
+    "notes": "Usage 1 (Documented Part of Speech: PREPOSITION — At / in / during [time]):\nCelan: ver rinaen ravohm nor neth. \nTranslation: \"There is no loneliness during the rest.\"\nUsage 2 (Documented Part of Speech: NOUN — Time / The present flow):\nCelan: lorin nor shara-ian.\nTranslation: \"Time guides my path.\""
+  },
+  "LINK-thaal": {
+    "kind": "placement",
+    "records": [
+      "PE-DR1-0003",
+      "PE-DR1-0004"
+    ],
+    "headwords": [
+      "Thaal"
+    ],
+    "examples": [
+      [
+        "rinaen dren-ian shaleth thaal.",
+        "My water is the brightest."
+      ],
+      [
+        "fahaen ser thaal.",
+        "The friend fears the unknown."
+      ]
+    ],
+    "notes": "Sentence 1 (Superlative Particle):\nCelan: I dren shaleth thaal. (LX-V2-0025)\nGloss: I dren [my water] | shaleth [bright] | thaal [most].\nTranslation: \"My water is the brightest.\"\nSentence 2 (Noun as Object — The Unknown):\nCelan: fahaen ser thaal.\nGloss: fahaen [fears] | ser [friend] | thaal [the unknown].\nTranslation: \"The friend fears the unknown.\""
+  },
+  "LINK-vaar": {
+    "kind": "placement",
+    "records": [
+      "PE-V3-0069"
+    ],
+    "headwords": [
+      "Vaar"
+    ],
+    "examples": [
+      [
+        "var I an vaar.",
+        "I go in peace."
+      ],
+      [
+        "tal Ilin talrin ser vaar.",
+        "We give an offering with peace."
+      ]
+    ],
+    "notes": "Sentence 1 (Noun in Prepositional Phrase):\nCelan: var I an vaar. (LX-V1-0015)\nGloss: var [go] | I [I] | an vaar [in peace].\nTranslation: \"I go in peace.\"\nSentence 2 (Noun in Prepositional Phrase):\nCelan: tal Ilin talrin ser vaar. (LX-V2-0037)\nGloss: tal [give] | Ilin [we] | talrin [offering] | ser vaar [with peace].\nTranslation: \"We give an offering with peace.\""
+  },
+  "LINK-li-seren": {
+    "kind": "placement",
+    "records": [
+      "PE-V3-0005"
+    ],
+    "headwords": [
+      "Li-Seren"
+    ],
+    "examples": [
+      [
+        "arth Li-Seren kaleth.",
+        "The Respected Guardian defends the fortress."
+      ],
+      [
+        "var Li-Seren an Varthas.",
+        "The Respected Guardian goes to the city."
+      ]
+    ],
+    "notes": "entence 1 (Noun as Subject):\nCelan: arth Li-Seren kaleth.\nGloss: arth [defends] | Li-Seren [Respected Guardian] | kaleth [fortress].\nTranslation: \"The Respected Guardian defends the fortress.\"\nSentence 2 (Noun as Subject):\nCelan: var Li-Seren an Varthas.\nGloss: var [goes] | Li-Seren [Respected Guardian] | an Varthas [to city].\nTranslation: \"The Respected Guardian goes to the city.\""
+  },
+  "LINK-unar": {
+    "kind": "placement",
+    "records": [
+      "PE-V3-0206",
+      "PE-V3-0209",
+      "PE-V3-0212",
+      "PE-V3-0214"
+    ],
+    "headwords": [
+      "Unar"
+    ],
+    "examples": [
+      [
+        "ver aen I unar kelka.",
+        "I do not speak one word."
+      ]
+    ],
+    "notes": "Ver aen I unar kelka. (\"I do not speak one word.\" "
+  },
+  "LINK-del": {
+    "kind": "placement",
+    "records": [
+      "PE-V3-0200",
+      "PE-V3-0204",
+      "PE-V3-0216",
+      "PE-V4-0084"
+    ],
+    "headwords": [
+      "Del"
+    ],
+    "examples": [
+      [
+        "nakaen del sivvok.",
+        "Two teams compete."
+      ]
+    ],
+    "notes": "Nakaen del sivvok. (\"Two teams compete.\" "
+  },
+  "LINK-tren": {
+    "kind": "placement",
+    "records": [
+      "PE-V3-0201"
+    ],
+    "headwords": [
+      "Tren"
+    ],
+    "examples": [
+      [
+        "var tren serin an dren.",
+        "Three friends go to the water."
+      ]
+    ],
+    "notes": "Var Ilin an tren kinn. (\"We go in three days.\" "
+  },
+  "LINK-quen": {
+    "kind": "placement",
+    "records": [
+      "PE-V3-0202",
+      "PE-V3-0205",
+      "PE-V3-0207",
+      "PE-V3-0208",
+      "PE-V3-0210"
+    ],
+    "headwords": [
+      "Quen"
+    ],
+    "examples": [
+      [
+        "rinaen quen serin an teremil.",
+        "There are four friends at home."
+      ]
+    ],
+    "notes": "Rinaen quen serin an teremil. (\"There are four friends at home.\")"
+  },
+  "LINK-peth": {
+    "kind": "placement",
+    "records": [
+      "PE-V3-0213",
+      "PE-V3-0219"
+    ],
+    "headwords": [
+      "Peth"
+    ],
+    "examples": [
+      [
+        "tal I peth shen morlak.",
+        "I give five measures of grain."
+      ]
+    ],
+    "notes": "Tal I peth shen morlak. (\"I give five measures of grain.\" "
+  },
+  "LINK-oven": {
+    "kind": "placement",
+    "records": [
+      "PE-V3-0208",
+      "PE-V3-0211"
+    ],
+    "headwords": [
+      "Oven"
+    ],
+    "examples": [
+      [
+        "rinaen oven morthera an shara.",
+        "There are eight pack beasts on the path."
+      ]
+    ],
+    "notes": "inaen oven morthera an shara. (\"There are eight pack beasts on the path.\")"
+  },
+  "LINK-shen": {
+    "kind": "placement",
+    "records": [
+      "PE-V2-0050"
+    ],
+    "headwords": [
+      "Shen"
+    ],
+    "examples": [
+      [
+        "tal I shen an varadan.",
+        "I give currency to the merchant."
+      ],
+      [
+        "tal I peth shen morlak.",
+        "I give five measures of grain."
+      ]
+    ],
+    "notes": "Sentence 1 (Noun as Object — Currency):\nCelan: tal I shen an varadan.\nTranslation: \"I give currency to the merchant.\"\nSentence 2 (Measure Unit — Measure of weight/volume):\nCelan: tal I peth shen morlak. (LX-V4-0085)\nTranslation: \"I give five measures of grain.\""
+  },
+  "LINK-pral": {
+    "kind": "placement",
+    "records": [
+      "PE-V2-0017"
+    ],
+    "headwords": [
+      "Pral"
+    ],
+    "examples": [
+      [
+        "rinaen pral an arthaxar.",
+        "There is detail in the armor."
+      ],
+      [
+        "kes I pral an kareth.",
+        "I notice detail on the hammer."
+      ]
+    ],
+    "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen pral an arthaxar.\nTranslation: \"There is detail in the armor.\"\nSentence 2 (Noun as Object):\nCelan: kes I pral an kareth.\nTranslation: \"I notice detail on the hammer.\""
+  },
+  "LINK-rin": {
+    "kind": "placement",
+    "records": [
+      "PE-V4-0096"
+    ],
+    "headwords": [
+      "Rin"
+    ],
+    "examples": [
+      [
+        "shalaen I rin an ser.",
+        "I see the essence in the friend."
+      ],
+      [
+        "lorin rin thar-ian.",
+        "Essence guides my heart."
+      ]
+    ],
+    "notes": "Sentence 1 (Noun as Object):\nCelan: shalaen I rin an ser.\nTranslation: \"I see the essence in the friend.\"\nSentence 2 (Noun as Subject):\nCelan: lorin rin thar-ian.\nTranslation: \"Essence guides my heart.\""
+  },
+  "LINK-bel": {
+    "kind": "placement",
+    "records": [
+      "PE-V2-0008",
+      "PE-V2-0009"
+    ],
+    "headwords": [
+      "Bel"
+    ],
+    "examples": [
+      [
+        "bel mekral zhelvorkor ser zhelpel.",
+        "The technician connects the switch to the terminal."
+      ],
+      [
+        "bel mekral arthzhelshara ser morzhelshan.",
+        "The technician connects the circuit protector to the electrical ground."
+      ]
+    ],
+    "notes": "Sentence 1 (Verb in VSO):\nCelan: bel mekral zhelvorkor ser zhelpel. (LX-ICAES1-0043)\nTranslation: \"The technician connects the switch to the terminal.\"\nSentence 2 (Verb in VSO):\nCelan: bel mekral arthzhelshara ser morzhelshan. (LX-ICAES1-0053)\nTranslation: \"The technician connects the circuit protector to the electrical ground.\"\n"
+  },
+  "LINK-veth": {
+    "kind": "placement",
+    "records": [
+      "PE-V3-0067"
+    ],
+    "headwords": [
+      "Veth"
+    ],
+    "examples": [
+      [
+        "tlamoraen Lako nor veth.",
+        "They two have sex at night."
+      ],
+      [
+        "rinaen veth morl verdmarin.",
+        "There is shade beneath the tree."
+      ]
+    ],
+    "notes": "Sentence 1 (Noun in Temporal Phrase):\nCelan: tlamoraen Lako nor veth. \nTranslation: \"They two have sex at night.\"\nSentence 2 (Noun as Subject):\nCelan: rinaen veth morl verdmarin.\nTranslation: \"There is shade beneath the tree.\"\n"
+  },
+  "LINK-jor": {
+    "kind": "placement",
+    "records": [
+      "PE-V2-0018",
+      "PE-V2-0019"
+    ],
+    "headwords": [
+      "Jor"
+    ],
+    "examples": [
+      [
+        "rinaen jor an mahrwel.",
+        "There is a surge in the current."
+      ],
+      [
+        "kes I jor an dralorim.",
+        "I notice a burst in the storm."
+      ]
+    ],
+    "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen jor an mahrwel.\nTranslation: \"There is a surge in the current.\"\nSentence 2 (Noun as Object):\nCelan: kes I jor an dralorim.\nTranslation: \"I notice a burst in the storm.\""
+  },
+  "LINK-jek": {
+    "kind": "placement",
+    "records": [
+      "PE-V2-0020"
+    ],
+    "headwords": [
+      "Jek"
+    ],
+    "examples": [
+      [
+        "rinaen jek an neshmorl.",
+        "There is a spiral in the coral."
+      ],
+      [
+        "kes I jek an zhirin.",
+        "I notice a twist in the cord."
+      ]
+    ],
+    "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen jek an neshmorl.\nTranslation: \"There is a spiral in the coral.\"\nSentence 2 (Noun as Object):\nCelan: kes I jek an zhirin.\nTranslation: \"I notice a twist in the cord.\"\n"
+  },
+  "LINK-wek": {
+    "kind": "placement",
+    "records": [
+      "PE-V2-0025",
+      "PE-CNE1-0064"
+    ],
+    "headwords": [
+      "Wek"
+    ],
+    "examples": [
+      [
+        "rinaen wek an eshnor.",
+        "There is a cycle in the weather."
+      ],
+      [
+        "sharaen Ilin wek an lun.",
+        "We follow the cycle of the moon."
+      ]
+    ],
+    "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen wek an eshnor.\nTranslation: \"There is a cycle in the weather.\"\nSentence 2 (Noun as Object):\nCelan: sharaen Ilin wek an lun.\nTranslation: \"We follow the cycle of the moon.\""
+  },
+  "LINK-wor": {
+    "kind": "placement",
+    "records": [
+      "PE-V2-0026"
+    ],
+    "headwords": [
+      "Wor"
+    ],
+    "examples": [
+      [
+        "rinaen wor an sov.",
+        "There is abundance in the field."
+      ],
+      [
+        "tal Terra wor an Ilin.",
+        "The Earth gives plenty to us."
+      ]
+    ],
+    "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen wor an sov.\nTranslation: \"There is abundance in the field.\"\nSentence 2 (Noun as Object):\nCelan: tal Terra wor an Ilin.\nTranslation: \"The Earth gives plenty to us.\""
+  },
+  "LINK-phel": {
+    "kind": "placement",
+    "records": [
+      "PE-V2-0013"
+    ],
+    "headwords": [
+      "Phel"
+    ],
+    "examples": [
+      [
+        "rinaen phel an xarphelor.",
+        "Warmth is in the insulated shelter."
+      ],
+      [
+        "tal krezor phel an Ilin.",
+        "The hearth gives warmth to us."
+      ]
+    ],
+    "notes": "entence 1 (Noun as Subject):\nCelan: rinaen phel an xarphelor. (LX-NE1-0022)\nTranslation: \"Warmth is in the insulated shelter.\"\nSentence 2 (Noun as Object):\nCelan: tal krezor phel an Ilin.\nTranslation: \"The hearth gives warmth to us.\""
+  },
+  "LINK-prak": {
+    "kind": "placement",
+    "records": [
+      "PE-V2-0014"
+    ],
+    "headwords": [
+      "Prak"
+    ],
+    "examples": [
+      [
+        "rinaen prak an belrin.",
+        "There is softness in the fabric."
+      ],
+      [
+        "kes I prak an rask.",
+        "I notice softness in the hide."
+      ]
+    ],
+    "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen prak an belrin.\nTranslation: \"There is softness in the fabric.\"\nSentence 2 (Noun as Object):\nCelan: kes I prak an rask.\nTranslation: \"I notice softness in the hide.\""
+  },
+  "LINK-bros": {
+    "kind": "placement",
+    "records": [
+      "PE-V2-0010"
+    ],
+    "headwords": [
+      "Bros"
+    ],
+    "examples": [
+      [
+        "rinaen bros an brosmorl.",
+        "There is a layer in the slate."
+      ],
+      [
+        "kes I bros an sadar.",
+        "I notice a stratum in the sand."
+      ]
+    ],
+    "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen bros an brosmorl.\nTranslation: \"There is a layer in the slate.\"\nSentence 2 (Noun as Object):\nCelan: kes I bros an sadar.\nTranslation: \"I notice a stratum in the sand.\""
+  },
+  "LINK-bal": {
+    "kind": "placement",
+    "records": [
+      "PE-V2-0011"
+    ],
+    "headwords": [
+      "Bal"
+    ],
+    "examples": [
+      [
+        "rinaen bal an verdsov.",
+        "There is growth in the garden."
+      ],
+      [
+        "kes balral bal an sov.",
+        "The farmer notices growth in the field."
+      ]
+    ],
+    "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen bal an verdsov.\nGloss: rinaen [is] | bal [growth] | an verdsov [in garden].\nTranslation: \"There is growth in the garden.\"\nSentence 2 (Noun as Object):\nCelan: kes balral bal an sov.\nGloss: kes [notices] | balral [farmer] | bal [growth] | an sov [in field].\nTranslation: \"The farmer notices growth in the field.\""
+  },
+  "LINK-bren": {
+    "kind": "placement",
+    "records": [
+      "PE-V2-0012"
+    ],
+    "headwords": [
+      "Bren"
+    ],
+    "examples": [
+      [
+        "rinaen bren an sov.",
+        "The harvest is in the field."
+      ],
+      [
+        "vekaen morvek bren an varthas.",
+        "The wagon carries the harvest to the city."
+      ]
+    ],
+    "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen bren an sov.\nGloss: rinaen [is] | bren [harvest] | an sov [in field].\nTranslation: \"The harvest is in the field.\"\nSentence 2 (Noun as Object):\nCelan: vekaen morvek bren an varthas.\nGloss: vekaen [carries] | morvek [wagon] | bren [harvest] | an varthas [to city].\nTranslation: \"The wagon carries the harvest to the city.\"\n"
+  },
+  "LINK-jel": {
+    "kind": "placement",
+    "records": [
+      "PE-V2-0021"
+    ],
+    "headwords": [
+      "Jel"
+    ],
+    "examples": [
+      [
+        "rinaen jel an vilor.",
+        "There is flavor in the fruit."
+      ],
+      [
+        "dor I jel an venak.",
+        "I put zest in the stew."
+      ]
+    ],
+    "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen jel an vilor.\nGloss: rinaen [is] | jel [flavor/zest] | an vilor [in fruit].\nTranslation: \"There is flavor in the fruit.\"\nSentence 2 (Noun as Object):\nCelan: dor I jel an venak.\nGloss: dor [put] | I [I] | jel [zest] | an venak [in stew].\nTranslation: \"I put zest in the stew.\""
+  },
+  "LINK-wel": {
+    "kind": "placement",
+    "records": [
+      "PE-V2-0023",
+      "PE-V2-0024"
+    ],
+    "headwords": [
+      "Wel"
+    ],
+    "examples": [
+      [
+        "wel drenfel var terramahr.",
+        "The stream flows toward the coast."
+      ],
+      [
+        "wel zhirverd shan verdpel.",
+        "The vine spreads through the grass."
+      ]
+    ],
+    "notes": "Sentence 1 (Verb in VSO):\nCelan: wel drenfel var terramahr. (LX-EGE1-0013)\nGloss: wel [flows] | drenfel [stream] | var terramahr [toward coast].\nTranslation: \"The stream flows toward the coast.\"\nSentence 2 (Verb in VSO):\nCelan: wel zhirverd shan verdpel. (LX-EGE1-0038)\nGloss: wel [spreads/flows] | zhirverd [vine] | shan verdpel [through grass].\nTranslation: \"The vine spreads through the grass.\""
+  },
+  "LINK-xar": {
+    "kind": "placement",
+    "records": [
+      "PE-V2-0028"
+    ],
+    "headwords": [
+      "Xar"
+    ],
+    "examples": [
+      [
+        "rinaen xar esh mekor.",
+        "A cover is over the building."
+      ],
+      [
+        "dor seren xar an savin.",
+        "The guardian places a cover on the patient."
+      ]
+    ],
+    "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen xar esh mekor.\nGloss: rinaen [is] | xar [cover/shelter] | esh mekor [above building].\nTranslation: \"A cover is over the building.\"\nSentence 2 (Noun as Object):\nCelan: dor seren xar an savin.\nGloss: dor [places] | seren [guardian] | xar [cover] | an savin [on patient].\nTranslation: \"The guardian places a cover on the patient.\""
+  },
+  "LINK-xil": {
+    "kind": "placement",
+    "records": [
+      "PE-V2-0027"
+    ],
+    "headwords": [
+      "Xil"
+    ],
+    "examples": [
+      [
+        "rinaen xil an dresh.",
+        "There is a shard in the crystal."
+      ],
+      [
+        "kes I xil an morl.",
+        "I notice a shard in the stone."
+      ]
+    ],
+    "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen xil an dresh.\nGloss: rinaen [is] | xil [shard] | an dresh [in crystal].\nTranslation: \"There is a shard in the crystal.\"\nSentence 2 (Noun as Object):\nCelan: kes I xil an morl.\nGloss: kes [notice] | I [I] | xil [shard] | an morl [in stone].\nTranslation: \"I notice a shard in the stone.\"\n"
+  },
+  "LINK-nor-": {
+    "kind": "placement",
+    "records": [
+      "PE-S3-0008"
+    ],
+    "headwords": [
+      "Nor-"
+    ],
+    "examples": [
+      [
+        "nor-var I an dren.",
+        "I will go to the water."
+      ],
+      [
+        "nor-vethoraen Ilin an nethlor.",
+        "We will sleep on the beds."
+      ]
+    ],
+    "notes": "Nor-var I an dren. (\"I will go to the water.\")\nNor-vethoraen Ilin an nethlor. (\"We will sleep on the beds.\" "
+  },
+  "LINK-pel": {
+    "kind": "placement",
+    "records": [
+      "PE-V2-0015",
+      "PE-V2-0016"
+    ],
+    "headwords": [
+      "Pel"
+    ],
+    "examples": [
+      [
+        "rinaen pel an peleth.",
+        "There is sharpness in the blade."
+      ],
+      [
+        "kes I pel an kareth.",
+        "I notice the cutting edge on the tool."
+      ]
+    ],
+    "notes": "Rinaen pel an peleth. (\"There is sharpness in the blade.\")\nKes I pel an kareth. (\"I notice the cutting edge on the tool.\")"
+  },
+  "LINK-jin": {
+    "kind": "placement",
+    "records": [
+      "PE-V2-0022"
+    ],
+    "headwords": [
+      "Jin"
+    ],
+    "examples": [
+      [
+        "rinaen dresh jin an morl.",
+        "The crystal is rare in the mountain."
+      ],
+      [
+        "kes I emil jin an van.",
+        "I notice rare food in the market."
+      ]
+    ],
+    "notes": "Rinaen dresh jin an morl. (\"The crystal is rare in the mountain.\")\nKes I emil jin an van. (\"I notice rare food in the market.\")"
+  },
+  "LINK-rav-": {
+    "kind": "placement",
+    "records": [
+      "PE-S3-0018"
+    ],
+    "headwords": [
+      "Rav-"
+    ],
+    "examples": [
+      [
+        "rinaen rav kaleth an kalravor.",
+        "There is a strong pull in the gravity pocket."
+      ],
+      [
+        "kes I rav an thar-ian.",
+        "I feel the pull in my heart."
+      ]
+    ],
+    "notes": "Rinaen rav kaleth an kalravor. (\"There is a strong pull in the gravity pocket.\")\nKes I rav an thar-ian. (\"I feel the pull in my heart.\")\n"
+  },
+  "LINK-ohm-": {
+    "kind": "placement",
+    "records": [
+      "PE-S3-0011",
+      "PE-S4A-0003",
+      "PE-S4A-0005"
+    ],
+    "headwords": [
+      "Ohm-"
+    ],
+    "examples": [
+      [
+        "rinaen Ohm ser Ilin.",
+        "Connection is with us."
+      ],
+      [
+        "shalaen I ohm an belvok.",
+        "I see the connection in the family."
+      ]
+    ],
+    "notes": "Rinaen Ohm ser Ilin. (\"Connection is with us.\" \nShalaen I ohm an belvok. (\"I see the connection in the family.\")\n"
+  },
+  "LINK-khum-": {
+    "kind": "placement",
+    "records": [
+      "PE-S3-0019"
+    ],
+    "headwords": [
+      "Khum-"
+    ],
+    "examples": [
+      [
+        "var Ilin an khum.",
+        "We go to the listening circle."
+      ],
+      [
+        "rinaen khum an teremil.",
+        "There is reconciliation at home."
+      ]
+    ],
+    "notes": "Var Ilin an khum. (\"We go to the listening circle.\")\nRinaen khum an teremil. (\"There is reconciliation at home.\")\n"
+  },
+  "LINK--en": {
+    "kind": "placement",
+    "records": [
+      "OVERRIDE-800077fbe9a1"
+    ],
+    "headwords": [
+      "-en"
+    ],
+    "examples": [
+      [
+        "var Liorinen lianaen an shalor.",
+        "The Honored Elder goes to pray in the sanctuary."
+      ],
+      [
+        "ohmaen Ya Kalvok-en.",
+        "You love your bonded partner."
+      ],
+      [
+        "aen Li-Seren-en an Ilin.",
+        "The Respected Guardian speaks to us."
+      ]
+    ],
+    "notes": "Var Liorinen lianaen an shalor. (\"The Honored Elder goes to pray in the sanctuary.\" — LX-V3-0004)\nOhmaen Ya Kalvok-en. (\"You love your bonded partner.\" — LX-V3-0092)\nAen Li-Seren-en an Ilin. (\"The Respected Guardian speaks to us.\")\n\nOhmaen Ya Kalvok-en. (\"You love your bonded partner.\" — LX-V3-0092)\nAen Li-Seren-en an Ilin. (\"The Respected Guardian speaks to us.\")\n"
+  },
+  "LINK--aen": {
+    "kind": "placement",
+    "records": [
+      "OVERRIDE-c0f3cb0d926e",
+      "OVERRIDE-5fa075482c2b",
+      "OVERRIDE-15bcc5e60ea2"
+    ],
+    "headwords": [
+      "-aen"
+    ],
+    "examples": [
+      [
+        "shalaen I vethral an verdor.",
+        "I see the pack hunter in the forest."
+      ],
+      [
+        "pralaen I krezor.",
+        "I am making a hearth."
+      ],
+      [
+        "velaen Ilin morlak.",
+        "We eat the bread."
+      ]
+    ],
+    "notes": "Status: APPROVE ALL THREE.\nWhy: All three examples directly show -aen converting different roots into active VSO verbs:\nShalaen I vethral an verdor. (Shal \n→\n→\n Shalaen [to see])\nPralaen I krezor. (Pral \n→\n→\n Pralaen [to make])\nVelaen Ilin morlak. (Vel \n→\n→\n Velaen [to eat])"
+  },
+  "LINK--eth": {
+    "kind": "placement",
+    "records": [
+      "OVERRIDE-53c78d5c8fab",
+      "OVERRIDE-9f4c89568e03",
+      "OVERRIDE-5b1c1f0c2761"
+    ],
+    "headwords": [
+      "-eth"
+    ],
+    "examples": [
+      [
+        "rinaen drenvor woreth.",
+        "The bowl is full."
+      ],
+      [
+        "rinaen krezor feneth.",
+        "The hearth is hot."
+      ],
+      [
+        "rinaen shena shaleth.",
+        "The coin is gold."
+      ]
+    ],
+    "notes": "Status: APPROVE ALL THREE.\nWhy: All three examples directly show -eth forming post-nominal adjectives:\nRinaen drenvor woreth. (Wor \n→\n→\n Woreth [full])\nRinaen krezor feneth. (Fen \n→\n→\n Feneth [hot])\nRinaen shena shaleth. (Shal \n→\n→\n Shaleth [gold/bright])\n"
+  },
+  "LINK-nor-ka": {
+    "kind": "placement",
+    "records": [
+      "PE-V4-0008"
+    ],
+    "headwords": [
+      "nor-ka"
+    ],
+    "examples": [
+      [
+        "pralaen belkor an Azron nor-ka.",
+        "The tunic was made by the woman."
+      ],
+      [
+        "drenaen dren an felka nor-ka.",
+        "The water was drunk by the child."
+      ]
+    ],
+    "notes": "Pralaen belkor an Azron nor-ka. (\"The tunic was made by the woman.\")\nDrenaen dren an felka nor-ka. (\"The water was drunk by the child.\")\n"
+  },
+  "LINK-morl-": {
+    "kind": "placement",
+    "records": [
+      "PE-S3-0002"
+    ],
+    "headwords": [
+      "Morl-"
+    ],
+    "examples": [
+      [
+        "var gavral an morl.",
+        "The hunter goes to the mountain."
+      ],
+      [
+        "rinaen morl maganeth.",
+        "The mountain is massive/heavy."
+      ]
+    ],
+    "notes": "Var gavral an morl. (\"The hunter goes to the mountain.\"\nRinaen morl maganeth. (\"The mountain is massive/heavy.\")\n"
+  },
+  "LINK-terra- / terra-": {
+    "kind": "placement",
+    "records": [
+      "PE-S3-0003",
+      "PE-S3-0004",
+      "PE-S3-0018",
+      "PE-S4A-0002",
+      "PE-S4B-0005"
+    ],
+    "headwords": [
+      "terra- / Terra-"
+    ],
+    "examples": [
+      [
+        "moraen I an terra.",
+        "I stand on the ground."
+      ],
+      [
+        "ver ohmaen Mechuma lian Thal Terra.",
+        "Mechuma does not honor the truth of the Balance of Terra."
+      ],
+      [
+        "rinaen Terra vaar.",
+        "The Earth is peaceful."
+      ]
+    ],
+    "notes": "Mundane ground: Moraen I an terra. (\"I stand on the ground.\" \nSacred entity: Ver ohmaen Mechuma lian Thal Terra. (\"Mechuma does not honor the truth of the Balance of Terra.\" \nLiving world: Rinaen Terra vaar. (\"The Earth is peaceful.\" \n"
+  },
+  "LINK-thal-": {
+    "kind": "placement",
+    "records": [
+      "PE-S3-0005",
+      "PE-S3-0006"
+    ],
+    "headwords": [
+      "Thal-"
+    ],
+    "examples": [
+      [
+        "tal theon thal an Ilin.",
+        "The neutral person gives balance to us."
+      ],
+      [
+        "talaen I drenvor thal pralor.",
+        "I take the bowl from the table."
+      ]
+    ],
+    "notes": "Noun (Balance): Theon dren kal thal. (\"The neutral person brings strength and balance.\"\nPreposition (From/Out of): Talaen I drenvor thal pralor. (\"I take the bowl from the table.\" \n"
+  },
+  "LINK-reth- / rethvok-": {
+    "kind": "placement",
+    "records": [
+      "PE-S3-0006",
+      "PE-S3-0007"
+    ],
+    "headwords": [
+      "Reth- / Rethvok-"
+    ],
+    "examples": [
+      [
+        "kal Kalor an Reth.",
+        "True strength is shown when facing uncertainty."
+      ],
+      [
+        "fahaen I rethvok.",
+        "I fear chaos."
+      ]
+    ],
+    "notes": "tandalone Reth (Uncertainty): Kal Kalor an Reth. (\"True strength is shown when facing uncertainty.\" \nStandalone Rethvok (Chaos): Fahaen I rethvok. (\"I fear chaos.\" — LX-V4-0075)*"
+  },
+  "LINK-rin-": {
+    "kind": "placement",
+    "records": [
+      "PE-S3-0009"
+    ],
+    "headwords": [
+      "Rin-"
+    ],
+    "examples": [
+      [
+        "shalaen I rin an ser.",
+        "I see the essence in the friend."
+      ],
+      [
+        "lorin rin thar-ian.",
+        "Essence guides my heart."
+      ]
+    ],
+    "notes": "shalaen I rin an ser. (\"I see the essence in the friend.\")\nlorin rin thar-ian. (\"Essence guides my heart.\")\n"
+  },
+  "LINK-kal-": {
+    "kind": "placement",
+    "records": [
+      "PE-S3-0022"
+    ],
+    "headwords": [
+      "Kal-"
+    ],
+    "examples": [
+      [
+        "rinaen kal an kareth.",
+        "There is strength in the hammer."
+      ],
+      [
+        "tal Terra kal an Ilin.",
+        "The Earth gives strength to us."
+      ]
+    ],
+    "notes": "rinaen kal an kareth. (\"There is strength in the hammer.\")\ntal Terra kal an Ilin. (\"The Earth gives strength to us.\")"
+  },
+  "LINK-shara-": {
+    "kind": "placement",
+    "records": [
+      "PE-S3-0015",
+      "PE-S3-0017"
+    ],
+    "headwords": [
+      "Shara-"
+    ],
+    "examples": [
+      [
+        "var I an shara.",
+        "I go on the path."
+      ],
+      [
+        "lorin shara sharavok.",
+        "The path guides the caravan."
+      ]
+    ],
+    "notes": "var I an shara. (\"I go on the path.\")\nlorin shara sharavok. (\"The path guides the caravan.\" "
+  },
+  "LINK-thar-": {
+    "kind": "placement",
+    "records": [
+      "PE-S3-0012",
+      "PE-S3-0013"
+    ],
+    "headwords": [
+      "Thar-"
+    ],
+    "examples": [
+      [
+        "aen thar lian.",
+        "The heart speaks truth."
+      ],
+      [
+        "rinaen thar-ian vaareth.",
+        "My heart is peaceful."
+      ]
+    ],
+    "notes": "aen thar lian. (\"The heart speaks truth.\" \nrinaen thar-ian vaareth. (\"My heart is peaceful.\")"
+  },
+  "LINK-var-": {
+    "kind": "placement",
+    "records": [
+      "PE-S3-0014",
+      "PE-S3-0015",
+      "PE-S4A-0001"
+    ],
+    "headwords": [
+      "Var-"
+    ],
+    "examples": [
+      [
+        "var I an vaar.",
+        "I go in peace."
+      ],
+      [
+        "var kadron an morl.",
+        "The man goes to the mountain."
+      ]
+    ],
+    "notes": "var I an vaar. (\"I go in peace.\" \nvar kadron an morl. (\"The man goes to the mountain.\")\n"
+  },
+  "LINK-aen-": {
+    "kind": "placement",
+    "records": [
+      "PE-S3-0016"
+    ],
+    "headwords": [
+      "Aen-"
+    ],
+    "examples": [
+      [
+        "aen liorin lian.",
+        "The elder speaks truth."
+      ],
+      [
+        "aen I kelka an ser.",
+        "I speak a word to the friend."
+      ]
+    ],
+    "notes": "aen liorin lian. (\"The elder speaks truth.\" \naen I kelka an ser. (\"I speak a word to the friend.\")"
+  },
+  "LINK-pralaen-": {
+    "kind": "placement",
+    "records": [
+      "PE-S3-0017"
+    ],
+    "headwords": [
+      "Pralaen-"
+    ],
+    "examples": [
+      [
+        "pralaen I krezor.",
+        "I make a hearth."
+      ],
+      [
+        "pralaen mekral belrin ser belpralmek.",
+        "The craftworker makes fabric with the loom."
+      ]
+    ],
+    "notes": "pralaen I krezor. (\"I make a hearth.\" \npralaen mekral belrin ser belpralmek. (\"The craftworker makes fabric with the loom.\" \n"
+  },
+  "LINK-ser-": {
+    "kind": "placement",
+    "records": [
+      "PE-S4A-0004",
+      "PE-S4A-0005"
+    ],
+    "headwords": [
+      "Ser-"
+    ],
+    "examples": [
+      [
+        "var ser an dren.",
+        "The friend goes to the water."
+      ],
+      [
+        "rinaen ohm ser Ilin.",
+        "Connection is with us."
+      ]
+    ],
+    "notes": "As Noun (friend): var ser an dren. (\"The friend goes to the water.\")\nAs Preposition (with): rinaen ohm ser Ilin. (\"Connection is with us.\")"
+  },
+  "LINK-zhir-": {
+    "kind": "placement",
+    "records": [
+      "PE-S3-0020",
+      "PE-S3-0021"
+    ],
+    "headwords": [
+      "Zhir-"
+    ],
+    "examples": [
+      [
+        "shalaen I zhir an belvok.",
+        "I see the thread [lineage] in the family."
+      ],
+      [
+        "rinaen zhir an norzhir.",
+        "There is a thread in the timeline."
+      ]
+    ],
+    "notes": "shalaen I zhir an belvok. (\"I see the thread [lineage] in the family.\")\nrinaen zhir an norzhir. (\"There is a thread in the timeline.\")"
+  },
+  "LINK-kel-": {
+    "kind": "placement",
+    "records": [
+      "PE-S3-0022"
+    ],
+    "headwords": [
+      "Kel-"
+    ],
+    "examples": [
+      [
+        "rinaen kel an kelpral.",
+        "The text is on the writing tablet."
+      ],
+      [
+        "kel liorin norzhir.",
+        "The elder names the timeline."
+      ]
+    ],
+    "notes": "As Noun (text/word): rinaen kel an kelpral. (\"The text is on the writing tablet.\"\nAs Verb (to say/name): kel liorin norzhir. (\"The elder names the timeline.\""
+  },
+  "DUP-PE-V1-0001": {
+    "kind": "merge",
+    "canonical": "PE-V1-0001",
+    "retire": [
+      "PE-V1-0017"
+    ],
+    "examples": [
+      [
+        "var I an dren.",
+        "I go to the water."
+      ]
+    ],
+    "notes": "Decision: Approve Proposal (Deduplicate).\nCanonical Record to Keep: PE-V1-0001\nDuplicate Record to Retire: PE-V1-0017\nAll Linked Headwords (Preserved on PE-V1-0001): Var, I, Dren\nSource Provenance: LX-V1-0001, LX-V1-0019\nCorrected Canonical Text:\nCelan: var I an dren.\nEnglish: \"I go to the water.\""
+  },
+  "DUP-PE-V4-0016": {
+    "kind": "merge",
+    "canonical": "PE-V4-0016",
+    "retire": [
+      "PE-V4-0060"
+    ],
+    "examples": [
+      [
+        "nethaen azron an nethor.",
+        "The woman sits on the chair."
+      ]
+    ],
+    "notes": "Decision: Approve Proposal (Deduplicate).\nCanonical Record to Keep: PE-V4-0016\nDuplicate Record to Retire: PE-V4-0060\nAll Linked Headwords (Preserved on PE-V4-0016): Nethaen, Azron, Nethor\nSource Provenance: LX-V4-0010, LX-V4-0054\nCorrected Canonical Text:\nCelan: nethaen azron an nethor.\nEnglish: \"The woman sits on the chair.\""
+  },
+  "DUP-PE-V4-0022": {
+    "kind": "merge",
+    "canonical": "PE-V4-0022",
+    "retire": [
+      "PE-V4-0031"
+    ],
+    "examples": [
+      [
+        "rinaen drenvor woreth.",
+        "The bowl is full."
+      ]
+    ],
+    "notes": "108 · PE-V4-0022 & PE-V4-0031\nAction: Merge into PE-V4-0022. Retire PE-V4-0031.\nLinked Headwords: Drenvor, Woreth, Rinaen.\nCorrected Canonical Text: rinaen drenvor woreth. (\"The bowl is full.\")"
+  },
+  "DUP-PE-V4-0023": {
+    "kind": "merge",
+    "canonical": "PE-V4-0023",
+    "retire": [
+      "PE-V4-0036"
+    ],
+    "examples": [
+      [
+        "rinaen krezor feneth.",
+        "The hearth is hot."
+      ]
+    ],
+    "notes": "109 · PE-V4-0023 & PE-V4-0036\nAction: Merge into PE-V4-0023. Retire PE-V4-0036.\nLinked Headwords: Krezor, Feneth, Rinaen.\nCorrected Canonical Text: rinaen krezor feneth. (\"The hearth is hot.\")\n"
+  },
+  "DUP-PE-V4-0035": {
+    "kind": "merge",
+    "canonical": "PE-V4-0035",
+    "retire": [
+      "PE-V4-0064"
+    ],
+    "examples": [
+      [
+        "var vethral joreth.",
+        "The pack hunter goes fast."
+      ]
+    ],
+    "notes": "Action: Merge into PE-V4-0035. Retire PE-V4-0064.\nLinked Headwords: Var, Vethral, Joreth.\nCorrected Canonical Text: var vethral joreth. (\"The pack hunter goes fast.\")"
+  },
+  "DUP-PE-DSL1-0004": {
+    "kind": "merge",
+    "canonical": "PE-DSL1-0004",
+    "retire": [
+      "PE-DSL1-0057"
+    ],
+    "examples": [
+      [
+        "drentalaen I dren an krezvek.",
+        "I pour water into the cooking pot."
+      ]
+    ],
+    "notes": "Action: Merge into PE-DSL1-0004. Retire PE-DSL1-0057.\nLinked Headwords: Drentalaen, Krezvek, Dren, I.\nCanonical Text: drentalaen I dren an krezvek. (\"I pour water into the cooking pot.\")\n"
+  },
+  "DUP-PE-DSL1-0006": {
+    "kind": "merge",
+    "canonical": "PE-DSL1-0006",
+    "retire": [
+      "PE-DSL1-0051"
+    ],
+    "examples": [
+      [
+        "pelvaraen I krezpral.",
+        "I scrape the pan."
+      ]
+    ],
+    "notes": "Action: Merge into PE-DSL1-0006. Retire PE-DSL1-0051.\nLinked Headwords: Pelvaraen, Krezpral, I.\nCanonical Text: pelvaraen I krezpral. (\"I scrape the pan.\")\n"
+  },
+  "DUP-PE-PFM1-0045": {
+    "kind": "merge",
+    "canonical": "PE-PFM1-0045",
+    "retire": [
+      "PE-PFM1-0077"
+    ],
+    "examples": [
+      [
+        "kasharaen sharavok lianrethor.",
+        "The caravan avoids the anomaly zone."
+      ]
+    ],
+    "notes": "Action: Merge into PE-PFM1-0045. Retire PE-PFM1-0077.\nLinked Headwords: Kasharaen, Sharavok, Lianrethor.\nCanonical Text: kasharaen sharavok lianrethor. (\"The caravan avoids the anomaly zone.\")\n"
+  },
+  "DUP-PE-PFM1-0055": {
+    "kind": "merge",
+    "canonical": "PE-PFM1-0055",
+    "retire": [
+      "PE-PFM1-0075"
+    ],
+    "examples": [
+      [
+        "keldoraen seren lianrethxar.",
+        "The guardian marks the anomaly boundary."
+      ]
+    ],
+    "notes": "Action: Merge into PE-PFM1-0055. Retire PE-PFM1-0075.\nLinked Headwords: Keldoraen, Seren, Lianrethxar.\nCanonical Text: keldoraen seren lianrethxar. (\"The guardian marks the anomaly boundary.\")"
+  },
+  "DUP-PE-FAP1-0007": {
+    "kind": "merge",
+    "canonical": "PE-FAP1-0007",
+    "retire": [
+      "PE-FAP1-0016"
+    ],
+    "examples": [
+      [
+        "balpralaen I verdsov.",
+        "I cultivate the garden."
+      ]
+    ],
+    "notes": "Action: Merge into PE-FAP1-0007. Retire PE-FAP1-0016.\nLinked Headwords: Balpralaen, Verdsov, I.\nCanonical Text: balpralaen I verdsov. (\"I cultivate the garden.\")\n"
+  },
+  "DUP-PE-TVO1-0030": {
+    "kind": "merge",
+    "canonical": "PE-TVO1-0030",
+    "retire": [
+      "PE-TVO1-0058"
+    ],
+    "examples": [
+      [
+        "ravvekaen mahrvek mahrpral.",
+        "The ship tows the raft."
+      ]
+    ],
+    "notes": "PE-TVO1-0030 & PE-TVO1-0058\nAction: Merge into PE-TVO1-0030. Retire PE-TVO1-0058.\nLinked Headwords: Ravvekaen, Mahrvek, Mahrpral.\nCanonical Text: ravvekaen mahrvek mahrpral. (\"The ship tows the raft.\")\n"
+  },
+  "DUP-PE-TVO1-0040": {
+    "kind": "merge",
+    "canonical": "PE-TVO1-0040",
+    "retire": [
+      "PE-TVO1-0067"
+    ],
+    "examples": [
+      [
+        "eshvaraen eshlorral eshvek.",
+        "The pilot flies the aircraft."
+      ]
+    ],
+    "notes": "Action: Merge into PE-TVO1-0040. Retire PE-TVO1-0067.\nLinked Headwords: Eshvaraen, Eshlorral, Eshvek.\nCanonical Text: eshvaraen eshlorral eshvek. (\"The pilot flies the aircraft.\")"
+  },
+  "DUP-PE-GCI1-0005": {
+    "kind": "merge",
+    "canonical": "PE-GCI1-0005",
+    "retire": [
+      "PE-GCI1-0046"
+    ],
+    "examples": [],
+    "notes": ""
+  },
+  "DUP-PE-DW1-0010": {
+    "kind": "merge",
+    "canonical": "PE-DW1-0010",
+    "retire": [
+      "PE-DW1-0011"
+    ],
+    "examples": [],
+    "notes": ""
+  },
+  "DUP-PE-DW1-0012": {
+    "kind": "merge",
+    "canonical": "PE-DW1-0012",
+    "retire": [
+      "PE-DW1-0016"
+    ],
+    "examples": [],
+    "notes": ""
+  },
+  "DUP-PE-DW1-0013": {
+    "kind": "merge",
+    "canonical": "PE-DW1-0013",
+    "retire": [
+      "PE-DW1-0018"
+    ],
+    "examples": [],
+    "notes": ""
+  },
+  "DUP-PE-PSAC1-0008": {
+    "kind": "merge",
+    "canonical": "PE-PSAC1-0008",
+    "retire": [
+      "PE-PSAC1-0025"
+    ],
+    "examples": [],
+    "notes": ""
+  },
+  "DUP-PE-PSAC1-0012": {
+    "kind": "merge",
+    "canonical": "PE-PSAC1-0012",
+    "retire": [
+      "PE-PSAC1-0015"
+    ],
+    "examples": [],
+    "notes": ""
+  },
+  "DUP-PE-PSAC1-0033": {
+    "kind": "merge",
+    "canonical": "PE-PSAC1-0033",
+    "retire": [
+      "PE-PSAC1-0035"
+    ],
+    "examples": [],
+    "notes": ""
+  },
+  "VAR-PE-V1-0002": {
+    "kind": "merge",
+    "canonical": "PE-V1-0002",
+    "retire": [
+      "PE-V1-0025"
+    ],
+    "examples": [
+      [
+        "ra var ser?",
+        "Where does the friend go?"
+      ]
+    ],
+    "notes": "Issue: Duplicate record; identical except for messy quotation marks.\nAction: Merge into PE-V1-0002. Retire PE-V1-0025.\nStandardized Celan: ra var ser? (or with tail: ra var ser lo?)\nDisplay Translation: \"Where does the friend go?\""
+  },
+  "VAR-PE-V1-0027": {
+    "kind": "merge",
+    "canonical": "PE-V1-0027",
+    "retire": [
+      "PE-V3-0006"
+    ],
+    "examples": [
+      [
+        "va var an dren!",
+        "Go to the water!"
+      ]
+    ],
+    "notes": "Issue: Duplicate record; identical except for double quotation marks.\nAction: Merge into PE-V1-0027. Retire PE-V3-0006.\nStandardized Celan: va var an dren!\nDisplay Translation: \"Go to the water!\""
+  },
+  "VAR-PE-V1-0037": {
+    "kind": "merge",
+    "canonical": "PE-V1-0037",
+    "retire": [
+      "PE-V1-0044"
+    ],
+    "examples": [
+      [
+        "var I esh dren.",
+        "I go above the water."
+      ]
+    ],
+    "notes": "Issue: Duplicate record; identical except for double quotation marks.\nAction: Merge into PE-V1-0037. Retire PE-V1-0044.\nStandardized Celan: var I esh dren.\nDisplay Translation: \"I go above the water.\"\n"
+  },
+  "VAR-PE-V1-0038": {
+    "kind": "merge",
+    "canonical": "PE-V1-0038",
+    "retire": [
+      "PE-V1-0045"
+    ],
+    "examples": [
+      [
+        "var I morl dren.",
+        "I go under the water."
+      ]
+    ],
+    "notes": "Issue: Duplicate record; identical except for double quotation marks.\nAction: Merge into PE-V1-0038. Retire PE-V1-0045.\nStandardized Celan: var I morl dren.\nDisplay Translation: \"I go under the water.\""
+  },
+  "VAR-PE-V2-0028": {
+    "kind": "merge",
+    "canonical": "PE-V2-0028",
+    "retire": [
+      "PE-V2-0061"
+    ],
+    "examples": [
+      [
+        "nethaen xarvel an dren.",
+        "The covered meal rests by the water."
+      ]
+    ],
+    "notes": "Issue: Duplicate record; \"covered meal\" vs. \"veiled meal\" (xarvel).\nAction: Merge into PE-V2-0028. Retire PE-V2-0061.\nStandardized Celan: nethaen xarvel an dren.\nDisplay Translation: \"The covered meal rests by the water.\"\nNote Saved: Alternate: \"The veiled meal rests by the water.\""
+  },
+  "VAR-PE-NE1-0005": {
+    "kind": "merge",
+    "canonical": "PE-NE1-0005",
+    "retire": [
+      "PE-NE1-0008"
+    ],
+    "examples": [
+      [
+        "arth droral drobel.",
+        "The water keeper protects the waterworks."
+      ]
+    ],
+    "notes": "ssue: Duplicate record; \"waterworks\" vs. \"water-distribution system\" (drobel).\nAction: Merge into PE-NE1-0005. Retire PE-NE1-0008.\nStandardized Celan: arth droral drobel.\nDisplay Translation: \"The water keeper protects the waterworks.\"\nNote Saved: Literal: \"water-distribution system.\""
+  },
+  "VAR-PE-NE1-0034": {
+    "kind": "merge",
+    "canonical": "PE-NE1-0034",
+    "retire": [
+      "PE-NE1-0040"
+    ],
+    "examples": [
+      [
+        "tal zhaelral fennilphel an ser.",
+        "The healer gives an herbal remedy to the friend."
+      ]
+    ],
+    "notes": "Issue: Duplicate record; \"an herbal remedy\" vs. \"the herbal remedy\".\nAction: Merge into PE-NE1-0034. Retire PE-NE1-0040.\nStandardized Celan: tal zhaelral fennilphel an ser.\nDisplay Translation: \"The healer gives an herbal remedy to the friend.\""
+  },
+  "VAR-PE-TM1-0007": {
+    "kind": "merge",
+    "canonical": "PE-TM1-0007",
+    "retire": [
+      "PE-TM1-0052"
+    ],
+    "examples": [
+      [
+        "zhaelpralaen mekral kormek.",
+        "The mechanic repairs the engine."
+      ]
+    ],
+    "notes": "Issue: Duplicate record; \"engine\" vs. \"motor\" (kormek).\nAction: Merge into PE-TM1-0007. Retire PE-TM1-0052.\nStandardized Celan: zhaelpralaen mekral kormek.\nDisplay Translation: \"The mechanic repairs the engine.\"\nNote Saved: Alternate: \"motor.\""
+  },
+  "VAR-PE-TVO1-0005": {
+    "kind": "merge",
+    "canonical": "PE-TVO1-0005",
+    "retire": [
+      "PE-TVO1-0061"
+    ],
+    "examples": [
+      [
+        "vekaen morvek vekmor.",
+        "The wagon carries the cargo."
+      ]
+    ],
+    "notes": "Issue: Duplicate record; \"the cargo\" vs. \"cargo\".\nAction: Merge into PE-TVO1-0005. Retire PE-TVO1-0061.\nStandardized Celan: vekaen morvek vekmor.\nDisplay Translation: \"The wagon carries the cargo.\"\n"
+  },
+  "VAR-PE-BSPI1-0020": {
+    "kind": "merge",
+    "canonical": "PE-BSPI1-0020",
+    "retire": [
+      "PE-BSPI1-0058"
+    ],
+    "examples": [
+      [
+        "var ndavivek an ndavior.",
+        "The elevator moves to the building level."
+      ]
+    ],
+    "notes": "Action: Merge into PE-BSPI1-0020. Retire PE-BSPI1-0058.\nStandardized Celan: var ndavivek an ndavior.\nDisplay Translation: \"The elevator moves to the building level.\"\nNote Saved: Alternate: \"storey.\""
+  },
+  "VAR-PE-GCI1-0011": {
+    "kind": "merge",
+    "canonical": "PE-GCI1-0011",
+    "retire": [
+      "PE-GCI1-0023"
+    ],
+    "examples": [
+      [
+        "aen kalrin kalkel.",
+        "The sovereign speaks a decree."
+      ]
+    ],
+    "notes": "Issue: Duplicate record; \"The sovereign speaks a decree\" vs. \"The ruler issues a decree\" (kalrin = sovereign/ruler; aen = speaks).\nAction: Merge into PE-GCI1-0011. Retire PE-GCI1-0023.\nStandardized Celan: aen kalrin kalkel.\nDisplay Translation: \"The sovereign speaks a decree.\"\nNote Saved: Alternate: \"The ruler issues a decree.\""
+  }
+}

@@ -59,3 +59,8 @@ Applied the approved sentence decision and corrected its entry links.
 Earlier replacement and the approved contextual Thar-ka gloss remain in effect.
 
 No new headwords, definitions, or draft examples were added. The remaining audit findings were not treated as approved. Source records before and after the nine sentence decisions are recorded in applied_changes.json.
+
+
+## September 24 follow-up — complete locally
+
+All 135 submitted instructions, including the unmarked item and five approved clarifications, are applied. See [every applied change](round2_applied.md). Source records remain preserved. The app snapshot and dictionary exports are rebuilt. Validation passed. No commit, push, or deployment was performed.

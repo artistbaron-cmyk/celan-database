@@ -2245,6 +2245,14 @@ function buildRuleEntries(rows) {
   } : row);
   const superseded = new Set(rows.some(row => row.entry_id === 'GR-DR1-0001')
     ? ['GR-V1-0007', 'GR-V1-0020', 'GR-V3-0006'] : []);
+  const reviewGroups = [...new Set(state.phrases.map(p=>p.app_grammar_group).filter(Boolean))];
+  rows = [...rows, ...reviewGroups.map((name,i)=>({
+    entry_id:`GR-ER2-${String(i+1).padStart(4,'0')}`, rule_name:`${name}: reviewed illustrations`,
+    category:name, source_section:name, source_volume:'September 24 dictionary review', canon_status:'Canon',
+    original_wording:'These are teaching illustrations, not ordinary sentence examples.',
+    examples:state.phrases.filter(p=>p.app_grammar_group===name).map(p=>`${p.celan_text} — ${p.translation} [${p.entry_id}]`).join('\n'),
+    notes:'ED-0044: moved from dictionary sentence examples by user approval.'
+  }))];
   const rawEntries = rows
     .filter(row => !superseded.has(row.entry_id))
     .filter((row) => (row.canon_status || "").toLowerCase() === "canon")
@@ -4791,6 +4799,33 @@ function sourceIdsForGroup(group) {
   return ids;
 }
 
+// ED-0044: source rows retain their identities; the app follows reviewed canonical links.
+const exampleReviewIndexes = new WeakMap();
+function exampleReviewIndex() {
+  if (!exampleReviewIndexes.has(state.phrases)) {
+    const byId = new Map(state.phrases.map(p => [p.entry_id,p]));
+    const byText = new Map();
+    for (const p of state.phrases) {
+      if (p.app_canonical_id) continue;
+      if (/^Reviewed|^Teaching note:/.test(p.example_type || '')) byText.set(exampleTextKey(p.celan_text),p);
+      for (const old of JSON.parse(p.app_previous_texts || '[]')) byText.set(exampleTextKey(old),p);
+    }
+    for (const p of state.phrases) if (p.app_canonical_id && byId.has(p.app_canonical_id)) byText.set(exampleTextKey(p.celan_text),byId.get(p.app_canonical_id));
+    exampleReviewIndexes.set(state.phrases,{byId,byText});
+  }
+  return exampleReviewIndexes.get(state.phrases);
+}
+function exampleTextKey(text) { return String(text || '').replace(/[\s.!?"“”]+/g,' ').trim().toLowerCase(); }
+function reviewedExample(example) {
+  const {byId,byText}=exampleReviewIndex();
+  const row=byId.get(example.entry_id) || example;
+  return row.app_canonical_id ? byId.get(row.app_canonical_id) || row : byText.get(exampleTextKey(row.celan_text)) || row;
+}
+function exampleAllowed(group,example) {
+  const excluded=splitIds(example.app_excluded_headwords).map(normalizeHeadword);
+  return !excluded.includes('*') && !excluded.includes(normalizeHeadword(group.term));
+}
+
 function relatedExamples(group) {
   const entries = group.entries || [];
   const lexicalEntries = entries.filter((entry) => !/^(XR|DM)-/i.test(entry.entry_id || ""));
@@ -4811,7 +4846,8 @@ function relatedExamples(group) {
     ? state.phrases.filter((phrase) => termRegex.test(normalizeHeadword(phrase.celan_text)))
     : [];
 
-  const merged = [...explicitExamples];
+  const attached = state.phrases.filter(p => splitIds(p.app_headwords).map(normalizeHeadword).includes(normalizeHeadword(group.term)));
+  const merged = [...explicitExamples, ...attached];
   [...reverseLinkedExamples, ...matchedExamples].forEach((phrase) => {
     if (!merged.some((existing) => existing.entry_id === phrase.entry_id)) {
       merged.push(phrase);
@@ -4820,7 +4856,9 @@ function relatedExamples(group) {
 
   const deduped = [];
   const seen = new Set();
-  merged.forEach((phrase) => {
+  merged.forEach((source) => {
+    const phrase = reviewedExample(source);
+    if (!exampleAllowed(group,phrase)) return;
     const key = `${(phrase.celan_text || "").trim()}::${(phrase.translation || "").trim()}`;
     if (seen.has(key)) return;
     seen.add(key);
@@ -4861,11 +4899,17 @@ const REVIEWED_EXAMPLE_SENSES = {
 
 function entryExampleSections(group, examples = null) {
   const override = headwordOverride(group.term);
-  const candidates = examples || (override?.examples?.length ? override.examples : relatedExamples(group));
+  const candidates = [...(examples || override?.examples || []), ...relatedExamples(group)];
+  const seen = new Set();
   const sections = {direct:[], related:[], teaching:[]};
-  for (const example of candidates) {
+  for (const source of candidates) {
+    const example = reviewedExample(source);
+    if (!exampleAllowed(group,example)) continue;
+    const identity = example.entry_id || exampleTextKey(example.celan_text);
+    if (seen.has(identity)) continue;
+    seen.add(identity);
     const kind = example.example_type || '';
-    const teaching = /counterexample|phonology|historical|conceptual metaphor|phonetic fossil|capitalization contrast|euphony|standard form|poetic form/i.test(kind)
+    const teaching = /teaching note:|counterexample|phonology|historical|conceptual metaphor|phonetic fossil|capitalization contrast|euphony|standard form|poetic form/i.test(kind)
       || /\+|->|→|\s\/\s/.test(example.celan_text || '');
     if (teaching) sections.teaching.push(example);
     else if (isDirectExample(group,example.celan_text)) sections.direct.push(example);
@@ -4884,12 +4928,12 @@ function renderExampleSections(group, examples) {
     const sense = meaning ? uses.find(u=>u.meaning===meaning) : null;
     const senseLabel = direct && uses.length>1 ? (sense ? `${sense.type}: ${sense.meaning}` : 'Sense assignment pending review') : '';
     const label = /phrase/i.test(e.example_type || '') ? 'Phrase' : e.example_type || '';
-    return `<div class="sentence-example">${senseLabel ? `<p class="sense-usage">${escapeMarkup(senseLabel)}</p>` : ''}${label ? `<small>${escapeMarkup(label)}</small>` : ''}<p>${escapeMarkup(e.celan_text)}<br>${e.translation ? `“${escapeMarkup(e.translation)}”` : ''}</p>${e.analysis ? `<p class="sense-usage">${escapeMarkup(e.analysis)}</p>` : ''}<details class="example-source"><summary>Source</summary><p>${escapeMarkup([e.source_volume,e.source_section,e.entry_id].filter(Boolean).join(' · ') || 'Reviewed dictionary example')}</p></details></div>`;
+    return `<div class="sentence-example">${senseLabel ? `<p class="sense-usage">${escapeMarkup(senseLabel)}</p>` : ''}${label ? `<small>${escapeMarkup(label)}</small>` : ''}<p>${escapeMarkup(e.celan_text)}<br>${e.translation ? `“${escapeMarkup(e.translation)}”` : ''}</p>${e.analysis ? `<p class="sense-usage">${escapeMarkup(e.analysis)}</p>` : ''}<details class="example-source"><summary>Source</summary><p>${escapeMarkup([e.source_volume,e.source_section,e.entry_id,e.notes].filter(Boolean).join(' · ') || 'Reviewed dictionary example')}</p></details></div>`;
   };
   const groups = [];
   if (sections.direct.length) groups.push(`<section class="card sentence-card"><h3>Direct usage (${sections.direct.length})</h3>${sections.direct.slice(0,5).map(e=>render(e,true)).join('')}${sections.direct.length>5 ? `<details><summary>View all ${sections.direct.length} usage examples</summary>${sections.direct.slice(5).map(e=>render(e,true)).join('')}</details>` : ''}</section>`);
   else groups.push('<section class="card sentence-card"><h3>Direct usage</h3><p>No direct usage example is available yet.</p></section>');
-  if(sections.related.length) groups.push(`<section class="card sentence-card"><h3>Related forms and constructions (${sections.related.length})</h3><p>These records are linked to this entry but do not demonstrate the standalone word. Their connection may need review.</p><details><summary>View related records</summary>${sections.related.map(e=>render(e)).join('')}</details></section>`);
+  if(sections.related.length) groups.push(`<section class="card sentence-card"><h3>Related forms and constructions (${sections.related.length})</h3><p>These records are linked to this entry but do not demonstrate the standalone word. Reviewed constructions include roots and endings used within other words.</p><details><summary>View related records</summary>${sections.related.map(e=>render(e)).join('')}</details></section>`);
   if(sections.teaching.length) groups.push(`<section class="card sentence-card"><h3>Teaching notes (${sections.teaching.length})</h3><p>These include explanations, historical illustrations, and counterexamples. They are not all recommended usage.</p><details><summary>View teaching notes</summary>${sections.teaching.map(e=>render(e)).join('')}</details></section>`);
   return groups.join('');
 }

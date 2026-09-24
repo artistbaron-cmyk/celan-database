@@ -2,16 +2,16 @@
   {
     "id": "i",
     "term": "I",
-    "direct": 384,
-    "related": 0,
-    "teaching": 2,
+    "direct": 402,
+    "related": 1,
+    "teaching": 1,
     "senses": 1
   },
   {
     "id": "ilin",
     "term": "Ilin",
-    "direct": 26,
-    "related": 0,
+    "direct": 33,
+    "related": 1,
     "teaching": 0,
     "senses": 2
   },
@@ -51,15 +51,15 @@
     "id": "kadron",
     "term": "Kadron",
     "direct": 6,
-    "related": 1,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
   {
     "id": "azron",
     "term": "Azron",
-    "direct": 5,
-    "related": 1,
+    "direct": 6,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
@@ -67,7 +67,7 @@
     "id": "theon",
     "term": "Theon",
     "direct": 2,
-    "related": 1,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
@@ -98,8 +98,8 @@
   {
     "id": "azon",
     "term": "Azon",
-    "direct": 1,
-    "related": 1,
+    "direct": 2,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
@@ -114,15 +114,15 @@
   {
     "id": "var",
     "term": "Var",
-    "direct": 200,
+    "direct": 202,
     "related": 0,
-    "teaching": 4,
+    "teaching": 3,
     "senses": 2
   },
   {
     "id": "ser",
     "term": "Ser",
-    "direct": 258,
+    "direct": 263,
     "related": 0,
     "teaching": 0,
     "senses": 3
@@ -138,25 +138,25 @@
   {
     "id": "ka",
     "term": "Ka",
-    "direct": 29,
-    "related": 9,
+    "direct": 32,
+    "related": 6,
     "teaching": 1,
     "senses": 2
   },
   {
     "id": "an",
     "term": "An",
-    "direct": 759,
-    "related": 0,
-    "teaching": 10,
+    "direct": 815,
+    "related": 1,
+    "teaching": 13,
     "senses": 2
   },
   {
     "id": "nor",
     "term": "Nor",
-    "direct": 117,
-    "related": 23,
-    "teaching": 2,
+    "direct": 119,
+    "related": 24,
+    "teaching": 1,
     "senses": 2
   },
   {
@@ -170,7 +170,7 @@
   {
     "id": "morl",
     "term": "Morl",
-    "direct": 49,
+    "direct": 52,
     "related": 0,
     "teaching": 2,
     "senses": 2
@@ -178,7 +178,7 @@
   {
     "id": "terra",
     "term": "Terra",
-    "direct": 17,
+    "direct": 18,
     "related": 0,
     "teaching": 1,
     "senses": 2
@@ -187,7 +187,7 @@
     "id": "dren",
     "term": "Dren",
     "direct": 241,
-    "related": 0,
+    "related": 1,
     "teaching": 1,
     "senses": 3
   },
@@ -210,9 +210,9 @@
   {
     "id": "thar",
     "term": "Thar",
-    "direct": 13,
+    "direct": 16,
     "related": 0,
-    "teaching": 5,
+    "teaching": 6,
     "senses": 2
   },
   {
@@ -226,7 +226,7 @@
   {
     "id": "shara",
     "term": "Shara",
-    "direct": 25,
+    "direct": 30,
     "related": 0,
     "teaching": 2,
     "senses": 2
@@ -330,15 +330,15 @@
   {
     "id": "thaal",
     "term": "Thaal",
-    "direct": 2,
-    "related": 2,
+    "direct": 3,
+    "related": 0,
     "teaching": 0,
     "senses": 2
   },
   {
     "id": "lian",
     "term": "Lian",
-    "direct": 19,
+    "direct": 20,
     "related": 0,
     "teaching": 0,
     "senses": 3
@@ -354,7 +354,7 @@
   {
     "id": "aen",
     "term": "Aen",
-    "direct": 58,
+    "direct": 61,
     "related": 0,
     "teaching": 1,
     "senses": 4
@@ -370,7 +370,7 @@
   {
     "id": "arth",
     "term": "Arth",
-    "direct": 35,
+    "direct": 36,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -378,8 +378,8 @@
   {
     "id": "kal",
     "term": "Kal",
-    "direct": 60,
-    "related": 0,
+    "direct": 61,
+    "related": 1,
     "teaching": 0,
     "senses": 3
   },
@@ -394,7 +394,7 @@
   {
     "id": "seren",
     "term": "Seren",
-    "direct": 43,
+    "direct": 47,
     "related": 0,
     "teaching": 0,
     "senses": 2
@@ -410,9 +410,9 @@
   {
     "id": "vaar",
     "term": "Vaar",
-    "direct": 11,
-    "related": 1,
-    "teaching": 1,
+    "direct": 13,
+    "related": 0,
+    "teaching": 0,
     "senses": 3
   },
   {
@@ -426,7 +426,7 @@
   {
     "id": "lorin",
     "term": "Lorin",
-    "direct": 41,
+    "direct": 44,
     "related": 0,
     "teaching": 0,
     "senses": 3
@@ -460,7 +460,7 @@
     "term": "Reth",
     "direct": 6,
     "related": 0,
-    "teaching": 0,
+    "teaching": 1,
     "senses": 2
   },
   {
@@ -562,7 +562,7 @@
   {
     "id": "tal",
     "term": "Tal",
-    "direct": 53,
+    "direct": 57,
     "related": 0,
     "teaching": 0,
     "senses": 2
@@ -594,7 +594,7 @@
   {
     "id": "lun",
     "term": "Lun",
-    "direct": 8,
+    "direct": 9,
     "related": 0,
     "teaching": 0,
     "senses": 2
@@ -626,7 +626,7 @@
   {
     "id": "kaleth",
     "term": "Kaleth",
-    "direct": 21,
+    "direct": 23,
     "related": 0,
     "teaching": 1,
     "senses": 2
@@ -634,7 +634,7 @@
   {
     "id": "varthas",
     "term": "Varthas",
-    "direct": 22,
+    "direct": 24,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -650,7 +650,7 @@
   {
     "id": "krezor",
     "term": "Krezor",
-    "direct": 11,
+    "direct": 12,
     "related": 0,
     "teaching": 0,
     "senses": 3
@@ -722,7 +722,7 @@
   {
     "id": "belrin",
     "term": "Belrin",
-    "direct": 11,
+    "direct": 12,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -882,7 +882,7 @@
   {
     "id": "xarvel",
     "term": "Xarvel",
-    "direct": 2,
+    "direct": 1,
     "related": 0,
     "teaching": 0,
     "senses": 2
@@ -1498,7 +1498,7 @@
   {
     "id": "dralorim",
     "term": "Dralorim",
-    "direct": 5,
+    "direct": 6,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -1618,7 +1618,7 @@
   {
     "id": "liorin",
     "term": "Liorin",
-    "direct": 29,
+    "direct": 30,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -1642,7 +1642,7 @@
   {
     "id": "li-seren",
     "term": "Li-Seren",
-    "direct": 0,
+    "direct": 2,
     "related": 1,
     "teaching": 0,
     "senses": 1
@@ -1700,7 +1700,7 @@
     "term": "Rethlian",
     "direct": 3,
     "related": 0,
-    "teaching": 1,
+    "teaching": 0,
     "senses": 3
   },
   {
@@ -1866,7 +1866,7 @@
   {
     "id": "felka",
     "term": "Felka",
-    "direct": 46,
+    "direct": 47,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -1906,7 +1906,7 @@
   {
     "id": "belvok",
     "term": "Belvok",
-    "direct": 12,
+    "direct": 15,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -1940,7 +1940,7 @@
     "term": "Kalvok",
     "direct": 2,
     "related": 0,
-    "teaching": 1,
+    "teaching": 0,
     "senses": 1
   },
   {
@@ -2035,7 +2035,7 @@
     "id": "ian",
     "term": "Ian",
     "direct": 2,
-    "related": 57,
+    "related": 62,
     "teaching": 0,
     "senses": 1
   },
@@ -2210,15 +2210,15 @@
   {
     "id": "talaen",
     "term": "Talaen",
-    "direct": 6,
+    "direct": 5,
     "related": 0,
-    "teaching": 0,
+    "teaching": 2,
     "senses": 2
   },
   {
     "id": "fahaen",
     "term": "Fahaen",
-    "direct": 3,
+    "direct": 5,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -2258,7 +2258,7 @@
   {
     "id": "shalaen",
     "term": "Shalaen",
-    "direct": 3,
+    "direct": 8,
     "related": 0,
     "teaching": 1,
     "senses": 2
@@ -2570,16 +2570,16 @@
   {
     "id": "unar",
     "term": "Unar",
-    "direct": 3,
-    "related": 6,
+    "direct": 5,
+    "related": 2,
     "teaching": 0,
     "senses": 1
   },
   {
     "id": "del",
     "term": "Del",
-    "direct": 3,
-    "related": 5,
+    "direct": 2,
+    "related": 1,
     "teaching": 0,
     "senses": 1
   },
@@ -2587,30 +2587,30 @@
     "id": "tren",
     "term": "Tren",
     "direct": 3,
-    "related": 1,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
   {
     "id": "quen",
     "term": "Quen",
-    "direct": 0,
-    "related": 9,
+    "direct": 2,
+    "related": 1,
     "teaching": 0,
     "senses": 1
   },
   {
     "id": "peth",
     "term": "Peth",
-    "direct": 4,
-    "related": 3,
+    "direct": 3,
+    "related": 1,
     "teaching": 0,
     "senses": 1
   },
   {
     "id": "senar",
     "term": "Senar",
-    "direct": 1,
+    "direct": 0,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -2618,7 +2618,7 @@
   {
     "id": "sethe",
     "term": "Sethe",
-    "direct": 1,
+    "direct": 0,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -2626,8 +2626,8 @@
   {
     "id": "oven",
     "term": "Oven",
-    "direct": 0,
-    "related": 2,
+    "direct": 1,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
@@ -2698,7 +2698,7 @@
   {
     "id": "nethor",
     "term": "Nethor",
-    "direct": 7,
+    "direct": 8,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -2706,7 +2706,7 @@
   {
     "id": "zhirin",
     "term": "Zhirin",
-    "direct": 7,
+    "direct": 8,
     "related": 0,
     "teaching": 1,
     "senses": 1
@@ -2714,7 +2714,7 @@
   {
     "id": "vorkor",
     "term": "Vorkor",
-    "direct": 28,
+    "direct": 29,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -2722,7 +2722,7 @@
   {
     "id": "kareth",
     "term": "Kareth",
-    "direct": 13,
+    "direct": 16,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -2730,7 +2730,7 @@
   {
     "id": "pralor",
     "term": "Pralor",
-    "direct": 25,
+    "direct": 24,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -2738,7 +2738,7 @@
   {
     "id": "peleth",
     "term": "Peleth",
-    "direct": 5,
+    "direct": 6,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -2746,7 +2746,7 @@
   {
     "id": "drenvor",
     "term": "Drenvor",
-    "direct": 21,
+    "direct": 20,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -2762,7 +2762,7 @@
   {
     "id": "shalkor",
     "term": "Shalkor",
-    "direct": 4,
+    "direct": 5,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -2794,7 +2794,7 @@
   {
     "id": "maganeth",
     "term": "Maganeth",
-    "direct": 5,
+    "direct": 6,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -2834,7 +2834,7 @@
   {
     "id": "vaareth",
     "term": "Vaareth",
-    "direct": 5,
+    "direct": 6,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -2898,7 +2898,7 @@
   {
     "id": "belkor",
     "term": "Belkor",
-    "direct": 6,
+    "direct": 7,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -2922,7 +2922,7 @@
   {
     "id": "trakor",
     "term": "Trakor",
-    "direct": 3,
+    "direct": 4,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -2994,7 +2994,7 @@
   {
     "id": "pralaen",
     "term": "Pralaen",
-    "direct": 41,
+    "direct": 44,
     "related": 0,
     "teaching": 2,
     "senses": 1
@@ -3018,7 +3018,7 @@
   {
     "id": "drenaen",
     "term": "Drenaen",
-    "direct": 4,
+    "direct": 5,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -3050,7 +3050,7 @@
   {
     "id": "morthera",
     "term": "Morthera",
-    "direct": 3,
+    "direct": 5,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -3076,7 +3076,7 @@
     "term": "Kalrath",
     "direct": 1,
     "related": 0,
-    "teaching": 1,
+    "teaching": 0,
     "senses": 1
   },
   {
@@ -3138,9 +3138,9 @@
   {
     "id": "kelka",
     "term": "Kelka",
-    "direct": 2,
+    "direct": 3,
     "related": 0,
-    "teaching": 0,
+    "teaching": 1,
     "senses": 1
   },
   {
@@ -3170,7 +3170,7 @@
   {
     "id": "rethvok",
     "term": "Rethvok",
-    "direct": 2,
+    "direct": 3,
     "related": 0,
     "teaching": 2,
     "senses": 1
@@ -3202,8 +3202,8 @@
   {
     "id": "kinn",
     "term": "Kinn",
-    "direct": 1,
-    "related": 0,
+    "direct": 0,
+    "related": 1,
     "teaching": 0,
     "senses": 1
   },
@@ -3226,8 +3226,8 @@
   {
     "id": "shen",
     "term": "Shen",
-    "direct": 20,
-    "related": 1,
+    "direct": 21,
+    "related": 0,
     "teaching": 0,
     "senses": 3
   },
@@ -3250,17 +3250,17 @@
   {
     "id": "pral",
     "term": "Pral",
-    "direct": 1,
-    "related": 1,
+    "direct": 3,
+    "related": 0,
     "teaching": 0,
     "senses": 3
   },
   {
     "id": "vok",
     "term": "Vok",
-    "direct": 0,
+    "direct": 2,
     "related": 0,
-    "teaching": 2,
+    "teaching": 0,
     "senses": 2
   },
   {
@@ -3290,7 +3290,7 @@
   {
     "id": "droral",
     "term": "Droral",
-    "direct": 5,
+    "direct": 4,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -3298,7 +3298,7 @@
   {
     "id": "drobel",
     "term": "Drobel",
-    "direct": 6,
+    "direct": 5,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -3386,7 +3386,7 @@
   {
     "id": "mekral",
     "term": "Mekral",
-    "direct": 89,
+    "direct": 88,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -3402,7 +3402,7 @@
   {
     "id": "fennilphel",
     "term": "Fennilphel",
-    "direct": 8,
+    "direct": 7,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -3426,7 +3426,7 @@
   {
     "id": "zhaelral",
     "term": "Zhaelral",
-    "direct": 88,
+    "direct": 87,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -3506,7 +3506,7 @@
   {
     "id": "arthaxar",
     "term": "Arthaxar",
-    "direct": 4,
+    "direct": 5,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -3522,7 +3522,7 @@
   {
     "id": "liankavor",
     "term": "Liankavor",
-    "direct": 8,
+    "direct": 9,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -3578,7 +3578,7 @@
   {
     "id": "sharavok",
     "term": "Sharavok",
-    "direct": 34,
+    "direct": 35,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -3594,7 +3594,7 @@
   {
     "id": "dor",
     "term": "Dor",
-    "direct": 54,
+    "direct": 56,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -3650,7 +3650,7 @@
   {
     "id": "sharaen",
     "term": "Sharaen",
-    "direct": 9,
+    "direct": 10,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -3658,7 +3658,7 @@
   {
     "id": "dar",
     "term": "Dar",
-    "direct": 25,
+    "direct": 26,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -3714,7 +3714,7 @@
   {
     "id": "kes",
     "term": "Kes",
-    "direct": 121,
+    "direct": 131,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -3874,7 +3874,7 @@
   {
     "id": "shan",
     "term": "Shan",
-    "direct": 44,
+    "direct": 45,
     "related": 0,
     "teaching": 0,
     "senses": 2
@@ -3970,7 +3970,7 @@
   {
     "id": "rask",
     "term": "Rask",
-    "direct": 4,
+    "direct": 5,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -4274,7 +4274,7 @@
   {
     "id": "norzhir",
     "term": "Norzhir",
-    "direct": 5,
+    "direct": 6,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -4506,7 +4506,7 @@
   {
     "id": "kalravor",
     "term": "Kalravor",
-    "direct": 4,
+    "direct": 5,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -4602,7 +4602,7 @@
   {
     "id": "balral",
     "term": "Balral",
-    "direct": 20,
+    "direct": 21,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -4634,7 +4634,7 @@
   {
     "id": "sov",
     "term": "Sov",
-    "direct": 12,
+    "direct": 15,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -4650,7 +4650,7 @@
   {
     "id": "verdsov",
     "term": "Verdsov",
-    "direct": 3,
+    "direct": 4,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -5338,7 +5338,7 @@
   {
     "id": "brosmorl",
     "term": "Brosmorl",
-    "direct": 3,
+    "direct": 4,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -5346,7 +5346,7 @@
   {
     "id": "sadar",
     "term": "Sadar",
-    "direct": 2,
+    "direct": 3,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -5378,7 +5378,7 @@
   {
     "id": "dresh",
     "term": "Dresh",
-    "direct": 3,
+    "direct": 5,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -5386,7 +5386,7 @@
   {
     "id": "neshmorl",
     "term": "Neshmorl",
-    "direct": 2,
+    "direct": 3,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -5474,7 +5474,7 @@
   {
     "id": "zhaelpralaen",
     "term": "Zhaelpralaen",
-    "direct": 25,
+    "direct": 24,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -5650,7 +5650,7 @@
   {
     "id": "kormek",
     "term": "Kormek",
-    "direct": 4,
+    "direct": 3,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -6010,7 +6010,7 @@
   {
     "id": "vekmor",
     "term": "Vekmor",
-    "direct": 11,
+    "direct": 10,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -6050,7 +6050,7 @@
   {
     "id": "mekor",
     "term": "Mekor",
-    "direct": 12,
+    "direct": 13,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -6122,7 +6122,7 @@
   {
     "id": "ndavior",
     "term": "Ndavior",
-    "direct": 3,
+    "direct": 2,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -6130,7 +6130,7 @@
   {
     "id": "xaror",
     "term": "Xaror",
-    "direct": 6,
+    "direct": 8,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -6274,7 +6274,7 @@
   {
     "id": "ndavivek",
     "term": "Ndavivek",
-    "direct": 5,
+    "direct": 4,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -6410,9 +6410,9 @@
   {
     "id": "kalrin",
     "term": "Kalrin",
-    "direct": 7,
+    "direct": 6,
     "related": 0,
-    "teaching": 0,
+    "teaching": 1,
     "senses": 1
   },
   {
@@ -6458,7 +6458,7 @@
   {
     "id": "kalkel",
     "term": "Kalkel",
-    "direct": 8,
+    "direct": 7,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -7418,7 +7418,7 @@
   {
     "id": "savin",
     "term": "Savin",
-    "direct": 23,
+    "direct": 24,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -7842,7 +7842,7 @@
   {
     "id": "mahrwel",
     "term": "Mahrwel",
-    "direct": 1,
+    "direct": 2,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -7850,7 +7850,7 @@
   {
     "id": "eshnor",
     "term": "Eshnor",
-    "direct": 0,
+    "direct": 1,
     "related": 0,
     "teaching": 1,
     "senses": 1
@@ -7970,7 +7970,7 @@
   {
     "id": "verdmarin",
     "term": "Verdmarin",
-    "direct": 3,
+    "direct": 4,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -10746,9 +10746,9 @@
   {
     "id": "khumrel",
     "term": "Khumrel",
-    "direct": 1,
+    "direct": 2,
     "related": 0,
-    "teaching": 0,
+    "teaching": 1,
     "senses": 1
   },
   {
@@ -10762,7 +10762,7 @@
   {
     "id": "zhirrathor",
     "term": "Zhirrathor",
-    "direct": 1,
+    "direct": 2,
     "related": 0,
     "teaching": 1,
     "senses": 1
@@ -10770,8 +10770,8 @@
   {
     "id": "rin",
     "term": "Rin",
-    "direct": 0,
-    "related": 1,
+    "direct": 2,
+    "related": 0,
     "teaching": 1,
     "senses": 1
   },
@@ -10779,16 +10779,16 @@
     "id": "bel",
     "term": "Bel",
     "direct": 3,
-    "related": 2,
+    "related": 0,
     "teaching": 1,
     "senses": 1
   },
   {
     "id": "ohm",
     "term": "Ohm",
-    "direct": 4,
+    "direct": 5,
     "related": 0,
-    "teaching": 0,
+    "teaching": 1,
     "senses": 1
   },
   {
@@ -10802,8 +10802,8 @@
   {
     "id": "veth",
     "term": "Veth",
-    "direct": 4,
-    "related": 1,
+    "direct": 5,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
@@ -10866,15 +10866,15 @@
   {
     "id": "zhir",
     "term": "Zhir",
-    "direct": 0,
+    "direct": 2,
     "related": 0,
-    "teaching": 0,
+    "teaching": 1,
     "senses": 1
   },
   {
     "id": "khum",
     "term": "Khum",
-    "direct": 0,
+    "direct": 2,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -10890,24 +10890,24 @@
   {
     "id": "jor",
     "term": "Jor",
-    "direct": 14,
-    "related": 2,
+    "direct": 16,
+    "related": 0,
     "teaching": 1,
     "senses": 2
   },
   {
     "id": "jek",
     "term": "Jek",
-    "direct": 0,
-    "related": 1,
+    "direct": 2,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
   {
     "id": "wek",
     "term": "Wek",
-    "direct": 3,
-    "related": 2,
+    "direct": 5,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
@@ -10922,8 +10922,8 @@
   {
     "id": "wor",
     "term": "Wor",
-    "direct": 1,
-    "related": 1,
+    "direct": 3,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
@@ -10962,48 +10962,48 @@
   {
     "id": "phel",
     "term": "Phel",
-    "direct": 1,
-    "related": 1,
+    "direct": 2,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
   {
     "id": "prak",
     "term": "Prak",
-    "direct": 0,
-    "related": 1,
+    "direct": 2,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
   {
     "id": "bros",
     "term": "Bros",
-    "direct": 0,
-    "related": 1,
+    "direct": 2,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
   {
     "id": "bal",
     "term": "Bal",
-    "direct": 1,
-    "related": 1,
+    "direct": 3,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
   {
     "id": "bren",
     "term": "Bren",
-    "direct": 6,
-    "related": 1,
+    "direct": 8,
+    "related": 0,
     "teaching": 0,
     "senses": 2
   },
   {
     "id": "jel",
     "term": "Jel",
-    "direct": 0,
-    "related": 1,
+    "direct": 2,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
@@ -11011,23 +11011,23 @@
     "id": "wel",
     "term": "Wel",
     "direct": 6,
-    "related": 2,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
   {
     "id": "xar",
     "term": "Xar",
-    "direct": 3,
-    "related": 1,
+    "direct": 5,
+    "related": 0,
     "teaching": 0,
     "senses": 2
   },
   {
     "id": "xil",
     "term": "Xil",
-    "direct": 0,
-    "related": 1,
+    "direct": 2,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
@@ -11050,9 +11050,9 @@
   {
     "id": "rav",
     "term": "Rav",
-    "direct": 0,
+    "direct": 2,
     "related": 0,
-    "teaching": 0,
+    "teaching": 1,
     "senses": 1
   },
   {
@@ -11122,7 +11122,7 @@
   {
     "id": "vilor",
     "term": "Vilor",
-    "direct": 6,
+    "direct": 7,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -11178,7 +11178,7 @@
   {
     "id": "venak",
     "term": "Venak",
-    "direct": 2,
+    "direct": 3,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -11194,7 +11194,7 @@
   {
     "id": "van",
     "term": "Van",
-    "direct": 1,
+    "direct": 2,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -11235,8 +11235,8 @@
     "id": "nor-",
     "term": "Nor-",
     "direct": 0,
-    "related": 0,
-    "teaching": 1,
+    "related": 2,
+    "teaching": 0,
     "senses": 1
   },
   {
@@ -11266,7 +11266,7 @@
   {
     "id": "ver",
     "term": "Ver",
-    "direct": 27,
+    "direct": 28,
     "related": 0,
     "teaching": 1,
     "senses": 1
@@ -11274,7 +11274,7 @@
   {
     "id": "ra",
     "term": "Ra",
-    "direct": 34,
+    "direct": 33,
     "related": 2,
     "teaching": 0,
     "senses": 1
@@ -11282,7 +11282,7 @@
   {
     "id": "va",
     "term": "Va",
-    "direct": 28,
+    "direct": 27,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -11291,7 +11291,7 @@
     "id": "-ka",
     "term": "-ka",
     "direct": 0,
-    "related": 0,
+    "related": 2,
     "teaching": 0,
     "senses": 1
   },
@@ -11306,16 +11306,16 @@
   {
     "id": "pel",
     "term": "Pel",
-    "direct": 1,
-    "related": 2,
+    "direct": 3,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
   {
     "id": "jin",
     "term": "Jin",
-    "direct": 0,
-    "related": 1,
+    "direct": 2,
+    "related": 0,
     "teaching": 0,
     "senses": 1
   },
@@ -11331,8 +11331,8 @@
     "id": "rav-",
     "term": "Rav-",
     "direct": 0,
-    "related": 0,
-    "teaching": 1,
+    "related": 2,
+    "teaching": 0,
     "senses": 1
   },
   {
@@ -11355,7 +11355,7 @@
     "id": "ohm-",
     "term": "Ohm-",
     "direct": 0,
-    "related": 1,
+    "related": 2,
     "teaching": 0,
     "senses": 1
   },
@@ -11363,7 +11363,7 @@
     "id": "khum-",
     "term": "Khum-",
     "direct": 0,
-    "related": 0,
+    "related": 2,
     "teaching": 0,
     "senses": 1
   },
@@ -11419,7 +11419,7 @@
     "id": "-en",
     "term": "-en",
     "direct": 0,
-    "related": 3,
+    "related": 4,
     "teaching": 0,
     "senses": 3
   },
@@ -11476,7 +11476,7 @@
     "term": "-esh",
     "direct": 0,
     "related": 0,
-    "teaching": 0,
+    "teaching": 1,
     "senses": 1
   },
   {
@@ -11538,7 +11538,7 @@
   {
     "id": "ven",
     "term": "Ven",
-    "direct": 4,
+    "direct": 2,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -11562,8 +11562,8 @@
   {
     "id": "nor-ka",
     "term": "nor-ka",
-    "direct": 6,
-    "related": 1,
+    "direct": 8,
+    "related": 0,
     "teaching": 0,
     "senses": 2
   },
@@ -11595,8 +11595,8 @@
     "id": "morl-",
     "term": "Morl-",
     "direct": 0,
-    "related": 0,
-    "teaching": 1,
+    "related": 2,
+    "teaching": 0,
     "senses": 1
   },
   {
@@ -11612,7 +11612,7 @@
     "term": "terra- / Terra-",
     "direct": 0,
     "related": 3,
-    "teaching": 2,
+    "teaching": 0,
     "senses": 1
   },
   {
@@ -11627,24 +11627,24 @@
     "id": "thal-",
     "term": "Thal-",
     "direct": 0,
-    "related": 0,
-    "teaching": 1,
+    "related": 2,
+    "teaching": 0,
     "senses": 1
   },
   {
     "id": "reth- / rethvok-",
     "term": "Reth- / Rethvok-",
     "direct": 0,
-    "related": 0,
-    "teaching": 2,
+    "related": 2,
+    "teaching": 0,
     "senses": 1
   },
   {
     "id": "rin-",
     "term": "Rin-",
     "direct": 0,
-    "related": 0,
-    "teaching": 1,
+    "related": 2,
+    "teaching": 0,
     "senses": 1
   },
   {
@@ -11659,7 +11659,7 @@
     "id": "kal-",
     "term": "Kal-",
     "direct": 0,
-    "related": 0,
+    "related": 2,
     "teaching": 0,
     "senses": 1
   },
@@ -11667,40 +11667,40 @@
     "id": "shara-",
     "term": "Shara-",
     "direct": 0,
-    "related": 0,
-    "teaching": 2,
+    "related": 2,
+    "teaching": 0,
     "senses": 1
   },
   {
     "id": "thar-",
     "term": "Thar-",
     "direct": 0,
-    "related": 0,
-    "teaching": 2,
+    "related": 2,
+    "teaching": 0,
     "senses": 1
   },
   {
     "id": "var-",
     "term": "Var-",
     "direct": 0,
-    "related": 1,
-    "teaching": 2,
+    "related": 2,
+    "teaching": 0,
     "senses": 1
   },
   {
     "id": "aen-",
     "term": "Aen-",
     "direct": 0,
-    "related": 0,
-    "teaching": 1,
+    "related": 2,
+    "teaching": 0,
     "senses": 1
   },
   {
     "id": "pralaen-",
     "term": "Pralaen-",
     "direct": 0,
-    "related": 0,
-    "teaching": 1,
+    "related": 2,
+    "teaching": 0,
     "senses": 1
   },
   {
@@ -11715,7 +11715,7 @@
     "id": "ser-",
     "term": "Ser-",
     "direct": 0,
-    "related": 1,
+    "related": 2,
     "teaching": 0,
     "senses": 1
   },
@@ -11731,22 +11731,22 @@
     "id": "zhir-",
     "term": "Zhir-",
     "direct": 0,
-    "related": 0,
-    "teaching": 2,
+    "related": 2,
+    "teaching": 0,
     "senses": 1
   },
   {
     "id": "kel-",
     "term": "Kel-",
     "direct": 0,
-    "related": 0,
+    "related": 2,
     "teaching": 0,
     "senses": 1
   },
   {
     "id": "rinaen",
     "term": "Rinaen",
-    "direct": 567,
+    "direct": 594,
     "related": 0,
     "teaching": 1,
     "senses": 1
@@ -11754,7 +11754,7 @@
   {
     "id": "emil",
     "term": "Emil",
-    "direct": 33,
+    "direct": 34,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -11762,7 +11762,7 @@
   {
     "id": "teremil",
     "term": "Teremil",
-    "direct": 27,
+    "direct": 30,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -11770,7 +11770,7 @@
   {
     "id": "serin",
     "term": "Serin",
-    "direct": 8,
+    "direct": 10,
     "related": 0,
     "teaching": 0,
     "senses": 1
@@ -11778,7 +11778,7 @@
   {
     "id": "varadan",
     "term": "Varadan",
-    "direct": 8,
+    "direct": 9,
     "related": 0,
     "teaching": 0,
     "senses": 1

@@ -1,0 +1,1767 @@
+{
+  "audit": "example-sentences-v1",
+  "revision": "2026-09-23T13:23:40.591Z",
+  "decisions": {
+    "SENSE-PE-EGE1-0045": {
+      "decision": "Approve with edits",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "Celan: jor ohmshal nor fel rinaen welnali.\nRevised Translation: \"The ecosystem surges [destabilizes in a surge] when the population is small.\"",
+      "edits": {
+        "PE-EGE1-0045": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "SENSE-PE-EGE1-0059": {
+      "decision": "Approve with edits",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "Celan: rinaen terramav an verd; jor mavverd an sov.\nRevised Translation: \"Environmental degradation affects plant life; plant blight surges through the field.\"\n",
+      "edits": {
+        "PE-EGE1-0059": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "SENSE-PE-EGE1-0062": {
+      "decision": "Approve with edits",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "Celan: var welgorm shan drenfel; jor pelnor an terramahr.\nRevised Translation: \"Pollution moves through the stream; erosion surges along the coast.\"",
+      "edits": {
+        "PE-EGE1-0062": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "SENSE-PE-EGE1-0063": {
+      "decision": "Approve with edits",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "Celan: pel pelnor nalior; jor xilnalior.\nRevised Translation: \"Erosion cuts the habitat; fragmentation surges.\"\n",
+      "edits": {
+        "PE-EGE1-0063": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "SENSE-PE-EGE1-0006": {
+      "decision": "Approve with edits",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "Celan: wel dren shan shanmorl an selmor.\nRevised Translation: \"Water flows continuously through the canyon into the plain.\"",
+      "edits": {
+        "PE-EGE1-0006": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "SENSE-PE-EGE1-0011": {
+      "decision": "Approve with edits",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "Celan: wel dren thal velkmorl var terramahr.\nRevised Translation: \"Water flows continuously from the glacier toward the coast.\"\n",
+      "edits": {
+        "PE-EGE1-0011": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "SENSE-PE-EGE1-0012": {
+      "decision": "Approve with edits",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "Celan: wel drenfel var terramahr.\nRevised Translation: \"The stream flows continuously toward the coast.\"\n",
+      "edits": {
+        "PE-EGE1-0012": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "SENSE-PE-EGE1-0013": {
+      "decision": "Approve with edits",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "Celan: wel drenfel an fellun.\nRevised Translation: \"The stream flows continuously into the pond.\"",
+      "edits": {
+        "PE-EGE1-0013": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V1-0013": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Action: Replace the isolated fragment with your approved complete sentence, corrected for Celan grammar (strict VSO, sentence-initial lowercase, moraen for \"stands\"):\nCelan: moraen kadron-azon thal nor.\nTranslation: \"The man of balanced masculine and feminine qualities stands in harmony with time.\"",
+      "edits": {
+        "PE-V1-0013": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V1-0014": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "ction: Replace the isolated fragment with your approved complete sentence, corrected for Celan grammar (shalaen takes a direct object without preposition an; sentence-initial lowercase):\nCelan: shalaen I azron-theon.\nTranslation: \"I see the woman who embodies neutrality and balance.\"",
+      "edits": {
+        "PE-V1-0014": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0200": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Action: Move to Number System.\nDirect Base Sentence for Del (Two):\nnakaen del sivvok. (\"Two teams compete.\" ",
+      "edits": {
+        "PE-V3-0200": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0201": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Action: Move to Number System.\nDirect Base Sentence for Tren (Three):\nvar Ilin an tren kinn. (\"We go in three days.\"",
+      "edits": {
+        "PE-V3-0201": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0202": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Action: Move to Number System.\nDirect Base Sentence for Quen (Four):\nrinaen quen serin an teremil. (\"There are four friends at home.\")\n",
+      "edits": {
+        "PE-V3-0202": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0206": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Action: Move to Number System.\nDirect Base Sentence for Unar (One):\nver aen I unar kelka. (\"I do not speak one word.\" ",
+      "edits": {
+        "PE-V3-0206": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0207": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Action: Move to Number System.\nDirect Base Sentence for Quen (Four):\nrinaen quen trakor an xaror. (\"There are four boots in the room.\")",
+      "edits": {
+        "PE-V3-0207": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0209": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Number / Math Scale Formula.\nAction: Relabel as Number System / Scaled Form. Remove from sentence examples.\nDirect VSO Sentence for Unar (One):\nver aen I unar kelka. (\"I do not speak one word.\" — LX-V4-0071)",
+      "edits": {
+        "PE-V3-0209": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0210": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Number / Math Scale Formula.\nAction: Relabel as Number System / Scaled Form. Remove from sentence examples.\nDirect VSO Sentence for Quen (Four):\nrinaen quen serin an teremil. (\"There are four friends at home.\")\n",
+      "edits": {
+        "PE-V3-0210": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0212": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Number / Math Scale Formula.\nAction: Relabel as Number System / Scaled Form. Remove from sentence examples.\nDirect VSO Sentence for Unar (One):\nrinaen unar shalkor an xaror. (\"There is one lamp in the room.\")",
+      "edits": {
+        "PE-V3-0212": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0213": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Number / Math Scale Formula.\nAction: Relabel as Number System / Scaled Form. Remove from sentence examples.\nDirect VSO Sentence for Peth (Five):\ntal I peth shen morlak. (\"I give five measures of grain.\" — LX-V4-0085)\n",
+      "edits": {
+        "PE-V3-0213": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0214": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Number / Math Scale Formula.\nAction: Relabel as Number System / Scaled Form. Remove from sentence examples.\nDirect VSO Sentence for Unar (One):\ndar unar morthera an vorkor. (\"One pack beast waits at the gate.\")",
+      "edits": {
+        "PE-V3-0214": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S1-0003": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Compounding / Euphony Formula.\nAction: Relabel as Compound Derivation Formula under grammar rule GR-S1-0001 (Euphony). Remove from sentence examples.\nDirect VSO Sentence for Vok (Noun: Unity/Bond):\nrinaen vok an belvok. (\"There is a bond in the family.\")",
+      "edits": {
+        "PE-S1-0003": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S1-0004": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "PE-S1-0004 (Vok + Nor -> Voknor / Vokanor / Vokonor)\nClassification: Phonological Alternation Formula.\nAction: Relabel as Compound Derivation Formula under grammar rule GR-S1-0001 (Advanced Euphony). Remove from sentence examples.\nDirect VSO Sentence for Vok (Noun: Unity/Bond):\narth Ilin vok ser vaar. (\"We protect the bond with peace.\")\n",
+      "edits": {
+        "PE-S1-0004": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S1-0007": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Headword Citation / Dictionary Header.\nAction: Relabel as Headword Citation Form. Remove from sentence examples.\nDirect VSO Sentence for Belshara (Noun: Duty / Bound Path):\nlorin Ilin belshara an vethor. (\"Duty guides us through the shadow.\"",
+      "edits": {
+        "PE-S1-0007": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "TEACH-PE-S1-0009": {
+      "decision": "Approve with edits",
+      "proposal": "Move it to a separate Teaching notes / What not to write section.",
+      "notes": "Classification: Teaching Word List / Phonology Illustration.\nAction: Move to the Teaching Notes / Phonology Section. Unlink completely from the sentence examples of all three headwords.\nDirect VSO Sentence for Kalvok (Spouse / Partner):\nohmaen Ya kalvok-en. (\"You love your bonded partner.\" — LX-V3-0092)\nDirect VSO Sentence for Kalrath (Apex Predator):\nvethoraen kalrath an morl. (\"The apex predator sleeps in the mountains.\" — LX-V4-0060)\nDirect VSO Sentence for Rethlian (Modal: Might / May):\nvar I rethlian. (\"I might go.\" — LX-V3-0019)\n",
+      "edits": {
+        "PE-S1-0009": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S1-0010": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "PE-S1-0010 (Belthal — \"Order\")\nClassification: Headword Citation / Dictionary Header.\nAction: Relabel as Headword Citation Form. Remove from sentence examples.\nDirect VSO Sentence for Belthal (Noun: Order / Woven Balance):\nlorin belthal Ilin. (\"Order guides us.\"",
+      "edits": {
+        "PE-S1-0010": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S1-0011": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Single-word citation.\nAction: Relabel as Word Form / Citation under Rethvok.\nDirect VSO Sentence:\nfahaen I rethvok. (\"I fear chaos.\"\n",
+      "edits": {
+        "PE-S1-0011": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0001": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Inverted metaphorical fragment.\nAction: Relabel as Conceptual Metaphor under Fah.\nDirect VSO Sentence:\nrathaen lalin fah. (\"They hate the darkness.\"",
+      "edits": {
+        "PE-S3-0001": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0002": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Subjectless infinitive idiom.\nAction: Relabel as Idiomatic Phrase under Pralaen and Morl.\nDirect VSO Sentence:\nvar gavral an morl. (\"The hunter goes to the mountain.\" ",
+      "edits": {
+        "PE-S3-0002": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0005": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Subjectless infinitive idiom.\nAction: Relabel as Idiomatic Phrase under Talaen and Thal.\nDirect VSO Sentence:\ntheon dren kal thal. (\"The neutral person brings strength and balance.\" ",
+      "edits": {
+        "PE-S3-0005": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0006": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Negative particle fragment.\nAction: Relabel as Philosophical Note under Thal and Reth.\nDirect VSO Sentence:\nver var I an dren. (\"I do not go to the water.\")\n",
+      "edits": {
+        "PE-S3-0006": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0007": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Noun phrase fragment.\nAction: Relabel as Metaphorical Phrase under Thar and Rethvok.\nDirect VSO Sentence:\nfahaen ser rethvok. (\"The friend fears chaos.\")",
+      "edits": {
+        "PE-S3-0007": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0008": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Prepositional fragment.\nAction: Relabel as Philosophical Phrase under Nor.\nDirect VSO Sentence:\nver rinaen ravohm nor neth. (\"There is no loneliness during the rest.\" ",
+      "edits": {
+        "PE-S3-0008": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0009": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Subjectless infinitive idiom.\nAction: Relabel as Idiomatic Phrase under Shalaen and Rin.\nDirect VSO Sentence:\nshalaen I rin an ser. (\"I see the essence in the friend.\")\n",
+      "edits": {
+        "PE-S3-0009": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0010": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Suffixed grammatical form (-esh).\nAction: Relabel as Inflected / Bound Form under Bel and -esh.\nDirect VSO Sentence:\nbel mekral zhelvorkor ser zhelpel. (\"The technician connects the switch to the terminal.\" ",
+      "edits": {
+        "PE-S3-0010": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0011": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "PE-S3-0011 (talaen an ohm — \"to find connection\")\nClassification: Subjectless infinitive idiom.\nAction: Relabel as Idiomatic Phrase under Talaen and Ohm.\nDirect VSO Sentence:\nrinaen ohm ser Ilin. (\"Connection is with us.\")",
+      "edits": {
+        "PE-S3-0011": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0012": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "PE-S3-0012 (thar an kaleth — \"a strong heart / courage\")\nClassification: Idiomatic Noun Phrase (Fragment).\nAction: Relabel as Idiomatic Metaphor under Thar. Remove from the primary sentence feed.\nDirect VSO Sentence for Thar:\naen thar lian. (\"The heart speaks truth.\" — LX-V2-0007)\n",
+      "edits": {
+        "PE-S3-0012": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0013": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Idiomatic Noun Phrase (Fragment).\nAction: Relabel as Idiomatic Metaphor under Thar. Remove from the primary sentence feed.\nDirect VSO Sentence for Thar:\nrinaen thar-ian vaareth. (\"My heart is peaceful.\")\n",
+      "edits": {
+        "PE-S3-0013": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0014": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Valid Sentence (needs capitalization & punctuation fix).\nAction: Keep as an Ordinary Sentence Example, but update text to strict grammar rules:\n var I an vaar. (sentence-initial lowercase, period at end).",
+      "edits": {
+        "PE-S3-0014": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0015": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Proverbial Infinitive (Fragment).\nAction: Relabel as Proverbial Phrase under Var and Shara. Remove from primary sentence feed.\nDirect VSO Sentence for Var:\nvar I an shara. (\"I go on the path.\")",
+      "edits": {
+        "PE-S3-0015": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0016": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Traditional Title / Formula.\nAction: Relabel as Traditional Title under Dral and Aen. Remove from primary sentence feed.\nDirect VSO Sentence for Aen:\naen liorin lian. (\"The elder speaks truth.\" — LX-V2-0028)",
+      "edits": {
+        "PE-S3-0016": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0017": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Proverbial Infinitive (Fragment).\nAction: Relabel as Proverbial Phrase under Pralaen and Shara. Remove from primary sentence feed.\nDirect VSO Sentence for Pralaen:\npralaen I shara. (\"I make a path.\")\n",
+      "edits": {
+        "PE-S3-0017": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0018": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Single Compound Noun.\nAction: Relabel as Compound Form under Rav and Terra.\nDirect VSO Sentence using Terrarav:\nrinaen terrarav an thar-ian. (\"The pull of my homeland is in my heart.\")\n",
+      "edits": {
+        "PE-S3-0018": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0019": {
+      "decision": "Approve proposal",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Idiomatic Metaphor (Fragment).\nAction: Relabel as Idiomatic Phrase under Khumrel and Thar.\nDirect VSO Sentence using Khumrel:\npralaen I khumrel an teremil. (\"I practice compassionate listening at home.\")\n",
+      "edits": {
+        "PE-S3-0019": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0020": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Poetic Noun Phrase (Fragment).\nAction: Relabel as Poetic Phrase under Zhirin and Arthen.\nDirect VSO Sentence for Zhirin:\nkorinaen I zhirin. (\"I hold the rope/cord.\" \n",
+      "edits": {
+        "PE-S3-0020": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0021": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Single Compound Noun.\nAction: Relabel as Compound Form under Zhir and Rathor.\nDirect VSO Sentence using zhirrathor:\nshalaen I zhirrathor an liankavor. (\"I see the thread to the past in the archive.\")\n",
+      "edits": {
+        "PE-S3-0021": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0022": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Noun Phrase (Fragment).\nAction: Relabel as Noun Phrase under Kelka and Kalrin.\nDirect VSO Sentence for Kelka:\nver aen I unar kelka. (\"I do not speak one word.\" ",
+      "edits": {
+        "PE-S3-0022": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S4B-0005": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Classification: Orthographic Reference Header.\nAction: Relabel as Capitalization Contrast Note under rule GR-S4B-0002. Remove completely from the sentence examples table.\nDirect VSO Sentences Showing the Contrast:\nMundane ground: moraen I an terra. (\"I stand on the ground.\" \nSacred entity: rinaen Terra vaar. (\"The Earth is peaceful.\"",
+      "edits": {
+        "PE-S4B-0005": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S4B-0007": {
+      "decision": "Approve with edits",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen rathor an liankavor. (LX-NE1-0032)\nTranslation: \"History is preserved in the archive.\"\nSentence 2 (Noun as Object):\nCelan: nkathalaen velar rathor. (LX-V3-0096)\nTranslation: \"The elder grieves for the past.\"",
+      "edits": {
+        "PE-S4B-0007": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-kadron": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Subject in VSO):\nCelan: krezaen kadron an varok. (LX-V3-0098)\nTranslation: \"The man rages at the command.\"\nSentence 2 (Subject in VSO):\nCelan: var kadron an morl. (PE-S4A-0001)\nTranslation: \"The man goes to the mountain.\"",
+      "edits": {
+        "PE-V1-0013": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-azron": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Nethaen Azron an nethor = The woman sits on the chair.",
+      "edits": {
+        "PE-V1-0014": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-theon": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Theon dren kal thal. = The neutral person brings strength and balance.",
+      "edits": {
+        "PE-V1-0014": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-azon": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Nethaen Azron an nethor. = The woman sits on the chair.",
+      "edits": {
+        "PE-V1-0013": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-ka": {
+      "decision": "Approve with edits",
+      "proposal": "Place the possessive phrases under -ka. Keep negative examples under Ka. Review ka-shen as a compound separately.",
+      "notes": ". Direct Example Sentences for Standalone Ka\nUsage 1 (Documented Part of Speech: PREPOSITION — Without):\nCelan: var I ka shal. (LX-V1-0018)\nTranslation: \"I go without light.\"\nUsage 2 (Documented Part of Speech: PREPOSITION — Without in Negative Context):\nCelan: ver var I ka trakor. (LX-V4-0039)\nTranslation: \"I do not go without shoes.\"\nUsage 3 (Documented Part of Speech: INTERJECTION — No):\nCelan: aen ser: \"ka.\"\nTranslation: \"The friend says: 'No.'\"",
+      "edits": {
+        "PE-V1-0003": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V1-0005": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V2-0050": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-nor": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Usage 1 (Documented Part of Speech: PREPOSITION — At / in / during [time]):\nCelan: ver rinaen ravohm nor neth. \nTranslation: \"There is no loneliness during the rest.\"\nUsage 2 (Documented Part of Speech: NOUN — Time / The present flow):\nCelan: lorin nor shara-ian.\nTranslation: \"Time guides my path.\"",
+      "edits": {
+        "PE-V1-0019": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V1-0029": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-thaal": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Superlative Particle):\nCelan: I dren shaleth thaal. (LX-V2-0025)\nGloss: I dren [my water] | shaleth [bright] | thaal [most].\nTranslation: \"My water is the brightest.\"\nSentence 2 (Noun as Object — The Unknown):\nCelan: fahaen ser thaal.\nGloss: fahaen [fears] | ser [friend] | thaal [the unknown].\nTranslation: \"The friend fears the unknown.\"",
+      "edits": {
+        "PE-DR1-0003": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-DR1-0004": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-vaar": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Noun in Prepositional Phrase):\nCelan: var I an vaar. (LX-V1-0015)\nGloss: var [go] | I [I] | an vaar [in peace].\nTranslation: \"I go in peace.\"\nSentence 2 (Noun in Prepositional Phrase):\nCelan: tal Ilin talrin ser vaar. (LX-V2-0037)\nGloss: tal [give] | Ilin [we] | talrin [offering] | ser vaar [with peace].\nTranslation: \"We give an offering with peace.\"",
+      "edits": {
+        "PE-V3-0069": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-li-seren": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "entence 1 (Noun as Subject):\nCelan: arth Li-Seren kaleth.\nGloss: arth [defends] | Li-Seren [Respected Guardian] | kaleth [fortress].\nTranslation: \"The Respected Guardian defends the fortress.\"\nSentence 2 (Noun as Subject):\nCelan: var Li-Seren an Varthas.\nGloss: var [goes] | Li-Seren [Respected Guardian] | an Varthas [to city].\nTranslation: \"The Respected Guardian goes to the city.\"",
+      "edits": {
+        "PE-V3-0005": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-unar": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Ver aen I unar kelka. (\"I do not speak one word.\" ",
+      "edits": {
+        "PE-V3-0206": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0209": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0212": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0214": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-del": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Nakaen del sivvok. (\"Two teams compete.\" ",
+      "edits": {
+        "PE-V3-0200": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0204": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0216": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V4-0084": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-tren": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Var Ilin an tren kinn. (\"We go in three days.\" ",
+      "edits": {
+        "PE-V3-0201": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-quen": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Rinaen quen serin an teremil. (\"There are four friends at home.\")",
+      "edits": {
+        "PE-V3-0202": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0205": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0207": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0208": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0210": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-peth": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Tal I peth shen morlak. (\"I give five measures of grain.\" ",
+      "edits": {
+        "PE-V3-0213": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0219": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-oven": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "inaen oven morthera an shara. (\"There are eight pack beasts on the path.\")",
+      "edits": {
+        "PE-V3-0208": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0211": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-shen": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Noun as Object — Currency):\nCelan: tal I shen an varadan.\nTranslation: \"I give currency to the merchant.\"\nSentence 2 (Measure Unit — Measure of weight/volume):\nCelan: tal I peth shen morlak. (LX-V4-0085)\nTranslation: \"I give five measures of grain.\"",
+      "edits": {
+        "PE-V2-0050": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-pral": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen pral an arthaxar.\nTranslation: \"There is detail in the armor.\"\nSentence 2 (Noun as Object):\nCelan: kes I pral an kareth.\nTranslation: \"I notice detail on the hammer.\"",
+      "edits": {
+        "PE-V2-0017": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-rin": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Noun as Object):\nCelan: shalaen I rin an ser.\nTranslation: \"I see the essence in the friend.\"\nSentence 2 (Noun as Subject):\nCelan: lorin rin thar-ian.\nTranslation: \"Essence guides my heart.\"",
+      "edits": {
+        "PE-V4-0096": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-bel": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Verb in VSO):\nCelan: bel mekral zhelvorkor ser zhelpel. (LX-ICAES1-0043)\nTranslation: \"The technician connects the switch to the terminal.\"\nSentence 2 (Verb in VSO):\nCelan: bel mekral arthzhelshara ser morzhelshan. (LX-ICAES1-0053)\nTranslation: \"The technician connects the circuit protector to the electrical ground.\"\n",
+      "edits": {
+        "PE-V2-0008": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V2-0009": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-veth": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Noun in Temporal Phrase):\nCelan: tlamoraen Lako nor veth. \nTranslation: \"They two have sex at night.\"\nSentence 2 (Noun as Subject):\nCelan: rinaen veth morl verdmarin.\nTranslation: \"There is shade beneath the tree.\"\n",
+      "edits": {
+        "PE-V3-0067": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-jor": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen jor an mahrwel.\nTranslation: \"There is a surge in the current.\"\nSentence 2 (Noun as Object):\nCelan: kes I jor an dralorim.\nTranslation: \"I notice a burst in the storm.\"",
+      "edits": {
+        "PE-V2-0018": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V2-0019": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-jek": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen jek an neshmorl.\nTranslation: \"There is a spiral in the coral.\"\nSentence 2 (Noun as Object):\nCelan: kes I jek an zhirin.\nTranslation: \"I notice a twist in the cord.\"\n",
+      "edits": {
+        "PE-V2-0020": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-wek": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen wek an eshnor.\nTranslation: \"There is a cycle in the weather.\"\nSentence 2 (Noun as Object):\nCelan: sharaen Ilin wek an lun.\nTranslation: \"We follow the cycle of the moon.\"",
+      "edits": {
+        "PE-V2-0025": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-CNE1-0064": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-wor": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen wor an sov.\nTranslation: \"There is abundance in the field.\"\nSentence 2 (Noun as Object):\nCelan: tal Terra wor an Ilin.\nTranslation: \"The Earth gives plenty to us.\"",
+      "edits": {
+        "PE-V2-0026": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-phel": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "entence 1 (Noun as Subject):\nCelan: rinaen phel an xarphelor. (LX-NE1-0022)\nTranslation: \"Warmth is in the insulated shelter.\"\nSentence 2 (Noun as Object):\nCelan: tal krezor phel an Ilin.\nTranslation: \"The hearth gives warmth to us.\"",
+      "edits": {
+        "PE-V2-0013": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-prak": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen prak an belrin.\nTranslation: \"There is softness in the fabric.\"\nSentence 2 (Noun as Object):\nCelan: kes I prak an rask.\nTranslation: \"I notice softness in the hide.\"",
+      "edits": {
+        "PE-V2-0014": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-bros": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen bros an brosmorl.\nTranslation: \"There is a layer in the slate.\"\nSentence 2 (Noun as Object):\nCelan: kes I bros an sadar.\nTranslation: \"I notice a stratum in the sand.\"",
+      "edits": {
+        "PE-V2-0010": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-bal": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen bal an verdsov.\nGloss: rinaen [is] | bal [growth] | an verdsov [in garden].\nTranslation: \"There is growth in the garden.\"\nSentence 2 (Noun as Object):\nCelan: kes balral bal an sov.\nGloss: kes [notices] | balral [farmer] | bal [growth] | an sov [in field].\nTranslation: \"The farmer notices growth in the field.\"",
+      "edits": {
+        "PE-V2-0011": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-bren": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen bren an sov.\nGloss: rinaen [is] | bren [harvest] | an sov [in field].\nTranslation: \"The harvest is in the field.\"\nSentence 2 (Noun as Object):\nCelan: vekaen morvek bren an varthas.\nGloss: vekaen [carries] | morvek [wagon] | bren [harvest] | an varthas [to city].\nTranslation: \"The wagon carries the harvest to the city.\"\n",
+      "edits": {
+        "PE-V2-0012": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-jel": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen jel an vilor.\nGloss: rinaen [is] | jel [flavor/zest] | an vilor [in fruit].\nTranslation: \"There is flavor in the fruit.\"\nSentence 2 (Noun as Object):\nCelan: dor I jel an venak.\nGloss: dor [put] | I [I] | jel [zest] | an venak [in stew].\nTranslation: \"I put zest in the stew.\"",
+      "edits": {
+        "PE-V2-0021": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-wel": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Verb in VSO):\nCelan: wel drenfel var terramahr. (LX-EGE1-0013)\nGloss: wel [flows] | drenfel [stream] | var terramahr [toward coast].\nTranslation: \"The stream flows toward the coast.\"\nSentence 2 (Verb in VSO):\nCelan: wel zhirverd shan verdpel. (LX-EGE1-0038)\nGloss: wel [spreads/flows] | zhirverd [vine] | shan verdpel [through grass].\nTranslation: \"The vine spreads through the grass.\"",
+      "edits": {
+        "PE-V2-0023": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V2-0024": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-xar": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen xar esh mekor.\nGloss: rinaen [is] | xar [cover/shelter] | esh mekor [above building].\nTranslation: \"A cover is over the building.\"\nSentence 2 (Noun as Object):\nCelan: dor seren xar an savin.\nGloss: dor [places] | seren [guardian] | xar [cover] | an savin [on patient].\nTranslation: \"The guardian places a cover on the patient.\"",
+      "edits": {
+        "PE-V2-0028": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-xil": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Sentence 1 (Noun as Subject):\nCelan: rinaen xil an dresh.\nGloss: rinaen [is] | xil [shard] | an dresh [in crystal].\nTranslation: \"There is a shard in the crystal.\"\nSentence 2 (Noun as Object):\nCelan: kes I xil an morl.\nGloss: kes [notice] | I [I] | xil [shard] | an morl [in stone].\nTranslation: \"I notice a shard in the stone.\"\n",
+      "edits": {
+        "PE-V2-0027": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-nor-": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Nor-var I an dren. (\"I will go to the water.\")\nNor-vethoraen Ilin an nethlor. (\"We will sleep on the beds.\" ",
+      "edits": {
+        "PE-S3-0008": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-pel": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Rinaen pel an peleth. (\"There is sharpness in the blade.\")\nKes I pel an kareth. (\"I notice the cutting edge on the tool.\")",
+      "edits": {
+        "PE-V2-0015": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V2-0016": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-jin": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Rinaen dresh jin an morl. (\"The crystal is rare in the mountain.\")\nKes I emil jin an van. (\"I notice rare food in the market.\")",
+      "edits": {
+        "PE-V2-0022": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-rav-": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Rinaen rav kaleth an kalravor. (\"There is a strong pull in the gravity pocket.\")\nKes I rav an thar-ian. (\"I feel the pull in my heart.\")\n",
+      "edits": {
+        "PE-S3-0018": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-ohm-": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Rinaen Ohm ser Ilin. (\"Connection is with us.\" \nShalaen I ohm an belvok. (\"I see the connection in the family.\")\n",
+      "edits": {
+        "PE-S3-0011": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S4A-0003": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S4A-0005": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-khum-": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Var Ilin an khum. (\"We go to the listening circle.\")\nRinaen khum an teremil. (\"There is reconciliation at home.\")\n",
+      "edits": {
+        "PE-S3-0019": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK--en": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Var Liorinen lianaen an shalor. (\"The Honored Elder goes to pray in the sanctuary.\" — LX-V3-0004)\nOhmaen Ya Kalvok-en. (\"You love your bonded partner.\" — LX-V3-0092)\nAen Li-Seren-en an Ilin. (\"The Respected Guardian speaks to us.\")\n\nOhmaen Ya Kalvok-en. (\"You love your bonded partner.\" — LX-V3-0092)\nAen Li-Seren-en an Ilin. (\"The Respected Guardian speaks to us.\")\n",
+      "edits": {
+        "OVERRIDE-800077fbe9a1": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK--aen": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Status: APPROVE ALL THREE.\nWhy: All three examples directly show -aen converting different roots into active VSO verbs:\nShalaen I vethral an verdor. (Shal \n→\n→\n Shalaen [to see])\nPralaen I krezor. (Pral \n→\n→\n Pralaen [to make])\nVelaen Ilin morlak. (Vel \n→\n→\n Velaen [to eat])",
+      "edits": {
+        "OVERRIDE-c0f3cb0d926e": {
+          "celan": "",
+          "english": ""
+        },
+        "OVERRIDE-5fa075482c2b": {
+          "celan": "",
+          "english": ""
+        },
+        "OVERRIDE-15bcc5e60ea2": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK--eth": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Status: APPROVE ALL THREE.\nWhy: All three examples directly show -eth forming post-nominal adjectives:\nRinaen drenvor woreth. (Wor \n→\n→\n Woreth [full])\nRinaen krezor feneth. (Fen \n→\n→\n Feneth [hot])\nRinaen shena shaleth. (Shal \n→\n→\n Shaleth [gold/bright])\n",
+      "edits": {
+        "OVERRIDE-53c78d5c8fab": {
+          "celan": "",
+          "english": ""
+        },
+        "OVERRIDE-9f4c89568e03": {
+          "celan": "",
+          "english": ""
+        },
+        "OVERRIDE-5b1c1f0c2761": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-nor-ka": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Pralaen belkor an Azron nor-ka. (\"The tunic was made by the woman.\")\nDrenaen dren an felka nor-ka. (\"The water was drunk by the child.\")\n",
+      "edits": {
+        "PE-V4-0008": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-morl-": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Var gavral an morl. (\"The hunter goes to the mountain.\"\nRinaen morl maganeth. (\"The mountain is massive/heavy.\")\n",
+      "edits": {
+        "PE-S3-0002": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-terra- / terra-": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Mundane ground: Moraen I an terra. (\"I stand on the ground.\" \nSacred entity: Ver ohmaen Mechuma lian Thal Terra. (\"Mechuma does not honor the truth of the Balance of Terra.\" \nLiving world: Rinaen Terra vaar. (\"The Earth is peaceful.\" \n",
+      "edits": {
+        "PE-S3-0003": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S3-0004": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S3-0018": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S4A-0002": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S4B-0005": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-thal-": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "Noun (Balance): Theon dren kal thal. (\"The neutral person brings strength and balance.\"\nPreposition (From/Out of): Talaen I drenvor thal pralor. (\"I take the bowl from the table.\" \n",
+      "edits": {
+        "PE-S3-0005": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S3-0006": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-reth- / rethvok-": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "tandalone Reth (Uncertainty): Kal Kalor an Reth. (\"True strength is shown when facing uncertainty.\" \nStandalone Rethvok (Chaos): Fahaen I rethvok. (\"I fear chaos.\" — LX-V4-0075)*",
+      "edits": {
+        "PE-S3-0006": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S3-0007": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-rin-": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "shalaen I rin an ser. (\"I see the essence in the friend.\")\nlorin rin thar-ian. (\"Essence guides my heart.\")\n",
+      "edits": {
+        "PE-S3-0009": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-kal-": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "rinaen kal an kareth. (\"There is strength in the hammer.\")\ntal Terra kal an Ilin. (\"The Earth gives strength to us.\")",
+      "edits": {
+        "PE-S3-0022": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-shara-": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "var I an shara. (\"I go on the path.\")\nlorin shara sharavok. (\"The path guides the caravan.\" ",
+      "edits": {
+        "PE-S3-0015": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S3-0017": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-thar-": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "aen thar lian. (\"The heart speaks truth.\" \nrinaen thar-ian vaareth. (\"My heart is peaceful.\")",
+      "edits": {
+        "PE-S3-0012": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S3-0013": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-var-": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "var I an vaar. (\"I go in peace.\" \nvar kadron an morl. (\"The man goes to the mountain.\")\n",
+      "edits": {
+        "PE-S3-0014": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S3-0015": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S4A-0001": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-aen-": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "aen liorin lian. (\"The elder speaks truth.\" \naen I kelka an ser. (\"I speak a word to the friend.\")",
+      "edits": {
+        "PE-S3-0016": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-pralaen-": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "pralaen I krezor. (\"I make a hearth.\" \npralaen mekral belrin ser belpralmek. (\"The craftworker makes fabric with the loom.\" \n",
+      "edits": {
+        "PE-S3-0017": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-ser-": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "As Noun (friend): var ser an dren. (\"The friend goes to the water.\")\nAs Preposition (with): rinaen ohm ser Ilin. (\"Connection is with us.\")",
+      "edits": {
+        "PE-S4A-0004": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S4A-0005": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-zhir-": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "shalaen I zhir an belvok. (\"I see the thread [lineage] in the family.\")\nrinaen zhir an norzhir. (\"There is a thread in the timeline.\")",
+      "edits": {
+        "PE-S3-0020": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S3-0021": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-kel-": {
+      "decision": "Approve with edits",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "As Noun (text/word): rinaen kel an kelpral. (\"The text is on the writing tablet.\"\nAs Verb (to say/name): kel liorin norzhir. (\"The elder names the timeline.\"",
+      "edits": {
+        "PE-S3-0022": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-V1-0001": {
+      "decision": "Approve proposal",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "Decision: Approve Proposal (Deduplicate).\nCanonical Record to Keep: PE-V1-0001\nDuplicate Record to Retire: PE-V1-0017\nAll Linked Headwords (Preserved on PE-V1-0001): Var, I, Dren\nSource Provenance: LX-V1-0001, LX-V1-0019\nCorrected Canonical Text:\nCelan: var I an dren.\nEnglish: \"I go to the water.\"",
+      "edits": {
+        "PE-V1-0001": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V1-0017": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-V4-0016": {
+      "decision": "Approve proposal",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "Decision: Approve Proposal (Deduplicate).\nCanonical Record to Keep: PE-V4-0016\nDuplicate Record to Retire: PE-V4-0060\nAll Linked Headwords (Preserved on PE-V4-0016): Nethaen, Azron, Nethor\nSource Provenance: LX-V4-0010, LX-V4-0054\nCorrected Canonical Text:\nCelan: nethaen azron an nethor.\nEnglish: \"The woman sits on the chair.\"",
+      "edits": {
+        "PE-V4-0016": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V4-0060": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-V4-0022": {
+      "decision": "Approve proposal",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "108 · PE-V4-0022 & PE-V4-0031\nAction: Merge into PE-V4-0022. Retire PE-V4-0031.\nLinked Headwords: Drenvor, Woreth, Rinaen.\nCorrected Canonical Text: rinaen drenvor woreth. (\"The bowl is full.\")",
+      "edits": {
+        "PE-V4-0022": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V4-0031": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-V4-0023": {
+      "decision": "Approve with edits",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "109 · PE-V4-0023 & PE-V4-0036\nAction: Merge into PE-V4-0023. Retire PE-V4-0036.\nLinked Headwords: Krezor, Feneth, Rinaen.\nCorrected Canonical Text: rinaen krezor feneth. (\"The hearth is hot.\")\n",
+      "edits": {
+        "PE-V4-0023": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V4-0036": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-V4-0035": {
+      "decision": "Approve proposal",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "Action: Merge into PE-V4-0035. Retire PE-V4-0064.\nLinked Headwords: Var, Vethral, Joreth.\nCorrected Canonical Text: var vethral joreth. (\"The pack hunter goes fast.\")",
+      "edits": {
+        "PE-V4-0035": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V4-0064": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-DSL1-0004": {
+      "decision": "Approve proposal",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "Action: Merge into PE-DSL1-0004. Retire PE-DSL1-0057.\nLinked Headwords: Drentalaen, Krezvek, Dren, I.\nCanonical Text: drentalaen I dren an krezvek. (\"I pour water into the cooking pot.\")\n",
+      "edits": {
+        "PE-DSL1-0004": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-DSL1-0057": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-DSL1-0006": {
+      "decision": "Approve proposal",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "Action: Merge into PE-DSL1-0006. Retire PE-DSL1-0051.\nLinked Headwords: Pelvaraen, Krezpral, I.\nCanonical Text: pelvaraen I krezpral. (\"I scrape the pan.\")\n",
+      "edits": {
+        "PE-DSL1-0006": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-DSL1-0051": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-PFM1-0045": {
+      "decision": "Approve proposal",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "Action: Merge into PE-PFM1-0045. Retire PE-PFM1-0077.\nLinked Headwords: Kasharaen, Sharavok, Lianrethor.\nCanonical Text: kasharaen sharavok lianrethor. (\"The caravan avoids the anomaly zone.\")\n",
+      "edits": {
+        "PE-PFM1-0045": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-PFM1-0077": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-PFM1-0055": {
+      "decision": "Approve proposal",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "Action: Merge into PE-PFM1-0055. Retire PE-PFM1-0075.\nLinked Headwords: Keldoraen, Seren, Lianrethxar.\nCanonical Text: keldoraen seren lianrethxar. (\"The guardian marks the anomaly boundary.\")",
+      "edits": {
+        "PE-PFM1-0055": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-PFM1-0075": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-FAP1-0007": {
+      "decision": "Approve proposal",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "Action: Merge into PE-FAP1-0007. Retire PE-FAP1-0016.\nLinked Headwords: Balpralaen, Verdsov, I.\nCanonical Text: balpralaen I verdsov. (\"I cultivate the garden.\")\n",
+      "edits": {
+        "PE-FAP1-0007": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-FAP1-0016": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-TVO1-0030": {
+      "decision": "Approve proposal",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "PE-TVO1-0030 & PE-TVO1-0058\nAction: Merge into PE-TVO1-0030. Retire PE-TVO1-0058.\nLinked Headwords: Ravvekaen, Mahrvek, Mahrpral.\nCanonical Text: ravvekaen mahrvek mahrpral. (\"The ship tows the raft.\")\n",
+      "edits": {
+        "PE-TVO1-0030": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-TVO1-0058": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-TVO1-0040": {
+      "decision": "Approve proposal",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "Action: Merge into PE-TVO1-0040. Retire PE-TVO1-0067.\nLinked Headwords: Eshvaraen, Eshlorral, Eshvek.\nCanonical Text: eshvaraen eshlorral eshvek. (\"The pilot flies the aircraft.\")",
+      "edits": {
+        "PE-TVO1-0040": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-TVO1-0067": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-GCI1-0005": {
+      "decision": "Approve proposal",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-GCI1-0005": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-GCI1-0046": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-DW1-0010": {
+      "decision": "Approve proposal",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-DW1-0010": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-DW1-0011": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-DW1-0012": {
+      "decision": "Approve proposal",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-DW1-0012": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-DW1-0016": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-DW1-0013": {
+      "decision": "Approve proposal",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-DW1-0013": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-DW1-0018": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-PSAC1-0008": {
+      "decision": "Approve proposal",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-PSAC1-0008": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-PSAC1-0025": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-PSAC1-0012": {
+      "decision": "Approve proposal",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-PSAC1-0012": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-PSAC1-0015": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-PSAC1-0033": {
+      "decision": "Approve proposal",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-PSAC1-0033": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-PSAC1-0035": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-V1-0002": {
+      "decision": "Approve with edits",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "Issue: Duplicate record; identical except for messy quotation marks.\nAction: Merge into PE-V1-0002. Retire PE-V1-0025.\nStandardized Celan: ra var ser? (or with tail: ra var ser lo?)\nDisplay Translation: \"Where does the friend go?\"",
+      "edits": {
+        "PE-V1-0002": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V1-0025": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-V1-0027": {
+      "decision": "Approve with edits",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "Issue: Duplicate record; identical except for double quotation marks.\nAction: Merge into PE-V1-0027. Retire PE-V3-0006.\nStandardized Celan: va var an dren!\nDisplay Translation: \"Go to the water!\"",
+      "edits": {
+        "PE-V1-0027": {
+          "celan": "",
+          "english": "“Go to the water!”"
+        },
+        "PE-V3-0006": {
+          "celan": "",
+          "english": "“Go to the water!”"
+        }
+      }
+    },
+    "VAR-PE-V1-0037": {
+      "decision": "Approve with edits",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "Issue: Duplicate record; identical except for double quotation marks.\nAction: Merge into PE-V1-0037. Retire PE-V1-0044.\nStandardized Celan: var I esh dren.\nDisplay Translation: \"I go above the water.\"\n",
+      "edits": {
+        "PE-V1-0037": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V1-0044": {
+          "celan": "Var I esh dren.",
+          "english": "“I go above the water.”"
+        }
+      }
+    },
+    "VAR-PE-V1-0038": {
+      "decision": "Approve with edits",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "Issue: Duplicate record; identical except for double quotation marks.\nAction: Merge into PE-V1-0038. Retire PE-V1-0045.\nStandardized Celan: var I morl dren.\nDisplay Translation: \"I go under the water.\"",
+      "edits": {
+        "PE-V1-0038": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V1-0045": {
+          "celan": "Var I morl dren.",
+          "english": "“I go under the water.”"
+        }
+      }
+    },
+    "VAR-PE-V2-0028": {
+      "decision": "Approve with edits",
+      "proposal": "both translations work",
+      "notes": "Issue: Duplicate record; \"covered meal\" vs. \"veiled meal\" (xarvel).\nAction: Merge into PE-V2-0028. Retire PE-V2-0061.\nStandardized Celan: nethaen xarvel an dren.\nDisplay Translation: \"The covered meal rests by the water.\"\nNote Saved: Alternate: \"The veiled meal rests by the water.\"",
+      "edits": {
+        "PE-V2-0028": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V2-0061": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-NE1-0005": {
+      "decision": "Approve with edits",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "ssue: Duplicate record; \"waterworks\" vs. \"water-distribution system\" (drobel).\nAction: Merge into PE-NE1-0005. Retire PE-NE1-0008.\nStandardized Celan: arth droral drobel.\nDisplay Translation: \"The water keeper protects the waterworks.\"\nNote Saved: Literal: \"water-distribution system.\"",
+      "edits": {
+        "PE-NE1-0005": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-NE1-0008": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-NE1-0034": {
+      "decision": "Approve with edits",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "Issue: Duplicate record; \"an herbal remedy\" vs. \"the herbal remedy\".\nAction: Merge into PE-NE1-0034. Retire PE-NE1-0040.\nStandardized Celan: tal zhaelral fennilphel an ser.\nDisplay Translation: \"The healer gives an herbal remedy to the friend.\"",
+      "edits": {
+        "PE-NE1-0034": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-NE1-0040": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-TM1-0007": {
+      "decision": "Approve with edits",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "Issue: Duplicate record; \"engine\" vs. \"motor\" (kormek).\nAction: Merge into PE-TM1-0007. Retire PE-TM1-0052.\nStandardized Celan: zhaelpralaen mekral kormek.\nDisplay Translation: \"The mechanic repairs the engine.\"\nNote Saved: Alternate: \"motor.\"",
+      "edits": {
+        "PE-TM1-0007": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-TM1-0052": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-TVO1-0005": {
+      "decision": "Approve with edits",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "Issue: Duplicate record; \"the cargo\" vs. \"cargo\".\nAction: Merge into PE-TVO1-0005. Retire PE-TVO1-0061.\nStandardized Celan: vekaen morvek vekmor.\nDisplay Translation: \"The wagon carries the cargo.\"\n",
+      "edits": {
+        "PE-TVO1-0005": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-TVO1-0061": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-BSPI1-0020": {
+      "decision": "Approve with edits",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "Action: Merge into PE-BSPI1-0020. Retire PE-BSPI1-0058.\nStandardized Celan: var ndavivek an ndavior.\nDisplay Translation: \"The elevator moves to the building level.\"\nNote Saved: Alternate: \"storey.\"",
+      "edits": {
+        "PE-BSPI1-0020": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-BSPI1-0058": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-GCI1-0011": {
+      "decision": "Approve with edits",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "Issue: Duplicate record; \"The sovereign speaks a decree\" vs. \"The ruler issues a decree\" (kalrin = sovereign/ruler; aen = speaks).\nAction: Merge into PE-GCI1-0011. Retire PE-GCI1-0023.\nStandardized Celan: aen kalrin kalkel.\nDisplay Translation: \"The sovereign speaks a decree.\"\nNote Saved: Alternate: \"The ruler issues a decree.\"",
+      "edits": {
+        "PE-GCI1-0011": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-GCI1-0023": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    }
+  }
+}

@@ -77,3 +77,7 @@ Before changing a file, it helps to ask:
 - or reshaping material for use
 
 That one question prevents a lot of confusion.
+
+## Reviewed example display (ED-0044)
+
+`phrases_and_examples.csv` retains source records after duplicate consolidation. `app_canonical_id` points to the displayed record; `app_headwords` adds reviewed placements; `app_excluded_headwords` removes a specific placement (`*` means grammar-only). `app_previous_texts` maps old inline copies to their approved replacement. `app_grammar_group` places teaching illustrations in the grammar browser. These fields affect presentation, not dictionary headword definitions. Source notes and the review's before/after journal preserve provenance.

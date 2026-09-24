@@ -76,11 +76,13 @@ assert.equal(phrase('PE-DR1-0006').celan_text,'drenaen La dren kora rinaen La-ka
 for(const id of ['PE-V1-0034','PE-V4-0045','PE-RABFE2-0026']) assert.ok(phrase(id).celan_text.includes('I ka '),'Negative changed '+id);
 assert.equal(run(`state.phrases.filter(p=>/\b(?:my|your)\b/i.test(p.translation) && /\b(?:I|Ya) ka /.test(p.celan_text)).length`),0);
 const f48=JSON.parse(fs.readFileSync(path.join(__dirname,'../outputs/dictionary_review/F048_applied.json'),'utf8'));
-for(const change of f48.changes) assert.equal(phrase(change.entry_id).celan_text,change.after.celan_text,'F048 regression '+change.entry_id);
+const round2=JSON.parse(fs.readFileSync(path.join(__dirname,'../outputs/example_sentence_audit/round2_changes.json'),'utf8'));
+const latestExamples=new Map(round2.changes.map(c=>[c.after.entry_id,c.after]));
+for(const change of f48.changes) assert.equal(phrase(change.entry_id).celan_text,(latestExamples.get(change.entry_id)||change.after).celan_text,'F048 regression '+change.entry_id);
 assert.equal(phrase('PE-UHEI1-0035').celan_text,f48.kept_entry.celan_text);
 const changes=JSON.parse(fs.readFileSync(path.join(__dirname,'../outputs/dictionary_review/integration/applied_changes.json'),'utf8'));
 const lastById=new Map(changes.map(c=>[c.entry_id,c]));
-for(const c of lastById.values())for(const field of ['celan_text','translation'])assert.equal(phrase(c.entry_id)[field],c.after[field],c.entry_id+field);
+for(const c of lastById.values())for(const field of ['celan_text','translation'])assert.equal(phrase(c.entry_id)[field],(latestExamples.get(c.entry_id)||c.after)[field],c.entry_id+field);
 for(const term of ['Elan',"Thaal'ra",'Kora']) {
  assert.equal(run(`extractInlineExamples(state.groupedEntries.find(g=>g.id===normalizeHeadword(${JSON.stringify(term)})).entries).length`),0);
  assert.ok(run(`relatedExamples(state.groupedEntries.find(g=>g.id===normalizeHeadword(${JSON.stringify(term)}))).length`)>=2);

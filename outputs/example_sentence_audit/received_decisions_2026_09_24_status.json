@@ -1,0 +1,67 @@
+{
+  "revision": "2026-09-23T13:23:40.591Z",
+  "unreviewed": [],
+  "status": "Applied locally; five follow-up corrections approved and applied.",
+  "export_counts": {
+    "Approve with edits": 115,
+    "Not reviewed": 1,
+    "Approve proposal": 19
+  },
+  "authorization_overrides": {
+    "FORM-PE-V3-0206": {
+      "authorized": true,
+      "basis": "User explicitly directed following the instructions in the unmarked item on 2026-09-24.",
+      "instruction": "Move the number formula to Number System; use ver aen I unar kelka. / I do not speak one word. as a direct example."
+    }
+  },
+  "instructions_read": 135,
+  "resolved_without_questions": [
+    "Liorin includes elder; Morlak includes grain; -en includes partner bonded to you. These do not need new meanings or clarification.",
+    "Repeated copies of the same proposed example should share an example identity.",
+    "Obvious prose punctuation and truncated rinaen in LINK-oven can be normalized.",
+    "Keep earlier approved replacements when the new note refers to the old source fragment; preserve the old fragment separately under its requested teaching label.",
+    "Wel flow translations are explicitly supplied by the user; do not infer a new universal grammar rule."
+  ],
+  "clarification_topics_resolved": [
+    {
+      "ids": [
+        "FORM-PE-S3-0005",
+        "LINK-theon",
+        "LINK-thal-"
+      ],
+      "issue": "theon dren kal thal is labeled a direct VSO sentence, but starts with the noun Theon and Dren is water, not brings.",
+      "question": "Keep it as an established saying, or replace with a regular sentence such as tal theon thal an Ilin. / The neutral person gives balance to us.?"
+    },
+    {
+      "ids": [
+        "FORM-PE-S1-0007"
+      ],
+      "issue": "lorin Ilin belshara an vethor puts we as the subject, while English makes duty the subject.",
+      "question": "Use lorin belshara Ilin shan vethor. / Duty guides us through the shadow.?"
+    },
+    {
+      "ids": [
+        "LINK-azon"
+      ],
+      "issue": "Requested example uses Azron (woman), not Azon (feminine man).",
+      "question": "Use nethaen azon an nethor. / The feminine man sits on the chair. under Azon?"
+    },
+    {
+      "ids": [
+        "LINK-thaal"
+      ],
+      "issue": "I dren shaleth thaal uses the bare subject pronoun I for my, rather than marking possession.",
+      "question": "Use rinaen dren-ian shaleth thaal. / My water is the brightest.?"
+    },
+    {
+      "ids": [
+        "FORM-PE-V3-0201",
+        "LINK-tren"
+      ],
+      "issue": "an tren kinn uses spatial An for an English time expression. Nor is temporal, but in three days may mean a future delay rather than during three days.",
+      "question": "Use the simpler number example var tren serin an dren. / Three friends go to the water. instead?"
+    }
+  ],
+  "followup_approval": "User approved replacement for question 1 and answered yes to questions 2–5.",
+  "verification": "Passed: round-two full instruction coverage, first-round example preservation, dictionary review integration, root families, navigation, search, audit report, embedded data parity, JavaScript syntax and git diff whitespace checks."
+}
