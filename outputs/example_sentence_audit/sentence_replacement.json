@@ -1,0 +1,40 @@
+{
+  "finding": "LANG-006",
+  "before": {
+    "entry_id": "PE-S4B-0008",
+    "source_volume": "Supplement 4B: Celan Capitalization Rules",
+    "source_section": "Rule 5: Poetic and Emotional Emphasis",
+    "page_number": "text",
+    "celan_text": "Ohmaen I an thar-ka.",
+    "translation": "I love my desire.",
+    "example_type": "Capitalization example",
+    "analysis": "Standard capitalization example.",
+    "canon_status": "Canon",
+    "notes": "Original supplement example preserved.",
+    "related_entry_ids": "GR-S4B-0005",
+    "relationship_type": "related usage",
+    "potential_tension_id": "",
+    "review_status": "Approved",
+    "review_reason": ""
+  },
+  "after": {
+    "entry_id": "PE-S4B-0008",
+    "source_volume": "Supplement 4B: Celan Capitalization Rules",
+    "source_section": "Rule 5: Poetic and Emotional Emphasis",
+    "page_number": "text",
+    "celan_text": "ohmaen I Ya.",
+    "translation": "I love you.",
+    "example_type": "Capitalization example",
+    "analysis": "Ordinary lowercase sentence opening; the pronoun I remains capitalized.",
+    "canon_status": "Canon",
+    "notes": "User approved replacing the confusing desire sentence on 2026-09-23. Prior text retained in outputs/example_sentence_audit/sentence_replacement.json. No thar-ka-ian construction is approved.",
+    "related_entry_ids": "GR-S4B-0005",
+    "relationship_type": "related usage",
+    "potential_tension_id": "",
+    "review_status": "Approved",
+    "review_reason": ""
+  },
+  "decision": "Replace with a different simple sentence; thar-ka-ian is not an approved construction.",
+  "translation_note": "Translation note: thar-ka means desire in the abstract. In the original example Ohmaen I an thar-ka., the English rendering “my desire” is contextual, driven by the subject pronoun I; “my” is not encoded in thar-ka itself. This explains that example, rather than making I a general possessive marker.",
+  "clarification": "User-approved contextual gloss, 2026-09-23. The simpler replacement remains in use; thar-ka-ian is not required or approved by this clarification."
+}

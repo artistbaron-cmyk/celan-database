@@ -1,0 +1,866 @@
+[
+  {
+    "headword": "Kadon",
+    "meaning": "Masculine woman",
+    "batch": 1,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Zhilva",
+    "meaning": "General \"Hello\"",
+    "batch": 1,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Amthaen",
+    "meaning": "Friendly \"Hi\"",
+    "batch": 1,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Nekvar",
+    "meaning": "\"Good morning\"",
+    "batch": 1,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Kelithor",
+    "meaning": "\"Good afternoon\"",
+    "batch": 1,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Tlosen",
+    "meaning": "\"Good evening\"",
+    "batch": 1,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Jexhaer",
+    "meaning": "\"Good night\"",
+    "batch": 1,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Revalen",
+    "meaning": "\"Farewell\"",
+    "batch": 1,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Zharinor",
+    "meaning": "\"See you soon\"",
+    "batch": 1,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Vrekthael",
+    "meaning": "Ceremonial \"Greetings\"",
+    "batch": 1,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Vial",
+    "meaning": "Joy / Happiness",
+    "batch": 1,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Aenvor",
+    "meaning": "Nose",
+    "batch": 1,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Sorl",
+    "meaning": "Neck",
+    "batch": 2,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Kalvar",
+    "meaning": "Arm",
+    "batch": 2,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Sharvar",
+    "meaning": "Leg",
+    "batch": 2,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Morlka",
+    "meaning": "Foot",
+    "batch": 2,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Terlin",
+    "meaning": "Island/beach",
+    "batch": 2,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Lorash",
+    "meaning": "Temple / Shrine",
+    "batch": 2,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Norvaar",
+    "meaning": "Gateway (time-related portal)",
+    "batch": 2,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Terradren",
+    "meaning": "fertile soil/well-irrigated land",
+    "batch": 2,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Drenshal",
+    "meaning": "reflective pool/crystal-clear spring",
+    "batch": 2,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Terraesh",
+    "meaning": "horizon/place where earth meets sky",
+    "batch": 2,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Liana",
+    "meaning": "Lady",
+    "batch": 2,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Lorinen",
+    "meaning": "Honored Guide",
+    "batch": 2,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Mmm",
+    "meaning": "Considering or listening thoughtfully.",
+    "batch": 3,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Vara",
+    "meaning": "Then, Next, So (sequencer).",
+    "batch": 3,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Thalka",
+    "meaning": "But, However, Yet, Still (contrast).",
+    "batch": 3,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Sera",
+    "meaning": "Also, Too, Even, As well (additive).",
+    "batch": 3,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Tek",
+    "meaning": "Just, Only, Merely (limiter).",
+    "batch": 3,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Rathka",
+    "meaning": "As if, Supposing, Like (hypothetical).",
+    "batch": 3,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Lialor'ka",
+    "meaning": "Really?! Truly?! Actually?! (surprise/emphasis).",
+    "batch": 3,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Reth‘thal",
+    "meaning": "Perhaps, Possibly (stronger doubt than Rethlian).",
+    "batch": 3,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Lia‘ser",
+    "meaning": "Right, Okay, I see, Understood (acknowledgement).",
+    "batch": 3,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Lian'lia",
+    "meaning": "Exactly! Precisely! Just so! (strong agreement).",
+    "batch": 3,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Verka",
+    "meaning": "Not at all! Absolutely not! (emphatic negation).",
+    "batch": 3,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Anen",
+    "meaning": "Your / Direct Possession marker",
+    "batch": 3,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Eshen",
+    "meaning": "His/Her/Their / Direct Possession marker",
+    "batch": 4,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Velian",
+    "meaning": "Our / Direct Possession marker",
+    "batch": 4,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Rathorim",
+    "meaning": "Remembrance (the act).",
+    "batch": 4,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Fah'thar",
+    "meaning": "Grief (heart-darkness).",
+    "batch": 4,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Vel'rathor",
+    "meaning": "Enduring Memory / Still Past.",
+    "batch": 4,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Rathorimaen",
+    "meaning": "To Remember / Memorialize.",
+    "batch": 4,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Fah'tharaen",
+    "meaning": "To Mourn / Grieve Deeply.",
+    "batch": 4,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Ohm'rin",
+    "meaning": "Attunement / Essence-Connection.",
+    "batch": 4,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Thal'vok",
+    "meaning": "Balanced Unity / Harmony Bond.",
+    "batch": 4,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Ohm'aen",
+    "meaning": "To Connect With / Attune To (revisited).",
+    "batch": 4,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Thal'vokaen",
+    "meaning": "To Harmonize / Achieve Balanced Unity.",
+    "batch": 4,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Shal'taleth",
+    "meaning": "Light-Offering Ritual.",
+    "batch": 4,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Bel'Rathorimeth",
+    "meaning": "Memory-Weaving Ritual.",
+    "batch": 5,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Aen'Moreth",
+    "meaning": "Breath-into-Stone Ritual.",
+    "batch": 5,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Lorin'Ohmeth",
+    "meaning": "Guidance-Seeking Ritual.",
+    "batch": 5,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Thal'talaen",
+    "meaning": "To sacrifice/relinquish (general verb).",
+    "batch": 5,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Thal'taleth",
+    "meaning": "Act/Ritual of Sacrifice (general noun).",
+    "batch": 5,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Thar'taleth",
+    "meaning": "Life/Heart Sacrifice Ritual (noun).",
+    "batch": 5,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Arthen'taleth",
+    "meaning": "Sacrifice for Destiny Ritual (noun).",
+    "batch": 5,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Kor'taleth",
+    "meaning": "Offering to Power Source Ritual (noun).",
+    "batch": 5,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Varkareth",
+    "meaning": "\"Metal-mover\" or \"gear-grinder\"; implies reliance on machines and lack of natural warmth.",
+    "batch": 5,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Drenkaesh",
+    "meaning": "\"Water-waster\"; suggests carelessness or indulgence in water abundance.",
+    "batch": 5,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Tharfah",
+    "meaning": "\"Weak-hearted\" or \"soft-rooted\"; dismisses their gentle, nature-centric approach as sentimental.",
+    "batch": 5,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Krez-verin",
+    "meaning": "\"Fire-nothing\" or \"ash-breather\"; criticizes their environment and resource scarcity.",
+    "batch": 5,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Rathorkinash",
+    "meaning": "\"Ancient-prattler\"; suggests being stuck in outdated traditions and unyielding.",
+    "batch": 6,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Vethordrenka",
+    "meaning": "\"Shadow-water leech\"; insults their reliance on hidden water resources or mysterious magic.",
+    "batch": 6,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Morl-karash",
+    "meaning": "\"Stone-brained\"; criticizes rigidity and stubbornness, reflective of their mountain nature.",
+    "batch": 6,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Verin",
+    "meaning": "Zero",
+    "batch": 6,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Nevar",
+    "meaning": "Nine",
+    "batch": 6,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Eth",
+    "meaning": "-like, -ful; sacred act of",
+    "batch": 6,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Trak",
+    "meaning": "Tread; step; foot-borne movement",
+    "batch": 6,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Kav",
+    "meaning": "Age; preservation; ancient duration",
+    "batch": 6,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Zhir",
+    "meaning": "Lineage; thread; connection through time",
+    "batch": 6,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Khum",
+    "meaning": "Circle; listening; reconciliation",
+    "batch": 6,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Tla",
+    "meaning": "Intimacy; closeness; unspoken connection",
+    "batch": 6,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Lor",
+    "meaning": "Guidance; sight; focus of leadership",
+    "batch": 6,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Vin",
+    "meaning": "Pull; extraction; drawing out essence",
+    "batch": 7,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Nk",
+    "meaning": "Endurance; hidden strength",
+    "batch": 7,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Nku",
+    "meaning": "Hidden nurturing; held calm",
+    "batch": 7,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Mb",
+    "meaning": "Support; pillar; foundational weight",
+    "batch": 7,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Rek",
+    "meaning": "Peak intensity; burning or heated state",
+    "batch": 7,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Rav",
+    "meaning": "Pull; yearning; destiny attraction",
+    "batch": 7,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Thaen",
+    "meaning": "Spirit-breath; still internal seasonality",
+    "batch": 7,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Elor",
+    "meaning": "Growth; upward alignment; unfolding maturity",
+    "batch": 7,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Livar",
+    "meaning": "Preservation; salt-fixing; anti-decay",
+    "batch": 7,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Marin",
+    "meaning": "Branch; extension; outward-growing limb",
+    "batch": 7,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Alor",
+    "meaning": "Falling; descent; downward motion",
+    "batch": 7,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Tarin",
+    "meaning": "Dried sweetness; sun-preserved fruit",
+    "batch": 7,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Soril",
+    "meaning": "Depth of flavor; complex taste-body",
+    "batch": 8,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Tham",
+    "meaning": "Mashing; softening; breaking structure down",
+    "batch": 8,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Lak",
+    "meaning": "Grain; earthy food-substance; bread material",
+    "batch": 8,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Kadren",
+    "meaning": "Masculine essence (strength, groundedness).",
+    "batch": 8,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Azan",
+    "meaning": "Feminine essence (nurturing, fluidity).",
+    "batch": 8,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Thee",
+    "meaning": "Neutral essence (balance, unity).",
+    "batch": 8,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Tha-",
+    "meaning": "Past Tense",
+    "batch": 8,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "-al",
+    "meaning": "Continuous",
+    "batch": 8,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "-ath",
+    "meaning": "Perfective",
+    "batch": 8,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "-as",
+    "meaning": "Habitual",
+    "batch": 8,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "-ka",
+    "meaning": "Possessive/linking marker",
+    "batch": 8,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Kilv",
+    "meaning": "shadow/time",
+    "batch": 8,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Nk-",
+    "meaning": "Endurance, hidden strength",
+    "batch": 9,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Mb-",
+    "meaning": "Layered, supportive",
+    "batch": 9,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Tla-",
+    "meaning": "Close, intimate connection",
+    "batch": 9,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Zhae-",
+    "meaning": "Light, empathy",
+    "batch": 9,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Nku-",
+    "meaning": "Hidden, nurturing",
+    "batch": 9,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Tl-",
+    "meaning": "Movement, flow",
+    "batch": 9,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "-in",
+    "meaning": "Plural marker added to nouns ending in consonants; Person or participant connected to a bond, place, or category",
+    "batch": 9,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "-n",
+    "meaning": "Plural marker added to nouns ending in vowels",
+    "batch": 9,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "-or",
+    "meaning": "Place/Location",
+    "batch": 9,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "-lin",
+    "meaning": "Collective/Diminutive",
+    "batch": 9,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Ver-",
+    "meaning": "Negation",
+    "batch": 9,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Li-",
+    "meaning": "Respect/Honorific; show respect",
+    "batch": 9,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "-esh",
+    "meaning": "deep relational ties",
+    "batch": 10,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "-el",
+    "meaning": "Beloved bound to them",
+    "batch": 10,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "-vel",
+    "meaning": "Bread shared among us",
+    "batch": 10,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Ten-",
+    "meaning": "Tens prefix",
+    "batch": 10,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Hek-",
+    "meaning": "Hundreds prefix",
+    "batch": 10,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Mel-",
+    "meaning": "Thousands prefix",
+    "batch": 10,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Fen-",
+    "meaning": "Tens of thousands prefix",
+    "batch": 10,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Hek-Mel-",
+    "meaning": "Hundreds of thousands construction",
+    "batch": 10,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Shal-",
+    "meaning": "Light, glow, brightness; hope, truth, creation, clarity, revelation, wisdom, life, beginnings.",
+    "batch": 10,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Krez-",
+    "meaning": "Fire, heat, energy; passion, creation, strength, life-force, warmth, resilience, purification.",
+    "batch": 10,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Dren-",
+    "meaning": "Water, liquid, fluid; life, flow, change, healing, emotion, intuition, cleansing, adaptation.",
+    "batch": 10,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Esh-",
+    "meaning": "Sky, air, wind; freedom, thought, divine, intellect, perspective, beginnings.",
+    "batch": 10,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Lian-",
+    "meaning": "Truth, honesty; reality, natural law, essence, logic, clarity, correctness.",
+    "batch": 11,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Vok-",
+    "meaning": "Duality of breaking a bond and forming a unity; noun Vok means unity; verb vokaen breaks unity.",
+    "batch": 11,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Rath-",
+    "meaning": "Enemy, foe, adversary; also conditional particle if.",
+    "batch": 11,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Zharrel",
+    "meaning": "Forest Predator",
+    "batch": 11,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Tharnspinners",
+    "meaning": "Arachnid",
+    "batch": 11,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Veilgliders",
+    "meaning": "Gliding Insectivore",
+    "batch": 11,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Velshen",
+    "meaning": "Burrowing Creature",
+    "batch": 11,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Shavrek",
+    "meaning": "Cliff Forager",
+    "batch": 11,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Mossquill",
+    "meaning": "Pollinator",
+    "batch": 11,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Rynarth",
+    "meaning": "Fox-like Predator",
+    "batch": 11,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Vroshan",
+    "meaning": "Scavenger",
+    "batch": 11,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Brinnek",
+    "meaning": "Migratory Grazer",
+    "batch": 11,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Thravic",
+    "meaning": "Ambush Predator",
+    "batch": 12,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Fennlur",
+    "meaning": "Pack Runner",
+    "batch": 12,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Vexflit",
+    "meaning": "Pollinator Bird",
+    "batch": 12,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Grivol",
+    "meaning": "Burrowing Rodent",
+    "batch": 12,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Rethal",
+    "meaning": "River Predator",
+    "batch": 12,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Lumora",
+    "meaning": "Schooling Fish",
+    "batch": 12,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Thryssal",
+    "meaning": "Swamp Scavenger",
+    "batch": 12,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Braskal",
+    "meaning": "Coastal Herbivore",
+    "batch": 12,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Selkari",
+    "meaning": "Ocean Guardian",
+    "batch": 12,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Zhenlor",
+    "meaning": "Legendary Figure",
+    "batch": 12,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Zharak",
+    "meaning": "Legendary Figure",
+    "batch": 12,
+    "status": "Needs drafted example and user review"
+  },
+  {
+    "headword": "Lorynth",
+    "meaning": "Legendary Figure",
+    "batch": 12,
+    "status": "Needs drafted example and user review"
+  }
+]

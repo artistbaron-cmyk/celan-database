@@ -1,0 +1,1901 @@
+{
+  "audit": "example-sentences-v1",
+  "revision": "2026-09-23T13:23:40.591Z",
+  "decisions": {
+    "APP-01": {
+      "decision": "Approve proposal",
+      "proposal": "Show Direct usage, Related forms, and Teaching notes separately. Prefer reviewed direct examples; retain source provenance.",
+      "notes": "",
+      "edits": {}
+    },
+    "APP-02": {
+      "decision": "Approve proposal",
+      "proposal": "Add a count and View all examples. Keep a short preview. If the examples are actually examples of that word usage. ",
+      "notes": "",
+      "edits": {}
+    },
+    "APP-03": {
+      "decision": "Approve proposal",
+      "proposal": "Associate reviewed examples with the sense they illustrate; label examples awaiting that assignment. Do not infer sense assignments from spelling alone.",
+      "notes": "",
+      "edits": {}
+    },
+    "APP-04": {
+      "decision": "Approve proposal",
+      "proposal": "Develop examples in reviewed batches; do not insert generated sentences automatically.",
+      "notes": "",
+      "edits": {}
+    },
+    "LANG-001": {
+      "decision": "Approve proposal",
+      "proposal": "Remove this from ordinary usage examples pending a replacement. Keep the approved Kavel memory-gap example; repair the environmental sentence separately.",
+      "notes": "",
+      "edits": {
+        "PE-EGE1-0019": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LANG-002": {
+      "decision": "Approve proposal",
+      "proposal": "choose your suggested phrase. ",
+      "notes": "",
+      "edits": {
+        "PE-S3-0019": {
+          "celan": "aen serathrin ser khumrel.",
+          "english": "The confidant speaks with compassion."
+        }
+      }
+    },
+    "LANG-003": {
+      "decision": "Approve proposal",
+      "proposal": "Replace the phrase with the established decree word and the approved possession pattern. It remains a phrase, not a complete sentence.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0022": {
+          "celan": "Kalrin-ka kalkel",
+          "english": "The sovereign’s decree"
+        }
+      }
+    },
+    "LANG-004": {
+      "decision": "Approve proposal",
+      "proposal": "Supply a different Celan phrase.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0005": {
+          "celan": "talaen I drenvor thal pralor.\n",
+          "english": "I take the bowl from the table."
+        }
+      }
+    },
+    "LANG-005": {
+      "decision": "Approve proposal",
+      "proposal": "Supply a different Celan phrase.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0011": {
+          "celan": "talaen I morlak an Felka.",
+          "english": "I give/offer bread to the child"
+        }
+      }
+    },
+    "LANG-006": {
+      "decision": "Not reviewed",
+      "proposal": "Review the intended possession. Either supply the approved personal possession construction or remove my from the English after checking the entire sentence.",
+      "notes": "",
+      "edits": {
+        "PE-S4B-0008": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LANG-007": {
+      "decision": "Approve proposal",
+      "proposal": "Use the natural translation below and retain the literal gloss as a teaching note.",
+      "notes": "",
+      "edits": {
+        "PE-S4A-0005": {
+          "celan": "Rinaen Ohm ser Ilin.",
+          "english": "Connection is with us."
+        }
+      }
+    },
+    "SENSE-PE-EGE1-0018": {
+      "decision": "Approve proposal",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "",
+      "edits": {
+        "PE-EGE1-0018": {
+          "celan": "var Jor an dren.",
+          "english": "A surge moves in the water."
+        }
+      }
+    },
+    "SENSE-PE-EGE1-0045": {
+      "decision": "Not reviewed",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "",
+      "edits": {
+        "PE-EGE1-0045": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "SENSE-PE-EGE1-0049": {
+      "decision": "Approve proposal",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "",
+      "edits": {
+        "PE-EGE1-0049": {
+          "celan": "shalaen I jor.",
+          "english": "I see the surge."
+        }
+      }
+    },
+    "SENSE-PE-EGE1-0058": {
+      "decision": "Approve proposal",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "",
+      "edits": {
+        "PE-EGE1-0058": {
+          "celan": "rinaen jor an esh.",
+          "english": "There is a surge in the sky"
+        }
+      }
+    },
+    "SENSE-PE-EGE1-0059": {
+      "decision": "Not reviewed",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "",
+      "edits": {
+        "PE-EGE1-0059": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "SENSE-PE-EGE1-0062": {
+      "decision": "Not reviewed",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "",
+      "edits": {
+        "PE-EGE1-0062": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "SENSE-PE-EGE1-0063": {
+      "decision": "Not reviewed",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "",
+      "edits": {
+        "PE-EGE1-0063": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "SENSE-PE-EGE1-0006": {
+      "decision": "Not reviewed",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "",
+      "edits": {
+        "PE-EGE1-0006": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "SENSE-PE-EGE1-0011": {
+      "decision": "Not reviewed",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "",
+      "edits": {
+        "PE-EGE1-0011": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "SENSE-PE-EGE1-0012": {
+      "decision": "Not reviewed",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "",
+      "edits": {
+        "PE-EGE1-0012": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "SENSE-PE-EGE1-0013": {
+      "decision": "Not reviewed",
+      "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+      "notes": "",
+      "edits": {
+        "PE-EGE1-0013": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V1-0013": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-V1-0013": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V1-0014": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-V1-0014": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0200": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0200": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0201": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0201": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0202": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0202": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0206": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0206": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0207": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0207": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0209": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0209": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0210": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0210": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0212": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0212": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0213": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0213": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-V3-0214": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0214": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S1-0003": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S1-0003": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S1-0004": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S1-0004": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S1-0007": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S1-0007": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "TEACH-PE-S1-0009": {
+      "decision": "Not reviewed",
+      "proposal": "Move it to a separate Teaching notes / What not to write section.",
+      "notes": "",
+      "edits": {
+        "PE-S1-0009": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S1-0010": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S1-0010": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S1-0011": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S1-0011": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0001": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0001": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0002": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0002": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0005": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0005": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0006": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0006": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0007": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0007": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0008": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0008": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0009": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0009": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0010": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0010": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0011": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0011": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0012": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0012": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0013": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0013": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0014": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0014": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0015": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0015": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0016": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0016": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0017": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0017": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0018": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0018": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0019": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0019": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0020": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0020": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0021": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0021": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S3-0022": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0022": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S4B-0005": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S4B-0005": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "FORM-PE-S4B-0007": {
+      "decision": "Not reviewed",
+      "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+      "notes": "",
+      "edits": {
+        "PE-S4B-0007": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-kadron": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V1-0013": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-azron": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V1-0014": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-theon": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V1-0014": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-azon": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V1-0013": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-ka": {
+      "decision": "Not reviewed",
+      "proposal": "Place the possessive phrases under -ka. Keep negative examples under Ka. Review ka-shen as a compound separately.",
+      "notes": "",
+      "edits": {
+        "PE-V1-0003": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V1-0005": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V2-0050": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-nor": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V1-0019": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V1-0029": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-thaal": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-DR1-0003": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-DR1-0004": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-vaar": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0069": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-li-seren": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0005": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-unar": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0206": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0209": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0212": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0214": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-del": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0200": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0204": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0216": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V4-0084": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-tren": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0201": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-quen": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0202": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0205": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0207": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0208": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0210": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-peth": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0213": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0219": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-oven": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0208": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0211": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-shen": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0050": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-pral": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0017": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-rin": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V4-0096": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-bel": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0008": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V2-0009": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-veth": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V3-0067": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-jor": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0018": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V2-0019": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-jek": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0020": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-wek": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0025": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-CNE1-0064": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-wor": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0026": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-phel": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0013": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-prak": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0014": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-bros": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0010": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-bal": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0011": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-bren": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0012": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-jel": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0021": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-wel": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0023": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V2-0024": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-xar": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0028": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-xil": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0027": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-nor-": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0008": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-pel": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0015": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V2-0016": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-jin": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0022": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-rav-": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0018": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-ohm-": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0011": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S4A-0003": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S4A-0005": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-khum-": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0019": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK--en": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "OVERRIDE-800077fbe9a1": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK--aen": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "OVERRIDE-c0f3cb0d926e": {
+          "celan": "",
+          "english": ""
+        },
+        "OVERRIDE-5fa075482c2b": {
+          "celan": "",
+          "english": ""
+        },
+        "OVERRIDE-15bcc5e60ea2": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK--eth": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "OVERRIDE-53c78d5c8fab": {
+          "celan": "",
+          "english": ""
+        },
+        "OVERRIDE-9f4c89568e03": {
+          "celan": "",
+          "english": ""
+        },
+        "OVERRIDE-5b1c1f0c2761": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-nor-ka": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-V4-0008": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-morl-": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0002": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-terra- / terra-": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0003": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S3-0004": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S3-0018": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S4A-0002": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S4B-0005": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-thal-": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0005": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S3-0006": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-reth- / rethvok-": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0006": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S3-0007": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-rin-": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0009": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-kal-": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0022": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-shara-": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0015": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S3-0017": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-thar-": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0012": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S3-0013": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-var-": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0014": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S3-0015": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S4A-0001": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-aen-": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0016": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-pralaen-": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0017": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-ser-": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-S4A-0004": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S4A-0005": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-zhir-": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0020": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-S3-0021": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "LINK-kel-": {
+      "decision": "Not reviewed",
+      "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+      "notes": "",
+      "edits": {
+        "PE-S3-0022": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-V1-0001": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-V1-0001": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V1-0017": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-V4-0016": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-V4-0016": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V4-0060": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-V4-0022": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-V4-0022": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V4-0031": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-V4-0023": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-V4-0023": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V4-0036": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-V4-0035": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-V4-0035": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V4-0064": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-DSL1-0004": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-DSL1-0004": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-DSL1-0057": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-DSL1-0006": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-DSL1-0006": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-DSL1-0051": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-PFM1-0045": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-PFM1-0045": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-PFM1-0077": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-PFM1-0055": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-PFM1-0055": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-PFM1-0075": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-FAP1-0007": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-FAP1-0007": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-FAP1-0016": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-TVO1-0030": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-TVO1-0030": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-TVO1-0058": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-TVO1-0040": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-TVO1-0040": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-TVO1-0067": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-GCI1-0005": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-GCI1-0005": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-GCI1-0046": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-DW1-0010": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-DW1-0010": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-DW1-0011": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-DW1-0012": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-DW1-0012": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-DW1-0016": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-DW1-0013": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-DW1-0013": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-DW1-0018": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-PSAC1-0008": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-PSAC1-0008": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-PSAC1-0025": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-PSAC1-0012": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-PSAC1-0012": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-PSAC1-0015": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "DUP-PE-PSAC1-0033": {
+      "decision": "Not reviewed",
+      "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+      "notes": "",
+      "edits": {
+        "PE-PSAC1-0033": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-PSAC1-0035": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-V1-0002": {
+      "decision": "Not reviewed",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "",
+      "edits": {
+        "PE-V1-0002": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V1-0025": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-V1-0027": {
+      "decision": "Not reviewed",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "",
+      "edits": {
+        "PE-V1-0027": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V3-0006": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-V1-0037": {
+      "decision": "Not reviewed",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "",
+      "edits": {
+        "PE-V1-0037": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V1-0044": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-V1-0038": {
+      "decision": "Not reviewed",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "",
+      "edits": {
+        "PE-V1-0038": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V1-0045": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-V2-0028": {
+      "decision": "Not reviewed",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "",
+      "edits": {
+        "PE-V2-0028": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-V2-0061": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-NE1-0005": {
+      "decision": "Not reviewed",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "",
+      "edits": {
+        "PE-NE1-0005": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-NE1-0008": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-NE1-0034": {
+      "decision": "Not reviewed",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "",
+      "edits": {
+        "PE-NE1-0034": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-NE1-0040": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-TM1-0007": {
+      "decision": "Not reviewed",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "",
+      "edits": {
+        "PE-TM1-0007": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-TM1-0052": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-TVO1-0005": {
+      "decision": "Not reviewed",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "",
+      "edits": {
+        "PE-TVO1-0005": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-TVO1-0061": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-BSPI1-0020": {
+      "decision": "Not reviewed",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "",
+      "edits": {
+        "PE-BSPI1-0020": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-BSPI1-0058": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    },
+    "VAR-PE-GCI1-0011": {
+      "decision": "Not reviewed",
+      "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+      "notes": "",
+      "edits": {
+        "PE-GCI1-0011": {
+          "celan": "",
+          "english": ""
+        },
+        "PE-GCI1-0023": {
+          "celan": "",
+          "english": ""
+        }
+      }
+    }
+  }
+}

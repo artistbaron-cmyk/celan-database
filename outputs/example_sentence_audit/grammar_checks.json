@@ -1,0 +1,8 @@
+{
+  "source_record_ids_unique": true,
+  "missing_celan_ids": [],
+  "missing_translation_ids": [],
+  "floating_pronoun_possessive_candidates": [],
+  "ian_person_mismatch_candidates": [],
+  "note": "Possession scans are bounded pattern checks, not a complete grammar parser. Counterexamples and historical metaphor notes remain reviewable separately."
+}

@@ -1,0 +1,5033 @@
+[
+  {
+    "id": "APP-01",
+    "category": "App presentation",
+    "title": "The app does not separate direct usage from word-family or teaching examples",
+    "why": "The picker combines explicit links, reverse links and spelling matches, then puts the first five under Used In A Sentence. Those are different kinds of evidence.",
+    "proposal": "Show Direct usage, Related forms, and Teaching notes separately. Prefer reviewed direct examples; retain source provenance.",
+    "confidence": "Confirmed app behavior",
+    "records": [],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "APP-02",
+    "category": "App presentation",
+    "title": "Additional examples are hidden after the first five",
+    "why": "The app returns more than five examples for some entries but renders only the first five, with no way to view the rest.",
+    "proposal": "Add a count and View all examples. Keep a short preview.",
+    "confidence": "Confirmed app behavior",
+    "records": [],
+    "headwords": [
+      "I",
+      "Ilin",
+      "Ya",
+      "La",
+      "Kadron",
+      "Azron",
+      "Var",
+      "Ser",
+      "Thal",
+      "Ka",
+      "An",
+      "Nor",
+      "Esh",
+      "Morl",
+      "Terra",
+      "Dren",
+      "Shal",
+      "Krez",
+      "Thar",
+      "Shara",
+      "Rathor",
+      "Shalor",
+      "Lian",
+      "Aen",
+      "Arth",
+      "Kal",
+      "Seren",
+      "Vaar",
+      "Lorin",
+      "Rath",
+      "Fah",
+      "Reth",
+      "Korin",
+      "Dral",
+      "Tal",
+      "Verdor",
+      "Mahr",
+      "Lun",
+      "Kaleth",
+      "Varthas",
+      "Krezor",
+      "Belrin",
+      "Phelvin",
+      "Belshara",
+      "Morlak",
+      "Teravin",
+      "Liorin",
+      "Kel",
+      "Dro",
+      "Felka",
+      "Belvok",
+      "Ian",
+      "Talaen",
+      "Unar",
+      "Del",
+      "Quen",
+      "Peth",
+      "Nethor",
+      "Zhirin",
+      "Vorkor",
+      "Kareth",
+      "Pralor",
+      "Drenvor",
+      "Kadreneth",
+      "Belkor",
+      "Xaresh",
+      "Pralaen",
+      "Karethaen",
+      "Nethaen",
+      "Shen",
+      "Drobel",
+      "Awekshara",
+      "Mahrvek",
+      "Zhelbel",
+      "Mekral",
+      "Fennilphel",
+      "Zhaelral",
+      "Xarphelor",
+      "Mormek",
+      "Liankavor",
+      "Kavral",
+      "Rinshen",
+      "Dralshara",
+      "Karvek",
+      "Sharavok",
+      "Dor",
+      "Vekaen",
+      "Korinaen",
+      "Kaxaraen",
+      "Xaraen",
+      "Jekaen",
+      "Sharaen",
+      "Dar",
+      "Tharsharaen",
+      "Kes",
+      "Velzhiraen",
+      "Nethnor",
+      "Shalvar",
+      "Shan",
+      "Shalnor",
+      "Kavvek",
+      "Xarvek",
+      "Aiv",
+      "Selpralaen",
+      "Zem",
+      "Kren",
+      "Drenselaen",
+      "Aivkor",
+      "Mav",
+      "Lianrethor",
+      "Keldoraen",
+      "Balral",
+      "Sov",
+      "Gavral",
+      "Nesh",
+      "Neshbrenral",
+      "Zor",
+      "Belzor",
+      "Belzorral",
+      "Pelaen",
+      "Belxar",
+      "Belxaraen",
+      "Kalmek",
+      "Zhaelpralaen",
+      "Shenmek",
+      "Kesmek",
+      "Varvek",
+      "Morvek",
+      "Kormekvek",
+      "Belzhirvek",
+      "Anvekaen",
+      "Vekmor",
+      "Vekin",
+      "Lorvekral",
+      "Mekor",
+      "Xaror",
+      "Welpralor",
+      "Velkelor",
+      "Njor",
+      "Lorbel",
+      "Khumkel",
+      "Kalrin",
+      "Lorbelral",
+      "Kalkel",
+      "Kelreth",
+      "Welrin",
+      "Felbelor",
+      "Shenral",
+      "Kesvar",
+      "Dovath",
+      "Dovin",
+      "Nakaen",
+      "Sivvok",
+      "Naklorral",
+      "Jornak",
+      "Aennorral",
+      "Zhirkel",
+      "Khumkes",
+      "Norpralor",
+      "Rimor",
+      "Keshenaen",
+      "Savin",
+      "Savor",
+      "Mavbal",
+      "Aivkorxar",
+      "Verdin",
+      "Nalior",
+      "Davaxar",
+      "Vora",
+      "Arural",
+      "Rinvek",
+      "Ohmpel",
+      "Thaenin",
+      "Dovkel",
+      "Mbaen",
+      "Tera",
+      "Shalil",
+      "Tharvok",
+      "Evan",
+      "Shenakar",
+      "Shena",
+      "Varral",
+      "Bel",
+      "Mor",
+      "Vanesh",
+      "Jor",
+      "Bren",
+      "Wel",
+      "Vilor",
+      "Torin",
+      "Ver",
+      "Ra",
+      "Va",
+      "nor-ka",
+      "Rinaen",
+      "Emil",
+      "Teremil",
+      "Serin",
+      "Varadan"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "APP-03",
+    "category": "App presentation",
+    "title": "Examples are attached to a whole word, not to its individual senses",
+    "why": "A word with multiple meanings has one shared example list. The reader cannot tell which meaning each sentence demonstrates.",
+    "proposal": "Associate reviewed examples with the sense they illustrate; label examples awaiting that assignment. Do not infer sense assignments from spelling alone.",
+    "confidence": "Confirmed app behavior",
+    "records": [],
+    "headwords": [
+      "Ilin",
+      "Ya",
+      "Var",
+      "Ser",
+      "Thal",
+      "Ka",
+      "An",
+      "Nor",
+      "Esh",
+      "Morl",
+      "Terra",
+      "Dren",
+      "Shal",
+      "Krez",
+      "Thar",
+      "Vethor",
+      "Shara",
+      "Rathor",
+      "Shalor",
+      "Thaal",
+      "Lian",
+      "Lumor",
+      "Aen",
+      "Kal",
+      "Kalor",
+      "Seren",
+      "Vaar",
+      "Lorin",
+      "Rath",
+      "Fah",
+      "Reth",
+      "Aenor",
+      "Dral",
+      "Tal",
+      "Morldren",
+      "Lun",
+      "Kaleth",
+      "Krezor",
+      "Phelvin",
+      "Jorvak",
+      "Welrim",
+      "Xilvar",
+      "Xarvel",
+      "Belshara",
+      "Felorin",
+      "Zhelvek",
+      "Eshvelaneth",
+      "Lianor",
+      "Kel",
+      "Rethlian",
+      "Velmarin",
+      "Talaen",
+      "Shalaen",
+      "Drenkorath",
+      "Tenar",
+      "Lianeth",
+      "Thar-ka",
+      "Shen",
+      "Kor",
+      "Pral",
+      "Vok",
+      "Shan",
+      "Lianrethshen",
+      "Vaarshen",
+      "Keldoraen",
+      "Ruvan",
+      "Anvekaen",
+      "Thalvekaen",
+      "Jorvar",
+      "Njor",
+      "Sel",
+      "Thael",
+      "Shentalzhael",
+      "Em",
+      "Vrak",
+      "Im",
+      "Thalesh",
+      "Thalor",
+      "Vanesh",
+      "Kar",
+      "Jor",
+      "Bren",
+      "Xar",
+      "-en",
+      "-eth",
+      "nor-ka"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "APP-04",
+    "category": "Coverage",
+    "title": "Some headwords have no example",
+    "why": "These entries have no example returned by the app. That is a coverage gap, not proof that the words are wrong. Roots and affixes may need a labeled construction instead of a sentence.",
+    "proposal": "Develop examples in reviewed batches; do not insert generated sentences automatically.",
+    "confidence": "Confirmed coverage gap",
+    "records": [],
+    "headwords": [
+      "Kadon",
+      "Zhilva",
+      "Amthaen",
+      "Nekvar",
+      "Kelithor",
+      "Tlosen",
+      "Jexhaer",
+      "Revalen",
+      "Zharinor",
+      "Vrekthael",
+      "Vial",
+      "Aenvor",
+      "Sorl",
+      "Kalvar",
+      "Sharvar",
+      "Morlka",
+      "Terlin",
+      "Lorash",
+      "Norvaar",
+      "Terradren",
+      "Drenshal",
+      "Terraesh",
+      "Liana",
+      "Lorinen",
+      "Mmm",
+      "Vara",
+      "Thalka",
+      "Sera",
+      "Tek",
+      "Rathka",
+      "Lialor'ka",
+      "Reth‘thal",
+      "Lia‘ser",
+      "Lian'lia",
+      "Verka",
+      "Anen",
+      "Eshen",
+      "Velian",
+      "Rathorim",
+      "Fah'thar",
+      "Vel'rathor",
+      "Rathorimaen",
+      "Fah'tharaen",
+      "Ohm'rin",
+      "Thal'vok",
+      "Ohm'aen",
+      "Thal'vokaen",
+      "Shal'taleth",
+      "Bel'Rathorimeth",
+      "Aen'Moreth",
+      "Lorin'Ohmeth",
+      "Thal'talaen",
+      "Thal'taleth",
+      "Thar'taleth",
+      "Arthen'taleth",
+      "Kor'taleth",
+      "Varkareth",
+      "Drenkaesh",
+      "Tharfah",
+      "Krez-verin",
+      "Rathorkinash",
+      "Vethordrenka",
+      "Morl-karash",
+      "Verin",
+      "Nevar",
+      "Eth",
+      "Trak",
+      "Kav",
+      "Zhir",
+      "Khum",
+      "Tla",
+      "Lor",
+      "Vin",
+      "Nk",
+      "Nku",
+      "Mb",
+      "Rek",
+      "Rav",
+      "Thaen",
+      "Elor",
+      "Livar",
+      "Marin",
+      "Alor",
+      "Tarin",
+      "Soril",
+      "Tham",
+      "Lak",
+      "Kadren",
+      "Azan",
+      "Thee",
+      "Tha-",
+      "-al",
+      "-ath",
+      "-as",
+      "-ka",
+      "Kilv",
+      "Nk-",
+      "Mb-",
+      "Tla-",
+      "Zhae-",
+      "Nku-",
+      "Tl-",
+      "-in",
+      "-n",
+      "-or",
+      "-lin",
+      "Ver-",
+      "Li-",
+      "-esh",
+      "-el",
+      "-vel",
+      "Ten-",
+      "Hek-",
+      "Mel-",
+      "Fen-",
+      "Hek-Mel-",
+      "Shal-",
+      "Krez-",
+      "Dren-",
+      "Esh-",
+      "Lian-",
+      "Vok-",
+      "Rath-",
+      "Zharrel",
+      "Tharnspinners",
+      "Veilgliders",
+      "Velshen",
+      "Shavrek",
+      "Mossquill",
+      "Rynarth",
+      "Vroshan",
+      "Brinnek",
+      "Thravic",
+      "Fennlur",
+      "Vexflit",
+      "Grivol",
+      "Rethal",
+      "Lumora",
+      "Thryssal",
+      "Braskal",
+      "Selkari",
+      "Zhenlor",
+      "Zharak",
+      "Lorynth"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LANG-001",
+    "category": "Meaning / translation",
+    "title": "Kavel is translated as while",
+    "why": "Kavel means forgetfulness / memory gap / loss of awareness, not while. The same line also renders jor as changes, although the displayed verb is surge / burst forth.",
+    "proposal": "Remove this from ordinary usage examples pending a replacement. Keep the approved Kavel memory-gap example; repair the environmental sentence separately.",
+    "confidence": "Conflict or distinction evidenced in the app",
+    "records": [
+      {
+        "id": "PE-EGE1-0019",
+        "celan": "jor eshnor; kavel rinaen eshweknor.",
+        "english": "Weather changes, while climate endures.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Eshnor",
+          "Eshweknor",
+          "Kavel",
+          "Jor"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LANG-002",
+    "category": "Meaning / translation",
+    "title": "Khumrel is treated as the verb listen",
+    "why": "The approved Khumrel entry is the noun compassion / empathetic listening. This English gloss turns it into an infinitive. The source marks the phrase as a conceptual metaphor.",
+    "proposal": "Label the old line as a historical metaphor note. Use the already-reviewed sentence below as ordinary usage.",
+    "confidence": "Conflict or distinction evidenced in the app",
+    "records": [
+      {
+        "id": "PE-S3-0019",
+        "celan": "Khumrel an thar",
+        "english": "to listen to one's heart",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Khumrel",
+          "Khum-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "aen serathrin ser khumrel.",
+    "suggested_english": "The confidant speaks with compassion."
+  },
+  {
+    "id": "LANG-003",
+    "category": "Meaning / translation",
+    "title": "Word becomes decree, and an is used to imply ownership",
+    "why": "Kelka means a word or speech particle; Kalkel is decree. An means at/in, while titled possession uses possessor-ka.",
+    "proposal": "Replace the phrase with the established decree word and the approved possession pattern. It remains a phrase, not a complete sentence.",
+    "confidence": "Conflict or distinction evidenced in the app",
+    "records": [
+      {
+        "id": "PE-S3-0022",
+        "celan": "kelka an Kalrin",
+        "english": "a king's decree",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Human-approved fused spelling applied: Kalrin. Wording otherwise preserved.",
+        "displayed_under": [
+          "Kelka",
+          "Kalrin",
+          "Kal-",
+          "Kel-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "Kalrin-ka kalkel",
+    "suggested_english": "The sovereign’s decree"
+  },
+  {
+    "id": "LANG-004",
+    "category": "Meaning / translation",
+    "title": "Talaen is translated as find",
+    "why": "Talaen is displayed as give/offer or take/receive. Find is not a displayed sense.",
+    "proposal": "Decide whether to revise the English gloss or supply a different Celan phrase. Keep it out of ordinary sentence examples until resolved.",
+    "confidence": "Conflict or distinction evidenced in the app",
+    "records": [
+      {
+        "id": "PE-S3-0005",
+        "celan": "talaen an thal",
+        "english": "find balance",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Talaen",
+          "Thal-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LANG-005",
+    "category": "Meaning / translation",
+    "title": "Talaen is again translated as find",
+    "why": "The same give/take verb is glossed as find connection. A metaphor may be intended, but it is not explained as one in the normal example presentation.",
+    "proposal": "Explain the intended metaphor or replace the phrase with a reviewed example of the displayed meaning.",
+    "confidence": "Conflict or distinction evidenced in the app",
+    "records": [
+      {
+        "id": "PE-S3-0011",
+        "celan": "talaen an ohm",
+        "english": "to find connection",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Talaen",
+          "Ohm",
+          "Ohm-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LANG-006",
+    "category": "Meaning / translation",
+    "title": "The translation adds my without a my marker",
+    "why": "The English says my desire, but there is no -ian. Thar-ka is an established desire headword; its ending should not be interpreted automatically as a possessive for I.",
+    "proposal": "Review the intended possession. Either supply the approved personal possession construction or remove my from the English after checking the entire sentence.",
+    "confidence": "Conflict or distinction evidenced in the app",
+    "records": [
+      {
+        "id": "PE-S4B-0008",
+        "celan": "Ohmaen I an thar-ka.",
+        "english": "I love my desire.",
+        "type": "Capitalization example",
+        "previous_approval": "Approved",
+        "notes": "Original supplement example preserved.",
+        "displayed_under": [
+          "Ohmaen",
+          "Thar-ka"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LANG-007",
+    "category": "Meaning / translation",
+    "title": "A literal analysis is presented as natural English",
+    "why": "Is-in-essence Connection/Love with Us is an analytical gloss, not natural English.",
+    "proposal": "Use the natural translation below and retain the literal gloss as a teaching note.",
+    "confidence": "Conflict or distinction evidenced in the app",
+    "records": [
+      {
+        "id": "PE-S4A-0005",
+        "celan": "Rinaen Ohm ser Ilin.",
+        "english": "Is-in-essence Connection/Love with Us.",
+        "type": "VSO cultural example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original supplement example preserved.",
+        "displayed_under": [
+          "Ohm",
+          "Ohm-",
+          "Ser-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "Rinaen Ohm ser Ilin.",
+    "suggested_english": "Connection is with us."
+  },
+  {
+    "id": "SENSE-PE-EGE1-0018",
+    "category": "Meaning / translation",
+    "title": "Jor uses a broader English meaning",
+    "why": "The app displays jor as surge / burst forth. This translation uses change. It may be an intended metaphor, but the sentence does not explain that extension.",
+    "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-EGE1-0018",
+        "celan": "jor mahrwel nor eshnor.",
+        "english": "The current surges during the weather change.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Mahrwel",
+          "Eshnor",
+          "Jor"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "SENSE-PE-EGE1-0045",
+    "category": "Meaning / translation",
+    "title": "Jor uses a broader English meaning",
+    "why": "The app displays jor as surge / burst forth. This translation uses changes. It may be an intended metaphor, but the sentence does not explain that extension.",
+    "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-EGE1-0045",
+        "celan": "jor ohmshal nor fel rinaen welnali.",
+        "english": "The ecosystem changes when the population is small.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Fel",
+          "Ohmshal",
+          "Welnali"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "SENSE-PE-EGE1-0049",
+    "category": "Meaning / translation",
+    "title": "Jor uses a broader English meaning",
+    "why": "The app displays jor as surge / burst forth. This translation uses spreads. It may be an intended metaphor, but the sentence does not explain that extension.",
+    "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-EGE1-0049",
+        "celan": "jor rathshannali an nalior; var nali var dumanali.",
+        "english": "The invasive species spreads in the habitat; another species moves toward extinction.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Nali",
+          "Nalior",
+          "Rathshannali",
+          "Dumanali"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "SENSE-PE-EGE1-0058",
+    "category": "Meaning / translation",
+    "title": "Jor uses a broader English meaning",
+    "why": "The app displays jor as surge / burst forth. This translation uses changes. It may be an intended metaphor, but the sentence does not explain that extension.",
+    "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-EGE1-0058",
+        "celan": "jor emilbel nor terramav an ohmshal.",
+        "english": "The food web changes when environmental degradation affects the ecosystem.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Ohmshal",
+          "Emilbel",
+          "Terramav"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "SENSE-PE-EGE1-0059",
+    "category": "Meaning / translation",
+    "title": "Jor uses a broader English meaning",
+    "why": "The app displays jor as surge / burst forth. This translation uses spreads. It may be an intended metaphor, but the sentence does not explain that extension.",
+    "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-EGE1-0059",
+        "celan": "rinaen terramav an verd; jor mavverd an sov.",
+        "english": "Environmental degradation affects plant life; blight spreads through the field.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Terramav",
+          "Mavverd",
+          "Verd"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "SENSE-PE-EGE1-0062",
+    "category": "Meaning / translation",
+    "title": "Jor uses a broader English meaning",
+    "why": "The app displays jor as surge / burst forth. This translation uses worsens. It may be an intended metaphor, but the sentence does not explain that extension.",
+    "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-EGE1-0062",
+        "celan": "var welgorm shan drenfel; jor pelnor an terramahr.",
+        "english": "Pollution moves through the stream; erosion worsens on the coast.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support. ED-0037 F023: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "displayed_under": [
+          "Terramahr",
+          "Drenfel",
+          "Welgorm",
+          "Pelnor"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "SENSE-PE-EGE1-0063",
+    "category": "Meaning / translation",
+    "title": "Jor uses a broader English meaning",
+    "why": "The app displays jor as surge / burst forth. This translation uses increases. It may be an intended metaphor, but the sentence does not explain that extension.",
+    "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-EGE1-0063",
+        "celan": "pel pelnor nalior; jor xilnalior.",
+        "english": "Erosion cuts the habitat; fragmentation increases.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Nalior",
+          "Pelnor",
+          "Xilnalior",
+          "Pel"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "SENSE-PE-EGE1-0006",
+    "category": "Meaning / translation",
+    "title": "Wel uses a broader English meaning",
+    "why": "The app displays wel as sharing / unity. This translation uses flows. It may be an intended metaphor, but the sentence does not explain that extension.",
+    "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-EGE1-0006",
+        "celan": "wel dren shan shanmorl an selmor.",
+        "english": "Water flows through the canyon into the plain.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Shanmorl",
+          "Selmor",
+          "Wel"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "SENSE-PE-EGE1-0011",
+    "category": "Meaning / translation",
+    "title": "Wel uses a broader English meaning",
+    "why": "The app displays wel as sharing / unity. This translation uses flows. It may be an intended metaphor, but the sentence does not explain that extension.",
+    "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-EGE1-0011",
+        "celan": "wel dren thal velkmorl var terramahr.",
+        "english": "Water flows from the glacier toward the coast.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Velkmorl",
+          "Terramahr",
+          "Wel"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "SENSE-PE-EGE1-0012",
+    "category": "Meaning / translation",
+    "title": "Wel uses a broader English meaning",
+    "why": "The app displays wel as sharing / unity. This translation uses flows. It may be an intended metaphor, but the sentence does not explain that extension.",
+    "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-EGE1-0012",
+        "celan": "wel drenfel var terramahr.",
+        "english": "The stream flows toward the coast.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Terramahr",
+          "Drenfel",
+          "Wel"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "SENSE-PE-EGE1-0013",
+    "category": "Meaning / translation",
+    "title": "Wel uses a broader English meaning",
+    "why": "The app displays wel as sharing / unity. This translation uses flows. It may be an intended metaphor, but the sentence does not explain that extension.",
+    "proposal": "Confirm the intended meaning. Revise the sentence/translation or explicitly document this usage; do not automatically add a new dictionary sense.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-EGE1-0013",
+        "celan": "wel drenfel an fellun.",
+        "english": "The stream flows into the pond.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Drenfel",
+          "Fellun"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-V1-0013",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-V1-0013",
+        "celan": "Kadron-Azon",
+        "english": "A man with both masculine and feminine qualities.",
+        "type": "Usage example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Kadron",
+          "Azon"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-V1-0014",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-V1-0014",
+        "celan": "Azron-Theon",
+        "english": "A woman embodying neutrality and balance.",
+        "type": "Usage example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Azron",
+          "Theon"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-V3-0200",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-V3-0200",
+        "celan": "Ten-del",
+        "english": "20 (Two tens)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Del"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-V3-0201",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-V3-0201",
+        "celan": "Ten-tren",
+        "english": "30 (Three tens)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Tren"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-V3-0202",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-V3-0202",
+        "celan": "Ten-quen",
+        "english": "40 (Four tens)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Quen"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-V3-0206",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-V3-0206",
+        "celan": "Hek-unar",
+        "english": "100 (One hundred)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Unar"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-V3-0207",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-V3-0207",
+        "celan": "Hek-quen",
+        "english": "400 (Four hundred)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Quen"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-V3-0209",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-V3-0209",
+        "celan": "Mel-unar",
+        "english": "1,000 (One thousand)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Unar"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-V3-0210",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-V3-0210",
+        "celan": "Mel-quen",
+        "english": "4,000 (Four thousand)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Quen"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-V3-0212",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-V3-0212",
+        "celan": "Fen-unar",
+        "english": "10,000 (Ten thousand)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Unar"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-V3-0213",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-V3-0213",
+        "celan": "Fen-peth",
+        "english": "50,000 (Fifty thousand)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Peth"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-V3-0214",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-V3-0214",
+        "celan": "Hek-Mel-unar",
+        "english": "100,000 (One hundred thousand)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Unar"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S1-0003",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S1-0003",
+        "celan": "Vok + Thal -> Vokathar",
+        "english": "A Harmonious Union",
+        "type": "Euphony compound example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Example form preserved from source; not treated as a standalone lexicon definition unless separately attested.",
+        "displayed_under": [
+          "Vok"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S1-0004",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S1-0004",
+        "celan": "Vok + Nor -> Voknor / Vokanor / Vokonor",
+        "english": "The unity of time / a moment of perfect synchronicity",
+        "type": "Advanced euphony example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Example form preserved from source; not treated as a standalone lexicon definition unless separately attested.",
+        "displayed_under": [
+          "Vok"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S1-0007",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S1-0007",
+        "celan": "Belshara",
+        "english": "Duty",
+        "type": "Standard form example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Example form preserved from source; not treated as a standalone lexicon definition unless separately attested.",
+        "displayed_under": [
+          "Belshara"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "TEACH-PE-S1-0009",
+    "category": "App presentation",
+    "title": "Teaching or incorrect example occupies an ordinary sentence slot",
+    "why": "The app labels this record, but still places it inside Used In A Sentence. A warning label does not make it a recommended example.",
+    "proposal": "Move it to a separate Teaching notes / What not to write section.",
+    "confidence": "Confirmed placement",
+    "records": [
+      {
+        "id": "PE-S1-0009",
+        "celan": "Kalvok; Kalrath; Rethlian",
+        "english": "Clan / Apex Predator / Might",
+        "type": "Phonology illustration",
+        "previous_approval": "Approved",
+        "notes": "Example form preserved from source; not treated as a standalone lexicon definition unless separately attested. ED-0037 F092: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "displayed_under": [
+          "Rethlian",
+          "Kalvok",
+          "Kalrath"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S1-0010",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S1-0010",
+        "celan": "Belthal",
+        "english": "Order",
+        "type": "Phonetic fossil example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Example form preserved from source; not treated as a standalone lexicon definition unless separately attested.",
+        "displayed_under": [
+          "Belthal"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S1-0011",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S1-0011",
+        "celan": "Rethvok",
+        "english": "Chaos",
+        "type": "Phonetic fossil example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Example form preserved from source; not treated as a standalone lexicon definition unless separately attested.",
+        "displayed_under": [
+          "Rethvok"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0001",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0001",
+        "celan": "Fah tha-var",
+        "english": "A darkness has occurred",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved; not converted into standalone lexicon row.",
+        "displayed_under": [
+          "Fah"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0002",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0002",
+        "celan": "pralaen an morl",
+        "english": "written in stone",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved; lowercase preserved as extracted.",
+        "displayed_under": [
+          "Pralaen",
+          "Morl-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0005",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0005",
+        "celan": "talaen an thal",
+        "english": "find balance",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Talaen",
+          "Thal-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0006",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0006",
+        "celan": "ver thal",
+        "english": "without balance",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Thal-",
+          "Reth- / Rethvok-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0007",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0007",
+        "celan": "thar an rethvok",
+        "english": "a heart of chaos",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Rethvok",
+          "Reth- / Rethvok-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0008",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0008",
+        "celan": "ka nor",
+        "english": "without time",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Nor-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0009",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0009",
+        "celan": "shalaen an rin",
+        "english": "to see the essence",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Shalaen",
+          "Rin",
+          "Rin-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0010",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0010",
+        "celan": "bel-esh",
+        "english": "to be bound",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Bel",
+          "Bel-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0011",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0011",
+        "celan": "talaen an ohm",
+        "english": "to find connection",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Talaen",
+          "Ohm",
+          "Ohm-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0012",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0012",
+        "celan": "thar an kaleth",
+        "english": "a strong heart / courage",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Thar-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0013",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0013",
+        "celan": "thar an fah",
+        "english": "a dark heart / despair",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Thar-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0014",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0014",
+        "celan": "Var I an vaar",
+        "english": "I go in peace / I am peaceful",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Var",
+          "Var-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0015",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0015",
+        "celan": "Var an shara",
+        "english": "to go on a path",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Shara-",
+          "Var-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0016",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0016",
+        "celan": "Aen Dral",
+        "english": "The Heavens Speak",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Dral",
+          "Aen-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0017",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0017",
+        "celan": "Pralaen an shara",
+        "english": "to make a path",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Shara-",
+          "Pralaen-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0018",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0018",
+        "celan": "Terrarav",
+        "english": "the pull of one's homeland",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Human-approved fused spelling applied: Terrarav. Terra/Ohnosha naming context tracked separately.",
+        "displayed_under": [
+          "Terrarav",
+          "Rav-",
+          "terra- / Terra-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0019",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0019",
+        "celan": "Khumrel an thar",
+        "english": "to listen to one's heart",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Khumrel",
+          "Khum-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0020",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0020",
+        "celan": "zhirin an Arthen",
+        "english": "threads of fate",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Arthen",
+          "Zhirin",
+          "Zhir-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0021",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0021",
+        "celan": "zhirrathor",
+        "english": "thread to the past",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Human-approved fused spelling applied: zhirrathor. Wording otherwise preserved.",
+        "displayed_under": [
+          "Zhirrathor",
+          "Zhir-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S3-0022",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S3-0022",
+        "celan": "kelka an Kalrin",
+        "english": "a king's decree",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Human-approved fused spelling applied: Kalrin. Wording otherwise preserved.",
+        "displayed_under": [
+          "Kelka",
+          "Kalrin",
+          "Kal-",
+          "Kel-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S4B-0005",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S4B-0005",
+        "celan": "Terra / terra",
+        "english": "Heart of Terra / mundane earth, soil, or ground",
+        "type": "Capitalization contrast",
+        "previous_approval": "Approved",
+        "notes": "Original capitalization contrast preserved.",
+        "displayed_under": [
+          "terra- / Terra-"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "FORM-PE-S4B-0007",
+    "category": "App presentation",
+    "title": "A phrase, word form, or teaching illustration is shown as a sentence",
+    "why": "This record is a word, phrase, comparison, or formation illustration. Such material can be useful, but its type is not distinguished in the sentence section.",
+    "proposal": "Keep the example under a suitable label such as Phrase, Word formation, Metaphor, or Capitalization illustration; review any separate language flag on this record.",
+    "confidence": "Confirmed source/display distinction",
+    "records": [
+      {
+        "id": "PE-S4B-0007",
+        "celan": "Rathor / rathor",
+        "english": "The Past / a specific past event or memory",
+        "type": "Capitalization contrast",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original capitalization contrast preserved; links to prior Rathor overlap.",
+        "displayed_under": [
+          "Rathor"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-kadron",
+    "category": "Example placement",
+    "title": "Kadron: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V1-0013",
+        "celan": "Kadron-Azon",
+        "english": "A man with both masculine and feminine qualities.",
+        "type": "Usage example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Kadron",
+          "Azon"
+        ]
+      }
+    ],
+    "headwords": [
+      "Kadron"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-azron",
+    "category": "Example placement",
+    "title": "Azron: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V1-0014",
+        "celan": "Azron-Theon",
+        "english": "A woman embodying neutrality and balance.",
+        "type": "Usage example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Azron",
+          "Theon"
+        ]
+      }
+    ],
+    "headwords": [
+      "Azron"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-theon",
+    "category": "Example placement",
+    "title": "Theon: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V1-0014",
+        "celan": "Azron-Theon",
+        "english": "A woman embodying neutrality and balance.",
+        "type": "Usage example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Azron",
+          "Theon"
+        ]
+      }
+    ],
+    "headwords": [
+      "Theon"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-azon",
+    "category": "Example placement",
+    "title": "Azon: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V1-0013",
+        "celan": "Kadron-Azon",
+        "english": "A man with both masculine and feminine qualities.",
+        "type": "Usage example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Kadron",
+          "Azon"
+        ]
+      }
+    ],
+    "headwords": [
+      "Azon"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-ka",
+    "category": "Example placement",
+    "title": "Ka: distinguish direct usage from related forms",
+    "why": "The Ka entry means without/no. I-ka dren and Ilin-ka emil demonstrate possessive -ka, which your approved rule treats separately. Those phrases do not illustrate negative standalone ka.",
+    "proposal": "Place the possessive phrases under -ka. Keep negative examples under Ka. Review ka-shen as a compound separately.",
+    "confidence": "Confirmed conflict with ED-0038",
+    "records": [
+      {
+        "id": "PE-V1-0003",
+        "celan": "I-ka dren",
+        "english": "“My water”",
+        "type": "Possession example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved. ED-0037 F050: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "displayed_under": [
+          "I",
+          "Ka",
+          "Dren"
+        ]
+      },
+      {
+        "id": "PE-V1-0005",
+        "celan": "Ilin-ka emil",
+        "english": "“Our meal”",
+        "type": "Possession example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Ilin",
+          "Ka",
+          "Emil"
+        ]
+      },
+      {
+        "id": "PE-V2-0050",
+        "celan": "Vanesh Ilin ka-shen lialor.",
+        "english": "We trade via barter indeed.",
+        "type": "Jargon example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Ilin",
+          "Ka",
+          "Ka-Shen",
+          "Lialor",
+          "Shen",
+          "Vanesh"
+        ]
+      }
+    ],
+    "headwords": [
+      "Ka"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-nor",
+    "category": "Example placement",
+    "title": "Nor: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V1-0019",
+        "celan": "Nor-var I dren.",
+        "english": "“I will go to the water.”",
+        "type": "Tense/aspect example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "I",
+          "Nor"
+        ]
+      },
+      {
+        "id": "PE-V1-0029",
+        "celan": "Rath Nor-var ser, Nor-var I dren.",
+        "english": "“If the friend will go, I will go to the water.”",
+        "type": "Conditional example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Nor",
+          "Rath"
+        ]
+      }
+    ],
+    "headwords": [
+      "Nor"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-thaal",
+    "category": "Example placement",
+    "title": "Thaal: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-DR1-0003",
+        "celan": "thaal'ra var ser an Varthas.",
+        "english": "I wonder if the friend is going to the city.",
+        "type": "Reviewed example",
+        "previous_approval": "Approved",
+        "notes": "ED-0037: example supplied by user; possession follows subsequent clarification.",
+        "displayed_under": [
+          "Thaal",
+          "Thaal'ra"
+        ]
+      },
+      {
+        "id": "PE-DR1-0004",
+        "celan": "thaal'ra rinaen dren an krezor.",
+        "english": "I wonder if there is water at the hearth.",
+        "type": "Reviewed example",
+        "previous_approval": "Approved",
+        "notes": "ED-0037: example supplied by user; possession follows subsequent clarification.",
+        "displayed_under": [
+          "Thaal",
+          "Thaal'ra"
+        ]
+      }
+    ],
+    "headwords": [
+      "Thaal"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-vaar",
+    "category": "Example placement",
+    "title": "Vaar: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V3-0069",
+        "celan": "Vaar'kelaen I an shal.",
+        "english": "I feel relief in the light.",
+        "type": "Emotion verb example",
+        "previous_approval": "Source Ambiguity",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Vaar",
+          "Vaar'kelaen"
+        ]
+      }
+    ],
+    "headwords": [
+      "Vaar"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-li-seren",
+    "category": "Example placement",
+    "title": "Li-Seren: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V3-0005",
+        "celan": "Li-Seren-en, var nor Varthas shenakar?",
+        "english": "Honored guardian, do we proceed to the city's exchange now?",
+        "type": "Politeness example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Seren",
+          "Li-Seren",
+          "Shenakar"
+        ]
+      }
+    ],
+    "headwords": [
+      "Li-Seren"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-unar",
+    "category": "Example placement",
+    "title": "Unar: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V3-0206",
+        "celan": "Hek-unar",
+        "english": "100 (One hundred)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Unar"
+        ]
+      },
+      {
+        "id": "PE-V3-0209",
+        "celan": "Mel-unar",
+        "english": "1,000 (One thousand)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Unar"
+        ]
+      },
+      {
+        "id": "PE-V3-0212",
+        "celan": "Fen-unar",
+        "english": "10,000 (Ten thousand)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Unar"
+        ]
+      },
+      {
+        "id": "PE-V3-0214",
+        "celan": "Hek-Mel-unar",
+        "english": "100,000 (One hundred thousand)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Unar"
+        ]
+      }
+    ],
+    "headwords": [
+      "Unar"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-del",
+    "category": "Example placement",
+    "title": "Del: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V3-0200",
+        "celan": "Ten-del",
+        "english": "20 (Two tens)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Del"
+        ]
+      },
+      {
+        "id": "PE-V3-0204",
+        "celan": "Ten-del peth",
+        "english": "25 (20 + 5)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Del",
+          "Peth"
+        ]
+      },
+      {
+        "id": "PE-V3-0216",
+        "celan": "Hek-quen Ven Hek-del",
+        "english": "400 - 200 = 200",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Del",
+          "Ven"
+        ]
+      },
+      {
+        "id": "PE-V4-0084",
+        "celan": "Rinaen zhirin Ten-del korineth.",
+        "english": "The rope is 20 handspans long.",
+        "type": "Measurement example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Del",
+          "Zhirin",
+          "Korineth"
+        ]
+      }
+    ],
+    "headwords": [
+      "Del"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-tren",
+    "category": "Example placement",
+    "title": "Tren: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V3-0201",
+        "celan": "Ten-tren",
+        "english": "30 (Three tens)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Tren"
+        ]
+      }
+    ],
+    "headwords": [
+      "Tren"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-quen",
+    "category": "Example placement",
+    "title": "Quen: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V3-0202",
+        "celan": "Ten-quen",
+        "english": "40 (Four tens)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Quen"
+        ]
+      },
+      {
+        "id": "PE-V3-0205",
+        "celan": "Ten-quen senar",
+        "english": "46 (40 + 6)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Quen",
+          "Senar"
+        ]
+      },
+      {
+        "id": "PE-V3-0207",
+        "celan": "Hek-quen",
+        "english": "400 (Four hundred)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Quen"
+        ]
+      },
+      {
+        "id": "PE-V3-0208",
+        "celan": "Hek-oven Ten-quen del",
+        "english": "842 (800 + 40 + 2)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Del",
+          "Quen",
+          "Oven"
+        ]
+      },
+      {
+        "id": "PE-V3-0210",
+        "celan": "Mel-quen",
+        "english": "4,000 (Four thousand)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Quen"
+        ]
+      }
+    ],
+    "headwords": [
+      "Quen"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-peth",
+    "category": "Example placement",
+    "title": "Peth: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V3-0213",
+        "celan": "Fen-peth",
+        "english": "50,000 (Fifty thousand)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Peth"
+        ]
+      },
+      {
+        "id": "PE-V3-0219",
+        "celan": "Mel-quen Ven Hek-peth",
+        "english": "4,000 - 500 = 3,500",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Peth",
+          "Ven"
+        ]
+      }
+    ],
+    "headwords": [
+      "Peth"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-oven",
+    "category": "Example placement",
+    "title": "Oven: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V3-0208",
+        "celan": "Hek-oven Ten-quen del",
+        "english": "842 (800 + 40 + 2)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Del",
+          "Quen",
+          "Oven"
+        ]
+      },
+      {
+        "id": "PE-V3-0211",
+        "celan": "Mel-quen Hek-sethe Ten-oven sethe",
+        "english": "4,787 (4,000 + 700 + 80 + 7)",
+        "type": "Number/math example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved. ED-0037 F020: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "displayed_under": [
+          "Sethe",
+          "Oven"
+        ]
+      }
+    ],
+    "headwords": [
+      "Oven"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-shen",
+    "category": "Example placement",
+    "title": "Shen: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V2-0050",
+        "celan": "Vanesh Ilin ka-shen lialor.",
+        "english": "We trade via barter indeed.",
+        "type": "Jargon example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Ilin",
+          "Ka",
+          "Ka-Shen",
+          "Lialor",
+          "Shen",
+          "Vanesh"
+        ]
+      }
+    ],
+    "headwords": [
+      "Shen"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-pral",
+    "category": "Example placement",
+    "title": "Pral: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V2-0017",
+        "celan": "Pralmor kal dren.",
+        "english": "The carving strengthens with water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Pralmor",
+          "Pral"
+        ]
+      }
+    ],
+    "headwords": [
+      "Pral"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-rin",
+    "category": "Example placement",
+    "title": "Rin: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V4-0096",
+        "celan": "Theraen thar-ian an awek. Rinaen an-rin lian morlak kadreneth.",
+        "english": "My heart longs for the spring. It feels like the truth of dry bread.",
+        "type": "Comparative dialogue line",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Awek",
+          "Theraen",
+          "Kadreneth",
+          "Rin"
+        ]
+      }
+    ],
+    "headwords": [
+      "Rin"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-bel",
+    "category": "Example placement",
+    "title": "Bel: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V2-0008",
+        "celan": "Belrin kal dren.",
+        "english": "The woven fabric strengthens with water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Belrin",
+          "Bel"
+        ]
+      },
+      {
+        "id": "PE-V2-0009",
+        "celan": "Nethaen belar an dren.",
+        "english": "The binding spice rests by the water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "ED-0036 / F048: User-approved correction, 2026-09-22. Legacy Celan: Belar nor dren.",
+        "displayed_under": [
+          "Belar",
+          "Nethaen",
+          "Bel"
+        ]
+      }
+    ],
+    "headwords": [
+      "Bel"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-veth",
+    "category": "Example placement",
+    "title": "Veth: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V3-0067",
+        "celan": "Veth'tharaen Kadron nor lian ver.",
+        "english": "The man feels shame for the untruth.",
+        "type": "Emotion verb example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Lian",
+          "Veth'tharaen",
+          "Veth"
+        ]
+      }
+    ],
+    "headwords": [
+      "Veth"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-jor",
+    "category": "Example placement",
+    "title": "Jor: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V2-0018",
+        "celan": "Shalilaen jorlin an shal.",
+        "english": "The bursting water flows by the light.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "ED-0036 / F048: User-approved correction, 2026-09-22. Legacy Celan: Jorlin shal dren.",
+        "displayed_under": [
+          "Jorlin",
+          "Jor"
+        ]
+      },
+      {
+        "id": "PE-V2-0019",
+        "celan": "Jorvak kal dren.",
+        "english": "The warmth strengthens by the water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Jorvak",
+          "Jor"
+        ]
+      }
+    ],
+    "headwords": [
+      "Jor"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-jek",
+    "category": "Example placement",
+    "title": "Jek: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V2-0020",
+        "celan": "Nethaen jekvor an dren.",
+        "english": "The spiraling spice rests by the water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "ED-0036 / F048: User-approved correction, 2026-09-22. Legacy Celan: Jekvor nor dren.",
+        "displayed_under": [
+          "Jekvor",
+          "Nethaen",
+          "Jek"
+        ]
+      }
+    ],
+    "headwords": [
+      "Jek"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-wek",
+    "category": "Example placement",
+    "title": "Wek: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V2-0025",
+        "celan": "Nethaen weknor an dren.",
+        "english": "The cyclical time rests by the water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "ED-0036 / F048: User-approved correction, 2026-09-22. Legacy Celan: Weknor nor dren.",
+        "displayed_under": [
+          "Weknor",
+          "Wek"
+        ]
+      },
+      {
+        "id": "PE-CNE1-0064",
+        "celan": "rakel. va aen Ya wek'aen.",
+        "english": "Pardon? Say it again.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Wek'aen",
+          "Rakel",
+          "Wek"
+        ]
+      }
+    ],
+    "headwords": [
+      "Wek"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-wor",
+    "category": "Example placement",
+    "title": "Wor: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V2-0026",
+        "celan": "Worvenak kal dren.",
+        "english": "The abundant stew strengthens by the water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Worvenak",
+          "Wor"
+        ]
+      }
+    ],
+    "headwords": [
+      "Wor"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-phel",
+    "category": "Example placement",
+    "title": "Phel: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V2-0013",
+        "celan": "Nethaen phelvin an dren.",
+        "english": "The comforting drink rests by the water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "ED-0036 / F048: User-approved correction, 2026-09-22. Legacy Celan: Phelvin nor dren.",
+        "displayed_under": [
+          "Phelvin",
+          "Nethaen",
+          "Phel"
+        ]
+      }
+    ],
+    "headwords": [
+      "Phel"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-prak",
+    "category": "Example placement",
+    "title": "Prak: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V2-0014",
+        "celan": "Prakorin shalil an dren.",
+        "english": "The tender bread flows lightly by the water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Prakorin",
+          "Shalil",
+          "Prak"
+        ]
+      }
+    ],
+    "headwords": [
+      "Prak"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-bros",
+    "category": "Example placement",
+    "title": "Bros: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V2-0010",
+        "celan": "Brosrin vanesh dren.",
+        "english": "The layered food trades by the water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Brosrin",
+          "Vanesh",
+          "Bros"
+        ]
+      }
+    ],
+    "headwords": [
+      "Bros"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-bal",
+    "category": "Example placement",
+    "title": "Bal: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V2-0011",
+        "celan": "Balrin var dren.",
+        "english": "The sprouting food grows by the water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Balrin",
+          "Bal"
+        ]
+      }
+    ],
+    "headwords": [
+      "Bal"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-bren",
+    "category": "Example placement",
+    "title": "Bren: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V2-0012",
+        "celan": "Brenmor kal dren.",
+        "english": "The harvested roots strengthen by the water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Brenmor",
+          "Bren"
+        ]
+      }
+    ],
+    "headwords": [
+      "Bren"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-jel",
+    "category": "Example placement",
+    "title": "Jel: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V2-0021",
+        "celan": "Jelvor vanesh dren.",
+        "english": "The zesty spice trades by the water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Jelvor",
+          "Vanesh",
+          "Jel"
+        ]
+      }
+    ],
+    "headwords": [
+      "Jel"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-wel",
+    "category": "Example placement",
+    "title": "Wel: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V2-0023",
+        "celan": "Welaen welrim ser dren ser Serin.",
+        "english": "The feast is shared with friends and water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "ED-0036 / F048: User-approved correction, 2026-09-22. Legacy Celan: Welrim ser dren an Serin.",
+        "displayed_under": [
+          "Welrim",
+          "Wel",
+          "Serin"
+        ]
+      },
+      {
+        "id": "PE-V2-0024",
+        "celan": "Welmor vanesh dren.",
+        "english": "The flowing earth trades by the water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Welmor",
+          "Vanesh",
+          "Wel"
+        ]
+      }
+    ],
+    "headwords": [
+      "Wel"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-xar",
+    "category": "Example placement",
+    "title": "Xar: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V2-0028",
+        "celan": "Nethaen xarvel an dren.",
+        "english": "The covered meal rests by the water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "ED-0036 / F048: User-approved correction, 2026-09-22. Legacy Celan: Xarvel nor dren.",
+        "displayed_under": [
+          "Xarvel",
+          "Xar"
+        ]
+      }
+    ],
+    "headwords": [
+      "Xar"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-xil",
+    "category": "Example placement",
+    "title": "Xil: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V2-0027",
+        "celan": "Nethaen xilvar an dren.",
+        "english": "The hidden spice rests by the water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "ED-0036 / F048: User-approved correction, 2026-09-22. Legacy Celan: Xilvar nor dren.",
+        "displayed_under": [
+          "Xilvar",
+          "Xil"
+        ]
+      }
+    ],
+    "headwords": [
+      "Xil"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-nor-",
+    "category": "Example placement",
+    "title": "Nor-: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-S3-0008",
+        "celan": "ka nor",
+        "english": "without time",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Nor-"
+        ]
+      }
+    ],
+    "headwords": [
+      "Nor-"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-pel",
+    "category": "Example placement",
+    "title": "Pel: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V2-0015",
+        "celan": "Nethaen pelvar an dren.",
+        "english": "The sharp grain rests by the water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "ED-0036 / F048: User-approved correction, 2026-09-22. Legacy Celan: Pelvar nor dren.",
+        "displayed_under": [
+          "Pelvar",
+          "Nethaen",
+          "Pel"
+        ]
+      },
+      {
+        "id": "PE-V2-0016",
+        "celan": "Shalilaen peldren morl shal.",
+        "english": "The piercing water flows under the light.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "ED-0036 / F048: User-approved correction, 2026-09-22. Legacy Celan: Peldren var shal.",
+        "displayed_under": [
+          "Morl",
+          "Peldren",
+          "Pel"
+        ]
+      }
+    ],
+    "headwords": [
+      "Pel"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-jin",
+    "category": "Example placement",
+    "title": "Jin: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V2-0022",
+        "celan": "Nethaen jindral an dren.",
+        "english": "The rare fruit rests by the water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "ED-0036 / F048: User-approved correction, 2026-09-22. Legacy Celan: Jindral nor dren.",
+        "displayed_under": [
+          "Jindral",
+          "Jin"
+        ]
+      }
+    ],
+    "headwords": [
+      "Jin"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-rav-",
+    "category": "Example placement",
+    "title": "Rav-: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-S3-0018",
+        "celan": "Terrarav",
+        "english": "the pull of one's homeland",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Human-approved fused spelling applied: Terrarav. Terra/Ohnosha naming context tracked separately.",
+        "displayed_under": [
+          "Terrarav",
+          "Rav-",
+          "terra- / Terra-"
+        ]
+      }
+    ],
+    "headwords": [
+      "Rav-"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-ohm-",
+    "category": "Example placement",
+    "title": "Ohm-: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-S3-0011",
+        "celan": "talaen an ohm",
+        "english": "to find connection",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Talaen",
+          "Ohm",
+          "Ohm-"
+        ]
+      },
+      {
+        "id": "PE-S4A-0003",
+        "celan": "Ohmaen I Ya.",
+        "english": "I love you.",
+        "type": "VSO cultural example",
+        "previous_approval": "Approved",
+        "notes": "Original supplement example preserved.",
+        "displayed_under": [
+          "Ohmaen",
+          "Ohm-"
+        ]
+      },
+      {
+        "id": "PE-S4A-0005",
+        "celan": "Rinaen Ohm ser Ilin.",
+        "english": "Is-in-essence Connection/Love with Us.",
+        "type": "VSO cultural example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original supplement example preserved.",
+        "displayed_under": [
+          "Ohm",
+          "Ohm-",
+          "Ser-"
+        ]
+      }
+    ],
+    "headwords": [
+      "Ohm-"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-khum-",
+    "category": "Example placement",
+    "title": "Khum-: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-S3-0019",
+        "celan": "Khumrel an thar",
+        "english": "to listen to one's heart",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Khumrel",
+          "Khum-"
+        ]
+      }
+    ],
+    "headwords": [
+      "Khum-"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK--en",
+    "category": "Example placement",
+    "title": "-en: distinguish direct usage from related forms",
+    "why": "These examples may demonstrate the suffix in a fused or inflected form. They need an explicit breakdown identifying the suffix and its function, rather than being offered without explanation.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "OVERRIDE-800077fbe9a1",
+        "celan": "Var Liorinen lianaen an shalor.",
+        "english": "The Honored Elder goes to pray in the sanctuary.",
+        "type": "Inline/override",
+        "previous_approval": "",
+        "notes": "",
+        "displayed_under": [
+          "-en"
+        ]
+      }
+    ],
+    "headwords": [
+      "-en"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK--aen",
+    "category": "Example placement",
+    "title": "-aen: distinguish direct usage from related forms",
+    "why": "These examples may demonstrate the suffix in a fused or inflected form. They need an explicit breakdown identifying the suffix and its function, rather than being offered without explanation.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "OVERRIDE-c0f3cb0d926e",
+        "celan": "Shalaen I vethral an verdor.",
+        "english": "I see the pack hunter in the forest.",
+        "type": "Inline/override",
+        "previous_approval": "",
+        "notes": "",
+        "displayed_under": [
+          "-aen"
+        ]
+      },
+      {
+        "id": "OVERRIDE-5fa075482c2b",
+        "celan": "Pralaen I krezor.",
+        "english": "I am making a hearth.",
+        "type": "Inline/override",
+        "previous_approval": "",
+        "notes": "",
+        "displayed_under": [
+          "-aen"
+        ]
+      },
+      {
+        "id": "OVERRIDE-15bcc5e60ea2",
+        "celan": "Velaen Ilin morlak.",
+        "english": "We eat the bread.",
+        "type": "Inline/override",
+        "previous_approval": "",
+        "notes": "",
+        "displayed_under": [
+          "-aen"
+        ]
+      }
+    ],
+    "headwords": [
+      "-aen"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK--eth",
+    "category": "Example placement",
+    "title": "-eth: distinguish direct usage from related forms",
+    "why": "These examples may demonstrate the suffix in a fused or inflected form. They need an explicit breakdown identifying the suffix and its function, rather than being offered without explanation.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "OVERRIDE-53c78d5c8fab",
+        "celan": "Rinaen drenvor woreth.",
+        "english": "The bowl is full.",
+        "type": "Inline/override",
+        "previous_approval": "",
+        "notes": "",
+        "displayed_under": [
+          "-eth"
+        ]
+      },
+      {
+        "id": "OVERRIDE-9f4c89568e03",
+        "celan": "Rinaen krezor feneth.",
+        "english": "The hearth is hot.",
+        "type": "Inline/override",
+        "previous_approval": "",
+        "notes": "",
+        "displayed_under": [
+          "-eth"
+        ]
+      },
+      {
+        "id": "OVERRIDE-5b1c1f0c2761",
+        "celan": "Rinaen shena shaleth.",
+        "english": "The coin is gold.",
+        "type": "Inline/override",
+        "previous_approval": "",
+        "notes": "",
+        "displayed_under": [
+          "-eth"
+        ]
+      }
+    ],
+    "headwords": [
+      "-eth"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-nor-ka",
+    "category": "Example placement",
+    "title": "nor-ka: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-V4-0008",
+        "celan": "Pralaen an Azron an belkor.",
+        "english": "The woman makes the tunic.",
+        "type": "Passive voice example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Azron",
+          "Belkor",
+          "Pralaen",
+          "nor-ka"
+        ]
+      }
+    ],
+    "headwords": [
+      "nor-ka"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-morl-",
+    "category": "Example placement",
+    "title": "Morl-: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-S3-0002",
+        "celan": "pralaen an morl",
+        "english": "written in stone",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved; lowercase preserved as extracted.",
+        "displayed_under": [
+          "Pralaen",
+          "Morl-"
+        ]
+      }
+    ],
+    "headwords": [
+      "Morl-"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-terra- / terra-",
+    "category": "Example placement",
+    "title": "terra- / Terra-: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-S3-0003",
+        "celan": "Moraen I an terra.",
+        "english": "I stand on the ground.",
+        "type": "Capitalization example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original example preserved; Ohnosha/Terra naming context tracked separately.",
+        "displayed_under": [
+          "Moraen",
+          "terra- / Terra-"
+        ]
+      },
+      {
+        "id": "PE-S3-0004",
+        "celan": "Ver ohmaen Mechuma lian Thal Terra.",
+        "english": "Mechuma does not honor the truth of the Balance of Terra.",
+        "type": "Capitalization example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original example preserved; Ohnosha/Terra naming context tracked separately.",
+        "displayed_under": [
+          "Ohmaen",
+          "terra- / Terra-"
+        ]
+      },
+      {
+        "id": "PE-S3-0018",
+        "celan": "Terrarav",
+        "english": "the pull of one's homeland",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Human-approved fused spelling applied: Terrarav. Terra/Ohnosha naming context tracked separately.",
+        "displayed_under": [
+          "Terrarav",
+          "Rav-",
+          "terra- / Terra-"
+        ]
+      },
+      {
+        "id": "PE-S4A-0002",
+        "celan": "Rinaen Terra vaar.",
+        "english": "The Earth is peaceful / Peace exists on Earth.",
+        "type": "VSO cultural example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original supplement example preserved; source notes derived stative verb.",
+        "displayed_under": [
+          "terra- / Terra-"
+        ]
+      },
+      {
+        "id": "PE-S4B-0005",
+        "celan": "Terra / terra",
+        "english": "Heart of Terra / mundane earth, soil, or ground",
+        "type": "Capitalization contrast",
+        "previous_approval": "Approved",
+        "notes": "Original capitalization contrast preserved.",
+        "displayed_under": [
+          "terra- / Terra-"
+        ]
+      }
+    ],
+    "headwords": [
+      "terra- / Terra-"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-thal-",
+    "category": "Example placement",
+    "title": "Thal-: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-S3-0005",
+        "celan": "talaen an thal",
+        "english": "find balance",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Talaen",
+          "Thal-"
+        ]
+      },
+      {
+        "id": "PE-S3-0006",
+        "celan": "ver thal",
+        "english": "without balance",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Thal-",
+          "Reth- / Rethvok-"
+        ]
+      }
+    ],
+    "headwords": [
+      "Thal-"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-reth- / rethvok-",
+    "category": "Example placement",
+    "title": "Reth- / Rethvok-: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-S3-0006",
+        "celan": "ver thal",
+        "english": "without balance",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Thal-",
+          "Reth- / Rethvok-"
+        ]
+      },
+      {
+        "id": "PE-S3-0007",
+        "celan": "thar an rethvok",
+        "english": "a heart of chaos",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Rethvok",
+          "Reth- / Rethvok-"
+        ]
+      }
+    ],
+    "headwords": [
+      "Reth- / Rethvok-"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-rin-",
+    "category": "Example placement",
+    "title": "Rin-: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-S3-0009",
+        "celan": "shalaen an rin",
+        "english": "to see the essence",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Shalaen",
+          "Rin",
+          "Rin-"
+        ]
+      }
+    ],
+    "headwords": [
+      "Rin-"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-kal-",
+    "category": "Example placement",
+    "title": "Kal-: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-S3-0022",
+        "celan": "kelka an Kalrin",
+        "english": "a king's decree",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Human-approved fused spelling applied: Kalrin. Wording otherwise preserved.",
+        "displayed_under": [
+          "Kelka",
+          "Kalrin",
+          "Kal-",
+          "Kel-"
+        ]
+      }
+    ],
+    "headwords": [
+      "Kal-"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-shara-",
+    "category": "Example placement",
+    "title": "Shara-: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-S3-0015",
+        "celan": "Var an shara",
+        "english": "to go on a path",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Shara-",
+          "Var-"
+        ]
+      },
+      {
+        "id": "PE-S3-0017",
+        "celan": "Pralaen an shara",
+        "english": "to make a path",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Shara-",
+          "Pralaen-"
+        ]
+      }
+    ],
+    "headwords": [
+      "Shara-"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-thar-",
+    "category": "Example placement",
+    "title": "Thar-: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-S3-0012",
+        "celan": "thar an kaleth",
+        "english": "a strong heart / courage",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Thar-"
+        ]
+      },
+      {
+        "id": "PE-S3-0013",
+        "celan": "thar an fah",
+        "english": "a dark heart / despair",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Thar-"
+        ]
+      }
+    ],
+    "headwords": [
+      "Thar-"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-var-",
+    "category": "Example placement",
+    "title": "Var-: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-S3-0014",
+        "celan": "Var I an vaar",
+        "english": "I go in peace / I am peaceful",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Var",
+          "Var-"
+        ]
+      },
+      {
+        "id": "PE-S3-0015",
+        "celan": "Var an shara",
+        "english": "to go on a path",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Shara-",
+          "Var-"
+        ]
+      },
+      {
+        "id": "PE-S4A-0001",
+        "celan": "Var Kadron an morl.",
+        "english": "The Man goes to the mountain.",
+        "type": "VSO cultural example",
+        "previous_approval": "Approved",
+        "notes": "Original supplement example preserved.",
+        "displayed_under": [
+          "Var-"
+        ]
+      }
+    ],
+    "headwords": [
+      "Var-"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-aen-",
+    "category": "Example placement",
+    "title": "Aen-: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-S3-0016",
+        "celan": "Aen Dral",
+        "english": "The Heavens Speak",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Dral",
+          "Aen-"
+        ]
+      }
+    ],
+    "headwords": [
+      "Aen-"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-pralaen-",
+    "category": "Example placement",
+    "title": "Pralaen-: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-S3-0017",
+        "celan": "Pralaen an shara",
+        "english": "to make a path",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Shara-",
+          "Pralaen-"
+        ]
+      }
+    ],
+    "headwords": [
+      "Pralaen-"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-ser-",
+    "category": "Example placement",
+    "title": "Ser-: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-S4A-0004",
+        "celan": "Seraen I an Nys'aleth.",
+        "english": "I believe in balance.",
+        "type": "VSO cultural example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original supplement example preserved; Nys'aleth not separately lexiconized here.",
+        "displayed_under": [
+          "Seraen",
+          "Ser-"
+        ]
+      },
+      {
+        "id": "PE-S4A-0005",
+        "celan": "Rinaen Ohm ser Ilin.",
+        "english": "Is-in-essence Connection/Love with Us.",
+        "type": "VSO cultural example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original supplement example preserved.",
+        "displayed_under": [
+          "Ohm",
+          "Ohm-",
+          "Ser-"
+        ]
+      }
+    ],
+    "headwords": [
+      "Ser-"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-zhir-",
+    "category": "Example placement",
+    "title": "Zhir-: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-S3-0020",
+        "celan": "zhirin an Arthen",
+        "english": "threads of fate",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Original phrase preserved.",
+        "displayed_under": [
+          "Arthen",
+          "Zhirin",
+          "Zhir-"
+        ]
+      },
+      {
+        "id": "PE-S3-0021",
+        "celan": "zhirrathor",
+        "english": "thread to the past",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Approved",
+        "notes": "Human-approved fused spelling applied: zhirrathor. Wording otherwise preserved.",
+        "displayed_under": [
+          "Zhirrathor",
+          "Zhir-"
+        ]
+      }
+    ],
+    "headwords": [
+      "Zhir-"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "LINK-kel-",
+    "category": "Example placement",
+    "title": "Kel-: distinguish direct usage from related forms",
+    "why": "The displayed headword is not found as a separate word or a recognized inflected form in these examples. Some use a derived word or a bound component instead; others are reverse-linked teaching notes. This is a root-related entry, so a labeled derivative demonstration may be appropriate.",
+    "proposal": "Review each attachment. Keep a labeled construction/derivative illustration where appropriate; otherwise detach it from this entry. Preserve the sentence at its proper word.",
+    "confidence": "Review needed",
+    "records": [
+      {
+        "id": "PE-S3-0022",
+        "celan": "kelka an Kalrin",
+        "english": "a king's decree",
+        "type": "Conceptual metaphor example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Human-approved fused spelling applied: Kalrin. Wording otherwise preserved.",
+        "displayed_under": [
+          "Kelka",
+          "Kalrin",
+          "Kal-",
+          "Kel-"
+        ]
+      }
+    ],
+    "headwords": [
+      "Kel-"
+    ],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-V1-0001",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-V1-0001",
+        "celan": "Var I dren.",
+        "english": "“I go to the water.”",
+        "type": "Syntax example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original example preserved. Var also appears as preposition; flagged as terminology overlap.",
+        "displayed_under": [
+          "I",
+          "Var",
+          "Dren"
+        ]
+      },
+      {
+        "id": "PE-V1-0017",
+        "celan": "Var I dren.",
+        "english": "“I go to the water.”",
+        "type": "Tense/aspect example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": []
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-V4-0016",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-V4-0016",
+        "celan": "Nethaen Azron an nethor.",
+        "english": "The woman sits on the chair.",
+        "type": "Mundane Objects & Tools example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Azron",
+          "Nethor"
+        ]
+      },
+      {
+        "id": "PE-V4-0060",
+        "celan": "Nethaen Azron an nethor.",
+        "english": "The woman sits on the chair.",
+        "type": "Essential Verbs example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Nethaen"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-V4-0022",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-V4-0022",
+        "celan": "Rinaen drenvor woreth.",
+        "english": "The bowl is full.",
+        "type": "Mundane Objects & Tools example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Drenvor"
+        ]
+      },
+      {
+        "id": "PE-V4-0031",
+        "celan": "Rinaen drenvor woreth.",
+        "english": "The bowl is full.",
+        "type": "Basic & Sensory Adjectives example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Woreth"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-V4-0023",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-V4-0023",
+        "celan": "Rinaen krezor feneth.",
+        "english": "The hearth is hot.",
+        "type": "Mundane Objects & Tools example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Krezor"
+        ]
+      },
+      {
+        "id": "PE-V4-0036",
+        "celan": "Rinaen krezor feneth.",
+        "english": "The hearth is hot.",
+        "type": "Basic & Sensory Adjectives example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Feneth"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-V4-0035",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-V4-0035",
+        "celan": "Var vethral joreth.",
+        "english": "The pack hunter goes fast.",
+        "type": "Basic & Sensory Adjectives example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Joreth"
+        ]
+      },
+      {
+        "id": "PE-V4-0064",
+        "celan": "Var vethral joreth.",
+        "english": "The pack hunter goes fast.",
+        "type": "Flora & Fauna example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Vethral"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-DSL1-0004",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-DSL1-0004",
+        "celan": "drentalaen I dren an krezvek.",
+        "english": "I pour water into the cooking pot.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Krezvek"
+        ]
+      },
+      {
+        "id": "PE-DSL1-0057",
+        "celan": "drentalaen I dren an krezvek.",
+        "english": "I pour water into the cooking pot.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Drentalaen"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-DSL1-0006",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-DSL1-0006",
+        "celan": "pelvaraen I krezpral.",
+        "english": "I scrape the pan.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Krezpral"
+        ]
+      },
+      {
+        "id": "PE-DSL1-0051",
+        "celan": "pelvaraen I krezpral.",
+        "english": "I scrape the pan.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Pelvaraen"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-PFM1-0045",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-PFM1-0045",
+        "celan": "kasharaen sharavok lianrethor.",
+        "english": "The caravan avoids the anomaly zone.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Lianrethor"
+        ]
+      },
+      {
+        "id": "PE-PFM1-0077",
+        "celan": "kasharaen sharavok lianrethor.",
+        "english": "The caravan avoids the anomaly zone.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Kasharaen"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-PFM1-0055",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-PFM1-0055",
+        "celan": "keldoraen seren lianrethxar.",
+        "english": "The guardian marks the anomaly boundary.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Lianrethxar"
+        ]
+      },
+      {
+        "id": "PE-PFM1-0075",
+        "celan": "keldoraen seren lianrethxar.",
+        "english": "The guardian marks the anomaly boundary.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Keldoraen"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-FAP1-0007",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-FAP1-0007",
+        "celan": "balpralaen I verdsov.",
+        "english": "I cultivate the garden.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Balpralaen"
+        ]
+      },
+      {
+        "id": "PE-FAP1-0016",
+        "celan": "balpralaen I verdsov.",
+        "english": "I cultivate the garden.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Verdsov"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-TVO1-0030",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-TVO1-0030",
+        "celan": "ravvekaen mahrvek mahrpral.",
+        "english": "The ship tows the raft.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Mahrpral"
+        ]
+      },
+      {
+        "id": "PE-TVO1-0058",
+        "celan": "ravvekaen mahrvek mahrpral.",
+        "english": "The ship tows the raft.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Ravvekaen"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-TVO1-0040",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-TVO1-0040",
+        "celan": "eshvaraen eshlorral eshvek.",
+        "english": "The pilot flies the aircraft.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Eshvek",
+          "Eshvaraen"
+        ]
+      },
+      {
+        "id": "PE-TVO1-0067",
+        "celan": "eshvaraen eshlorral eshvek.",
+        "english": "The pilot flies the aircraft.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Eshlorral"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-GCI1-0005",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-GCI1-0005",
+        "celan": "lorbelaen khumkel felbelor.",
+        "english": "The council governs the district.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Lorbelaen",
+          "Khumkel"
+        ]
+      },
+      {
+        "id": "PE-GCI1-0046",
+        "celan": "lorbelaen khumkel felbelor.",
+        "english": "The council governs the district.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Felbelor"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-DW1-0010",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-DW1-0010",
+        "celan": "arth arthkal seren thal ravjorvek.",
+        "english": "The shield protects the guardian from the arrow.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Ravjorvek"
+        ]
+      },
+      {
+        "id": "PE-DW1-0011",
+        "celan": "arth arthkal seren thal ravjorvek.",
+        "english": "The shield protects the guardian from the arrow.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Arthkal"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-DW1-0012",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-DW1-0012",
+        "celan": "arth arthkal varvek thal ngarzhel.",
+        "english": "The shield protects the vehicle from the energy weapon.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Arthkal"
+        ]
+      },
+      {
+        "id": "PE-DW1-0016",
+        "celan": "arth arthkal varvek thal ngarzhel.",
+        "english": "The shield protects the vehicle from the energy weapon.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Ngarzhel"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-DW1-0013",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-DW1-0013",
+        "celan": "rinaen ngarjor ka ngarvek.",
+        "english": "The firearm is without ammunition.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Ngarjor"
+        ]
+      },
+      {
+        "id": "PE-DW1-0018",
+        "celan": "rinaen ngarjor ka ngarvek.",
+        "english": "The firearm is without ammunition.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Ngarvek"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-PSAC1-0008",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-PSAC1-0008",
+        "celan": "sharaen thaelral thael aennor.",
+        "english": "The dancer follows the rhythm of the music.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Sharaen",
+          "Aennor",
+          "Thael"
+        ]
+      },
+      {
+        "id": "PE-PSAC1-0025",
+        "celan": "sharaen thaelral thael aennor.",
+        "english": "The dancer follows the rhythm of the music.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Thaelral"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-PSAC1-0012",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-PSAC1-0012",
+        "celan": "aenthaelaen welaenthael servok.",
+        "english": "The chorus sings together.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Servok",
+          "Aenthaelaen"
+        ]
+      },
+      {
+        "id": "PE-PSAC1-0015",
+        "celan": "aenthaelaen welaenthael servok.",
+        "english": "The chorus sings together.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Welaenthael"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "DUP-PE-PSAC1-0033",
+    "category": "Duplicate records",
+    "title": "The same bilingual example is stored more than once",
+    "why": "The Celan and English fields are identical. The app deduplicates exact pairs within an entry, but each source record can still acquire different links or editorial notes.",
+    "proposal": "Keep source records and provenance; give the app one canonical example identity with all source references.",
+    "confidence": "Confirmed duplicate data",
+    "records": [
+      {
+        "id": "PE-PSAC1-0033",
+        "celan": "pralaen rinpralral rinpral.",
+        "english": "The artist makes art.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Rinpral"
+        ]
+      },
+      {
+        "id": "PE-PSAC1-0035",
+        "celan": "pralaen rinpralral rinpral.",
+        "english": "The artist makes art.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Rinpralral"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "VAR-PE-V1-0002",
+    "category": "Translation variants",
+    "title": "The same Celan sentence has different English versions",
+    "why": "These may be valid paraphrases or synonyms, not contradictions. Separate English wording causes the app to treat them as different examples.",
+    "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+    "confidence": "Confirmed wording variation; not automatically an error",
+    "records": [
+      {
+        "id": "PE-V1-0002",
+        "celan": "Ra var ser?",
+        "english": "\"Where does the friend go?\"",
+        "type": "Question example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original example preserved. Ser also appears as preposition; flagged as terminology overlap.",
+        "displayed_under": [
+          "Var",
+          "Ser",
+          "Ra"
+        ]
+      },
+      {
+        "id": "PE-V1-0025",
+        "celan": "Ra var ser?",
+        "english": "“Where does the friend go?”",
+        "type": "Question/imperative example",
+        "previous_approval": "Needs Human Review",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Ser",
+          "Ra"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "VAR-PE-V1-0027",
+    "category": "Translation variants",
+    "title": "The same Celan sentence has different English versions",
+    "why": "These may be valid paraphrases or synonyms, not contradictions. Separate English wording causes the app to treat them as different examples.",
+    "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+    "confidence": "Confirmed wording variation; not automatically an error",
+    "records": [
+      {
+        "id": "PE-V1-0027",
+        "celan": "Va var dren!",
+        "english": "“Go to the water!”",
+        "type": "Question/imperative example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Va"
+        ]
+      },
+      {
+        "id": "PE-V3-0006",
+        "celan": "Va var dren!",
+        "english": "Go to the water!",
+        "type": "Politeness example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Va"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "VAR-PE-V1-0037",
+    "category": "Translation variants",
+    "title": "The same Celan sentence has different English versions",
+    "why": "These may be valid paraphrases or synonyms, not contradictions. Separate English wording causes the app to treat them as different examples.",
+    "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+    "confidence": "Confirmed wording variation; not automatically an error",
+    "records": [
+      {
+        "id": "PE-V1-0037",
+        "celan": "Var I esh dren.",
+        "english": "I go above the water.",
+        "type": "Preposition table example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved. ED-0037 F091: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "displayed_under": [
+          "Esh"
+        ]
+      },
+      {
+        "id": "PE-V1-0044",
+        "celan": "Var I esh dren.",
+        "english": "“I go above the water.”",
+        "type": "Preposition example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Esh"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "VAR-PE-V1-0038",
+    "category": "Translation variants",
+    "title": "The same Celan sentence has different English versions",
+    "why": "These may be valid paraphrases or synonyms, not contradictions. Separate English wording causes the app to treat them as different examples.",
+    "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+    "confidence": "Confirmed wording variation; not automatically an error",
+    "records": [
+      {
+        "id": "PE-V1-0038",
+        "celan": "Var I morl dren.",
+        "english": "I go under the water.",
+        "type": "Preposition table example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved. ED-0037 F091: user-approved review correction; prior wording retained in integration/applied_changes.json.",
+        "displayed_under": [
+          "Morl"
+        ]
+      },
+      {
+        "id": "PE-V1-0045",
+        "celan": "Var I morl dren.",
+        "english": "“I go under the water.”",
+        "type": "Preposition example",
+        "previous_approval": "Approved",
+        "notes": "Original example preserved.",
+        "displayed_under": [
+          "Morl"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "VAR-PE-V2-0028",
+    "category": "Translation variants",
+    "title": "The same Celan sentence has different English versions",
+    "why": "These may be valid paraphrases or synonyms, not contradictions. Separate English wording causes the app to treat them as different examples.",
+    "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+    "confidence": "Confirmed wording variation; not automatically an error",
+    "records": [
+      {
+        "id": "PE-V2-0028",
+        "celan": "Nethaen xarvel an dren.",
+        "english": "The covered meal rests by the water.",
+        "type": "Expanded vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "ED-0036 / F048: User-approved correction, 2026-09-22. Legacy Celan: Xarvel nor dren.",
+        "displayed_under": [
+          "Xarvel",
+          "Xar"
+        ]
+      },
+      {
+        "id": "PE-V2-0061",
+        "celan": "Nethaen xarvel an dren.",
+        "english": "The veiled meal rests by the water.",
+        "type": "Food vocabulary example",
+        "previous_approval": "Approved",
+        "notes": "ED-0036 / F048: User-approved correction, 2026-09-22. Legacy Celan: Xarvel nor dren.",
+        "displayed_under": [
+          "Xarvel"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "VAR-PE-NE1-0005",
+    "category": "Translation variants",
+    "title": "The same Celan sentence has different English versions",
+    "why": "These may be valid paraphrases or synonyms, not contradictions. Separate English wording causes the app to treat them as different examples.",
+    "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+    "confidence": "Confirmed wording variation; not automatically an error",
+    "records": [
+      {
+        "id": "PE-NE1-0005",
+        "celan": "arth droral drobel.",
+        "english": "The water keeper protects the waterworks.",
+        "type": "National lexicon example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Droral",
+          "Drobel"
+        ]
+      },
+      {
+        "id": "PE-NE1-0008",
+        "celan": "arth droral drobel.",
+        "english": "The water keeper protects the water-distribution system.",
+        "type": "National lexicon example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Droral",
+          "Drobel"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "VAR-PE-NE1-0034",
+    "category": "Translation variants",
+    "title": "The same Celan sentence has different English versions",
+    "why": "These may be valid paraphrases or synonyms, not contradictions. Separate English wording causes the app to treat them as different examples.",
+    "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+    "confidence": "Confirmed wording variation; not automatically an error",
+    "records": [
+      {
+        "id": "PE-NE1-0034",
+        "celan": "tal zhaelral fennilphel an ser.",
+        "english": "The healer gives an herbal remedy to the friend.",
+        "type": "National lexicon example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Fennilphel",
+          "Zhaelral"
+        ]
+      },
+      {
+        "id": "PE-NE1-0040",
+        "celan": "tal zhaelral fennilphel an ser.",
+        "english": "The healer gives the herbal remedy to the friend.",
+        "type": "National lexicon example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Fennilphel",
+          "Zhaelral"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "VAR-PE-TM1-0007",
+    "category": "Translation variants",
+    "title": "The same Celan sentence has different English versions",
+    "why": "These may be valid paraphrases or synonyms, not contradictions. Separate English wording causes the app to treat them as different examples.",
+    "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+    "confidence": "Confirmed wording variation; not automatically an error",
+    "records": [
+      {
+        "id": "PE-TM1-0007",
+        "celan": "zhaelpralaen mekral kormek.",
+        "english": "The mechanic repairs the engine.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Zhaelpralaen",
+          "Kormek"
+        ]
+      },
+      {
+        "id": "PE-TM1-0052",
+        "celan": "zhaelpralaen mekral kormek.",
+        "english": "The mechanic repairs the motor.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Kormek"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "VAR-PE-TVO1-0005",
+    "category": "Translation variants",
+    "title": "The same Celan sentence has different English versions",
+    "why": "These may be valid paraphrases or synonyms, not contradictions. Separate English wording causes the app to treat them as different examples.",
+    "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+    "confidence": "Confirmed wording variation; not automatically an error",
+    "records": [
+      {
+        "id": "PE-TVO1-0005",
+        "celan": "vekaen morvek vekmor.",
+        "english": "The wagon carries the cargo.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Morvek",
+          "Vekmor"
+        ]
+      },
+      {
+        "id": "PE-TVO1-0061",
+        "celan": "vekaen morvek vekmor.",
+        "english": "The wagon carries cargo.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Morvek",
+          "Vekmor"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "VAR-PE-BSPI1-0020",
+    "category": "Translation variants",
+    "title": "The same Celan sentence has different English versions",
+    "why": "These may be valid paraphrases or synonyms, not contradictions. Separate English wording causes the app to treat them as different examples.",
+    "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+    "confidence": "Confirmed wording variation; not automatically an error",
+    "records": [
+      {
+        "id": "PE-BSPI1-0020",
+        "celan": "var ndavivek an ndavior.",
+        "english": "The elevator moves to the storey.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Ndavior",
+          "Ndavivek"
+        ]
+      },
+      {
+        "id": "PE-BSPI1-0058",
+        "celan": "var ndavivek an ndavior.",
+        "english": "The elevator moves to the building level.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Ndavior",
+          "Ndavivek"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  },
+  {
+    "id": "VAR-PE-GCI1-0011",
+    "category": "Translation variants",
+    "title": "The same Celan sentence has different English versions",
+    "why": "These may be valid paraphrases or synonyms, not contradictions. Separate English wording causes the app to treat them as different examples.",
+    "proposal": "Review the variants, select a preferred display translation, and preserve valid alternatives as notes.",
+    "confidence": "Confirmed wording variation; not automatically an error",
+    "records": [
+      {
+        "id": "PE-GCI1-0011",
+        "celan": "aen kalrin kalkel.",
+        "english": "The sovereign speaks a decree.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Kalrin",
+          "Kalkel"
+        ]
+      },
+      {
+        "id": "PE-GCI1-0023",
+        "celan": "aen kalrin kalkel.",
+        "english": "The ruler issues a decree.",
+        "type": "Expansion example",
+        "previous_approval": "Approved",
+        "notes": "User-approved expansion support.",
+        "displayed_under": [
+          "Kalrin",
+          "Kalkel"
+        ]
+      }
+    ],
+    "headwords": [],
+    "suggested_celan": "",
+    "suggested_english": ""
+  }
+]

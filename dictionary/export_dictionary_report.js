@@ -39,6 +39,7 @@ async function loadDictionaryState() {
 globalThis.__dictExports = {
   state,
   relatedExamples,
+  entryExampleSections,
   headwordOverride,
   buildPronunciation,
   displayUsageNote,
@@ -114,6 +115,7 @@ async function main() {
   const {
     state,
     relatedExamples,
+  entryExampleSections,
     headwordOverride,
     buildPronunciation,
     displayUsageNote,
@@ -143,7 +145,7 @@ async function main() {
       .map((entry) => entry.term)
 
       .join("; ");
-    const examples = override?.examples?.length ? override.examples : relatedExamples(group);
+    const examples = entryExampleSections(group).direct;
     const primaryUses = displayUses(group);
     const example = examples[0] || {};
 

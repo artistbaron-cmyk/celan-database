@@ -1,0 +1,21 @@
+{
+  "capturedAt": "2026-09-23T13:23:40.591Z",
+  "headwords": 1496,
+  "source_records": 2119,
+  "source_and_inline_records": 2128,
+  "visible_placements": 3681,
+  "headwords_without_examples": 144,
+  "headwords_with_hidden_examples": 199,
+  "flags": 149,
+  "flagged_sentence_records": 167,
+  "categories": {
+    "App presentation": 43,
+    "Coverage": 1,
+    "Meaning / translation": 18,
+    "Example placement": 57,
+    "Duplicate records": 19,
+    "Translation variants": 11
+  },
+  "scope": "Dictionary entry example sections; all source phrase records and all app-selected inline/override examples. Grammar-guide examples, expression cards and generated Phrase Builder replies are separate surfaces and are not certified by this audit.",
+  "limits": "Full inventory and structural checks, with targeted semantic review against current dictionary meanings. No claim that every unflagged translation or grammatical construction has been independently verified. No sentences or app files changed."
+}

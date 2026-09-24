@@ -864,3 +864,22 @@ Root, prefix and suffix identities remain distinct even when they share letters.
 The app exposes complete related-word lists, preserves explicit reviewed family links, and shows recorded components without suppressing them merely because a headword also matches a root. Combined source headings are not individual family identities. Equations and prose in old evidence hints do not automatically authorize words or relationships; corroborated explicit word derivations supply links. The per-formula disposition is recorded in `outputs/root_family_audit/evidence_disposition.json`.
 
 This is an app structure change. No headwords, lexical meanings, pronunciations, or source-facing records are added or rewritten. Original audit findings remain preserved; implementation results are in `outputs/root_family_audit/applied_results.json` and `completion.md`.
+
+
+## ED-0042: Contextual Gloss of Thar-ka
+
+Status: Approved by the user, 2026-09-23.
+
+Translation note: thar-ka means desire in the abstract. In the original example Ohmaen I an thar-ka., the English rendering “my desire” is contextual, driven by the subject pronoun I; “my” is not encoded in thar-ka itself. This explains that example, rather than making I a general possessive marker.
+
+The simpler replacement for PE-S4B-0008, `ohmaen I Ya.` (I love you), remains in use. The original missing-my audit interpretation is superseded. This decision does not require or approve thar-ka-ian and does not change the possessive spacing rule.
+
+## ED-0043: Approved Example Audit Updates
+
+Status: Applied locally from the original `celan-example-sentence-decisions.json` export, preserved in `outputs/example_sentence_audit/approved_decisions.json`. The later duplicate export was not used.
+
+Thirteen approved findings cover four app/coverage approaches and nine sentence decisions. Eight records receive their approved sentence or translation replacements. PE-EGE1-0019 remains a historical note pending correction and is excluded from direct usage. Stale links to words no longer demonstrated by replacements are removed. Exact before/after records are in `outputs/example_sentence_audit/applied_changes.json`.
+
+Direct usage, related forms/constructions, and teaching notes are presented separately. Counts and View all apply to direct usage. The reviewed Talaen and Jor examples receive explicit sense assignments; other multi-sense examples remain labeled as awaiting sense review. Matching a form is a placement check, not certification of every unreviewed translation. The Thar-ka contextual gloss and the earlier simpler replacement remain valid under ED-0042.
+
+The missing-example approval establishes a reviewed-batch workflow. The original 144-entry coverage queue and a first draft batch of 12 examples are saved in `outputs/example_sentence_audit/`; draft examples have not entered canon. The other unreviewed findings are not approved by this update.

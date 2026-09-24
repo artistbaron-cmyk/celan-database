@@ -2223,7 +2223,7 @@ function buildSyntheticRuleEntries(rawById) {
         "Archetypal concepts: Terra vs. terra; Dral vs. dral; Rathor vs. rathor",
         "Names and titles: Velmarin; Eh'lara; Ka'tharyn",
         'Pronoun I: I',
-        'Poetic emphasis: Standard "Ohmaen I an thar-ka." / Poetic "Rinaen I an Thar-ka."'
+        'Capitalization examples: Ordinary "ohmaen I Ya." / Poetic "Rinaen I an Thar-ka."'
       ].join("\n"),
       notes: "",
       relatedHeadwords: existingHeadwords(["I", "Terra", "Dral", "Rathor"]),
@@ -2239,6 +2239,10 @@ function buildSyntheticRuleEntries(rawById) {
 }
 
 function buildRuleEntries(rows) {
+  // User-approved replacement; keep the earlier grammar source as a historical witness.
+  rows = rows.map(row => row.entry_id === 'GR-S4B-0005' ? {
+    ...row, examples: 'Ordinary sentence: ohmaen I Ya. (I love you.) / Poetic emphasis: Rinaen I an Thar-ka.'
+  } : row);
   const superseded = new Set(rows.some(row => row.entry_id === 'GR-DR1-0001')
     ? ['GR-V1-0007', 'GR-V1-0020', 'GR-V3-0006'] : []);
   const rawEntries = rows
@@ -2733,7 +2737,7 @@ function lessonPageContent(lesson, childTitles) {
         "One Normal Lowercase Sentence: `var kadron an morl.` (The man goes to the mountain — entirely lowercase because no specific names or grand concepts are used).",
         "One Sentence with `I`: `var I an dren.` (I go to the water — the verb `var` is lowercase, but the `I` stands tall).",
         "One Sacred/Archetypal Contrast: `terra` (mundane soil/dirt) vs. `Terra` (the mystical Heart of the world).",
-        "One Poetic Emphasis Contrast: Standard: `ohmaen I an thar-ka.` (I love my desire.)",
+        "Ordinary sentence opening: `ohmaen I Ya.` (I love you.)",
         "Poetic: `rinaen I an Thar-ka.` (I am Desire itself — elevating personal desire into a grand, archetypal force)."
       ].join("\n")
     };
@@ -3813,7 +3817,7 @@ const APPROVED_REVIEW_DISPLAY = {
       {
         "type": "Noun",
         "meaning": "Desire",
-        "usage": ""
+        "usage": "Translation note: thar-ka means desire in the abstract. In the original example Ohmaen I an thar-ka., the English rendering “my desire” is contextual, driven by the subject pronoun I; “my” is not encoded in thar-ka itself. This explains that example, rather than making I a general possessive marker."
       }
     ]
   },
@@ -4830,6 +4834,66 @@ function relatedExamples(group) {
   return deduped;
 }
 
+// ED-0043: example provenance and a related form are not proof of direct usage.
+function isDirectExample(group, text) {
+  const tokens = normalizeHeadword(text).match(/[-\p{L}’']+/gu) || [];
+  const forms = uniqueStrings([group.term, ...(headwordOverride(group.term)?.aliases || []),
+    ...group.entries.flatMap(e=>splitIds(e.variant_forms))].map(normalizeHeadword));
+  return forms.some(form => {
+    if (/^-|-$/.test(form)) return false; // Bound forms belong in the construction section.
+    const accepted = new Set([form]);
+    if (displayUses(group).some(use=>use.type==='Noun')) accepted.add(form + (/[aeiou]$/.test(form) ? 'n' : 'in'));
+    return tokens.some(token => {
+      if (accepted.has(token)) return true;
+      const stem = token.replace(/^(tha|nor|ver|li)-/, '').replace(/-(ian|ya|eshen|ka|esh|en)$/, '');
+      return accepted.has(stem);
+    });
+  });
+}
+
+const REVIEWED_EXAMPLE_SENSES = {
+  'PE-S3-0005': {talaen:'To Take (contextual), To Receive', thal:'From / Out of'},
+  'PE-S3-0011': {talaen:'To give/offer (used for simpler offerings).'},
+  'PE-EGE1-0018': {jor:'Surge or burst (symbolizing sudden movements or energetic flows).'},
+  'PE-EGE1-0049': {jor:'Surge or burst (symbolizing sudden movements or energetic flows).'},
+  'PE-EGE1-0058': {jor:'Surge or burst (symbolizing sudden movements or energetic flows).'}
+};
+
+function entryExampleSections(group, examples = null) {
+  const override = headwordOverride(group.term);
+  const candidates = examples || (override?.examples?.length ? override.examples : relatedExamples(group));
+  const sections = {direct:[], related:[], teaching:[]};
+  for (const example of candidates) {
+    const kind = example.example_type || '';
+    const teaching = /counterexample|phonology|historical|conceptual metaphor|phonetic fossil|capitalization contrast|euphony|standard form|poetic form/i.test(kind)
+      || /\+|->|→|\s\/\s/.test(example.celan_text || '');
+    if (teaching) sections.teaching.push(example);
+    else if (isDirectExample(group,example.celan_text)) sections.direct.push(example);
+    else sections.related.push(example);
+  }
+  // Stable sorting retains source order within each review tier.
+  sections.direct.sort((a,b)=>Number(/^Reviewed/i.test(b.example_type || ''))-Number(/^Reviewed/i.test(a.example_type || '')));
+  return sections;
+}
+
+function renderExampleSections(group, examples) {
+  const sections = entryExampleSections(group,examples);
+  const uses = displayUses(group);
+  const render = (e, direct = false) => {
+    const meaning = REVIEWED_EXAMPLE_SENSES[e.entry_id]?.[group.id];
+    const sense = meaning ? uses.find(u=>u.meaning===meaning) : null;
+    const senseLabel = direct && uses.length>1 ? (sense ? `${sense.type}: ${sense.meaning}` : 'Sense assignment pending review') : '';
+    const label = /phrase/i.test(e.example_type || '') ? 'Phrase' : e.example_type || '';
+    return `<div class="sentence-example">${senseLabel ? `<p class="sense-usage">${escapeMarkup(senseLabel)}</p>` : ''}${label ? `<small>${escapeMarkup(label)}</small>` : ''}<p>${escapeMarkup(e.celan_text)}<br>${e.translation ? `“${escapeMarkup(e.translation)}”` : ''}</p>${e.analysis ? `<p class="sense-usage">${escapeMarkup(e.analysis)}</p>` : ''}<details class="example-source"><summary>Source</summary><p>${escapeMarkup([e.source_volume,e.source_section,e.entry_id].filter(Boolean).join(' · ') || 'Reviewed dictionary example')}</p></details></div>`;
+  };
+  const groups = [];
+  if (sections.direct.length) groups.push(`<section class="card sentence-card"><h3>Direct usage (${sections.direct.length})</h3>${sections.direct.slice(0,5).map(e=>render(e,true)).join('')}${sections.direct.length>5 ? `<details><summary>View all ${sections.direct.length} usage examples</summary>${sections.direct.slice(5).map(e=>render(e,true)).join('')}</details>` : ''}</section>`);
+  else groups.push('<section class="card sentence-card"><h3>Direct usage</h3><p>No direct usage example is available yet.</p></section>');
+  if(sections.related.length) groups.push(`<section class="card sentence-card"><h3>Related forms and constructions (${sections.related.length})</h3><p>These records are linked to this entry but do not demonstrate the standalone word. Their connection may need review.</p><details><summary>View related records</summary>${sections.related.map(e=>render(e)).join('')}</details></section>`);
+  if(sections.teaching.length) groups.push(`<section class="card sentence-card"><h3>Teaching notes (${sections.teaching.length})</h3><p>These include explanations, historical illustrations, and counterexamples. They are not all recommended usage.</p><details><summary>View teaching notes</summary>${sections.teaching.map(e=>render(e)).join('')}</details></section>`);
+  return groups.join('');
+}
+
 function extractInlineExamples(entries) {
   const extracted = [];
   const seen = new Set();
@@ -5303,12 +5367,7 @@ function renderDetail(group) {
           : (!familyRoots.length ? `` : `<p>No related word family listed.</p>`)}
       </section>
       ` : ""}
-      ${displayExamples.length ? `
-      <section class="card sentence-card">
-        <h3>Used In A Sentence</h3>
-        ${displayExamples.slice(0, 5).map(e => `<div class="sentence-example">${/counterexample|phonology illustration/i.test(e.example_type || '') ? `<strong>${escapeMarkup(e.example_type)}</strong>` : ''}<p>${escapeMarkup(e.celan_text)}<br>${e.translation ? `“${escapeMarkup(e.translation)}”` : ''}</p>${e.analysis ? `<p class="sense-usage">${escapeMarkup(e.analysis)}</p>` : ''}</div>`).join('')}
-      </section>
-      ` : ""}
+      ${renderExampleSections(group, displayExamples)}
     </div>
   `;
 

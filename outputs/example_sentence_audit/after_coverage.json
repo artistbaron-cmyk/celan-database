@@ -1,0 +1,11970 @@
+[
+  {
+    "id": "i",
+    "term": "I",
+    "direct": 384,
+    "related": 0,
+    "teaching": 2,
+    "senses": 1
+  },
+  {
+    "id": "ilin",
+    "term": "Ilin",
+    "direct": 26,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "ya",
+    "term": "Ya",
+    "direct": 65,
+    "related": 6,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "yalin",
+    "term": "Yalin",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "la",
+    "term": "La",
+    "direct": 64,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lalin",
+    "term": "Lalin",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kadron",
+    "term": "Kadron",
+    "direct": 6,
+    "related": 1,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "azron",
+    "term": "Azron",
+    "direct": 5,
+    "related": 1,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "theon",
+    "term": "Theon",
+    "direct": 2,
+    "related": 1,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kadfel",
+    "term": "Kadfel",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "azfel",
+    "term": "Azfel",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "theefel",
+    "term": "Theefel",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "azon",
+    "term": "Azon",
+    "direct": 1,
+    "related": 1,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kadon",
+    "term": "Kadon",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "var",
+    "term": "Var",
+    "direct": 200,
+    "related": 0,
+    "teaching": 4,
+    "senses": 2
+  },
+  {
+    "id": "ser",
+    "term": "Ser",
+    "direct": 258,
+    "related": 0,
+    "teaching": 0,
+    "senses": 3
+  },
+  {
+    "id": "thal",
+    "term": "Thal",
+    "direct": 86,
+    "related": 0,
+    "teaching": 2,
+    "senses": 2
+  },
+  {
+    "id": "ka",
+    "term": "Ka",
+    "direct": 29,
+    "related": 9,
+    "teaching": 1,
+    "senses": 2
+  },
+  {
+    "id": "an",
+    "term": "An",
+    "direct": 759,
+    "related": 0,
+    "teaching": 10,
+    "senses": 2
+  },
+  {
+    "id": "nor",
+    "term": "Nor",
+    "direct": 117,
+    "related": 23,
+    "teaching": 2,
+    "senses": 2
+  },
+  {
+    "id": "esh",
+    "term": "Esh",
+    "direct": 36,
+    "related": 0,
+    "teaching": 1,
+    "senses": 3
+  },
+  {
+    "id": "morl",
+    "term": "Morl",
+    "direct": 49,
+    "related": 0,
+    "teaching": 2,
+    "senses": 2
+  },
+  {
+    "id": "terra",
+    "term": "Terra",
+    "direct": 17,
+    "related": 0,
+    "teaching": 1,
+    "senses": 2
+  },
+  {
+    "id": "dren",
+    "term": "Dren",
+    "direct": 241,
+    "related": 0,
+    "teaching": 1,
+    "senses": 3
+  },
+  {
+    "id": "shal",
+    "term": "Shal",
+    "direct": 33,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "krez",
+    "term": "Krez",
+    "direct": 9,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "thar",
+    "term": "Thar",
+    "direct": 13,
+    "related": 0,
+    "teaching": 5,
+    "senses": 2
+  },
+  {
+    "id": "vethor",
+    "term": "Vethor",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "shara",
+    "term": "Shara",
+    "direct": 25,
+    "related": 0,
+    "teaching": 2,
+    "senses": 2
+  },
+  {
+    "id": "zhilva",
+    "term": "Zhilva",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "amthaen",
+    "term": "Amthaen",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nekvar",
+    "term": "Nekvar",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kelithor",
+    "term": "Kelithor",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tlosen",
+    "term": "Tlosen",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jexhaer",
+    "term": "Jexhaer",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "revalen",
+    "term": "Revalen",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zharinor",
+    "term": "Zharinor",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vrekthael",
+    "term": "Vrekthael",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "varash",
+    "term": "Varash",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rathor",
+    "term": "Rathor",
+    "direct": 6,
+    "related": 0,
+    "teaching": 1,
+    "senses": 2
+  },
+  {
+    "id": "shalor",
+    "term": "Shalor",
+    "direct": 20,
+    "related": 0,
+    "teaching": 0,
+    "senses": 3
+  },
+  {
+    "id": "thaal",
+    "term": "Thaal",
+    "direct": 2,
+    "related": 2,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "lian",
+    "term": "Lian",
+    "direct": 19,
+    "related": 0,
+    "teaching": 0,
+    "senses": 3
+  },
+  {
+    "id": "lumor",
+    "term": "Lumor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "aen",
+    "term": "Aen",
+    "direct": 58,
+    "related": 0,
+    "teaching": 1,
+    "senses": 4
+  },
+  {
+    "id": "varok",
+    "term": "Varok",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "arth",
+    "term": "Arth",
+    "direct": 35,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kal",
+    "term": "Kal",
+    "direct": 60,
+    "related": 0,
+    "teaching": 0,
+    "senses": 3
+  },
+  {
+    "id": "kalor",
+    "term": "Kalor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "seren",
+    "term": "Seren",
+    "direct": 43,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "arthen",
+    "term": "Arthen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "vaar",
+    "term": "Vaar",
+    "direct": 11,
+    "related": 1,
+    "teaching": 1,
+    "senses": 3
+  },
+  {
+    "id": "ilan",
+    "term": "Ilan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorin",
+    "term": "Lorin",
+    "direct": 41,
+    "related": 0,
+    "teaching": 0,
+    "senses": 3
+  },
+  {
+    "id": "rath",
+    "term": "Rath",
+    "direct": 11,
+    "related": 0,
+    "teaching": 1,
+    "senses": 3
+  },
+  {
+    "id": "fah",
+    "term": "Fah",
+    "direct": 4,
+    "related": 0,
+    "teaching": 2,
+    "senses": 2
+  },
+  {
+    "id": "thera",
+    "term": "Thera",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "reth",
+    "term": "Reth",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "vial",
+    "term": "Vial",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorinor",
+    "term": "Lorinor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorinshal",
+    "term": "Lorinshal",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aenor",
+    "term": "Aenor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "aenvor",
+    "term": "Aenvor",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kelvor",
+    "term": "Kelvor",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sorl",
+    "term": "Sorl",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalvar",
+    "term": "Kalvar",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "korin",
+    "term": "Korin",
+    "direct": 14,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sharvar",
+    "term": "Sharvar",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morlka",
+    "term": "Morlka",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dral",
+    "term": "Dral",
+    "direct": 5,
+    "related": 0,
+    "teaching": 2,
+    "senses": 2
+  },
+  {
+    "id": "tal",
+    "term": "Tal",
+    "direct": 53,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "morldren",
+    "term": "Morldren",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "verdor",
+    "term": "Verdor",
+    "direct": 14,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mahr",
+    "term": "Mahr",
+    "direct": 18,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lun",
+    "term": "Lun",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "velk",
+    "term": "Velk",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "awek",
+    "term": "Awek",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "terlin",
+    "term": "Terlin",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kaleth",
+    "term": "Kaleth",
+    "direct": 21,
+    "related": 0,
+    "teaching": 1,
+    "senses": 2
+  },
+  {
+    "id": "varthas",
+    "term": "Varthas",
+    "direct": 22,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorash",
+    "term": "Lorash",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krezor",
+    "term": "Krezor",
+    "direct": 11,
+    "related": 0,
+    "teaching": 0,
+    "senses": 3
+  },
+  {
+    "id": "norvaar",
+    "term": "Norvaar",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kinnshal",
+    "term": "Kinnshal",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kinnmor",
+    "term": "Kinnmor",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kinnlin",
+    "term": "Kinnlin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kilvthal",
+    "term": "Kilvthal",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kilveth",
+    "term": "Kilveth",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kilvfah",
+    "term": "Kilvfah",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kilvlum",
+    "term": "Kilvlum",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belrin",
+    "term": "Belrin",
+    "direct": 11,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belar",
+    "term": "Belar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "brosrin",
+    "term": "Brosrin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "balrin",
+    "term": "Balrin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "brenmor",
+    "term": "Brenmor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "phelvin",
+    "term": "Phelvin",
+    "direct": 10,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "prakorin",
+    "term": "Prakorin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pelvar",
+    "term": "Pelvar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "peldren",
+    "term": "Peldren",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pralmor",
+    "term": "Pralmor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jorlin",
+    "term": "Jorlin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jorvak",
+    "term": "Jorvak",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "jekvor",
+    "term": "Jekvor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jelvor",
+    "term": "Jelvor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jindral",
+    "term": "Jindral",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "welrim",
+    "term": "Welrim",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "welmor",
+    "term": "Welmor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "weknor",
+    "term": "Weknor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "worvenak",
+    "term": "Worvenak",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xilvar",
+    "term": "Xilvar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "xarvel",
+    "term": "Xarvel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "ohmbaen",
+    "term": "Ohmbaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tlakorin",
+    "term": "Tlakorin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "khumlor",
+    "term": "Khumlor",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nkuvath",
+    "term": "Nkuvath",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mbalan",
+    "term": "Mbalan",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nkural",
+    "term": "Nkural",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tlankor",
+    "term": "Tlankor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tlakhura",
+    "term": "Tlakhura",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jorkal",
+    "term": "Jorkal",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "arthlor",
+    "term": "Arthlor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "serenkal",
+    "term": "Serenkal",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belshara",
+    "term": "Belshara",
+    "direct": 5,
+    "related": 0,
+    "teaching": 1,
+    "senses": 4
+  },
+  {
+    "id": "rathvethor",
+    "term": "Rathvethor",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lianaen",
+    "term": "Lianaen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "khumeth",
+    "term": "Khumeth",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "talrin",
+    "term": "Talrin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rinvarash",
+    "term": "Rinvarash",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belshen",
+    "term": "Belshen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vaneshem",
+    "term": "Vaneshem",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalaneshen",
+    "term": "Thalaneshen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ka-shen",
+    "term": "Ka-Shen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vellian",
+    "term": "Vellian",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "terradren",
+    "term": "Terradren",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenshal",
+    "term": "Drenshal",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "terraesh",
+    "term": "Terraesh",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morlak",
+    "term": "Morlak",
+    "direct": 16,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velrin",
+    "term": "Velrin",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "teravin",
+    "term": "Teravin",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "broslak",
+    "term": "Broslak",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorlivok",
+    "term": "Lorlivok",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "phelkarin",
+    "term": "Phelkarin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felorin",
+    "term": "Felorin",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "jekvin",
+    "term": "Jekvin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belmor",
+    "term": "Belmor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethhar",
+    "term": "Vethhar",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velithor",
+    "term": "Velithor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tenarorin",
+    "term": "Tenarorin",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lianfel",
+    "term": "Lianfel",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jorvilor",
+    "term": "Jorvilor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhelvek",
+    "term": "Zhelvek",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "velmek",
+    "term": "Velmek",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "phelrin",
+    "term": "Phelrin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jorvalin",
+    "term": "Jorvalin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenlivar",
+    "term": "Drenlivar",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshtenor",
+    "term": "Eshtenor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jekvarin",
+    "term": "Jekvarin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tharmor",
+    "term": "Tharmor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "terafennil",
+    "term": "Terafennil",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "brenvor",
+    "term": "Brenvor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "welvinor",
+    "term": "Welvinor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krezfel",
+    "term": "Krezfel",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morthas",
+    "term": "Morthas",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "voktarin",
+    "term": "Voktarin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "phelmorin",
+    "term": "Phelmorin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velthamor",
+    "term": "Velthamor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshvilor",
+    "term": "Eshvilor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalshorin",
+    "term": "Thalshorin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xarlorin",
+    "term": "Xarlorin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morvenak",
+    "term": "Morvenak",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kreztorin",
+    "term": "Kreztorin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velkorin",
+    "term": "Velkorin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xilbren",
+    "term": "Xilbren",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenkor",
+    "term": "Drenkor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethsoril",
+    "term": "Vethsoril",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shalorin",
+    "term": "Shalorin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "welkarin",
+    "term": "Welkarin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morlathor",
+    "term": "Morlathor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velkrin",
+    "term": "Velkrin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krezlorin",
+    "term": "Krezlorin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pralvinor",
+    "term": "Pralvinor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhaelor",
+    "term": "Zhaelor",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fenrek",
+    "term": "Fenrek",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tharvin",
+    "term": "Tharvin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velthaen",
+    "term": "Velthaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshthael",
+    "term": "Eshthael",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shalithor",
+    "term": "Shalithor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dralorim",
+    "term": "Dralorim",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velarshor",
+    "term": "Velarshor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenalor",
+    "term": "Drenalor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshvelor",
+    "term": "Eshvelor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalorim",
+    "term": "Thalorim",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krezrek",
+    "term": "Krezrek",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenvelesh",
+    "term": "Drenvelesh",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshvelaneth",
+    "term": "Eshvelaneth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "ilinor",
+    "term": "Ilinor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "som",
+    "term": "Som",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "melen",
+    "term": "Melen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felin",
+    "term": "Felin",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ekor",
+    "term": "Ekor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "liana",
+    "term": "Liana",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lianor",
+    "term": "Lianor",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "liorin",
+    "term": "Liorin",
+    "direct": 29,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "liorinen",
+    "term": "Liorinen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorinen",
+    "term": "Lorinen",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "li-seren",
+    "term": "Li-Seren",
+    "direct": 0,
+    "related": 1,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kel",
+    "term": "Kel",
+    "direct": 19,
+    "related": 0,
+    "teaching": 0,
+    "senses": 4
+  },
+  {
+    "id": "min",
+    "term": "Min",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dro",
+    "term": "Dro",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ar",
+    "term": "Ar",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fel",
+    "term": "Fel",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lia",
+    "term": "Lia",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rethlian",
+    "term": "Rethlian",
+    "direct": 3,
+    "related": 0,
+    "teaching": 1,
+    "senses": 3
+  },
+  {
+    "id": "mmm",
+    "term": "Mmm",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lialor",
+    "term": "Lialor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "varthen",
+    "term": "Varthen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shalra",
+    "term": "Shalra",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lianlor",
+    "term": "Lianlor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vara",
+    "term": "Vara",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalka",
+    "term": "Thalka",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sera",
+    "term": "Sera",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tek",
+    "term": "Tek",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "elan",
+    "term": "Elan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rathka",
+    "term": "Rathka",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lialor'ka",
+    "term": "Lialor'ka",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "reth'thal",
+    "term": "Reth‘thal",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lia'ser",
+    "term": "Lia‘ser",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lian'lia",
+    "term": "Lian'lia",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "verka",
+    "term": "Verka",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thaal'ra",
+    "term": "Thaal'ra",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "wek'aen",
+    "term": "Wek'aen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kora",
+    "term": "Kora",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tavan",
+    "term": "Tavan",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felka",
+    "term": "Felka",
+    "direct": 46,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhiren",
+    "term": "Zhiren",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velar",
+    "term": "Velar",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pralin",
+    "term": "Pralin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velkavor",
+    "term": "Velkavor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belvok",
+    "term": "Belvok",
+    "direct": 12,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xarvethral",
+    "term": "Xarvethral",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tavojorin",
+    "term": "Tavojorin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhivorin",
+    "term": "Zhivorin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalvok",
+    "term": "Kalvok",
+    "direct": 2,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "velpralor",
+    "term": "Velpralor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tavrel",
+    "term": "Tavrel",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felvin",
+    "term": "Felvin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zharin",
+    "term": "Zharin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velxorin",
+    "term": "Velxorin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalvokesh",
+    "term": "Kalvokesh",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhirkalor",
+    "term": "Zhirkalor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xarfelvin",
+    "term": "Xarfelvin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belvethral",
+    "term": "Belvethral",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velmarin",
+    "term": "Velmarin",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "pralvokesh",
+    "term": "Pralvokesh",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ian",
+    "term": "Ian",
+    "direct": 2,
+    "related": 57,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "anen",
+    "term": "Anen",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshen",
+    "term": "Eshen",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velian",
+    "term": "Velian",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rathorim",
+    "term": "Rathorim",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fah'thar",
+    "term": "Fah'thar",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vel'rathor",
+    "term": "Vel'rathor",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rathorimaen",
+    "term": "Rathorimaen",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fah'tharaen",
+    "term": "Fah'tharaen",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ohm'rin",
+    "term": "Ohm'rin",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thal'vok",
+    "term": "Thal'vok",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ohm'aen",
+    "term": "Ohm'aen",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thal'vokaen",
+    "term": "Thal'vokaen",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shal'taleth",
+    "term": "Shal'taleth",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "bel'rathorimeth",
+    "term": "Bel'Rathorimeth",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aen'moreth",
+    "term": "Aen'Moreth",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorin'ohmeth",
+    "term": "Lorin'Ohmeth",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thal'talaen",
+    "term": "Thal'talaen",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thal'taleth",
+    "term": "Thal'taleth",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thar'taleth",
+    "term": "Thar'taleth",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "arthen'taleth",
+    "term": "Arthen'taleth",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kor'taleth",
+    "term": "Kor'taleth",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "talaen",
+    "term": "Talaen",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "fahaen",
+    "term": "Fahaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "theraen",
+    "term": "Theraen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vialaen",
+    "term": "Vialaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ohmaen",
+    "term": "Ohmaen",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ravokhaen",
+    "term": "Ravokhaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shalaen",
+    "term": "Shalaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 1,
+    "senses": 2
+  },
+  {
+    "id": "seraen",
+    "term": "Seraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nkathalaen",
+    "term": "Nkathalaen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rathaen",
+    "term": "Rathaen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krezaen",
+    "term": "Krezaen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rethaen",
+    "term": "Rethaen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vershalaen",
+    "term": "Vershalaen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thaalaen",
+    "term": "Thaalaen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vaaranoraen",
+    "term": "Vaaranoraen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vokaen",
+    "term": "Vokaen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "veth'tharaen",
+    "term": "Veth'tharaen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhaeaen",
+    "term": "Zhaeaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vaar'kelaen",
+    "term": "Vaar'kelaen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenvokesh",
+    "term": "Drenvokesh",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshlorien",
+    "term": "Eshlorien",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "terrashaneth",
+    "term": "Terrashaneth",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velpralim",
+    "term": "Velpralim",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kreztharim",
+    "term": "Kreztharim",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhivokesh",
+    "term": "Zhivokesh",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dralshaneth",
+    "term": "Dralshaneth",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhirelorim",
+    "term": "Zhirelorim",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morlatharim",
+    "term": "Morlatharim",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velmarineth",
+    "term": "Velmarineth",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velthaelvok",
+    "term": "Velthaelvok",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenkorath",
+    "term": "Drenkorath",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "shalorveth",
+    "term": "Shalorveth",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velterim",
+    "term": "Velterim",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krezmorath",
+    "term": "Krezmorath",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tharvelim",
+    "term": "Tharvelim",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalorinath",
+    "term": "Kalorinath",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "varkareth",
+    "term": "Varkareth",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenkaesh",
+    "term": "Drenkaesh",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tharfah",
+    "term": "Tharfah",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krez-verin",
+    "term": "Krez-verin",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshreth",
+    "term": "Eshreth",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rathorkinash",
+    "term": "Rathorkinash",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethordrenka",
+    "term": "Vethordrenka",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morl-karash",
+    "term": "Morl-karash",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "verin",
+    "term": "Verin",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "unar",
+    "term": "Unar",
+    "direct": 3,
+    "related": 6,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "del",
+    "term": "Del",
+    "direct": 3,
+    "related": 5,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tren",
+    "term": "Tren",
+    "direct": 3,
+    "related": 1,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "quen",
+    "term": "Quen",
+    "direct": 0,
+    "related": 9,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "peth",
+    "term": "Peth",
+    "direct": 4,
+    "related": 3,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "senar",
+    "term": "Senar",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sethe",
+    "term": "Sethe",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "oven",
+    "term": "Oven",
+    "direct": 0,
+    "related": 2,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nevar",
+    "term": "Nevar",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tenar",
+    "term": "Tenar",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "lianeth",
+    "term": "Lianeth",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 3
+  },
+  {
+    "id": "thar-ka",
+    "term": "Thar-ka",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "inko",
+    "term": "Inko",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "yako",
+    "term": "Yako",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lako",
+    "term": "Lako",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "imen",
+    "term": "Imen",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nethor",
+    "term": "Nethor",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhirin",
+    "term": "Zhirin",
+    "direct": 7,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "vorkor",
+    "term": "Vorkor",
+    "direct": 28,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kareth",
+    "term": "Kareth",
+    "direct": 13,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pralor",
+    "term": "Pralor",
+    "direct": 25,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "peleth",
+    "term": "Peleth",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenvor",
+    "term": "Drenvor",
+    "direct": 21,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nethlor",
+    "term": "Nethlor",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shalkor",
+    "term": "Shalkor",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lianbelrin",
+    "term": "Lianbelrin",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "gormeth",
+    "term": "Gormeth",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "selineth",
+    "term": "Selineth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "maganeth",
+    "term": "Maganeth",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "feleth",
+    "term": "Feleth",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "woreth",
+    "term": "Woreth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zun",
+    "term": "Zun",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kaveth",
+    "term": "Kaveth",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vaareth",
+    "term": "Vaareth",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "joreth",
+    "term": "Joreth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "feneth",
+    "term": "Feneth",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "veleth",
+    "term": "Veleth",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "praketh",
+    "term": "Praketh",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "moreth",
+    "term": "Moreth",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dreneth",
+    "term": "Dreneth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kadreneth",
+    "term": "Kadreneth",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belkor",
+    "term": "Belkor",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sharbel",
+    "term": "Sharbel",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xaresh",
+    "term": "Xaresh",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "trakor",
+    "term": "Trakor",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhirvok",
+    "term": "Zhirvok",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krelek",
+    "term": "Krelek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lunor",
+    "term": "Lunor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "verdeth",
+    "term": "Verdeth",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shaleth",
+    "term": "Shaleth",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "faheth",
+    "term": "Faheth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velek",
+    "term": "Velek",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aenaen",
+    "term": "Aenaen",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pralaen",
+    "term": "Pralaen",
+    "direct": 41,
+    "related": 0,
+    "teaching": 2,
+    "senses": 1
+  },
+  {
+    "id": "karethaen",
+    "term": "Karethaen",
+    "direct": 13,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velaen",
+    "term": "Velaen",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenaen",
+    "term": "Drenaen",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nethaen",
+    "term": "Nethaen",
+    "direct": 30,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "moraen",
+    "term": "Moraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethoraen",
+    "term": "Vethoraen",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morthera",
+    "term": "Morthera",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethral",
+    "term": "Vethral",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vershara",
+    "term": "Vershara",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalrath",
+    "term": "Kalrath",
+    "direct": 1,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "eshlin",
+    "term": "Eshlin",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhaelin",
+    "term": "Zhaelin",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thallian",
+    "term": "Thallian",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sharaka",
+    "term": "Sharaka",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velrathor",
+    "term": "Velrathor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethrin",
+    "term": "Vethrin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kelrin",
+    "term": "Kelrin",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kelka",
+    "term": "Kelka",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rathlor",
+    "term": "Rathlor",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vaarlor",
+    "term": "Vaarlor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belthal",
+    "term": "Belthal",
+    "direct": 2,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "rethvok",
+    "term": "Rethvok",
+    "direct": 2,
+    "related": 0,
+    "teaching": 2,
+    "senses": 1
+  },
+  {
+    "id": "korineth",
+    "term": "Korineth",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shar",
+    "term": "Shar",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kinnshara",
+    "term": "Kinnshara",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kinn",
+    "term": "Kinn",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lunwek",
+    "term": "Lunwek",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tharvin-wek",
+    "term": "Tharvin-Wek",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shen",
+    "term": "Shen",
+    "direct": 20,
+    "related": 1,
+    "teaching": 0,
+    "senses": 3
+  },
+  {
+    "id": "morkal",
+    "term": "Morkal",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kor",
+    "term": "Kor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 3
+  },
+  {
+    "id": "pral",
+    "term": "Pral",
+    "direct": 1,
+    "related": 1,
+    "teaching": 0,
+    "senses": 3
+  },
+  {
+    "id": "vok",
+    "term": "Vok",
+    "direct": 0,
+    "related": 0,
+    "teaching": 2,
+    "senses": 2
+  },
+  {
+    "id": "eth",
+    "term": "Eth",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "droshen",
+    "term": "Droshen",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drokav",
+    "term": "Drokav",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "droral",
+    "term": "Droral",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drobel",
+    "term": "Drobel",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "awekshara",
+    "term": "Awekshara",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mahrowek",
+    "term": "Mahrowek",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mahrkal",
+    "term": "Mahrkal",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drosel",
+    "term": "Drosel",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mahrvek",
+    "term": "Mahrvek",
+    "direct": 17,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lormahr",
+    "term": "Lormahr",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhelbel",
+    "term": "Zhelbel",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belzhir",
+    "term": "Belzhir",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shenlian",
+    "term": "Shenlian",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belwek",
+    "term": "Belwek",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mekral",
+    "term": "Mekral",
+    "direct": 89,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "verdvin",
+    "term": "Verdvin",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fennilphel",
+    "term": "Fennilphel",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belverd",
+    "term": "Belverd",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "arthverd",
+    "term": "Arthverd",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhaelral",
+    "term": "Zhaelral",
+    "direct": 88,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velmor",
+    "term": "Velmor",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xarphelor",
+    "term": "Xarphelor",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "welkrez",
+    "term": "Welkrez",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velalivar",
+    "term": "Velalivar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "veljor",
+    "term": "Veljor",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalorimor",
+    "term": "Thalorimor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mormek",
+    "term": "Mormek",
+    "direct": 9,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dralbelaen",
+    "term": "Dralbelaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalwek",
+    "term": "Kalwek",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "arthaxar",
+    "term": "Arthaxar",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalbel",
+    "term": "Thalbel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "liankavor",
+    "term": "Liankavor",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kavral",
+    "term": "Kavral",
+    "direct": 17,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalshen",
+    "term": "Kalshen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rinshen",
+    "term": "Rinshen",
+    "direct": 11,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dralshara",
+    "term": "Dralshara",
+    "direct": 9,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshlor",
+    "term": "Eshlor",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "karvek",
+    "term": "Karvek",
+    "direct": 29,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sharavok",
+    "term": "Sharavok",
+    "direct": 34,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethdren",
+    "term": "Vethdren",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dor",
+    "term": "Dor",
+    "direct": 54,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vekaen",
+    "term": "Vekaen",
+    "direct": 28,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "korinaen",
+    "term": "Korinaen",
+    "direct": 12,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aloraen",
+    "term": "Aloraen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kaxaraen",
+    "term": "Kaxaraen",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xaraen",
+    "term": "Xaraen",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jekaen",
+    "term": "Jekaen",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sharaen",
+    "term": "Sharaen",
+    "direct": 9,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dar",
+    "term": "Dar",
+    "direct": 25,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "siv",
+    "term": "Siv",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sivathaen",
+    "term": "Sivathaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sivrethaen",
+    "term": "Sivrethaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tharsharaen",
+    "term": "Tharsharaen",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tharshara",
+    "term": "Tharshara",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenvaraen",
+    "term": "Drenvaraen",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kes",
+    "term": "Kes",
+    "direct": 121,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velzhiraen",
+    "term": "Velzhiraen",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kavelzhiraen",
+    "term": "Kavelzhiraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "athnor",
+    "term": "Athnor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nethnor",
+    "term": "Nethnor",
+    "direct": 22,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felath",
+    "term": "Felath",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "worlian",
+    "term": "Worlian",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rethshara",
+    "term": "Rethshara",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "servok",
+    "term": "Servok",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kavok",
+    "term": "Kavok",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhirkor",
+    "term": "Zhirkor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhirath",
+    "term": "Zhirath",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lianzhir",
+    "term": "Lianzhir",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rethpral",
+    "term": "Rethpral",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belreth",
+    "term": "Belreth",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lianbel",
+    "term": "Lianbel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rakel",
+    "term": "Rakel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "serdel",
+    "term": "Serdel",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shalvar",
+    "term": "Shalvar",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethvar",
+    "term": "Vethvar",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shan",
+    "term": "Shan",
+    "direct": 44,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "shalnor",
+    "term": "Shalnor",
+    "direct": 12,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethnor",
+    "term": "Vethnor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sernor",
+    "term": "Sernor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "varnor",
+    "term": "Varnor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shem",
+    "term": "Shem",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krezvek",
+    "term": "Krezvek",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krezpral",
+    "term": "Krezpral",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "emilpral",
+    "term": "Emilpral",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kavvek",
+    "term": "Kavvek",
+    "direct": 15,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshpral",
+    "term": "Eshpral",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xarvek",
+    "term": "Xarvek",
+    "direct": 14,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rask",
+    "term": "Rask",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mekrask",
+    "term": "Mekrask",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lem",
+    "term": "Lem",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lemath",
+    "term": "Lemath",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "selmek",
+    "term": "Selmek",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tir",
+    "term": "Tir",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tirkal",
+    "term": "Tirkal",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aiv",
+    "term": "Aiv",
+    "direct": 38,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aivaen",
+    "term": "Aivaen",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pelaivaen",
+    "term": "Pelaivaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rekaivaen",
+    "term": "Rekaivaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "teshaen",
+    "term": "Teshaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rivaen",
+    "term": "Rivaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jelaen",
+    "term": "Jelaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kelvorthamaen",
+    "term": "Kelvorthamaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "feldrenaen",
+    "term": "Feldrenaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pelvokaen",
+    "term": "Pelvokaen",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "selpralaen",
+    "term": "Selpralaen",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pelvaraen",
+    "term": "Pelvaraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zem",
+    "term": "Zem",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kren",
+    "term": "Kren",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drentalaen",
+    "term": "Drentalaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jekthamaen",
+    "term": "Jekthamaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenselaen",
+    "term": "Drenselaen",
+    "direct": 15,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "numaen",
+    "term": "Numaen",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nolaen",
+    "term": "Nolaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tovaen",
+    "term": "Tovaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "emilrav",
+    "term": "Emilrav",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drorav",
+    "term": "Drorav",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felkal",
+    "term": "Felkal",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "maveth",
+    "term": "Maveth",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aivkor",
+    "term": "Aivkor",
+    "direct": 24,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tesh",
+    "term": "Tesh",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "riv",
+    "term": "Riv",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "num",
+    "term": "Num",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nol",
+    "term": "Nol",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tov",
+    "term": "Tov",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mav",
+    "term": "Mav",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "norzhir",
+    "term": "Norzhir",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalnor",
+    "term": "Thalnor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "norreth",
+    "term": "Norreth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "normav",
+    "term": "Normav",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "normaveth",
+    "term": "Normaveth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xilnor",
+    "term": "Xilnor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felnor",
+    "term": "Felnor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "delnor",
+    "term": "Delnor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rethweknor",
+    "term": "Rethweknor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jornor",
+    "term": "Jornor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velnor",
+    "term": "Velnor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "norshan",
+    "term": "Norshan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "norshanaen",
+    "term": "Norshanaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalnoraen",
+    "term": "Thalnoraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethvelrathor",
+    "term": "Vethvelrathor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shanvelrathor",
+    "term": "Shanvelrathor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shanvelzhiraen",
+    "term": "Shanvelzhiraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "delvelrathor",
+    "term": "Delvelrathor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belvelrathor",
+    "term": "Belvelrathor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rathorjor",
+    "term": "Rathorjor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kavelrathor",
+    "term": "Kavelrathor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lianreth",
+    "term": "Lianreth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lianrethor",
+    "term": "Lianrethor",
+    "direct": 10,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lianrethaen",
+    "term": "Lianrethaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lianthal",
+    "term": "Lianthal",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lianthalaen",
+    "term": "Lianthalaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rethmor",
+    "term": "Rethmor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lianrethxar",
+    "term": "Lianrethxar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalrav",
+    "term": "Kalrav",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalravor",
+    "term": "Kalravor",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "workalrav",
+    "term": "Workalrav",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felkalrav",
+    "term": "Felkalrav",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kakalrav",
+    "term": "Kakalrav",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jekkalrav",
+    "term": "Jekkalrav",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalravaen",
+    "term": "Kalravaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lianrethshen",
+    "term": "Lianrethshen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "vaarshen",
+    "term": "Vaarshen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "keldoraen",
+    "term": "Keldoraen",
+    "direct": 10,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "kasharaen",
+    "term": "Kasharaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belkoraen",
+    "term": "Belkoraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "balpral",
+    "term": "Balpral",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "balral",
+    "term": "Balral",
+    "direct": 20,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pralbal",
+    "term": "Pralbal",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "balpralaen",
+    "term": "Balpralaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drobalaen",
+    "term": "Drobalaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sov",
+    "term": "Sov",
+    "direct": 12,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "brossov",
+    "term": "Brossov",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "verdsov",
+    "term": "Verdsov",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vilorsov",
+    "term": "Vilorsov",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kesbrenaen",
+    "term": "Kesbrenaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "gavaen",
+    "term": "Gavaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "gavral",
+    "term": "Gavral",
+    "direct": 10,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nesh",
+    "term": "Nesh",
+    "direct": 13,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "neshbrenaen",
+    "term": "Neshbrenaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "neshbrenral",
+    "term": "Neshbrenral",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xarnesh",
+    "term": "Xarnesh",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mahrfennil",
+    "term": "Mahrfennil",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zor",
+    "term": "Zor",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belzor",
+    "term": "Belzor",
+    "direct": 9,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belzoraen",
+    "term": "Belzoraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belzorral",
+    "term": "Belzorral",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zordren",
+    "term": "Zordren",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zordrenvinaen",
+    "term": "Zordrenvinaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felverd",
+    "term": "Felverd",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morlverd",
+    "term": "Morlverd",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nelar",
+    "term": "Nelar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zornelar",
+    "term": "Zornelar",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jelkor",
+    "term": "Jelkor",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fennildren",
+    "term": "Fennildren",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "emildren",
+    "term": "Emildren",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "saren",
+    "term": "Saren",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fellak",
+    "term": "Fellak",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenfellak",
+    "term": "Drenfellak",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "olan",
+    "term": "Olan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "emilolan",
+    "term": "Emilolan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morolan",
+    "term": "Morolan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pralfel",
+    "term": "Pralfel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "emilshara",
+    "term": "Emilshara",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "emilpralaen",
+    "term": "Emilpralaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xarkrezaen",
+    "term": "Xarkrezaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krezdrenaen",
+    "term": "Krezdrenaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshkrezaen",
+    "term": "Eshkrezaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pelkrezaen",
+    "term": "Pelkrezaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "olankrezaen",
+    "term": "Olankrezaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshdrenaen",
+    "term": "Eshdrenaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felthamaen",
+    "term": "Felthamaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pelaen",
+    "term": "Pelaen",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenpralaen",
+    "term": "Drenpralaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "seldrenvinaen",
+    "term": "Seldrenvinaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "balemilaen",
+    "term": "Balemilaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mura",
+    "term": "Mura",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "muraen",
+    "term": "Muraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vindrenaen",
+    "term": "Vindrenaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "livaraen",
+    "term": "Livaraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vellivaraen",
+    "term": "Vellivaraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhaeleth",
+    "term": "Zhaeleth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ruvan",
+    "term": "Ruvan",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "ruvanaen",
+    "term": "Ruvanaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ruvaneth",
+    "term": "Ruvaneth",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "emilpraleth",
+    "term": "Emilpraleth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kaemilpraleth",
+    "term": "Kaemilpraleth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "talemilaen",
+    "term": "Talemilaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "gav",
+    "term": "Gav",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belxar",
+    "term": "Belxar",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belxaraen",
+    "term": "Belxaraen",
+    "direct": 12,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velbelxar",
+    "term": "Velbelxar",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshtrakor",
+    "term": "Eshtrakor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velpraltrakor",
+    "term": "Velpraltrakor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pelveltrakor",
+    "term": "Pelveltrakor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorinorxar",
+    "term": "Lorinorxar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rema",
+    "term": "Rema",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "remaxar",
+    "term": "Remaxar",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhirbel",
+    "term": "Zhirbel",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "welzhirbel",
+    "term": "Welzhirbel",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belmek",
+    "term": "Belmek",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belmekaen",
+    "term": "Belmekaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kabelmekaen",
+    "term": "Kabelmekaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "korinxar",
+    "term": "Korinxar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorinshalxar",
+    "term": "Lorinshalxar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "remashalxar",
+    "term": "Remashalxar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rinbelxar",
+    "term": "Rinbelxar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felzhir",
+    "term": "Felzhir",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sura",
+    "term": "Sura",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belsura",
+    "term": "Belsura",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "verdselzhir",
+    "term": "Verdselzhir",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "selzhir",
+    "term": "Selzhir",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalbelrin",
+    "term": "Kalbelrin",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "olanbelrin",
+    "term": "Olanbelrin",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenartheth",
+    "term": "Drenartheth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shanartheth",
+    "term": "Shanartheth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhelshaneth",
+    "term": "Zhelshaneth",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalmorl",
+    "term": "Kalmorl",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krezmorl",
+    "term": "Krezmorl",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "brosmorl",
+    "term": "Brosmorl",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sadar",
+    "term": "Sadar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sadarmorl",
+    "term": "Sadarmorl",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eran",
+    "term": "Eran",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "osar",
+    "term": "Osar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dresh",
+    "term": "Dresh",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "neshmorl",
+    "term": "Neshmorl",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zorxar",
+    "term": "Zorxar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kavolan",
+    "term": "Kavolan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "verdbel",
+    "term": "Verdbel",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "hir",
+    "term": "Hir",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "hirmor",
+    "term": "Hirmor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "hiraen",
+    "term": "Hiraen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belkren",
+    "term": "Belkren",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "karmek",
+    "term": "Karmek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalmek",
+    "term": "Kalmek",
+    "direct": 13,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felmek",
+    "term": "Felmek",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhaelpralaen",
+    "term": "Zhaelpralaen",
+    "direct": 25,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thamvek",
+    "term": "Thamvek",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thamkar",
+    "term": "Thamkar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhirpel",
+    "term": "Zhirpel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pelkorin",
+    "term": "Pelkorin",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "delpel",
+    "term": "Delpel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "delkorin",
+    "term": "Delkorin",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pelkar",
+    "term": "Pelkar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenkavvek",
+    "term": "Drenkavvek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krezdrenvek",
+    "term": "Krezdrenvek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rinpel",
+    "term": "Rinpel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kelpel",
+    "term": "Kelpel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kelpral",
+    "term": "Kelpral",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shenzhir",
+    "term": "Shenzhir",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lormek",
+    "term": "Lormek",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sharashen",
+    "term": "Sharashen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "normek",
+    "term": "Normek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belpralmek",
+    "term": "Belpralmek",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jekzhirvek",
+    "term": "Jekzhirvek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shenmek",
+    "term": "Shenmek",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kesmek",
+    "term": "Kesmek",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shenlianaen",
+    "term": "Shenlianaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kormek",
+    "term": "Kormek",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhelkor",
+    "term": "Zhelkor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhelkav",
+    "term": "Zhelkav",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shanmek",
+    "term": "Shanmek",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krenzhir",
+    "term": "Krenzhir",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "selshan",
+    "term": "Selshan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "selshanaen",
+    "term": "Selshanaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ravshan",
+    "term": "Ravshan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belshan",
+    "term": "Belshan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "wekmek",
+    "term": "Wekmek",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "korwek",
+    "term": "Korwek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jekmek",
+    "term": "Jekmek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ravkar",
+    "term": "Ravkar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "wekrav",
+    "term": "Wekrav",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jekkal",
+    "term": "Jekkal",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "varvek",
+    "term": "Varvek",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felvek",
+    "term": "Felvek",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morvek",
+    "term": "Morvek",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pralvek",
+    "term": "Pralvek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kormekvek",
+    "term": "Kormekvek",
+    "direct": 12,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "delkormek",
+    "term": "Delkormek",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "delwek",
+    "term": "Delwek",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhirvek",
+    "term": "Zhirvek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belzhirvek",
+    "term": "Belzhirvek",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhirshara",
+    "term": "Zhirshara",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shalilvek",
+    "term": "Shalilvek",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshvek",
+    "term": "Eshvek",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mahrxarvek",
+    "term": "Mahrxarvek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krenzhirvek",
+    "term": "Krenzhirvek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mahrpral",
+    "term": "Mahrpral",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vekvaraen",
+    "term": "Vekvaraen",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kormekaen",
+    "term": "Kormekaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorvekaen",
+    "term": "Lorvekaen",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mahrvaraen",
+    "term": "Mahrvaraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshvaraen",
+    "term": "Eshvaraen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "anvekaen",
+    "term": "Anvekaen",
+    "direct": 9,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "thalvekaen",
+    "term": "Thalvekaen",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "weksharaen",
+    "term": "Weksharaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dorvekaen",
+    "term": "Dorvekaen",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jorvar",
+    "term": "Jorvar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "jorvaraen",
+    "term": "Jorvaraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velvaraen",
+    "term": "Velvaraen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belvekaen",
+    "term": "Belvekaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ravvekaen",
+    "term": "Ravvekaen",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felshara",
+    "term": "Felshara",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vekmor",
+    "term": "Vekmor",
+    "direct": 11,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vekin",
+    "term": "Vekin",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorvekral",
+    "term": "Lorvekral",
+    "direct": 19,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshlorral",
+    "term": "Eshlorral",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "welvek",
+    "term": "Welvek",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mekor",
+    "term": "Mekor",
+    "direct": 12,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ndara",
+    "term": "Ndara",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshxar",
+    "term": "Eshxar",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morlpral",
+    "term": "Morlpral",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aneshxar",
+    "term": "Aneshxar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shalshan",
+    "term": "Shalshan",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xarzhir",
+    "term": "Xarzhir",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kormor",
+    "term": "Kormor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mbalanmor",
+    "term": "Mbalanmor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ndavior",
+    "term": "Ndavior",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xaror",
+    "term": "Xaror",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "worxaror",
+    "term": "Worxaror",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xarwelor",
+    "term": "Xarwelor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "welpralor",
+    "term": "Welpralor",
+    "direct": 15,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mekeshpral",
+    "term": "Mekeshpral",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velkelor",
+    "term": "Velkelor",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shenpralor",
+    "term": "Shenpralor",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shenkesor",
+    "term": "Shenkesor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belzhirkavor",
+    "term": "Belzhirkavor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lormekor",
+    "term": "Lormekor",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mekpralor",
+    "term": "Mekpralor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "njor",
+    "term": "Njor",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "mekshara",
+    "term": "Mekshara",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "brosshara",
+    "term": "Brosshara",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morlshan",
+    "term": "Morlshan",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "varshanmek",
+    "term": "Varshanmek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "varbelor",
+    "term": "Varbelor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshpralor",
+    "term": "Eshpralor",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ndavivek",
+    "term": "Ndavivek",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mahrpralor",
+    "term": "Mahrpralor",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mahrxaror",
+    "term": "Mahrxaror",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vekxaror",
+    "term": "Vekxaror",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vekpralor",
+    "term": "Vekpralor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "droshara",
+    "term": "Droshara",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dronjor",
+    "term": "Dronjor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshmekor",
+    "term": "Eshmekor",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "wekxar",
+    "term": "Wekxar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drojormek",
+    "term": "Drojormek",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nethmek",
+    "term": "Nethmek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ndavi",
+    "term": "Ndavi",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belor",
+    "term": "Belor",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorbel",
+    "term": "Lorbel",
+    "direct": 20,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorbelaen",
+    "term": "Lorbelaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "khumkel",
+    "term": "Khumkel",
+    "direct": 11,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "khumkelral",
+    "term": "Khumkelral",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalrin",
+    "term": "Kalrin",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belvoklor",
+    "term": "Belvoklor",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorbelral",
+    "term": "Lorbelral",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "welkelthar",
+    "term": "Welkelthar",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "keltharaen",
+    "term": "Keltharaen",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorshara",
+    "term": "Lorshara",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalkel",
+    "term": "Kalkel",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belrinpel",
+    "term": "Belrinpel",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shental",
+    "term": "Shental",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shentalaen",
+    "term": "Shentalaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "weltal",
+    "term": "Weltal",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "weltalaen",
+    "term": "Weltalaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kelreth",
+    "term": "Kelreth",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalkelreth",
+    "term": "Thalkelreth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalkelrethaen",
+    "term": "Thalkelrethaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "welrin",
+    "term": "Welrin",
+    "direct": 19,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "welrinath",
+    "term": "Welrinath",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felbelor",
+    "term": "Felbelor",
+    "direct": 10,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorzhir",
+    "term": "Lorzhir",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kelvok",
+    "term": "Kelvok",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "verkalkelaen",
+    "term": "Verkalkelaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "weleth",
+    "term": "Weleth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kaweleth",
+    "term": "Kaweleth",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ral",
+    "term": "Ral",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pralilan",
+    "term": "Pralilan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pralral",
+    "term": "Pralral",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krenral",
+    "term": "Krenral",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mormekral",
+    "term": "Mormekral",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lormekral",
+    "term": "Lormekral",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shenral",
+    "term": "Shenral",
+    "direct": 42,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kelvekral",
+    "term": "Kelvekral",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sharalorin",
+    "term": "Sharalorin",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "anvanesh",
+    "term": "Anvanesh",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalvanesh",
+    "term": "Thalvanesh",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorzhiranshan",
+    "term": "Lorzhiranshan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorzhirthalshan",
+    "term": "Lorzhirthalshan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ianath",
+    "term": "Ianath",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ngar",
+    "term": "Ngar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ngarpel",
+    "term": "Ngarpel",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ngarzhir",
+    "term": "Ngarzhir",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ravjor",
+    "term": "Ravjor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ravjorvek",
+    "term": "Ravjorvek",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "arthkal",
+    "term": "Arthkal",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ngarjor",
+    "term": "Ngarjor",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ngarzhel",
+    "term": "Ngarzhel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ngarvek",
+    "term": "Ngarvek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "welarth",
+    "term": "Welarth",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ngarwel",
+    "term": "Ngarwel",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kesvar",
+    "term": "Kesvar",
+    "direct": 13,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xarkaleth",
+    "term": "Xarkaleth",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethbel",
+    "term": "Vethbel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorpel",
+    "term": "Lorpel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorpelaen",
+    "term": "Lorpelaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ngarjoraen",
+    "term": "Ngarjoraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "arthkaraen",
+    "term": "Arthkaraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethvaraen",
+    "term": "Vethvaraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kaarthaen",
+    "term": "Kaarthaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mavmor",
+    "term": "Mavmor",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rathnor",
+    "term": "Rathnor",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rathjor",
+    "term": "Rathjor",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tlamor",
+    "term": "Tlamor",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tlamoraen",
+    "term": "Tlamoraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tlamoreth",
+    "term": "Tlamoreth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shalbal",
+    "term": "Shalbal",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shalbalaen",
+    "term": "Shalbalaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shalbaleth",
+    "term": "Shalbaleth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "duma",
+    "term": "Duma",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dumaen",
+    "term": "Dumaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dumeth",
+    "term": "Dumeth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sel",
+    "term": "Sel",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "dov",
+    "term": "Dov",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dovaen",
+    "term": "Dovaen",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dovath",
+    "term": "Dovath",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dovin",
+    "term": "Dovin",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kaldov",
+    "term": "Kaldov",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nak",
+    "term": "Nak",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nakaen",
+    "term": "Nakaen",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nakin",
+    "term": "Nakin",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sivvok",
+    "term": "Sivvok",
+    "direct": 10,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalnakin",
+    "term": "Thalnakin",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nakshara",
+    "term": "Nakshara",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "naklorral",
+    "term": "Naklorral",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "naktal",
+    "term": "Naktal",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shalnak",
+    "term": "Shalnak",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shalnakaen",
+    "term": "Shalnakaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethnak",
+    "term": "Vethnak",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethnakaen",
+    "term": "Vethnakaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalnak",
+    "term": "Thalnak",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jornak",
+    "term": "Jornak",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jornakaen",
+    "term": "Jornakaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "trakshalilaen",
+    "term": "Trakshalilaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mahrshalilaen",
+    "term": "Mahrshalilaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aennor",
+    "term": "Aennor",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aennoraen",
+    "term": "Aennoraen",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aennorral",
+    "term": "Aennorral",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thael",
+    "term": "Thael",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "aenthael",
+    "term": "Aenthael",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aenthaelaen",
+    "term": "Aenthaelaen",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aenthaelral",
+    "term": "Aenthaelral",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "welaenthael",
+    "term": "Welaenthael",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "karthael",
+    "term": "Karthael",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "karthaelaen",
+    "term": "Karthaelaen",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "karthaelral",
+    "term": "Karthaelral",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thaelaen",
+    "term": "Thaelaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thaelral",
+    "term": "Thaelral",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aenzhir",
+    "term": "Aenzhir",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhirkel",
+    "term": "Zhirkel",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhirkelral",
+    "term": "Zhirkelral",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rinpral",
+    "term": "Rinpral",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rinpralral",
+    "term": "Rinpralral",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "norpral",
+    "term": "Norpral",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "norpralaen",
+    "term": "Norpralaen",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "norpralral",
+    "term": "Norpralral",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "khumkes",
+    "term": "Khumkes",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "norpralor",
+    "term": "Norpralor",
+    "direct": 9,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rim",
+    "term": "Rim",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rimaen",
+    "term": "Rimaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rimor",
+    "term": "Rimor",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ndem",
+    "term": "Ndem",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ndemaen",
+    "term": "Ndemaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mavkes",
+    "term": "Mavkes",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "keshen",
+    "term": "Keshen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "keshenaen",
+    "term": "Keshenaen",
+    "direct": 32,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "keshenath",
+    "term": "Keshenath",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sava",
+    "term": "Sava",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "savaen",
+    "term": "Savaen",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "savin",
+    "term": "Savin",
+    "direct": 23,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "savor",
+    "term": "Savor",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "talzhael",
+    "term": "Talzhael",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "talzhaelaen",
+    "term": "Talzhaelaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhaelphel",
+    "term": "Zhaelphel",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhaelshen",
+    "term": "Zhaelshen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morzhael",
+    "term": "Morzhael",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mavkrez",
+    "term": "Mavkrez",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mavbal",
+    "term": "Mavbal",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mavbaleth",
+    "term": "Mavbaleth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mavbalshaneth",
+    "term": "Mavbalshaneth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhaelolan",
+    "term": "Zhaelolan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aivkorxar",
+    "term": "Aivkorxar",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jorzhael",
+    "term": "Jorzhael",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mavmorzhael",
+    "term": "Mavmorzhael",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rekrathlor",
+    "term": "Rekrathlor",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rathlorkel",
+    "term": "Rathlorkel",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velmav",
+    "term": "Velmav",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rekmav",
+    "term": "Rekmav",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velaivkor",
+    "term": "Velaivkor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kadromav",
+    "term": "Kadromav",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kesrin",
+    "term": "Kesrin",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kakesrin",
+    "term": "Kakesrin",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kakesrineth",
+    "term": "Kakesrineth",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kesrinaen",
+    "term": "Kesrinaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vaarshan",
+    "term": "Vaarshan",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vaarshanaen",
+    "term": "Vaarshanaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalwelvar",
+    "term": "Thalwelvar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalwelvaraen",
+    "term": "Thalwelvaraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mavbalshanaen",
+    "term": "Mavbalshanaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mavbalxar",
+    "term": "Mavbalxar",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shalkav",
+    "term": "Shalkav",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kavaen",
+    "term": "Kavaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vaarbelwek",
+    "term": "Vaarbelwek",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nethvek",
+    "term": "Nethvek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shentalzhael",
+    "term": "Shentalzhael",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "felmorl",
+    "term": "Felmorl",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "delmorl",
+    "term": "Delmorl",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pelmorl",
+    "term": "Pelmorl",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morlshara",
+    "term": "Morlshara",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xarmorl",
+    "term": "Xarmorl",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shanmorl",
+    "term": "Shanmorl",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "selmor",
+    "term": "Selmor",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ndavimor",
+    "term": "Ndavimor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kadromor",
+    "term": "Kadromor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "brossadar",
+    "term": "Brossadar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velkmorl",
+    "term": "Velkmorl",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "terramahr",
+    "term": "Terramahr",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenfel",
+    "term": "Drenfel",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fellun",
+    "term": "Fellun",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenverd",
+    "term": "Drenverd",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mahrmorl",
+    "term": "Mahrmorl",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenjor",
+    "term": "Drenjor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mahrwel",
+    "term": "Mahrwel",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshnor",
+    "term": "Eshnor",
+    "direct": 0,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "eshweknor",
+    "term": "Eshweknor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "drenesh",
+    "term": "Drenesh",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshkar",
+    "term": "Eshkar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshjor",
+    "term": "Eshjor",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshdren",
+    "term": "Eshdren",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kadro",
+    "term": "Kadro",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenrek",
+    "term": "Drenrek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morkar",
+    "term": "Morkar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morljor",
+    "term": "Morljor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sadarjor",
+    "term": "Sadarjor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velxar",
+    "term": "Velxar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felsadar",
+    "term": "Felsadar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krezshen",
+    "term": "Krezshen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "verdin",
+    "term": "Verdin",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "verdmarin",
+    "term": "Verdmarin",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morlzhir",
+    "term": "Morlzhir",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "verdxar",
+    "term": "Verdxar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhirverd",
+    "term": "Zhirverd",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "verdpel",
+    "term": "Verdpel",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "balvek",
+    "term": "Balvek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "balshan",
+    "term": "Balshan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mbu",
+    "term": "Mbu",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shalrin",
+    "term": "Shalrin",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nali",
+    "term": "Nali",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nalior",
+    "term": "Nalior",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ohmshal",
+    "term": "Ohmshal",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "welnali",
+    "term": "Welnali",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kornali",
+    "term": "Kornali",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shannali",
+    "term": "Shannali",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rathshannali",
+    "term": "Rathshannali",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dumanali",
+    "term": "Dumanali",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rathnali",
+    "term": "Rathnali",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "gavin",
+    "term": "Gavin",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rathzor",
+    "term": "Rathzor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "welzor",
+    "term": "Welzor",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zornethor",
+    "term": "Zornethor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "wekvaraen",
+    "term": "Wekvaraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "emilzhir",
+    "term": "Emilzhir",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "emilbel",
+    "term": "Emilbel",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "terramav",
+    "term": "Terramav",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mavverd",
+    "term": "Mavverd",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "gorm",
+    "term": "Gorm",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "welgorm",
+    "term": "Welgorm",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pelnor",
+    "term": "Pelnor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xilnalior",
+    "term": "Xilnalior",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "terrakav",
+    "term": "Terrakav",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "terrazhael",
+    "term": "Terrazhael",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sul",
+    "term": "Sul",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "worsul",
+    "term": "Worsul",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kasul",
+    "term": "Kasul",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kavsul",
+    "term": "Kavsul",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "weksul",
+    "term": "Weksul",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "versul",
+    "term": "Versul",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dava",
+    "term": "Dava",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shendava",
+    "term": "Shendava",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kavdava",
+    "term": "Kavdava",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "davaxar",
+    "term": "Davaxar",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "beldava",
+    "term": "Beldava",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "davapral",
+    "term": "Davapral",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zheldava",
+    "term": "Zheldava",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ohmshan",
+    "term": "Ohmshan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "anmek",
+    "term": "Anmek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalmek",
+    "term": "Thalmek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "raku",
+    "term": "Raku",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rakuaen",
+    "term": "Rakuaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rakumek",
+    "term": "Rakumek",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rakufelmek",
+    "term": "Rakufelmek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rakushara",
+    "term": "Rakushara",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rakukel",
+    "term": "Rakukel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belraku",
+    "term": "Belraku",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "varokraku",
+    "term": "Varokraku",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "varokrakuaen",
+    "term": "Varokrakuaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "varokrakueth",
+    "term": "Varokrakueth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "davashanaen",
+    "term": "Davashanaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "deldavaen",
+    "term": "Deldavaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "andavaen",
+    "term": "Andavaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thaldavaen",
+    "term": "Thaldavaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kavdavaen",
+    "term": "Kavdavaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kavdeldava",
+    "term": "Kavdeldava",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kesdavaen",
+    "term": "Kesdavaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belnoraen",
+    "term": "Belnoraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mekreth",
+    "term": "Mekreth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felmekreth",
+    "term": "Felmekreth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rekmekreth",
+    "term": "Rekmekreth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rethdava",
+    "term": "Rethdava",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xardava",
+    "term": "Xardava",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xardavaen",
+    "term": "Xardavaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kaxardavaen",
+    "term": "Kaxardavaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhelwel",
+    "term": "Zhelwel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhelshara",
+    "term": "Zhelshara",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ravzhel",
+    "term": "Ravzhel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhelshan",
+    "term": "Zhelshan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhelxar",
+    "term": "Zhelxar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jorzhelkav",
+    "term": "Jorzhelkav",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhelvorkor",
+    "term": "Zhelvorkor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhelpel",
+    "term": "Zhelpel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jorzhel",
+    "term": "Jorzhel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "worzhel",
+    "term": "Worzhel",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kazhel",
+    "term": "Kazhel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhelreth",
+    "term": "Zhelreth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rethzhelshara",
+    "term": "Rethzhelshara",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhelaen",
+    "term": "Zhelaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kavzhelaen",
+    "term": "Kavzhelaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalzhelaen",
+    "term": "Thalzhelaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "arthzhelshara",
+    "term": "Arthzhelshara",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morzhelshan",
+    "term": "Morzhelshan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mekkes",
+    "term": "Mekkes",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mekkesaen",
+    "term": "Mekkesaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "varokmek",
+    "term": "Varokmek",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rethzheldava",
+    "term": "Rethzheldava",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "songa",
+    "term": "Songa",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "songaeth",
+    "term": "Songaeth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "songazun",
+    "term": "Songazun",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zunesh",
+    "term": "Zunesh",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nyel",
+    "term": "Nyel",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nyeleth",
+    "term": "Nyeleth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kreznyel",
+    "term": "Kreznyel",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vora",
+    "term": "Vora",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "voraeth",
+    "term": "Voraeth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "luneth",
+    "term": "Luneth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nyelbel",
+    "term": "Nyelbel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "wornyelbel",
+    "term": "Wornyelbel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nyelzhir",
+    "term": "Nyelzhir",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ravwek",
+    "term": "Ravwek",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ravwekaen",
+    "term": "Ravwekaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ravwekin",
+    "term": "Ravwekin",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dralxar",
+    "term": "Dralxar",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dralxaraen",
+    "term": "Dralxaraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felvora",
+    "term": "Felvora",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhirnyel",
+    "term": "Zhirnyel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dralfel",
+    "term": "Dralfel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krezdralfel",
+    "term": "Krezdralfel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mordralfel",
+    "term": "Mordralfel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felmor",
+    "term": "Felmor",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morshen",
+    "term": "Morshen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dralshen",
+    "term": "Dralshen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "songashen",
+    "term": "Songashen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shenbel",
+    "term": "Shenbel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shenbeleth",
+    "term": "Shenbeleth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shenkes",
+    "term": "Shenkes",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shenkesaen",
+    "term": "Shenkesaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kesdava",
+    "term": "Kesdava",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sivshen",
+    "term": "Sivshen",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sivshenaen",
+    "term": "Sivshenaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sivkel",
+    "term": "Sivkel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "belkes",
+    "term": "Belkes",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rinmek",
+    "term": "Rinmek",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rinmekaen",
+    "term": "Rinmekaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "varrinmek",
+    "term": "Varrinmek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "varrinmekaen",
+    "term": "Varrinmekaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felshen",
+    "term": "Felshen",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "felshenaen",
+    "term": "Felshenaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenvar",
+    "term": "Drenvar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sivshenlian",
+    "term": "Sivshenlian",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rethshen",
+    "term": "Rethshen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shenreth",
+    "term": "Shenreth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shenlianeth",
+    "term": "Shenlianeth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pelsheneth",
+    "term": "Pelsheneth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shenvarash",
+    "term": "Shenvarash",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shenvarashaen",
+    "term": "Shenvarashaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "weksivshen",
+    "term": "Weksivshen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "weksivshenaen",
+    "term": "Weksivshenaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shalpel",
+    "term": "Shalpel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "drallor",
+    "term": "Drallor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fellor",
+    "term": "Fellor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aru",
+    "term": "Aru",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "arueth",
+    "term": "Arueth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kaarueth",
+    "term": "Kaarueth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aruaen",
+    "term": "Aruaen",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "arural",
+    "term": "Arural",
+    "direct": 38,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rinaru",
+    "term": "Rinaru",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalaru",
+    "term": "Kalaru",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "esharu",
+    "term": "Esharu",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "arukel",
+    "term": "Arukel",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "arukelaen",
+    "term": "Arukelaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shankalaen",
+    "term": "Shankalaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rinbel",
+    "term": "Rinbel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rinbelaen",
+    "term": "Rinbelaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rinbeleth",
+    "term": "Rinbeleth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "arthrin",
+    "term": "Arthrin",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xarrin",
+    "term": "Xarrin",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kaaruaen",
+    "term": "Kaaruaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vaarrin",
+    "term": "Vaarrin",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rathrin",
+    "term": "Rathrin",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rinvek",
+    "term": "Rinvek",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ohmpel",
+    "term": "Ohmpel",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mekaru",
+    "term": "Mekaru",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thaenin",
+    "term": "Thaenin",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thaenohm",
+    "term": "Thaenohm",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thaenohmaen",
+    "term": "Thaenohmaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rinarshor",
+    "term": "Rinarshor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thaenbel",
+    "term": "Thaenbel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thaenbelaen",
+    "term": "Thaenbelaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kathaenbelaen",
+    "term": "Kathaenbelaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krezpralaen",
+    "term": "Krezpralaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dropralaen",
+    "term": "Dropralaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshpralaen",
+    "term": "Eshpralaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morpralaen",
+    "term": "Morpralaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velpralaen",
+    "term": "Velpralaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhelpralaen",
+    "term": "Zhelpralaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tenarpralaen",
+    "term": "Tenarpralaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethpralaen",
+    "term": "Vethpralaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shalrinaen",
+    "term": "Shalrinaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethshal",
+    "term": "Vethshal",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethshalaen",
+    "term": "Vethshalaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethshaleth",
+    "term": "Vethshaleth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tharbel",
+    "term": "Tharbel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tharbelaen",
+    "term": "Tharbelaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "katharbelaen",
+    "term": "Katharbelaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kesxar",
+    "term": "Kesxar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kesxaraen",
+    "term": "Kesxaraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "worshankal",
+    "term": "Worshankal",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "worshankalaen",
+    "term": "Worshankalaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rethkal",
+    "term": "Rethkal",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rethkaleth",
+    "term": "Rethkaleth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shantham",
+    "term": "Shantham",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ohmreth",
+    "term": "Ohmreth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kaohmaen",
+    "term": "Kaohmaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "naku",
+    "term": "Naku",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sora",
+    "term": "Sora",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "deni",
+    "term": "Deni",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "denya",
+    "term": "Denya",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "denla",
+    "term": "Denla",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "anor",
+    "term": "Anor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kaan",
+    "term": "Kaan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "anshanaen",
+    "term": "Anshanaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalshanaen",
+    "term": "Thalshanaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "hav",
+    "term": "Hav",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "havaen",
+    "term": "Havaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "haveth",
+    "term": "Haveth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dovhav",
+    "term": "Dovhav",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dovkel",
+    "term": "Dovkel",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dovkelaen",
+    "term": "Dovkelaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "keljek",
+    "term": "Keljek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pralhav",
+    "term": "Pralhav",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dovhavral",
+    "term": "Dovhavral",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "havrath",
+    "term": "Havrath",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "havrathaen",
+    "term": "Havrathaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jekkel",
+    "term": "Jekkel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "peljekkel",
+    "term": "Peljekkel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nem",
+    "term": "Nem",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nemaen",
+    "term": "Nemaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rethnem",
+    "term": "Rethnem",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rethnemaen",
+    "term": "Rethnemaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kelnemaen",
+    "term": "Kelnemaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "selnemaen",
+    "term": "Selnemaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mbaen",
+    "term": "Mbaen",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zev",
+    "term": "Zev",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zevaen",
+    "term": "Zevaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fahohm",
+    "term": "Fahohm",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fahohmaen",
+    "term": "Fahohmaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mira",
+    "term": "Mira",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "miraen",
+    "term": "Miraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "daku",
+    "term": "Daku",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dakuaen",
+    "term": "Dakuaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ravohm",
+    "term": "Ravohm",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ravohmaen",
+    "term": "Ravohmaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kavkrez",
+    "term": "Kavkrez",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kavkrezaen",
+    "term": "Kavkrezaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fahreth",
+    "term": "Fahreth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fahrethaen",
+    "term": "Fahrethaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "doran",
+    "term": "Doran",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "breka",
+    "term": "Breka",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vesh",
+    "term": "Vesh",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "davel",
+    "term": "Davel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "korkalvar",
+    "term": "Korkalvar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalvargora",
+    "term": "Kalvargora",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "gora",
+    "term": "Gora",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "koringora",
+    "term": "Koringora",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pir",
+    "term": "Pir",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "korsharvar",
+    "term": "Korsharvar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sharvargora",
+    "term": "Sharvargora",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morlkagora",
+    "term": "Morlkagora",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morlkapir",
+    "term": "Morlkapir",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xarmetha",
+    "term": "Xarmetha",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "metha",
+    "term": "Metha",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalmetha",
+    "term": "Kalmetha",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zek",
+    "term": "Zek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lera",
+    "term": "Lera",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "numor",
+    "term": "Numor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tash",
+    "term": "Tash",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "khelu",
+    "term": "Khelu",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aentash",
+    "term": "Aentash",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lumar",
+    "term": "Lumar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kedir",
+    "term": "Kedir",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "emiltash",
+    "term": "Emiltash",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "emilshan",
+    "term": "Emilshan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "urenvek",
+    "term": "Urenvek",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lesh",
+    "term": "Lesh",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ndemshan",
+    "term": "Ndemshan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "khos",
+    "term": "Khos",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "khosaen",
+    "term": "Khosaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zer",
+    "term": "Zer",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zeraen",
+    "term": "Zeraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "suv",
+    "term": "Suv",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "suvaen",
+    "term": "Suvaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nar",
+    "term": "Nar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "naraen",
+    "term": "Naraen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "uren",
+    "term": "Uren",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "urenaen",
+    "term": "Urenaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fek",
+    "term": "Fek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fekaen",
+    "term": "Fekaen",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ndemwek",
+    "term": "Ndemwek",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ndemwekaen",
+    "term": "Ndemwekaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kakesrinaen",
+    "term": "Kakesrinaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "noka",
+    "term": "Noka",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nokashan",
+    "term": "Nokashan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kiri",
+    "term": "Kiri",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mara",
+    "term": "Mara",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "marasorl",
+    "term": "Marasorl",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "seki",
+    "term": "Seki",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tava",
+    "term": "Tava",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nderu",
+    "term": "Nderu",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nderuxar",
+    "term": "Nderuxar",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "urenshan",
+    "term": "Urenshan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fena",
+    "term": "Fena",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "leya",
+    "term": "Leya",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "leyaen",
+    "term": "Leyaen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "leyajor",
+    "term": "Leyajor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "leyajoraen",
+    "term": "Leyajoraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kelvordren",
+    "term": "Kelvordren",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorinshaldren",
+    "term": "Lorinshaldren",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "korpir",
+    "term": "Korpir",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morlkavesh",
+    "term": "Morlkavesh",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ruma",
+    "term": "Ruma",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mu",
+    "term": "Mu",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nu",
+    "term": "Nu",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhe",
+    "term": "Zhe",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "sha",
+    "term": "Sha",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lo",
+    "term": "Lo",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ri",
+    "term": "Ri",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tera",
+    "term": "Tera",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velkrel",
+    "term": "Velkrel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "varan",
+    "term": "Varan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shalil",
+    "term": "Shalil",
+    "direct": 10,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "serathrin",
+    "term": "Serathrin",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhivor",
+    "term": "Zhivor",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tharvok",
+    "term": "Tharvok",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "evan",
+    "term": "Evan",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shenakar",
+    "term": "Shenakar",
+    "direct": 7,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "em",
+    "term": "Em",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "varin",
+    "term": "Varin",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shena",
+    "term": "Shena",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nkathal",
+    "term": "Nkathal",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vrak",
+    "term": "Vrak",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "theren",
+    "term": "Theren",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "serilin",
+    "term": "Serilin",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "aelin",
+    "term": "Aelin",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "im",
+    "term": "Im",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "dreshal",
+    "term": "Dreshal",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "varshel",
+    "term": "Varshel",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshvan",
+    "term": "Eshvan",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "noraen",
+    "term": "Noraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalesh",
+    "term": "Thalesh",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "thalor",
+    "term": "Thalor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "daraen",
+    "term": "Daraen",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "varral",
+    "term": "Varral",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "karjor",
+    "term": "Karjor",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kavel",
+    "term": "Kavel",
+    "direct": 1,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "vorkaral",
+    "term": "Vorkaral",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "noral",
+    "term": "Noral",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "khumrel",
+    "term": "Khumrel",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "terrarav",
+    "term": "Terrarav",
+    "direct": 1,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "zhirrathor",
+    "term": "Zhirrathor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "rin",
+    "term": "Rin",
+    "direct": 0,
+    "related": 1,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "bel",
+    "term": "Bel",
+    "direct": 3,
+    "related": 2,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "ohm",
+    "term": "Ohm",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mor",
+    "term": "Mor",
+    "direct": 10,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "veth",
+    "term": "Veth",
+    "direct": 4,
+    "related": 1,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "neth",
+    "term": "Neth",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vanesh",
+    "term": "Vanesh",
+    "direct": 16,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "kar",
+    "term": "Kar",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "verd",
+    "term": "Verd",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "trak",
+    "term": "Trak",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kav",
+    "term": "Kav",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vel",
+    "term": "Vel",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhir",
+    "term": "Zhir",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "khum",
+    "term": "Khum",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tla",
+    "term": "Tla",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jor",
+    "term": "Jor",
+    "direct": 14,
+    "related": 2,
+    "teaching": 1,
+    "senses": 2
+  },
+  {
+    "id": "jek",
+    "term": "Jek",
+    "direct": 0,
+    "related": 1,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "wek",
+    "term": "Wek",
+    "direct": 3,
+    "related": 2,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lor",
+    "term": "Lor",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "wor",
+    "term": "Wor",
+    "direct": 1,
+    "related": 1,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vin",
+    "term": "Vin",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhael",
+    "term": "Zhael",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nk",
+    "term": "Nk",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nku",
+    "term": "Nku",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "phel",
+    "term": "Phel",
+    "direct": 1,
+    "related": 1,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "prak",
+    "term": "Prak",
+    "direct": 0,
+    "related": 1,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "bros",
+    "term": "Bros",
+    "direct": 0,
+    "related": 1,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "bal",
+    "term": "Bal",
+    "direct": 1,
+    "related": 1,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "bren",
+    "term": "Bren",
+    "direct": 6,
+    "related": 1,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "jel",
+    "term": "Jel",
+    "direct": 0,
+    "related": 1,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "wel",
+    "term": "Wel",
+    "direct": 6,
+    "related": 2,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "xar",
+    "term": "Xar",
+    "direct": 3,
+    "related": 1,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "xil",
+    "term": "Xil",
+    "direct": 0,
+    "related": 1,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mb",
+    "term": "Mb",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rek",
+    "term": "Rek",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rav",
+    "term": "Rav",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thaen",
+    "term": "Thaen",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "elor",
+    "term": "Elor",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhel",
+    "term": "Zhel",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mek",
+    "term": "Mek",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vek",
+    "term": "Vek",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "livar",
+    "term": "Livar",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "marin",
+    "term": "Marin",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fennil",
+    "term": "Fennil",
+    "direct": 5,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vilor",
+    "term": "Vilor",
+    "direct": 6,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "alor",
+    "term": "Alor",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "arshor",
+    "term": "Arshor",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "torin",
+    "term": "Torin",
+    "direct": 9,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tarin",
+    "term": "Tarin",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "soril",
+    "term": "Soril",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tham",
+    "term": "Tham",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "venak",
+    "term": "Venak",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lak",
+    "term": "Lak",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "van",
+    "term": "Van",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kadren",
+    "term": "Kadren",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "azan",
+    "term": "Azan",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thee",
+    "term": "Thee",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tha-",
+    "term": "Tha-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nor-",
+    "term": "Nor-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "-al",
+    "term": "-al",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "-ath",
+    "term": "-ath",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "-as",
+    "term": "-as",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ver",
+    "term": "Ver",
+    "direct": 27,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "ra",
+    "term": "Ra",
+    "direct": 34,
+    "related": 2,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "va",
+    "term": "Va",
+    "direct": 28,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "-ka",
+    "term": "-ka",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "kilv",
+    "term": "Kilv",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "pel",
+    "term": "Pel",
+    "direct": 1,
+    "related": 2,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "jin",
+    "term": "Jin",
+    "direct": 0,
+    "related": 1,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nk-",
+    "term": "Nk-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rav-",
+    "term": "Rav-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "mb-",
+    "term": "Mb-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tla-",
+    "term": "Tla-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ohm-",
+    "term": "Ohm-",
+    "direct": 0,
+    "related": 1,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "khum-",
+    "term": "Khum-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhae-",
+    "term": "Zhae-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nku-",
+    "term": "Nku-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tl-",
+    "term": "Tl-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "-in",
+    "term": "-in",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "-n",
+    "term": "-n",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "-or",
+    "term": "-or",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "-en",
+    "term": "-en",
+    "direct": 0,
+    "related": 3,
+    "teaching": 0,
+    "senses": 3
+  },
+  {
+    "id": "-lin",
+    "term": "-lin",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "-aen",
+    "term": "-aen",
+    "direct": 0,
+    "related": 3,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ver-",
+    "term": "Ver-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "li-",
+    "term": "Li-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "lior",
+    "term": "Lior",
+    "direct": 2,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ther",
+    "term": "Ther",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "-esh",
+    "term": "-esh",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "-el",
+    "term": "-el",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "-vel",
+    "term": "-vel",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ten-",
+    "term": "Ten-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "hek-",
+    "term": "Hek-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mel-",
+    "term": "Mel-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fen-",
+    "term": "Fen-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "hek-mel-",
+    "term": "Hek-Mel-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ven",
+    "term": "Ven",
+    "direct": 4,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "-eth",
+    "term": "-eth",
+    "direct": 0,
+    "related": 3,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "vael",
+    "term": "vael",
+    "direct": 3,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "nor-ka",
+    "term": "nor-ka",
+    "direct": 6,
+    "related": 1,
+    "teaching": 0,
+    "senses": 2
+  },
+  {
+    "id": "shal-",
+    "term": "Shal-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "krez-",
+    "term": "Krez-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "dren-",
+    "term": "Dren-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "morl-",
+    "term": "Morl-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "esh-",
+    "term": "Esh-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "terra- / terra-",
+    "term": "terra- / Terra-",
+    "direct": 0,
+    "related": 3,
+    "teaching": 2,
+    "senses": 1
+  },
+  {
+    "id": "lian-",
+    "term": "Lian-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thal-",
+    "term": "Thal-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "reth- / rethvok-",
+    "term": "Reth- / Rethvok-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 2,
+    "senses": 1
+  },
+  {
+    "id": "rin-",
+    "term": "Rin-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "bel-",
+    "term": "Bel-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "kal-",
+    "term": "Kal-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shara-",
+    "term": "Shara-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 2,
+    "senses": 1
+  },
+  {
+    "id": "thar-",
+    "term": "Thar-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 2,
+    "senses": 1
+  },
+  {
+    "id": "var-",
+    "term": "Var-",
+    "direct": 0,
+    "related": 1,
+    "teaching": 2,
+    "senses": 1
+  },
+  {
+    "id": "aen-",
+    "term": "Aen-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "pralaen-",
+    "term": "Pralaen-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "vok-",
+    "term": "Vok-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "ser-",
+    "term": "Ser-",
+    "direct": 0,
+    "related": 1,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rath-",
+    "term": "Rath-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhir-",
+    "term": "Zhir-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 2,
+    "senses": 1
+  },
+  {
+    "id": "kel-",
+    "term": "Kel-",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rinaen",
+    "term": "Rinaen",
+    "direct": 567,
+    "related": 0,
+    "teaching": 1,
+    "senses": 1
+  },
+  {
+    "id": "emil",
+    "term": "Emil",
+    "direct": 33,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "teremil",
+    "term": "Teremil",
+    "direct": 27,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "serin",
+    "term": "Serin",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "varadan",
+    "term": "Varadan",
+    "direct": 8,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "harven",
+    "term": "Harven",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zharrel",
+    "term": "Zharrel",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tharnspinners",
+    "term": "Tharnspinners",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "veilgliders",
+    "term": "Veilgliders",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "tharokh",
+    "term": "Tharokh",
+    "direct": 1,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "velshen",
+    "term": "Velshen",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "shavrek",
+    "term": "Shavrek",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "mossquill",
+    "term": "Mossquill",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rynarth",
+    "term": "Rynarth",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vroshan",
+    "term": "Vroshan",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "brinnek",
+    "term": "Brinnek",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thravic",
+    "term": "Thravic",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "fennlur",
+    "term": "Fennlur",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "vexflit",
+    "term": "Vexflit",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "grivol",
+    "term": "Grivol",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "rethal",
+    "term": "Rethal",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lumora",
+    "term": "Lumora",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "thryssal",
+    "term": "Thryssal",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "braskal",
+    "term": "Braskal",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "selkari",
+    "term": "Selkari",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhenlor",
+    "term": "Zhenlor",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "zharak",
+    "term": "Zharak",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorynth",
+    "term": "Lorynth",
+    "direct": 0,
+    "related": 0,
+    "teaching": 0,
+    "senses": 1
+  }
+]

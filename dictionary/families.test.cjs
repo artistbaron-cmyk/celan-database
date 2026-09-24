@@ -36,7 +36,13 @@ const after = run(`state.groupedEntries.map(g=>({id:g.id,term:g.term,uses:displa
 assert.equal(after.length,1496);
 for (const previous of before.entries) {
   const current=after.find(g=>g.id===previous.id);
-  assert.deepEqual(JSON.parse(JSON.stringify(current.uses)),previous.meanings,previous.term+' senses unchanged');
+  const actualUses = JSON.parse(JSON.stringify(current.uses));
+  if (previous.id === 'thar-ka') {
+    const noun = actualUses.find(u=>u.type==='Noun');
+    assert.match(noun.usage, /my desire.*contextual/);
+    noun.usage = previous.meanings.find(u=>u.type==='Noun').usage; // ED-0042 adds only a gloss note.
+  }
+  assert.deepEqual(actualUses,previous.meanings,previous.term+' senses unchanged');
 }
 for(const affix of ['-ka','-esh','-el','-vel','-ath','-or']) {
   assert.equal(family(affix).familyRoots.length,0,affix+' must not be assigned to a free root');

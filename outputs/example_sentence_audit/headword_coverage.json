@@ -1,0 +1,10474 @@
+[
+  {
+    "id": "i",
+    "term": "I",
+    "available": 383,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "ilin",
+    "term": "Ilin",
+    "available": 26,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "ya",
+    "term": "Ya",
+    "available": 70,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "yalin",
+    "term": "Yalin",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "la",
+    "term": "La",
+    "available": 64,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "lalin",
+    "term": "Lalin",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "kadron",
+    "term": "Kadron",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "azron",
+    "term": "Azron",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "theon",
+    "term": "Theon",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "kadfel",
+    "term": "Kadfel",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "azfel",
+    "term": "Azfel",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "theefel",
+    "term": "Theefel",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "azon",
+    "term": "Azon",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kadon",
+    "term": "Kadon",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "var",
+    "term": "Var",
+    "available": 204,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "ser",
+    "term": "Ser",
+    "available": 258,
+    "visible": 5,
+    "senses": 3
+  },
+  {
+    "id": "thal",
+    "term": "Thal",
+    "available": 88,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "ka",
+    "term": "Ka",
+    "available": 39,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "an",
+    "term": "An",
+    "available": 773,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "nor",
+    "term": "Nor",
+    "available": 144,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "esh",
+    "term": "Esh",
+    "available": 36,
+    "visible": 5,
+    "senses": 3
+  },
+  {
+    "id": "morl",
+    "term": "Morl",
+    "available": 51,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "terra",
+    "term": "Terra",
+    "available": 18,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "dren",
+    "term": "Dren",
+    "available": 241,
+    "visible": 5,
+    "senses": 3
+  },
+  {
+    "id": "shal",
+    "term": "Shal",
+    "available": 33,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "krez",
+    "term": "Krez",
+    "available": 9,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "thar",
+    "term": "Thar",
+    "available": 20,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "vethor",
+    "term": "Vethor",
+    "available": 4,
+    "visible": 4,
+    "senses": 2
+  },
+  {
+    "id": "shara",
+    "term": "Shara",
+    "available": 27,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "zhilva",
+    "term": "Zhilva",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "amthaen",
+    "term": "Amthaen",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "nekvar",
+    "term": "Nekvar",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "kelithor",
+    "term": "Kelithor",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "tlosen",
+    "term": "Tlosen",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "jexhaer",
+    "term": "Jexhaer",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "revalen",
+    "term": "Revalen",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "zharinor",
+    "term": "Zharinor",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "vrekthael",
+    "term": "Vrekthael",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "varash",
+    "term": "Varash",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rathor",
+    "term": "Rathor",
+    "available": 7,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "shalor",
+    "term": "Shalor",
+    "available": 20,
+    "visible": 5,
+    "senses": 3
+  },
+  {
+    "id": "thaal",
+    "term": "Thaal",
+    "available": 4,
+    "visible": 4,
+    "senses": 2
+  },
+  {
+    "id": "lian",
+    "term": "Lian",
+    "available": 19,
+    "visible": 5,
+    "senses": 3
+  },
+  {
+    "id": "lumor",
+    "term": "Lumor",
+    "available": 1,
+    "visible": 1,
+    "senses": 2
+  },
+  {
+    "id": "aen",
+    "term": "Aen",
+    "available": 59,
+    "visible": 5,
+    "senses": 4
+  },
+  {
+    "id": "varok",
+    "term": "Varok",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "arth",
+    "term": "Arth",
+    "available": 35,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "kal",
+    "term": "Kal",
+    "available": 60,
+    "visible": 5,
+    "senses": 3
+  },
+  {
+    "id": "kalor",
+    "term": "Kalor",
+    "available": 2,
+    "visible": 2,
+    "senses": 2
+  },
+  {
+    "id": "seren",
+    "term": "Seren",
+    "available": 43,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "arthen",
+    "term": "Arthen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vaar",
+    "term": "Vaar",
+    "available": 13,
+    "visible": 5,
+    "senses": 3
+  },
+  {
+    "id": "ilan",
+    "term": "Ilan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lorin",
+    "term": "Lorin",
+    "available": 41,
+    "visible": 5,
+    "senses": 3
+  },
+  {
+    "id": "rath",
+    "term": "Rath",
+    "available": 12,
+    "visible": 5,
+    "senses": 3
+  },
+  {
+    "id": "fah",
+    "term": "Fah",
+    "available": 6,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "thera",
+    "term": "Thera",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "reth",
+    "term": "Reth",
+    "available": 6,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "vial",
+    "term": "Vial",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorinor",
+    "term": "Lorinor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "lorinshal",
+    "term": "Lorinshal",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "aenor",
+    "term": "Aenor",
+    "available": 1,
+    "visible": 1,
+    "senses": 2
+  },
+  {
+    "id": "aenvor",
+    "term": "Aenvor",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "kelvor",
+    "term": "Kelvor",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "sorl",
+    "term": "Sorl",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "kalvar",
+    "term": "Kalvar",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "korin",
+    "term": "Korin",
+    "available": 14,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "sharvar",
+    "term": "Sharvar",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "morlka",
+    "term": "Morlka",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "dral",
+    "term": "Dral",
+    "available": 7,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "tal",
+    "term": "Tal",
+    "available": 53,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "morldren",
+    "term": "Morldren",
+    "available": 1,
+    "visible": 1,
+    "senses": 2
+  },
+  {
+    "id": "verdor",
+    "term": "Verdor",
+    "available": 14,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "mahr",
+    "term": "Mahr",
+    "available": 18,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "lun",
+    "term": "Lun",
+    "available": 8,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "velk",
+    "term": "Velk",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "awek",
+    "term": "Awek",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "terlin",
+    "term": "Terlin",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "kaleth",
+    "term": "Kaleth",
+    "available": 22,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "varthas",
+    "term": "Varthas",
+    "available": 22,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "lorash",
+    "term": "Lorash",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "krezor",
+    "term": "Krezor",
+    "available": 11,
+    "visible": 5,
+    "senses": 3
+  },
+  {
+    "id": "norvaar",
+    "term": "Norvaar",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "kinnshal",
+    "term": "Kinnshal",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kinnmor",
+    "term": "Kinnmor",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "kinnlin",
+    "term": "Kinnlin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "kilvthal",
+    "term": "Kilvthal",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "kilveth",
+    "term": "Kilveth",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "kilvfah",
+    "term": "Kilvfah",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "kilvlum",
+    "term": "Kilvlum",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "belrin",
+    "term": "Belrin",
+    "available": 11,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "belar",
+    "term": "Belar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "brosrin",
+    "term": "Brosrin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "balrin",
+    "term": "Balrin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "brenmor",
+    "term": "Brenmor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "phelvin",
+    "term": "Phelvin",
+    "available": 10,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "prakorin",
+    "term": "Prakorin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "pelvar",
+    "term": "Pelvar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "peldren",
+    "term": "Peldren",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "pralmor",
+    "term": "Pralmor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "jorlin",
+    "term": "Jorlin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "jorvak",
+    "term": "Jorvak",
+    "available": 3,
+    "visible": 3,
+    "senses": 2
+  },
+  {
+    "id": "jekvor",
+    "term": "Jekvor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "jelvor",
+    "term": "Jelvor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "jindral",
+    "term": "Jindral",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "welrim",
+    "term": "Welrim",
+    "available": 4,
+    "visible": 4,
+    "senses": 2
+  },
+  {
+    "id": "welmor",
+    "term": "Welmor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "weknor",
+    "term": "Weknor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "worvenak",
+    "term": "Worvenak",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "xilvar",
+    "term": "Xilvar",
+    "available": 2,
+    "visible": 2,
+    "senses": 2
+  },
+  {
+    "id": "xarvel",
+    "term": "Xarvel",
+    "available": 2,
+    "visible": 2,
+    "senses": 2
+  },
+  {
+    "id": "ohmbaen",
+    "term": "Ohmbaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "tlakorin",
+    "term": "Tlakorin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "khumlor",
+    "term": "Khumlor",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "nkuvath",
+    "term": "Nkuvath",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "mbalan",
+    "term": "Mbalan",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "nkural",
+    "term": "Nkural",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "tlankor",
+    "term": "Tlankor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "tlakhura",
+    "term": "Tlakhura",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "jorkal",
+    "term": "Jorkal",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "arthlor",
+    "term": "Arthlor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "serenkal",
+    "term": "Serenkal",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "belshara",
+    "term": "Belshara",
+    "available": 6,
+    "visible": 5,
+    "senses": 4
+  },
+  {
+    "id": "rathvethor",
+    "term": "Rathvethor",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "lianaen",
+    "term": "Lianaen",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "khumeth",
+    "term": "Khumeth",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "talrin",
+    "term": "Talrin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "rinvarash",
+    "term": "Rinvarash",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "belshen",
+    "term": "Belshen",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "vaneshem",
+    "term": "Vaneshem",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "thalaneshen",
+    "term": "Thalaneshen",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "ka-shen",
+    "term": "Ka-Shen",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "vellian",
+    "term": "Vellian",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "terradren",
+    "term": "Terradren",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenshal",
+    "term": "Drenshal",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "terraesh",
+    "term": "Terraesh",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "morlak",
+    "term": "Morlak",
+    "available": 15,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "velrin",
+    "term": "Velrin",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "teravin",
+    "term": "Teravin",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "broslak",
+    "term": "Broslak",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "lorlivok",
+    "term": "Lorlivok",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "phelkarin",
+    "term": "Phelkarin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "felorin",
+    "term": "Felorin",
+    "available": 3,
+    "visible": 3,
+    "senses": 2
+  },
+  {
+    "id": "jekvin",
+    "term": "Jekvin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "belmor",
+    "term": "Belmor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "vethhar",
+    "term": "Vethhar",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "velithor",
+    "term": "Velithor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "tenarorin",
+    "term": "Tenarorin",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lianfel",
+    "term": "Lianfel",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "jorvilor",
+    "term": "Jorvilor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "zhelvek",
+    "term": "Zhelvek",
+    "available": 4,
+    "visible": 4,
+    "senses": 2
+  },
+  {
+    "id": "velmek",
+    "term": "Velmek",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "phelrin",
+    "term": "Phelrin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "jorvalin",
+    "term": "Jorvalin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "drenlivar",
+    "term": "Drenlivar",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "eshtenor",
+    "term": "Eshtenor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "jekvarin",
+    "term": "Jekvarin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "tharmor",
+    "term": "Tharmor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "terafennil",
+    "term": "Terafennil",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "brenvor",
+    "term": "Brenvor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "welvinor",
+    "term": "Welvinor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "krezfel",
+    "term": "Krezfel",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "morthas",
+    "term": "Morthas",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "voktarin",
+    "term": "Voktarin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "phelmorin",
+    "term": "Phelmorin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "velthamor",
+    "term": "Velthamor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "eshvilor",
+    "term": "Eshvilor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "thalshorin",
+    "term": "Thalshorin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "xarlorin",
+    "term": "Xarlorin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "morvenak",
+    "term": "Morvenak",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "kreztorin",
+    "term": "Kreztorin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "velkorin",
+    "term": "Velkorin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "xilbren",
+    "term": "Xilbren",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "drenkor",
+    "term": "Drenkor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "vethsoril",
+    "term": "Vethsoril",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "shalorin",
+    "term": "Shalorin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "welkarin",
+    "term": "Welkarin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "morlathor",
+    "term": "Morlathor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "velkrin",
+    "term": "Velkrin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "krezlorin",
+    "term": "Krezlorin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "pralvinor",
+    "term": "Pralvinor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "zhaelor",
+    "term": "Zhaelor",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "fenrek",
+    "term": "Fenrek",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "tharvin",
+    "term": "Tharvin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "velthaen",
+    "term": "Velthaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "eshthael",
+    "term": "Eshthael",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "shalithor",
+    "term": "Shalithor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "dralorim",
+    "term": "Dralorim",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "velarshor",
+    "term": "Velarshor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "drenalor",
+    "term": "Drenalor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "eshvelor",
+    "term": "Eshvelor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "thalorim",
+    "term": "Thalorim",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "krezrek",
+    "term": "Krezrek",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "drenvelesh",
+    "term": "Drenvelesh",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "eshvelaneth",
+    "term": "Eshvelaneth",
+    "available": 2,
+    "visible": 2,
+    "senses": 2
+  },
+  {
+    "id": "ilinor",
+    "term": "Ilinor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "som",
+    "term": "Som",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "melen",
+    "term": "Melen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "felin",
+    "term": "Felin",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "ekor",
+    "term": "Ekor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "liana",
+    "term": "Liana",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "lianor",
+    "term": "Lianor",
+    "available": 5,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "liorin",
+    "term": "Liorin",
+    "available": 29,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "liorinen",
+    "term": "Liorinen",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "lorinen",
+    "term": "Lorinen",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "li-seren",
+    "term": "Li-Seren",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "kel",
+    "term": "Kel",
+    "available": 19,
+    "visible": 5,
+    "senses": 4
+  },
+  {
+    "id": "min",
+    "term": "Min",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "dro",
+    "term": "Dro",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "ar",
+    "term": "Ar",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "fel",
+    "term": "Fel",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "lia",
+    "term": "Lia",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "rethlian",
+    "term": "Rethlian",
+    "available": 4,
+    "visible": 4,
+    "senses": 3
+  },
+  {
+    "id": "mmm",
+    "term": "Mmm",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "lialor",
+    "term": "Lialor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "varthen",
+    "term": "Varthen",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "shalra",
+    "term": "Shalra",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lianlor",
+    "term": "Lianlor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "vara",
+    "term": "Vara",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "thalka",
+    "term": "Thalka",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "sera",
+    "term": "Sera",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "tek",
+    "term": "Tek",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "elan",
+    "term": "Elan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rathka",
+    "term": "Rathka",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "lialor'ka",
+    "term": "Lialor'ka",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "reth'thal",
+    "term": "Reth‘thal",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "lia'ser",
+    "term": "Lia‘ser",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "lian'lia",
+    "term": "Lian'lia",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "verka",
+    "term": "Verka",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "thaal'ra",
+    "term": "Thaal'ra",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "wek'aen",
+    "term": "Wek'aen",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "kora",
+    "term": "Kora",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "tavan",
+    "term": "Tavan",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "felka",
+    "term": "Felka",
+    "available": 45,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "zhiren",
+    "term": "Zhiren",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "velar",
+    "term": "Velar",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "pralin",
+    "term": "Pralin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "velkavor",
+    "term": "Velkavor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "belvok",
+    "term": "Belvok",
+    "available": 12,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "xarvethral",
+    "term": "Xarvethral",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "tavojorin",
+    "term": "Tavojorin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "zhivorin",
+    "term": "Zhivorin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "kalvok",
+    "term": "Kalvok",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "velpralor",
+    "term": "Velpralor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "tavrel",
+    "term": "Tavrel",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "felvin",
+    "term": "Felvin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "zharin",
+    "term": "Zharin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "velxorin",
+    "term": "Velxorin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "kalvokesh",
+    "term": "Kalvokesh",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "zhirkalor",
+    "term": "Zhirkalor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "xarfelvin",
+    "term": "Xarfelvin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "belvethral",
+    "term": "Belvethral",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "velmarin",
+    "term": "Velmarin",
+    "available": 5,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "pralvokesh",
+    "term": "Pralvokesh",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "ian",
+    "term": "Ian",
+    "available": 59,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "anen",
+    "term": "Anen",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshen",
+    "term": "Eshen",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "velian",
+    "term": "Velian",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "rathorim",
+    "term": "Rathorim",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "fah'thar",
+    "term": "Fah'thar",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "vel'rathor",
+    "term": "Vel'rathor",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "rathorimaen",
+    "term": "Rathorimaen",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "fah'tharaen",
+    "term": "Fah'tharaen",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "ohm'rin",
+    "term": "Ohm'rin",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "thal'vok",
+    "term": "Thal'vok",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "ohm'aen",
+    "term": "Ohm'aen",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "thal'vokaen",
+    "term": "Thal'vokaen",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "shal'taleth",
+    "term": "Shal'taleth",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "bel'rathorimeth",
+    "term": "Bel'Rathorimeth",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "aen'moreth",
+    "term": "Aen'Moreth",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorin'ohmeth",
+    "term": "Lorin'Ohmeth",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "thal'talaen",
+    "term": "Thal'talaen",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "thal'taleth",
+    "term": "Thal'taleth",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "thar'taleth",
+    "term": "Thar'taleth",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "arthen'taleth",
+    "term": "Arthen'taleth",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "kor'taleth",
+    "term": "Kor'taleth",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "talaen",
+    "term": "Talaen",
+    "available": 6,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "fahaen",
+    "term": "Fahaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "theraen",
+    "term": "Theraen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "vialaen",
+    "term": "Vialaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "ohmaen",
+    "term": "Ohmaen",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "ravokhaen",
+    "term": "Ravokhaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shalaen",
+    "term": "Shalaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 2
+  },
+  {
+    "id": "seraen",
+    "term": "Seraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nkathalaen",
+    "term": "Nkathalaen",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "rathaen",
+    "term": "Rathaen",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "krezaen",
+    "term": "Krezaen",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "rethaen",
+    "term": "Rethaen",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "vershalaen",
+    "term": "Vershalaen",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "thaalaen",
+    "term": "Thaalaen",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "vaaranoraen",
+    "term": "Vaaranoraen",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "vokaen",
+    "term": "Vokaen",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "veth'tharaen",
+    "term": "Veth'tharaen",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "zhaeaen",
+    "term": "Zhaeaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vaar'kelaen",
+    "term": "Vaar'kelaen",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "drenvokesh",
+    "term": "Drenvokesh",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "eshlorien",
+    "term": "Eshlorien",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "terrashaneth",
+    "term": "Terrashaneth",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "velpralim",
+    "term": "Velpralim",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "kreztharim",
+    "term": "Kreztharim",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "zhivokesh",
+    "term": "Zhivokesh",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "dralshaneth",
+    "term": "Dralshaneth",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "zhirelorim",
+    "term": "Zhirelorim",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "morlatharim",
+    "term": "Morlatharim",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "velmarineth",
+    "term": "Velmarineth",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "velthaelvok",
+    "term": "Velthaelvok",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "drenkorath",
+    "term": "Drenkorath",
+    "available": 2,
+    "visible": 2,
+    "senses": 2
+  },
+  {
+    "id": "shalorveth",
+    "term": "Shalorveth",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "velterim",
+    "term": "Velterim",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "krezmorath",
+    "term": "Krezmorath",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "tharvelim",
+    "term": "Tharvelim",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "kalorinath",
+    "term": "Kalorinath",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "varkareth",
+    "term": "Varkareth",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "drenkaesh",
+    "term": "Drenkaesh",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "tharfah",
+    "term": "Tharfah",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "krez-verin",
+    "term": "Krez-verin",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "eshreth",
+    "term": "Eshreth",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "rathorkinash",
+    "term": "Rathorkinash",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "vethordrenka",
+    "term": "Vethordrenka",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "morl-karash",
+    "term": "Morl-karash",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "verin",
+    "term": "Verin",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "unar",
+    "term": "Unar",
+    "available": 9,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "del",
+    "term": "Del",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "tren",
+    "term": "Tren",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "quen",
+    "term": "Quen",
+    "available": 9,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "peth",
+    "term": "Peth",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "senar",
+    "term": "Senar",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "sethe",
+    "term": "Sethe",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "oven",
+    "term": "Oven",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nevar",
+    "term": "Nevar",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "tenar",
+    "term": "Tenar",
+    "available": 5,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "lianeth",
+    "term": "Lianeth",
+    "available": 3,
+    "visible": 3,
+    "senses": 3
+  },
+  {
+    "id": "thar-ka",
+    "term": "Thar-ka",
+    "available": 3,
+    "visible": 3,
+    "senses": 2
+  },
+  {
+    "id": "inko",
+    "term": "Inko",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "yako",
+    "term": "Yako",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "lako",
+    "term": "Lako",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "imen",
+    "term": "Imen",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "nethor",
+    "term": "Nethor",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "zhirin",
+    "term": "Zhirin",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "vorkor",
+    "term": "Vorkor",
+    "available": 28,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "kareth",
+    "term": "Kareth",
+    "available": 13,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "pralor",
+    "term": "Pralor",
+    "available": 24,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "peleth",
+    "term": "Peleth",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "drenvor",
+    "term": "Drenvor",
+    "available": 20,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "nethlor",
+    "term": "Nethlor",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "shalkor",
+    "term": "Shalkor",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "lianbelrin",
+    "term": "Lianbelrin",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "gormeth",
+    "term": "Gormeth",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "selineth",
+    "term": "Selineth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "maganeth",
+    "term": "Maganeth",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "feleth",
+    "term": "Feleth",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "woreth",
+    "term": "Woreth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zun",
+    "term": "Zun",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kaveth",
+    "term": "Kaveth",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "vaareth",
+    "term": "Vaareth",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "joreth",
+    "term": "Joreth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "feneth",
+    "term": "Feneth",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "veleth",
+    "term": "Veleth",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "praketh",
+    "term": "Praketh",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "moreth",
+    "term": "Moreth",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "dreneth",
+    "term": "Dreneth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kadreneth",
+    "term": "Kadreneth",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "belkor",
+    "term": "Belkor",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "sharbel",
+    "term": "Sharbel",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "xaresh",
+    "term": "Xaresh",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "trakor",
+    "term": "Trakor",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "zhirvok",
+    "term": "Zhirvok",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "krelek",
+    "term": "Krelek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lunor",
+    "term": "Lunor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "verdeth",
+    "term": "Verdeth",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "shaleth",
+    "term": "Shaleth",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "faheth",
+    "term": "Faheth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "velek",
+    "term": "Velek",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "aenaen",
+    "term": "Aenaen",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "pralaen",
+    "term": "Pralaen",
+    "available": 43,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "karethaen",
+    "term": "Karethaen",
+    "available": 13,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "velaen",
+    "term": "Velaen",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "drenaen",
+    "term": "Drenaen",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "nethaen",
+    "term": "Nethaen",
+    "available": 30,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "moraen",
+    "term": "Moraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vethoraen",
+    "term": "Vethoraen",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "morthera",
+    "term": "Morthera",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "vethral",
+    "term": "Vethral",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "vershara",
+    "term": "Vershara",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "kalrath",
+    "term": "Kalrath",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "eshlin",
+    "term": "Eshlin",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "zhaelin",
+    "term": "Zhaelin",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "thallian",
+    "term": "Thallian",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "sharaka",
+    "term": "Sharaka",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "velrathor",
+    "term": "Velrathor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vethrin",
+    "term": "Vethrin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "kelrin",
+    "term": "Kelrin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "kelka",
+    "term": "Kelka",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "rathlor",
+    "term": "Rathlor",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "vaarlor",
+    "term": "Vaarlor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "belthal",
+    "term": "Belthal",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "rethvok",
+    "term": "Rethvok",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "korineth",
+    "term": "Korineth",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "shar",
+    "term": "Shar",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "kinnshara",
+    "term": "Kinnshara",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "kinn",
+    "term": "Kinn",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "lunwek",
+    "term": "Lunwek",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "tharvin-wek",
+    "term": "Tharvin-Wek",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "shen",
+    "term": "Shen",
+    "available": 21,
+    "visible": 5,
+    "senses": 3
+  },
+  {
+    "id": "morkal",
+    "term": "Morkal",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kor",
+    "term": "Kor",
+    "available": 2,
+    "visible": 2,
+    "senses": 3
+  },
+  {
+    "id": "pral",
+    "term": "Pral",
+    "available": 2,
+    "visible": 2,
+    "senses": 3
+  },
+  {
+    "id": "vok",
+    "term": "Vok",
+    "available": 2,
+    "visible": 2,
+    "senses": 2
+  },
+  {
+    "id": "eth",
+    "term": "Eth",
+    "available": 0,
+    "visible": 0,
+    "senses": 2
+  },
+  {
+    "id": "droshen",
+    "term": "Droshen",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "drokav",
+    "term": "Drokav",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "droral",
+    "term": "Droral",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "drobel",
+    "term": "Drobel",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "awekshara",
+    "term": "Awekshara",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "mahrowek",
+    "term": "Mahrowek",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "mahrkal",
+    "term": "Mahrkal",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "drosel",
+    "term": "Drosel",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "mahrvek",
+    "term": "Mahrvek",
+    "available": 17,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "lormahr",
+    "term": "Lormahr",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhelbel",
+    "term": "Zhelbel",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "belzhir",
+    "term": "Belzhir",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "shenlian",
+    "term": "Shenlian",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "belwek",
+    "term": "Belwek",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "mekral",
+    "term": "Mekral",
+    "available": 89,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "verdvin",
+    "term": "Verdvin",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "fennilphel",
+    "term": "Fennilphel",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "belverd",
+    "term": "Belverd",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "arthverd",
+    "term": "Arthverd",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhaelral",
+    "term": "Zhaelral",
+    "available": 88,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "velmor",
+    "term": "Velmor",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "xarphelor",
+    "term": "Xarphelor",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "welkrez",
+    "term": "Welkrez",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "velalivar",
+    "term": "Velalivar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "veljor",
+    "term": "Veljor",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "thalorimor",
+    "term": "Thalorimor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mormek",
+    "term": "Mormek",
+    "available": 9,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "dralbelaen",
+    "term": "Dralbelaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kalwek",
+    "term": "Kalwek",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "arthaxar",
+    "term": "Arthaxar",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "thalbel",
+    "term": "Thalbel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "liankavor",
+    "term": "Liankavor",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "kavral",
+    "term": "Kavral",
+    "available": 17,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "kalshen",
+    "term": "Kalshen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rinshen",
+    "term": "Rinshen",
+    "available": 11,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "dralshara",
+    "term": "Dralshara",
+    "available": 9,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "eshlor",
+    "term": "Eshlor",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "karvek",
+    "term": "Karvek",
+    "available": 29,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "sharavok",
+    "term": "Sharavok",
+    "available": 34,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "vethdren",
+    "term": "Vethdren",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "dor",
+    "term": "Dor",
+    "available": 54,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "vekaen",
+    "term": "Vekaen",
+    "available": 28,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "korinaen",
+    "term": "Korinaen",
+    "available": 12,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "aloraen",
+    "term": "Aloraen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "kaxaraen",
+    "term": "Kaxaraen",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "xaraen",
+    "term": "Xaraen",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "jekaen",
+    "term": "Jekaen",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "sharaen",
+    "term": "Sharaen",
+    "available": 9,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "dar",
+    "term": "Dar",
+    "available": 25,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "siv",
+    "term": "Siv",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "sivathaen",
+    "term": "Sivathaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "sivrethaen",
+    "term": "Sivrethaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "tharsharaen",
+    "term": "Tharsharaen",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "tharshara",
+    "term": "Tharshara",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "drenvaraen",
+    "term": "Drenvaraen",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "kes",
+    "term": "Kes",
+    "available": 121,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "velzhiraen",
+    "term": "Velzhiraen",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "kavelzhiraen",
+    "term": "Kavelzhiraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "athnor",
+    "term": "Athnor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nethnor",
+    "term": "Nethnor",
+    "available": 22,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "felath",
+    "term": "Felath",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "worlian",
+    "term": "Worlian",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rethshara",
+    "term": "Rethshara",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "servok",
+    "term": "Servok",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "kavok",
+    "term": "Kavok",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "zhirkor",
+    "term": "Zhirkor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhirath",
+    "term": "Zhirath",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "lianzhir",
+    "term": "Lianzhir",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rethpral",
+    "term": "Rethpral",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "belreth",
+    "term": "Belreth",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "lianbel",
+    "term": "Lianbel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rakel",
+    "term": "Rakel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "serdel",
+    "term": "Serdel",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "shalvar",
+    "term": "Shalvar",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "vethvar",
+    "term": "Vethvar",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "shan",
+    "term": "Shan",
+    "available": 44,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "shalnor",
+    "term": "Shalnor",
+    "available": 12,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "vethnor",
+    "term": "Vethnor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "sernor",
+    "term": "Sernor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "varnor",
+    "term": "Varnor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shem",
+    "term": "Shem",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "krezvek",
+    "term": "Krezvek",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "krezpral",
+    "term": "Krezpral",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "emilpral",
+    "term": "Emilpral",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "kavvek",
+    "term": "Kavvek",
+    "available": 15,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "eshpral",
+    "term": "Eshpral",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "xarvek",
+    "term": "Xarvek",
+    "available": 14,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "rask",
+    "term": "Rask",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "mekrask",
+    "term": "Mekrask",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "lem",
+    "term": "Lem",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "lemath",
+    "term": "Lemath",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "selmek",
+    "term": "Selmek",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "tir",
+    "term": "Tir",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "tirkal",
+    "term": "Tirkal",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "aiv",
+    "term": "Aiv",
+    "available": 38,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "aivaen",
+    "term": "Aivaen",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "pelaivaen",
+    "term": "Pelaivaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rekaivaen",
+    "term": "Rekaivaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "teshaen",
+    "term": "Teshaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rivaen",
+    "term": "Rivaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "jelaen",
+    "term": "Jelaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "kelvorthamaen",
+    "term": "Kelvorthamaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "feldrenaen",
+    "term": "Feldrenaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "pelvokaen",
+    "term": "Pelvokaen",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "selpralaen",
+    "term": "Selpralaen",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "pelvaraen",
+    "term": "Pelvaraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zem",
+    "term": "Zem",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "kren",
+    "term": "Kren",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "drentalaen",
+    "term": "Drentalaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "jekthamaen",
+    "term": "Jekthamaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "drenselaen",
+    "term": "Drenselaen",
+    "available": 15,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "numaen",
+    "term": "Numaen",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "nolaen",
+    "term": "Nolaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "tovaen",
+    "term": "Tovaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "emilrav",
+    "term": "Emilrav",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "drorav",
+    "term": "Drorav",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "felkal",
+    "term": "Felkal",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "maveth",
+    "term": "Maveth",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "aivkor",
+    "term": "Aivkor",
+    "available": 24,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "tesh",
+    "term": "Tesh",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "riv",
+    "term": "Riv",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "num",
+    "term": "Num",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nol",
+    "term": "Nol",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "tov",
+    "term": "Tov",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mav",
+    "term": "Mav",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "norzhir",
+    "term": "Norzhir",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "thalnor",
+    "term": "Thalnor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "norreth",
+    "term": "Norreth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "normav",
+    "term": "Normav",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "normaveth",
+    "term": "Normaveth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "xilnor",
+    "term": "Xilnor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "felnor",
+    "term": "Felnor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "delnor",
+    "term": "Delnor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rethweknor",
+    "term": "Rethweknor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "jornor",
+    "term": "Jornor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "velnor",
+    "term": "Velnor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "norshan",
+    "term": "Norshan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "norshanaen",
+    "term": "Norshanaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "thalnoraen",
+    "term": "Thalnoraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vethvelrathor",
+    "term": "Vethvelrathor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shanvelrathor",
+    "term": "Shanvelrathor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shanvelzhiraen",
+    "term": "Shanvelzhiraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "delvelrathor",
+    "term": "Delvelrathor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "belvelrathor",
+    "term": "Belvelrathor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rathorjor",
+    "term": "Rathorjor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kavelrathor",
+    "term": "Kavelrathor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lianreth",
+    "term": "Lianreth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lianrethor",
+    "term": "Lianrethor",
+    "available": 10,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "lianrethaen",
+    "term": "Lianrethaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lianthal",
+    "term": "Lianthal",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lianthalaen",
+    "term": "Lianthalaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rethmor",
+    "term": "Rethmor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lianrethxar",
+    "term": "Lianrethxar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kalrav",
+    "term": "Kalrav",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "kalravor",
+    "term": "Kalravor",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "workalrav",
+    "term": "Workalrav",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "felkalrav",
+    "term": "Felkalrav",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kakalrav",
+    "term": "Kakalrav",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "jekkalrav",
+    "term": "Jekkalrav",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kalravaen",
+    "term": "Kalravaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lianrethshen",
+    "term": "Lianrethshen",
+    "available": 2,
+    "visible": 2,
+    "senses": 2
+  },
+  {
+    "id": "vaarshen",
+    "term": "Vaarshen",
+    "available": 2,
+    "visible": 2,
+    "senses": 2
+  },
+  {
+    "id": "keldoraen",
+    "term": "Keldoraen",
+    "available": 10,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "kasharaen",
+    "term": "Kasharaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "belkoraen",
+    "term": "Belkoraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "balpral",
+    "term": "Balpral",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "balral",
+    "term": "Balral",
+    "available": 20,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "pralbal",
+    "term": "Pralbal",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "balpralaen",
+    "term": "Balpralaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "drobalaen",
+    "term": "Drobalaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "sov",
+    "term": "Sov",
+    "available": 12,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "brossov",
+    "term": "Brossov",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "verdsov",
+    "term": "Verdsov",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "vilorsov",
+    "term": "Vilorsov",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kesbrenaen",
+    "term": "Kesbrenaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "gavaen",
+    "term": "Gavaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "gavral",
+    "term": "Gavral",
+    "available": 10,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "nesh",
+    "term": "Nesh",
+    "available": 13,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "neshbrenaen",
+    "term": "Neshbrenaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "neshbrenral",
+    "term": "Neshbrenral",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "xarnesh",
+    "term": "Xarnesh",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mahrfennil",
+    "term": "Mahrfennil",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zor",
+    "term": "Zor",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "belzor",
+    "term": "Belzor",
+    "available": 9,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "belzoraen",
+    "term": "Belzoraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "belzorral",
+    "term": "Belzorral",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "zordren",
+    "term": "Zordren",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zordrenvinaen",
+    "term": "Zordrenvinaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "felverd",
+    "term": "Felverd",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "morlverd",
+    "term": "Morlverd",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nelar",
+    "term": "Nelar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zornelar",
+    "term": "Zornelar",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "jelkor",
+    "term": "Jelkor",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "fennildren",
+    "term": "Fennildren",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "emildren",
+    "term": "Emildren",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "saren",
+    "term": "Saren",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "fellak",
+    "term": "Fellak",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "drenfellak",
+    "term": "Drenfellak",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "olan",
+    "term": "Olan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "emilolan",
+    "term": "Emilolan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "morolan",
+    "term": "Morolan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "pralfel",
+    "term": "Pralfel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "emilshara",
+    "term": "Emilshara",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "emilpralaen",
+    "term": "Emilpralaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "xarkrezaen",
+    "term": "Xarkrezaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "krezdrenaen",
+    "term": "Krezdrenaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "eshkrezaen",
+    "term": "Eshkrezaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "pelkrezaen",
+    "term": "Pelkrezaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "olankrezaen",
+    "term": "Olankrezaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "eshdrenaen",
+    "term": "Eshdrenaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "felthamaen",
+    "term": "Felthamaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "pelaen",
+    "term": "Pelaen",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "drenpralaen",
+    "term": "Drenpralaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "seldrenvinaen",
+    "term": "Seldrenvinaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "balemilaen",
+    "term": "Balemilaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mura",
+    "term": "Mura",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "muraen",
+    "term": "Muraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vindrenaen",
+    "term": "Vindrenaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "livaraen",
+    "term": "Livaraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vellivaraen",
+    "term": "Vellivaraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhaeleth",
+    "term": "Zhaeleth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ruvan",
+    "term": "Ruvan",
+    "available": 4,
+    "visible": 4,
+    "senses": 2
+  },
+  {
+    "id": "ruvanaen",
+    "term": "Ruvanaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ruvaneth",
+    "term": "Ruvaneth",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "emilpraleth",
+    "term": "Emilpraleth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kaemilpraleth",
+    "term": "Kaemilpraleth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "talemilaen",
+    "term": "Talemilaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "gav",
+    "term": "Gav",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "belxar",
+    "term": "Belxar",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "belxaraen",
+    "term": "Belxaraen",
+    "available": 12,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "velbelxar",
+    "term": "Velbelxar",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "eshtrakor",
+    "term": "Eshtrakor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "velpraltrakor",
+    "term": "Velpraltrakor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "pelveltrakor",
+    "term": "Pelveltrakor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lorinorxar",
+    "term": "Lorinorxar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rema",
+    "term": "Rema",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "remaxar",
+    "term": "Remaxar",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "zhirbel",
+    "term": "Zhirbel",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "welzhirbel",
+    "term": "Welzhirbel",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "belmek",
+    "term": "Belmek",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "belmekaen",
+    "term": "Belmekaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kabelmekaen",
+    "term": "Kabelmekaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "korinxar",
+    "term": "Korinxar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lorinshalxar",
+    "term": "Lorinshalxar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "remashalxar",
+    "term": "Remashalxar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rinbelxar",
+    "term": "Rinbelxar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "felzhir",
+    "term": "Felzhir",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "sura",
+    "term": "Sura",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "belsura",
+    "term": "Belsura",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "verdselzhir",
+    "term": "Verdselzhir",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "selzhir",
+    "term": "Selzhir",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kalbelrin",
+    "term": "Kalbelrin",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "olanbelrin",
+    "term": "Olanbelrin",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "drenartheth",
+    "term": "Drenartheth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shanartheth",
+    "term": "Shanartheth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhelshaneth",
+    "term": "Zhelshaneth",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "kalmorl",
+    "term": "Kalmorl",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "krezmorl",
+    "term": "Krezmorl",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "brosmorl",
+    "term": "Brosmorl",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "sadar",
+    "term": "Sadar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "sadarmorl",
+    "term": "Sadarmorl",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "eran",
+    "term": "Eran",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "osar",
+    "term": "Osar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "dresh",
+    "term": "Dresh",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "neshmorl",
+    "term": "Neshmorl",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zorxar",
+    "term": "Zorxar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kavolan",
+    "term": "Kavolan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "verdbel",
+    "term": "Verdbel",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "hir",
+    "term": "Hir",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "hirmor",
+    "term": "Hirmor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "hiraen",
+    "term": "Hiraen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "belkren",
+    "term": "Belkren",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "karmek",
+    "term": "Karmek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kalmek",
+    "term": "Kalmek",
+    "available": 13,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "felmek",
+    "term": "Felmek",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "zhaelpralaen",
+    "term": "Zhaelpralaen",
+    "available": 25,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "thamvek",
+    "term": "Thamvek",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "thamkar",
+    "term": "Thamkar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhirpel",
+    "term": "Zhirpel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "pelkorin",
+    "term": "Pelkorin",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "delpel",
+    "term": "Delpel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "delkorin",
+    "term": "Delkorin",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "pelkar",
+    "term": "Pelkar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "drenkavvek",
+    "term": "Drenkavvek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "krezdrenvek",
+    "term": "Krezdrenvek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rinpel",
+    "term": "Rinpel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kelpel",
+    "term": "Kelpel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kelpral",
+    "term": "Kelpral",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "shenzhir",
+    "term": "Shenzhir",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lormek",
+    "term": "Lormek",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "sharashen",
+    "term": "Sharashen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "normek",
+    "term": "Normek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "belpralmek",
+    "term": "Belpralmek",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "jekzhirvek",
+    "term": "Jekzhirvek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shenmek",
+    "term": "Shenmek",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "kesmek",
+    "term": "Kesmek",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "shenlianaen",
+    "term": "Shenlianaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kormek",
+    "term": "Kormek",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "zhelkor",
+    "term": "Zhelkor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhelkav",
+    "term": "Zhelkav",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "shanmek",
+    "term": "Shanmek",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "krenzhir",
+    "term": "Krenzhir",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "selshan",
+    "term": "Selshan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "selshanaen",
+    "term": "Selshanaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ravshan",
+    "term": "Ravshan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "belshan",
+    "term": "Belshan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "wekmek",
+    "term": "Wekmek",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "korwek",
+    "term": "Korwek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "jekmek",
+    "term": "Jekmek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ravkar",
+    "term": "Ravkar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "wekrav",
+    "term": "Wekrav",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "jekkal",
+    "term": "Jekkal",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "varvek",
+    "term": "Varvek",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "felvek",
+    "term": "Felvek",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "morvek",
+    "term": "Morvek",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "pralvek",
+    "term": "Pralvek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kormekvek",
+    "term": "Kormekvek",
+    "available": 12,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "delkormek",
+    "term": "Delkormek",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "delwek",
+    "term": "Delwek",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "zhirvek",
+    "term": "Zhirvek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "belzhirvek",
+    "term": "Belzhirvek",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "zhirshara",
+    "term": "Zhirshara",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "shalilvek",
+    "term": "Shalilvek",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "eshvek",
+    "term": "Eshvek",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "mahrxarvek",
+    "term": "Mahrxarvek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "krenzhirvek",
+    "term": "Krenzhirvek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mahrpral",
+    "term": "Mahrpral",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vekvaraen",
+    "term": "Vekvaraen",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "kormekaen",
+    "term": "Kormekaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "lorvekaen",
+    "term": "Lorvekaen",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "mahrvaraen",
+    "term": "Mahrvaraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "eshvaraen",
+    "term": "Eshvaraen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "anvekaen",
+    "term": "Anvekaen",
+    "available": 9,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "thalvekaen",
+    "term": "Thalvekaen",
+    "available": 5,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "weksharaen",
+    "term": "Weksharaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "dorvekaen",
+    "term": "Dorvekaen",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "jorvar",
+    "term": "Jorvar",
+    "available": 2,
+    "visible": 2,
+    "senses": 2
+  },
+  {
+    "id": "jorvaraen",
+    "term": "Jorvaraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "velvaraen",
+    "term": "Velvaraen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "belvekaen",
+    "term": "Belvekaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ravvekaen",
+    "term": "Ravvekaen",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "felshara",
+    "term": "Felshara",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "vekmor",
+    "term": "Vekmor",
+    "available": 11,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "vekin",
+    "term": "Vekin",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "lorvekral",
+    "term": "Lorvekral",
+    "available": 19,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "eshlorral",
+    "term": "Eshlorral",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "welvek",
+    "term": "Welvek",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "mekor",
+    "term": "Mekor",
+    "available": 12,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "ndara",
+    "term": "Ndara",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "eshxar",
+    "term": "Eshxar",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "morlpral",
+    "term": "Morlpral",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "aneshxar",
+    "term": "Aneshxar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shalshan",
+    "term": "Shalshan",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "xarzhir",
+    "term": "Xarzhir",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kormor",
+    "term": "Kormor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mbalanmor",
+    "term": "Mbalanmor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ndavior",
+    "term": "Ndavior",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "xaror",
+    "term": "Xaror",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "worxaror",
+    "term": "Worxaror",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "xarwelor",
+    "term": "Xarwelor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "welpralor",
+    "term": "Welpralor",
+    "available": 15,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "mekeshpral",
+    "term": "Mekeshpral",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "velkelor",
+    "term": "Velkelor",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "shenpralor",
+    "term": "Shenpralor",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "shenkesor",
+    "term": "Shenkesor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "belzhirkavor",
+    "term": "Belzhirkavor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lormekor",
+    "term": "Lormekor",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "mekpralor",
+    "term": "Mekpralor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "njor",
+    "term": "Njor",
+    "available": 8,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "mekshara",
+    "term": "Mekshara",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "brosshara",
+    "term": "Brosshara",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "morlshan",
+    "term": "Morlshan",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "varshanmek",
+    "term": "Varshanmek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "varbelor",
+    "term": "Varbelor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "eshpralor",
+    "term": "Eshpralor",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "ndavivek",
+    "term": "Ndavivek",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "mahrpralor",
+    "term": "Mahrpralor",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "mahrxaror",
+    "term": "Mahrxaror",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "vekxaror",
+    "term": "Vekxaror",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vekpralor",
+    "term": "Vekpralor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "droshara",
+    "term": "Droshara",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "dronjor",
+    "term": "Dronjor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "eshmekor",
+    "term": "Eshmekor",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "wekxar",
+    "term": "Wekxar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "drojormek",
+    "term": "Drojormek",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "nethmek",
+    "term": "Nethmek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ndavi",
+    "term": "Ndavi",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "belor",
+    "term": "Belor",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "lorbel",
+    "term": "Lorbel",
+    "available": 20,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "lorbelaen",
+    "term": "Lorbelaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "khumkel",
+    "term": "Khumkel",
+    "available": 11,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "khumkelral",
+    "term": "Khumkelral",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "kalrin",
+    "term": "Kalrin",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "belvoklor",
+    "term": "Belvoklor",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "lorbelral",
+    "term": "Lorbelral",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "welkelthar",
+    "term": "Welkelthar",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "keltharaen",
+    "term": "Keltharaen",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "lorshara",
+    "term": "Lorshara",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "kalkel",
+    "term": "Kalkel",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "belrinpel",
+    "term": "Belrinpel",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "shental",
+    "term": "Shental",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "shentalaen",
+    "term": "Shentalaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "weltal",
+    "term": "Weltal",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "weltalaen",
+    "term": "Weltalaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kelreth",
+    "term": "Kelreth",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "thalkelreth",
+    "term": "Thalkelreth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "thalkelrethaen",
+    "term": "Thalkelrethaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "welrin",
+    "term": "Welrin",
+    "available": 19,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "welrinath",
+    "term": "Welrinath",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "felbelor",
+    "term": "Felbelor",
+    "available": 10,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "lorzhir",
+    "term": "Lorzhir",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "kelvok",
+    "term": "Kelvok",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "verkalkelaen",
+    "term": "Verkalkelaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "weleth",
+    "term": "Weleth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kaweleth",
+    "term": "Kaweleth",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "ral",
+    "term": "Ral",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "pralilan",
+    "term": "Pralilan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "pralral",
+    "term": "Pralral",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "krenral",
+    "term": "Krenral",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "mormekral",
+    "term": "Mormekral",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "lormekral",
+    "term": "Lormekral",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "shenral",
+    "term": "Shenral",
+    "available": 42,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "kelvekral",
+    "term": "Kelvekral",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "sharalorin",
+    "term": "Sharalorin",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "anvanesh",
+    "term": "Anvanesh",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "thalvanesh",
+    "term": "Thalvanesh",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "lorzhiranshan",
+    "term": "Lorzhiranshan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lorzhirthalshan",
+    "term": "Lorzhirthalshan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ianath",
+    "term": "Ianath",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ngar",
+    "term": "Ngar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ngarpel",
+    "term": "Ngarpel",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "ngarzhir",
+    "term": "Ngarzhir",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ravjor",
+    "term": "Ravjor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ravjorvek",
+    "term": "Ravjorvek",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "arthkal",
+    "term": "Arthkal",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "ngarjor",
+    "term": "Ngarjor",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "ngarzhel",
+    "term": "Ngarzhel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ngarvek",
+    "term": "Ngarvek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "welarth",
+    "term": "Welarth",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "ngarwel",
+    "term": "Ngarwel",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "kesvar",
+    "term": "Kesvar",
+    "available": 13,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "xarkaleth",
+    "term": "Xarkaleth",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "vethbel",
+    "term": "Vethbel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lorpel",
+    "term": "Lorpel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lorpelaen",
+    "term": "Lorpelaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ngarjoraen",
+    "term": "Ngarjoraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "arthkaraen",
+    "term": "Arthkaraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vethvaraen",
+    "term": "Vethvaraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kaarthaen",
+    "term": "Kaarthaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mavmor",
+    "term": "Mavmor",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "rathnor",
+    "term": "Rathnor",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "rathjor",
+    "term": "Rathjor",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "tlamor",
+    "term": "Tlamor",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "tlamoraen",
+    "term": "Tlamoraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "tlamoreth",
+    "term": "Tlamoreth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shalbal",
+    "term": "Shalbal",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "shalbalaen",
+    "term": "Shalbalaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shalbaleth",
+    "term": "Shalbaleth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "duma",
+    "term": "Duma",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "dumaen",
+    "term": "Dumaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "dumeth",
+    "term": "Dumeth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "sel",
+    "term": "Sel",
+    "available": 4,
+    "visible": 4,
+    "senses": 2
+  },
+  {
+    "id": "dov",
+    "term": "Dov",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "dovaen",
+    "term": "Dovaen",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "dovath",
+    "term": "Dovath",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "dovin",
+    "term": "Dovin",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "kaldov",
+    "term": "Kaldov",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nak",
+    "term": "Nak",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nakaen",
+    "term": "Nakaen",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "nakin",
+    "term": "Nakin",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "sivvok",
+    "term": "Sivvok",
+    "available": 10,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "thalnakin",
+    "term": "Thalnakin",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nakshara",
+    "term": "Nakshara",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "naklorral",
+    "term": "Naklorral",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "naktal",
+    "term": "Naktal",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shalnak",
+    "term": "Shalnak",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "shalnakaen",
+    "term": "Shalnakaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "vethnak",
+    "term": "Vethnak",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vethnakaen",
+    "term": "Vethnakaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "thalnak",
+    "term": "Thalnak",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "jornak",
+    "term": "Jornak",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "jornakaen",
+    "term": "Jornakaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "trakshalilaen",
+    "term": "Trakshalilaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mahrshalilaen",
+    "term": "Mahrshalilaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "aennor",
+    "term": "Aennor",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "aennoraen",
+    "term": "Aennoraen",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "aennorral",
+    "term": "Aennorral",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "thael",
+    "term": "Thael",
+    "available": 4,
+    "visible": 4,
+    "senses": 2
+  },
+  {
+    "id": "aenthael",
+    "term": "Aenthael",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "aenthaelaen",
+    "term": "Aenthaelaen",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "aenthaelral",
+    "term": "Aenthaelral",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "welaenthael",
+    "term": "Welaenthael",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "karthael",
+    "term": "Karthael",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "karthaelaen",
+    "term": "Karthaelaen",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "karthaelral",
+    "term": "Karthaelral",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "thaelaen",
+    "term": "Thaelaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "thaelral",
+    "term": "Thaelral",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "aenzhir",
+    "term": "Aenzhir",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhirkel",
+    "term": "Zhirkel",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "zhirkelral",
+    "term": "Zhirkelral",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "rinpral",
+    "term": "Rinpral",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "rinpralral",
+    "term": "Rinpralral",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "norpral",
+    "term": "Norpral",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "norpralaen",
+    "term": "Norpralaen",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "norpralral",
+    "term": "Norpralral",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "khumkes",
+    "term": "Khumkes",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "norpralor",
+    "term": "Norpralor",
+    "available": 9,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "rim",
+    "term": "Rim",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rimaen",
+    "term": "Rimaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rimor",
+    "term": "Rimor",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "ndem",
+    "term": "Ndem",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "ndemaen",
+    "term": "Ndemaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "mavkes",
+    "term": "Mavkes",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "keshen",
+    "term": "Keshen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "keshenaen",
+    "term": "Keshenaen",
+    "available": 32,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "keshenath",
+    "term": "Keshenath",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "sava",
+    "term": "Sava",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "savaen",
+    "term": "Savaen",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "savin",
+    "term": "Savin",
+    "available": 23,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "savor",
+    "term": "Savor",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "talzhael",
+    "term": "Talzhael",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "talzhaelaen",
+    "term": "Talzhaelaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhaelphel",
+    "term": "Zhaelphel",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "zhaelshen",
+    "term": "Zhaelshen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "morzhael",
+    "term": "Morzhael",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "mavkrez",
+    "term": "Mavkrez",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "mavbal",
+    "term": "Mavbal",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "mavbaleth",
+    "term": "Mavbaleth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mavbalshaneth",
+    "term": "Mavbalshaneth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhaelolan",
+    "term": "Zhaelolan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "aivkorxar",
+    "term": "Aivkorxar",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "jorzhael",
+    "term": "Jorzhael",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "mavmorzhael",
+    "term": "Mavmorzhael",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rekrathlor",
+    "term": "Rekrathlor",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "rathlorkel",
+    "term": "Rathlorkel",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "velmav",
+    "term": "Velmav",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "rekmav",
+    "term": "Rekmav",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "velaivkor",
+    "term": "Velaivkor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kadromav",
+    "term": "Kadromav",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kesrin",
+    "term": "Kesrin",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kakesrin",
+    "term": "Kakesrin",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kakesrineth",
+    "term": "Kakesrineth",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "kesrinaen",
+    "term": "Kesrinaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "vaarshan",
+    "term": "Vaarshan",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "vaarshanaen",
+    "term": "Vaarshanaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "thalwelvar",
+    "term": "Thalwelvar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "thalwelvaraen",
+    "term": "Thalwelvaraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mavbalshanaen",
+    "term": "Mavbalshanaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mavbalxar",
+    "term": "Mavbalxar",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "shalkav",
+    "term": "Shalkav",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kavaen",
+    "term": "Kavaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "vaarbelwek",
+    "term": "Vaarbelwek",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "nethvek",
+    "term": "Nethvek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shentalzhael",
+    "term": "Shentalzhael",
+    "available": 2,
+    "visible": 2,
+    "senses": 2
+  },
+  {
+    "id": "felmorl",
+    "term": "Felmorl",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "delmorl",
+    "term": "Delmorl",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "pelmorl",
+    "term": "Pelmorl",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "morlshara",
+    "term": "Morlshara",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "xarmorl",
+    "term": "Xarmorl",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shanmorl",
+    "term": "Shanmorl",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "selmor",
+    "term": "Selmor",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "ndavimor",
+    "term": "Ndavimor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kadromor",
+    "term": "Kadromor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "brossadar",
+    "term": "Brossadar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "velkmorl",
+    "term": "Velkmorl",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "terramahr",
+    "term": "Terramahr",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "drenfel",
+    "term": "Drenfel",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "fellun",
+    "term": "Fellun",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "drenverd",
+    "term": "Drenverd",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "mahrmorl",
+    "term": "Mahrmorl",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "drenjor",
+    "term": "Drenjor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mahrwel",
+    "term": "Mahrwel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "eshnor",
+    "term": "Eshnor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "eshweknor",
+    "term": "Eshweknor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "drenesh",
+    "term": "Drenesh",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "eshkar",
+    "term": "Eshkar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "eshjor",
+    "term": "Eshjor",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "eshdren",
+    "term": "Eshdren",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kadro",
+    "term": "Kadro",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "drenrek",
+    "term": "Drenrek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "morkar",
+    "term": "Morkar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "morljor",
+    "term": "Morljor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "sadarjor",
+    "term": "Sadarjor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "velxar",
+    "term": "Velxar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "felsadar",
+    "term": "Felsadar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "krezshen",
+    "term": "Krezshen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "verdin",
+    "term": "Verdin",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "verdmarin",
+    "term": "Verdmarin",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "morlzhir",
+    "term": "Morlzhir",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "verdxar",
+    "term": "Verdxar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhirverd",
+    "term": "Zhirverd",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "verdpel",
+    "term": "Verdpel",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "balvek",
+    "term": "Balvek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "balshan",
+    "term": "Balshan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mbu",
+    "term": "Mbu",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shalrin",
+    "term": "Shalrin",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nali",
+    "term": "Nali",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "nalior",
+    "term": "Nalior",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "ohmshal",
+    "term": "Ohmshal",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "welnali",
+    "term": "Welnali",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kornali",
+    "term": "Kornali",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shannali",
+    "term": "Shannali",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rathshannali",
+    "term": "Rathshannali",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "dumanali",
+    "term": "Dumanali",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rathnali",
+    "term": "Rathnali",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "gavin",
+    "term": "Gavin",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "rathzor",
+    "term": "Rathzor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "welzor",
+    "term": "Welzor",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "zornethor",
+    "term": "Zornethor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "wekvaraen",
+    "term": "Wekvaraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "emilzhir",
+    "term": "Emilzhir",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "emilbel",
+    "term": "Emilbel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "terramav",
+    "term": "Terramav",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "mavverd",
+    "term": "Mavverd",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "gorm",
+    "term": "Gorm",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "welgorm",
+    "term": "Welgorm",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "pelnor",
+    "term": "Pelnor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "xilnalior",
+    "term": "Xilnalior",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "terrakav",
+    "term": "Terrakav",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "terrazhael",
+    "term": "Terrazhael",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "sul",
+    "term": "Sul",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "worsul",
+    "term": "Worsul",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kasul",
+    "term": "Kasul",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kavsul",
+    "term": "Kavsul",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "weksul",
+    "term": "Weksul",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "versul",
+    "term": "Versul",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "dava",
+    "term": "Dava",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shendava",
+    "term": "Shendava",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "kavdava",
+    "term": "Kavdava",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "davaxar",
+    "term": "Davaxar",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "beldava",
+    "term": "Beldava",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "davapral",
+    "term": "Davapral",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zheldava",
+    "term": "Zheldava",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "ohmshan",
+    "term": "Ohmshan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "anmek",
+    "term": "Anmek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "thalmek",
+    "term": "Thalmek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "raku",
+    "term": "Raku",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rakuaen",
+    "term": "Rakuaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "rakumek",
+    "term": "Rakumek",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "rakufelmek",
+    "term": "Rakufelmek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rakushara",
+    "term": "Rakushara",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rakukel",
+    "term": "Rakukel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "belraku",
+    "term": "Belraku",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "varokraku",
+    "term": "Varokraku",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "varokrakuaen",
+    "term": "Varokrakuaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "varokrakueth",
+    "term": "Varokrakueth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "davashanaen",
+    "term": "Davashanaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "deldavaen",
+    "term": "Deldavaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "andavaen",
+    "term": "Andavaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "thaldavaen",
+    "term": "Thaldavaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kavdavaen",
+    "term": "Kavdavaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "kavdeldava",
+    "term": "Kavdeldava",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kesdavaen",
+    "term": "Kesdavaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "belnoraen",
+    "term": "Belnoraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mekreth",
+    "term": "Mekreth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "felmekreth",
+    "term": "Felmekreth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rekmekreth",
+    "term": "Rekmekreth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rethdava",
+    "term": "Rethdava",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "xardava",
+    "term": "Xardava",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "xardavaen",
+    "term": "Xardavaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kaxardavaen",
+    "term": "Kaxardavaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhelwel",
+    "term": "Zhelwel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhelshara",
+    "term": "Zhelshara",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "ravzhel",
+    "term": "Ravzhel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhelshan",
+    "term": "Zhelshan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhelxar",
+    "term": "Zhelxar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "jorzhelkav",
+    "term": "Jorzhelkav",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "zhelvorkor",
+    "term": "Zhelvorkor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhelpel",
+    "term": "Zhelpel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "jorzhel",
+    "term": "Jorzhel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "worzhel",
+    "term": "Worzhel",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "kazhel",
+    "term": "Kazhel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhelreth",
+    "term": "Zhelreth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rethzhelshara",
+    "term": "Rethzhelshara",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhelaen",
+    "term": "Zhelaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kavzhelaen",
+    "term": "Kavzhelaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "thalzhelaen",
+    "term": "Thalzhelaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "arthzhelshara",
+    "term": "Arthzhelshara",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "morzhelshan",
+    "term": "Morzhelshan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mekkes",
+    "term": "Mekkes",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mekkesaen",
+    "term": "Mekkesaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "varokmek",
+    "term": "Varokmek",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "rethzheldava",
+    "term": "Rethzheldava",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "songa",
+    "term": "Songa",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "songaeth",
+    "term": "Songaeth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "songazun",
+    "term": "Songazun",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "zunesh",
+    "term": "Zunesh",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nyel",
+    "term": "Nyel",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "nyeleth",
+    "term": "Nyeleth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kreznyel",
+    "term": "Kreznyel",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "vora",
+    "term": "Vora",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "voraeth",
+    "term": "Voraeth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "luneth",
+    "term": "Luneth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nyelbel",
+    "term": "Nyelbel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "wornyelbel",
+    "term": "Wornyelbel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nyelzhir",
+    "term": "Nyelzhir",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ravwek",
+    "term": "Ravwek",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "ravwekaen",
+    "term": "Ravwekaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "ravwekin",
+    "term": "Ravwekin",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "dralxar",
+    "term": "Dralxar",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "dralxaraen",
+    "term": "Dralxaraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "felvora",
+    "term": "Felvora",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhirnyel",
+    "term": "Zhirnyel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "dralfel",
+    "term": "Dralfel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "krezdralfel",
+    "term": "Krezdralfel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mordralfel",
+    "term": "Mordralfel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "felmor",
+    "term": "Felmor",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "morshen",
+    "term": "Morshen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "dralshen",
+    "term": "Dralshen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "songashen",
+    "term": "Songashen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shenbel",
+    "term": "Shenbel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shenbeleth",
+    "term": "Shenbeleth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shenkes",
+    "term": "Shenkes",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shenkesaen",
+    "term": "Shenkesaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kesdava",
+    "term": "Kesdava",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "sivshen",
+    "term": "Sivshen",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "sivshenaen",
+    "term": "Sivshenaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "sivkel",
+    "term": "Sivkel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "belkes",
+    "term": "Belkes",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rinmek",
+    "term": "Rinmek",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "rinmekaen",
+    "term": "Rinmekaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "varrinmek",
+    "term": "Varrinmek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "varrinmekaen",
+    "term": "Varrinmekaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "felshen",
+    "term": "Felshen",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "felshenaen",
+    "term": "Felshenaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "drenvar",
+    "term": "Drenvar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "sivshenlian",
+    "term": "Sivshenlian",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rethshen",
+    "term": "Rethshen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shenreth",
+    "term": "Shenreth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shenlianeth",
+    "term": "Shenlianeth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "pelsheneth",
+    "term": "Pelsheneth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shenvarash",
+    "term": "Shenvarash",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shenvarashaen",
+    "term": "Shenvarashaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "weksivshen",
+    "term": "Weksivshen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "weksivshenaen",
+    "term": "Weksivshenaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shalpel",
+    "term": "Shalpel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "drallor",
+    "term": "Drallor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "fellor",
+    "term": "Fellor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "aru",
+    "term": "Aru",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "arueth",
+    "term": "Arueth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kaarueth",
+    "term": "Kaarueth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "aruaen",
+    "term": "Aruaen",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "arural",
+    "term": "Arural",
+    "available": 38,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "rinaru",
+    "term": "Rinaru",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kalaru",
+    "term": "Kalaru",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "esharu",
+    "term": "Esharu",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "arukel",
+    "term": "Arukel",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "arukelaen",
+    "term": "Arukelaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shankalaen",
+    "term": "Shankalaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rinbel",
+    "term": "Rinbel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rinbelaen",
+    "term": "Rinbelaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rinbeleth",
+    "term": "Rinbeleth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "arthrin",
+    "term": "Arthrin",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "xarrin",
+    "term": "Xarrin",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kaaruaen",
+    "term": "Kaaruaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vaarrin",
+    "term": "Vaarrin",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rathrin",
+    "term": "Rathrin",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "rinvek",
+    "term": "Rinvek",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "ohmpel",
+    "term": "Ohmpel",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "mekaru",
+    "term": "Mekaru",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "thaenin",
+    "term": "Thaenin",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "thaenohm",
+    "term": "Thaenohm",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "thaenohmaen",
+    "term": "Thaenohmaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "rinarshor",
+    "term": "Rinarshor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "thaenbel",
+    "term": "Thaenbel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "thaenbelaen",
+    "term": "Thaenbelaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kathaenbelaen",
+    "term": "Kathaenbelaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "krezpralaen",
+    "term": "Krezpralaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "dropralaen",
+    "term": "Dropralaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "eshpralaen",
+    "term": "Eshpralaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "morpralaen",
+    "term": "Morpralaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "velpralaen",
+    "term": "Velpralaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhelpralaen",
+    "term": "Zhelpralaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "tenarpralaen",
+    "term": "Tenarpralaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vethpralaen",
+    "term": "Vethpralaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shalrinaen",
+    "term": "Shalrinaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vethshal",
+    "term": "Vethshal",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vethshalaen",
+    "term": "Vethshalaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vethshaleth",
+    "term": "Vethshaleth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "tharbel",
+    "term": "Tharbel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "tharbelaen",
+    "term": "Tharbelaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "katharbelaen",
+    "term": "Katharbelaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kesxar",
+    "term": "Kesxar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kesxaraen",
+    "term": "Kesxaraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "worshankal",
+    "term": "Worshankal",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "worshankalaen",
+    "term": "Worshankalaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rethkal",
+    "term": "Rethkal",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rethkaleth",
+    "term": "Rethkaleth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shantham",
+    "term": "Shantham",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ohmreth",
+    "term": "Ohmreth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kaohmaen",
+    "term": "Kaohmaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "naku",
+    "term": "Naku",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "sora",
+    "term": "Sora",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "deni",
+    "term": "Deni",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "denya",
+    "term": "Denya",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "denla",
+    "term": "Denla",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "anor",
+    "term": "Anor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kaan",
+    "term": "Kaan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "anshanaen",
+    "term": "Anshanaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "thalshanaen",
+    "term": "Thalshanaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "hav",
+    "term": "Hav",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "havaen",
+    "term": "Havaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "haveth",
+    "term": "Haveth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "dovhav",
+    "term": "Dovhav",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "dovkel",
+    "term": "Dovkel",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "dovkelaen",
+    "term": "Dovkelaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "keljek",
+    "term": "Keljek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "pralhav",
+    "term": "Pralhav",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "dovhavral",
+    "term": "Dovhavral",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "havrath",
+    "term": "Havrath",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "havrathaen",
+    "term": "Havrathaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "jekkel",
+    "term": "Jekkel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "peljekkel",
+    "term": "Peljekkel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nem",
+    "term": "Nem",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nemaen",
+    "term": "Nemaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rethnem",
+    "term": "Rethnem",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rethnemaen",
+    "term": "Rethnemaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kelnemaen",
+    "term": "Kelnemaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "selnemaen",
+    "term": "Selnemaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mbaen",
+    "term": "Mbaen",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "zev",
+    "term": "Zev",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "zevaen",
+    "term": "Zevaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "fahohm",
+    "term": "Fahohm",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "fahohmaen",
+    "term": "Fahohmaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mira",
+    "term": "Mira",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "miraen",
+    "term": "Miraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "daku",
+    "term": "Daku",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "dakuaen",
+    "term": "Dakuaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ravohm",
+    "term": "Ravohm",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ravohmaen",
+    "term": "Ravohmaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kavkrez",
+    "term": "Kavkrez",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kavkrezaen",
+    "term": "Kavkrezaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "fahreth",
+    "term": "Fahreth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "fahrethaen",
+    "term": "Fahrethaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "doran",
+    "term": "Doran",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "breka",
+    "term": "Breka",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vesh",
+    "term": "Vesh",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "davel",
+    "term": "Davel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "korkalvar",
+    "term": "Korkalvar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kalvargora",
+    "term": "Kalvargora",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "gora",
+    "term": "Gora",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "koringora",
+    "term": "Koringora",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "pir",
+    "term": "Pir",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "korsharvar",
+    "term": "Korsharvar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "sharvargora",
+    "term": "Sharvargora",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "morlkagora",
+    "term": "Morlkagora",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "morlkapir",
+    "term": "Morlkapir",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "xarmetha",
+    "term": "Xarmetha",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "metha",
+    "term": "Metha",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kalmetha",
+    "term": "Kalmetha",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zek",
+    "term": "Zek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lera",
+    "term": "Lera",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "numor",
+    "term": "Numor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "tash",
+    "term": "Tash",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "khelu",
+    "term": "Khelu",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "aentash",
+    "term": "Aentash",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lumar",
+    "term": "Lumar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kedir",
+    "term": "Kedir",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "emiltash",
+    "term": "Emiltash",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "emilshan",
+    "term": "Emilshan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "urenvek",
+    "term": "Urenvek",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "lesh",
+    "term": "Lesh",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ndemshan",
+    "term": "Ndemshan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "khos",
+    "term": "Khos",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "khosaen",
+    "term": "Khosaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "zer",
+    "term": "Zer",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zeraen",
+    "term": "Zeraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "suv",
+    "term": "Suv",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "suvaen",
+    "term": "Suvaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nar",
+    "term": "Nar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "naraen",
+    "term": "Naraen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "uren",
+    "term": "Uren",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "urenaen",
+    "term": "Urenaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "fek",
+    "term": "Fek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "fekaen",
+    "term": "Fekaen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "ndemwek",
+    "term": "Ndemwek",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ndemwekaen",
+    "term": "Ndemwekaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kakesrinaen",
+    "term": "Kakesrinaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "noka",
+    "term": "Noka",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nokashan",
+    "term": "Nokashan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kiri",
+    "term": "Kiri",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mara",
+    "term": "Mara",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "marasorl",
+    "term": "Marasorl",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "seki",
+    "term": "Seki",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "tava",
+    "term": "Tava",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nderu",
+    "term": "Nderu",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nderuxar",
+    "term": "Nderuxar",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "urenshan",
+    "term": "Urenshan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "fena",
+    "term": "Fena",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "leya",
+    "term": "Leya",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "leyaen",
+    "term": "Leyaen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "leyajor",
+    "term": "Leyajor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "leyajoraen",
+    "term": "Leyajoraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kelvordren",
+    "term": "Kelvordren",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lorinshaldren",
+    "term": "Lorinshaldren",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "korpir",
+    "term": "Korpir",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "morlkavesh",
+    "term": "Morlkavesh",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ruma",
+    "term": "Ruma",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "mu",
+    "term": "Mu",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "nu",
+    "term": "Nu",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhe",
+    "term": "Zhe",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "sha",
+    "term": "Sha",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lo",
+    "term": "Lo",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ri",
+    "term": "Ri",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "tera",
+    "term": "Tera",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "velkrel",
+    "term": "Velkrel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "varan",
+    "term": "Varan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shalil",
+    "term": "Shalil",
+    "available": 10,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "serathrin",
+    "term": "Serathrin",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "zhivor",
+    "term": "Zhivor",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "tharvok",
+    "term": "Tharvok",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "evan",
+    "term": "Evan",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "shenakar",
+    "term": "Shenakar",
+    "available": 7,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "em",
+    "term": "Em",
+    "available": 2,
+    "visible": 2,
+    "senses": 2
+  },
+  {
+    "id": "varin",
+    "term": "Varin",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "shena",
+    "term": "Shena",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "nkathal",
+    "term": "Nkathal",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vrak",
+    "term": "Vrak",
+    "available": 2,
+    "visible": 2,
+    "senses": 2
+  },
+  {
+    "id": "theren",
+    "term": "Theren",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "serilin",
+    "term": "Serilin",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "aelin",
+    "term": "Aelin",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "im",
+    "term": "Im",
+    "available": 2,
+    "visible": 2,
+    "senses": 2
+  },
+  {
+    "id": "dreshal",
+    "term": "Dreshal",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "varshel",
+    "term": "Varshel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "eshvan",
+    "term": "Eshvan",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "noraen",
+    "term": "Noraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "thalesh",
+    "term": "Thalesh",
+    "available": 2,
+    "visible": 2,
+    "senses": 2
+  },
+  {
+    "id": "thalor",
+    "term": "Thalor",
+    "available": 2,
+    "visible": 2,
+    "senses": 2
+  },
+  {
+    "id": "daraen",
+    "term": "Daraen",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "varral",
+    "term": "Varral",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "karjor",
+    "term": "Karjor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kavel",
+    "term": "Kavel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vorkaral",
+    "term": "Vorkaral",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "noral",
+    "term": "Noral",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "khumrel",
+    "term": "Khumrel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "terrarav",
+    "term": "Terrarav",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "zhirrathor",
+    "term": "Zhirrathor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rin",
+    "term": "Rin",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "bel",
+    "term": "Bel",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "ohm",
+    "term": "Ohm",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "mor",
+    "term": "Mor",
+    "available": 10,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "veth",
+    "term": "Veth",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "neth",
+    "term": "Neth",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vanesh",
+    "term": "Vanesh",
+    "available": 16,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "kar",
+    "term": "Kar",
+    "available": 3,
+    "visible": 3,
+    "senses": 2
+  },
+  {
+    "id": "verd",
+    "term": "Verd",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "trak",
+    "term": "Trak",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "kav",
+    "term": "Kav",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "vel",
+    "term": "Vel",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "zhir",
+    "term": "Zhir",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "khum",
+    "term": "Khum",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "tla",
+    "term": "Tla",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "jor",
+    "term": "Jor",
+    "available": 17,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "jek",
+    "term": "Jek",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "wek",
+    "term": "Wek",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "lor",
+    "term": "Lor",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "wor",
+    "term": "Wor",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "vin",
+    "term": "Vin",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhael",
+    "term": "Zhael",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "nk",
+    "term": "Nk",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "nku",
+    "term": "Nku",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "phel",
+    "term": "Phel",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "prak",
+    "term": "Prak",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "bros",
+    "term": "Bros",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "bal",
+    "term": "Bal",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "bren",
+    "term": "Bren",
+    "available": 7,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "jel",
+    "term": "Jel",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "wel",
+    "term": "Wel",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "xar",
+    "term": "Xar",
+    "available": 4,
+    "visible": 4,
+    "senses": 2
+  },
+  {
+    "id": "xil",
+    "term": "Xil",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "mb",
+    "term": "Mb",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "rek",
+    "term": "Rek",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "rav",
+    "term": "Rav",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "thaen",
+    "term": "Thaen",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "elor",
+    "term": "Elor",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhel",
+    "term": "Zhel",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "mek",
+    "term": "Mek",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "vek",
+    "term": "Vek",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "livar",
+    "term": "Livar",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "marin",
+    "term": "Marin",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "fennil",
+    "term": "Fennil",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "vilor",
+    "term": "Vilor",
+    "available": 6,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "alor",
+    "term": "Alor",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "arshor",
+    "term": "Arshor",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "torin",
+    "term": "Torin",
+    "available": 9,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "tarin",
+    "term": "Tarin",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "soril",
+    "term": "Soril",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "tham",
+    "term": "Tham",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "venak",
+    "term": "Venak",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "lak",
+    "term": "Lak",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "van",
+    "term": "Van",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "kadren",
+    "term": "Kadren",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "azan",
+    "term": "Azan",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "thee",
+    "term": "Thee",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "tha-",
+    "term": "Tha-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "nor-",
+    "term": "Nor-",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "-al",
+    "term": "-al",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "-ath",
+    "term": "-ath",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "-as",
+    "term": "-as",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "ver",
+    "term": "Ver",
+    "available": 28,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "ra",
+    "term": "Ra",
+    "available": 36,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "va",
+    "term": "Va",
+    "available": 28,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "-ka",
+    "term": "-ka",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "kilv",
+    "term": "Kilv",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "pel",
+    "term": "Pel",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "jin",
+    "term": "Jin",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "nk-",
+    "term": "Nk-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "rav-",
+    "term": "Rav-",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "mb-",
+    "term": "Mb-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "tla-",
+    "term": "Tla-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "ohm-",
+    "term": "Ohm-",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "khum-",
+    "term": "Khum-",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "zhae-",
+    "term": "Zhae-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "nku-",
+    "term": "Nku-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "tl-",
+    "term": "Tl-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "-in",
+    "term": "-in",
+    "available": 0,
+    "visible": 0,
+    "senses": 2
+  },
+  {
+    "id": "-n",
+    "term": "-n",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "-or",
+    "term": "-or",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "-en",
+    "term": "-en",
+    "available": 3,
+    "visible": 3,
+    "senses": 3
+  },
+  {
+    "id": "-lin",
+    "term": "-lin",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "-aen",
+    "term": "-aen",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "ver-",
+    "term": "Ver-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "li-",
+    "term": "Li-",
+    "available": 0,
+    "visible": 0,
+    "senses": 2
+  },
+  {
+    "id": "lior",
+    "term": "Lior",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "ther",
+    "term": "Ther",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "-esh",
+    "term": "-esh",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "-el",
+    "term": "-el",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "-vel",
+    "term": "-vel",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "ten-",
+    "term": "Ten-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "hek-",
+    "term": "Hek-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "mel-",
+    "term": "Mel-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "fen-",
+    "term": "Fen-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "hek-mel-",
+    "term": "Hek-Mel-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "ven",
+    "term": "Ven",
+    "available": 4,
+    "visible": 4,
+    "senses": 1
+  },
+  {
+    "id": "-eth",
+    "term": "-eth",
+    "available": 3,
+    "visible": 3,
+    "senses": 2
+  },
+  {
+    "id": "vael",
+    "term": "vael",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "nor-ka",
+    "term": "nor-ka",
+    "available": 7,
+    "visible": 5,
+    "senses": 2
+  },
+  {
+    "id": "shal-",
+    "term": "Shal-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "krez-",
+    "term": "Krez-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "dren-",
+    "term": "Dren-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "morl-",
+    "term": "Morl-",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "esh-",
+    "term": "Esh-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "terra- / terra-",
+    "term": "terra- / Terra-",
+    "available": 5,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "lian-",
+    "term": "Lian-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "thal-",
+    "term": "Thal-",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "reth- / rethvok-",
+    "term": "Reth- / Rethvok-",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rin-",
+    "term": "Rin-",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "bel-",
+    "term": "Bel-",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "kal-",
+    "term": "Kal-",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "shara-",
+    "term": "Shara-",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "thar-",
+    "term": "Thar-",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "var-",
+    "term": "Var-",
+    "available": 3,
+    "visible": 3,
+    "senses": 1
+  },
+  {
+    "id": "aen-",
+    "term": "Aen-",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "pralaen-",
+    "term": "Pralaen-",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "vok-",
+    "term": "Vok-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "ser-",
+    "term": "Ser-",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "rath-",
+    "term": "Rath-",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhir-",
+    "term": "Zhir-",
+    "available": 2,
+    "visible": 2,
+    "senses": 1
+  },
+  {
+    "id": "kel-",
+    "term": "Kel-",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "rinaen",
+    "term": "Rinaen",
+    "available": 567,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "emil",
+    "term": "Emil",
+    "available": 33,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "teremil",
+    "term": "Teremil",
+    "available": 27,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "serin",
+    "term": "Serin",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "varadan",
+    "term": "Varadan",
+    "available": 8,
+    "visible": 5,
+    "senses": 1
+  },
+  {
+    "id": "harven",
+    "term": "Harven",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "zharrel",
+    "term": "Zharrel",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "tharnspinners",
+    "term": "Tharnspinners",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "veilgliders",
+    "term": "Veilgliders",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "tharokh",
+    "term": "Tharokh",
+    "available": 1,
+    "visible": 1,
+    "senses": 1
+  },
+  {
+    "id": "velshen",
+    "term": "Velshen",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "shavrek",
+    "term": "Shavrek",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "mossquill",
+    "term": "Mossquill",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "rynarth",
+    "term": "Rynarth",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "vroshan",
+    "term": "Vroshan",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "brinnek",
+    "term": "Brinnek",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "thravic",
+    "term": "Thravic",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "fennlur",
+    "term": "Fennlur",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "vexflit",
+    "term": "Vexflit",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "grivol",
+    "term": "Grivol",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "rethal",
+    "term": "Rethal",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "lumora",
+    "term": "Lumora",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "thryssal",
+    "term": "Thryssal",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "braskal",
+    "term": "Braskal",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "selkari",
+    "term": "Selkari",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "zhenlor",
+    "term": "Zhenlor",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "zharak",
+    "term": "Zharak",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  },
+  {
+    "id": "lorynth",
+    "term": "Lorynth",
+    "available": 0,
+    "visible": 0,
+    "senses": 1
+  }
+]
