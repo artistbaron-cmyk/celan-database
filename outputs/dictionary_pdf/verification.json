@@ -1,0 +1,9 @@
+{
+  "file": "/Users/admin/Documents/CELAN_DATABASE/outputs/dictionary_pdf/Celan_Complete_Dictionary.pdf",
+  "headwords": 1496,
+  "uses": 1607,
+  "pages": 614,
+  "bytes": 1239664,
+  "source_sha256": "a9dc79ea43f9dd19f6f8d4de496659337eba9919ab1480ac829ad1cb17acacc6",
+  "verification": "All headwords and meanings found in extracted PDF text."
+}
