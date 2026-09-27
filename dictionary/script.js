@@ -2250,15 +2250,16 @@ function buildRuleEntries(rows) {
     'GR-V1-0009': 'nethaen azon an nethor. — The feminine man rests on the seat.',
     'GR-V1-0011': 'tal theon thal an Ilin. — The neutral person gives balance to us.',
     'GR-V3-0001': 'var I dren, Ser. — I go to the water, friend.\nvar I dren, Li-Ser. — I go to the water, respected friend.\nvar Li-Ya dren. — You, respected one, go to the water.',
+    'GR-V3-0003': 'Ser Lior var an dren. — The friend who goes to the water.\nvar I an terra ser Ser Lior var an dren. — I go home with the friend who goes to the water.',
     'GR-V3-0004': 'rinaen dren-ian shaleth ther La-ka dren. — My water is brighter than their water.\nrinaen dren-ian shaleth thaal. — My water is brightest.\nrinaen dren-ian shaleth thaal morldren. — My water is brightest of mountain waters.',
-    'GR-V3-0005': 'rath var Ya dren, nor-var I dren. — If you go to the water, I will go to the water.',
+    'GR-V3-0005': 'rath var Ya dren, nor-var I dren. — If you go to the water, I will go to the water.\nrath tha-var Ya an dren, tha-talaen I emil. — If you had gone to the water, I would have gotten food.',
     'GR-V4-0004': 'Active: pralaen Azron belkor. — The woman makes the tunic.\nPassive: pralaen belkor an Azron nor-ka. — The tunic was made by the woman.',
     'GR-DR1-0003': 'varal I dren. — I am going to the water.\nvaran I an Varthas. — I am residing in the city.\nnor-var I an Varthas. — I will go to the city.'
   };
   rows = rows.map(row => reviewedExamples[row.entry_id] ? {...row, examples: reviewedExamples[row.entry_id]} : row);
   const superseded = new Set(rows.some(row => row.entry_id === 'GR-DR1-0001')
     ? ['GR-V1-0007', 'GR-V1-0020', 'GR-V3-0006',
-       'GR-V1-0013', 'GR-V3-0002', 'GR-V3-0003'] : []);
+       'GR-V1-0013', 'GR-V3-0002'] : []);
   const reviewGroups = [...new Set(state.phrases.map(p=>p.app_grammar_group).filter(Boolean))];
   rows = [...rows, ...reviewGroups.map((name,i)=>({
     entry_id:`GR-ER2-${String(i+1).padStart(4,'0')}`, rule_name:`${name}: reviewed illustrations`,

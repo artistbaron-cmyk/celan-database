@@ -26,6 +26,9 @@
         "PE-V1-0034",
         "PE-V1-0037",
         "PE-V1-0038",
+        "PE-V2-0007",
+        "PE-V3-0028",
+        "PE-V3-0128",
         "PE-V4-0003",
         "PE-V4-0045",
         "PE-V4-0053",
@@ -125,6 +128,8 @@
         "PE-V3-0017",
         "PE-V3-0020",
         "PE-V3-0022",
+        "PE-V3-0024",
+        "PE-V3-0029",
         "PE-V3-0052",
         "PE-V3-0069",
         "PE-V3-0105",
@@ -442,12 +447,7 @@
       "related": [
         "PE-ER2-0027"
       ],
-      "teaching": [
-        "PE-V2-0007",
-        "PE-V3-0024",
-        "PE-V3-0028",
-        "PE-V3-0029"
-      ]
+      "teaching": []
     },
     {
       "headword": "Ilin",
@@ -541,10 +541,13 @@
         "Denya"
       ],
       "direct": [
+        "PE-V3-0028",
         "PE-V3-0055",
+        "PE-V3-0118",
+        "PE-V3-0125",
+        "PE-SP2-0003",
         "PE-DR2-0006",
         "PE-SP2-0001",
-        "PE-SP2-0003",
         "PE-SP2C-0028",
         "PE-SP2C-0046",
         "PE-V1-0004",
@@ -558,6 +561,7 @@
         "PE-V3-0019",
         "PE-V3-0021",
         "PE-V3-0022",
+        "PE-V3-0029",
         "PE-V3-0062",
         "PE-V4-0007",
         "PE-V4-0015",
@@ -617,10 +621,7 @@
         "PE-RABFE2-0002",
         "PE-RABFE2-0014"
       ],
-      "teaching": [
-        "PE-V3-0028",
-        "PE-V3-0029"
-      ]
+      "teaching": []
     },
     {
       "headword": "Yalin",
@@ -789,14 +790,13 @@
       "direct": [
         "PE-V3-0061",
         "PE-S4A-0001",
+        "PE-V1-0006",
         "PE-V1-0016",
         "PE-V2-0131",
         "PE-V3-0067"
       ],
       "related": [],
-      "teaching": [
-        "PE-V1-0006"
-      ]
+      "teaching": []
     },
     {
       "headword": "Azron",
@@ -855,12 +855,11 @@
         "Thee"
       ],
       "direct": [
-        "PE-ER2-0013"
+        "PE-ER2-0013",
+        "PE-V1-0011"
       ],
       "related": [],
-      "teaching": [
-        "PE-V1-0011"
-      ]
+      "teaching": []
     },
     {
       "headword": "Kadfel",
@@ -998,12 +997,11 @@
       "family_roots": [],
       "related_words": [],
       "direct": [
-        "PE-ER2-0024"
+        "PE-ER2-0024",
+        "PE-V1-0010"
       ],
       "related": [],
-      "teaching": [
-        "PE-V1-0010"
-      ]
+      "teaching": []
     },
     {
       "headword": "Kadon",
@@ -1093,6 +1091,9 @@
         "PE-V1-0037",
         "PE-V1-0038",
         "PE-V2-0042",
+        "PE-V3-0028",
+        "PE-V3-0128",
+        "PE-SP2-0003",
         "PE-V4-0003",
         "PE-V4-0035",
         "PE-V4-0045",
@@ -1114,7 +1115,6 @@
         "PE-ER2-0060",
         "PE-ER2-0068",
         "PE-ER2-0078",
-        "PE-SP2-0003",
         "PE-SP2C-0001",
         "PE-SP2C-0018",
         "PE-SP2C-0023",
@@ -1184,6 +1184,9 @@
         "PE-V3-0019",
         "PE-V3-0020",
         "PE-V3-0022",
+        "PE-V3-0023",
+        "PE-V3-0024",
+        "PE-V3-0029",
         "PE-V3-0035",
         "PE-V3-0045",
         "PE-V3-0070",
@@ -1300,16 +1303,6 @@
       "related": [],
       "teaching": [
         "PE-S3-0015",
-        "PE-V3-0023",
-        "PE-V3-0024",
-        "PE-V3-0028",
-        "PE-V3-0029",
-        "PE-V3-0118",
-        "PE-V3-0125",
-        "PE-V3-0128",
-        "PE-V3-0131",
-        "PE-V3-0141",
-        "PE-V3-0145",
         "PE-S3-0001"
       ]
     },
@@ -1357,7 +1350,19 @@
       ],
       "direct": [
         "PE-V1-0002",
+        "PE-V1-0006",
+        "PE-V1-0011",
+        "PE-V2-0002",
         "PE-V2-0044",
+        "PE-V2-0085",
+        "PE-V2-0093",
+        "PE-V2-0098",
+        "PE-V2-0111",
+        "PE-V2-0118",
+        "PE-V3-0041",
+        "PE-V3-0094",
+        "PE-V3-0118",
+        "PE-SP2-0003",
         "PE-DR2-0015",
         "PE-S4A-0005",
         "PE-NE1-0034",
@@ -1373,7 +1378,6 @@
         "PE-ER2-0077",
         "PE-ER2-0078",
         "PE-SP2-0001",
-        "PE-SP2-0003",
         "PE-SP2C-0029",
         "PE-SP2C-0042",
         "PE-SP2C-0043",
@@ -1407,6 +1411,8 @@
         "PE-V3-0002",
         "PE-V3-0008",
         "PE-V3-0021",
+        "PE-V3-0023",
+        "PE-V3-0024",
         "PE-V3-0030",
         "PE-V3-0031",
         "PE-V3-0034",
@@ -1632,12 +1638,7 @@
       "related": [
         "PE-SP2C-0033"
       ],
-      "teaching": [
-        "PE-V3-0023",
-        "PE-V3-0024",
-        "PE-V3-0118",
-        "PE-V3-0131"
-      ]
+      "teaching": []
     },
     {
       "headword": "Thal",
@@ -1784,6 +1785,7 @@
         "PE-RABFE2-0033"
       ],
       "related": [
+        "PE-V2-0111",
         "PE-SP2C-0032",
         "PE-SP2C-0045",
         "PE-SP2C-0047",
@@ -1792,9 +1794,7 @@
       ],
       "teaching": [
         "PE-S3-0006",
-        "PE-ER2-0001",
-        "PE-V2-0093",
-        "PE-V2-0118"
+        "PE-ER2-0001"
       ]
     },
     {
@@ -1854,6 +1854,8 @@
         "PE-V1-0034",
         "PE-V4-0045",
         "PE-ER2-0025",
+        "PE-V2-0078",
+        "PE-V3-0128",
         "PE-DW1-0013",
         "PE-ER2-0071",
         "PE-ER2-0072",
@@ -1894,8 +1896,6 @@
         "PE-SP2C-0031"
       ],
       "teaching": [
-        "PE-V3-0128",
-        "PE-V3-0145",
         "PE-S3-0008"
       ]
     },
@@ -1938,11 +1938,32 @@
       ],
       "direct": [
         "PE-V1-0001",
+        "PE-V1-0010",
         "PE-V1-0027",
+        "PE-V2-0007",
         "PE-V2-0028",
         "PE-V2-0042",
+        "PE-V2-0078",
+        "PE-V2-0085",
+        "PE-V2-0093",
+        "PE-V2-0098",
+        "PE-V2-0109",
+        "PE-V2-0110",
+        "PE-V2-0112",
+        "PE-V2-0118",
+        "PE-V3-0028",
+        "PE-V3-0041",
         "PE-V3-0061",
         "PE-V3-0078",
+        "PE-V3-0087",
+        "PE-V3-0088",
+        "PE-V3-0091",
+        "PE-V3-0095",
+        "PE-V3-0099",
+        "PE-V3-0125",
+        "PE-V3-0128",
+        "PE-V3-0141",
+        "PE-V3-0145",
         "PE-V4-0016",
         "PE-V4-0053",
         "PE-V4-0061",
@@ -2132,6 +2153,9 @@
         "PE-V2-0113",
         "PE-V2-0114",
         "PE-V3-0019",
+        "PE-V3-0023",
+        "PE-V3-0024",
+        "PE-V3-0029",
         "PE-V3-0031",
         "PE-V3-0033",
         "PE-V3-0036",
@@ -2793,9 +2817,6 @@
         "PE-ER2-0012"
       ],
       "teaching": [
-        "PE-V2-0078",
-        "PE-V3-0088",
-        "PE-V3-0094",
         "PE-S3-0002",
         "PE-S3-0007",
         "PE-S3-0009",
@@ -2872,6 +2893,8 @@
         "PE-UHEI1-0035",
         "PE-ER2-0026",
         "PE-V1-0013",
+        "PE-V2-0007",
+        "PE-V3-0128",
         "PE-SBD1-0003",
         "PE-EGE1-0045",
         "PE-SP2C-0068",
@@ -2964,10 +2987,14 @@
         "PE-V2-0004",
         "PE-V2-0039",
         "PE-V2-0043",
+        "PE-V2-0078",
         "PE-V3-0019",
+        "PE-V3-0028",
         "PE-V3-0109",
         "PE-V3-0111",
+        "PE-V3-0118",
         "PE-V3-0121",
+        "PE-SP2-0003",
         "PE-V3-0139",
         "PE-V4-0009",
         "PE-V4-0010",
@@ -2982,37 +3009,10 @@
         "PE-ER2-0071",
         "PE-ER2-0072",
         "PE-SP2-0002",
-        "PE-SP2-0003",
         "PE-SP2C-0032"
       ],
       "teaching": [
-        "PE-S3-0008",
-        "PE-V1-0010",
-        "PE-V1-0011",
-        "PE-V2-0002",
-        "PE-V2-0007",
-        "PE-V2-0078",
-        "PE-V2-0085",
-        "PE-V2-0093",
-        "PE-V2-0098",
-        "PE-V2-0109",
-        "PE-V2-0110",
-        "PE-V2-0111",
-        "PE-V2-0112",
-        "PE-V2-0117",
-        "PE-V2-0118",
-        "PE-V3-0028",
-        "PE-V3-0041",
-        "PE-V3-0087",
-        "PE-V3-0088",
-        "PE-V3-0091",
-        "PE-V3-0094",
-        "PE-V3-0095",
-        "PE-V3-0099",
-        "PE-V3-0118",
-        "PE-V3-0125",
-        "PE-V3-0128",
-        "PE-V3-0131"
+        "PE-S3-0008"
       ]
     },
     {
@@ -3091,6 +3091,7 @@
       "direct": [
         "PE-EGE1-0058",
         "PE-V1-0037",
+        "PE-V2-0117",
         "PE-ER2-0056",
         "PE-V4-0006",
         "PE-V4-0020",
@@ -3184,6 +3185,12 @@
       ],
       "direct": [
         "PE-V1-0038",
+        "PE-V2-0085",
+        "PE-V2-0093",
+        "PE-V2-0098",
+        "PE-V2-0111",
+        "PE-V2-0112",
+        "PE-V2-0118",
         "PE-V4-0066",
         "PE-S4A-0001",
         "PE-FAP1-0023",
@@ -3235,12 +3242,6 @@
       ],
       "teaching": [
         "PE-S3-0002",
-        "PE-V2-0085",
-        "PE-V2-0093",
-        "PE-V2-0098",
-        "PE-V2-0111",
-        "PE-V2-0112",
-        "PE-V2-0118",
         "PE-S1-0001"
       ]
     },
@@ -3291,6 +3292,7 @@
         "PE-ER2-0075",
         "PE-V1-0033",
         "PE-V2-0124",
+        "PE-V3-0024",
         "PE-V3-0035",
         "PE-V3-0045",
         "PE-V3-0071",
@@ -3304,8 +3306,7 @@
       ],
       "related": [],
       "teaching": [
-        "PE-S3-0018",
-        "PE-V3-0024"
+        "PE-S3-0018"
       ]
     },
     {
@@ -3385,11 +3386,30 @@
       "direct": [
         "PE-EGE1-0018",
         "PE-V1-0001",
+        "PE-V1-0011",
         "PE-V1-0027",
         "PE-V1-0037",
         "PE-V1-0038",
+        "PE-V2-0002",
+        "PE-V2-0007",
         "PE-V2-0028",
+        "PE-V2-0085",
+        "PE-V2-0093",
+        "PE-V2-0098",
+        "PE-V2-0109",
+        "PE-V2-0110",
+        "PE-V2-0111",
+        "PE-V2-0117",
+        "PE-V2-0118",
         "PE-ER2-0027",
+        "PE-V3-0028",
+        "PE-V3-0041",
+        "PE-V3-0087",
+        "PE-V3-0088",
+        "PE-V3-0091",
+        "PE-V3-0095",
+        "PE-V3-0099",
+        "PE-V3-0125",
         "PE-DSL1-0004",
         "PE-EGE1-0006",
         "PE-EGE1-0011",
@@ -3520,8 +3540,11 @@
         "PE-V3-0019",
         "PE-V3-0020",
         "PE-V3-0022",
+        "PE-V3-0023",
+        "PE-V3-0024",
         "PE-V3-0025",
         "PE-V3-0027",
+        "PE-V3-0029",
         "PE-V3-0031",
         "PE-V3-0032",
         "PE-V3-0033",
@@ -3603,33 +3626,7 @@
       "related": [
         "PE-ER2-0013"
       ],
-      "teaching": [
-        "PE-V1-0011",
-        "PE-V2-0002",
-        "PE-V2-0007",
-        "PE-V2-0078",
-        "PE-V2-0085",
-        "PE-V2-0093",
-        "PE-V2-0098",
-        "PE-V2-0109",
-        "PE-V2-0110",
-        "PE-V2-0111",
-        "PE-V2-0112",
-        "PE-V2-0117",
-        "PE-V2-0118",
-        "PE-V3-0023",
-        "PE-V3-0024",
-        "PE-V3-0028",
-        "PE-V3-0029",
-        "PE-V3-0041",
-        "PE-V3-0087",
-        "PE-V3-0088",
-        "PE-V3-0091",
-        "PE-V3-0094",
-        "PE-V3-0095",
-        "PE-V3-0099",
-        "PE-V3-0125"
-      ]
+      "teaching": []
     },
     {
       "headword": "Shal",
@@ -3686,6 +3683,7 @@
       ],
       "direct": [
         "PE-V1-0034",
+        "PE-V2-0002",
         "PE-V1-0007",
         "PE-V1-0012",
         "PE-V1-0024",
@@ -3722,9 +3720,7 @@
         "PE-SP2C-0048",
         "PE-SP2C-0070"
       ],
-      "teaching": [
-        "PE-V2-0002"
-      ]
+      "teaching": []
     },
     {
       "headword": "Krez",
@@ -4287,6 +4283,7 @@
       ],
       "direct": [
         "PE-V3-0059",
+        "PE-V3-0141",
         "PE-NE1-0063",
         "PE-V3-0070",
         "PE-V3-0072",
@@ -4296,8 +4293,7 @@
         "PE-SP2C-0041"
       ],
       "teaching": [
-        "PE-S3-0021",
-        "PE-V3-0141"
+        "PE-S3-0021"
       ]
     },
     {
@@ -4500,9 +4496,7 @@
       "related": [
         "PE-SP2C-0034"
       ],
-      "teaching": [
-        "PE-V3-0099"
-      ]
+      "teaching": []
     },
     {
       "headword": "Lumor",
@@ -4823,6 +4817,10 @@
         "Zhirkalor"
       ],
       "direct": [
+        "PE-V2-0002",
+        "PE-V2-0085",
+        "PE-V2-0098",
+        "PE-V2-0110",
         "PE-V3-0078",
         "PE-ER2-0074",
         "PE-ER2-0075",
@@ -4878,18 +4876,7 @@
       "related": [
         "PE-ER2-0013"
       ],
-      "teaching": [
-        "PE-V1-0006",
-        "PE-V1-0011",
-        "PE-V2-0002",
-        "PE-V2-0085",
-        "PE-V2-0098",
-        "PE-V2-0110",
-        "PE-V2-0111",
-        "PE-V3-0041",
-        "PE-V3-0087",
-        "PE-V3-0091"
-      ]
+      "teaching": []
     },
     {
       "headword": "Kalor",
@@ -5281,10 +5268,12 @@
         "Rathzor"
       ],
       "direct": [
+        "PE-V3-0028",
         "PE-V1-0028",
         "PE-V1-0029",
         "PE-V1-0030",
         "PE-V2-0037",
+        "PE-V3-0029",
         "PE-V3-0066",
         "PE-V3-0111",
         "PE-EGE1-0064",
@@ -5293,8 +5282,6 @@
       ],
       "related": [],
       "teaching": [
-        "PE-V3-0028",
-        "PE-V3-0029",
         "PE-S1-0002"
       ]
     },
@@ -5550,6 +5537,7 @@
         "Thalaneshen"
       ],
       "direct": [
+        "PE-V3-0128",
         "PE-V4-0087"
       ],
       "related": [],
@@ -5871,6 +5859,7 @@
         "Weltal"
       ],
       "direct": [
+        "PE-V2-0007",
         "PE-V2-0044",
         "PE-V4-0091",
         "PE-NE1-0034",
@@ -5929,9 +5918,7 @@
         "PE-SIP1-0004"
       ],
       "related": [],
-      "teaching": [
-        "PE-V2-0007"
-      ]
+      "teaching": []
     },
     {
       "headword": "Morldren",
@@ -6338,6 +6325,8 @@
       ],
       "direct": [
         "PE-SP2-0004",
+        "PE-V1-0006",
+        "PE-V3-0141",
         "PE-DR2-0013",
         "PE-ER2-0029",
         "PE-ER2-0065",
@@ -6363,7 +6352,6 @@
       ],
       "related": [],
       "teaching": [
-        "PE-V3-0141",
         "PE-S3-0012"
       ]
     },
@@ -6707,14 +6695,13 @@
         "Welmor"
       ],
       "direct": [
+        "PE-V2-0002",
         "PE-V4-0095",
         "PE-TVO1-0045",
         "PE-SBD1-0007"
       ],
       "related": [],
-      "teaching": [
-        "PE-V2-0002"
-      ]
+      "teaching": []
     },
     {
       "headword": "Kinnlin",
@@ -6907,11 +6894,11 @@
         "Kilvfah",
         "Kilvthal"
       ],
-      "direct": [],
-      "related": [],
-      "teaching": [
+      "direct": [
         "PE-V2-0007"
-      ]
+      ],
+      "related": [],
+      "teaching": []
     },
     {
       "headword": "Belrin",
@@ -9018,7 +9005,8 @@
         "Worlian"
       ],
       "direct": [
-        "PE-V2-0042"
+        "PE-V2-0042",
+        "PE-V3-0099"
       ],
       "related": [],
       "teaching": []
@@ -10883,11 +10871,11 @@
         "Velzhiraen",
         "Xarvel"
       ],
-      "direct": [],
-      "related": [],
-      "teaching": [
+      "direct": [
         "PE-V2-0078"
-      ]
+      ],
+      "related": [],
+      "teaching": []
     },
     {
       "headword": "Phelrin",
@@ -11255,11 +11243,11 @@
         "Velmor",
         "Welmor"
       ],
-      "direct": [],
-      "related": [],
-      "teaching": [
+      "direct": [
         "PE-V2-0085"
-      ]
+      ],
+      "related": [],
+      "teaching": []
     },
     {
       "headword": "Terafennil",
@@ -11706,11 +11694,11 @@
         "Velzhiraen",
         "Xarvel"
       ],
-      "direct": [],
-      "related": [],
-      "teaching": [
+      "direct": [
         "PE-V2-0093"
-      ]
+      ],
+      "related": [],
+      "teaching": []
     },
     {
       "headword": "Eshvilor",
@@ -12021,11 +12009,11 @@
         "Welkrez",
         "Xarkrezaen"
       ],
-      "direct": [],
-      "related": [],
-      "teaching": [
+      "direct": [
         "PE-V2-0098"
-      ]
+      ],
+      "related": [],
+      "teaching": []
     },
     {
       "headword": "Velkorin",
@@ -12666,15 +12654,14 @@
         "Zhaelshen"
       ],
       "direct": [
+        "PE-V2-0109",
+        "PE-V3-0088",
         "PE-V2-0043",
         "PE-V2-0132",
         "PE-CNE1-0030"
       ],
       "related": [],
-      "teaching": [
-        "PE-V2-0109",
-        "PE-V3-0088"
-      ]
+      "teaching": []
     },
     {
       "headword": "Fenrek",
@@ -12705,13 +12692,12 @@
         "Rekrathlor"
       ],
       "direct": [
+        "PE-V2-0110",
         "PE-V2-0120",
         "PE-V4-0089"
       ],
       "related": [],
-      "teaching": [
-        "PE-V2-0110"
-      ]
+      "teaching": []
     },
     {
       "headword": "Tharvin",
@@ -12761,11 +12747,11 @@
         "Veth'tharaen",
         "Welkelthar"
       ],
-      "direct": [],
-      "related": [],
-      "teaching": [
+      "direct": [
         "PE-V2-0111"
-      ]
+      ],
+      "related": [],
+      "teaching": []
     },
     {
       "headword": "Velthaen",
@@ -12836,12 +12822,11 @@
         "Xarvel"
       ],
       "direct": [
+        "PE-V2-0112",
         "PE-V3-0097"
       ],
       "related": [],
-      "teaching": [
-        "PE-V2-0112"
-      ]
+      "teaching": []
     },
     {
       "headword": "Eshthael",
@@ -12910,6 +12895,7 @@
         "Zunesh"
       ],
       "direct": [
+        "PE-V1-0010",
         "PE-V2-0113"
       ],
       "related": [],
@@ -12997,6 +12983,7 @@
         "Jindral"
       ],
       "direct": [
+        "PE-V3-0094",
         "PE-ER2-0038",
         "PE-V2-0115",
         "PE-NE1-0056",
@@ -13004,9 +12991,7 @@
         "PE-UHEI1-0043"
       ],
       "related": [],
-      "teaching": [
-        "PE-V3-0094"
-      ]
+      "teaching": []
     },
     {
       "headword": "Velarshor",
@@ -13144,11 +13129,11 @@
         "Zordren",
         "Zordrenvinaen"
       ],
-      "direct": [],
-      "related": [],
-      "teaching": [
+      "direct": [
         "PE-V2-0117"
-      ]
+      ],
+      "related": [],
+      "teaching": []
     },
     {
       "headword": "Eshvelor",
@@ -13209,11 +13194,11 @@
         "Zhivokesh",
         "Zunesh"
       ],
-      "direct": [],
-      "related": [],
-      "teaching": [
+      "direct": [
         "PE-V2-0118"
-      ]
+      ],
+      "related": [],
+      "teaching": []
     },
     {
       "headword": "Thalorim",
@@ -14113,6 +14098,7 @@
       "family_roots": [],
       "related_words": [],
       "direct": [
+        "PE-V3-0125",
         "PE-V4-0093",
         "PE-V4-0094"
       ],
@@ -15016,15 +15002,14 @@
         "Xarvel"
       ],
       "direct": [
+        "PE-V3-0041",
         "PE-V3-0059",
         "PE-V3-0033",
         "PE-V3-0065",
         "PE-V4-0026"
       ],
       "related": [],
-      "teaching": [
-        "PE-V3-0041"
-      ]
+      "teaching": []
     },
     {
       "headword": "Pralin",
@@ -15292,6 +15277,7 @@
         "Zhirbel"
       ],
       "direct": [
+        "PE-V3-0087",
         "PE-ER2-0010",
         "PE-ER2-0067",
         "PE-ER2-0079",
@@ -15309,9 +15295,7 @@
         "PE-SCP1-0009"
       ],
       "related": [],
-      "teaching": [
-        "PE-V3-0087"
-      ]
+      "teaching": []
     },
     {
       "headword": "Xarvethral",
@@ -15742,11 +15726,11 @@
         "Zhaelpralaen",
         "Zhelpralaen"
       ],
-      "direct": [],
-      "related": [],
-      "teaching": [
+      "direct": [
         "PE-V3-0041"
-      ]
+      ],
+      "related": [],
+      "teaching": []
     },
     {
       "headword": "Tavrel",
@@ -16660,6 +16644,8 @@
       ],
       "direct": [],
       "related": [
+        "PE-V1-0006",
+        "PE-V1-0011",
         "PE-V3-0025",
         "PE-V3-0027",
         "PE-V3-0148",
@@ -16741,10 +16727,7 @@
         "PE-SP2C-0040",
         "PE-SP2C-0041"
       ],
-      "teaching": [
-        "PE-V1-0006",
-        "PE-V1-0011"
-      ]
+      "teaching": []
     },
     {
       "headword": "Anen",
@@ -17029,7 +17012,8 @@
       "family_roots": [],
       "related_words": [],
       "direct": [
-        "PE-SP2C-0047"
+        "PE-SP2C-0047",
+        "PE-V2-0111"
       ],
       "related": [],
       "teaching": []
@@ -17289,6 +17273,7 @@
       "direct": [
         "PE-S3-0005",
         "PE-S3-0011",
+        "PE-V3-0029",
         "PE-V4-0011",
         "PE-ICAES1-0007",
         "PE-SRD1-0009"
@@ -17807,6 +17792,7 @@
         "PE-V3-0066"
       ],
       "related": [
+        "PE-V2-0111",
         "PE-SP2C-0047"
       ],
       "teaching": []
@@ -18015,11 +18001,11 @@
         "Zordren",
         "Zordrenvinaen"
       ],
-      "direct": [],
-      "related": [],
-      "teaching": [
+      "direct": [
         "PE-V3-0087"
-      ]
+      ],
+      "related": [],
+      "teaching": []
     },
     {
       "headword": "Eshlorien",
@@ -18085,11 +18071,11 @@
         "Zhivokesh",
         "Zunesh"
       ],
-      "direct": [],
-      "related": [],
-      "teaching": [
+      "direct": [
         "PE-V3-0088"
-      ]
+      ],
+      "related": [],
+      "teaching": []
     },
     {
       "headword": "Terrashaneth",
@@ -18389,11 +18375,11 @@
         "Welkrez",
         "Xarkrezaen"
       ],
-      "direct": [],
-      "related": [],
-      "teaching": [
+      "direct": [
         "PE-V3-0091"
-      ]
+      ],
+      "related": [],
+      "teaching": []
     },
     {
       "headword": "Zhivokesh",
@@ -18623,13 +18609,12 @@
         "Zhivorin"
       ],
       "direct": [
+        "PE-V3-0094",
         "PE-V3-0090",
         "PE-V3-0101"
       ],
       "related": [],
-      "teaching": [
-        "PE-V3-0094"
-      ]
+      "teaching": []
     },
     {
       "headword": "Morlatharim",
@@ -18694,11 +18679,11 @@
         "Velkmorl",
         "Xarmorl"
       ],
-      "direct": [],
-      "related": [],
-      "teaching": [
+      "direct": [
         "PE-V3-0095"
-      ]
+      ],
+      "related": [],
+      "teaching": []
     },
     {
       "headword": "Velmarineth",
@@ -18967,12 +18952,11 @@
         "Zordrenvinaen"
       ],
       "direct": [
+        "PE-V3-0099",
         "PE-V4-0106"
       ],
       "related": [],
-      "teaching": [
-        "PE-V3-0099"
-      ]
+      "teaching": []
     },
     {
       "headword": "Shalorveth",
@@ -22562,6 +22546,7 @@
       "direct": [
         "PE-V4-0061",
         "PE-V1-0013",
+        "PE-V3-0141",
         "PE-SP2C-0019",
         "PE-V2-0033"
       ],
@@ -28107,6 +28092,7 @@
         "Zhirvek"
       ],
       "direct": [
+        "PE-V3-0028",
         "PE-TVO1-0005",
         "PE-ER2-0053",
         "PE-CNE1-0003",
@@ -40507,6 +40493,7 @@
         "Zhelpralaen"
       ],
       "direct": [
+        "PE-V3-0145",
         "PE-FAP2-0059",
         "PE-FAP2-0060"
       ],
@@ -84657,9 +84644,7 @@
         "PE-V3-0148"
       ],
       "related": [],
-      "teaching": [
-        "PE-V3-0141"
-      ]
+      "teaching": []
     },
     {
       "headword": "Velkrel",
@@ -84688,9 +84673,7 @@
         "PE-DR2-0001"
       ],
       "related": [],
-      "teaching": [
-        "PE-V1-0010"
-      ]
+      "teaching": []
     },
     {
       "headword": "Varan",
@@ -84807,6 +84790,10 @@
         "Vethshal"
       ],
       "direct": [
+        "PE-V2-0109",
+        "PE-V2-0117",
+        "PE-V1-0011",
+        "PE-V2-0112",
         "PE-V2-0014",
         "PE-V3-0030",
         "PE-V3-0033",
@@ -84817,11 +84804,7 @@
         "PE-V2-0113"
       ],
       "related": [],
-      "teaching": [
-        "PE-V2-0109",
-        "PE-V2-0117",
-        "PE-V3-0095"
-      ]
+      "teaching": []
     },
     {
       "headword": "Serathrin",
@@ -85076,9 +85059,7 @@
         "PE-V3-0142"
       ],
       "related": [],
-      "teaching": [
-        "PE-V2-0078"
-      ]
+      "teaching": []
     },
     {
       "headword": "Shenakar",
@@ -85146,9 +85127,7 @@
         "PE-V4-0011"
       ],
       "related": [],
-      "teaching": [
-        "PE-V3-0131"
-      ]
+      "teaching": []
     },
     {
       "headword": "Em",
@@ -85224,16 +85203,15 @@
       "family_roots": [],
       "related_words": [],
       "direct": [
+        "PE-V3-0028",
+        "PE-V3-0128",
         "PE-V4-0050",
         "PE-DR2-0008",
         "PE-V3-0120",
         "PE-V3-0150"
       ],
       "related": [],
-      "teaching": [
-        "PE-V3-0028",
-        "PE-V3-0128"
-      ]
+      "teaching": []
     },
     {
       "headword": "Nkathal",
@@ -85345,15 +85323,14 @@
       "family_roots": [],
       "related_words": [],
       "direct": [
+        "PE-V3-0141",
         "PE-SP2-0004",
         "PE-SP2C-0020",
         "PE-V3-0112",
         "PE-V3-0150"
       ],
       "related": [],
-      "teaching": [
-        "PE-V3-0141"
-      ]
+      "teaching": []
     },
     {
       "headword": "Serilin",
@@ -85388,15 +85365,14 @@
         "Servok"
       ],
       "direct": [
+        "PE-V3-0125",
         "PE-DR2-0002",
         "PE-V3-0112",
         "PE-V3-0138",
         "PE-V3-0149"
       ],
       "related": [],
-      "teaching": [
-        "PE-V3-0125"
-      ]
+      "teaching": []
     },
     {
       "headword": "Aelin",
@@ -85570,12 +85546,11 @@
         "Xilvar"
       ],
       "direct": [
+        "PE-V3-0125",
         "PE-DR2-0009"
       ],
       "related": [],
-      "teaching": [
-        "PE-V3-0125"
-      ]
+      "teaching": []
     },
     {
       "headword": "Eshvan",
@@ -85642,13 +85617,12 @@
         "Zunesh"
       ],
       "direct": [
+        "PE-V3-0128",
         "PE-SP2-0002",
         "PE-V3-0126"
       ],
       "related": [],
-      "teaching": [
-        "PE-V3-0128"
-      ]
+      "teaching": []
     },
     {
       "headword": "Noraen",
@@ -86547,8 +86521,7 @@
         "PE-SP2C-0046"
       ],
       "teaching": [
-        "PE-ER2-0002",
-        "PE-V1-0006"
+        "PE-ER2-0002"
       ]
     },
     {
@@ -86660,13 +86633,12 @@
       "direct": [
         "PE-SBD1-0003",
         "PE-ER2-0036",
+        "PE-V2-0007",
         "PE-GMMP1-0036",
         "PE-GMMP1-0037"
       ],
       "related": [],
-      "teaching": [
-        "PE-V2-0007"
-      ]
+      "teaching": []
     },
     {
       "headword": "Neth",
@@ -86734,6 +86706,7 @@
       ],
       "direct": [
         "PE-SP2-0001",
+        "PE-V2-0078",
         "PE-SP2C-0026",
         "PE-SP2C-0027",
         "PE-V2-0010",
@@ -86753,9 +86726,7 @@
         "PE-OC1-0026"
       ],
       "related": [],
-      "teaching": [
-        "PE-V3-0118"
-      ]
+      "teaching": []
     },
     {
       "headword": "Kar",
@@ -88390,7 +88361,9 @@
         "Aloraen",
         "Drenalor"
       ],
-      "direct": [],
+      "direct": [
+        "PE-V2-0118"
+      ],
       "related": [],
       "teaching": []
     },
@@ -88626,6 +88599,7 @@
         "Evan"
       ],
       "direct": [
+        "PE-V2-0078",
         "PE-ER2-0064",
         "PE-FAP1-0056"
       ],
@@ -88859,6 +88833,7 @@
         "Versul"
       ],
       "direct": [
+        "PE-V3-0145",
         "PE-V4-0045",
         "PE-V4-0077",
         "PE-S3-0004",
@@ -88918,6 +88893,7 @@
       ],
       "direct": [
         "PE-V1-0002",
+        "PE-V3-0145",
         "PE-SP2-0005",
         "PE-V1-0026",
         "PE-V2-0041",
@@ -88980,6 +88956,7 @@
       "related_words": [],
       "direct": [
         "PE-V1-0027",
+        "PE-V3-0125",
         "PE-DR1-0002",
         "PE-V2-0037",
         "PE-V3-0007",
@@ -89928,12 +89905,12 @@
         "Lior"
       ],
       "related_words": [],
-      "direct": [],
-      "related": [],
-      "teaching": [
+      "direct": [
         "PE-V3-0023",
         "PE-V3-0024"
-      ]
+      ],
+      "related": [],
+      "teaching": []
     },
     {
       "headword": "Ther",
@@ -90295,6 +90272,7 @@
       "direct": [
         "PE-ER2-0071",
         "PE-ER2-0072",
+        "PE-V2-0078",
         "PE-V4-0009",
         "PE-V4-0010",
         "PE-V4-0011",
@@ -91430,6 +91408,10 @@
         "Xarrin"
       ],
       "direct": [
+        "PE-V1-0006",
+        "PE-V1-0010",
+        "PE-V2-0093",
+        "PE-V3-0145",
         "PE-V4-0022",
         "PE-V4-0023",
         "PE-V4-0050",
@@ -92091,6 +92073,8 @@
       ],
       "direct": [
         "PE-SP2-0005",
+        "PE-V3-0128",
+        "PE-V3-0145",
         "PE-ER2-0064",
         "PE-SP2C-0026",
         "PE-SP2C-0027",
@@ -92100,6 +92084,7 @@
         "PE-V2-0130",
         "PE-V3-0016",
         "PE-V3-0021",
+        "PE-V3-0029",
         "PE-V3-0065",
         "PE-V3-0113",
         "PE-V3-0115",
@@ -92127,11 +92112,7 @@
         "PE-BIAOBF1-0073"
       ],
       "related": [],
-      "teaching": [
-        "PE-V3-0029",
-        "PE-V3-0128",
-        "PE-V3-0145"
-      ]
+      "teaching": []
     },
     {
       "headword": "Teremil",
@@ -92152,6 +92133,7 @@
       "family_roots": [],
       "related_words": [],
       "direct": [
+        "PE-V3-0145",
         "PE-DR2-0002",
         "PE-DR2-0006",
         "PE-ER2-0006",
@@ -92184,9 +92166,7 @@
         "PE-HLPS1-0001"
       ],
       "related": [],
-      "teaching": [
-        "PE-V3-0145"
-      ]
+      "teaching": []
     },
     {
       "headword": "Serin",
@@ -92256,6 +92236,7 @@
       "direct": [
         "PE-SP2-0001",
         "PE-SP2-0003",
+        "PE-V3-0118",
         "PE-ER2-0032",
         "PE-SP2C-0058",
         "PE-SP2C-0060",
@@ -92268,10 +92249,7 @@
         "PE-OC1-0026"
       ],
       "related": [],
-      "teaching": [
-        "PE-V3-0118",
-        "PE-V3-0131"
-      ]
+      "teaching": []
     },
     {
       "headword": "Harven",
@@ -92960,6 +92938,12 @@
       "examples": "var I dren, Ser. — I go to the water, friend.\nvar I dren, Li-Ser. — I go to the water, respected friend.\nvar Li-Ya dren. — You, respected one, go to the water."
     },
     {
+      "id": "GR-V3-0003",
+      "name": "Relative Clauses",
+      "wording": "Relative Pronoun: Lior (who/which)\nStructure:\n● Noun + Lior + Clause",
+      "examples": "Ser Lior var an dren. — The friend who goes to the water.\nvar I an terra ser Ser Lior var an dren. — I go home with the friend who goes to the water."
+    },
+    {
       "id": "GR-V3-0004",
       "name": "Comparatives and Superlatives",
       "wording": "Comparatives:\n● Ther (more than)\nStructure:\n● X Adjective Ther Y\nSuperlatives:\n● Thaal (most)\nStructure:\n● X Adjective Thaal",
@@ -92969,7 +92953,7 @@
       "id": "GR-V3-0005",
       "name": "Conditionals",
       "wording": "Conditional Marker: Rath (if)\nStructure:\n● Rath + Clause + Main Clause",
-      "examples": "rath var Ya dren, nor-var I dren. — If you go to the water, I will go to the water."
+      "examples": "rath var Ya dren, nor-var I dren. — If you go to the water, I will go to the water.\nrath tha-var Ya an dren, tha-talaen I emil. — If you had gone to the water, I would have gotten food."
     },
     {
       "id": "GR-V4-0001",

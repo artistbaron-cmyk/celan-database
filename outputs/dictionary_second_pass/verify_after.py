@@ -43,6 +43,23 @@ for finding in ('SP-03', 'SP-04', 'SP-11'):
             assert all(entry_id not in group['direct'] for group in app['entries'])
             assert any(entry_id in group['teaching'] for group in app['entries']), entry_id
 
+user_repairs = json.loads((HERE / 'user_32_replacements.json').read_text(encoding='utf-8'))
+assert len(user_repairs) == 32
+for repair in user_repairs:
+    entry_id = repair['entry_id']
+    phrase = phrases[entry_id]
+    assert repair['action'].startswith('applied'), (entry_id, repair['action'])
+    assert phrase['celan_text'] == repair['after']['celan_text']
+    assert phrase['translation'] == repair['after']['translation']
+    assert phrase['example_type'] != 'Historical example pending correction'
+    assert all(entry_id not in group['teaching'] for group in app['entries'])
+    if repair['number'] != 26:  # same Celan/English as existing PE-SP2-0003
+        assert any(entry_id in group['direct'] for group in app['entries']), entry_id
+assert phrases['PE-V3-0128']['celan_text'].endswith('nor aenor.')
+assert phrases['PE-V3-0145']['celan_text'] == 'ra ver rinaen emil emilpraleth an teremil?'
+assert phrases['PE-SP2-0003']['translation'] == phrases['PE-V3-0131']['translation']
+assert any('PE-SP2-0003' in group['direct'] for group in app['entries'])
+
 for index in range(1, 7):
     entry_id = f'PE-SP2-{index:04d}'
     assert entry_id in phrases
@@ -88,6 +105,8 @@ grammar = {r['id']: r for r in app['grammar']}
 assert 'var I dren.' in grammar['RG-VSO']['examples']
 assert 'var I an dren.' in grammar['RG-VSO']['examples']
 assert 'La-ka dren' in grammar['GR-V3-0004']['examples']
+assert 'Ser Lior var an dren.' in grammar['GR-V3-0003']['examples']
+assert 'tha-talaen I emil.' in grammar['GR-V3-0005']['examples']
 assert 'Theon ian kal nor dren' not in str(app['grammar'])
 assert all(not r['direct'] or len(set(r['direct'])) == len(r['direct']) for r in app['entries'])
 print('PASS: all 57 coverage entries, affected examples, historical placement, links, grammar, and export scope')

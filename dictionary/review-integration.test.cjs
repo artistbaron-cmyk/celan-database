@@ -78,6 +78,12 @@ assert.equal(run(`state.phrases.filter(p=>/\b(?:my|your)\b/i.test(p.translation)
 const f48=JSON.parse(fs.readFileSync(path.join(__dirname,'../outputs/dictionary_review/F048_applied.json'),'utf8'));
 const round2=JSON.parse(fs.readFileSync(path.join(__dirname,'../outputs/example_sentence_audit/round2_changes.json'),'utf8'));
 const latestExamples=new Map(round2.changes.map(c=>[c.after.entry_id,c.after]));
+const secondPass=JSON.parse(fs.readFileSync(path.join(__dirname,'../outputs/dictionary_second_pass/applied_changes.json'),'utf8'));
+for(const change of secondPass.phrase_changes)latestExamples.set(change.entry_id,change.after);
+const complexChanges=JSON.parse(fs.readFileSync(path.join(__dirname,'../outputs/dictionary_second_pass/complex_clause_changes.json'),'utf8'));
+for(const change of complexChanges)latestExamples.set(change.entry_id,change.after);
+const userRepairs=JSON.parse(fs.readFileSync(path.join(__dirname,'../outputs/dictionary_second_pass/user_32_replacements.json'),'utf8'));
+for(const change of userRepairs)latestExamples.set(change.entry_id,change.after);
 for(const change of f48.changes) assert.equal(phrase(change.entry_id).celan_text,(latestExamples.get(change.entry_id)||change.after).celan_text,'F048 regression '+change.entry_id);
 assert.equal(phrase('PE-UHEI1-0035').celan_text,f48.kept_entry.celan_text);
 const changes=JSON.parse(fs.readFileSync(path.join(__dirname,'../outputs/dictionary_review/integration/applied_changes.json'),'utf8'));
