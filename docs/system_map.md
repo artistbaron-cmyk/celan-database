@@ -20,7 +20,15 @@ That surface currently includes:
 
 This is where the structured source and export files live.
 
-The main folder is:
+The app's current content source folder is:
+
+- `/Users/admin/Documents/CELAN_DATABASE/dictionary/app_data/`
+
+The generated full dictionary export is separate:
+
+- `/Users/admin/Documents/CELAN_DATABASE/dictionary/exports/`
+
+The older source and working folder is:
 
 - `/Users/admin/Documents/CELAN_DATABASE/data/`
 

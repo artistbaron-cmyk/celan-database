@@ -1,0 +1,21 @@
+{
+  "headwords": 1496,
+  "unique_headwords": 1496,
+  "entry_senses": 1607,
+  "report_senses": 1607,
+  "sense_key_multisets_match": true,
+  "missing_headword_fields": {
+    "headword": [],
+    "pronunciation": [],
+    "use_type": [],
+    "meaning": []
+  },
+  "duplicate_sense_keys": [],
+  "example_rows": 2275,
+  "duplicate_example_ids": [],
+  "placements": 9162,
+  "placement_ids_not_in_example_table": [],
+  "pdf_source_hash_matches_current_csv": false,
+  "current_csv_sha256": "65ba100f04ec4e30ea74badb521a15d9b8f3971f55f11756a672fa2ac0646e10",
+  "pdf_recorded_source_sha256": "a9dc79ea43f9dd19f6f8d4de496659337eba9919ab1480ac829ad1cb17acacc6"
+}

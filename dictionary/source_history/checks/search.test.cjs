@@ -16,9 +16,12 @@ const context = vm.createContext({ console, document: {
   createElement: element
 }, window: {} });
 const source = fs.readFileSync(path.join(__dirname, 'script.js'), 'utf8');
+for (const file of ['display_content.js', 'grammar_content.js', 'phrase_builder_content.js']) {
+  vm.runInContext(fs.readFileSync(path.join(__dirname, 'app_data', file), 'utf8'), context);
+}
 vm.runInContext(source.slice(0, source.lastIndexOf('init().catch')), context);
 const run = code => vm.runInContext(code, context);
-const csv = name => fs.readFileSync(path.join(__dirname, '../data', name + '.csv'), 'utf8');
+const csv = name => fs.readFileSync(path.join(__dirname, 'app_data', name + '.csv'), 'utf8');
 context.datasets = Object.fromEntries(['lexicon', 'lexicon_expansions', 'roots_and_morphology', 'expanded_root_database', 'ohnosha_creatures', 'phrases_and_examples', 'grammar_rules', 'expressions'].map(name => [name, csv(name)]));
 run(`const data = Object.fromEntries(Object.entries(datasets).map(([key, text]) => [key, rowsToObjects(parseCsv(text))]));
 state.phrases = data.phrases_and_examples;
@@ -93,8 +96,8 @@ assert.equal(run(`data.lexicon_expansions.filter(entry => {
 }).map(entry => entry.entry_id).join('|')`), '');
 
 // Source tables must not silently shift columns due to unquoted commas.
-for (const filename of fs.readdirSync(path.join(__dirname, '../data')).filter(name => name.endsWith('.csv'))) {
-  context.checkedCsv = fs.readFileSync(path.join(__dirname, '../data', filename), 'utf8');
+for (const filename of fs.readdirSync(path.join(__dirname, 'app_data')).filter(name => name.endsWith('.csv'))) {
+  context.checkedCsv = fs.readFileSync(path.join(__dirname, 'app_data', filename), 'utf8');
   assert.equal(run(`(() => { const rows = parseCsv(checkedCsv); return rows.slice(1).filter(row => row.length !== rows[0].length).length; })()`), 0, filename);
 }
 
@@ -171,7 +174,7 @@ run(`jumpToHeadword(state.groupedEntries.slice().sort((a, b) => a.term.localeCom
 assert.ok(run(`state.filtered.slice(0, state.visibleResultCount).some(group => group.id === state.selectedId)`));
 
 // Offline/file usage receives the same datasets as HTTP CSV loading.
-vm.runInContext(fs.readFileSync(path.join(__dirname, 'embedded_data.js'), 'utf8'), context);
+vm.runInContext(fs.readFileSync(path.join(__dirname, 'app_data', 'embedded_data.js'), 'utf8'), context);
 for (const [name, text] of Object.entries(context.datasets)) {
   assert.ok(context.window.EMBEDDED_DATA['data/' + name + '.csv'] === text || context.window.EMBEDDED_DATA[name + '.csv'] === text, name + ' embedded data drift');
 }

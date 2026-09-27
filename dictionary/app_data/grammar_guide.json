@@ -1,0 +1,1791 @@
+{
+  "rules": [
+    {
+      "id": "LESSON-PRONUNCIATION",
+      "rule_name": "Pronunciation",
+      "category": "Lesson",
+      "displayCategory": "Lesson",
+      "purpose": "How Celan sounds in the mouth: vowels, consonants, and the flow of euphony.",
+      "original_wording": "How Celan sounds in the mouth: vowels, consonants, and the flow of euphony.",
+      "guideSections": [
+        {
+          "title": "What this lesson is for",
+          "body": "How Celan sounds in the mouth: vowels, consonants, and the flow of euphony."
+        },
+        {
+          "title": "This lesson includes",
+          "body": null,
+          "list": [
+            "The Phonetics of Celan: Clarity, Flow, and Euphony",
+            "Euphony: reviewed illustrations",
+            "Phonology: reviewed illustrations"
+          ]
+        }
+      ],
+      "examples": "",
+      "notes": "",
+      "relatedHeadwords": [
+        "Aen",
+        "Azan",
+        "Shaleth",
+        "Belshara"
+      ],
+      "related_entry_ids": "",
+      "childRuleIds": [
+        "GR-ER2-0002",
+        "GR-ER2-0003",
+        "RG-PRONUNCIATION"
+      ],
+      "source_volume": "",
+      "source_section": "",
+      "page_number": "",
+      "canon_status": "Canon",
+      "lessonId": "LESSON-PRONUNCIATION",
+      "synthetic": true,
+      "preview": "How Celan sounds in the mouth: vowels, consonants, and the flow of euphony.",
+      "searchText": "lesson-pronunciation pronunciation lesson lesson how celan sounds in the mouth: vowels, consonants, and the flow of euphony.   aen azan shaleth belshara"
+    },
+    {
+      "id": "LESSON-SENTENCE-SHAPE",
+      "rule_name": "Sentence Shape: How Celan Moves",
+      "category": "Lesson",
+      "displayCategory": "Lesson",
+      "purpose": "How Celan moves through action, questions, commands, negation, and conditions.",
+      "original_wording": "How Celan moves through action, questions, commands, negation, and conditions.",
+      "guideSections": [
+        {
+          "title": "The Core Idea: Action Comes First",
+          "body": "In Celan, what is happening is always more important than who is doing it. The language focuses on the event itself. When you speak Celan, you are not just an individual forcing your will on the world; you are a participant in a larger action."
+        },
+        {
+          "title": "Default Word Order: Verb-Subject-Object (VSO)",
+          "body": "Because the action is the most important part of the story, a standard Celan sentence begins with the Verb, then the Subject, and finally the Object or destination.",
+          "list": [
+            "English: I go to the water. (Actor -> Action -> Target)",
+            "Celan: `Go I to the water.` (Action -> Actor -> Target)"
+          ]
+        },
+        {
+          "title": "Forming Questions and Commands",
+          "body": "Celan keeps sentence-shaping simple. Instead of relying on tone or heavy rearrangement, it places a small signpost word at the very beginning of the sentence to announce its shape.",
+          "list": [
+            "Questions: place `ra` at the start of the sentence to make it a question.",
+            "Commands: place `va` at the start of the sentence to give an instruction or command."
+          ]
+        },
+        {
+          "title": "Negation (Saying \"No\" or \"Not\")",
+          "body": "To make a sentence negative, place `ver` directly in front of the verb. In a negative question, `ver` slides between the question signpost `ra` and the verb."
+        },
+        {
+          "title": "Conditionals (\"If\" sentences)",
+          "body": "To say if, place `rath` at the beginning of the sentence. This tells the listener that the action is conditional or hypothetical."
+        },
+        {
+          "title": "What to Notice",
+          "body": null,
+          "list": [
+            {
+              "title": "The action arrives before the actor",
+              "copy": "Because the verb comes first, your listener knows what is happening before they know who is involved."
+            },
+            {
+              "title": "Signposts are structural",
+              "copy": "Words like `ra` and `va` are not decorative. They sit at the front of the sentence to frame what is about to happen before the action even arrives."
+            },
+            {
+              "title": "The lowercase rule still applies",
+              "copy": "Sentences begin with lowercase unless the first word is a name, a grand concept, or the pronoun `I`. Because of this, signposts like `ra`, `va`, `rath`, and `ver` will usually be lowercase."
+            }
+          ]
+        }
+      ],
+      "examples": "Plain VSO Sentence: `var I an dren.` (I go to the water.)\nQuestion: `ra var ser?` (Where does the friend go?)\nNegative Question: `ra ver var ser?` (Does the friend not go?)\nCommand: `va var dren!` (Go to the water!)\nConditional Pair: `rath var ser, nor-var I an dren.` (If the friend goes, I will go to the water.)",
+      "notes": "",
+      "relatedHeadwords": [
+        "Var",
+        "Rinaen",
+        "Ohmaen"
+      ],
+      "related_entry_ids": "",
+      "childRuleIds": [
+        "RG-VSO",
+        "GR-V3-0004",
+        "GR-V1-0017",
+        "GR-V3-0005",
+        "GR-V4-0006",
+        "GR-V1-0015",
+        "GR-SIP1-0001",
+        "GR-V4-0004",
+        "GR-SIP1-0002",
+        "RG-QUESTIONS-COMMANDS",
+        "GR-V3-0003",
+        "GR-V1-0014",
+        "GR-DR1-0002",
+        "GR-DR1-0003"
+      ],
+      "source_volume": "",
+      "source_section": "",
+      "page_number": "",
+      "canon_status": "Canon",
+      "lessonId": "LESSON-SENTENCE-SHAPE",
+      "synthetic": true,
+      "preview": "How Celan moves through action, questions, commands, negation, and conditions.",
+      "searchText": "lesson-sentence-shape sentence shape: how celan moves lesson lesson how celan moves through action, questions, commands, negation, and conditions. plain vso sentence: `var i an dren.` (i go to the water.)\nquestion: `ra var ser?` (where does the friend go?)\nnegative question: `ra ver var ser?` (does the friend not go?)\ncommand: `va var dren!` (go to the water!)\nconditional pair: `rath var ser, nor-var i an dren.` (if the friend goes, i will go to the water.)  var rinaen ohmaen"
+    },
+    {
+      "id": "LESSON-WORD-BUILDING",
+      "rule_name": "Word Building: How Celan Grows Words",
+      "category": "Lesson",
+      "displayCategory": "Lesson",
+      "purpose": "How roots, compounds, suffixes, and sound-shaping grow Celan words from core ideas.",
+      "original_wording": "How roots, compounds, suffixes, and sound-shaping grow Celan words from core ideas.",
+      "guideSections": [
+        {
+          "title": "The Core Idea: Roots as Seeds",
+          "body": "In Celan, words are not random strings of letters. The language is built like a set of blocks. Every word starts with a Root, a core and powerful idea. Think of a root as the seed of the meaning. For example, `Krez` means Fire or Heat, and `Dren` means Water. Every word you build from these seeds carries a piece of that original meaning."
+        },
+        {
+          "title": "Compounding (Smashing Ideas Together)",
+          "body": "To make a new concept, you simply fuse two roots together into one single word. The main idea goes first, and the descriptive idea goes second.",
+          "list": [
+            "Important Rule: We do not use hyphens to fuse roots together. They are completely merged.",
+            "Example: `Morl` (Mountain) + `Dren` (Water) seamlessly becomes `Morldren` (Waterfall).",
+            "Example: `Bel` (Binding / weaving) + `Shara` (Path / journey) becomes `Belshara` (woven path / structured journey)."
+          ]
+        },
+        {
+          "title": "Derivation (Adding Suffixes and Prefixes)",
+          "body": "You can attach small grammatical tags to a root to change how the word behaves.",
+          "list": [
+            "Making Verbs: Add the suffix `-aen` to turn a noun into an action. `Dren` (Water) becomes `drenaen` (To drink).",
+            "Time Travel (Tense): While English uses separate words like will or did, Celan builds time directly onto the verb using a hyphen. Add `nor-` for the future or `tha-` for the past. `var` (go) becomes `nor-var` (will go)."
+          ]
+        },
+        {
+          "title": "Pluralization (Making Things Plural)",
+          "body": "Making a word plural in Celan is incredibly simple. If the word ends in a consonant, add `-in`. If it ends in a vowel, add `-n`.",
+          "list": [
+            "Example: `Ser` (Friend) becomes `serin` (Friends).",
+            "If a noun already ends in a vowel, the plural stays light: you simply add `-n`."
+          ]
+        },
+        {
+          "title": "The Magic of `-eth`",
+          "body": "This is one of the most important suffixes in the language. Adding `-eth` to a word means having the quality of or the essence of. It is the easiest way to turn a noun into a descriptive adjective.",
+          "list": [
+            "Example: `Kal` (Strength) becomes `kaleth` (Strong).",
+            "Example: `Wor` (Abundance) becomes `woreth` (Full / abundant)."
+          ]
+        },
+        {
+          "title": "What to Notice",
+          "body": null,
+          "list": [
+            {
+              "title": "Valid builds vs. canon",
+              "copy": "Because Celan is a language of building blocks, you can mathematically combine almost any two roots into a valid build. However, native speakers have culturally agreed-upon canon forms."
+            },
+            {
+              "title": "Sound smoothing (Euphony)",
+              "copy": "If smashing two roots together creates an ugly, clunky consonant sound, Celan inserts a smoothing vowel, usually a, to make it flow beautifully. For example, `Morl` + `Thar` becomes the smooth `morlathar`, not the clunky `morlthar`."
+            },
+            {
+              "title": "Culture shapes the word",
+              "copy": "Different nations build the exact same word differently. A tough, practical warrior from the desert might skip the smoothing vowel entirely because they prefer harsh sounds, while an elegant poet from the ocean will always smooth the word out."
+            }
+          ]
+        }
+      ],
+      "examples": "One Clean Compound: `Morldren` (Waterfall) (Built from `Morl` / Mountain + `Dren` / Water)\nOne Suffix-Based Derivation: `Shalaen` (To see) (Built from `Shal` / Light + `-aen` / action suffix)\nOne Plural Form: `Serin` (Friends) (Built from `Ser` / Friend + `-in` / plural suffix)\nOne `-eth` Form: `Woreth` (Full / Abundant) (Built from `Wor` / Abundance + `-eth` / having the quality of)\nOne \"Same Idea, Different Build\" Contrast: To say Dynamic Equilibrium (balancing a fierce, fiery energy):\nA tough Valkeldorian warrior builds it harsh: `Krezthal`.\nA poetic Jasaran philosopher builds it smooth: `Krezathal`.",
+      "notes": "",
+      "relatedHeadwords": [],
+      "related_entry_ids": "",
+      "childRuleIds": [
+        "GR-V2-0003",
+        "GR-V2-0002",
+        "GR-DR1-0004",
+        "GR-V2-0001",
+        "GR-DR1-0001",
+        "GR-V4-0003",
+        "GR-V4-0001",
+        "GR-V4-0002"
+      ],
+      "source_volume": "",
+      "source_section": "",
+      "page_number": "",
+      "canon_status": "Canon",
+      "lessonId": "LESSON-WORD-BUILDING",
+      "synthetic": true,
+      "preview": "How roots, compounds, suffixes, and sound-shaping grow Celan words from core ideas.",
+      "searchText": "lesson-word-building word building: how celan grows words lesson lesson how roots, compounds, suffixes, and sound-shaping grow celan words from core ideas. one clean compound: `morldren` (waterfall) (built from `morl` / mountain + `dren` / water)\none suffix-based derivation: `shalaen` (to see) (built from `shal` / light + `-aen` / action suffix)\none plural form: `serin` (friends) (built from `ser` / friend + `-in` / plural suffix)\none `-eth` form: `woreth` (full / abundant) (built from `wor` / abundance + `-eth` / having the quality of)\none \"same idea, different build\" contrast: to say dynamic equilibrium (balancing a fierce, fiery energy):\na tough valkeldorian warrior builds it harsh: `krezthal`.\na poetic jasaran philosopher builds it smooth: `krezathal`. "
+    },
+    {
+      "id": "LESSON-POSSESSION-RELATION",
+      "rule_name": "Possession and Relation",
+      "category": "Lesson",
+      "displayCategory": "Lesson",
+      "purpose": "Distinguish ownership, personal possession, relational bonds, and absence.",
+      "original_wording": "Distinguish ownership, personal possession, relational bonds, and absence.",
+      "guideSections": [
+        {
+          "title": "Spacing changes the meaning",
+          "body": "Standalone ka means without or no. Possessive -ka is always hyphenated to its possessor.",
+          "list": [
+            "I-ka dren — My water.",
+            "Ilin-ka emil — Our meal.",
+            "Var I ka shal. — I go without light."
+          ]
+        },
+        {
+          "title": "Personal suffixes",
+          "body": "Body parts, inner states, personal clothing, and primary personal gear use -ian (my), -ya (your), or -eshen (his/her/their) after the possessed noun. -ian never means their.",
+          "list": [
+            "doran-ian — my torso",
+            "noka-ya — your vulva"
+          ]
+        },
+        {
+          "title": "Groups and third-person possessors",
+          "body": "Collective, titled, compound, and other third-person possessors use possessor-ka. Third-person body-part possession may also use this form.",
+          "list": [
+            "La-ka kelvor — their mouth",
+            "Varthas-ka vorkor — the city's gate",
+            "Seren-ka arthkal — the guardian's shield"
+          ]
+        },
+        {
+          "title": "Relational belonging",
+          "body": "-esh expresses a bond or relationship. It does not by itself mean their or identify a third-person owner."
+        }
+      ],
+      "examples": "rinaen aiv an doran-ian. — There is pain in my torso.\ndrenselaen I noka-ian. — I wash my vulva.\ndrenaen La dren kora rinaen La-ka kelvor kadreneth. — They drink water because their mouth is dry.",
+      "notes": "",
+      "relatedHeadwords": [
+        "Var",
+        "Ser",
+        "Thal",
+        "Ka",
+        "An",
+        "Nor",
+        "Esh",
+        "Morl"
+      ],
+      "related_entry_ids": "",
+      "childRuleIds": [
+        "GR-V1-0008",
+        "RG-PREPOSITIONS"
+      ],
+      "source_volume": "",
+      "source_section": "",
+      "page_number": "",
+      "canon_status": "Canon",
+      "lessonId": "LESSON-POSSESSION-RELATION",
+      "synthetic": true,
+      "preview": "Distinguish ownership, personal possession, relational bonds, and absence.",
+      "searchText": "lesson-possession-relation possession and relation lesson lesson distinguish ownership, personal possession, relational bonds, and absence. rinaen aiv an doran-ian. — there is pain in my torso.\ndrenselaen i noka-ian. — i wash my vulva.\ndrenaen la dren kora rinaen la-ka kelvor kadreneth. — they drink water because their mouth is dry.  var ser thal ka an nor esh morl"
+    },
+    {
+      "id": "LESSON-NUMBER-MEASURE",
+      "rule_name": "Number and Measure: How Celan Counts the World",
+      "category": "Lesson",
+      "displayCategory": "Lesson",
+      "purpose": "How Celan builds numbers, scales them upward, handles subtraction, and expresses quantity without articles.",
+      "original_wording": "How Celan builds numbers, scales them upward, handles subtraction, and expresses quantity without articles.",
+      "guideSections": [
+        {
+          "title": "Base Numbers (0–10)",
+          "body": "In Celan, you only need to memorize eleven core numbers. Every other number in the entire language is built from these basic seeds.",
+          "list": [
+            "0 = `verin`",
+            "1 = `unar`",
+            "2 = `del`",
+            "3 = `tren`",
+            "4 = `quen`",
+            "5 = `peth`",
+            "6 = `senar`",
+            "7 = `sethe`",
+            "8 = `oven`",
+            "9 = `nevar`",
+            "10 = `tenar`"
+          ]
+        },
+        {
+          "title": "Scaling Prefixes (Growing the Numbers)",
+          "body": "Instead of learning entirely new words for twenty, thirty, or a hundred, Celan attaches a scale marker to the front of a base number.",
+          "list": [
+            "Tens: add `Ten-` (for example, `Ten-del` = 20, literally Two tens).",
+            "Hundreds: add `Hek-` (for example, `Hek-quen` = 400).",
+            "Thousands: add `Mel-` (for example, `Mel-unar` = 1,000).",
+            "Tens of Thousands: add `Fen-` (for example, `Fen-peth` = 50,000)."
+          ]
+        },
+        {
+          "title": "Building Larger Numbers (Stacking)",
+          "body": "To make a larger, complex number, you stack the blocks from largest to smallest. The language naturally treats this as addition.",
+          "list": [
+            "Example: `tenar unar` = 11, built by placing 10 and 1 next to each other.",
+            "Example: `Ten-del peth` = 25, built by stating twenty and then five."
+          ]
+        },
+        {
+          "title": "Simple Arithmetic",
+          "body": "Addition is invisible. It happens naturally just by stating the numbers together in order. To subtract, use the specific word `Ven` (minus). It acts as a structural wall between the two numbers."
+        },
+        {
+          "title": "Quantification and Articles",
+          "body": "Celan does not waste breath on small, empty words. There are no direct translations for the English words a or the. If you say `dren`, the listener understands from context whether you mean water or the water. When you need to describe quantity without an exact number, place a quantifier right before the noun.",
+          "list": [
+            "`ilinor` = all",
+            "`melen` = many",
+            "`som` = some / a few",
+            "`felin` = few",
+            "`ekor` = each / every"
+          ]
+        },
+        {
+          "title": "What to Notice",
+          "body": null,
+          "list": [
+            {
+              "title": "Numbers are built, not just memorized",
+              "copy": "Once you learn 0–10 and the four scaling prefixes, you can mathematically construct any number you need."
+            },
+            {
+              "title": "Scale markers matter",
+              "copy": "The tiny prefix you choose completely changes the size of your statement. `unar` is one, but `Mel-unar` becomes a thousand."
+            },
+            {
+              "title": "Subtraction has visible logic",
+              "copy": "Addition is as simple as placing number blocks together, but subtraction requires the explicit marker `Ven` so the listener knows something is being taken away."
+            }
+          ]
+        }
+      ],
+      "examples": "Base List: `verin`, `unar`, `del`, `tren`... (0, 1, 2, 3...).\nOne Teen Form: `tenar unar` (11 — built by combining 10 and 1).\nOne Tens Form: `Ten-del` (20 — built as Two tens).\nOne Hundreds Form: `Hek-quen` (400 — built as Four hundreds).\nOne Additive Example: `Ten-del peth` (25 — Twenty plus five).\nOne Subtraction Example: `Hek-quen Ven Hek-del` (400 minus 200 = 200).",
+      "notes": "",
+      "relatedHeadwords": [
+        "Verin",
+        "Unar",
+        "Del",
+        "Tren",
+        "Quen",
+        "Peth",
+        "Senar",
+        "Sethe",
+        "Oven",
+        "Nevar",
+        "Tenar",
+        "Hek-",
+        "Mel-",
+        "Fen-",
+        "Hek-Mel-"
+      ],
+      "related_entry_ids": "",
+      "childRuleIds": [
+        "GR-V4-0005",
+        "GR-V2-0004",
+        "GR-ER2-0001",
+        "RG-NUMBERS-MATH",
+        "GR-V2-0005"
+      ],
+      "source_volume": "",
+      "source_section": "",
+      "page_number": "",
+      "canon_status": "Canon",
+      "lessonId": "LESSON-NUMBER-MEASURE",
+      "synthetic": true,
+      "preview": "How Celan builds numbers, scales them upward, handles subtraction, and expresses quantity without articles.",
+      "searchText": "lesson-number-measure number and measure: how celan counts the world lesson lesson how celan builds numbers, scales them upward, handles subtraction, and expresses quantity without articles. base list: `verin`, `unar`, `del`, `tren`... (0, 1, 2, 3...).\none teen form: `tenar unar` (11 — built by combining 10 and 1).\none tens form: `ten-del` (20 — built as two tens).\none hundreds form: `hek-quen` (400 — built as four hundreds).\none additive example: `ten-del peth` (25 — twenty plus five).\none subtraction example: `hek-quen ven hek-del` (400 minus 200 = 200).  verin unar del tren quen peth senar sethe oven nevar tenar hek- mel- fen- hek-mel-"
+    },
+    {
+      "id": "LESSON-GENDER-ADDRESS-SOCIAL",
+      "rule_name": "Gender, Address, and Social Use: How Celan Connects People",
+      "category": "Lesson",
+      "displayCategory": "Lesson",
+      "purpose": "How Celan handles identity, respect, address, and social nuance through form choice.",
+      "original_wording": "How Celan handles identity, respect, address, and social nuance through form choice.",
+      "guideSections": [
+        {
+          "title": "The Core Idea: Identity is an Essence, Not a Box",
+          "body": "In Celan, who you are is not a rigid, unchanging label assigned at birth. Identity is based on your essence and the qualities you embody right now. Because the Ohnoshan worldview values flow and change, identity is seen as a journey (`Shara`); the word you use to describe yourself may evolve as you grow older or change your path in life."
+        },
+        {
+          "title": "Gender Terms (The Seeds of Identity)",
+          "body": "Instead of relying only on strict biological labels, Celan uses three core seeds of essence to describe people.",
+          "list": [
+            "`Kadren`: Masculine essence (strength, groundedness).",
+            "`Azan`: Feminine essence (nurturing, fluidity).",
+            "`Thee`: Neutral essence (balance, unity).",
+            "From these seeds come standard terms like `Kadron` (man), `Azron` (woman), and `Theon` (neutral person).",
+            "Because identity is fluid, you can also mix these roots. A man who embodies feminine, nurturing qualities is an `Azon`, and a woman who embodies fierce, masculine traits is a `Kadon`."
+          ]
+        },
+        {
+          "title": "Combining Qualities and Poetic Expressions",
+          "body": "Celan encourages you to layer these terms to capture human nuance. You can combine forms to describe someone as a `Kadron-Azon`, a man with both masculine and feminine qualities. These terms can also be used poetically to describe how someone interacts with the world, such as a neutral person who brings balance to a situation.",
+          "list": [
+            "Example: `Kadron-Azon` marks a man carrying both masculine and feminine qualities.",
+            "Example: `Theon` can be used poetically for someone whose presence brings balance into a tense situation."
+          ]
+        },
+        {
+          "title": "Politeness and Address Forms (Showing Respect)",
+          "body": "In English, we often show respect through tone of voice. In Celan, respect is built directly into the words themselves by adding honorific tags and choosing elevated titles.",
+          "list": [
+            "The Respect Tag (`Li-`): attach this to the front of a name or title to show polite respect to a stranger or elder. Example: `Li-Ser` = Respected friend.",
+            "The High Honor Tag (`-en`): attach this to the end of a title for immense, formal reverence. Example: `Liorinen` = Honored Elder.",
+            "Specific respectful titles also exist, such as `Liana` (Lady), `Lianor` (Sir), or `Seren` (Guardian)."
+          ]
+        },
+        {
+          "title": "Cultural Variation (Reading the Room)",
+          "body": "Different nations and situations require different levels of formality. A speaker's choice of words tells you immediately how they view the social dynamic.",
+          "list": [
+            "Formal vs. Casual: in a royal court or sacred temple, you use elevated words like `aen` (to speak) and `var` (to purposefully go). In a marketplace or among friends, you might use casual words like `kel` (to chat) and `min` (to wander or head over).",
+            "Regional Flavors: the oceanic people of Pelagae value fluidity and may use `Azon` frequently for their spiritual men. The mountain warriors of Valkeldor value strength and may favor `Kadon` to honor their warrior women."
+          ]
+        },
+        {
+          "title": "What to Notice",
+          "body": null,
+          "list": [
+            {
+              "title": "Celan does social work through form choice",
+              "copy": "Adding a tiny sound like `Li-` immediately changes the social boundary between two speakers."
+            },
+            {
+              "title": "Respect is not a tiny side feature",
+              "copy": "It is architectural. If you want to be polite, you cannot just smile; you must actually construct your words differently."
+            },
+            {
+              "title": "Some forms are literal, some relational, some culturally charged",
+              "copy": "Calling someone a `Theon` may be a literal description of their identity, but in some places it can also be a culturally charged compliment honoring balance."
+            }
+          ]
+        }
+      ],
+      "examples": "One Direct Respectful Address: `var I dren, Li-Ser.` (I go to the water, respected friend).\nOne Gender-Term Usage Example: `Azon` (A feminine man — showing the fluidity of combining the `Azan` feminine essence with a male subject).\nOne Cultural/Register Contrast: Formal: `aen` (to speak deep truths) vs. Informal: `kel` (to casually chat).\nOne Poetic/Socially Elevated Phrasing Example: `vael vaar an shara-ya.` (May peace be on your path — using the poetic wish particle `vael` to offer a gentle, elevated blessing).",
+      "notes": "",
+      "relatedHeadwords": [],
+      "related_entry_ids": "",
+      "childRuleIds": [
+        "GR-V1-0012",
+        "GR-V1-0009",
+        "GR-V1-0010",
+        "GR-V1-0011",
+        "GR-V3-0001",
+        "GR-V1-0006"
+      ],
+      "source_volume": "",
+      "source_section": "",
+      "page_number": "",
+      "canon_status": "Canon",
+      "lessonId": "LESSON-GENDER-ADDRESS-SOCIAL",
+      "synthetic": true,
+      "preview": "How Celan handles identity, respect, address, and social nuance through form choice.",
+      "searchText": "lesson-gender-address-social gender, address, and social use: how celan connects people lesson lesson how celan handles identity, respect, address, and social nuance through form choice. one direct respectful address: `var i dren, li-ser.` (i go to the water, respected friend).\none gender-term usage example: `azon` (a feminine man — showing the fluidity of combining the `azan` feminine essence with a male subject).\none cultural/register contrast: formal: `aen` (to speak deep truths) vs. informal: `kel` (to casually chat).\none poetic/socially elevated phrasing example: `vael vaar an shara-ya.` (may peace be on your path — using the poetic wish particle `vael` to offer a gentle, elevated blessing). "
+    },
+    {
+      "id": "LESSON-WRITING-CONVENTIONS",
+      "rule_name": "Writing Conventions: How Celan Appears on the Page",
+      "category": "Lesson",
+      "displayCategory": "Lesson",
+      "purpose": "How Celan uses lowercase, capitals, reverence, and emphasis to make meaning visible on the page.",
+      "original_wording": "How Celan uses lowercase, capitals, reverence, and emphasis to make meaning visible on the page.",
+      "guideSections": [
+        {
+          "title": "The Core Idea: Meaning Over Mechanics",
+          "body": "In English, we capitalize the first letter of a sentence automatically. In Celan, capitalization is not automatic; it is deeply meaningful. You only capitalize a word when you want to give it philosophical weight, emotional power, or deep respect. The way a sentence looks on the page instantly tells the reader what matters most to the speaker."
+        },
+        {
+          "title": "The Sentence-Initial Lowercase Rule",
+          "body": "This is the most striking difference for a new learner: sentences in Celan almost always begin with a lowercase letter. Because the first word of a sentence is usually just the verb or a structural signpost like `ra`, it does not get a capital letter unless it happens to be a sacred name or concept."
+        },
+        {
+          "title": "The Sanctity of `I`",
+          "body": "There is one pronoun that is always capitalized, no matter where it sits in the sentence: the first-person singular `I`. This honors the sanctity, independence, and importance of the individual's consciousness. Meanwhile, pronouns for other people, like `ya` (you) or `la` (they), remain strictly lowercase mid-sentence.",
+          "list": [
+            "Example: `var I an dren.` keeps `var` lowercase but preserves the capital `I`.",
+            "Example: `ra var ya?` leaves `ya` lowercase because only `I` receives that standing automatically."
+          ]
+        },
+        {
+          "title": "Names, Titles, and Sacred Concepts",
+          "body": "When do you capitalize words? Capitalization appears where the culture wants reverence or distinction to be visible.",
+          "list": [
+            "Names and Nations: proper names like `Kaikoa` and nations like `Mechuma` get capital letters.",
+            "Titles of Respect: when addressing an elder or official, their title is capitalized to show immense reverence, like `Velmarin` for an Honorary Elder.",
+            "Archetypal Forces: if a word represents a grand, primordial force, it is capitalized. For example, `terra` means mundane dirt, but `Terra` refers to the living, spiritual Heart of the world."
+          ]
+        },
+        {
+          "title": "Poetic and Emotional Capitalization",
+          "body": "In poetry or highly emotional speech, you can capitalize a completely normal word to elevate it to the level of a cosmic force. It is a way of telling the reader: this is not just a normal feeling; this is everything to me right now."
+        },
+        {
+          "title": "What to Notice",
+          "body": null,
+          "list": [
+            {
+              "title": "Celan does not use capitals the way English does",
+              "copy": "You will constantly see sentences starting with lowercase letters and important words towering in the middle."
+            },
+            {
+              "title": "Capitalization is meaningful, not automatic",
+              "copy": "Every capital letter is a deliberate choice by the writer to add emphasis or reverence."
+            },
+            {
+              "title": "Written form carries tone and hierarchy",
+              "copy": "You can immediately see the social dynamics or spiritual beliefs of the writer just by looking at which words they chose to capitalize and which they kept humble."
+            }
+          ]
+        }
+      ],
+      "examples": "One Normal Lowercase Sentence: `var kadron an morl.` (The man goes to the mountain — entirely lowercase because no specific names or grand concepts are used).\nOne Sentence with `I`: `var I an dren.` (I go to the water — the verb `var` is lowercase, but the `I` stands tall).\nOne Sacred/Archetypal Contrast: `terra` (mundane soil/dirt) vs. `Terra` (the mystical Heart of the world).\nOrdinary sentence opening: `ohmaen I Ya.` (I love you.)\nPoetic: `rinaen I an Thar-ka.` (I am Desire itself — elevating personal desire into a grand, archetypal force).",
+      "notes": "",
+      "relatedHeadwords": [
+        "I",
+        "Terra",
+        "Dral",
+        "Rathor"
+      ],
+      "related_entry_ids": "",
+      "childRuleIds": [
+        "RG-CAPS",
+        "GR-ER2-0004"
+      ],
+      "source_volume": "",
+      "source_section": "",
+      "page_number": "",
+      "canon_status": "Canon",
+      "lessonId": "LESSON-WRITING-CONVENTIONS",
+      "synthetic": true,
+      "preview": "How Celan uses lowercase, capitals, reverence, and emphasis to make meaning visible on the page.",
+      "searchText": "lesson-writing-conventions writing conventions: how celan appears on the page lesson lesson how celan uses lowercase, capitals, reverence, and emphasis to make meaning visible on the page. one normal lowercase sentence: `var kadron an morl.` (the man goes to the mountain — entirely lowercase because no specific names or grand concepts are used).\none sentence with `i`: `var i an dren.` (i go to the water — the verb `var` is lowercase, but the `i` stands tall).\none sacred/archetypal contrast: `terra` (mundane soil/dirt) vs. `terra` (the mystical heart of the world).\nordinary sentence opening: `ohmaen i ya.` (i love you.)\npoetic: `rinaen i an thar-ka.` (i am desire itself — elevating personal desire into a grand, archetypal force).  i terra dral rathor"
+    },
+    {
+      "id": "PAGE-CULTURAL-VOICE",
+      "rule_name": "Cultural Voice: How Ohnosha Speaks Celan Differently",
+      "category": "Advanced Companion",
+      "displayCategory": "Advanced Companion",
+      "purpose": "How one universal language develops distinct national voices without breaking into separate dialects.",
+      "original_wording": "How one universal tongue takes on different national voices across Ohnosha.",
+      "guideSections": [
+        {
+          "title": "The Core Idea: One Language, Many Voices",
+          "body": "While Celan is the universal tongue of Ohnosha, its application across the world is not monolithic. Generations of local use have given rise to distinct Cultural Voices or National Vernaculars. These are not separate dialects with different grammar rules. They are different habits of vocabulary choice, metaphor, sentence texture, and phonetic preference."
+        },
+        {
+          "title": "What Changes from Culture to Culture",
+          "body": "Cultural Voice appears in word choice, metaphor, sentence feel, and especially in how a people applies the Rule of Euphony. Some cultures smooth words into flowing musical forms. Others deliberately keep harsh consonant clusters to sound practical, martial, or severe."
+        },
+        {
+          "title": "The Eight National Vernaculars",
+          "body": null,
+          "list": [
+            {
+              "title": "Verdalrisian (Poetic & Harmonious)",
+              "copy": "Deeply connected to the living forests, the Verdalrisian voice is lyrical, patient, and rich with natural metaphor. Because beauty in speech matters deeply to them, they are the most likely to use advanced vowel harmony and highly smoothed forms."
+            },
+            {
+              "title": "Pelagaean (Fluid & Melodic)",
+              "copy": "Reflecting their oceanic origins, Pelagaean speech is fluid, communal, and poetic. Their vernacular is saturated with metaphors of water, tides, and flow. Like the Verdalrisians, they heavily prefer smoothed, euphonic pronunciations."
+            },
+            {
+              "title": "Zarithan (Pragmatic & Guttural)",
+              "copy": "Shaped by barren deserts and a nomadic survivalist spirit, the Zarithan voice is practical and direct. They value clarity and efficiency above all else, and often break euphonic expectations to preserve harsh consonant clusters such as `Krezthal` instead of `Krezathal`."
+            },
+            {
+              "title": "Valkeldorian (Conservative & Harsh)",
+              "copy": "Grounded in stone, mountains, and resilience, Valkeldorian language is strong and resolute. Like the Zarithans, they often prefer harder, non-euphonic forms to reflect martial strength and unyielding endurance."
+            },
+            {
+              "title": "Mechuman (Systematic & Standardized)",
+              "copy": "Reflecting a society built on technology, magic, and ordered systems, Mechumans value efficiency, logic, and purpose. In speech, they apply Celan phonetic and grammatical rules with exact, systematic consistency."
+            },
+            {
+              "title": "Nivveilian (Patient & Minimalist)",
+              "copy": "Shaped by the icy north, Nivveilians are reserved, patient, and stoic. Their vernacular is understated and highly economical, making every sound count."
+            },
+            {
+              "title": "Jasaran (Balanced & Elegant)",
+              "copy": "As oasis dwellers, Jasarans blend Zarithan practicality with water-centered mysticism. Their speech seeks careful balance and often aims for a poised, elegant phonetic equilibrium."
+            },
+            {
+              "title": "Marakorian (Formal & Archaic)",
+              "copy": "Marakorian speech values discipline, order, refinement, and reverence for tradition. Their Cultural Voice is highly formal and often leans into older, more archaic forms."
+            }
+          ]
+        },
+        {
+          "title": "Cultural Voice in Practice",
+          "body": "These are not separate grammars. They are different ways of inhabiting the same language. The clearest way to feel the shift is to hear each nation ask or frame something in its own voice. For consistency, the examples below follow the writing conventions used elsewhere in this guide.",
+          "list": [
+            {
+              "title": "Verdalrisian",
+              "copy": "`lorin shara ya an Kinnmor, Li-Ser?` — “Where does your path guide you this morning, Respected-Friend?” Listen for the lyrical phrasing, the guided-path imagery, and the patient tone."
+            },
+            {
+              "title": "Pelagaean",
+              "copy": "`ra shalil ya, Ser?` — “Where do you flow, Friend?” Listen for how movement becomes water-language instead of blunt travel-language."
+            },
+            {
+              "title": "Zarithan",
+              "copy": "`ra min ya, Ser?` — “Where are you headed, Friend?” Listen for the directness: fewer flourishes, less metaphor, more survival-minded clarity."
+            },
+            {
+              "title": "Valkeldorian",
+              "copy": "`aen shara-ya, Ser!` — “State your path, Friend!” Listen for the command-like firmness and strong, disciplined tone."
+            },
+            {
+              "title": "Mechuman",
+              "copy": "`aen ya varash, Ser.` — “State your destination, Friend.” Listen for the precision: clear, exact, and almost procedural in its phrasing."
+            },
+            {
+              "title": "Nivveilian",
+              "copy": "`an eshreth, ra var ya, Ser?` — “In this hazy sky, where are you going, Friend?” Listen for the spare, quiet atmosphere and restrained emotional temperature."
+            },
+            {
+              "title": "Jasaran",
+              "copy": "`shal lorin shara-ya an nor-ka, Ser?` — “Does the light guide your path in this moment, Friend?” Listen for the balance of practicality and mysticism."
+            },
+            {
+              "title": "Marakorian",
+              "copy": "`ra rinaen shara-ya lian, Li-Ser?` — “Is your path a proper one, Respected-Friend?” Listen for the formal, judging, order-conscious register."
+            }
+          ]
+        },
+        {
+          "title": "What to Notice",
+          "body": null,
+          "list": [
+            {
+              "title": "These are voices, not dialects",
+              "copy": "The underlying language remains Celan. What changes is how a people inhabits it."
+            },
+            {
+              "title": "Euphony is one of the clearest markers",
+              "copy": "A listener can often hear cultural alignment immediately in the choice between a harsh cluster and a smoothed form."
+            },
+            {
+              "title": "Vocabulary and metaphor matter too",
+              "copy": "Cultural Voice is not only about sound. It also lives in the metaphors, titles, and preferred registers a people reaches for."
+            }
+          ]
+        }
+      ],
+      "examples": "Verdalrisian: `lorin shara ya an Kinnmor, Li-Ser?` (Where does your path guide you this morning, Respected-Friend?)\nPelagaean: `ra shalil ya, Ser?` (Where do you flow, Friend?)\nZarithan: `ra min ya, Ser?` (Where are you headed, Friend?)\nValkeldorian: `aen shara-ya, Ser!` (State your path, Friend!)\nMechuman: `aen ya varash, Ser.` (State your destination, Friend.)\nNivveilian: `an eshreth, ra var ya, Ser?` (In this hazy sky, where are you going, Friend?)\nJasaran: `shal lorin shara-ya an nor-ka, Ser?` (Does the light guide your path in this moment, Friend?)\nMarakorian: `ra rinaen shara-ya lian, Li-Ser?` (Is your path a proper one, Respected-Friend?)",
+      "notes": "",
+      "relatedHeadwords": [
+        "Azon",
+        "Kadon",
+        "Theon",
+        "Liorinen"
+      ],
+      "related_entry_ids": "",
+      "source_volume": "",
+      "source_section": "",
+      "page_number": "",
+      "canon_status": "Canon",
+      "synthetic": true,
+      "preview": "How one universal tongue takes on different national voices across Ohnosha.",
+      "searchText": "page-cultural-voice cultural voice: how ohnosha speaks celan differently advanced companion advanced companion how one universal tongue takes on different national voices across ohnosha. verdalrisian: `lorin shara ya an kinnmor, li-ser?` (where does your path guide you this morning, respected-friend?)\npelagaean: `ra shalil ya, ser?` (where do you flow, friend?)\nzarithan: `ra min ya, ser?` (where are you headed, friend?)\nvalkeldorian: `aen shara-ya, ser!` (state your path, friend!)\nmechuman: `aen ya varash, ser.` (state your destination, friend.)\nnivveilian: `an eshreth, ra var ya, ser?` (in this hazy sky, where are you going, friend?)\njasaran: `shal lorin shara-ya an nor-ka, ser?` (does the light guide your path in this moment, friend?)\nmarakorian: `ra rinaen shara-ya lian, li-ser?` (is your path a proper one, respected-friend?)  azon kadon theon liorinen"
+    },
+    {
+      "id": "RG-PRONUNCIATION",
+      "rule_name": "The Phonetics of Celan: Clarity, Flow, and Euphony",
+      "category": "Phonetics + advanced phonology",
+      "displayCategory": "Pronunciation",
+      "purpose": "Clarity, flow, and euphony.",
+      "original_wording": "Celan balances the firmness of its structure with the smooth flow of its breath.\nIts sound system depends on clear vowels, supportive consonants, and euphonic smoothing when a compound grows too harsh.",
+      "guideSections": [
+        {
+          "title": "The Core Philosophy of Sound",
+          "body": "Say Celan cleanly and distinctly. The language balances the firmness of its structure with the smooth flow of its breath, avoiding swallowed syllables, English-style silent letters, or complex tonal variations. The sound should remain stable across contexts rather than becoming overly decorative or dramatic."
+        },
+        {
+          "title": "The Anchor Vowels",
+          "body": "Vowels in Celan are long and flowing, symbolizing natural forces like water, air, and light. They stay open and clear, and they are the first sounds a new reader should learn well.",
+          "list": [
+            "`A` = \"ah\" as in \"father\"",
+            "`E` = \"eh\" as in \"bed\"",
+            "`I` = \"ee\" as in \"machine\"",
+            "`O` = \"oh\" as in \"go\"",
+            "`U` = \"oo\" as in \"flu\""
+          ]
+        },
+        {
+          "title": "The Supportive Consonants",
+          "body": "Consonants provide the grounded structure of the language. K, T, S, and R are especially frequent, giving Celan its sharp, defined clarity and supporting the flowing vowels."
+        },
+        {
+          "title": "The Rule of Euphony (Sound-Smoothing)",
+          "body": "When fused roots create a harsh or clumsy consonant cluster, a Celan speaker may choose a smoothing vowel to maintain rhythmic flow. The unsmoothed construction remains valid. The neutral choice is often a, while e or o may appear through vowel harmony; before Wek, an euphonic choice uses e or o rather than a.",
+          "list": [
+            {
+              "title": "Strong Smoothing Choice",
+              "copy": "Harsh, repetitive, or dissonant clusters are the most likely to be smoothed, but smoothing is not grammatically mandatory. Examples include `Morl` + `Thar` -> `Morlathar`, `Rath` + `Thar` -> `Rathathar`, and `Vok` + `Thal` -> `Vokathar`."
+            },
+            {
+              "title": "Stylistic and National Contrast",
+              "copy": "For clunky but pronounceable clusters, smoothing becomes a cultural choice. A pragmatic Zarithan or Valkeldorian may prefer `Krezthal` or `Belshara`, while a poetic Pelagaean or Verdalrisian may prefer `Krezathal` or `Belashara`."
+            },
+            {
+              "title": "Forms Normally Left Unsmoothed",
+              "copy": "Naturally smooth clusters need no euphonic option, and ancient phonetic fossils normally remain unchanged. Smooth: `Kalvok`, `Kalrath`, `Rethlian`. Fossils: `Belthal`, `Rethvok`."
+            },
+            {
+              "title": "Euphony Before Wek",
+              "copy": "When `Wek` is the second root, the euphonic choices are `-ewek` and `-owek`, not `-awek`. This keeps the independent root `Awek` (water spring) distinct. Examples: `Belwek` / `Belewek` / `Belowek`; `Kalwek` / `Kalewek` / `Kalowek`; chosen headword `Mahrowek`, with unsmoothed `Mahrwek` as a variant."
+            }
+          ]
+        },
+        {
+          "title": "Canonical Pronunciation Examples",
+          "body": "Pronounce each syllable distinctly to keep the rhythmic quality of the language audible.",
+          "list": [
+            "`Aen` -> ah-ehn",
+            "`Azan` -> ah-zahn",
+            "`Pelagae` -> peh-lah-gah-eh",
+            "`Shaleth` -> shah-leth",
+            "`Belshara` -> bel-shah-rah",
+            "`Morlathar` -> mor-lah-thar"
+          ]
+        }
+      ],
+      "examples": "",
+      "notes": "",
+      "relatedHeadwords": [
+        "Aen",
+        "Azan",
+        "Shaleth",
+        "Belshara"
+      ],
+      "related_entry_ids": "",
+      "source_volume": "Volume 1: Fundamentals",
+      "source_section": "Pronunciation",
+      "page_number": "2",
+      "canon_status": "Canon",
+      "synthetic": true,
+      "preview": "Celan balances the firmness of its structure with the smooth flow of its breath.",
+      "searchText": "rg-pronunciation the phonetics of celan: clarity, flow, and euphony phonetics + advanced phonology pronunciation celan balances the firmness of its structure with the smooth flow of its breath.\nits sound system depends on clear vowels, supportive consonants, and euphonic smoothing when a compound grows too harsh.   aen azan shaleth belshara",
+      "lessonId": "LESSON-PRONUNCIATION"
+    },
+    {
+      "id": "RG-NUMBERS-MATH",
+      "rule_name": "Numbers and Basic Math",
+      "category": "Numbering + Math",
+      "displayCategory": "Grammar Tools",
+      "purpose": "How Celan counts, scales numbers, and handles simple arithmetic.",
+      "original_wording": "Celan starts with a base set of number words, then builds upward with prefixes for tens, hundreds, thousands, and beyond.\nAddition is usually shown by additive number building, while subtraction uses the marker Ven between number forms.",
+      "examples": "Base numbers: Verin (0), Unar (1), Del (2), Tren (3), Quen (4), Peth (5), Senar (6), Sethe (7), Oven (8), Nevar (9), Tenar (10)\nTens: Ten-del = 20\nMixed number: Tenar unar = 11\nHundreds: Hek-unar = 100\nThousands: Mel-unar = 1,000\nTen-thousands: Fen-unar = 10,000\nHundred-thousands: Hek-Mel-unar = 100,000\nAddition: Hek-quen Ten-peth = 450 (400 + 50)\nSubtraction: Hek-quen Ven Hek-del = 400 - 200 = 200",
+      "notes": "",
+      "relatedHeadwords": [
+        "Verin",
+        "Unar",
+        "Del",
+        "Tren",
+        "Quen",
+        "Peth",
+        "Senar",
+        "Sethe",
+        "Oven",
+        "Nevar",
+        "Tenar",
+        "Hek-",
+        "Mel-",
+        "Fen-",
+        "Hek-Mel-"
+      ],
+      "related_entry_ids": "",
+      "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+      "source_section": "Numbering System and Basic Math in Celan",
+      "page_number": "29-31",
+      "canon_status": "Canon",
+      "synthetic": true,
+      "preview": "Celan starts with a base set of number words, then builds upward with prefixes for tens, hundreds, thousands, and beyond.",
+      "searchText": "rg-numbers-math numbers and basic math numbering + math grammar tools celan starts with a base set of number words, then builds upward with prefixes for tens, hundreds, thousands, and beyond.\naddition is usually shown by additive number building, while subtraction uses the marker ven between number forms. base numbers: verin (0), unar (1), del (2), tren (3), quen (4), peth (5), senar (6), sethe (7), oven (8), nevar (9), tenar (10)\ntens: ten-del = 20\nmixed number: tenar unar = 11\nhundreds: hek-unar = 100\nthousands: mel-unar = 1,000\nten-thousands: fen-unar = 10,000\nhundred-thousands: hek-mel-unar = 100,000\naddition: hek-quen ten-peth = 450 (400 + 50)\nsubtraction: hek-quen ven hek-del = 400 - 200 = 200  verin unar del tren quen peth senar sethe oven nevar tenar hek- mel- fen- hek-mel-",
+      "lessonId": "LESSON-NUMBER-MEASURE"
+    },
+    {
+      "id": "RG-PREPOSITIONS",
+      "rule_name": "The Architecture of Relation: Prepositions, Place, and Time",
+      "category": "Prepositions",
+      "displayCategory": "Grammar Tools",
+      "purpose": "How Celan uses prepositions as the structural joints of relation, place, and time.",
+      "original_wording": "Because Celan relies on a strict Verb-Subject-Object flow, prepositions do immense structural work.\nThey act as the architectural joints of a sentence, defining movement, accompaniment, absence, elevation, location, and temporal setting.",
+      "guideSections": [
+        {
+          "title": "The Structural Role of Prepositions",
+          "body": "In Celan, prepositions do an immense amount of structural work. Because the language relies on a strict Verb-Subject-Object flow, these small forms act as the architectural joints of a sentence, defining the precise nature of movement, accompaniment, absence, and elevation."
+        },
+        {
+          "title": "The Core Relational Prepositions",
+          "body": "These are the primary markers a new learner should recognize first to navigate the world.",
+          "list": [
+            {
+              "title": "var",
+              "copy": "to, towards — direction or movement toward a destination."
+            },
+            {
+              "title": "ser",
+              "copy": "with — accompaniment or shared presence."
+            },
+            {
+              "title": "thal",
+              "copy": "from, out of — origin, or movement away from a source."
+            },
+            {
+              "title": "ka",
+              "copy": "without — absence, lack, or separation from something."
+            },
+            {
+              "title": "esh",
+              "copy": "above, over — elevation or superior positioning."
+            },
+            {
+              "title": "morl",
+              "copy": "under, beneath — positioned below or physically grounded."
+            }
+          ]
+        },
+        {
+          "title": "The Great Distinction: Space vs. Time",
+          "body": "A common trap for beginners is treating location and time as interchangeable because languages like English often reuse the same small words. Celan demands precision, separating the physical realm from the temporal flow.",
+          "list": [
+            {
+              "title": "an (Place)",
+              "copy": "strictly used for physical or spatial location: at, in, into."
+            },
+            {
+              "title": "nor (Time)",
+              "copy": "strictly used for temporal settings: at, during, in the time of."
+            }
+          ]
+        },
+        {
+          "title": "Canonical examples",
+          "body": null,
+          "list": [
+            "var dren. — To the water.",
+            "var I ser ser. — I go with a friend.",
+            "tha-var la thal Terra. — They went from the Earth.",
+            "var I ka shal. — I go without light.",
+            "moraen I an Varthas. — I stand at the city.",
+            "nor-var I nor Kinnmor. — I will go in the morning.",
+            "var I esh dren. — I go above the water.",
+            "var I morl dren. — I go beneath the water."
+          ]
+        },
+        {
+          "title": "What to notice",
+          "body": "Celan is not trying to be ambiguous. The strict separation of an and nor ensures that even in complex or poetic sentences, the listener always knows where the action is grounded and when it is flowing."
+        }
+      ],
+      "examples": "",
+      "notes": "",
+      "relatedHeadwords": [
+        "Var",
+        "Ser",
+        "Thal",
+        "Ka",
+        "An",
+        "Nor",
+        "Esh",
+        "Morl"
+      ],
+      "related_entry_ids": "",
+      "source_volume": "Volume 1: Fundamentals",
+      "source_section": "Prepositions and Case Markers",
+      "page_number": "8",
+      "canon_status": "Canon",
+      "synthetic": true,
+      "preview": "Because Celan relies on a strict Verb-Subject-Object flow, prepositions do immense structural work.",
+      "searchText": "rg-prepositions the architecture of relation: prepositions, place, and time prepositions grammar tools because celan relies on a strict verb-subject-object flow, prepositions do immense structural work.\nthey act as the architectural joints of a sentence, defining movement, accompaniment, absence, elevation, location, and temporal setting.   var ser thal ka an nor esh morl",
+      "lessonId": "LESSON-POSSESSION-RELATION"
+    },
+    {
+      "id": "RG-VSO",
+      "rule_name": "Action-First Sentence Structure",
+      "category": "Syntax + cultural grammar",
+      "displayCategory": "Sentence Structure",
+      "purpose": "How Celan builds a default sentence and why that order matters.",
+      "original_wording": "Celan primarily follows Verb-Subject-Object (VSO) order.\nThis action-first structure reflects a worldview that foregrounds movement, relation, and what is being done before who is doing it.",
+      "examples": "var I dren. — \"I go to the water.\" (attested bare goal with var)\nvar I an dren. — \"I go to the water.\" (explicit destination with an)\nvar kadron an morl.\nrinaen Terra vaar.\nohmaen I Ya.",
+      "notes": "Both destination forms are attested with var. This pair does not establish bare goals for every motion verb.",
+      "relatedHeadwords": [
+        "Var",
+        "Rinaen",
+        "Ohmaen"
+      ],
+      "related_entry_ids": "",
+      "source_volume": "Volume 1: Fundamentals",
+      "source_section": "Basic Sentence Structure and Syntax Philosophy",
+      "page_number": "3",
+      "canon_status": "Canon",
+      "synthetic": true,
+      "preview": "Celan primarily follows Verb-Subject-Object (VSO) order.",
+      "searchText": "rg-vso action-first sentence structure syntax + cultural grammar sentence structure celan primarily follows verb-subject-object (vso) order.\nthis action-first structure reflects a worldview that foregrounds movement, relation, and what is being done before who is doing it. var i dren. — \"i go to the water.\" (attested bare goal with var)\nvar i an dren. — \"i go to the water.\" (explicit destination with an)\nvar kadron an morl.\nrinaen terra vaar.\nohmaen i ya. both destination forms are attested with var. this pair does not establish bare goals for every motion verb. var rinaen ohmaen",
+      "lessonId": "LESSON-SENTENCE-SHAPE"
+    },
+    {
+      "id": "RG-QUESTIONS-COMMANDS",
+      "rule_name": "Questions and Commands",
+      "category": "Questions/Imperatives",
+      "displayCategory": "Sentence Structure",
+      "purpose": "How Celan asks, negates a question, and gives a command.",
+      "original_wording": "Start ordinary questions with ra.\nFor a negative question, place Ver before the verb.\nFor a direct command, start the sentence with va.",
+      "examples": "ra var ser an dren? — \"Does the friend go to the water?\"\nra ver var ser an dren? — \"Does the friend not go to the water?\"\nva var an dren! — \"Go to the water!\"",
+      "notes": "",
+      "relatedHeadwords": [
+        "Ra",
+        "Va",
+        "Ver"
+      ],
+      "related_entry_ids": "",
+      "source_volume": "Volume 1: Fundamentals",
+      "source_section": "Questions and Imperatives",
+      "page_number": "3",
+      "canon_status": "Canon",
+      "synthetic": true,
+      "preview": "Start ordinary questions with ra.",
+      "searchText": "rg-questions-commands questions and commands questions/imperatives sentence structure start ordinary questions with ra.\nfor a negative question, place ver before the verb.\nfor a direct command, start the sentence with va. ra var ser an dren? — \"does the friend go to the water?\"\nra ver var ser an dren? — \"does the friend not go to the water?\"\nva var an dren! — \"go to the water!\"  ra va ver",
+      "lessonId": "LESSON-SENTENCE-SHAPE"
+    },
+    {
+      "id": "RG-CAPS",
+      "rule_name": "Capitalization and Emphasis",
+      "category": "Orthography",
+      "displayCategory": "Writing Conventions",
+      "purpose": "How Celan uses capitalization for structure, sacred weight, names, and emotional emphasis.",
+      "original_wording": "Celan normally begins sentences with lowercase unless the opening word already qualifies for capitalization.\nCapitals are used for archetypal concepts, names, nations, specific titles, the pronoun I, and sometimes for poetic or emotional emphasis.",
+      "examples": "Sentence start: var I an dren. (not Var I an dren.)\nArchetypal concepts: Terra vs. terra; Dral vs. dral; Rathor vs. rathor\nNames and titles: Velmarin; Eh'lara; Ka'tharyn\nPronoun I: I\nCapitalization examples: Ordinary \"ohmaen I Ya.\" / Poetic \"Rinaen I an Thar-ka.\"",
+      "notes": "",
+      "relatedHeadwords": [
+        "I",
+        "Terra",
+        "Dral",
+        "Rathor"
+      ],
+      "related_entry_ids": "",
+      "source_volume": "Supplement 4B: Celan Capitalization Rules",
+      "source_section": "Capitalization and Emphasis",
+      "page_number": "text",
+      "canon_status": "Canon",
+      "synthetic": true,
+      "preview": "Celan normally begins sentences with lowercase unless the opening word already qualifies for capitalization.",
+      "searchText": "rg-caps capitalization and emphasis orthography writing conventions celan normally begins sentences with lowercase unless the opening word already qualifies for capitalization.\ncapitals are used for archetypal concepts, names, nations, specific titles, the pronoun i, and sometimes for poetic or emotional emphasis. sentence start: var i an dren. (not var i an dren.)\narchetypal concepts: terra vs. terra; dral vs. dral; rathor vs. rathor\nnames and titles: velmarin; eh'lara; ka'tharyn\npronoun i: i\ncapitalization examples: ordinary \"ohmaen i ya.\" / poetic \"rinaen i an thar-ka.\"  i terra dral rathor",
+      "lessonId": "LESSON-WRITING-CONVENTIONS"
+    },
+    {
+      "entry_id": "GR-V1-0006",
+      "source_volume": "Volume 1: Fundamentals",
+      "source_section": "Pronouns and Person Markers > Personal Pronouns",
+      "page_number": "3-4",
+      "rule_name": "Personal Pronouns",
+      "category": "Pronouns",
+      "original_wording": "Celan distinguishes between first, second, and third persons, with singular and plural forms.",
+      "examples": "1st Person Singular: I — Remains simple and universal.\n1st Person Plural: Ilin — Represents \"we\" as a group bound by common purpose.\n2nd Person Singular: Ya — A straightforward pronoun for “you.”\n2nd Person Plural: Yalin — \"You all.\" Signifies a collective of individuals addressed.\n3rd Person Singular: La — Neutral pronoun meaning “he/she/they.”\n3rd Person Plural: Lalin — Means “they” (a group not including speaker or addressee).",
+      "canon_status": "Canon",
+      "notes": "Source table flattened into line-separated entries for CSV; Markdown preserves table structure.",
+      "related_entry_ids": "LX-V1-0001; LX-V1-0002; LX-V1-0003; LX-V1-0004; LX-V1-0005; LX-V1-0006",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-V1-0006",
+      "displayCategory": "Grammar Tools",
+      "purpose": "How this part of Celan is meant to work.",
+      "preview": "Celan distinguishes between first, second, and third persons, with singular and plural forms.",
+      "searchText": "gr-v1-0006 personal pronouns pronouns grammar tools pronouns and person markers > personal pronouns celan distinguishes between first, second, and third persons, with singular and plural forms. 1st person singular: i — remains simple and universal.\n1st person plural: ilin — represents \"we\" as a group bound by common purpose.\n2nd person singular: ya — a straightforward pronoun for “you.”\n2nd person plural: yalin — \"you all.\" signifies a collective of individuals addressed.\n3rd person singular: la — neutral pronoun meaning “he/she/they.”\n3rd person plural: lalin — means “they” (a group not including speaker or addressee). source table flattened into line-separated entries for csv; markdown preserves table structure.",
+      "lessonId": "LESSON-GENDER-ADDRESS-SOCIAL"
+    },
+    {
+      "entry_id": "GR-V1-0008",
+      "source_volume": "Volume 1: Fundamentals",
+      "source_section": "Gendered and Neutral Terms > Rules for Usage > 1. Relational and Poetic Focus",
+      "page_number": "5-6",
+      "rule_name": "Relational and Poetic Focus",
+      "category": "Usage",
+      "original_wording": "Celan terms prioritize relationships and qualities over rigid definitions. For example:",
+      "examples": "tal theon thal an Ilin. — The neutral person gives balance to us.\nnethaen azon an nethor. — The feminine man rests on the seat.",
+      "canon_status": "Canon",
+      "notes": "Bullet structure preserved in examples field.",
+      "related_entry_ids": "PE-V1-0006; PE-V1-0007; PE-V1-0008",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-V1-0008",
+      "displayCategory": "Usage and Register",
+      "purpose": "How social tone and cultural nuance shape this form.",
+      "preview": "Celan terms prioritize relationships and qualities over rigid definitions.",
+      "searchText": "gr-v1-0008 relational and poetic focus usage usage and register gendered and neutral terms > rules for usage > 1. relational and poetic focus celan terms prioritize relationships and qualities over rigid definitions. for example: tal theon thal an ilin. — the neutral person gives balance to us.\nnethaen azon an nethor. — the feminine man rests on the seat. bullet structure preserved in examples field.",
+      "lessonId": "LESSON-POSSESSION-RELATION"
+    },
+    {
+      "entry_id": "GR-V1-0009",
+      "source_volume": "Volume 1: Fundamentals",
+      "source_section": "Gendered and Neutral Terms > Rules for Usage > 2. Contextual Flexibility",
+      "page_number": "6",
+      "rule_name": "Contextual Flexibility",
+      "category": "Usage",
+      "original_wording": "These terms can describe identities in various ways:\n● Default Use: Standalone nouns (e.g., Kadron, Azron, Theon).\n● Descriptive Use: Combine with other terms for clarity or depth.",
+      "examples": "nethaen azon an nethor. — The feminine man rests on the seat.",
+      "canon_status": "Canon",
+      "notes": "Bullet and sub-bullet structure preserved in original_wording/examples fields.",
+      "related_entry_ids": "PE-V1-0009; PE-V1-0010",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-V1-0009",
+      "displayCategory": "Usage and Register",
+      "purpose": "How social tone and cultural nuance shape this form.",
+      "preview": "These terms can describe identities in various ways: Default Use: Standalone nouns (e.",
+      "searchText": "gr-v1-0009 contextual flexibility usage usage and register gendered and neutral terms > rules for usage > 2. contextual flexibility these terms can describe identities in various ways:\n● default use: standalone nouns (e.g., kadron, azron, theon).\n● descriptive use: combine with other terms for clarity or depth. nethaen azon an nethor. — the feminine man rests on the seat. bullet and sub-bullet structure preserved in original_wording/examples fields.",
+      "lessonId": "LESSON-GENDER-ADDRESS-SOCIAL"
+    },
+    {
+      "entry_id": "GR-V1-0010",
+      "source_volume": "Volume 1: Fundamentals",
+      "source_section": "Gendered and Neutral Terms > Rules for Usage > 3. Cultural Variations",
+      "page_number": "6",
+      "rule_name": "Cultural Variations",
+      "category": "Usage",
+      "original_wording": "Each Ohnoshan culture may adapt these terms to fit their values:\n● Pelagae: Emphasizes fluidity and uses Azon frequently for spiritual men.\n● Nivveil: Highlights balance, favoring Thee-based descriptors.\n● Valkeldor: Values strength and may use Kadon to honor warrior women.",
+      "examples": "",
+      "canon_status": "Canon",
+      "notes": "Bullet structure preserved in original_wording field. Also represented in culture_and_context.csv.",
+      "related_entry_ids": "CC-V1-0004",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-V1-0010",
+      "displayCategory": "Usage and Register",
+      "purpose": "How social tone and cultural nuance shape this form.",
+      "preview": "Each Ohnoshan culture may adapt these terms to fit their values: Pelagae: Emphasizes fluidity and uses Azon frequently for spiritual men.",
+      "searchText": "gr-v1-0010 cultural variations usage usage and register gendered and neutral terms > rules for usage > 3. cultural variations each ohnoshan culture may adapt these terms to fit their values:\n● pelagae: emphasizes fluidity and uses azon frequently for spiritual men.\n● nivveil: highlights balance, favoring thee-based descriptors.\n● valkeldor: values strength and may use kadon to honor warrior women.  bullet structure preserved in original_wording field. also represented in culture_and_context.csv.",
+      "lessonId": "LESSON-GENDER-ADDRESS-SOCIAL"
+    },
+    {
+      "entry_id": "GR-V1-0011",
+      "source_volume": "Volume 1: Fundamentals",
+      "source_section": "Gendered and Neutral Terms > Advanced Applications > 1. Gender-Neutral Address",
+      "page_number": "6",
+      "rule_name": "Gender-Neutral Address",
+      "category": "Usage",
+      "original_wording": "Use Thee terms for inclusivity in formal or neutral contexts:",
+      "examples": "tal theon thal an Ilin. — The neutral person gives balance to us.",
+      "canon_status": "Canon",
+      "notes": "Bullet structure preserved in examples field.",
+      "related_entry_ids": "PE-V1-0011; PE-V1-0012",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-V1-0011",
+      "displayCategory": "Usage and Register",
+      "purpose": "How social tone and cultural nuance shape this form.",
+      "preview": "Use Thee terms for inclusivity in formal or neutral contexts:",
+      "searchText": "gr-v1-0011 gender-neutral address usage usage and register gendered and neutral terms > advanced applications > 1. gender-neutral address use thee terms for inclusivity in formal or neutral contexts: tal theon thal an ilin. — the neutral person gives balance to us. bullet structure preserved in examples field.",
+      "lessonId": "LESSON-GENDER-ADDRESS-SOCIAL"
+    },
+    {
+      "entry_id": "GR-V1-0012",
+      "source_volume": "Volume 1: Fundamentals",
+      "source_section": "Gendered and Neutral Terms > Advanced Applications > 2. Combining Qualities",
+      "page_number": "6",
+      "rule_name": "Combining Qualities",
+      "category": "Usage",
+      "original_wording": "Layer terms to reflect specific traits:",
+      "examples": "● Kadron-Azon: A man with both masculine and feminine qualities.\n● Azron-Theon: A woman embodying neutrality and balance.",
+      "canon_status": "Canon",
+      "notes": "Bullet structure preserved in examples field.",
+      "related_entry_ids": "PE-V1-0013; PE-V1-0014",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-V1-0012",
+      "displayCategory": "Usage and Register",
+      "purpose": "How social tone and cultural nuance shape this form.",
+      "preview": "Layer terms to reflect specific traits:",
+      "searchText": "gr-v1-0012 combining qualities usage usage and register gendered and neutral terms > advanced applications > 2. combining qualities layer terms to reflect specific traits: ● kadron-azon: a man with both masculine and feminine qualities.\n● azron-theon: a woman embodying neutrality and balance. bullet structure preserved in examples field.",
+      "lessonId": "LESSON-GENDER-ADDRESS-SOCIAL"
+    },
+    {
+      "entry_id": "GR-V1-0014",
+      "source_volume": "Volume 1: Fundamentals",
+      "source_section": "Grammar > Tenses and Aspects",
+      "page_number": "7",
+      "rule_name": "Tenses and Aspects",
+      "category": "Tense/Aspect",
+      "original_wording": "Celan verbs do not conjugate based on tense. Instead, tenses are indicated by prefixes and suffixes.",
+      "examples": "Present: var I dren. / I go to the water.\nPast: tha-var I dren. / I went to the water.\nFuture: nor-var I dren. / I will go to the water.\nContinuous: varal I dren. / I am going to the water.\nPerfective: varath I dren. / I have gone to the water.\nHabitual: varas I dren. / I usually go to the water.\nAlso attested with explicit destination: var I an dren. The bare goal is attested for var; do not generalize it to every motion verb.",
+      "canon_status": "Canon",
+      "notes": "Source table flattened into line-separated entries for CSV; Markdown preserves table structure.",
+      "related_entry_ids": "RM-V1-0004; RM-V1-0005; RM-V1-0006; RM-V1-0007; RM-V1-0008; PE-V1-0017; PE-V1-0018; PE-V1-0019; PE-V1-0020; PE-V1-0021; PE-V1-0022",
+      "relationship_type": "related usage",
+      "potential_tension_id": "PT-V1-0004",
+      "review_status": "Needs Human Review",
+      "review_reason": "terminology overlap",
+      "id": "GR-V1-0014",
+      "displayCategory": "Grammar Tools",
+      "purpose": "How this part of Celan is meant to work.",
+      "preview": "Celan verbs do not conjugate based on tense.",
+      "searchText": "gr-v1-0014 tenses and aspects tense/aspect grammar tools grammar > tenses and aspects celan verbs do not conjugate based on tense. instead, tenses are indicated by prefixes and suffixes. present: var i dren. / i go to the water.\npast: tha-var i dren. / i went to the water.\nfuture: nor-var i dren. / i will go to the water.\ncontinuous: varal i dren. / i am going to the water.\nperfective: varath i dren. / i have gone to the water.\nhabitual: varas i dren. / i usually go to the water.\nalso attested with explicit destination: var i an dren. the bare goal is attested for var; do not generalize it to every motion verb. source table flattened into line-separated entries for csv; markdown preserves table structure.",
+      "lessonId": "LESSON-SENTENCE-SHAPE"
+    },
+    {
+      "entry_id": "GR-V1-0015",
+      "source_volume": "Volume 1: Fundamentals",
+      "source_section": "Grammar > Negation",
+      "page_number": "7",
+      "rule_name": "Negation",
+      "category": "Negation",
+      "original_wording": "Negation is formed by placing Ver before the verb or noun.\n● Verb Negation: Ver before the verb negates it.\n● Noun Negation: Ver before a noun negates its existence.",
+      "examples": "ver var I dren. — I do not go to the water.",
+      "canon_status": "Canon",
+      "notes": "Bullet and sub-bullet structure preserved in original_wording/examples fields.",
+      "related_entry_ids": "RM-V1-0009; PE-V1-0023; PE-V1-0024",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-V1-0015",
+      "displayCategory": "Grammar Tools",
+      "purpose": "How this part of Celan is meant to work.",
+      "preview": "Negation is formed by placing Ver before the verb or noun.",
+      "searchText": "gr-v1-0015 negation negation grammar tools grammar > negation negation is formed by placing ver before the verb or noun.\n● verb negation: ver before the verb negates it.\n● noun negation: ver before a noun negates its existence. ver var i dren. — i do not go to the water. bullet and sub-bullet structure preserved in original_wording/examples fields.",
+      "lessonId": "LESSON-SENTENCE-SHAPE"
+    },
+    {
+      "entry_id": "GR-V1-0017",
+      "source_volume": "Volume 1: Fundamentals",
+      "source_section": "Grammar > Conditionals",
+      "page_number": "7-8",
+      "rule_name": "Conditionals",
+      "category": "Conditionals",
+      "original_wording": "● Conditional “If”: Use Rath to introduce conditions.\n● Hypothetical Future: Combine Rath with future tense.\n● Contrary-to-Fact: Use past tense markers.",
+      "examples": "rath var ser, var I dren. — If the friend goes, I go to the water.\nrath nor-var ser, nor-var I dren. — If the friend will go, I will go to the water.",
+      "canon_status": "Canon",
+      "notes": "Bullet and sub-bullet structure preserved in original_wording/examples fields.",
+      "related_entry_ids": "RM-V1-0012; PE-V1-0028; PE-V1-0029; PE-V1-0030",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-V1-0017",
+      "displayCategory": "Sentence Structure",
+      "purpose": "How Celan sets up if-then logic and possibility.",
+      "preview": "Conditional “If”: Use Rath to introduce conditions.",
+      "searchText": "gr-v1-0017 conditionals conditionals sentence structure grammar > conditionals ● conditional “if”: use rath to introduce conditions.\n● hypothetical future: combine rath with future tense.\n● contrary-to-fact: use past tense markers. rath var ser, var i dren. — if the friend goes, i go to the water.\nrath nor-var ser, nor-var i dren. — if the friend will go, i will go to the water. bullet and sub-bullet structure preserved in original_wording/examples fields.",
+      "lessonId": "LESSON-SENTENCE-SHAPE"
+    },
+    {
+      "entry_id": "GR-V2-0001",
+      "source_volume": "Volume 2: Dictionary and Word Formation",
+      "source_section": "Word Formation and Morphology > Pluralization",
+      "page_number": "13",
+      "rule_name": "Pluralization",
+      "category": "Morphology",
+      "original_wording": "Rule:\n● -in is added to nouns ending in consonants.\n● -n is added to nouns ending in vowels.",
+      "examples": "● Ser (friend) → Serin (friends)\n● Thar (heart) → Tharin (hearts)\n● Esh (sky) → Eshin (skies)\n● Dren (water) → Drenin (waters)\n● Tera (home) → Teran (homes)",
+      "canon_status": "Canon",
+      "notes": "Bullet structure preserved in original_wording/examples fields.",
+      "related_entry_ids": "RM-V2-0029; RM-V2-0030",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-V2-0001",
+      "displayCategory": "Word Building",
+      "purpose": "How Celan turns one thing into many.",
+      "preview": "Rule: -in is added to nouns ending in consonants.",
+      "searchText": "gr-v2-0001 pluralization morphology word building word formation and morphology > pluralization rule:\n● -in is added to nouns ending in consonants.\n● -n is added to nouns ending in vowels. ● ser (friend) → serin (friends)\n● thar (heart) → tharin (hearts)\n● esh (sky) → eshin (skies)\n● dren (water) → drenin (waters)\n● tera (home) → teran (homes) bullet structure preserved in original_wording/examples fields.",
+      "lessonId": "LESSON-WORD-BUILDING"
+    },
+    {
+      "entry_id": "GR-V2-0002",
+      "source_volume": "Volume 2: Dictionary and Word Formation",
+      "source_section": "Word Formation and Morphology > Derivation and Word Formation",
+      "page_number": "14",
+      "rule_name": "Derivation and Word Formation",
+      "category": "Morphology",
+      "original_wording": "Suffixes:\n● -or: Place/Location\n● -en: Honorific/Respected form\n● -lin: Collective/Diminutive\n● -aen: Verb-forming\nPrefixes:\n● Tha-: Past tense\n● Nor-: Future tense\n● Ver-: Negation\n● Li-: Respect/Honorific",
+      "examples": "● -or: Place/Location / Shal + or = Shalor (sanctuary/light place)\n● -en: Honorific/Respected form / Liorin + en = Liorinen (honored elder/teacher)\n● -lin: Collective/Diminutive / Elin = child; Ilin = we\n● -aen: Verb-forming / Lian (truth) → Lianaen (to speak truth)\n● Tha-: Past tense\n● Nor-: Future tense\n● Ver-: Negation\n● Li-: Respect/Honorific",
+      "canon_status": "Canon",
+      "notes": "Bullet structure preserved; examples also represented as morpheme rows.",
+      "related_entry_ids": "RM-V2-0031; RM-V2-0032; RM-V2-0033; RM-V2-0034; RM-V2-0035; RM-V2-0036; RM-V2-0037; RM-V2-0038",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-V2-0002",
+      "displayCategory": "Word Building",
+      "purpose": "How parts combine to build new meaning.",
+      "preview": "Suffixes: -or: Place/Location -en: Honorific/Respected form -lin: Collective/Diminutive -aen: Verb-forming Prefixes: Tha-: Past tense Nor-: Future tense Ver-: Negation Li-: Respect/Honorific",
+      "searchText": "gr-v2-0002 derivation and word formation morphology word building word formation and morphology > derivation and word formation suffixes:\n● -or: place/location\n● -en: honorific/respected form\n● -lin: collective/diminutive\n● -aen: verb-forming\nprefixes:\n● tha-: past tense\n● nor-: future tense\n● ver-: negation\n● li-: respect/honorific ● -or: place/location / shal + or = shalor (sanctuary/light place)\n● -en: honorific/respected form / liorin + en = liorinen (honored elder/teacher)\n● -lin: collective/diminutive / elin = child; ilin = we\n● -aen: verb-forming / lian (truth) → lianaen (to speak truth)\n● tha-: past tense\n● nor-: future tense\n● ver-: negation\n● li-: respect/honorific bullet structure preserved; examples also represented as morpheme rows.",
+      "lessonId": "LESSON-WORD-BUILDING"
+    },
+    {
+      "entry_id": "GR-V2-0003",
+      "source_volume": "Volume 2: Dictionary and Word Formation",
+      "source_section": "Word Formation and Morphology > Compounding",
+      "page_number": "14",
+      "rule_name": "Compounding",
+      "category": "Morphology",
+      "original_wording": "Rule:\n● Primary root comes first, refining the meaning with the second root.",
+      "examples": "● Terra + Dren = Terradren (fertile soil/well-irrigated land)\n● Dren + Shal = Drenshal (reflective pool/crystal-clear spring)\n● Morl + Dren = Morldren (waterfall/mountain stream)\n● Terra + Esh = Terraesh (horizon/place where earth meets sky)\n● Krez + or = Krezor (forge)",
+      "canon_status": "Canon",
+      "notes": "Bullet structure preserved in original_wording/examples fields.",
+      "related_entry_ids": "LX-V2-0142; LX-V2-0143; LX-V2-0144; LX-V2-0145; LX-V2-0146",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-V2-0003",
+      "displayCategory": "Word Building",
+      "purpose": "How parts combine to build new meaning.",
+      "preview": "Rule: Primary root comes first, refining the meaning with the second root.",
+      "searchText": "gr-v2-0003 compounding morphology word building word formation and morphology > compounding rule:\n● primary root comes first, refining the meaning with the second root. ● terra + dren = terradren (fertile soil/well-irrigated land)\n● dren + shal = drenshal (reflective pool/crystal-clear spring)\n● morl + dren = morldren (waterfall/mountain stream)\n● terra + esh = terraesh (horizon/place where earth meets sky)\n● krez + or = krezor (forge) bullet structure preserved in original_wording/examples fields.",
+      "lessonId": "LESSON-WORD-BUILDING"
+    },
+    {
+      "entry_id": "GR-V2-0004",
+      "source_volume": "Volume 2: Dictionary and Word Formation",
+      "source_section": "Nuances of Quantification and Specificity > Articles (Definite/Indefinite)",
+      "page_number": "22",
+      "rule_name": "Articles (Definite/Indefinite)",
+      "category": "Articles",
+      "original_wording": "Decision: Confirming Celan generally lacks specific articles like \"the\" or \"a/an\". Definiteness and indefiniteness are primarily determined by context, word order (VSO often places known info earlier), or specific demonstratives if needed (though none explicitly listed, could be developed).",
+      "examples": "",
+      "canon_status": "Canon",
+      "notes": "Source contains \"could be developed\" uncertainty; preserved without resolving.",
+      "related_entry_ids": "",
+      "relationship_type": "",
+      "potential_tension_id": "PT-V2-0020",
+      "review_status": "Source Ambiguity",
+      "review_reason": "source ambiguity",
+      "id": "GR-V2-0004",
+      "displayCategory": "Grammar Tools",
+      "purpose": "How Celan marks definiteness and indefiniteness.",
+      "preview": "Decision: Confirming Celan generally lacks specific articles like \"the\" or \"a/an\".",
+      "searchText": "gr-v2-0004 articles (definite/indefinite) articles grammar tools nuances of quantification and specificity > articles (definite/indefinite) decision: confirming celan generally lacks specific articles like \"the\" or \"a/an\". definiteness and indefiniteness are primarily determined by context, word order (vso often places known info earlier), or specific demonstratives if needed (though none explicitly listed, could be developed).  source contains \"could be developed\" uncertainty; preserved without resolving.",
+      "lessonId": "LESSON-NUMBER-MEASURE"
+    },
+    {
+      "entry_id": "GR-V2-0005",
+      "source_volume": "Volume 2: Dictionary and Word Formation",
+      "source_section": "Nuances of Quantification and Specificity > Quantifiers",
+      "page_number": "22-23",
+      "rule_name": "Quantifiers",
+      "category": "Quantification",
+      "original_wording": "Quantifiers are placed before the noun they modify.",
+      "examples": "Ilinor; Som; Melen; Felin; Ekor",
+      "canon_status": "Canon",
+      "notes": "Rule inferred from repeated source usage lines that say \"Usage: Placed before the noun.\" No canon wording changed.",
+      "related_entry_ids": "",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-V2-0005",
+      "displayCategory": "Grammar Tools",
+      "purpose": "How this part of Celan is meant to work.",
+      "preview": "Quantifiers are placed before the noun they modify.",
+      "searchText": "gr-v2-0005 quantifiers quantification grammar tools nuances of quantification and specificity > quantifiers quantifiers are placed before the noun they modify. ilinor; som; melen; felin; ekor rule inferred from repeated source usage lines that say \"usage: placed before the noun.\" no canon wording changed.",
+      "lessonId": "LESSON-NUMBER-MEASURE"
+    },
+    {
+      "entry_id": "GR-V3-0001",
+      "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+      "source_section": "Politeness and Honorifics > Levels of Politeness",
+      "page_number": "4",
+      "rule_name": "Levels of Politeness",
+      "category": "Politeness",
+      "original_wording": "1. Casual/Familiar:\n○ Use plain pronouns and address by name or role without modifiers.\n2. Respectful/Polite:\n○ Add Li- prefix to show respect.\n3. Honorific/Formal-High Respect:\n○ Use both Li- and -en suffix.",
+      "examples": "var I dren, Ser. — I go to the water, friend.\nvar I dren, Li-Ser. — I go to the water, respected friend.\nvar Li-Ya dren. — You, respected one, go to the water.",
+      "canon_status": "Canon",
+      "notes": "Numbered/bulleted structure preserved.",
+      "related_entry_ids": "RM-V3-0001; RM-V3-0002",
+      "relationship_type": "related usage",
+      "potential_tension_id": "PT-V3-0001",
+      "review_status": "Needs Human Review",
+      "review_reason": "possible overlap with earlier rule",
+      "id": "GR-V3-0001",
+      "displayCategory": "Usage and Register",
+      "purpose": "How respect and social distance change phrasing.",
+      "preview": "1.",
+      "searchText": "gr-v3-0001 levels of politeness politeness usage and register politeness and honorifics > levels of politeness 1. casual/familiar:\n○ use plain pronouns and address by name or role without modifiers.\n2. respectful/polite:\n○ add li- prefix to show respect.\n3. honorific/formal-high respect:\n○ use both li- and -en suffix. var i dren, ser. — i go to the water, friend.\nvar i dren, li-ser. — i go to the water, respected friend.\nvar li-ya dren. — you, respected one, go to the water. numbered/bulleted structure preserved.",
+      "lessonId": "LESSON-GENDER-ADDRESS-SOCIAL"
+    },
+    {
+      "entry_id": "GR-V3-0003",
+      "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+      "source_section": "Complex Sentence Structures > Relative Clauses",
+      "page_number": "7-8",
+      "rule_name": "Relative Clauses",
+      "category": "Complex Syntax",
+      "original_wording": "Relative Pronoun: Lior (who/which)\nStructure:\n● Noun + Lior + Clause",
+      "examples": "Ser Lior var an dren. — The friend who goes to the water.\nvar I an terra ser Ser Lior var an dren. — I go home with the friend who goes to the water.",
+      "canon_status": "Canon",
+      "notes": "Bullet/list structure preserved.",
+      "related_entry_ids": "",
+      "relationship_type": "",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-V3-0003",
+      "displayCategory": "Sentence Structure",
+      "purpose": "How this sentence pattern is meant to work.",
+      "preview": "Relative Pronoun: Lior (who/which) Structure: Noun + Lior + Clause",
+      "searchText": "gr-v3-0003 relative clauses complex syntax sentence structure complex sentence structures > relative clauses relative pronoun: lior (who/which)\nstructure:\n● noun + lior + clause ser lior var an dren. — the friend who goes to the water.\nvar i an terra ser ser lior var an dren. — i go home with the friend who goes to the water. bullet/list structure preserved.",
+      "lessonId": "LESSON-SENTENCE-SHAPE"
+    },
+    {
+      "entry_id": "GR-V3-0004",
+      "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+      "source_section": "Complex Sentence Structures > Comparatives and Superlatives",
+      "page_number": "7-8",
+      "rule_name": "Comparatives and Superlatives",
+      "category": "Complex Syntax",
+      "original_wording": "Comparatives:\n● Ther (more than)\nStructure:\n● X Adjective Ther Y\nSuperlatives:\n● Thaal (most)\nStructure:\n● X Adjective Thaal",
+      "examples": "rinaen dren-ian shaleth ther La-ka dren. — My water is brighter than their water.\nrinaen dren-ian shaleth thaal. — My water is brightest.\nrinaen dren-ian shaleth thaal morldren. — My water is brightest of mountain waters.",
+      "canon_status": "Canon",
+      "notes": "Human-approved fused spelling applied in example: morldren. Wording otherwise preserved.",
+      "related_entry_ids": "",
+      "relationship_type": "",
+      "potential_tension_id": "PT-V3-0009",
+      "review_status": "Needs Human Review",
+      "review_reason": "possible overlap with earlier rule",
+      "id": "GR-V3-0004",
+      "displayCategory": "Sentence Structure",
+      "purpose": "How this sentence pattern is meant to work.",
+      "preview": "Comparatives: Ther (more than) Structure: X Adjective Ther Y Superlatives: Thaal (most) Structure: X Adjective Thaal",
+      "searchText": "gr-v3-0004 comparatives and superlatives complex syntax sentence structure complex sentence structures > comparatives and superlatives comparatives:\n● ther (more than)\nstructure:\n● x adjective ther y\nsuperlatives:\n● thaal (most)\nstructure:\n● x adjective thaal rinaen dren-ian shaleth ther la-ka dren. — my water is brighter than their water.\nrinaen dren-ian shaleth thaal. — my water is brightest.\nrinaen dren-ian shaleth thaal morldren. — my water is brightest of mountain waters. human-approved fused spelling applied in example: morldren. wording otherwise preserved.",
+      "lessonId": "LESSON-SENTENCE-SHAPE"
+    },
+    {
+      "entry_id": "GR-V3-0005",
+      "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+      "source_section": "Complex Sentence Structures > Conditionals",
+      "page_number": "7-8",
+      "rule_name": "Conditionals",
+      "category": "Complex Syntax",
+      "original_wording": "Conditional Marker: Rath (if)\nStructure:\n● Rath + Clause + Main Clause",
+      "examples": "rath var Ya dren, nor-var I dren. — If you go to the water, I will go to the water.\nrath tha-var Ya an dren, tha-talaen I emil. — If you had gone to the water, I would have gotten food.",
+      "canon_status": "Canon",
+      "notes": "Bullet/list structure preserved.",
+      "related_entry_ids": "",
+      "relationship_type": "",
+      "potential_tension_id": "PT-V3-0010",
+      "review_status": "Needs Human Review",
+      "review_reason": "possible overlap with earlier rule",
+      "id": "GR-V3-0005",
+      "displayCategory": "Sentence Structure",
+      "purpose": "How Celan sets up if-then logic and possibility.",
+      "preview": "Conditional Marker: Rath (if) Structure: Rath + Clause + Main Clause",
+      "searchText": "gr-v3-0005 conditionals complex syntax sentence structure complex sentence structures > conditionals conditional marker: rath (if)\nstructure:\n● rath + clause + main clause rath var ya dren, nor-var i dren. — if you go to the water, i will go to the water.\nrath tha-var ya an dren, tha-talaen i emil. — if you had gone to the water, i would have gotten food. bullet/list structure preserved.",
+      "lessonId": "LESSON-SENTENCE-SHAPE"
+    },
+    {
+      "entry_id": "GR-V4-0001",
+      "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+      "source_section": "Systemic Expansion > Section 2.1: The Adjectival Suffix -eth",
+      "page_number": "2-3",
+      "rule_name": "The Adjectival Suffix -eth",
+      "category": "Derivation",
+      "original_wording": "The suffix -eth, previously observed in ceremonial nouns (e.g., Shal'taleth) and the comparative adjective shaleth (brighter), is now formally established as one of Celan's most important derivational suffixes. It serves a dual function, creating both adjectives and abstract ritual nouns from a single root.",
+      "examples": "Adjectival: Shal → Shaleth; Wor → Woreth; Gorm → Gormeth; Kal → Kaleth\nNominal/Ritual: Shal'taleth; Aen'Moreth",
+      "canon_status": "Canon",
+      "notes": "Bullet/list structure preserved in examples.",
+      "related_entry_ids": "RM-V4-0001; PT-V3-0009; PT-V3-0013",
+      "relationship_type": "refinement",
+      "potential_tension_id": "PT-V4-0002",
+      "review_status": "Needs Human Review",
+      "review_reason": "possible overlap with earlier rule",
+      "id": "GR-V4-0001",
+      "displayCategory": "Word Building",
+      "purpose": "How parts combine to build new meaning.",
+      "preview": "The suffix -eth, previously observed in ceremonial nouns (e.",
+      "searchText": "gr-v4-0001 the adjectival suffix -eth derivation word building systemic expansion > section 2.1: the adjectival suffix -eth the suffix -eth, previously observed in ceremonial nouns (e.g., shal'taleth) and the comparative adjective shaleth (brighter), is now formally established as one of celan's most important derivational suffixes. it serves a dual function, creating both adjectives and abstract ritual nouns from a single root. adjectival: shal → shaleth; wor → woreth; gorm → gormeth; kal → kaleth\nnominal/ritual: shal'taleth; aen'moreth bullet/list structure preserved in examples.",
+      "lessonId": "LESSON-WORD-BUILDING"
+    },
+    {
+      "entry_id": "GR-V4-0002",
+      "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+      "source_section": "Systemic Expansion > Section 2.2: A System for Verb Mood and Modality",
+      "page_number": "3",
+      "rule_name": "Verb Mood and Modality",
+      "category": "Modality",
+      "original_wording": "To express concepts of ability, necessity, and desire, Celan employs a system of modal adverbs placed after the subject in a VSO sentence.",
+      "examples": "Ability: Lianeth; Necessity: Belshara; Possibility: Rethlian; Desire: Thar-ka",
+      "canon_status": "Canon",
+      "notes": "List structure preserved.",
+      "related_entry_ids": "",
+      "relationship_type": "",
+      "potential_tension_id": "PT-V4-0003",
+      "review_status": "Needs Human Review",
+      "review_reason": "possible overlap with earlier rule",
+      "id": "GR-V4-0002",
+      "displayCategory": "Grammar Tools",
+      "purpose": "How this part of Celan is meant to work.",
+      "preview": "To express concepts of ability, necessity, and desire, Celan employs a system of modal adverbs placed after the subject in a VSO sentence.",
+      "searchText": "gr-v4-0002 verb mood and modality modality grammar tools systemic expansion > section 2.2: a system for verb mood and modality to express concepts of ability, necessity, and desire, celan employs a system of modal adverbs placed after the subject in a vso sentence. ability: lianeth; necessity: belshara; possibility: rethlian; desire: thar-ka list structure preserved.",
+      "lessonId": "LESSON-WORD-BUILDING"
+    },
+    {
+      "entry_id": "GR-V4-0003",
+      "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+      "source_section": "Systemic Expansion > Section 2.2: Subjunctive Mood",
+      "page_number": "3",
+      "rule_name": "Subjunctive Mood",
+      "category": "Mood",
+      "original_wording": "Rule: Place the particle vael at the beginning of a clause to express wishes, hopes, suggestions, or conditions that are not currently real.",
+      "examples": "Vael vaar an shara-ya. (May peace be on your path.)\nVael rinaen I an eshlin, varal I an esh. (If I were a bird, I would be going to the sky.)\nVael aen Ya. (May you speak / Please speak.)",
+      "canon_status": "Canon",
+      "notes": "Bullet/list structure preserved.",
+      "related_entry_ids": "RM-V4-0002",
+      "relationship_type": "related usage",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-V4-0003",
+      "displayCategory": "Grammar Tools",
+      "purpose": "How this part of Celan is meant to work.",
+      "preview": "Rule: Place the particle vael at the beginning of a clause to express wishes, hopes, suggestions, or conditions that are not currently real.",
+      "searchText": "gr-v4-0003 subjunctive mood mood grammar tools systemic expansion > section 2.2: subjunctive mood rule: place the particle vael at the beginning of a clause to express wishes, hopes, suggestions, or conditions that are not currently real. vael vaar an shara-ya. (may peace be on your path.)\nvael rinaen i an eshlin, varal i an esh. (if i were a bird, i would be going to the sky.)\nvael aen ya. (may you speak / please speak.) bullet/list structure preserved.",
+      "lessonId": "LESSON-WORD-BUILDING"
+    },
+    {
+      "entry_id": "GR-V4-0004",
+      "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+      "source_section": "Systemic Expansion > Section 2.3: The Passive Voice (The Echo Particle nor-ka)",
+      "page_number": "4",
+      "rule_name": "Passive Voice: nor-ka",
+      "category": "Passive Voice",
+      "original_wording": "Celan expresses the passive voice not by modifying the verb, but by re-contextualizing the object as the \"echo\" or \"wake\" of a completed action whose agent is unknown or unimportant.",
+      "examples": "Active: pralaen Azron belkor. — The woman makes the tunic.\nPassive: pralaen belkor an Azron nor-ka. — The tunic was made by the woman.",
+      "canon_status": "Canon",
+      "notes": "Source rule says Verb + Object + [particle]; missing particle text in extraction inferred from section particle nor-ka, flagged.",
+      "related_entry_ids": "RM-V4-0003",
+      "relationship_type": "related usage",
+      "potential_tension_id": "PT-V4-0004",
+      "review_status": "Source Ambiguity",
+      "review_reason": "source ambiguity",
+      "id": "GR-V4-0004",
+      "displayCategory": "Grammar Tools",
+      "purpose": "How this part of Celan is meant to work.",
+      "preview": "Celan expresses the passive voice not by modifying the verb, but by re-contextualizing the object as the \"echo\" or \"wake\" of a completed action whose agent is unknown or unimportant.",
+      "searchText": "gr-v4-0004 passive voice: nor-ka passive voice grammar tools systemic expansion > section 2.3: the passive voice (the echo particle nor-ka) celan expresses the passive voice not by modifying the verb, but by re-contextualizing the object as the \"echo\" or \"wake\" of a completed action whose agent is unknown or unimportant. active: pralaen azron belkor. — the woman makes the tunic.\npassive: pralaen belkor an azron nor-ka. — the tunic was made by the woman. source rule says verb + object + [particle]; missing particle text in extraction inferred from section particle nor-ka, flagged.",
+      "lessonId": "LESSON-SENTENCE-SHAPE"
+    },
+    {
+      "entry_id": "GR-V4-0005",
+      "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+      "source_section": "Systemic Expansion > Section 2.4: Advanced Pronouns (Dual & Clusivity)",
+      "page_number": "4-5",
+      "rule_name": "Advanced Pronouns: Dual Number and Clusivity",
+      "category": "Pronouns",
+      "original_wording": "The Celan pronoun system is expanded with the Dual Number and Clusivity. Dual pronouns replace plural counterparts when the group consists of exactly two entities. Use Ilin when including the listener; use Imen when referring to your group to an outsider.",
+      "examples": "Inko; Yako; Lako; Ilin; Imen",
+      "canon_status": "Canon",
+      "notes": "Pronoun expansion preserved separately from earlier pronoun systems.",
+      "related_entry_ids": "",
+      "relationship_type": "",
+      "potential_tension_id": "PT-V4-0005",
+      "review_status": "Needs Human Review",
+      "review_reason": "possible overlap with earlier rule",
+      "id": "GR-V4-0005",
+      "displayCategory": "Grammar Tools",
+      "purpose": "How this part of Celan is meant to work.",
+      "preview": "The Celan pronoun system is expanded with the Dual Number and Clusivity.",
+      "searchText": "gr-v4-0005 advanced pronouns: dual number and clusivity pronouns grammar tools systemic expansion > section 2.4: advanced pronouns (dual & clusivity) the celan pronoun system is expanded with the dual number and clusivity. dual pronouns replace plural counterparts when the group consists of exactly two entities. use ilin when including the listener; use imen when referring to your group to an outsider. inko; yako; lako; ilin; imen pronoun expansion preserved separately from earlier pronoun systems.",
+      "lessonId": "LESSON-NUMBER-MEASURE"
+    },
+    {
+      "entry_id": "GR-V4-0006",
+      "source_volume": "Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech",
+      "source_section": "The Living Lexicon > Section 3.7: Essential Conjunctions",
+      "page_number": "12",
+      "rule_name": "Essential Conjunctions",
+      "category": "Conjunctions",
+      "original_wording": "Conjunctions are the grammatical glue that connects words, phrases, and clauses. Ser is re-purposed from Ser (With) as And. Reth is re-purposed from Reth (Uncertainty) as Or.",
+      "examples": "Rinaen morlak ser dren. / Ra drenaen Ya dren reth phelvin?",
+      "canon_status": "Canon",
+      "notes": "Table rows represented as linked lexicon and phrase rows.",
+      "related_entry_ids": "",
+      "relationship_type": "",
+      "potential_tension_id": "PT-V4-0006; PT-V4-0007",
+      "review_status": "Needs Human Review",
+      "review_reason": "terminology overlap",
+      "id": "GR-V4-0006",
+      "displayCategory": "Grammar Tools",
+      "purpose": "How Celan links words, clauses, and ideas together.",
+      "preview": "Conjunctions are the grammatical glue that connects words, phrases, and clauses.",
+      "searchText": "gr-v4-0006 essential conjunctions conjunctions grammar tools the living lexicon > section 3.7: essential conjunctions conjunctions are the grammatical glue that connects words, phrases, and clauses. ser is re-purposed from ser (with) as and. reth is re-purposed from reth (uncertainty) as or. rinaen morlak ser dren. / ra drenaen ya dren reth phelvin? table rows represented as linked lexicon and phrase rows.",
+      "lessonId": "LESSON-SENTENCE-SHAPE"
+    },
+    {
+      "entry_id": "GR-SIP1-0001",
+      "source_volume": "Editorial Canon Expansion",
+      "source_section": "Short Interrogative Particles and Optional Question Frame",
+      "page_number": "2026-09-17",
+      "rule_name": "Optional content-question tails",
+      "category": "Syntax",
+      "original_wording": "Standard questions begin with ra. In a content question a speaker may close the clause with mu what nu when zhe why sha how lo where or ri who to name the missing answer category. The closing particle is grammatically correct but optional. Without it context may supply the intended answer type. Ri does not distinguish English who from whom.",
+      "examples": "ra var ser? / Where does the friend go? Context supplies place. / ra var ser lo? / Where does the friend go? Lo makes place explicit.",
+      "canon_status": "Canon",
+      "notes": "User-approved canon expansion. Preserves the shorter source construction while adding an optional explicit frame.",
+      "related_entry_ids": "LX-SIP1-0001; LX-SIP1-0002; LX-SIP1-0003; LX-SIP1-0004; LX-SIP1-0005; LX-SIP1-0006; PE-SIP1-0001; PE-SIP1-0012",
+      "relationship_type": "expansion",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-SIP1-0001",
+      "displayCategory": "Sentence Structure",
+      "purpose": "How Celan asks, commands, and pushes a sentence forward.",
+      "preview": "Standard questions begin with ra.",
+      "searchText": "gr-sip1-0001 optional content-question tails syntax sentence structure short interrogative particles and optional question frame standard questions begin with ra. in a content question a speaker may close the clause with mu what nu when zhe why sha how lo where or ri who to name the missing answer category. the closing particle is grammatically correct but optional. without it context may supply the intended answer type. ri does not distinguish english who from whom. ra var ser? / where does the friend go? context supplies place. / ra var ser lo? / where does the friend go? lo makes place explicit. user-approved canon expansion. preserves the shorter source construction while adding an optional explicit frame.",
+      "lessonId": "LESSON-SENTENCE-SHAPE"
+    },
+    {
+      "entry_id": "GR-SIP1-0002",
+      "source_volume": "Editorial Canon Expansion",
+      "source_section": "Short Interrogative Particles and Optional Question Frame",
+      "page_number": "2026-09-17",
+      "rule_name": "Question Frame as open gap and missing anchor",
+      "category": "Syntax / cultural grammar",
+      "original_wording": "In the optional Question Frame ra opens an unresolved thought the clause establishes what is known and the final content particle identifies the missing anchor that would complete the thought. This interpretation describes a practical Ohnoshan habit of inquiry and does not make the explicit closing particle mandatory.",
+      "examples": "ra + known clause + mu/nu/zhe/sha/lo/ri? / The answer supplies the named missing matter time cause method place or identity.",
+      "canon_status": "Canon",
+      "notes": "User-approved cultural interpretation of the optional grammar; not a separate ceremonial register.",
+      "related_entry_ids": "GR-SIP1-0001; GR-S4A-0001; ED-0035",
+      "relationship_type": "refinement",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-SIP1-0002",
+      "displayCategory": "Sentence Structure",
+      "purpose": "How Celan asks, commands, and pushes a sentence forward.",
+      "preview": "In the optional Question Frame ra opens an unresolved thought the clause establishes what is known and the final content particle identifies the missing anchor that would complete the thought.",
+      "searchText": "gr-sip1-0002 question frame as open gap and missing anchor syntax / cultural grammar sentence structure short interrogative particles and optional question frame in the optional question frame ra opens an unresolved thought the clause establishes what is known and the final content particle identifies the missing anchor that would complete the thought. this interpretation describes a practical ohnoshan habit of inquiry and does not make the explicit closing particle mandatory. ra + known clause + mu/nu/zhe/sha/lo/ri? / the answer supplies the named missing matter time cause method place or identity. user-approved cultural interpretation of the optional grammar; not a separate ceremonial register.",
+      "lessonId": "LESSON-SENTENCE-SHAPE"
+    },
+    {
+      "entry_id": "GR-DR1-0001",
+      "source_volume": "Dictionary Review 1",
+      "source_section": "User-approved grammar decisions",
+      "page_number": "",
+      "rule_name": "Possession: spacing and suffix hierarchy",
+      "category": "Possession",
+      "original_wording": "Standalone ka is exclusively without or no. Possessive -ka must be hyphenated to the possessor. Body parts, inner states, personal clothes, and primary personal gear use post-nominal -ian (my), -ya (your), or -eshen (his/her/their). Collective, titled, compound, and other third-person possessors use possessor-ka. The user explicitly permits La-ka kelvor for their mouth, including this third-person body-part construction. -ian never means their. Relational -esh indicates a bond; it does not by itself specify a third-person owner.",
+      "examples": "I-ka dren — My water.\nIlin-ka emil — Our meal.\nrinaen aiv an doran-ian. — There is pain in my torso.\ndrenselaen I noka-ian. — I wash my vulva.\nLa-ka kelvor — Their mouth.\nVar I ka shal. — I go without light.",
+      "canon_status": "Canon",
+      "notes": "ED-0037 / ED-0038: user-approved review and subsequent possession clarification.",
+      "related_entry_ids": "GR-V1-0007; GR-V1-0020; GR-V3-0006",
+      "relationship_type": "clarifies or supersedes earlier wording",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-DR1-0001",
+      "displayCategory": "Grammar Tools",
+      "purpose": "How ownership and belonging are marked.",
+      "preview": "Standalone ka is exclusively without or no.",
+      "searchText": "gr-dr1-0001 possession: spacing and suffix hierarchy possession grammar tools user-approved grammar decisions standalone ka is exclusively without or no. possessive -ka must be hyphenated to the possessor. body parts, inner states, personal clothes, and primary personal gear use post-nominal -ian (my), -ya (your), or -eshen (his/her/their). collective, titled, compound, and other third-person possessors use possessor-ka. the user explicitly permits la-ka kelvor for their mouth, including this third-person body-part construction. -ian never means their. relational -esh indicates a bond; it does not by itself specify a third-person owner. i-ka dren — my water.\nilin-ka emil — our meal.\nrinaen aiv an doran-ian. — there is pain in my torso.\ndrenselaen i noka-ian. — i wash my vulva.\nla-ka kelvor — their mouth.\nvar i ka shal. — i go without light. ed-0037 / ed-0038: user-approved review and subsequent possession clarification.",
+      "lessonId": "LESSON-WORD-BUILDING"
+    },
+    {
+      "entry_id": "GR-DR1-0002",
+      "source_volume": "Dictionary Review 1",
+      "source_section": "User-approved grammar decisions",
+      "page_number": "",
+      "rule_name": "Two permitted orders for a governing verb and its complement",
+      "category": "Syntax",
+      "original_wording": "Both V1 + Subject + V2 + Object and V1 + V2 + Subject + Object are permitted. The first places the subject directly after the governing verb; the second presents the combined action before the subject.",
+      "examples": "siv I pralaen krezor. — I try to make the hearth.\nsiv gavaen I zor. — I try to hunt the animal.\nsivrethaen belnoraen rakumek nor mekreth. — The computers fail to synchronize during the system malfunction.",
+      "canon_status": "Canon",
+      "notes": "ED-0037 / ED-0038: user-approved review and subsequent possession clarification.",
+      "related_entry_ids": "",
+      "relationship_type": "clarifies or supersedes earlier wording",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-DR1-0002",
+      "displayCategory": "Sentence Structure",
+      "purpose": "How this sentence pattern is meant to work.",
+      "preview": "Both V1 + Subject + V2 + Object and V1 + V2 + Subject + Object are permitted.",
+      "searchText": "gr-dr1-0002 two permitted orders for a governing verb and its complement syntax sentence structure user-approved grammar decisions both v1 + subject + v2 + object and v1 + v2 + subject + object are permitted. the first places the subject directly after the governing verb; the second presents the combined action before the subject. siv i pralaen krezor. — i try to make the hearth.\nsiv gavaen i zor. — i try to hunt the animal.\nsivrethaen belnoraen rakumek nor mekreth. — the computers fail to synchronize during the system malfunction. ed-0037 / ed-0038: user-approved review and subsequent possession clarification.",
+      "lessonId": "LESSON-SENTENCE-SHAPE"
+    },
+    {
+      "entry_id": "GR-DR1-0003",
+      "source_volume": "Dictionary Review 1",
+      "source_section": "User-approved grammar decisions",
+      "page_number": "",
+      "rule_name": "Varan and the universal continuous suffix",
+      "category": "Aspect and location",
+      "original_wording": "-al remains the universal continuous suffix. Varan is the lexicalized locative-stative form Var + An: to reside, stay, or be located at a physical place. It does not establish continuous -an. An supplies physical location; Nor supplies time.",
+      "examples": "varal I dren. — I am going to the water.\nvaran I an Varthas. — I am residing in the city.\nnor-var I an Varthas. — I will go to the city.",
+      "canon_status": "Canon",
+      "notes": "ED-0037 / ED-0038: user-approved review and subsequent possession clarification.",
+      "related_entry_ids": "GR-V1-0019",
+      "relationship_type": "clarifies or supersedes earlier wording",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-DR1-0003",
+      "displayCategory": "Grammar Tools",
+      "purpose": "How this part of Celan is meant to work.",
+      "preview": "-al remains the universal continuous suffix.",
+      "searchText": "gr-dr1-0003 varan and the universal continuous suffix aspect and location grammar tools user-approved grammar decisions -al remains the universal continuous suffix. varan is the lexicalized locative-stative form var + an: to reside, stay, or be located at a physical place. it does not establish continuous -an. an supplies physical location; nor supplies time. varal i dren. — i am going to the water.\nvaran i an varthas. — i am residing in the city.\nnor-var i an varthas. — i will go to the city. ed-0037 / ed-0038: user-approved review and subsequent possession clarification.",
+      "lessonId": "LESSON-SENTENCE-SHAPE"
+    },
+    {
+      "entry_id": "GR-DR1-0004",
+      "source_volume": "Dictionary Review 1",
+      "source_section": "User-approved grammar decisions",
+      "page_number": "",
+      "rule_name": "Plural and participant senses of -in",
+      "category": "Morphology",
+      "original_wording": "The existing plural rule remains: consonant-final nouns take -in; vowel-final nouns take -n. Separately, -in has an approved person/participant sense connecting a person or group to a bond, place, or category. That sense does not replace ordinary plurals.",
+      "examples": "nderun — testicles.\nwelrinin — citizens.\nShalor-in — one belonging to the sanctuary.",
+      "canon_status": "Canon",
+      "notes": "ED-0037 / ED-0038: user-approved review and subsequent possession clarification.",
+      "related_entry_ids": "GR-V2-0001",
+      "relationship_type": "clarifies or supersedes earlier wording",
+      "potential_tension_id": "",
+      "review_status": "Approved",
+      "review_reason": "",
+      "id": "GR-DR1-0004",
+      "displayCategory": "Word Building",
+      "purpose": "How Celan turns one thing into many.",
+      "preview": "The existing plural rule remains: consonant-final nouns take -in; vowel-final nouns take -n.",
+      "searchText": "gr-dr1-0004 plural and participant senses of -in morphology word building user-approved grammar decisions the existing plural rule remains: consonant-final nouns take -in; vowel-final nouns take -n. separately, -in has an approved person/participant sense connecting a person or group to a bond, place, or category. that sense does not replace ordinary plurals. nderun — testicles.\nwelrinin — citizens.\nshalor-in — one belonging to the sanctuary. ed-0037 / ed-0038: user-approved review and subsequent possession clarification.",
+      "lessonId": "LESSON-WORD-BUILDING"
+    },
+    {
+      "entry_id": "GR-ER2-0001",
+      "rule_name": "Number System: reviewed illustrations",
+      "category": "Number System",
+      "source_section": "Number System",
+      "source_volume": "September 24 dictionary review",
+      "canon_status": "Canon",
+      "original_wording": "These are teaching illustrations, not ordinary sentence examples.",
+      "examples": "Ten-del — 20 (Two tens) [PE-V3-0200]\nTen-tren — 30 (Three tens) [PE-V3-0201]\nTen-quen — 40 (Four tens) [PE-V3-0202]\nTen-del peth — 25 (20 + 5) [PE-V3-0204]\nTen-quen senar — 46 (40 + 6) [PE-V3-0205]\nHek-unar — 100 (One hundred) [PE-V3-0206]\nHek-quen — 400 (Four hundred) [PE-V3-0207]\nHek-oven Ten-quen del — 842 (800 + 40 + 2) [PE-V3-0208]\nMel-unar — 1,000 (One thousand) [PE-V3-0209]\nMel-quen — 4,000 (Four thousand) [PE-V3-0210]\nMel-quen Hek-sethe Ten-oven sethe — 4,787 (4,000 + 700 + 80 + 7) [PE-V3-0211]\nFen-unar — 10,000 (Ten thousand) [PE-V3-0212]\nFen-peth — 50,000 (Fifty thousand) [PE-V3-0213]\nHek-Mel-unar — 100,000 (One hundred thousand) [PE-V3-0214]\nHek-quen Ven Hek-del — 400 - 200 = 200 [PE-V3-0216]\nMel-quen Ven Hek-peth — 4,000 - 500 = 3,500 [PE-V3-0219]",
+      "notes": "ED-0044: moved from dictionary sentence examples by user approval.",
+      "id": "GR-ER2-0001",
+      "displayCategory": "Grammar Tools",
+      "purpose": "How this part of Celan is meant to work.",
+      "preview": "These are teaching illustrations, not ordinary sentence examples.",
+      "searchText": "gr-er2-0001 number system: reviewed illustrations number system grammar tools number system these are teaching illustrations, not ordinary sentence examples. ten-del — 20 (two tens) [pe-v3-0200]\nten-tren — 30 (three tens) [pe-v3-0201]\nten-quen — 40 (four tens) [pe-v3-0202]\nten-del peth — 25 (20 + 5) [pe-v3-0204]\nten-quen senar — 46 (40 + 6) [pe-v3-0205]\nhek-unar — 100 (one hundred) [pe-v3-0206]\nhek-quen — 400 (four hundred) [pe-v3-0207]\nhek-oven ten-quen del — 842 (800 + 40 + 2) [pe-v3-0208]\nmel-unar — 1,000 (one thousand) [pe-v3-0209]\nmel-quen — 4,000 (four thousand) [pe-v3-0210]\nmel-quen hek-sethe ten-oven sethe — 4,787 (4,000 + 700 + 80 + 7) [pe-v3-0211]\nfen-unar — 10,000 (ten thousand) [pe-v3-0212]\nfen-peth — 50,000 (fifty thousand) [pe-v3-0213]\nhek-mel-unar — 100,000 (one hundred thousand) [pe-v3-0214]\nhek-quen ven hek-del — 400 - 200 = 200 [pe-v3-0216]\nmel-quen ven hek-peth — 4,000 - 500 = 3,500 [pe-v3-0219] ed-0044: moved from dictionary sentence examples by user approval.",
+      "lessonId": "LESSON-NUMBER-MEASURE"
+    },
+    {
+      "entry_id": "GR-ER2-0002",
+      "rule_name": "Euphony: reviewed illustrations",
+      "category": "Euphony",
+      "source_section": "Euphony",
+      "source_volume": "September 24 dictionary review",
+      "canon_status": "Canon",
+      "original_wording": "These are teaching illustrations, not ordinary sentence examples.",
+      "examples": "Vok + Thal -> Vokathar — A Harmonious Union [PE-S1-0003]\nVok + Nor -> Voknor / Vokanor / Vokonor — The unity of time / a moment of perfect synchronicity [PE-S1-0004]",
+      "notes": "ED-0044: moved from dictionary sentence examples by user approval.",
+      "id": "GR-ER2-0002",
+      "displayCategory": "Grammar Tools",
+      "purpose": "When sounds shift to keep Celan flowing well.",
+      "preview": "These are teaching illustrations, not ordinary sentence examples.",
+      "searchText": "gr-er2-0002 euphony: reviewed illustrations euphony grammar tools euphony these are teaching illustrations, not ordinary sentence examples. vok + thal -> vokathar — a harmonious union [pe-s1-0003]\nvok + nor -> voknor / vokanor / vokonor — the unity of time / a moment of perfect synchronicity [pe-s1-0004] ed-0044: moved from dictionary sentence examples by user approval.",
+      "lessonId": "LESSON-PRONUNCIATION"
+    },
+    {
+      "entry_id": "GR-ER2-0003",
+      "rule_name": "Phonology: reviewed illustrations",
+      "category": "Phonology",
+      "source_section": "Phonology",
+      "source_volume": "September 24 dictionary review",
+      "canon_status": "Canon",
+      "original_wording": "These are teaching illustrations, not ordinary sentence examples.",
+      "examples": "Kalvok; Kalrath; Rethlian — Clan / Apex Predator / Might [PE-S1-0009]",
+      "notes": "ED-0044: moved from dictionary sentence examples by user approval.",
+      "id": "GR-ER2-0003",
+      "displayCategory": "Pronunciation",
+      "purpose": "How this sound pattern is meant to be spoken.",
+      "preview": "These are teaching illustrations, not ordinary sentence examples.",
+      "searchText": "gr-er2-0003 phonology: reviewed illustrations phonology pronunciation phonology these are teaching illustrations, not ordinary sentence examples. kalvok; kalrath; rethlian — clan / apex predator / might [pe-s1-0009] ed-0044: moved from dictionary sentence examples by user approval.",
+      "lessonId": "LESSON-PRONUNCIATION"
+    },
+    {
+      "entry_id": "GR-ER2-0004",
+      "rule_name": "Capitalization: reviewed illustrations",
+      "category": "Capitalization",
+      "source_section": "Capitalization",
+      "source_volume": "September 24 dictionary review",
+      "canon_status": "Canon",
+      "original_wording": "These are teaching illustrations, not ordinary sentence examples.",
+      "examples": "Terra / terra — Heart of Terra / mundane earth, soil, or ground [PE-S4B-0005]\nRathor / rathor — The Past / a specific past event or memory [PE-S4B-0007]",
+      "notes": "ED-0044: moved from dictionary sentence examples by user approval.",
+      "id": "GR-ER2-0004",
+      "displayCategory": "Grammar Tools",
+      "purpose": "How this part of Celan is meant to work.",
+      "preview": "These are teaching illustrations, not ordinary sentence examples.",
+      "searchText": "gr-er2-0004 capitalization: reviewed illustrations capitalization grammar tools capitalization these are teaching illustrations, not ordinary sentence examples. terra / terra — heart of terra / mundane earth, soil, or ground [pe-s4b-0005]\nrathor / rathor — the past / a specific past event or memory [pe-s4b-0007] ed-0044: moved from dictionary sentence examples by user approval.",
+      "lessonId": "LESSON-WRITING-CONVENTIONS"
+    }
+  ],
+  "lessons": [
+    {
+      "id": "LESSON-PRONUNCIATION",
+      "title": "Pronunciation",
+      "description": "How Celan sounds in the mouth: vowels, consonants, and the flow of euphony.",
+      "featuredRuleId": "RG-PRONUNCIATION"
+    },
+    {
+      "id": "LESSON-SENTENCE-SHAPE",
+      "title": "Sentence Shape",
+      "description": "How Celan builds a sentence: action first, questions, commands, negation, and conditions.",
+      "featuredRuleId": "LESSON-SENTENCE-SHAPE"
+    },
+    {
+      "id": "LESSON-WORD-BUILDING",
+      "title": "Word Building",
+      "description": "How roots, suffixes, and compounds grow into new meaning.",
+      "featuredRuleId": "LESSON-WORD-BUILDING"
+    },
+    {
+      "id": "LESSON-POSSESSION-RELATION",
+      "title": "Possession and Relation",
+      "description": "How belonging, relation, place, and connection are marked.",
+      "featuredRuleId": "LESSON-POSSESSION-RELATION"
+    },
+    {
+      "id": "LESSON-NUMBER-MEASURE",
+      "title": "Number and Measure",
+      "description": "How Celan counts, scales, measures, and handles simple quantity.",
+      "featuredRuleId": "LESSON-NUMBER-MEASURE"
+    },
+    {
+      "id": "LESSON-GENDER-ADDRESS-SOCIAL",
+      "title": "Gender, Address, and Social Use",
+      "description": "How social nuance, address, identity, and cultural tone shape expression.",
+      "featuredRuleId": "LESSON-GENDER-ADDRESS-SOCIAL"
+    },
+    {
+      "id": "LESSON-WRITING-CONVENTIONS",
+      "title": "Writing Conventions",
+      "description": "How Celan handles capitalization, emphasis, and written form.",
+      "featuredRuleId": "LESSON-WRITING-CONVENTIONS"
+    }
+  ],
+  "companions": [
+    {
+      "id": "PAGE-CULTURAL-VOICE",
+      "title": "Cultural Voice",
+      "description": "How one universal tongue takes on different national voices across Ohnosha."
+    }
+  ]
+}

@@ -1,0 +1,77 @@
+entry_id,first_term,celan_text,translation,example_type
+PE-V1-0008,theon,Theon dren kal thal,The neutral person brings strength and balance.,Usage example
+PE-V1-0009,kadfel,Kadfel ohmbaen,Beloved boy.,Usage example
+PE-V1-0012,theefel,Theefel pralmor an shal,The neutral child creates with the light.,Usage example
+PE-V1-0015,azfel,Azfel kal dren morl,The girl brings strength to the flowing mountain.,Usage example
+PE-V1-0016,kadron,Kadron var thal nor,The man stands in balance with time.,Usage example
+PE-V2-0005,kilveth,Kilveth dren morl shal.,Evening rests under the light.,Time-of-day example
+PE-V2-0008,belrin,Belrin kal dren.,The woven fabric strengthens with water.,Expanded vocabulary example
+PE-V2-0010,brosrin,Brosrin vanesh dren.,The layered food trades by the water.,Expanded vocabulary example
+PE-V2-0011,balrin,Balrin var dren.,The sprouting food grows by the water.,Expanded vocabulary example
+PE-V2-0012,brenmor,Brenmor kal dren.,The harvested roots strengthen by the water.,Expanded vocabulary example
+PE-V2-0014,prakorin,Prakorin shalil an dren.,The tender bread flows lightly by the water.,Expanded vocabulary example
+PE-V2-0017,pralmor,Pralmor kal dren.,The carving strengthens with water.,Expanded vocabulary example
+PE-V2-0019,jorvak,Jorvak kal dren.,The warmth strengthens by the water.,Expanded vocabulary example
+PE-V2-0021,jelvor,Jelvor vanesh dren.,The zesty spice trades by the water.,Expanded vocabulary example
+PE-V2-0024,welmor,Welmor vanesh dren.,The flowing earth trades by the water.,Expanded vocabulary example
+PE-V2-0026,worvenak,Worvenak kal dren.,The abundant stew strengthens by the water.,Expanded vocabulary example
+PE-V2-0030,tlakorin,Tlakorin kal dren an Varthas.,The confidant strengthens the city.,Relationship example
+PE-V2-0031,khumlor,Khumlor var dren.,The family gathers by the water.,Relationship example
+PE-V2-0035,tlankor,Tlankor kal dren ser Serin.,The ally strengthens by the water with friends.,Relationship example
+PE-V2-0053,velrin,Velrin kal dren an Serin.,The food strengthens with friends by the water.,Food vocabulary example
+PE-V2-0054,teravin,Teravin var dren.,The root vegetable grows by the water.,Food vocabulary example
+PE-V2-0055,broslak,Broslak kal dren.,The layered bread strengthens by the water.,Food vocabulary example
+PE-V2-0058,welrim,Welrim kal dren.,The feast strengthens by the water.,Food vocabulary example
+PE-V2-0060,phelkarin,Phelkarin kal dren.,The porridge strengthens with water.,Food vocabulary example
+PE-V2-0062,felorin,Felorin vanesh dren.,The berries trade by the water.,Food vocabulary example
+PE-V2-0064,belmor,Belmor kal dren.,The root spice strengthens with water.,Food vocabulary example
+PE-V2-0070,lianfel,Lianfel kal dren.,The tea strengthens with water.,Food vocabulary example
+PE-V2-0073,felorin,Felorin vanesh dren an Evan.,The berries trade at the market.,Food sample sentence
+PE-V2-0074,lorlivok,Lorlivok kal dren an Teremil.,The earthbake strengthens at home by the water.,Food sample sentence
+PE-V2-0076,phelvin,Phelvin kal dren.,The comforting drink strengthens with water.,Food sample sentence
+PE-V2-0077,zhelvek,Zhelvek kal dren.,The energy bar strengthens with water.,Food-by-nation example
+PE-V2-0081,drenlivar,Drenlivar vanesh dren thal morl.,The salted fish trades by the water and the mountain.,Food-by-nation example
+PE-V2-0087,brenvor,Brenvor kal dren.,The harvested nuts strengthen with water.,Food-by-nation example
+PE-V2-0089,krezfel,Krezfel kal dren.,The spiced grain strengthens with water.,Food-by-nation example
+PE-V2-0090,morthas,Morthas vanesh an dren.,The roasted nuts trade by the water.,Food-by-nation example
+PE-V2-0092,phelmorin,Phelmorin kal dren.,The tea strengthens with water.,Food-by-nation example
+PE-V2-0095,thalshorin,Thalshorin kal dren.,The ice stew strengthens by the water.,Food-by-nation example
+PE-V2-0097,morvenak,Morvenak kal dren.,The porridge strengthens with water.,Food-by-nation example
+PE-V2-0104,welkarin,Welkarin kal dren.,The drink strengthens with water.,Food-by-nation example
+PE-V2-0105,morlathor,Morlathor kal dren.,The bread strengthens by the water.,Food-by-nation example
+PE-V2-0107,krezlorin,Krezlorin kal dren.,The grilled meat strengthens with water.,Food-by-nation example
+PE-V2-0114,shalithor,Shalithor kal dren an Evan.,The sunlight strengthens at the market.,Weather example
+PE-V2-0116,velarshor,Velarshor dren thal morl.,The mist rests over the mountain.,Weather example
+PE-V2-0119,thalorim,Thalorim kal dren.,The lightning strikes the water.,Weather example
+PE-V2-0120,krezrek,Krezrek dren nor Fenrek.,The heatwave flows with summer.,Weather example
+PE-V2-0121,drenvelesh,Drenvelesh dren thal morl.,The morning dew rests on the water by the mountain.,Weather example
+PE-V2-0122,eshvelaneth,Eshvelaneth kal morl.,The hailstorm strikes the mountain.,Weather example
+PE-V3-0023,ser,Ser Lior var an dren.,The friend who goes to the water.,Complex sentence example
+PE-V3-0031,felka,Felka ser dren an Tavan.,The child is with the parent by the water.,Kinship example
+PE-V3-0032,zhiren,Zhiren vanesh dren.,The sibling trades water.,Kinship example
+PE-V3-0034,pralin,Pralin ser dren morl morl.,The cousin is by the water under the mountain.,Kinship example
+PE-V3-0036,belvok,Belvok ser dren an Teremil.,The family is together at home by the water.,Kinship example
+PE-V3-0037,xarvethral,Xarvethral ser Felka thal dren.,The adoptive parent is with the child by the water.,Kinship example
+PE-V3-0040,kalvok,Kalvok ser Belvok an Teremil.,The partner is with the family at home.,Kinship example
+PE-V3-0042,tavrel,Tavrel ser dren thal Felka.,The uncle/aunt is by the water with the child.,Kinship example
+PE-V3-0044,zharin,Zharin ser dren morl Tharvok.,The distant relative is by the water under the family.,Kinship example
+PE-V3-0046,kalvokesh,Kalvokesh ser dren an Belvok.,The spouse's family is by the water with the unified family.,Kinship example
+PE-V3-0047,zhirkalor,Zhirkalor ser dren.,The partner by lineage is with the water.,Kinship example
+PE-V3-0048,xarfelvin,Xarfelvin ser dren an Xarvethral.,The adoptive niece/nephew is with the adoptive parent by the water.,Kinship example
+PE-V3-0049,belvethral,Belvethral ser dren thal Teremil.,The chosen family is by the water at home.,Kinship example
+PE-V3-0051,pralvokesh,Pralvokesh ser dren an Belvok.,The trusted ally is with the family by the water.,Kinship example
+PE-V3-0073,thal,Thal Shal ser Fah.,Balance requires acknowledging both light and dark aspects; true harmony includes opposites. (Core Celan philosophy).,Idiom/Proverb
+PE-V3-0089,terrashaneth,Terrashaneth lian nor Tharvok.,The Earth blessing speaks to the family.,National ceremonial example
+PE-V3-0090,velpralim,Velpralim shan dren an Zhirelorim.,The wisdom transfer passes to the coming-of-age ritual.,National ceremonial example
+PE-V3-0092,zhivokesh,Zhivokesh shalil morl morl.,The bond renewal flows under the mountain.,National ceremonial example
+PE-V3-0093,dralshaneth,Dralshaneth kal dren an Belvok.,The heaven's blessing strengthens the family.,National ceremonial example
+PE-V3-0096,velmarineth,Velmarineth lian nor Felka.,The elder's blessing speaks to the child.,National ceremonial example
+PE-V3-0097,velthaelvok,Velthaelvok ser dren thal Velthaen.,The winter unity flows with the cold season.,National ceremonial example
+PE-V3-0098,eshvelaneth,Eshvelaneth shan dren an Tharvok.,The snowstorm guidance passes to the family.,National ceremonial example
+PE-V3-0101,velterim,Velterim shan dren nor Zhirelorim.,The desert passage passes to the coming-of-age ritual.,National ceremonial example
+PE-V3-0102,krezmorath,Krezmorath kal dren an Belvok.,The fire bond strengthens with the family.,National ceremonial example
+PE-V3-0103,tharvelim,Tharvelim lian dren an Terra.,The mountain ancestor ritual speaks to the Earth.,National ceremonial example
+PE-V3-0128,emil,emil ka shena? nor-var I an Eshvan nor aenor.,No food coins? I will go to the shop soon.,Reviewed usage example
+PE-S1-0001,morl,Morl + Thar -> Morlathar,Stoicism,Euphony compound example
+PE-EGE1-0063,pel,pel pelnor nalior; jor xilnalior.,Erosion cuts the habitat; fragmentation surges.,Reviewed usage example
+PE-SP2C-0032,reth,reth‘thal nor-var I an evan.,Perhaps I will go to the market.,Reviewed usage example

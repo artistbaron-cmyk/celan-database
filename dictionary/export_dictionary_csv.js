@@ -1,222 +1,66 @@
-const fs = require("fs");
-const fsp = require("fs/promises");
-const path = require("path");
-const vm = require("vm");
-
-const rootDir = path.resolve(__dirname, "..");
-const dictionaryDir = __dirname;
-const outputPath = path.join(rootDir, "data", "dictionary_entries.csv");
-
-function createElementStub() {
-  return {
-    innerHTML: "",
-    textContent: "",
-    value: "",
-    onclick: null,
-    append() {},
-    appendChild() {},
-    addEventListener() {},
-    querySelectorAll() { return []; },
-    classList: {
-      add() {},
-      remove() {},
-      toggle() {}
-    }
-  };
-}
-
-function csvEscape(value) {
-  const text = String(value ?? "");
-  if (/[",\n]/.test(text)) {
-    return `"${text.replace(/"/g, '""')}"`;
+// Spreadsheet export from the app's approved source files.
+const fs = require('node:fs');
+const path = require('node:path');
+const source = path.join(__dirname, 'app_data');
+const output = path.join(__dirname, 'exports', 'dictionary_entries.csv');
+function parseCsv(text) {
+  const rows=[]; let row=[],cell='',quoted=false;
+  for(let i=0;i<text.length;i++){
+    const ch=text[i];
+    if(quoted){if(ch==='"'&&text[i+1]==='"'){cell+='"';i++;}else if(ch==='"')quoted=false;else cell+=ch;}
+    else if(ch==='"')quoted=true;
+    else if(ch===','){row.push(cell);cell='';}
+    else if(ch==='\n'){row.push(cell);rows.push(row);row=[];cell='';}
+    else if(ch!=='\r')cell+=ch;
   }
-  return text;
+  if(row.length||cell){row.push(cell);rows.push(row);}
+  const [headers,...data]=rows;
+  return data.map(cells=>Object.fromEntries(headers.map((header,index)=>[header,cells[index]||''])));
 }
-
-async function loadDictionaryState() {
-  const scriptPath = path.join(dictionaryDir, "script.js");
-  const source = await fsp.readFile(scriptPath, "utf8");
-  const exposedSource = `${source}
-globalThis.__dictExports = {
-  state,
-  relatedExamples,
-  entryExampleSections,
-  headwordOverride,
-  buildPronunciation,
-  displayUsageNote,
-  displayRootWordMarker,
-  displayDerivation,
-  displayUses,
-  normalizeHeadword
-};`;
-
-  const elements = new Map();
-  const document = {
-    getElementById(id) {
-      if (!elements.has(id)) {
-        elements.set(id, createElementStub());
-      }
-      return elements.get(id);
-    },
-    createElement() {
-      return createElementStub();
+const readCsv=name=>parseCsv(fs.readFileSync(path.join(source,name),'utf8'));
+const readJson=name=>JSON.parse(fs.readFileSync(path.join(source,name),'utf8'));
+const normalize=value=>String(value||'').trim().toLowerCase();
+function csvEscape(value){const text=String(value??'');return /[",\n]/.test(text)?`"${text.replace(/"/g,'""')}"`:text;}
+function displayUsageNote(value){const usage=(value||'').trim();if(!usage)return '';if(/^original .* preserved\.$/i.test(usage)||/^dictionary-layer entry/i.test(usage)||/^source extraction remains unchanged\.$/i.test(usage)||/^source files unchanged\.$/i.test(usage)||/^root family evidence:/i.test(usage))return '';return usage;}
+const headwords=readCsv('dictionary_entries.csv');
+const senses=readCsv('dictionary_senses.csv');
+const examples=readCsv('dictionary_examples.csv');
+const families=readJson('dictionary_families.json');
+const byHeadword=new Map();
+for(const sense of senses){if(!byHeadword.has(sense.headword_id))byHeadword.set(sense.headword_id,[]);if(sense.visible==='Yes')byHeadword.get(sense.headword_id).push(sense);}
+const byExample=new Map();
+for(const example of examples){if(!byExample.has(example.headword_id))byExample.set(example.headword_id,{direct:[],related:[]});if(example.section==='direct'||example.section==='related')byExample.get(example.headword_id)[example.section].push(example);}
+const rows=[];
+for(const headword of headwords.sort((a,b)=>a.headword.localeCompare(b.headword))){
+  const family=families[headword.id]||{familyRoots:[],relatedEntries:[]};
+  const override=JSON.parse(headword.override_json||'{}');
+  const uses=byHeadword.get(headword.id)||[];
+  const placed=byExample.get(headword.id)||{direct:[],related:[]};
+  const roots=family.familyRoots.filter(root=>normalize(root.replace(/-+$/g,''))!==normalize(headword.headword.replace(/-+$/g,'')));
+  const related=override.familyTerms?.length?family.relatedEntries.filter(entry=>override.familyTerms.includes(entry.term)):family.relatedEntries;
+  uses.forEach((use,index)=>{
+    const row={
+      source_entry_ids:headword.source_entry_ids, approval_batch:headword.approval_batch,
+      headword:headword.headword, pronunciation:headword.pronunciation,
+      use_type:use.word_type,
+      root_word:override.showRootSense?(use.root_word==='Yes'?'Yes':''):(headword.has_root_word==='Yes'?'Yes':''),
+      meaning:use.meaning, usage_note:displayUsageNote(use.usage_note),
+      derivation:headword.derivation, origin_nation:headword.origin_nation,
+      national_usage:headword.national_usage, variant_forms:headword.variant_forms,
+      variant_pronunciations:headword.variant_pronunciations,
+      family_roots:roots.join('; '), related_words:related.map(entry=>entry.term).join('; '),
+      example_count:placed.direct.length, related_example_count:placed.related.length,
+      example_scope:uses.length>1?'Headword; sense assignment pending':'Headword',
+      use_index:index+1
+    };
+    if(index===0){
+      placed.direct.slice(0,5).forEach((example,i)=>{row[`example_${i+1}_celan`]=example.celan_text;row[`example_${i+1}_translation`]=example.translation;});
+      placed.related.slice(0,2).forEach((example,i)=>{row[`related_example_${i+1}_celan`]=example.celan_text;row[`related_example_${i+1}_translation`]=example.translation;});
     }
-  };
-
-  const context = {
-    console,
-    setTimeout,
-    clearTimeout,
-    window: { EMBEDDED_DATA: null },
-    document,
-    fetch: async (requestedPath) => {
-      const resolved = path.resolve(dictionaryDir, requestedPath);
-      const text = await fsp.readFile(resolved, "utf8");
-      return {
-        ok: true,
-        async text() {
-          return text;
-        }
-      };
-    }
-  };
-
-  vm.createContext(context);
-  vm.runInContext(exposedSource, context, { filename: scriptPath });
-
-  const exports = context.__dictExports;
-  for (let i = 0; i < 100; i += 1) {
-    if (exports.state.groupedEntries.length) {
-      return exports;
-    }
-    await new Promise((resolve) => setTimeout(resolve, 50));
-  }
-  throw new Error("Dictionary state did not finish loading.");
-}
-
-async function main() {
-  const {
-    state,
-    relatedExamples,
-  entryExampleSections,
-    headwordOverride,
-    buildPronunciation,
-    displayUsageNote,
-    displayRootWordMarker,
-    displayDerivation,
-    displayUses,
-    normalizeHeadword
-  } = await loadDictionaryState();
-
-  const rows = [];
-  const grouped = [...state.groupedEntries].sort((a, b) => (a.term || "").localeCompare(b.term || ""));
-
-  grouped.forEach((group) => {
-    const family = state.familyIndex.get(group.id) || { familyRoots: [], relatedEntries: [] };
-    const override = headwordOverride(group.term);
-    const pronunciation = buildPronunciation(group.term, group.entries);
-    const groupField = (field) => Array.from(new Set(group.entries
-      .map((entry) => (entry[field] || "").trim())
-      .filter(Boolean))).join("; ");
-    const familyRoots = family.familyRoots
-      .filter((rootTerm) => normalizeHeadword(rootTerm.replace(/-+$/g, "")) !== normalizeHeadword(group.term.replace(/-+$/g, "")))
-      ;
-    const relatedEntries = (override?.familyTerms?.length
-      ? family.relatedEntries.filter((entry) => override.familyTerms.includes(entry.term))
-      : family.relatedEntries
-    );
-    const sections = entryExampleSections(group);
-    const examples = sections.direct;
-    const relatedExamples = sections.related;
-    const primaryUses = displayUses(group);
-
-    primaryUses.forEach((use, index) => {
-      // Examples belong to the headword until a reviewed sense assignment exists.
-      const exampleRows = index === 0 ? examples.slice(0, 5) : [];
-      const relatedRows = index === 0 ? relatedExamples.slice(0, 2) : [];
-      const row = {
-        headword: group.term,
-        pronunciation,
-        use_type: use.type || "",
-        root_word: displayRootWordMarker(group, use) ? "Yes" : "",
-        meaning: use.meaning || "",
-        usage_note: displayUsageNote(use),
-        family_roots: familyRoots.join("; "),
-        related_words: relatedEntries.map((entry) => entry.term).join("; "),
-        example_count: examples.length,
-        related_example_count: relatedExamples.length,
-        example_scope: primaryUses.length > 1 ? "Headword; sense assignment pending" : "Headword",
-        source_entry_ids: group.entries.map((entry) => entry.entry_id).join("; "),
-        derivation: Array.from(new Set(group.entries
-          .map((entry) => displayDerivation(entry.derivation))
-          .filter(Boolean))).join("; "),
-        origin_nation: groupField("origin_nation"),
-        national_usage: groupField("national_usage"),
-        variant_forms: groupField("variant_forms"),
-        variant_pronunciations: groupField("variant_pronunciations"),
-        approval_batch: groupField("approval_batch"),
-        use_index: index + 1
-      };
-
-      exampleRows.forEach((example, exampleIndex) => {
-        row[`example_${exampleIndex + 1}_celan`] = example.celan_text || "";
-        row[`example_${exampleIndex + 1}_translation`] = example.translation || "";
-      });
-      relatedRows.forEach((example, exampleIndex) => {
-        row[`related_example_${exampleIndex + 1}_celan`] = example.celan_text || "";
-        row[`related_example_${exampleIndex + 1}_translation`] = example.translation || "";
-      });
-
-      rows.push(row);
-    });
+    rows.push(row);
   });
-
-  const headers = [
-    "source_entry_ids",
-    "approval_batch",
-    "headword",
-    "pronunciation",
-    "use_type",
-    "root_word",
-    "meaning",
-    "usage_note",
-    "derivation",
-    "origin_nation",
-    "national_usage",
-    "variant_forms",
-    "variant_pronunciations",
-    "family_roots",
-    "related_words",
-    "example_count",
-    "related_example_count",
-    "example_scope",
-    "use_index",
-    "example_1_celan",
-    "example_1_translation",
-    "example_2_celan",
-    "example_2_translation",
-    "example_3_celan",
-    "example_3_translation",
-    "example_4_celan",
-    "example_4_translation",
-    "example_5_celan",
-    "example_5_translation",
-    "related_example_1_celan",
-    "related_example_1_translation",
-    "related_example_2_celan",
-    "related_example_2_translation"
-  ];
-
-  const csv = [
-    headers.join(","),
-    ...rows.map((row) => headers.map((header) => csvEscape(row[header] ?? "")).join(","))
-  ].join("\n");
-
-  await fsp.writeFile(outputPath, csv, "utf8");
-  console.log(`Wrote ${rows.length} dictionary rows to ${outputPath}`);
 }
-
-main().catch((error) => {
-  console.error(error);
-  process.exit(1);
-});
+const headers=['source_entry_ids','approval_batch','headword','pronunciation','use_type','root_word','meaning','usage_note','derivation','origin_nation','national_usage','variant_forms','variant_pronunciations','family_roots','related_words','example_count','related_example_count','example_scope','use_index','example_1_celan','example_1_translation','example_2_celan','example_2_translation','example_3_celan','example_3_translation','example_4_celan','example_4_translation','example_5_celan','example_5_translation','related_example_1_celan','related_example_1_translation','related_example_2_celan','related_example_2_translation'];
+fs.mkdirSync(path.dirname(output),{recursive:true});
+fs.writeFileSync(output,[headers.join(','),...rows.map(row=>headers.map(header=>csvEscape(row[header])).join(','))].join('\n'));
+console.log(`Wrote ${rows.length} dictionary rows to ${output}`);

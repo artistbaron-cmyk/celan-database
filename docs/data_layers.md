@@ -42,19 +42,18 @@ This is usually the layer that matters most when we want something to feel usabl
 
 `lexicon_expansions.csv` holds explicitly approved new vocabulary created after the source volumes. It stores app-facing meanings, pronunciations, roots, optional national origin and usage when genuinely relevant, euphonic variants, approval batch, and example links without rewriting the extracted source lexicon.
 
-`expressions.csv` holds explicitly approved idioms, colloquialisms, and nationally characteristic expressions that should be searchable without being counted as dictionary headwords. The app combines this file with established expressive lexicon entries and source idioms. The Phrase Builder phrasebank is not an Expressions source.
+The app's complete Expressions view is now stored in `dictionary/app_data/expressions_app.json`. Historical `expressions.csv` and older source records are preserved under `dictionary/source_history/` and are not app inputs.
 
 ## Generated app and report files
 
-The local app opens from an embedded snapshot. After an approved data change, refresh the snapshot and reports with:
+The current local app reads its content only from `dictionary/app_data/` (see that folder's README). The older `data/` files remain historical or working material; editing them alone does not change the app. After an app-data change, refresh the snapshot and reports with:
 
 ```text
 node dictionary/build_embedded_data.js
 node dictionary/export_dictionary_csv.js
-node dictionary/export_dictionary_report.js
 ```
 
-Do not edit `dictionary/embedded_data.js`, `data/dictionary_entries.csv`, or `data/dictionary_report.csv` by hand.
+Do not edit `dictionary/app_data/embedded_data.js` or `dictionary/exports/dictionary_entries.csv` by hand. The export has every visible headword and sense, but limits example columns; `dictionary/app_data/dictionary_examples.csv` holds every placed example. The app does not read exports. The old export copies in `data/` are preserved snapshots, not current app outputs.
 
 ## Support files
 

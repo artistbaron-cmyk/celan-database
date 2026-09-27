@@ -43,7 +43,7 @@ function parseCsv(text) {
 }
 
 function readCsv(filename) {
-  const rows = parseCsv(fs.readFileSync(path.join(rootDir, "data", filename), "utf8"));
+  const rows = parseCsv(fs.readFileSync(path.join(__dirname, "app_data", filename), "utf8"));
   const headers = rows.shift();
   return rows.filter((row) => row.some(Boolean)).map((row) => Object.fromEntries(
     headers.map((header, index) => [header, (row[index] || "").trim()])
@@ -93,7 +93,7 @@ if (slurs.some((row) => row.review_status !== "Source Ambiguity")) {
 
 const buildSource = fs.readFileSync(path.join(__dirname, "build_embedded_data.js"), "utf8");
 const appSource = fs.readFileSync(path.join(__dirname, "script.js"), "utf8");
-if (!buildSource.includes('"expressions.csv"') || !appSource.includes('loadCsv("../data/expressions.csv")')) {
+if (!buildSource.includes('"expressions.csv"') || !appSource.includes('loadCsv("./app_data/expressions.csv")')) {
   errors.push("The Expressions data file is not connected to both the embedded build and app loader.");
 }
 if (buildSource.includes("phrasebank") || appSource.includes("phrasebank")) {

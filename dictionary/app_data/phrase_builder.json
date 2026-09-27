@@ -1,0 +1,8661 @@
+{
+  "forgeParts": [
+    {
+      "normalized": "standardandpoeticeuphonicvariants",
+      "forms": [
+        "standard and poetic euphonic variants"
+      ],
+      "labels": [
+        "Variant form pattern"
+      ],
+      "meanings": [
+        "Optional euphonic vowel creates poetic, melodic, formal, or archaic variants of standard forms."
+      ],
+      "sourceIds": [
+        "RM-S1-0004"
+      ]
+    },
+    {
+      "normalized": "vowelharmonyineuphony",
+      "forms": [
+        "vowel harmony in euphony"
+      ],
+      "labels": [
+        "Phonological process"
+      ],
+      "meanings": [
+        "The connecting vowel often matches the dominant vowel sound of the preceding root to create a more melodic and internally consistent word."
+      ],
+      "sourceIds": [
+        "RM-S1-0002"
+      ]
+    },
+    {
+      "normalized": "phoneticfossils",
+      "forms": [
+        "phonetic fossils"
+      ],
+      "labels": [
+        "Historical variance category"
+      ],
+      "meanings": [
+        "Foundational words whose original form is considered sacrosanct and not corrected with a euphonic vowel."
+      ],
+      "sourceIds": [
+        "RM-S1-0003"
+      ]
+    },
+    {
+      "normalized": "euphonicvowel",
+      "forms": [
+        "euphonic vowel"
+      ],
+      "labels": [
+        "Phonological insertion"
+      ],
+      "meanings": [
+        "A connecting vowel inserted to avoid harsh or dissonant consonant clusters in compound words."
+      ],
+      "sourceIds": [
+        "RM-S1-0001"
+      ]
+    },
+    {
+      "normalized": "rethrethvok",
+      "forms": [
+        "Reth- / Rethvok-"
+      ],
+      "labels": [
+        "Prefix",
+        "Root Word"
+      ],
+      "meanings": [
+        "Reth: uncertainty, confusion, doubt, a question, or. Rethvok: chaos, disorder, un-ordered state."
+      ],
+      "sourceIds": [
+        "DM-RM-S3-0010",
+        "RM-S3-0010"
+      ]
+    },
+    {
+      "normalized": "terraterra",
+      "forms": [
+        "terra- / Terra-"
+      ],
+      "labels": [
+        "Prefix",
+        "Root Word"
+      ],
+      "meanings": [
+        "Earth, ground, soil, land; lowercase terra is mundane physical ground; capitalized Terra is the world as living spiritual entity."
+      ],
+      "sourceIds": [
+        "DM-RM-S3-0007",
+        "RM-S3-0007"
+      ]
+    },
+    {
+      "normalized": "pralaen",
+      "forms": [
+        "Pralaen-"
+      ],
+      "labels": [
+        "Prefix",
+        "Root Word"
+      ],
+      "meanings": [
+        "To make, craft, shape with care; skill, purpose, imposing order."
+      ],
+      "sourceIds": [
+        "DM-RM-S3-0020",
+        "RM-S3-0020"
+      ]
+    },
+    {
+      "normalized": "fennil",
+      "forms": [
+        "Fennil"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Leaf; herb; soft medicinal greens"
+      ],
+      "sourceIds": [
+        "XR-fennil"
+      ]
+    },
+    {
+      "normalized": "arshor",
+      "forms": [
+        "Arshor"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Enveloping presence; atmospheric blanket"
+      ],
+      "sourceIds": [
+        "XR-arshor"
+      ]
+    },
+    {
+      "normalized": "kadren",
+      "forms": [
+        "Kadren"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Masculine essence (strength, groundedness)."
+      ],
+      "sourceIds": [
+        "DM-RM-V1-0001",
+        "RM-V1-0001"
+      ]
+    },
+    {
+      "normalized": "hekmel",
+      "forms": [
+        "Hek-Mel-"
+      ],
+      "labels": [
+        "Prefix"
+      ],
+      "meanings": [
+        "Hundreds of thousands construction"
+      ],
+      "sourceIds": [
+        "DM-RM-V3-0018",
+        "RM-V3-0018"
+      ]
+    },
+    {
+      "normalized": "senar",
+      "forms": [
+        "Senar"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Six"
+      ],
+      "sourceIds": [
+        "LX-V3-0139; XR-senar"
+      ]
+    },
+    {
+      "normalized": "sethe",
+      "forms": [
+        "Sethe"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Seven"
+      ],
+      "sourceIds": [
+        "LX-V3-0140; XR-sethe"
+      ]
+    },
+    {
+      "normalized": "nevar",
+      "forms": [
+        "Nevar"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Nine"
+      ],
+      "sourceIds": [
+        "LX-V3-0142; XR-nevar"
+      ]
+    },
+    {
+      "normalized": "nelar",
+      "forms": [
+        "Nelar"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Naturally produced sweet plant liquid; nectar"
+      ],
+      "sourceIds": [
+        "LX-FAP1-0026; XR-nelar"
+      ]
+    },
+    {
+      "normalized": "saren",
+      "forms": [
+        "Saren"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Wheat"
+      ],
+      "sourceIds": [
+        "LX-FAP2-0001; XR-saren"
+      ]
+    },
+    {
+      "normalized": "ruvan",
+      "forms": [
+        "Ruvan"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Moral institutional or social corruption understood as living rot spreading through a community or organized system"
+      ],
+      "sourceIds": [
+        "LX-FAP2-0027; LX-SCP1-0007; XR-ruvan"
+      ]
+    },
+    {
+      "normalized": "sadar",
+      "forms": [
+        "Sadar"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Loose granular mineral material; sand"
+      ],
+      "sourceIds": [
+        "LX-CWM2-0004; XR-sadar"
+      ]
+    },
+    {
+      "normalized": "dresh",
+      "forms": [
+        "Dresh"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Crystal as an ordered mineral material"
+      ],
+      "sourceIds": [
+        "LX-CWM2-0008; XR-dresh"
+      ]
+    },
+    {
+      "normalized": "ndara",
+      "forms": [
+        "Ndara"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Wall; an upright structural surface that encloses divides or supports built space"
+      ],
+      "sourceIds": [
+        "LX-BSPI1-0002; XR-ndara"
+      ]
+    },
+    {
+      "normalized": "ndavi",
+      "forms": [
+        "Ndavi"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Fixed vertical level or height position"
+      ],
+      "sourceIds": [
+        "LX-BSPI1-0040; XR-ndavi"
+      ]
+    },
+    {
+      "normalized": "thael",
+      "forms": [
+        "Thael"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Rhythm or beat; a recurring pattern of pulse sound or movement"
+      ],
+      "sourceIds": [
+        "LX-PSAC1-0004; XR-thael"
+      ]
+    },
+    {
+      "normalized": "songa",
+      "forms": [
+        "Songa"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Universe or cosmos; the total physical expanse and all matter, energy, places, and events within it"
+      ],
+      "sourceIds": [
+        "LX-SAC1-0001; XR-songa"
+      ]
+    },
+    {
+      "normalized": "doran",
+      "forms": [
+        "Doran"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Torso or trunk as a bodily region"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0001; XR-doran"
+      ]
+    },
+    {
+      "normalized": "breka",
+      "forms": [
+        "Breka"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Chest as a bodily region"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0002; XR-breka"
+      ]
+    },
+    {
+      "normalized": "davel",
+      "forms": [
+        "Davel"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Belly or abdomen as a bodily region"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0004; XR-davel"
+      ]
+    },
+    {
+      "normalized": "metha",
+      "forms": [
+        "Metha"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Flesh or soft bodily tissue beneath the skin and around the skeleton"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0015; XR-metha"
+      ]
+    },
+    {
+      "normalized": "khelu",
+      "forms": [
+        "Khelu"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Brain"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0021; XR-khelu"
+      ]
+    },
+    {
+      "normalized": "lumar",
+      "forms": [
+        "Lumar"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Liver"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0023; XR-lumar"
+      ]
+    },
+    {
+      "normalized": "kedir",
+      "forms": [
+        "Kedir"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Kidney"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0024; XR-kedir"
+      ]
+    },
+    {
+      "normalized": "nderu",
+      "forms": [
+        "Nderu"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Testicle"
+      ],
+      "sourceIds": [
+        "LX-RABFE2-0008; XR-nderu"
+      ]
+    },
+    {
+      "normalized": "zhael",
+      "forms": [
+        "Zhael"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Bloom; renewal; soft opening; empathy"
+      ],
+      "sourceIds": [
+        "XR-zhael"
+      ]
+    },
+    {
+      "normalized": "thaen",
+      "forms": [
+        "Thaen"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Spirit-breath; still internal seasonality"
+      ],
+      "sourceIds": [
+        "XR-thaen"
+      ]
+    },
+    {
+      "normalized": "livar",
+      "forms": [
+        "Livar"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Preservation; salt-fixing; anti-decay"
+      ],
+      "sourceIds": [
+        "XR-livar"
+      ]
+    },
+    {
+      "normalized": "marin",
+      "forms": [
+        "Marin"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Branch; extension; outward-growing limb"
+      ],
+      "sourceIds": [
+        "XR-marin"
+      ]
+    },
+    {
+      "normalized": "vilor",
+      "forms": [
+        "Vilor"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Berry essence; small sweet fruit"
+      ],
+      "sourceIds": [
+        "XR-vilor"
+      ]
+    },
+    {
+      "normalized": "torin",
+      "forms": [
+        "Torin"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Protein; meat; concentrated animal sustenance"
+      ],
+      "sourceIds": [
+        "XR-torin"
+      ]
+    },
+    {
+      "normalized": "tarin",
+      "forms": [
+        "Tarin"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Dried sweetness; sun-preserved fruit"
+      ],
+      "sourceIds": [
+        "XR-tarin"
+      ]
+    },
+    {
+      "normalized": "soril",
+      "forms": [
+        "Soril"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Depth of flavor; complex taste-body"
+      ],
+      "sourceIds": [
+        "XR-soril"
+      ]
+    },
+    {
+      "normalized": "venak",
+      "forms": [
+        "Venak"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Warmth-vessel; held heat; stew-state"
+      ],
+      "sourceIds": [
+        "XR-venak"
+      ]
+    },
+    {
+      "normalized": "shara",
+      "forms": [
+        "Shara-"
+      ],
+      "labels": [
+        "Prefix",
+        "Root Word"
+      ],
+      "meanings": [
+        "A path, a road, a journey; life path, strategy, decision path."
+      ],
+      "sourceIds": [
+        "DM-RM-S3-0015",
+        "RM-S3-0015"
+      ]
+    },
+    {
+      "normalized": "thaal",
+      "forms": [
+        "Thaal"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Superlative marker: most"
+      ],
+      "sourceIds": [
+        "RM-V3-0008"
+      ]
+    },
+    {
+      "normalized": "norka",
+      "forms": [
+        "nor-ka"
+      ],
+      "labels": [
+        "Particle"
+      ],
+      "meanings": [
+        "passive voice echo particle"
+      ],
+      "sourceIds": [
+        "RM-V4-0003"
+      ]
+    },
+    {
+      "normalized": "morl",
+      "forms": [
+        "Morl",
+        "Morl-"
+      ],
+      "labels": [
+        "Root Word",
+        "Prefix"
+      ],
+      "meanings": [
+        "Mountain",
+        "Stone, rock, mountain; endurance, history, stubbornness, strength, foundation, stability, defense."
+      ],
+      "sourceIds": [
+        "LX-V1-0022; LX-V2-0005; LX-V2-0066; XR-morl",
+        "DM-RM-S3-0005",
+        "RM-S3-0005"
+      ]
+    },
+    {
+      "normalized": "dren",
+      "forms": [
+        "Dren",
+        "Dren-"
+      ],
+      "labels": [
+        "Root Word",
+        "Prefix"
+      ],
+      "meanings": [
+        "Water",
+        "Water, liquid, fluid; life, flow, change, healing, emotion, intuition, cleansing, adaptation."
+      ],
+      "sourceIds": [
+        "LX-V2-0002; LX-V2-0068; LX-V3-0011; XR-dren",
+        "DM-RM-S3-0004",
+        "RM-S3-0004"
+      ]
+    },
+    {
+      "normalized": "arth",
+      "forms": [
+        "Arth"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Protection; defense; purposeful shielding"
+      ],
+      "sourceIds": [
+        "LX-V2-0030; XR-arth"
+      ]
+    },
+    {
+      "normalized": "mahr",
+      "forms": [
+        "Mahr"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "ocean"
+      ],
+      "sourceIds": [
+        "LX-V2-0076; XR-mahr"
+      ]
+    },
+    {
+      "normalized": "awek",
+      "forms": [
+        "Awek"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Natural water spring; source"
+      ],
+      "sourceIds": [
+        "LX-V2-0079; XR-awek"
+      ]
+    },
+    {
+      "normalized": "unar",
+      "forms": [
+        "Unar"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "One"
+      ],
+      "sourceIds": [
+        "LX-V3-0134; XR-unar"
+      ]
+    },
+    {
+      "normalized": "tren",
+      "forms": [
+        "Tren"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Three"
+      ],
+      "sourceIds": [
+        "LX-V3-0136; XR-tren"
+      ]
+    },
+    {
+      "normalized": "quen",
+      "forms": [
+        "Quen"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Four"
+      ],
+      "sourceIds": [
+        "LX-V3-0137; XR-quen"
+      ]
+    },
+    {
+      "normalized": "peth",
+      "forms": [
+        "Peth"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Five"
+      ],
+      "sourceIds": [
+        "LX-V3-0138; XR-peth"
+      ]
+    },
+    {
+      "normalized": "oven",
+      "forms": [
+        "Oven"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Eight"
+      ],
+      "sourceIds": [
+        "LX-V3-0141; XR-oven"
+      ]
+    },
+    {
+      "normalized": "kinn",
+      "forms": [
+        "Kinn"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Day",
+        "daylight"
+      ],
+      "sourceIds": [
+        "LX-V4-0082; DM-RM-V2-0001",
+        "RM-V2-0001"
+      ]
+    },
+    {
+      "normalized": "shan",
+      "forms": [
+        "Shan"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Passing; transfer; handoff between states"
+      ],
+      "sourceIds": [
+        "LX-CNE1-0036; XR-shan"
+      ]
+    },
+    {
+      "normalized": "shem",
+      "forms": [
+        "Shem"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "A handled scoop used to stir, lift, or serve food or liquid; spoon or ladle"
+      ],
+      "sourceIds": [
+        "LX-DSL1-0001; XR-shem"
+      ]
+    },
+    {
+      "normalized": "rask",
+      "forms": [
+        "Rask"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Animal skin or removed raw hide before preparation as leather"
+      ],
+      "sourceIds": [
+        "LX-DSL1-0008; XR-rask"
+      ]
+    },
+    {
+      "normalized": "kren",
+      "forms": [
+        "Kren"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Metal as a general class of hard workable material without specifying a particular metal"
+      ],
+      "sourceIds": [
+        "LX-DSL1-0028; XR-kren"
+      ]
+    },
+    {
+      "normalized": "nesh",
+      "forms": [
+        "Nesh"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "An aquatic creature; in ordinary unmarked use, especially a fish"
+      ],
+      "sourceIds": [
+        "LX-FAP1-0013; XR-nesh"
+      ]
+    },
+    {
+      "normalized": "olan",
+      "forms": [
+        "Olan"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Oil as a broad material class"
+      ],
+      "sourceIds": [
+        "LX-FAP2-0004; XR-olan"
+      ]
+    },
+    {
+      "normalized": "mura",
+      "forms": [
+        "Mura"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Smoke as a physical combustion product"
+      ],
+      "sourceIds": [
+        "LX-FAP2-0021; XR-mura"
+      ]
+    },
+    {
+      "normalized": "rema",
+      "forms": [
+        "Rema"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "The face; the visible front of the head containing the principal social and sensory features"
+      ],
+      "sourceIds": [
+        "LX-CWM1-0008; XR-rema"
+      ]
+    },
+    {
+      "normalized": "sura",
+      "forms": [
+        "Sura"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Animal hair or fur as a natural covering and workable material"
+      ],
+      "sourceIds": [
+        "LX-CWM1-0020; XR-sura"
+      ]
+    },
+    {
+      "normalized": "eran",
+      "forms": [
+        "Eran"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Iron as a specific elemental metal"
+      ],
+      "sourceIds": [
+        "LX-CWM2-0006; XR-eran"
+      ]
+    },
+    {
+      "normalized": "osar",
+      "forms": [
+        "Osar"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Bone as skeletal tissue and workable material"
+      ],
+      "sourceIds": [
+        "LX-CWM2-0007; XR-osar"
+      ]
+    },
+    {
+      "normalized": "njor",
+      "forms": [
+        "Njor"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "A bridge between separated people groups systems or ideas; a connection that crosses a meaningful division"
+      ],
+      "sourceIds": [
+        "LX-BSPI1-0022; LX-SCP1-0005; XR-njor"
+      ]
+    },
+    {
+      "normalized": "ngar",
+      "forms": [
+        "Ngar"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Weapon or purpose-built harmful implement"
+      ],
+      "sourceIds": [
+        "LX-DW1-0001; XR-ngar"
+      ]
+    },
+    {
+      "normalized": "duma",
+      "forms": [
+        "Duma"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Death; irreversible end of bodily life"
+      ],
+      "sourceIds": [
+        "LX-SBD1-0007; XR-duma"
+      ]
+    },
+    {
+      "normalized": "ndem",
+      "forms": [
+        "Ndem"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Blood; circulating bodily fluid associated with life injury and internal transport"
+      ],
+      "sourceIds": [
+        "LX-HTS1-0001; XR-ndem"
+      ]
+    },
+    {
+      "normalized": "sava",
+      "forms": [
+        "Sava"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Care or treatment for sickness or injury in ordinary speech without specifying a formal method or clinical plan"
+      ],
+      "sourceIds": [
+        "LX-HTS1-0007; XR-sava"
+      ]
+    },
+    {
+      "normalized": "nali",
+      "forms": [
+        "Nali"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Species; a recognized biological kind or lineage extending across organisms and generations"
+      ],
+      "sourceIds": [
+        "LX-EGE1-0043; XR-nali"
+      ]
+    },
+    {
+      "normalized": "gorm",
+      "forms": [
+        "Gorm"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Dirt grime or unwanted soiling matter"
+      ],
+      "sourceIds": [
+        "LX-EGE1-0061; XR-gorm"
+      ]
+    },
+    {
+      "normalized": "dava",
+      "forms": [
+        "Dava"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Information; meaningful content capable of being known communicated represented or stored"
+      ],
+      "sourceIds": [
+        "LX-ICAES1-0001; XR-dava"
+      ]
+    },
+    {
+      "normalized": "raku",
+      "forms": [
+        "Raku"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Computation; rule-governed transformation or evaluation of numbers symbols states or information"
+      ],
+      "sourceIds": [
+        "LX-ICAES1-0011; XR-raku"
+      ]
+    },
+    {
+      "normalized": "nyel",
+      "forms": [
+        "Nyel"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Star; an individual self-luminous celestial body"
+      ],
+      "sourceIds": [
+        "LX-SAC1-0005; XR-nyel"
+      ]
+    },
+    {
+      "normalized": "vora",
+      "forms": [
+        "Vora"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Planet; a large rounded celestial body that orbits a star and does not itself shine as a star"
+      ],
+      "sourceIds": [
+        "LX-SAC1-0008; XR-vora"
+      ]
+    },
+    {
+      "normalized": "naku",
+      "forms": [
+        "Naku"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Left-side relation within an oriented frame"
+      ],
+      "sourceIds": [
+        "LX-SRD1-0001; XR-naku"
+      ]
+    },
+    {
+      "normalized": "sora",
+      "forms": [
+        "Sora"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Right-side relation within an oriented frame"
+      ],
+      "sourceIds": [
+        "LX-SRD1-0002; XR-sora"
+      ]
+    },
+    {
+      "normalized": "mira",
+      "forms": [
+        "Mira"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Embarrassment; immediate self-conscious social discomfort"
+      ],
+      "sourceIds": [
+        "LX-UHEI1-0012; XR-mira"
+      ]
+    },
+    {
+      "normalized": "daku",
+      "forms": [
+        "Daku"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Boredom; an unpleasant or restless absence of engagement meaningful occupation novelty or attention"
+      ],
+      "sourceIds": [
+        "LX-UHEI1-0014; XR-daku"
+      ]
+    },
+    {
+      "normalized": "vesh",
+      "forms": [
+        "Vesh"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Back as a bodily surface"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0003; XR-vesh"
+      ]
+    },
+    {
+      "normalized": "gora",
+      "forms": [
+        "Gora"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "A bodily joint where bones meet and movement is allowed or limited"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0007; XR-gora"
+      ]
+    },
+    {
+      "normalized": "lera",
+      "forms": [
+        "Lera"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Tongue"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0018; XR-lera"
+      ]
+    },
+    {
+      "normalized": "tash",
+      "forms": [
+        "Tash"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "An organ; a differentiated internal bodily structure with a characteristic function"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0020; XR-tash"
+      ]
+    },
+    {
+      "normalized": "lesh",
+      "forms": [
+        "Lesh"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Nerve or bodily signal pathway"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0028; XR-lesh"
+      ]
+    },
+    {
+      "normalized": "khos",
+      "forms": [
+        "Khos"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "A cough; one abrupt forceful expulsion of air"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0030; XR-khos"
+      ]
+    },
+    {
+      "normalized": "uren",
+      "forms": [
+        "Uren"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Urine"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0038; XR-uren"
+      ]
+    },
+    {
+      "normalized": "noka",
+      "forms": [
+        "Noka"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "External vulval anatomy"
+      ],
+      "sourceIds": [
+        "LX-RABFE2-0001; XR-noka"
+      ]
+    },
+    {
+      "normalized": "kiri",
+      "forms": [
+        "Kiri"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Clitoris"
+      ],
+      "sourceIds": [
+        "LX-RABFE2-0003; XR-kiri"
+      ]
+    },
+    {
+      "normalized": "mara",
+      "forms": [
+        "Mara"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Uterus"
+      ],
+      "sourceIds": [
+        "LX-RABFE2-0004; XR-mara"
+      ]
+    },
+    {
+      "normalized": "seki",
+      "forms": [
+        "Seki"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Ovary"
+      ],
+      "sourceIds": [
+        "LX-RABFE2-0006; XR-seki"
+      ]
+    },
+    {
+      "normalized": "tava",
+      "forms": [
+        "Tava"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Penis"
+      ],
+      "sourceIds": [
+        "LX-RABFE2-0007; XR-tava"
+      ]
+    },
+    {
+      "normalized": "fena",
+      "forms": [
+        "Fena"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Anus or external anal opening"
+      ],
+      "sourceIds": [
+        "LX-RABFE2-0011; XR-fena"
+      ]
+    },
+    {
+      "normalized": "leya",
+      "forms": [
+        "Leya"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Sexual arousal; bodily sexual activation whether or not accompanied by desire consent or intended action"
+      ],
+      "sourceIds": [
+        "LX-RABFE2-0012; XR-leya"
+      ]
+    },
+    {
+      "normalized": "ruma",
+      "forms": [
+        "Ruma"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Human hair; individual or collective hair growing from a person's scalp or body"
+      ],
+      "sourceIds": [
+        "LX-RABFE2-0020; XR-ruma"
+      ]
+    },
+    {
+      "normalized": "veth",
+      "forms": [
+        "Veth"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Shade; mystery; hidden or sleeping things"
+      ],
+      "sourceIds": [
+        "XR-veth"
+      ]
+    },
+    {
+      "normalized": "neth",
+      "forms": [
+        "Neth"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Rest; physical stillness; support"
+      ],
+      "sourceIds": [
+        "XR-neth"
+      ]
+    },
+    {
+      "normalized": "verd",
+      "forms": [
+        "Verd"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Foliage; forest growth; botanical life"
+      ],
+      "sourceIds": [
+        "XR-verd"
+      ]
+    },
+    {
+      "normalized": "trak",
+      "forms": [
+        "Trak"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Tread; step; foot-borne movement"
+      ],
+      "sourceIds": [
+        "XR-trak"
+      ]
+    },
+    {
+      "normalized": "zhir",
+      "forms": [
+        "Zhir",
+        "Zhir-"
+      ],
+      "labels": [
+        "Root Word",
+        "Prefix"
+      ],
+      "meanings": [
+        "Lineage; thread; connection through time",
+        "Thread, line, cord; connection through time, lineage, history, cause-effect, fate."
+      ],
+      "sourceIds": [
+        "XR-zhir",
+        "DM-RM-S3-0026",
+        "RM-S3-0026"
+      ]
+    },
+    {
+      "normalized": "khum",
+      "forms": [
+        "Khum",
+        "Khum-"
+      ],
+      "labels": [
+        "Root Word",
+        "Prefix"
+      ],
+      "meanings": [
+        "Circle; listening; reconciliation",
+        "Circle, reconciliation",
+        "To listen, perceive, know through hearing; patient knowing and introspection."
+      ],
+      "sourceIds": [
+        "XR-khum",
+        "DM-RM-V2-0025; DM-RM-S3-0025",
+        "RM-V2-0025",
+        "RM-S3-0025"
+      ]
+    },
+    {
+      "normalized": "phel",
+      "forms": [
+        "Phel"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Warmth or comfort (symbolizing physical or emotional ease)."
+      ],
+      "sourceIds": [
+        "XR-phel; DM-RM-V2-0007",
+        "RM-V2-0007"
+      ]
+    },
+    {
+      "normalized": "prak",
+      "forms": [
+        "Prak"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Softness or tenderness (e.g., soft food or texture)."
+      ],
+      "sourceIds": [
+        "XR-prak; DM-RM-V2-0008",
+        "RM-V2-0008"
+      ]
+    },
+    {
+      "normalized": "bros",
+      "forms": [
+        "Bros"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Layering or stratification (symbolizing levels or textures)."
+      ],
+      "sourceIds": [
+        "XR-bros; DM-RM-V2-0004",
+        "RM-V2-0004"
+      ]
+    },
+    {
+      "normalized": "elor",
+      "forms": [
+        "Elor"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Growth; upward alignment; unfolding maturity"
+      ],
+      "sourceIds": [
+        "XR-elor"
+      ]
+    },
+    {
+      "normalized": "zhel",
+      "forms": [
+        "Zhel"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Spark; energy; quick power-flash"
+      ],
+      "sourceIds": [
+        "XR-zhel"
+      ]
+    },
+    {
+      "normalized": "alor",
+      "forms": [
+        "Alor"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Falling; descent; downward motion"
+      ],
+      "sourceIds": [
+        "XR-alor"
+      ]
+    },
+    {
+      "normalized": "tham",
+      "forms": [
+        "Tham"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Mashing; softening; breaking structure down"
+      ],
+      "sourceIds": [
+        "XR-tham"
+      ]
+    },
+    {
+      "normalized": "azan",
+      "forms": [
+        "Azan"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Feminine essence (nurturing, fluidity)."
+      ],
+      "sourceIds": [
+        "DM-RM-V1-0002",
+        "RM-V1-0002"
+      ]
+    },
+    {
+      "normalized": "thee",
+      "forms": [
+        "Thee"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Neutral essence (balance, unity)."
+      ],
+      "sourceIds": [
+        "DM-RM-V1-0003",
+        "RM-V1-0003"
+      ]
+    },
+    {
+      "normalized": "kilv",
+      "forms": [
+        "Kilv"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "shadow/time"
+      ],
+      "sourceIds": [
+        "DM-RM-V2-0002",
+        "RM-V2-0002"
+      ]
+    },
+    {
+      "normalized": "zhae",
+      "forms": [
+        "Zhae-"
+      ],
+      "labels": [
+        "Prefix",
+        "Root Word"
+      ],
+      "meanings": [
+        "Light, empathy"
+      ],
+      "sourceIds": [
+        "DM-RM-V2-0026",
+        "RM-V2-0026"
+      ]
+    },
+    {
+      "normalized": "shal",
+      "forms": [
+        "Shal-"
+      ],
+      "labels": [
+        "Prefix",
+        "Root Word"
+      ],
+      "meanings": [
+        "Light, glow, brightness; hope, truth, creation, clarity, revelation, wisdom, life, beginnings."
+      ],
+      "sourceIds": [
+        "DM-RM-S3-0001",
+        "RM-S3-0001"
+      ]
+    },
+    {
+      "normalized": "krez",
+      "forms": [
+        "Krez-"
+      ],
+      "labels": [
+        "Prefix",
+        "Root Word"
+      ],
+      "meanings": [
+        "Fire, heat, energy; passion, creation, strength, life-force, warmth, resilience, purification."
+      ],
+      "sourceIds": [
+        "DM-RM-S3-0003",
+        "RM-S3-0003"
+      ]
+    },
+    {
+      "normalized": "lian",
+      "forms": [
+        "Lian-"
+      ],
+      "labels": [
+        "Prefix",
+        "Root Word"
+      ],
+      "meanings": [
+        "Truth, honesty; reality, natural law, essence, logic, clarity, correctness."
+      ],
+      "sourceIds": [
+        "DM-RM-S3-0008",
+        "RM-S3-0008"
+      ]
+    },
+    {
+      "normalized": "thal",
+      "forms": [
+        "Thal-"
+      ],
+      "labels": [
+        "Prefix",
+        "Root Word"
+      ],
+      "meanings": [
+        "Balance, harmony, equilibrium; also preposition meaning From / Out of."
+      ],
+      "sourceIds": [
+        "DM-RM-S3-0009",
+        "RM-S3-0009"
+      ]
+    },
+    {
+      "normalized": "thar",
+      "forms": [
+        "Thar-"
+      ],
+      "labels": [
+        "Prefix",
+        "Root Word"
+      ],
+      "meanings": [
+        "The physical heart; source of emotion, will, and true inner self."
+      ],
+      "sourceIds": [
+        "DM-RM-S3-0017",
+        "RM-S3-0017"
+      ]
+    },
+    {
+      "normalized": "rath",
+      "forms": [
+        "Rath-",
+        "Rath"
+      ],
+      "labels": [
+        "Prefix",
+        "Particle",
+        "Root Word"
+      ],
+      "meanings": [
+        "Enemy, foe, adversary; also conditional particle if.",
+        "Conditional “If”",
+        "Conditional marker: if"
+      ],
+      "sourceIds": [
+        "DM-RM-S3-0024",
+        "RM-V1-0012",
+        "RM-V3-0009",
+        "RM-S3-0024"
+      ]
+    },
+    {
+      "normalized": "bren",
+      "forms": [
+        "Bren"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Harvest (e.g., the act or result of gathering food)."
+      ],
+      "sourceIds": [
+        "RM-V2-0006"
+      ]
+    },
+    {
+      "normalized": "pral",
+      "forms": [
+        "Pral"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Intricacy or detail (symbolizing small, delicate work)."
+      ],
+      "sourceIds": [
+        "RM-V2-0010"
+      ]
+    },
+    {
+      "normalized": "lior",
+      "forms": [
+        "Lior"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Relative Pronoun"
+      ],
+      "sourceIds": [
+        "RM-V3-0006"
+      ]
+    },
+    {
+      "normalized": "ther",
+      "forms": [
+        "Ther"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Comparative marker: more than"
+      ],
+      "sourceIds": [
+        "RM-V3-0007"
+      ]
+    },
+    {
+      "normalized": "vael",
+      "forms": [
+        "vael"
+      ],
+      "labels": [
+        "Particle"
+      ],
+      "meanings": [
+        "Subjunctive mood: wishes/hypotheticals"
+      ],
+      "sourceIds": [
+        "RM-V4-0002"
+      ]
+    },
+    {
+      "normalized": "lun",
+      "forms": [
+        "Lun"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Lake"
+      ],
+      "sourceIds": [
+        "LX-V2-0077; LX-LPC1-0001; XR-lun"
+      ]
+    },
+    {
+      "normalized": "dro",
+      "forms": [
+        "Dro"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Basic physical water"
+      ],
+      "sourceIds": [
+        "LX-V3-0014; XR-dro"
+      ]
+    },
+    {
+      "normalized": "del",
+      "forms": [
+        "Del"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Two"
+      ],
+      "sourceIds": [
+        "LX-V3-0135; XR-del"
+      ]
+    },
+    {
+      "normalized": "dor",
+      "forms": [
+        "Dor"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Deliberate placement; setting at a location"
+      ],
+      "sourceIds": [
+        "LX-CNE1-0001; XR-dor"
+      ]
+    },
+    {
+      "normalized": "dar",
+      "forms": [
+        "Dar"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Deliberate pending pause; waiting"
+      ],
+      "sourceIds": [
+        "LX-CNE1-0009; XR-dar"
+      ]
+    },
+    {
+      "normalized": "siv",
+      "forms": [
+        "Siv"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Directed effort under uncertainty; attempt"
+      ],
+      "sourceIds": [
+        "LX-CNE1-0010; XR-siv"
+      ]
+    },
+    {
+      "normalized": "kes",
+      "forms": [
+        "Kes"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Attention; mental registration; noticing"
+      ],
+      "sourceIds": [
+        "LX-CNE1-0016; XR-kes"
+      ]
+    },
+    {
+      "normalized": "lem",
+      "forms": [
+        "Lem"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Fine mineral earth that becomes plastic and shapeable when wet; clay"
+      ],
+      "sourceIds": [
+        "LX-DSL1-0010; XR-lem"
+      ]
+    },
+    {
+      "normalized": "tir",
+      "forms": [
+        "Tir"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Copper"
+      ],
+      "sourceIds": [
+        "LX-DSL1-0013; XR-tir"
+      ]
+    },
+    {
+      "normalized": "aiv",
+      "forms": [
+        "Aiv"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Bodily pain or physical hurting without specifying its cause or intensity"
+      ],
+      "sourceIds": [
+        "LX-DSL1-0015; XR-aiv"
+      ]
+    },
+    {
+      "normalized": "zem",
+      "forms": [
+        "Zem"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Wood or timber as a workable material separated conceptually from a living tree"
+      ],
+      "sourceIds": [
+        "LX-DSL1-0027; XR-zem"
+      ]
+    },
+    {
+      "normalized": "sov",
+      "forms": [
+        "Sov"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "A bounded cultivated field or working plot of land"
+      ],
+      "sourceIds": [
+        "LX-FAP1-0006; XR-sov"
+      ]
+    },
+    {
+      "normalized": "zor",
+      "forms": [
+        "Zor"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "An animal or beast; the ordinary general category of animal life"
+      ],
+      "sourceIds": [
+        "LX-FAP1-0018; XR-zor"
+      ]
+    },
+    {
+      "normalized": "hir",
+      "forms": [
+        "Hir"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Color or hue; the visible chromatic quality of a surface, light, or substance"
+      ],
+      "sourceIds": [
+        "LX-CWM2-0013; XR-hir"
+      ]
+    },
+    {
+      "normalized": "sel",
+      "forms": [
+        "Sel"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Mental clarity; an unobscured and internally ordered state of thought without implying truth evidence or correctness"
+      ],
+      "sourceIds": [
+        "LX-SCP1-0006; XR-sel"
+      ]
+    },
+    {
+      "normalized": "dov",
+      "forms": [
+        "Dov"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Play or recreation undertaken primarily for enjoyment"
+      ],
+      "sourceIds": [
+        "LX-RC1-0001; XR-dov"
+      ]
+    },
+    {
+      "normalized": "nak",
+      "forms": [
+        "Nak"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Competition; organized striving whose outcomes are compared"
+      ],
+      "sourceIds": [
+        "LX-RC1-0006; XR-nak"
+      ]
+    },
+    {
+      "normalized": "rim",
+      "forms": [
+        "Rim"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Celebration; a festive observance expressing shared joy recognition or remembrance"
+      ],
+      "sourceIds": [
+        "LX-PSAC1-0024; XR-rim"
+      ]
+    },
+    {
+      "normalized": "mbu",
+      "forms": [
+        "Mbu"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Fungus or fungal life distinct from plants and animals"
+      ],
+      "sourceIds": [
+        "LX-EGE1-0041; XR-mbu"
+      ]
+    },
+    {
+      "normalized": "sul",
+      "forms": [
+        "Sul"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Resource; a usable supply substance energy source or environmental provision available to meet a need"
+      ],
+      "sourceIds": [
+        "LX-EGE1-0067; XR-sul"
+      ]
+    },
+    {
+      "normalized": "aru",
+      "forms": [
+        "Aru"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Magic; intentional relationship or practice producing effects beyond ordinary causation"
+      ],
+      "sourceIds": [
+        "LX-GMMP1-0001; XR-aru"
+      ]
+    },
+    {
+      "normalized": "hav",
+      "forms": [
+        "Hav"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Laughter; a bodily vocal or breath-driven expression arising from amusement relief tension embarrassment disbelief or social response"
+      ],
+      "sourceIds": [
+        "LX-HLPS1-0001; XR-hav"
+      ]
+    },
+    {
+      "normalized": "nem",
+      "forms": [
+        "Nem"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Understanding or comprehension; a coherent mental grasp of what something means how it works or how its parts relate"
+      ],
+      "sourceIds": [
+        "LX-UHEI1-0001; XR-nem"
+      ]
+    },
+    {
+      "normalized": "zev",
+      "forms": [
+        "Zev"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Envy; painful comparative desire for an advantage possession quality opportunity or position understood to belong to another"
+      ],
+      "sourceIds": [
+        "LX-UHEI1-0008; XR-zev"
+      ]
+    },
+    {
+      "normalized": "pir",
+      "forms": [
+        "Pir"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Articulated bodily digit"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0009; XR-pir"
+      ]
+    },
+    {
+      "normalized": "zek",
+      "forms": [
+        "Zek"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Tooth"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0017; XR-zek"
+      ]
+    },
+    {
+      "normalized": "zer",
+      "forms": [
+        "Zer"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "A sneeze; one abrupt involuntary expulsion through the nose and mouth"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0032; XR-zer"
+      ]
+    },
+    {
+      "normalized": "suv",
+      "forms": [
+        "Suv"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Sweat or perspiration"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0034; XR-suv"
+      ]
+    },
+    {
+      "normalized": "nar",
+      "forms": [
+        "Nar"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Nausea and the associated emetic event"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0036; XR-nar"
+      ]
+    },
+    {
+      "normalized": "fek",
+      "forms": [
+        "Fek"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Feces and defecation"
+      ],
+      "sourceIds": [
+        "LX-BIAOBF1-0040; XR-fek"
+      ]
+    },
+    {
+      "normalized": "rin",
+      "forms": [
+        "Rin",
+        "Rin-"
+      ],
+      "labels": [
+        "Root Word",
+        "Prefix"
+      ],
+      "meanings": [
+        "Essence; inner spirit; true self",
+        "Essence, core nature, spirit, intrinsic quality."
+      ],
+      "sourceIds": [
+        "XR-rin",
+        "DM-RM-S3-0012",
+        "RM-S3-0012"
+      ]
+    },
+    {
+      "normalized": "bel",
+      "forms": [
+        "Bel",
+        "Bel-"
+      ],
+      "labels": [
+        "Root Word",
+        "Prefix"
+      ],
+      "meanings": [
+        "To bind or weave (symbolizing interconnection, fabric, or networks).",
+        "To bind, weave, connect, fasten; civilization, bonds, restrictions, systems."
+      ],
+      "sourceIds": [
+        "XR-bel; DM-RM-V2-0003",
+        "DM-RM-S3-0013",
+        "RM-V2-0003",
+        "RM-S3-0013"
+      ]
+    },
+    {
+      "normalized": "ohm",
+      "forms": [
+        "Ohm",
+        "Ohm-"
+      ],
+      "labels": [
+        "Root Word",
+        "Prefix"
+      ],
+      "meanings": [
+        "Connection; empathy; spiritual unity",
+        "Connection, unity",
+        "Connection, meeting point, circuit; spiritual connection distinct from Bel."
+      ],
+      "sourceIds": [
+        "XR-ohm",
+        "DM-RM-V2-0024; DM-RM-S3-0016",
+        "RM-V2-0024",
+        "RM-S3-0016"
+      ]
+    },
+    {
+      "normalized": "mor",
+      "forms": [
+        "Mor"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Matter; soil; earthy substance; physical grounding"
+      ],
+      "sourceIds": [
+        "XR-mor"
+      ]
+    },
+    {
+      "normalized": "kav",
+      "forms": [
+        "Kav"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Age; preservation; ancient duration"
+      ],
+      "sourceIds": [
+        "XR-kav"
+      ]
+    },
+    {
+      "normalized": "vel",
+      "forms": [
+        "Vel",
+        "-vel"
+      ],
+      "labels": [
+        "Root Word",
+        "Suffix"
+      ],
+      "meanings": [
+        "Wisdom; stillness; cold endurance",
+        "Bread shared among us"
+      ],
+      "sourceIds": [
+        "XR-vel",
+        "DM-RM-V3-0013",
+        "RM-V3-0013"
+      ]
+    },
+    {
+      "normalized": "tla",
+      "forms": [
+        "Tla",
+        "Tla-"
+      ],
+      "labels": [
+        "Root Word",
+        "Prefix"
+      ],
+      "meanings": [
+        "Intimacy; closeness; unspoken connection",
+        "Close, intimate connection"
+      ],
+      "sourceIds": [
+        "XR-tla",
+        "DM-RM-V2-0023",
+        "RM-V2-0023"
+      ]
+    },
+    {
+      "normalized": "jek",
+      "forms": [
+        "Jek"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Spiral or twist (symbolizing swirling patterns or dynamic shapes)."
+      ],
+      "sourceIds": [
+        "XR-jek; DM-RM-V2-0012",
+        "RM-V2-0012"
+      ]
+    },
+    {
+      "normalized": "wek",
+      "forms": [
+        "Wek"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Circularity or cycles (symbolizing completeness or renewal)."
+      ],
+      "sourceIds": [
+        "XR-wek; DM-RM-V2-0016",
+        "RM-V2-0016"
+      ]
+    },
+    {
+      "normalized": "lor",
+      "forms": [
+        "Lor"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Guidance; sight; focus of leadership"
+      ],
+      "sourceIds": [
+        "XR-lor"
+      ]
+    },
+    {
+      "normalized": "wor",
+      "forms": [
+        "Wor"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Abundance or plenty (symbolizing generosity or surplus)."
+      ],
+      "sourceIds": [
+        "XR-wor; DM-RM-V2-0017",
+        "RM-V2-0017"
+      ]
+    },
+    {
+      "normalized": "vin",
+      "forms": [
+        "Vin"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Pull; extraction; drawing out essence"
+      ],
+      "sourceIds": [
+        "XR-vin"
+      ]
+    },
+    {
+      "normalized": "nku",
+      "forms": [
+        "Nku",
+        "Nku-"
+      ],
+      "labels": [
+        "Root Word",
+        "Prefix"
+      ],
+      "meanings": [
+        "Hidden nurturing; held calm",
+        "Hidden, nurturing"
+      ],
+      "sourceIds": [
+        "XR-nku",
+        "DM-RM-V2-0027",
+        "RM-V2-0027"
+      ]
+    },
+    {
+      "normalized": "bal",
+      "forms": [
+        "Bal"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Growth or sprouting (e.g., plants, development)."
+      ],
+      "sourceIds": [
+        "XR-bal; DM-RM-V2-0005",
+        "RM-V2-0005"
+      ]
+    },
+    {
+      "normalized": "jel",
+      "forms": [
+        "Jel"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Flavor or zest (bright taste or sensory experience)."
+      ],
+      "sourceIds": [
+        "XR-jel; DM-RM-V2-0013",
+        "RM-V2-0013"
+      ]
+    },
+    {
+      "normalized": "wel",
+      "forms": [
+        "Wel"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Sharing or unity (emphasizing communal aspects, symbolizing seamless connections or unbroken lines)."
+      ],
+      "sourceIds": [
+        "XR-wel; DM-RM-V2-0015",
+        "RM-V2-0015"
+      ]
+    },
+    {
+      "normalized": "xil",
+      "forms": [
+        "Xil"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Hidden or secret (used for foods with a mysterious origin or preparation)."
+      ],
+      "sourceIds": [
+        "XR-xil; DM-RM-V2-0018",
+        "RM-V2-0018"
+      ]
+    },
+    {
+      "normalized": "rek",
+      "forms": [
+        "Rek"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Peak intensity; burning or heated state"
+      ],
+      "sourceIds": [
+        "XR-rek"
+      ]
+    },
+    {
+      "normalized": "rav",
+      "forms": [
+        "Rav",
+        "Rav-"
+      ],
+      "labels": [
+        "Root Word",
+        "Prefix"
+      ],
+      "meanings": [
+        "Pull; yearning; destiny attraction",
+        "Pull, yearning",
+        "To pull, draw towards; desire, deep yearning, destiny pull."
+      ],
+      "sourceIds": [
+        "XR-rav",
+        "DM-RM-V2-0021; DM-RM-S3-0021",
+        "RM-V2-0021",
+        "RM-S3-0021"
+      ]
+    },
+    {
+      "normalized": "mek",
+      "forms": [
+        "Mek"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Forging; construction; artificial making"
+      ],
+      "sourceIds": [
+        "XR-mek"
+      ]
+    },
+    {
+      "normalized": "vek",
+      "forms": [
+        "Vek"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Carrier; vessel; transported charge or substance"
+      ],
+      "sourceIds": [
+        "XR-vek"
+      ]
+    },
+    {
+      "normalized": "lak",
+      "forms": [
+        "Lak"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Grain; earthy food-substance; bread material"
+      ],
+      "sourceIds": [
+        "XR-lak"
+      ]
+    },
+    {
+      "normalized": "van",
+      "forms": [
+        "Van"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Commercial site; market-space; shop-place"
+      ],
+      "sourceIds": [
+        "XR-van"
+      ]
+    },
+    {
+      "normalized": "tha",
+      "forms": [
+        "Tha-"
+      ],
+      "labels": [
+        "Prefix"
+      ],
+      "meanings": [
+        "Past Tense",
+        "Past tense"
+      ],
+      "sourceIds": [
+        "DM-RM-V1-0004; DM-RM-V2-0035",
+        "RM-V1-0004",
+        "RM-V2-0035"
+      ]
+    },
+    {
+      "normalized": "nor",
+      "forms": [
+        "Nor-"
+      ],
+      "labels": [
+        "Prefix"
+      ],
+      "meanings": [
+        "Time, the flow of events; also future prefix and preposition at/in time.",
+        "Future Tense",
+        "Future tense"
+      ],
+      "sourceIds": [
+        "DM-RM-V1-0005; DM-RM-V2-0036; DM-RM-S3-0011",
+        "RM-V1-0005",
+        "RM-V2-0036",
+        "RM-S3-0011"
+      ]
+    },
+    {
+      "normalized": "ath",
+      "forms": [
+        "-ath"
+      ],
+      "labels": [
+        "Suffix"
+      ],
+      "meanings": [
+        "Perfective"
+      ],
+      "sourceIds": [
+        "DM-RM-V1-0007",
+        "RM-V1-0007"
+      ]
+    },
+    {
+      "normalized": "pel",
+      "forms": [
+        "Pel"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Sharpness or clarity (symbolizing clean cuts, flavors, or piercing qualities)."
+      ],
+      "sourceIds": [
+        "DM-RM-V2-0009",
+        "RM-V2-0009"
+      ]
+    },
+    {
+      "normalized": "lin",
+      "forms": [
+        "-lin"
+      ],
+      "labels": [
+        "Suffix"
+      ],
+      "meanings": [
+        "Collective/Diminutive"
+      ],
+      "sourceIds": [
+        "DM-RM-V2-0033",
+        "RM-V2-0033"
+      ]
+    },
+    {
+      "normalized": "aen",
+      "forms": [
+        "-aen",
+        "Aen-",
+        "Aen"
+      ],
+      "labels": [
+        "Suffix",
+        "Prefix",
+        "Root Word"
+      ],
+      "meanings": [
+        "Verb-forming",
+        "To speak, breathe, make a sound; also complementizer that.",
+        "Complementizer"
+      ],
+      "sourceIds": [
+        "DM-RM-V2-0034",
+        "DM-RM-S3-0019",
+        "RM-V2-0034",
+        "RM-V3-0005",
+        "RM-S3-0019"
+      ]
+    },
+    {
+      "normalized": "ver",
+      "forms": [
+        "Ver-",
+        "Ver"
+      ],
+      "labels": [
+        "Prefix",
+        "Particle"
+      ],
+      "meanings": [
+        "Negation",
+        "Negation before the verb or noun"
+      ],
+      "sourceIds": [
+        "DM-RM-V2-0037",
+        "RM-V1-0009",
+        "RM-V2-0037"
+      ]
+    },
+    {
+      "normalized": "esh",
+      "forms": [
+        "-esh",
+        "Esh-"
+      ],
+      "labels": [
+        "Suffix",
+        "Prefix",
+        "Root Word"
+      ],
+      "meanings": [
+        "deep relational ties",
+        "Sky, air, wind; freedom, thought, divine, intellect, perspective, beginnings."
+      ],
+      "sourceIds": [
+        "DM-RM-V3-0010",
+        "DM-RM-S3-0006",
+        "RM-V3-0010",
+        "RM-S3-0006"
+      ]
+    },
+    {
+      "normalized": "ten",
+      "forms": [
+        "Ten-"
+      ],
+      "labels": [
+        "Prefix"
+      ],
+      "meanings": [
+        "Tens prefix"
+      ],
+      "sourceIds": [
+        "DM-RM-V3-0014",
+        "RM-V3-0014"
+      ]
+    },
+    {
+      "normalized": "hek",
+      "forms": [
+        "Hek-"
+      ],
+      "labels": [
+        "Prefix"
+      ],
+      "meanings": [
+        "Hundreds prefix"
+      ],
+      "sourceIds": [
+        "DM-RM-V3-0015",
+        "RM-V3-0015"
+      ]
+    },
+    {
+      "normalized": "mel",
+      "forms": [
+        "Mel-"
+      ],
+      "labels": [
+        "Prefix"
+      ],
+      "meanings": [
+        "Thousands prefix"
+      ],
+      "sourceIds": [
+        "DM-RM-V3-0016",
+        "RM-V3-0016"
+      ]
+    },
+    {
+      "normalized": "fen",
+      "forms": [
+        "Fen-"
+      ],
+      "labels": [
+        "Prefix"
+      ],
+      "meanings": [
+        "Tens of thousands prefix"
+      ],
+      "sourceIds": [
+        "DM-RM-V3-0017",
+        "RM-V3-0017"
+      ]
+    },
+    {
+      "normalized": "eth",
+      "forms": [
+        "-eth"
+      ],
+      "labels": [
+        "Suffix"
+      ],
+      "meanings": [
+        "Suffix that marks inherent quality or essential manifestation",
+        "denote the inherent quality or essential manifestation of a root word"
+      ],
+      "sourceIds": [
+        "DM-RM-V4-0001",
+        "RM-V4-0001"
+      ]
+    },
+    {
+      "normalized": "kal",
+      "forms": [
+        "Kal-"
+      ],
+      "labels": [
+        "Prefix",
+        "Root Word"
+      ],
+      "meanings": [
+        "Strength, power, force; neutral force whose virtue depends on use."
+      ],
+      "sourceIds": [
+        "DM-RM-S3-0014",
+        "RM-S3-0014"
+      ]
+    },
+    {
+      "normalized": "var",
+      "forms": [
+        "Var-"
+      ],
+      "labels": [
+        "Prefix",
+        "Root Word"
+      ],
+      "meanings": [
+        "To go, move, travel; also preposition to/towards; action and existence."
+      ],
+      "sourceIds": [
+        "DM-RM-S3-0018",
+        "RM-S3-0018"
+      ]
+    },
+    {
+      "normalized": "vok",
+      "forms": [
+        "Vok-"
+      ],
+      "labels": [
+        "Prefix",
+        "Root Word"
+      ],
+      "meanings": [
+        "Duality of breaking a bond and forming a unity; noun Vok means unity; verb vokaen breaks unity."
+      ],
+      "sourceIds": [
+        "DM-RM-S3-0022",
+        "RM-S3-0022"
+      ]
+    },
+    {
+      "normalized": "ser",
+      "forms": [
+        "Ser-"
+      ],
+      "labels": [
+        "Prefix",
+        "Root Word"
+      ],
+      "meanings": [
+        "Friend, ally; also with and and."
+      ],
+      "sourceIds": [
+        "DM-RM-S3-0023",
+        "RM-S3-0023"
+      ]
+    },
+    {
+      "normalized": "kel",
+      "forms": [
+        "Kel-"
+      ],
+      "labels": [
+        "Prefix",
+        "Root Word"
+      ],
+      "meanings": [
+        "To say, speak, name; definition and ordering through language."
+      ],
+      "sourceIds": [
+        "DM-RM-S3-0027",
+        "RM-S3-0027"
+      ]
+    },
+    {
+      "normalized": "jor",
+      "forms": [
+        "Jor"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Surge or burst (symbolizing sudden movements or energetic flows)."
+      ],
+      "sourceIds": [
+        "RM-V2-0011"
+      ]
+    },
+    {
+      "normalized": "jin",
+      "forms": [
+        "Jin"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Unique or rare (e.g., exotic or specialty foods)."
+      ],
+      "sourceIds": [
+        "RM-V2-0014"
+      ]
+    },
+    {
+      "normalized": "xar",
+      "forms": [
+        "Xar"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Shadow or cover (tied to concealed or protective qualities)."
+      ],
+      "sourceIds": [
+        "RM-V2-0019"
+      ]
+    },
+    {
+      "normalized": "fel",
+      "forms": [
+        "Fel"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Diminisher - slightly, a bit"
+      ],
+      "sourceIds": [
+        "RM-V3-0004"
+      ]
+    },
+    {
+      "normalized": "ven",
+      "forms": [
+        "Ven"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Subtraction marker meaning minus/subtract"
+      ],
+      "sourceIds": [
+        "RM-V3-0019"
+      ]
+    },
+    {
+      "normalized": "nk",
+      "forms": [
+        "Nk",
+        "Nk-"
+      ],
+      "labels": [
+        "Root Word",
+        "Prefix"
+      ],
+      "meanings": [
+        "Endurance; hidden strength",
+        "Endurance, hidden strength"
+      ],
+      "sourceIds": [
+        "XR-nk",
+        "DM-RM-V2-0020",
+        "RM-V2-0020"
+      ]
+    },
+    {
+      "normalized": "mb",
+      "forms": [
+        "Mb",
+        "Mb-"
+      ],
+      "labels": [
+        "Root Word",
+        "Prefix"
+      ],
+      "meanings": [
+        "Support; pillar; foundational weight",
+        "Layered, supportive"
+      ],
+      "sourceIds": [
+        "XR-mb",
+        "DM-RM-V2-0022",
+        "RM-V2-0022"
+      ]
+    },
+    {
+      "normalized": "al",
+      "forms": [
+        "-al"
+      ],
+      "labels": [
+        "Suffix"
+      ],
+      "meanings": [
+        "Continuous"
+      ],
+      "sourceIds": [
+        "DM-RM-V1-0006",
+        "RM-V1-0006"
+      ]
+    },
+    {
+      "normalized": "as",
+      "forms": [
+        "-as"
+      ],
+      "labels": [
+        "Suffix"
+      ],
+      "meanings": [
+        "Habitual"
+      ],
+      "sourceIds": [
+        "DM-RM-V1-0008",
+        "RM-V1-0008"
+      ]
+    },
+    {
+      "normalized": "ka",
+      "forms": [
+        "-ka"
+      ],
+      "labels": [
+        "Suffix",
+        "Particle"
+      ],
+      "meanings": [
+        "Possessive/linking marker"
+      ],
+      "sourceIds": [
+        "DM-RM-V1-0014",
+        "RM-V1-0014"
+      ]
+    },
+    {
+      "normalized": "tl",
+      "forms": [
+        "Tl-"
+      ],
+      "labels": [
+        "Prefix",
+        "Root Word"
+      ],
+      "meanings": [
+        "Movement, flow"
+      ],
+      "sourceIds": [
+        "DM-RM-V2-0028",
+        "RM-V2-0028"
+      ]
+    },
+    {
+      "normalized": "in",
+      "forms": [
+        "-in"
+      ],
+      "labels": [
+        "Suffix"
+      ],
+      "meanings": [
+        "Plural marker added to nouns ending in consonants"
+      ],
+      "sourceIds": [
+        "DM-RM-V2-0029",
+        "RM-V2-0029"
+      ]
+    },
+    {
+      "normalized": "or",
+      "forms": [
+        "-or"
+      ],
+      "labels": [
+        "Suffix"
+      ],
+      "meanings": [
+        "Place/Location"
+      ],
+      "sourceIds": [
+        "DM-RM-V2-0031",
+        "RM-V2-0031"
+      ]
+    },
+    {
+      "normalized": "en",
+      "forms": [
+        "-en"
+      ],
+      "labels": [
+        "Suffix"
+      ],
+      "meanings": [
+        "Honorific/Formal-High Respect",
+        "Honorific/Respected form",
+        "Partner bonded to you"
+      ],
+      "sourceIds": [
+        "DM-RM-V2-0032; DM-RM-V3-0002; DM-RM-V3-0011",
+        "RM-V2-0032",
+        "RM-V3-0002",
+        "RM-V3-0011"
+      ]
+    },
+    {
+      "normalized": "li",
+      "forms": [
+        "Li-"
+      ],
+      "labels": [
+        "Prefix"
+      ],
+      "meanings": [
+        "Respect/Honorific",
+        "show respect"
+      ],
+      "sourceIds": [
+        "DM-RM-V2-0038; DM-RM-V3-0001",
+        "RM-V2-0038",
+        "RM-V3-0001"
+      ]
+    },
+    {
+      "normalized": "el",
+      "forms": [
+        "-el"
+      ],
+      "labels": [
+        "Suffix"
+      ],
+      "meanings": [
+        "Beloved bound to them"
+      ],
+      "sourceIds": [
+        "DM-RM-V3-0012",
+        "RM-V3-0012"
+      ]
+    },
+    {
+      "normalized": "ra",
+      "forms": [
+        "Ra"
+      ],
+      "labels": [
+        "Particle"
+      ],
+      "meanings": [
+        "Questions start with Ra"
+      ],
+      "sourceIds": [
+        "RM-V1-0010"
+      ]
+    },
+    {
+      "normalized": "va",
+      "forms": [
+        "Va"
+      ],
+      "labels": [
+        "Particle"
+      ],
+      "meanings": [
+        "Imperatives (Commands) start with Va"
+      ],
+      "sourceIds": [
+        "RM-V1-0011"
+      ]
+    },
+    {
+      "normalized": "an",
+      "forms": [
+        "An"
+      ],
+      "labels": [
+        "Preposition"
+      ],
+      "meanings": [
+        "Spatial contexts (“at/in” location)"
+      ],
+      "sourceIds": [
+        "RM-V1-0013"
+      ]
+    },
+    {
+      "normalized": "ar",
+      "forms": [
+        "Ar"
+      ],
+      "labels": [
+        "Root Word"
+      ],
+      "meanings": [
+        "Intensifier - very, intensely"
+      ],
+      "sourceIds": [
+        "RM-V3-0003"
+      ]
+    }
+  ],
+  "rootLookup": [
+    {
+      "id": "root:pralaen",
+      "form": "Pralaen-",
+      "normalized": "pralaen",
+      "meaning": "To make, craft, shape with care; skill, purpose, imposing order.",
+      "meanings": [
+        "To make, craft, shape with care; skill, purpose, imposing order."
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [
+        "LX-V4-0049"
+      ],
+      "anchorType": "conceptual root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:vanesh",
+      "form": "VANESH",
+      "normalized": "vanesh",
+      "meaning": "Commerce; formal trade; merchant work",
+      "meanings": [
+        "Commerce; formal trade; merchant work"
+      ],
+      "evidenceTerms": [
+        "vanesh",
+        "Vaneshem",
+        "Thalaneshen"
+      ],
+      "evidence": [
+        "vanesh",
+        "Vaneshem",
+        "Thalaneshen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:fennil",
+      "form": "FENNIL",
+      "normalized": "fennil",
+      "meaning": "Leaf; herb; soft medicinal greens",
+      "meanings": [
+        "Leaf; herb; soft medicinal greens"
+      ],
+      "evidenceTerms": [
+        "terafennil"
+      ],
+      "evidence": [
+        "terafennil"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:arshor",
+      "form": "ARSHOR",
+      "normalized": "arshor",
+      "meaning": "Enveloping presence; atmospheric blanket",
+      "meanings": [
+        "Enveloping presence; atmospheric blanket"
+      ],
+      "evidenceTerms": [
+        "velarshor"
+      ],
+      "evidence": [
+        "velarshor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:kadren",
+      "form": "Kadren",
+      "normalized": "kadren",
+      "meaning": "Masculine essence (strength, groundedness).",
+      "meanings": [
+        "Masculine essence (strength, groundedness)."
+      ],
+      "evidenceTerms": [
+        "Kadron",
+        "Kadfel"
+      ],
+      "evidence": [
+        "Kadron",
+        "Kadfel"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "prefix:hekmel",
+      "form": "Hek-Mel-",
+      "normalized": "hekmel",
+      "meaning": "Hundreds of thousands construction",
+      "meanings": [
+        "Hundreds of thousands construction"
+      ],
+      "evidenceTerms": [
+        "Hek-Mel-unar",
+        "Hek-Mel-quen"
+      ],
+      "evidence": [
+        "Hek-Mel-unar",
+        "Hek-Mel-quen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "numeric/math prefix",
+      "sharedAffix": true
+    },
+    {
+      "id": "root:terra",
+      "form": "TERRA",
+      "normalized": "terra",
+      "meaning": "The living world; spiritual earth entity",
+      "meanings": [
+        "The living world; spiritual earth entity"
+      ],
+      "evidenceTerms": [
+        "Terra",
+        "Terrashaneth",
+        "Terradren"
+      ],
+      "evidence": [
+        "Terra",
+        "Terrashaneth",
+        "Terradren"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:shara",
+      "form": "SHARA",
+      "normalized": "shara",
+      "meaning": "Path; journey; life-direction; A path, a road, a journey; life path, strategy, decision path.",
+      "meanings": [
+        "Path; journey; life-direction",
+        "A path, a road, a journey; life path, strategy, decision path."
+      ],
+      "evidenceTerms": [
+        "shara",
+        "sharaka",
+        "kinnshara"
+      ],
+      "evidence": [
+        "shara",
+        "sharaka",
+        "kinnshara"
+      ],
+      "linkedEntryIds": [
+        "LX-V2-0010"
+      ],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:zhael",
+      "form": "ZHAEL",
+      "normalized": "zhael",
+      "meaning": "Bloom; renewal; soft opening; empathy",
+      "meanings": [
+        "Bloom; renewal; soft opening; empathy"
+      ],
+      "evidenceTerms": [
+        "Zhaelor",
+        "zhaelin"
+      ],
+      "evidence": [
+        "Zhaelor",
+        "zhaelin"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:thaen",
+      "form": "THAEN",
+      "normalized": "thaen",
+      "meaning": "Spirit-breath; still internal seasonality",
+      "meanings": [
+        "Spirit-breath; still internal seasonality"
+      ],
+      "evidenceTerms": [
+        "velthaen",
+        "Amthaen"
+      ],
+      "evidence": [
+        "velthaen",
+        "Amthaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:livar",
+      "form": "LIVAR",
+      "normalized": "livar",
+      "meaning": "Preservation; salt-fixing; anti-decay",
+      "meanings": [
+        "Preservation; salt-fixing; anti-decay"
+      ],
+      "evidenceTerms": [
+        "drenlivar"
+      ],
+      "evidence": [
+        "drenlivar"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:tenar",
+      "form": "TENAR",
+      "normalized": "tenar",
+      "meaning": "Radiance; steady glow",
+      "meanings": [
+        "Radiance; steady glow"
+      ],
+      "evidenceTerms": [
+        "tenarorin",
+        "eshtenor"
+      ],
+      "evidence": [
+        "tenarorin",
+        "eshtenor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:marin",
+      "form": "MARIN",
+      "normalized": "marin",
+      "meaning": "Branch; extension; outward-growing limb",
+      "meanings": [
+        "Branch; extension; outward-growing limb"
+      ],
+      "evidenceTerms": [
+        "velmarin"
+      ],
+      "evidence": [
+        "velmarin"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:vilor",
+      "form": "VILOR",
+      "normalized": "vilor",
+      "meaning": "Berry essence; small sweet fruit",
+      "meanings": [
+        "Berry essence; small sweet fruit"
+      ],
+      "evidenceTerms": [
+        "jorvilor",
+        "eshvilor"
+      ],
+      "evidence": [
+        "jorvilor",
+        "eshvilor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:thael",
+      "form": "THAEL",
+      "normalized": "thael",
+      "meaning": "Gentle motion; breeze-like rhythm",
+      "meanings": [
+        "Gentle motion; breeze-like rhythm"
+      ],
+      "evidenceTerms": [
+        "eshthael",
+        "velthaelvok"
+      ],
+      "evidence": [
+        "eshthael",
+        "velthaelvok"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:torin",
+      "form": "TORIN",
+      "normalized": "torin",
+      "meaning": "Protein; meat; concentrated animal sustenance",
+      "meanings": [
+        "Protein; meat; concentrated animal sustenance"
+      ],
+      "evidenceTerms": [
+        "kreztorin"
+      ],
+      "evidence": [
+        "kreztorin"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:tarin",
+      "form": "TARIN",
+      "normalized": "tarin",
+      "meaning": "Dried sweetness; sun-preserved fruit",
+      "meanings": [
+        "Dried sweetness; sun-preserved fruit"
+      ],
+      "evidenceTerms": [
+        "voktarin"
+      ],
+      "evidence": [
+        "voktarin"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:soril",
+      "form": "SORIL",
+      "normalized": "soril",
+      "meaning": "Depth of flavor; complex taste-body",
+      "meanings": [
+        "Depth of flavor; complex taste-body"
+      ],
+      "evidenceTerms": [
+        "vethsoril"
+      ],
+      "evidence": [
+        "vethsoril"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:venak",
+      "form": "VENAK",
+      "normalized": "venak",
+      "meaning": "Warmth-vessel; held heat; stew-state",
+      "meanings": [
+        "Warmth-vessel; held heat; stew-state"
+      ],
+      "evidenceTerms": [
+        "worvenak",
+        "morvenak"
+      ],
+      "evidence": [
+        "worvenak",
+        "morvenak"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:senar",
+      "form": "SENAR",
+      "normalized": "senar",
+      "meaning": "Six; unit of elemental set",
+      "meanings": [
+        "Six; unit of elemental set"
+      ],
+      "evidenceTerms": [
+        "Senar"
+      ],
+      "evidence": [
+        "Senar"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:sethe",
+      "form": "SETHE",
+      "normalized": "sethe",
+      "meaning": "Seven; unit of week-cycle",
+      "meanings": [
+        "Seven; unit of week-cycle"
+      ],
+      "evidenceTerms": [
+        "Sethe"
+      ],
+      "evidence": [
+        "Sethe"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:nevar",
+      "form": "NEVAR",
+      "normalized": "nevar",
+      "meaning": "Nine; unit of threshold",
+      "meanings": [
+        "Nine; unit of threshold"
+      ],
+      "evidenceTerms": [
+        "Nevar"
+      ],
+      "evidence": [
+        "Nevar"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:nelar",
+      "form": "NELAR",
+      "normalized": "nelar",
+      "meaning": "Naturally produced sweet plant liquid; nectar",
+      "meanings": [
+        "Naturally produced sweet plant liquid; nectar"
+      ],
+      "evidenceTerms": [
+        "Nelar",
+        "Zornelar"
+      ],
+      "evidence": [
+        "Nelar",
+        "Zornelar"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:saren",
+      "form": "SAREN",
+      "normalized": "saren",
+      "meaning": "Wheat",
+      "meanings": [
+        "Wheat"
+      ],
+      "evidenceTerms": [
+        "Saren"
+      ],
+      "evidence": [
+        "Saren"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:ruvan",
+      "form": "RUVAN",
+      "normalized": "ruvan",
+      "meaning": "Uncontrolled organic decay; rot",
+      "meanings": [
+        "Uncontrolled organic decay; rot"
+      ],
+      "evidenceTerms": [
+        "Ruvan",
+        "Ruvanaen",
+        "Ruvaneth"
+      ],
+      "evidence": [
+        "Ruvan",
+        "Ruvanaen",
+        "Ruvaneth"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:sadar",
+      "form": "SADAR",
+      "normalized": "sadar",
+      "meaning": "Loose granular mineral material; sand",
+      "meanings": [
+        "Loose granular mineral material; sand"
+      ],
+      "evidenceTerms": [
+        "Sadar",
+        "Sadarmorl"
+      ],
+      "evidence": [
+        "Sadar",
+        "Sadarmorl"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:dresh",
+      "form": "DRESH",
+      "normalized": "dresh",
+      "meaning": "Crystal as an ordered mineral material",
+      "meanings": [
+        "Crystal as an ordered mineral material"
+      ],
+      "evidenceTerms": [
+        "Dresh",
+        "Dreshal"
+      ],
+      "evidence": [
+        "Dresh",
+        "Dreshal"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:ndara",
+      "form": "NDARA",
+      "normalized": "ndara",
+      "meaning": "Wall; an upright structural surface that encloses divides or supports built space",
+      "meanings": [
+        "Wall; an upright structural surface that encloses divides or supports built space"
+      ],
+      "evidenceTerms": [
+        "Ndara"
+      ],
+      "evidence": [
+        "Ndara"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:ndavi",
+      "form": "NDAVI",
+      "normalized": "ndavi",
+      "meaning": "Fixed vertical level or height position",
+      "meanings": [
+        "Fixed vertical level or height position"
+      ],
+      "evidenceTerms": [
+        "Ndavi",
+        "Ndavior",
+        "Ndavivek"
+      ],
+      "evidence": [
+        "Ndavi",
+        "Ndavior",
+        "Ndavivek"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:songa",
+      "form": "SONGA",
+      "normalized": "songa",
+      "meaning": "Universe or cosmos; the total physical expanse and its contents",
+      "meanings": [
+        "Universe or cosmos; the total physical expanse and its contents"
+      ],
+      "evidenceTerms": [
+        "Songa",
+        "Songaeth",
+        "Songazun",
+        "Songashen"
+      ],
+      "evidence": [
+        "Songa",
+        "Songaeth",
+        "Songazun",
+        "Songashen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:doran",
+      "form": "DORAN",
+      "normalized": "doran",
+      "meaning": "Torso or trunk as a bodily region",
+      "meanings": [
+        "Torso or trunk as a bodily region"
+      ],
+      "evidenceTerms": [
+        "Doran"
+      ],
+      "evidence": [
+        "Doran"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:breka",
+      "form": "BREKA",
+      "normalized": "breka",
+      "meaning": "Chest as a bodily region",
+      "meanings": [
+        "Chest as a bodily region"
+      ],
+      "evidenceTerms": [
+        "Breka"
+      ],
+      "evidence": [
+        "Breka"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:davel",
+      "form": "DAVEL",
+      "normalized": "davel",
+      "meaning": "Belly or abdomen as a bodily region",
+      "meanings": [
+        "Belly or abdomen as a bodily region"
+      ],
+      "evidenceTerms": [
+        "Davel"
+      ],
+      "evidence": [
+        "Davel"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:metha",
+      "form": "METHA",
+      "normalized": "metha",
+      "meaning": "Living flesh or soft bodily tissue",
+      "meanings": [
+        "Living flesh or soft bodily tissue"
+      ],
+      "evidenceTerms": [
+        "Xarmetha",
+        "Metha",
+        "Kalmetha"
+      ],
+      "evidence": [
+        "Xarmetha",
+        "Metha",
+        "Kalmetha"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:khelu",
+      "form": "KHELU",
+      "normalized": "khelu",
+      "meaning": "Brain",
+      "meanings": [
+        "Brain"
+      ],
+      "evidenceTerms": [
+        "Khelu"
+      ],
+      "evidence": [
+        "Khelu"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:lumar",
+      "form": "LUMAR",
+      "normalized": "lumar",
+      "meaning": "Liver",
+      "meanings": [
+        "Liver"
+      ],
+      "evidenceTerms": [
+        "Lumar"
+      ],
+      "evidence": [
+        "Lumar"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:kedir",
+      "form": "KEDIR",
+      "normalized": "kedir",
+      "meaning": "Kidney",
+      "meanings": [
+        "Kidney"
+      ],
+      "evidenceTerms": [
+        "Kedir"
+      ],
+      "evidence": [
+        "Kedir"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:nderu",
+      "form": "NDERU",
+      "normalized": "nderu",
+      "meaning": "Testicle",
+      "meanings": [
+        "Testicle"
+      ],
+      "evidenceTerms": [
+        "Nderu",
+        "Nderuxar"
+      ],
+      "evidence": [
+        "Nderu",
+        "Nderuxar"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:thaal",
+      "form": "Thaal",
+      "normalized": "thaal",
+      "meaning": "Superlative marker: most",
+      "meanings": [
+        "Superlative marker: most"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "marker",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:norka",
+      "form": "nor-ka",
+      "normalized": "norka",
+      "meaning": "passive voice echo particle",
+      "meanings": [
+        "passive voice echo particle"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "particle",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:dren",
+      "form": "DREN",
+      "normalized": "dren",
+      "meaning": "Water; flow; emotion; connection; Water, liquid, fluid; life, flow, change, healing, emotion, intuition, cleansing, adaptation.",
+      "meanings": [
+        "Water; flow; emotion; connection",
+        "Water, liquid, fluid; life, flow, change, healing, emotion, intuition, cleansing, adaptation."
+      ],
+      "evidenceTerms": [
+        "dren",
+        "drenaen",
+        "drenvor"
+      ],
+      "evidence": [
+        "dren",
+        "drenaen",
+        "drenvor"
+      ],
+      "linkedEntryIds": [
+        "LX-V2-0002",
+        "LX-V2-0068",
+        "LX-V3-0011"
+      ],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:shal",
+      "form": "SHAL",
+      "normalized": "shal",
+      "meaning": "Light; hope; revelation; forward motion; Light, glow, brightness; hope, truth, creation, clarity, revelation, wisdom, life, beginnings.",
+      "meanings": [
+        "Light; hope; revelation; forward motion",
+        "Light, glow, brightness; hope, truth, creation, clarity, revelation, wisdom, life, beginnings."
+      ],
+      "evidenceTerms": [
+        "shal",
+        "shalaen",
+        "shalor"
+      ],
+      "evidence": [
+        "shal",
+        "shalaen",
+        "shalor"
+      ],
+      "linkedEntryIds": [
+        "LX-V2-0003",
+        "LX-V2-0069",
+        "LX-V4-0101"
+      ],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:krez",
+      "form": "KREZ",
+      "normalized": "krez",
+      "meaning": "Fire; heat; energy; purification; Fire, heat, energy; passion, creation, strength, life-force, warmth, resilience, purification.",
+      "meanings": [
+        "Fire; heat; energy; purification",
+        "Fire, heat, energy; passion, creation, strength, life-force, warmth, resilience, purification."
+      ],
+      "evidenceTerms": [
+        "krez",
+        "krezaen",
+        "krezor"
+      ],
+      "evidence": [
+        "krez",
+        "krezaen",
+        "krezor"
+      ],
+      "linkedEntryIds": [
+        "LX-V2-0004",
+        "LX-V2-0070",
+        "LX-V4-0105"
+      ],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:morl",
+      "form": "MORL",
+      "normalized": "morl",
+      "meaning": "Mountain; stone; endurance; the unchanging past; Stone, rock, mountain; endurance, history, stubbornness, strength, foundation, stability, defense.",
+      "meanings": [
+        "Mountain; stone; endurance; the unchanging past",
+        "Stone, rock, mountain; endurance, history, stubbornness, strength, foundation, stability, defense."
+      ],
+      "evidenceTerms": [
+        "morl",
+        "morldren",
+        "Morlatharim"
+      ],
+      "evidence": [
+        "morl",
+        "morldren",
+        "Morlatharim"
+      ],
+      "linkedEntryIds": [
+        "LX-V1-0022",
+        "LX-V2-0005",
+        "LX-V2-0066"
+      ],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:lian",
+      "form": "LIAN",
+      "normalized": "lian",
+      "meaning": "Truth; reality; natural law; genuine quality; Truth, honesty; reality, natural law, essence, logic, clarity, correctness.",
+      "meanings": [
+        "Truth; reality; natural law; genuine quality",
+        "Truth, honesty; reality, natural law, essence, logic, clarity, correctness."
+      ],
+      "evidenceTerms": [
+        "lian",
+        "lianaen",
+        "lianeth"
+      ],
+      "evidence": [
+        "lian",
+        "lianaen",
+        "lianeth"
+      ],
+      "linkedEntryIds": [
+        "LX-V2-0026",
+        "LX-V2-0064",
+        "LX-V4-0114"
+      ],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:thal",
+      "form": "THAL",
+      "normalized": "thal",
+      "meaning": "Balance; harmony; dynamic equilibrium; Balance, harmony, equilibrium; also preposition meaning From / Out of.",
+      "meanings": [
+        "Balance; harmony; dynamic equilibrium",
+        "Balance, harmony, equilibrium; also preposition meaning From / Out of."
+      ],
+      "evidenceTerms": [
+        "thal",
+        "thallian",
+        "thalvok"
+      ],
+      "evidence": [
+        "thal",
+        "thallian",
+        "thalvok"
+      ],
+      "linkedEntryIds": [
+        "LX-V1-0017",
+        "LX-V2-0008",
+        "LX-V2-0023",
+        "LX-V2-0072",
+        "LX-V4-0109"
+      ],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:veth",
+      "form": "VETH",
+      "normalized": "veth",
+      "meaning": "Shade; mystery; hidden or sleeping things",
+      "meanings": [
+        "Shade; mystery; hidden or sleeping things"
+      ],
+      "evidenceTerms": [
+        "Vethhar",
+        "Xarvethral",
+        "Belvethral"
+      ],
+      "evidence": [
+        "Vethhar",
+        "Xarvethral",
+        "Belvethral"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:neth",
+      "form": "NETH",
+      "normalized": "neth",
+      "meaning": "Rest; physical stillness; support",
+      "meanings": [
+        "Rest; physical stillness; support"
+      ],
+      "evidenceTerms": [
+        "Nethaen",
+        "Nethor",
+        "Nethlor"
+      ],
+      "evidence": [
+        "Nethaen",
+        "Nethor",
+        "Nethlor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:vaar",
+      "form": "VAAR",
+      "normalized": "vaar",
+      "meaning": "Peace; calm; relief; safety",
+      "meanings": [
+        "Peace; calm; relief; safety"
+      ],
+      "evidenceTerms": [
+        "Vaar",
+        "Vaareth",
+        "Vaarlor"
+      ],
+      "evidence": [
+        "Vaar",
+        "Vaareth",
+        "Vaarlor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:dral",
+      "form": "DRAL",
+      "normalized": "dral",
+      "meaning": "The heavens; wonder; celestial awe",
+      "meanings": [
+        "The heavens; wonder; celestial awe"
+      ],
+      "evidenceTerms": [
+        "Dral",
+        "Dralorim",
+        "Dralshaneth"
+      ],
+      "evidence": [
+        "Dral",
+        "Dralorim",
+        "Dralshaneth"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:shen",
+      "form": "SHEN",
+      "normalized": "shen",
+      "meaning": "Measure; counted value; assigned worth",
+      "meanings": [
+        "Measure; counted value; assigned worth"
+      ],
+      "evidenceTerms": [
+        "Shen",
+        "Belshen",
+        "Thalaneshen"
+      ],
+      "evidence": [
+        "Shen",
+        "Belshen",
+        "Thalaneshen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:verd",
+      "form": "VERD",
+      "normalized": "verd",
+      "meaning": "Foliage; forest growth; botanical life",
+      "meanings": [
+        "Foliage; forest growth; botanical life"
+      ],
+      "evidenceTerms": [
+        "Verdor",
+        "Verdeth",
+        "Verdalris"
+      ],
+      "evidence": [
+        "Verdor",
+        "Verdeth",
+        "Verdalris"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:trak",
+      "form": "TRAK",
+      "normalized": "trak",
+      "meaning": "Tread; step; foot-borne movement",
+      "meanings": [
+        "Tread; step; foot-borne movement"
+      ],
+      "evidenceTerms": [
+        "Trakor"
+      ],
+      "evidence": [
+        "Trakor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:thar",
+      "form": "THAR",
+      "normalized": "thar",
+      "meaning": "Heart; will; emotional core of self; The physical heart; source of emotion, will, and true inner self.",
+      "meanings": [
+        "Heart; will; emotional core of self",
+        "The physical heart; source of emotion, will, and true inner self."
+      ],
+      "evidenceTerms": [
+        "thar",
+        "thar-ka",
+        "Morlathar"
+      ],
+      "evidence": [
+        "thar",
+        "thar-ka",
+        "Morlathar"
+      ],
+      "linkedEntryIds": [
+        "LX-V2-0007",
+        "LX-V2-0057",
+        "LX-V4-0115"
+      ],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:zhir",
+      "form": "ZHIR",
+      "normalized": "zhir",
+      "meaning": "Lineage; thread; connection through time; Thread, line, cord; connection through time, lineage, history, cause-effect, fate.",
+      "meanings": [
+        "Lineage; thread; connection through time",
+        "Thread, line, cord; connection through time, lineage, history, cause-effect, fate."
+      ],
+      "evidenceTerms": [
+        "zhirin",
+        "zhiren",
+        "zhirkalor"
+      ],
+      "evidence": [
+        "zhirin",
+        "zhiren",
+        "zhirkalor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:khum",
+      "form": "KHUM",
+      "normalized": "khum",
+      "meaning": "Circle; listening; reconciliation; Circle, reconciliation; To listen, perceive, know through hearing; patient knowing and introspection.",
+      "meanings": [
+        "Circle; listening; reconciliation",
+        "Circle, reconciliation",
+        "To listen, perceive, know through hearing; patient knowing and introspection."
+      ],
+      "evidenceTerms": [
+        "khumlor",
+        "khumrel",
+        "khumeth",
+        "Khumlor",
+        "Khumlian"
+      ],
+      "evidence": [
+        "khumlor",
+        "khumrel",
+        "khumeth"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:pral",
+      "form": "PRAL",
+      "normalized": "pral",
+      "meaning": "Intricacy; detail; skilled craftsmanship; Intricacy or detail (symbolizing small, delicate work).",
+      "meanings": [
+        "Intricacy; detail; skilled craftsmanship",
+        "Intricacy or detail (symbolizing small, delicate work)."
+      ],
+      "evidenceTerms": [
+        "pralaen",
+        "pralor",
+        "pralmor",
+        "Pralmor"
+      ],
+      "evidence": [
+        "pralaen",
+        "pralor",
+        "pralmor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:phel",
+      "form": "PHEL",
+      "normalized": "phel",
+      "meaning": "Warmth; comfort; soothing ease; Warmth or comfort (symbolizing physical or emotional ease).",
+      "meanings": [
+        "Warmth; comfort; soothing ease",
+        "Warmth or comfort (symbolizing physical or emotional ease)."
+      ],
+      "evidenceTerms": [
+        "phelvin",
+        "phelrin",
+        "phelmorin",
+        "Phelvin"
+      ],
+      "evidence": [
+        "phelvin",
+        "phelrin",
+        "phelmorin"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:prak",
+      "form": "PRAK",
+      "normalized": "prak",
+      "meaning": "Softness; tenderness; gentle texture; Softness or tenderness (e.g., soft food or texture).",
+      "meanings": [
+        "Softness; tenderness; gentle texture",
+        "Softness or tenderness (e.g., soft food or texture)."
+      ],
+      "evidenceTerms": [
+        "praketh",
+        "prakorin",
+        "Prakorin"
+      ],
+      "evidence": [
+        "praketh",
+        "prakorin"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:bros",
+      "form": "BROS",
+      "normalized": "bros",
+      "meaning": "Layering; stratification; stacked texture; Layering or stratification (symbolizing levels or textures).",
+      "meanings": [
+        "Layering; stratification; stacked texture",
+        "Layering or stratification (symbolizing levels or textures)."
+      ],
+      "evidenceTerms": [
+        "brosrin",
+        "broslak",
+        "Brosrin"
+      ],
+      "evidence": [
+        "brosrin",
+        "broslak"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:bren",
+      "form": "BREN",
+      "normalized": "bren",
+      "meaning": "Gathering; harvest; collected yield; Harvest (e.g., the act or result of gathering food).",
+      "meanings": [
+        "Gathering; harvest; collected yield",
+        "Harvest (e.g., the act or result of gathering food)."
+      ],
+      "evidenceTerms": [
+        "brenmor",
+        "brenvor",
+        "Brenmor"
+      ],
+      "evidence": [
+        "brenmor",
+        "brenvor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:arth",
+      "form": "ARTH",
+      "normalized": "arth",
+      "meaning": "Protection; defense; purposeful shielding",
+      "meanings": [
+        "Protection; defense; purposeful shielding"
+      ],
+      "evidenceTerms": [
+        "arth",
+        "Arthen",
+        "arthlor"
+      ],
+      "evidence": [
+        "arth",
+        "Arthen",
+        "arthlor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:shan",
+      "form": "SHAN",
+      "normalized": "shan",
+      "meaning": "Passing; transfer; handoff between states",
+      "meanings": [
+        "Passing; transfer; handoff between states"
+      ],
+      "evidenceTerms": [
+        "Terrashaneth",
+        "Velpralim",
+        "Dralshaneth"
+      ],
+      "evidence": [
+        "Terrashaneth",
+        "Velpralim",
+        "Dralshaneth"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:elor",
+      "form": "ELOR",
+      "normalized": "elor",
+      "meaning": "Growth; upward alignment; unfolding maturity",
+      "meanings": [
+        "Growth; upward alignment; unfolding maturity"
+      ],
+      "evidenceTerms": [
+        "Zhirelorim"
+      ],
+      "evidence": [
+        "Zhirelorim"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:zhel",
+      "form": "ZHEL",
+      "normalized": "zhel",
+      "meaning": "Spark; energy; quick power-flash",
+      "meanings": [
+        "Spark; energy; quick power-flash"
+      ],
+      "evidenceTerms": [
+        "zhelvek"
+      ],
+      "evidence": [
+        "zhelvek"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:alor",
+      "form": "ALOR",
+      "normalized": "alor",
+      "meaning": "Falling; descent; downward motion",
+      "meanings": [
+        "Falling; descent; downward motion"
+      ],
+      "evidenceTerms": [
+        "drenalor"
+      ],
+      "evidence": [
+        "drenalor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:tham",
+      "form": "THAM",
+      "normalized": "tham",
+      "meaning": "Mashing; softening; breaking structure down",
+      "meanings": [
+        "Mashing; softening; breaking structure down"
+      ],
+      "evidenceTerms": [
+        "velthamor"
+      ],
+      "evidence": [
+        "velthamor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:unar",
+      "form": "UNAR",
+      "normalized": "unar",
+      "meaning": "One; unit of singularity",
+      "meanings": [
+        "One; unit of singularity"
+      ],
+      "evidenceTerms": [
+        "Unar"
+      ],
+      "evidence": [
+        "Unar"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:tren",
+      "form": "TREN",
+      "normalized": "tren",
+      "meaning": "Three; unit of triad",
+      "meanings": [
+        "Three; unit of triad"
+      ],
+      "evidenceTerms": [
+        "Tren"
+      ],
+      "evidence": [
+        "Tren"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:quen",
+      "form": "QUEN",
+      "normalized": "quen",
+      "meaning": "Four; unit of square-foundation",
+      "meanings": [
+        "Four; unit of square-foundation"
+      ],
+      "evidenceTerms": [
+        "Quen"
+      ],
+      "evidence": [
+        "Quen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:peth",
+      "form": "PETH",
+      "normalized": "peth",
+      "meaning": "Five; unit of the hand",
+      "meanings": [
+        "Five; unit of the hand"
+      ],
+      "evidenceTerms": [
+        "Peth"
+      ],
+      "evidence": [
+        "Peth"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:oven",
+      "form": "OVEN",
+      "normalized": "oven",
+      "meaning": "Eight; unit of the nations",
+      "meanings": [
+        "Eight; unit of the nations"
+      ],
+      "evidenceTerms": [
+        "Oven"
+      ],
+      "evidence": [
+        "Oven"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:mahr",
+      "form": "MAHR",
+      "normalized": "mahr",
+      "meaning": "Ocean; sea",
+      "meanings": [
+        "Ocean; sea"
+      ],
+      "evidenceTerms": [
+        "Mahr",
+        "Mahrowek",
+        "Mahrkal",
+        "Mahrvek",
+        "Lormahr"
+      ],
+      "evidence": [
+        "Mahr",
+        "Mahrowek",
+        "Mahrkal",
+        "Mahrvek",
+        "Lormahr"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:awek",
+      "form": "AWEK",
+      "normalized": "awek",
+      "meaning": "Natural water spring; source",
+      "meanings": [
+        "Natural water spring; source"
+      ],
+      "evidenceTerms": [
+        "Awek",
+        "Awekshara"
+      ],
+      "evidence": [
+        "Awek",
+        "Awekshara"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:shem",
+      "form": "SHEM",
+      "normalized": "shem",
+      "meaning": "Handled scooping implement",
+      "meanings": [
+        "Handled scooping implement"
+      ],
+      "evidenceTerms": [
+        "Shem"
+      ],
+      "evidence": [
+        "Shem"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:rask",
+      "form": "RASK",
+      "normalized": "rask",
+      "meaning": "Animal skin; raw hide",
+      "meanings": [
+        "Animal skin; raw hide"
+      ],
+      "evidenceTerms": [
+        "Rask",
+        "Mekrask"
+      ],
+      "evidence": [
+        "Rask",
+        "Mekrask"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:tesh",
+      "form": "TESH",
+      "normalized": "tesh",
+      "meaning": "Surface irritation; itching urge",
+      "meanings": [
+        "Surface irritation; itching urge"
+      ],
+      "evidenceTerms": [
+        "Tesh",
+        "Teshaen"
+      ],
+      "evidence": [
+        "Tesh",
+        "Teshaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:kren",
+      "form": "KREN",
+      "normalized": "kren",
+      "meaning": "Metal as a general material class",
+      "meanings": [
+        "Metal as a general material class"
+      ],
+      "evidenceTerms": [
+        "Kren"
+      ],
+      "evidence": [
+        "Kren"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:nesh",
+      "form": "NESH",
+      "normalized": "nesh",
+      "meaning": "Aquatic animal life; unmarked fish",
+      "meanings": [
+        "Aquatic animal life; unmarked fish"
+      ],
+      "evidenceTerms": [
+        "Nesh",
+        "Neshbrenaen",
+        "Neshbrenral",
+        "Xarnesh"
+      ],
+      "evidence": [
+        "Nesh",
+        "Neshbrenaen",
+        "Neshbrenral",
+        "Xarnesh"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:olan",
+      "form": "OLAN",
+      "normalized": "olan",
+      "meaning": "Oil as a broad material class",
+      "meanings": [
+        "Oil as a broad material class"
+      ],
+      "evidenceTerms": [
+        "Olan",
+        "Emilolan",
+        "Morolan",
+        "Olankrezaen"
+      ],
+      "evidence": [
+        "Olan",
+        "Emilolan",
+        "Morolan",
+        "Olankrezaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:mura",
+      "form": "MURA",
+      "normalized": "mura",
+      "meaning": "Smoke as a physical combustion product",
+      "meanings": [
+        "Smoke as a physical combustion product"
+      ],
+      "evidenceTerms": [
+        "Mura",
+        "Muraen"
+      ],
+      "evidence": [
+        "Mura",
+        "Muraen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:rema",
+      "form": "REMA",
+      "normalized": "rema",
+      "meaning": "The visible face; social and sensory front of the head",
+      "meanings": [
+        "The visible face; social and sensory front of the head"
+      ],
+      "evidenceTerms": [
+        "Rema",
+        "Remaxar",
+        "Remashalxar"
+      ],
+      "evidence": [
+        "Rema",
+        "Remaxar",
+        "Remashalxar"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:sura",
+      "form": "SURA",
+      "normalized": "sura",
+      "meaning": "Animal hair or fur as a natural covering and workable material",
+      "meanings": [
+        "Animal hair or fur as a natural covering and workable material"
+      ],
+      "evidenceTerms": [
+        "Sura",
+        "Belsura"
+      ],
+      "evidence": [
+        "Sura",
+        "Belsura"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:eran",
+      "form": "ERAN",
+      "normalized": "eran",
+      "meaning": "Iron as a specific elemental metal",
+      "meanings": [
+        "Iron as a specific elemental metal"
+      ],
+      "evidenceTerms": [
+        "Eran"
+      ],
+      "evidence": [
+        "Eran"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:osar",
+      "form": "OSAR",
+      "normalized": "osar",
+      "meaning": "Bone as skeletal tissue and workable material",
+      "meanings": [
+        "Bone as skeletal tissue and workable material"
+      ],
+      "evidenceTerms": [
+        "Osar"
+      ],
+      "evidence": [
+        "Osar"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:njor",
+      "form": "NJOR",
+      "normalized": "njor",
+      "meaning": "Bridge or structural crossing span",
+      "meanings": [
+        "Bridge or structural crossing span"
+      ],
+      "evidenceTerms": [
+        "Njor",
+        "Dronjor"
+      ],
+      "evidence": [
+        "Njor",
+        "Dronjor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:ngar",
+      "form": "NGAR",
+      "normalized": "ngar",
+      "meaning": "Weapon or purpose-built harmful implement",
+      "meanings": [
+        "Weapon or purpose-built harmful implement"
+      ],
+      "evidenceTerms": [
+        "Ngar",
+        "Ngarpel",
+        "Ngarzhir",
+        "Ngarjor",
+        "Ngarzhel",
+        "Ngarvek",
+        "Ngarwel",
+        "Ngarjoraen"
+      ],
+      "evidence": [
+        "Ngar",
+        "Ngarpel",
+        "Ngarzhir",
+        "Ngarjor",
+        "Ngarzhel",
+        "Ngarvek",
+        "Ngarwel",
+        "Ngarjoraen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:duma",
+      "form": "DUMA",
+      "normalized": "duma",
+      "meaning": "Death; irreversible end of bodily life",
+      "meanings": [
+        "Death; irreversible end of bodily life"
+      ],
+      "evidenceTerms": [
+        "Duma",
+        "Dumaen",
+        "Dumeth"
+      ],
+      "evidence": [
+        "Duma",
+        "Dumaen",
+        "Dumeth"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:ndem",
+      "form": "NDEM",
+      "normalized": "ndem",
+      "meaning": "Blood; circulating bodily fluid associated with life injury and internal transport",
+      "meanings": [
+        "Blood; circulating bodily fluid associated with life injury and internal transport"
+      ],
+      "evidenceTerms": [
+        "Ndem",
+        "Ndemaen"
+      ],
+      "evidence": [
+        "Ndem",
+        "Ndemaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:sava",
+      "form": "SAVA",
+      "normalized": "sava",
+      "meaning": "Ordinary health care or treatment for sickness or injury",
+      "meanings": [
+        "Ordinary health care or treatment for sickness or injury"
+      ],
+      "evidenceTerms": [
+        "Sava",
+        "Savaen",
+        "Savin",
+        "Savor"
+      ],
+      "evidence": [
+        "Sava",
+        "Savaen",
+        "Savin",
+        "Savor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:nali",
+      "form": "NALI",
+      "normalized": "nali",
+      "meaning": "Species; a recognized biological kind or lineage extending across organisms and generations",
+      "meanings": [
+        "Species; a recognized biological kind or lineage extending across organisms and generations"
+      ],
+      "evidenceTerms": [
+        "Nali",
+        "Nalior",
+        "Welnali",
+        "Kornali",
+        "Shannali",
+        "Rathshannali",
+        "Dumanali",
+        "Rathnali"
+      ],
+      "evidence": [
+        "Nali",
+        "Nalior",
+        "Welnali",
+        "Kornali",
+        "Shannali",
+        "Rathshannali",
+        "Dumanali",
+        "Rathnali"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:gorm",
+      "form": "GORM",
+      "normalized": "gorm",
+      "meaning": "Dirt grime or unwanted soiling matter",
+      "meanings": [
+        "Dirt grime or unwanted soiling matter"
+      ],
+      "evidenceTerms": [
+        "Gormeth",
+        "Gorm",
+        "Welgorm"
+      ],
+      "evidence": [
+        "Gormeth",
+        "Gorm",
+        "Welgorm"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:dava",
+      "form": "DAVA",
+      "normalized": "dava",
+      "meaning": "Information; meaningful content capable of being known communicated represented or stored",
+      "meanings": [
+        "Information; meaningful content capable of being known communicated represented or stored"
+      ],
+      "evidenceTerms": [
+        "Dava",
+        "Shendava",
+        "Kavdava",
+        "Davaxar",
+        "Beldava",
+        "Davapral",
+        "Zheldava",
+        "Davashanaen",
+        "Deldavaen",
+        "Andavaen",
+        "Thaldavaen",
+        "Kavdavaen",
+        "Kavdeldava",
+        "Kesdavaen",
+        "Rethdava",
+        "Xardava",
+        "Xardavaen",
+        "Kaxardavaen",
+        "Rethzheldava"
+      ],
+      "evidence": [
+        "Dava",
+        "Shendava",
+        "Kavdava",
+        "Davaxar",
+        "Beldava",
+        "Davapral",
+        "Zheldava",
+        "Davashanaen",
+        "Deldavaen",
+        "Andavaen",
+        "Thaldavaen",
+        "Kavdavaen",
+        "Kavdeldava",
+        "Kesdavaen",
+        "Rethdava",
+        "Xardava",
+        "Xardavaen",
+        "Kaxardavaen",
+        "Rethzheldava"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:raku",
+      "form": "RAKU",
+      "normalized": "raku",
+      "meaning": "Computation; rule-governed transformation or evaluation of numbers symbols states or information",
+      "meanings": [
+        "Computation; rule-governed transformation or evaluation of numbers symbols states or information"
+      ],
+      "evidenceTerms": [
+        "Raku",
+        "Rakuaen",
+        "Rakumek",
+        "Rakufelmek",
+        "Rakushara",
+        "Rakukel",
+        "Belraku",
+        "Varokraku",
+        "Varokrakuaen",
+        "Varokrakueth"
+      ],
+      "evidence": [
+        "Raku",
+        "Rakuaen",
+        "Rakumek",
+        "Rakufelmek",
+        "Rakushara",
+        "Rakukel",
+        "Belraku",
+        "Varokraku",
+        "Varokrakuaen",
+        "Varokrakueth"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:nyel",
+      "form": "NYEL",
+      "normalized": "nyel",
+      "meaning": "Star; an individual self-luminous celestial body",
+      "meanings": [
+        "Star; an individual self-luminous celestial body"
+      ],
+      "evidenceTerms": [
+        "Nyel",
+        "Nyeleth",
+        "Kreznyel",
+        "Nyelbel",
+        "Wornyelbel",
+        "Nyelzhir",
+        "Zhirnyel"
+      ],
+      "evidence": [
+        "Nyel",
+        "Nyeleth",
+        "Kreznyel",
+        "Nyelbel",
+        "Wornyelbel",
+        "Nyelzhir",
+        "Zhirnyel"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:vora",
+      "form": "VORA",
+      "normalized": "vora",
+      "meaning": "Planet; a large rounded non-stellar body orbiting a star",
+      "meanings": [
+        "Planet; a large rounded non-stellar body orbiting a star"
+      ],
+      "evidenceTerms": [
+        "Vora",
+        "Voraeth",
+        "Felvora"
+      ],
+      "evidence": [
+        "Vora",
+        "Voraeth",
+        "Felvora"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:naku",
+      "form": "NAKU",
+      "normalized": "naku",
+      "meaning": "Left-side relation within an oriented frame",
+      "meanings": [
+        "Left-side relation within an oriented frame"
+      ],
+      "evidenceTerms": [
+        "Naku"
+      ],
+      "evidence": [
+        "Naku"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:sora",
+      "form": "SORA",
+      "normalized": "sora",
+      "meaning": "Right-side relation within an oriented frame",
+      "meanings": [
+        "Right-side relation within an oriented frame"
+      ],
+      "evidenceTerms": [
+        "Sora"
+      ],
+      "evidence": [
+        "Sora"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:mira",
+      "form": "MIRA",
+      "normalized": "mira",
+      "meaning": "Embarrassment; immediate self-conscious social discomfort",
+      "meanings": [
+        "Embarrassment; immediate self-conscious social discomfort"
+      ],
+      "evidenceTerms": [
+        "Mira",
+        "Miraen"
+      ],
+      "evidence": [
+        "Mira",
+        "Miraen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:daku",
+      "form": "DAKU",
+      "normalized": "daku",
+      "meaning": "Boredom; aversive or restless under-engagement",
+      "meanings": [
+        "Boredom; aversive or restless under-engagement"
+      ],
+      "evidenceTerms": [
+        "Daku",
+        "Dakuaen"
+      ],
+      "evidence": [
+        "Daku",
+        "Dakuaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:vesh",
+      "form": "VESH",
+      "normalized": "vesh",
+      "meaning": "Back as a bodily surface",
+      "meanings": [
+        "Back as a bodily surface"
+      ],
+      "evidenceTerms": [
+        "Vesh"
+      ],
+      "evidence": [
+        "Vesh"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:gora",
+      "form": "GORA",
+      "normalized": "gora",
+      "meaning": "Bodily joint or articulated joining point",
+      "meanings": [
+        "Bodily joint or articulated joining point"
+      ],
+      "evidenceTerms": [
+        "Gora",
+        "Kalvargora",
+        "Koringora",
+        "Sharvargora",
+        "Morlkagora"
+      ],
+      "evidence": [
+        "Gora",
+        "Kalvargora",
+        "Koringora",
+        "Sharvargora",
+        "Morlkagora"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:lera",
+      "form": "LERA",
+      "normalized": "lera",
+      "meaning": "Tongue",
+      "meanings": [
+        "Tongue"
+      ],
+      "evidenceTerms": [
+        "Lera"
+      ],
+      "evidence": [
+        "Lera"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:tash",
+      "form": "TASH",
+      "normalized": "tash",
+      "meaning": "Internal bodily organ with a characteristic function",
+      "meanings": [
+        "Internal bodily organ with a characteristic function"
+      ],
+      "evidenceTerms": [
+        "Tash",
+        "Aentash",
+        "Emiltash"
+      ],
+      "evidence": [
+        "Tash",
+        "Aentash",
+        "Emiltash"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:lesh",
+      "form": "LESH",
+      "normalized": "lesh",
+      "meaning": "Nerve or bodily signal pathway",
+      "meanings": [
+        "Nerve or bodily signal pathway"
+      ],
+      "evidenceTerms": [
+        "Lesh"
+      ],
+      "evidence": [
+        "Lesh"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:khos",
+      "form": "KHOS",
+      "normalized": "khos",
+      "meaning": "Cough as an abrupt bodily event",
+      "meanings": [
+        "Cough as an abrupt bodily event"
+      ],
+      "evidenceTerms": [
+        "Khos",
+        "Khosaen"
+      ],
+      "evidence": [
+        "Khos",
+        "Khosaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:uren",
+      "form": "UREN",
+      "normalized": "uren",
+      "meaning": "Urine and urination",
+      "meanings": [
+        "Urine and urination"
+      ],
+      "evidenceTerms": [
+        "Uren",
+        "Urenvek",
+        "Urenaen"
+      ],
+      "evidence": [
+        "Uren",
+        "Urenvek",
+        "Urenaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:noka",
+      "form": "NOKA",
+      "normalized": "noka",
+      "meaning": "External vulval anatomy",
+      "meanings": [
+        "External vulval anatomy"
+      ],
+      "evidenceTerms": [
+        "Noka",
+        "Nokashan"
+      ],
+      "evidence": [
+        "Noka",
+        "Nokashan"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:kiri",
+      "form": "KIRI",
+      "normalized": "kiri",
+      "meaning": "Clitoris",
+      "meanings": [
+        "Clitoris"
+      ],
+      "evidenceTerms": [
+        "Kiri"
+      ],
+      "evidence": [
+        "Kiri"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:mara",
+      "form": "MARA",
+      "normalized": "mara",
+      "meaning": "Uterus",
+      "meanings": [
+        "Uterus"
+      ],
+      "evidenceTerms": [
+        "Mara",
+        "Marasorl"
+      ],
+      "evidence": [
+        "Mara",
+        "Marasorl"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:seki",
+      "form": "SEKI",
+      "normalized": "seki",
+      "meaning": "Ovary",
+      "meanings": [
+        "Ovary"
+      ],
+      "evidenceTerms": [
+        "Seki"
+      ],
+      "evidence": [
+        "Seki"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:tava",
+      "form": "TAVA",
+      "normalized": "tava",
+      "meaning": "Penis",
+      "meanings": [
+        "Penis"
+      ],
+      "evidenceTerms": [
+        "Tava"
+      ],
+      "evidence": [
+        "Tava"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:fena",
+      "form": "FENA",
+      "normalized": "fena",
+      "meaning": "Anus or external anal opening",
+      "meanings": [
+        "Anus or external anal opening"
+      ],
+      "evidenceTerms": [
+        "Fena"
+      ],
+      "evidence": [
+        "Fena"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:leya",
+      "form": "LEYA",
+      "normalized": "leya",
+      "meaning": "Sexual physiological arousal",
+      "meanings": [
+        "Sexual physiological arousal"
+      ],
+      "evidenceTerms": [
+        "Leya",
+        "Leyaen",
+        "Leyajor",
+        "Leyajoraen"
+      ],
+      "evidence": [
+        "Leya",
+        "Leyaen",
+        "Leyajor",
+        "Leyajoraen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:ruma",
+      "form": "RUMA",
+      "normalized": "ruma",
+      "meaning": "Human or person hair",
+      "meanings": [
+        "Human or person hair"
+      ],
+      "evidenceTerms": [
+        "Ruma"
+      ],
+      "evidence": [
+        "Ruma"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:azan",
+      "form": "Azan",
+      "normalized": "azan",
+      "meaning": "Feminine essence (nurturing, fluidity).",
+      "meanings": [
+        "Feminine essence (nurturing, fluidity)."
+      ],
+      "evidenceTerms": [
+        "Azron",
+        "Azfel"
+      ],
+      "evidence": [
+        "Azron",
+        "Azfel"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:thee",
+      "form": "Thee",
+      "normalized": "thee",
+      "meaning": "Neutral essence (balance, unity).",
+      "meanings": [
+        "Neutral essence (balance, unity)."
+      ],
+      "evidenceTerms": [
+        "Theon"
+      ],
+      "evidence": [
+        "Theon"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:rath",
+      "form": "Rath",
+      "normalized": "rath",
+      "meaning": "Conditional “If”; Conditional marker: if; Enemy, foe, adversary; also conditional particle if.",
+      "meanings": [
+        "Conditional “If”",
+        "Conditional marker: if",
+        "Enemy, foe, adversary; also conditional particle if."
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [
+        "LX-V2-0040"
+      ],
+      "anchorType": "particle",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:kinn",
+      "form": "Kinn",
+      "normalized": "kinn",
+      "meaning": "daylight",
+      "meanings": [
+        "daylight"
+      ],
+      "evidenceTerms": [
+        "Kinnshal",
+        "Kinnmor",
+        "Kinnlin"
+      ],
+      "evidence": [
+        "Kinnshal",
+        "Kinnmor",
+        "Kinnlin"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:kilv",
+      "form": "Kilv",
+      "normalized": "kilv",
+      "meaning": "shadow/time",
+      "meanings": [
+        "shadow/time"
+      ],
+      "evidenceTerms": [
+        "Kilvthal",
+        "Kilveth",
+        "Kilvfah",
+        "Kilvlum"
+      ],
+      "evidence": [
+        "Kilvthal",
+        "Kilveth",
+        "Kilvfah",
+        "Kilvlum"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:zhae",
+      "form": "Zhae-",
+      "normalized": "zhae",
+      "meaning": "Light, empathy",
+      "meanings": [
+        "Light, empathy"
+      ],
+      "evidenceTerms": [
+        "Zhaenok"
+      ],
+      "evidence": [
+        "Zhaenok"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:lior",
+      "form": "Lior",
+      "normalized": "lior",
+      "meaning": "Relative Pronoun",
+      "meanings": [
+        "Relative Pronoun"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "marker",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:ther",
+      "form": "Ther",
+      "normalized": "ther",
+      "meaning": "Comparative marker: more than",
+      "meanings": [
+        "Comparative marker: more than"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "marker",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:vael",
+      "form": "vael",
+      "normalized": "vael",
+      "meaning": "Subjunctive mood: wishes/hypotheticals",
+      "meanings": [
+        "Subjunctive mood: wishes/hypotheticals"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "particle",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:esh",
+      "form": "ESH",
+      "normalized": "esh",
+      "meaning": "Sky; air; mind; abstract thought; Sky, air, wind; freedom, thought, divine, intellect, perspective, beginnings.",
+      "meanings": [
+        "Sky; air; mind; abstract thought",
+        "Sky, air, wind; freedom, thought, divine, intellect, perspective, beginnings."
+      ],
+      "evidenceTerms": [
+        "esh",
+        "eshlin",
+        "eshthael"
+      ],
+      "evidence": [
+        "esh",
+        "eshlin",
+        "eshthael"
+      ],
+      "linkedEntryIds": [
+        "LX-V1-0021",
+        "LX-V2-0006",
+        "LX-V2-0071",
+        "LX-V4-0110"
+      ],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:fah",
+      "form": "FAH",
+      "normalized": "fah",
+      "meaning": "Total darkness; void; fear; misfortune",
+      "meanings": [
+        "Total darkness; void; fear; misfortune"
+      ],
+      "evidenceTerms": [
+        "fah",
+        "fahaen",
+        "faheth"
+      ],
+      "evidence": [
+        "fah",
+        "fahaen",
+        "faheth"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:nor",
+      "form": "NOR",
+      "normalized": "nor",
+      "meaning": "Time; flow of events; temporality; Time, the flow of events; also future prefix and preposition at/in time.",
+      "meanings": [
+        "Time; flow of events; temporality",
+        "Time, the flow of events; also future prefix and preposition at/in time."
+      ],
+      "evidenceTerms": [
+        "nor",
+        "nor-ka",
+        "weknor"
+      ],
+      "evidence": [
+        "nor",
+        "nor-ka",
+        "weknor"
+      ],
+      "linkedEntryIds": [
+        "LX-V1-0020",
+        "LX-V2-0020",
+        "LX-V4-0100"
+      ],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:rin",
+      "form": "RIN",
+      "normalized": "rin",
+      "meaning": "Essence; inner spirit; true self; Essence, core nature, spirit, intrinsic quality.",
+      "meanings": [
+        "Essence; inner spirit; true self",
+        "Essence, core nature, spirit, intrinsic quality."
+      ],
+      "evidenceTerms": [
+        "rin",
+        "rinaen",
+        "rinvarash"
+      ],
+      "evidence": [
+        "rin",
+        "rinaen",
+        "rinvarash"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:bel",
+      "form": "BEL",
+      "normalized": "bel",
+      "meaning": "Binding; weaving; systems; civilization; To bind or weave (symbolizing interconnection, fabric, or networks).; To bind, weave, connect, fasten; civilization, bonds, restrictions, systems.",
+      "meanings": [
+        "Binding; weaving; systems; civilization",
+        "To bind or weave (symbolizing interconnection, fabric, or networks).",
+        "To bind, weave, connect, fasten; civilization, bonds, restrictions, systems."
+      ],
+      "evidenceTerms": [
+        "bel",
+        "belshara",
+        "belvok",
+        "Belrin",
+        "Belar"
+      ],
+      "evidence": [
+        "bel",
+        "belshara",
+        "belvok"
+      ],
+      "linkedEntryIds": [
+        "LX-V4-0074"
+      ],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:ohm",
+      "form": "OHM",
+      "normalized": "ohm",
+      "meaning": "Connection; empathy; spiritual unity; Connection, unity; Connection, meeting point, circuit; spiritual connection distinct from Bel.",
+      "meanings": [
+        "Connection; empathy; spiritual unity",
+        "Connection, unity",
+        "Connection, meeting point, circuit; spiritual connection distinct from Bel."
+      ],
+      "evidenceTerms": [
+        "ohm",
+        "Ohmbaen",
+        "Ohmakath",
+        "Ohmavin"
+      ],
+      "evidence": [
+        "ohm",
+        "Ohmbaen",
+        "Ohmakath"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:vok",
+      "form": "VOK",
+      "normalized": "vok",
+      "meaning": "Unity; formal bond; bond-state; Duality of breaking a bond and forming a unity; noun Vok means unity; verb vokaen breaks unity.",
+      "meanings": [
+        "Unity; formal bond; bond-state",
+        "Duality of breaking a bond and forming a unity; noun Vok means unity; verb vokaen breaks unity."
+      ],
+      "evidenceTerms": [
+        "vok",
+        "vokaen",
+        "rethvok"
+      ],
+      "evidence": [
+        "vok",
+        "vokaen",
+        "rethvok"
+      ],
+      "linkedEntryIds": [
+        "LX-V4-0120"
+      ],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:mor",
+      "form": "MOR",
+      "normalized": "mor",
+      "meaning": "Matter; soil; earthy substance; physical grounding",
+      "meanings": [
+        "Matter; soil; earthy substance; physical grounding"
+      ],
+      "evidenceTerms": [
+        "Moraen",
+        "Morthas",
+        "Morkal"
+      ],
+      "evidence": [
+        "Moraen",
+        "Morthas",
+        "Morkal"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:tal",
+      "form": "TAL",
+      "normalized": "tal",
+      "meaning": "Exchange; transfer; giving or taking",
+      "meanings": [
+        "Exchange; transfer; giving or taking"
+      ],
+      "evidenceTerms": [
+        "Tal",
+        "Talrin",
+        "Talaen"
+      ],
+      "evidence": [
+        "Tal",
+        "Talrin",
+        "Talaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:kor",
+      "form": "KOR",
+      "normalized": "kor",
+      "meaning": "Core; source; origin point; grip",
+      "meanings": [
+        "Core; source; origin point; grip"
+      ],
+      "evidenceTerms": [
+        "Korin",
+        "Shalkor",
+        "Drenkorath"
+      ],
+      "evidence": [
+        "Korin",
+        "Shalkor",
+        "Drenkorath"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:lun",
+      "form": "LUN",
+      "normalized": "lun",
+      "meaning": "Lake; moon; reflected light; lunar stillness",
+      "meanings": [
+        "Lake; moon; reflected light; lunar stillness"
+      ],
+      "evidenceTerms": [
+        "Lun",
+        "Lunor",
+        "Lunwek"
+      ],
+      "evidence": [
+        "Lun",
+        "Lunor",
+        "Lunwek"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:kar",
+      "form": "KAR",
+      "normalized": "kar",
+      "meaning": "Strike; mechanical force; tool-work",
+      "meanings": [
+        "Strike; mechanical force; tool-work"
+      ],
+      "evidenceTerms": [
+        "Kareth",
+        "Karethaen"
+      ],
+      "evidence": [
+        "Kareth",
+        "Karethaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:kav",
+      "form": "KAV",
+      "normalized": "kav",
+      "meaning": "Age; preservation; ancient duration",
+      "meanings": [
+        "Age; preservation; ancient duration"
+      ],
+      "evidenceTerms": [
+        "Kaveth",
+        "Velkavor"
+      ],
+      "evidence": [
+        "Kaveth",
+        "Velkavor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:sel",
+      "form": "SEL",
+      "normalized": "sel",
+      "meaning": "Physical clarity; purity; absence of grime",
+      "meanings": [
+        "Physical clarity; purity; absence of grime"
+      ],
+      "evidenceTerms": [
+        "Selineth"
+      ],
+      "evidence": [
+        "Selineth"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:fel",
+      "form": "FEL",
+      "normalized": "fel",
+      "meaning": "Smallness; youth; diminishment; Diminisher - slightly, a bit",
+      "meanings": [
+        "Smallness; youth; diminishment",
+        "Diminisher - slightly, a bit"
+      ],
+      "evidenceTerms": [
+        "Kadfel",
+        "Felin"
+      ],
+      "evidence": [
+        "Kadfel",
+        "Felin"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "morpheme",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:vel",
+      "form": "VEL",
+      "normalized": "vel",
+      "meaning": "Wisdom; stillness; cold endurance",
+      "meanings": [
+        "Wisdom; stillness; cold endurance"
+      ],
+      "evidenceTerms": [
+        "Velar",
+        "Veleth",
+        "Velrathor"
+      ],
+      "evidence": [
+        "Velar",
+        "Veleth",
+        "Velrathor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:kel",
+      "form": "KEL",
+      "normalized": "kel",
+      "meaning": "Speech; naming; definition; To say, speak, name; definition and ordering through language.",
+      "meanings": [
+        "Speech; naming; definition",
+        "To say, speak, name; definition and ordering through language."
+      ],
+      "evidenceTerms": [
+        "kel",
+        "kelrin",
+        "kelka"
+      ],
+      "evidence": [
+        "kel",
+        "kelrin",
+        "kelka"
+      ],
+      "linkedEntryIds": [
+        "LX-V3-0012",
+        "LX-V4-0121"
+      ],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:tla",
+      "form": "TLA",
+      "normalized": "tla",
+      "meaning": "Intimacy; closeness; unspoken connection; Close, intimate connection",
+      "meanings": [
+        "Intimacy; closeness; unspoken connection",
+        "Close, intimate connection"
+      ],
+      "evidenceTerms": [
+        "tlavor",
+        "tlakorin",
+        "tlakhura",
+        "Tlavor",
+        "Tlakorin"
+      ],
+      "evidence": [
+        "tlavor",
+        "tlakorin",
+        "tlakhura"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:jor",
+      "form": "JOR",
+      "normalized": "jor",
+      "meaning": "Surge; burst; energetic flow; Surge or burst (symbolizing sudden movements or energetic flows).",
+      "meanings": [
+        "Surge; burst; energetic flow",
+        "Surge or burst (symbolizing sudden movements or energetic flows)."
+      ],
+      "evidenceTerms": [
+        "jor",
+        "jorkal",
+        "jorvak",
+        "Jorlin",
+        "Jorvak"
+      ],
+      "evidence": [
+        "jor",
+        "jorkal",
+        "jorvak"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:jek",
+      "form": "JEK",
+      "normalized": "jek",
+      "meaning": "Spiral; twist; swirling form; Spiral or twist (symbolizing swirling patterns or dynamic shapes).",
+      "meanings": [
+        "Spiral; twist; swirling form",
+        "Spiral or twist (symbolizing swirling patterns or dynamic shapes)."
+      ],
+      "evidenceTerms": [
+        "jek",
+        "jekvor",
+        "jekvarin",
+        "Jekvor"
+      ],
+      "evidence": [
+        "jek",
+        "jekvor",
+        "jekvarin"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:wek",
+      "form": "WEK",
+      "normalized": "wek",
+      "meaning": "Cycle; repetition; patterned return; Circularity or cycles (symbolizing completeness or renewal).",
+      "meanings": [
+        "Cycle; repetition; patterned return",
+        "Circularity or cycles (symbolizing completeness or renewal)."
+      ],
+      "evidenceTerms": [
+        "weknor",
+        "lunwek",
+        "tharvin-wek",
+        "Weknor"
+      ],
+      "evidence": [
+        "weknor",
+        "lunwek",
+        "tharvin-wek"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:lor",
+      "form": "LOR",
+      "normalized": "lor",
+      "meaning": "Guidance; sight; focus of leadership",
+      "meanings": [
+        "Guidance; sight; focus of leadership"
+      ],
+      "evidenceTerms": [
+        "lorin",
+        "Liorin",
+        "Lorash"
+      ],
+      "evidence": [
+        "lorin",
+        "Liorin",
+        "Lorash"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:kal",
+      "form": "KAL",
+      "normalized": "kal",
+      "meaning": "Power; strength; force; weight; Strength, power, force; neutral force whose virtue depends on use.",
+      "meanings": [
+        "Power; strength; force; weight",
+        "Strength, power, force; neutral force whose virtue depends on use."
+      ],
+      "evidenceTerms": [
+        "kal",
+        "Kaleth",
+        "Serenkal"
+      ],
+      "evidence": [
+        "kal",
+        "Kaleth",
+        "Serenkal"
+      ],
+      "linkedEntryIds": [
+        "LX-V2-0031",
+        "LX-V4-0111"
+      ],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:wor",
+      "form": "WOR",
+      "normalized": "wor",
+      "meaning": "Abundance; plenty; fullness; Abundance or plenty (symbolizing generosity or surplus).",
+      "meanings": [
+        "Abundance; plenty; fullness",
+        "Abundance or plenty (symbolizing generosity or surplus)."
+      ],
+      "evidenceTerms": [
+        "wor",
+        "woreth",
+        "worvenak",
+        "Worvenak"
+      ],
+      "evidence": [
+        "wor",
+        "woreth",
+        "worvenak"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:vin",
+      "form": "VIN",
+      "normalized": "vin",
+      "meaning": "Pull; extraction; drawing out essence",
+      "meanings": [
+        "Pull; extraction; drawing out essence"
+      ],
+      "evidenceTerms": [
+        "tharvin",
+        "phelvin",
+        "welvinor"
+      ],
+      "evidence": [
+        "tharvin",
+        "phelvin",
+        "welvinor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:nku",
+      "form": "NKU",
+      "normalized": "nku",
+      "meaning": "Hidden nurturing; held calm; Hidden, nurturing",
+      "meanings": [
+        "Hidden nurturing; held calm",
+        "Hidden, nurturing"
+      ],
+      "evidenceTerms": [
+        "Nkural",
+        "Nkuvath",
+        "Nkuthan"
+      ],
+      "evidence": [
+        "Nkural",
+        "Nkuvath",
+        "Nkuthan"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:bal",
+      "form": "BAL",
+      "normalized": "bal",
+      "meaning": "Sprouting; development; budding growth; Growth or sprouting (e.g., plants, development).",
+      "meanings": [
+        "Sprouting; development; budding growth",
+        "Growth or sprouting (e.g., plants, development)."
+      ],
+      "evidenceTerms": [
+        "balrin",
+        "Balrin"
+      ],
+      "evidence": [
+        "balrin"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:jel",
+      "form": "JEL",
+      "normalized": "jel",
+      "meaning": "Zest; bright flavor; sensory sharpness; Flavor or zest (bright taste or sensory experience).",
+      "meanings": [
+        "Zest; bright flavor; sensory sharpness",
+        "Flavor or zest (bright taste or sensory experience)."
+      ],
+      "evidenceTerms": [
+        "jelvor",
+        "Jelvor"
+      ],
+      "evidence": [
+        "jelvor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:wel",
+      "form": "WEL",
+      "normalized": "wel",
+      "meaning": "Communal flow; sharing; seamless connection; Sharing or unity (emphasizing communal aspects, symbolizing seamless connections or unbroken lines).",
+      "meanings": [
+        "Communal flow; sharing; seamless connection",
+        "Sharing or unity (emphasizing communal aspects, symbolizing seamless connections or unbroken lines)."
+      ],
+      "evidenceTerms": [
+        "welrim",
+        "welmor",
+        "welvinor",
+        "Welrim",
+        "Welmor"
+      ],
+      "evidence": [
+        "welrim",
+        "welmor",
+        "welvinor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:xar",
+      "form": "XAR",
+      "normalized": "xar",
+      "meaning": "Cover; veil; concealment for protection; Shadow or cover (tied to concealed or protective qualities).",
+      "meanings": [
+        "Cover; veil; concealment for protection",
+        "Shadow or cover (tied to concealed or protective qualities)."
+      ],
+      "evidenceTerms": [
+        "xarvel",
+        "xaresh",
+        "xarvethral",
+        "Xarvel"
+      ],
+      "evidence": [
+        "xarvel",
+        "xaresh",
+        "xarvethral"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:xil",
+      "form": "XIL",
+      "normalized": "xil",
+      "meaning": "Shard; fragment; hidden crystal detail; Hidden or secret (used for foods with a mysterious origin or preparation).",
+      "meanings": [
+        "Shard; fragment; hidden crystal detail",
+        "Hidden or secret (used for foods with a mysterious origin or preparation)."
+      ],
+      "evidenceTerms": [
+        "xilvar",
+        "xilbren",
+        "Xilvar"
+      ],
+      "evidence": [
+        "xilvar",
+        "xilbren"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:rek",
+      "form": "REK",
+      "normalized": "rek",
+      "meaning": "Peak intensity; burning or heated state",
+      "meanings": [
+        "Peak intensity; burning or heated state"
+      ],
+      "evidenceTerms": [
+        "krezrek",
+        "fenrek"
+      ],
+      "evidence": [
+        "krezrek",
+        "fenrek"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:rav",
+      "form": "RAV",
+      "normalized": "rav",
+      "meaning": "Pull; yearning; destiny attraction; Pull, yearning; To pull, draw towards; desire, deep yearning, destiny pull.",
+      "meanings": [
+        "Pull; yearning; destiny attraction",
+        "Pull, yearning",
+        "To pull, draw towards; desire, deep yearning, destiny pull."
+      ],
+      "evidenceTerms": [
+        "ravokha",
+        "Ravialor",
+        "terrarav",
+        "Ravokha"
+      ],
+      "evidence": [
+        "ravokha",
+        "Ravialor",
+        "terrarav"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:mek",
+      "form": "MEK",
+      "normalized": "mek",
+      "meaning": "Forging; construction; artificial making",
+      "meanings": [
+        "Forging; construction; artificial making"
+      ],
+      "evidenceTerms": [
+        "velmek",
+        "zhelvek"
+      ],
+      "evidence": [
+        "velmek",
+        "zhelvek"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:vek",
+      "form": "VEK",
+      "normalized": "vek",
+      "meaning": "Carrier; vessel; transported charge or substance",
+      "meanings": [
+        "Carrier; vessel; transported charge or substance"
+      ],
+      "evidenceTerms": [
+        "zhelvek"
+      ],
+      "evidence": [
+        "zhelvek"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:lak",
+      "form": "LAK",
+      "normalized": "lak",
+      "meaning": "Grain; earthy food-substance; bread material",
+      "meanings": [
+        "Grain; earthy food-substance; bread material"
+      ],
+      "evidenceTerms": [
+        "morlak",
+        "broslak"
+      ],
+      "evidence": [
+        "morlak",
+        "broslak"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:del",
+      "form": "DEL",
+      "normalized": "del",
+      "meaning": "Two; unit of pairing",
+      "meanings": [
+        "Two; unit of pairing"
+      ],
+      "evidenceTerms": [
+        "Del"
+      ],
+      "evidence": [
+        "Del"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:ash",
+      "form": "ASH",
+      "normalized": "ash",
+      "meaning": "Realized domain; concrete manifestation; bounded expression",
+      "meanings": [
+        "Realized domain; concrete manifestation; bounded expression"
+      ],
+      "evidenceTerms": [
+        "Lorash",
+        "Varash"
+      ],
+      "evidence": [
+        "Lorash",
+        "Varash"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "morpheme",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:ath",
+      "form": "ATH",
+      "normalized": "ath",
+      "meaning": "Completion; perfected or enduring state",
+      "meanings": [
+        "Completion; perfected or enduring state"
+      ],
+      "evidenceTerms": [
+        "-ath",
+        "Varath",
+        "Drenkorath"
+      ],
+      "evidence": [
+        "-ath",
+        "Varath",
+        "Drenkorath"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "morpheme",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:ral",
+      "form": "RAL",
+      "normalized": "ral",
+      "meaning": "Caretaker; watcher; one defined by vigilance",
+      "meanings": [
+        "Caretaker; watcher; one defined by vigilance"
+      ],
+      "evidenceTerms": [
+        "Xarvethral",
+        "vethral",
+        "Nkural"
+      ],
+      "evidence": [
+        "Xarvethral",
+        "vethral",
+        "Nkural"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "morpheme",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:van",
+      "form": "VAN",
+      "normalized": "van",
+      "meaning": "Commercial site; market-space; shop-place",
+      "meanings": [
+        "Commercial site; market-space; shop-place"
+      ],
+      "evidenceTerms": [
+        "Evan",
+        "Eshvan"
+      ],
+      "evidence": [
+        "Evan",
+        "Eshvan"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:dro",
+      "form": "DRO",
+      "normalized": "dro",
+      "meaning": "Basic physical water",
+      "meanings": [
+        "Basic physical water"
+      ],
+      "evidenceTerms": [
+        "Dro",
+        "Droshen",
+        "Drokav",
+        "Droral",
+        "Drobel",
+        "Drosel"
+      ],
+      "evidence": [
+        "Dro",
+        "Droshen",
+        "Drokav",
+        "Droral",
+        "Drobel",
+        "Drosel"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:dor",
+      "form": "DOR",
+      "normalized": "dor",
+      "meaning": "Deliberate placement; setting at a location",
+      "meanings": [
+        "Deliberate placement; setting at a location"
+      ],
+      "evidenceTerms": [
+        "Dor"
+      ],
+      "evidence": [
+        "Dor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:dar",
+      "form": "DAR",
+      "normalized": "dar",
+      "meaning": "Deliberate pending pause; waiting",
+      "meanings": [
+        "Deliberate pending pause; waiting"
+      ],
+      "evidenceTerms": [
+        "Dar"
+      ],
+      "evidence": [
+        "Dar"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:siv",
+      "form": "SIV",
+      "normalized": "siv",
+      "meaning": "Directed effort under uncertainty; attempt",
+      "meanings": [
+        "Directed effort under uncertainty; attempt"
+      ],
+      "evidenceTerms": [
+        "Siv",
+        "Sivathaen",
+        "Sivrethaen"
+      ],
+      "evidence": [
+        "Siv",
+        "Sivathaen",
+        "Sivrethaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:kes",
+      "form": "KES",
+      "normalized": "kes",
+      "meaning": "Attention; mental registration; noticing",
+      "meanings": [
+        "Attention; mental registration; noticing"
+      ],
+      "evidenceTerms": [
+        "Kes"
+      ],
+      "evidence": [
+        "Kes"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:lem",
+      "form": "LEM",
+      "normalized": "lem",
+      "meaning": "Workable natural clay",
+      "meanings": [
+        "Workable natural clay"
+      ],
+      "evidenceTerms": [
+        "Lem",
+        "Lemath"
+      ],
+      "evidence": [
+        "Lem",
+        "Lemath"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:tir",
+      "form": "TIR",
+      "normalized": "tir",
+      "meaning": "Copper",
+      "meanings": [
+        "Copper"
+      ],
+      "evidenceTerms": [
+        "Tir",
+        "Tirkal"
+      ],
+      "evidence": [
+        "Tir",
+        "Tirkal"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:aiv",
+      "form": "AIV",
+      "normalized": "aiv",
+      "meaning": "Bodily pain; physical hurt",
+      "meanings": [
+        "Bodily pain; physical hurt"
+      ],
+      "evidenceTerms": [
+        "Aiv",
+        "Aivaen",
+        "Pelaivaen",
+        "Rekaivaen",
+        "Aivkor"
+      ],
+      "evidence": [
+        "Aiv",
+        "Aivaen",
+        "Pelaivaen",
+        "Rekaivaen",
+        "Aivkor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:riv",
+      "form": "RIV",
+      "normalized": "riv",
+      "meaning": "Fine involuntary trembling",
+      "meanings": [
+        "Fine involuntary trembling"
+      ],
+      "evidenceTerms": [
+        "Riv",
+        "Rivaen"
+      ],
+      "evidence": [
+        "Riv",
+        "Rivaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:zem",
+      "form": "ZEM",
+      "normalized": "zem",
+      "meaning": "Workable wood; timber",
+      "meanings": [
+        "Workable wood; timber"
+      ],
+      "evidenceTerms": [
+        "Zem"
+      ],
+      "evidence": [
+        "Zem"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:num",
+      "form": "NUM",
+      "normalized": "num",
+      "meaning": "Swallowing; inward throat passage",
+      "meanings": [
+        "Swallowing; inward throat passage"
+      ],
+      "evidenceTerms": [
+        "Num",
+        "Numaen"
+      ],
+      "evidence": [
+        "Num",
+        "Numaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:nol",
+      "form": "NOL",
+      "normalized": "nol",
+      "meaning": "Olfactory perception",
+      "meanings": [
+        "Olfactory perception"
+      ],
+      "evidenceTerms": [
+        "Nol",
+        "Nolaen"
+      ],
+      "evidence": [
+        "Nol",
+        "Nolaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:tov",
+      "form": "TOV",
+      "normalized": "tov",
+      "meaning": "Physical contact; contact perception",
+      "meanings": [
+        "Physical contact; contact perception"
+      ],
+      "evidenceTerms": [
+        "Tov",
+        "Tovaen"
+      ],
+      "evidence": [
+        "Tov",
+        "Tovaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:mav",
+      "form": "MAV",
+      "normalized": "mav",
+      "meaning": "Bodily illness; disturbed health",
+      "meanings": [
+        "Bodily illness; disturbed health"
+      ],
+      "evidenceTerms": [
+        "Mav",
+        "Maveth"
+      ],
+      "evidence": [
+        "Mav",
+        "Maveth"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:sov",
+      "form": "SOV",
+      "normalized": "sov",
+      "meaning": "Bounded cultivated plot",
+      "meanings": [
+        "Bounded cultivated plot"
+      ],
+      "evidenceTerms": [
+        "Sov",
+        "Brossov",
+        "Verdsov",
+        "Vilorsov"
+      ],
+      "evidence": [
+        "Sov",
+        "Brossov",
+        "Verdsov",
+        "Vilorsov"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:gav",
+      "form": "GAV",
+      "normalized": "gav",
+      "meaning": "Purposeful pursuit of living quarry",
+      "meanings": [
+        "Purposeful pursuit of living quarry"
+      ],
+      "evidenceTerms": [
+        "Gav",
+        "Gavaen",
+        "Gavral"
+      ],
+      "evidence": [
+        "Gav",
+        "Gavaen",
+        "Gavral"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:zor",
+      "form": "ZOR",
+      "normalized": "zor",
+      "meaning": "Animal or beast as a general living category",
+      "meanings": [
+        "Animal or beast as a general living category"
+      ],
+      "evidenceTerms": [
+        "Zor",
+        "Belzor",
+        "Belzoraen",
+        "Belzorral",
+        "Zordren",
+        "Zordrenvinaen",
+        "Zornelar"
+      ],
+      "evidence": [
+        "Zor",
+        "Belzor",
+        "Belzoraen",
+        "Belzorral",
+        "Zordren",
+        "Zordrenvinaen",
+        "Zornelar"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:hir",
+      "form": "HIR",
+      "normalized": "hir",
+      "meaning": "Visible color or hue",
+      "meanings": [
+        "Visible color or hue"
+      ],
+      "evidenceTerms": [
+        "Hir",
+        "Hirmor",
+        "Hiraen"
+      ],
+      "evidence": [
+        "Hir",
+        "Hirmor",
+        "Hiraen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:dov",
+      "form": "DOV",
+      "normalized": "dov",
+      "meaning": "Voluntary play; recreation undertaken for enjoyment",
+      "meanings": [
+        "Voluntary play; recreation undertaken for enjoyment"
+      ],
+      "evidenceTerms": [
+        "Dov",
+        "Dovaen",
+        "Dovath",
+        "Dovin",
+        "Kaldov"
+      ],
+      "evidence": [
+        "Dov",
+        "Dovaen",
+        "Dovath",
+        "Dovin",
+        "Kaldov"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:nak",
+      "form": "NAK",
+      "normalized": "nak",
+      "meaning": "Competition; organized striving whose outcomes are compared",
+      "meanings": [
+        "Competition; organized striving whose outcomes are compared"
+      ],
+      "evidenceTerms": [
+        "Nak",
+        "Nakaen",
+        "Nakin",
+        "Thalnakin",
+        "Nakshara",
+        "Naklorral",
+        "Naktal",
+        "Shalnak",
+        "Shalnakaen",
+        "Vethnak",
+        "Vethnakaen",
+        "Thalnak",
+        "Jornak",
+        "Jornakaen"
+      ],
+      "evidence": [
+        "Nak",
+        "Nakaen",
+        "Nakin",
+        "Thalnakin",
+        "Nakshara",
+        "Naklorral",
+        "Naktal",
+        "Shalnak",
+        "Shalnakaen",
+        "Vethnak",
+        "Vethnakaen",
+        "Thalnak",
+        "Jornak",
+        "Jornakaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:rim",
+      "form": "RIM",
+      "normalized": "rim",
+      "meaning": "Celebration; festive shared observance",
+      "meanings": [
+        "Celebration; festive shared observance"
+      ],
+      "evidenceTerms": [
+        "Welrim",
+        "Rim",
+        "Rimaen",
+        "Rimor"
+      ],
+      "evidence": [
+        "Welrim",
+        "Rim",
+        "Rimaen",
+        "Rimor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:mbu",
+      "form": "MBU",
+      "normalized": "mbu",
+      "meaning": "Fungus or fungal life distinct from plants and animals",
+      "meanings": [
+        "Fungus or fungal life distinct from plants and animals"
+      ],
+      "evidenceTerms": [
+        "Mbu"
+      ],
+      "evidence": [
+        "Mbu"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:sul",
+      "form": "SUL",
+      "normalized": "sul",
+      "meaning": "Resource; a usable supply substance energy source or environmental provision available to meet a need",
+      "meanings": [
+        "Resource; a usable supply substance energy source or environmental provision available to meet a need"
+      ],
+      "evidenceTerms": [
+        "Sul",
+        "Worsul",
+        "Kasul",
+        "Kavsul",
+        "Weksul",
+        "Versul"
+      ],
+      "evidence": [
+        "Sul",
+        "Worsul",
+        "Kasul",
+        "Kavsul",
+        "Weksul",
+        "Versul"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:aru",
+      "form": "ARU",
+      "normalized": "aru",
+      "meaning": "Magic; intentional relationship or practice producing effects beyond ordinary causation",
+      "meanings": [
+        "Magic; intentional relationship or practice producing effects beyond ordinary causation"
+      ],
+      "evidenceTerms": [
+        "Aru",
+        "Arueth",
+        "Kaarueth",
+        "Aruaen",
+        "Arural",
+        "Rinaru",
+        "Kalaru",
+        "Esharu",
+        "Arukel",
+        "Arukelaen",
+        "Kaaruaen",
+        "Mekaru"
+      ],
+      "evidence": [
+        "Aru",
+        "Arueth",
+        "Kaarueth",
+        "Aruaen",
+        "Arural",
+        "Rinaru",
+        "Kalaru",
+        "Esharu",
+        "Arukel",
+        "Arukelaen",
+        "Kaaruaen",
+        "Mekaru"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:den",
+      "form": "DEN",
+      "normalized": "den",
+      "meaning": "Deictic reference anchored to a speech participant",
+      "meanings": [
+        "Deictic reference anchored to a speech participant"
+      ],
+      "evidenceTerms": [
+        "Deni",
+        "Denya",
+        "Denla"
+      ],
+      "evidence": [
+        "Deni",
+        "Denya",
+        "Denla"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "morpheme",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:hav",
+      "form": "HAV",
+      "normalized": "hav",
+      "meaning": "Laughter; embodied amused tense relieved embarrassed disbelieving or socially responsive release",
+      "meanings": [
+        "Laughter; embodied amused tense relieved embarrassed disbelieving or socially responsive release"
+      ],
+      "evidenceTerms": [
+        "Hav",
+        "Havaen",
+        "Haveth",
+        "Dovhav",
+        "Pralhav",
+        "Dovhavral",
+        "Havrath",
+        "Havrathaen"
+      ],
+      "evidence": [
+        "Hav",
+        "Havaen",
+        "Haveth",
+        "Dovhav",
+        "Pralhav",
+        "Dovhavral",
+        "Havrath",
+        "Havrathaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:nem",
+      "form": "NEM",
+      "normalized": "nem",
+      "meaning": "Understanding or comprehension; coherent mental grasp",
+      "meanings": [
+        "Understanding or comprehension; coherent mental grasp"
+      ],
+      "evidenceTerms": [
+        "Nem",
+        "Nemaen",
+        "Rethnem",
+        "Rethnemaen",
+        "Kelnemaen",
+        "Selnemaen"
+      ],
+      "evidence": [
+        "Nem",
+        "Nemaen",
+        "Rethnem",
+        "Rethnemaen",
+        "Kelnemaen",
+        "Selnemaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:zev",
+      "form": "ZEV",
+      "normalized": "zev",
+      "meaning": "Envy; painful comparative desire for what another has",
+      "meanings": [
+        "Envy; painful comparative desire for what another has"
+      ],
+      "evidenceTerms": [
+        "Zev",
+        "Zevaen"
+      ],
+      "evidence": [
+        "Zev",
+        "Zevaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:pir",
+      "form": "PIR",
+      "normalized": "pir",
+      "meaning": "Articulated bodily digit",
+      "meanings": [
+        "Articulated bodily digit"
+      ],
+      "evidenceTerms": [
+        "Pir",
+        "Morlkapir"
+      ],
+      "evidence": [
+        "Pir",
+        "Morlkapir"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:zek",
+      "form": "ZEK",
+      "normalized": "zek",
+      "meaning": "Tooth",
+      "meanings": [
+        "Tooth"
+      ],
+      "evidenceTerms": [
+        "Zek"
+      ],
+      "evidence": [
+        "Zek"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:zer",
+      "form": "ZER",
+      "normalized": "zer",
+      "meaning": "Sneeze as an abrupt bodily event",
+      "meanings": [
+        "Sneeze as an abrupt bodily event"
+      ],
+      "evidenceTerms": [
+        "Zer",
+        "Zeraen"
+      ],
+      "evidence": [
+        "Zer",
+        "Zeraen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:suv",
+      "form": "SUV",
+      "normalized": "suv",
+      "meaning": "Sweat or perspiration",
+      "meanings": [
+        "Sweat or perspiration"
+      ],
+      "evidenceTerms": [
+        "Suv",
+        "Suvaen"
+      ],
+      "evidence": [
+        "Suv",
+        "Suvaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:nar",
+      "form": "NAR",
+      "normalized": "nar",
+      "meaning": "Nausea and the associated emetic event",
+      "meanings": [
+        "Nausea and the associated emetic event"
+      ],
+      "evidenceTerms": [
+        "Nar",
+        "Naraen"
+      ],
+      "evidence": [
+        "Nar",
+        "Naraen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:fek",
+      "form": "FEK",
+      "normalized": "fek",
+      "meaning": "Feces and defecation",
+      "meanings": [
+        "Feces and defecation"
+      ],
+      "evidenceTerms": [
+        "Fek",
+        "Fekaen"
+      ],
+      "evidence": [
+        "Fek",
+        "Fekaen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "prefix:tha",
+      "form": "Tha-",
+      "normalized": "tha",
+      "meaning": "Past Tense; Past tense",
+      "meanings": [
+        "Past Tense",
+        "Past tense"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "prefix",
+      "sharedAffix": true
+    },
+    {
+      "id": "prefix:nor",
+      "form": "Nor-",
+      "normalized": "nor",
+      "meaning": "Future Tense; Future tense",
+      "meanings": [
+        "Future Tense",
+        "Future tense"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "prefix",
+      "sharedAffix": true
+    },
+    {
+      "id": "suffix:ath",
+      "form": "-ath",
+      "normalized": "ath",
+      "meaning": "Perfective",
+      "meanings": [
+        "Perfective"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "suffix",
+      "sharedAffix": true
+    },
+    {
+      "id": "root:ver",
+      "form": "Ver",
+      "normalized": "ver",
+      "meaning": "Negation before the verb or noun",
+      "meanings": [
+        "Negation before the verb or noun"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "particle",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:pel",
+      "form": "Pel",
+      "normalized": "pel",
+      "meaning": "Sharpness or clarity (symbolizing clean cuts, flavors, or piercing qualities).",
+      "meanings": [
+        "Sharpness or clarity (symbolizing clean cuts, flavors, or piercing qualities)."
+      ],
+      "evidenceTerms": [
+        "Pelvar",
+        "Peldren"
+      ],
+      "evidence": [
+        "Pelvar",
+        "Peldren"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:jin",
+      "form": "Jin",
+      "normalized": "jin",
+      "meaning": "Unique or rare (e.g., exotic or specialty foods).",
+      "meanings": [
+        "Unique or rare (e.g., exotic or specialty foods)."
+      ],
+      "evidenceTerms": [
+        "Jindral"
+      ],
+      "evidence": [
+        "Jindral"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "suffix:lin",
+      "form": "-lin",
+      "normalized": "lin",
+      "meaning": "Collective/Diminutive",
+      "meanings": [
+        "Collective/Diminutive"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "suffix",
+      "sharedAffix": true
+    },
+    {
+      "id": "suffix:aen",
+      "form": "-aen",
+      "normalized": "aen",
+      "meaning": "Verb-forming",
+      "meanings": [
+        "Verb-forming"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "suffix",
+      "sharedAffix": true
+    },
+    {
+      "id": "prefix:ver",
+      "form": "Ver-",
+      "normalized": "ver",
+      "meaning": "Negation",
+      "meanings": [
+        "Negation"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "prefix",
+      "sharedAffix": true
+    },
+    {
+      "id": "root:aen",
+      "form": "Aen",
+      "normalized": "aen",
+      "meaning": "Complementizer; To speak, breathe, make a sound; also complementizer that.",
+      "meanings": [
+        "Complementizer",
+        "To speak, breathe, make a sound; also complementizer that."
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [
+        "LX-V2-0028",
+        "LX-V2-0062",
+        "LX-V3-0009",
+        "LX-V4-0102",
+        "LX-V2-0049",
+        "LX-V4-0081",
+        "LX-V4-0107"
+      ],
+      "anchorType": "marker",
+      "sharedAffix": false
+    },
+    {
+      "id": "suffix:esh",
+      "form": "-esh",
+      "normalized": "esh",
+      "meaning": "deep relational ties",
+      "meanings": [
+        "deep relational ties"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "suffix",
+      "sharedAffix": true
+    },
+    {
+      "id": "suffix:vel",
+      "form": "-vel",
+      "normalized": "vel",
+      "meaning": "Bread shared among us",
+      "meanings": [
+        "Bread shared among us"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "suffix",
+      "sharedAffix": true
+    },
+    {
+      "id": "prefix:ten",
+      "form": "Ten-",
+      "normalized": "ten",
+      "meaning": "Tens prefix",
+      "meanings": [
+        "Tens prefix"
+      ],
+      "evidenceTerms": [
+        "Ten-del",
+        "Ten-tren",
+        "Ten-quen"
+      ],
+      "evidence": [
+        "Ten-del",
+        "Ten-tren",
+        "Ten-quen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "numeric/math prefix",
+      "sharedAffix": true
+    },
+    {
+      "id": "prefix:hek",
+      "form": "Hek-",
+      "normalized": "hek",
+      "meaning": "Hundreds prefix",
+      "meanings": [
+        "Hundreds prefix"
+      ],
+      "evidenceTerms": [
+        "Hek-unar",
+        "Hek-quen"
+      ],
+      "evidence": [
+        "Hek-unar",
+        "Hek-quen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "numeric/math prefix",
+      "sharedAffix": true
+    },
+    {
+      "id": "prefix:mel",
+      "form": "Mel-",
+      "normalized": "mel",
+      "meaning": "Thousands prefix",
+      "meanings": [
+        "Thousands prefix"
+      ],
+      "evidenceTerms": [
+        "Mel-unar",
+        "Mel-quen"
+      ],
+      "evidence": [
+        "Mel-unar",
+        "Mel-quen"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "numeric/math prefix",
+      "sharedAffix": true
+    },
+    {
+      "id": "prefix:fen",
+      "form": "Fen-",
+      "normalized": "fen",
+      "meaning": "Tens of thousands prefix",
+      "meanings": [
+        "Tens of thousands prefix"
+      ],
+      "evidenceTerms": [
+        "Fen-unar",
+        "Fen-peth"
+      ],
+      "evidence": [
+        "Fen-unar",
+        "Fen-peth"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "numeric/math prefix",
+      "sharedAffix": true
+    },
+    {
+      "id": "root:ven",
+      "form": "Ven",
+      "normalized": "ven",
+      "meaning": "Subtraction marker meaning minus/subtract",
+      "meanings": [
+        "Subtraction marker meaning minus/subtract"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "numeric/math marker",
+      "sharedAffix": false
+    },
+    {
+      "id": "suffix:eth",
+      "form": "-eth",
+      "normalized": "eth",
+      "meaning": "denote the inherent quality or essential manifestation of a root word",
+      "meanings": [
+        "denote the inherent quality or essential manifestation of a root word"
+      ],
+      "evidenceTerms": [
+        "Adjectives"
+      ],
+      "evidence": [
+        "Adjectives"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "suffix",
+      "sharedAffix": true
+    },
+    {
+      "id": "root:var",
+      "form": "Var-",
+      "normalized": "var",
+      "meaning": "To go, move, travel; also preposition to/towards; action and existence.",
+      "meanings": [
+        "To go, move, travel; also preposition to/towards; action and existence."
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [
+        "LX-V1-0015",
+        "LX-V2-0034",
+        "LX-V2-0063",
+        "LX-V3-0010",
+        "LX-V4-0099"
+      ],
+      "anchorType": "conceptual root / preposition overlap",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:ser",
+      "form": "Ser-",
+      "normalized": "ser",
+      "meaning": "Friend, ally; also with and and.",
+      "meanings": [
+        "Friend, ally; also with and and."
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [
+        "LX-V1-0016",
+        "LX-V2-0036",
+        "LX-V2-0065",
+        "LX-V4-0076",
+        "LX-V4-0112"
+      ],
+      "anchorType": "conceptual root / preposition / conjunction overlap",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:nk",
+      "form": "NK",
+      "normalized": "nk",
+      "meaning": "Endurance; hidden strength; Endurance, hidden strength",
+      "meanings": [
+        "Endurance; hidden strength",
+        "Endurance, hidden strength"
+      ],
+      "evidenceTerms": [
+        "Nkathal",
+        "Nkuraeth",
+        "Nkuthar"
+      ],
+      "evidence": [
+        "Nkathal",
+        "Nkuraeth",
+        "Nkuthar"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:mb",
+      "form": "MB",
+      "normalized": "mb",
+      "meaning": "Support; pillar; foundational weight; Layered, supportive",
+      "meanings": [
+        "Support; pillar; foundational weight",
+        "Layered, supportive"
+      ],
+      "evidenceTerms": [
+        "Mbalan",
+        "Mbanoth",
+        "Mbalor"
+      ],
+      "evidence": [
+        "Mbalan",
+        "Mbanoth",
+        "Mbalor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:im",
+      "form": "IM",
+      "normalized": "im",
+      "meaning": "Internal essence; abstract result-state",
+      "meanings": [
+        "Internal essence; abstract result-state"
+      ],
+      "evidenceTerms": [
+        "Velpralim",
+        "Kreztharim",
+        "Morlatharim"
+      ],
+      "evidence": [
+        "Velpralim",
+        "Kreztharim",
+        "Morlatharim"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "morpheme",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:el",
+      "form": "EL",
+      "normalized": "el",
+      "meaning": "Beloved bond; endearment; attached affection",
+      "meanings": [
+        "Beloved bond; endearment; attached affection"
+      ],
+      "evidenceTerms": [
+        "-el",
+        "Azfel",
+        "Ohmbaen-el"
+      ],
+      "evidence": [
+        "-el",
+        "Azfel",
+        "Ohmbaen-el"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "morpheme",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:ka",
+      "form": "KA",
+      "normalized": "ka",
+      "meaning": "Standalone ka means without or no. Possession uses attached -ka.",
+      "meanings": [
+        "Linking, possession, or without-state depending on context"
+      ],
+      "evidenceTerms": [
+        "sharaka",
+        "Lia-ka"
+      ],
+      "evidence": [
+        "-ka",
+        "sharaka",
+        "Lia-ka"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "morpheme",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:ra",
+      "form": "RA",
+      "normalized": "ra",
+      "meaning": "Query force; interrogative seeking; Questions start with Ra",
+      "meanings": [
+        "Query force; interrogative seeking",
+        "Questions start with Ra"
+      ],
+      "evidenceTerms": [
+        "Ra"
+      ],
+      "evidence": [
+        "Ra"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "morpheme",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:va",
+      "form": "VA",
+      "normalized": "va",
+      "meaning": "Imperative force; command energy; Imperatives (Commands) start with Va",
+      "meanings": [
+        "Imperative force; command energy",
+        "Imperatives (Commands) start with Va"
+      ],
+      "evidenceTerms": [
+        "Va"
+      ],
+      "evidence": [
+        "Va"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "morpheme",
+      "sharedAffix": false
+    },
+    {
+      "id": "root:or",
+      "form": "OR",
+      "normalized": "or",
+      "meaning": "Domain; place; time-bounded space",
+      "meanings": [
+        "Domain; place; time-bounded space"
+      ],
+      "evidenceTerms": [
+        "-or",
+        "Shalor",
+        "Nethor"
+      ],
+      "evidence": [
+        "-or",
+        "Shalor",
+        "Nethor"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "morpheme",
+      "sharedAffix": false
+    },
+    {
+      "id": "suffix:al",
+      "form": "-al",
+      "normalized": "al",
+      "meaning": "Continuous",
+      "meanings": [
+        "Continuous"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "suffix",
+      "sharedAffix": true
+    },
+    {
+      "id": "suffix:as",
+      "form": "-as",
+      "normalized": "as",
+      "meaning": "Habitual",
+      "meanings": [
+        "Habitual"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "suffix",
+      "sharedAffix": true
+    },
+    {
+      "id": "root:an",
+      "form": "An",
+      "normalized": "an",
+      "meaning": "Spatial contexts (“at/in” location)",
+      "meanings": [
+        "Spatial contexts (“at/in” location)"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "preposition",
+      "sharedAffix": false
+    },
+    {
+      "id": "suffix:ka",
+      "form": "-ka",
+      "normalized": "ka",
+      "meaning": "Possession: hyphenate -ka to the possessor. Standalone ka is negative.",
+      "meanings": [
+        "Possessive/linking marker"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "particle",
+      "sharedAffix": true
+    },
+    {
+      "id": "root:tl",
+      "form": "Tl-",
+      "normalized": "tl",
+      "meaning": "Movement, flow",
+      "meanings": [
+        "Movement, flow"
+      ],
+      "evidenceTerms": [
+        "Tlenav"
+      ],
+      "evidence": [
+        "Tlenav"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "root",
+      "sharedAffix": false
+    },
+    {
+      "id": "suffix:in",
+      "form": "-in",
+      "normalized": "in",
+      "meaning": "Plural marker added to nouns ending in consonants",
+      "meanings": [
+        "Plural marker added to nouns ending in consonants"
+      ],
+      "evidenceTerms": [
+        "Serin",
+        "Tharin",
+        "Eshin",
+        "Drenin"
+      ],
+      "evidence": [
+        "Serin",
+        "Tharin",
+        "Eshin",
+        "Drenin"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "suffix",
+      "sharedAffix": true
+    },
+    {
+      "id": "suffix:or",
+      "form": "-or",
+      "normalized": "or",
+      "meaning": "Place/Location",
+      "meanings": [
+        "Place/Location"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "suffix",
+      "sharedAffix": true
+    },
+    {
+      "id": "suffix:en",
+      "form": "-en",
+      "normalized": "en",
+      "meaning": "Honorific/Respected form; Honorific/Formal-High Respect; Partner bonded to you",
+      "meanings": [
+        "Honorific/Respected form",
+        "Honorific/Formal-High Respect",
+        "Partner bonded to you"
+      ],
+      "evidenceTerms": [
+        "Liorin",
+        "Li-Liorinen"
+      ],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "suffix",
+      "sharedAffix": true
+    },
+    {
+      "id": "prefix:li",
+      "form": "Li-",
+      "normalized": "li",
+      "meaning": "Respect/Honorific; show respect",
+      "meanings": [
+        "Respect/Honorific",
+        "show respect"
+      ],
+      "evidenceTerms": [
+        "Li-Ser",
+        "Li-Ya",
+        "Li-Liorinen"
+      ],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "prefix",
+      "sharedAffix": true
+    },
+    {
+      "id": "root:ar",
+      "form": "Ar",
+      "normalized": "ar",
+      "meaning": "Intensifier - very, intensely",
+      "meanings": [
+        "Intensifier - very, intensely"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "marker",
+      "sharedAffix": false
+    },
+    {
+      "id": "suffix:el",
+      "form": "-el",
+      "normalized": "el",
+      "meaning": "Beloved bound to them",
+      "meanings": [
+        "Beloved bound to them"
+      ],
+      "evidenceTerms": [],
+      "evidence": [],
+      "linkedEntryIds": [],
+      "anchorType": "suffix",
+      "sharedAffix": true
+    },
+    {
+      "id": "suffix:n",
+      "form": "-n",
+      "normalized": "n",
+      "meaning": "Plural marker added to nouns ending in vowels",
+      "meanings": [
+        "Plural marker added to nouns ending in vowels"
+      ],
+      "evidenceTerms": [
+        "Teran"
+      ],
+      "evidence": [
+        "Teran"
+      ],
+      "linkedEntryIds": [],
+      "anchorType": "suffix",
+      "sharedAffix": true
+    }
+  ],
+  "culturalLenses": {
+    "neutral": {
+      "label": "Neutral Celan",
+      "movementVerb": "var",
+      "speakingVerb": "aen",
+      "voice": "Balanced, readable, and not strongly tied to one national voice.",
+      "courtesy": "Celan keeps the phrasing direct, and politeness is carried more by restraint than by piling on extra words."
+    },
+    "verdalrisian": {
+      "label": "Verdalrisian",
+      "movementVerb": "lorin",
+      "speakingVerb": "aen",
+      "voice": "Lyrical, patient, and guided by natural imagery.",
+      "courtesy": "This lens prefers guiding language and living metaphors over blunt force."
+    },
+    "pelagaean": {
+      "label": "Pelagaean",
+      "movementVerb": "shalil",
+      "speakingVerb": "aen",
+      "voice": "Fluid, communal, and tide-like.",
+      "courtesy": "This lens prefers flow-language and soft relational movement rather than hard confrontation."
+    },
+    "zarithan": {
+      "label": "Zarithan",
+      "movementVerb": "min",
+      "speakingVerb": "kel",
+      "voice": "Pragmatic, blunt, and survival-minded.",
+      "courtesy": "This lens cuts ornament and keeps only what the moment needs."
+    },
+    "valkeldorian": {
+      "label": "Valkeldorian",
+      "movementVerb": "var",
+      "speakingVerb": "aen",
+      "voice": "Harsh, disciplined, and command-forward.",
+      "courtesy": "This lens tolerates harder edges if they sound resolute and controlled."
+    },
+    "mechuman": {
+      "label": "Mechuman",
+      "movementVerb": "var",
+      "speakingVerb": "aen",
+      "voice": "Systematic, exact, and efficient.",
+      "courtesy": "This lens trims emotional spillover and favors clear functional phrasing."
+    },
+    "nivveilian": {
+      "label": "Nivveilian",
+      "movementVerb": "var",
+      "speakingVerb": "aen",
+      "voice": "Sparse, patient, and cool in emotional temperature.",
+      "courtesy": "This lens often softens intensity through restraint rather than through more words."
+    },
+    "jasaran": {
+      "label": "Jasaran",
+      "movementVerb": "lorin",
+      "speakingVerb": "aen",
+      "voice": "Balanced, elegant, and gently mystical.",
+      "courtesy": "This lens seeks equilibrium between firmness and beauty."
+    },
+    "marakorian": {
+      "label": "Marakorian",
+      "movementVerb": "var",
+      "speakingVerb": "aen",
+      "voice": "Formal, order-conscious, and tradition-minded.",
+      "courtesy": "This lens leans ceremonial and proper rather than casual."
+    }
+  },
+  "retrievalPacks": {
+    "blessings": {
+      "id": "blessings",
+      "title": "Blessings",
+      "cues": "Blessings, parting words, spiritual goodwill, and elevated hopes for another person.",
+      "notes": "Celan blessings often lean on peace, path, light, guidance, or hopeful invocation rather than flat statements.",
+      "examples": [
+        {
+          "celan": "vael vaar an shara-ya.",
+          "english": "May peace be on your path."
+        },
+        {
+          "celan": "shal lorin ser.",
+          "english": "Let the light guide you."
+        },
+        {
+          "celan": "va var kalor thal!",
+          "english": "Go in strength and balance!"
+        }
+      ]
+    },
+    "longing": {
+      "id": "longing",
+      "title": "Longing",
+      "cues": "Longing, yearning, desire, intimate wanting, and heart-pulled expression.",
+      "notes": "This family often spreads across heart, desire, yearning, and nearness rather than one narrow English-style want-word.",
+      "examples": [
+        {
+          "celan": "Theraen La Shalor.",
+          "english": "I yearn for the Sanctuary."
+        },
+        {
+          "celan": "ohmaen I sharaka.",
+          "english": "I love freedom."
+        },
+        {
+          "celan": "aen thar lian.",
+          "english": "The heart speaks truth."
+        }
+      ]
+    },
+    "time_questions": {
+      "id": "time_questions",
+      "title": "Time Questions",
+      "cues": "Questions about time, timing, sequence, and the present moment.",
+      "notes": "Time questions are their own phrase family. The support is real, but the exact current-time question remains thin in the canon-facing material.",
+      "examples": [
+        {
+          "celan": "vaar I thal nor.",
+          "english": "I seek peace in the balance of time."
+        },
+        {
+          "celan": "nor-var I nor Varthas.",
+          "english": "I will go to the city / I go in time-setting toward the city."
+        },
+        {
+          "celan": "Tal I dren an Kinnlin.",
+          "english": "I drink the water at noon."
+        }
+      ]
+    },
+    "boundaries": {
+      "id": "boundaries",
+      "title": "Boundaries",
+      "cues": "Commands, refusals, distancing language, personal limits, and pushing something away.",
+      "notes": "English idioms in this family often need reshaping into distance, refusal, or removal language.",
+      "examples": [
+        {
+          "celan": "va var dren!",
+          "english": "Go to the water!"
+        },
+        {
+          "celan": "ver var I ka trakor.",
+          "english": "I do not go without shoes."
+        },
+        {
+          "celan": "ver var I dren, li-ser.",
+          "english": "I cannot go, respected friend."
+        }
+      ]
+    },
+    "affection": {
+      "id": "affection",
+      "title": "Affection",
+      "cues": "Affection, care, love, emotional closeness, and warmly directed feeling.",
+      "notes": "Affection may move through connection, heart, or presence rather than only blunt declaration.",
+      "examples": [
+        {
+          "celan": "ohmaen I sharaka.",
+          "english": "I love freedom."
+        },
+        {
+          "celan": "aen thar lian.",
+          "english": "The heart speaks truth."
+        },
+        {
+          "celan": "dral shal thaar.",
+          "english": "The heavens light the heart."
+        }
+      ]
+    },
+    "requests": {
+      "id": "requests",
+      "title": "Requests",
+      "cues": "Requests, asks, polite instructions, and formal or practical inquiries.",
+      "notes": "A request is not always a command. Celan can carry asking, directing, or inviting differently.",
+      "examples": [
+        {
+          "celan": "ra aen ya belshen velrin?",
+          "english": "Do you speak the price of the food?"
+        },
+        {
+          "celan": "li-ya, nor aen lian?",
+          "english": "May we now speak truth?"
+        },
+        {
+          "celan": "va var dren!",
+          "english": "Go to the water!"
+        }
+      ]
+    },
+    "movement_direction": {
+      "id": "movement_direction",
+      "title": "Movement and Direction",
+      "cues": "Going, heading, guiding, arriving, traveling, and path-centered phrasing.",
+      "notes": "Movement is one of the clearest structural centers of Celan.",
+      "examples": [
+        {
+          "celan": "ra var ser?",
+          "english": "Where does the friend go?"
+        },
+        {
+          "celan": "ra var evan emil dren?",
+          "english": "Where is the market?"
+        },
+        {
+          "celan": "lorin dren morl.",
+          "english": "The mountain guides the water."
+        }
+      ]
+    },
+    "truth_speaking": {
+      "id": "truth_speaking",
+      "title": "Truth-Speaking",
+      "cues": "Truth, honesty, declaration, moral speech, and aligned speech.",
+      "notes": "Truth in Celan often reaches beyond bare fact into right naming, order, and moral alignment.",
+      "examples": [
+        {
+          "celan": "aen thar lian.",
+          "english": "The heart speaks truth."
+        },
+        {
+          "celan": "Lorin belthal Ilin.",
+          "english": "Order guides us."
+        },
+        {
+          "celan": "li-ya, nor aen lian?",
+          "english": "May we now speak truth?"
+        }
+      ]
+    },
+    "grief_and_fear": {
+      "id": "grief_and_fear",
+      "title": "Grief and Fear",
+      "cues": "Fear, grief, dread, sorrow, despair, loss, and burdened feeling.",
+      "notes": "Celan often ties grief to darkness, time, or the heart rather than isolating emotion into a separate grammar.",
+      "examples": [
+        {
+          "celan": "fahaen I ar!",
+          "english": "I am terrified!"
+        },
+        {
+          "celan": "nkathalaen velar Rathor.",
+          "english": "The elder grieves for history."
+        },
+        {
+          "celan": "vershalaen la nor fah.",
+          "english": "They despair in the darkness."
+        }
+      ]
+    }
+  }
+}

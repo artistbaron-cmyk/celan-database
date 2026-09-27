@@ -16,9 +16,12 @@ const context = vm.createContext({ console, document: {
   createElement: element
 }, window: {} });
 const source = fs.readFileSync(path.join(__dirname, 'script.js'), 'utf8');
+for (const file of ['display_content.js', 'grammar_content.js', 'phrase_builder_content.js']) {
+  vm.runInContext(fs.readFileSync(path.join(__dirname, 'app_data', file), 'utf8'), context);
+}
 vm.runInContext(source.slice(0, source.lastIndexOf('init().catch')), context);
 const run = code => vm.runInContext(code, context);
-const csv = name => fs.readFileSync(path.join(__dirname, '../data', name + '.csv'), 'utf8');
+const csv = name => fs.readFileSync(path.join(__dirname, 'app_data', name + '.csv'), 'utf8');
 context.datasets = Object.fromEntries(['lexicon', 'lexicon_expansions', 'roots_and_morphology', 'expanded_root_database', 'ohnosha_creatures', 'phrases_and_examples', 'grammar_rules', 'expressions'].map(name => [name, csv(name)]));
 run(`const data = Object.fromEntries(Object.entries(datasets).map(([key, text]) => [key, rowsToObjects(parseCsv(text))]));
 state.phrases = data.phrases_and_examples;
@@ -65,6 +68,6 @@ for(const g of all){
 const rules=run('buildRuleEntries(data.grammar_rules)');
 for(const eid of journal.grammar)assert.ok(rules.some(r=>String(r.examples).includes(eid)),'Grammar illustration missing '+eid);
 assert.equal(run('state.groupedEntries.length'),1496);
-const embedded=vm.createContext({window:{}});vm.runInContext(fs.readFileSync(path.join(__dirname,'embedded_data.js'),'utf8'),embedded);
+const embedded=vm.createContext({window:{}});vm.runInContext(fs.readFileSync(path.join(__dirname,'app_data','embedded_data.js'),'utf8'),embedded);
 for(const [name,text] of Object.entries(context.datasets))assert.equal(embedded.window.EMBEDDED_DATA[name+'.csv'],text,'Embedded parity '+name);
 console.log('PASS: all 135 decisions accounted for, five corrections visible, unmarked instruction applied, canonical duplicates, source preservation, placement, teaching separation and grammar relocation.');

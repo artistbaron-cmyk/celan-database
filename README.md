@@ -20,8 +20,14 @@ The broader project also includes structured data files, phrase builder support 
 - `dictionary/`
   - The browser app.
 
+- `dictionary/app_data/`
+  - The app's approved content source folder. Edit its headword, sense, and example files; see its README for the grammar, expressions, and Phrase Builder files.
+
+- `dictionary/exports/`
+  - The generated full dictionary export. The app does not read it.
+
 - `data/`
-  - Canon and working CSV data used by the app and reports.
+  - Preserved source and working CSV data. The current browser app reads `dictionary/app_data/` instead.
 
 - `docs/`
   - App-wide project documentation.
@@ -56,11 +62,10 @@ Results initially show 100 matches, with a “Showing X of Y results” count.
 Use **Load more** to reveal the next 100. Changing a search or filter starts a
 fresh batch; all matches remain accessible in their original ranked order.
 
-English lookup covers the combined dictionary sources, including vocabulary
+English lookup covers the app's approved senses, including vocabulary
 expansions, roots, morphology, supplemental entries, and creatures. Capitalization,
 punctuation, and an initial “to” in verb meanings are normalized. It does not infer
 unrecorded synonyms or invent translations. New entries are indexed when the app
-loads; regenerate embedded data using the existing build process after data edits.
+loads; edit `dictionary/app_data/` and regenerate its embedded data after CSV edits.
 
-Run search checks with `node dictionary/search.test.cjs`. These check lookup
-coverage, ranking, filters, navigation, and parity between CSV and embedded data.
+Run `node dictionary/app_data.test.cjs` to check source links and offline-bundle parity.
