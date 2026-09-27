@@ -891,3 +891,27 @@ The user's 135 instructions in `outputs/example_sentence_audit/received_decision
 Approved examples and translations are integrated, duplicated examples share canonical identities, and source rows and their provenance remain intact. Number formulas, euphony illustrations, phonology lists, and capitalization references are available in the app's grammar browser rather than ordinary sentence examples. Other fragments have explicit teaching labels. Prior approved sentence replacements remain in use; original fragments requested as teaching notes are separate records. Approved suffix illustrations retain their word-specific explanations without adding universal grammar rules.
 
 The exact changes and outcomes are recorded in `outputs/example_sentence_audit/round2_changes.json`; `round2_applied.md` gives the readable result for every instruction. Source export JSON and the original audit snapshot are preserved. The separate missing-example drafts remain drafts; this update does not certify unreviewed sentences or resolve the previously retained Kavel/weather historical example.
+
+## ED-0045: Dictionary Second-Pass Corrections
+
+Status: Applied under the user's September 27 instruction to make justified corrections. The app and prior approved decisions remain the authority. Exact before/after source records are in `outputs/dictionary_second_pass/applied_changes.json`, `working_grammar_changes.json`, and `coverage_changes.json`; the original audit findings remain in `findings.md`.
+
+The final grammar collation also exposed five complex-clause examples with inverted word order, an unsupported relative construction, or an unencoded counterfactual claim. One ordinary complement sentence was rewritten in VSO order; four remain visible only as historical witnesses. Their exact dispositions are in `outputs/dictionary_second_pass/complex_clause_changes.json`.
+
+Both `var I dren.` and `var I an dren.` are attested ways to express motion to the water. The bare goal is established here for `var`, not generalized to all motion verbs. Ordinary sentence starts are lowercase unless another capitalization rule applies. Spatial `an` and temporal `nor` retain their app meanings. Older `nor` examples using it for place, addressee, or association were individually corrected where a complete sentence was supportable; unresolved ones are historical teaching witnesses, not ordinary usage models.
+
+ED-0038 continues to govern possession. The reviewed body-part examples explicitly use personal suffixes; older bare possessive forms were corrected or moved to historical material. This does not create a general permission to omit ownership. The approved Thar-ka contextual gloss remains a specific exception under ED-0042.
+
+Five national sample lines with unsupported participant, time, posture, or readiness claims are now historical. Six new examples supply precise messages using existing vocabulary, including a weather/climate line that does not redefine Kavel. Twelve reviewed lexical examples from the earlier draft coverage batch are now in ordinary usage. Remaining lexical coverage is still open; a missing example alone does not make a word invalid.
+
+Expression links use `-ka` for possession and `nor-ka` for the echo particle. The report export labels family components `family_roots`; the detailed export prints zero counts as `0`. Both exports label headword-scoped examples and leave non-first multi-sense rows' example fields empty until a reviewed sense assignment exists. Existing multiple meanings and pronunciations remain unchanged.
+
+## ED-0046: Examples for the Remaining 57 Entries
+
+Status: Applied under the user's September 27 request to add accurate examples for all 57 entries left in the first lexical coverage group.
+
+Fifty-eight examples cover the 57 entries; Eth has two examples because the Dictionary gives it both a quality and a ritual use. The examples use existing meanings and grammar. Body parts carry the approved personal suffix, discourse particles appear in their stated positions, insults are reported as quoted insults, and ritual names are used without inventing ceremonies or steps. Anen and Velian appear in short direct-possession phrases about bread; Eshen appears as the approved attached `-eshen` form. Eth likewise appears within established words. Those last two entries are displayed as related constructions in the app, since neither is an ordinary standalone word in these examples.
+
+The readable list is `outputs/dictionary_second_pass/remaining_57_examples.md`; exact new source records are in `remaining_57_changes.json`. No headword, meaning, pronunciation, or origin was added or changed. This batch completes example coverage for the 69 entries identified in SP-07, while leaving the separate root, morphology, and creature coverage question open.
+
+Both CSV exports retain the distinction between ordinary usage and related constructions. They include the attached Eshen and Eth examples in related-example fields rather than recording them as standalone use. The app says explicitly that these forms attach to another word.

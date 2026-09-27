@@ -1,0 +1,347 @@
+finding,surface,identifier,current_wording,detail
+SP-01,App grammar card,RG-VSO,"Var I dren. — ""I go to the water.""
+Var Kadron an morl.
+Rinaen Terra vaar.
+Ohmaen I Ya.",
+SP-01,App grammar card,RG-QUESTIONS-COMMANDS,"Ra var Ser? — ""Where does the friend go?""
+Ra ver var Ser? — ""Does the friend not go?""
+Va var dren! — ""Go to the water!""",
+SP-01,App grammar card,GR-V1-0014,"Present Tense / Default VSO / Var I dren. / “I go to the water.”
+Past Tense / Tha- (prefix) / Tha-var I dren. / “I went to the water.”
+Future Tense / Nor- (prefix) / Nor-var I dren. / “I will go to the water.”
+Continuous / -al (suffix) / Varal I dren. / “I am going to the water.”
+Perfective / -ath (suffix) / Varath I dren. / “I have gone to the water.”
+Habitual / -as (suffix) / Varas I dren. / “I usually go to the water.”",
+SP-01,App grammar card,GR-V1-0015,"○ Example: Ver var I dren. – “I do not go to the water.”
+○ Example: Ver shal I dren. – “There is no light at the water.”",
+SP-01,App grammar card,GR-V1-0017,"○ Example: Rath var ser, I dren. – “If the friend goes, I will go to the water.”
+○ Example: Rath Nor-var ser, Nor-var I dren. – “If the friend will go, I will go to the water.”
+○ Example: Rath Tha-var ser, Tha-var I dren. – “If the friend had gone, I would have gone to the water.”",
+SP-01,App grammar card,GR-V3-0001,"“Var I dren, Ser.” – “I go to the water, friend.”
+“Var I dren, Li-Ser.” – “I go to the water, respected friend.”
+“Li-Ya var dren.” – “You (respected one) go to the water.”
+“Liorin(en)” – “Honored elder/teacher”
+“Li-Liorinen” – “Respected honored elder/teacher”",
+SP-01,App grammar card,GR-V3-0004,"“I dren shaleth ther La dren.” – “My water is brighter than their water.”
+“I dren shaleth thaal.” – “My water is the brightest.”
+“I dren shaleth thaal morldren.” – “My water is the brightest of the mountain waters.”",
+SP-01,App grammar card,LESSON-GENDER-ADDRESS-SOCIAL,"One Direct Respectful Address: `var I dren, Li-Ser.` (I go to the water, respected friend).
+One Gender-Term Usage Example: `Azon` (A feminine man — showing the fluidity of combining the `Azan` feminine essence with a male subject).
+One Cultural/Register Contrast: Formal: `aen` (to speak deep truths) vs. Informal: `kel` (to casually chat).
+One Poetic/Socially Elevated Phrasing Example: `vael vaar an shara-ya.` (May peace be on your path — using the poetic wish particle `vael` to offer a gentle, elevated blessing).",
+SP-02,Example,PE-V2-0033,Mbalan ser dren an Varthas. — The community leader stands by the water in the city.,Relationship example
+SP-03,Example,PE-V3-0118,Varadan nor var vanesh ser. — The merchant will trade with you.,National sample phrase
+SP-03,Example,PE-V3-0128,"Emil ka shena, var Eshvan nor. — No food coins? I will go to the shop soon.",National sample phrase
+SP-03,Example,PE-V3-0131,Varadan nor-var ser shenakar. — The merchant will come to you with coinage.,National sample phrase
+SP-03,Example,PE-V3-0141,Theren var tera Kaleth Rathor. — The village stands at the ancient fortress-home.,National sample phrase
+SP-03,Example,PE-V3-0145,Emil teremil ka var? — Is the meal at home not ready?,National sample phrase
+SP-04,Example,PE-V1-0004,Ya tera — “Your home” (singular),Possession example
+SP-04,Example,PE-V1-0006,Kal ohm Kadron ian — My strong friend who is a man.,Usage example
+SP-04,Example,PE-V1-0011,Theon ian kal nor dren — My neutral companion flows with the water.,Usage example
+SP-04,Example,PE-V3-0025,I dren shaleth ther La dren. — My water is brighter than their water.,Complex sentence example
+SP-04,Example,PE-V3-0027,I dren shaleth thaal morldren. — My water is the brightest of the mountain waters.,Complex sentence example
+SP-04,Example,PE-V3-0148,Kal thar I tera. — My heart is strong at home.,National sample phrase
+SP-04,Example,PE-V4-0074,Aen Ya lianor. — Speak your thought.,Abstract Concepts example
+SP-04,Example,PE-V4-0076,Ra aen Ya kelrin? — Do you speak your name?,Abstract Concepts example
+SP-04,Example,PE-BIAOBF1-0004,khosaen I ser aiv an breka. — I cough with pain in my chest.,Expansion example
+SP-04,Example,PE-BIAOBF1-0006,va drenselaen Ya vesh. — Wash your back.,Expansion example
+SP-04,Example,PE-BIAOBF1-0010,vekaen I kavvek an korkalvar. — I carry the jar on my shoulder.,Expansion example
+SP-04,Example,PE-BIAOBF1-0027,drenselaen I xarmetha. — I wash my skin.,Expansion example
+SP-04,Example,PE-BIAOBF1-0034,kelvorthamaen I emil ser zekin. — I chew food with my teeth.,Expansion example
+SP-04,Example,PE-BIAOBF1-0035,jelaen I emil ser lera. — I taste food with my tongue.,Expansion example
+SP-04,Example,PE-BIAOBF1-0038,numaen I dren shan numor. — I swallow water through my throat.,Expansion example
+SP-04,Example,PE-RABFE2-0036,karethaen I mek ser korpir. — I use the tool with my thumb.,Expansion example
+SP-11,Example,PE-V1-0010,Azon nor velkrel — A feminine man near the breeze.,Usage example
+SP-11,Example,PE-V1-0011,Theon ian kal nor dren — My neutral companion flows with the water.,Usage example
+SP-11,Example,PE-V2-0002,Kinnmor kal dren nor shal. — The morning strengthens with water and light.,Time-of-day example
+SP-11,Example,PE-V2-0007,Tal I kilvlum dren nor veth. — I receive water at midnight by the water's shadow.,Time-of-day example
+SP-11,Example,PE-V2-0078,Velmek nor dren an Evan. — The synthetic protein is traded at the market.,Food-by-nation example
+SP-11,Example,PE-V2-0085,Tharmor nor dren kal morl. — The rootbread strengthens by the water and mountain.,Food-by-nation example
+SP-11,Example,PE-V2-0093,Velthamor nor dren thal morl. — The frozen root mash is by the water and mountain.,Food-by-nation example
+SP-11,Example,PE-V2-0098,Kreztorin nor dren kal morl. — The smoked meat strengthens by the water.,Food-by-nation example
+SP-11,Example,PE-V2-0109,Zhaelor shalil nor dren. — Spring flows lightly by the water.,Season example
+SP-11,Example,PE-V2-0110,Fenrek kal nor dren. — Summer strengthens by the water.,Season example
+SP-11,Example,PE-V2-0111,Tharvin nor dren kal morl. — Autumn balances the water with the mountain.,Season example
+SP-11,Example,PE-V2-0112,Velthaen dren nor morl. — Winter flows by the mountain.,Season example
+SP-11,Example,PE-V2-0113,Eshthael nor dren. — The breeze flows by the water.,Weather example
+SP-11,Example,PE-V2-0117,Drenalor shalil nor dren. — The rain falls lightly over the water.,Weather example
+SP-11,Example,PE-V2-0118,Eshvelor nor dren thal morl. — The snow falls by the water and the mountain.,Weather example
+SP-11,Example,PE-V3-0030,Tavan shalil nor Felka. — The parent moves lightly with the child.,Kinship example
+SP-11,Example,PE-V3-0033,Velar shalil nor dren. — The elder moves lightly by the water.,Kinship example
+SP-11,Example,PE-V3-0035,Velkavor lian nor Terra. — The ancestor speaks to the Earth.,Kinship example
+SP-11,Example,PE-V3-0039,Zhivorin nor dren an Tavan. — The sibling-in-law is with the parent by the water.,Kinship example
+SP-11,Example,PE-V3-0041,Velpralor kal dren nor Velar. — The elder partner strengthens with the elder by the water.,Kinship example
+SP-11,Example,PE-V3-0045,Velxorin lian nor Terra. — The elder ancestor speaks to the Earth.,Kinship example
+SP-11,Example,PE-V3-0050,Velmarin shalil nor dren. — The honorary elder moves lightly by the water.,Kinship example
+SP-11,Example,PE-V3-0087,Drenvokesh kal dren nor Belvok. — The water unity strengthens the family by the water.,National ceremonial example
+SP-11,Example,PE-V3-0088,Eshlorien nor dren an Zhaelor. — The wave naming flows by the water in spring.,National ceremonial example
+SP-11,Example,PE-V3-0091,Kreztharim kal nor dren. — The fire heart strengthens by the water.,National ceremonial example
+SP-11,Example,PE-V3-0094,Zhirelorim nor dren an Dralorim. — The coming-of-age flows with the celestial storm.,National ceremonial example
+SP-11,Example,PE-V3-0095,Morlatharim shalil nor dren. — The stone heart flows by the water.,National ceremonial example
+SP-11,Example,PE-V3-0099,Drenkorath lian nor dren. — The oasis blessing speaks to the water.,National ceremonial example
+SP-11,Example,PE-V3-0108,Tha-var ser nor dren. — The friend went to the water.,Sample Sentence
+SP-11,Example,PE-V3-0125,"Serilin var varshel nor dren. — Sister, walk the road to the water.",National sample phrase
+SP-05,Expression link,EX-LC1C-0002,Ilin-ka. → Ilin; Ka,source_entry_ids: PE-V1-0005
+SP-05,Expression link,EX-LC1C-0004,Inko-ka. → Inko; Ka,source_entry_ids: 
+SP-05,Expression link,EX-LC1C-0006,Nor-ka. → Nor; Ka,source_entry_ids: RM-V1-0015
+SP-08,Multi-sense headword,Ilin,"Pronoun: We / Us [Inclusive] (1st Person Plural) | Pronoun: Inclusive We: I + You (+ others). This is the communal, default ""we.""",direct examples=33
+SP-08,Multi-sense headword,Ya,Pronoun: You (2nd Person Singular) | Possessive: Your (direct personal suffix -ya),direct examples=65
+SP-07,App headword,Kadon,Noun: Masculine woman,source IDs: LX-V1-0014; related=0; teaching=0
+SP-08,Multi-sense headword,Var,Verb: Go / Move | Preposition: To / Towards,direct examples=201
+SP-08,Multi-sense headword,Ser,Noun: Friend / Ally | Preposition: With | Conjunction: And,direct examples=263
+SP-08,Multi-sense headword,Thal,Noun: Balance / Harmony | Preposition: From / Out of,direct examples=86
+SP-08,Multi-sense headword,Ka,Preposition: Without | Interjection: No,direct examples=32
+SP-08,Multi-sense headword,An,"Preposition: At, in (place) | Preposition: Spatial contexts (“at/in” location)",direct examples=814
+SP-08,Multi-sense headword,Nor,Noun: Time / Flow of Time | Preposition: At / In (time),direct examples=119
+SP-08,Multi-sense headword,Esh,Noun: Sky / Air | Preposition: Above / Over | Suffix: -esh (relational),direct examples=36
+SP-08,Multi-sense headword,Morl,"Noun: Mountain | Preposition: Under, beneath",direct examples=52
+SP-08,Multi-sense headword,Terra,Noun: Earth / Physical ground | Noun: The Heart of Terra / Mystical force,direct examples=18
+SP-08,Multi-sense headword,Dren,Noun: Water | Noun: Water - symbolic | Noun: Water / River,direct examples=240
+SP-08,Multi-sense headword,Shal,Noun: Light / New Beginnings / Fate | Verb: Hope,direct examples=33
+SP-08,Multi-sense headword,Krez,Noun: Fire | Interjection: Blast! / Damn!,direct examples=9
+SP-08,Multi-sense headword,Thar,Noun: Heart | Modal: Want to,direct examples=16
+SP-08,Multi-sense headword,Vethor,Noun: Shadow / Mystery | Verb: Sleep,direct examples=4
+SP-08,Multi-sense headword,Shara,Noun: Path / Journey | Verb: To follow a path / To navigate / To track,direct examples=30
+SP-07,App headword,Zhilva,"Interjection: General ""Hello""",source IDs: LX-V2-0011; related=0; teaching=0
+SP-07,App headword,Amthaen,"Interjection: Friendly ""Hi""",source IDs: LX-V2-0012; related=0; teaching=0
+SP-07,App headword,Nekvar,"Interjection: ""Good morning""",source IDs: LX-V2-0013; related=0; teaching=0
+SP-07,App headword,Kelithor,"Interjection: ""Good afternoon""",source IDs: LX-V2-0014; related=0; teaching=0
+SP-07,App headword,Tlosen,"Interjection: ""Good evening""",source IDs: LX-V2-0015; related=0; teaching=0
+SP-07,App headword,Jexhaer,"Interjection: ""Good night""",source IDs: LX-V2-0016; related=0; teaching=0
+SP-07,App headword,Revalen,"Interjection: ""Farewell""",source IDs: LX-V2-0017; related=0; teaching=0
+SP-07,App headword,Zharinor,"Interjection: ""See you soon""",source IDs: LX-V2-0018; related=0; teaching=0
+SP-07,App headword,Vrekthael,"Interjection: Ceremonial ""Greetings""",source IDs: LX-V2-0019; related=0; teaching=0
+SP-08,Multi-sense headword,Rathor,Noun: Old City / Ancient Place | Noun: Past / History,direct examples=6
+SP-08,Multi-sense headword,Shalor,"Noun: Light (discovery, vision, hope) | Noun: Light / New Beginnings / Fate | Noun: Sanctuary (light-filled place)",direct examples=20
+SP-08,Multi-sense headword,Thaal,Noun: The Unknown / Wonder | Particle: Superlative marker: most,direct examples=3
+SP-08,Multi-sense headword,Lian,Noun: Truth / Honesty | Verb: Pray | Modal: Can / Able to,direct examples=20
+SP-08,Multi-sense headword,Lumor,Noun: Light (enlightenment or insight) | Noun: Talisman,direct examples=1
+SP-08,Multi-sense headword,Aen,Verb: Speak / Tell / Breathe | Conjunction: That | Suffix: -aen (verb-forming) | Noun: Breath of Life,direct examples=61
+SP-08,Multi-sense headword,Kal,Noun: Strength / Power | Adjective: Strong | Verb: To strengthen,direct examples=61
+SP-08,Multi-sense headword,Kalor,Noun: Courage / Strength of Spirit | Noun: Strength (of the mind or spirit),direct examples=2
+SP-08,Multi-sense headword,Seren,Noun: Guardian / Protector | Noun: Guardian/Protector,direct examples=47
+SP-08,Multi-sense headword,Vaar,Noun: Peace / Unity | Adjective: Good | Interjection: Relief / Phew,direct examples=13
+SP-08,Multi-sense headword,Lorin,Noun: Guide | Noun: Guide / Teacher | Verb: To guide,direct examples=44
+SP-08,Multi-sense headword,Rath,Noun: Enemy / Foe | Particle: Conditional “If” | Particle: Conditional marker: if,direct examples=11
+SP-08,Multi-sense headword,Fah,Noun: Darkness / Fear / Night | Interjection: Ugh! / Bah!,direct examples=4
+SP-08,Multi-sense headword,Reth,Noun: Confusion / Uncertainty | Conjunction: Or,direct examples=6
+SP-07,App headword,Vial,Noun: Joy / Happiness,source IDs: LX-V2-0046; related=0; teaching=0
+SP-08,Multi-sense headword,Aenor,Noun: Ear | Noun: Moment / Instant,direct examples=1
+SP-07,App headword,Aenvor,Noun: Nose,source IDs: LX-V2-0050; related=0; teaching=0
+SP-07,App headword,Sorl,Noun: Neck,source IDs: LX-V2-0052; related=0; teaching=0
+SP-07,App headword,Kalvar,Noun: Arm,source IDs: LX-V2-0053; related=0; teaching=0
+SP-07,App headword,Sharvar,Noun: Leg,source IDs: LX-V2-0055; related=0; teaching=0
+SP-07,App headword,Morlka,Noun: Foot,source IDs: LX-V2-0056; related=0; teaching=0
+SP-08,Multi-sense headword,Dral,Noun: Sky / Wonder / Heavens | Interjection: Wow! / Heavens!,direct examples=5
+SP-08,Multi-sense headword,Tal,Verb: Give / Offer | Verb: Take / Receive,direct examples=57
+SP-08,Multi-sense headword,Morldren,Noun: Waterfall (mountain + water) | Noun: waterfall/mountain stream,direct examples=1
+SP-08,Multi-sense headword,Lun,Noun: Lake | Noun: Moon; Ohnosha's natural satellite or lunar body,direct examples=9
+SP-07,App headword,Terlin,Noun: Island/beach,source IDs: LX-V2-0080; related=0; teaching=0
+SP-08,Multi-sense headword,Kaleth,Noun: Fortress / Stronghold | Adjective: Strong / Powerful / Intense / High in magnitude or reading,direct examples=23
+SP-07,App headword,Lorash,Noun: Temple / Shrine,source IDs: LX-V2-0083; related=0; teaching=0
+SP-08,Multi-sense headword,Krezor,"Noun: forge | Noun: Forge / Place of Fire | Noun: Hearth, Fireplace, Forge",direct examples=12
+SP-07,App headword,Norvaar,Noun: Gateway (time-related portal),source IDs: LX-V2-0087; related=0; teaching=0
+SP-08,Multi-sense headword,Phelvin,Noun: Comforting drink | Noun: Comfort Drink,direct examples=10
+SP-08,Multi-sense headword,Jorvak,Noun: Bursting Stew | Noun: Bursting warmth,direct examples=3
+SP-08,Multi-sense headword,Welrim,Noun: Continuous Feast | Noun: Shared feast,direct examples=4
+SP-08,Multi-sense headword,Xilvar,Noun: A hidden spice; a seasoning or blend whose composition or preparation is deliberately concealed | Noun: Fragmented Salt,direct examples=2
+SP-08,Multi-sense headword,Xarvel,Noun: Covered meal | Noun: Veiled Meal,direct examples=1
+SP-08,Multi-sense headword,Belshara,"Noun: Coordinated Maneuver / Formation Movement / Tactical Path. Refers to moving troops in a specific, planned way. | Noun: Duty (Bound Path) | Modal: Necessity (Must/Have to) | Noun: Necessity / Obligation",direct examples=5
+SP-07,App headword,Terradren,Noun: fertile soil/well-irrigated land,source IDs: LX-V2-0142; related=0; teaching=0
+SP-07,App headword,Drenshal,Noun: reflective pool/crystal-clear spring,source IDs: LX-V2-0143; related=0; teaching=0
+SP-07,App headword,Terraesh,Noun: horizon/place where earth meets sky,source IDs: LX-V2-0145; related=0; teaching=0
+SP-08,Multi-sense headword,Felorin,Noun: Berry from Coral Reefs | Noun: Berry/Small Fruit,direct examples=3
+SP-08,Multi-sense headword,Zhelvek,Noun: Energy Bar | Noun: Energy carrier,direct examples=4
+SP-08,Multi-sense headword,Eshvelaneth,Noun: Hailstorm | Noun: Snowstorm Guidance Ritual,direct examples=2
+SP-07,App headword,Liana,Noun: Lady,source IDs: LX-V3-0001; related=0; teaching=0
+SP-08,Multi-sense headword,Lianor,"Noun: Idea, Thought (Place of truth) | Noun: Sir",direct examples=5
+SP-07,App headword,Lorinen,Noun: Honored Guide,source IDs: LX-V3-0006; related=0; teaching=0
+SP-08,Multi-sense headword,Kel,Verb: Say / Talk (informal) | Noun: Name | Noun: Word | Noun: A text; a connected body of written or encoded words rather than information or data generally,direct examples=19
+SP-08,Multi-sense headword,Rethlian,Modal: Possibility (May/Might) | Interjection: Maybe | Particle: Possibility (May/Might),direct examples=3
+SP-07,App headword,Mmm,Interjection: Considering or listening thoughtfully.,source IDs: LX-V3-0021; related=0; teaching=0
+SP-07,App headword,Vara,"Particle: Then, Next, So (sequencer).",source IDs: LX-V3-0026; related=0; teaching=0
+SP-07,App headword,Thalka,"Particle: But, However, Yet, Still (contrast).",source IDs: LX-V3-0027; related=0; teaching=0
+SP-07,App headword,Sera,"Particle: Also, Too, Even, As well (additive).",source IDs: LX-V3-0028; related=0; teaching=0
+SP-07,App headword,Tek,"Particle: Just, Only, Merely (limiter).",source IDs: LX-V3-0029; related=0; teaching=0
+SP-07,App headword,Rathka,"Particle: As if, Supposing, Like (hypothetical).",source IDs: LX-V3-0031; related=0; teaching=0
+SP-07,App headword,Lialor'ka,Particle: Really?! Truly?! Actually?! (surprise/emphasis).,source IDs: LX-V3-0032; related=0; teaching=0
+SP-07,App headword,Reth‘thal,"Particle: Perhaps, Possibly (stronger doubt than Rethlian).",source IDs: LX-V3-0033; related=0; teaching=0
+SP-07,App headword,Lia‘ser,"Particle: Right, Okay, I see, Understood (acknowledgement).",source IDs: LX-V3-0034; related=0; teaching=0
+SP-07,App headword,Lian'lia,Particle: Exactly! Precisely! Just so! (strong agreement).,source IDs: LX-V3-0035; related=0; teaching=0
+SP-07,App headword,Verka,Particle: Not at all! Absolutely not! (emphatic negation).,source IDs: LX-V3-0036; related=0; teaching=0
+SP-08,Multi-sense headword,Velmarin,Noun: Ancient Tree (species) | Noun: Honorary Elder,direct examples=5
+SP-07,App headword,Anen,Possessive: Your / Direct Possession marker,source IDs: LX-V3-0062; related=0; teaching=0
+SP-07,App headword,Eshen,Possessive: His/Her/Their / Direct Possession marker,source IDs: LX-V3-0063; related=0; teaching=0
+SP-07,App headword,Velian,Possessive: Our / Direct Possession marker,source IDs: LX-V3-0064; related=0; teaching=0
+SP-07,App headword,Rathorim,Noun: Remembrance (the act).,source IDs: LX-V3-0065; related=0; teaching=0
+SP-07,App headword,Fah'thar,Noun: Grief (heart-darkness).,source IDs: LX-V3-0066; related=0; teaching=0
+SP-07,App headword,Vel'rathor,Noun: Enduring Memory / Still Past.,source IDs: LX-V3-0067; related=0; teaching=0
+SP-07,App headword,Rathorimaen,Verb: To Remember / Memorialize.,source IDs: LX-V3-0068; related=0; teaching=0
+SP-07,App headword,Fah'tharaen,Verb: To Mourn / Grieve Deeply.,source IDs: LX-V3-0069; related=0; teaching=0
+SP-07,App headword,Ohm'rin,Noun: Attunement / Essence-Connection.,source IDs: LX-V3-0070; related=0; teaching=0
+SP-07,App headword,Thal'vok,Noun: Balanced Unity / Harmony Bond.,source IDs: LX-V3-0071; related=0; teaching=0
+SP-07,App headword,Ohm'aen,Verb: To Connect With / Attune To (revisited).,source IDs: LX-V3-0072; related=0; teaching=0
+SP-07,App headword,Thal'vokaen,Verb: To Harmonize / Achieve Balanced Unity.,source IDs: LX-V3-0074; related=0; teaching=0
+SP-07,App headword,Shal'taleth,Noun: Light-Offering Ritual.,source IDs: LX-V3-0075; related=0; teaching=0
+SP-07,App headword,Bel'Rathorimeth,Noun: Memory-Weaving Ritual.,source IDs: LX-V3-0076; related=0; teaching=0
+SP-07,App headword,Aen'Moreth,Noun: Breath-into-Stone Ritual.,source IDs: LX-V3-0077; related=0; teaching=0
+SP-07,App headword,Lorin'Ohmeth,Noun: Guidance-Seeking Ritual.,source IDs: LX-V3-0078; related=0; teaching=0
+SP-07,App headword,Thal'talaen,Verb: To sacrifice/relinquish (general verb).,source IDs: LX-V3-0083; related=0; teaching=0
+SP-07,App headword,Thal'taleth,Noun: Act/Ritual of Sacrifice (general noun).,source IDs: LX-V3-0084; related=0; teaching=0
+SP-07,App headword,Thar'taleth,Noun: Life/Heart Sacrifice Ritual (noun).,source IDs: LX-V3-0085; related=0; teaching=0
+SP-07,App headword,Arthen'taleth,Noun: Sacrifice for Destiny Ritual (noun).,source IDs: LX-V3-0086; related=0; teaching=0
+SP-07,App headword,Kor'taleth,Noun: Offering to Power Source Ritual (noun).,source IDs: LX-V3-0087; related=0; teaching=0
+SP-08,Multi-sense headword,Talaen,"Verb: To give/offer (used for simpler offerings). | Verb: To Take (contextual), To Receive",direct examples=5
+SP-08,Multi-sense headword,Shalaen,"Verb: To Hope / See Light Ahead. | Verb: To See, To perceive with light",direct examples=8
+SP-08,Multi-sense headword,Drenkorath,Noun: Oasis Blessing Ceremony | Noun: Sacred spring,direct examples=2
+SP-07,App headword,Varkareth,"Noun: ""Metal-mover"" or ""gear-grinder""; implies reliance on machines and lack of natural warmth.",source IDs: LX-V3-0125; related=0; teaching=0
+SP-07,App headword,Drenkaesh,"Noun: ""Water-waster""; suggests carelessness or indulgence in water abundance.",source IDs: LX-V3-0126; related=0; teaching=0
+SP-07,App headword,Tharfah,"Noun: ""Weak-hearted"" or ""soft-rooted""; dismisses their gentle, nature-centric approach as sentimental.",source IDs: LX-V3-0127; related=0; teaching=0
+SP-07,App headword,Krez-verin,"Noun: ""Fire-nothing"" or ""ash-breather""; criticizes their environment and resource scarcity.",source IDs: LX-V3-0128; related=0; teaching=0
+SP-07,App headword,Rathorkinash,"Noun: ""Ancient-prattler""; suggests being stuck in outdated traditions and unyielding.",source IDs: LX-V3-0130; related=0; teaching=0
+SP-07,App headword,Vethordrenka,"Noun: ""Shadow-water leech""; insults their reliance on hidden water resources or mysterious magic.",source IDs: LX-V3-0131; related=0; teaching=0
+SP-07,App headword,Morl-karash,"Noun: ""Stone-brained""; criticizes rigidity and stubbornness, reflective of their mountain nature.",source IDs: LX-V3-0132; related=0; teaching=0
+SP-07,App headword,Verin,Noun: Zero,source IDs: LX-V3-0133; related=0; teaching=0
+SP-07,App headword,Senar,Noun: Six,source IDs: LX-V3-0139; XR-senar; related=0; teaching=0
+SP-07,App headword,Sethe,Noun: Seven,source IDs: LX-V3-0140; XR-sethe; related=0; teaching=0
+SP-07,App headword,Nevar,Noun: Nine,source IDs: LX-V3-0142; XR-nevar; related=0; teaching=0
+SP-08,Multi-sense headword,Tenar,Number: Ten | Noun: Radiance / Steady glow / Visible light,direct examples=5
+SP-08,Multi-sense headword,Lianeth,Modal: Ability (Can/Able to) | Verb: Ability (Can/Able to) | Adjective: Reliable / Sound / Dependable / Accurate / True to function,direct examples=3
+SP-08,Multi-sense headword,Thar-ka,Modal: Desire (Want to) | Noun: Desire,direct examples=2
+SP-07,App headword,Kinn,Noun: Day,source IDs: LX-V4-0082; DM-RM-V2-0001; related=1; teaching=0
+SP-08,Multi-sense headword,Shen,Noun: Coinage / Currency | Measure: Unit of weight / measure | Verb: To measure / To count,direct examples=21
+SP-08,Multi-sense headword,Kor,Noun: Source / Strength | Measure: Unit of length / handspan measure | Noun: Center or middle; the central position or region within a bounded whole,direct examples=2
+SP-08,Multi-sense headword,Pral,Noun: Table | Verb: Make | Noun: Intricacy / Detail,direct examples=3
+SP-08,Multi-sense headword,Vok,Noun: Unity / Bond | Verb: Betray,direct examples=2
+SP-07,App headword,Eth,"Suffix: -like, -ful | Suffix: sacred act of",source IDs: LX-V4-0122; related=0; teaching=0
+SP-08,Multi-sense headword,Eth,"Suffix: -like, -ful | Suffix: sacred act of",direct examples=0
+SP-08,Multi-sense headword,Shan,Verb: Passing; transfer; handoff between states | Preposition: Through or across from one side or boundary to another,direct examples=45
+SP-08,Multi-sense headword,Lianrethshen,Measure: An anomaly reading; a measured value describing the intensity or instability of a reality anomaly | Noun: An anomaly reading; a measured value describing the intensity or instability of a reality anomaly,direct examples=2
+SP-08,Multi-sense headword,Vaarshen,Measure: A safe clearance distance established between a hazard and an unprotected person or place | Noun: A safe clearance distance established between a hazard and an unprotected person or place,direct examples=2
+SP-08,Multi-sense headword,Keldoraen,Verb: To mark a location by deliberately placing a sign name or warning indicator there | Verb: To write or inscribe visible language on a surface,direct examples=10
+SP-08,Multi-sense headword,Ruvan,"Noun: Moral institutional or social corruption understood as living rot spreading through a community or organized system | Noun: Rot or organic spoilage; uncontrolled biological decay that degrades food, tissue, or other once-living material",direct examples=4
+SP-08,Multi-sense headword,Anvekaen,Verb: To board; to enter or mount a vehicle vessel or transport animal for travel | Verb: To load cargo; to put goods or material aboard or into transport in preparation for travel,direct examples=9
+SP-08,Multi-sense headword,Thalvekaen,Verb: To disembark; to leave or come out of a vehicle vessel or transport animal after travel | Verb: To unload cargo; to remove goods or material from transport after travel,direct examples=5
+SP-08,Multi-sense headword,Jorvar,Measure: Speed; the rate at which a person creature object or vehicle moves through distance | Noun: Speed; the rate at which a person creature object or vehicle moves through distance,direct examples=2
+SP-08,Multi-sense headword,Njor,Noun: A bridge between separated people groups systems or ideas; a connection that crosses a meaningful division | Noun: Bridge or structural span that carries passage across a gap waterway or obstruction,direct examples=8
+SP-08,Multi-sense headword,Sel,Noun: Mental clarity; an unobscured and internally ordered state of thought without implying truth evidence or correctness | Noun: Physical clarity; purity; absence of grime,direct examples=4
+SP-08,Multi-sense headword,Thael,Noun: Rhythm or beat; a recurring pattern of pulse sound or movement | Adjective: Gentle motion; breeze-like rhythm,direct examples=4
+SP-08,Multi-sense headword,Shentalzhael,Noun: Medical triage; measured assignment of treatment priority and limited care resources according to urgency | Verb: To triage / To prioritize treatment,direct examples=2
+SP-08,Multi-sense headword,Em,Interjection: Um / Uh (hesitation or thinking particle) | Particle: Conversational hesitation / Thinking particle,direct examples=2
+SP-08,Multi-sense headword,Vrak,Adjective: Gone / Missing / Depleted / Dry (Trerran dialect) | Particle: Gone / Missing / Depleted (Trerran dialect),direct examples=2
+SP-08,Multi-sense headword,Im,Noun: Device / Instrument / Implement / Internal mechanism | Particle: Device / Instrument / Internal mechanism,direct examples=2
+SP-08,Multi-sense headword,Thalesh,Noun: Ritual / Sacred balance ceremony | Verb: To perform a balance rite,direct examples=2
+SP-08,Multi-sense headword,Thalor,Noun: Outside / Exterior / Outer place | Adverb: Outside,direct examples=2
+SP-08,Multi-sense headword,Vanesh,Noun: Commerce; formal trade; merchant work | Verb: To trade / To conduct commerce,direct examples=16
+SP-08,Multi-sense headword,Kar,Noun: Strike; mechanical force; tool-work | Verb: To strike / To apply force,direct examples=3
+SP-07,App headword,Trak,Noun: Tread; step; foot-borne movement,source IDs: XR-trak; related=0; teaching=0
+SP-07,App headword,Kav,Noun: Age; preservation; ancient duration,source IDs: XR-kav; related=0; teaching=0
+SP-07,App headword,Tla,Noun: Intimacy; closeness; unspoken connection,source IDs: XR-tla; related=0; teaching=0
+SP-08,Multi-sense headword,Jor,Noun: Surge or burst (symbolizing sudden movements or energetic flows). | Verb: To surge / To burst forth,direct examples=16
+SP-07,App headword,Lor,Noun: Guidance; sight; focus of leadership,source IDs: XR-lor; related=0; teaching=0
+SP-07,App headword,Vin,Noun: Pull; extraction; drawing out essence,source IDs: XR-vin; related=0; teaching=0
+SP-07,App headword,Nk,Noun: Endurance; hidden strength,source IDs: XR-nk; related=0; teaching=0
+SP-07,App headword,Nku,Adjective: Hidden nurturing; held calm,source IDs: XR-nku; related=0; teaching=0
+SP-08,Multi-sense headword,Bren,"Noun: Harvest (e.g., the act or result of gathering food). | Verb: To harvest / To gather",direct examples=8
+SP-08,Multi-sense headword,Xar,Noun: Shadow or cover (tied to concealed or protective qualities). | Verb: To cover / To shelter / To close off,direct examples=5
+SP-07,App headword,Mb,Noun: Support; pillar; foundational weight,source IDs: XR-mb; related=0; teaching=0
+SP-07,App headword,Rek,Noun: Peak intensity; burning or heated state,source IDs: XR-rek; related=0; teaching=0
+SP-07,App headword,Thaen,Noun: Spirit-breath; still internal seasonality,source IDs: XR-thaen; related=0; teaching=0
+SP-07,App headword,Elor,Noun: Growth; upward alignment; unfolding maturity,source IDs: XR-elor; related=0; teaching=0
+SP-07,App headword,Livar,Noun: Preservation; salt-fixing; anti-decay,source IDs: XR-livar; related=0; teaching=0
+SP-07,App headword,Marin,Noun: Branch; extension; outward-growing limb,source IDs: XR-marin; related=0; teaching=0
+SP-07,App headword,Alor,Verb: Falling; descent; downward motion,source IDs: XR-alor; related=0; teaching=0
+SP-07,App headword,Tarin,Noun: Dried sweetness; sun-preserved fruit,source IDs: XR-tarin; related=0; teaching=0
+SP-07,App headword,Soril,Noun: Depth of flavor; complex taste-body,source IDs: XR-soril; related=0; teaching=0
+SP-07,App headword,Tham,Verb: Mashing; softening; breaking structure down,source IDs: XR-tham; related=0; teaching=0
+SP-07,App headword,Lak,Noun: Grain; earthy food-substance; bread material,source IDs: XR-lak; related=0; teaching=0
+SP-07,App headword,Kadren,"Noun: Masculine essence (strength, groundedness).",source IDs: DM-RM-V1-0001; related=0; teaching=0
+SP-07,App headword,Azan,"Noun: Feminine essence (nurturing, fluidity).",source IDs: DM-RM-V1-0002; related=0; teaching=0
+SP-07,App headword,Thee,"Noun: Neutral essence (balance, unity).",source IDs: DM-RM-V1-0003; related=0; teaching=0
+SP-07,App headword,Tha-,Prefix: Past Tense,source IDs: DM-RM-V1-0004; DM-RM-V2-0035; related=0; teaching=0
+SP-07,App headword,Nor-,Prefix: Future Tense,source IDs: DM-RM-V1-0005; DM-RM-V2-0036; DM-RM-S3-0011; related=2; teaching=0
+SP-07,App headword,-al,Suffix: Continuous,source IDs: DM-RM-V1-0006; related=0; teaching=0
+SP-07,App headword,-ath,Suffix: Perfective,source IDs: DM-RM-V1-0007; related=0; teaching=0
+SP-07,App headword,-as,Suffix: Habitual,source IDs: DM-RM-V1-0008; related=0; teaching=0
+SP-07,App headword,-ka,Particle: Possessive/linking marker,source IDs: DM-RM-V1-0014; related=2; teaching=0
+SP-07,App headword,Kilv,Noun: shadow/time,source IDs: DM-RM-V2-0002; related=0; teaching=0
+SP-07,App headword,Nk-,"Noun: Endurance, hidden strength",source IDs: DM-RM-V2-0020; related=0; teaching=0
+SP-07,App headword,Rav-,"Noun: Pull, yearning",source IDs: DM-RM-V2-0021; DM-RM-S3-0021; related=2; teaching=0
+SP-07,App headword,Mb-,"Noun: Layered, supportive",source IDs: DM-RM-V2-0022; related=0; teaching=0
+SP-07,App headword,Tla-,"Noun: Close, intimate connection",source IDs: DM-RM-V2-0023; related=0; teaching=0
+SP-07,App headword,Ohm-,"Noun: Connection, unity",source IDs: DM-RM-V2-0024; DM-RM-S3-0016; related=2; teaching=0
+SP-07,App headword,Khum-,"Noun: Circle, reconciliation",source IDs: DM-RM-V2-0025; DM-RM-S3-0025; related=2; teaching=0
+SP-07,App headword,Zhae-,"Noun: Light, empathy",source IDs: DM-RM-V2-0026; related=0; teaching=0
+SP-07,App headword,Nku-,"Adjective: Hidden, nurturing",source IDs: DM-RM-V2-0027; related=0; teaching=0
+SP-07,App headword,Tl-,"Noun: Movement, flow",source IDs: DM-RM-V2-0028; related=0; teaching=0
+SP-07,App headword,-in,"Suffix: Plural marker added to nouns ending in consonants | Suffix: Person or participant connected to a bond, place, or category",source IDs: DM-RM-V2-0029; related=0; teaching=0
+SP-08,Multi-sense headword,-in,"Suffix: Plural marker added to nouns ending in consonants | Suffix: Person or participant connected to a bond, place, or category",direct examples=0
+SP-07,App headword,-n,Suffix: Plural marker added to nouns ending in vowels,source IDs: DM-RM-V2-0030; related=0; teaching=0
+SP-07,App headword,-or,Suffix: Place/Location,source IDs: DM-RM-V2-0031; related=0; teaching=0
+SP-07,App headword,-en,Suffix: Honorific/Formal-High Respect | Suffix: Honorific/Respected form | Suffix: Partner bonded to you,source IDs: DM-RM-V2-0032; DM-RM-V3-0002; DM-RM-V3-0011; related=4; teaching=0
+SP-08,Multi-sense headword,-en,Suffix: Honorific/Formal-High Respect | Suffix: Honorific/Respected form | Suffix: Partner bonded to you,direct examples=0
+SP-07,App headword,-lin,Suffix: Collective/Diminutive,source IDs: DM-RM-V2-0033; related=0; teaching=0
+SP-07,App headword,-aen,Suffix: Verb-forming,source IDs: DM-RM-V2-0034; related=3; teaching=0
+SP-07,App headword,Ver-,Prefix: Negation,source IDs: DM-RM-V2-0037; related=0; teaching=0
+SP-07,App headword,Li-,Prefix: Respect/Honorific | Prefix: show respect,source IDs: DM-RM-V2-0038; DM-RM-V3-0001; related=0; teaching=0
+SP-08,Multi-sense headword,Li-,Prefix: Respect/Honorific | Prefix: show respect,direct examples=0
+SP-07,App headword,-esh,Suffix: deep relational ties,source IDs: DM-RM-V3-0010; related=0; teaching=1
+SP-07,App headword,-el,Suffix: Beloved bound to them,source IDs: DM-RM-V3-0012; related=0; teaching=0
+SP-07,App headword,-vel,Suffix: Bread shared among us,source IDs: DM-RM-V3-0013; related=0; teaching=0
+SP-07,App headword,Ten-,Prefix: Tens prefix,source IDs: DM-RM-V3-0014; related=0; teaching=0
+SP-07,App headword,Hek-,Prefix: Hundreds prefix,source IDs: DM-RM-V3-0015; related=0; teaching=0
+SP-07,App headword,Mel-,Prefix: Thousands prefix,source IDs: DM-RM-V3-0016; related=0; teaching=0
+SP-07,App headword,Fen-,Prefix: Tens of thousands prefix,source IDs: DM-RM-V3-0017; related=0; teaching=0
+SP-07,App headword,Hek-Mel-,Prefix: Hundreds of thousands construction,source IDs: DM-RM-V3-0018; related=0; teaching=0
+SP-07,App headword,-eth,Suffix: Suffix that marks inherent quality or essential manifestation | Suffix: Also used for abstract or ritual nouns,source IDs: DM-RM-V4-0001; related=3; teaching=0
+SP-08,Multi-sense headword,-eth,Suffix: Suffix that marks inherent quality or essential manifestation | Suffix: Also used for abstract or ritual nouns,direct examples=0
+SP-08,Multi-sense headword,nor-ka,Particle: passive voice echo particle | Particle: Now / In this moment / At present,direct examples=8
+SP-07,App headword,Shal-,"Noun: Light, glow, brightness; hope, truth, creation, clarity, revelation, wisdom, life, beginnings.",source IDs: DM-RM-S3-0001; related=0; teaching=0
+SP-07,App headword,Krez-,"Noun: Fire, heat, energy; passion, creation, strength, life-force, warmth, resilience, purification.",source IDs: DM-RM-S3-0003; related=0; teaching=0
+SP-07,App headword,Dren-,"Noun: Water, liquid, fluid; life, flow, change, healing, emotion, intuition, cleansing, adaptation.",source IDs: DM-RM-S3-0004; related=0; teaching=0
+SP-07,App headword,Morl-,"Noun: Stone, rock, mountain; endurance, history, stubbornness, strength, foundation, stability, defense.",source IDs: DM-RM-S3-0005; related=2; teaching=0
+SP-07,App headword,Esh-,"Noun: Sky, air, wind; freedom, thought, divine, intellect, perspective, beginnings.",source IDs: DM-RM-S3-0006; related=0; teaching=0
+SP-07,App headword,terra- / Terra-,"Noun: Earth, ground, soil, land; lowercase terra is mundane physical ground; capitalized Terra is the world as living spiritual entity.",source IDs: DM-RM-S3-0007; related=3; teaching=0
+SP-07,App headword,Lian-,"Noun: Truth, honesty; reality, natural law, essence, logic, clarity, correctness.",source IDs: DM-RM-S3-0008; related=0; teaching=0
+SP-07,App headword,Thal-,"Noun: Balance, harmony, equilibrium; also preposition meaning From / Out of.",source IDs: DM-RM-S3-0009; related=2; teaching=0
+SP-07,App headword,Reth- / Rethvok-,"Noun: Reth: uncertainty, confusion, doubt, a question, or. Rethvok: chaos, disorder, un-ordered state.",source IDs: DM-RM-S3-0010; related=2; teaching=0
+SP-07,App headword,Rin-,"Noun: Essence, core nature, spirit, intrinsic quality.",source IDs: DM-RM-S3-0012; related=2; teaching=0
+SP-07,App headword,Bel-,"Verb: To bind, weave, connect, fasten; civilization, bonds, restrictions, systems.",source IDs: DM-RM-S3-0013; related=0; teaching=1
+SP-07,App headword,Kal-,"Noun: Strength, power, force; neutral force whose virtue depends on use.",source IDs: DM-RM-S3-0014; related=2; teaching=0
+SP-07,App headword,Shara-,"Noun: A path, a road, a journey; life path, strategy, decision path.",source IDs: DM-RM-S3-0015; related=2; teaching=0
+SP-07,App headword,Thar-,"Noun: The physical heart; source of emotion, will, and true inner self.",source IDs: DM-RM-S3-0017; related=2; teaching=0
+SP-07,App headword,Var-,"Verb: To go, move, travel; also preposition to/towards; action and existence.",source IDs: DM-RM-S3-0018; related=2; teaching=0
+SP-07,App headword,Aen-,"Verb: To speak, breathe, make a sound; also complementizer that.",source IDs: DM-RM-S3-0019; related=2; teaching=0
+SP-07,App headword,Pralaen-,"Verb: To make, craft, shape with care; skill, purpose, imposing order.",source IDs: DM-RM-S3-0020; related=2; teaching=0
+SP-07,App headword,Vok-,Noun: Duality of breaking a bond and forming a unity; noun Vok means unity; verb vokaen breaks unity.,source IDs: DM-RM-S3-0022; related=0; teaching=0
+SP-07,App headword,Ser-,"Noun: Friend, ally; also with and and.",source IDs: DM-RM-S3-0023; related=2; teaching=0
+SP-07,App headword,Rath-,"Noun: Enemy, foe, adversary; also conditional particle if.",source IDs: DM-RM-S3-0024; related=0; teaching=0
+SP-07,App headword,Zhir-,"Noun: Thread, line, cord; connection through time, lineage, history, cause-effect, fate.",source IDs: DM-RM-S3-0026; related=2; teaching=0
+SP-07,App headword,Kel-,"Verb: To say, speak, name; definition and ordering through language.",source IDs: DM-RM-S3-0027; related=2; teaching=0
+SP-07,App headword,Zharrel,Noun: Forest Predator,source IDs: OHC-0002; related=0; teaching=0
+SP-07,App headword,Tharnspinners,Noun: Arachnid,source IDs: OHC-0003; related=0; teaching=0
+SP-07,App headword,Veilgliders,Noun: Gliding Insectivore,source IDs: OHC-0004; related=0; teaching=0
+SP-07,App headword,Velshen,Noun: Burrowing Creature,source IDs: OHC-0006; related=0; teaching=0
+SP-07,App headword,Shavrek,Noun: Cliff Forager,source IDs: OHC-0007; related=0; teaching=0
+SP-07,App headword,Mossquill,Noun: Pollinator,source IDs: OHC-0008; related=0; teaching=0
+SP-07,App headword,Rynarth,Noun: Fox-like Predator,source IDs: OHC-0009; related=0; teaching=0
+SP-07,App headword,Vroshan,Noun: Scavenger,source IDs: OHC-0010; related=0; teaching=0
+SP-07,App headword,Brinnek,Noun: Migratory Grazer,source IDs: OHC-0011; related=0; teaching=0
+SP-07,App headword,Thravic,Noun: Ambush Predator,source IDs: OHC-0012; related=0; teaching=0
+SP-07,App headword,Fennlur,Noun: Pack Runner,source IDs: OHC-0013; related=0; teaching=0
+SP-07,App headword,Vexflit,Noun: Pollinator Bird,source IDs: OHC-0014; related=0; teaching=0
+SP-07,App headword,Grivol,Noun: Burrowing Rodent,source IDs: OHC-0015; related=0; teaching=0
+SP-07,App headword,Rethal,Noun: River Predator,source IDs: OHC-0016; related=0; teaching=0
+SP-07,App headword,Lumora,Noun: Schooling Fish,source IDs: OHC-0017; related=0; teaching=0
+SP-07,App headword,Thryssal,Noun: Swamp Scavenger,source IDs: OHC-0018; related=0; teaching=0
+SP-07,App headword,Braskal,Noun: Coastal Herbivore,source IDs: OHC-0019; related=0; teaching=0
+SP-07,App headword,Selkari,Noun: Ocean Guardian,source IDs: OHC-0020; related=0; teaching=0
+SP-07,App headword,Zhenlor,Noun: Legendary Figure,source IDs: OHC-0021; related=0; teaching=0
+SP-07,App headword,Zharak,Noun: Legendary Figure,source IDs: OHC-0022; related=0; teaching=0
+SP-07,App headword,Lorynth,Noun: Legendary Figure,source IDs: OHC-0023; related=0; teaching=0
+SP-09,Historical example,PE-EGE1-0019,"jor eshnor; kavel rinaen eshweknor. — Weather changes, while climate endures.",Historical example pending correction
+SP-12,Example,PE-V3-0022,I varin Aen Ya var dren. — I know that you go to the water.,Complex sentence example
+SP-12,Example,PE-V3-0023,Ser Lior var dren. — The friend who goes to the water.,Complex sentence example
+SP-12,Example,PE-V3-0024,Var I terra Ser Lior var dren. — I go home with the friend who goes to the water.,Complex sentence example
+SP-12,Example,PE-V3-0028,"Rath Ya var dren, Nor-var I shena. — If you go to the water, I will bring coinage.",Complex sentence example
+SP-12,Example,PE-V3-0029,"Rath Tha-var Ya dren, Tha-var I emil. — If you had gone to the water, I would have gotten food.",Complex sentence example

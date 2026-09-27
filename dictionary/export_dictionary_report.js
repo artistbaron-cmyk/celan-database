@@ -101,7 +101,7 @@ function dedupeRows(rows) {
       row.headword.toLowerCase(),
       row.pronunciation.toLowerCase(),
       row.use_type.toLowerCase(),
-      row.root_word.toLowerCase(),
+      row.family_roots.toLowerCase(),
       row.meaning.toLowerCase(),
       row.usage_note.toLowerCase()
     ].join("::");
@@ -145,21 +145,31 @@ async function main() {
       .map((entry) => entry.term)
 
       .join("; ");
-    const examples = entryExampleSections(group).direct;
+    const sections = entryExampleSections(group);
+    const examples = sections.direct;
+    const relatedExamples = sections.related;
     const primaryUses = displayUses(group);
     const example = examples[0] || {};
+    const relatedExample = relatedExamples[0] || {};
+    const secondRelatedExample = relatedExamples[1] || {};
 
     primaryUses.forEach((use) => {
       rows.push({
         headword: clean(group.term),
         pronunciation,
         use_type: clean(use.type),
-        root_word: clean(rootWords),
+        family_roots: clean(rootWords),
         meaning: clean(use.meaning),
         usage_note: clean(displayUsageNote(use)),
         related_words: clean(relatedWords),
-        example_celan: clean(example.celan_text),
-        example_translation: clean(example.translation),
+        example_scope: primaryUses.length > 1 ? "Headword; sense assignment pending" : "Headword",
+        example_celan: use === primaryUses[0] ? clean(example.celan_text) : "",
+        example_translation: use === primaryUses[0] ? clean(example.translation) : "",
+        related_example_count: relatedExamples.length,
+        related_example_celan: use === primaryUses[0] ? clean(relatedExample.celan_text) : "",
+        related_example_translation: use === primaryUses[0] ? clean(relatedExample.translation) : "",
+        related_example_2_celan: use === primaryUses[0] ? clean(secondRelatedExample.celan_text) : "",
+        related_example_2_translation: use === primaryUses[0] ? clean(secondRelatedExample.translation) : "",
         source_entry_ids: clean(group.entries.map((entry) => entry.entry_id).join("; ")),
         derivation: clean(Array.from(new Set(group.entries
           .map((entry) => displayDerivation(entry.derivation))
@@ -179,7 +189,7 @@ async function main() {
     "pronunciation",
     "approval_batch",
     "use_type",
-    "root_word",
+    "family_roots",
     "meaning",
     "usage_note",
     "derivation",
@@ -190,12 +200,18 @@ async function main() {
     "related_words",
     "example_celan",
     "example_translation",
+    "example_scope",
+    "related_example_count",
+    "related_example_celan",
+    "related_example_translation",
+    "related_example_2_celan",
+    "related_example_2_translation",
     "source_entry_ids"
   ];
 
   const csv = [
     headers.join(","),
-    ...finalRows.map((row) => headers.map((header) => csvEscape(row[header] || "")).join(","))
+    ...finalRows.map((row) => headers.map((header) => csvEscape(row[header] ?? "")).join(","))
   ].join("\n");
 
   await fsp.writeFile(outputPath, csv, "utf8");

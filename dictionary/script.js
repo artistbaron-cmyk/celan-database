@@ -2158,12 +2158,13 @@ function buildSyntheticRuleEntries(rawById) {
         "This action-first structure reflects a worldview that foregrounds movement, relation, and what is being done before who is doing it."
       ].join("\n"),
       examples: [
-        'Var I dren. — "I go to the water."',
-        'Var Kadron an morl.',
-        'Rinaen Terra vaar.',
-        'Ohmaen I Ya.'
+        'var I dren. — "I go to the water." (attested bare goal with var)',
+        'var I an dren. — "I go to the water." (explicit destination with an)',
+        'var kadron an morl.',
+        'rinaen Terra vaar.',
+        'ohmaen I Ya.'
       ].join("\n"),
-      notes: "",
+      notes: "Both destination forms are attested with var. This pair does not establish bare goals for every motion verb.",
       relatedHeadwords: existingHeadwords(["Var", "Rinaen", "Ohmaen"]),
       related_entry_ids: "",
       source_volume: vso.source_volume,
@@ -2183,14 +2184,14 @@ function buildSyntheticRuleEntries(rawById) {
       displayCategory: "Sentence Structure",
       purpose: "How Celan asks, negates a question, and gives a command.",
       original_wording: [
-        "Start ordinary questions with Ra.",
+        "Start ordinary questions with ra.",
         "For a negative question, place Ver before the verb.",
-        "For a direct command, start the sentence with Va."
+        "For a direct command, start the sentence with va."
       ].join("\n"),
       examples: [
-        'Ra var Ser? — "Where does the friend go?"',
-        'Ra ver var Ser? — "Does the friend not go?"',
-        'Va var dren! — "Go to the water!"'
+        'ra var ser an dren? — "Does the friend go to the water?"',
+        'ra ver var ser an dren? — "Does the friend not go to the water?"',
+        'va var an dren! — "Go to the water!"'
       ].join("\n"),
       notes: "",
       relatedHeadwords: existingHeadwords(["Ra", "Va", "Ver"]),
@@ -2239,12 +2240,25 @@ function buildSyntheticRuleEntries(rawById) {
 }
 
 function buildRuleEntries(rows) {
-  // User-approved replacement; keep the earlier grammar source as a historical witness.
-  rows = rows.map(row => row.entry_id === 'GR-S4B-0005' ? {
-    ...row, examples: 'Ordinary sentence: ohmaen I Ya. (I love you.) / Poetic emphasis: Rinaen I an Thar-ka.'
-  } : row);
+  // App-facing decisions take precedence; source grammar rows remain unchanged as witnesses.
+  const reviewedExamples = {
+    'GR-S4B-0005': 'Ordinary sentence: ohmaen I Ya. (I love you.) / Poetic emphasis: Rinaen I an Thar-ka.',
+    'GR-V1-0014': 'Present: var I dren. / I go to the water.\nPast: tha-var I dren. / I went to the water.\nFuture: nor-var I dren. / I will go to the water.\nContinuous: varal I dren. / I am going to the water.\nPerfective: varath I dren. / I have gone to the water.\nHabitual: varas I dren. / I usually go to the water.\nAlso attested with explicit destination: var I an dren. The bare goal is attested for var; do not generalize it to every motion verb.',
+    'GR-V1-0015': 'ver var I dren. — I do not go to the water.',
+    'GR-V1-0017': 'rath var ser, var I dren. — If the friend goes, I go to the water.\nrath nor-var ser, nor-var I dren. — If the friend will go, I will go to the water.',
+    'GR-V1-0008': 'tal theon thal an Ilin. — The neutral person gives balance to us.\nnethaen azon an nethor. — The feminine man rests on the seat.',
+    'GR-V1-0009': 'nethaen azon an nethor. — The feminine man rests on the seat.',
+    'GR-V1-0011': 'tal theon thal an Ilin. — The neutral person gives balance to us.',
+    'GR-V3-0001': 'var I dren, Ser. — I go to the water, friend.\nvar I dren, Li-Ser. — I go to the water, respected friend.\nvar Li-Ya dren. — You, respected one, go to the water.',
+    'GR-V3-0004': 'rinaen dren-ian shaleth ther La-ka dren. — My water is brighter than their water.\nrinaen dren-ian shaleth thaal. — My water is brightest.\nrinaen dren-ian shaleth thaal morldren. — My water is brightest of mountain waters.',
+    'GR-V3-0005': 'rath var Ya dren, nor-var I dren. — If you go to the water, I will go to the water.',
+    'GR-V4-0004': 'Active: pralaen Azron belkor. — The woman makes the tunic.\nPassive: pralaen belkor an Azron nor-ka. — The tunic was made by the woman.',
+    'GR-DR1-0003': 'varal I dren. — I am going to the water.\nvaran I an Varthas. — I am residing in the city.\nnor-var I an Varthas. — I will go to the city.'
+  };
+  rows = rows.map(row => reviewedExamples[row.entry_id] ? {...row, examples: reviewedExamples[row.entry_id]} : row);
   const superseded = new Set(rows.some(row => row.entry_id === 'GR-DR1-0001')
-    ? ['GR-V1-0007', 'GR-V1-0020', 'GR-V3-0006'] : []);
+    ? ['GR-V1-0007', 'GR-V1-0020', 'GR-V3-0006',
+       'GR-V1-0013', 'GR-V3-0002', 'GR-V3-0003'] : []);
   const reviewGroups = [...new Set(state.phrases.map(p=>p.app_grammar_group).filter(Boolean))];
   rows = [...rows, ...reviewGroups.map((name,i)=>({
     entry_id:`GR-ER2-${String(i+1).padStart(4,'0')}`, rule_name:`${name}: reviewed illustrations`,
@@ -4932,7 +4946,14 @@ function renderExampleSections(group, examples) {
   };
   const groups = [];
   if (sections.direct.length) groups.push(`<section class="card sentence-card"><h3>Direct usage (${sections.direct.length})</h3>${sections.direct.slice(0,5).map(e=>render(e,true)).join('')}${sections.direct.length>5 ? `<details><summary>View all ${sections.direct.length} usage examples</summary>${sections.direct.slice(5).map(e=>render(e,true)).join('')}</details>` : ''}</section>`);
-  else groups.push('<section class="card sentence-card"><h3>Direct usage</h3><p>No direct usage example is available yet.</p></section>');
+  else {
+    const attachedForm = uses.every(use => use.type === 'Suffix') ||
+      uses.some(use => /attached after the possessed noun/i.test(use.usage || ''));
+    const message = attachedForm && sections.related.length
+      ? 'This form attaches to another word. See its examples under Related forms and constructions below.'
+      : 'No direct usage example is available yet.';
+    groups.push(`<section class="card sentence-card"><h3>Direct usage</h3><p>${message}</p></section>`);
+  }
   if(sections.related.length) groups.push(`<section class="card sentence-card"><h3>Related forms and constructions (${sections.related.length})</h3><p>These records are linked to this entry but do not demonstrate the standalone word. Reviewed constructions include roots and endings used within other words.</p><details><summary>View related records</summary>${sections.related.map(e=>render(e)).join('')}</details></section>`);
   if(sections.teaching.length) groups.push(`<section class="card sentence-card"><h3>Teaching notes (${sections.teaching.length})</h3><p>These include explanations, historical illustrations, and counterexamples. They are not all recommended usage.</p><details><summary>View teaching notes</summary>${sections.teaching.map(e=>render(e)).join('')}</details></section>`);
   return groups.join('');

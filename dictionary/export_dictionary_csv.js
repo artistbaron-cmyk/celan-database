@@ -125,11 +125,15 @@ async function main() {
       ? family.relatedEntries.filter((entry) => override.familyTerms.includes(entry.term))
       : family.relatedEntries
     );
-    const examples = entryExampleSections(group).direct;
+    const sections = entryExampleSections(group);
+    const examples = sections.direct;
+    const relatedExamples = sections.related;
     const primaryUses = displayUses(group);
 
     primaryUses.forEach((use, index) => {
-      const exampleRows = examples.slice(0, 5);
+      // Examples belong to the headword until a reviewed sense assignment exists.
+      const exampleRows = index === 0 ? examples.slice(0, 5) : [];
+      const relatedRows = index === 0 ? relatedExamples.slice(0, 2) : [];
       const row = {
         headword: group.term,
         pronunciation,
@@ -140,6 +144,8 @@ async function main() {
         family_roots: familyRoots.join("; "),
         related_words: relatedEntries.map((entry) => entry.term).join("; "),
         example_count: examples.length,
+        related_example_count: relatedExamples.length,
+        example_scope: primaryUses.length > 1 ? "Headword; sense assignment pending" : "Headword",
         source_entry_ids: group.entries.map((entry) => entry.entry_id).join("; "),
         derivation: Array.from(new Set(group.entries
           .map((entry) => displayDerivation(entry.derivation))
@@ -155,6 +161,10 @@ async function main() {
       exampleRows.forEach((example, exampleIndex) => {
         row[`example_${exampleIndex + 1}_celan`] = example.celan_text || "";
         row[`example_${exampleIndex + 1}_translation`] = example.translation || "";
+      });
+      relatedRows.forEach((example, exampleIndex) => {
+        row[`related_example_${exampleIndex + 1}_celan`] = example.celan_text || "";
+        row[`related_example_${exampleIndex + 1}_translation`] = example.translation || "";
       });
 
       rows.push(row);
@@ -178,6 +188,8 @@ async function main() {
     "family_roots",
     "related_words",
     "example_count",
+    "related_example_count",
+    "example_scope",
     "use_index",
     "example_1_celan",
     "example_1_translation",
@@ -188,12 +200,16 @@ async function main() {
     "example_4_celan",
     "example_4_translation",
     "example_5_celan",
-    "example_5_translation"
+    "example_5_translation",
+    "related_example_1_celan",
+    "related_example_1_translation",
+    "related_example_2_celan",
+    "related_example_2_translation"
   ];
 
   const csv = [
     headers.join(","),
-    ...rows.map((row) => headers.map((header) => csvEscape(row[header] || "")).join(","))
+    ...rows.map((row) => headers.map((header) => csvEscape(row[header] ?? "")).join(","))
   ].join("\n");
 
   await fsp.writeFile(outputPath, csv, "utf8");

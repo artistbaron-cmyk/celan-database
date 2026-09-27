@@ -28,7 +28,7 @@ styles.add(ParagraphStyle(name='TitlePDF',fontName='VeraBold',fontSize=28,leadin
 def p(text,sty='TextPDF'):return Paragraph(escape(str(text)).replace('\n','<br/>'),styles[sty])
 def field(label,value,sty='TextPDF'):return Paragraph('<b>'+escape(label)+':</b> '+escape(value).replace('\n','<br/>'),styles[sty])
 story=[p('Celan\nComplete Dictionary','TitlePDF'),p(f'{len(groups):,} headwords • {len(rows):,} meanings and uses'),p('Full conversion of dictionary_entries.csv'),Spacer(1,18),p('This searchable PDF preserves all nonempty fields from the dictionary export: pronunciations, meanings, usage notes, derivations, roots, related words, provenance, and the examples included in that file. Information shared by multiple meanings of a word is printed once.'),p('The CSV includes up to five examples per row. Where the example count is larger, additional examples are available in the app but are not contained in this source file.'),p('Source: data/dictionary_entries.csv','SmallPDF'),PageBreak()]
-labels={'pronunciation':'Pronunciation','approval_batch':'Approval batch','root_word':'Root word','usage_note':'Usage note','derivation':'Derivation','origin_nation':'Origin nation','national_usage':'National usage','variant_forms':'Variant forms','variant_pronunciations':'Variant pronunciations','family_roots':'Root families','related_words':'Related words','source_entry_ids':'Source entry IDs','example_count':'Available example count'}
+labels={'pronunciation':'Pronunciation','approval_batch':'Approval batch','root_word':'Root word','usage_note':'Usage note','derivation':'Derivation','origin_nation':'Origin nation','national_usage':'National usage','variant_forms':'Variant forms','variant_pronunciations':'Variant pronunciations','family_roots':'Root families','related_words':'Related words','source_entry_ids':'Source entry IDs','example_count':'Available example count','related_example_count':'Related construction count','example_scope':'Example scope'}
 metadata=list(labels)
 for word,senses in groups.items():
  story.append(p(word,'Entry'))
@@ -39,19 +39,20 @@ for word,senses in groups.items():
   story.append(p(f"Use {r['use_index']} · {r['use_type']}",'SensePDF'));story.append(p(r['meaning']))
   for key in metadata:
    if key not in shared and r[key]:story.append(field(labels[key],r[key],'SmallPDF' if key in ['source_entry_ids','related_words'] else 'TextPDF'))
-  exkeys=[f'example_{i}_{part}' for i in range(1,6) for part in ['celan','translation']]
-  shared_examples=all(all(x[k]==senses[0][k] for k in exkeys) for x in senses)
-  if not shared_examples:
-   for i in range(1,6):
-    if r[f'example_{i}_celan'] or r[f'example_{i}_translation']:
-     story.append(field(f'Example {i}',r[f'example_{i}_celan']));story.append(p(r[f'example_{i}_translation']))
  for key in metadata:
   if key in shared and key not in ['pronunciation','variant_forms','variant_pronunciations','source_entry_ids','related_words']:story.append(field(labels[key],shared[key]))
- if shared_examples:
-  r=senses[0]
-  for i in range(1,6):
-   if r[f'example_{i}_celan'] or r[f'example_{i}_translation']:
-    story.append(field(f'Example {i}',r[f'example_{i}_celan']));story.append(p(r[f'example_{i}_translation']))
+ # The CSV examples are headword-scoped until a reviewed sense assignment exists.
+ r=senses[0]
+ for i in range(1,6):
+  if r[f'example_{i}_celan'] or r[f'example_{i}_translation']:
+   story.append(field(f'Headword example {i}',r[f'example_{i}_celan']))
+   story.append(p(r[f'example_{i}_translation']))
+ if r['related_example_1_celan'] or r['related_example_1_translation']:
+  story.append(field('Related form or construction',r['related_example_1_celan']))
+  story.append(p(r['related_example_1_translation']))
+ if r['related_example_2_celan'] or r['related_example_2_translation']:
+  story.append(field('Related form or construction 2',r['related_example_2_celan']))
+  story.append(p(r['related_example_2_translation']))
  for key in ['related_words','source_entry_ids']:
   if key in shared:story.append(field(labels[key],shared[key],'SmallPDF'))
 def footer(c,d):
