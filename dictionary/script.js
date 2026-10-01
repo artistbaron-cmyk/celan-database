@@ -2196,28 +2196,60 @@ function entryExampleSections(group, examples = null) {
   return sections;
 }
 
-function renderExampleSections(group, examples) {
-  const sections = entryExampleSections(group,examples);
-  const uses = displayUses(group);
-  const render = (e, direct = false) => {
-    const meaning = e.sense_meaning || '';
-    const sense = meaning ? uses.find(u=>u.meaning===meaning) : null;
-    // An example without a recorded sense link belongs to the word as a whole.
-    const senseLabel = direct && uses.length>1 && sense ? `${sense.type}: ${sense.meaning}` : '';
-    return `<div class="sentence-example">${senseLabel ? `<p class="sense-usage">${escapeMarkup(senseLabel)}</p>` : ''}<p class="example-celan">${escapeMarkup(e.celan_text)}</p>${e.translation ? `<p class="example-english">“${escapeMarkup(e.translation)}”</p>` : ''}</div>`;
-  };
+function organizeExamples(group, examples, uses) {
+  const sections = entryExampleSections(group, examples);
+  const visibleSenseIds = new Set(uses.map(use => use.senseId));
+  const organized = {ordinary:[], phrases:[], idioms:[], related:[], teaching:[], historical:[], linkedBySense:new Map()};
+  for (const example of sections.direct) {
+    const kind = example.display_kind || 'sentence';
+    if (kind === 'idiom') organized.idioms.push(example);
+    else if (kind === 'phrase') organized.phrases.push(example);
+    else if (kind === 'teaching') organized.teaching.push(example);
+    else if (kind === 'historical') organized.historical.push(example);
+    else if (example.sense_id && visibleSenseIds.has(example.sense_id)) {
+      if (!organized.linkedBySense.has(example.sense_id)) organized.linkedBySense.set(example.sense_id, []);
+      organized.linkedBySense.get(example.sense_id).push(example);
+    } else organized.ordinary.push(example);
+  }
+  organized.related.push(...sections.related);
+  for (const example of sections.teaching) {
+    if (example.display_kind === 'historical') organized.historical.push(example);
+    else organized.teaching.push(example);
+  }
+  return organized;
+}
+
+function renderExampleCard(example) {
+  const kind = example.display_kind || '';
+  const kindLabel = kind === 'related_idiom' ? 'Idiom or saying' : kind === 'related_phrase' ? 'Phrase' : '';
+  const placement = `${example.section || ''}:${example.display_order || ''}`;
+  return `<div class="sentence-example" data-example-placement="${escapeMarkup(placement)}">${kindLabel ? `<p class="example-kind">${kindLabel}</p>` : ''}<p class="example-celan">${escapeMarkup(example.celan_text)}</p>${example.translation ? `<p class="example-english">“${escapeMarkup(example.translation)}”</p>` : ''}</div>`;
+}
+
+function renderExampleList(examples) {
+  const first = examples.slice(0, 5);
+  const additional = examples.slice(5);
+  return `<div class="example-list example-list--initial">${first.map(renderExampleCard).join('')}</div>${additional.length ? `<details class="example-more"><summary>More examples (${additional.length})</summary><div class="example-list">${additional.map(renderExampleCard).join('')}</div></details>` : ''}`;
+}
+
+function renderExampleSections(organized, uses) {
   const groups = [];
-  if (sections.direct.length) groups.push(`<section class="card sentence-card"><h3>Examples (${sections.direct.length})</h3><div class="example-list">${sections.direct.map(e=>render(e,true)).join('')}</div></section>`);
-  else {
-    const attachedForm = uses.every(use => use.type === 'Suffix') ||
+  const section = (title, examples, note = '') => `<section class="card sentence-card"><h3>${title} (${examples.length})</h3>${note ? `<p class="example-section-note">${note}</p>` : ''}${renderExampleList(examples)}</section>`;
+  if (organized.ordinary.length) groups.push(section(uses.length > 1 ? 'Examples using this word' : 'Examples', organized.ordinary));
+  if (organized.phrases.length) groups.push(section('Phrases', organized.phrases));
+  if (organized.idioms.length) groups.push(section('Idioms and sayings', organized.idioms, 'These have a figurative or conventional meaning.'));
+  const linkedCount = [...organized.linkedBySense.values()].reduce((total, examples) => total + examples.length, 0);
+  if (!organized.ordinary.length && !organized.phrases.length && !organized.idioms.length && !linkedCount && !organized.related.length && !organized.teaching.length && !organized.historical.length) {
+    const attachedForm = uses.every(use => use.type === 'Suffix' || use.type === 'Prefix') ||
       uses.some(use => /attached after the possessed noun/i.test(use.usage || ''));
-    const message = attachedForm && sections.related.length
-      ? 'This form attaches to another word. See its examples under Related forms and constructions below.'
-      : 'No direct usage example is available yet.';
+    const message = attachedForm
+      ? 'This form attaches to another word. No construction example is recorded yet.'
+      : 'No example is recorded for this word yet.';
     groups.push(`<section class="card sentence-card"><h3>Examples</h3><p>${message}</p></section>`);
   }
-  if(sections.related.length) groups.push(`<section class="card sentence-card"><h3>Related forms and constructions (${sections.related.length})</h3><p class="example-section-note">These show the word as part of another form or construction.</p><div class="example-list">${sections.related.map(e=>render(e)).join('')}</div></section>`);
-  if(sections.teaching.length) groups.push(`<section class="card sentence-card"><h3>Teaching illustrations (${sections.teaching.length})</h3><p class="example-section-note">These include historical forms and counterexamples; they are not all recommended usage.</p><div class="example-list">${sections.teaching.map(e=>render(e)).join('')}</div></section>`);
+  if (organized.related.length) groups.push(section('Related forms and constructions', organized.related, 'These show the word as part of another form or construction.'));
+  if (organized.teaching.length) groups.push(section('Teaching illustrations', organized.teaching, 'These illustrate forms or rules; they are not all everyday sentences.'));
+  if (organized.historical.length) groups.push(section('Historical examples', organized.historical, 'Older forms are kept for reference, not as current usage models.'));
   return groups.join('');
 }
 
@@ -2687,6 +2719,7 @@ function renderDetail(group) {
   const hasFamilyContent = relatedEntries.length > 0;
   const displayExamples = override?.examples?.length ? override.examples : examples;
   const primaryUses = displayUses(group);
+  const organizedExamples = organizeExamples(group, displayExamples, primaryUses);
   const hasMultipleMeanings = primaryUses.length > 1;
   const {morphologyAnalyses, displayedSources, visibleDerivations} = visibleWordBuilding(group, family, primaryUses, metadata);
   const hasVisibleMetadata = metadata && (metadata.origins.length || metadata.nationalUses.length || visibleDerivations.length);
@@ -2697,11 +2730,13 @@ function renderDetail(group) {
     const rootWordMarker = displayRootWordMarker(group, use);
     const usageNote = displayUsageNote(use);
     const repeatedInMorphology = displayedSources.has(usageNote.toLowerCase());
+    const linkedExamples = organizedExamples.linkedBySense.get(use.senseId) || [];
     return `
       <section class="sense-block" data-sense-id="${escapeMarkup(use.senseId || '')}">
         <div class="sense-heading">${displayType ? `<span class="sense-type">${escapeMarkup(displayType)}</span>` : ""}${rootWordMarker ? `<span class="sense-marker">${escapeMarkup(rootWordMarker)}</span>` : ""}</div>
         <p class="sense-meaning">${escapeMarkup(use.meaning || "No meaning available.")}</p>
         ${usageNote && !repeatedInMorphology ? `<p class="sense-usage">${escapeMarkup(usageNote)}</p>` : ""}
+        ${linkedExamples.length ? `<div class="sense-examples"><h4>${linkedExamples.length === 1 ? 'Example' : 'Examples'} for this meaning (${linkedExamples.length})</h4>${renderExampleList(linkedExamples)}</div>` : ''}
       </section>
     `;
   }).join("");
@@ -2731,7 +2766,7 @@ function renderDetail(group) {
         ${visibleDerivations.length ? `<div class="family-group"><p class="family-label">Word origin</p>${hasMultipleMeanings && morphologyAnalyses.length ? `<p class="word-building-scope">${escapeMarkup(wordBuildingScope(family.morphologySenseIds || morphologyAnalyses.flatMap(analysis => analysis.senseIds), primaryUses))}</p>` : ''}<p class="family-line">${visibleDerivations.map(escapeMarkup).join("; ")}</p></div>` : ""}
       </section>
       ` : ""}
-      ${renderExampleSections(group, displayExamples)}
+      ${renderExampleSections(organizedExamples, primaryUses)}
       ${showFamily ? `
       <section class="card">
         <h3>Word Family</h3>

@@ -12,7 +12,7 @@ for(const [,src] of html.matchAll(/<script src="([^"]+)"/g)){
  const filename=path.resolve(__dirname,src);
  vm.runInContext(fs.readFileSync(filename,'utf8'),context,{filename});
 }
-vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMatch,renderDetail,renderRuleDetail,renderExpressionDetail,analyzeForgeTerm,buildPronunciation,displayUses}',context);
+vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMatch,renderDetail,renderRuleDetail,renderExpressionDetail,analyzeForgeTerm,buildPronunciation,displayUses,normalizeHeadword}',context);
 (async()=>{
  const api=context.appTest;
  for(let i=0;i<100&&!api.state.groupedEntries.length;i++)await new Promise(resolve=>setTimeout(resolve,50));
@@ -52,6 +52,14 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
    }
    api.renderDetail(group);
    const page=elements.get('detailView').innerHTML;
+   const placements=[...page.matchAll(/data-example-placement="([^"]+)"/g)].map(match=>match[1]);
+   const sourcePlacements=Object.values(group.canonicalExamples).flat().map(example=>`${example.section}:${example.display_order}`);
+   assert.equal(placements.length,sourcePlacements.length,`${group.term} is missing an example placement`);
+   assert.deepEqual(new Set(placements),new Set(sourcePlacements),`${group.term} displays an example twice or under the wrong headword`);
+   assert.doesNotMatch(page,/Sense assignment pending review|Literal gloss|<summary>Source<\/summary>/i,`${group.term} exposes example editing data`);
+   for(const [,target] of page.matchAll(/data-headword="([^"]+)"/g)){
+     assert.ok(api.state.groupedEntries.some(entry=>entry.id===api.normalizeHeadword(target)),`${group.term} links to a missing word: ${target}`);
+   }
    assert.equal((page.match(/class="sense-block"/g)||[]).length,visible.length,`${group.term} has an incorrect number of visible meanings`);
    assert.equal((page.match(/class="sense-type"/g)||[]).length,visible.filter(sense=>sense.type).length,`${group.term} is missing a word type`);
    assert.doesNotMatch(page,/Sense assignment pending review|Retain as-is|Preserved as standalone root\/morpheme because source clearly defines it|The source gloss|Builds the approved|Source uses Ohnoshan|Names the organ without embedding an unapproved theory/i,`${group.term} exposes an internal note`);
@@ -85,6 +93,20 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  page=elements.get('detailView').innerHTML;
  assert.equal((page.match(/class="sense-block"/g)||[]).length,2);
  assert.match(page,/Preposition/);
+ assert.match(page,/<h3>Examples using this word \(872\)<\/h3>/);
+ assert.match(page,/<summary>More examples \(867\)<\/summary>/);
+ assert.match(page,/<h3>Phrases \(1\)<\/h3>/);
+ assert.match(page,/<h3>Related forms and constructions \(1\)<\/h3>/);
+ assert.match(page,/<h3>Teaching illustrations \(14\)<\/h3>/);
+ assert.equal((page.match(/data-example-placement="related:1"/g)||[]).length,1);
+ api.renderDetail(api.findBestLexiconMatch('Jor'));
+ page=elements.get('detailView').innerHTML;
+ assert.match(page,/<h3>Historical examples \(1\)<\/h3>/);
+ assert.match(page,/Examples for this meaning \(3\)/);
+ api.renderDetail(api.findBestLexiconMatch('Thal'));
+ page=elements.get('detailView').innerHTML;
+ assert.match(page,/<h3>Idioms and sayings \(2\)<\/h3>/);
+ assert.match(page,/data-sense-id="thal-s2"[\s\S]*?data-example-placement="direct:3"/);
  api.renderDetail(api.findBestLexiconMatch('Aen'));
  page=elements.get('detailView').innerHTML;
  for(const type of ['Verb','Conjunction','Suffix','Noun'])assert.match(page,new RegExp(`class="sense-type">${type}<`));

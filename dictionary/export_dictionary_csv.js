@@ -45,6 +45,8 @@ const byHeadword=new Map();
 for(const sense of senses){if(!byHeadword.has(sense.headword_id))byHeadword.set(sense.headword_id,[]);if(sense.visible==='Yes')byHeadword.get(sense.headword_id).push(sense);}
 const byExample=new Map();
 for(const example of examples){if(!byExample.has(example.headword_id))byExample.set(example.headword_id,{direct:[],related:[]});if(example.section==='direct'||example.section==='related')byExample.get(example.headword_id)[example.section].push(example);}
+const exampleKind=example=>example.display_kind||'sentence';
+const ordinaryExample=example=>exampleKind(example)==='sentence';
 const letters=value=>String(value||'').toLowerCase().replace(/[^a-z]/g,'');
 function visibleAnalyses(family,headword,uses){
   if(family.morphologyReview?.status==='open')return [];
@@ -66,11 +68,16 @@ for(const headword of headwords.sort((a,b)=>a.headword.localeCompare(b.headword)
   const metadata=JSON.parse(headword.metadata_json||'null')||{};
   const uses=byHeadword.get(headword.id)||[];
   const placed=byExample.get(headword.id)||{direct:[],related:[]};
+  const ordinary=placed.direct.filter(ordinaryExample);
+  const wordExamples=ordinary.filter(example=>!example.sense_id);
   const roots=family.familyRoots.filter(root=>normalize(root.replace(/-+$/g,''))!==normalize(headword.headword.replace(/-+$/g,'')));
   const related=override.familyTerms?.length?family.relatedEntries.filter(entry=>override.familyTerms.includes(entry.term)):family.relatedEntries;
   const analyses=visibleAnalyses(family,headword.headword,uses);
   const shownSources=new Set(analyses.flatMap(analysis=>analysis.parts.map(part=>normalize(part.source))).filter(Boolean));
   uses.forEach((use,index)=>{
+    const meaningExamples=ordinary.filter(example=>example.sense_id===use.sense_id);
+    const previews=placed.direct.filter(example=>ordinaryExample(example)&&
+      (example.sense_id===use.sense_id||(index===0&&!example.sense_id))).slice(0,5);
     const scopedAnalyses=analyses.filter(analysis=>uses.length===1||analysis.senseIds.includes(use.sense_id));
     const showFamily=uses.length===1||family.familySenseIds?.includes(use.sense_id);
     const visibleDerivations=(metadata.derivations||[]).filter(origin=>
@@ -92,18 +99,31 @@ for(const headword of headwords.sort((a,b)=>a.headword.localeCompare(b.headword)
       variant_forms:(metadata.variants||[]).map(variant=>variant.form).join('; '),
       variant_pronunciations:(metadata.variants||[]).map(variant=>variant.pronunciation).join('; '),
       family_roots:showFamily?roots.join('; '):'', related_words:showFamily?related.map(entry=>entry.term).join('; '):'',
-      example_count:placed.direct.length, related_example_count:placed.related.length,
-      example_scope:uses.length>1?'Word level; meanings not assigned':'Word level',
+      example_count:placed.direct.length,
+      meaning_example_count:meaningExamples.length,
+      word_example_count:index===0?wordExamples.length:0,
+      phrase_count:index===0?placed.direct.filter(example=>exampleKind(example)==='phrase').length:0,
+      idiom_count:index===0?placed.direct.filter(example=>exampleKind(example)==='idiom').length:0,
+      related_example_count:placed.related.length,
+      example_scope:previews.length
+        ? (previews.some(example=>example.sense_id)&&previews.some(example=>!example.sense_id)
+          ? 'Meaning-specific and word-level'
+          : previews.some(example=>example.sense_id)?'Meaning-specific':'Word level')
+        : '',
       use_index:index+1, sense_id:use.sense_id
     };
+    previews.forEach((example,i)=>{
+      row[`example_${i+1}_celan`]=example.celan_text;
+      row[`example_${i+1}_translation`]=example.translation;
+      row[`example_${i+1}_sense_id`]=example.sense_id;
+    });
     if(index===0){
-      placed.direct.slice(0,5).forEach((example,i)=>{row[`example_${i+1}_celan`]=example.celan_text;row[`example_${i+1}_translation`]=example.translation;});
       placed.related.slice(0,2).forEach((example,i)=>{row[`related_example_${i+1}_celan`]=example.celan_text;row[`related_example_${i+1}_translation`]=example.translation;});
     }
     rows.push(row);
   });
 }
-const headers=['source_entry_ids','approval_batch','headword','pronunciation','use_type','root_word','meaning','usage_note','derivation','word_parts','word_parts_note','origin_nation','national_usage','variant_forms','variant_pronunciations','family_roots','related_words','example_count','related_example_count','example_scope','use_index','sense_id','example_1_celan','example_1_translation','example_2_celan','example_2_translation','example_3_celan','example_3_translation','example_4_celan','example_4_translation','example_5_celan','example_5_translation','related_example_1_celan','related_example_1_translation','related_example_2_celan','related_example_2_translation'];
+const headers=['source_entry_ids','approval_batch','headword','pronunciation','use_type','root_word','meaning','usage_note','derivation','word_parts','word_parts_note','origin_nation','national_usage','variant_forms','variant_pronunciations','family_roots','related_words','example_count','meaning_example_count','word_example_count','phrase_count','idiom_count','related_example_count','example_scope','use_index','sense_id','example_1_celan','example_1_translation','example_1_sense_id','example_2_celan','example_2_translation','example_2_sense_id','example_3_celan','example_3_translation','example_3_sense_id','example_4_celan','example_4_translation','example_4_sense_id','example_5_celan','example_5_translation','example_5_sense_id','related_example_1_celan','related_example_1_translation','related_example_2_celan','related_example_2_translation'];
 fs.mkdirSync(path.dirname(output),{recursive:true});
 fs.writeFileSync(output,[headers.join(','),...rows.map(row=>headers.map(header=>csvEscape(row[header])).join(','))].join('\n'));
 console.log(`Wrote ${rows.length} dictionary rows to ${output}`);

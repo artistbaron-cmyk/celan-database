@@ -1,8 +1,8 @@
 # Dictionary page checks — October 1, 2026
 
-This records the **app-facing dictionary before the corrective passes** and what changed in Passes 1 and 2. No Celan meaning or example sentence was rewritten.
+This records the **app-facing dictionary before the corrective passes** and what changed in Passes 1, 2, and 3. No Celan meaning or example sentence was rewritten in these passes.
 
-The one complete findings list is [affected_items.csv](affected_items.csv). Its Pass 2 columns say what happened to each affected word. [entry_inventory.csv](entry_inventory.csv) has one row for every word. The counts overlap: one word can appear in several groups.
+The one complete findings list is [affected_items.csv](affected_items.csv). Its Pass 2 and Pass 3 columns say what happened to each affected word. [entry_inventory.csv](entry_inventory.csv) has one row for every word. The counts overlap: one word can appear in several groups.
 
 ## Problems found in the original display
 
@@ -13,7 +13,7 @@ The one complete findings list is [affected_items.csv](affected_items.csv). Its 
 | “Word origin” repeats exactly what the morphology cards already say | 829 words | Show the breakdown once. Keep a separate origin note only when it adds information. |
 | Variant spelling has little visual weight | 193 words have variants | Make the variant form prominent and its pronunciation secondary. |
 | Internal review language appears as a usage note | 30 words match specific visible-note patterns | Keep these notes in the files; remove them from the reader's page. An and Tavan are examples. |
-| “Sense assignment pending review” appears above examples | 2,825 direct-example placements across 84 words lack a sense assignment while the word has multiple displayed meanings | Remove the internal message and place each example under its supported meaning after review. An and Aenor are confirmed examples. |
+| “Sense assignment pending review” appears above examples | 2,825 direct-example placements across 84 words lack a sense assignment while the word has multiple displayed meanings | Remove the internal message. Keep each example at word level until its particular meaning has been reviewed. An and Aenor are examples. |
 
 ## Decisions that require reading individual words
 
@@ -57,15 +57,15 @@ The 65 unresolved breakdowns and 26 unresolved family link sets are **review ite
 
 The app's source of truth remains the seven files in `dictionary/app_data`. The embedded offline data and spreadsheet export were rebuilt from those files. The export is a flat editing view: it repeats each headword once per visible meaning and includes only the word parts and family links assigned to that meaning. The reader page groups those meanings under one headword.
 
-**Still open for Pass 3:** long example lists; example-to-meaning placement; words with no direct example; and six exactly repeated meaning wordings. The [corrective plan](corrective_plan.md) describes that work. The separate language audit of sentence accuracy remains later work.
+**Taken into Pass 3:** long example lists; example-to-meaning placement; and words with no direct example. Six exactly repeated meaning wordings still need a meaning review. The [corrective plan](corrective_plan.md) describes the agreed scope. The separate language audit of sentence accuracy remains later work.
 
 Pass 2's automated checks rendered all 1,496 headwords, checked every visible meaning card and word type, verified the 228 saved part orders, checked that open breakdowns and unscoped family sets stay hidden, checked displayed origin text against word-part sources, and confirmed the app bundle and export match the current source files. The edit-and-rebuild and whitespace checks passed. Aenor and Aivkorxar were revisited in the running browser. These are **technical display checks**, not linguistic approval of every derivation or example.
 
 ## Three original pages examined closely before correction
 
 - **Aivkorxar:** The saved parts were `Xar + Aivkor`; the spelling and recorded origin gave `Aivkor + Xar`. Its origin sentence repeated the parts. `Aivakorxar` is a variant. The part order, repetition, and variant display were corrected in Passes 1 and 2.
-- **An:** Its two displayed meanings substantially restate “at/in.” The page shows 875 direct examples, including many that merely contain this common preposition. Its usage note exposes source commentary. The single “related” sentence does not contain the standalone word *an*.
-- **Aenor:** Both “ear” and “moment/instant” are current meanings. The recorded *Aen* + *-or* explanation explicitly applies to the moment meaning and distinguishes it from “ear.” Its morphology and family are now labeled for “moment/instant.” The example labels were removed in Pass 1; placing examples under meanings remains Pass 3 work.
+- **An:** Its two displayed meanings substantially restate “at/in.” The page has 875 direct placements, including many that merely contain this common preposition. Its usage note formerly exposed source commentary. The single “related” sentence does not contain the standalone word *an* and now stays in the related constructions section.
+- **Aenor:** Both “ear” and “moment/instant” are current meanings. The recorded *Aen* + *-or* explanation explicitly applies to the moment meaning and distinguishes it from “ear.” Its morphology and family are now labeled for “moment/instant.” Its two examples have no approved meaning links, so they remain together under “Examples using this word.”
 
 ## What was checked
 

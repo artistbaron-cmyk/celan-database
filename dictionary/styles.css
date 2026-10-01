@@ -964,8 +964,15 @@ input::placeholder { color: #aa9f94; }
 .family-all .family-line { margin-top: 10px; }
 .sentence-card { border-bottom: 1px solid var(--line); }
 .example-list { max-height: 650px; overflow-y: auto; padding-right: 5px; scrollbar-color: #76563b #242321; }
+.example-list--initial { max-height: none; overflow: visible; padding-right: 0; }
+.example-more { margin-top: 12px; }
+.example-more summary { display: inline-block; cursor: pointer; padding: 7px 11px; border: 1px solid #79502c; border-radius: 7px; background: #2c241e; color: #ffc37b; font-weight: 700; }
+.example-more[open] summary { margin-bottom: 12px; }
+.sense-examples { margin-top: 17px; padding-top: 14px; border-top: 1px solid var(--line); }
+.sense-examples h4 { margin: 0 0 10px; color: #d6c2ae; font-size: .82rem; font-weight: 700; }
 .sentence-example { border: 1px solid var(--line); border-radius: 9px; background: #242321; padding: 15px 18px; }
 .sentence-example + .sentence-example { margin-top: 10px; }
+.sentence-example .example-kind { margin: 0 0 6px; color: #e0bd94; font-size: .8rem; font-weight: 700; }
 .sentence-example .example-celan { color: var(--ink); font-size: 1.12rem; font-weight: 700; }
 .sentence-example .example-english { margin-top: 7px; color: #d5c8bb; }
 .example-section-note { margin-bottom: 12px !important; color: var(--muted) !important; }
