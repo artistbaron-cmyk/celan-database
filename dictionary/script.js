@@ -204,7 +204,7 @@ function renderAzBar() {
 function availableWordTypes() {
   const seen = new Set();
   state.groupedEntries.forEach((group) => {
-    (group.uses || []).forEach((use) => {
+    displayUses(group).forEach((use) => {
       const type = (use.type || "").trim();
       if (type) seen.add(type);
     });
@@ -411,24 +411,20 @@ function expressionHeadwords(entry) {
 function renderExpressionDetail(entry) {
   const isSlur = entry.expression_type === "Slur";
   const headwords = expressionHeadwords(entry);
-  const tags = [entry.expression_type, entry.register, entry.origin_nation, entry.review_status]
+  const tags = [entry.expression_type, entry.register, entry.origin_nation]
     .filter(Boolean).map((value) => `<span class="expression-tag">${escapeMarkup(value)}</span>`).join("");
-  const source = [entry.source_entry_ids, entry.approval_batch].filter(Boolean).join(" · ");
   els.expressionEmptyState.classList.add("hidden");
   els.expressionDetailView.classList.remove("hidden");
   els.expressionDetailView.innerHTML = `
     <h2 class="entry-word">${escapeMarkup(entry.celan_expression)}</h2>
     <p class="entry-pronunciation">${escapeMarkup(entry.pronunciation || "Pronunciation not available.")}</p>
     <div class="expression-meta">${tags}</div>
-    ${isSlur ? `<p class="expression-warning"><strong>Offensive language:</strong> This entry is preserved to document how national hostility appears in Celan. It should not be treated as neutral address.${entry.review_status && entry.review_status !== "Approved" ? ` Its source status is ${escapeMarkup(entry.review_status)}.` : ""}</p>` : ""}
+    ${isSlur ? `<p class="expression-warning"><strong>Offensive language:</strong> This entry documents how national hostility appears in Celan. It should not be treated as neutral address.</p>` : ""}
     <div class="detail-grid">
       <section class="card"><h3>Conventional meaning</h3><p>${escapeMarkup(entry.natural_meaning)}</p></section>
-      ${entry.literal_meaning ? `<section class="card"><h3>Literal wording</h3><p>${escapeMarkup(entry.literal_meaning)}</p></section>` : ""}
       ${entry.social_context ? `<section class="card"><h3>Where it lives</h3><p>${escapeMarkup(entry.social_context)}</p></section>` : ""}
       ${entry.tone_or_risk ? `<section class="card"><h3>Tone and boundaries</h3><p>${escapeMarkup(entry.tone_or_risk)}</p></section>` : ""}
-      ${entry.review_reason ? `<section class="card"><h3>Editorial note</h3><p>${escapeMarkup(entry.review_reason)}</p></section>` : ""}
       ${headwords.length ? `<section class="card"><h3>Related dictionary words</h3><div class="expression-headwords">${headwords.map((headword) => `<button class="expression-headword-link" type="button" data-expression-headword="${escapeMarkup(headword)}">${escapeMarkup(headword)}</button>`).join("")}</div></section>` : ""}
-      ${source ? `<section class="card sentence-card"><h3>Source</h3><p>${escapeMarkup(source)}</p></section>` : ""}
     </div>
   `;
   els.expressionDetailView.querySelectorAll("[data-expression-headword]").forEach((button) => {
@@ -1598,10 +1594,8 @@ function findHeadwordsForSourceIds(ids) {
 function renderRuleDetail(rule) {
   const relatedIds = splitIds(rule.related_entry_ids).filter((id) => /^(LX|RM|DM|DX|XR)-/i.test(id));
   const relatedHeadwords = rule.relatedHeadwords?.length ? rule.relatedHeadwords : findHeadwordsForSourceIds(relatedIds);
-  const exampleText = (rule.examples || "").trim();
-  const noteText = (rule.notes || "").trim();
+  const exampleText = (rule.examples || "").replace(/\s*\[[A-Z]{2,3}-[A-Z0-9-]+\]/g, "").trim();
   const bodyText = getRuleBodyText(rule);
-  const showNote = shouldDisplayRuleNote(noteText);
   const hasGuideSections = Array.isArray(rule.guideSections) && rule.guideSections.length > 0;
   const isGuidePage = rule.id.startsWith("LESSON-") || rule.id.startsWith("RG-") || rule.id.startsWith("PAGE-");
 
@@ -1626,12 +1620,6 @@ function renderRuleDetail(rule) {
       <section class="card">
         <h3>Related words</h3>
         <p class="family-line">${renderFamilyLinks(relatedHeadwords, "data-headword")}</p>
-      </section>
-      ` : ""}
-      ${showNote ? `
-      <section class="card">
-        <h3>Editorial Note</h3>
-        <p class="source-note">${noteText}</p>
       </section>
       ` : ""}
     </div>
@@ -2022,7 +2010,7 @@ function applyFilters() {
       return findEnglishMatches(group, q, selectedType).length > 0;
     }
     if (selectedType !== "ALL") {
-      const matchesType = (group.uses || []).some((use) => (use.type || "").trim() === selectedType);
+      const matchesType = displayUses(group).some((use) => (use.type || "").trim() === selectedType);
       if (!matchesType) return false;
     }
     return !q || group.searchText.includes(q);
@@ -2054,7 +2042,7 @@ function renderList(appendFrom = 0) {
     btn.className = group.id === state.selectedId ? "active" : "";
     const matches = state.searchMode === "english"
       ? findEnglishMatches(group, els.searchInput.value, state.activeWordType) : [];
-    const preview = matches.length ? [...new Set(matches.map((sense) => `${sense.type}: ${sense.meaning}`))].join(" ; ") : group.preview;
+    const preview = matches.length ? [...new Set(matches.map((sense) => sense.meaning))].join(" ; ") : (displayUses(group)[0]?.meaning || group.preview);
     const term = document.createElement("span");
     term.className = "term";
     term.textContent = group.term;
@@ -2214,22 +2202,22 @@ function renderExampleSections(group, examples) {
   const render = (e, direct = false) => {
     const meaning = e.sense_meaning || '';
     const sense = meaning ? uses.find(u=>u.meaning===meaning) : null;
-    const senseLabel = direct && uses.length>1 ? (sense ? `${sense.type}: ${sense.meaning}` : 'Sense assignment pending review') : '';
-    const label = /phrase/i.test(e.example_type || '') ? 'Phrase' : e.example_type || '';
-    return `<div class="sentence-example">${senseLabel ? `<p class="sense-usage">${escapeMarkup(senseLabel)}</p>` : ''}${label ? `<small>${escapeMarkup(label)}</small>` : ''}<p>${escapeMarkup(e.celan_text)}<br>${e.translation ? `“${escapeMarkup(e.translation)}”` : ''}</p>${e.analysis ? `<p class="sense-usage">${escapeMarkup(e.analysis)}</p>` : ''}<details class="example-source"><summary>Source</summary><p>${escapeMarkup([e.source_volume,e.source_section,e.entry_id,e.notes].filter(Boolean).join(' · ') || 'Reviewed dictionary example')}</p></details></div>`;
+    // An example without a recorded sense link belongs to the word as a whole.
+    const senseLabel = direct && uses.length>1 && sense ? `${sense.type}: ${sense.meaning}` : '';
+    return `<div class="sentence-example">${senseLabel ? `<p class="sense-usage">${escapeMarkup(senseLabel)}</p>` : ''}<p class="example-celan">${escapeMarkup(e.celan_text)}</p>${e.translation ? `<p class="example-english">“${escapeMarkup(e.translation)}”</p>` : ''}</div>`;
   };
   const groups = [];
-  if (sections.direct.length) groups.push(`<section class="card sentence-card"><h3>Direct usage (${sections.direct.length})</h3>${sections.direct.slice(0,5).map(e=>render(e,true)).join('')}${sections.direct.length>5 ? `<details><summary>View all ${sections.direct.length} usage examples</summary>${sections.direct.slice(5).map(e=>render(e,true)).join('')}</details>` : ''}</section>`);
+  if (sections.direct.length) groups.push(`<section class="card sentence-card"><h3>Examples (${sections.direct.length})</h3><div class="example-list">${sections.direct.map(e=>render(e,true)).join('')}</div></section>`);
   else {
     const attachedForm = uses.every(use => use.type === 'Suffix') ||
       uses.some(use => /attached after the possessed noun/i.test(use.usage || ''));
     const message = attachedForm && sections.related.length
       ? 'This form attaches to another word. See its examples under Related forms and constructions below.'
       : 'No direct usage example is available yet.';
-    groups.push(`<section class="card sentence-card"><h3>Direct usage</h3><p>${message}</p></section>`);
+    groups.push(`<section class="card sentence-card"><h3>Examples</h3><p>${message}</p></section>`);
   }
-  if(sections.related.length) groups.push(`<section class="card sentence-card"><h3>Related forms and constructions (${sections.related.length})</h3><p>These records are linked to this entry but do not demonstrate the standalone word. Reviewed constructions include roots and endings used within other words.</p><details><summary>View related records</summary>${sections.related.map(e=>render(e)).join('')}</details></section>`);
-  if(sections.teaching.length) groups.push(`<section class="card sentence-card"><h3>Teaching notes (${sections.teaching.length})</h3><p>These include explanations, historical illustrations, and counterexamples. They are not all recommended usage.</p><details><summary>View teaching notes</summary>${sections.teaching.map(e=>render(e)).join('')}</details></section>`);
+  if(sections.related.length) groups.push(`<section class="card sentence-card"><h3>Related forms and constructions (${sections.related.length})</h3><p class="example-section-note">These show the word as part of another form or construction.</p><div class="example-list">${sections.related.map(e=>render(e)).join('')}</div></section>`);
+  if(sections.teaching.length) groups.push(`<section class="card sentence-card"><h3>Teaching illustrations (${sections.teaching.length})</h3><p class="example-section-note">These include historical forms and counterexamples; they are not all recommended usage.</p><div class="example-list">${sections.teaching.map(e=>render(e)).join('')}</div></section>`);
   return groups.join('');
 }
 
@@ -2601,8 +2589,7 @@ function revealSelectedResult() {
 function renderFamilyLinks(items, attributeName) {
   return items.map((item, index) => {
     const label = typeof item === "string" ? item : (attributeName === "data-root-term" ? item : item.term);
-    const suffix = index < items.length - 1 ? '<span class="family-separator">, </span>' : "";
-    return `<button class="family-link" ${attributeName}="${escapeMarkup(label)}">${escapeMarkup(label)}</button>${suffix}`;
+    return `<button class="family-link" ${attributeName}="${escapeMarkup(label)}">${escapeMarkup(label)}</button>`;
   }).join("");
 }
 
@@ -2612,12 +2599,16 @@ function isRootUse(use) {
 
 function displayUses(group) {
   const seen = new Set();
-  const distinctUses = (group.uses || []).filter((use) => {
+  // The app-facing sense file marks older source senses as hidden. They must not
+  // reappear on the page simply because they remain in the full source record.
+  const hasVisibleSenses = Array.isArray(group.englishSenses);
+  const distinctUses = (hasVisibleSenses ? group.englishSenses : group.uses || []).filter((use) => {
     const key = `${(use.type || "").trim().toLowerCase()}::${(use.meaning || "").trim().toLowerCase()}`;
     if (seen.has(key)) return false;
     seen.add(key);
     return true;
   });
+  if (hasVisibleSenses) return distinctUses;
   const showRootSense = !!headwordOverride(group.term)?.showRootSense;
   return !showRootSense && distinctUses.some((use) => !isRootUse(use))
     ? distinctUses.filter((use) => !isRootUse(use))
@@ -2632,7 +2623,7 @@ function displayRootWordMarker(group, use) {
   if (headwordOverride(group.term)?.showRootSense) {
     return isRootUse(use) ? "Root Word" : "";
   }
-  return group.hasRootWord || group.uses.some((candidate) => candidate.rootWord) ? "Root Word" : "";
+  return use.rootWord ? "Root Word" : "";
 }
 
 function displayUsageNote(use) {
@@ -2643,6 +2634,12 @@ function displayUsageNote(use) {
   if (/^source extraction remains unchanged\.$/i.test(usage)) return "";
   if (/^source files unchanged\.$/i.test(usage)) return "";
   if (/^root family evidence:/i.test(usage)) return "";
+  if (/^retain as-is\.?$/i.test(usage)) return "";
+  if (/^preserved as standalone root\/morpheme because source clearly defines it\.?$/i.test(usage)) return "";
+  if (/^the source gloss\b/i.test(usage)) return "";
+  if (/^builds the approved\b/i.test(usage)) return "";
+  if (/^names the organ without embedding an unapproved theory\b/i.test(usage)) return "";
+  if (/^source uses\b/i.test(usage)) return "";
   return usage;
 }
 
@@ -2653,24 +2650,33 @@ function renderDetail(group) {
   const override = headwordOverride(group.term);
   const pronunciation = buildPronunciation(group.term, group.entries);
   const metadata = expansionMetadata(group);
+  const displayDerivations = (metadata?.derivations || []).filter(text =>
+    !/\b(?:source-attested|LX-[A-Z0-9-]+|RM-[A-Z0-9-]+|ED-[A-Z0-9-]+)\b/i.test(text));
   const familyRoots = family.familyRoots
     .filter(rootTerm => !(family.sharedAffixes || []).includes(rootTerm))
     .filter((rootTerm) => normalizeHeadword(rootTerm.replace(/-+$/g, "")) !== normalizeHeadword(group.term.replace(/-+$/g, "")))
     ;
   const relatedEntries = family.relatedEntries;
-  const hasFamilyContent = familyRoots.length || relatedEntries.length || (family.sharedAffixes || []).length || family.components?.length || family.notes?.length;
+  const hasFamilyContent = relatedEntries.length > 0;
   const displayExamples = override?.examples?.length ? override.examples : examples;
   const primaryUses = displayUses(group);
+  const hasMultipleMeanings = primaryUses.length > 1;
+  const visibleDerivations = hasMultipleMeanings ? [] : displayDerivations;
+  const hasVisibleMetadata = metadata && (metadata.origins.length || metadata.nationalUses.length || visibleDerivations.length);
+  // Until the word-building review assigns parts and family links to senses,
+  // showing a word-level breakdown beside several meanings can imply a false origin.
+  const showWordBuilding = !hasMultipleMeanings;
+  const morphology = (family.components || []).filter(part => part.form && part.meaning);
   const useMarkup = primaryUses.map((use) => {
     const displayType = displayUseType(group, use);
     const rootWordMarker = displayRootWordMarker(group, use);
     const usageNote = displayUsageNote(use);
+    const repeatedInMorphology = morphology.some(part => part.source?.trim() === usageNote);
     return `
-      <section class="sense-block">
-        ${displayType ? `<p class="sense-type">${displayType}</p>` : ""}
-        ${rootWordMarker ? `<p class="sense-marker">${rootWordMarker}</p>` : ""}
-        <p>${use.meaning || "No meaning available."}</p>
-        ${usageNote ? `<p class="sense-usage">${usageNote}</p>` : ""}
+      <section class="sense-block" data-sense-id="${escapeMarkup(use.senseId || '')}">
+        <div class="sense-heading">${displayType ? `<span class="sense-type">${escapeMarkup(displayType)}</span>` : ""}${rootWordMarker ? `<span class="sense-marker">${escapeMarkup(rootWordMarker)}</span>` : ""}</div>
+        <p class="sense-meaning">${escapeMarkup(use.meaning || "No meaning available.")}</p>
+        ${usageNote && !repeatedInMorphology ? `<p class="sense-usage">${escapeMarkup(usageNote)}</p>` : ""}
       </section>
     `;
   }).join("");
@@ -2678,38 +2684,32 @@ function renderDetail(group) {
   els.emptyState.classList.add("hidden");
   els.detailView.classList.remove("hidden");
   els.detailView.innerHTML = `
-    <h2 class="entry-word">${group.term}</h2>
-    <p class="entry-pronunciation">${pronunciation || "Pronunciation not available."}</p>
+    <div class="entry-title-row"><h2 class="entry-word">${escapeMarkup(group.term)}</h2></div>
+    <p class="entry-pronunciation">${escapeMarkup(pronunciation || "Pronunciation not available.")}</p>
     <div class="detail-grid">
-      <section class="card">
-        <h3>Meaning</h3>
+      <section class="card meaning-card">
         ${useMarkup}
-        ${override?.usageNote ? `<p class="sense-usage">${escapeMarkup(override.usageNote)}</p>` : ""}
+        ${override?.usageNote && displayUsageNote({usage:override.usageNote}) ? `<p class="sense-usage">${escapeMarkup(override.usageNote)}</p>` : ""}
       </section>
-      ${metadata ? `
+      ${metadata?.variants?.length ? `<section class="card variant-card"><h3>Variant forms</h3><div class="variant-list">${metadata.variants.map(variant => `<div class="variant-item"><strong class="variant-form">${escapeMarkup(variant.form)}</strong>${variant.pronunciation ? `<span class="variant-pronunciation">${escapeMarkup(variant.pronunciation)}</span>` : ''}</div>`).join('')}</div></section>` : ''}
+      ${showWordBuilding && morphology.length ? `<section class="card morphology-card"><h3>Morphology</h3><div class="morphology-parts">${morphology.map(part => `<div class="morphology-part"><strong>${escapeMarkup(part.form)}</strong><span>${escapeMarkup(part.meaning.replace(/^=\s*/, ''))}</span></div>`).join('<span class="morphology-plus" aria-hidden="true">+</span>')}</div></section>` : ''}
+      ${hasVisibleMetadata ? `
       <section class="card">
         <h3>Usage</h3>
         ${metadata.origins.length ? `<div class="family-group"><p class="family-label">Origin</p><p class="family-line">${metadata.origins.join(", ")}</p></div>` : ""}
         ${metadata.nationalUses.length ? `<div class="family-group"><p class="family-label">National use</p><p class="family-line">${metadata.nationalUses.join(" ")}</p></div>` : ""}
-        ${metadata.variants.length ? `<div class="family-group"><p class="family-label">Variant forms</p><p class="family-line">${metadata.variants.map((variant) => `${variant.form}${variant.pronunciation ? ` ${variant.pronunciation}` : ""}`).join(", ")}</p></div>` : ""}
-        ${metadata.derivations.length ? `<div class="family-group"><p class="family-label">Word origin</p><p class="family-line">${metadata.derivations.join("; ")}</p></div>` : ""}
-      </section>
-      ` : ""}
-      ${hasFamilyContent ? `
-      <section class="card">
-        <h3>Word Family</h3>
-        ${family.components?.length ? `<div class="family-group"><p class="family-label">Built from</p><ul>${renderComponentLinks(family.components)}</ul></div>` : ''}
-        ${(family.notes || []).map(note=>`<p class="sense-usage">${escapeMarkup(note)}</p>`).join('')}
-        ${(family.sharedAffixes || []).length ? `<div class="family-group"><p class="family-label">Shared affixes</p><p>${renderFamilyLinks(family.sharedAffixes, "data-root-term")}</p></div>` : ""}
-        ${familyRoots.length
-          ? `<div class="family-group"><p class="family-label">Root</p><p class="family-line">${renderFamilyLinks(familyRoots, "data-root-term")}</p></div>`
-          : ""}
-        ${relatedEntries.length
-          ? `<div class="family-group"><p class="family-label">Related words</p><p class="family-line">${renderFamilyLinks(relatedEntries.slice(0,10), "data-headword")}</p>${relatedEntries.length > 10 ? `<details class="family-all"><summary>View all ${relatedEntries.length} related words</summary>${(family.relatedGroups || []).map(bucket=>`<div class="family-group"><p class="family-label">${bucket.key === 'reviewed' ? 'Reviewed links' : 'Connected through ' + escapeMarkup(bucket.label)}</p><p>${renderFamilyLinks(bucket.entries, "data-headword")}</p></div>`).join('')}</details>` : ''}</div>`
-          : (!familyRoots.length ? `` : `<p>No related word family listed.</p>`)}
+        ${visibleDerivations.length ? `<div class="family-group"><p class="family-label">Word origin</p><p class="family-line">${visibleDerivations.join("; ")}</p></div>` : ""}
       </section>
       ` : ""}
       ${renderExampleSections(group, displayExamples)}
+      ${showWordBuilding && hasFamilyContent ? `
+      <section class="card">
+        <h3>Word Family</h3>
+        ${relatedEntries.length
+          ? `<div class="family-group"><p class="family-line">${renderFamilyLinks(relatedEntries.slice(0,10), "data-headword")}</p>${relatedEntries.length > 10 ? `<details class="family-all"><summary>View all ${relatedEntries.length} related words</summary><p class="family-line">${renderFamilyLinks(relatedEntries.slice(10), "data-headword")}</p></details>` : ''}</div>`
+          : `<p>No related words listed.</p>`}
+      </section>
+      ` : ""}
     </div>
   `;
 
@@ -2752,7 +2752,7 @@ async function init() {
   senses.forEach(row => {
     const group = byId.get(row.headword_id);
     if (!group) throw new Error(`Unknown headword in senses: ${row.headword_id}`);
-    const use = {type:row.word_type, meaning:row.meaning, usage:row.usage_note,
+    const use = {senseId:row.sense_id, type:row.word_type, meaning:row.meaning, usage:row.usage_note,
       rootWord:row.root_word === 'Yes', sourceEntries:splitIds(row.source_entry_ids)};
     group.uses.push(use);
     if (row.visible === 'Yes') group.englishSenses.push(use);

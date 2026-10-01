@@ -1,0 +1,1497 @@
+headword,visible_senses,direct_examples,related_records,teaching_illustrations,unassigned_direct_examples,variant_forms,morphology_parts,morphology_order,spelling_order_if_unique,repeated_word_origin,internal_usage_notes,identical_meaning_rows,related_words
+-aen,1,0,3,0,0,0,0,none,,0,0,0,213
+-al,1,0,0,0,0,0,0,none,,0,1,0,1
+-as,1,0,0,0,0,0,0,none,,0,1,0,0
+-ath,1,0,0,0,0,0,0,none,,0,1,0,4
+-el,1,0,0,0,0,0,0,none,,0,0,0,0
+-en,3,0,4,0,0,0,0,none,,0,0,0,3
+-esh,1,0,0,1,0,0,0,none,,0,0,0,1
+-eth,2,0,3,0,0,0,0,none,,0,0,0,4
+-in,2,0,0,0,0,0,0,none,,0,0,0,15
+-ka,1,0,2,0,0,0,0,none,,0,0,0,2
+-lin,1,0,0,0,0,0,0,none,,0,0,0,2
+-n,1,0,0,0,0,0,0,none,,0,0,0,0
+-or,1,0,0,0,0,0,0,none,,0,0,0,35
+-vel,1,0,0,0,0,0,0,none,,0,0,0,0
+Aelin,1,4,0,0,0,0,2,in_order,,1,0,0,0
+Aen,4,72,2,1,72,0,0,none,,0,0,0,3
+Aen'Moreth,1,1,0,0,0,0,0,none,,0,0,0,0
+Aen-,1,0,2,0,0,0,0,none,,0,0,0,9
+Aenaen,1,5,0,0,0,0,2,in_order,,0,0,0,9
+Aennor,1,5,0,0,0,0,2,in_order,,1,0,0,40
+Aennoraen,1,5,0,0,0,0,2,unique_reorder,Aennor + -aen,1,0,0,2
+Aennorral,1,8,0,0,0,0,2,unique_reorder,Aennor + Ral,1,0,0,33
+Aenor,2,2,0,0,2,0,2,in_order,,0,0,0,9
+Aentash,1,2,0,0,0,0,2,unique_reorder,Aen + Tash,1,0,0,11
+Aenthael,1,4,0,0,0,0,2,in_order,,1,0,0,18
+Aenthaelaen,1,4,0,0,0,0,2,unique_reorder,Aenthael + -aen,1,0,0,3
+Aenthaelral,1,4,0,0,0,1,2,unique_reorder,Aenthael + Ral,1,0,0,34
+Aenvor,1,1,0,0,0,0,0,none,,0,0,0,0
+Aenzhir,1,2,0,0,0,0,2,in_order,,1,0,0,47
+Aiv,1,39,0,0,0,0,0,none,,0,0,0,4
+Aivaen,1,5,0,0,0,0,2,in_order,,1,0,0,4
+Aivkor,1,24,0,0,0,1,2,in_order,,1,0,0,25
+Aivkorxar,1,6,0,0,0,1,2,unique_reorder,Aivkor + Xar,1,0,0,45
+Alor,1,1,0,0,0,0,0,none,,0,0,0,2
+Aloraen,1,3,0,0,0,0,2,in_order,,1,0,0,2
+Amthaen,1,1,0,0,0,0,0,none,,0,0,0,5
+An,2,875,1,12,875,0,0,none,,0,1,0,10
+Andavaen,1,2,0,0,0,0,3,no_exact_spelling_match,,1,0,0,29
+Anen,1,1,0,0,0,0,0,none,,0,0,0,0
+Aneshxar,1,2,0,0,0,1,3,in_order,,1,0,0,89
+Anmek,1,2,0,0,0,0,2,in_order,,1,0,0,45
+Anor,1,2,0,0,0,0,2,in_order,,1,0,0,10
+Anshanaen,1,2,0,0,0,0,3,in_order,,1,0,0,44
+Anvanesh,1,2,0,0,0,0,2,in_order,,1,0,0,14
+Anvekaen,2,9,0,0,9,0,3,in_order,,1,0,0,52
+Ar,1,1,0,0,0,0,0,none,,0,0,0,1
+Arshor,1,1,0,0,0,0,0,none,,0,0,0,2
+Arth,1,36,0,0,0,0,0,none,,0,0,0,12
+Arthaxar,1,5,0,0,0,1,2,no_exact_spelling_match,,1,0,0,55
+Arthen,1,1,1,1,0,0,0,none,,0,0,0,12
+Arthen'taleth,1,1,0,0,0,0,0,none,,0,0,0,0
+Arthkal,1,4,0,0,0,1,2,in_order,,1,0,0,41
+Arthkaraen,1,2,0,0,0,1,3,in_order,,1,0,0,25
+Arthlor,1,1,0,0,0,0,2,no_exact_spelling_match,,0,0,0,12
+Arthrin,1,2,0,0,0,1,2,in_order,,1,0,0,41
+Arthverd,1,2,0,0,0,0,2,in_order,,1,0,0,29
+Arthzhelshara,1,2,0,0,0,1,2,in_order,,1,0,0,14
+Aru,1,2,0,0,0,0,0,none,,0,0,0,11
+Aruaen,1,4,0,0,0,0,2,in_order,,1,0,0,11
+Arueth,1,2,0,0,0,0,2,in_order,,1,0,0,11
+Arukel,1,3,0,0,0,0,2,in_order,,1,0,0,35
+Arukelaen,1,2,0,0,0,0,2,unique_reorder,Arukel + -aen,1,0,0,11
+Arural,1,38,0,0,0,0,2,in_order,,1,0,0,11
+Athnor,1,2,0,0,0,1,2,in_order,,1,0,0,37
+Awek,1,1,0,0,0,0,0,none,,0,0,0,1
+Awekshara,1,6,0,0,0,0,2,in_order,,1,0,0,29
+Azan,1,0,0,0,0,0,0,none,,0,1,0,2
+Azfel,1,1,0,0,0,0,0,none,,0,0,0,2
+Azon,1,2,0,0,0,0,0,none,,0,0,0,0
+Azron,1,6,0,0,0,0,0,none,,0,0,0,2
+Bal,1,3,0,0,0,0,0,none,,0,0,0,11
+Balemilaen,1,2,0,0,0,0,3,unique_reorder,Bal + Emil + -aen,1,0,0,24
+Balpral,1,2,0,0,0,1,2,in_order,,1,0,0,57
+Balpralaen,1,3,0,0,0,1,3,in_order,,1,0,0,57
+Balral,1,21,0,0,0,1,2,in_order,,1,0,0,42
+Balrin,1,1,0,0,0,0,2,in_order,,0,0,0,40
+Balshan,1,2,0,0,0,0,2,in_order,,1,0,0,46
+Balvek,1,2,0,0,0,0,2,in_order,,1,0,0,53
+Bel,1,3,1,1,0,0,0,none,,0,0,0,50
+Bel'Rathorimeth,1,1,0,0,0,0,0,none,,0,0,0,0
+Bel-,1,0,0,1,0,0,0,none,,0,0,0,50
+Belar,1,2,0,0,0,0,2,in_order,,0,1,0,51
+Beldava,1,5,0,0,0,0,2,unique_reorder,Bel + Dava,1,0,0,69
+Belkes,1,2,0,0,0,0,2,in_order,,1,0,0,64
+Belkor,1,7,0,0,0,0,2,in_order,,0,0,0,68
+Belkoraen,1,2,0,0,0,0,3,in_order,,1,0,0,68
+Belkren,1,3,0,0,0,1,2,in_order,,1,0,0,53
+Belmek,1,4,0,0,0,0,2,in_order,,1,0,0,86
+Belmekaen,1,2,0,0,0,0,2,unique_reorder,Belmek + -aen,1,0,0,2
+Belmor,1,1,0,0,0,0,2,in_order,,0,1,0,84
+Belnoraen,1,2,0,0,0,0,3,in_order,,1,0,0,79
+Belor,1,3,0,0,0,0,2,in_order,,1,0,0,51
+Belpralmek,1,3,0,0,0,1,3,in_order,,1,0,0,130
+Belraku,1,2,0,0,0,0,2,unique_reorder,Bel + Raku,1,0,0,59
+Belreth,1,3,0,0,0,1,1,no_exact_spelling_match,,1,0,0,71
+Belrin,1,12,0,0,0,0,2,in_order,,0,0,0,81
+Belrinpel,1,4,0,0,0,1,2,in_order,,1,0,0,51
+Belshan,1,2,0,0,0,0,2,in_order,,1,0,0,85
+Belshara,4,5,0,1,5,0,2,in_order,,0,0,0,77
+Belshen,1,1,0,0,0,0,2,unique_reorder,Bel + Shen,0,0,0,82
+Belsura,1,2,0,0,0,0,2,unique_reorder,Bel + Sura,1,0,0,51
+Belthal,1,2,0,1,0,0,2,in_order,,0,0,0,75
+Belvekaen,1,2,0,0,0,0,3,in_order,,1,0,0,92
+Belvelrathor,1,2,0,0,0,0,1,no_exact_spelling_match,,1,0,0,55
+Belverd,1,2,0,0,0,0,2,in_order,,1,0,0,66
+Belvethral,1,1,0,0,0,0,3,unique_reorder,Bel + veth + ral,0,0,0,93
+Belvok,1,16,0,0,0,0,2,in_order,,0,0,0,71
+Belvoklor,1,3,0,0,0,1,2,unique_reorder,Belvok + Lor,1,0,0,21
+Belwek,1,5,0,0,0,2,2,in_order,,1,0,0,69
+Belxar,1,6,0,0,0,0,2,in_order,,1,0,0,96
+Belxaraen,1,12,0,0,0,0,2,unique_reorder,Belxar + -aen,1,0,0,3
+Belzhir,1,5,0,0,0,0,2,in_order,,1,0,0,86
+Belzhirkavor,1,2,0,0,0,1,4,in_order,,1,0,0,105
+Belzhirvek,1,6,0,0,0,0,2,in_order,,1,0,0,51
+Belzor,1,9,0,0,0,1,2,unique_reorder,Bel + Zor,1,0,0,59
+Belzoraen,1,2,0,0,0,1,3,unique_reorder,Bel + Zor + -aen,1,0,0,59
+Belzorral,1,6,0,0,0,1,2,unique_reorder,Belzor + Ral,1,0,0,41
+Braskal,1,0,0,0,0,0,0,none,,0,0,0,0
+Breka,1,2,0,0,0,0,0,none,,0,0,0,0
+Bren,2,8,0,0,8,0,0,none,,0,0,0,6
+Brenmor,1,1,0,0,0,0,2,in_order,,0,0,0,40
+Brenvor,1,1,0,0,0,0,2,in_order,,0,0,0,6
+Brinnek,1,0,0,0,0,0,0,none,,0,0,0,0
+Bros,1,2,0,0,0,0,0,none,,0,0,0,6
+Broslak,1,1,0,0,0,0,2,in_order,,0,0,0,9
+Brosmorl,1,4,0,0,0,1,2,in_order,,1,0,0,28
+Brosrin,1,1,0,0,0,0,2,in_order,,0,0,0,35
+Brossadar,1,2,0,0,0,0,2,in_order,,1,0,0,10
+Brosshara,1,2,0,0,0,1,2,in_order,,1,0,0,34
+Brossov,1,2,0,0,0,1,2,unique_reorder,Bros + Sov,1,0,0,9
+Daku,1,2,0,0,0,0,0,none,,0,0,0,1
+Dakuaen,1,2,0,0,0,0,2,in_order,,1,0,0,1
+Dar,1,26,0,0,0,0,0,none,,0,0,0,1
+Daraen,1,2,0,0,0,0,2,in_order,,1,0,0,1
+Dava,1,2,0,0,0,0,0,none,,0,1,0,19
+Davapral,1,2,0,0,0,0,2,in_order,,1,0,0,67
+Davashanaen,1,2,0,0,0,0,3,in_order,,1,0,0,54
+Davaxar,1,6,0,0,0,0,2,in_order,,1,0,0,61
+Davel,1,2,0,0,0,0,0,none,,0,0,0,0
+Del,1,2,1,0,0,0,0,none,,0,0,0,10
+Deldavaen,1,2,0,0,0,0,3,no_exact_spelling_match,,1,0,0,28
+Delkorin,1,2,0,0,0,0,2,in_order,,1,0,0,17
+Delkormek,1,4,0,0,0,0,2,in_order,,1,0,0,13
+Delmorl,1,2,0,0,0,0,2,in_order,,1,0,0,32
+Delnor,1,2,0,0,0,0,2,in_order,,1,0,0,39
+Delpel,1,2,0,0,0,0,2,in_order,,1,0,0,35
+Delvelrathor,1,2,0,0,0,0,1,no_exact_spelling_match,,1,0,0,15
+Delwek,1,3,0,0,0,2,2,in_order,,1,0,0,28
+Deni,1,3,0,0,0,0,2,in_order,,1,0,0,3
+Denla,1,2,0,0,0,0,2,in_order,,1,0,0,3
+Denya,1,4,0,0,0,0,2,in_order,,1,0,0,3
+Dor,1,56,0,0,0,0,0,none,,0,0,0,2
+Doran,1,2,0,0,0,0,0,none,,0,0,0,0
+Dorvekaen,1,4,0,0,0,0,3,in_order,,1,0,0,44
+Dov,1,2,0,0,0,0,0,none,,0,0,0,6
+Dovaen,1,4,0,0,0,0,2,in_order,,1,0,0,6
+Dovath,1,8,0,0,0,0,2,in_order,,1,0,0,14
+Dovhav,1,2,0,0,0,1,2,unique_reorder,Dov + Hav,1,0,0,13
+Dovhavral,1,2,0,0,0,1,2,unique_reorder,Dovhav + Ral,1,0,0,38
+Dovin,1,6,0,0,0,0,2,in_order,,1,0,0,6
+Dovkel,1,7,0,0,0,0,2,in_order,,1,0,0,31
+Dovkelaen,1,2,0,0,0,0,2,unique_reorder,Dovkel + -aen,1,0,0,1
+Dral,2,5,0,2,5,0,0,none,,0,0,0,9
+Dralbelaen,1,2,0,0,0,0,3,in_order,,1,0,0,59
+Dralfel,1,2,0,0,0,0,2,in_order,,1,0,0,43
+Drallor,1,2,0,0,0,1,2,in_order,,1,0,0,29
+Dralorim,1,6,0,0,0,0,2,in_order,,0,0,0,9
+Dralshaneth,1,1,0,0,0,0,3,in_order,,0,0,0,48
+Dralshara,1,9,0,0,0,0,2,in_order,,1,0,0,37
+Dralshen,1,2,0,0,0,0,2,in_order,,1,0,0,42
+Dralxar,1,3,0,0,0,0,2,in_order,,1,0,0,53
+Dralxaraen,1,2,0,0,0,0,2,unique_reorder,Dralxar + -aen,1,0,0,1
+Dren,3,238,1,0,238,0,0,none,,0,0,0,40
+Dren-,1,0,0,0,0,0,0,none,,0,0,0,40
+Drenaen,1,5,0,0,0,0,2,in_order,,0,0,0,40
+Drenalor,1,1,0,0,0,0,2,unique_reorder,Dren + alor,0,0,0,42
+Drenartheth,1,2,0,0,0,0,3,in_order,,1,0,0,52
+Drenesh,1,2,0,0,0,0,2,in_order,,1,0,0,74
+Dreneth,1,2,0,0,0,0,2,in_order,,0,0,0,40
+Drenfel,1,4,0,0,0,0,2,in_order,,1,0,0,71
+Drenfellak,1,5,0,0,0,0,2,in_order,,1,0,0,41
+Drenjor,1,2,0,0,0,0,2,in_order,,1,0,0,66
+Drenkaesh,1,1,0,0,0,0,0,none,,0,0,0,0
+Drenkavvek,1,2,0,0,0,1,3,in_order,,1,0,0,99
+Drenkor,1,1,0,0,0,0,2,in_order,,0,0,0,58
+Drenkorath,2,2,0,0,2,0,3,unique_reorder,Dren + kor + ath,0,0,0,66
+Drenlivar,1,1,0,0,0,0,2,unique_reorder,Dren + livar,0,0,0,44
+Drenpralaen,1,3,0,0,0,1,3,in_order,,1,0,0,88
+Drenrek,1,2,0,0,0,0,2,in_order,,1,0,0,47
+Drenselaen,1,18,0,0,0,0,3,in_order,,1,0,0,50
+Drenshal,1,1,0,0,0,0,2,in_order,,0,0,0,64
+Drentalaen,1,3,0,0,0,1,3,in_order,,1,0,0,48
+Drenvar,1,2,0,0,0,0,1,no_exact_spelling_match,,1,0,0,1
+Drenvaraen,1,6,0,0,0,0,3,in_order,,1,0,0,64
+Drenvelesh,1,1,0,0,0,0,3,in_order,,0,0,0,114
+Drenverd,1,3,0,0,0,0,2,in_order,,1,0,0,57
+Drenvokesh,1,1,0,0,0,0,3,in_order,,0,0,0,91
+Drenvor,1,20,0,0,0,0,2,in_order,,0,0,0,40
+Dresh,1,5,0,0,0,0,0,none,,0,0,0,1
+Dreshal,1,3,0,0,0,0,2,no_exact_spelling_match,,1,0,0,25
+Dro,1,8,0,0,0,0,0,none,,0,0,0,14
+Drobalaen,1,2,0,0,0,0,3,in_order,,1,0,0,25
+Drobel,1,5,0,0,0,0,2,in_order,,1,0,0,64
+Drojormek,1,3,0,0,0,0,3,in_order,,1,0,0,75
+Drokav,1,2,0,0,0,0,2,in_order,,1,0,0,33
+Dronjor,1,2,0,0,0,0,2,unique_reorder,Dro + Njor,1,0,0,15
+Dropralaen,1,2,0,0,0,0,2,no_exact_spelling_match,,1,0,0,62
+Droral,1,4,0,0,0,0,2,in_order,,1,0,0,45
+Drorav,1,2,0,0,0,0,2,in_order,,1,0,0,27
+Drosel,1,4,0,0,0,0,2,in_order,,1,0,0,25
+Droshara,1,4,0,0,0,0,2,in_order,,1,0,0,42
+Droshen,1,5,0,0,0,0,2,in_order,,1,0,0,47
+Duma,1,2,0,0,0,0,0,none,,0,0,0,3
+Dumaen,1,2,0,0,0,0,2,no_exact_spelling_match,,1,0,0,3
+Dumanali,1,1,0,0,0,0,2,unique_reorder,Duma + Nali,1,0,0,10
+Dumeth,1,2,0,0,0,0,2,no_exact_spelling_match,,1,0,0,3
+Ekor,1,2,0,0,0,0,2,no_exact_spelling_match,,0,0,0,19
+Elan,1,2,0,0,0,0,0,none,,0,0,0,0
+Elor,1,0,0,0,0,0,0,none,,0,0,0,1
+Em,2,2,0,0,2,0,0,none,,0,0,0,0
+Emil,1,38,0,0,0,0,0,none,,0,0,0,13
+Emilbel,1,1,0,0,0,0,2,unique_reorder,Emil + Bel,1,0,0,63
+Emildren,1,4,0,0,0,1,2,unique_reorder,Emil + Dren,1,0,0,53
+Emilolan,1,2,0,0,0,0,2,unique_reorder,Emil + Olan,1,0,0,19
+Emilpral,1,4,0,0,0,0,1,no_exact_spelling_match,,1,0,0,59
+Emilpralaen,1,2,0,0,0,0,3,unique_reorder,Emil + Pral + -aen,1,0,0,59
+Emilpraleth,1,3,0,0,0,0,3,unique_reorder,Emil + Pral + -eth,1,0,0,60
+Emilrav,1,2,0,0,0,1,1,no_exact_spelling_match,,1,0,0,26
+Emilshan,1,2,0,0,0,0,2,unique_reorder,Emil + Shan,1,0,0,48
+Emilshara,1,2,0,0,0,0,2,unique_reorder,Emil + Shara,1,0,0,41
+Emiltash,1,2,0,0,0,0,2,unique_reorder,Emil + Tash,1,0,0,15
+Emilzhir,1,2,0,0,0,0,2,unique_reorder,Emil + Zhir,1,0,0,51
+Eran,1,3,0,0,0,0,0,none,,0,0,0,0
+Esh,3,37,0,1,37,0,0,none,,0,0,0,38
+Esh-,1,0,0,0,0,0,0,none,,0,0,0,38
+Esharu,1,2,0,0,0,0,2,unique_reorder,Esh + Aru,1,0,0,49
+Eshdren,1,2,0,0,0,0,2,in_order,,1,0,0,74
+Eshdrenaen,1,2,0,0,0,1,3,in_order,,1,0,0,74
+Eshen,1,0,1,0,0,0,0,none,,0,0,0,0
+Eshjor,1,3,0,0,0,0,2,in_order,,1,0,0,64
+Eshkar,1,2,0,0,0,0,2,in_order,,1,0,0,51
+Eshkrezaen,1,2,0,0,0,0,3,in_order,,1,0,0,63
+Eshlin,1,4,0,0,0,0,2,in_order,,0,0,0,38
+Eshlor,1,3,0,0,0,0,2,in_order,,1,0,0,57
+Eshlorien,1,1,0,0,0,0,2,no_exact_spelling_match,,0,0,0,43
+Eshlorral,1,2,0,0,0,1,3,in_order,,1,0,0,85
+Eshmekor,1,3,0,0,0,0,2,in_order,,1,0,0,40
+Eshnor,1,2,0,1,0,0,2,in_order,,1,0,0,66
+Eshpral,1,2,0,0,0,1,2,in_order,,1,0,0,82
+Eshpralaen,1,2,0,0,0,0,2,no_exact_spelling_match,,1,0,0,82
+Eshpralor,1,3,0,0,0,1,3,in_order,,1,0,0,82
+Eshreth,1,1,0,0,0,0,0,none,,0,0,0,0
+Eshtenor,1,1,0,0,0,0,2,no_exact_spelling_match,,0,0,0,41
+Eshthael,1,2,0,0,0,0,2,unique_reorder,Esh + thael,0,0,0,44
+Eshtrakor,1,2,0,0,0,0,2,in_order,,1,0,0,41
+Eshvan,1,3,0,0,0,0,2,unique_reorder,Esh + Van,1,0,0,40
+Eshvaraen,1,3,0,0,0,0,3,in_order,,1,0,0,61
+Eshvek,1,4,0,0,0,0,2,in_order,,1,0,0,80
+Eshvelaneth,2,2,0,0,2,0,3,in_order,,0,0,0,78
+Eshvelor,1,1,0,0,0,0,2,in_order,,0,0,0,38
+Eshvilor,1,1,0,0,0,0,2,unique_reorder,Esh + vilor,0,0,0,41
+Eshweknor,1,2,0,1,0,1,3,in_order,,1,0,0,83
+Eshxar,1,3,0,0,0,1,2,in_order,,1,0,0,79
+Eth,2,0,2,0,0,0,0,none,,0,0,0,55
+Evan,1,11,0,0,0,0,0,none,,0,0,0,2
+Fah,2,4,2,2,4,0,0,none,,0,0,0,5
+Fah'thar,1,1,0,0,0,0,0,none,,0,0,0,0
+Fah'tharaen,1,1,0,0,0,0,0,none,,0,0,0,0
+Fahaen,1,5,0,0,0,0,2,no_exact_spelling_match,,0,0,0,5
+Faheth,1,2,0,0,0,0,2,in_order,,0,0,0,5
+Fahohm,1,2,0,0,0,0,2,in_order,,1,0,0,15
+Fahohmaen,1,2,0,0,0,0,2,unique_reorder,Fahohm + -aen,1,0,0,1
+Fahreth,1,2,0,0,0,0,2,in_order,,1,0,0,27
+Fahrethaen,1,2,0,0,0,0,2,unique_reorder,Fahreth + -aen,1,0,0,1
+Fek,1,2,0,0,0,0,0,none,,0,0,0,1
+Fekaen,1,3,0,0,0,0,2,in_order,,1,0,0,1
+Fel,1,4,0,0,0,0,0,none,,0,0,0,32
+Felath,1,2,0,0,0,0,2,in_order,,1,0,0,40
+Felbelor,1,10,0,0,0,0,2,in_order,,1,0,0,33
+Feldrenaen,1,2,0,0,0,0,3,in_order,,1,0,0,71
+Feleth,1,1,0,0,0,0,2,in_order,,0,0,0,32
+Felin,1,3,0,0,0,0,2,in_order,,0,0,0,32
+Felka,1,47,0,0,0,0,0,none,,0,1,0,0
+Felkal,1,2,0,0,0,0,2,in_order,,1,0,0,61
+Felkalrav,1,2,0,0,0,0,1,no_exact_spelling_match,,1,0,0,38
+Fellak,1,2,0,0,0,0,2,in_order,,1,0,0,36
+Fellor,1,2,0,0,0,1,2,in_order,,1,0,0,52
+Fellun,1,2,0,0,0,0,2,in_order,,1,0,0,36
+Felmek,1,3,0,0,0,0,2,in_order,,1,0,0,68
+Felmekreth,1,2,0,0,0,1,2,in_order,,1,0,0,34
+Felmor,1,3,0,0,0,0,2,in_order,,1,0,0,66
+Felmorl,1,3,0,0,0,0,2,in_order,,1,0,0,54
+Felnor,1,2,0,0,0,0,2,in_order,,1,0,0,61
+Felorin,2,3,0,0,3,0,2,in_order,,0,0,0,32
+Felsadar,1,2,0,0,0,0,2,in_order,,1,0,0,36
+Felshara,1,3,0,0,0,0,2,in_order,,1,0,0,60
+Felshen,1,4,0,0,0,0,2,in_order,,1,0,0,66
+Felshenaen,1,2,0,0,0,0,2,unique_reorder,Felshen + -aen,1,0,0,1
+Felthamaen,1,3,0,0,0,0,3,in_order,,1,0,0,39
+Felvek,1,3,0,0,0,0,2,in_order,,1,0,0,74
+Felverd,1,3,0,0,0,0,2,in_order,,1,0,0,49
+Felvin,1,1,0,0,0,0,2,in_order,,0,0,0,42
+Felvora,1,2,0,0,0,0,2,unique_reorder,Fel + Vora,1,0,0,34
+Felzhir,1,3,0,0,0,0,2,in_order,,1,0,0,70
+Fen-,1,0,0,0,0,0,0,none,,0,0,0,1
+Fena,1,2,0,0,0,0,0,none,,0,0,0,0
+Feneth,1,4,0,0,0,0,2,in_order,,0,0,0,0
+Fennil,1,5,0,0,0,0,0,none,,0,0,0,4
+Fennildren,1,4,0,0,0,1,2,in_order,,1,0,0,44
+Fennilphel,1,7,0,0,0,0,2,in_order,,1,0,0,11
+Fennlur,1,0,0,0,0,0,0,none,,0,0,0,0
+Fenrek,1,3,0,0,0,0,2,unique_reorder,Fen + rek,0,0,0,7
+Gav,1,2,0,0,0,0,0,none,,0,0,0,3
+Gavaen,1,2,0,0,0,0,2,in_order,,0,0,0,3
+Gavin,1,3,0,0,0,0,2,in_order,,1,0,0,3
+Gavral,1,10,0,0,0,1,2,in_order,,1,0,0,34
+Gora,1,2,0,0,0,0,0,none,,0,0,0,4
+Gorm,1,3,0,0,0,0,0,none,,0,0,0,2
+Gormeth,1,1,0,0,0,0,2,in_order,,0,0,0,2
+Grivol,1,0,0,0,0,0,0,none,,0,0,0,0
+Harven,1,1,0,0,0,0,0,none,,0,0,0,0
+Hav,1,3,0,0,0,0,0,none,,0,0,0,7
+Havaen,1,3,0,0,0,0,2,in_order,,1,0,0,7
+Haveth,1,2,0,0,0,0,2,in_order,,1,0,0,7
+Havrath,1,3,0,0,0,0,2,in_order,,1,0,0,18
+Havrathaen,1,2,0,0,0,0,2,unique_reorder,Havrath + -aen,1,0,0,7
+Hek-,1,0,0,0,0,0,0,none,,0,0,0,0
+Hek-Mel-,1,0,0,0,0,0,0,none,,0,0,0,0
+Hir,1,2,0,0,0,0,0,none,,0,0,0,2
+Hiraen,1,3,0,0,0,0,2,in_order,,1,0,0,2
+Hirmor,1,2,0,0,0,0,2,in_order,,1,0,0,36
+I,1,422,1,0,0,0,0,none,,0,0,0,1
+Ian,1,0,82,0,0,0,0,none,,0,0,0,1
+Ianath,1,2,0,0,0,0,2,unique_reorder,Ian + -ath,1,0,0,1
+Ilan,1,2,0,0,0,0,0,none,,0,0,0,1
+Ilin,2,33,1,0,33,0,0,none,,0,0,0,1
+Ilinor,1,2,0,0,0,0,2,unique_reorder,Ilin + -or,0,0,0,1
+Im,2,2,0,0,2,0,0,none,,0,0,0,6
+Imen,1,1,0,0,0,0,0,none,,0,0,0,0
+Inko,1,1,0,0,0,0,0,none,,0,0,0,0
+Jek,1,2,0,0,0,0,0,none,,0,0,0,11
+Jekaen,1,7,0,0,0,0,2,in_order,,1,0,0,11
+Jekkal,1,2,0,0,0,0,2,in_order,,1,0,0,40
+Jekkalrav,1,2,0,0,0,1,1,no_exact_spelling_match,,1,0,0,17
+Jekkel,1,2,0,0,0,1,2,in_order,,1,0,0,35
+Jekmek,1,2,0,0,0,1,2,in_order,,1,0,0,46
+Jekthamaen,1,3,0,0,0,1,3,in_order,,1,0,0,18
+Jekvarin,1,1,0,0,0,0,2,in_order,,0,0,0,11
+Jekvin,1,1,0,0,0,0,2,in_order,,0,0,0,22
+Jekvor,1,1,0,0,0,0,2,in_order,,0,1,0,11
+Jekzhirvek,1,2,0,0,0,1,3,in_order,,1,0,0,90
+Jel,1,2,0,0,0,0,0,none,,0,0,0,3
+Jelaen,1,3,0,0,0,0,2,in_order,,1,0,0,3
+Jelkor,1,5,0,0,0,0,2,in_order,,1,0,0,22
+Jelvor,1,1,0,0,0,0,2,in_order,,0,1,0,3
+Jexhaer,1,1,0,0,0,0,0,none,,0,0,0,0
+Jin,1,2,0,0,0,0,0,none,,0,0,0,1
+Jindral,1,1,0,0,0,0,2,in_order,,0,0,0,10
+Jor,2,16,0,1,13,0,0,none,,0,0,0,26
+Joreth,1,2,0,0,0,0,2,in_order,,0,0,0,26
+Jorkal,1,1,0,0,0,0,2,in_order,,0,0,0,55
+Jorlin,1,1,0,0,0,0,2,in_order,,0,0,0,26
+Jornak,1,6,0,0,0,0,2,unique_reorder,Jor + Nak,1,0,0,39
+Jornakaen,1,2,0,0,0,0,2,unique_reorder,Jornak + -aen,1,0,0,13
+Jornor,1,2,0,0,0,0,2,in_order,,1,0,0,55
+Jorvak,2,3,0,0,3,0,2,in_order,,0,0,0,26
+Jorvalin,1,1,0,0,0,0,2,in_order,,0,0,0,26
+Jorvar,2,2,0,0,2,0,2,in_order,,1,0,1,50
+Jorvaraen,1,2,0,0,0,0,2,unique_reorder,Jorvar + -aen,1,0,0,1
+Jorvilor,1,1,0,0,0,0,2,unique_reorder,Jor + vilor,0,0,0,29
+Jorzhael,1,3,0,0,0,0,2,in_order,,1,0,0,39
+Jorzhel,1,2,0,0,0,0,2,in_order,,1,0,0,48
+Jorzhelkav,1,3,0,0,0,0,2,in_order,,1,0,0,27
+Ka,2,32,9,1,32,0,0,none,,0,0,0,26
+Ka-Shen,1,1,0,0,0,0,2,in_order,,0,0,0,59
+Kaan,1,2,0,0,0,0,2,in_order,,1,0,0,36
+Kaarthaen,1,2,0,0,0,0,3,in_order,,1,0,0,38
+Kaaruaen,1,2,0,0,0,0,3,unique_reorder,Ka + Aru + -aen,1,0,0,36
+Kaarueth,1,2,0,0,0,0,3,unique_reorder,Ka + Aru + -eth,1,0,0,36
+Kabelmekaen,1,2,0,0,0,0,3,unique_reorder,Ka + Belmek + -aen,1,0,0,28
+Kadfel,1,1,0,0,0,0,0,none,,0,0,0,35
+Kadon,1,1,0,0,0,0,0,none,,0,0,0,0
+Kadren,1,0,0,0,0,0,0,none,,0,1,0,3
+Kadreneth,1,7,0,0,0,0,2,in_order,,0,0,0,3
+Kadro,1,2,0,0,0,0,2,in_order,,1,0,0,38
+Kadromav,1,2,0,0,0,0,3,in_order,,1,0,0,49
+Kadromor,1,2,0,0,0,0,3,in_order,,1,0,0,72
+Kadron,1,6,0,0,0,0,0,none,,0,0,0,3
+Kaemilpraleth,1,2,0,0,0,0,2,in_order,,1,0,0,27
+Kakalrav,1,2,0,0,0,0,1,no_exact_spelling_match,,1,0,0,32
+Kakesrin,1,2,0,0,0,0,2,in_order,,1,0,0,30
+Kakesrinaen,1,2,0,0,0,0,2,unique_reorder,Kakesrin + -aen,1,0,0,2
+Kakesrineth,1,3,0,0,0,0,2,unique_reorder,Kakesrin + -eth,1,0,0,2
+Kal,3,55,1,0,55,0,0,none,,0,0,0,29
+Kal-,1,0,2,0,0,0,0,none,,0,0,0,29
+Kalaru,1,2,0,0,0,0,2,unique_reorder,Kal + Aru,1,0,0,40
+Kalbelrin,1,2,0,0,0,0,2,in_order,,1,0,0,32
+Kaldov,1,2,0,0,0,0,2,unique_reorder,Kal + Dov,1,0,0,35
+Kaleth,2,25,0,1,25,0,0,none,,0,0,0,30
+Kalkel,1,7,0,0,0,1,2,in_order,,1,0,0,54
+Kalmek,1,13,0,0,0,0,2,in_order,,1,0,0,64
+Kalmetha,1,2,0,0,0,0,2,unique_reorder,Kal + Metha,1,0,0,31
+Kalmorl,1,2,0,0,0,1,2,in_order,,1,0,0,51
+Kalor,2,2,0,0,2,0,0,none,,0,0,0,0
+Kalorinath,1,1,0,0,0,0,3,no_exact_spelling_match,,0,0,0,42
+Kalrath,1,1,0,0,0,0,2,in_order,,0,0,0,40
+Kalrav,1,3,0,0,0,0,2,in_order,,1,0,0,48
+Kalravaen,1,2,0,0,0,0,1,no_exact_spelling_match,,1,0,0,6
+Kalravor,1,5,0,0,0,0,1,no_exact_spelling_match,,1,0,0,16
+Kalrin,1,6,0,1,0,0,2,in_order,,1,0,0,58
+Kalshen,1,2,0,0,0,0,2,in_order,,1,0,0,62
+Kalvar,1,1,0,0,0,0,0,none,,0,0,0,2
+Kalvargora,1,2,0,0,0,0,2,unique_reorder,Kalvar + Gora,1,0,0,6
+Kalvok,1,2,0,0,0,0,2,in_order,,0,0,0,48
+Kalvokesh,1,1,0,0,0,0,3,in_order,,0,0,0,83
+Kalwek,1,3,0,0,0,2,2,in_order,,1,0,0,47
+Kaohmaen,1,2,0,0,0,0,2,in_order,,1,0,0,27
+Kar,2,3,0,0,3,0,0,none,,0,0,0,13
+Kareth,1,16,0,0,0,0,2,in_order,,0,0,0,13
+Karethaen,1,13,0,0,0,0,2,unique_reorder,Kareth + -aen,0,0,0,13
+Karjor,1,2,0,0,0,0,2,in_order,,1,0,0,39
+Karmek,1,2,0,0,0,0,2,in_order,,1,0,0,48
+Karthael,1,4,0,0,0,1,2,in_order,,1,0,0,21
+Karthaelaen,1,4,0,0,0,1,2,unique_reorder,Karthael + -aen,1,0,0,2
+Karthaelral,1,4,0,0,0,1,2,unique_reorder,Karthael + Ral,1,0,0,33
+Karvek,1,29,0,0,0,0,2,in_order,,1,0,0,55
+Kasharaen,1,3,0,0,0,0,3,no_exact_spelling_match,,1,0,0,53
+Kasul,1,2,0,0,0,0,2,unique_reorder,Ka + Sul,1,0,0,31
+Kathaenbelaen,1,2,0,0,0,0,2,in_order,,1,0,0,27
+Katharbelaen,1,2,0,0,0,0,2,in_order,,1,0,0,27
+Kav,1,0,0,0,0,0,0,none,,0,0,0,19
+Kavaen,1,3,0,0,0,0,2,in_order,,1,0,0,19
+Kavdava,1,5,0,0,0,0,2,unique_reorder,Kav + Dava,1,0,0,36
+Kavdavaen,1,3,0,0,0,0,3,no_exact_spelling_match,,1,0,0,36
+Kavdeldava,1,2,0,0,0,1,3,unique_reorder,Kav + Del + Dava,1,0,0,45
+Kavel,1,1,0,1,0,0,2,in_order,,1,0,0,66
+Kavelrathor,1,2,0,0,0,0,1,no_exact_spelling_match,,1,0,0,31
+Kavelzhiraen,1,2,0,0,0,0,4,in_order,,1,0,0,103
+Kaveth,1,4,0,0,0,0,2,in_order,,0,0,0,19
+Kavkrez,1,2,0,0,0,1,2,in_order,,1,0,0,45
+Kavkrezaen,1,2,0,0,0,1,2,unique_reorder,Kavkrez + -aen,1,0,0,1
+Kavok,1,4,0,0,0,0,2,in_order,,1,0,0,46
+Kavolan,1,2,0,0,0,0,2,in_order,,1,0,0,25
+Kavral,1,17,0,0,0,0,2,in_order,,1,0,0,50
+Kavsul,1,2,0,0,0,0,2,unique_reorder,Kav + Sul,1,0,0,24
+Kavvek,1,15,0,0,0,1,2,in_order,,1,0,0,60
+Kavzhelaen,1,2,0,0,0,0,3,in_order,,1,0,0,40
+Kaweleth,1,3,0,0,0,0,3,in_order,,1,0,0,49
+Kaxaraen,1,7,0,0,0,0,3,in_order,,1,0,0,69
+Kaxardavaen,1,2,0,0,0,0,3,no_exact_spelling_match,,1,0,0,45
+Kazhel,1,2,0,0,0,0,2,in_order,,1,0,0,48
+Kedir,1,2,0,0,0,0,0,none,,0,1,0,0
+Kel,4,19,0,0,19,0,0,none,,0,0,0,24
+Kel-,1,0,2,0,0,0,0,none,,0,0,0,24
+Keldoraen,2,10,0,0,10,0,3,in_order,,1,0,0,26
+Kelithor,1,1,0,0,0,0,0,none,,0,0,0,0
+Keljek,1,2,0,0,0,0,2,in_order,,1,0,0,34
+Kelka,1,3,0,1,0,0,2,in_order,,0,0,0,24
+Kelnemaen,1,2,0,0,0,0,3,unique_reorder,Kel + Nem + -aen,1,0,0,29
+Kelpel,1,2,0,0,0,0,2,in_order,,1,0,0,49
+Kelpral,1,5,0,0,0,0,2,in_order,,1,0,0,72
+Kelreth,1,8,0,0,0,0,2,in_order,,1,0,0,46
+Kelrin,1,1,0,0,0,0,2,in_order,,0,0,0,53
+Keltharaen,1,4,0,0,0,0,3,in_order,,1,0,0,37
+Kelvekral,1,2,0,0,0,1,3,in_order,,1,0,0,96
+Kelvok,1,5,0,0,0,0,2,in_order,,1,0,0,44
+Kelvor,1,5,0,0,0,0,0,none,,0,0,0,2
+Kelvordren,1,2,0,0,0,1,2,unique_reorder,Kelvor + Dren,1,0,0,42
+Kelvorthamaen,1,3,0,0,0,0,2,no_exact_spelling_match,,1,0,0,9
+Kes,1,131,0,0,0,0,0,none,,0,0,0,14
+Kesbrenaen,1,3,0,0,0,1,3,in_order,,1,0,0,20
+Kesdava,1,4,0,0,0,0,2,in_order,,1,0,0,32
+Kesdavaen,1,2,0,0,0,0,3,no_exact_spelling_match,,1,0,0,32
+Keshen,1,2,0,0,0,0,2,no_exact_spelling_match,,1,0,0,47
+Keshenaen,1,33,0,0,0,0,2,unique_reorder,Keshen + -aen,1,0,0,2
+Keshenath,1,2,0,0,0,0,2,unique_reorder,Keshen + -ath,1,0,0,2
+Kesmek,1,7,0,0,0,0,2,in_order,,1,0,0,48
+Kesrin,1,2,0,0,0,0,2,in_order,,1,0,0,45
+Kesrinaen,1,3,0,0,0,0,2,unique_reorder,Kesrin + -aen,1,0,0,2
+Kesvar,1,13,0,0,0,1,2,in_order,,1,0,0,37
+Kesxar,1,2,0,0,0,0,2,in_order,,1,0,0,58
+Kesxaraen,1,2,0,0,0,0,2,unique_reorder,Kesxar + -aen,1,0,0,1
+Khelu,1,2,0,0,0,0,0,none,,0,0,0,0
+Khos,1,2,0,0,0,0,0,none,,0,0,0,1
+Khosaen,1,3,0,0,0,0,2,in_order,,1,0,0,1
+Khum,1,2,0,0,0,0,0,none,,0,0,0,6
+Khum-,1,0,2,0,0,0,0,none,,0,0,0,6
+Khumeth,1,1,0,0,0,0,2,in_order,,0,0,0,11
+Khumkel,1,11,0,0,0,1,2,in_order,,1,0,0,31
+Khumkelral,1,4,0,0,0,1,2,unique_reorder,Khumkel + Ral,1,0,0,32
+Khumkes,1,6,0,0,0,0,2,in_order,,1,0,0,20
+Khumlor,1,4,0,0,0,0,0,none,,0,0,0,6
+Khumrel,1,2,0,1,0,0,2,in_order,,1,0,0,6
+Kilv,1,0,0,0,0,0,0,none,,0,0,0,4
+Kilveth,1,5,0,0,0,0,2,in_order,,0,0,0,9
+Kilvfah,1,1,0,0,0,0,2,in_order,,0,0,0,9
+Kilvlum,1,1,0,0,0,0,2,in_order,,0,0,0,4
+Kilvthal,1,1,0,0,0,0,2,in_order,,0,0,0,30
+Kinn,1,1,1,0,0,0,0,none,,0,0,0,4
+Kinnlin,1,1,0,0,0,0,2,in_order,,0,0,0,4
+Kinnmor,1,4,0,0,0,0,2,in_order,,0,0,0,38
+Kinnshal,1,2,0,0,0,0,2,in_order,,0,0,0,28
+Kinnshara,1,1,0,0,0,0,2,unique_reorder,Kinn- + Shara,0,0,0,32
+Kiri,1,2,0,0,0,0,0,none,,0,0,0,0
+Kor,3,2,1,0,2,0,0,none,,0,0,0,19
+Kor'taleth,1,1,0,0,0,0,0,none,,0,0,0,0
+Kora,1,2,0,0,0,0,2,no_exact_spelling_match,,0,0,0,0
+Korin,1,14,0,0,0,0,0,none,,0,0,0,26
+Korinaen,1,12,0,0,0,0,1,no_exact_spelling_match,,1,0,0,7
+Korineth,1,1,0,0,0,0,2,unique_reorder,Korin + -eth,0,0,0,7
+Koringora,1,2,0,0,0,0,2,unique_reorder,Korin + Gora,1,0,0,11
+Korinxar,1,2,0,0,0,0,2,unique_reorder,Korin + Xar,1,0,0,50
+Korkalvar,1,2,0,0,0,0,2,in_order,,1,0,0,21
+Kormek,1,3,0,0,0,0,2,in_order,,1,0,0,57
+Kormekaen,1,3,0,0,0,0,2,unique_reorder,Kormek + -aen,1,0,0,3
+Kormekvek,1,12,0,0,0,1,2,unique_reorder,Kormek + Vek,1,0,0,45
+Kormor,1,2,0,0,0,0,2,in_order,,1,0,0,53
+Kornali,1,2,0,0,0,0,2,unique_reorder,Kor + Nali,1,0,0,26
+Korpir,1,2,0,0,0,0,2,in_order,,1,0,0,21
+Korsharvar,1,2,0,0,0,0,2,in_order,,1,0,0,21
+Korwek,1,2,0,0,0,2,2,in_order,,1,0,0,37
+Krelek,1,2,0,0,0,0,0,none,,0,0,0,0
+Kren,1,6,0,0,0,0,0,none,,0,0,0,3
+Krenral,1,3,0,0,0,1,2,in_order,,1,0,0,34
+Krenzhir,1,3,0,0,0,1,2,in_order,,1,0,0,42
+Krenzhirvek,1,2,0,0,0,1,2,unique_reorder,Krenzhir + Vek,1,0,0,43
+Krez,2,9,1,0,9,0,0,none,,0,0,0,25
+Krez-,1,0,0,0,0,0,0,none,,0,0,0,25
+Krez-verin,1,1,0,0,0,0,0,none,,0,0,0,0
+Krezaen,1,1,0,0,0,0,2,no_exact_spelling_match,,0,0,0,25
+Krezdralfel,1,2,0,0,0,1,2,in_order,,1,0,0,27
+Krezdrenaen,1,2,0,0,0,0,3,in_order,,1,0,0,64
+Krezdrenvek,1,2,0,0,0,1,3,in_order,,1,0,0,104
+Krezfel,1,1,0,0,0,0,2,in_order,,0,0,0,57
+Krezlorin,1,1,0,0,0,0,2,in_order,,0,0,0,30
+Krezmorath,1,1,0,0,0,0,3,in_order,,0,0,0,67
+Krezmorl,1,2,0,0,0,1,2,in_order,,1,0,0,47
+Kreznyel,1,3,0,0,0,1,2,unique_reorder,Krez + Nyel,1,0,0,31
+Krezor,3,12,0,0,12,0,3,no_exact_spelling_match,,0,0,0,35
+Krezpral,1,3,0,0,0,1,2,in_order,,1,0,0,72
+Krezpralaen,1,2,0,0,0,1,2,no_exact_spelling_match,,1,0,0,72
+Krezrek,1,4,0,0,0,0,2,unique_reorder,Krez + rek,0,0,0,32
+Krezshen,1,3,0,0,0,0,2,in_order,,1,0,0,58
+Kreztharim,1,1,0,0,0,0,3,unique_reorder,Krez + thar + im,0,0,0,43
+Kreztorin,1,1,0,0,0,0,2,unique_reorder,Krez + torin,0,0,0,26
+Krezvek,1,4,0,0,0,0,2,in_order,,1,0,0,66
+La,1,64,0,0,0,0,0,none,,0,0,0,1
+Lak,1,0,0,0,0,0,0,none,,0,0,0,3
+Lako,1,3,0,0,0,0,0,none,,0,0,0,0
+Lalin,1,3,0,0,0,0,0,none,,0,0,0,0
+Lem,1,3,0,0,0,0,0,none,,0,0,0,1
+Lemath,1,2,0,0,0,0,2,in_order,,1,0,0,1
+Lera,1,2,0,0,0,0,0,none,,0,0,0,0
+Lesh,1,2,0,0,0,0,0,none,,0,0,0,0
+Leya,1,2,0,0,0,0,0,none,,0,0,0,3
+Leyaen,1,2,0,0,0,0,2,no_exact_spelling_match,,1,0,0,3
+Leyajor,1,2,0,0,0,0,2,in_order,,1,0,0,29
+Leyajoraen,1,2,0,0,0,0,2,unique_reorder,Leyajor + -aen,1,0,0,3
+Li-,2,0,0,0,0,0,0,none,,0,0,0,0
+Li-Seren,1,2,1,0,0,0,0,none,,0,0,0,0
+Lia,1,4,2,0,0,0,0,none,,0,0,0,0
+Lialor,1,2,1,0,0,0,0,none,,0,0,0,0
+Lialor'ka,1,1,0,0,0,0,0,none,,0,0,0,0
+Lian,3,17,1,0,17,0,0,none,,0,0,0,17
+Lian'lia,1,1,0,0,0,0,0,none,,0,0,0,0
+Lian-,1,0,0,0,0,0,0,none,,0,0,0,17
+Liana,1,1,0,0,0,0,0,none,,0,0,0,0
+Lianaen,1,2,0,0,0,0,2,in_order,,0,0,0,17
+Lianbel,1,2,0,0,0,0,2,in_order,,1,0,0,67
+Lianbelrin,1,2,0,0,0,0,2,in_order,,0,0,0,20
+Lianeth,3,3,0,0,3,0,0,none,,0,0,1,17
+Lianfel,1,1,0,0,0,0,2,in_order,,0,0,0,49
+Liankavor,1,9,0,0,0,0,3,in_order,,1,0,0,36
+Lianlor,1,1,0,0,0,0,0,none,,0,0,0,0
+Lianor,2,5,0,0,5,0,2,in_order,,0,0,0,17
+Lianreth,1,2,0,0,0,0,1,no_exact_spelling_match,,1,0,0,42
+Lianrethaen,1,2,0,0,0,0,1,no_exact_spelling_match,,1,0,0,4
+Lianrethor,1,10,0,0,0,0,1,no_exact_spelling_match,,1,0,0,14
+Lianrethshen,2,2,0,0,2,1,1,no_exact_spelling_match,,1,0,1,37
+Lianrethxar,1,2,0,0,0,1,1,no_exact_spelling_match,,1,0,0,47
+Lianthal,1,2,0,0,0,0,2,in_order,,1,0,0,41
+Lianthalaen,1,2,0,0,0,0,3,in_order,,1,0,0,41
+Lianzhir,1,2,0,0,0,0,2,in_order,,1,0,0,55
+Lia‘ser,1,1,0,0,0,0,0,none,,0,0,0,0
+Lior,1,2,0,0,0,0,0,none,,0,0,0,0
+Liorin,1,30,0,0,0,0,0,none,,0,0,0,20
+Liorinen,1,1,0,0,0,0,0,none,,0,0,0,0
+Livar,1,0,0,0,0,0,0,none,,0,0,0,4
+Livaraen,1,2,0,0,0,0,2,in_order,,1,0,0,4
+Lo,1,2,0,0,0,0,0,none,,0,0,0,0
+Lor,1,0,0,0,0,0,0,none,,0,0,0,20
+Lorash,1,17,0,0,0,0,0,none,,0,0,0,21
+Lorbel,1,20,0,0,0,0,2,in_order,,1,0,0,72
+Lorbelaen,1,3,0,0,0,0,2,unique_reorder,Lorbel + -aen,1,0,0,2
+Lorbelral,1,7,0,0,0,0,2,unique_reorder,Lorbel + Ral,1,0,0,33
+Lorin,3,44,1,0,44,0,0,none,,0,0,0,25
+Lorin'Ohmeth,1,1,0,0,0,0,0,none,,0,0,0,0
+Lorinen,1,5,0,0,0,0,0,none,,0,0,0,0
+Lorinor,1,1,0,0,0,0,0,none,,0,0,0,1
+Lorinorxar,1,2,0,0,0,0,2,unique_reorder,Lorinor + Xar,1,0,0,44
+Lorinshal,1,1,0,0,0,0,0,none,,0,0,0,2
+Lorinshaldren,1,2,0,0,0,1,2,unique_reorder,Lorinshal + Dren,1,0,0,42
+Lorinshalxar,1,2,0,0,0,1,2,unique_reorder,Lorinshal + Xar,1,0,0,45
+Lorlivok,1,2,0,0,0,0,2,no_exact_spelling_match,,0,0,0,40
+Lormahr,1,2,0,0,0,0,2,unique_reorder,Lor + Mahr,1,0,0,34
+Lormek,1,3,0,0,0,0,2,in_order,,1,0,0,54
+Lormekor,1,3,0,0,0,0,2,in_order,,1,0,0,22
+Lormekral,1,3,0,0,0,1,3,in_order,,1,0,0,81
+Lorpel,1,2,0,0,0,1,2,in_order,,1,0,0,46
+Lorpelaen,1,2,0,0,0,0,2,unique_reorder,Lorpel + -aen,1,0,0,1
+Lorshara,1,3,0,0,0,0,2,in_order,,1,0,0,48
+Lorvekaen,1,4,0,0,0,0,3,in_order,,1,0,0,61
+Lorvekral,1,19,0,0,0,1,3,in_order,,1,0,0,88
+Lorynth,1,0,0,0,0,0,0,none,,0,0,0,0
+Lorzhir,1,5,0,0,0,0,2,in_order,,1,0,0,60
+Lorzhiranshan,1,2,0,0,0,0,3,unique_reorder,Lorzhir + An + Shan,1,0,0,45
+Lorzhirthalshan,1,2,0,0,0,0,3,unique_reorder,Lorzhir + Thal + Shan,1,0,0,61
+Lumar,1,2,0,0,0,0,0,none,,0,1,0,0
+Lumor,2,1,0,0,1,0,0,none,,0,0,0,0
+Lumora,1,0,0,0,0,0,0,none,,0,0,0,0
+Lun,2,9,0,0,9,0,0,none,,0,0,0,4
+Luneth,1,2,0,0,0,0,2,in_order,,1,0,0,4
+Lunor,1,1,0,0,0,0,0,none,,0,0,0,4
+Lunwek,1,1,0,0,0,0,2,in_order,,0,0,0,22
+Maganeth,1,6,0,0,0,0,2,no_exact_spelling_match,,0,0,0,0
+Mahr,1,18,0,0,0,0,0,none,,0,0,0,14
+Mahrfennil,1,2,0,0,0,0,2,in_order,,1,0,0,18
+Mahrkal,1,2,0,0,0,0,2,in_order,,1,0,0,43
+Mahrmorl,1,2,0,0,0,0,2,in_order,,1,0,0,36
+Mahrowek,1,4,0,0,0,1,2,no_exact_spelling_match,,1,0,0,32
+Mahrpral,1,2,0,0,0,0,2,in_order,,1,0,0,61
+Mahrpralor,1,4,0,0,0,1,3,in_order,,1,0,0,61
+Mahrshalilaen,1,2,0,0,0,1,3,unique_reorder,Mahr + Shalil + -aen,1,0,0,17
+Mahrvaraen,1,2,0,0,0,0,3,in_order,,1,0,0,37
+Mahrvek,1,17,0,0,0,0,2,in_order,,1,0,0,55
+Mahrwel,1,2,0,0,0,0,2,in_order,,1,0,0,37
+Mahrxaror,1,3,0,0,0,1,3,in_order,,1,0,0,56
+Mahrxarvek,1,2,0,0,0,0,3,in_order,,1,0,0,95
+Mara,1,2,0,0,0,0,0,none,,0,0,0,1
+Marasorl,1,2,0,0,0,0,2,in_order,,1,0,0,2
+Marin,1,0,0,0,0,0,0,none,,0,0,0,3
+Mav,1,6,0,0,0,0,0,none,,0,0,0,11
+Mavbal,1,6,0,0,0,1,2,in_order,,1,0,0,26
+Mavbaleth,1,2,0,0,0,0,2,unique_reorder,Mavbal + -eth,1,0,0,4
+Mavbalshanaen,1,2,0,0,0,0,3,unique_reorder,Mavbal + Shan + -aen,1,0,0,38
+Mavbalshaneth,1,2,0,0,0,0,3,unique_reorder,Mavbal + Shan + -eth,1,0,0,38
+Mavbalxar,1,3,0,0,0,1,2,unique_reorder,Mavbal + Xar,1,0,0,47
+Maveth,1,3,0,0,0,0,2,in_order,,1,0,0,11
+Mavkes,1,2,0,0,0,0,2,in_order,,1,0,0,25
+Mavkrez,1,3,0,0,0,1,2,in_order,,1,0,0,36
+Mavmor,1,3,0,0,0,1,2,in_order,,1,0,0,46
+Mavmorzhael,1,2,0,0,0,1,2,unique_reorder,Mavmor + Zhael,1,0,0,14
+Mavverd,1,2,0,0,0,0,2,in_order,,1,0,0,28
+Mb,1,0,0,0,0,0,0,none,,0,0,0,3
+Mb-,1,0,0,0,0,0,0,none,,0,0,0,3
+Mbaen,1,6,0,0,0,0,2,in_order,,1,0,0,3
+Mbalan,1,1,0,0,0,0,0,none,,0,0,0,4
+Mbalanmor,1,2,0,0,0,0,2,unique_reorder,Mbalan + Mor,1,0,0,35
+Mbu,1,2,0,0,0,0,0,none,,0,0,0,0
+Mek,1,3,0,0,0,0,0,none,,0,0,0,35
+Mekaru,1,2,0,0,0,0,2,unique_reorder,Mek + Aru,1,0,0,46
+Mekeshpral,1,3,0,0,0,1,3,in_order,,1,0,0,115
+Mekkes,1,2,0,0,0,0,2,in_order,,1,0,0,49
+Mekkesaen,1,2,0,0,0,0,2,unique_reorder,Mekkes + -aen,1,0,0,1
+Mekor,1,13,0,0,0,0,2,in_order,,1,0,0,37
+Mekpralor,1,2,0,0,0,1,3,in_order,,1,0,0,81
+Mekral,1,90,0,0,0,0,2,in_order,,1,0,0,65
+Mekrask,1,3,0,0,0,0,2,unique_reorder,Mek + Rask,1,0,0,36
+Mekreth,1,2,0,0,0,0,2,in_order,,1,0,0,58
+Mekshara,1,2,0,0,0,0,2,in_order,,1,0,0,63
+Mel-,1,0,0,0,0,0,0,none,,0,0,0,1
+Melen,1,2,0,0,0,0,2,in_order,,0,0,0,0
+Metha,1,2,0,0,0,0,0,none,,0,0,0,2
+Min,1,3,0,0,0,0,0,none,,0,0,0,0
+Mira,1,2,0,0,0,0,0,none,,0,0,0,1
+Miraen,1,2,0,0,0,0,2,no_exact_spelling_match,,1,0,0,1
+Mmm,1,1,0,0,0,0,0,none,,0,0,0,0
+Mor,1,10,0,0,0,0,0,none,,0,0,0,34
+Moraen,1,5,0,0,0,0,2,in_order,,0,0,0,34
+Mordralfel,1,2,0,0,0,1,2,in_order,,1,0,0,36
+Moreth,1,5,1,0,0,0,2,in_order,,0,0,0,34
+Morkal,1,2,0,0,0,0,2,in_order,,0,0,0,63
+Morkar,1,2,0,0,0,0,2,in_order,,1,0,0,47
+Morl,2,52,1,2,52,0,0,none,,0,0,0,22
+Morl-,1,0,2,0,0,0,0,none,,0,0,0,22
+Morl-karash,1,1,0,0,0,0,0,none,,0,0,0,0
+Morlak,1,18,0,0,0,0,1,no_exact_spelling_match,,0,0,0,3
+Morlatharim,1,1,0,0,0,0,3,no_exact_spelling_match,,0,0,0,40
+Morlathor,1,1,0,0,0,0,2,in_order,,0,0,0,22
+Morldren,2,1,0,0,1,0,2,in_order,,0,0,0,62
+Morljor,1,2,0,0,0,0,2,in_order,,1,0,0,48
+Morlka,1,1,0,0,0,0,0,none,,0,0,0,3
+Morlkagora,1,2,0,0,0,0,2,unique_reorder,Morlka + Gora,1,0,0,7
+Morlkapir,1,2,0,0,0,0,2,unique_reorder,Morlka + Pir,1,0,0,5
+Morlkavesh,1,2,0,0,0,0,2,unique_reorder,Morlka + Vesh,1,0,0,4
+Morlpral,1,2,0,0,0,1,2,in_order,,1,0,0,70
+Morlshan,1,3,0,0,0,1,2,in_order,,1,0,0,56
+Morlshara,1,2,0,0,0,0,2,in_order,,1,0,0,50
+Morlverd,1,2,0,0,0,1,2,in_order,,1,0,0,39
+Morlzhir,1,2,0,0,0,0,2,in_order,,1,0,0,60
+Mormek,1,9,0,0,0,0,2,in_order,,1,0,0,70
+Mormekral,1,3,0,0,0,1,2,unique_reorder,Mormek + Ral,1,0,0,32
+Morolan,1,2,0,0,0,0,2,unique_reorder,Mor + Olan,1,0,0,40
+Morpralaen,1,2,0,0,0,0,2,no_exact_spelling_match,,1,0,0,81
+Morshen,1,2,0,0,0,0,2,in_order,,1,0,0,67
+Morthas,1,1,0,0,0,0,2,in_order,,0,0,0,34
+Morthera,1,5,0,0,0,0,2,in_order,,0,0,0,35
+Morvek,1,7,0,0,0,0,2,in_order,,1,0,0,75
+Morvenak,1,1,0,0,0,0,2,unique_reorder,Mor + venak,0,0,0,36
+Morzhael,1,3,0,0,0,1,2,in_order,,1,0,0,47
+Morzhelshan,1,2,0,0,0,0,2,in_order,,1,0,0,35
+Mossquill,1,0,0,0,0,0,0,none,,0,0,0,0
+Mu,1,2,0,0,0,0,0,none,,0,0,0,0
+Mura,1,5,0,0,0,0,0,none,,0,0,0,1
+Muraen,1,2,0,0,0,0,2,no_exact_spelling_match,,1,0,0,1
+Nak,1,2,0,0,0,0,0,none,,0,1,0,13
+Nakaen,1,7,0,0,0,0,2,in_order,,1,0,0,13
+Nakin,1,4,0,0,0,0,2,in_order,,1,0,0,13
+Naklorral,1,6,0,0,0,1,3,in_order,,1,0,0,61
+Nakshara,1,3,0,0,0,1,2,in_order,,1,0,0,41
+Naktal,1,2,0,0,0,1,2,in_order,,1,0,0,21
+Naku,1,2,0,0,0,0,0,none,,0,0,0,0
+Nali,1,3,0,0,0,0,0,none,,0,0,0,7
+Nalior,1,5,0,0,0,0,2,in_order,,1,0,0,8
+Nar,1,2,0,0,0,0,0,none,,0,0,0,1
+Naraen,1,3,0,0,0,0,2,in_order,,1,0,0,1
+Ndara,1,5,0,0,0,0,0,none,,0,0,0,0
+Ndavi,1,2,0,0,0,0,0,none,,0,0,0,3
+Ndavimor,1,2,0,0,0,0,2,in_order,,1,0,0,37
+Ndavior,1,2,0,0,0,0,2,in_order,,1,0,0,3
+Ndavivek,1,4,0,0,0,0,2,in_order,,1,0,0,45
+Ndem,1,3,0,0,0,0,0,none,,0,0,0,3
+Ndemaen,1,3,0,0,0,0,2,in_order,,1,0,0,3
+Ndemshan,1,2,0,0,0,0,2,in_order,,1,0,0,38
+Ndemwek,1,2,0,0,0,0,2,in_order,,1,0,0,22
+Ndemwekaen,1,2,0,0,0,0,2,unique_reorder,Ndemwek + -aen,1,0,0,1
+Nderu,1,2,0,0,0,0,0,none,,0,0,0,1
+Nderuxar,1,2,0,0,0,0,2,in_order,,1,0,0,44
+Nekvar,1,1,0,0,0,0,0,none,,0,0,0,0
+Nelar,1,2,0,0,0,0,0,none,,0,0,0,1
+Nem,1,2,0,0,0,0,0,none,,0,0,0,5
+Nemaen,1,2,0,0,0,0,2,in_order,,1,0,0,5
+Nesh,1,13,0,0,0,0,0,none,,0,0,0,4
+Neshbrenaen,1,2,0,0,0,1,3,in_order,,1,0,0,9
+Neshbrenral,1,6,0,0,0,0,3,in_order,,1,0,0,40
+Neshmorl,1,3,0,0,0,1,2,in_order,,1,0,0,26
+Neth,1,2,0,0,0,0,0,none,,0,0,0,6
+Nethaen,1,32,0,0,0,0,2,in_order,,0,0,0,6
+Nethlor,1,4,0,0,0,0,2,in_order,,0,0,0,6
+Nethmek,1,2,0,0,0,1,2,in_order,,1,0,0,41
+Nethnor,1,22,0,0,0,1,2,in_order,,1,0,0,35
+Nethor,1,8,0,0,0,0,2,in_order,,0,0,0,17
+Nethvek,1,2,0,0,0,1,2,in_order,,1,0,0,48
+Nevar,1,1,0,0,0,0,0,none,,0,0,0,0
+Ngar,1,2,0,0,0,0,0,none,,0,0,0,7
+Ngarjor,1,3,0,0,0,1,2,in_order,,1,0,0,32
+Ngarjoraen,1,2,0,0,0,1,3,in_order,,1,0,0,32
+Ngarpel,1,4,0,0,0,1,2,in_order,,1,0,0,32
+Ngarvek,1,2,0,0,0,1,2,in_order,,1,0,0,49
+Ngarwel,1,4,0,0,0,1,2,in_order,,1,0,0,30
+Ngarzhel,1,2,0,0,0,1,2,in_order,,1,0,0,29
+Ngarzhir,1,2,0,0,0,1,2,in_order,,1,0,0,45
+Njor,2,8,0,0,8,0,0,none,,0,0,0,1
+Nk,1,0,0,0,0,0,0,none,,0,0,0,2
+Nk-,1,0,0,0,0,0,0,none,,0,0,0,2
+Nkathal,1,2,0,0,0,0,2,no_exact_spelling_match,,1,0,0,28
+Nkathalaen,1,1,0,0,0,0,2,no_exact_spelling_match,,0,0,0,0
+Nku,1,0,0,0,0,0,0,none,,0,0,0,3
+Nku-,1,0,0,0,0,0,0,none,,0,0,0,3
+Nkural,1,1,0,0,0,0,0,none,,0,0,0,34
+Nkuvath,1,1,0,0,0,0,0,none,,0,0,0,3
+Noka,1,2,0,0,0,0,0,none,,0,0,0,1
+Nokashan,1,2,0,0,0,0,2,in_order,,1,0,0,36
+Nol,1,2,0,0,0,0,0,none,,0,0,0,1
+Nolaen,1,2,0,0,0,0,2,in_order,,1,0,0,1
+Nor,2,90,28,1,90,0,0,none,,0,0,0,29
+Nor-,1,0,2,0,0,0,0,none,,0,1,0,0
+nor-ka,2,9,0,0,9,0,2,in_order,,0,0,0,29
+Noraen,1,2,0,0,0,0,2,in_order,,1,0,0,29
+Noral,1,3,0,0,0,0,2,in_order,,1,0,0,29
+Normav,1,2,0,0,0,0,2,in_order,,1,0,0,41
+Normaveth,1,2,0,0,0,0,1,no_exact_spelling_match,,1,0,0,1
+Normek,1,2,0,0,0,0,2,in_order,,1,0,0,64
+Norpral,1,3,0,0,0,0,2,in_order,,1,0,0,80
+Norpralaen,1,4,0,0,0,0,2,unique_reorder,Norpral + -aen,1,0,0,3
+Norpralor,1,9,0,0,0,0,2,unique_reorder,Norpral + -or,1,0,0,3
+Norpralral,1,3,0,0,0,1,2,unique_reorder,Norpral + Ral,1,0,0,34
+Norreth,1,2,0,0,0,0,1,no_exact_spelling_match,,1,0,0,50
+Norshan,1,2,0,0,0,0,2,in_order,,1,0,0,65
+Norshanaen,1,2,0,0,0,0,1,no_exact_spelling_match,,1,0,0,1
+Norvaar,1,1,0,0,0,0,0,none,,0,0,0,0
+Norzhir,1,6,0,0,0,0,2,in_order,,1,0,0,67
+Nu,1,2,0,0,0,0,0,none,,0,0,0,0
+Num,1,2,0,0,0,0,0,none,,0,0,0,2
+Numaen,1,4,0,0,0,0,2,in_order,,1,0,0,2
+Numor,1,2,0,0,0,0,2,in_order,,1,0,0,2
+Nyel,1,5,0,0,0,0,0,none,,0,1,0,6
+Nyelbel,1,2,0,0,0,0,2,in_order,,1,0,0,56
+Nyeleth,1,2,0,0,0,0,2,in_order,,1,0,0,6
+Nyelzhir,1,2,0,0,0,1,2,in_order,,1,0,0,43
+Ohm,1,4,2,1,0,0,0,none,,0,0,0,9
+Ohm'aen,1,1,0,0,0,0,0,none,,0,0,0,0
+Ohm'rin,1,1,0,0,0,0,0,none,,0,0,0,0
+Ohm-,1,0,2,0,0,0,0,none,,0,0,0,9
+Ohmaen,1,5,0,0,0,0,2,no_exact_spelling_match,,0,0,0,1
+Ohmbaen,1,3,0,0,0,0,0,none,,0,0,0,9
+Ohmpel,1,6,0,0,0,0,2,in_order,,1,0,0,34
+Ohmreth,1,2,0,0,0,0,2,in_order,,1,0,0,30
+Ohmshal,1,3,0,0,0,0,2,in_order,,1,0,0,33
+Ohmshan,1,2,0,0,0,0,2,in_order,,1,0,0,44
+Olan,1,2,0,0,0,0,0,none,,0,0,0,6
+Olanbelrin,1,3,0,0,0,0,2,in_order,,1,0,0,9
+Olankrezaen,1,2,0,0,0,1,3,in_order,,1,0,0,31
+Osar,1,2,0,0,0,0,0,none,,0,0,0,0
+Oven,1,1,0,0,0,0,0,none,,0,0,0,0
+Pel,1,3,0,0,0,0,0,none,,0,0,0,25
+Pelaen,1,6,0,0,0,0,2,in_order,,1,0,0,25
+Pelaivaen,1,2,0,0,0,0,3,unique_reorder,Pel + Aiv + -aen,1,0,0,29
+Peldren,1,1,0,0,0,0,2,in_order,,0,0,0,65
+Peleth,1,6,0,0,0,0,2,in_order,,0,0,0,25
+Peljekkel,1,2,0,0,0,1,2,in_order,,1,0,0,26
+Pelkar,1,2,0,0,0,0,2,in_order,,1,0,0,38
+Pelkorin,1,2,0,0,0,0,2,in_order,,1,0,0,32
+Pelkrezaen,1,2,0,0,0,1,3,in_order,,1,0,0,50
+Pelmorl,1,2,0,0,0,0,2,in_order,,1,0,0,47
+Pelnor,1,2,0,0,0,0,2,in_order,,1,0,0,54
+Pelsheneth,1,2,0,0,0,0,3,in_order,,1,0,0,58
+Pelvar,1,2,0,0,0,0,2,in_order,,0,0,0,47
+Pelvaraen,1,2,0,0,0,0,3,in_order,,1,0,0,47
+Pelveltrakor,1,2,0,0,0,1,3,in_order,,1,0,0,68
+Pelvokaen,1,4,0,0,0,0,3,in_order,,1,0,0,45
+Peth,1,3,1,0,0,0,0,none,,0,0,0,0
+Phel,1,2,0,0,0,0,0,none,,0,0,0,7
+Phelkarin,1,1,0,0,0,0,2,in_order,,0,0,0,7
+Phelmorin,1,1,0,0,0,0,2,in_order,,0,0,0,7
+Phelrin,1,1,0,0,0,0,2,in_order,,0,0,0,36
+Phelvin,2,10,0,0,10,0,2,in_order,,0,0,0,18
+Pir,1,2,0,0,0,0,0,none,,0,0,0,2
+Prak,1,2,0,0,0,0,0,none,,0,0,0,2
+Praketh,1,2,0,0,0,0,2,in_order,,0,0,0,2
+Prakorin,1,1,0,0,0,0,2,in_order,,0,0,0,2
+Pral,3,3,0,0,3,0,0,none,,0,0,0,48
+Pralaen,1,44,0,2,0,0,2,in_order,,0,0,0,49
+Pralaen-,1,0,2,0,0,0,0,none,,0,0,0,1
+Pralbal,1,4,0,0,0,1,2,in_order,,1,0,0,57
+Pralfel,1,2,0,0,0,0,2,in_order,,1,0,0,80
+Pralhav,1,3,0,0,0,0,2,unique_reorder,Pral + Hav,1,0,0,55
+Pralilan,1,2,0,0,0,0,2,in_order,,1,0,0,49
+Pralin,1,1,0,0,0,0,2,in_order,,0,0,0,48
+Pralmor,1,2,0,0,0,0,2,in_order,,0,0,0,81
+Pralor,1,24,0,0,0,0,2,in_order,,0,0,0,48
+Pralral,1,4,0,0,0,1,2,in_order,,1,0,0,79
+Pralvek,1,2,0,0,0,0,2,in_order,,1,0,0,89
+Pralvinor,1,1,0,0,0,0,2,in_order,,0,0,0,48
+Pralvokesh,1,1,0,0,0,0,3,in_order,,0,0,0,99
+Quen,1,2,1,0,0,0,0,none,,0,0,0,0
+Ra,1,35,2,0,0,0,0,none,,0,1,0,1
+Rakel,1,2,0,0,0,0,2,in_order,,1,0,0,25
+Raku,1,2,0,0,0,0,0,none,,0,1,0,9
+Rakuaen,1,3,0,0,0,0,2,in_order,,1,0,0,9
+Rakufelmek,1,2,0,0,0,0,2,in_order,,1,0,0,10
+Rakukel,1,2,0,0,0,0,2,in_order,,1,0,0,33
+Rakumek,1,5,0,0,0,0,2,in_order,,1,0,0,44
+Rakushara,1,2,0,0,0,0,2,in_order,,1,0,0,37
+Ral,1,2,0,0,0,0,0,none,,0,0,0,31
+Rask,1,5,0,0,0,0,0,none,,0,0,0,1
+Rath,3,11,0,1,11,0,0,none,,0,1,0,11
+Rath-,1,0,0,0,0,0,0,none,,0,0,0,11
+Rathaen,1,1,0,0,0,0,2,no_exact_spelling_match,,0,0,0,0
+Rathjor,1,3,0,0,0,1,2,in_order,,1,0,0,37
+Rathka,1,1,0,0,0,0,0,none,,0,0,0,0
+Rathlor,1,3,0,0,0,0,2,in_order,,0,0,0,13
+Rathlorkel,1,3,0,0,0,0,2,unique_reorder,Rathlor + Kel,1,0,0,26
+Rathnali,1,2,0,0,0,0,2,unique_reorder,Rath + Nali,1,0,0,17
+Rathnor,1,3,0,0,0,1,2,in_order,,1,0,0,40
+Rathor,2,6,1,1,6,0,0,none,,0,0,0,3
+Rathorim,1,1,0,0,0,0,0,none,,0,0,0,0
+Rathorimaen,1,1,0,0,0,0,0,none,,0,0,0,0
+Rathorjor,1,2,0,0,0,0,1,no_exact_spelling_match,,1,0,0,29
+Rathorkinash,1,1,0,0,0,0,0,none,,0,0,0,0
+Rathrin,1,4,0,0,0,1,2,in_order,,1,0,0,40
+Rathshannali,1,1,0,0,0,1,2,in_order,,1,0,0,17
+Rathvethor,1,3,0,0,0,0,2,in_order,,0,0,0,13
+Rathzor,1,2,0,0,0,0,2,in_order,,1,0,0,21
+Rav,1,2,0,1,0,0,0,none,,0,0,0,13
+Rav-,1,0,2,0,0,0,0,none,,0,0,0,13
+Ravjor,1,2,0,0,0,1,2,in_order,,1,0,0,40
+Ravjorvek,1,4,0,0,0,1,2,unique_reorder,Ravjor + Vek,1,0,0,43
+Ravkar,1,2,0,0,0,1,2,in_order,,1,0,0,26
+Ravohm,1,2,0,0,0,0,2,in_order,,1,0,0,23
+Ravohmaen,1,2,0,0,0,0,2,unique_reorder,Ravohm + -aen,1,0,0,1
+Ravokhaen,1,2,0,0,0,0,2,no_exact_spelling_match,,0,0,0,0
+Ravshan,1,2,0,0,0,0,2,in_order,,1,0,0,48
+Ravvekaen,1,4,0,0,0,0,3,in_order,,1,0,0,55
+Ravwek,1,4,0,0,0,0,2,in_order,,1,0,0,32
+Ravwekaen,1,3,0,0,0,0,2,unique_reorder,Ravwek + -aen,1,0,0,2
+Ravwekin,1,2,0,0,0,0,2,unique_reorder,Ravwek + -in,1,0,0,2
+Ravzhel,1,2,0,0,0,0,2,in_order,,1,0,0,35
+Rek,1,0,0,0,0,0,0,none,,0,0,0,7
+Rekaivaen,1,2,0,0,0,0,3,unique_reorder,Rek + Aiv + -aen,1,0,0,11
+Rekmav,1,3,0,0,0,1,2,in_order,,1,0,0,18
+Rekmekreth,1,2,0,0,0,1,2,in_order,,1,0,0,9
+Rekrathlor,1,5,0,0,0,1,2,in_order,,1,0,0,9
+Rema,1,4,0,0,0,0,0,none,,0,0,0,2
+Remashalxar,1,2,0,0,0,1,3,in_order,,1,0,0,68
+Remaxar,1,3,0,0,0,0,2,in_order,,1,0,0,44
+Reth,2,6,1,1,6,0,0,none,,0,0,0,21
+Reth- / Rethvok-,1,0,2,0,0,0,0,none,,0,0,0,0
+Rethaen,1,1,0,0,0,0,2,no_exact_spelling_match,,0,0,0,0
+Rethal,1,0,0,0,0,0,0,none,,0,0,0,0
+Rethdava,1,2,0,0,0,0,2,unique_reorder,Reth + Dava,1,0,0,39
+Rethkal,1,2,0,0,0,1,2,unique_reorder,Reth + Kal,1,0,0,51
+Rethkaleth,1,2,0,0,0,0,2,unique_reorder,Rethkal + -eth,1,0,0,1
+Rethlian,3,3,0,0,3,0,0,none,,0,0,1,0
+Rethmor,1,2,0,0,0,1,1,no_exact_spelling_match,,1,0,0,55
+Rethnem,1,2,0,0,0,1,2,unique_reorder,Reth + Nem,1,0,0,26
+Rethnemaen,1,2,0,0,0,1,2,unique_reorder,Rethnem + -aen,1,0,0,5
+Rethpral,1,5,0,0,0,1,1,no_exact_spelling_match,,1,0,0,69
+Rethshara,1,2,0,0,0,0,1,no_exact_spelling_match,,1,0,0,49
+Rethshen,1,2,0,0,0,0,2,unique_reorder,Reth + Shen,1,0,0,53
+Rethvok,1,3,0,2,0,0,2,unique_reorder,Reth + Vok,0,0,0,41
+Rethweknor,1,2,0,0,0,1,0,none,,0,0,0,22
+Rethzheldava,1,2,0,0,0,1,2,in_order,,1,0,0,39
+Rethzhelshara,1,2,0,0,0,1,2,in_order,,1,0,0,23
+Reth‘thal,1,1,0,0,0,0,0,none,,0,0,0,0
+Revalen,1,1,0,0,0,0,0,none,,0,0,0,0
+Ri,1,2,0,0,0,0,0,none,,0,0,0,0
+Rim,1,2,0,0,0,0,0,none,,0,0,0,3
+Rimaen,1,2,0,0,0,0,2,in_order,,1,0,0,3
+Rimor,1,7,0,0,0,0,2,in_order,,1,0,0,3
+Rin,1,2,1,1,0,0,0,none,,0,0,0,29
+Rin-,1,0,2,0,0,0,0,none,,0,0,0,29
+Rinaen,1,625,0,1,0,0,2,in_order,,0,0,0,38
+Rinarshor,1,2,0,0,0,0,2,in_order,,1,0,0,31
+Rinaru,1,2,0,0,0,0,2,unique_reorder,Rin + Aru,1,0,0,40
+Rinbel,1,2,0,0,0,0,2,in_order,,1,0,0,80
+Rinbelaen,1,2,0,0,0,0,2,unique_reorder,Rinbel + -aen,1,0,0,2
+Rinbeleth,1,2,0,0,0,0,2,unique_reorder,Rinbel + -eth,1,0,0,2
+Rinbelxar,1,2,0,0,0,0,2,in_order,,1,0,0,32
+Rinmek,1,3,0,0,0,0,2,in_order,,1,0,0,66
+Rinmekaen,1,2,0,0,0,0,2,unique_reorder,Rinmek + -aen,1,0,0,2
+Rinpel,1,2,0,0,0,0,2,in_order,,1,0,0,55
+Rinpral,1,3,0,0,0,0,2,in_order,,1,0,0,78
+Rinpralral,1,2,0,0,0,1,2,unique_reorder,Rinpral + Ral,1,0,0,32
+Rinshen,1,11,0,0,0,0,2,in_order,,1,0,0,62
+Rinvarash,1,1,0,0,0,0,2,in_order,,0,0,0,31
+Rinvek,1,7,0,0,0,0,2,in_order,,1,0,0,71
+Riv,1,3,0,0,0,0,0,none,,0,0,0,1
+Rivaen,1,2,0,0,0,0,2,in_order,,1,0,0,1
+Ruma,1,2,0,0,0,0,0,none,,0,0,0,0
+Ruvan,2,4,0,0,4,0,0,none,,0,0,0,2
+Ruvanaen,1,2,0,0,0,0,2,in_order,,1,0,0,2
+Ruvaneth,1,3,0,0,0,0,2,in_order,,1,0,0,2
+Rynarth,1,0,0,0,0,0,0,none,,0,0,0,0
+Sadar,1,3,0,0,0,0,0,none,,0,0,0,4
+Sadarjor,1,2,0,0,0,0,2,in_order,,1,0,0,30
+Sadarmorl,1,2,0,0,0,0,2,in_order,,1,0,0,26
+Saren,1,5,0,0,0,0,0,none,,0,0,0,0
+Sava,1,2,0,0,0,0,0,none,,0,0,0,3
+Savaen,1,5,0,0,0,0,2,no_exact_spelling_match,,1,0,0,3
+Savin,1,24,0,0,0,0,2,no_exact_spelling_match,,1,0,0,3
+Savor,1,8,0,0,0,0,2,no_exact_spelling_match,,1,0,0,3
+Seki,1,2,0,0,0,0,0,none,,0,0,0,0
+Sel,2,4,0,0,4,0,0,none,,0,0,0,11
+Seldrenvinaen,1,2,0,0,0,1,4,in_order,,1,0,0,59
+Selineth,1,2,0,0,0,0,2,no_exact_spelling_match,,0,0,0,11
+Selkari,1,0,0,0,0,0,0,none,,0,0,0,0
+Selmek,1,3,0,0,0,0,2,in_order,,1,0,0,46
+Selmor,1,4,0,0,0,0,2,in_order,,1,0,0,45
+Selnemaen,1,2,0,0,0,0,3,unique_reorder,Sel + Nem + -aen,1,0,0,16
+Selpralaen,1,8,0,0,0,0,3,in_order,,1,0,0,59
+Selshan,1,2,0,0,0,0,2,in_order,,1,0,0,47
+Selshanaen,1,2,0,0,0,0,2,unique_reorder,Selshan + -aen,1,0,0,1
+Selzhir,1,2,0,0,0,0,2,in_order,,1,0,0,48
+Senar,1,1,0,0,0,0,0,none,,0,0,0,0
+Ser,3,285,1,0,285,0,0,none,,0,0,0,7
+Ser-,1,0,2,0,0,0,0,none,,0,0,0,7
+Sera,1,1,0,0,0,0,0,none,,0,0,0,0
+Seraen,1,2,0,0,0,0,2,no_exact_spelling_match,,0,0,0,0
+Serathrin,1,3,0,0,0,0,3,in_order,,1,0,0,44
+Serdel,1,5,0,0,0,0,2,in_order,,1,0,0,17
+Seren,2,47,0,0,47,0,0,none,,0,0,1,1
+Serenkal,1,1,0,0,0,0,2,unique_reorder,Seren + Kal,0,0,0,30
+Serilin,1,5,0,0,0,1,3,in_order,,1,0,0,7
+Serin,1,14,0,0,0,0,2,unique_reorder,Ser + -in,0,0,0,7
+Sernor,1,2,0,0,0,0,2,in_order,,1,0,0,36
+Servok,1,3,0,0,0,0,2,in_order,,1,0,0,27
+Sethe,1,1,0,0,0,0,0,none,,0,0,0,0
+Sha,1,2,0,0,0,0,0,none,,0,0,0,0
+Shal,2,33,2,0,33,0,0,none,,0,0,0,24
+Shal'taleth,1,2,0,0,0,0,0,none,,0,0,0,0
+Shal-,1,0,0,0,0,0,0,none,,0,0,0,24
+Shalaen,2,12,0,1,12,0,3,no_exact_spelling_match,,0,0,0,24
+Shalbal,1,3,0,0,0,1,2,in_order,,1,0,0,37
+Shalbalaen,1,2,0,0,0,0,2,unique_reorder,Shalbal + -aen,1,0,0,2
+Shalbaleth,1,2,0,0,0,1,2,unique_reorder,Shalbal + -eth,1,0,0,2
+Shaleth,1,6,0,0,0,0,2,in_order,,0,0,0,24
+Shalil,1,12,0,0,0,0,2,in_order,,1,0,0,27
+Shalilvek,1,4,0,0,0,0,2,unique_reorder,Shalil + Vek,1,0,0,45
+Shalithor,1,1,0,0,0,0,2,in_order,,0,0,0,24
+Shalkav,1,2,0,0,0,1,2,in_order,,1,0,0,43
+Shalkor,1,5,0,0,0,0,2,unique_reorder,Shal + Kor,0,0,0,43
+Shalnak,1,3,0,0,0,0,2,unique_reorder,Shal + Nak,1,0,0,37
+Shalnakaen,1,3,0,0,0,0,2,unique_reorder,Shalnak + -aen,1,0,0,13
+Shalnor,1,12,0,0,0,0,2,in_order,,1,0,0,53
+Shalor,3,20,0,0,20,0,0,none,,0,0,0,33
+Shalorin,1,1,0,0,0,0,2,in_order,,0,0,0,24
+Shalorveth,1,1,0,0,0,0,3,in_order,,0,0,0,47
+Shalpel,1,2,0,0,0,0,2,in_order,,1,0,0,49
+Shalra,1,2,0,0,0,0,0,none,,0,0,0,0
+Shalrin,1,2,0,0,0,0,2,in_order,,1,0,0,54
+Shalrinaen,1,2,0,0,0,0,2,unique_reorder,Shalrin + -aen,1,0,0,1
+Shalshan,1,3,0,0,0,0,2,in_order,,1,0,0,59
+Shalvar,1,6,0,0,0,0,2,in_order,,1,0,0,47
+Shan,2,45,0,0,45,0,0,none,,0,0,0,35
+Shanartheth,1,2,0,0,0,0,3,in_order,,1,0,0,47
+Shankalaen,1,2,0,0,0,0,3,in_order,,1,0,0,63
+Shanmek,1,4,0,0,0,0,2,in_order,,1,0,0,69
+Shanmorl,1,2,0,0,0,0,2,in_order,,1,0,0,56
+Shannali,1,2,0,0,0,0,2,unique_reorder,Shan + Nali,1,0,0,42
+Shantham,1,2,0,0,0,0,2,in_order,,1,0,0,42
+Shanvelrathor,1,2,0,0,0,0,1,no_exact_spelling_match,,1,0,0,40
+Shanvelzhiraen,1,2,0,0,0,0,1,no_exact_spelling_match,,1,0,0,36
+Shar,1,1,0,0,0,0,0,none,,0,0,0,0
+Shara,2,30,0,2,30,0,0,none,,0,0,0,28
+Shara-,1,0,2,0,0,0,0,none,,0,0,0,28
+Sharaen,1,10,0,0,0,0,2,no_exact_spelling_match,,1,0,0,28
+Sharaka,1,1,0,0,0,0,2,in_order,,0,0,0,53
+Sharalorin,1,2,0,0,0,0,2,in_order,,1,0,0,33
+Sharashen,1,3,0,0,0,0,2,in_order,,1,0,0,61
+Sharavok,1,35,0,0,0,0,2,in_order,,1,0,0,48
+Sharbel,1,1,0,0,0,0,2,no_exact_spelling_match,,0,0,0,77
+Sharvar,1,1,0,0,0,0,0,none,,0,0,0,2
+Sharvargora,1,2,0,0,0,0,2,unique_reorder,Sharvar + Gora,1,0,0,6
+Shavrek,1,0,0,0,0,0,0,none,,0,0,0,0
+Shem,1,3,0,0,0,0,0,none,,0,0,0,0
+Shen,3,21,0,0,21,0,0,none,,0,0,0,33
+Shena,1,6,0,0,0,0,0,none,,0,0,0,0
+Shenakar,1,7,0,0,0,0,2,in_order,,1,0,0,33
+Shenbel,1,2,0,0,0,0,2,in_order,,1,0,0,83
+Shenbeleth,1,2,0,0,0,0,2,unique_reorder,Shenbel + -eth,1,0,0,1
+Shendava,1,5,0,0,0,0,2,unique_reorder,Shen + Dava,1,0,0,52
+Shenkes,1,2,0,0,0,0,2,in_order,,1,0,0,46
+Shenkesaen,1,2,0,0,0,0,2,unique_reorder,Shenkes + -aen,1,0,0,1
+Shenkesor,1,2,0,0,0,0,3,in_order,,1,0,0,45
+Shenlian,1,2,0,0,0,0,2,in_order,,1,0,0,52
+Shenlianaen,1,2,0,0,0,0,2,unique_reorder,Shenlian + -aen,1,0,0,2
+Shenlianeth,1,2,0,0,0,0,2,unique_reorder,Shenlian + -eth,1,0,0,2
+Shenmek,1,8,0,0,0,0,2,in_order,,1,0,0,68
+Shenpralor,1,4,0,0,0,1,3,in_order,,1,0,0,81
+Shenral,1,42,0,0,0,1,2,in_order,,1,0,0,64
+Shenreth,1,2,0,0,0,0,2,in_order,,1,0,0,53
+Shental,1,5,0,0,0,0,2,in_order,,1,0,0,42
+Shentalaen,1,2,0,0,0,0,2,unique_reorder,Shental + -aen,1,0,0,1
+Shentalzhael,2,2,0,0,2,0,2,in_order,,1,0,0,35
+Shenvarash,1,2,0,0,0,0,2,in_order,,1,0,0,36
+Shenvarashaen,1,2,0,0,0,0,2,unique_reorder,Shenvarash + -aen,1,0,0,1
+Shenzhir,1,2,0,0,0,0,2,in_order,,1,0,0,71
+Siv,1,4,0,0,0,0,0,none,,0,0,0,5
+Sivathaen,1,2,0,0,0,0,3,in_order,,1,0,0,13
+Sivkel,1,2,0,0,0,0,2,in_order,,1,0,0,29
+Sivrethaen,1,3,0,0,0,1,2,no_exact_spelling_match,,1,0,0,26
+Sivshen,1,5,0,0,0,0,2,in_order,,1,0,0,41
+Sivshenaen,1,2,0,0,0,0,2,unique_reorder,Sivshen + -aen,1,0,0,3
+Sivshenlian,1,2,0,0,0,0,2,unique_reorder,Sivshen + Lian,1,0,0,20
+Sivvok,1,10,0,0,0,1,2,in_order,,1,0,0,25
+Som,1,2,0,0,0,0,0,none,,0,0,0,0
+Songa,1,2,0,0,0,0,0,none,,0,0,0,3
+Songaeth,1,2,0,0,0,0,2,in_order,,1,0,0,3
+Songashen,1,2,0,0,0,0,2,in_order,,1,0,0,36
+Songazun,1,3,0,0,0,0,2,in_order,,1,0,0,5
+Sora,1,2,0,0,0,0,0,none,,0,0,0,0
+Soril,1,0,0,0,0,0,0,none,,0,0,0,1
+Sorl,1,1,0,0,0,0,0,none,,0,0,0,1
+Sov,1,15,0,0,0,0,0,none,,0,0,0,3
+Sul,1,2,0,0,0,0,0,none,,0,1,0,5
+Sura,1,2,0,0,0,0,0,none,,0,0,0,1
+Suv,1,2,0,0,0,0,0,none,,0,0,0,1
+Suvaen,1,2,0,0,0,0,2,in_order,,1,0,0,1
+Tal,2,57,0,0,57,0,0,none,,0,0,0,8
+Talaen,2,6,1,2,4,0,0,none,,0,0,0,8
+Talemilaen,1,2,0,0,0,0,3,unique_reorder,Tal + Emil + -aen,1,0,0,21
+Talrin,1,1,0,0,0,0,2,in_order,,0,0,0,37
+Talzhael,1,5,0,0,0,1,2,in_order,,1,0,0,23
+Talzhaelaen,1,2,0,0,0,0,2,unique_reorder,Talzhael + -aen,1,0,0,2
+Tarin,1,0,0,0,0,0,0,none,,0,0,0,1
+Tash,1,2,0,0,0,0,0,none,,0,0,0,2
+Tava,1,2,0,0,0,0,0,none,,0,0,0,0
+Tavan,1,5,0,0,0,0,0,none,,0,1,0,0
+Tavojorin,1,1,0,0,0,0,3,no_exact_spelling_match,,0,0,0,26
+Tavrel,1,1,0,0,0,0,2,in_order,,0,0,0,0
+Tek,1,1,0,0,0,0,0,none,,0,0,0,0
+Ten-,1,0,0,0,0,0,0,none,,0,0,0,0
+Tenar,2,5,0,0,5,0,0,none,,0,0,0,3
+Tenarorin,1,2,0,0,0,0,2,in_order,,0,0,0,3
+Tenarpralaen,1,2,0,0,0,0,2,no_exact_spelling_match,,1,0,0,51
+Tera,1,8,0,0,0,0,0,none,,0,0,0,0
+Terafennil,1,1,0,0,0,0,2,no_exact_spelling_match,,0,0,0,14
+Teravin,1,7,0,0,0,0,2,no_exact_spelling_match,,0,0,0,21
+Teremil,1,31,0,0,0,0,0,none,,0,0,0,0
+Terlin,1,4,0,0,0,0,0,none,,0,0,0,0
+Terra,2,18,0,1,18,0,0,none,,0,0,0,10
+terra- / Terra-,1,0,3,0,0,0,0,none,,0,0,0,0
+Terradren,1,1,0,0,0,0,2,in_order,,0,0,0,50
+Terraesh,1,1,0,0,0,0,2,in_order,,0,0,0,48
+Terrakav,1,2,0,0,0,0,2,in_order,,1,0,0,29
+Terramahr,1,3,0,0,0,0,2,in_order,,1,0,0,24
+Terramav,1,2,0,0,0,0,2,in_order,,1,0,0,21
+Terrarav,1,1,0,1,0,0,2,unique_reorder,Terra + Rav,1,0,0,23
+Terrashaneth,1,1,0,0,0,0,3,in_order,,0,0,0,49
+Terrazhael,1,2,0,0,0,0,2,in_order,,1,0,0,23
+Tesh,1,2,0,0,0,0,0,none,,0,0,0,1
+Teshaen,1,2,0,0,0,0,2,in_order,,1,0,0,1
+Tha-,1,0,0,0,0,0,0,none,,0,1,0,0
+Thaal,2,3,0,0,3,0,0,none,,0,0,0,0
+Thaal'ra,1,2,0,0,0,0,0,none,,0,0,0,0
+Thaalaen,1,1,0,0,0,0,2,no_exact_spelling_match,,0,0,0,0
+Thael,2,4,0,0,4,0,0,none,,0,0,0,6
+Thaelaen,1,2,0,0,0,0,2,in_order,,1,0,0,6
+Thaelral,1,5,0,0,0,1,2,in_order,,1,0,0,37
+Thaen,1,0,0,0,0,0,0,none,,0,0,0,5
+Thaenbel,1,2,0,0,0,0,2,in_order,,1,0,0,56
+Thaenbelaen,1,2,0,0,0,0,2,unique_reorder,Thaenbel + -aen,1,0,0,2
+Thaenin,1,8,0,0,0,0,2,in_order,,1,0,0,5
+Thaenohm,1,3,0,0,0,0,2,in_order,,1,0,0,15
+Thaenohmaen,1,3,0,0,0,0,2,unique_reorder,Thaenohm + -aen,1,0,0,1
+Thal,2,85,6,2,84,0,0,none,,0,0,0,26
+Thal'talaen,1,1,0,0,0,0,0,none,,0,0,0,0
+Thal'taleth,1,1,0,0,0,0,0,none,,0,0,0,0
+Thal'vok,1,1,0,0,0,0,0,none,,0,0,0,0
+Thal'vokaen,1,2,0,0,0,0,0,none,,0,0,0,0
+Thal-,1,0,2,0,0,0,0,none,,0,0,0,26
+Thalaneshen,1,1,0,0,0,0,5,no_exact_spelling_match,,0,0,0,71
+Thalbel,1,2,0,0,0,0,2,in_order,,1,0,0,75
+Thaldavaen,1,2,0,0,0,0,3,no_exact_spelling_match,,1,0,0,45
+Thalesh,2,2,0,0,2,0,2,in_order,,1,0,0,26
+Thalka,1,1,0,0,0,0,0,none,,0,0,0,0
+Thalkelreth,1,2,0,0,0,1,2,in_order,,1,0,0,28
+Thalkelrethaen,1,3,0,0,0,1,2,unique_reorder,Thalkelreth + -aen,1,0,0,1
+Thallian,1,1,0,0,0,0,2,in_order,,0,0,0,41
+Thalmek,1,2,0,0,0,0,2,in_order,,1,0,0,61
+Thalnak,1,2,0,0,0,0,2,unique_reorder,Thal + Nak,1,0,0,38
+Thalnakin,1,2,0,0,0,0,2,in_order,,1,0,0,38
+Thalnor,1,2,0,0,0,0,2,in_order,,1,0,0,54
+Thalnoraen,1,2,0,0,0,0,3,in_order,,1,0,0,54
+Thalor,2,2,0,0,2,0,2,in_order,,1,0,0,26
+Thalorim,1,2,0,0,0,0,2,in_order,,0,0,0,27
+Thalorimor,1,2,0,0,0,0,1,no_exact_spelling_match,,1,0,0,1
+Thalshanaen,1,3,0,0,0,0,3,in_order,,1,0,0,60
+Thalshorin,1,1,0,0,0,0,2,in_order,,0,0,0,26
+Thalvanesh,1,3,0,0,0,0,2,in_order,,1,0,0,29
+Thalvekaen,2,5,0,0,5,0,3,in_order,,1,0,0,68
+Thalwelvar,1,2,0,0,0,0,3,in_order,,1,0,0,73
+Thalwelvaraen,1,2,0,0,0,0,2,unique_reorder,Thalwelvar + -aen,1,0,0,1
+Thalzhelaen,1,2,0,0,0,0,3,in_order,,1,0,0,48
+Tham,1,0,0,0,0,0,0,none,,0,0,0,7
+Thamkar,1,2,0,0,0,0,2,in_order,,1,0,0,20
+Thamvek,1,3,0,0,0,0,2,in_order,,1,0,0,49
+Thar,2,19,1,6,19,0,0,none,,0,0,0,14
+Thar'taleth,1,1,0,0,0,0,0,none,,0,0,0,0
+Thar-,1,0,2,0,0,0,0,none,,0,0,0,14
+Thar-ka,2,2,0,0,2,0,0,none,,0,1,0,14
+Tharbel,1,2,0,0,0,0,2,in_order,,1,0,0,65
+Tharbelaen,1,2,0,0,0,0,2,unique_reorder,Tharbel + -aen,1,0,0,2
+Tharfah,1,1,0,0,0,0,0,none,,0,0,0,0
+Tharmor,1,1,0,0,0,0,2,in_order,,0,0,0,48
+Tharnspinners,1,0,0,0,0,0,0,none,,0,0,0,0
+Tharokh,1,1,0,0,0,0,0,none,,0,0,0,0
+Tharshara,1,2,0,0,0,0,2,in_order,,1,0,0,41
+Tharsharaen,1,6,0,0,0,0,3,no_exact_spelling_match,,1,0,0,41
+Tharvelim,1,1,0,0,0,0,3,in_order,,0,0,0,57
+Tharvin,1,1,0,0,0,0,2,unique_reorder,Thar + vin,0,0,0,26
+Tharvin-Wek,1,1,0,0,0,0,2,unique_reorder,Tharvin + Wek,0,0,0,19
+Tharvok,1,7,0,0,0,0,2,in_order,,1,0,0,34
+Thee,1,0,0,0,0,0,0,none,,0,1,0,1
+Theefel,1,1,0,0,0,0,0,none,,0,0,0,0
+Theon,1,2,0,0,0,0,0,none,,0,0,0,1
+Ther,1,1,0,0,0,0,0,none,,0,0,0,0
+Thera,1,2,0,0,0,0,0,none,,0,0,0,1
+Theraen,1,3,0,0,0,0,2,no_exact_spelling_match,,0,0,0,0
+Theren,1,5,0,0,0,0,2,no_exact_spelling_match,,1,0,0,0
+Thravic,1,0,0,0,0,0,0,none,,0,0,0,0
+Thryssal,1,0,0,0,0,0,0,none,,0,0,0,0
+Tir,1,2,0,0,0,0,0,none,,0,0,0,1
+Tirkal,1,4,0,0,0,0,2,in_order,,1,0,0,30
+Tl-,1,0,0,0,0,0,0,none,,0,0,0,0
+Tla,1,0,0,0,0,0,0,none,,0,0,0,4
+Tla-,1,0,0,0,0,0,0,none,,0,0,0,4
+Tlakhura,1,1,0,0,0,0,0,none,,0,0,0,4
+Tlakorin,1,1,0,0,0,0,0,none,,0,0,0,4
+Tlamor,1,5,0,0,0,0,2,in_order,,1,0,0,40
+Tlamoraen,1,2,0,0,0,0,2,unique_reorder,Tlamor + -aen,1,0,0,2
+Tlamoreth,1,2,0,0,0,0,2,unique_reorder,Tlamor + -eth,1,0,0,2
+Tlankor,1,1,0,0,0,0,0,none,,0,0,0,0
+Tlosen,1,1,0,0,0,0,0,none,,0,0,0,0
+Torin,1,9,0,0,0,0,0,none,,0,0,0,1
+Tov,1,2,0,0,0,0,0,none,,0,0,0,1
+Tovaen,1,3,0,0,0,0,2,in_order,,1,0,0,1
+Trak,1,0,0,0,0,0,0,none,,0,0,0,2
+Trakor,1,4,0,0,0,0,2,in_order,,0,0,0,5
+Trakshalilaen,1,2,0,0,0,1,3,unique_reorder,Trak + Shalil + -aen,1,0,0,5
+Tren,1,3,0,0,0,0,0,none,,0,0,0,0
+Unar,1,6,2,0,0,0,0,none,,0,0,0,0
+Uren,1,3,0,0,0,0,0,none,,0,0,0,3
+Urenaen,1,3,0,0,0,0,2,in_order,,1,0,0,3
+Urenshan,1,2,0,0,0,1,2,in_order,,1,0,0,38
+Urenvek,1,3,0,0,0,0,2,in_order,,1,0,0,45
+Va,1,28,0,0,0,0,0,none,,0,1,0,0
+Vaar,3,13,0,0,13,0,0,none,,0,0,0,6
+Vaar'kelaen,1,1,0,0,0,0,3,no_exact_spelling_match,,0,0,0,0
+Vaaranoraen,1,1,0,0,0,0,2,no_exact_spelling_match,,0,0,0,0
+Vaarbelwek,1,3,0,0,0,0,2,in_order,,1,0,0,7
+Vaareth,1,6,0,0,0,0,2,in_order,,0,0,0,6
+Vaarlor,1,1,0,0,0,0,2,in_order,,0,0,0,6
+Vaarrin,1,2,0,0,0,0,2,in_order,,1,0,0,35
+Vaarshan,1,3,0,0,0,0,2,in_order,,1,0,0,42
+Vaarshanaen,1,2,0,0,0,0,2,unique_reorder,Vaarshan + -aen,1,0,0,1
+Vaarshen,2,2,0,0,2,0,2,in_order,,1,0,1,39
+vael,1,3,0,0,0,0,0,none,,0,0,0,0
+Van,1,3,0,0,0,0,0,none,,0,0,0,2
+Vanesh,2,19,0,0,19,0,0,none,,0,0,0,4
+Vaneshem,1,1,0,0,0,0,2,in_order,,0,0,0,4
+Var,2,218,0,2,218,0,0,none,,0,0,0,23
+Var-,1,0,2,0,0,0,0,none,,0,0,0,23
+Vara,1,1,0,0,0,0,0,none,,0,0,0,0
+Varadan,1,13,0,0,0,0,0,none,,0,0,0,0
+Varan,1,2,0,0,0,0,2,in_order,,1,0,0,33
+Varash,1,2,0,0,0,0,0,none,,0,0,0,3
+Varbelor,1,2,0,0,0,0,3,in_order,,1,0,0,73
+Varin,1,2,0,0,0,0,0,none,,0,0,0,0
+Varkareth,1,1,0,0,0,0,0,none,,0,0,0,0
+Varnor,1,2,0,0,0,0,2,in_order,,1,0,0,52
+Varok,1,1,0,0,0,0,0,none,,0,0,0,2
+Varokmek,1,4,0,0,0,0,2,unique_reorder,Varok + Mek,1,0,0,37
+Varokraku,1,2,0,0,0,0,2,unique_reorder,Varok + Raku,1,0,0,11
+Varokrakuaen,1,2,0,0,0,0,2,unique_reorder,Varokraku + -aen,1,0,0,9
+Varokrakueth,1,2,0,0,0,0,2,unique_reorder,Varokraku + -eth,1,0,0,9
+Varral,1,8,0,0,0,0,2,in_order,,1,0,0,23
+Varrinmek,1,2,0,0,0,1,2,in_order,,1,0,0,26
+Varrinmekaen,1,2,0,0,0,1,2,unique_reorder,Varrinmek + -aen,1,0,0,1
+Varshanmek,1,2,0,0,0,0,3,in_order,,1,0,0,92
+Varshel,1,2,0,0,0,0,2,in_order,,1,0,0,23
+Varthas,1,24,0,0,0,0,0,none,,0,0,0,0
+Varthen,1,1,0,0,0,0,0,none,,0,0,0,0
+Varvek,1,7,0,0,0,1,2,in_order,,1,0,0,64
+Veilgliders,1,0,0,0,0,0,0,none,,0,0,0,0
+Vek,1,1,0,0,0,0,0,none,,0,0,0,42
+Vekaen,1,29,0,0,0,0,2,in_order,,1,0,0,42
+Vekin,1,7,0,0,0,0,2,in_order,,1,0,0,42
+Vekmor,1,10,0,0,0,0,2,in_order,,1,0,0,75
+Vekpralor,1,2,0,0,0,1,3,in_order,,1,0,0,89
+Vekvaraen,1,5,0,0,0,0,3,in_order,,1,0,0,64
+Vekxaror,1,2,0,0,0,1,3,in_order,,1,0,0,83
+Vel,1,4,1,0,0,0,0,none,,0,0,0,41
+Vel'rathor,1,1,0,0,0,0,0,none,,0,0,0,0
+Velaen,1,4,0,0,0,0,2,in_order,,0,0,0,41
+Velaivkor,1,2,0,0,0,0,2,in_order,,1,0,0,43
+Velalivar,1,2,0,0,0,1,2,no_exact_spelling_match,,1,0,0,44
+Velar,1,5,0,0,0,0,0,none,,0,1,0,41
+Velarshor,1,2,0,0,0,0,2,unique_reorder,Vel + arshor,0,0,0,43
+Velbelxar,1,5,0,0,0,0,2,in_order,,1,0,0,44
+Velek,1,1,0,0,0,0,0,none,,0,0,0,0
+Veleth,1,3,0,0,0,0,2,in_order,,0,0,0,41
+Velian,1,1,0,0,0,0,0,none,,0,0,0,0
+Velithor,1,2,0,0,0,0,2,in_order,,0,0,0,41
+Veljor,1,5,0,0,0,0,2,in_order,,1,0,0,67
+Velk,1,4,0,0,0,0,0,none,,0,0,0,2
+Velkavor,1,1,0,0,0,0,3,unique_reorder,Vel + kav + or,0,0,0,68
+Velkelor,1,8,0,0,0,0,3,in_order,,1,0,0,65
+Velkmorl,1,2,0,0,0,1,2,unique_reorder,Velk + Morl,1,0,0,24
+Velkorin,1,1,0,0,0,0,2,in_order,,0,0,0,48
+Velkrel,1,1,0,0,0,0,2,in_order,,1,0,0,2
+Velkrin,1,1,0,0,0,0,2,in_order,,0,0,0,41
+Vellian,1,1,0,0,0,0,2,in_order,,0,0,0,58
+Vellivaraen,1,2,0,0,0,1,3,in_order,,1,0,0,44
+Velmarin,2,5,0,0,5,0,4,no_exact_spelling_match,,0,0,0,43
+Velmarineth,1,1,0,0,0,0,3,in_order,,0,0,0,48
+Velmav,1,3,0,0,0,1,2,in_order,,1,0,0,52
+Velmek,1,1,0,0,0,0,2,unique_reorder,Vel + mek,0,0,0,76
+Velmor,1,3,0,0,0,0,2,in_order,,1,0,0,75
+Velnor,1,2,0,0,0,0,2,in_order,,1,0,0,70
+Velpralaen,1,2,0,0,0,0,2,no_exact_spelling_match,,1,0,0,86
+Velpralim,1,1,0,0,0,0,3,unique_reorder,Vel + pral + im,0,0,0,125
+Velpralor,1,1,0,0,0,0,3,in_order,,0,0,0,94
+Velpraltrakor,1,2,0,0,0,1,3,in_order,,1,0,0,88
+Velrathor,1,2,0,0,0,0,2,in_order,,0,0,0,49
+Velrin,1,2,0,0,0,0,1,no_exact_spelling_match,,0,0,0,29
+Velshen,1,0,0,0,0,0,0,none,,0,0,0,0
+Velterim,1,1,0,0,0,0,3,unique_reorder,Vel + ter + im,0,0,0,45
+Velthaelvok,1,1,0,0,0,0,3,unique_reorder,Vel + thael + vok,0,0,0,67
+Velthaen,1,2,0,0,0,0,2,unique_reorder,Vel + thaen,0,0,0,46
+Velthamor,1,1,0,0,0,0,3,unique_reorder,Vel + tham + or,0,0,0,56
+Velvaraen,1,3,0,0,0,0,3,in_order,,1,0,0,64
+Velxar,1,2,0,0,0,0,2,in_order,,1,0,0,83
+Velxorin,1,1,0,0,0,0,3,in_order,,0,0,0,41
+Velzhiraen,1,7,0,0,0,0,3,in_order,,1,0,0,79
+Ven,1,2,0,0,0,0,0,none,,0,0,0,0
+Venak,1,3,0,0,0,0,0,none,,0,0,0,2
+Ver,1,30,0,1,0,0,0,none,,0,1,0,1
+Ver-,1,0,0,0,0,0,0,none,,0,0,0,1
+Verd,1,2,0,0,0,0,0,none,,0,0,0,17
+Verdbel,1,3,0,0,0,1,2,in_order,,1,0,0,66
+Verdeth,1,3,0,0,0,0,0,none,,0,0,0,17
+Verdin,1,7,0,0,0,0,2,in_order,,1,0,0,17
+Verdmarin,1,4,0,0,0,0,2,in_order,,1,0,0,20
+Verdor,1,14,0,0,0,0,0,none,,0,0,0,18
+Verdpel,1,3,0,0,0,0,2,in_order,,1,0,0,42
+Verdselzhir,1,2,0,0,0,1,3,in_order,,1,0,0,64
+Verdsov,1,4,0,0,0,1,2,unique_reorder,Verd + Sov,1,0,0,20
+Verdvin,1,3,0,0,0,0,2,in_order,,1,0,0,28
+Verdxar,1,2,0,0,0,0,2,in_order,,1,0,0,60
+Verin,1,1,1,0,0,0,0,none,,0,0,0,0
+Verka,1,1,0,0,0,0,0,none,,0,0,0,0
+Verkalkelaen,1,2,0,0,0,0,3,unique_reorder,Ver- + Kalkel + -aen,1,0,0,1
+Vershalaen,1,1,0,0,0,0,3,no_exact_spelling_match,,0,0,0,24
+Vershara,1,1,0,0,0,0,2,no_exact_spelling_match,,0,0,0,29
+Versul,1,2,0,0,0,0,2,unique_reorder,Ver + Sul,1,0,0,6
+Vesh,1,2,0,0,0,0,0,none,,0,0,0,1
+Veth,1,5,0,0,0,0,0,none,,0,0,0,15
+Veth'tharaen,1,1,0,0,0,0,3,no_exact_spelling_match,,0,0,0,14
+Vethbel,1,2,0,0,0,1,2,in_order,,1,0,0,64
+Vethdren,1,2,0,0,0,0,2,in_order,,1,0,0,55
+Vethhar,1,1,0,0,0,0,2,in_order,,0,0,0,15
+Vethnak,1,2,0,0,0,1,2,unique_reorder,Veth + Nak,1,0,0,28
+Vethnakaen,1,2,0,0,0,1,2,unique_reorder,Vethnak + -aen,1,0,0,13
+Vethnor,1,2,0,0,0,1,2,in_order,,1,0,0,44
+Vethor,2,4,0,0,4,0,0,none,,0,0,0,2
+Vethoraen,1,4,0,0,0,0,2,unique_reorder,Vethor + -aen,0,0,0,2
+Vethordrenka,1,1,0,0,0,0,0,none,,0,0,0,0
+Vethpralaen,1,2,0,0,0,1,2,no_exact_spelling_match,,1,0,0,63
+Vethral,1,3,0,0,0,0,2,unique_reorder,Veth + Ral,0,0,0,44
+Vethrin,1,1,0,0,0,0,2,in_order,,0,0,0,44
+Vethshal,1,2,0,0,0,0,2,in_order,,1,0,0,40
+Vethshalaen,1,2,0,0,0,0,2,unique_reorder,Vethshal + -aen,1,0,0,2
+Vethshaleth,1,2,0,0,0,0,2,unique_reorder,Vethshal + -eth,1,0,0,2
+Vethsoril,1,1,0,0,0,0,2,unique_reorder,Veth + soril,0,0,0,16
+Vethvar,1,4,0,0,0,1,2,in_order,,1,0,0,39
+Vethvaraen,1,2,0,0,0,1,2,unique_reorder,Vethvar + -aen,1,0,0,1
+Vethvelrathor,1,2,0,0,0,1,1,no_exact_spelling_match,,1,0,0,20
+Vexflit,1,0,0,0,0,0,0,none,,0,0,0,0
+Vial,1,1,0,0,0,0,0,none,,0,0,0,0
+Vialaen,1,3,0,0,0,0,2,no_exact_spelling_match,,0,0,0,0
+Vilor,1,7,0,0,0,0,0,none,,0,0,0,3
+Vilorsov,1,2,0,0,0,0,2,unique_reorder,Vilor + Sov,1,0,0,6
+Vin,1,0,0,0,0,0,0,none,,0,0,0,11
+Vindrenaen,1,2,0,0,0,1,3,in_order,,1,0,0,49
+Vok,2,2,1,0,2,0,0,none,,0,0,0,20
+Vok-,1,0,0,0,0,0,0,none,,0,0,0,20
+Vokaen,1,1,2,0,0,0,2,no_exact_spelling_match,,0,0,0,20
+Voktarin,1,1,0,0,0,0,2,unique_reorder,Vok + tarin,0,0,0,21
+Vora,1,8,0,0,0,0,0,none,,0,0,0,2
+Voraeth,1,2,0,0,0,0,2,in_order,,1,0,0,2
+Vorkaral,1,5,0,0,0,0,3,unique_reorder,Vor + Kar + -al,1,0,0,13
+Vorkor,1,29,0,0,0,0,2,unique_reorder,Vor + Kor,0,0,0,20
+Vrak,2,2,0,0,2,0,0,none,,0,0,0,0
+Vrekthael,1,1,0,0,0,0,0,none,,0,0,0,0
+Vroshan,1,0,0,0,0,0,0,none,,0,0,0,0
+Wek,1,5,0,0,0,0,0,none,,0,0,0,18
+Wek'aen,1,1,0,0,0,0,0,none,,0,0,0,0
+Wekmek,1,3,0,0,0,0,2,in_order,,1,0,0,53
+Weknor,1,1,0,0,0,0,2,unique_reorder,Wek + nor,0,0,0,47
+Wekrav,1,2,0,0,0,1,2,in_order,,1,0,0,30
+Weksharaen,1,3,0,0,0,0,3,no_exact_spelling_match,,1,0,0,46
+Weksivshen,1,2,0,0,0,0,2,in_order,,1,0,0,22
+Weksivshenaen,1,2,0,0,0,0,2,unique_reorder,Weksivshen + -aen,1,0,0,1
+Weksul,1,2,0,0,0,0,2,unique_reorder,Wek + Sul,1,0,0,23
+Wekvaraen,1,2,0,0,0,1,3,in_order,,1,0,0,41
+Wekxar,1,2,0,0,0,1,2,in_order,,1,0,0,61
+Wel,1,6,0,0,0,0,0,none,,0,0,0,23
+Welaenthael,1,4,0,0,0,0,2,in_order,,1,0,0,26
+Welarth,1,5,0,0,0,0,2,in_order,,1,0,0,35
+Weleth,1,2,0,0,0,0,2,in_order,,1,0,0,23
+Welgorm,1,2,0,0,0,0,2,unique_reorder,Wel + Gorm,1,0,0,25
+Welkarin,1,1,0,0,0,0,2,in_order,,0,0,0,23
+Welkelthar,1,4,0,0,0,0,3,in_order,,1,0,0,60
+Welkrez,1,2,0,0,0,0,2,in_order,,1,0,0,48
+Welmor,1,1,0,0,0,0,2,in_order,,0,0,0,57
+Welnali,1,2,0,0,0,0,2,unique_reorder,Wel + Nali,1,0,0,30
+Welpralor,1,15,0,0,0,1,3,in_order,,1,0,0,71
+Welrim,2,4,0,0,4,0,2,in_order,,0,0,0,26
+Welrin,1,19,0,0,0,0,2,in_order,,1,0,0,53
+Welrinath,1,2,0,0,0,0,2,unique_reorder,Welrin + -ath,1,0,0,1
+Weltal,1,2,0,0,0,0,2,in_order,,1,0,0,32
+Weltalaen,1,2,0,0,0,0,2,unique_reorder,Weltal + -aen,1,0,0,1
+Welvek,1,3,0,0,0,0,2,in_order,,1,0,0,65
+Welvinor,1,1,0,0,0,0,2,in_order,,0,0,0,34
+Welzhirbel,1,4,0,0,0,0,2,in_order,,1,0,0,24
+Welzor,1,3,0,0,0,0,2,in_order,,1,0,0,33
+Wor,1,3,0,0,0,0,0,none,,0,0,0,9
+Woreth,1,2,0,0,0,0,2,in_order,,0,0,0,9
+Workalrav,1,2,0,0,0,0,1,no_exact_spelling_match,,1,0,0,15
+Worlian,1,2,0,0,0,0,2,in_order,,1,0,0,26
+Wornyelbel,1,2,0,0,0,1,2,in_order,,1,0,0,15
+Worshankal,1,2,0,0,0,1,3,in_order,,1,0,0,73
+Worshankalaen,1,2,0,0,0,0,2,unique_reorder,Worshankal + -aen,1,0,0,1
+Worsul,1,2,0,0,0,0,2,unique_reorder,Wor + Sul,1,0,0,14
+Worvenak,1,5,0,0,0,0,2,unique_reorder,Wor + venak,0,0,0,11
+Worxaror,1,4,0,0,0,1,2,in_order,,1,0,0,10
+Worzhel,1,3,0,0,0,0,2,in_order,,1,0,0,31
+Xar,2,5,0,0,5,0,0,none,,0,0,0,43
+Xaraen,1,8,0,0,0,0,2,in_order,,1,0,0,43
+Xardava,1,2,0,0,0,0,2,unique_reorder,Xar + Dava,1,0,0,61
+Xardavaen,1,2,0,0,0,0,2,no_exact_spelling_match,,1,0,0,19
+Xaresh,1,7,0,0,0,0,2,in_order,,0,0,0,79
+Xarfelvin,1,1,0,0,0,0,3,in_order,,0,0,0,85
+Xarkaleth,1,3,0,0,0,0,2,in_order,,1,0,0,44
+Xarkrezaen,1,2,0,0,0,1,3,in_order,,1,0,0,68
+Xarlorin,1,1,0,0,0,0,2,in_order,,0,0,0,48
+Xarmetha,1,2,0,0,0,0,2,unique_reorder,Xar + Metha,1,0,0,45
+Xarmorl,1,2,0,0,0,0,2,in_order,,1,0,0,65
+Xarnesh,1,2,0,0,0,0,2,unique_reorder,Xar + Nesh,1,0,0,47
+Xaror,1,8,0,0,0,0,2,in_order,,1,0,0,44
+Xarphelor,1,8,0,0,0,0,3,in_order,,1,0,0,50
+Xarrin,1,2,0,0,0,1,2,in_order,,1,0,0,72
+Xarvek,1,14,0,0,0,0,2,in_order,,1,0,0,83
+Xarvel,2,1,0,0,1,0,2,in_order,,0,0,0,83
+Xarvethral,1,2,0,0,0,0,3,unique_reorder,Xar + veth + ral,0,0,0,87
+Xarwelor,1,2,0,0,0,0,3,in_order,,1,0,0,66
+Xarzhir,1,2,0,0,0,0,2,in_order,,1,0,0,81
+Xil,1,2,0,0,0,0,0,none,,0,0,0,4
+Xilbren,1,1,0,0,0,0,2,in_order,,0,0,0,10
+Xilnalior,1,2,0,0,0,0,2,in_order,,1,0,0,5
+Xilnor,1,2,0,0,0,0,2,in_order,,1,0,0,33
+Xilvar,2,2,0,0,2,0,2,in_order,,0,1,0,27
+Ya,2,70,7,0,70,0,0,none,,0,0,0,1
+Yako,1,1,0,0,0,0,0,none,,0,0,0,0
+Yalin,1,2,0,0,0,0,0,none,,0,0,0,0
+Zek,1,2,0,0,0,0,0,none,,0,0,0,0
+Zem,1,6,0,0,0,0,0,none,,0,0,0,0
+Zer,1,2,0,0,0,0,0,none,,0,0,0,1
+Zeraen,1,2,0,0,0,0,2,in_order,,1,0,0,1
+Zev,1,3,0,0,0,0,0,none,,0,0,0,1
+Zevaen,1,2,0,0,0,0,2,in_order,,1,0,0,1
+Zhae-,1,0,0,0,0,0,0,none,,0,0,0,0
+Zhaeaen,1,2,0,0,0,0,2,no_exact_spelling_match,,0,0,0,0
+Zhael,1,1,0,0,0,0,0,none,,0,0,0,13
+Zhaeleth,1,2,0,0,0,0,2,in_order,,1,0,0,13
+Zhaelin,1,4,0,0,0,0,2,in_order,,0,0,0,13
+Zhaelolan,1,2,0,0,0,0,2,in_order,,1,0,0,19
+Zhaelor,1,5,0,0,0,0,2,in_order,,0,0,0,23
+Zhaelphel,1,3,0,0,0,1,2,in_order,,1,0,0,20
+Zhaelpralaen,1,24,0,0,0,0,3,in_order,,1,0,0,61
+Zhaelral,1,88,0,0,0,0,2,in_order,,1,0,0,44
+Zhaelshen,1,2,0,0,0,0,2,in_order,,1,0,0,46
+Zharak,1,0,0,0,0,0,0,none,,0,0,0,0
+Zharin,1,1,0,0,0,0,2,no_exact_spelling_match,,0,0,0,38
+Zharinor,1,1,0,0,0,0,0,none,,0,0,0,0
+Zharrel,1,0,0,0,0,0,0,none,,0,0,0,0
+Zhe,1,2,0,0,0,0,0,none,,0,0,0,0
+Zhel,1,4,0,0,0,0,0,none,,0,0,0,22
+Zhelaen,1,2,0,0,0,0,2,in_order,,1,0,0,22
+Zhelbel,1,6,0,0,0,0,2,in_order,,1,0,0,72
+Zheldava,1,4,0,0,0,0,2,unique_reorder,Zhel + Dava,1,0,0,41
+Zhelkav,1,4,0,0,0,0,2,in_order,,1,0,0,41
+Zhelkor,1,2,0,0,0,0,2,in_order,,1,0,0,41
+Zhelpel,1,2,0,0,0,0,2,in_order,,1,0,0,47
+Zhelpralaen,1,2,0,0,0,0,2,no_exact_spelling_match,,1,0,0,70
+Zhelreth,1,2,0,0,0,0,2,in_order,,1,0,0,43
+Zhelshan,1,2,0,0,0,0,2,in_order,,1,0,0,57
+Zhelshaneth,1,3,0,0,0,0,3,in_order,,1,0,0,56
+Zhelshara,1,4,0,0,0,0,2,in_order,,1,0,0,52
+Zhelvek,2,4,0,0,4,0,2,in_order,,0,0,0,99
+Zhelvorkor,1,2,0,0,0,0,2,in_order,,1,0,0,23
+Zhelwel,1,2,0,0,0,0,2,in_order,,1,0,0,45
+Zhelxar,1,2,0,0,0,0,2,in_order,,1,0,0,65
+Zhenlor,1,0,0,0,0,0,0,none,,0,0,0,0
+Zhilva,1,1,0,0,0,0,0,none,,0,0,0,0
+Zhir,1,2,0,1,0,0,0,none,,0,0,0,38
+Zhir-,1,0,2,0,0,0,0,none,,0,0,0,38
+Zhirath,1,5,0,0,0,0,2,in_order,,1,0,0,46
+Zhirbel,1,3,0,0,0,0,2,in_order,,1,0,0,87
+Zhirelorim,1,3,0,0,0,0,3,unique_reorder,Zhir + elor + im,0,0,0,45
+Zhiren,1,1,0,0,0,0,0,none,,0,1,0,38
+Zhirin,1,8,0,1,0,0,2,in_order,,0,0,0,38
+Zhirkalor,1,1,0,0,0,0,3,in_order,,0,0,0,77
+Zhirkel,1,6,0,0,0,0,2,in_order,,1,0,0,63
+Zhirkelral,1,5,0,0,0,1,2,unique_reorder,Zhirkel + Ral,1,0,0,32
+Zhirkor,1,2,0,0,0,0,2,in_order,,1,0,0,57
+Zhirnyel,1,2,0,0,0,1,2,unique_reorder,Zhir + Nyel,1,0,0,43
+Zhirpel,1,2,0,0,0,0,2,in_order,,1,0,0,63
+Zhirrathor,1,2,0,1,0,0,2,in_order,,1,0,0,41
+Zhirshara,1,5,0,0,0,0,2,in_order,,1,0,0,66
+Zhirvek,1,2,0,0,0,0,2,in_order,,1,0,0,80
+Zhirverd,1,2,0,0,0,0,2,in_order,,1,0,0,54
+Zhirvok,1,4,0,0,0,0,2,in_order,,0,0,0,58
+Zhivokesh,1,1,0,0,0,0,3,unique_reorder,Zhi + vok + esh,0,0,0,55
+Zhivor,1,3,0,0,0,0,2,no_exact_spelling_match,,1,0,0,38
+Zhivorin,1,1,0,0,0,0,3,no_exact_spelling_match,,0,0,0,38
+Zor,1,8,0,0,0,0,0,none,,0,0,0,10
+Zordren,1,2,0,0,0,0,2,in_order,,1,0,0,49
+Zordrenvinaen,1,2,0,0,0,0,4,in_order,,1,0,0,58
+Zornelar,1,3,0,0,0,0,2,unique_reorder,Zor + Nelar,1,0,0,11
+Zornethor,1,2,0,0,0,0,2,in_order,,1,0,0,11
+Zorxar,1,2,0,0,0,0,2,in_order,,1,0,0,53
+Zun,1,2,0,0,0,0,0,none,,0,0,0,2
+Zunesh,1,2,0,0,0,0,2,unique_reorder,Zun + Esh,1,0,0,40

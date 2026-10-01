@@ -59,9 +59,19 @@ for(const row of entries){
   for(const component of family.components||[])if(component.target)assert.ok(ids.has(component.target),row.id+' has broken component link to '+component.target);
 }
 const senseKeys=new Set();
-for(const row of senses){const key=row.headword_id+'/'+row.sense_order;assert.ok(!senseKeys.has(key),'duplicate sense position: '+key);senseKeys.add(key);}
+const senseIds=new Set();
+for(const row of senses){
+  const key=row.headword_id+'/'+row.sense_order;
+  assert.ok(!senseKeys.has(key),'duplicate sense position: '+key);senseKeys.add(key);
+  assert.ok(row.sense_id,'missing permanent sense id: '+key);
+  assert.ok(!senseIds.has(row.sense_id),'duplicate permanent sense id: '+row.sense_id);
+  senseIds.add(row.sense_id);
+}
 const exampleKeys=new Set();
 for(const row of examples){const key=row.headword_id+'/'+row.section+'/'+row.display_order;assert.ok(!exampleKeys.has(key),'duplicate example position: '+key);exampleKeys.add(key);}
 const exportRows=parseCsv(fs.readFileSync(path.join(appDir,'exports','dictionary_entries.csv'),'utf8'));
 assert.equal(exportRows.length,1607,'spreadsheet export is missing visible senses');
+assert.deepEqual(new Set(exportRows.map(row=>row.sense_id)),new Set(senses.filter(row=>row.visible==='Yes').map(row=>row.sense_id)),'export sense IDs differ from visible app meanings');
+for(const row of exportRows)assert.doesNotMatch(row.usage_note,/Retain as-is|Preserved as standalone root\/morpheme because source clearly defines it|The source gloss|Builds the approved|Source uses Ohnoshan|Names the organ without embedding an unapproved theory/i,'internal note leaked to export: '+row.sense_id);
+for(const row of exportRows)assert.doesNotMatch(row.example_scope,/pending review|assignment pending/i,'internal review label leaked to export: '+row.sense_id);
 console.log('PASS: the app reads only its seven approved content files; every placed sense and example has a headword; the offline bundle matches.');

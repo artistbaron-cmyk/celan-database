@@ -21,7 +21,22 @@ const readCsv=name=>parseCsv(fs.readFileSync(path.join(source,name),'utf8'));
 const readJson=name=>JSON.parse(fs.readFileSync(path.join(source,name),'utf8'));
 const normalize=value=>String(value||'').trim().toLowerCase();
 function csvEscape(value){const text=String(value??'');return /[",\n]/.test(text)?`"${text.replace(/"/g,'""')}"`:text;}
-function displayUsageNote(value){const usage=(value||'').trim();if(!usage)return '';if(/^original .* preserved\.$/i.test(usage)||/^dictionary-layer entry/i.test(usage)||/^source extraction remains unchanged\.$/i.test(usage)||/^source files unchanged\.$/i.test(usage)||/^root family evidence:/i.test(usage))return '';return usage;}
+function displayUsageNote(value){
+  const usage=(value||'').trim();
+  if(!usage)return '';
+  if(/^original .* preserved\.$/i.test(usage))return '';
+  if(/^dictionary-layer entry/i.test(usage))return '';
+  if(/^source extraction remains unchanged\.$/i.test(usage))return '';
+  if(/^source files unchanged\.$/i.test(usage))return '';
+  if(/^root family evidence:/i.test(usage))return '';
+  if(/^retain as-is\.?$/i.test(usage))return '';
+  if(/^preserved as standalone root\/morpheme because source clearly defines it\.?$/i.test(usage))return '';
+  if(/^the source gloss\b/i.test(usage))return '';
+  if(/^builds the approved\b/i.test(usage))return '';
+  if(/^names the organ without embedding an unapproved theory\b/i.test(usage))return '';
+  if(/^source uses\b/i.test(usage))return '';
+  return usage;
+}
 const headwords=readCsv('dictionary_entries.csv');
 const senses=readCsv('dictionary_senses.csv');
 const examples=readCsv('dictionary_examples.csv');
@@ -44,7 +59,7 @@ for(const headword of headwords.sort((a,b)=>a.headword.localeCompare(b.headword)
       source_entry_ids:headword.source_entry_ids, approval_batch:headword.approval_batch,
       headword:headword.headword, pronunciation:headword.pronunciation,
       use_type:use.word_type,
-      root_word:override.showRootSense?(use.root_word==='Yes'?'Yes':''):(headword.has_root_word==='Yes'?'Yes':''),
+      root_word:use.root_word==='Yes'?'Yes':'',
       meaning:use.meaning, usage_note:displayUsageNote(use.usage_note),
       derivation:(metadata.derivations||[]).join('; '),
       origin_nation:(metadata.origins||[]).join('; '),
@@ -53,8 +68,8 @@ for(const headword of headwords.sort((a,b)=>a.headword.localeCompare(b.headword)
       variant_pronunciations:(metadata.variants||[]).map(variant=>variant.pronunciation).join('; '),
       family_roots:roots.join('; '), related_words:related.map(entry=>entry.term).join('; '),
       example_count:placed.direct.length, related_example_count:placed.related.length,
-      example_scope:uses.length>1?'Headword; sense assignment pending':'Headword',
-      use_index:index+1
+      example_scope:uses.length>1?'Word level; meanings not assigned':'Word level',
+      use_index:index+1, sense_id:use.sense_id
     };
     if(index===0){
       placed.direct.slice(0,5).forEach((example,i)=>{row[`example_${i+1}_celan`]=example.celan_text;row[`example_${i+1}_translation`]=example.translation;});
@@ -63,7 +78,7 @@ for(const headword of headwords.sort((a,b)=>a.headword.localeCompare(b.headword)
     rows.push(row);
   });
 }
-const headers=['source_entry_ids','approval_batch','headword','pronunciation','use_type','root_word','meaning','usage_note','derivation','origin_nation','national_usage','variant_forms','variant_pronunciations','family_roots','related_words','example_count','related_example_count','example_scope','use_index','example_1_celan','example_1_translation','example_2_celan','example_2_translation','example_3_celan','example_3_translation','example_4_celan','example_4_translation','example_5_celan','example_5_translation','related_example_1_celan','related_example_1_translation','related_example_2_celan','related_example_2_translation'];
+const headers=['source_entry_ids','approval_batch','headword','pronunciation','use_type','root_word','meaning','usage_note','derivation','origin_nation','national_usage','variant_forms','variant_pronunciations','family_roots','related_words','example_count','related_example_count','example_scope','use_index','sense_id','example_1_celan','example_1_translation','example_2_celan','example_2_translation','example_3_celan','example_3_translation','example_4_celan','example_4_translation','example_5_celan','example_5_translation','related_example_1_celan','related_example_1_translation','related_example_2_celan','related_example_2_translation'];
 fs.mkdirSync(path.dirname(output),{recursive:true});
 fs.writeFileSync(output,[headers.join(','),...rows.map(row=>headers.map(header=>csvEscape(row[header])).join(','))].join('\n'));
 console.log(`Wrote ${rows.length} dictionary rows to ${output}`);

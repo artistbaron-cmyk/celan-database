@@ -1,0 +1,19 @@
+{
+  "entries_checked": 1496,
+  "visible_senses_checked": 1607,
+  "example_placements_checked": 9163,
+  "issues_by_type": {
+    "example_overload": 99,
+    "example_sense_unassigned": 84,
+    "family_sense_scope_review": 82,
+    "identical_meaning_rows": 6,
+    "internal_usage_note": 30,
+    "morphology_needs_individual_review": 107,
+    "morphology_order": 228,
+    "morphology_parts_same_color": 1027,
+    "morphology_sense_scope_review": 26,
+    "no_direct_example": 99,
+    "origin_repeats_morphology": 829,
+    "variant_needs_visual_weight": 193
+  }
+}

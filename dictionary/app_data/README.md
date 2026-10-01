@@ -5,7 +5,7 @@ This folder contains **everything the current app reads to display dictionary en
 | Edit this file | What it controls |
 | --- | --- |
 | `dictionary_entries.csv` | One row per headword: spelling, pronunciation, word-origin metadata, source IDs, and headword display settings |
-| `dictionary_senses.csv` | Every sense, word type, meaning, and usage note; `visible=Yes` means the sense appears to students |
+| `dictionary_senses.csv` | Every sense, word type, meaning, and usage note; `visible=Yes` means the sense appears to students. `sense_id` is a permanent link key for that meaning, separate from its display order |
 | `dictionary_examples.csv` | Every placed example, with Celan, English, source, sense label, and whether it is direct usage, a related form, or a teaching note |
 | `dictionary_families.json` | Built-from components, roots, affixes, related words, and family notes |
 | `grammar_guide.json` | The complete Grammar Guide: rules, lessons, and companion pages |
@@ -14,6 +14,8 @@ This folder contains **everything the current app reads to display dictionary en
 | `phrase_builder_content.js` | Phrase Builder's conditional example responses and explanation text |
 
 `dictionary_entries.csv` is the headword list the app reads. Meanings are in `dictionary_senses.csv`, and all examples are in `dictionary_examples.csv` so no example has to be squeezed into a fixed number of columns. The `override_json` and `metadata_json` cells in the headword file hold the few structured display details that do not fit a simple text field. The app builds result previews and all-fields search from the current visible senses and metadata; there are no separate preview or search-text cells to keep in sync. The export also reads word-origin details from `metadata_json`.
+
+When adding or reordering meanings, keep each existing `sense_id` with its meaning. Assign a new ID only to a new meaning. The ID is for data links and is not printed on the reader's page.
 
 There are currently 1,496 headwords, 1,607 visible senses, and 9,163 placements of examples across entries. A sentence can appear under several words, so placements outnumber distinct sentences.
 
