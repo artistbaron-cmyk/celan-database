@@ -2643,35 +2643,60 @@ function displayUsageNote(use) {
   return usage;
 }
 
+function wordBuildingScope(senseIds, uses) {
+  if (!senseIds?.length || senseIds.length === uses.length) return "";
+  const matching = uses.filter(use => senseIds.includes(use.senseId));
+  if (!matching.length) return "";
+  return `For: ${matching.map(use => `${use.meaning} (${use.type})`).join("; ")}`;
+}
+
+function visibleWordBuilding(group, family, primaryUses, metadata) {
+  const components = (family.components || []).filter(part => part.form && part.meaning);
+  const componentsById = new Map(components.map(part => [part.id, part]));
+  const recordedAnalyses = family.morphologyAnalyses?.length
+    ? family.morphologyAnalyses.map(analysis => ({
+        parts: analysis.componentIds.map(id => componentsById.get(id)),
+        senseIds: analysis.senseIds || family.morphologySenseIds || [],
+        spellingNote: analysis.spellingNote || ""
+      }))
+    : [{parts: components, senseIds: family.morphologySenseIds || [], spellingNote: ""}];
+  const hasMultipleMeanings = primaryUses.length > 1;
+  const morphologyAnalyses = family.morphologyReview?.status === "open" ? [] : recordedAnalyses.filter(analysis =>
+    analysis.parts.length && analysis.parts.every(Boolean) &&
+    (!hasMultipleMeanings || analysis.senseIds.length) &&
+    (analysis.spellingNote || cleanAlpha(analysis.parts.map(part => part.form).join("")) === cleanAlpha(group.term)));
+  const displayedSources = new Set(morphologyAnalyses.flatMap(analysis => analysis.parts)
+    .map(part => part.source?.trim().toLowerCase()).filter(Boolean));
+  const visibleDerivations = (metadata?.derivations || []).filter(origin =>
+    !/\b(?:source-attested|LX-[A-Z0-9-]+|RM-[A-Z0-9-]+|ED-[A-Z0-9-]+)\b/i.test(origin) &&
+    (!hasMultipleMeanings || morphologyAnalyses.length) &&
+    !displayedSources.has(origin.trim().toLowerCase()) &&
+    !(family.morphologyReview?.status === "open" && origin.includes("+")));
+  return {morphologyAnalyses, displayedSources, visibleDerivations};
+}
+
 function renderDetail(group) {
-  const roots = relatedRoots(group.entries);
   const examples = relatedExamples(group);
   const family = state.familyIndex.get(group.id) || { familyRoots: [], relatedEntries: [] };
   const override = headwordOverride(group.term);
   const pronunciation = buildPronunciation(group.term, group.entries);
   const metadata = expansionMetadata(group);
-  const displayDerivations = (metadata?.derivations || []).filter(text =>
-    !/\b(?:source-attested|LX-[A-Z0-9-]+|RM-[A-Z0-9-]+|ED-[A-Z0-9-]+)\b/i.test(text));
-  const familyRoots = family.familyRoots
-    .filter(rootTerm => !(family.sharedAffixes || []).includes(rootTerm))
-    .filter((rootTerm) => normalizeHeadword(rootTerm.replace(/-+$/g, "")) !== normalizeHeadword(group.term.replace(/-+$/g, "")))
-    ;
-  const relatedEntries = family.relatedEntries;
+  const relatedEntries = override?.familyTerms?.length
+    ? family.relatedEntries.filter(entry => override.familyTerms.includes(entry.term))
+    : family.relatedEntries;
   const hasFamilyContent = relatedEntries.length > 0;
   const displayExamples = override?.examples?.length ? override.examples : examples;
   const primaryUses = displayUses(group);
   const hasMultipleMeanings = primaryUses.length > 1;
-  const visibleDerivations = hasMultipleMeanings ? [] : displayDerivations;
+  const {morphologyAnalyses, displayedSources, visibleDerivations} = visibleWordBuilding(group, family, primaryUses, metadata);
   const hasVisibleMetadata = metadata && (metadata.origins.length || metadata.nationalUses.length || visibleDerivations.length);
-  // Until the word-building review assigns parts and family links to senses,
-  // showing a word-level breakdown beside several meanings can imply a false origin.
-  const showWordBuilding = !hasMultipleMeanings;
-  const morphology = (family.components || []).filter(part => part.form && part.meaning);
+  const showFamily = hasFamilyContent && (!hasMultipleMeanings || family.familySenseIds?.length);
+  const familyScope = wordBuildingScope(family.familySenseIds, primaryUses);
   const useMarkup = primaryUses.map((use) => {
     const displayType = displayUseType(group, use);
     const rootWordMarker = displayRootWordMarker(group, use);
     const usageNote = displayUsageNote(use);
-    const repeatedInMorphology = morphology.some(part => part.source?.trim() === usageNote);
+    const repeatedInMorphology = displayedSources.has(usageNote.toLowerCase());
     return `
       <section class="sense-block" data-sense-id="${escapeMarkup(use.senseId || '')}">
         <div class="sense-heading">${displayType ? `<span class="sense-type">${escapeMarkup(displayType)}</span>` : ""}${rootWordMarker ? `<span class="sense-marker">${escapeMarkup(rootWordMarker)}</span>` : ""}</div>
@@ -2692,19 +2717,25 @@ function renderDetail(group) {
         ${override?.usageNote && displayUsageNote({usage:override.usageNote}) ? `<p class="sense-usage">${escapeMarkup(override.usageNote)}</p>` : ""}
       </section>
       ${metadata?.variants?.length ? `<section class="card variant-card"><h3>Variant forms</h3><div class="variant-list">${metadata.variants.map(variant => `<div class="variant-item"><strong class="variant-form">${escapeMarkup(variant.form)}</strong>${variant.pronunciation ? `<span class="variant-pronunciation">${escapeMarkup(variant.pronunciation)}</span>` : ''}</div>`).join('')}</div></section>` : ''}
-      ${showWordBuilding && morphology.length ? `<section class="card morphology-card"><h3>Morphology</h3><div class="morphology-parts">${morphology.map(part => `<div class="morphology-part"><strong>${escapeMarkup(part.form)}</strong><span>${escapeMarkup(part.meaning.replace(/^=\s*/, ''))}</span></div>`).join('<span class="morphology-plus" aria-hidden="true">+</span>')}</div></section>` : ''}
+      ${morphologyAnalyses.length ? `<section class="card morphology-card"><h3>Morphology</h3>${morphologyAnalyses.map(analysis => `
+        <div class="morphology-analysis">
+          ${wordBuildingScope(analysis.senseIds, primaryUses) ? `<p class="word-building-scope">${escapeMarkup(wordBuildingScope(analysis.senseIds, primaryUses))}</p>` : ''}
+          <div class="morphology-parts">${analysis.parts.map((part, index) => `<div class="morphology-part morphology-part--${Math.min(index + 1, 5)}"><strong>${escapeMarkup(part.form)}</strong><span>${escapeMarkup(part.meaning.replace(/^=\s*/, ''))}</span></div>`).join('<span class="morphology-plus" aria-hidden="true">+</span>')}</div>
+          ${analysis.spellingNote ? `<p class="morphology-spelling-note">${escapeMarkup(analysis.spellingNote)}</p>` : ''}
+        </div>`).join('')}</section>` : ''}
       ${hasVisibleMetadata ? `
       <section class="card">
         <h3>Usage</h3>
-        ${metadata.origins.length ? `<div class="family-group"><p class="family-label">Origin</p><p class="family-line">${metadata.origins.join(", ")}</p></div>` : ""}
-        ${metadata.nationalUses.length ? `<div class="family-group"><p class="family-label">National use</p><p class="family-line">${metadata.nationalUses.join(" ")}</p></div>` : ""}
-        ${visibleDerivations.length ? `<div class="family-group"><p class="family-label">Word origin</p><p class="family-line">${visibleDerivations.join("; ")}</p></div>` : ""}
+        ${metadata.origins.length ? `<div class="family-group"><p class="family-label">Origin</p><p class="family-line">${metadata.origins.map(escapeMarkup).join(", ")}</p></div>` : ""}
+        ${metadata.nationalUses.length ? `<div class="family-group"><p class="family-label">National use</p><p class="family-line">${metadata.nationalUses.map(escapeMarkup).join(" ")}</p></div>` : ""}
+        ${visibleDerivations.length ? `<div class="family-group"><p class="family-label">Word origin</p>${hasMultipleMeanings && morphologyAnalyses.length ? `<p class="word-building-scope">${escapeMarkup(wordBuildingScope(family.morphologySenseIds || morphologyAnalyses.flatMap(analysis => analysis.senseIds), primaryUses))}</p>` : ''}<p class="family-line">${visibleDerivations.map(escapeMarkup).join("; ")}</p></div>` : ""}
       </section>
       ` : ""}
       ${renderExampleSections(group, displayExamples)}
-      ${showWordBuilding && hasFamilyContent ? `
+      ${showFamily ? `
       <section class="card">
         <h3>Word Family</h3>
+        ${familyScope ? `<p class="word-building-scope">${escapeMarkup(familyScope)}</p>` : ''}
         ${relatedEntries.length
           ? `<div class="family-group"><p class="family-line">${renderFamilyLinks(relatedEntries.slice(0,10), "data-headword")}</p>${relatedEntries.length > 10 ? `<details class="family-all"><summary>View all ${relatedEntries.length} related words</summary><p class="family-line">${renderFamilyLinks(relatedEntries.slice(10), "data-headword")}</p></details>` : ''}</div>`
           : `<p>No related words listed.</p>`}
@@ -2759,18 +2790,27 @@ async function init() {
   });
   // Search and result previews follow the current app-facing senses and metadata.
   // Keeping copied preview/search strings in the headword file made sense edits stale.
+  state.familyIndex = new Map(Object.entries(families));
   state.groupedEntries.forEach(group => {
     const visible = displayUses(group);
     group.preview = visible.slice(0, 2).map(use => use.type
       ? `${use.type}: ${use.meaning}` : use.meaning).join(' ; ');
     const metadata = group.canonicalMetadata || {};
+    const family = state.familyIndex.get(group.id) || {};
+    const {morphologyAnalyses, visibleDerivations} = visibleWordBuilding(group, family, visible, metadata);
     group.searchText = normalizeHeadword([
       group.term,
       ...(group.override.aliases || []),
       ...visible.flatMap(use => [use.type, use.meaning, displayUsageNote(use)]),
       ...(metadata.origins || []),
       ...(metadata.nationalUses || []),
-      ...(metadata.derivations || []),
+      ...visibleDerivations,
+      ...morphologyAnalyses.flatMap(analysis => analysis.parts.flatMap(part => [part.form, part.meaning])),
+      ...(visible.length === 1 || family.familySenseIds?.length
+        ? (group.override.familyTerms?.length
+          ? (family.relatedEntries || []).filter(entry => group.override.familyTerms.includes(entry.term))
+          : (family.relatedEntries || [])).map(entry => entry.term)
+        : []),
       ...(metadata.variants || []).flatMap(variant => [variant.form, variant.pronunciation])
     ].join(' '));
   });
@@ -2779,7 +2819,6 @@ async function init() {
     if (!group || !group.canonicalExamples[row.section]) throw new Error(`Unknown example placement: ${row.headword_id}/${row.section}`);
     group.canonicalExamples[row.section].push(row);
   });
-  state.familyIndex = new Map(Object.entries(families));
   state.grammarRules = grammar.rules;
   RULE_LESSONS = grammar.lessons;
   RULE_COMPANIONS = grammar.companions;

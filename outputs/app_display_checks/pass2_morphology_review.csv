@@ -1,0 +1,108 @@
+headword,before,after,status,reason,source_entry_ids
+Krezor,Krez + or + -or,Krez + or + -or,fixed_recorded_alternative,The recorded Krez + -or analysis is complete; the alternate Krez + or components remain in the source record.,LX-V4-0017; LX-V2-0146
+Arthlor,Arth + -or,Arth + -or,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-V2-0128
+Thalaneshen,Vanesh + Shen + Thal + Aen + -en,Vanesh + Shen + Thal + Aen + -en,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-V2-0139
+Morlak,lak,lak + unchanged,open_hidden,Only one part is recorded for a longer word; the breakdown is hidden.,LX-V2-0147
+Velrin,rin,rin + general,open_hidden,Only one part is recorded for a longer word; the breakdown is hidden.,LX-V2-0148
+Teravin,Terra + vin,Terra + vin,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-V2-0149
+Lorlivok,Lor + vok,Lor + vok + li,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-V2-0154
+Eshtenor,Tenar + Esh,Tenar + Esh,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-V2-0172
+Terafennil,fennil + Terra,fennil + Terra,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-V2-0176
+Ekor,Kor + Ek,Kor + Ek,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-V2-0217
+Kora,Usage + Reason,Usage + Reason,open_hidden,A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden.,LX-V3-0145
+Tavojorin,Jor + -in + Tav,Jor + -in + Tav,shown_with_smoothing,The current Grammar Guide permits a smoothing vowel; this word adds o between recorded parts.,LX-V3-0047
+Zhivorin,Zhir + -in + vor,Zhir + -in + vor,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-V3-0048
+Zharin,Zhir + arin,Zhir + arin,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-V3-0053
+Velmarin,Marin + Vel + mar + in,Marin + Vel + mar + in,fixed_recorded_alternatives,Both recorded analyses spell Velmarin; each is shown with its supported meaning.,LX-V4-0062; LX-V3-0059
+Fahaen,-aen + From,-aen + From,open_hidden,A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden.,LX-V3-0089
+Theraen,-aen + From,-aen + From,open_hidden,A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden.,LX-V3-0090
+Vialaen,-aen + From,-aen + From,open_hidden,A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden.,LX-V3-0091
+Ohmaen,-aen + From,-aen + From,open_hidden,A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden.,LX-V3-0092
+Ravokhaen,-aen + From,-aen + From,open_hidden,A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden.,LX-V3-0093
+Shalaen,Shal + -aen + From,Shal + -aen + From,fixed_recorded_alternative,The recorded Shal + -aen analysis is complete; the parsed From token remains in the source record.,LX-V4-0047; LX-V3-0094
+Seraen,-aen + From,-aen + From,open_hidden,A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden.,LX-V3-0095
+Nkathalaen,-aen + From,-aen + From,open_hidden,A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden.,LX-V3-0096
+Rathaen,-aen + From,-aen + From,open_hidden,A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden.,LX-V3-0097
+Krezaen,-aen + From,-aen + From,open_hidden,A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden.,LX-V3-0098
+Rethaen,-aen + From,-aen + From,open_hidden,A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden.,LX-V3-0099
+Vershalaen,Shal + -aen + From,Shal + -aen + From,open_hidden,A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden.,LX-V3-0100
+Thaalaen,-aen + From,-aen + From,open_hidden,A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden.,LX-V3-0101
+Vaaranoraen,-aen + Hypothetical,-aen + Hypothetical,open_hidden,A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden.,LX-V3-0102
+Vokaen,-aen + From,-aen + From,open_hidden,A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden.,LX-V3-0103
+Veth'tharaen,Thar + -aen + From,Thar + -aen + From,open_hidden,A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden.,LX-V3-0104
+Zhaeaen,-aen + From,-aen + From,open_hidden,A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden.,LX-V3-0105
+Vaar'kelaen,-aen + From + hypothetical,-aen + From + hypothetical,open_hidden,A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden.,LX-V3-0106
+Eshlorien,Esh + lorin,Esh + lorin,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-V3-0108
+Morlatharim,Morl + im + thar,Morl + im + thar,shown_with_smoothing,The current Grammar Guide permits a smoothing vowel; this word adds a between recorded parts.,LX-V3-0115
+Kalorinath,Kal + ath + lorin,Kal + ath + lorin,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-V3-0124
+Selineth,Sel- + -eth,Sel- + -eth,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-V4-0022
+Maganeth,-eth + Mag-,-eth + Mag-,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-V4-0023
+Sharbel,Shara + Bel,Shara + Bel,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-V4-0037
+Vershara,Shara + Verdor,Shara + Verdor,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-V4-0059
+Mahrowek,Mahr + Wek,Mahr + Wek,shown_with_smoothing,The current Grammar Guide permits a smoothing vowel; this word adds o between recorded parts.,LX-NE1-0006
+Velalivar,Vel + Livar,Vel + Livar,shown_with_smoothing,The current Grammar Guide permits a smoothing vowel; this word adds a between recorded parts.,LX-NE1-0024
+Thalorimor,-or,Thalorim + -or,fixed_from_recorded_origin,Thalorim + -or,LX-NE1-0026
+Arthaxar,Arth + Xar,Arth + Xar,shown_with_smoothing,The current Grammar Guide permits a smoothing vowel; this word adds a between recorded parts.,LX-NE1-0030
+Korinaen,-aen,Korin + -aen,fixed_from_recorded_origin,Korin + -aen,LX-CNE1-0003
+Sharaen,Shara + -aen,Shara + -aen,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-CNE1-0008
+Sivrethaen,Siv + -aen,Siv + Reth + -aen,fixed_from_recorded_origin,Siv + Reth + -aen,LX-CNE1-0012
+Tharsharaen,Thar + Shara + -aen,Thar + Shara + -aen,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-CNE1-0013
+Rethshara,Shara,Reth + Shara,fixed_from_recorded_origin,Reth + Shara,LX-CNE1-0023
+Rethpral,Pral,Reth + Pral,fixed_from_recorded_origin,Reth + Pral,LX-CNE1-0029
+Belreth,Bel,Bel + Reth,fixed_from_recorded_origin,Bel + Reth,LX-CNE1-0030
+Emilpral,Pral,Emil + Pral,fixed_from_recorded_origin,Emil + Pral,LX-DSL1-0004
+Kelvorthamaen,Tham + -aen,Kelvor + Tham + -aen,fixed_from_recorded_origin,Kelvor + Tham + -aen,LX-DSL1-0022
+Emilrav,Rav,Emil + Rav,fixed_from_recorded_origin,Emil + Rav,LX-DSL1-0035
+Norreth,Nor,Nor + Reth,fixed_from_recorded_origin,Nor + Reth,LX-PFM1-0003
+Normaveth,-eth,Normav + -eth,fixed_from_recorded_origin,Normav + -eth,LX-PFM1-0005
+Norshanaen,-aen,Norshan + -aen,fixed_from_recorded_origin,Norshan + -aen,LX-PFM1-0013
+Vethvelrathor,Veth,Veth + Velrathor,fixed_from_recorded_origin,Veth + Velrathor,LX-PFM1-0015
+Shanvelrathor,Shan,Shan + Velrathor,fixed_from_recorded_origin,Shan + Velrathor,LX-PFM1-0016
+Shanvelzhiraen,Shan,Shan + Velzhiraen,fixed_from_recorded_origin,Shan + Velzhiraen,LX-PFM1-0017
+Delvelrathor,Del,Del + Velrathor,fixed_from_recorded_origin,Del + Velrathor,LX-PFM1-0018
+Belvelrathor,Bel,Bel + Velrathor,fixed_from_recorded_origin,Bel + Velrathor,LX-PFM1-0019
+Rathorjor,Jor,Rathor + Jor,fixed_from_recorded_origin,Rathor + Jor,LX-PFM1-0020
+Kavelrathor,Ka,Ka + Velrathor,fixed_from_recorded_origin,Ka + Velrathor,LX-PFM1-0021
+Lianreth,Lian,Lian + Reth,fixed_from_recorded_origin,Lian + Reth,LX-PFM1-0022
+Lianrethor,Or,Lianreth + Or,fixed_from_recorded_origin,Lianreth + Or,LX-PFM1-0023
+Lianrethaen,-aen,Lianreth + -aen,fixed_from_recorded_origin,Lianreth + -aen,LX-PFM1-0024
+Rethmor,Mor,Reth + Mor,fixed_from_recorded_origin,Reth + Mor,LX-PFM1-0027
+Lianrethxar,Xar,Lianreth + Xar,fixed_from_recorded_origin,Lianreth + Xar,LX-PFM1-0028
+Kalravor,Or,Kalrav + Or,fixed_from_recorded_origin,Kalrav + Or,LX-PFM1-0030
+Workalrav,Wor,Wor + Kalrav,fixed_from_recorded_origin,Wor + Kalrav,LX-PFM1-0031
+Felkalrav,Fel,Fel + Kalrav,fixed_from_recorded_origin,Fel + Kalrav,LX-PFM1-0032
+Kakalrav,Ka,Ka + Kalrav,fixed_from_recorded_origin,Ka + Kalrav,LX-PFM1-0033
+Jekkalrav,Jek,Jek + Kalrav,fixed_from_recorded_origin,Jek + Kalrav,LX-PFM1-0034
+Kalravaen,-aen,Kalrav + -aen,fixed_from_recorded_origin,Kalrav + -aen,LX-PFM1-0035
+Lianrethshen,Shen,Lianreth + Shen,fixed_from_recorded_origin,Lianreth + Shen,LX-PFM1-0036
+Kasharaen,Ka + Shara + -aen,Ka + Shara + -aen,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-PFM1-0039
+Muraen,Mura + -aen,Mura + -aen,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-FAP2-0022
+Weksharaen,Wek + Shara + -aen,Wek + Shara + -aen,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-TVO1-0023
+Dumaen,Duma + -aen,Duma + -aen,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-SBD1-0008
+Dumeth,Duma + -eth,Duma + -eth,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-SBD1-0009
+Keshen,Kes + Shen,Kes + Shen,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-HTS1-0004
+Savaen,Sava + -aen,Sava + -aen,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-HTS1-0008
+Savin,Sava + -in,Sava + -in,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-HTS1-0009
+Savor,Sava + -or,Sava + -or,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-HTS1-0010
+Deldavaen,Dava + Del + -aen,Dava + Del + -aen,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-ICAES1-0022
+Andavaen,Dava + An + -aen,Dava + An + -aen,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-ICAES1-0023
+Thaldavaen,Dava + Thal + -aen,Dava + Thal + -aen,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-ICAES1-0024
+Kavdavaen,Dava + Kav + -aen,Dava + Kav + -aen,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-ICAES1-0025
+Kesdavaen,Dava + Kes + -aen,Dava + Kes + -aen,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-ICAES1-0027
+Xardavaen,-aen + Xardava,-aen + Xardava,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-ICAES1-0034
+Kaxardavaen,Ka + -aen + Xardava,Ka + -aen + Xardava,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-ICAES1-0035
+Drenvar,Drenvaraen,Drenvaraen,open_hidden,Only one part is recorded for a longer word; the breakdown is hidden.,LX-SAC1-0043
+Krezpralaen,Krez + Pral,Krez + Pral,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-GMMP1-0030
+Dropralaen,Dro + Pral,Dro + Pral,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-GMMP1-0031
+Eshpralaen,Esh + Pral,Esh + Pral,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-GMMP1-0032
+Morpralaen,Mor + Pral,Mor + Pral,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-GMMP1-0033
+Velpralaen,Vel + Pral,Vel + Pral,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-GMMP1-0034
+Zhelpralaen,Zhel + Pral,Zhel + Pral,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-GMMP1-0035
+Tenarpralaen,Tenar + Pral,Tenar + Pral,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-GMMP1-0036
+Vethpralaen,Veth + Pral,Veth + Pral,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-GMMP1-0037
+Miraen,Mira + -aen,Mira + -aen,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-UHEI1-0013
+Leyaen,Leya + -aen,Leya + -aen,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-RABFE2-0013
+Zhivor,Zhir + Vor,Zhir + Vor,shown_with_recorded_change,The existing word origin explicitly records historical smoothing.,LX-DR1-0006
+Nkathal,Nk + Thal,Nk + Thal,shown_with_smoothing,The current Grammar Guide permits a smoothing vowel; this word adds a between recorded parts.,LX-DR1-0013
+Theren,Ter + -en,Ter + -en,shown_with_recorded_change,The existing word origin explicitly approves the Ter → Ther- aspiration.,LX-DR1-0015
+Dreshal,Dresh + Shal,Dresh + Shal,open_hidden,The recorded parts do not simply spell this word; no supported correction is recorded.,LX-DR1-0019

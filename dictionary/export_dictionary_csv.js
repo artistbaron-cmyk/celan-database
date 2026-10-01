@@ -45,6 +45,20 @@ const byHeadword=new Map();
 for(const sense of senses){if(!byHeadword.has(sense.headword_id))byHeadword.set(sense.headword_id,[]);if(sense.visible==='Yes')byHeadword.get(sense.headword_id).push(sense);}
 const byExample=new Map();
 for(const example of examples){if(!byExample.has(example.headword_id))byExample.set(example.headword_id,{direct:[],related:[]});if(example.section==='direct'||example.section==='related')byExample.get(example.headword_id)[example.section].push(example);}
+const letters=value=>String(value||'').toLowerCase().replace(/[^a-z]/g,'');
+function visibleAnalyses(family,headword,uses){
+  if(family.morphologyReview?.status==='open')return [];
+  const parts=family.components||[];
+  const byId=new Map(parts.map(part=>[part.id,part]));
+  const candidates=family.morphologyAnalyses?.length?family.morphologyAnalyses.map(analysis=>({
+    parts:analysis.componentIds.map(id=>byId.get(id)),
+    senseIds:analysis.senseIds||family.morphologySenseIds||[],
+    note:analysis.spellingNote||''
+  })):[{parts,senseIds:family.morphologySenseIds||[],note:''}];
+  return candidates.filter(analysis=>analysis.parts.length&&analysis.parts.every(part=>part?.form&&part?.meaning)&&
+    (uses.length===1||analysis.senseIds.length)&&
+    (analysis.note||letters(analysis.parts.map(part=>part.form).join(''))===letters(headword)));
+}
 const rows=[];
 for(const headword of headwords.sort((a,b)=>a.headword.localeCompare(b.headword))){
   const family=families[headword.id]||{familyRoots:[],relatedEntries:[]};
@@ -54,19 +68,30 @@ for(const headword of headwords.sort((a,b)=>a.headword.localeCompare(b.headword)
   const placed=byExample.get(headword.id)||{direct:[],related:[]};
   const roots=family.familyRoots.filter(root=>normalize(root.replace(/-+$/g,''))!==normalize(headword.headword.replace(/-+$/g,'')));
   const related=override.familyTerms?.length?family.relatedEntries.filter(entry=>override.familyTerms.includes(entry.term)):family.relatedEntries;
+  const analyses=visibleAnalyses(family,headword.headword,uses);
+  const shownSources=new Set(analyses.flatMap(analysis=>analysis.parts.map(part=>normalize(part.source))).filter(Boolean));
   uses.forEach((use,index)=>{
+    const scopedAnalyses=analyses.filter(analysis=>uses.length===1||analysis.senseIds.includes(use.sense_id));
+    const showFamily=uses.length===1||family.familySenseIds?.includes(use.sense_id);
+    const visibleDerivations=(metadata.derivations||[]).filter(origin=>
+      !/\b(?:source-attested|LX-[A-Z0-9-]+|RM-[A-Z0-9-]+|ED-[A-Z0-9-]+)\b/i.test(origin)&&
+      (uses.length===1||scopedAnalyses.length)&&
+      !shownSources.has(normalize(origin))&&
+      !(family.morphologyReview?.status==='open'&&origin.includes('+')));
     const row={
       source_entry_ids:headword.source_entry_ids, approval_batch:headword.approval_batch,
       headword:headword.headword, pronunciation:headword.pronunciation,
       use_type:use.word_type,
       root_word:use.root_word==='Yes'?'Yes':'',
       meaning:use.meaning, usage_note:displayUsageNote(use.usage_note),
-      derivation:(metadata.derivations||[]).join('; '),
+      derivation:visibleDerivations.join('; '),
+      word_parts:scopedAnalyses.map(analysis=>analysis.parts.map(part=>part.form).join(' + ')).join('; '),
+      word_parts_note:scopedAnalyses.map(analysis=>analysis.note).filter(Boolean).join('; '),
       origin_nation:(metadata.origins||[]).join('; '),
       national_usage:(metadata.nationalUses||[]).join('; '),
       variant_forms:(metadata.variants||[]).map(variant=>variant.form).join('; '),
       variant_pronunciations:(metadata.variants||[]).map(variant=>variant.pronunciation).join('; '),
-      family_roots:roots.join('; '), related_words:related.map(entry=>entry.term).join('; '),
+      family_roots:showFamily?roots.join('; '):'', related_words:showFamily?related.map(entry=>entry.term).join('; '):'',
       example_count:placed.direct.length, related_example_count:placed.related.length,
       example_scope:uses.length>1?'Word level; meanings not assigned':'Word level',
       use_index:index+1, sense_id:use.sense_id
@@ -78,7 +103,7 @@ for(const headword of headwords.sort((a,b)=>a.headword.localeCompare(b.headword)
     rows.push(row);
   });
 }
-const headers=['source_entry_ids','approval_batch','headword','pronunciation','use_type','root_word','meaning','usage_note','derivation','origin_nation','national_usage','variant_forms','variant_pronunciations','family_roots','related_words','example_count','related_example_count','example_scope','use_index','sense_id','example_1_celan','example_1_translation','example_2_celan','example_2_translation','example_3_celan','example_3_translation','example_4_celan','example_4_translation','example_5_celan','example_5_translation','related_example_1_celan','related_example_1_translation','related_example_2_celan','related_example_2_translation'];
+const headers=['source_entry_ids','approval_batch','headword','pronunciation','use_type','root_word','meaning','usage_note','derivation','word_parts','word_parts_note','origin_nation','national_usage','variant_forms','variant_pronunciations','family_roots','related_words','example_count','related_example_count','example_scope','use_index','sense_id','example_1_celan','example_1_translation','example_2_celan','example_2_translation','example_3_celan','example_3_translation','example_4_celan','example_4_translation','example_5_celan','example_5_translation','related_example_1_celan','related_example_1_translation','related_example_2_celan','related_example_2_translation'];
 fs.mkdirSync(path.dirname(output),{recursive:true});
 fs.writeFileSync(output,[headers.join(','),...rows.map(row=>headers.map(header=>csvEscape(row[header])).join(','))].join('\n'));
 console.log(`Wrote ${rows.length} dictionary rows to ${output}`);

@@ -57,6 +57,23 @@ for(const row of entries){
   JSON.parse(row.override_json);JSON.parse(row.metadata_json);
   for(const related of family.relatedEntries||[])assert.ok(ids.has(related.id),row.id+' has broken related-word link to '+related.id);
   for(const component of family.components||[])if(component.target)assert.ok(ids.has(component.target),row.id+' has broken component link to '+component.target);
+  const visibleSenseIds=new Set(senses.filter(sense=>sense.headword_id===row.id&&sense.visible==='Yes').map(sense=>sense.sense_id));
+  const componentIds=new Set((family.components||[]).map(component=>component.id));
+  for(const scope of [family.morphologySenseIds||[],family.familySenseIds||[]])for(const senseId of scope)assert.ok(visibleSenseIds.has(senseId),row.id+' has a broken word-building meaning link: '+senseId);
+  for(const analysis of family.morphologyAnalyses||[]){
+    for(const componentId of analysis.componentIds)assert.ok(componentIds.has(componentId),row.id+' has a broken word-part link: '+componentId);
+    for(const senseId of analysis.senseIds||[])assert.ok(visibleSenseIds.has(senseId),row.id+' has a broken analysis meaning link: '+senseId);
+  }
+}
+const orderReport=parseCsv(fs.readFileSync(path.join(appDir,'..','outputs','app_display_checks','pass2_order_changes.csv'),'utf8'));
+assert.equal(orderReport.length,228,'Pass 2 order review is incomplete');
+const letters=value=>value.toLowerCase().replace(/[^a-z]/g,'');
+for(const row of orderReport){
+  const entry=entries.find(entry=>entry.headword===row.headword);
+  assert.ok(entry,'order review names a missing headword: '+row.headword);
+  const actual=families[entry.id].components.map(part=>part.form).join(' + ');
+  assert.equal(actual,row.after,row.headword+' has not kept its reviewed word-part order');
+  assert.equal(letters(actual),letters(row.headword),row.headword+' parts do not spell the headword');
 }
 const senseKeys=new Set();
 const senseIds=new Set();
@@ -72,6 +89,13 @@ for(const row of examples){const key=row.headword_id+'/'+row.section+'/'+row.dis
 const exportRows=parseCsv(fs.readFileSync(path.join(appDir,'exports','dictionary_entries.csv'),'utf8'));
 assert.equal(exportRows.length,1607,'spreadsheet export is missing visible senses');
 assert.deepEqual(new Set(exportRows.map(row=>row.sense_id)),new Set(senses.filter(row=>row.visible==='Yes').map(row=>row.sense_id)),'export sense IDs differ from visible app meanings');
+const exportedSense=id=>exportRows.find(row=>row.sense_id===id);
+assert.equal(exportedSense('aenor-s1').word_parts,'','ear must not inherit the moment breakdown');
+assert.equal(exportedSense('aenor-s1').related_words,'','ear must not inherit the moment family');
+assert.equal(exportedSense('aenor-s2').word_parts,'Aen + -or');
+assert.ok(exportedSense('aenor-s2').related_words.includes('Aenaen'));
+assert.equal(exportedSense('aivkorxar-s1').word_parts,'Aivkor + Xar');
+assert.equal(exportedSense('dumaen-s1').word_parts,'','unresolved parts must stay out of the reader export');
 for(const row of exportRows)assert.doesNotMatch(row.usage_note,/Retain as-is|Preserved as standalone root\/morpheme because source clearly defines it|The source gloss|Builds the approved|Source uses Ohnoshan|Names the organ without embedding an unapproved theory/i,'internal note leaked to export: '+row.sense_id);
 for(const row of exportRows)assert.doesNotMatch(row.example_scope,/pending review|assignment pending/i,'internal review label leaked to export: '+row.sense_id);
 console.log('PASS: the app reads only its seven approved content files; every placed sense and example has a headword; the offline bundle matches.');

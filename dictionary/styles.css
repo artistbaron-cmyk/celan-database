@@ -942,7 +942,20 @@ input::placeholder { color: #aa9f94; }
 .morphology-part { display: flex; flex-direction: column; gap: 7px; min-width: 150px; padding: 14px 18px; border: 1px solid var(--line); border-radius: 9px; background: #242321; }
 .morphology-part strong { color: #ffc37b; font-size: 1.2rem; }
 .morphology-part span { color: #d6cec5; }
+.morphology-part--1 { border-color: #79502c; background: #2c241e; }
+.morphology-part--1 strong { color: #ffc37b; }
+.morphology-part--2 { border-color: #426b65; background: #202b29; }
+.morphology-part--2 strong { color: #8fd3ca; }
+.morphology-part--3 { border-color: #80564b; background: #302521; }
+.morphology-part--3 strong { color: #ffa68d; }
+.morphology-part--4 { border-color: #4c617c; background: #222933; }
+.morphology-part--4 strong { color: #9bbef7; }
+.morphology-part--5 { border-color: #626f45; background: #292c21; }
+.morphology-part--5 strong { color: #c9dc87; }
 .morphology-plus { align-self: center; padding: 0 5px; color: var(--ink); font-size: 1.35rem; }
+.morphology-analysis + .morphology-analysis { margin-top: 18px; padding-top: 18px; border-top: 1px solid var(--line); }
+.word-building-scope { margin: 0 0 12px !important; color: #e0bd94 !important; font-size: .92rem; font-weight: 600; }
+.morphology-spelling-note { margin: 11px 0 0 !important; color: #c5b8aa !important; font-size: .9rem; }
 .family-line { display: flex; flex-wrap: wrap; gap: 8px; }
 .family-link { padding: 6px 11px; border: 1px solid #665240; border-radius: 7px; background: #26221f; color: #ffc37b; text-decoration: none; font-size: .9rem; }
 .family-link:hover { color: #ffdbad; background: #3b2d22; border-color: var(--blue); }

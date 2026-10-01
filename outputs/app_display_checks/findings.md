@@ -1,10 +1,10 @@
 # Dictionary page checks — October 1, 2026
 
-This records the **app-facing dictionary before the corrective passes**. It identifies display problems and review queues. Pass 1 has since changed the page presentation; its results and remaining work are recorded below. No Celan meaning or example sentence was rewritten.
+This records the **app-facing dictionary before the corrective passes** and what changed in Passes 1 and 2. No Celan meaning or example sentence was rewritten.
 
-The full list of affected words is in [affected_items.csv](affected_items.csv). [entry_inventory.csv](entry_inventory.csv) has one row for every word. The counts overlap: one word can appear in several groups.
+The one complete findings list is [affected_items.csv](affected_items.csv). Its Pass 2 columns say what happened to each affected word. [entry_inventory.csv](entry_inventory.csv) has one row for every word. The counts overlap: one word can appear in several groups.
 
-## Clear problems to fix in the next display pass
+## Problems found in the original display
 
 | What the reader sees | How widely it occurs | What to do |
 | --- | ---: | --- |
@@ -38,15 +38,34 @@ The full list of affected words is in [affected_items.csv](affected_items.csv). 
 | A word-level breakdown or family could falsely seem to explain every meaning | **Temporarily withheld on multi-meaning pages.** This affects recorded morphology on 26 words, family links on 82, and origin lines on 13. All underlying records remain. Pass 2 will attach them to the meaning they explain and restore supported displays. Aenor's *Aen* + *-or* explanation is one such case. |
 | The app had no permanent identifier for each meaning | **Fixed in the source data.** All 1,697 sense rows have a distinct `sense_id`; 1,607 of them are visible. IDs are not printed on reader pages. |
 
-The running app was checked on **An, Aenor, Aen, Aivkorxar, Jek, -or, and Quen**. Search, a family link, and Back/Forward were exercised in the browser. Automated checks rendered all 1,496 headwords, counted every visible meaning card and word-type label, and searched their rendered pages for the identified internal phrases. The source/bundle check, edit-and-rebuild check, and whitespace check passed. These are **technical display checks**, not linguistic approval of the sentences.
+In Pass 1, the running app was checked on **An, Aenor, Aen, Aivkorxar, Jek, -or, and Quen**. Search, a family link, and Back/Forward were exercised. Automated checks rendered all 1,496 headwords and counted their visible meaning cards and word-type labels. These were technical display checks, not linguistic approval of the sentences.
 
-**Still open:** the wrong part order and repeated origin line on Aivkorxar; position-based part colors; 107 breakdowns whose parts do not simply spell the word; sense-specific word building and families; long example lists; example-to-meaning placement; and the six repeated meaning wordings. The detailed affected-item list is the pre-fix inventory and still names every item for the later passes. The [corrective plan](corrective_plan.md) gives the order of work.
+## Pass 2 completed — word parts and families
 
-## Three pages examined closely
+| Finding | Current result |
+| --- | --- |
+| All parts had the same color | **Fixed on the page.** The first through fifth parts have different readable colors. The `+` signs and written order also identify the parts. |
+| 228 words had recorded parts in the wrong order | **Corrected.** In each case the reordered parts join exactly to spell the headword. The complete before/after list is [pass2_order_changes.csv](pass2_order_changes.csv). Aivkorxar now shows `Aivkor + Xar`. |
+| 107 breakdowns did not simply spell the word | **All 107 have a recorded disposition after comparison with the saved parts and origins.** Thirty-one were completed from an already recorded origin; three had an existing alternative analysis (including Velmarin's two meaning-specific analyses); six use a smoothing vowel permitted by the Grammar Guide; and two have an explicitly recorded spelling change. The other **65 remain open and are hidden on reader pages**. This is a structural check, not full linguistic approval. See [pass2_morphology_review.csv](pass2_morphology_review.csv) for every word and reason. |
+| 26 words had several meanings and word parts | **Scoped.** Each displayed breakdown names the meaning it explains where needed. Aenor's `Aen + -or` is labeled for “moment/instant,” not “ear.” Velmarin has two distinct recorded analyses, one per meaning. |
+| 82 multi-meaning words had family links | **56 link sets now have a recorded meaning scope; 26 remain open and hidden** rather than being attached to every meaning. The item-by-item list is [pass2_family_scope.csv](pass2_family_scope.csv). A recorded family connection does not prove that every linked word shares one exact historical origin. |
+| 829 words had an origin line that repeated the word-part cards | **Fixed in presentation.** The page omits an origin line that exactly repeats displayed parts. A distinct explanation can still appear. Unresolved breakdowns are hidden with their decomposition-based origin lines. |
+| Spreadsheet export repeated word-level parts or families beside unrelated meanings | **Updated.** The rebuilt export has `word_parts` and `word_parts_note` columns and leaves those fields blank on meanings they do not explain. It also leaves unscoped family links blank. All 1,607 visible meaning rows remain. |
+| Search could still match an origin line hidden from the page | **Updated.** General search follows the visible word parts, family links, and distinct origin text. It no longer indexes a duplicate or unresolved breakdown solely because it remains in the source record. |
 
-- **Aivkorxar:** The saved parts are `Xar + Aivkor`; the spelling and recorded origin give `Aivkor + Xar`. Its origin sentence repeats the parts. `Aivakorxar` is a variant but is visually easy to miss.
+The 65 unresolved breakdowns and 26 unresolved family link sets are **review items, not declared language errors**. Their source records remain in the app's data folder. Some component descriptions drawn from older records are long or awkward; tightening that wording is an optional later editing pass and should not change approved meanings by inference.
+
+The app's source of truth remains the seven files in `dictionary/app_data`. The embedded offline data and spreadsheet export were rebuilt from those files. The export is a flat editing view: it repeats each headword once per visible meaning and includes only the word parts and family links assigned to that meaning. The reader page groups those meanings under one headword.
+
+**Still open for Pass 3:** long example lists; example-to-meaning placement; words with no direct example; and six exactly repeated meaning wordings. The [corrective plan](corrective_plan.md) describes that work. The separate language audit of sentence accuracy remains later work.
+
+Pass 2's automated checks rendered all 1,496 headwords, checked every visible meaning card and word type, verified the 228 saved part orders, checked that open breakdowns and unscoped family sets stay hidden, checked displayed origin text against word-part sources, and confirmed the app bundle and export match the current source files. The edit-and-rebuild and whitespace checks passed. Aenor and Aivkorxar were revisited in the running browser. These are **technical display checks**, not linguistic approval of every derivation or example.
+
+## Three original pages examined closely before correction
+
+- **Aivkorxar:** The saved parts were `Xar + Aivkor`; the spelling and recorded origin gave `Aivkor + Xar`. Its origin sentence repeated the parts. `Aivakorxar` is a variant. The part order, repetition, and variant display were corrected in Passes 1 and 2.
 - **An:** Its two displayed meanings substantially restate “at/in.” The page shows 875 direct examples, including many that merely contain this common preposition. Its usage note exposes source commentary. The single “related” sentence does not contain the standalone word *an*.
-- **Aenor:** Both “ear” and “moment/instant” are current meanings. The recorded *Aen* + *-or* explanation explicitly applies to the moment meaning and distinguishes it from “ear.” Both displayed examples illustrate “moment,” yet both show the internal pending-review label. The word family needs the same sense-specific treatment.
+- **Aenor:** Both “ear” and “moment/instant” are current meanings. The recorded *Aen* + *-or* explanation explicitly applies to the moment meaning and distinguishes it from “ear.” Its morphology and family are now labeled for “moment/instant.” The example labels were removed in Pass 1; placing examples under meanings remains Pass 3 work.
 
 ## What was checked
 
@@ -59,6 +78,6 @@ The running app was checked on **An, Aenor, Aen, Aivkorxar, Jek, -or, and Quen**
 - It did **not** judge the meaning or grammar of all 9,163 example placements. Automated counts cannot establish whether a sentence is a good or accurate illustration.
 - “No exact spelling match” does **not** mean the morphology is wrong. A sound change, shortened form, or incomplete recorded breakdown may explain it.
 - A multi-meaning word with morphology or family links is a review candidate, not automatically an error. Aenor has a specific recorded distinction that confirms its display problem.
-- This pass did not re-audit the Grammar Guide, Expressions, Phrase Builder, exports, pronunciations, or every page visually in a browser.
+- This pass did not re-audit the full Grammar Guide, Expressions, Phrase Builder, pronunciations, or every page visually in a browser. It checked the Grammar Guide's recorded smoothing-vowel rule and the export fields touched by Pass 2.
 
-At the time of the read-only check, the app-facing content files were unchanged. Pass 1 subsequently added sense IDs and updated the app and export presentation, as recorded above.
+At the time of the original read-only check, the app-facing content files were unchanged. Passes 1 and 2 subsequently updated the app-facing data and presentation, as recorded above.
