@@ -2739,7 +2739,7 @@ async function init() {
     const override = JSON.parse(row.override_json || '{}');
     const group = {
       id: row.id, term: row.headword, pronunciation: row.pronunciation,
-      preview: row.preview, searchText: row.search_text,
+      preview: '', searchText: '',
       hasRootWord: row.has_root_word === 'Yes', override,
       canonicalMetadata: JSON.parse(row.metadata_json || 'null'),
       entries: splitIds(row.source_entry_ids).map(entry_id => ({entry_id})),
@@ -2756,6 +2756,23 @@ async function init() {
       rootWord:row.root_word === 'Yes', sourceEntries:splitIds(row.source_entry_ids)};
     group.uses.push(use);
     if (row.visible === 'Yes') group.englishSenses.push(use);
+  });
+  // Search and result previews follow the current app-facing senses and metadata.
+  // Keeping copied preview/search strings in the headword file made sense edits stale.
+  state.groupedEntries.forEach(group => {
+    const visible = displayUses(group);
+    group.preview = visible.slice(0, 2).map(use => use.type
+      ? `${use.type}: ${use.meaning}` : use.meaning).join(' ; ');
+    const metadata = group.canonicalMetadata || {};
+    group.searchText = normalizeHeadword([
+      group.term,
+      ...(group.override.aliases || []),
+      ...visible.flatMap(use => [use.type, use.meaning, displayUsageNote(use)]),
+      ...(metadata.origins || []),
+      ...(metadata.nationalUses || []),
+      ...(metadata.derivations || []),
+      ...(metadata.variants || []).flatMap(variant => [variant.form, variant.pronunciation])
+    ].join(' '));
   });
   examples.forEach(row => {
     const group = byId.get(row.headword_id);

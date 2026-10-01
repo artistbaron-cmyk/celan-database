@@ -34,6 +34,7 @@ const rows=[];
 for(const headword of headwords.sort((a,b)=>a.headword.localeCompare(b.headword))){
   const family=families[headword.id]||{familyRoots:[],relatedEntries:[]};
   const override=JSON.parse(headword.override_json||'{}');
+  const metadata=JSON.parse(headword.metadata_json||'null')||{};
   const uses=byHeadword.get(headword.id)||[];
   const placed=byExample.get(headword.id)||{direct:[],related:[]};
   const roots=family.familyRoots.filter(root=>normalize(root.replace(/-+$/g,''))!==normalize(headword.headword.replace(/-+$/g,'')));
@@ -45,9 +46,11 @@ for(const headword of headwords.sort((a,b)=>a.headword.localeCompare(b.headword)
       use_type:use.word_type,
       root_word:override.showRootSense?(use.root_word==='Yes'?'Yes':''):(headword.has_root_word==='Yes'?'Yes':''),
       meaning:use.meaning, usage_note:displayUsageNote(use.usage_note),
-      derivation:headword.derivation, origin_nation:headword.origin_nation,
-      national_usage:headword.national_usage, variant_forms:headword.variant_forms,
-      variant_pronunciations:headword.variant_pronunciations,
+      derivation:(metadata.derivations||[]).join('; '),
+      origin_nation:(metadata.origins||[]).join('; '),
+      national_usage:(metadata.nationalUses||[]).join('; '),
+      variant_forms:(metadata.variants||[]).map(variant=>variant.form).join('; '),
+      variant_pronunciations:(metadata.variants||[]).map(variant=>variant.pronunciation).join('; '),
       family_roots:roots.join('; '), related_words:related.map(entry=>entry.term).join('; '),
       example_count:placed.direct.length, related_example_count:placed.related.length,
       example_scope:uses.length>1?'Headword; sense assignment pending':'Headword',

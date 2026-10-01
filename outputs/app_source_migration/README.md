@@ -17,18 +17,24 @@ The app now loads its approved content from `dictionary/app_data/`. The old lexi
 ## Comparison and checks
 
 - `before_surface.json` and `after_surface.json` record SHA-256 hashes of the rendered HTML for **every** dictionary entry, every grammar detail page, and every expression detail page. Counts and hashes match exactly: 0 differences across 1,496 dictionary entries, 48 grammar records, and 107 expressions.
-- The regenerated spreadsheet export is byte-for-byte identical to the pre-migration `data/dictionary_entries.csv` snapshot (SHA-256 `65ba100f04ec4e30ea74badb521a15d9b8f3971f55f11756a672fa2ac0646e10`).
+- At migration time, the spreadsheet export was byte-for-byte identical to the pre-migration `data/dictionary_entries.csv` snapshot (SHA-256 `65ba100f04ec4e30ea74badb521a15d9b8f3971f55f11756a672fa2ac0646e10`). The 2026-09-30 follow-up below records the current export difference.
 - `node --test dictionary/app_data.test.cjs dictionary/app_runtime.test.cjs` passes. These check source and bundle parity, every sense/example placement, family link targets, sample search/navigation, and rendering of dictionary, grammar, and expressions.
 - `node --check` for the app and export scripts and `git diff --check` pass.
 - A live browser smoke check opened the app, searched for Gorm, opened its entry, followed a related-word link to Gormeth, returned through word history, opened Grammar Guide and an Expression, and submitted a Phrase Builder question. Those actions worked.
 
 This migration preserves what the current app displays. It is **not** a linguistic audit of every sentence or meaning. The app's existing wording, including content that may still need review, remains in the new app sources.
-The 90 senses marked `visible=No` and the existing `search_text` values were also preserved so current filtering and search behavior do not change. They are explicit columns in the app-facing files, not reads from the old lexicon.
+The 90 senses marked `visible=No` were preserved as explicit records in the app-facing files, not reads from the old lexicon.
 
 ## Still unchecked or unresolved
 
 - The browser check covered representative paths, not every search, navigation path, grammar link, or Phrase Builder response.
 - The before/after comparison used rendered HTML hashes; it was not a side-by-side visual screenshot review of every page.
-- No edit-and-rebuild test has yet changed a source sense or example and confirmed that every app view and export updates together. In particular, entry previews and all-fields search currently read saved `preview` and `search_text` columns; changing a sense alone would leave those columns stale until edited too.
-- The headword file still has both app display metadata (`metadata_json`) and flat fields retained for the spreadsheet export. Editing one representation alone could make the app and export disagree. These fields need one authoritative representation before the source model is fully settled.
 - The old assembly functions remain in `dictionary/script.js` even though startup no longer calls them. Historical tests were archived with their old inputs; the current tests do not replace every behavioral check those tests covered.
+
+## Edit-and-rebuild follow-up — 2026-09-30
+
+An isolated copy of the app sources was given test-only changes to a meaning, pronunciation, example translation, and word origin. The first rebuild showed that the entry page and English lookup updated, while the result preview, all-fields search, and export word origin stayed old. The app now computes previews and all-fields search from current visible senses and metadata, and the exporter reads word origins from that same metadata. Redundant copied columns were removed from `dictionary_entries.csv`.
+
+The repeated check passed all 11 app/search/export assertions. The temporary copy was deleted after the test; no Celan wording in the real source files was changed. Rendered HTML hashes for all 1,496 dictionary entries, 48 grammar records, and 107 expressions still match the original baseline.
+
+The current export differs from the old snapshot in exactly nine `derivation` cells across six headwords: Em, Evan, Im, Shena, Varin, and Vrak. Those six word-origin notes were already visible in the app but absent from the old export. The new export includes them so both surfaces agree. No other export cells changed.
