@@ -51,3 +51,9 @@
 ## Later, separate language audit
 
 Read the Celan and English of each example for meaning, grammar, and natural use. The three corrective passes above **must not be reported as proof that the sentences are accurate**. Corrections found in that later audit should go through the approved dictionary data and the normal rebuild.
+
+### Approved example standard — October 1, 2026
+
+Each **visible meaning** should have at least **two reviewed, accurate example sentences**. This includes two separate meanings with the same word type, as well as words with different word types. For prefixes and suffixes, a complete sentence may demonstrate the form inside another word. Count an example only after checking its Celan, English, and placement under that meaning. Related forms, teaching illustrations, and historical examples do not count toward the two. Try existing vocabulary and natural phrasing before proposing a new word or meaning. Preserve approved exceptions and bring genuine meaning or grammar questions to the user.
+
+The initial count of *possible* ordinary sentences is in [../language_audit/coverage_inventory.csv](../language_audit/coverage_inventory.csv). A possible sentence is not yet a reviewed, accurate example.

@@ -93,8 +93,8 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  page=elements.get('detailView').innerHTML;
  assert.equal((page.match(/class="sense-block"/g)||[]).length,2);
  assert.match(page,/Preposition/);
- assert.match(page,/<h3>Examples using this word \(872\)<\/h3>/);
- assert.match(page,/<summary>More examples \(867\)<\/summary>/);
+ assert.match(page,/<h3>Examples using this word \(871\)<\/h3>/);
+ assert.match(page,/<summary>More examples \(866\)<\/summary>/);
  assert.match(page,/<h3>Phrases \(1\)<\/h3>/);
  assert.match(page,/<h3>Related forms and constructions \(1\)<\/h3>/);
  assert.match(page,/<h3>Teaching illustrations \(14\)<\/h3>/);
