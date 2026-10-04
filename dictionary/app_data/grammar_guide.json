@@ -1239,7 +1239,7 @@
       "rule_name": "Compounding",
       "category": "Morphology",
       "original_wording": "Rule:\n● Primary root comes first, refining the meaning with the second root.",
-      "examples": "● Terra + Dren = Terradren (fertile soil/well-irrigated land)\n● Dren + Shal = Drenshal (reflective pool/crystal-clear spring)\n● Morl + Dren = Morldren (waterfall/mountain stream)\n● Terra + Esh = Terraesh (horizon/place where earth meets sky)\n● Krez + or = Krezor (forge)",
+      "examples": "● Terra + Dren = Terradren (fertile soil/well-irrigated land)\n● Dren + Shal = Drenshal (reflective pool/crystal-clear spring)\n● Morl + Dren = Morldren (waterfall)\n● Terra + Esh = Terraesh (horizon/place where earth meets sky)\n● Krez + or = Krezor (forge)",
       "canon_status": "Canon",
       "notes": "Bullet structure preserved in original_wording/examples fields.",
       "related_entry_ids": "LX-V2-0142; LX-V2-0143; LX-V2-0144; LX-V2-0145; LX-V2-0146",
@@ -1251,7 +1251,7 @@
       "displayCategory": "Word Building",
       "purpose": "How parts combine to build new meaning.",
       "preview": "Rule: Primary root comes first, refining the meaning with the second root.",
-      "searchText": "gr-v2-0003 compounding morphology word building word formation and morphology > compounding rule:\n● primary root comes first, refining the meaning with the second root. ● terra + dren = terradren (fertile soil/well-irrigated land)\n● dren + shal = drenshal (reflective pool/crystal-clear spring)\n● morl + dren = morldren (waterfall/mountain stream)\n● terra + esh = terraesh (horizon/place where earth meets sky)\n● krez + or = krezor (forge) bullet structure preserved in original_wording/examples fields.",
+      "searchText": "gr-v2-0003 compounding morphology word building word formation and morphology > compounding rule:\n● primary root comes first, refining the meaning with the second root. ● terra + dren = terradren (fertile soil/well-irrigated land)\n● dren + shal = drenshal (reflective pool/crystal-clear spring)\n● morl + dren = morldren (waterfall)\n● terra + esh = terraesh (horizon/place where earth meets sky)\n● krez + or = krezor (forge) bullet structure preserved in original_wording/examples fields.",
       "lessonId": "LESSON-WORD-BUILDING"
     },
     {
@@ -1354,9 +1354,9 @@
       "rule_name": "Comparatives and Superlatives",
       "category": "Complex Syntax",
       "original_wording": "Comparatives:\n● Ther (more than)\nStructure:\n● X Adjective Ther Y\nSuperlatives:\n● Thaal (most)\nStructure:\n● X Adjective Thaal",
-      "examples": "rinaen dren-ian shaleth ther La-ka dren. — My water is brighter than their water.\nrinaen dren-ian shaleth thaal. — My water is brightest.\nrinaen dren-ian shaleth thaal morldren. — My water is brightest of mountain waters.",
+      "examples": "rinaen dren-ian shaleth ther La-ka dren. — My water is brighter than their water.\nrinaen dren-ian shaleth thaal. — My water is brightest.",
       "canon_status": "Canon",
-      "notes": "Human-approved fused spelling applied in example: morldren. Wording otherwise preserved.",
+      "notes": "",
       "related_entry_ids": "",
       "relationship_type": "",
       "potential_tension_id": "PT-V3-0009",
@@ -1366,7 +1366,7 @@
       "displayCategory": "Sentence Structure",
       "purpose": "How this sentence pattern is meant to work.",
       "preview": "Comparatives: Ther (more than) Structure: X Adjective Ther Y Superlatives: Thaal (most) Structure: X Adjective Thaal",
-      "searchText": "gr-v3-0004 comparatives and superlatives complex syntax sentence structure complex sentence structures > comparatives and superlatives comparatives:\n● ther (more than)\nstructure:\n● x adjective ther y\nsuperlatives:\n● thaal (most)\nstructure:\n● x adjective thaal rinaen dren-ian shaleth ther la-ka dren. — my water is brighter than their water.\nrinaen dren-ian shaleth thaal. — my water is brightest.\nrinaen dren-ian shaleth thaal morldren. — my water is brightest of mountain waters. human-approved fused spelling applied in example: morldren. wording otherwise preserved.",
+      "searchText": "gr-v3-0004 comparatives and superlatives complex syntax sentence structure complex sentence structures > comparatives and superlatives comparatives:\n● ther (more than)\nstructure:\n● x adjective ther y\nsuperlatives:\n● thaal (most)\nstructure:\n● x adjective thaal rinaen dren-ian shaleth ther la-ka dren. — my water is brighter than their water.\nrinaen dren-ian shaleth thaal. — my water is brightest. human-approved fused spelling applied in example: morldren. wording otherwise preserved.",
       "lessonId": "LESSON-SENTENCE-SHAPE"
     },
     {

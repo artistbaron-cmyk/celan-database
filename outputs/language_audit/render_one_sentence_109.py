@@ -20,7 +20,7 @@ rows = read(HERE / "one_sentence_109.csv")
 lines = [
     "# First 109-row example review — 2026-10-03 snapshot",
     "",
-    "Items 1–50 have now been reviewed and placed in the app. Item 50 is a general illustration because its two honorific meanings overlap. Items 8 and 9 moved from the old Eth suffix rows to the two -eth meanings. Standalone Eth also received a separate approved sentence. The other rows remain drafts. A word-building illustration shows a formed word rather than using a root or ending by itself. See [the review notes](one_sentence_109_review.md).",
+    "All 109 reviewed items now have a visible app placement. Items 8 and 9 moved from the old Eth suffix rows to the two -eth meanings, and standalone Eth has its own sentence. Repeated or partial constructions appear once as general illustrations where they cannot distinguish overlapping meanings. A word-building illustration shows a formed word rather than using a root or ending by itself. See [the review notes](one_sentence_109_review.md).",
     "",
 ]
 for index, row in enumerate(rows, 1):
@@ -36,8 +36,8 @@ for index, row in enumerate(rows, 1):
         caution = " **Needs a grammar decision before use.**" if row["status"].startswith("needs_") else ""
         if row["status"].startswith("approved_") or row["status"].startswith("moved_to_"):
             caution = " **Approved and placed.**"
-        if row["status"] == "approved_general_illustration_sense_overlap":
-            caution = " **Approved as a general illustration; exact sense remains open.**"
+        if row["status"].startswith("approved_general_illustration"):
+            caution = " **Approved as a general illustration; scope is explained in the review notes.**"
         lines.append(
             f"{index}. **{item['headword']} — {item['meaning']}** ({kind}): "
             f"`{row['celan']}` — “{row['english']}”{caution}"

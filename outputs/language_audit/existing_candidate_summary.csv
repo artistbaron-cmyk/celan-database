@@ -1,10 +1,10 @@
 sense_id,headword,possible_other_page_sentences,search_note
-ilin-s1,Ilin,0,Exact standalone spelling only; meaning not reviewed.
-ilin-s2,Ilin,0,Exact standalone spelling only; meaning not reviewed.
+ilin-s1,Ilin,1,Exact standalone spelling only; meaning not reviewed.
+ilin-s2,Ilin,1,Exact standalone spelling only; meaning not reviewed.
 ya-s1,Ya,0,Bound or very short form; manual construction search needed.
 ya-s2,Ya,0,Bound or very short form; manual construction search needed.
-var-s1,Var,2,Exact standalone spelling only; meaning not reviewed.
-var-s2,Var,2,Exact standalone spelling only; meaning not reviewed.
+var-s1,Var,4,Exact standalone spelling only; meaning not reviewed.
+var-s2,Var,4,Exact standalone spelling only; meaning not reviewed.
 ser-s1,Ser,1,Exact standalone spelling only; meaning not reviewed.
 ser-s2,Ser,1,Exact standalone spelling only; meaning not reviewed.
 ser-s3,Ser,1,Exact standalone spelling only; meaning not reviewed.
@@ -14,11 +14,11 @@ ka-s1,Ka,0,Bound or very short form; manual construction search needed.
 ka-s2,Ka,0,Bound or very short form; manual construction search needed.
 an-s1,An,0,Bound or very short form; manual construction search needed.
 an-s2,An,0,Bound or very short form; manual construction search needed.
-nor-s1,Nor,28,Exact standalone spelling only; meaning not reviewed.
-nor-s2,Nor,28,Exact standalone spelling only; meaning not reviewed.
-esh-s1,Esh,0,Exact standalone spelling only; meaning not reviewed.
-esh-s2,Esh,0,Exact standalone spelling only; meaning not reviewed.
-esh-s3,Esh,0,Exact standalone spelling only; meaning not reviewed.
+nor-s1,Nor,29,Exact standalone spelling only; meaning not reviewed.
+nor-s2,Nor,29,Exact standalone spelling only; meaning not reviewed.
+esh-s1,Esh,1,Exact standalone spelling only; meaning not reviewed.
+esh-s2,Esh,1,Exact standalone spelling only; meaning not reviewed.
+esh-s3,Esh,1,Exact standalone spelling only; meaning not reviewed.
 morl-s1,Morl,1,Exact standalone spelling only; meaning not reviewed.
 morl-s3,Morl,1,Exact standalone spelling only; meaning not reviewed.
 terra-s1,Terra,0,Exact standalone spelling only; meaning not reviewed.
@@ -47,9 +47,9 @@ zharinor-s1,Zharinor,0,Exact standalone spelling only; meaning not reviewed.
 vrekthael-s1,Vrekthael,0,Exact standalone spelling only; meaning not reviewed.
 rathor-s1,Rathor,1,Exact standalone spelling only; meaning not reviewed.
 rathor-s2,Rathor,1,Exact standalone spelling only; meaning not reviewed.
-shalor-s1,Shalor,1,Exact standalone spelling only; meaning not reviewed.
-shalor-s2,Shalor,1,Exact standalone spelling only; meaning not reviewed.
-shalor-s3,Shalor,1,Exact standalone spelling only; meaning not reviewed.
+shalor-s1,Shalor,2,Exact standalone spelling only; meaning not reviewed.
+shalor-s2,Shalor,2,Exact standalone spelling only; meaning not reviewed.
+shalor-s3,Shalor,2,Exact standalone spelling only; meaning not reviewed.
 thaal-s1,Thaal,2,Exact standalone spelling only; meaning not reviewed.
 thaal-s2,Thaal,2,Exact standalone spelling only; meaning not reviewed.
 lian-s1,Lian,1,Exact standalone spelling only; meaning not reviewed.
@@ -57,10 +57,10 @@ lian-s2,Lian,1,Exact standalone spelling only; meaning not reviewed.
 lian-s3,Lian,1,Exact standalone spelling only; meaning not reviewed.
 lumor-s1,Lumor,0,Exact standalone spelling only; meaning not reviewed.
 lumor-s2,Lumor,0,Exact standalone spelling only; meaning not reviewed.
-aen-s1,Aen,2,Exact standalone spelling only; meaning not reviewed.
-aen-s2,Aen,2,Exact standalone spelling only; meaning not reviewed.
-aen-s3,Aen,2,Exact standalone spelling only; meaning not reviewed.
-aen-s4,Aen,2,Exact standalone spelling only; meaning not reviewed.
+aen-s1,Aen,3,Exact standalone spelling only; meaning not reviewed.
+aen-s2,Aen,3,Exact standalone spelling only; meaning not reviewed.
+aen-s3,Aen,3,Exact standalone spelling only; meaning not reviewed.
+aen-s4,Aen,3,Exact standalone spelling only; meaning not reviewed.
 varok-s1,Varok,0,Exact standalone spelling only; meaning not reviewed.
 kal-s1,Kal,0,Exact standalone spelling only; meaning not reviewed.
 kal-s2,Kal,0,Exact standalone spelling only; meaning not reviewed.
@@ -73,9 +73,9 @@ arthen-s1,Arthen,1,Exact standalone spelling only; meaning not reviewed.
 vaar-s1,Vaar,1,Exact standalone spelling only; meaning not reviewed.
 vaar-s2,Vaar,1,Exact standalone spelling only; meaning not reviewed.
 vaar-s3,Vaar,1,Exact standalone spelling only; meaning not reviewed.
-lorin-s1,Lorin,1,Exact standalone spelling only; meaning not reviewed.
-lorin-s2,Lorin,1,Exact standalone spelling only; meaning not reviewed.
-lorin-s3,Lorin,1,Exact standalone spelling only; meaning not reviewed.
+lorin-s1,Lorin,4,Exact standalone spelling only; meaning not reviewed.
+lorin-s2,Lorin,4,Exact standalone spelling only; meaning not reviewed.
+lorin-s3,Lorin,4,Exact standalone spelling only; meaning not reviewed.
 rath-s1,Rath,0,Exact standalone spelling only; meaning not reviewed.
 rath-s2,Rath,0,Exact standalone spelling only; meaning not reviewed.
 rath-s3,Rath,0,Exact standalone spelling only; meaning not reviewed.
@@ -97,8 +97,8 @@ morldren-s2,Morldren,0,Exact standalone spelling only; meaning not reviewed.
 lun-s1,Lun,0,Exact standalone spelling only; meaning not reviewed.
 lun-s3,Lun,0,Exact standalone spelling only; meaning not reviewed.
 awek-s2,Awek,0,Exact standalone spelling only; meaning not reviewed.
-kaleth-s1,Kaleth,0,Exact standalone spelling only; meaning not reviewed.
-kaleth-s2,Kaleth,0,Exact standalone spelling only; meaning not reviewed.
+kaleth-s1,Kaleth,1,Exact standalone spelling only; meaning not reviewed.
+kaleth-s2,Kaleth,1,Exact standalone spelling only; meaning not reviewed.
 krezor-s1,Krezor,0,Exact standalone spelling only; meaning not reviewed.
 krezor-s2,Krezor,0,Exact standalone spelling only; meaning not reviewed.
 krezor-s3,Krezor,0,Exact standalone spelling only; meaning not reviewed.
@@ -265,8 +265,8 @@ arthen'taleth-s1,Arthen'taleth,0,Exact standalone spelling only; meaning not rev
 kor'taleth-s1,Kor'taleth,0,Exact standalone spelling only; meaning not reviewed.
 talaen-s1,Talaen,1,Exact standalone spelling only; meaning not reviewed.
 talaen-s2,Talaen,1,Exact standalone spelling only; meaning not reviewed.
-shalaen-s1,Shalaen,2,Exact standalone spelling only; meaning not reviewed.
-shalaen-s2,Shalaen,2,Exact standalone spelling only; meaning not reviewed.
+shalaen-s1,Shalaen,4,Exact standalone spelling only; meaning not reviewed.
+shalaen-s2,Shalaen,4,Exact standalone spelling only; meaning not reviewed.
 nkathalaen-s1,Nkathalaen,0,Exact standalone spelling only; meaning not reviewed.
 rathaen-s1,Rathaen,0,Exact standalone spelling only; meaning not reviewed.
 krezaen-s1,Krezaen,0,Exact standalone spelling only; meaning not reviewed.
@@ -347,8 +347,8 @@ pral-s3,Pral,0,Exact standalone spelling only; meaning not reviewed.
 vok-s1,Vok,1,Exact standalone spelling only; meaning not reviewed.
 vok-s2,Vok,1,Exact standalone spelling only; meaning not reviewed.
 eth-s3,Eth,0,Exact standalone spelling only; meaning not reviewed.
-shan-s1,Shan,0,Exact standalone spelling only; meaning not reviewed.
-shan-s2,Shan,0,Exact standalone spelling only; meaning not reviewed.
+shan-s1,Shan,1,Exact standalone spelling only; meaning not reviewed.
+shan-s2,Shan,1,Exact standalone spelling only; meaning not reviewed.
 lianrethshen-s1,Lianrethshen,0,Exact standalone spelling only; meaning not reviewed.
 lianrethshen-s2,Lianrethshen,0,Exact standalone spelling only; meaning not reviewed.
 vaarshen-s1,Vaarshen,0,Exact standalone spelling only; meaning not reviewed.

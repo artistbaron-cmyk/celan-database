@@ -1,0 +1,182 @@
+headword,sense_id,word_type,meaning,ordinary_sentences_on_page,review_status
+Ilin,ilin-s1,Pronoun,We / Us [Inclusive] (1st Person Plural),33,reviewed in first 50; linked to merged inclusive meaning
+Ilin,ilin-s2,Pronoun,"Inclusive We: I + You (+ others). This is the communal, default ""we.""",33,reviewed in first 50; duplicate meaning retired
+Ya,ya-s1,Pronoun,You (2nd Person Singular),69,reviewed in first 50; approved link applied
+Ya,ya-s2,Possessive,Your (direct personal suffix -ya),69,reviewed in first 50; approved link applied
+Var,var-s1,Verb,Go / Move,189,reviewed in first 50; approved link applied
+Var,var-s2,Preposition,To / Towards,189,reviewed in first 50; approved link applied
+Ser,ser-s1,Noun,Friend / Ally,270,reviewed in first 50; approved link applied
+Ser,ser-s2,Preposition,With,270,reviewed in first 50; approved link applied
+Ser,ser-s3,Conjunction,And,270,reviewed in first 50; approved link applied
+Thal,thal-s1,Noun,Balance / Harmony,78,reviewed in first 50; approved link applied
+Ka,ka-s1,Preposition,Without,27,reviewed in first 50; approved link applied
+Ka,ka-s2,Interjection,No,27,reviewed in first 50; approved link applied
+An,an-s1,Preposition,"At, in (place)",871,reviewed in first 50; duplicate meaning retired
+An,an-s2,Preposition,Spatial contexts (“at/in” location),871,reviewed in first 50; approved link applied
+Nor,nor-s1,Noun,Time / Flow of Time,79,reviewed in first 50; approved link applied
+Nor,nor-s2,Preposition,At / In (time),79,reviewed in first 50; approved link applied
+Esh,esh-s1,Noun,Sky / Air,37,reviewed in first 50; approved link applied
+Esh,esh-s2,Preposition,Above / Over,37,reviewed in first 50; approved link applied
+Esh,esh-s3,Suffix,-esh (relational),37,reviewed in first 50; suffix example on hold
+Morl,morl-s1,Noun,Mountain,45,reviewed in first 50; approved link applied
+Morl,morl-s3,Preposition,"Under, beneath",45,reviewed in first 50; approved link applied
+Terra,terra-s1,Noun,Earth / Physical ground,14,reviewed in first 50; applied
+Terra,terra-s2,Noun,The Heart of Terra / Mystical force,14,reviewed in first 50; applied
+Dren,dren-s1,Noun,Water,217,reviewed in first 50; applied
+Dren,dren-s2,Noun,Water - symbolic,217,reviewed in first 50; on hold
+Dren,dren-s3,Noun,Water / River,217,reviewed in first 50; on hold
+Shal,shal-s1,Noun,Light / New Beginnings / Fate,20,reviewed in first 50; applied
+Shal,shal-s2,Verb,Hope,20,reviewed in first 50; moved to formed word
+Krez,krez-s1,Noun,Fire,8,reviewed in first 50; applied
+Krez,krez-s2,Interjection,Blast! / Damn!,8,reviewed in first 50; on hold
+Thar,thar-s1,Noun,Heart,14,reviewed in first 50; applied
+Thar,thar-s2,Modal,Want to,14,reviewed in first 50; moved to formed word
+Vethor,vethor-s1,Noun,Shadow / Mystery,3,reviewed in first 50; applied
+Vethor,vethor-s2,Verb,Sleep,3,reviewed in first 50; moved to formed word
+Shara,shara-s1,Noun,Path / Journey,29,reviewed in first 50; applied
+Shara,shara-s2,Verb,To follow a path / To navigate / To track,29,reviewed in first 50; applied
+Rathor,rathor-s1,Noun,Old City / Ancient Place,4,reviewed in first 50; applied
+Rathor,rathor-s2,Noun,Past / History,4,reviewed in first 50; applied
+Shalor,shalor-s1,Noun,"Light (discovery, vision, hope)",20,reviewed in first 50; merged
+Shalor,shalor-s2,Noun,Light / New Beginnings / Fate,20,reviewed in first 50; merged
+Shalor,shalor-s3,Noun,Sanctuary (light-filled place),20,reviewed in first 50; applied
+Thaal,thaal-s1,Noun,The Unknown / Wonder,3,reviewed in first 50; applied
+Thaal,thaal-s2,Particle,Superlative marker: most,3,reviewed in first 50; applied
+Lian,lian-s1,Noun,Truth / Honesty,13,reviewed in first 50; applied
+Lian,lian-s2,Verb,Pray,13,reviewed in first 50; moved to formed word
+Lian,lian-s3,Modal,Can / Able to,13,reviewed in first 50; on hold
+Aen,aen-s1,Verb,Speak / Tell / Breathe,66,reviewed in first 50; applied
+Aen,aen-s2,Conjunction,That,66,reviewed in first 50; applied
+Aen,aen-s3,Suffix,-aen (verb-forming),66,reviewed in first 50; on hold
+Aen,aen-s4,Noun,Breath of Life,66,reviewed in first 50; on hold
+Kal,kal-s1,Noun,Strength / Power,47,not yet manually reviewed
+Kal,kal-s2,Adjective,Strong,47,not yet manually reviewed
+Kal,kal-s3,Verb,To strengthen,47,not yet manually reviewed
+Kalor,kalor-s1,Noun,Courage / Strength of Spirit,2,not yet manually reviewed
+Kalor,kalor-s2,Noun,Strength (of the mind or spirit),2,not yet manually reviewed
+Seren,seren-s1,Noun,Guardian / Protector,47,not yet manually reviewed
+Seren,seren-s2,Noun,Guardian/Protector,47,not yet manually reviewed
+Vaar,vaar-s1,Noun,Peace / Unity,10,not yet manually reviewed
+Vaar,vaar-s2,Adjective,Good,10,not yet manually reviewed
+Vaar,vaar-s3,Interjection,Relief / Phew,10,not yet manually reviewed
+Lorin,lorin-s1,Noun,Guide,41,not yet manually reviewed
+Lorin,lorin-s2,Noun,Guide / Teacher,41,not yet manually reviewed
+Lorin,lorin-s3,Verb,To guide,41,not yet manually reviewed
+Rath,rath-s1,Noun,Enemy / Foe,11,not yet manually reviewed
+Rath,rath-s2,Particle,Conditional “If”,11,not yet manually reviewed
+Rath,rath-s3,Particle,Conditional marker: if,11,not yet manually reviewed
+Fah,fah-s1,Noun,Darkness / Fear / Night,3,not yet manually reviewed
+Fah,fah-s2,Interjection,Ugh! / Bah!,3,not yet manually reviewed
+Reth,reth-s1,Noun,Confusion / Uncertainty,6,not yet manually reviewed
+Reth,reth-s2,Conjunction,Or,6,not yet manually reviewed
+Aenor,aenor-s1,Noun,Ear,2,reviewed in batch 01; corrections applied
+Aenor,aenor-s2,Noun,Moment / Instant,2,reviewed in batch 01; corrections applied
+Dral,dral-s1,Noun,Sky / Wonder / Heavens,2,not yet manually reviewed
+Dral,dral-s2,Interjection,Wow! / Heavens!,2,not yet manually reviewed
+Tal,tal-s1,Verb,Give / Offer,56,not yet manually reviewed
+Tal,tal-s2,Verb,Take / Receive,56,not yet manually reviewed
+Morldren,morldren-s1,Noun,Waterfall (mountain + water),1,reviewed in batch 01; corrections applied
+Morldren,morldren-s2,Noun,waterfall/mountain stream,1,reviewed in batch 01; corrections applied
+Lun,lun-s1,Noun,Lake,9,not yet manually reviewed
+Lun,lun-s3,Noun,Moon; Ohnosha's natural satellite or lunar body,9,not yet manually reviewed
+Kaleth,kaleth-s1,Noun,Fortress / Stronghold,25,not yet manually reviewed
+Kaleth,kaleth-s2,Adjective,Strong / Powerful / Intense / High in magnitude or reading,25,not yet manually reviewed
+Krezor,krezor-s1,Noun,forge,12,not yet manually reviewed
+Krezor,krezor-s2,Noun,Forge / Place of Fire,12,not yet manually reviewed
+Krezor,krezor-s3,Noun,"Hearth, Fireplace, Forge",12,not yet manually reviewed
+Phelvin,phelvin-s1,Noun,Comforting drink,10,not yet manually reviewed
+Phelvin,phelvin-s2,Noun,Comfort Drink,10,not yet manually reviewed
+Jorvak,jorvak-s1,Noun,Bursting Stew,3,not yet manually reviewed
+Jorvak,jorvak-s2,Noun,Bursting warmth,3,not yet manually reviewed
+Welrim,welrim-s1,Noun,Continuous Feast,4,not yet manually reviewed
+Welrim,welrim-s2,Noun,Shared feast,4,not yet manually reviewed
+Xilvar,xilvar-s1,Noun,A hidden spice; a seasoning or blend whose composition or preparation is deliberately concealed,2,not yet manually reviewed
+Xilvar,xilvar-s2,Noun,Fragmented Salt,2,not yet manually reviewed
+Xarvel,xarvel-s1,Noun,Covered meal,1,reviewed in batch 01; corrections applied
+Xarvel,xarvel-s2,Noun,Veiled Meal,1,reviewed in batch 01; corrections applied
+Belshara,belshara-s1,Noun,"Coordinated Maneuver / Formation Movement / Tactical Path. Refers to moving troops in a specific, planned way.",5,not yet manually reviewed
+Belshara,belshara-s2,Noun,Duty (Bound Path),5,not yet manually reviewed
+Belshara,belshara-s3,Modal,Necessity (Must/Have to),5,not yet manually reviewed
+Belshara,belshara-s4,Noun,Necessity / Obligation,5,not yet manually reviewed
+Felorin,felorin-s1,Noun,Berry from Coral Reefs,3,not yet manually reviewed
+Felorin,felorin-s2,Noun,Berry/Small Fruit,3,not yet manually reviewed
+Zhelvek,zhelvek-s1,Noun,Energy Bar,4,not yet manually reviewed
+Zhelvek,zhelvek-s2,Noun,Energy carrier,4,not yet manually reviewed
+Eshvelaneth,eshvelaneth-s1,Noun,Hailstorm,2,not yet manually reviewed
+Eshvelaneth,eshvelaneth-s2,Noun,Snowstorm Guidance Ritual,2,not yet manually reviewed
+Lianor,lianor-s1,Noun,"Idea, Thought (Place of truth)",5,not yet manually reviewed
+Lianor,lianor-s2,Noun,Sir,5,not yet manually reviewed
+Kel,kel-s1,Verb,Say / Talk (informal),19,not yet manually reviewed
+Kel,kel-s2,Noun,Name,19,not yet manually reviewed
+Kel,kel-s3,Noun,Word,19,not yet manually reviewed
+Kel,kel-s4,Noun,A text; a connected body of written or encoded words rather than information or data generally,19,not yet manually reviewed
+Rethlian,rethlian-s1,Modal,Possibility (May/Might),3,not yet manually reviewed
+Rethlian,rethlian-s2,Interjection,Maybe,3,not yet manually reviewed
+Rethlian,rethlian-s3,Particle,Possibility (May/Might),3,not yet manually reviewed
+Velmarin,velmarin-s1,Noun,Ancient Tree (species),3,not yet manually reviewed
+Velmarin,velmarin-s2,Noun,Honorary Elder,3,not yet manually reviewed
+Shalaen,shalaen-s1,Verb,To Hope / See Light Ahead.,12,not yet manually reviewed
+Shalaen,shalaen-s2,Verb,"To See, To perceive with light",12,not yet manually reviewed
+Drenkorath,drenkorath-s1,Noun,Oasis Blessing Ceremony,2,not yet manually reviewed
+Drenkorath,drenkorath-s2,Noun,Sacred spring,2,not yet manually reviewed
+Tenar,tenar-s1,Number,Ten,5,not yet manually reviewed
+Tenar,tenar-s2,Noun,Radiance / Steady glow / Visible light,5,not yet manually reviewed
+Lianeth,lianeth-s1,Modal,Ability (Can/Able to),3,not yet manually reviewed
+Lianeth,lianeth-s2,Verb,Ability (Can/Able to),3,not yet manually reviewed
+Lianeth,lianeth-s3,Adjective,Reliable / Sound / Dependable / Accurate / True to function,3,not yet manually reviewed
+Thar-ka,thar-ka-s1,Modal,Desire (Want to),1,not yet manually reviewed
+Thar-ka,thar-ka-s2,Noun,Desire,1,not yet manually reviewed
+Shen,shen-s1,Noun,Coinage / Currency,21,not yet manually reviewed
+Shen,shen-s2,Measure,Unit of weight / measure,21,not yet manually reviewed
+Shen,shen-s3,Verb,To measure / To count,21,not yet manually reviewed
+Kor,kor-s1,Noun,Source / Strength,2,not yet manually reviewed
+Kor,kor-s2,Measure,Unit of length / handspan measure,2,not yet manually reviewed
+Kor,kor-s3,Noun,Center or middle; the central position or region within a bounded whole,2,not yet manually reviewed
+Pral,pral-s1,Noun,Table,3,not yet manually reviewed
+Pral,pral-s2,Verb,Make,3,not yet manually reviewed
+Pral,pral-s3,Noun,Intricacy / Detail,3,not yet manually reviewed
+Vok,vok-s1,Noun,Unity / Bond,2,reviewed in batch 01; corrections applied
+Vok,vok-s2,Verb,Betray,2,reviewed in batch 01; corrections applied
+Shan,shan-s1,Verb,Passing; transfer; handoff between states,45,not yet manually reviewed
+Shan,shan-s2,Preposition,Through or across from one side or boundary to another,45,not yet manually reviewed
+Lianrethshen,lianrethshen-s1,Measure,An anomaly reading; a measured value describing the intensity or instability of a reality anomaly,2,not yet manually reviewed
+Lianrethshen,lianrethshen-s2,Noun,An anomaly reading; a measured value describing the intensity or instability of a reality anomaly,2,not yet manually reviewed
+Vaarshen,vaarshen-s1,Measure,A safe clearance distance established between a hazard and an unprotected person or place,2,not yet manually reviewed
+Vaarshen,vaarshen-s2,Noun,A safe clearance distance established between a hazard and an unprotected person or place,2,not yet manually reviewed
+Keldoraen,keldoraen-s1,Verb,To mark a location by deliberately placing a sign name or warning indicator there,10,not yet manually reviewed
+Keldoraen,keldoraen-s2,Verb,To write or inscribe visible language on a surface,10,not yet manually reviewed
+Ruvan,ruvan-s1,Noun,Moral institutional or social corruption understood as living rot spreading through a community or organized system,4,not yet manually reviewed
+Ruvan,ruvan-s2,Noun,"Rot or organic spoilage; uncontrolled biological decay that degrades food, tissue, or other once-living material",4,not yet manually reviewed
+Anvekaen,anvekaen-s1,Verb,To board; to enter or mount a vehicle vessel or transport animal for travel,9,not yet manually reviewed
+Anvekaen,anvekaen-s2,Verb,To load cargo; to put goods or material aboard or into transport in preparation for travel,9,not yet manually reviewed
+Thalvekaen,thalvekaen-s1,Verb,To disembark; to leave or come out of a vehicle vessel or transport animal after travel,5,not yet manually reviewed
+Thalvekaen,thalvekaen-s2,Verb,To unload cargo; to remove goods or material from transport after travel,5,not yet manually reviewed
+Jorvar,jorvar-s1,Measure,Speed; the rate at which a person creature object or vehicle moves through distance,2,not yet manually reviewed
+Jorvar,jorvar-s2,Noun,Speed; the rate at which a person creature object or vehicle moves through distance,2,not yet manually reviewed
+Njor,njor-s1,Noun,A bridge between separated people groups systems or ideas; a connection that crosses a meaningful division,8,not yet manually reviewed
+Njor,njor-s3,Noun,Bridge or structural span that carries passage across a gap waterway or obstruction,8,not yet manually reviewed
+Sel,sel-s1,Noun,Mental clarity; an unobscured and internally ordered state of thought without implying truth evidence or correctness,4,not yet manually reviewed
+Sel,sel-s2,Noun,Physical clarity; purity; absence of grime,4,not yet manually reviewed
+Thael,thael-s1,Noun,Rhythm or beat; a recurring pattern of pulse sound or movement,4,not yet manually reviewed
+Thael,thael-s2,Adjective,Gentle motion; breeze-like rhythm,4,not yet manually reviewed
+Shentalzhael,shentalzhael-s1,Noun,Medical triage; measured assignment of treatment priority and limited care resources according to urgency,2,reviewed in batch 01; corrections applied
+Shentalzhael,shentalzhael-s2,Verb,To triage / To prioritize treatment,2,reviewed in batch 01; corrections applied
+Em,em-s1,Interjection,Um / Uh (hesitation or thinking particle),2,not yet manually reviewed
+Em,em-s2,Particle,Conversational hesitation / Thinking particle,2,not yet manually reviewed
+Vrak,vrak-s1,Adjective,Gone / Missing / Depleted / Dry (Trerran dialect),1,not yet manually reviewed
+Vrak,vrak-s2,Particle,Gone / Missing / Depleted (Trerran dialect),1,not yet manually reviewed
+Thalesh,thalesh-s1,Noun,Ritual / Sacred balance ceremony,1,reviewed in batch 01; corrections applied
+Thalesh,thalesh-s2,Verb,To perform a balance rite,1,reviewed in batch 01; corrections applied
+Thalor,thalor-s1,Noun,Outside / Exterior / Outer place,2,reviewed in batch 01; corrections applied
+Thalor,thalor-s2,Adverb,Outside,2,reviewed in batch 01; corrections applied
+Vanesh,vanesh-s1,Noun,Commerce; formal trade; merchant work,15,not yet manually reviewed
+Vanesh,vanesh-s2,Verb,To trade / To conduct commerce,15,not yet manually reviewed
+Kar,kar-s1,Noun,Strike; mechanical force; tool-work,2,reviewed in batch 01; corrections applied
+Kar,kar-s2,Verb,To strike / To apply force,2,reviewed in batch 01; corrections applied
+Jor,jor-s2,Verb,To surge / To burst forth,13,not yet manually reviewed
+Bren,bren-s1,Noun,"Harvest (e.g., the act or result of gathering food).",8,not yet manually reviewed
+Bren,bren-s2,Verb,To harvest / To gather,8,not yet manually reviewed
+Xar,xar-s1,Noun,Shadow or cover (tied to concealed or protective qualities).,5,not yet manually reviewed
+Xar,xar-s2,Verb,To cover / To shelter / To close off,5,not yet manually reviewed
+nor-ka,nor-ka-s1,Particle,passive voice echo particle,9,not yet manually reviewed
+nor-ka,nor-ka-s2,Particle,Now / In this moment / At present,9,not yet manually reviewed

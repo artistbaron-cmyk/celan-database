@@ -1,7 +1,6 @@
 headword_id,sense_order,visible,word_type,meaning,usage_note,root_word,source_entry_ids,sense_id
 i,1,Yes,Pronoun,I / Me (1st Person Singular),Remains simple and universal.,,LX-V1-0001,i-s1
-ilin,1,Yes,Pronoun,We / Us [Inclusive] (1st Person Plural),"Represents ""we"" as a group bound by common purpose.",,LX-V1-0002; LX-V4-0008,ilin-s1
-ilin,2,Yes,Pronoun,"Inclusive We: I + You (+ others). This is the communal, default ""we.""",,,LX-V1-0002; LX-V4-0008,ilin-s2
+ilin,1,Yes,Pronoun,We / us (inclusive),First-person plural pronoun that includes the speaker and listener; the communal default we.,,LX-V1-0002; LX-V4-0008,ilin-s1
 ya,1,Yes,Pronoun,You (2nd Person Singular),A straightforward pronoun for “you.”,,LX-V1-0003,ya-s1
 ya,2,Yes,Possessive,Your (direct personal suffix -ya),"Attach -ya to the possessed noun for body parts, inner states, and personal clothing.",,LX-V1-0003,ya-s2
 yalin,1,Yes,Pronoun,You all / You / Y’all (2nd Person Plural),"""You all."" Signifies a collective of individuals addressed.",,LX-V1-0004,yalin-s1
@@ -24,8 +23,7 @@ thal,1,Yes,Noun,Balance / Harmony,,,LX-V1-0017; LX-V2-0008; LX-V2-0023; LX-V2-00
 thal,2,Yes,Preposition,From / Out of,,,LX-V1-0017; LX-V2-0008; LX-V2-0023; LX-V2-0072; LX-V4-0109; XR-thal,thal-s2
 ka,1,Yes,Preposition,Without,Standalone ka is exclusively without or no. Ownership uses a hyphenated possessor-ka form.,,LX-V1-0018; LX-V3-0018,ka-s1
 ka,2,Yes,Interjection,No,Standalone ka is exclusively without or no. Ownership uses a hyphenated possessor-ka form.,,LX-V1-0018; LX-V3-0018,ka-s2
-an,1,Yes,Preposition,"At, in (place)",Varan I an Varthas.,,LX-V1-0019,an-s1
-an,2,Yes,Preposition,Spatial contexts (“at/in” location),Preserved as standalone root/morpheme because source clearly defines it.,,DM-RM-V1-0013,an-s2
+an,1,Yes,Preposition,At / in / on (spatial place),Marks place; nor marks time.,,LX-V1-0019; DM-RM-V1-0013,an-s2
 nor,1,Yes,Noun,Time / Flow of Time,,,LX-V1-0020; LX-V2-0020; LX-V4-0100; XR-nor,nor-s1
 nor,2,Yes,Preposition,At / In (time),,,LX-V1-0020; LX-V2-0020; LX-V4-0100; XR-nor,nor-s2
 esh,1,Yes,Noun,Sky / Air,,,LX-V1-0021; LX-V2-0006; LX-V2-0071; LX-V4-0110; XR-esh,esh-s1
@@ -34,20 +32,17 @@ esh,3,Yes,Suffix,-esh (relational),,,LX-V1-0021; LX-V2-0006; LX-V2-0071; LX-V4-0
 morl,1,Yes,Noun,Mountain,,,LX-V2-0005; LX-V2-0066,morl-s1
 morl,2,,Noun,Mountain; stone; endurance; the unchanging past,"Builds words for stone, mountain, endurance, stoicism, and unyielding material force.",Yes,XR-morl,morl-s2
 morl,3,Yes,Preposition,"Under, beneath",Var I morl dren.,,LX-V1-0022,morl-s3
-terra,1,Yes,Noun,Earth / Physical ground,,,LX-V2-0001; LX-V2-0073; LX-V4-0108; XR-terra,terra-s1
-terra,2,Yes,Noun,The Heart of Terra / Mystical force,,,LX-V2-0001; LX-V2-0073; LX-V4-0108; XR-terra,terra-s2
-dren,1,Yes,Noun,Water,,,LX-V2-0002,dren-s1
+terra,1,Yes,Noun,Earth / Physical ground,"Lowercase terra names ordinary soil, physical ground, or land.",,LX-V2-0001; LX-V2-0073; LX-V4-0108; XR-terra,terra-s1
+terra,2,Yes,Noun,The Heart of Terra / Mystical force,Capitalized Terra names the living world-force or spiritual Earth entity.,,LX-V2-0001; LX-V2-0073; LX-V4-0108; XR-terra,terra-s2
+dren,1,Yes,Noun,Water (physical),,,LX-V2-0002,dren-s1
 dren,2,Yes,Noun,Water - symbolic,"Use in rituals, court, formal address, writing, when emphasizing depth. Combine with Li- / -en.",,LX-V3-0011,dren-s2
 dren,3,Yes,Noun,Water / River,,,LX-V2-0068,dren-s3
 dren,4,,Noun,Water; flow; emotion; connection,"Builds words for water, flow, drinking, weather, and emotional or relational movement.",Yes,XR-dren,dren-s4
 shal,1,Yes,Noun,Light / New Beginnings / Fate,,,LX-V2-0003; LX-V2-0069; LX-V4-0101; XR-shal,shal-s1
-shal,2,Yes,Verb,Hope,,,LX-V2-0003; LX-V2-0069; LX-V4-0101; XR-shal,shal-s2
 krez,1,Yes,Noun,Fire,,,LX-V2-0004; LX-V2-0070; LX-V4-0105; XR-krez,krez-s1
 krez,2,Yes,Interjection,Blast! / Damn!,,,LX-V2-0004; LX-V2-0070; LX-V4-0105; XR-krez,krez-s2
-thar,1,Yes,Noun,Heart,,,LX-V2-0007; LX-V2-0057; LX-V4-0115; XR-thar,thar-s1
-thar,2,Yes,Modal,Want to,,,LX-V2-0007; LX-V2-0057; LX-V4-0115; XR-thar,thar-s2
+thar,1,Yes,Noun,Heart / inner self,,,LX-V2-0007; LX-V2-0057; LX-V4-0115; XR-thar,thar-s1
 vethor,1,Yes,Noun,Shadow / Mystery,,,LX-V2-0009; LX-V2-0067; LX-V4-0117,vethor-s1
-vethor,2,Yes,Verb,Sleep,,,LX-V2-0009; LX-V2-0067; LX-V4-0117,vethor-s2
 shara,1,Yes,Noun,Path / Journey,,,LX-V2-0010; XR-shara,shara-s1
 shara,2,Yes,Verb,To follow a path / To navigate / To track,,,LX-V2-0010; XR-shara,shara-s2
 zhilva,1,Yes,Interjection,"General ""Hello""",,,LX-V2-0011,zhilva-s1
@@ -62,14 +57,11 @@ vrekthael,1,Yes,Interjection,"Ceremonial ""Greetings""",,,LX-V2-0019,vrekthael-s
 varash,1,Yes,Noun,Future / Prophecy,,,LX-V2-0021,varash-s1
 rathor,1,Yes,Noun,Old City / Ancient Place,,,LX-V2-0085,rathor-s1
 rathor,2,Yes,Noun,Past / History,,,LX-V2-0022,rathor-s2
-shalor,1,Yes,Noun,"Light (discovery, vision, hope)",,,LX-V2-0059,shalor-s1
-shalor,2,Yes,Noun,Light / New Beginnings / Fate,,,LX-V2-0024,shalor-s2
-shalor,3,Yes,Noun,Sanctuary (light-filled place),,,LX-V2-0084,shalor-s3
+shalor,1,Yes,Noun,Sanctuary (light-filled place),,,LX-V2-0084,shalor-s3
 thaal,1,Yes,Noun,The Unknown / Wonder,,,LX-V2-0025; LX-V2-0060,thaal-s1
 thaal,2,Yes,Particle,Superlative marker: most,Original root/morpheme entry preserved.,,DM-RM-V3-0008,thaal-s2
 lian,1,Yes,Noun,Truth / Honesty,,,LX-V2-0026; LX-V2-0064; LX-V4-0114; XR-lian,lian-s1
-lian,2,Yes,Verb,Pray,,,LX-V2-0026; LX-V2-0064; LX-V4-0114; XR-lian,lian-s2
-lian,3,Yes,Modal,Can / Able to,,,LX-V2-0026; LX-V2-0064; LX-V4-0114; XR-lian,lian-s3
+lian,2,Yes,Modal,Can / Able to,,,LX-V2-0026; LX-V2-0064; LX-V4-0114; XR-lian,lian-s3
 lumor,1,Yes,Noun,Light (enlightenment or insight),,,LX-V2-0027,lumor-s1
 lumor,2,Yes,Noun,Talisman,,,LX-V2-0027,lumor-s2
 aen,1,Yes,Verb,Speak / Tell / Breathe,"Formal/poetic use: deeper or ritual speaking. Use in rituals, court, formal address, writing, and when emphasizing depth. Combine with Li- / -en.",,LX-V2-0028; LX-V2-0062; LX-V3-0009; LX-V4-0102; DM-RM-V3-0005,aen-s1
@@ -118,8 +110,7 @@ dral,1,Yes,Noun,Sky / Wonder / Heavens,,,LX-V2-0058; LX-V4-0106; XR-dral,dral-s1
 dral,2,Yes,Interjection,Wow! / Heavens!,,,LX-V2-0058; LX-V4-0106; XR-dral,dral-s2
 tal,1,Yes,Verb,Give / Offer,,,LX-V2-0061; LX-V4-0116; XR-tal,tal-s1
 tal,2,Yes,Verb,Take / Receive,,,LX-V2-0061; LX-V4-0116; XR-tal,tal-s2
-morldren,1,Yes,Noun,Waterfall (mountain + water),,,LX-V2-0074,morldren-s1
-morldren,2,Yes,Noun,waterfall/mountain stream,Morl + Dren,,LX-V2-0144,morldren-s2
+morldren,1,Yes,Noun,Waterfall,Morl + Dren,,LX-V2-0074,morldren-s1
 verdor,1,Yes,Noun,forest place/realm,,,LX-V2-0075,verdor-s1
 mahr,1,Yes,Noun,ocean,,,LX-V2-0076,mahr-s1
 mahr,2,,Noun,Ocean; sea,"Builds words for tides, ocean force, vessels, and maritime practice.",Yes,XR-mahr,mahr-s2
@@ -169,8 +160,7 @@ weknor,1,Yes,Noun,Cyclical time,Wek + nor = time,,LX-V2-0112,weknor-s1
 worvenak,1,Yes,Noun,Abundant stew,Wor + venak = warmth,,LX-V2-0113,worvenak-s1
 xilvar,1,Yes,Noun,A hidden spice; a seasoning or blend whose composition or preparation is deliberately concealed,The source gloss “Hidden spice” is preserved and clarified by concealed composition or preparation.,,LX-V2-0114; LX-V2-0160,xilvar-s1
 xilvar,2,Yes,Noun,Fragmented Salt,The separate established salt sense remains unchanged.,,LX-V2-0114; LX-V2-0160,xilvar-s2
-xarvel,1,Yes,Noun,Covered meal,Xar + vel = sustenance,,LX-V2-0115,xarvel-s1
-xarvel,2,Yes,Noun,Veiled Meal,Xar + vel = concealed sustenance,,LX-V2-0156,xarvel-s2
+xarvel,1,Yes,Noun,Veiled meal (covered meal),,,LX-V2-0115,xarvel-s1
 ohmbaen,1,Yes,Noun,Beloved or soulmate,,,LX-V2-0119,ohmbaen-s1
 tlakorin,1,Yes,Noun,Confidant or trusted companion,,,LX-V2-0120,tlakorin-s1
 khumlor,1,Yes,Noun,"Chosen family, circle of belonging",,,LX-V2-0121,khumlor-s1
@@ -1522,8 +1512,8 @@ eshvan,1,Yes,Noun,Shop / Store / Market stall,,,LX-DR1-0021,eshvan-s1
 noraen,1,Yes,Verb,To guide / To lead through time or experience / To instruct,,,LX-DR1-0022,noraen-s1
 thalesh,1,Yes,Noun,Ritual / Sacred balance ceremony,,,LX-DR1-0023,thalesh-s1
 thalesh,2,Yes,Verb,To perform a balance rite,,,LX-DR1-0023,thalesh-s2
-thalor,1,Yes,Noun,Outside / Exterior / Outer place,,,LX-DR1-0024,thalor-s1
-thalor,2,Yes,Adverb,Outside,,,LX-DR1-0024,thalor-s2
+thalor,1,Yes,Noun,Exterior / outer place,,,LX-DR1-0024,thalor-s1
+thalor,2,Yes,Adverb,Outside; not within something,,,LX-DR1-0024,thalor-s2
 daraen,1,Yes,Verb,To wait / To pause / To remain pending,,,LX-DR1-0025,daraen-s1
 varral,1,Yes,Noun,Traveler / Wanderer / Person on a journey,,,LX-DR1-0026,varral-s1
 karjor,1,Yes,Noun,Impact / Mechanical surge / Strike force / Burst of energy,,,LX-DR1-0027,karjor-s1
@@ -1639,7 +1629,7 @@ fen-,1,Yes,Prefix,Tens of thousands prefix,Original root/morpheme entry preserve
 hek-mel-,1,Yes,Prefix,Hundreds of thousands construction,Original root/morpheme entry preserved.,,DM-RM-V3-0018,hek-mel--s1
 ven,1,Yes,Particle,Subtraction marker meaning minus/subtract,Corrected to match the actual subtraction pattern used elsewhere in the canon data.,,DM-RM-V3-0019,ven-s1
 -eth,1,Yes,Suffix,"Adjectival quality suffix: -like, -ful; marks a root's inherent quality or essential manifestation","Common adjectival examples: Shal -> Shaleth, Wor -> Woreth, Gorm -> Gormeth, Kal -> Kaleth.",,DM-RM-V4-0001,-eth-s1
--eth,2,Yes,Suffix,Elevated or ritual noun suffix: sacred act or ritual of a root,"Ritual examples: Khum + -eth -> Khumeth; Shal'taleth; Aen'Moreth.",,DM-RM-V4-0001,-eth-s2
+-eth,2,Yes,Suffix,Elevated or ritual noun suffix: sacred act or ritual of a root,Ritual examples: Khum + -eth -> Khumeth; Shal'taleth; Aen'Moreth.,,DM-RM-V4-0001,-eth-s2
 vael,1,Yes,Particle,Subjunctive mood: wishes/hypotheticals,Original root/morpheme entry preserved.,,DM-RM-V4-0002,vael-s1
 nor-ka,1,Yes,Particle,passive voice echo particle,Original root/morpheme entry preserved.,,DM-RM-V4-0003,nor-ka-s1
 nor-ka,2,Yes,Particle,Now / In this moment / At present,,,DM-RM-V4-0003,nor-ka-s2

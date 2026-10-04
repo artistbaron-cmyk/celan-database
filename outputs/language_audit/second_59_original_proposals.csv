@@ -1,0 +1,60 @@
+sense_id,celan,english,kind,status
+-en-s2,lorin Liorinen aelin.,The honored elder guides the pupil.,construction,proposed_meaning_overlap
+-en-s3,ohmaen Ya kalvok-en.,You love your bonded partner.,construction,existing_sentence
+-lin-s1,shalaen I eshlin.,I see a bird.,construction,proposed_partial_suffix_range
+-aen-s1,drenaen I dren.,I drink water.,construction,proposed
+ver--s1,ver var I an dren.,I do not go to the water.,construction,approved_grammar_pattern
+li--s1,var Li-Ya an dren.,You respectfully go to the water.,construction,proposed_respect_form
+li--s2,var Li-Ya an dren.,You respectfully go to the water.,construction,proposed_meaning_overlap
+-esh-s1,rinaen thalesh an shalor.,The sacred balance ceremony is at the sanctuary.,construction,proposed_partial_suffix_range
+-el-s1,rinaen Ohmbaen-el an shalor.,Their beloved is at the sanctuary.,construction,proposed_from_approved_formed_word
+ten--s1,Rinaen I Ten-del tharvinwek kaveth.,I am 20 years old.,construction,existing_sentence
+hek--s1,Rinaen kaleth Hek-unar shar thalor.,The fortress is 100 strides outside.,construction,existing_sentence
+mel--s1,rinaen Mel-unar welrinin an Varthas.,There are 1000 citizens in the city.,construction,proposed_approved_number_form
+fen--s1,rinaen Fen-unar welrinin an Varthas.,There are 10000 citizens in the city.,construction,proposed_approved_number_form
+hek-mel--s1,rinaen Hek-Mel-unar welrinin an Varthas.,There are 100000 citizens in the city.,construction,proposed_approved_number_form
+-eth-s1,rinaen krezor feneth.,The hearth is hot.,construction,existing_sentence
+-eth-s2,rinaen shal'taleth an shalor.,The light-offering ritual is at the sanctuary.,construction,proposed_approved_ritual_form
+shal--s1,shalaen I eshlin.,I see a bird.,construction,proposed
+krez--s1,krezdrenaen I dren.,I boil the water.,construction,proposed
+dren--s1,drenaen I dren.,I drink water.,construction,proposed
+morl--s1,rinaen kaleth thal kalmorl.,The fortress is made from granite.,construction,existing_sentence
+esh--s1,eshvaraen eshlin esh verdor.,The bird flies above the forest.,construction,proposed
+terra- / terra--s1,moraen I an terra.,I stand on the ground.,construction,existing_sentence_lowercase_sense_only
+lian--s1,aen I lian.,I speak truth.,construction,proposed
+thal--s1,tal theon thal an Ilin.,The neutral person gives balance to us.,construction,existing_sentence
+reth- / rethvok--s1,fahaen I rethvok.,I fear chaos.,construction,existing_sentence_rethvok_half_only
+rin--s1,lorin rin thar-ian.,Essence guides my heart.,construction,existing_sentence_poetic
+bel--s1,belmekaen I zhirvok.,I fasten the belt.,construction,existing_sentence
+kal--s1,rinaen kalmek kaleth.,The machine is powerful.,construction,existing_sentence
+shara--s1,var I an shara.,I go on the path.,construction,existing_sentence
+thar--s1,rinaen aiv an thar-ian.,There is pain in my heart.,construction,proposed_approved_body_pattern
+var--s1,var I an dren.,I go to the water.,construction,approved_grammar_sentence
+aen--s1,aen I lian.,I speak truth.,construction,proposed
+pralaen--s1,pralaen I krezor.,I make a hearth.,construction,existing_sentence
+vok--s1,rinaen vok an belvok.,There is unity in the family.,construction,existing_sentence
+ser--s1,var ser an dren.,The friend goes to the water.,construction,proposed
+rath--s1,arth Ilin vok thal rath.,We protect the bond from the enemy.,construction,proposed
+zhir--s1,korinaen I zhirin.,I hold the cord.,construction,existing_sentence
+kel--s1,aen zhirkelral zhirkel.,The storyteller tells a story.,construction,existing_sentence
+zharrel-s1,gavaen zharrel an verdor.,The Zharrel hunts in the forest.,ordinary,user_proposed_reviewed
+tharnspinners-s1,pralaen tharnspinners selzhir an xarmorl.,The Tharnspinner makes silk in the cave.,ordinary,user_approved_singular_species_name
+veilgliders-s1,shalil veilgliders esh verdor.,The Veilglider glides above the forest.,ordinary,user_approved_singular_species_name
+velshen-s1,kesbrenaen velshen morlzhir an verdor.,The Velshen forages for roots in the forest.,ordinary,user_proposed_reviewed
+shavrek-s1,kesbrenaen shavrek an pelmorl.,The Shavrek forages on the cliff.,ordinary,user_proposed_reviewed
+mossquill-s1,var mossquill an zhaelin.,The Mossquill goes to the flower.,ordinary,reviewed_revision
+rynarth-s1,gavaen rynarth an felmorl.,The Rynarth hunts on the hill.,ordinary,user_proposed_reviewed
+vroshan-s1,kesbrenaen vroshan emil an mor.,The Vroshan forages for food on the ground.,ordinary,reviewed_revision
+brinnek-s1,wekvaraen brinnek shan selmor.,The Brinnek migrates across the plain.,ordinary,user_proposed_reviewed
+thravic-s1,dar thravic an veth.,The Thravic waits in the shadow.,ordinary,user_proposed_reviewed
+fennlur-s1,var fennlur joreth an felmorl.,The Fennlur moves quickly on the hill.,ordinary,reviewed_translation
+vexflit-s1,eshvaraen vexflit nor zhaelor.,The Vexflit flies in spring.,ordinary,reviewed_time_marker
+grivol-s1,kesbrenaen grivol balvek an sov.,The Grivol gathers seeds in the field.,ordinary,user_proposed_reviewed
+rethal-s1,gavaen rethal an drenfel.,The Rethal hunts in the stream.,ordinary,user_proposed_reviewed
+lumora-s1,shalaen I lumora an mahr.,I see the Lumora in the ocean.,ordinary,user_proposed_reviewed
+thryssal-s1,kesbrenaen thryssal an drenverd.,The Thryssal forages in the wetland.,ordinary,reviewed_translation
+braskal-s1,kesbrenaen braskal mahrfennil an terramahr.,The Braskal forages for seaweed on the coast.,ordinary,reviewed_translation
+selkari-s1,arth selkari mahr.,The Selkari protects the ocean.,ordinary,user_proposed_reviewed
+zhenlor-s1,aen Ilin Zhenlor-ka zhirkel.,We tell Zhenlor's story.,ordinary,reviewed_revision
+zharak-s1,arth Zharak kaleth.,Zharak protects the fortress.,ordinary,user_proposed_reviewed
+lorynth-s1,tha-lorin Lorynth sharavok.,Lorynth guided caravans.,ordinary,reviewed_past_marker

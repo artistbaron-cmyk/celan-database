@@ -47,8 +47,7 @@
       }
     ],
     "familySenseIds": [
-      "ilin-s1",
-      "ilin-s2"
+      "ilin-s1"
     ]
   },
   "ya": {
@@ -1722,7 +1721,6 @@
       }
     ],
     "familySenseIds": [
-      "an-s1",
       "an-s2"
     ]
   },
@@ -3157,8 +3155,7 @@
       }
     ],
     "familySenseIds": [
-      "shal-s1",
-      "shal-s2"
+      "shal-s1"
     ]
   },
   "krez": {
@@ -7103,12 +7100,10 @@
       }
     ],
     "morphologySenseIds": [
-      "morldren-s1",
-      "morldren-s2"
+      "morldren-s1"
     ],
     "familySenseIds": [
-      "morldren-s1",
-      "morldren-s2"
+      "morldren-s1"
     ]
   },
   "verdor": {
@@ -16611,12 +16606,10 @@
       }
     ],
     "morphologySenseIds": [
-      "xarvel-s1",
-      "xarvel-s2"
+      "xarvel-s1"
     ],
     "familySenseIds": [
-      "xarvel-s1",
-      "xarvel-s2"
+      "xarvel-s1"
     ]
   },
   "ohmbaen": {

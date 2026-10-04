@@ -55,8 +55,8 @@ Thaal,Particle,Superlative marker: most,thaal-s2,0,2
 Lian,Noun,Truth / Honesty,lian-s1,0,2
 Lian,Verb,Pray,lian-s2,0,2
 Lian,Modal,Can / Able to,lian-s3,0,2
-Lumor,Noun,Light (enlightenment or insight),lumor-s1,0,2
-Lumor,Noun,Talisman,lumor-s2,0,2
+Lumor,Noun,Light (enlightenment or insight),lumor-s1,1,1
+Lumor,Noun,Talisman,lumor-s2,1,1
 Aen,Verb,Speak / Tell / Breathe,aen-s1,0,2
 Aen,Conjunction,That,aen-s2,0,2
 Aen,Suffix,-aen (verb-forming),aen-s3,0,2
@@ -69,7 +69,7 @@ Kalor,Noun,Courage / Strength of Spirit,kalor-s1,0,2
 Kalor,Noun,Strength (of the mind or spirit),kalor-s2,0,2
 Seren,Noun,Guardian / Protector,seren-s1,0,2
 Seren,Noun,Guardian/Protector,seren-s2,0,2
-Arthen,Noun,Destiny / Purpose,arthen-s1,0,2
+Arthen,Noun,Destiny / Purpose,arthen-s1,1,1
 Vaar,Noun,Peace / Unity,vaar-s1,0,2
 Vaar,Adjective,Good,vaar-s2,0,2
 Vaar,Interjection,Relief / Phew,vaar-s3,0,2
@@ -346,7 +346,7 @@ Pral,Verb,Make,pral-s2,0,2
 Pral,Noun,Intricacy / Detail,pral-s3,0,2
 Vok,Noun,Unity / Bond,vok-s1,0,2
 Vok,Verb,Betray,vok-s2,0,2
-Eth,Noun,Essence / inherent quality,eth-s3,0,2
+Eth,Noun,Essence / inherent quality,eth-s3,1,1
 Shan,Verb,Passing; transfer; handoff between states,shan-s1,0,2
 Shan,Preposition,Through or across from one side or boundary to another,shan-s2,0,2
 Lianrethshen,Measure,An anomaly reading; a measured value describing the intensity or instability of a reality anomaly,lianrethshen-s1,0,2
@@ -380,7 +380,7 @@ Em,Particle,Conversational hesitation / Thinking particle,em-s2,0,2
 Vrak,Adjective,Gone / Missing / Depleted / Dry (Trerran dialect),vrak-s1,0,2
 Vrak,Particle,Gone / Missing / Depleted (Trerran dialect),vrak-s2,0,2
 Aelin,Noun,Youth / Young person / Student / Pupil,aelin-s1,1,1
-Im,Noun,Device / Instrument / Implement / Internal mechanism,im-s1,0,2
+Im,Noun,Device / Instrument / Implement / Internal mechanism,im-s1,1,1
 Dreshal,Noun,Crystal device / Crystal implement,dreshal-s1,1,1
 Noraen,Verb,To guide / To lead through time or experience / To instruct,noraen-s1,1,1
 Thalesh,Noun,Ritual / Sacred balance ceremony,thalesh-s1,0,2
@@ -409,10 +409,10 @@ Xar,Verb,To cover / To shelter / To close off,xar-s2,0,2
 Mb,Noun,Support; pillar; foundational weight,mb-s1,0,2
 Rek,Noun,Peak intensity; burning or heated state,rek-s1,0,2
 Thaen,Noun,Spirit-breath; still internal seasonality,thaen-s1,0,2
-Elor,Noun,Growth; upward alignment; unfolding maturity,elor-s1,0,2
+Elor,Noun,Growth; upward alignment; unfolding maturity,elor-s1,1,1
 Vek,Noun,Carrier; vessel; transported charge or substance,vek-s1,1,1
 Livar,Noun,Preservation; salt-fixing; anti-decay,livar-s1,0,2
-Marin,Noun,Branch; extension; outward-growing limb,marin-s1,0,2
+Marin,Noun,Branch; extension; outward-growing limb,marin-s1,1,1
 Alor,Verb,Falling; descent; downward motion,alor-s1,1,1
 Arshor,Noun,Enveloping presence; atmospheric blanket,arshor-s1,1,1
 Tarin,Noun,Dried sweetness; sun-preserved fruit,tarin-s1,0,2
@@ -484,25 +484,25 @@ Rath-,Noun,"Enemy, foe, adversary; also conditional particle if.",rath--s1,0,2
 Zhir-,Noun,"Thread, line, cord; connection through time, lineage, history, cause-effect, fate.",zhir--s1,0,2
 Kel-,Verb,"To say, speak, name; definition and ordering through language.",kel--s1,0,2
 Harven,Noun,Pack Beast,harven-s1,1,1
-Zharrel,Noun,Forest Predator,zharrel-s1,0,2
-Tharnspinners,Noun,Arachnid,tharnspinners-s1,0,2
-Veilgliders,Noun,Gliding Insectivore,veilgliders-s1,0,2
+Zharrel,Noun,Forest Predator,zharrel-s1,1,1
+Tharnspinners,Noun,Arachnid,tharnspinners-s1,1,1
+Veilgliders,Noun,Gliding Insectivore,veilgliders-s1,1,1
 Tharokh,Noun,Endurance Mount,tharokh-s1,1,1
-Velshen,Noun,Burrowing Creature,velshen-s1,0,2
-Shavrek,Noun,Cliff Forager,shavrek-s1,0,2
-Mossquill,Noun,Pollinator,mossquill-s1,0,2
-Rynarth,Noun,Fox-like Predator,rynarth-s1,0,2
-Vroshan,Noun,Scavenger,vroshan-s1,0,2
-Brinnek,Noun,Migratory Grazer,brinnek-s1,0,2
-Thravic,Noun,Ambush Predator,thravic-s1,0,2
-Fennlur,Noun,Pack Runner,fennlur-s1,0,2
-Vexflit,Noun,Pollinator Bird,vexflit-s1,0,2
-Grivol,Noun,Burrowing Rodent,grivol-s1,0,2
-Rethal,Noun,River Predator,rethal-s1,0,2
-Lumora,Noun,Schooling Fish,lumora-s1,0,2
-Thryssal,Noun,Swamp Scavenger,thryssal-s1,0,2
-Braskal,Noun,Coastal Herbivore,braskal-s1,0,2
-Selkari,Noun,Ocean Guardian,selkari-s1,0,2
-Zhenlor,Noun,Legendary Figure,zhenlor-s1,0,2
-Zharak,Noun,Legendary Figure,zharak-s1,0,2
-Lorynth,Noun,Legendary Figure,lorynth-s1,0,2
+Velshen,Noun,Burrowing Creature,velshen-s1,1,1
+Shavrek,Noun,Cliff Forager,shavrek-s1,1,1
+Mossquill,Noun,Pollinator,mossquill-s1,1,1
+Rynarth,Noun,Fox-like Predator,rynarth-s1,1,1
+Vroshan,Noun,Scavenger,vroshan-s1,1,1
+Brinnek,Noun,Migratory Grazer,brinnek-s1,1,1
+Thravic,Noun,Ambush Predator,thravic-s1,1,1
+Fennlur,Noun,Pack Runner,fennlur-s1,1,1
+Vexflit,Noun,Pollinator Bird,vexflit-s1,1,1
+Grivol,Noun,Burrowing Rodent,grivol-s1,1,1
+Rethal,Noun,River Predator,rethal-s1,1,1
+Lumora,Noun,Schooling Fish,lumora-s1,1,1
+Thryssal,Noun,Swamp Scavenger,thryssal-s1,1,1
+Braskal,Noun,Coastal Herbivore,braskal-s1,1,1
+Selkari,Noun,Ocean Guardian,selkari-s1,1,1
+Zhenlor,Noun,Legendary Figure,zhenlor-s1,1,1
+Zharak,Noun,Legendary Figure,zharak-s1,1,1
+Lorynth,Noun,Legendary Figure,lorynth-s1,1,1

@@ -1,6 +1,6 @@
 # First 109-row example review — 2026-10-03 snapshot
 
-Items 1–50 have now been reviewed and placed in the app. Item 50 is a general illustration because its two honorific meanings overlap. Items 8 and 9 moved from the old Eth suffix rows to the two -eth meanings. Standalone Eth also received a separate approved sentence. The other rows remain drafts. A word-building illustration shows a formed word rather than using a root or ending by itself. See [the review notes](one_sentence_109_review.md).
+All 109 reviewed items now have a visible app placement. Items 8 and 9 moved from the old Eth suffix rows to the two -eth meanings, and standalone Eth has its own sentence. Repeated or partial constructions appear once as general illustrations where they cannot distinguish overlapping meanings. A word-building illustration shows a formed word rather than using a root or ending by itself. See [the review notes](one_sentence_109_review.md).
 
 ## Meanings 1–10
 
@@ -110,134 +110,134 @@ Items 1–50 have now been reviewed and placed in the app. Item 50 is a general 
 
 49. **-or — Place/Location** (Word-building illustration): `rinaen krezor feneth.` — “The hearth is hot.” **Approved and placed.**
 
-50. **-en — Honorific/Formal-High Respect** (Word-building illustration): `lorin Liorinen aelin.` — “The honored elder guides the pupil.” **Approved as a general illustration; exact sense remains open.**
+50. **-en — Honorific/Formal-High Respect** (Word-building illustration): `lorin Liorinen aelin.` — “The honored elder guides the pupil.” **Approved as a general illustration; scope is explained in the review notes.**
 
 ## Meanings 51–60
 
-51. **-en — Honorific/Respected form** (Word-building illustration): `lorin Liorinen aelin.` — “The honored elder guides the pupil.”
+51. **-en — Honorific/Respected form** (Word-building illustration): `lorin Liorinen aelin.` — “The honored elder guides the pupil.” **Approved as a general illustration; scope is explained in the review notes.**
 
-52. **-en — Partner bonded to you** (Word-building illustration): `ohmaen Ya kalvok-en.` — “You love your bonded partner.”
+52. **-en — Partner bonded to you** (Word-building illustration): `ohmaen Ya kalvok-en.` — “You love your bonded partner.” **Approved and placed.**
 
-53. **-lin — Collective/Diminutive** (Word-building illustration): `shalaen I eshlin.` — “I see a bird.”
+53. **-lin — Collective/Diminutive** (Word-building illustration): `shalaen I eshlin.` — “I see a bird.” **Approved as a general illustration; scope is explained in the review notes.**
 
-54. **-aen — Verb-forming** (Word-building illustration): `drenaen I dren.` — “I drink water.”
+54. **-aen — Verb-forming** (Word-building illustration): `drenaen I dren.` — “I drink water.” **Approved and placed.**
 
 55. **Ver- — Negation** (Word-building illustration): `ver var I an dren.` — “I do not go to the water.” **Approved and placed.**
 
-56. **Li- — Respect/Honorific** (Word-building illustration): `var Li-Ya an dren.` — “You respectfully go to the water.”
+56. **Li- — Respect/Honorific** (Word-building illustration): `var Li-Ya an dren.` — “You respectfully go to the water.” **Approved as a general illustration; scope is explained in the review notes.**
 
-57. **Li- — show respect** (Word-building illustration): `var Li-Ya an dren.` — “You respectfully go to the water.”
+57. **Li- — show respect** (Word-building illustration): `var Li-Ya an dren.` — “You respectfully go to the water.” **Approved as a general illustration; scope is explained in the review notes.**
 
-58. **-esh — deep relational ties** (Word-building illustration): `rinaen thalesh an shalor.` — “The sacred balance ceremony is at the sanctuary.”
+58. **-esh — deep relational ties** (Word-building illustration): `rinaen thalesh an shalor.` — “The sacred balance ceremony is at the sanctuary.” **Approved as a general illustration; scope is explained in the review notes.**
 
-59. **-el — Affectionate suffix marking a beloved bond or endearment** (Word-building illustration): `rinaen Ohmbaen-el an shalor.` — “Their beloved is at the sanctuary.”
+59. **-el — Affectionate suffix marking a beloved bond or endearment** (Word-building illustration): `rinaen Ohmbaen-el an shalor.` — “The beloved is at the sanctuary.” **Approved and placed.**
 
-60. **Ten- — Tens prefix** (Word-building illustration): `Rinaen I Ten-del tharvinwek kaveth.` — “I am 20 years old.”
+60. **Ten- — Tens prefix** (Word-building illustration): `rinaen I Ten-del tharvinwek kaveth.` — “I am 20 years old.” **Approved and placed.**
 
 ## Meanings 61–70
 
-61. **Hek- — Hundreds prefix** (Word-building illustration): `Rinaen kaleth Hek-unar shar thalor.` — “The fortress is 100 strides outside.”
+61. **Hek- — Hundreds prefix** (Word-building illustration): `rinaen kaleth Hek-unar shar thalor.` — “The fortress is 100 strides outside.” **Approved and placed.**
 
-62. **Mel- — Thousands prefix** (Word-building illustration): `rinaen Mel-unar welrinin an Varthas.` — “There are 1000 citizens in the city.”
+62. **Mel- — Thousands prefix** (Word-building illustration): `rinaen Mel-unar welrinin an Varthas.` — “There are 1000 citizens in the city.” **Approved and placed.**
 
-63. **Fen- — Tens of thousands prefix** (Word-building illustration): `rinaen Fen-unar welrinin an Varthas.` — “There are 10000 citizens in the city.”
+63. **Fen- — Tens of thousands prefix** (Word-building illustration): `rinaen Fen-unar welrinin an Varthas.` — “There are 10000 citizens in the city.” **Approved and placed.**
 
-64. **Hek-Mel- — Hundreds of thousands construction** (Word-building illustration): `rinaen Hek-Mel-unar welrinin an Varthas.` — “There are 100000 citizens in the city.”
+64. **Hek-Mel- — Hundreds of thousands construction** (Word-building illustration): `rinaen Hek-Mel-unar welrinin an Varthas.` — “There are 100000 citizens in the city.” **Approved and placed.**
 
-65. **-eth — Adjectival quality suffix: -like, -ful; marks a root's inherent quality or essential manifestation** (Word-building illustration): `rinaen krezor feneth.` — “The hearth is hot.”
+65. **-eth — Adjectival quality suffix: -like, -ful; marks a root's inherent quality or essential manifestation** (Word-building illustration): `rinaen krezor feneth.` — “The hearth is hot.” **Approved and placed.**
 
-66. **-eth — Elevated or ritual noun suffix: sacred act or ritual of a root** (Word-building illustration): `rinaen shal'taleth an shalor.` — “The light-offering ritual is at the sanctuary.”
+66. **-eth — Elevated or ritual noun suffix: sacred act or ritual of a root** (Word-building illustration): `rinaen shal'taleth an shalor.` — “The light-offering ritual is at the sanctuary.” **Approved and placed.**
 
-67. **Shal- — Light, glow, brightness; hope, truth, creation, clarity, revelation, wisdom, life, beginnings.** (Word-building illustration): `shalaen I eshlin.` — “I see a bird.”
+67. **Shal- — Light, glow, brightness; hope, truth, creation, clarity, revelation, wisdom, life, beginnings.** (Word-building illustration): `shalaen I eshlin.` — “I see a bird.” **Approved and placed.**
 
-68. **Krez- — Fire, heat, energy; passion, creation, strength, life-force, warmth, resilience, purification.** (Word-building illustration): `krezdrenaen I dren.` — “I boil the water.”
+68. **Krez- — Fire, heat, energy; passion, creation, strength, life-force, warmth, resilience, purification.** (Word-building illustration): `krezdrenaen I dren.` — “I boil the water.” **Approved and placed.**
 
-69. **Dren- — Water, liquid, fluid; life, flow, change, healing, emotion, intuition, cleansing, adaptation.** (Word-building illustration): `drenaen I dren.` — “I drink water.”
+69. **Dren- — Water, liquid, fluid; life, flow, change, healing, emotion, intuition, cleansing, adaptation.** (Word-building illustration): `drenaen I dren.` — “I drink water.” **Approved and placed.**
 
-70. **Morl- — Stone, rock, mountain; endurance, history, stubbornness, strength, foundation, stability, defense.** (Word-building illustration): `rinaen kaleth thal kalmorl.` — “The fortress is made from granite.”
+70. **Morl- — Stone, rock, mountain; endurance, history, stubbornness, strength, foundation, stability, defense.** (Word-building illustration): `rinaen kaleth thal kalmorl.` — “The fortress is made from granite.” **Approved and placed.**
 
 ## Meanings 71–80
 
-71. **Esh- — Sky, air, wind; freedom, thought, divine, intellect, perspective, beginnings.** (Word-building illustration): `eshvaraen eshlin esh verdor.` — “The bird flies above the forest.”
+71. **Esh- — Sky, air, wind; freedom, thought, divine, intellect, perspective, beginnings.** (Word-building illustration): `eshvaraen eshlin esh verdor.` — “The bird flies above the forest.” **Approved and placed.**
 
-72. **terra- / Terra- — Earth, ground, soil, land; lowercase terra is mundane physical ground; capitalized Terra is the world as living spiritual entity.** (Word-building illustration): `moraen I an terra.` — “I stand on the ground.”
+72. **terra- / Terra- — Earth, ground, soil, land; lowercase terra is mundane physical ground; capitalized Terra is the world as living spiritual entity.** (Word-building illustration): `moraen I an terra.` — “I stand on the ground.” **Approved and placed.**
 
-73. **Lian- — Truth, honesty; reality, natural law, essence, logic, clarity, correctness.** (Word-building illustration): `aen I lian.` — “I speak truth.”
+73. **Lian- — Truth, honesty; reality, natural law, essence, logic, clarity, correctness.** (Word-building illustration): `aen I lian.` — “I speak truth.” **Approved and placed.**
 
-74. **Thal- — Balance, harmony, equilibrium; also preposition meaning From / Out of.** (Word-building illustration): `tal theon thal an Ilin.` — “The neutral person gives balance to us.”
+74. **Thal- — Balance, harmony, equilibrium; also preposition meaning From / Out of.** (Word-building illustration): `tal theon thal an Ilin.` — “The neutral person gives balance to us.” **Approved and placed.**
 
-75. **Reth- / Rethvok- — Reth: uncertainty, confusion, doubt, a question, or. Rethvok: chaos, disorder, un-ordered state.** (Word-building illustration): `fahaen I rethvok.` — “I fear chaos.”
+75. **Reth- / Rethvok- — Reth: uncertainty, confusion, doubt, a question, or. Rethvok: chaos, disorder, un-ordered state.** (Word-building illustration): `fahaen I rethvok.` — “I fear chaos.” **Approved and placed.**
 
-76. **Rin- — Essence, core nature, spirit, intrinsic quality.** (Word-building illustration): `lorin rin thar-ian.` — “Essence guides my heart.”
+76. **Rin- — Essence, core nature, spirit, intrinsic quality.** (Word-building illustration): `lorin rin thar-ian.` — “Essence guides my heart.” **Approved and placed.**
 
-77. **Bel- — To bind, weave, connect, fasten; civilization, bonds, restrictions, systems.** (Word-building illustration): `belmekaen I zhirvok.` — “I fasten the belt.”
+77. **Bel- — To bind, weave, connect, fasten; civilization, bonds, restrictions, systems.** (Word-building illustration): `belmekaen I zhirvok.` — “I fasten the belt.” **Approved and placed.**
 
-78. **Kal- — Strength, power, force; neutral force whose virtue depends on use.** (Word-building illustration): `rinaen kalmek kaleth.` — “The machine is powerful.”
+78. **Kal- — Strength, power, force; neutral force whose virtue depends on use.** (Word-building illustration): `rinaen kalmek kaleth.` — “The machine is powerful.” **Approved and placed.**
 
-79. **Shara- — A path, a road, a journey; life path, strategy, decision path.** (Word-building illustration): `var I an shara.` — “I go on the path.”
+79. **Shara- — A path, a road, a journey; life path, strategy, decision path.** (Word-building illustration): `var I an shara.` — “I go on the path.” **Approved and placed.**
 
-80. **Thar- — The physical heart; source of emotion, will, and true inner self.** (Word-building illustration): `rinaen aiv an thar-ian.` — “There is pain in my heart.”
+80. **Thar- — The physical heart; source of emotion, will, and true inner self.** (Word-building illustration): `rinaen aiv an thar-ian.` — “There is pain in my heart.” **Approved and placed.**
 
 ## Meanings 81–90
 
 81. **Var- — To go, move, travel; also preposition to/towards; action and existence.** (Word-building illustration): `var I an dren.` — “I go to the water.” **Approved and placed.**
 
-82. **Aen- — To speak, breathe, make a sound; also complementizer that.** (Word-building illustration): `aen I lian.` — “I speak truth.”
+82. **Aen- — To speak, breathe, make a sound; also complementizer that.** (Word-building illustration): `aen I lian.` — “I speak truth.” **Approved and placed.**
 
-83. **Pralaen- — To make, craft, shape with care; skill, purpose, imposing order.** (Word-building illustration): `pralaen I krezor.` — “I make a hearth.”
+83. **Pralaen- — To make, craft, shape with care; skill, purpose, imposing order.** (Word-building illustration): `pralaen I krezor.` — “I make a hearth.” **Approved and placed.**
 
-84. **Vok- — Duality of breaking a bond and forming a unity; noun Vok means unity; verb vokaen breaks unity.** (Word-building illustration): `rinaen vok an belvok.` — “There is unity in the family.”
+84. **Vok- — Duality of breaking a bond and forming a unity; noun Vok means unity; verb vokaen breaks unity.** (Word-building illustration): `rinaen vok an belvok.` — “There is unity in the family.” **Approved and placed.**
 
-85. **Ser- — Friend, ally; also with and and.** (Word-building illustration): `var ser an dren.` — “The friend goes to the water.”
+85. **Ser- — Friend, ally; also with and and.** (Word-building illustration): `var ser an dren.` — “The friend goes to the water.” **Approved and placed.**
 
-86. **Rath- — Enemy, foe, adversary; also conditional particle if.** (Word-building illustration): `arth Ilin vok thal rath.` — “We protect the bond from the enemy.”
+86. **Rath- — Enemy, foe, adversary; also conditional particle if.** (Word-building illustration): `arth Ilin vok thal rath.` — “We protect the bond from the enemy.” **Approved and placed.**
 
-87. **Zhir- — Thread, line, cord; connection through time, lineage, history, cause-effect, fate.** (Word-building illustration): `korinaen I zhirin.` — “I hold the cord.”
+87. **Zhir- — Thread, line, cord; connection through time, lineage, history, cause-effect, fate.** (Word-building illustration): `korinaen I zhirin.` — “I hold the cord.” **Approved and placed.**
 
-88. **Kel- — To say, speak, name; definition and ordering through language.** (Word-building illustration): `aen zhirkelral zhirkel.` — “The storyteller tells a story.”
+88. **Kel- — To say, speak, name; definition and ordering through language.** (Word-building illustration): `aen zhirkelral zhirkel.` — “The storyteller tells a story.” **Approved and placed.**
 
-89. **Zharrel — Forest Predator** (Ordinary sentence): `gavaen zharrel an verdor.` — “The Zharrel hunts in the forest.”
+89. **Zharrel — Forest Predator** (Ordinary sentence): `gavaen zharrel an verdor.` — “The Zharrel hunts in the forest.” **Approved and placed.**
 
-90. **Tharnspinners — Arachnid** (Ordinary sentence): `pralaen tharnspinners selzhir an xarmorl.` — “The Tharnspinner makes silk in the cave.”
+90. **Tharnspinners — Arachnid** (Ordinary sentence): `pralaen tharnspinners selzhir an xarmorl.` — “The Tharnspinner makes silk in the cave.” **Approved and placed.**
 
 ## Meanings 91–100
 
-91. **Veilgliders — Gliding Insectivore** (Ordinary sentence): `shalil veilgliders esh verdor.` — “The Veilglider glides above the forest.”
+91. **Veilgliders — Gliding Insectivore** (Ordinary sentence): `shalil veilgliders esh verdor.` — “The Veilglider glides above the forest.” **Approved and placed.**
 
-92. **Velshen — Burrowing Creature** (Ordinary sentence): `kesbrenaen velshen morlzhir an verdor.` — “The Velshen forages for roots in the forest.”
+92. **Velshen — Burrowing Creature** (Ordinary sentence): `kesbrenaen velshen morlzhir an verdor.` — “The Velshen forages for roots in the forest.” **Approved and placed.**
 
-93. **Shavrek — Cliff Forager** (Ordinary sentence): `kesbrenaen shavrek an pelmorl.` — “The Shavrek forages on the cliff.”
+93. **Shavrek — Cliff Forager** (Ordinary sentence): `kesbrenaen shavrek an pelmorl.` — “The Shavrek forages on the cliff.” **Approved and placed.**
 
-94. **Mossquill — Pollinator** (Ordinary sentence): `var mossquill an zhaelin.` — “The Mossquill goes to the flower.”
+94. **Mossquill — Pollinator** (Ordinary sentence): `var mossquill an zhaelin.` — “The Mossquill goes to the flower.” **Approved and placed.**
 
-95. **Rynarth — Fox-like Predator** (Ordinary sentence): `gavaen rynarth an felmorl.` — “The Rynarth hunts on the hill.”
+95. **Rynarth — Fox-like Predator** (Ordinary sentence): `gavaen rynarth an felmorl.` — “The Rynarth hunts on the hill.” **Approved and placed.**
 
-96. **Vroshan — Scavenger** (Ordinary sentence): `kesbrenaen vroshan emil an mor.` — “The Vroshan forages for food on the ground.”
+96. **Vroshan — Scavenger** (Ordinary sentence): `kesbrenaen vroshan emil an mor.` — “The Vroshan forages for food on the ground.” **Approved and placed.**
 
-97. **Brinnek — Migratory Grazer** (Ordinary sentence): `wekvaraen brinnek shan selmor.` — “The Brinnek migrates across the plain.”
+97. **Brinnek — Migratory Grazer** (Ordinary sentence): `wekvaraen brinnek shan selmor.` — “The Brinnek migrates across the plain.” **Approved and placed.**
 
-98. **Thravic — Ambush Predator** (Ordinary sentence): `dar thravic an veth.` — “The Thravic waits in the shadow.”
+98. **Thravic — Ambush Predator** (Ordinary sentence): `dar thravic an veth.` — “The Thravic waits in the shadow.” **Approved and placed.**
 
-99. **Fennlur — Pack Runner** (Ordinary sentence): `var fennlur joreth an felmorl.` — “The Fennlur moves quickly on the hill.”
+99. **Fennlur — Pack Runner** (Ordinary sentence): `var fennlur joreth an felmorl.` — “The Fennlur moves quickly on the hill.” **Approved and placed.**
 
-100. **Vexflit — Pollinator Bird** (Ordinary sentence): `eshvaraen vexflit nor zhaelor.` — “The Vexflit flies in spring.”
+100. **Vexflit — Pollinator Bird** (Ordinary sentence): `eshvaraen vexflit nor zhaelor.` — “The Vexflit flies in spring.” **Approved and placed.**
 
 ## Meanings 101–109
 
-101. **Grivol — Burrowing Rodent** (Ordinary sentence): `kesbrenaen grivol balvek an sov.` — “The Grivol gathers seeds in the field.”
+101. **Grivol — Burrowing Rodent** (Ordinary sentence): `kesbrenaen grivol balvek an sov.` — “The Grivol gathers seeds in the field.” **Approved and placed.**
 
-102. **Rethal — River Predator** (Ordinary sentence): `gavaen rethal an drenfel.` — “The Rethal hunts in the stream.”
+102. **Rethal — River Predator** (Ordinary sentence): `gavaen rethal an drenfel.` — “The Rethal hunts in the stream.” **Approved and placed.**
 
-103. **Lumora — Schooling Fish** (Ordinary sentence): `shalaen I lumora an mahr.` — “I see the Lumora in the ocean.”
+103. **Lumora — Schooling Fish** (Ordinary sentence): `shalaen I lumora an mahr.` — “I see the Lumora in the ocean.” **Approved and placed.**
 
-104. **Thryssal — Swamp Scavenger** (Ordinary sentence): `kesbrenaen thryssal an drenverd.` — “The Thryssal forages in the wetland.”
+104. **Thryssal — Swamp Scavenger** (Ordinary sentence): `kesbrenaen thryssal an drenverd.` — “The Thryssal forages in the wetland.” **Approved and placed.**
 
-105. **Braskal — Coastal Herbivore** (Ordinary sentence): `kesbrenaen braskal mahrfennil an terramahr.` — “The Braskal forages for seaweed on the coast.”
+105. **Braskal — Coastal Herbivore** (Ordinary sentence): `kesbrenaen braskal mahrfennil an terramahr.` — “The Braskal forages for seaweed on the coast.” **Approved and placed.**
 
-106. **Selkari — Ocean Guardian** (Ordinary sentence): `arth selkari mahr.` — “The Selkari protects the ocean.”
+106. **Selkari — Ocean Guardian** (Ordinary sentence): `arth selkari mahr.` — “The Selkari protects the ocean.” **Approved and placed.**
 
-107. **Zhenlor — Legendary Figure** (Ordinary sentence): `aen Ilin Zhenlor-ka zhirkel.` — “We tell Zhenlor's story.”
+107. **Zhenlor — Legendary Figure** (Ordinary sentence): `aen Ilin Zhenlor-ka zhirkel.` — “We tell Zhenlor's story.” **Approved and placed.**
 
-108. **Zharak — Legendary Figure** (Ordinary sentence): `arth Zharak kaleth.` — “Zharak protects the fortress.”
+108. **Zharak — Legendary Figure** (Ordinary sentence): `arth Zharak kaleth.` — “Zharak protects the fortress.” **Approved and placed.**
 
-109. **Lorynth — Legendary Figure** (Ordinary sentence): `tha-lorin Lorynth sharavok.` — “Lorynth guided caravans.”
+109. **Lorynth — Legendary Figure** (Ordinary sentence): `tha-lorin Lorynth sharavok.` — “Lorynth guided caravans.” **Approved and placed.**

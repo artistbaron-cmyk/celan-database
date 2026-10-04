@@ -1,0 +1,7 @@
+headword_id,sense_order,visible,word_type,meaning,usage_note,root_word,source_entry_ids,sense_id
+shal,2,Yes,Verb,Hope,,,LX-V2-0003; LX-V2-0069; LX-V4-0101; XR-shal,shal-s2
+thar,2,Yes,Modal,Want to,,,LX-V2-0007; LX-V2-0057; LX-V4-0115; XR-thar,thar-s2
+vethor,2,Yes,Verb,Sleep,,,LX-V2-0009; LX-V2-0067; LX-V4-0117,vethor-s2
+shalor,1,Yes,Noun,"Light (discovery, vision, hope)",,,LX-V2-0059,shalor-s1
+shalor,2,Yes,Noun,Light / New Beginnings / Fate,,,LX-V2-0024,shalor-s2
+lian,2,Yes,Verb,Pray,,,LX-V2-0026; LX-V2-0064; LX-V4-0114; XR-lian,lian-s2

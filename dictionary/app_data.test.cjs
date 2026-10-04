@@ -43,8 +43,8 @@ const families=JSON.parse(bundle['dictionary_families.json']);
 const grammar=JSON.parse(bundle['grammar_guide.json']);
 const expressions=JSON.parse(bundle['expressions_app.json']);
 assert.equal(entries.length,1494);
-assert.equal(senses.filter(row=>row.visible==='Yes').length,1603);
-assert.equal(examples.length,9171);
+assert.equal(senses.filter(row=>row.visible==='Yes').length,1593);
+assert.equal(examples.length,9257);
 assert.equal(grammar.rules.length,48);
 assert.equal(expressions.length,107);
 const ids=new Set(entries.map(row=>row.id));
@@ -98,12 +98,68 @@ for(const row of examples){
     assert.equal(visibleById.get(row.sense_id)?.meaning,row.sense_meaning,'example meaning wording differs from its link: '+row.sense_id);
   }
 }
-assert.equal(approvedExampleLinks,28,'reviewed meaning links should remain explicit');
+assert.equal(approvedExampleLinks,183,'reviewed meaning links should remain explicit');
+assert.deepEqual(senses.filter(row=>row.headword_id==='morldren').map(row=>row.meaning),['Waterfall'],'Morldren has one approved meaning');
+assert.deepEqual(senses.filter(row=>row.headword_id==='xarvel').map(row=>row.meaning),['Veiled meal (covered meal)'],'Xarvel has one meaning with both English wordings');
+assert.equal(senses.find(row=>row.sense_id==='thalor-s2')?.meaning,'Outside; not within something');
+assert.ok(!examples.some(row=>row.entry_id==='PE-V3-0027'),'the mountain-waters mismatch must not reach students');
+assert.ok(!JSON.stringify(grammar).toLowerCase().includes('mountain waters'),'the mountain-waters mismatch must not remain in the grammar guide');
+for(const [entryId,senseId] of [['PE-DR2-0012','thalor-s2'],['PE-V4-0085','thalor-s2'],['PE-HTS1-0087','shentalzhael-s2'],['PE-HTS1-0088','shentalzhael-s1']]){
+  assert.equal(examples.find(row=>row.entry_id===entryId&&row.headword_id===senseId.split('-s')[0])?.sense_id,senseId,'wrong reviewed meaning link: '+entryId);
+}
+for(const [headword,entryId,senseId] of [
+  ['ya','PE-V4-0059','ya-s1'],['ya','PE-V4-0074','ya-s2'],
+  ['var','PE-SP2-0002','var-s1'],['var','PE-EGE1-0011','var-s2'],
+  ['ser','PE-V1-0002','ser-s1'],['ser','PE-V1-0011','ser-s2'],
+  ['ser','PE-V4-0082','ser-s3'],['thal','PE-ER2-0013','thal-s1']
+]){
+  assert.equal(examples.find(row=>row.headword_id===headword&&row.entry_id===entryId)?.sense_id,senseId,'approved first-50 meaning link: '+entryId);
+}
+assert.equal(examples.find(row=>row.headword_id==='ilin'&&row.entry_id==='PE-V4-0058')?.sense_id,'ilin-s1','Ilin bread sentence should show the single inclusive pronoun meaning');
+assert.ok(!senses.some(row=>row.sense_id==='ilin-s2'),'duplicate Ilin meaning must be merged');
+assert.ok(!senses.some(row=>row.sense_id==='an-s1'),'duplicate spatial An meaning must be merged');
+assert.equal(senses.find(row=>row.sense_id==='an-s2')?.meaning,'At / in / on (spatial place)');
+for(const [headword,entryId,senseId] of [
+  ['ka','PE-V1-0034','ka-s1'],['ka','PE-ER2-0025','ka-s2'],
+  ['an','PE-V2-0007','an-s2'],['nor','PE-ER2-0026','nor-s1'],
+  ['nor','PE-V2-0007','nor-s2'],['esh','PE-EGE1-0058','esh-s1'],
+  ['esh','PE-V1-0037','esh-s2'],['morl','PE-S4A-0001','morl-s1'],
+  ['morl','PE-ER2-0036','morl-s3']
+]){
+  assert.equal(examples.find(row=>row.headword_id===headword&&row.entry_id===entryId)?.sense_id,senseId,'approved first-50 meaning link: '+entryId);
+}
+assert.ok(!examples.some(row=>row.headword_id==='esh'&&row.sense_id==='esh-s3'),'relational -esh illustration remains on hold');
+for(const senseId of ['shal-s2','thar-s2','vethor-s2','lian-s2','shalor-s1','shalor-s2']){
+  assert.ok(!senses.some(row=>row.sense_id===senseId),'moved or duplicate meaning remains visible: '+senseId);
+}
+for(const [headword,entryId,senseId] of [
+  ['terra','PE-V4-0061','terra-s1'],['terra','PE-ER2-0044','terra-s2'],
+  ['dren','PE-V1-0001','dren-s1'],['shal','PE-V1-0034','shal-s1'],
+  ['shalaen','PE-V3-0057','shalaen-s1'],['krez','PE-CNE1-0051','krez-s1'],
+  ['thar','PE-V3-0076','thar-s1'],['thar-ka','PE-V4-0004','thar-ka-s1'],
+  ['vethor','PE-ER2-0012','vethor-s1'],['vethoraen','PE-V4-0024','vethoraen-s1'],
+  ['shara','PE-ER2-0018','shara-s1'],['shara','PE-EGE1-0052','shara-s2'],
+  ['rathor','PE-V3-0141','rathor-s1'],['rathor','PE-NE1-0063','rathor-s2'],
+  ['shalor','PE-V2-0042','shalor-s3'],['thaal','PE-ER2-0028','thaal-s1'],
+  ['thaal','PE-ER2-0027','thaal-s2'],['lian','PE-V3-0076','lian-s1'],
+  ['lianaen','PE-V2-0042','lianaen-s1'],['aen','PE-DR2-0015','aen-s1'],
+  ['aen','PE-DR2-0006','aen-s2']
+]){
+  assert.equal(examples.find(row=>row.headword_id===headword&&row.entry_id===entryId)?.sense_id,senseId,'approved first-50 meaning link: '+headword+'/'+entryId);
+}
+assert.equal(examples.find(row=>row.headword_id==='thar'&&row.entry_id==='PE-V4-0004')?.section,'related','Thar-ka sentence should not be direct usage of Thar');
+for(const senseId of ['dren-s2','dren-s3','krez-s2','lian-s3','aen-s3','aen-s4']){
+  assert.ok(!examples.some(row=>row.sense_id===senseId),'held meaning received an example: '+senseId);
+}
+assert.equal(examples.filter(row=>row.headword_id==='li-'&&row.celan_text==='var Li-Ya an dren.').length,1,'overlapping Li- meanings should share one general illustration');
+assert.equal(examples.find(row=>row.headword_id==='-el'&&row.celan_text==='rinaen Ohmbaen-el an shalor.')?.translation,'The beloved is at the sanctuary.','-el illustration must not add an unexpressed possessor');
 assert.equal(senses.find(row=>row.sense_id==='eth-s3')?.word_type,'Noun','standalone Eth must be a noun');
+assert.equal(examples.filter(row=>row.headword_id==='eth'&&row.entry_id==='PE-109-ETH-0001'&&row.sense_id==='eth-s3').length,1,'standalone Eth example must appear on its own page');
+assert.ok(!examples.some(row=>row.headword_id==='eth'&&row.section==='related'),'suffix illustrations must not remain on standalone Eth');
 assert.ok(!senses.some(row=>row.sense_id==='eth-s1'||row.sense_id==='eth-s2'),'old duplicate Eth suffix meanings must be retired');
 assert.equal(senses.find(row=>row.sense_id==='-eth-s1')?.word_type,'Suffix','quality -eth must remain a suffix');
 assert.equal(senses.find(row=>row.sense_id==='-eth-s2')?.word_type,'Suffix','ritual -eth must remain a suffix');
-assert.equal(examples.filter(row=>row.entry_id==='PE-ER2-0007'&&row.celan_text.includes('trakorin')).length,5,'counted boots must use the approved plural on every page');
+assert.equal(examples.filter(row=>row.entry_id==='PE-ER2-0007'&&row.celan_text.includes('trakorin')).length,6,'counted boots must use the approved plural on every page');
 assert.ok(!ids.has('tl-') && !ids.has('-vel'),'retired root and suffix must not appear as app headwords');
 assert.equal(senses.find(row=>row.sense_id==='im-s2').visible,'No','unsettled Im particle must be hidden');
 assert.equal(examples.find(row=>row.entry_id==='PE-SET1-0001').sense_id,'-el-s1','approved affectionate form must appear under -el');
@@ -116,7 +172,7 @@ for(const retiredId of ['PE-V1-0015','PE-V1-0012'])assert.ok(!examples.some(row=
 assert.equal(examples.filter(row=>row.entry_id==='PE-V1-0009'&&row.display_kind==='phrase').length,2,'the old beloved boy phrase should appear as a phrase on both pages');
 for(let i=1;i<=12;i++)assert.equal(examples.filter(row=>row.entry_id===`PE-LA1-${String(i).padStart(4,'0')}`&&row.sense_id&&row.display_kind==='sentence').length,1,'missing approved batch 01 sentence '+i);
 const exportRows=parseCsv(fs.readFileSync(path.join(appDir,'exports','dictionary_entries.csv'),'utf8'));
-assert.equal(exportRows.length,1603,'spreadsheet export is missing visible senses');
+assert.equal(exportRows.length,1593,'spreadsheet export is missing visible senses');
 assert.deepEqual(new Set(exportRows.map(row=>row.sense_id)),new Set(senses.filter(row=>row.visible==='Yes').map(row=>row.sense_id)),'export sense IDs differ from visible app meanings');
 const exportedSense=id=>exportRows.find(row=>row.sense_id===id);
 for(const id of ['kadfel-s1','azfel-s1','theefel-s1','kadon-s1','aenvor-s1','sorl-s1','kalvar-s1','sharvar-s1','morlka-s1']){

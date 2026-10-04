@@ -1,7 +1,4 @@
-"""Check the 2026-10-03 review snapshot against today's zero-sentence meanings.
-
-This checks placement and bookkeeping only. It does not certify Celan or English.
-"""
+"""Check reviewed 109-item placements and bookkeeping, not linguistic accuracy."""
 
 import csv
 from collections import Counter
@@ -15,30 +12,31 @@ def read(path):
         return list(csv.DictReader(handle))
 
 
-inventory = read(ROOT / "outputs/language_audit/coverage_inventory.csv")
-entries = read(ROOT / "dictionary/app_data/dictionary_entries.csv")
-examples = read(ROOT / "dictionary/app_data/dictionary_examples.csv")
+app = ROOT / "dictionary/app_data"
 proposals = read(ROOT / "outputs/language_audit/one_sentence_109.csv")
+entries = {row["id"]: row for row in read(app / "dictionary_entries.csv")}
+senses = {row["sense_id"]: row for row in read(app / "dictionary_senses.csv")}
+examples = read(app / "dictionary_examples.csv")
+coverage = read(ROOT / "outputs/language_audit/coverage_inventory.csv")
 
-id_by_name = {row["headword"]: row["id"] for row in entries}
-sentence_counts = Counter(
-    row["headword_id"]
-    for row in examples
-    if row["section"] == "direct" and row["display_kind"] == "sentence"
-)
-expected = {
-    row["sense_id"]
-    for row in inventory
-    if int(row["minimum_shortfall_if_all_candidates_pass"]) > 0
-    and sentence_counts[id_by_name[row["headword"]]] == 0
-}
-actual = [row["sense_id"] for row in proposals]
-assert len(actual) == len(set(actual)) == 109, "Duplicate or missing snapshot rows"
-assert set(actual) - expected == {'eth-s1', 'eth-s2'}, "Unexpected retired meaning in snapshot"
-assert expected - set(actual) == {'eth-s3'}, "Unexpected current meaning missing from snapshot"
-assert all(bool(row["celan"]) == bool(row["english"]) for row in proposals), "Unpaired sentence or translation"
-assert all(row["kind"] in {"ordinary", "construction"} for row in proposals)
+assert len(proposals) == len({row["sense_id"] for row in proposals}) == 109
+assert all(row["status"].startswith(("approved_", "moved_to_")) for row in proposals)
+for number, row in enumerate(proposals, 1):
+    target = "-eth" if number in (8, 9) else senses[row["sense_id"]]["headword_id"]
+    matching = [example for example in examples
+                if example["headword_id"] == target
+                and example["celan_text"].casefold() == row["celan"].casefold()
+                and example["translation"] == row["english"]]
+    assert matching, f"Review item {number} has no matching app placement on {target}"
 
-filled = sum(bool(row["celan"]) for row in proposals)
-print(f"109-row review snapshot accounted for; {filled} have candidate sentences. The current 108 zero-sentence meanings include new standalone Eth, which still needs review.")
-print("This check does not assess linguistic accuracy or approve app placement.")
+visible = [row for row in senses.values() if row["visible"] == "Yes"]
+illustrated = {row["headword_id"] for row in examples
+               if row["display_kind"] in {"sentence", "related"}}
+empty_pages = [row["headword_id"] for row in visible if row["headword_id"] not in illustrated]
+assert not empty_pages, f"Visible headword pages without a sentence or related illustration: {empty_pages[:10]}"
+assert any(row["headword_id"] == "eth" and row["sense_id"] == "eth-s3"
+           and row["celan_text"] == "shalaen I eth an shalor."
+           for row in examples)
+shortfalls = sum(int(row["minimum_shortfall_if_all_candidates_pass"]) > 0 for row in coverage)
+print(f"All 109 review items have a matching app placement. No visible headword page lacks a sentence or related illustration. {shortfalls} visible meanings still have fewer than two possible ordinary direct sentences.")
+print("This check does not certify the Celan, English, or full meaning coverage of those placements.")
