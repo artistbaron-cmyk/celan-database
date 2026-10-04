@@ -407,7 +407,7 @@ morkal,Morkal,/mohrkahl/,,LX-V4-0086,{},null,
 kor,Kor,/kohr/,Yes,LX-V4-0118; LX-SRD1-0003; XR-kor,{},null,Spatial Reference and Deixis 1
 pral,Pral,/prahl/,Yes,LX-V4-0119; XR-pral; DM-RM-V2-0010,{},null,
 vok,Vok,/vohk/,Yes,LX-V4-0120; XR-vok,{},null,
-eth,Eth,/ehth/,,LX-V4-0122,{},null,
+eth,Eth,/ehth/,Yes,LX-V4-0122,{},null,2026-10-04 Eth/-eth settlement
 droshen,Droshen,/droh-shehn/,,LX-NE1-0001,{},"{""origins"":[""Jasara""],""nationalUses"":[""Jasaran water allotment for households, travelers, or fields.""],""derivations"":[""Dro + Shen""],""variants"":[]}",National Expansion 1
 drokav,Drokav,/droh-kahv/,,LX-NE1-0002,{},"{""origins"":[""Jasara""],""nationalUses"":[""Jasaran protected storage for scarce water.""],""derivations"":[""Dro + Kav""],""variants"":[]}",National Expansion 1
 droral,Droral,/droh-rahl/,,LX-NE1-0003,{},"{""origins"":[""Jasara""],""nationalUses"":[""Jasaran caretaker responsible for a shared water supply.""],""derivations"":[""Dro + Ral""],""variants"":[]}",National Expansion 1
@@ -1422,7 +1422,6 @@ ohm-,Ohm-,/ohhm-/,Yes,DM-RM-V2-0024; DM-RM-S3-0016,{},null,
 khum-,Khum-,/khoom-/,Yes,DM-RM-V2-0025; DM-RM-S3-0025,{},null,
 zhae-,Zhae-,/zhah-eh-/,Yes,DM-RM-V2-0026,{},null,
 nku-,Nku-,/nkoo-/,Yes,DM-RM-V2-0027,{},null,
-tl-,Tl-,/tl-/,Yes,DM-RM-V2-0028,{},null,
 -in,-in,/-een/,,DM-RM-V2-0029,{},null,
 -n,-n,/-n/,,DM-RM-V2-0030,{},null,
 -or,-or,/-ohr/,,DM-RM-V2-0031,{},null,
@@ -1435,14 +1434,13 @@ lior,Lior,/lee-ohr/,,DM-RM-V3-0006,{},null,
 ther,Ther,/thehr/,,DM-RM-V3-0007,{},null,
 -esh,-esh,/-ehsh/,,DM-RM-V3-0010,{},null,
 -el,-el,/-ehl/,,DM-RM-V3-0012,{},null,
--vel,-vel,/-vehl/,,DM-RM-V3-0013,{},null,
 ten-,Ten-,/tehn-/,,DM-RM-V3-0014,{},null,
 hek-,Hek-,/hehk-/,,DM-RM-V3-0015,{},null,
 mel-,Mel-,/mehl-/,,DM-RM-V3-0016,{},null,
 fen-,Fen-,/fehn-/,,DM-RM-V3-0017,{},null,
 hek-mel-,Hek-Mel-,/hehk-mehl-/,,DM-RM-V3-0018,{},null,
 ven,Ven,/vehn/,,DM-RM-V3-0019,{},null,
--eth,-eth,/-ehth/,,DM-RM-V4-0001,"{""familyTerms"":[""Shaleth"",""Woreth"",""Gormeth"",""Kaleth""]}",null,
+-eth,-eth,/-ehth/,,DM-RM-V4-0001; LX-V4-0122,"{""familyTerms"":[""Shaleth"",""Woreth"",""Gormeth"",""Kaleth"",""Khumeth""]}",null,2026-10-04 Eth/-eth settlement
 vael,vael,/vah-ehl/,,DM-RM-V4-0002,{},null,
 nor-ka,nor-ka,/nohr-kah/,,DM-RM-V4-0003,{},null,
 shal-,Shal-,/shahl-/,Yes,DM-RM-S3-0001,{},null,

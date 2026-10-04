@@ -1,0 +1,508 @@
+headword,word_type,meaning,sense_id,possible_sentences_before_accuracy_review,minimum_shortfall_if_all_candidates_pass
+Ilin,Pronoun,We / Us [Inclusive] (1st Person Plural),ilin-s1,0,2
+Ilin,Pronoun,"Inclusive We: I + You (+ others). This is the communal, default ""we.""",ilin-s2,0,2
+Ya,Pronoun,You (2nd Person Singular),ya-s1,0,2
+Ya,Possessive,Your (direct personal suffix -ya),ya-s2,0,2
+Var,Verb,Go / Move,var-s1,0,2
+Var,Preposition,To / Towards,var-s2,0,2
+Ser,Noun,Friend / Ally,ser-s1,0,2
+Ser,Preposition,With,ser-s2,0,2
+Ser,Conjunction,And,ser-s3,0,2
+Thal,Noun,Balance / Harmony,thal-s1,0,2
+Thal,Preposition,From / Out of,thal-s2,1,1
+Ka,Preposition,Without,ka-s1,0,2
+Ka,Interjection,No,ka-s2,0,2
+An,Preposition,"At, in (place)",an-s1,0,2
+An,Preposition,Spatial contexts (“at/in” location),an-s2,0,2
+Nor,Noun,Time / Flow of Time,nor-s1,0,2
+Nor,Preposition,At / In (time),nor-s2,0,2
+Esh,Noun,Sky / Air,esh-s1,0,2
+Esh,Preposition,Above / Over,esh-s2,0,2
+Esh,Suffix,-esh (relational),esh-s3,0,2
+Morl,Noun,Mountain,morl-s1,0,2
+Morl,Preposition,"Under, beneath",morl-s3,0,2
+Terra,Noun,Earth / Physical ground,terra-s1,0,2
+Terra,Noun,The Heart of Terra / Mystical force,terra-s2,0,2
+Dren,Noun,Water,dren-s1,0,2
+Dren,Noun,Water - symbolic,dren-s2,0,2
+Dren,Noun,Water / River,dren-s3,0,2
+Shal,Noun,Light / New Beginnings / Fate,shal-s1,0,2
+Shal,Verb,Hope,shal-s2,0,2
+Krez,Noun,Fire,krez-s1,0,2
+Krez,Interjection,Blast! / Damn!,krez-s2,0,2
+Thar,Noun,Heart,thar-s1,0,2
+Thar,Modal,Want to,thar-s2,0,2
+Vethor,Noun,Shadow / Mystery,vethor-s1,0,2
+Vethor,Verb,Sleep,vethor-s2,0,2
+Shara,Noun,Path / Journey,shara-s1,0,2
+Shara,Verb,To follow a path / To navigate / To track,shara-s2,0,2
+Zhilva,Interjection,"General ""Hello""",zhilva-s1,1,1
+Amthaen,Interjection,"Friendly ""Hi""",amthaen-s1,1,1
+Nekvar,Interjection,"""Good morning""",nekvar-s1,1,1
+Kelithor,Interjection,"""Good afternoon""",kelithor-s1,1,1
+Tlosen,Interjection,"""Good evening""",tlosen-s1,1,1
+Jexhaer,Interjection,"""Good night""",jexhaer-s1,1,1
+Revalen,Interjection,"""Farewell""",revalen-s1,1,1
+Zharinor,Interjection,"""See you soon""",zharinor-s1,1,1
+Vrekthael,Interjection,"Ceremonial ""Greetings""",vrekthael-s1,1,1
+Rathor,Noun,Old City / Ancient Place,rathor-s1,0,2
+Rathor,Noun,Past / History,rathor-s2,0,2
+Shalor,Noun,"Light (discovery, vision, hope)",shalor-s1,0,2
+Shalor,Noun,Light / New Beginnings / Fate,shalor-s2,0,2
+Shalor,Noun,Sanctuary (light-filled place),shalor-s3,0,2
+Thaal,Noun,The Unknown / Wonder,thaal-s1,0,2
+Thaal,Particle,Superlative marker: most,thaal-s2,0,2
+Lian,Noun,Truth / Honesty,lian-s1,0,2
+Lian,Verb,Pray,lian-s2,0,2
+Lian,Modal,Can / Able to,lian-s3,0,2
+Lumor,Noun,Light (enlightenment or insight),lumor-s1,0,2
+Lumor,Noun,Talisman,lumor-s2,0,2
+Aen,Verb,Speak / Tell / Breathe,aen-s1,0,2
+Aen,Conjunction,That,aen-s2,0,2
+Aen,Suffix,-aen (verb-forming),aen-s3,0,2
+Aen,Noun,Breath of Life,aen-s4,0,2
+Varok,Verb,Command / Direct,varok-s1,1,1
+Kal,Noun,Strength / Power,kal-s1,0,2
+Kal,Adjective,Strong,kal-s2,0,2
+Kal,Verb,To strengthen,kal-s3,0,2
+Kalor,Noun,Courage / Strength of Spirit,kalor-s1,0,2
+Kalor,Noun,Strength (of the mind or spirit),kalor-s2,0,2
+Seren,Noun,Guardian / Protector,seren-s1,0,2
+Seren,Noun,Guardian/Protector,seren-s2,0,2
+Arthen,Noun,Destiny / Purpose,arthen-s1,0,2
+Vaar,Noun,Peace / Unity,vaar-s1,0,2
+Vaar,Adjective,Good,vaar-s2,0,2
+Vaar,Interjection,Relief / Phew,vaar-s3,0,2
+Lorin,Noun,Guide,lorin-s1,0,2
+Lorin,Noun,Guide / Teacher,lorin-s2,0,2
+Lorin,Verb,To guide,lorin-s3,0,2
+Rath,Noun,Enemy / Foe,rath-s1,0,2
+Rath,Particle,Conditional “If”,rath-s2,0,2
+Rath,Particle,Conditional marker: if,rath-s3,0,2
+Fah,Noun,Darkness / Fear / Night,fah-s1,0,2
+Fah,Interjection,Ugh! / Bah!,fah-s2,0,2
+Reth,Noun,Confusion / Uncertainty,reth-s1,0,2
+Reth,Conjunction,Or,reth-s2,0,2
+Vial,Noun,Joy / Happiness,vial-s1,1,1
+Lorinor,Noun,Head,lorinor-s1,1,1
+Lorinshal,Noun,Eye,lorinshal-s1,1,1
+Aenor,Noun,Ear,aenor-s1,0,2
+Aenor,Noun,Moment / Instant,aenor-s2,0,2
+Dral,Noun,Sky / Wonder / Heavens,dral-s1,0,2
+Dral,Interjection,Wow! / Heavens!,dral-s2,0,2
+Tal,Verb,Give / Offer,tal-s1,0,2
+Tal,Verb,Take / Receive,tal-s2,0,2
+Morldren,Noun,Waterfall (mountain + water),morldren-s1,0,2
+Morldren,Noun,waterfall/mountain stream,morldren-s2,0,2
+Lun,Noun,Lake,lun-s1,0,2
+Lun,Noun,Moon; Ohnosha's natural satellite or lunar body,lun-s3,0,2
+Awek,Noun,Spring,awek-s2,1,1
+Kaleth,Noun,Fortress / Stronghold,kaleth-s1,0,2
+Kaleth,Adjective,Strong / Powerful / Intense / High in magnitude or reading,kaleth-s2,0,2
+Krezor,Noun,forge,krezor-s1,0,2
+Krezor,Noun,Forge / Place of Fire,krezor-s2,0,2
+Krezor,Noun,"Hearth, Fireplace, Forge",krezor-s3,0,2
+Norvaar,Noun,Gateway (time-related portal),norvaar-s1,1,1
+Kinnlin,Noun,Noon (Full Light),kinnlin-s1,1,1
+Kilvthal,Noun,Afternoon (Balancing Light and Shadow),kilvthal-s1,1,1
+Kilvfah,Noun,Nightfall (Full Darkness),kilvfah-s1,1,1
+Kilvlum,Noun,Midnight (Shadowed Reflection),kilvlum-s1,1,1
+Brosrin,Noun,Layered food,brosrin-s1,1,1
+Balrin,Noun,Growing food,balrin-s1,1,1
+Brenmor,Noun,Harvested roots,brenmor-s1,1,1
+Phelvin,Noun,Comforting drink,phelvin-s1,0,2
+Phelvin,Noun,Comfort Drink,phelvin-s2,0,2
+Prakorin,Noun,Tender bread,prakorin-s1,1,1
+Peldren,Noun,Piercing water,peldren-s1,1,1
+Pralmor,Noun,Detailed carving,pralmor-s1,1,1
+Jorlin,Noun,Bursting water,jorlin-s1,1,1
+Jorvak,Noun,Bursting Stew,jorvak-s1,0,2
+Jorvak,Noun,Bursting warmth,jorvak-s2,0,2
+Jekvor,Noun,"A spiraling spice; a seasoning recognizable by a curled, coiled, or twisted physical form",jekvor-s1,1,1
+Jelvor,Noun,"A zesty spice; a seasoning distinguished by a bright, sharp, lively flavor",jelvor-s1,1,1
+Jindral,Noun,Rare fruit,jindral-s1,1,1
+Welrim,Noun,Continuous Feast,welrim-s1,0,2
+Welrim,Noun,Shared feast,welrim-s2,0,2
+Welmor,Noun,Flowing earth,welmor-s1,1,1
+Weknor,Noun,Cyclical time,weknor-s1,1,1
+Xilvar,Noun,A hidden spice; a seasoning or blend whose composition or preparation is deliberately concealed,xilvar-s1,0,2
+Xilvar,Noun,Fragmented Salt,xilvar-s2,0,2
+Xarvel,Noun,Covered meal,xarvel-s1,0,2
+Xarvel,Noun,Veiled Meal,xarvel-s2,0,2
+Tlakorin,Noun,Confidant or trusted companion,tlakorin-s1,1,1
+Nkuvath,Noun,Promise or bond of trust,nkuvath-s1,1,1
+Mbalan,Noun,"Pillar of the community, a relied-upon figure",mbalan-s1,1,1
+Nkural,Noun,Mentor or guide who nurtures growth,nkural-s1,1,1
+Tlankor,Noun,Ally or supporter during challenges,tlankor-s1,1,1
+Tlakhura,Noun,"A bond shared between two people, unspoken yet strong",tlakhura-s1,1,1
+Jorkal,Noun,Charge / Attack / Assault. A command or description of a forceful offensive push.,jorkal-s1,1,1
+Arthlor,Noun,Defensive Formation / Shield Wall / Fortified Position. Refers to holding a defensive position or a specific coordinated defensive setup.,arthlor-s1,1,1
+Serenkal,Noun,"Elite Warrior / Vanguard / Shock Trooper. Refers specifically to experienced, strong front-line fighters or protectors.",serenkal-s1,1,1
+Belshara,Noun,"Coordinated Maneuver / Formation Movement / Tactical Path. Refers to moving troops in a specific, planned way.",belshara-s1,0,2
+Belshara,Noun,Duty (Bound Path),belshara-s2,0,2
+Belshara,Modal,Necessity (Must/Have to),belshara-s3,0,2
+Belshara,Noun,Necessity / Obligation,belshara-s4,0,2
+Talrin,Noun,Offering / Spiritual Sacrifice (of self/intent/item). The act of giving something (physical or metaphorical) as part of a ritual.,talrin-s1,1,1
+Rinvarash,Noun,Prophetic Vision / Spiritual Insight / Glimpse of Essence. Refers to receiving divine guidance or seeing future possibilities through spiritual connection.,rinvarash-s1,1,1
+Belshen,Noun,Price / Binding Value / Agreed Cost. The established or negotiated value that binds a trade.,belshen-s1,1,1
+Vaneshem,Noun,Goods / Wares / Trade Items. The physical products being exchanged.,vaneshem-s1,1,1
+Thalaneshen,Noun,Bargaining / Haggling / Balanced Trade Talk. The process of negotiating a fair price or exchange.,thalaneshen-s1,1,1
+Ka-Shen,Noun,Barter / Tradegoods (non-monetary) / Without Coin. Refers to trade done through exchange of goods rather than currency.,ka-shen-s1,1,1
+Vellian,Noun,"Quality Goods / Honest Value / True Sustenance. Refers to goods considered high quality, fairly priced, or genuinely valuable.",vellian-s1,1,1
+Terradren,Noun,fertile soil/well-irrigated land,terradren-s1,1,1
+Drenshal,Noun,reflective pool/crystal-clear spring,drenshal-s1,1,1
+Terraesh,Noun,horizon/place where earth meets sky,terraesh-s1,1,1
+Broslak,Noun,Layered Bread,broslak-s1,1,1
+Phelkarin,Noun,Comforting Porridge,phelkarin-s1,1,1
+Felorin,Noun,Berry from Coral Reefs,felorin-s1,0,2
+Felorin,Noun,Berry/Small Fruit,felorin-s2,0,2
+Jekvin,Noun,Spiral Herb,jekvin-s1,1,1
+Belmor,Noun,A root spice; a seasoning made from the root or rhizome of a plant,belmor-s1,1,1
+Vethhar,Noun,Shadowspice,vethhar-s1,1,1
+Lianfel,Noun,Truth Tea,lianfel-s1,1,1
+Jorvilor,Noun,Bursting Berry Drink,jorvilor-s1,1,1
+Zhelvek,Noun,Energy Bar,zhelvek-s1,0,2
+Zhelvek,Noun,Energy carrier,zhelvek-s2,0,2
+Velmek,Noun,Synthetic Protein,velmek-s1,1,1
+Phelrin,Noun,Comfort Food,phelrin-s1,1,1
+Jorvalin,Noun,Effervescent Beverage,jorvalin-s1,1,1
+Drenlivar,Noun,Salted Fish,drenlivar-s1,1,1
+Eshtenor,Noun,Seaweed Snack,eshtenor-s1,1,1
+Jekvarin,Noun,Spiral Shellfish,jekvarin-s1,1,1
+Tharmor,Noun,Rootbread,tharmor-s1,1,1
+Terafennil,Noun,Herb Stew,terafennil-s1,1,1
+Brenvor,Noun,Harvested Nuts,brenvor-s1,1,1
+Welvinor,Noun,Flowing Mead,welvinor-s1,1,1
+Krezfel,Noun,Spiced Grain,krezfel-s1,1,1
+Morthas,Noun,Sand-Roasted Nuts,morthas-s1,1,1
+Voktarin,Noun,Preserved Dates,voktarin-s1,1,1
+Phelmorin,Noun,Warm Desert Tea,phelmorin-s1,1,1
+Velthamor,Noun,Frozen Root Mash,velthamor-s1,1,1
+Eshvilor,Noun,Snowberry Wine,eshvilor-s1,1,1
+Thalshorin,Noun,Ice Stew,thalshorin-s1,1,1
+Xarlorin,Noun,Hidden Spice Tea,xarlorin-s1,1,1
+Morvenak,Noun,Hearty Grain Porridge,morvenak-s1,1,1
+Kreztorin,Noun,Smoked and Dried Meat,kreztorin-s1,1,1
+Velkorin,Noun,Military Ration,velkorin-s1,1,1
+Xilbren,Noun,Fragmented Grain Cake,xilbren-s1,1,1
+Drenkor,Noun,Oasis Bread,drenkor-s1,1,1
+Vethsoril,Noun,Shadowspice Stew,vethsoril-s1,1,1
+Shalorin,Noun,Sweet Fig-Like Fruit,shalorin-s1,1,1
+Welkarin,Noun,Flowing Desert Drink,welkarin-s1,1,1
+Morlathor,Noun,Stone-Root Bread,morlathor-s1,1,1
+Velkrin,Noun,Fermented Drink,velkrin-s1,1,1
+Krezlorin,Noun,Fire-Grilled Meat,krezlorin-s1,1,1
+Pralvinor,Noun,Delicate Mead,pralvinor-s1,1,1
+Tharvin,Noun,Autumn,tharvin-s1,1,1
+Shalithor,Noun,Sunlight,shalithor-s1,1,1
+Drenalor,Noun,Rain,drenalor-s1,1,1
+Eshvelor,Noun,Snowfall,eshvelor-s1,1,1
+Drenvelesh,Noun,Morning Dew,drenvelesh-s1,1,1
+Eshvelaneth,Noun,Hailstorm,eshvelaneth-s1,0,2
+Eshvelaneth,Noun,Snowstorm Guidance Ritual,eshvelaneth-s2,0,2
+Liana,Noun,Lady,liana-s1,1,1
+Lianor,Noun,"Idea, Thought (Place of truth)",lianor-s1,0,2
+Lianor,Noun,Sir,lianor-s2,0,2
+Liorinen,Noun,Honored Elder/Teacher,liorinen-s1,1,1
+Kel,Verb,Say / Talk (informal),kel-s1,0,2
+Kel,Noun,Name,kel-s2,0,2
+Kel,Noun,Word,kel-s3,0,2
+Kel,Noun,A text; a connected body of written or encoded words rather than information or data generally,kel-s4,0,2
+Ar,Particle,"Intensifier - very, intensely",ar-s1,1,1
+Rethlian,Modal,Possibility (May/Might),rethlian-s1,0,2
+Rethlian,Interjection,Maybe,rethlian-s2,0,2
+Rethlian,Particle,Possibility (May/Might),rethlian-s3,0,2
+Mmm,Interjection,Considering or listening thoughtfully.,mmm-s1,1,1
+Varthen,Particle,“So” or “Thus.”,varthen-s1,1,1
+Lianlor,Particle,“Honestly” or “To be truthful…”,lianlor-s1,1,1
+Vara,Particle,"Then, Next, So (sequencer).",vara-s1,1,1
+Thalka,Particle,"But, However, Yet, Still (contrast).",thalka-s1,1,1
+Sera,Particle,"Also, Too, Even, As well (additive).",sera-s1,1,1
+Tek,Particle,"Just, Only, Merely (limiter).",tek-s1,1,1
+Rathka,Particle,"As if, Supposing, Like (hypothetical).",rathka-s1,1,1
+Lialor'ka,Particle,Really?! Truly?! Actually?! (surprise/emphasis).,lialor'ka-s1,1,1
+Reth‘thal,Particle,"Perhaps, Possibly (stronger doubt than Rethlian).",reth'thal-s1,1,1
+Lia‘ser,Particle,"Right, Okay, I see, Understood (acknowledgement).",lia'ser-s1,1,1
+Lian'lia,Particle,Exactly! Precisely! Just so! (strong agreement).,lian'lia-s1,1,1
+Verka,Particle,Not at all! Absolutely not! (emphatic negation).,verka-s1,1,1
+Wek'aen,Particle,"Again, As said before, To repeat (repetition).",wek'aen-s1,1,1
+Zhiren,Noun,Sibling,zhiren-s1,1,1
+Pralin,Noun,Cousin,pralin-s1,1,1
+Velkavor,Noun,Ancestor / Great-grandparent,velkavor-s1,1,1
+Tavojorin,Noun,Parent-in-law,tavojorin-s1,1,1
+Zhivorin,Noun,Sibling-in-law,zhivorin-s1,1,1
+Velpralor,Noun,Elder Partner,velpralor-s1,1,1
+Tavrel,Noun,Aunt/Uncle,tavrel-s1,1,1
+Felvin,Noun,Niece/Nephew,felvin-s1,1,1
+Zharin,Noun,Distant Relative,zharin-s1,1,1
+Velxorin,Noun,Elder Ancestor,velxorin-s1,1,1
+Kalvokesh,Noun,Spouse's Family,kalvokesh-s1,1,1
+Zhirkalor,Noun,Partner by Lineage,zhirkalor-s1,1,1
+Xarfelvin,Noun,Adoptive Niece/Nephew,xarfelvin-s1,1,1
+Belvethral,Noun,Chosen Family,belvethral-s1,1,1
+Velmarin,Noun,Ancient Tree (species),velmarin-s1,0,2
+Velmarin,Noun,Honorary Elder,velmarin-s2,0,2
+Pralvokesh,Noun,Trusted Ally or Friend,pralvokesh-s1,1,1
+Ian,Possessive,My / Direct Possession marker,ian-s1,0,2
+Anen,Possessive,Your / Direct Possession marker,anen-s1,0,2
+Eshen,Possessive,His/Her/Their / Direct Possession marker,eshen-s1,0,2
+Velian,Possessive,Our / Direct Possession marker,velian-s1,0,2
+Rathorim,Noun,Remembrance (the act).,rathorim-s1,1,1
+Fah'thar,Noun,Grief (heart-darkness).,fah'thar-s1,1,1
+Vel'rathor,Noun,Enduring Memory / Still Past.,vel'rathor-s1,1,1
+Rathorimaen,Verb,To Remember / Memorialize.,rathorimaen-s1,1,1
+Fah'tharaen,Verb,To Mourn / Grieve Deeply.,fah'tharaen-s1,1,1
+Ohm'rin,Noun,Attunement / Essence-Connection.,ohm'rin-s1,1,1
+Thal'vok,Noun,Balanced Unity / Harmony Bond.,thal'vok-s1,1,1
+Ohm'aen,Verb,To Connect With / Attune To (revisited).,ohm'aen-s1,1,1
+Bel'Rathorimeth,Noun,Memory-Weaving Ritual.,bel'rathorimeth-s1,1,1
+Aen'Moreth,Noun,Breath-into-Stone Ritual.,aen'moreth-s1,1,1
+Lorin'Ohmeth,Noun,Guidance-Seeking Ritual.,lorin'ohmeth-s1,1,1
+Thal'talaen,Verb,To sacrifice/relinquish (general verb).,thal'talaen-s1,1,1
+Thal'taleth,Noun,Act/Ritual of Sacrifice (general noun).,thal'taleth-s1,1,1
+Thar'taleth,Noun,Life/Heart Sacrifice Ritual (noun).,thar'taleth-s1,1,1
+Arthen'taleth,Noun,Sacrifice for Destiny Ritual (noun).,arthen'taleth-s1,1,1
+Kor'taleth,Noun,Offering to Power Source Ritual (noun).,kor'taleth-s1,1,1
+Talaen,Verb,To give/offer (used for simpler offerings).,talaen-s1,1,1
+Talaen,Verb,"To Take (contextual), To Receive",talaen-s2,1,1
+Shalaen,Verb,To Hope / See Light Ahead.,shalaen-s1,0,2
+Shalaen,Verb,"To See, To perceive with light",shalaen-s2,0,2
+Nkathalaen,Verb,To Grieve / Be Sad.,nkathalaen-s1,1,1
+Rathaen,Verb,To Hate / Oppose Strongly / Treat as Foe.,rathaen-s1,1,1
+Krezaen,Verb,To Rage / Burn with Anger.,krezaen-s1,1,1
+Rethaen,Verb,To Worry / Be Uncertain.,rethaen-s1,1,1
+Vershalaen,Verb,To Despair / Lose Hope.,vershalaen-s1,1,1
+Thaalaen,Verb,To Feel Awe / Wonder.,thaalaen-s1,1,1
+Vaaranoraen,Verb,To Feel Contentment / Inner Peace.,vaaranoraen-s1,1,1
+Vokaen,Verb,To Betray / Break Bond.,vokaen-s1,1,1
+Veth'tharaen,Verb,To Feel Shame / Guilt.,veth'tharaen-s1,1,1
+Vaar'kelaen,Verb,To Feel Relief.,vaar'kelaen-s1,1,1
+Drenvokesh,Noun,Water Unity Ceremony,drenvokesh-s1,1,1
+Eshlorien,Noun,Wave Naming Ritual,eshlorien-s1,1,1
+Terrashaneth,Noun,Earth Blessing Ceremony,terrashaneth-s1,1,1
+Velpralim,Noun,Wisdom Transfer Ritual,velpralim-s1,1,1
+Kreztharim,Noun,Fire Heart Ritual,kreztharim-s1,1,1
+Zhivokesh,Noun,Bond Renewal Ceremony,zhivokesh-s1,1,1
+Dralshaneth,Noun,Heaven's Blessing,dralshaneth-s1,1,1
+Morlatharim,Noun,Stone Heart Ceremony,morlatharim-s1,1,1
+Velmarineth,Noun,Elder's Blessing,velmarineth-s1,1,1
+Velthaelvok,Noun,Winter Unity Ceremony,velthaelvok-s1,1,1
+Drenkorath,Noun,Oasis Blessing Ceremony,drenkorath-s1,0,2
+Drenkorath,Noun,Sacred spring,drenkorath-s2,0,2
+Shalorveth,Noun,Shadowlight Ritual,shalorveth-s1,1,1
+Velterim,Noun,Desert Passage Ceremony,velterim-s1,1,1
+Krezmorath,Noun,Fire Bond Ritual,krezmorath-s1,1,1
+Tharvelim,Noun,Mountain Ancestor Ritual,tharvelim-s1,1,1
+Kalorinath,Noun,Fortress Bonding Ceremony,kalorinath-s1,1,1
+Varkareth,Noun,"""Metal-mover"" or ""gear-grinder""; implies reliance on machines and lack of natural warmth.",varkareth-s1,1,1
+Drenkaesh,Noun,"""Water-waster""; suggests carelessness or indulgence in water abundance.",drenkaesh-s1,1,1
+Tharfah,Noun,"""Weak-hearted"" or ""soft-rooted""; dismisses their gentle, nature-centric approach as sentimental.",tharfah-s1,1,1
+Krez-verin,Noun,"""Fire-nothing"" or ""ash-breather""; criticizes their environment and resource scarcity.",krez-verin-s1,1,1
+Eshreth,Noun,"""Sky-confused""; implies a dreamy or detached nature under the icy skies.",eshreth-s1,1,1
+Rathorkinash,Noun,"""Ancient-prattler""; suggests being stuck in outdated traditions and unyielding.",rathorkinash-s1,1,1
+Vethordrenka,Noun,"""Shadow-water leech""; insults their reliance on hidden water resources or mysterious magic.",vethordrenka-s1,1,1
+Morl-karash,Noun,"""Stone-brained""; criticizes rigidity and stubbornness, reflective of their mountain nature.",morl-karash-s1,1,1
+Verin,Noun,Zero,verin-s1,1,1
+Senar,Noun,Six,senar-s1,1,1
+Sethe,Noun,Seven,sethe-s1,1,1
+Oven,Noun,Eight,oven-s1,1,1
+Nevar,Noun,Nine,nevar-s1,1,1
+Tenar,Number,Ten,tenar-s1,0,2
+Tenar,Noun,Radiance / Steady glow / Visible light,tenar-s2,0,2
+Lianeth,Modal,Ability (Can/Able to),lianeth-s1,0,2
+Lianeth,Verb,Ability (Can/Able to),lianeth-s2,0,2
+Lianeth,Adjective,Reliable / Sound / Dependable / Accurate / True to function,lianeth-s3,0,2
+Thar-ka,Modal,Desire (Want to),thar-ka-s1,0,2
+Thar-ka,Noun,Desire,thar-ka-s2,0,2
+Inko,Pronoun,We two / Us two [Dual],inko-s1,1,1
+Yako,Pronoun,You two [Dual],yako-s1,1,1
+Imen,Pronoun,We / Us [Exclusive],imen-s1,1,1
+Gormeth,Adjective,"Dirty, Soiled",gormeth-s1,1,1
+Feleth,Adjective,"Light (weight), Small, New",feleth-s1,1,1
+Sharbel,Noun,"Pants, Leggings",sharbel-s1,1,1
+Lunor,Adjective,Blue,lunor-s1,1,1
+Velek,Adjective,White,velek-s1,1,1
+Vershara,Noun,Prey Animal (deer-like),vershara-s1,1,1
+Kalrath,Noun,Apex Predator (solitary),kalrath-s1,1,1
+Thallian,Noun,Justice (True Balance),thallian-s1,1,1
+Sharaka,Noun,Freedom (Path without binding),sharaka-s1,1,1
+Vethrin,Noun,Dream (Essence of shadow),vethrin-s1,1,1
+Kelrin,Noun,Name (Essence of what is spoken),kelrin-s1,1,1
+Vaarlor,Noun,Safety (A place of peace),vaarlor-s1,1,1
+Korineth,Noun,Handspan,korineth-s1,1,1
+Shar,Noun,"Stride, Pace",shar-s1,1,1
+Kinnshara,Noun,Day's Journey,kinnshara-s1,1,1
+Kinn,Noun,Day,kinn-s1,1,1
+Lunwek,Noun,Month,lunwek-s1,1,1
+Tharvin-Wek,Noun,Year,tharvin-wek-s1,1,1
+Shen,Noun,Coinage / Currency,shen-s1,0,2
+Shen,Measure,Unit of weight / measure,shen-s2,0,2
+Shen,Verb,To measure / To count,shen-s3,0,2
+Kor,Noun,Source / Strength,kor-s1,0,2
+Kor,Measure,Unit of length / handspan measure,kor-s2,0,2
+Kor,Noun,Center or middle; the central position or region within a bounded whole,kor-s3,0,2
+Pral,Noun,Table,pral-s1,0,2
+Pral,Verb,Make,pral-s2,0,2
+Pral,Noun,Intricacy / Detail,pral-s3,0,2
+Vok,Noun,Unity / Bond,vok-s1,0,2
+Vok,Verb,Betray,vok-s2,0,2
+Eth,Noun,Essence / inherent quality,eth-s3,0,2
+Shan,Verb,Passing; transfer; handoff between states,shan-s1,0,2
+Shan,Preposition,Through or across from one side or boundary to another,shan-s2,0,2
+Lianrethshen,Measure,An anomaly reading; a measured value describing the intensity or instability of a reality anomaly,lianrethshen-s1,0,2
+Lianrethshen,Noun,An anomaly reading; a measured value describing the intensity or instability of a reality anomaly,lianrethshen-s2,0,2
+Vaarshen,Measure,A safe clearance distance established between a hazard and an unprotected person or place,vaarshen-s1,0,2
+Vaarshen,Noun,A safe clearance distance established between a hazard and an unprotected person or place,vaarshen-s2,0,2
+Keldoraen,Verb,To mark a location by deliberately placing a sign name or warning indicator there,keldoraen-s1,0,2
+Keldoraen,Verb,To write or inscribe visible language on a surface,keldoraen-s2,0,2
+Ruvan,Noun,Moral institutional or social corruption understood as living rot spreading through a community or organized system,ruvan-s1,0,2
+Ruvan,Noun,"Rot or organic spoilage; uncontrolled biological decay that degrades food, tissue, or other once-living material",ruvan-s2,0,2
+Anvekaen,Verb,To board; to enter or mount a vehicle vessel or transport animal for travel,anvekaen-s1,0,2
+Anvekaen,Verb,To load cargo; to put goods or material aboard or into transport in preparation for travel,anvekaen-s2,0,2
+Thalvekaen,Verb,To disembark; to leave or come out of a vehicle vessel or transport animal after travel,thalvekaen-s1,0,2
+Thalvekaen,Verb,To unload cargo; to remove goods or material from transport after travel,thalvekaen-s2,0,2
+Jorvar,Measure,Speed; the rate at which a person creature object or vehicle moves through distance,jorvar-s1,0,2
+Jorvar,Noun,Speed; the rate at which a person creature object or vehicle moves through distance,jorvar-s2,0,2
+Njor,Noun,A bridge between separated people groups systems or ideas; a connection that crosses a meaningful division,njor-s1,0,2
+Njor,Noun,Bridge or structural span that carries passage across a gap waterway or obstruction,njor-s3,0,2
+Sel,Noun,Mental clarity; an unobscured and internally ordered state of thought without implying truth evidence or correctness,sel-s1,0,2
+Sel,Noun,Physical clarity; purity; absence of grime,sel-s2,0,2
+Thael,Noun,Rhythm or beat; a recurring pattern of pulse sound or movement,thael-s1,0,2
+Thael,Adjective,Gentle motion; breeze-like rhythm,thael-s2,0,2
+Shentalzhael,Noun,Medical triage; measured assignment of treatment priority and limited care resources according to urgency,shentalzhael-s1,0,2
+Shentalzhael,Verb,To triage / To prioritize treatment,shentalzhael-s2,0,2
+Rathshannali,Noun,Invasive species; an introduced species that spreads in ways causing ecological harm,rathshannali-s1,1,1
+Dumanali,Noun,Extinction; the complete end of a species or distinct living lineage,dumanali-s1,1,1
+Emilbel,Noun,Food web; the interconnected network of feeding relationships within an ecosystem,emilbel-s1,1,1
+Velkrel,Noun,Breeze / Cool breeze / Light wind,velkrel-s1,1,1
+Em,Interjection,Um / Uh (hesitation or thinking particle),em-s1,0,2
+Em,Particle,Conversational hesitation / Thinking particle,em-s2,0,2
+Vrak,Adjective,Gone / Missing / Depleted / Dry (Trerran dialect),vrak-s1,0,2
+Vrak,Particle,Gone / Missing / Depleted (Trerran dialect),vrak-s2,0,2
+Aelin,Noun,Youth / Young person / Student / Pupil,aelin-s1,1,1
+Im,Noun,Device / Instrument / Implement / Internal mechanism,im-s1,0,2
+Dreshal,Noun,Crystal device / Crystal implement,dreshal-s1,1,1
+Noraen,Verb,To guide / To lead through time or experience / To instruct,noraen-s1,1,1
+Thalesh,Noun,Ritual / Sacred balance ceremony,thalesh-s1,0,2
+Thalesh,Verb,To perform a balance rite,thalesh-s2,0,2
+Thalor,Noun,Outside / Exterior / Outer place,thalor-s1,0,2
+Thalor,Adverb,Outside,thalor-s2,0,2
+Kavel,Noun,Forgetfulness / Memory gap / Loss of awareness,kavel-s1,1,1
+Terrarav,Noun,Pull of one's homeland / Yearning for home,terrarav-s1,1,1
+Vanesh,Noun,Commerce; formal trade; merchant work,vanesh-s1,0,2
+Vanesh,Verb,To trade / To conduct commerce,vanesh-s2,0,2
+Kar,Noun,Strike; mechanical force; tool-work,kar-s1,0,2
+Kar,Verb,To strike / To apply force,kar-s2,0,2
+Trak,Noun,Tread; step; foot-borne movement,trak-s1,0,2
+Kav,Noun,Age; preservation; ancient duration,kav-s1,0,2
+Tla,Noun,Intimacy; closeness; unspoken connection,tla-s1,0,2
+Jor,Verb,To surge / To burst forth,jor-s2,0,2
+Lor,Noun,Guidance; sight; focus of leadership,lor-s1,0,2
+Vin,Noun,Pull; extraction; drawing out essence,vin-s1,0,2
+Zhael,Noun,Bloom; renewal; soft opening; empathy,zhael-s1,1,1
+Nk,Noun,Endurance; hidden strength,nk-s1,0,2
+Nku,Adjective,Hidden nurturing; held calm,nku-s1,0,2
+Bren,Noun,"Harvest (e.g., the act or result of gathering food).",bren-s1,0,2
+Bren,Verb,To harvest / To gather,bren-s2,0,2
+Xar,Noun,Shadow or cover (tied to concealed or protective qualities).,xar-s1,0,2
+Xar,Verb,To cover / To shelter / To close off,xar-s2,0,2
+Mb,Noun,Support; pillar; foundational weight,mb-s1,0,2
+Rek,Noun,Peak intensity; burning or heated state,rek-s1,0,2
+Thaen,Noun,Spirit-breath; still internal seasonality,thaen-s1,0,2
+Elor,Noun,Growth; upward alignment; unfolding maturity,elor-s1,0,2
+Vek,Noun,Carrier; vessel; transported charge or substance,vek-s1,1,1
+Livar,Noun,Preservation; salt-fixing; anti-decay,livar-s1,0,2
+Marin,Noun,Branch; extension; outward-growing limb,marin-s1,0,2
+Alor,Verb,Falling; descent; downward motion,alor-s1,1,1
+Arshor,Noun,Enveloping presence; atmospheric blanket,arshor-s1,1,1
+Tarin,Noun,Dried sweetness; sun-preserved fruit,tarin-s1,0,2
+Soril,Noun,Depth of flavor; complex taste-body,soril-s1,0,2
+Tham,Verb,Mashing; softening; breaking structure down,tham-s1,0,2
+Lak,Noun,Grain; earthy food-substance; bread material,lak-s1,0,2
+Kadren,Noun,"Masculine essence (strength, groundedness).",kadren-s1,0,2
+Azan,Noun,"Feminine essence (nurturing, fluidity).",azan-s1,0,2
+Thee,Noun,"Neutral essence (balance, unity).",thee-s1,0,2
+Tha-,Prefix,Past Tense,tha--s1,0,2
+Nor-,Prefix,Future Tense,nor--s2,0,2
+-al,Suffix,Continuous,-al-s1,0,2
+-ath,Suffix,Perfective,-ath-s1,0,2
+-as,Suffix,Habitual,-as-s1,0,2
+-ka,Particle,Possessive/linking marker,-ka-s1,0,2
+Kilv,Noun,shadow/time,kilv-s1,0,2
+Nk-,Noun,"Endurance, hidden strength",nk--s1,0,2
+Rav-,Noun,"Pull, yearning",rav--s1,0,2
+Mb-,Noun,"Layered, supportive",mb--s1,0,2
+Tla-,Noun,"Close, intimate connection",tla--s1,0,2
+Ohm-,Noun,"Connection, unity",ohm--s1,0,2
+Khum-,Noun,"Circle, reconciliation",khum--s1,0,2
+Zhae-,Noun,"Light, empathy",zhae--s1,0,2
+Nku-,Adjective,"Hidden, nurturing",nku--s1,0,2
+-in,Suffix,Plural marker added to nouns ending in consonants,-in-s1,0,2
+-in,Suffix,"Person or participant connected to a bond, place, or category",-in-s2,0,2
+-n,Suffix,Plural marker added to nouns ending in vowels,-n-s1,0,2
+-or,Suffix,Place/Location,-or-s1,0,2
+-en,Suffix,Honorific/Formal-High Respect,-en-s1,0,2
+-en,Suffix,Honorific/Respected form,-en-s2,0,2
+-en,Suffix,Partner bonded to you,-en-s3,0,2
+-lin,Suffix,Collective/Diminutive,-lin-s1,0,2
+-aen,Suffix,Verb-forming,-aen-s1,0,2
+Ver-,Prefix,Negation,ver--s1,0,2
+Li-,Prefix,Respect/Honorific,li--s1,0,2
+Li-,Prefix,show respect,li--s2,0,2
+Ther,Particle,Comparative marker: more than,ther-s1,1,1
+-esh,Suffix,deep relational ties,-esh-s1,0,2
+-el,Suffix,Affectionate suffix marking a beloved bond or endearment,-el-s1,0,2
+Ten-,Prefix,Tens prefix,ten--s1,0,2
+Hek-,Prefix,Hundreds prefix,hek--s1,0,2
+Mel-,Prefix,Thousands prefix,mel--s1,0,2
+Fen-,Prefix,Tens of thousands prefix,fen--s1,0,2
+Hek-Mel-,Prefix,Hundreds of thousands construction,hek-mel--s1,0,2
+-eth,Suffix,"Adjectival quality suffix: -like, -ful; marks a root's inherent quality or essential manifestation",-eth-s1,0,2
+-eth,Suffix,Elevated or ritual noun suffix: sacred act or ritual of a root,-eth-s2,0,2
+nor-ka,Particle,passive voice echo particle,nor-ka-s1,0,2
+nor-ka,Particle,Now / In this moment / At present,nor-ka-s2,0,2
+Shal-,Noun,"Light, glow, brightness; hope, truth, creation, clarity, revelation, wisdom, life, beginnings.",shal--s1,0,2
+Krez-,Noun,"Fire, heat, energy; passion, creation, strength, life-force, warmth, resilience, purification.",krez--s1,0,2
+Dren-,Noun,"Water, liquid, fluid; life, flow, change, healing, emotion, intuition, cleansing, adaptation.",dren--s1,0,2
+Morl-,Noun,"Stone, rock, mountain; endurance, history, stubbornness, strength, foundation, stability, defense.",morl--s1,0,2
+Esh-,Noun,"Sky, air, wind; freedom, thought, divine, intellect, perspective, beginnings.",esh--s1,0,2
+terra- / Terra-,Noun,"Earth, ground, soil, land; lowercase terra is mundane physical ground; capitalized Terra is the world as living spiritual entity.",terra- / terra--s1,0,2
+Lian-,Noun,"Truth, honesty; reality, natural law, essence, logic, clarity, correctness.",lian--s1,0,2
+Thal-,Noun,"Balance, harmony, equilibrium; also preposition meaning From / Out of.",thal--s1,0,2
+Reth- / Rethvok-,Noun,"Reth: uncertainty, confusion, doubt, a question, or. Rethvok: chaos, disorder, un-ordered state.",reth- / rethvok--s1,0,2
+Rin-,Noun,"Essence, core nature, spirit, intrinsic quality.",rin--s1,0,2
+Bel-,Verb,"To bind, weave, connect, fasten; civilization, bonds, restrictions, systems.",bel--s1,0,2
+Kal-,Noun,"Strength, power, force; neutral force whose virtue depends on use.",kal--s1,0,2
+Shara-,Noun,"A path, a road, a journey; life path, strategy, decision path.",shara--s1,0,2
+Thar-,Noun,"The physical heart; source of emotion, will, and true inner self.",thar--s1,0,2
+Var-,Verb,"To go, move, travel; also preposition to/towards; action and existence.",var--s1,0,2
+Aen-,Verb,"To speak, breathe, make a sound; also complementizer that.",aen--s1,0,2
+Pralaen-,Verb,"To make, craft, shape with care; skill, purpose, imposing order.",pralaen--s1,0,2
+Vok-,Noun,Duality of breaking a bond and forming a unity; noun Vok means unity; verb vokaen breaks unity.,vok--s1,0,2
+Ser-,Noun,"Friend, ally; also with and and.",ser--s1,0,2
+Rath-,Noun,"Enemy, foe, adversary; also conditional particle if.",rath--s1,0,2
+Zhir-,Noun,"Thread, line, cord; connection through time, lineage, history, cause-effect, fate.",zhir--s1,0,2
+Kel-,Verb,"To say, speak, name; definition and ordering through language.",kel--s1,0,2
+Harven,Noun,Pack Beast,harven-s1,1,1
+Zharrel,Noun,Forest Predator,zharrel-s1,0,2
+Tharnspinners,Noun,Arachnid,tharnspinners-s1,0,2
+Veilgliders,Noun,Gliding Insectivore,veilgliders-s1,0,2
+Tharokh,Noun,Endurance Mount,tharokh-s1,1,1
+Velshen,Noun,Burrowing Creature,velshen-s1,0,2
+Shavrek,Noun,Cliff Forager,shavrek-s1,0,2
+Mossquill,Noun,Pollinator,mossquill-s1,0,2
+Rynarth,Noun,Fox-like Predator,rynarth-s1,0,2
+Vroshan,Noun,Scavenger,vroshan-s1,0,2
+Brinnek,Noun,Migratory Grazer,brinnek-s1,0,2
+Thravic,Noun,Ambush Predator,thravic-s1,0,2
+Fennlur,Noun,Pack Runner,fennlur-s1,0,2
+Vexflit,Noun,Pollinator Bird,vexflit-s1,0,2
+Grivol,Noun,Burrowing Rodent,grivol-s1,0,2
+Rethal,Noun,River Predator,rethal-s1,0,2
+Lumora,Noun,Schooling Fish,lumora-s1,0,2
+Thryssal,Noun,Swamp Scavenger,thryssal-s1,0,2
+Braskal,Noun,Coastal Herbivore,braskal-s1,0,2
+Selkari,Noun,Ocean Guardian,selkari-s1,0,2
+Zhenlor,Noun,Legendary Figure,zhenlor-s1,0,2
+Zharak,Noun,Legendary Figure,zharak-s1,0,2
+Lorynth,Noun,Legendary Figure,lorynth-s1,0,2

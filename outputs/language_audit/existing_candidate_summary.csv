@@ -47,9 +47,9 @@ zharinor-s1,Zharinor,0,Exact standalone spelling only; meaning not reviewed.
 vrekthael-s1,Vrekthael,0,Exact standalone spelling only; meaning not reviewed.
 rathor-s1,Rathor,1,Exact standalone spelling only; meaning not reviewed.
 rathor-s2,Rathor,1,Exact standalone spelling only; meaning not reviewed.
-shalor-s1,Shalor,0,Exact standalone spelling only; meaning not reviewed.
-shalor-s2,Shalor,0,Exact standalone spelling only; meaning not reviewed.
-shalor-s3,Shalor,0,Exact standalone spelling only; meaning not reviewed.
+shalor-s1,Shalor,1,Exact standalone spelling only; meaning not reviewed.
+shalor-s2,Shalor,1,Exact standalone spelling only; meaning not reviewed.
+shalor-s3,Shalor,1,Exact standalone spelling only; meaning not reviewed.
 thaal-s1,Thaal,2,Exact standalone spelling only; meaning not reviewed.
 thaal-s2,Thaal,2,Exact standalone spelling only; meaning not reviewed.
 lian-s1,Lian,1,Exact standalone spelling only; meaning not reviewed.
@@ -142,7 +142,6 @@ belshara-s1,Belshara,0,Exact standalone spelling only; meaning not reviewed.
 belshara-s2,Belshara,0,Exact standalone spelling only; meaning not reviewed.
 belshara-s3,Belshara,0,Exact standalone spelling only; meaning not reviewed.
 belshara-s4,Belshara,0,Exact standalone spelling only; meaning not reviewed.
-khumeth-s1,Khumeth,0,Exact standalone spelling only; meaning not reviewed.
 talrin-s1,Talrin,0,Exact standalone spelling only; meaning not reviewed.
 rinvarash-s1,Rinvarash,0,Exact standalone spelling only; meaning not reviewed.
 belshen-s1,Belshen,0,Exact standalone spelling only; meaning not reviewed.
@@ -347,8 +346,7 @@ pral-s2,Pral,0,Exact standalone spelling only; meaning not reviewed.
 pral-s3,Pral,0,Exact standalone spelling only; meaning not reviewed.
 vok-s1,Vok,1,Exact standalone spelling only; meaning not reviewed.
 vok-s2,Vok,1,Exact standalone spelling only; meaning not reviewed.
-eth-s1,Eth,0,Exact standalone spelling only; meaning not reviewed.
-eth-s2,Eth,0,Exact standalone spelling only; meaning not reviewed.
+eth-s3,Eth,0,Exact standalone spelling only; meaning not reviewed.
 shan-s1,Shan,0,Exact standalone spelling only; meaning not reviewed.
 shan-s2,Shan,0,Exact standalone spelling only; meaning not reviewed.
 lianrethshen-s1,Lianrethshen,0,Exact standalone spelling only; meaning not reviewed.
@@ -383,7 +381,6 @@ vrak-s1,Vrak,0,Exact standalone spelling only; meaning not reviewed.
 vrak-s2,Vrak,0,Exact standalone spelling only; meaning not reviewed.
 aelin-s1,Aelin,0,Exact standalone spelling only; meaning not reviewed.
 im-s1,Im,0,Bound or very short form; manual construction search needed.
-im-s2,Im,0,Bound or very short form; manual construction search needed.
 dreshal-s1,Dreshal,0,Exact standalone spelling only; meaning not reviewed.
 noraen-s1,Noraen,0,Exact standalone spelling only; meaning not reviewed.
 thalesh-s1,Thalesh,0,Exact standalone spelling only; meaning not reviewed.
@@ -440,7 +437,6 @@ ohm--s1,Ohm-,0,Bound or very short form; manual construction search needed.
 khum--s1,Khum-,0,Bound or very short form; manual construction search needed.
 zhae--s1,Zhae-,0,Bound or very short form; manual construction search needed.
 nku--s1,Nku-,0,Bound or very short form; manual construction search needed.
-tl--s1,Tl-,0,Bound or very short form; manual construction search needed.
 -in-s1,-in,0,Bound or very short form; manual construction search needed.
 -in-s2,-in,0,Bound or very short form; manual construction search needed.
 -n-s1,-n,0,Bound or very short form; manual construction search needed.
@@ -456,7 +452,6 @@ li--s2,Li-,0,Bound or very short form; manual construction search needed.
 ther-s1,Ther,0,Exact standalone spelling only; meaning not reviewed.
 -esh-s1,-esh,0,Bound or very short form; manual construction search needed.
 -el-s1,-el,0,Bound or very short form; manual construction search needed.
--vel-s1,-vel,0,Bound or very short form; manual construction search needed.
 ten--s1,Ten-,0,Bound or very short form; manual construction search needed.
 hek--s1,Hek-,0,Bound or very short form; manual construction search needed.
 mel--s1,Mel-,0,Bound or very short form; manual construction search needed.

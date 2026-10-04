@@ -48,7 +48,7 @@ for sense in senses:
         "accurate_sentences_confirmed": "",
     })
 
-assert len(rows) == 1607
+assert rows and len({row['sense_id'] for row in rows}) == len(rows)
 output = HERE / "coverage_inventory.csv"
 with output.open("w", newline="", encoding="utf-8") as handle:
     writer = csv.DictWriter(handle, fieldnames=list(rows[0]), lineterminator="\n")

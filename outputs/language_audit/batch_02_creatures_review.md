@@ -1,0 +1,31 @@
+# Creature and legendary figure examples — review only
+
+**Status:** 46 user-proposed sentences reviewed against the current Dictionary App on 2026-10-02. No examples were added or changed in the app. “Fits” means the specific sentence and its translation align with the current listed meanings and established pattern; it does not certify every other use of those words. Proper species names ending in `-s` and the English number they take still need a decision before those examples are placed.
+
+| Word | Example 1 | Example 2 |
+| --- | --- | --- |
+| Harven | **Fits.** `ravvekaen` means tow; this sentence is already on Harven's page. | **Change English:** `an morl` names a mountain, not mountains. “The Harven carries cargo on the mountain.” |
+| Zharrel | **Fits.** Hunting in a forest matches `gavaen ... an verdor`. | **Change English:** `sharaen` means follow, not stalk. “The Zharrel follows prey through the forest.” |
+| Tharnspinners | **Meaning fits.** `pralaen ... selzhir` says make silk in the forest; confirm the species name's number before placement. | **Change English:** `kes` means notice or register, not sustained observation. “I notice the Tharnspinners on the tree.” Confirm the species name's number. |
+| Veilgliders | **Change Celan:** `veth` means shade or mystery, not night. `eshvaraen veilgliders nor noral.` uses established *noral* “nighttime.” Confirm the species name's number. | **Meaning fits** as a location statement. Confirm whether the bare species name can take English plural “are.” |
+| Tharokh | **Fits.** This sentence is already on Tharokh's page. | **Fits.** `var ... shan kadromor` says travel or go through desert land. |
+| Velshen | **Fits.** `kes` permits “notice.” | **Change Celan:** `moraen` means stand/be grounded, not rest. `nethaen velshen morl sadar.` says the Velshen rests beneath the sand. |
+| Shavrek | **Fits.** `kesbrenaen` means forage. | **Change the scene:** `var ... esh morl` says go above the mountain, not climb on it. Suggested `moraen shavrek an pelmorl.` — “The Shavrek stands on the cliff.” |
+| Mossquill | **Replace this sentence:** `balshan` is the noun “pollination,” not a verb meaning pollinate. A safe existing-vocabulary alternative is `var mossquill an zhaelin.` — “The Mossquill goes to the flower.” | **Fits as flight to a plant** if `an` is read as the goal of movement; keep it distinct from the alternative for example 1. |
+| Rynarth | **Change English:** `an morl` is a mountain, not mountains: “The Rynarth hunts on the mountain.” | **Fits.** “Spots” is a natural reading of `kes` (notices). |
+| Vroshan | **Fits.** `esh` means above/over. | **Fits.** `kes` notices food; `thal dral` locates the viewpoint as from the sky. |
+| Brinnek | **Change Celan:** `esh` means above/over, not across. `wekvaraen brinnek shan selmor.` expresses migration across the plain. | **Fits.** `velaen` means eat and `verdpel` is grass. |
+| Thravic | **Change Celan:** `moraen` means stand, not wait. `dar thravic an verdpel.` — “The Thravic waits in the grass.” | **Fits.** The verb sense of `kar` means strike. |
+| Fennlur | **Change English:** `var ... joreth` is attested as “goes fast”; it does not specify running. “The Fennlur moves quickly on the plain.” | **Fits.** `kes` can mean to sense/notice the storm. |
+| Vexflit | **Fits as flight to a flower** with the same motion-goal reading of `an`. | **Replace this sentence:** `balshan` is a noun, not “pollinates.” Suggested `eshvaraen vexflit shan selmor.` — “The Vexflit flies across the plain.” This changes the scene without assigning the creature a new ability. |
+| Grivol | **Fits.** `dor` puts the seed beneath the soil/ground. | **Reverse the possession:** Current `zornethor-ka grivol` marks the den as possessor. `rinaen grivol-ka zornethor an selmor.` — “The Grivol's den is on the plain.” |
+| Rethal | **Fits.** Hunting in the stream follows the listed meanings. | **Change Celan:** `moraen` is stand/be grounded, not rest. `nethaen rethal morl dro.` — “The Rethal rests beneath the water.” |
+| Lumora | **Number needs review:** Bare *lumora* can be one fish or a species name; English “are” may require a plural form. The lake sense of *lun* is established. | **Number needs review:** `shalil ... an mahr` supports smooth/light movement in the ocean, but English plural “move” needs the same decision. |
+| Thryssal | **Fits.** The wetland meaning matches *drenverd*. | **Fits if *ruvan* takes its approved organic-rot meaning.** A clearer English rendering is “The Thryssal eats decaying matter in the wetland.” |
+| Braskal | **Fits.** *mahrmorl* is a reef. | **Fits.** *mahrfennil* is seaweed. |
+| Selkari | **Fits.** *arth* is protect. | **Change English:** `kes` means notices/registers, not necessarily sees. “The elder notices the Selkari during the storm.” |
+| Zhenlor | **Reverse the possession:** `zhirkel-ka Zhenlor` marks the story as possessor. `aen zhirkelral Zhenlor-ka zhirkel.` — “The storyteller tells Zhenlor's story.” | **Needs judgment:** `rathor` has an approved “Past / History” sense, but “Zhenlor exists in ancient history” presents a legendary figure as historically real and adds “ancient.” Use only if that claim is intended. |
+| Zharak | **Change English:** *welrin* means citizen, not people generally. “The citizens fear Zharak.” | **Reverse possession and narrow English:** `aen velar Zharak-ka zhirkel.` — “The elder tells Zharak's story.” *Zhirkel* means story/tale, not necessarily legend. |
+| Lorynth | **Mark past tense:** Current `lorin` is present “guides,” while English says “guided.” `tha-lorin Lorynth sharavok.` — “Lorynth guided caravans.” This drops the unsupported “ancient history” detail. | **Change meaning or sentence:** `kes` means notice, not look for. Current Celan supports “We notice Lorynth in the heavens” if that event is intended. A search for Lorynth needs different approved wording. |
+
+**Open decisions before placement:** (1) Do *Tharnspinners*, *Veilgliders*, and *Lumora* act as collective/species names in Celan, or should sentences with plural English use the ordinary plural suffix? (2) Is Zhenlor claimed to exist in actual history, or only in stories? (3) Is Lorynth physically or spiritually perceived in the heavens, or are people searching for Lorynth? No new creature meaning or verb meaning was assumed.

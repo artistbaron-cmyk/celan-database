@@ -368,6 +368,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -520,6 +524,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       }
@@ -528,11 +536,34 @@
   "azfel": {
     "familyRoots": [
       "Azan",
-      "EL"
+      "FEL"
     ],
     "sharedAffixes": [],
-    "components": [],
-    "notes": [],
+    "components": [
+      {
+        "form": "Az",
+        "description": "feminine base",
+        "source": "User-approved Az + Fel analysis, 2026-10-03",
+        "id": "local:azfel:az",
+        "kind": "local",
+        "target": null,
+        "meaning": "feminine base",
+        "entryId": "LX-V1-0011"
+      },
+      {
+        "form": "Fel",
+        "description": "youth or smallness",
+        "source": "User-approved Az + Fel analysis, 2026-10-03",
+        "id": "root:fel",
+        "kind": "root",
+        "target": "fel",
+        "meaning": "youth or smallness",
+        "entryId": "LX-V1-0011"
+      }
+    ],
+    "notes": [
+      "Az + Fel: feminine base + youth."
+    ],
     "relatedEntries": [
       {
         "id": "azan",
@@ -541,6 +572,138 @@
       {
         "id": "azron",
         "term": "Azron"
+      },
+      {
+        "id": "fel",
+        "term": "Fel"
+      },
+      {
+        "id": "dralfel",
+        "term": "Dralfel"
+      },
+      {
+        "id": "drenfel",
+        "term": "Drenfel"
+      },
+      {
+        "id": "felath",
+        "term": "Felath"
+      },
+      {
+        "id": "felbelor",
+        "term": "Felbelor"
+      },
+      {
+        "id": "feldrenaen",
+        "term": "Feldrenaen"
+      },
+      {
+        "id": "feleth",
+        "term": "Feleth"
+      },
+      {
+        "id": "felin",
+        "term": "Felin"
+      },
+      {
+        "id": "felkal",
+        "term": "Felkal"
+      },
+      {
+        "id": "felkalrav",
+        "term": "Felkalrav"
+      },
+      {
+        "id": "fellak",
+        "term": "Fellak"
+      },
+      {
+        "id": "fellor",
+        "term": "Fellor"
+      },
+      {
+        "id": "fellun",
+        "term": "Fellun"
+      },
+      {
+        "id": "felmek",
+        "term": "Felmek"
+      },
+      {
+        "id": "felmekreth",
+        "term": "Felmekreth"
+      },
+      {
+        "id": "felmor",
+        "term": "Felmor"
+      },
+      {
+        "id": "felmorl",
+        "term": "Felmorl"
+      },
+      {
+        "id": "felnor",
+        "term": "Felnor"
+      },
+      {
+        "id": "felorin",
+        "term": "Felorin"
+      },
+      {
+        "id": "felsadar",
+        "term": "Felsadar"
+      },
+      {
+        "id": "felshara",
+        "term": "Felshara"
+      },
+      {
+        "id": "felshen",
+        "term": "Felshen"
+      },
+      {
+        "id": "felthamaen",
+        "term": "Felthamaen"
+      },
+      {
+        "id": "felvek",
+        "term": "Felvek"
+      },
+      {
+        "id": "felverd",
+        "term": "Felverd"
+      },
+      {
+        "id": "felvin",
+        "term": "Felvin"
+      },
+      {
+        "id": "felvora",
+        "term": "Felvora"
+      },
+      {
+        "id": "felzhir",
+        "term": "Felzhir"
+      },
+      {
+        "id": "kadfel",
+        "term": "Kadfel"
+      },
+      {
+        "id": "krezfel",
+        "term": "Krezfel"
+      },
+      {
+        "id": "lianfel",
+        "term": "Lianfel"
+      },
+      {
+        "id": "pralfel",
+        "term": "Pralfel"
+      },
+      {
+        "id": "xarfelvin",
+        "term": "Xarfelvin"
       }
     ],
     "relatedGroups": [
@@ -555,6 +718,140 @@
           {
             "id": "azron",
             "term": "Azron"
+          }
+        ]
+      },
+      {
+        "key": "root:fel",
+        "label": "FEL",
+        "entries": [
+          {
+            "id": "dralfel",
+            "term": "Dralfel"
+          },
+          {
+            "id": "drenfel",
+            "term": "Drenfel"
+          },
+          {
+            "id": "felath",
+            "term": "Felath"
+          },
+          {
+            "id": "felbelor",
+            "term": "Felbelor"
+          },
+          {
+            "id": "feldrenaen",
+            "term": "Feldrenaen"
+          },
+          {
+            "id": "feleth",
+            "term": "Feleth"
+          },
+          {
+            "id": "felin",
+            "term": "Felin"
+          },
+          {
+            "id": "felkal",
+            "term": "Felkal"
+          },
+          {
+            "id": "felkalrav",
+            "term": "Felkalrav"
+          },
+          {
+            "id": "fellak",
+            "term": "Fellak"
+          },
+          {
+            "id": "fellor",
+            "term": "Fellor"
+          },
+          {
+            "id": "fellun",
+            "term": "Fellun"
+          },
+          {
+            "id": "felmek",
+            "term": "Felmek"
+          },
+          {
+            "id": "felmekreth",
+            "term": "Felmekreth"
+          },
+          {
+            "id": "felmor",
+            "term": "Felmor"
+          },
+          {
+            "id": "felmorl",
+            "term": "Felmorl"
+          },
+          {
+            "id": "felnor",
+            "term": "Felnor"
+          },
+          {
+            "id": "felorin",
+            "term": "Felorin"
+          },
+          {
+            "id": "felsadar",
+            "term": "Felsadar"
+          },
+          {
+            "id": "felshara",
+            "term": "Felshara"
+          },
+          {
+            "id": "felshen",
+            "term": "Felshen"
+          },
+          {
+            "id": "felthamaen",
+            "term": "Felthamaen"
+          },
+          {
+            "id": "felvek",
+            "term": "Felvek"
+          },
+          {
+            "id": "felverd",
+            "term": "Felverd"
+          },
+          {
+            "id": "felvin",
+            "term": "Felvin"
+          },
+          {
+            "id": "felvora",
+            "term": "Felvora"
+          },
+          {
+            "id": "felzhir",
+            "term": "Felzhir"
+          },
+          {
+            "id": "kadfel",
+            "term": "Kadfel"
+          },
+          {
+            "id": "krezfel",
+            "term": "Krezfel"
+          },
+          {
+            "id": "lianfel",
+            "term": "Lianfel"
+          },
+          {
+            "id": "pralfel",
+            "term": "Pralfel"
+          },
+          {
+            "id": "xarfelvin",
+            "term": "Xarfelvin"
           }
         ]
       }
@@ -9050,7 +9347,9 @@
     "familyRoots": [
       "Kilv"
     ],
-    "sharedAffixes": [],
+    "sharedAffixes": [
+      "-eth"
+    ],
     "components": [
       {
         "form": "Kilv",
@@ -9063,13 +9362,13 @@
         "entryId": "LX-V2-0092"
       },
       {
-        "form": "Eth",
-        "description": "(embrace)",
-        "source": "Kilv (shadow/time) + Eth (embrace)",
-        "id": "word:eth",
-        "kind": "word",
-        "target": "eth",
-        "meaning": "(embrace)",
+        "form": "-eth",
+        "description": "elevated or ritual noun suffix",
+        "source": "Current approved Eth/-eth distinction",
+        "id": "suffix:eth",
+        "kind": "affix",
+        "target": "-eth",
+        "meaning": "ritual noun suffix",
         "entryId": "LX-V2-0092"
       }
     ],
@@ -9088,8 +9387,8 @@
         "term": "Kilvfah"
       },
       {
-        "id": "eth",
-        "term": "Eth"
+        "id": "-eth",
+        "term": "-eth"
       },
       {
         "id": "kilvlum",
@@ -9136,16 +9435,16 @@
         ]
       },
       {
-        "key": "word:eth",
-        "label": "Eth",
+        "key": "suffix:eth",
+        "label": "-eth",
         "entries": [
           {
             "id": "dralshaneth",
             "term": "Dralshaneth"
           },
           {
-            "id": "eth",
-            "term": "Eth"
+            "id": "-eth",
+            "term": "-eth"
           },
           {
             "id": "khumeth",
@@ -15929,8 +16228,7 @@
   },
   "xarvel": {
     "familyRoots": [
-      "XAR",
-      "VEL"
+      "XAR"
     ],
     "sharedAffixes": [],
     "components": [
@@ -15946,320 +16244,170 @@
       },
       {
         "form": "vel",
-        "description": "= concealed sustenance",
+        "description": "meal or bread element in this compound",
         "source": "Xar + vel = concealed sustenance",
-        "id": "root:vel",
-        "kind": "root",
-        "target": "vel",
-        "meaning": "= concealed sustenance",
+        "id": "local:xarvel:vel",
+        "kind": "local",
+        "target": null,
+        "meaning": "meal or bread element in this compound",
         "entryId": "LX-V2-0156"
       }
     ],
-    "notes": [],
+    "notes": [
+      "The vel element here refers to a meal or bread; it is distinct from Vel meaning wisdom."
+    ],
     "relatedEntries": [
       {
         "id": "xar",
         "term": "Xar"
       },
       {
-        "id": "vel",
-        "term": "Vel"
-      },
-      {
         "id": "aivkorxar",
         "term": "Aivkorxar"
-      },
-      {
-        "id": "drenvelesh",
-        "term": "Drenvelesh"
       },
       {
         "id": "aneshxar",
         "term": "Aneshxar"
       },
       {
-        "id": "eshvelaneth",
-        "term": "Eshvelaneth"
-      },
-      {
         "id": "arthaxar",
         "term": "Arthaxar"
-      },
-      {
-        "id": "kavel",
-        "term": "Kavel"
       },
       {
         "id": "belxar",
         "term": "Belxar"
       },
       {
-        "id": "kavelzhiraen",
-        "term": "Kavelzhiraen"
-      },
-      {
         "id": "davaxar",
         "term": "Davaxar"
-      },
-      {
-        "id": "pelveltrakor",
-        "term": "Pelveltrakor"
       },
       {
         "id": "dralxar",
         "term": "Dralxar"
       },
       {
-        "id": "tharvelim",
-        "term": "Tharvelim"
-      },
-      {
         "id": "eshxar",
         "term": "Eshxar"
-      },
-      {
-        "id": "velaen",
-        "term": "Velaen"
       },
       {
         "id": "kaxaraen",
         "term": "Kaxaraen"
       },
       {
-        "id": "velaivkor",
-        "term": "Velaivkor"
-      },
-      {
         "id": "kesxar",
         "term": "Kesxar"
-      },
-      {
-        "id": "velalivar",
-        "term": "Velalivar"
       },
       {
         "id": "korinxar",
         "term": "Korinxar"
       },
       {
-        "id": "velar",
-        "term": "Velar"
-      },
-      {
         "id": "lianrethxar",
         "term": "Lianrethxar"
-      },
-      {
-        "id": "velarshor",
-        "term": "Velarshor"
       },
       {
         "id": "lorinorxar",
         "term": "Lorinorxar"
       },
       {
-        "id": "velbelxar",
-        "term": "Velbelxar"
-      },
-      {
         "id": "lorinshalxar",
         "term": "Lorinshalxar"
-      },
-      {
-        "id": "veleth",
-        "term": "Veleth"
       },
       {
         "id": "mahrxaror",
         "term": "Mahrxaror"
       },
       {
-        "id": "velithor",
-        "term": "Velithor"
-      },
-      {
         "id": "mahrxarvek",
         "term": "Mahrxarvek"
-      },
-      {
-        "id": "veljor",
-        "term": "Veljor"
       },
       {
         "id": "mavbalxar",
         "term": "Mavbalxar"
       },
       {
-        "id": "velkavor",
-        "term": "Velkavor"
-      },
-      {
         "id": "nderuxar",
         "term": "Nderuxar"
-      },
-      {
-        "id": "velkelor",
-        "term": "Velkelor"
       },
       {
         "id": "remashalxar",
         "term": "Remashalxar"
       },
       {
-        "id": "velkorin",
-        "term": "Velkorin"
-      },
-      {
         "id": "remaxar",
         "term": "Remaxar"
-      },
-      {
-        "id": "velkrin",
-        "term": "Velkrin"
       },
       {
         "id": "vekxaror",
         "term": "Vekxaror"
       },
       {
-        "id": "vellian",
-        "term": "Vellian"
-      },
-      {
         "id": "velxar",
         "term": "Velxar"
-      },
-      {
-        "id": "vellivaraen",
-        "term": "Vellivaraen"
       },
       {
         "id": "verdxar",
         "term": "Verdxar"
       },
       {
-        "id": "velmarin",
-        "term": "Velmarin"
-      },
-      {
         "id": "wekxar",
         "term": "Wekxar"
-      },
-      {
-        "id": "velmarineth",
-        "term": "Velmarineth"
       },
       {
         "id": "xaraen",
         "term": "Xaraen"
       },
       {
-        "id": "velmav",
-        "term": "Velmav"
-      },
-      {
         "id": "xardava",
         "term": "Xardava"
-      },
-      {
-        "id": "velmek",
-        "term": "Velmek"
       },
       {
         "id": "xaresh",
         "term": "Xaresh"
       },
       {
-        "id": "velmor",
-        "term": "Velmor"
-      },
-      {
         "id": "xarfelvin",
         "term": "Xarfelvin"
-      },
-      {
-        "id": "velnor",
-        "term": "Velnor"
       },
       {
         "id": "xarkaleth",
         "term": "Xarkaleth"
       },
       {
-        "id": "velpralaen",
-        "term": "Velpralaen"
-      },
-      {
         "id": "xarkrezaen",
         "term": "Xarkrezaen"
-      },
-      {
-        "id": "velpralim",
-        "term": "Velpralim"
       },
       {
         "id": "xarlorin",
         "term": "Xarlorin"
       },
       {
-        "id": "velpralor",
-        "term": "Velpralor"
-      },
-      {
         "id": "xarmetha",
         "term": "Xarmetha"
-      },
-      {
-        "id": "velpraltrakor",
-        "term": "Velpraltrakor"
       },
       {
         "id": "xarmorl",
         "term": "Xarmorl"
       },
       {
-        "id": "velrathor",
-        "term": "Velrathor"
-      },
-      {
         "id": "xarnesh",
         "term": "Xarnesh"
-      },
-      {
-        "id": "velterim",
-        "term": "Velterim"
       },
       {
         "id": "xaror",
         "term": "Xaror"
       },
       {
-        "id": "velthaelvok",
-        "term": "Velthaelvok"
-      },
-      {
         "id": "xarphelor",
         "term": "Xarphelor"
-      },
-      {
-        "id": "velthaen",
-        "term": "Velthaen"
       },
       {
         "id": "xarrin",
         "term": "Xarrin"
       },
       {
-        "id": "velthamor",
-        "term": "Velthamor"
-      },
-      {
         "id": "xarvek",
         "term": "Xarvek"
-      },
-      {
-        "id": "velvaraen",
-        "term": "Velvaraen"
       },
       {
         "id": "xarvethral",
@@ -16270,16 +16418,8 @@
         "term": "Xarwelor"
       },
       {
-        "id": "velxorin",
-        "term": "Velxorin"
-      },
-      {
         "id": "xarzhir",
         "term": "Xarzhir"
-      },
-      {
-        "id": "velzhiraen",
-        "term": "Velzhiraen"
       },
       {
         "id": "zhelxar",
@@ -16466,176 +16606,6 @@
           {
             "id": "zorxar",
             "term": "Zorxar"
-          }
-        ]
-      },
-      {
-        "key": "root:vel",
-        "label": "VEL",
-        "entries": [
-          {
-            "id": "vel",
-            "term": "Vel"
-          },
-          {
-            "id": "drenvelesh",
-            "term": "Drenvelesh"
-          },
-          {
-            "id": "eshvelaneth",
-            "term": "Eshvelaneth"
-          },
-          {
-            "id": "kavel",
-            "term": "Kavel"
-          },
-          {
-            "id": "kavelzhiraen",
-            "term": "Kavelzhiraen"
-          },
-          {
-            "id": "pelveltrakor",
-            "term": "Pelveltrakor"
-          },
-          {
-            "id": "tharvelim",
-            "term": "Tharvelim"
-          },
-          {
-            "id": "velaen",
-            "term": "Velaen"
-          },
-          {
-            "id": "velaivkor",
-            "term": "Velaivkor"
-          },
-          {
-            "id": "velalivar",
-            "term": "Velalivar"
-          },
-          {
-            "id": "velar",
-            "term": "Velar"
-          },
-          {
-            "id": "velarshor",
-            "term": "Velarshor"
-          },
-          {
-            "id": "velbelxar",
-            "term": "Velbelxar"
-          },
-          {
-            "id": "veleth",
-            "term": "Veleth"
-          },
-          {
-            "id": "velithor",
-            "term": "Velithor"
-          },
-          {
-            "id": "veljor",
-            "term": "Veljor"
-          },
-          {
-            "id": "velkavor",
-            "term": "Velkavor"
-          },
-          {
-            "id": "velkelor",
-            "term": "Velkelor"
-          },
-          {
-            "id": "velkorin",
-            "term": "Velkorin"
-          },
-          {
-            "id": "velkrin",
-            "term": "Velkrin"
-          },
-          {
-            "id": "vellian",
-            "term": "Vellian"
-          },
-          {
-            "id": "vellivaraen",
-            "term": "Vellivaraen"
-          },
-          {
-            "id": "velmarin",
-            "term": "Velmarin"
-          },
-          {
-            "id": "velmarineth",
-            "term": "Velmarineth"
-          },
-          {
-            "id": "velmav",
-            "term": "Velmav"
-          },
-          {
-            "id": "velmek",
-            "term": "Velmek"
-          },
-          {
-            "id": "velmor",
-            "term": "Velmor"
-          },
-          {
-            "id": "velnor",
-            "term": "Velnor"
-          },
-          {
-            "id": "velpralaen",
-            "term": "Velpralaen"
-          },
-          {
-            "id": "velpralim",
-            "term": "Velpralim"
-          },
-          {
-            "id": "velpralor",
-            "term": "Velpralor"
-          },
-          {
-            "id": "velpraltrakor",
-            "term": "Velpraltrakor"
-          },
-          {
-            "id": "velrathor",
-            "term": "Velrathor"
-          },
-          {
-            "id": "velterim",
-            "term": "Velterim"
-          },
-          {
-            "id": "velthaelvok",
-            "term": "Velthaelvok"
-          },
-          {
-            "id": "velthaen",
-            "term": "Velthaen"
-          },
-          {
-            "id": "velthamor",
-            "term": "Velthamor"
-          },
-          {
-            "id": "velvaraen",
-            "term": "Velvaraen"
-          },
-          {
-            "id": "velxar",
-            "term": "Velxar"
-          },
-          {
-            "id": "velxorin",
-            "term": "Velxorin"
-          },
-          {
-            "id": "velzhiraen",
-            "term": "Velzhiraen"
           }
         ]
       }
@@ -19224,7 +19194,9 @@
     "familyRoots": [
       "KHUM"
     ],
-    "sharedAffixes": [],
+    "sharedAffixes": [
+      "-eth"
+    ],
     "components": [
       {
         "form": "Khum",
@@ -19237,13 +19209,13 @@
         "entryId": "LX-V2-0133"
       },
       {
-        "form": "Eth",
-        "description": "(sacred act/embrace - assuming ) / Meaning: Sacred Ritual / Ceremony / Circle Rite",
-        "source": "Khum (circle/reconciliation) + Eth (sacred act/embrace - assuming ) / Meaning: Sacred Ritual / Ceremony / Circle Rite. Refers to a formal spiritual practice or ceremony. / Example: Nor-var Tharvok khumeth an Zhaelor. (The Family will perform the ritual in the Spring (season).)",
-        "id": "word:eth",
-        "kind": "word",
-        "target": "eth",
-        "meaning": "(sacred act/embrace - assuming ) / Meaning: Sacred Ritual / Ceremony / Circle Rite",
+        "form": "-eth",
+        "description": "elevated or ritual noun suffix",
+        "source": "Current approved Eth/-eth distinction",
+        "id": "suffix:eth",
+        "kind": "affix",
+        "target": "-eth",
+        "meaning": "ritual noun suffix",
         "entryId": "LX-V2-0133"
       }
     ],
@@ -19262,8 +19234,8 @@
         "term": "Khum-"
       },
       {
-        "id": "eth",
-        "term": "Eth"
+        "id": "-eth",
+        "term": "-eth"
       },
       {
         "id": "khumkel",
@@ -19326,16 +19298,16 @@
         ]
       },
       {
-        "key": "word:eth",
-        "label": "Eth",
+        "key": "suffix:eth",
+        "label": "-eth",
         "entries": [
           {
             "id": "dralshaneth",
             "term": "Dralshaneth"
           },
           {
-            "id": "eth",
-            "term": "Eth"
+            "id": "-eth",
+            "term": "-eth"
           },
           {
             "id": "kilveth",
@@ -22208,10 +22180,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -22378,10 +22346,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -25204,6 +25168,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -25338,6 +25306,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       }
@@ -26638,10 +26610,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -26808,10 +26776,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       }
@@ -27105,6 +27069,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -27313,6 +27281,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       }
@@ -28778,10 +28750,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -29094,10 +29062,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       }
@@ -31841,6 +31805,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -32081,6 +32049,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       }
@@ -32966,10 +32938,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -33170,10 +33138,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -35079,10 +35043,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -35249,10 +35209,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -36963,10 +36919,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -37133,10 +37085,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       }
@@ -38644,10 +38592,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -38840,10 +38784,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       }
@@ -39786,10 +39726,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -39970,10 +39906,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       }
@@ -41759,10 +41691,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -42095,10 +42023,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -42609,10 +42533,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -42937,10 +42857,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       }
@@ -43198,6 +43114,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -43332,6 +43252,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       }
@@ -44444,6 +44368,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -44578,6 +44506,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       }
@@ -45281,10 +45213,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -45451,10 +45379,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       }
@@ -46193,10 +46117,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -46445,10 +46365,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -49343,10 +49259,6 @@
         "term": "Tenarpralaen"
       },
       {
-        "id": "xarvel",
-        "term": "Xarvel"
-      },
-      {
         "id": "vekpralor",
         "term": "Vekpralor"
       },
@@ -49531,10 +49443,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -50010,6 +49918,10 @@
       {
         "id": "pralfel",
         "term": "Pralfel"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -50144,6 +50056,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -50744,10 +50660,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -50914,10 +50826,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       }
@@ -52725,6 +52633,10 @@
       {
         "id": "zorxar",
         "term": "Zorxar"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -53037,6 +52949,10 @@
           {
             "id": "pralfel",
             "term": "Pralfel"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -54128,10 +54044,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -54316,10 +54228,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       }
@@ -57086,11 +56994,23 @@
     }
   },
   "zhaeaen": {
-    "familyRoots": [],
+    "familyRoots": [
+      "Zhae-"
+    ],
     "sharedAffixes": [
       "-aen"
     ],
     "components": [
+      {
+        "form": "Zhae-",
+        "description": "light or empathy",
+        "source": "From Zhae- (Light/Empathy) + -aen.",
+        "id": "root:zhae",
+        "kind": "root",
+        "target": "zhae-",
+        "meaning": "Light, empathy",
+        "entryId": "LX-V3-0105"
+      },
       {
         "form": "-aen",
         "description": "",
@@ -57100,25 +57020,27 @@
         "target": "-aen",
         "meaning": "Verb-forming",
         "entryId": "LX-V3-0105"
-      },
-      {
-        "form": "From",
-        "description": "Zhae- (Light/Empathy)",
-        "source": "From Zhae- (Light/Empathy) + -aen. / Usage: Standard verb, follows VSO. Zhaeaen Azron ser Nkathal. (The woman empathizes with the sadness.)",
-        "id": "local:zhaeaen:From",
-        "kind": "local",
-        "target": null,
-        "meaning": "Zhae- (Light/Empathy)",
-        "entryId": "LX-V3-0105"
       }
     ],
     "notes": [],
-    "relatedEntries": [],
-    "relatedGroups": [],
-    "morphologyReview": {
-      "status": "open",
-      "reason": "A parsed editorial word appears among the parts; the raw record is kept but the breakdown is hidden."
-    }
+    "relatedEntries": [
+      {
+        "id": "zhae-",
+        "term": "Zhae-"
+      }
+    ],
+    "relatedGroups": [
+      {
+        "key": "root:zhae",
+        "label": "Zhae-",
+        "entries": [
+          {
+            "id": "zhae-",
+            "term": "Zhae-"
+          }
+        ]
+      }
+    ]
   },
   "vaar'kelaen": {
     "familyRoots": [],
@@ -58382,7 +58304,9 @@
       "TERRA",
       "SHAN"
     ],
-    "sharedAffixes": [],
+    "sharedAffixes": [
+      "-eth"
+    ],
     "components": [
       {
         "form": "Terra",
@@ -58405,13 +58329,13 @@
         "entryId": "LX-V3-0109"
       },
       {
-        "form": "eth",
-        "description": "(sacred)",
-        "source": "Terra (earth) + shan (pass) + eth (sacred).",
-        "id": "word:eth",
-        "kind": "word",
-        "target": "eth",
-        "meaning": "(sacred)",
+        "form": "-eth",
+        "description": "elevated or ritual noun suffix",
+        "source": "Current approved Eth/-eth distinction",
+        "id": "suffix:eth",
+        "kind": "affix",
+        "target": "-eth",
+        "meaning": "ritual noun suffix",
         "entryId": "LX-V3-0109"
       }
     ],
@@ -58438,8 +58362,8 @@
         "term": "Anshanaen"
       },
       {
-        "id": "eth",
-        "term": "Eth"
+        "id": "-eth",
+        "term": "-eth"
       },
       {
         "id": "teravin",
@@ -58808,16 +58732,16 @@
         ]
       },
       {
-        "key": "word:eth",
-        "label": "Eth",
+        "key": "suffix:eth",
+        "label": "-eth",
         "entries": [
           {
             "id": "dralshaneth",
             "term": "Dralshaneth"
           },
           {
-            "id": "eth",
-            "term": "Eth"
+            "id": "-eth",
+            "term": "-eth"
           },
           {
             "id": "khumeth",
@@ -59354,10 +59278,6 @@
         "term": "Tenarpralaen"
       },
       {
-        "id": "xarvel",
-        "term": "Xarvel"
-      },
-      {
         "id": "vekpralor",
         "term": "Vekpralor"
       },
@@ -59718,10 +59638,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -60853,7 +60769,9 @@
       "DRAL",
       "SHAN"
     ],
-    "sharedAffixes": [],
+    "sharedAffixes": [
+      "-eth"
+    ],
     "components": [
       {
         "form": "Dral",
@@ -60876,13 +60794,13 @@
         "entryId": "LX-V3-0113"
       },
       {
-        "form": "eth",
-        "description": "(sacred)",
-        "source": "Dral (heavens) + shan (pass) + eth (sacred).",
-        "id": "word:eth",
-        "kind": "word",
-        "target": "eth",
-        "meaning": "(sacred)",
+        "form": "-eth",
+        "description": "elevated or ritual noun suffix",
+        "source": "Current approved Eth/-eth distinction",
+        "id": "suffix:eth",
+        "kind": "affix",
+        "target": "-eth",
+        "meaning": "ritual noun suffix",
         "entryId": "LX-V3-0113"
       }
     ],
@@ -60897,8 +60815,8 @@
         "term": "Shan"
       },
       {
-        "id": "eth",
-        "term": "Eth"
+        "id": "-eth",
+        "term": "-eth"
       },
       {
         "id": "dralbelaen",
@@ -61271,12 +61189,12 @@
         ]
       },
       {
-        "key": "word:eth",
-        "label": "Eth",
+        "key": "suffix:eth",
+        "label": "-eth",
         "entries": [
           {
-            "id": "eth",
-            "term": "Eth"
+            "id": "-eth",
+            "term": "-eth"
           },
           {
             "id": "khumeth",
@@ -62127,7 +62045,9 @@
       "VEL",
       "MARIN"
     ],
-    "sharedAffixes": [],
+    "sharedAffixes": [
+      "-eth"
+    ],
     "components": [
       {
         "form": "Vel",
@@ -62150,13 +62070,13 @@
         "entryId": "LX-V3-0116"
       },
       {
-        "form": "eth",
-        "description": "(sacred)",
-        "source": "Vel (wisdom) + marin (branch) + eth (sacred).",
-        "id": "word:eth",
-        "kind": "word",
-        "target": "eth",
-        "meaning": "(sacred)",
+        "form": "-eth",
+        "description": "elevated or ritual noun suffix",
+        "source": "Current approved Eth/-eth distinction",
+        "id": "suffix:eth",
+        "kind": "affix",
+        "target": "-eth",
+        "meaning": "ritual noun suffix",
         "entryId": "LX-V3-0116"
       }
     ],
@@ -62183,8 +62103,8 @@
         "term": "Velmarin"
       },
       {
-        "id": "eth",
-        "term": "Eth"
+        "id": "-eth",
+        "term": "-eth"
       },
       {
         "id": "eshvelaneth",
@@ -62349,10 +62269,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -62519,10 +62435,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -62545,16 +62457,16 @@
         ]
       },
       {
-        "key": "word:eth",
-        "label": "Eth",
+        "key": "suffix:eth",
+        "label": "-eth",
         "entries": [
           {
             "id": "dralshaneth",
             "term": "Dralshaneth"
           },
           {
-            "id": "eth",
-            "term": "Eth"
+            "id": "-eth",
+            "term": "-eth"
           },
           {
             "id": "khumeth",
@@ -62876,10 +62788,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -63076,10 +62984,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -64435,10 +64339,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -64605,10 +64505,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -65507,10 +65403,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -65739,10 +65631,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -69785,6 +69673,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -69919,6 +69811,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       }
@@ -70822,10 +70718,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -70992,10 +70884,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       }
@@ -75780,10 +75668,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -75950,10 +75834,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       }
@@ -79721,10 +79601,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -79891,10 +79767,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -84779,471 +84651,19 @@
     }
   },
   "eth": {
-    "familyRoots": [],
-    "sharedAffixes": [
-      "-eth"
+    "familyRoots": [
+      "ETH"
     ],
+    "sharedAffixes": [],
     "components": [],
-    "notes": [],
-    "relatedEntries": [
-      {
-        "id": "dralshaneth",
-        "term": "Dralshaneth"
-      },
-      {
-        "id": "-eth",
-        "term": "-eth"
-      },
-      {
-        "id": "khumeth",
-        "term": "Khumeth"
-      },
-      {
-        "id": "arueth",
-        "term": "Arueth"
-      },
-      {
-        "id": "kilveth",
-        "term": "Kilveth"
-      },
-      {
-        "id": "drenartheth",
-        "term": "Drenartheth"
-      },
-      {
-        "id": "terrashaneth",
-        "term": "Terrashaneth"
-      },
-      {
-        "id": "dreneth",
-        "term": "Dreneth"
-      },
-      {
-        "id": "velmarineth",
-        "term": "Velmarineth"
-      },
-      {
-        "id": "dumeth",
-        "term": "Dumeth"
-      },
-      {
-        "id": "emilpraleth",
-        "term": "Emilpraleth"
-      },
-      {
-        "id": "faheth",
-        "term": "Faheth"
-      },
-      {
-        "id": "feleth",
-        "term": "Feleth"
-      },
-      {
-        "id": "feneth",
-        "term": "Feneth"
-      },
-      {
-        "id": "gormeth",
-        "term": "Gormeth"
-      },
-      {
-        "id": "haveth",
-        "term": "Haveth"
-      },
-      {
-        "id": "joreth",
-        "term": "Joreth"
-      },
-      {
-        "id": "kaarueth",
-        "term": "Kaarueth"
-      },
-      {
-        "id": "kadreneth",
-        "term": "Kadreneth"
-      },
-      {
-        "id": "kakesrineth",
-        "term": "Kakesrineth"
-      },
-      {
-        "id": "kareth",
-        "term": "Kareth"
-      },
-      {
-        "id": "kaveth",
-        "term": "Kaveth"
-      },
-      {
-        "id": "kaweleth",
-        "term": "Kaweleth"
-      },
-      {
-        "id": "korineth",
-        "term": "Korineth"
-      },
-      {
-        "id": "luneth",
-        "term": "Luneth"
-      },
-      {
-        "id": "maganeth",
-        "term": "Maganeth"
-      },
-      {
-        "id": "mavbaleth",
-        "term": "Mavbaleth"
-      },
-      {
-        "id": "mavbalshaneth",
-        "term": "Mavbalshaneth"
-      },
-      {
-        "id": "maveth",
-        "term": "Maveth"
-      },
-      {
-        "id": "moreth",
-        "term": "Moreth"
-      },
-      {
-        "id": "normaveth",
-        "term": "Normaveth"
-      },
-      {
-        "id": "nyeleth",
-        "term": "Nyeleth"
-      },
-      {
-        "id": "peleth",
-        "term": "Peleth"
-      },
-      {
-        "id": "pelsheneth",
-        "term": "Pelsheneth"
-      },
-      {
-        "id": "praketh",
-        "term": "Praketh"
-      },
-      {
-        "id": "rethkaleth",
-        "term": "Rethkaleth"
-      },
-      {
-        "id": "rinbeleth",
-        "term": "Rinbeleth"
-      },
-      {
-        "id": "ruvaneth",
-        "term": "Ruvaneth"
-      },
-      {
-        "id": "selineth",
-        "term": "Selineth"
-      },
-      {
-        "id": "shalbaleth",
-        "term": "Shalbaleth"
-      },
-      {
-        "id": "shaleth",
-        "term": "Shaleth"
-      },
-      {
-        "id": "shanartheth",
-        "term": "Shanartheth"
-      },
-      {
-        "id": "shenbeleth",
-        "term": "Shenbeleth"
-      },
-      {
-        "id": "shenlianeth",
-        "term": "Shenlianeth"
-      },
-      {
-        "id": "songaeth",
-        "term": "Songaeth"
-      },
-      {
-        "id": "tlamoreth",
-        "term": "Tlamoreth"
-      },
-      {
-        "id": "vaareth",
-        "term": "Vaareth"
-      },
-      {
-        "id": "varokrakueth",
-        "term": "Varokrakueth"
-      },
-      {
-        "id": "veleth",
-        "term": "Veleth"
-      },
-      {
-        "id": "vethshaleth",
-        "term": "Vethshaleth"
-      },
-      {
-        "id": "voraeth",
-        "term": "Voraeth"
-      },
-      {
-        "id": "weleth",
-        "term": "Weleth"
-      },
-      {
-        "id": "woreth",
-        "term": "Woreth"
-      },
-      {
-        "id": "zhaeleth",
-        "term": "Zhaeleth"
-      },
-      {
-        "id": "zhelshaneth",
-        "term": "Zhelshaneth"
-      }
+    "notes": [
+      "Standalone noun: essence or inherent nature. This is distinct from the -eth suffix."
     ],
-    "relatedGroups": [
-      {
-        "key": "word:eth",
-        "label": "Eth",
-        "entries": [
-          {
-            "id": "dralshaneth",
-            "term": "Dralshaneth"
-          },
-          {
-            "id": "khumeth",
-            "term": "Khumeth"
-          },
-          {
-            "id": "kilveth",
-            "term": "Kilveth"
-          },
-          {
-            "id": "terrashaneth",
-            "term": "Terrashaneth"
-          },
-          {
-            "id": "velmarineth",
-            "term": "Velmarineth"
-          }
-        ]
-      },
-      {
-        "key": "suffix:eth",
-        "label": "-eth",
-        "entries": [
-          {
-            "id": "-eth",
-            "term": "-eth"
-          },
-          {
-            "id": "arueth",
-            "term": "Arueth"
-          },
-          {
-            "id": "drenartheth",
-            "term": "Drenartheth"
-          },
-          {
-            "id": "dreneth",
-            "term": "Dreneth"
-          },
-          {
-            "id": "dumeth",
-            "term": "Dumeth"
-          },
-          {
-            "id": "emilpraleth",
-            "term": "Emilpraleth"
-          },
-          {
-            "id": "faheth",
-            "term": "Faheth"
-          },
-          {
-            "id": "feleth",
-            "term": "Feleth"
-          },
-          {
-            "id": "feneth",
-            "term": "Feneth"
-          },
-          {
-            "id": "gormeth",
-            "term": "Gormeth"
-          },
-          {
-            "id": "haveth",
-            "term": "Haveth"
-          },
-          {
-            "id": "joreth",
-            "term": "Joreth"
-          },
-          {
-            "id": "kaarueth",
-            "term": "Kaarueth"
-          },
-          {
-            "id": "kadreneth",
-            "term": "Kadreneth"
-          },
-          {
-            "id": "kakesrineth",
-            "term": "Kakesrineth"
-          },
-          {
-            "id": "kareth",
-            "term": "Kareth"
-          },
-          {
-            "id": "kaveth",
-            "term": "Kaveth"
-          },
-          {
-            "id": "kaweleth",
-            "term": "Kaweleth"
-          },
-          {
-            "id": "korineth",
-            "term": "Korineth"
-          },
-          {
-            "id": "luneth",
-            "term": "Luneth"
-          },
-          {
-            "id": "maganeth",
-            "term": "Maganeth"
-          },
-          {
-            "id": "mavbaleth",
-            "term": "Mavbaleth"
-          },
-          {
-            "id": "mavbalshaneth",
-            "term": "Mavbalshaneth"
-          },
-          {
-            "id": "maveth",
-            "term": "Maveth"
-          },
-          {
-            "id": "moreth",
-            "term": "Moreth"
-          },
-          {
-            "id": "normaveth",
-            "term": "Normaveth"
-          },
-          {
-            "id": "nyeleth",
-            "term": "Nyeleth"
-          },
-          {
-            "id": "peleth",
-            "term": "Peleth"
-          },
-          {
-            "id": "pelsheneth",
-            "term": "Pelsheneth"
-          },
-          {
-            "id": "praketh",
-            "term": "Praketh"
-          },
-          {
-            "id": "rethkaleth",
-            "term": "Rethkaleth"
-          },
-          {
-            "id": "rinbeleth",
-            "term": "Rinbeleth"
-          },
-          {
-            "id": "ruvaneth",
-            "term": "Ruvaneth"
-          },
-          {
-            "id": "selineth",
-            "term": "Selineth"
-          },
-          {
-            "id": "shalbaleth",
-            "term": "Shalbaleth"
-          },
-          {
-            "id": "shaleth",
-            "term": "Shaleth"
-          },
-          {
-            "id": "shanartheth",
-            "term": "Shanartheth"
-          },
-          {
-            "id": "shenbeleth",
-            "term": "Shenbeleth"
-          },
-          {
-            "id": "shenlianeth",
-            "term": "Shenlianeth"
-          },
-          {
-            "id": "songaeth",
-            "term": "Songaeth"
-          },
-          {
-            "id": "tlamoreth",
-            "term": "Tlamoreth"
-          },
-          {
-            "id": "vaareth",
-            "term": "Vaareth"
-          },
-          {
-            "id": "varokrakueth",
-            "term": "Varokrakueth"
-          },
-          {
-            "id": "veleth",
-            "term": "Veleth"
-          },
-          {
-            "id": "vethshaleth",
-            "term": "Vethshaleth"
-          },
-          {
-            "id": "voraeth",
-            "term": "Voraeth"
-          },
-          {
-            "id": "weleth",
-            "term": "Weleth"
-          },
-          {
-            "id": "woreth",
-            "term": "Woreth"
-          },
-          {
-            "id": "zhaeleth",
-            "term": "Zhaeleth"
-          },
-          {
-            "id": "zhelshaneth",
-            "term": "Zhelshaneth"
-          }
-        ]
-      }
-    ],
+    "relatedEntries": [],
+    "relatedGroups": [],
     "familyReview": {
-      "status": "open",
-      "reason": "The complete link set cannot yet be assigned to a particular meaning without implying an unsupported origin."
+      "status": "reviewed",
+      "reason": "Standalone Eth has no derived family links confirmed by this settlement."
     }
   },
   "droshen": {
@@ -93964,10 +93384,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -94134,10 +93550,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -95374,10 +94786,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -95544,10 +94952,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -95877,10 +95281,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -96047,10 +95447,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -107354,10 +106750,6 @@
       {
         "id": "velxorin",
         "term": "Velxorin"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -107524,10 +106916,6 @@
           {
             "id": "velxorin",
             "term": "Velxorin"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -108161,10 +107549,6 @@
       {
         "id": "velxorin",
         "term": "Velxorin"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -108441,10 +107825,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -109465,6 +108845,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -109599,6 +108983,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -123437,6 +122825,10 @@
       {
         "id": "zordrenvinaen",
         "term": "Zordrenvinaen"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -123571,6 +122963,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -127233,6 +126629,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -127367,6 +126767,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -130650,6 +130054,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -130784,6 +130192,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -132279,10 +131691,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -132449,10 +131857,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -139067,6 +138471,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -139201,6 +138609,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -149090,6 +148502,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -149224,6 +148640,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -151097,6 +150517,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -151231,6 +150655,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -152617,6 +152045,10 @@
       {
         "id": "zhelpralaen",
         "term": "Zhelpralaen"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -152949,6 +152381,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       }
@@ -157229,6 +156665,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -157363,6 +156803,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -160038,10 +159482,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -160208,10 +159648,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -162703,10 +162139,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -162873,10 +162305,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -163642,10 +163070,6 @@
         "term": "Tenarpralaen"
       },
       {
-        "id": "xarvel",
-        "term": "Xarvel"
-      },
-      {
         "id": "vekpralor",
         "term": "Vekpralor"
       },
@@ -163830,10 +163254,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -164362,10 +163782,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -164638,10 +164054,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -169644,6 +169056,10 @@
       {
         "id": "zhivorin",
         "term": "Zhivorin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -169778,6 +169194,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -178514,6 +177934,10 @@
       {
         "id": "zhelvek",
         "term": "Zhelvek"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -178648,6 +178072,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -197108,6 +196536,10 @@
       {
         "id": "zhirvek",
         "term": "Zhirvek"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -197242,6 +196674,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -209060,10 +208496,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -209230,10 +208662,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -210898,6 +210326,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -211032,6 +210464,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -221836,10 +221272,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -222006,10 +221438,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -241436,6 +240864,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -241570,6 +241002,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -274513,10 +273949,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -274683,10 +274115,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -275128,10 +274556,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -275298,10 +274722,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -280210,6 +279630,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -280344,6 +279768,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -284986,6 +284414,10 @@
       {
         "id": "zordrenvinaen",
         "term": "Zordrenvinaen"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -285286,6 +284718,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       }
@@ -285464,6 +284900,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -285598,6 +285038,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -293455,10 +292899,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -293815,6 +293255,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -293949,6 +293393,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -315818,6 +315266,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -315952,6 +315404,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -328698,6 +328154,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -328846,6 +328306,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       }
@@ -329446,6 +328910,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -329622,6 +329090,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -330528,6 +330000,10 @@
       {
         "id": "welmor",
         "term": "Welmor"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -330662,6 +330138,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -336168,6 +335648,10 @@
       {
         "id": "zhaelshen",
         "term": "Zhaelshen"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -336302,6 +335786,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -339882,6 +339370,10 @@
       {
         "id": "xarfelvin",
         "term": "Xarfelvin"
+      },
+      {
+        "id": "azfel",
+        "term": "Azfel"
       }
     ],
     "relatedGroups": [
@@ -340016,6 +339508,10 @@
           {
             "id": "xarfelvin",
             "term": "Xarfelvin"
+          },
+          {
+            "id": "azfel",
+            "term": "Azfel"
           }
         ]
       },
@@ -351718,10 +351214,6 @@
         "term": "Tenarpralaen"
       },
       {
-        "id": "xarvel",
-        "term": "Xarvel"
-      },
-      {
         "id": "vekpralor",
         "term": "Vekpralor"
       },
@@ -351906,10 +351398,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       },
@@ -374620,7 +374108,7 @@
     "sharedAffixes": [],
     "components": [],
     "notes": [
-      "Physical concrete extension of IM internal essence, underlying mechanism, or abstract result-state: device, instrument, mechanism."
+      "Im names a device or instrument and also appears as an element inside ritual names."
     ],
     "relatedEntries": [
       {
@@ -374681,8 +374169,7 @@
       }
     ],
     "familySenseIds": [
-      "im-s1",
-      "im-s2"
+      "im-s1"
     ]
   },
   "dreshal": {
@@ -377230,10 +376717,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -377510,10 +376993,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       }
@@ -380592,10 +380071,6 @@
       {
         "id": "velzhiraen",
         "term": "Velzhiraen"
-      },
-      {
-        "id": "xarvel",
-        "term": "Xarvel"
       }
     ],
     "relatedGroups": [
@@ -380762,10 +380237,6 @@
           {
             "id": "velzhiraen",
             "term": "Velzhiraen"
-          },
-          {
-            "id": "xarvel",
-            "term": "Xarvel"
           }
         ]
       }
@@ -385980,8 +385451,24 @@
     "sharedAffixes": [],
     "components": [],
     "notes": [],
-    "relatedEntries": [],
-    "relatedGroups": []
+    "relatedEntries": [
+      {
+        "id": "zhaeaen",
+        "term": "Zhaeaen"
+      }
+    ],
+    "relatedGroups": [
+      {
+        "key": "root:zhae",
+        "label": "Zhae-",
+        "entries": [
+          {
+            "id": "zhaeaen",
+            "term": "Zhaeaen"
+          }
+        ]
+      }
+    ]
   },
   "nku-": {
     "familyRoots": [
@@ -386024,16 +385511,6 @@
         ]
       }
     ]
-  },
-  "tl-": {
-    "familyRoots": [
-      "Tl-"
-    ],
-    "sharedAffixes": [],
-    "components": [],
-    "notes": [],
-    "relatedEntries": [],
-    "relatedGroups": []
   },
   "-in": {
     "familyRoots": [],
@@ -388375,17 +387852,9 @@
       "-el"
     ],
     "components": [],
-    "notes": [],
-    "relatedEntries": [],
-    "relatedGroups": []
-  },
-  "-vel": {
-    "familyRoots": [],
-    "sharedAffixes": [
-      "-vel"
+    "notes": [
+      "Ohmbaen-el illustrates the affectionate ending."
     ],
-    "components": [],
-    "notes": [],
     "relatedEntries": [],
     "relatedGroups": []
   },
@@ -388487,7 +387956,9 @@
       "-eth"
     ],
     "components": [],
-    "notes": [],
+    "notes": [
+      "The -eth ending has adjectival and elevated/ritual noun uses. Standalone Eth is a separate noun."
+    ],
     "relatedEntries": [
       {
         "id": "shaleth",
@@ -388504,6 +387975,26 @@
       {
         "id": "kaleth",
         "term": "Kaleth"
+      },
+      {
+        "id": "kilveth",
+        "term": "Kilveth"
+      },
+      {
+        "id": "khumeth",
+        "term": "Khumeth"
+      },
+      {
+        "id": "terrashaneth",
+        "term": "Terrashaneth"
+      },
+      {
+        "id": "dralshaneth",
+        "term": "Dralshaneth"
+      },
+      {
+        "id": "velmarineth",
+        "term": "Velmarineth"
       }
     ],
     "relatedGroups": [
@@ -388544,6 +388035,32 @@
           {
             "id": "woreth",
             "term": "Woreth"
+          }
+        ]
+      },
+      {
+        "key": "approved-ritual",
+        "label": "Ritual nouns with -eth",
+        "entries": [
+          {
+            "id": "kilveth",
+            "term": "Kilveth"
+          },
+          {
+            "id": "khumeth",
+            "term": "Khumeth"
+          },
+          {
+            "id": "terrashaneth",
+            "term": "Terrashaneth"
+          },
+          {
+            "id": "dralshaneth",
+            "term": "Dralshaneth"
+          },
+          {
+            "id": "velmarineth",
+            "term": "Velmarineth"
           }
         ]
       }

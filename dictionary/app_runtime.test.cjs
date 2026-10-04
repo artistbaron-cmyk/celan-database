@@ -16,7 +16,7 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
 (async()=>{
  const api=context.appTest;
  for(let i=0;i<100&&!api.state.groupedEntries.length;i++)await new Promise(resolve=>setTimeout(resolve,50));
- assert.equal(api.state.groupedEntries.length,1496);
+ assert.equal(api.state.groupedEntries.length,1494);
  const dren=api.findBestLexiconMatch('Dren');
  assert.ok(dren);
  assert.ok(api.findEnglishMatches(dren,'water').length);
@@ -40,8 +40,8 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  assert.ok(api.state.rootLookup.length>0);
  assert.ok(api.state.forgeParts.length>0);
  const visibleCount=api.state.groupedEntries.reduce((count,group)=>count+group.englishSenses.length,0);
- assert.equal(visibleCount,1607);
- assert.equal(api.state.groupedEntries.reduce((count,group)=>count+api.displayUses(group).length,0),1607);
+ assert.equal(visibleCount,1603);
+ assert.equal(api.state.groupedEntries.reduce((count,group)=>count+api.displayUses(group).length,0),1603);
  const senseIds=new Set();
  for(const group of api.state.groupedEntries){
    const visible=api.displayUses(group);
@@ -77,7 +77,7 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
      }
    }
  }
- assert.equal(senseIds.size,1607);
+ assert.equal(senseIds.size,1603);
  api.renderDetail(api.findBestLexiconMatch('Aenor'));
  let page=elements.get('detailView').innerHTML;
  assert.match(api.findBestLexiconMatch('Aenor').searchText,/breath/,'search must include visible word parts');

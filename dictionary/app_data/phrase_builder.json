@@ -2451,21 +2451,16 @@
     {
       "normalized": "vel",
       "forms": [
-        "Vel",
-        "-vel"
+        "Vel"
       ],
       "labels": [
-        "Root Word",
-        "Suffix"
+        "Root Word"
       ],
       "meanings": [
-        "Wisdom; stillness; cold endurance",
-        "Bread shared among us"
+        "Wisdom; stillness; cold endurance"
       ],
       "sourceIds": [
-        "XR-vel",
-        "DM-RM-V3-0013",
-        "RM-V3-0013"
+        "XR-vel"
       ]
     },
     {
@@ -3231,23 +3226,6 @@
       ]
     },
     {
-      "normalized": "tl",
-      "forms": [
-        "Tl-"
-      ],
-      "labels": [
-        "Prefix",
-        "Root Word"
-      ],
-      "meanings": [
-        "Movement, flow"
-      ],
-      "sourceIds": [
-        "DM-RM-V2-0028",
-        "RM-V2-0028"
-      ]
-    },
-    {
       "normalized": "in",
       "forms": [
         "-in"
@@ -3326,7 +3304,7 @@
         "Suffix"
       ],
       "meanings": [
-        "Beloved bound to them"
+        "Beloved bond; endearment; attached affection"
       ],
       "sourceIds": [
         "DM-RM-V3-0012",
@@ -6325,11 +6303,13 @@
       ],
       "evidenceTerms": [
         "Kadfel",
-        "Felin"
+        "Felin",
+        "Azfel"
       ],
       "evidence": [
         "Kadfel",
-        "Felin"
+        "Felin",
+        "Azfel"
       ],
       "linkedEntryIds": [],
       "anchorType": "morpheme",
@@ -7876,20 +7856,6 @@
       "sharedAffix": true
     },
     {
-      "id": "suffix:vel",
-      "form": "-vel",
-      "normalized": "vel",
-      "meaning": "Bread shared among us",
-      "meanings": [
-        "Bread shared among us"
-      ],
-      "evidenceTerms": [],
-      "evidence": [],
-      "linkedEntryIds": [],
-      "anchorType": "suffix",
-      "sharedAffix": true
-    },
-    {
       "id": "prefix:ten",
       "form": "Ten-",
       "normalized": "ten",
@@ -8112,28 +8078,6 @@
       "sharedAffix": false
     },
     {
-      "id": "root:el",
-      "form": "EL",
-      "normalized": "el",
-      "meaning": "Beloved bond; endearment; attached affection",
-      "meanings": [
-        "Beloved bond; endearment; attached affection"
-      ],
-      "evidenceTerms": [
-        "-el",
-        "Azfel",
-        "Ohmbaen-el"
-      ],
-      "evidence": [
-        "-el",
-        "Azfel",
-        "Ohmbaen-el"
-      ],
-      "linkedEntryIds": [],
-      "anchorType": "morpheme",
-      "sharedAffix": false
-    },
-    {
       "id": "root:ka",
       "form": "KA",
       "normalized": "ka",
@@ -8271,24 +8215,6 @@
       "sharedAffix": true
     },
     {
-      "id": "root:tl",
-      "form": "Tl-",
-      "normalized": "tl",
-      "meaning": "Movement, flow",
-      "meanings": [
-        "Movement, flow"
-      ],
-      "evidenceTerms": [
-        "Tlenav"
-      ],
-      "evidence": [
-        "Tlenav"
-      ],
-      "linkedEntryIds": [],
-      "anchorType": "root",
-      "sharedAffix": false
-    },
-    {
       "id": "suffix:in",
       "form": "-in",
       "normalized": "in",
@@ -8382,12 +8308,16 @@
       "id": "suffix:el",
       "form": "-el",
       "normalized": "el",
-      "meaning": "Beloved bound to them",
+      "meaning": "Beloved bond; endearment; attached affection",
       "meanings": [
-        "Beloved bound to them"
+        "Beloved bond; endearment; attached affection"
       ],
-      "evidenceTerms": [],
-      "evidence": [],
+      "evidenceTerms": [
+        "Ohmbaen-el"
+      ],
+      "evidence": [
+        "Ohmbaen-el"
+      ],
       "linkedEntryIds": [],
       "anchorType": "suffix",
       "sharedAffix": true

@@ -188,7 +188,7 @@ belshara,3,Yes,Modal,Necessity (Must/Have to),"""on a bound path""",,LX-V2-0130;
 belshara,4,Yes,Noun,Necessity / Obligation,,,LX-V2-0130; LX-V4-0002; LX-V4-0066,belshara-s4
 rathvethor,1,Yes,Noun,Hidden Enemy / Ambush / Unseen Threat. Used when scouting or warning about potential ambushes or concealed enemies.,Rath (enemy/foe) + Vethor (shadow/mystery),,LX-V2-0131,rathvethor-s1
 lianaen,1,Yes,Verb,To Pray / Prayer / Speaking Truth (to the divine/Heart/Balance). The act of spiritual communion or supplication.,Lian (truth) + -aen (verb-forming),,LX-V2-0132,lianaen-s1
-khumeth,1,Yes,Noun,Sacred Ritual / Ceremony / Circle Rite. Refers to a formal spiritual practice or ceremony.,Khum (circle/reconciliation) + Eth (sacred act/embrace - assuming ),,LX-V2-0133,khumeth-s1
+khumeth,1,Yes,Noun,Sacred Ritual / Ceremony / Circle Rite. Refers to a formal spiritual practice or ceremony.,Khum (circle/reconciliation) + -eth (ritual noun suffix),,LX-V2-0133,khumeth-s1
 talrin,1,Yes,Noun,Offering / Spiritual Sacrifice (of self/intent/item). The act of giving something (physical or metaphorical) as part of a ritual.,Tal (give/offer) + Rin (essence),,LX-V2-0134,talrin-s1
 rinvarash,1,Yes,Noun,Prophetic Vision / Spiritual Insight / Glimpse of Essence. Refers to receiving divine guidance or seeing future possibilities through spiritual connection.,Rin (essence) + Varash (future/prophecy),,LX-V2-0136,rinvarash-s1
 belshen,1,Yes,Noun,Price / Binding Value / Agreed Cost. The established or negotiated value that binds a trade.,Bel (bind/weave) + Shen(akar) (coinage - shortening for flow),,LX-V2-0137,belshen-s1
@@ -506,8 +506,7 @@ pral,2,Yes,Verb,Make,,,LX-V4-0119; XR-pral; DM-RM-V2-0010,pral-s2
 pral,3,Yes,Noun,Intricacy / Detail,,,LX-V4-0119; XR-pral; DM-RM-V2-0010,pral-s3
 vok,1,Yes,Noun,Unity / Bond,,,LX-V4-0120; XR-vok,vok-s1
 vok,2,Yes,Verb,Betray,,,LX-V4-0120; XR-vok,vok-s2
-eth,1,Yes,Suffix,"-like, -ful",Essential manifestation as quality or formal act.,,LX-V4-0122,eth-s1
-eth,2,Yes,Suffix,sacred act of,Essential manifestation as quality or formal act.,,LX-V4-0122,eth-s2
+eth,1,Yes,Noun,Essence / inherent quality,Primordial standalone root naming a thing's inherent nature; distinct from the -eth ending.,,LX-V4-0122,eth-s3
 droshen,1,Yes,Noun,Water ration,,,LX-NE1-0001,droshen-s1
 drokav,1,Yes,Noun,Cistern; protected water reserve,,,LX-NE1-0002,drokav-s1
 droral,1,Yes,Noun,Water keeper; water steward,,,LX-NE1-0003,droral-s1
@@ -1515,8 +1514,8 @@ vrak,2,Yes,Particle,Gone / Missing / Depleted (Trerran dialect),,,LX-DR1-0014,vr
 theren,1,Yes,Noun,Village / Settlement / Local community,,,LX-DR1-0015,theren-s1
 serilin,1,Yes,Noun,Sister / Female sibling,,,LX-DR1-0016,serilin-s1
 aelin,1,Yes,Noun,Youth / Young person / Student / Pupil,,,LX-DR1-0017,aelin-s1
-im,1,Yes,Noun,Device / Instrument / Implement / Internal mechanism,,,LX-DR1-0018,im-s1
-im,2,Yes,Particle,Device / Instrument / Internal mechanism,,,LX-DR1-0018,im-s2
+im,1,Yes,Noun,Device / Instrument / Implement / Internal mechanism,Im names a device or instrument. The im element also appears inside ritual names.,,LX-DR1-0018,im-s1
+im,2,No,Particle,Device / Instrument / Internal mechanism,Particle use is unsettled. Do not teach as a grammatical particle until a placement and meaning rule is approved.,,LX-DR1-0018,im-s2
 dreshal,1,Yes,Noun,Crystal device / Crystal implement,,,LX-DR1-0019,dreshal-s1
 varshel,1,Yes,Noun,Road / Travel path / Highway,,,LX-DR1-0020,varshel-s1
 eshvan,1,Yes,Noun,Shop / Store / Market stall,,,LX-DR1-0021,eshvan-s1
@@ -1617,7 +1616,6 @@ ohm-,1,Yes,Noun,"Connection, unity","Conceptual range: Connection, meeting point
 khum-,1,Yes,Noun,"Circle, reconciliation","Conceptual range: To listen, perceive, know through hearing; patient knowing and introspection.",Yes,DM-RM-V2-0025; DM-RM-S3-0025,khum--s1
 zhae-,1,Yes,Noun,"Light, empathy",Original root chart row preserved.,Yes,DM-RM-V2-0026,zhae--s1
 nku-,1,Yes,Adjective,"Hidden, nurturing",Original root chart row preserved.,Yes,DM-RM-V2-0027,nku--s1
-tl-,1,Yes,Noun,"Movement, flow",Original root chart row preserved.,Yes,DM-RM-V2-0028,tl--s1
 -in,1,Yes,Suffix,Plural marker added to nouns ending in consonants,Original root/morpheme entry preserved.,,DM-RM-V2-0029,-in-s1
 -in,2,Yes,Suffix,"Person or participant connected to a bond, place, or category",Additional participant sense; the existing consonant-noun plural sense remains valid. Interpret the established word in context.,,DM-RM-V2-0029,-in-s2
 -n,1,Yes,Suffix,Plural marker added to nouns ending in vowels,Original root/morpheme entry preserved.,,DM-RM-V2-0030,-n-s1
@@ -1633,16 +1631,15 @@ li-,2,Yes,Prefix,show respect,Original root/morpheme entry preserved.,,DM-RM-V3-
 lior,1,Yes,Pronoun,Relative Pronoun,Original root/morpheme entry preserved.,,DM-RM-V3-0006,lior-s1
 ther,1,Yes,Particle,Comparative marker: more than,Original root/morpheme entry preserved.,,DM-RM-V3-0007,ther-s1
 -esh,1,Yes,Suffix,deep relational ties,Original root/morpheme entry preserved.,,DM-RM-V3-0010,-esh-s1
--el,1,Yes,Suffix,Beloved bound to them,Original root/morpheme entry preserved.,,DM-RM-V3-0012,-el-s1
--vel,1,Yes,Suffix,Bread shared among us,Original root/morpheme entry preserved.,,DM-RM-V3-0013,-vel-s1
+-el,1,Yes,Suffix,Affectionate suffix marking a beloved bond or endearment,Attach to a noun or personal name to express affection or a beloved bond. Example: Ohmbaen-el.,,DM-RM-V3-0012,-el-s1
 ten-,1,Yes,Prefix,Tens prefix,Original root/morpheme entry preserved.,,DM-RM-V3-0014,ten--s1
 hek-,1,Yes,Prefix,Hundreds prefix,Original root/morpheme entry preserved.,,DM-RM-V3-0015,hek--s1
 mel-,1,Yes,Prefix,Thousands prefix,Original root/morpheme entry preserved.,,DM-RM-V3-0016,mel--s1
 fen-,1,Yes,Prefix,Tens of thousands prefix,Original root/morpheme entry preserved.,,DM-RM-V3-0017,fen--s1
 hek-mel-,1,Yes,Prefix,Hundreds of thousands construction,Original root/morpheme entry preserved.,,DM-RM-V3-0018,hek-mel--s1
 ven,1,Yes,Particle,Subtraction marker meaning minus/subtract,Corrected to match the actual subtraction pattern used elsewhere in the canon data.,,DM-RM-V3-0019,ven-s1
--eth,1,Yes,Suffix,Suffix that marks inherent quality or essential manifestation,"Common adjectival examples: Shal -> Shaleth, Wor -> Woreth, Gorm -> Gormeth, Kal -> Kaleth.",,DM-RM-V4-0001,-eth-s1
--eth,2,Yes,Suffix,Also used for abstract or ritual nouns,"Ritual/nominal examples: Shal'taleth, Aen'Moreth.",,DM-RM-V4-0001,-eth-s2
+-eth,1,Yes,Suffix,"Adjectival quality suffix: -like, -ful; marks a root's inherent quality or essential manifestation","Common adjectival examples: Shal -> Shaleth, Wor -> Woreth, Gorm -> Gormeth, Kal -> Kaleth.",,DM-RM-V4-0001,-eth-s1
+-eth,2,Yes,Suffix,Elevated or ritual noun suffix: sacred act or ritual of a root,"Ritual examples: Khum + -eth -> Khumeth; Shal'taleth; Aen'Moreth.",,DM-RM-V4-0001,-eth-s2
 vael,1,Yes,Particle,Subjunctive mood: wishes/hypotheticals,Original root/morpheme entry preserved.,,DM-RM-V4-0002,vael-s1
 nor-ka,1,Yes,Particle,passive voice echo particle,Original root/morpheme entry preserved.,,DM-RM-V4-0003,nor-ka-s1
 nor-ka,2,Yes,Particle,Now / In this moment / At present,,,DM-RM-V4-0003,nor-ka-s2
@@ -1675,8 +1672,8 @@ serin,1,Yes,Noun,Friends,Ser (friend/ally/with) + -in (plural suffix). Plural fo
 varadan,1,Yes,Noun,Merchant,"Frequent marketplace word for the person who trades, bargains, or brings goods.",,DX-varadan,varadan-s1
 harven,1,Yes,Noun,Pack Beast,Ohnosha Forest; Domesticated mountain pack beast; compact and shaggy-furred; used for transport and companionship in rugged terrain.; Cultural role: Trusted travel companion and cargo carrier.,,OHC-0001,harven-s1
 zharrel,1,Yes,Noun,Forest Predator,Ohnosha Forest; Stealthy forest pack predator with sleek musculature and bioluminescent speckled fur; hunts through coordinated tactics and silent communication.; Cultural role: Forest hunter and stealth symbol.,,OHC-0002,zharrel-s1
-tharnspinners,1,Yes,Noun,Arachnid,"Ohnosha Forest; Small web-weaving arachnids whose patterned silk is culturally revered as a symbol of order and patience.; Cultural role: Symbol of order, patience, and careful making.",,OHC-0003,tharnspinners-s1
-veilgliders,1,Yes,Noun,Gliding Insectivore,Ohnosha Forest; Nocturnal gliding insectivores with transparent shimmering wings that move silently through the canopy and leave glowing spores behind.; Cultural role: Canopy night-life creature associated with quiet motion.,,OHC-0004,veilgliders-s1
+tharnspinners,1,Yes,Noun,Arachnid,Ohnosha Forest; A small web-weaving arachnid whose patterned silk is culturally revered as a symbol of order and patience. The citation headword names one creature; its final -s is part of the Celan name.,,OHC-0003,tharnspinners-s1
+veilgliders,1,Yes,Noun,Gliding Insectivore,Ohnosha Forest; A nocturnal gliding insectivore with transparent shimmering wings that moves silently through the canopy and leaves glowing spores behind. The citation headword names one creature; its final -s is part of the Celan name.,,OHC-0004,veilgliders-s1
 tharokh,1,Yes,Noun,Endurance Mount,Desert; Endurance mount of the desert; slender and long-legged with a water-storing ridge; used by nomads for long-distance travel.; Cultural role: Nomad travel mount and endurance symbol.,,OHC-0005,tharokh-s1
 velshen,1,Yes,Noun,Burrowing Creature,Desert; Armored burrowing moisture-hoarder with spade-like claws; survives by digging deep and conserving water internally.; Cultural role: Desert survival and conservation figure.,,OHC-0006,velshen-s1
 shavrek,1,Yes,Noun,Cliff Forager,Mountain; Nimble cliff-dwelling forager with powerful hooves and mottled fur.; Cultural role: Mountain forager and cliff adaptation symbol.,,OHC-0007,shavrek-s1

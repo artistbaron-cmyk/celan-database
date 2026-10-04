@@ -42,9 +42,9 @@ const examples=parseCsv(bundle['dictionary_examples.csv']);
 const families=JSON.parse(bundle['dictionary_families.json']);
 const grammar=JSON.parse(bundle['grammar_guide.json']);
 const expressions=JSON.parse(bundle['expressions_app.json']);
-assert.equal(entries.length,1496);
-assert.equal(senses.filter(row=>row.visible==='Yes').length,1607);
-assert.equal(examples.length,9167);
+assert.equal(entries.length,1494);
+assert.equal(senses.filter(row=>row.visible==='Yes').length,1603);
+assert.equal(examples.length,9171);
 assert.equal(grammar.rules.length,48);
 assert.equal(expressions.length,107);
 const ids=new Set(entries.map(row=>row.id));
@@ -54,6 +54,7 @@ for(const row of examples){assert.ok(ids.has(row.headword_id),'orphan example: '
 for(const row of entries){
   const family=families[row.id];
   assert.ok(family,'missing family record: '+row.id);
+  assert.equal(new Set((family.relatedEntries||[]).map(related=>related.id)).size,(family.relatedEntries||[]).length,row.id+' has duplicate related words');
   JSON.parse(row.override_json);JSON.parse(row.metadata_json);
   for(const related of family.relatedEntries||[])assert.ok(ids.has(related.id),row.id+' has broken related-word link to '+related.id);
   for(const component of family.components||[])if(component.target)assert.ok(ids.has(component.target),row.id+' has broken component link to '+component.target);
@@ -97,12 +98,25 @@ for(const row of examples){
     assert.equal(visibleById.get(row.sense_id)?.meaning,row.sense_meaning,'example meaning wording differs from its link: '+row.sense_id);
   }
 }
-assert.equal(approvedExampleLinks,24,'the existing and batch 01 meaning links should remain explicit');
+assert.equal(approvedExampleLinks,28,'reviewed meaning links should remain explicit');
+assert.equal(senses.find(row=>row.sense_id==='eth-s3')?.word_type,'Noun','standalone Eth must be a noun');
+assert.ok(!senses.some(row=>row.sense_id==='eth-s1'||row.sense_id==='eth-s2'),'old duplicate Eth suffix meanings must be retired');
+assert.equal(senses.find(row=>row.sense_id==='-eth-s1')?.word_type,'Suffix','quality -eth must remain a suffix');
+assert.equal(senses.find(row=>row.sense_id==='-eth-s2')?.word_type,'Suffix','ritual -eth must remain a suffix');
+assert.equal(examples.filter(row=>row.entry_id==='PE-ER2-0007'&&row.celan_text.includes('trakorin')).length,5,'counted boots must use the approved plural on every page');
+assert.ok(!ids.has('tl-') && !ids.has('-vel'),'retired root and suffix must not appear as app headwords');
+assert.equal(senses.find(row=>row.sense_id==='im-s2').visible,'No','unsettled Im particle must be hidden');
+assert.equal(examples.find(row=>row.entry_id==='PE-SET1-0001').sense_id,'-el-s1','approved affectionate form must appear under -el');
+assert.equal(families['azfel'].familyRoots.includes('EL'),false,'Azfel must not inherit affectionate -el');
+assert.equal(families['azfel'].components.map(part=>part.form).join(' + '),'Az + Fel','Azfel must show its approved parts');
+assert.ok(families['fel'].relatedEntries.some(row=>row.id==='azfel'),'Azfel must appear in the Fel family');
+assert.equal(families['xarvel'].familyRoots.includes('VEL'),false,'Xarvel must not inherit the wisdom root');
+assert.ok(families['zhae-'].relatedEntries.some(row=>row.id==='zhaeaen'),'Zhaeaen must appear under Zhae-');
 for(const retiredId of ['PE-V1-0015','PE-V1-0012'])assert.ok(!examples.some(row=>row.entry_id===retiredId),'retired sentence still appears in the app: '+retiredId);
 assert.equal(examples.filter(row=>row.entry_id==='PE-V1-0009'&&row.display_kind==='phrase').length,2,'the old beloved boy phrase should appear as a phrase on both pages');
 for(let i=1;i<=12;i++)assert.equal(examples.filter(row=>row.entry_id===`PE-LA1-${String(i).padStart(4,'0')}`&&row.sense_id&&row.display_kind==='sentence').length,1,'missing approved batch 01 sentence '+i);
 const exportRows=parseCsv(fs.readFileSync(path.join(appDir,'exports','dictionary_entries.csv'),'utf8'));
-assert.equal(exportRows.length,1607,'spreadsheet export is missing visible senses');
+assert.equal(exportRows.length,1603,'spreadsheet export is missing visible senses');
 assert.deepEqual(new Set(exportRows.map(row=>row.sense_id)),new Set(senses.filter(row=>row.visible==='Yes').map(row=>row.sense_id)),'export sense IDs differ from visible app meanings');
 const exportedSense=id=>exportRows.find(row=>row.sense_id===id);
 for(const id of ['kadfel-s1','azfel-s1','theefel-s1','kadon-s1','aenvor-s1','sorl-s1','kalvar-s1','sharvar-s1','morlka-s1']){
