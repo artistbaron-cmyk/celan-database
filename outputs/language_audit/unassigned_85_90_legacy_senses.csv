@@ -1,0 +1,5 @@
+headword_id,sense_order,visible,word_type,meaning,usage_note,root_word,source_entry_ids,sense_id
+jorvak,2,Yes,Noun,Bursting warmth,Jor + vak = vessel,,LX-V2-0106,jorvak-s2
+welrim,1,Yes,Noun,Continuous Feast,Wel + rim = flowing celebration,,LX-V2-0153,welrim-s1
+xilvar,2,Yes,Noun,Fragmented Salt,The separate established salt sense remains unchanged.,,LX-V2-0114; LX-V2-0160,xilvar-s2
+belshara,1,Yes,Noun,"Coordinated Maneuver / Formation Movement / Tactical Path. Refers to moving troops in a specific, planned way.",Bel (bind/weave) + Shara (path/journey),,LX-V2-0130; LX-V4-0002; LX-V4-0066,belshara-s1

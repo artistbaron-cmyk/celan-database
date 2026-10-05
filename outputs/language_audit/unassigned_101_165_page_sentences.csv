@@ -1,0 +1,231 @@
+headword_id,entry_id,celan_text,translation,sense_id,display_kind
+lianor,PE-DR2-0014,rinaen kavel an lianor-ian.,There is a memory gap in my thought.,,sentence
+lianor,PE-V4-0074,aen Ya lianor-ya.,You speak your thought.,lianor-s1,sentence
+lianor,PE-V3-0058,Seraen Kaikoa Lianor.,Kaikoa trusts the Sir.,,sentence
+lianor,PE-V4-0034,Rinaen lianor-ian vaareth.,My thought is good.,,sentence
+lianor,PE-SCP1-0011,rinaen sel an lianor-ian.,There is clarity in my thought.,,sentence
+kel,PE-SCP1-0001,rinaen kel an kelpral.,The text is on the writing tablet.,,sentence
+kel,PE-PFM1-0001,kel liorin norzhir.,The elder names the timeline.,,sentence
+kel,PE-SCP1-0002,kes shenral kel an velkelor.,The scholar examines the text in the library.,,sentence
+kel,PE-V4-0108,Lia. Var I an phelvin. Lorin belthal kel-ian.,Yes. I am going for a comforting drink. My actions are guided by order.,,sentence
+kel,PE-BSPI1-0031,rinaen kel an velkelor.,The text is in the library.,,sentence
+kel,PE-BSPI1-0038,dor mekral kel an belzhirkavor.,The technician puts an encoded text in the data center.,,sentence
+kel,PE-SCP1-0007,keldoraen shenral kel an kelpral.,The scholar writes the text on the tablet.,,sentence
+kel,PE-SCP1-0010,rinaen kel njor serdel velrathor ser nor.,The text is a bridge between memory and time.,,sentence
+kel,PE-SAC1-0026,pralaen shenral kel an dralshen ser songashen.,The researcher creates a text about astronomy and cosmology.,,sentence
+kel,PE-SAC1-0028,aen shenral an shenbel ser kel shenbeleth.,The researcher discusses science using a scientific text.,,sentence
+kel,PE-SAC1-0029,rinaen shenkes an kel shenbeleth.,The formal observation appears in the scientific text.,,sentence
+kel,PE-SAC1-0048,rinaen kel pelsheneth an shenvarash.,The wording of the prediction is precise.,,sentence
+kel,PE-HLPS1-0008,kes I dovhav an kel.,I notice humor in the words.,,sentence
+kel,PE-HLPS1-0014,kes shenral keljek an kel.,The scholar notices a pun in the text.,,sentence
+kel,PE-UHEI1-0001,rinaen nem an kel.,There is understanding in the words.,,sentence
+kel,PE-UHEI1-0005,rinaen rethnem an kel.,There is a misunderstanding in the words.,,sentence
+kel,PE-UHEI1-0011,va selnemaen Ya kel.,Clarify what was said.,,sentence
+kel,PE-UHEI1-0030,rinaen daku an kel.,There is boredom in the talk.,,sentence
+kel,PE-UHEI1-0032,dakuaen felka nor kel.,The child is bored during the talk.,,sentence
+rethlian,PE-V4-0003,var I rethlian.,I might go.,,sentence
+rethlian,PE-V3-0013,"Rethlian, I nor var dren.","Maybe, I will go to the water.",,sentence
+rethlian,PE-V3-0020,"Em… Rethlian, Var I dren.",Um… maybe I will go to the water.,,sentence
+velmarin,PE-V3-0050,shalil velmarin an dren.,The honorary elder moves lightly by the water.,,sentence
+velmarin,PE-V4-0068,Rinaen velmarin kaveth.,The ancient tree is old.,,sentence
+velmarin,PE-V4-0067,Aenaen I eshlin an velmarin.,I hear a bird in the ancient tree.,,sentence
+shalaen,PE-V4-0053,shalaen I vethral an verdor.,I see the pack hunter in the forest.,,sentence
+shalaen,PE-EGE1-0049,shalaen I jor.,I see the surge.,,sentence
+shalaen,PE-V1-0014,shalaen I azron-theon.,I see the woman who embodies neutrality and balance.,,sentence
+shalaen,PE-ER2-0016,shalaen I rin an ser.,I see the essence in the friend.,,sentence
+shalaen,PE-ER2-0022,shalaen I zhirrathor an liankavor.,I see the thread to the past in the archive.,,sentence
+shalaen,PE-ER2-0067,shalaen I ohm an belvok.,I see the connection in the family.,,sentence
+shalaen,PE-ER2-0079,shalaen I zhir an belvok.,I see the thread [lineage] in the family.,,sentence
+shalaen,PE-SP2C-0021,shalaen I drenshal an terlin.,I see a reflective pool on the beach.,,sentence
+shalaen,PE-SP2C-0022,shalaen I terraesh thal terlin.,I see the horizon from the beach.,,sentence
+shalaen,PE-SP2C-0029,shalaen I tek unar ser.,I see only one friend.,,sentence
+shalaen,PE-SP2C-0070,shalaen I shal'taleth an lorash.,I see a light-offering ritual at the shrine.,,sentence
+shalaen,PE-V3-0057,Shalaen Ilin an Kinnshal.,We hope in the dawn.,shalaen-s1,sentence
+drenkorath,PE-V3-0099,lianaen Drenkorath an dren.,The oasis blessing speaks to the water.,,sentence
+drenkorath,PE-V4-0106,"Lia, var I an Drenkorath. Rinaen vethor an thar-ian.","Yes, I go to the sacred Spring. There is a shadow in my heart.",,sentence
+tenar,PE-V3-0203,Tenar unar,11 (10 + 1),,sentence
+tenar,PE-V3-0217,Tenar peth Ven tren,15 - 3 = 12,,sentence
+tenar,PE-V3-0218,Tenar peth Ven tren dren nor shal.,Fifteen minus three waters under the light.,,sentence
+tenar,PE-GMMP1-0035,zhelpralaen arural zhel ser tenarpralaen seren tenar.,The practitioner shapes electricity and the guardian shapes radiance.,,sentence
+tenar,PE-GMMP1-0036,tenarpralaen arural tenar ser vethpralaen seren veth.,The practitioner shapes radiance and the guardian shapes shadow.,,sentence
+lianeth,PE-V4-0001,Aen I lianeth.,I can speak.,,sentence
+lianeth,PE-NE1-0074,rinaen eshlor lianeth.,The wind bearing is reliable.,,sentence
+lianeth,PE-SRD1-0010,ra rinaen karvek denya lianeth?,Is that toolkit by you reliable?,,sentence
+thar-ka,PE-V4-0004,Var I thar-ka.,I want to go.,thar-ka-s1,sentence
+shen,PE-V4-0091,tal I peth shen morlak.,I give five measures of grain.,,sentence
+shen,PE-ER2-0032,tal I shen an varadan.,I give currency to the merchant.,,sentence
+shen,PE-HTS1-0027,shen zhaelral zhaelshen.,The healer measures the dose.,,sentence
+shen,PE-HTS1-0032,shen zhaelral mavkrez.,The healer measures the fever.,,sentence
+shen,PE-EGE1-0020,shen lorin eshweknor ser drenesh.,The scholar measures climate through cloud patterns.,,sentence
+shen,PE-EGE1-0024,shen kesmek eshdren shalnor kadro.,The instrument measures humidity before the drought.,,sentence
+shen,PE-EGE1-0031,shen lorin felsadar ser krezshen.,The scholar measures the silt and temperature.,,sentence
+shen,PE-EGE1-0032,shen zhaelral krezshen an verdin.,The healer measures the plant's temperature.,,sentence
+shen,PE-EGE1-0046,shen lorin welnali ser kornali.,The scholar measures the population of the native species.,,sentence
+shen,PE-EGE1-0067,shen lorbel sul; rinaen worsul an kavvek.,The government measures the resources; abundance fills the stores.,,sentence
+shen,PE-ICAES1-0001,aen ser dava; shen shenral shendava.,The friend shares information; the researcher measures the data.,,sentence
+shen,PE-ICAES1-0035,kaxardavaen mekral davaxar shalnor shen la zhelwel.,The technician decrypts the file before measuring the current.,,sentence
+shen,PE-ICAES1-0037,shen mekral ravzhel an zhelshara.,The technician measures voltage in the circuit.,,sentence
+shen,PE-SAC1-0005,shen shenral shal nyeleth thal nyel.,The researcher measures stellar light from a star.,,sentence
+shen,PE-SAC1-0009,shen shenral kalrav voraeth ser wek luneth.,The researcher measures planetary gravity and the lunar cycle.,,sentence
+shen,PE-SAC1-0014,shen shenral ravwek; ravwekaen Lun an Vora.,The researcher measures the orbit; the moon orbits the planet.,,sentence
+shen,PE-SAC1-0019,shen shenral felvora ser zhirnyel.,The researcher measures the asteroid and the comet.,,sentence
+shen,PE-SAC1-0024,shen shenral morshen felmor.,The researcher measures the mass of the dust.,,sentence
+shen,PE-SAC1-0025,shen dralshen morshen Vora.,Astronomy measures the mass of the planet.,,sentence
+shen,PE-SAC1-0044,shen shenral sivshenlian ser rethshen.,The researcher measures the control condition and the probability.,,sentence
+shen,PE-BIAOBF1-0018,shen I pirin.,I count the fingers.,,sentence
+kor,PE-SRD1-0005,rinaen I an kor.,I am in the middle.,,sentence
+kor,PE-SRD1-0006,dor I vekmor an kor.,I put the cargo in the center.,,sentence
+pral,PE-ER2-0033,rinaen pral an arthaxar.,There is detail in the armor.,,sentence
+pral,PE-ER2-0034,kes I pral an kareth.,I notice detail on the hammer.,,sentence
+pral,PE-ICAES1-0050,kavzhelaen mekral jorzhelkav; thalzhelaen la shalnor pral.,The technician charges the capacitor and discharges it before working.,,sentence
+shan,PE-EGE1-0006,wel dren shan shanmorl an selmor.,Water flows continuously through the canyon into the plain.,,sentence
+shan,PE-EGE1-0037,wel zhirverd shan verdpel.,The vine spreads through the grass.,,sentence
+shan,PE-EGE1-0062,var welgorm shan drenfel; jor pelnor an terramahr.,Pollution moves through the stream; erosion surges along the coast.,,sentence
+shan,PE-DR2-0009,var I shan varshel.,I go across the road.,,sentence
+shan,PE-ER2-0012,lorin belshara Ilin shan vethor.,Duty guides us through the shadow.,,sentence
+shan,PE-CNE1-0071,var I shan vorkor.,I go through the door.,,sentence
+shan,PE-CNE1-0072,var sharavok shan verdor.,The caravan travels through the forest.,,sentence
+shan,PE-V3-0090,Velpralim shan dren an Zhirelorim.,The wisdom transfer passes to the coming-of-age ritual.,,sentence
+shan,PE-V3-0098,Eshvelaneth shan dren an Tharvok.,The snowstorm guidance passes to the family.,,sentence
+shan,PE-V3-0101,Velterim shan dren nor Zhirelorim.,The desert passage passes to the coming-of-age ritual.,,sentence
+shan,PE-TVO1-0021,var shalilvek shan esh.,The glider travels through the air.,,sentence
+shan,PE-BSPI1-0014,shan shal xarzhir.,Light passes through the lattice.,,sentence
+shan,PE-BSPI1-0043,var I shan njor.,I go across the bridge.,,sentence
+shan,PE-BSPI1-0049,var I shan morlshan.,I go through the tunnel.,,sentence
+shan,PE-BSPI1-0051,var varvek shan varshanmek.,The vehicle travels through the transit tube.,,sentence
+shan,PE-BSPI1-0069,var dro shan dronjor.,Water passes through the aqueduct.,,sentence
+shan,PE-WRT1-0016,var kelvekral shan lorzhir.,The messenger travels across the border.,,sentence
+shan,PE-WRT1-0017,lorin sharalorin sharavok shan morl.,The navigator guides the caravan through the mountains.,,sentence
+shan,PE-WRT1-0028,shan ianath varvek an ser.,Ownership of the vehicle passes to the friend.,,sentence
+shan,PE-OC1-0003,var ngarwel shan lorzhir.,The army crosses the border.,,sentence
+shan,PE-OC1-0006,var kesvar shan felbelor.,The patrol passes through the district.,,sentence
+shan,PE-HTS1-0042,ndemaen ndem shan aivkorxar.,Blood seeps through the bandage.,,sentence
+shan,PE-HTS1-0075,mavbalshanaen mavbal shan welrin.,The infection spreads among the citizens.,,sentence
+shan,PE-HTS1-0081,kavaen varral shan velarshor.,The traveler survives through the fog.,,sentence
+shan,PE-HTS1-0082,kavaen njor shan krezrek.,The bridge endures through the heatwave.,,sentence
+shan,PE-EGE1-0004,var sharavok shan morlshara var xarmorl.,The caravan travels through the mountain pass toward the cave.,,sentence
+shan,PE-EGE1-0009,var sharavok shan kadromor esh brossadar.,The caravan crosses the desert over the dunes.,,sentence
+shan,PE-EGE1-0047,rinaen kornali an nalior; shan welrin shannali var la.,The native species lives in the habitat; people introduce another species there.,,sentence
+shan,PE-EGE1-0051,arth kesvar rathnali thal gavral; var gavin shan drenverd.,The patrol protects the endangered species from hunters; its prey moves through the wetland.,,sentence
+shan,PE-EGE1-0052,shara rathzor gavin shan verdor.,The predator follows its prey through the forest.,,sentence
+shan,PE-ICAES1-0007,talaen kesmek zheldava shan ohmshan.,The sensor receives the signal through the interface.,,sentence
+shan,PE-SAC1-0004,shal nyel shan zunesh.,A star shines through the vacuum.,,sentence
+shan,PE-SAC1-0020,var zhirnyel shan songazun; kes kesmek dralfel.,The comet travels through outer space; the sensor detects a meteoroid.,,sentence
+shan,PE-SAC1-0052,weksivshenaen shenral an sivshen shan shalpel.,The researcher replicates the experiment through the lens.,,sentence
+shan,PE-SAC1-0054,kes shenral Lun shan Drallor ser felshen shan Fellor.,The researcher observes the moon through the telescope and the sample through the microscope.,,sentence
+shan,PE-SAC1-0055,kes shenral felmor shan Fellor ser nyel an songa.,The researcher observes dust through the microscope and a star within the universe.,,sentence
+shan,PE-GMMP1-0004,aruaen arural shan ohmpel.,The magical practitioner works magic through a focus.,,sentence
+shan,PE-GMMP1-0005,thaenohmaen arural thaenin shan rinaru.,The magical practitioner contacts the spirit-being through spiritual magic.,,sentence
+shan,PE-GMMP1-0010,arukelaen arural arukel ser shankalaen kal shan ohmpel.,The practitioner casts the spell and channels power through the focus.,,sentence
+shan,PE-GMMP1-0011,shankalaen arural kal shan rinbel.,The practitioner channels power through the enchantment.,,sentence
+shan,PE-GMMP1-0047,kes zhaelral worshankal; worshankalaen arural shan ohmpel.,The healer detects overchanneling; the practitioner overchannels through the focus.,,sentence
+shan,PE-GMMP1-0050,rinaen rinvek rethkaleth; jor shantham shan ohmpel.,The artifact is unstable; backlash travels through the focus.,,sentence
+shan,PE-SRD1-0018,anshanaen zor mekor shan vorkor.,The animal enters the building through the door.,,sentence
+shan,PE-SRD1-0019,thalshanaen I mekor shan vorkor.,I exit the building through the door.,,sentence
+shan,PE-BIAOBF1-0038,numaen I dren shan numor-ian.,I swallow water through my throat.,,sentence
+lianrethshen,PE-PFM1-0071,rinaen lianrethshen kaleth.,The anomaly reading is high.,,sentence
+lianrethshen,PE-PFM1-0072,kes liorin lianrethshen.,The elder checks the anomaly reading.,,sentence
+vaarshen,PE-PFM1-0073,dar sharavok an vaarshen.,The caravan waits at the safe distance.,,sentence
+vaarshen,PE-PFM1-0074,keldoraen seren vaarshen.,The guardian marks the safe distance.,,sentence
+keldoraen,PE-PFM1-0055,keldoraen seren lianrethxar.,The guardian marks the anomaly boundary.,,sentence
+keldoraen,PE-PFM1-0076,keldoraen I shalor.,I mark the sanctuary.,,sentence
+keldoraen,PE-SCP1-0007,keldoraen shenral kel an kelpral.,The scholar writes the text on the tablet.,,sentence
+keldoraen,PE-SCP1-0008,keldoraen kavral rinshen an brosmorl.,The record keeper inscribes the identity record on slate.,,sentence
+keldoraen,PE-PFM1-0046,keldoraen seren lianrethor.,The guardian marks the anomaly zone.,,sentence
+keldoraen,PE-PFM1-0074,keldoraen seren vaarshen.,The guardian marks the safe distance.,,sentence
+keldoraen,PE-TM1-0038,keldoraen I rathlor an sharashen.,I mark the danger on the map.,,sentence
+keldoraen,PE-GCI1-0047,keldoraen lorbelral lorzhir.,The official marks the border.,,sentence
+keldoraen,PE-OC1-0010,keldoraen gavral vethbel.,The hunter marks the trap.,,sentence
+keldoraen,PE-SAC1-0012,keldoraen shenral wornyelbel an sharashen ser nyelzhir.,The researcher marks the galaxy on the map using a constellation.,,sentence
+ruvan,PE-FAP2-0053,rinaen ruvan an kavvek.,There is rot in the storage jar.,,sentence
+ruvan,PE-FAP2-0054,kes balral ruvan an saren.,The farmer notices rot in the wheat.,,sentence
+ruvan,PE-SCP1-0013,rinaen ruvan an lorbel.,There is corruption in the government.,,sentence
+ruvan,PE-SCP1-0014,kes welrin ruvan an belor.,The citizen notices corruption in the institution.,,sentence
+anvekaen,PE-TVO1-0041,anvekaen I belzhirvek.,I board the train.,,sentence
+anvekaen,PE-TVO1-0042,anvekaen vekin mahrvek.,The passenger boards the ship.,,sentence
+anvekaen,PE-SCP1-0003,anvekaen lorvekral vekmor an morvek.,The operator loads cargo into the wagon.,,sentence
+anvekaen,PE-SCP1-0004,anvekaen lorvekral vekmor an mahrvek.,The operator loads cargo into the ship.,,sentence
+anvekaen,PE-TVO1-0015,anvekaen I zhirvek.,I board the railcar.,,sentence
+anvekaen,PE-TVO1-0024,anvekaen vekin eshvek.,The passenger boards the aircraft.,,sentence
+anvekaen,PE-TVO1-0026,anvekaen I mahrxarvek.,I board the submersible.,,sentence
+anvekaen,PE-TVO1-0063,anvekaen vekin belzhirvek.,The passenger boards the train.,,sentence
+anvekaen,PE-BSPI1-0059,anvekaen I mahrvek an mahrpralor.,I board the ship at the dock.,,sentence
+thalvekaen,PE-TVO1-0043,thalvekaen I belzhirvek.,I disembark from the train.,,sentence
+thalvekaen,PE-TVO1-0044,thalvekaen vekin mahrvek.,The passenger disembarks from the ship.,,sentence
+thalvekaen,PE-SCP1-0005,thalvekaen lorvekral vekmor thal morvek.,The operator unloads cargo from the wagon.,,sentence
+thalvekaen,PE-SCP1-0006,thalvekaen lorvekral vekmor thal mahrvek an mahrpralor.,The operator unloads cargo from the ship at the dock.,,sentence
+thalvekaen,PE-BSPI1-0054,thalvekaen vekin an varbelor.,The passengers disembark at the terminal.,,sentence
+jorvar,PE-TVO1-0049,kes lorvekral jorvar.,The driver notices the speed.,,sentence
+jorvar,PE-TVO1-0050,rinaen jorvar an shenmek.,The speed is displayed on the gauge.,,sentence
+njor,PE-BSPI1-0043,var I shan njor.,I go across the bridge.,,sentence
+njor,PE-BSPI1-0044,rinaen njor esh dro.,The bridge is above the water.,,sentence
+njor,PE-SCP1-0009,rinaen khumkel njor serdel belvok ser lorbel.,The council is a bridge between the clan and the government.,,sentence
+njor,PE-SCP1-0010,rinaen kel njor serdel velrathor ser nor.,The text is a bridge between memory and time.,,sentence
+njor,PE-OC1-0009,rinaen vethbel morl njor.,The trap is beneath the bridge.,,sentence
+njor,PE-OC1-0020,vethvaraen welarth thal njor.,The militia withdraws from the bridge.,,sentence
+njor,PE-RC1-0018,pralaen sivvok njor.,The team builds the bridge.,,sentence
+njor,PE-HTS1-0082,kavaen njor shan krezrek.,The bridge endures through the heatwave.,,sentence
+sel,PE-SCP1-0011,rinaen sel an lianor-ian.,There is clarity in my thought.,,sentence
+sel,PE-SCP1-0012,tharsharaen I ser sel.,I decide with mental clarity.,,sentence
+sel,PE-SCP1-0015,rinaen sel an dren.,The water is clear.,,sentence
+sel,PE-SCP1-0016,kes I sel an dresh.,I notice the crystal's clarity.,,sentence
+thael,PE-PSAC1-0008,sharaen thaelral thael aennor.,The dancer follows the rhythm of the music.,,sentence
+thael,PE-PSAC1-0007,korinaen karthaelral thael.,The drummer holds the rhythm.,,sentence
+thael,PE-PSAC1-0020,karthaelaen I ser thael.,I drum with rhythm.,,sentence
+thael,PE-PSAC1-0021,karthaelaen karthaelral ser thael.,The drummer drums with rhythm.,,sentence
+em,PE-DR2-0005,"em, dar I.","Um, I wait.",,sentence
+em,PE-V3-0020,"Em… Rethlian, Var I dren.",Um… maybe I will go to the water.,,sentence
+vrak,PE-DR2-0008,rinaen shena vrak.,The money is gone.,,sentence
+vanesh,PE-SP2-0001,vanesh varadan ser Ya.,The merchant trades with you.,,sentence
+vanesh,PE-V2-0078,vanesh velmek an van nor-ka.,The synthetic protein is traded at the market.,,sentence
+vanesh,PE-SP2C-0026,var I an evan. vara vanesh I emil.,I go to the market. Then I trade food.,,sentence
+vanesh,PE-SP2C-0027,var I an evan. thalka ver vanesh I emil.,"I go to the market, but I do not trade food.",,sentence
+vanesh,PE-V2-0010,Brosrin vanesh dren.,The layered food trades by the water.,,sentence
+vanesh,PE-V2-0021,Jelvor vanesh dren.,The zesty spice trades by the water.,,sentence
+vanesh,PE-V2-0024,Welmor vanesh dren.,The flowing earth trades by the water.,,sentence
+vanesh,PE-V2-0050,Vanesh Ilin ka-shen lialor.,We trade via barter indeed.,,sentence
+vanesh,PE-V2-0062,Felorin vanesh dren.,The berries trade by the water.,,sentence
+vanesh,PE-V2-0073,Felorin vanesh dren an Evan.,The berries trade at the market.,,sentence
+vanesh,PE-V2-0081,Drenlivar vanesh dren thal morl.,The salted fish trades by the water and the mountain.,,sentence
+vanesh,PE-V2-0090,Morthas vanesh an dren.,The roasted nuts trade by the water.,,sentence
+vanesh,PE-V3-0014,"Lialor, serin vanesh shenakar.","Indeed, the friends trade coinage.",,sentence
+vanesh,PE-V3-0032,Zhiren vanesh dren.,The sibling trades water.,,sentence
+vanesh,PE-OC1-0026,vanesh varadan nor rathnor.,The merchant trades during the war.,,sentence
+jor,PE-ER2-0037,rinaen jor an mahrwel.,There is a surge in the current.,,sentence
+jor,PE-ER2-0038,kes I jor an dralorim.,I notice a burst in the storm.,,sentence
+jor,PE-EGE1-0018,var Jor an dren.,A surge moves in the water.,jor-s1,sentence
+jor,PE-EGE1-0045,jor ohmshal nor fel rinaen welnali.,The ecosystem surges when the population is small.,,sentence
+jor,PE-EGE1-0049,shalaen I jor.,I see the surge.,jor-s1,sentence
+jor,PE-EGE1-0058,rinaen jor an esh.,There is a surge in the sky,jor-s1,sentence
+jor,PE-EGE1-0059,rinaen terramav an verd; jor mavverd an sov.,Environmental degradation affects plant life; plant blight surges through the field.,,sentence
+jor,PE-EGE1-0062,var welgorm shan drenfel; jor pelnor an terramahr.,Pollution moves through the stream; erosion surges along the coast.,,sentence
+jor,PE-EGE1-0063,pel pelnor nalior; jor xilnalior.,Erosion cuts the habitat; fragmentation surges.,,sentence
+jor,PE-EGE1-0025,"jor kadro; nor, jor drenrek.","Drought intensifies; later, a flood rises.",,sentence
+jor,PE-EGE1-0027,kar morkar morl; jor morljor.,The earthquake strikes the mountain; a landslide follows.,,sentence
+jor,PE-GMMP1-0046,kesxaraen arural shara; nor jor worshankal.,The practitioner veils the route from notice; then overchanneling occurs.,,sentence
+jor,PE-GMMP1-0048,worshankalaen arural; jor rethkal an rinvek.,The practitioner overchannels; power instability begins in the artifact.,,sentence
+jor,PE-GMMP1-0050,rinaen rinvek rethkaleth; jor shantham shan ohmpel.,The artifact is unstable; backlash travels through the focus.,,sentence
+jor,PE-GMMP1-0051,jor shantham an arural; nor kes la ohmreth.,Backlash strikes the practitioner; then they detect attunement disruption.,,sentence
+jor,PE-UHEI1-0027,jor mira nor rethpral.,Embarrassment arose after the mistake.,,sentence
+bren,PE-ER2-0052,rinaen bren an sov.,The harvest is in the field.,,sentence
+bren,PE-ER2-0053,vekaen morvek bren an varthas.,The wagon carries the harvest to the city.,,sentence
+bren,PE-FAP1-0002,lorin balpral bren.,Farming guides the harvest.,,sentence
+bren,PE-FAP1-0018,bren balral vilorsov.,The farmer harvests the orchard.,,sentence
+bren,PE-FAP1-0033,bren I mahrfennil.,I harvest seaweed.,,sentence
+bren,PE-FAP1-0048,bren I felverd.,I gather moss.,,sentence
+bren,PE-FAP1-0050,bren zhaelral morlverd.,The healer gathers lichen.,,sentence
+bren,PE-FAP1-0052,bren I nelar.,I gather nectar.,,sentence
+xar,PE-ER2-0056,rinaen xar esh mekor.,A cover is over the building.,,sentence
+xar,PE-ER2-0057,dor seren xar an savin.,The guardian places a cover on the patient.,,sentence
+xar,PE-EGE1-0028,xar kesvar shara thal morljor ser sadarjor.,The patrol closes the route because of landslide and sandstorm.,,sentence
+xar,PE-EGE1-0055,xar zor zornethor shalnor wekvaraen la.,The animal shelters its nest before it migrates.,,sentence
+xar,PE-EGE1-0069,dor lorbel kasul an shental; xar la kavsul.,The government addresses scarcity through allocation and protects the reserve.,,sentence
+nor-ka,PE-ER2-0071,pralaen belkor an Azron nor-ka.,The tunic was made by the woman.,,sentence
+nor-ka,PE-ER2-0072,drenaen dren an felka nor-ka.,The water was drunk by the child.,,sentence
+nor-ka,PE-V2-0078,vanesh velmek an van nor-ka.,The synthetic protein is traded at the market.,,sentence
+nor-ka,PE-V4-0009,Pralaen an belkor nor-ka.,The tunic is made / A tunic was made.,,sentence
+nor-ka,PE-V4-0010,Pralaen an kaleth nor-ka.,The fortress was built.,,sentence
+nor-ka,PE-V4-0011,Talaen an shenakar nor-ka.,The coinage was taken.,,sentence
+nor-ka,PE-V4-0105,"Shal lorin shara-ya an nor-ka, Ser?","Does the light guide your path in this moment, Friend?",,sentence
+nor-ka,PE-SBD1-0010,shalbalaen felka nor-ka an teremil.,The child is born in the home.,,sentence
+nor-ka,PE-UHEI1-0015,mbaen an I nor-ka belshara.,I need help; I must be helped.,,sentence

@@ -1,0 +1,10 @@
+headword_id,sense_order,visible,word_type,meaning,usage_note,root_word,source_entry_ids,sense_id
+rethlian,3,Yes,Particle,Possibility (May/Might),,,LX-V3-0019; LX-V4-0003,rethlian-s3
+lianeth,2,Yes,Verb,Ability (Can/Able to),,,LX-V4-0001,lianeth-s2
+kor,1,Yes,Noun,Source / Strength,,,LX-V4-0118; LX-SRD1-0003; XR-kor,kor-s1
+pral,1,Yes,Noun,Table,,,LX-V4-0119; XR-pral; DM-RM-V2-0010,pral-s1
+lianrethshen,1,Yes,Measure,An anomaly reading; a measured value describing the intensity or instability of a reality anomaly,,,LX-PFM1-0036,lianrethshen-s1
+vaarshen,1,Yes,Measure,A safe clearance distance established between a hazard and an unprotected person or place,,,LX-PFM1-0037,vaarshen-s1
+jorvar,1,Yes,Measure,Speed; the rate at which a person creature object or vehicle moves through distance,,,LX-TVO1-0025,jorvar-s1
+em,2,Yes,Particle,Conversational hesitation / Thinking particle,,,LX-DR1-0010,em-s2
+vrak,2,Yes,Particle,Gone / Missing / Depleted (Trerran dialect),,,LX-DR1-0014,vrak-s2

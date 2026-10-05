@@ -1,0 +1,5 @@
+headword_id,sense_order,visible,word_type,meaning,usage_note,root_word,source_entry_ids,sense_id
+kal,2,Yes,Adjective,Strong,,,LX-V2-0031; LX-V4-0111; XR-kal,kal-s2
+kalor,2,Yes,Noun,Strength (of the mind or spirit),,,LX-V2-0032,kalor-s2
+seren,2,Yes,Noun,Guardian/Protector,,,LX-V3-0007,seren-s2
+vaar,2,Yes,Adjective,Good,,,LX-V2-0037; LX-V2-0041; LX-V4-0113; XR-vaar,vaar-s2

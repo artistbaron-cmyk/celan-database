@@ -1,0 +1,6 @@
+headword_id,sense_order,visible,word_type,meaning,usage_note,root_word,source_entry_ids,sense_id
+lorin,2,Yes,Noun,Guide / Teacher,,,LX-V2-0039; LX-V3-0005,lorin-s2
+rath,3,Yes,Particle,Conditional marker: if,Original root/morpheme entry preserved.,,DM-RM-V3-0009,rath-s3
+krezor,2,Yes,Noun,Forge / Place of Fire,,,LX-V2-0086,krezor-s2
+phelvin,2,Yes,Noun,Comfort Drink,Phel + vin = soothing essence,,LX-V2-0100; LX-V2-0162,phelvin-s2
+belshara,4,Yes,Noun,Necessity / Obligation,,,LX-V2-0130; LX-V4-0002; LX-V4-0066,belshara-s4

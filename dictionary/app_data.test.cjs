@@ -43,8 +43,8 @@ const families=JSON.parse(bundle['dictionary_families.json']);
 const grammar=JSON.parse(bundle['grammar_guide.json']);
 const expressions=JSON.parse(bundle['expressions_app.json']);
 assert.equal(entries.length,1494);
-assert.equal(senses.filter(row=>row.visible==='Yes').length,1593);
-assert.equal(examples.length,9257);
+assert.equal(senses.filter(row=>row.visible==='Yes').length,1571);
+assert.equal(examples.length,9251);
 assert.equal(grammar.rules.length,48);
 assert.equal(expressions.length,107);
 const ids=new Set(entries.map(row=>row.id));
@@ -98,7 +98,72 @@ for(const row of examples){
     assert.equal(visibleById.get(row.sense_id)?.meaning,row.sense_meaning,'example meaning wording differs from its link: '+row.sense_id);
   }
 }
-assert.equal(approvedExampleLinks,183,'reviewed meaning links should remain explicit');
+assert.equal(approvedExampleLinks,269,'reviewed meaning links should remain explicit');
+for(const senseId of ['rethlian-s3','lianeth-s2','kor-s1','pral-s1','lianrethshen-s1','vaarshen-s1','jorvar-s1','em-s2','vrak-s2']){
+  assert.ok(!senses.some(row=>row.sense_id===senseId),'merged or moved 101–165 meaning remains in the app: '+senseId);
+}
+assert.equal(senses.find(row=>row.sense_id==='kel-s2')?.word_type,'Verb','Kel names as a verb, not a noun');
+assert.equal(senses.find(row=>row.sense_id==='pralor-s1')?.meaning,'Table, Flat Surface','Table remains under Pralor');
+for(const [headword,entryId,senseId] of [
+  ['lianor','PE-V3-0058','lianor-s2'],['kel','PE-PFM1-0001','kel-s2'],
+  ['rethlian','PE-V4-0003','rethlian-s1'],['rethlian','PE-V3-0013','rethlian-s2'],
+  ['velmarin','PE-V4-0068','velmarin-s1'],['velmarin','PE-V3-0050','velmarin-s2'],
+  ['drenkorath','PE-V3-0099','drenkorath-s1'],['drenkorath','PE-V4-0106','drenkorath-s2'],
+  ['pralor','PE-V4-0020','pralor-s1'],['lianeth','PE-V4-0001','lianeth-s1'],
+  ['lianrethshen','PE-PFM1-0071','lianrethshen-s2'],['vaarshen','PE-PFM1-0074','vaarshen-s2'],
+  ['jorvar','PE-TVO1-0050','jorvar-s2'],['em','PE-DR2-0005','em-s1'],
+  ['vrak','PE-DR2-0008','vrak-s1'],['nor-ka','PE-V4-0009','nor-ka-s1'],
+  ['nor-ka','PE-V4-0105','nor-ka-s2']
+]){
+  assert.equal(examples.find(row=>row.headword_id===headword&&row.entry_id===entryId)?.sense_id,senseId,'approved 101–165 meaning link: '+headword+'/'+entryId);
+}
+assert.equal(examples.find(row=>row.headword_id==='tenar'&&row.entry_id==='PE-V3-0203')?.display_kind,'teaching','ten plus one is a number illustration, not a sentence');
+for(const senseId of ['kel-s1','kor-s2','pral-s2','thael-s2','vanesh-s1','thar-ka-s2']){
+  assert.ok(!examples.some(row=>row.sense_id===senseId),'101–165 held meaning received a direct link: '+senseId);
+}
+for(const senseId of ['kal-s2','kalor-s2','seren-s2','vaar-s2']){
+  assert.ok(!senses.some(row=>row.sense_id===senseId),'retired meaning remains in the app: '+senseId);
+}
+assert.equal(senses.find(row=>row.sense_id==='kalor-s1')?.meaning,'Courage / Strength of Spirit / Willpower');
+assert.equal(senses.find(row=>row.sense_id==='vaar-s1')?.meaning,'Peace / Unity / Calm');
+for(const [headword,entryId,senseId] of [
+  ['kal','PE-ER2-0074','kal-s1'],['kal','PE-FAP1-0001','kal-s3'],
+  ['kalor','PE-V3-0110','kalor-s1'],['seren','PE-ER2-0029','seren-s1'],
+  ['vaar','PE-S3-0014','vaar-s1']
+]){
+  assert.equal(examples.find(row=>row.headword_id===headword&&row.entry_id===entryId)?.sense_id,senseId,'approved 51–60 meaning link: '+headword+'/'+entryId);
+}
+assert.ok(!examples.some(row=>row.sense_id==='vaar-s3'),'Vaar interjection remains unlinked');
+assert.equal(examples.filter(row=>row.entry_id==='PE-V3-0110'&&row.translation==='Go in strength and balance!').length,4,'Kalor command translation should agree on every page');
+for(const senseId of ['lorin-s2','rath-s3','krezor-s2','phelvin-s2','belshara-s4','jorvak-s2','welrim-s1','xilvar-s2','belshara-s1']){
+  assert.ok(!senses.some(row=>row.sense_id===senseId),'merged or superseded 61–100 meaning remains in the app: '+senseId);
+}
+for(const [headword,entryId,senseId] of [
+  ['lorin','PE-CNE1-0028','lorin-s1'],['lorin','PE-ER2-0026','lorin-s3'],
+  ['rath','PE-V2-0037','rath-s1'],['rath','PE-V3-0028','rath-s2'],
+  ['fah','PE-V3-0060','fah-s1'],['reth','PE-ICAES1-0057','reth-s1'],
+  ['reth','PE-V4-0083','reth-s2'],['dral','PE-V3-0064','dral-s1'],
+  ['tal','PE-V2-0044','tal-s1'],['tal','PE-NE1-0033','tal-s2'],
+  ['lun','PE-FAP1-0025','lun-s1'],['lun','PE-LPC1-0001','lun-s3'],
+  ['kaleth','PE-SP2-0004','kaleth-s1'],['kaleth','PE-TM1-0003','kaleth-s2'],
+  ['krezor','PE-TM1-0020','krezor-s1'],['krezor','PE-V4-0023','krezor-s3'],
+  ['phelvin','PE-V4-0059','phelvin-s1'],['jorvak','PE-V2-0057','jorvak-s1'],
+  ['welrim','PE-V2-0023','welrim-s2'],['xilvar','PE-V2-0027','xilvar-s1'],
+  ['belshara','PE-ER2-0012','belshara-s2'],['belshara','PE-V4-0002','belshara-s3'],
+  ['belshara','PE-V4-0072','belshara-s2'],['felorin','PE-V2-0084','felorin-s2'],
+  ['zhelvek','PE-V2-0077','zhelvek-s1'],['zhelvek','PE-CNE1-0014','zhelvek-s2'],
+  ['eshvelaneth','PE-V2-0122','eshvelaneth-s1'],['eshvelaneth','PE-V3-0098','eshvelaneth-s2'],
+  ['lianor','PE-V4-0074','lianor-s1']
+]){
+  assert.equal(examples.find(row=>row.headword_id===headword&&row.entry_id===entryId)?.sense_id,senseId,'approved 61–100 meaning link: '+headword+'/'+entryId);
+}
+for(const senseId of ['fah-s2','dral-s2','felorin-s1'])assert.ok(!examples.some(row=>row.sense_id===senseId),'held 61–100 meaning received a sentence: '+senseId);
+for(const entryId of ['PE-V2-0019','PE-V2-0065'])assert.ok(!examples.some(row=>row.entry_id===entryId),'old sentence still visible: '+entryId);
+assert.deepEqual(families['xilvar'].familyRoots,['XIL'],'Xilvar must not inherit the unrelated movement Var family');
+assert.equal(families['xilvar'].components.find(part=>part.form==='var')?.kind,'local','Xilvar var is a local seasoning part');
+assert.ok(!families['var'].relatedEntries.some(row=>row.id==='xilvar'),'Var must not link to the unrelated spice');
+assert.ok(!families['var-'].relatedEntries.some(row=>row.id==='xilvar'),'Var- must not link to the unrelated spice');
+assert.deepEqual(families['krezor'].components.map(part=>part.form),['Krez','-or'],'Krezor must show the approved two-part spelling');
 assert.deepEqual(senses.filter(row=>row.headword_id==='morldren').map(row=>row.meaning),['Waterfall'],'Morldren has one approved meaning');
 assert.deepEqual(senses.filter(row=>row.headword_id==='xarvel').map(row=>row.meaning),['Veiled meal (covered meal)'],'Xarvel has one meaning with both English wordings');
 assert.equal(senses.find(row=>row.sense_id==='thalor-s2')?.meaning,'Outside; not within something');
@@ -172,7 +237,7 @@ for(const retiredId of ['PE-V1-0015','PE-V1-0012'])assert.ok(!examples.some(row=
 assert.equal(examples.filter(row=>row.entry_id==='PE-V1-0009'&&row.display_kind==='phrase').length,2,'the old beloved boy phrase should appear as a phrase on both pages');
 for(let i=1;i<=12;i++)assert.equal(examples.filter(row=>row.entry_id===`PE-LA1-${String(i).padStart(4,'0')}`&&row.sense_id&&row.display_kind==='sentence').length,1,'missing approved batch 01 sentence '+i);
 const exportRows=parseCsv(fs.readFileSync(path.join(appDir,'exports','dictionary_entries.csv'),'utf8'));
-assert.equal(exportRows.length,1593,'spreadsheet export is missing visible senses');
+assert.equal(exportRows.length,1571,'spreadsheet export is missing visible senses');
 assert.deepEqual(new Set(exportRows.map(row=>row.sense_id)),new Set(senses.filter(row=>row.visible==='Yes').map(row=>row.sense_id)),'export sense IDs differ from visible app meanings');
 const exportedSense=id=>exportRows.find(row=>row.sense_id===id);
 for(const id of ['kadfel-s1','azfel-s1','theefel-s1','kadon-s1','aenvor-s1','sorl-s1','kalvar-s1','sharvar-s1','morlka-s1']){

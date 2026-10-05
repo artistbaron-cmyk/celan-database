@@ -1,0 +1,623 @@
+{
+  "xilvar": {
+    "familyRoots": [
+      "XIL",
+      "Var-"
+    ],
+    "sharedAffixes": [],
+    "components": [
+      {
+        "form": "Xil",
+        "description": "",
+        "source": "Xil + var = shard of substance",
+        "id": "root:xil",
+        "kind": "root",
+        "target": "xil",
+        "meaning": "Shard; fragment; hidden crystal detail; Hidden or secret (used for foods with a mysterious origin or preparation).",
+        "entryId": "LX-V2-0160"
+      },
+      {
+        "form": "var",
+        "description": "= shard of substance",
+        "source": "Xil + var = shard of substance",
+        "id": "root:var",
+        "kind": "root",
+        "target": "var",
+        "meaning": "= shard of substance",
+        "entryId": "LX-V2-0160"
+      }
+    ],
+    "notes": [],
+    "relatedEntries": [
+      {
+        "id": "xil",
+        "term": "Xil"
+      },
+      {
+        "id": "var",
+        "term": "Var"
+      },
+      {
+        "id": "xilbren",
+        "term": "Xilbren"
+      },
+      {
+        "id": "var-",
+        "term": "Var-"
+      },
+      {
+        "id": "xilnalior",
+        "term": "Xilnalior"
+      },
+      {
+        "id": "drenvaraen",
+        "term": "Drenvaraen"
+      },
+      {
+        "id": "xilnor",
+        "term": "Xilnor"
+      },
+      {
+        "id": "eshvaraen",
+        "term": "Eshvaraen"
+      },
+      {
+        "id": "jorvar",
+        "term": "Jorvar"
+      },
+      {
+        "id": "kesvar",
+        "term": "Kesvar"
+      },
+      {
+        "id": "mahrvaraen",
+        "term": "Mahrvaraen"
+      },
+      {
+        "id": "pelvar",
+        "term": "Pelvar"
+      },
+      {
+        "id": "pelvaraen",
+        "term": "Pelvaraen"
+      },
+      {
+        "id": "shalvar",
+        "term": "Shalvar"
+      },
+      {
+        "id": "thalwelvar",
+        "term": "Thalwelvar"
+      },
+      {
+        "id": "varan",
+        "term": "Varan"
+      },
+      {
+        "id": "varbelor",
+        "term": "Varbelor"
+      },
+      {
+        "id": "varnor",
+        "term": "Varnor"
+      },
+      {
+        "id": "varral",
+        "term": "Varral"
+      },
+      {
+        "id": "varrinmek",
+        "term": "Varrinmek"
+      },
+      {
+        "id": "varshanmek",
+        "term": "Varshanmek"
+      },
+      {
+        "id": "varshel",
+        "term": "Varshel"
+      },
+      {
+        "id": "varvek",
+        "term": "Varvek"
+      },
+      {
+        "id": "vekvaraen",
+        "term": "Vekvaraen"
+      },
+      {
+        "id": "velvaraen",
+        "term": "Velvaraen"
+      },
+      {
+        "id": "vethvar",
+        "term": "Vethvar"
+      },
+      {
+        "id": "wekvaraen",
+        "term": "Wekvaraen"
+      }
+    ],
+    "relatedGroups": [
+      {
+        "key": "root:xil",
+        "label": "XIL",
+        "entries": [
+          {
+            "id": "xil",
+            "term": "Xil"
+          },
+          {
+            "id": "xilbren",
+            "term": "Xilbren"
+          },
+          {
+            "id": "xilnalior",
+            "term": "Xilnalior"
+          },
+          {
+            "id": "xilnor",
+            "term": "Xilnor"
+          }
+        ]
+      },
+      {
+        "key": "root:var",
+        "label": "Var-",
+        "entries": [
+          {
+            "id": "var",
+            "term": "Var"
+          },
+          {
+            "id": "var-",
+            "term": "Var-"
+          },
+          {
+            "id": "drenvaraen",
+            "term": "Drenvaraen"
+          },
+          {
+            "id": "eshvaraen",
+            "term": "Eshvaraen"
+          },
+          {
+            "id": "jorvar",
+            "term": "Jorvar"
+          },
+          {
+            "id": "kesvar",
+            "term": "Kesvar"
+          },
+          {
+            "id": "mahrvaraen",
+            "term": "Mahrvaraen"
+          },
+          {
+            "id": "pelvar",
+            "term": "Pelvar"
+          },
+          {
+            "id": "pelvaraen",
+            "term": "Pelvaraen"
+          },
+          {
+            "id": "shalvar",
+            "term": "Shalvar"
+          },
+          {
+            "id": "thalwelvar",
+            "term": "Thalwelvar"
+          },
+          {
+            "id": "varan",
+            "term": "Varan"
+          },
+          {
+            "id": "varbelor",
+            "term": "Varbelor"
+          },
+          {
+            "id": "varnor",
+            "term": "Varnor"
+          },
+          {
+            "id": "varral",
+            "term": "Varral"
+          },
+          {
+            "id": "varrinmek",
+            "term": "Varrinmek"
+          },
+          {
+            "id": "varshanmek",
+            "term": "Varshanmek"
+          },
+          {
+            "id": "varshel",
+            "term": "Varshel"
+          },
+          {
+            "id": "varvek",
+            "term": "Varvek"
+          },
+          {
+            "id": "vekvaraen",
+            "term": "Vekvaraen"
+          },
+          {
+            "id": "velvaraen",
+            "term": "Velvaraen"
+          },
+          {
+            "id": "vethvar",
+            "term": "Vethvar"
+          },
+          {
+            "id": "wekvaraen",
+            "term": "Wekvaraen"
+          }
+        ]
+      }
+    ],
+    "morphologySenseIds": [],
+    "familyReview": {
+      "status": "open",
+      "reason": "The complete link set cannot yet be assigned to a particular meaning without implying an unsupported origin."
+    }
+  },
+  "krezor": {
+    "familyRoots": [
+      "KREZ",
+      "OR"
+    ],
+    "sharedAffixes": [
+      "-or"
+    ],
+    "components": [
+      {
+        "form": "Krez",
+        "description": "(fire)",
+        "source": "Krez (fire) + -or (place)",
+        "id": "root:krez",
+        "kind": "root",
+        "target": "krez",
+        "meaning": "(fire)",
+        "entryId": "LX-V4-0017"
+      },
+      {
+        "form": "or",
+        "description": "",
+        "source": "Krez + or",
+        "id": "root:or",
+        "kind": "root",
+        "target": null,
+        "meaning": "Domain; place; time-bounded space",
+        "entryId": "LX-V2-0146"
+      },
+      {
+        "form": "-or",
+        "description": "(place)",
+        "source": "Krez (fire) + -or (place)",
+        "id": "suffix:or",
+        "kind": "affix",
+        "target": "-or",
+        "meaning": "(place)",
+        "entryId": "LX-V4-0017"
+      }
+    ],
+    "notes": [],
+    "relatedEntries": [
+      {
+        "id": "krez",
+        "term": "Krez"
+      },
+      {
+        "id": "kalravor",
+        "term": "Kalravor"
+      },
+      {
+        "id": "krez-",
+        "term": "Krez-"
+      },
+      {
+        "id": "lianrethor",
+        "term": "Lianrethor"
+      },
+      {
+        "id": "eshkrezaen",
+        "term": "Eshkrezaen"
+      },
+      {
+        "id": "nethor",
+        "term": "Nethor"
+      },
+      {
+        "id": "kavkrez",
+        "term": "Kavkrez"
+      },
+      {
+        "id": "shalor",
+        "term": "Shalor"
+      },
+      {
+        "id": "krezaen",
+        "term": "Krezaen"
+      },
+      {
+        "id": "shalorveth",
+        "term": "Shalorveth"
+      },
+      {
+        "id": "krezdralfel",
+        "term": "Krezdralfel"
+      },
+      {
+        "id": "velkavor",
+        "term": "Velkavor"
+      },
+      {
+        "id": "krezdrenaen",
+        "term": "Krezdrenaen"
+      },
+      {
+        "id": "velpralor",
+        "term": "Velpralor"
+      },
+      {
+        "id": "krezdrenvek",
+        "term": "Krezdrenvek"
+      },
+      {
+        "id": "velthamor",
+        "term": "Velthamor"
+      },
+      {
+        "id": "krezfel",
+        "term": "Krezfel"
+      },
+      {
+        "id": "zhaelor",
+        "term": "Zhaelor"
+      },
+      {
+        "id": "krezlorin",
+        "term": "Krezlorin"
+      },
+      {
+        "id": "zhirkalor",
+        "term": "Zhirkalor"
+      },
+      {
+        "id": "krezmorath",
+        "term": "Krezmorath"
+      },
+      {
+        "id": "krezmorl",
+        "term": "Krezmorl"
+      },
+      {
+        "id": "kreznyel",
+        "term": "Kreznyel"
+      },
+      {
+        "id": "krezpral",
+        "term": "Krezpral"
+      },
+      {
+        "id": "krezpralaen",
+        "term": "Krezpralaen"
+      },
+      {
+        "id": "krezrek",
+        "term": "Krezrek"
+      },
+      {
+        "id": "krezshen",
+        "term": "Krezshen"
+      },
+      {
+        "id": "kreztharim",
+        "term": "Kreztharim"
+      },
+      {
+        "id": "kreztorin",
+        "term": "Kreztorin"
+      },
+      {
+        "id": "krezvek",
+        "term": "Krezvek"
+      },
+      {
+        "id": "mavkrez",
+        "term": "Mavkrez"
+      },
+      {
+        "id": "olankrezaen",
+        "term": "Olankrezaen"
+      },
+      {
+        "id": "pelkrezaen",
+        "term": "Pelkrezaen"
+      },
+      {
+        "id": "welkrez",
+        "term": "Welkrez"
+      },
+      {
+        "id": "xarkrezaen",
+        "term": "Xarkrezaen"
+      }
+    ],
+    "relatedGroups": [
+      {
+        "key": "root:krez",
+        "label": "KREZ",
+        "entries": [
+          {
+            "id": "krez",
+            "term": "Krez"
+          },
+          {
+            "id": "krez-",
+            "term": "Krez-"
+          },
+          {
+            "id": "eshkrezaen",
+            "term": "Eshkrezaen"
+          },
+          {
+            "id": "kavkrez",
+            "term": "Kavkrez"
+          },
+          {
+            "id": "krezaen",
+            "term": "Krezaen"
+          },
+          {
+            "id": "krezdralfel",
+            "term": "Krezdralfel"
+          },
+          {
+            "id": "krezdrenaen",
+            "term": "Krezdrenaen"
+          },
+          {
+            "id": "krezdrenvek",
+            "term": "Krezdrenvek"
+          },
+          {
+            "id": "krezfel",
+            "term": "Krezfel"
+          },
+          {
+            "id": "krezlorin",
+            "term": "Krezlorin"
+          },
+          {
+            "id": "krezmorath",
+            "term": "Krezmorath"
+          },
+          {
+            "id": "krezmorl",
+            "term": "Krezmorl"
+          },
+          {
+            "id": "kreznyel",
+            "term": "Kreznyel"
+          },
+          {
+            "id": "krezpral",
+            "term": "Krezpral"
+          },
+          {
+            "id": "krezpralaen",
+            "term": "Krezpralaen"
+          },
+          {
+            "id": "krezrek",
+            "term": "Krezrek"
+          },
+          {
+            "id": "krezshen",
+            "term": "Krezshen"
+          },
+          {
+            "id": "kreztharim",
+            "term": "Kreztharim"
+          },
+          {
+            "id": "kreztorin",
+            "term": "Kreztorin"
+          },
+          {
+            "id": "krezvek",
+            "term": "Krezvek"
+          },
+          {
+            "id": "mavkrez",
+            "term": "Mavkrez"
+          },
+          {
+            "id": "olankrezaen",
+            "term": "Olankrezaen"
+          },
+          {
+            "id": "pelkrezaen",
+            "term": "Pelkrezaen"
+          },
+          {
+            "id": "welkrez",
+            "term": "Welkrez"
+          },
+          {
+            "id": "xarkrezaen",
+            "term": "Xarkrezaen"
+          }
+        ]
+      },
+      {
+        "key": "root:or",
+        "label": "OR",
+        "entries": [
+          {
+            "id": "kalravor",
+            "term": "Kalravor"
+          },
+          {
+            "id": "lianrethor",
+            "term": "Lianrethor"
+          },
+          {
+            "id": "nethor",
+            "term": "Nethor"
+          },
+          {
+            "id": "shalor",
+            "term": "Shalor"
+          },
+          {
+            "id": "shalorveth",
+            "term": "Shalorveth"
+          },
+          {
+            "id": "velkavor",
+            "term": "Velkavor"
+          },
+          {
+            "id": "velpralor",
+            "term": "Velpralor"
+          },
+          {
+            "id": "velthamor",
+            "term": "Velthamor"
+          },
+          {
+            "id": "zhaelor",
+            "term": "Zhaelor"
+          },
+          {
+            "id": "zhirkalor",
+            "term": "Zhirkalor"
+          }
+        ]
+      }
+    ],
+    "morphologyAnalyses": [
+      {
+        "componentIds": [
+          "root:krez",
+          "suffix:or"
+        ]
+      }
+    ],
+    "morphologySenseIds": [
+      "krezor-s1",
+      "krezor-s3"
+    ],
+    "familySenseIds": [
+      "krezor-s1",
+      "krezor-s3"
+    ]
+  }
+}

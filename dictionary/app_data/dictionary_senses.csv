@@ -72,27 +72,21 @@ varok,1,Yes,Verb,Command / Direct,,,LX-V2-0029,varok-s1
 arth,1,,Noun,Protection; defense; purposeful shielding,"Builds words for protection, defense, destiny-linked duty, and fortified purpose.",Yes,XR-arth,arth-s1
 arth,2,Yes,Verb,Protect / Defend,,,LX-V2-0030,arth-s2
 kal,1,Yes,Noun,Strength / Power,,,LX-V2-0031; LX-V4-0111; XR-kal,kal-s1
-kal,2,Yes,Adjective,Strong,,,LX-V2-0031; LX-V4-0111; XR-kal,kal-s2
 kal,3,Yes,Verb,To strengthen,,,LX-V2-0031; LX-V4-0111; XR-kal,kal-s3
-kalor,1,Yes,Noun,Courage / Strength of Spirit,,,LX-V2-0042,kalor-s1
-kalor,2,Yes,Noun,Strength (of the mind or spirit),,,LX-V2-0032,kalor-s2
-seren,1,Yes,Noun,Guardian / Protector,,,LX-V2-0033,seren-s1
-seren,2,Yes,Noun,Guardian/Protector,,,LX-V3-0007,seren-s2
+kalor,1,Yes,Noun,Courage / Strength of Spirit / Willpower,,,LX-V2-0042; LX-V2-0032,kalor-s1
+seren,1,Yes,Noun,Guardian / Protector,,,LX-V2-0033; LX-V3-0007,seren-s1
 arthen,1,Yes,Noun,Destiny / Purpose,,,LX-V2-0035,arthen-s1
-vaar,1,Yes,Noun,Peace / Unity,,,LX-V2-0037; LX-V2-0041; LX-V4-0113; XR-vaar,vaar-s1
-vaar,2,Yes,Adjective,Good,,,LX-V2-0037; LX-V2-0041; LX-V4-0113; XR-vaar,vaar-s2
+vaar,1,Yes,Noun,Peace / Unity / Calm,,,LX-V2-0037; LX-V2-0041; LX-V4-0113; XR-vaar,vaar-s1
 vaar,3,Yes,Interjection,Relief / Phew,,,LX-V2-0037; LX-V2-0041; LX-V4-0113; XR-vaar,vaar-s3
 ilan,1,Yes,Noun,Student / Follower,,,LX-V2-0038,ilan-s1
-lorin,1,Yes,Noun,Guide,,,LX-V2-0039; LX-V3-0005,lorin-s1
-lorin,2,Yes,Noun,Guide / Teacher,,,LX-V2-0039; LX-V3-0005,lorin-s2
+lorin,1,Yes,Noun,Guide / Mentor,,,LX-V2-0039; LX-V3-0005,lorin-s1
 lorin,3,Yes,Verb,To guide,,,LX-V2-0039; LX-V3-0005,lorin-s3
 rath,1,Yes,Noun,Enemy / Foe,,,LX-V2-0040,rath-s1
-rath,2,Yes,Particle,Conditional “If”,Preserved as standalone root/morpheme because source clearly defines it.,,DM-RM-V1-0012,rath-s2
-rath,3,Yes,Particle,Conditional marker: if,Original root/morpheme entry preserved.,,DM-RM-V3-0009,rath-s3
-fah,1,Yes,Noun,Darkness / Fear / Night,,,LX-V2-0043; LX-V4-0104; XR-fah,fah-s1
+rath,2,Yes,Particle,Conditional: if,Introduces a conditional clause: if.,,DM-RM-V1-0012; DM-RM-V3-0009,rath-s2
+fah,1,Yes,Noun,Darkness / The Void,Darkness is the core sense; fear and despair may arise metaphorically. A period of night is distinct; Kilvlum specifically names midnight.,,LX-V2-0043; LX-V4-0104; XR-fah,fah-s1
 fah,2,Yes,Interjection,Ugh! / Bah!,,,LX-V2-0043; LX-V4-0104; XR-fah,fah-s2
 thera,1,Yes,Noun,Longing / Yearning,,,LX-V2-0044,thera-s1
-reth,1,Yes,Noun,Confusion / Uncertainty,,,LX-V2-0045; LX-V4-0077; LX-V4-0103,reth-s1
+reth,1,Yes,Noun,Uncertainty / Confusion / Doubt,,,LX-V2-0045; LX-V4-0077; LX-V4-0103,reth-s1
 reth,2,Yes,Conjunction,Or,,,LX-V2-0045; LX-V4-0077; LX-V4-0103,reth-s2
 vial,1,Yes,Noun,Joy / Happiness,,,LX-V2-0046,vial-s1
 lorinor,1,Yes,Noun,Head,,,LX-V2-0047,lorinor-s1
@@ -106,7 +100,7 @@ kalvar,1,Yes,Noun,Arm,,,LX-V2-0053,kalvar-s1
 korin,1,Yes,Noun,Hand,,,LX-V2-0054,korin-s1
 sharvar,1,Yes,Noun,Leg,,,LX-V2-0055,sharvar-s1
 morlka,1,Yes,Noun,Foot,,,LX-V2-0056,morlka-s1
-dral,1,Yes,Noun,Sky / Wonder / Heavens,,,LX-V2-0058; LX-V4-0106; XR-dral,dral-s1
+dral,1,Yes,Noun,Sky / Heavens / Celestial Expanse,Lowercase dral refers to the physical sky; capitalized Dral names the heavens or celestial expanse. Wonder is expressed by thaalaen in the example.,,LX-V2-0058; LX-V4-0106; XR-dral,dral-s1
 dral,2,Yes,Interjection,Wow! / Heavens!,,,LX-V2-0058; LX-V4-0106; XR-dral,dral-s2
 tal,1,Yes,Verb,Give / Offer,,,LX-V2-0061; LX-V4-0116; XR-tal,tal-s1
 tal,2,Yes,Verb,Take / Receive,,,LX-V2-0061; LX-V4-0116; XR-tal,tal-s2
@@ -125,9 +119,8 @@ kaleth,1,Yes,Noun,Fortress / Stronghold,,,LX-V2-0081,kaleth-s1
 kaleth,2,Yes,Adjective,Strong / Powerful / Intense / High in magnitude or reading,,,LX-V2-0081,kaleth-s2
 varthas,1,Yes,Noun,City / Town,,,LX-V2-0082,varthas-s1
 lorash,1,Yes,Noun,Temple / Shrine,,,LX-V2-0083,lorash-s1
-krezor,1,Yes,Noun,forge,Krez + or,,LX-V2-0146,krezor-s1
-krezor,2,Yes,Noun,Forge / Place of Fire,,,LX-V2-0086,krezor-s2
-krezor,3,Yes,Noun,"Hearth, Fireplace, Forge",Krez (fire) + -or (place),,LX-V4-0017,krezor-s3
+krezor,1,Yes,Noun,Forge / Place of Fire,Krez (fire) + -or (place); the craft or industrial fire place.,,LX-V2-0146; LX-V2-0086,krezor-s1
+krezor,3,Yes,Noun,Hearth / Fireplace,Domestic or social fire place; distinct from the craft forge use.,,LX-V4-0017,krezor-s3
 norvaar,1,Yes,Noun,Gateway (time-related portal),,,LX-V2-0087,norvaar-s1
 kinnshal,1,Yes,Noun,Dawn (Light Awakens),"The time when light awakens, symbolizing renewal.",,LX-V2-0088,kinnshal-s1
 kinnmor,1,Yes,Noun,Morning (Earth Illuminated),"Early morning, when the earth is bathed in light.",,LX-V2-0089,kinnmor-s1
@@ -141,25 +134,21 @@ belar,1,Yes,Noun,"A blending spice; a seasoning used primarily to unite, balance
 brosrin,1,Yes,Noun,Layered food,Bros + rin = essence,,LX-V2-0097,brosrin-s1
 balrin,1,Yes,Noun,Growing food,Bal + rin = essence,,LX-V2-0098,balrin-s1
 brenmor,1,Yes,Noun,Harvested roots,Bren + mor,,LX-V2-0099,brenmor-s1
-phelvin,1,Yes,Noun,Comforting drink,Phel + vin = pulled/essence,,LX-V2-0100; LX-V2-0162,phelvin-s1
-phelvin,2,Yes,Noun,Comfort Drink,Phel + vin = soothing essence,,LX-V2-0100; LX-V2-0162,phelvin-s2
+phelvin,1,Yes,Noun,Comforting drink / warm herbal beverage,Phel + vin: a comforting drink; the herbal and warm reading is part of the approved food use.,,LX-V2-0100; LX-V2-0162,phelvin-s1
 prakorin,1,Yes,Noun,Tender bread,Prak + orin = essence,,LX-V2-0101,prakorin-s1
 pelvar,1,Yes,Noun,Sharp grain,Pel + var = grounded,,LX-V2-0102; LX-V2-0151,pelvar-s1
 peldren,1,Yes,Noun,Piercing water,Pel + dren = water,,LX-V2-0103,peldren-s1
 pralmor,1,Yes,Noun,Detailed carving,Pral + mor = earth,,LX-V2-0104,pralmor-s1
 jorlin,1,Yes,Noun,Bursting water,Jor + lin = collective flow,,LX-V2-0105,jorlin-s1
 jorvak,1,Yes,Noun,Bursting Stew,Jor + vak = energetic vessel,,LX-V2-0152,jorvak-s1
-jorvak,2,Yes,Noun,Bursting warmth,Jor + vak = vessel,,LX-V2-0106,jorvak-s2
 jekvor,1,Yes,Noun,"A spiraling spice; a seasoning recognizable by a curled, coiled, or twisted physical form",The source gloss “Spiraling spice” is preserved and clarified by physical form.,,LX-V2-0107,jekvor-s1
 jelvor,1,Yes,Noun,"A zesty spice; a seasoning distinguished by a bright, sharp, lively flavor",The source gloss “Zesty spice” is preserved and clarified by flavor.,,LX-V2-0108,jelvor-s1
 jindral,1,Yes,Noun,Rare fruit,Jin + dral = wonder,,LX-V2-0109,jindral-s1
-welrim,1,Yes,Noun,Continuous Feast,Wel + rim = flowing celebration,,LX-V2-0153,welrim-s1
-welrim,2,Yes,Noun,Shared feast,Wel + rim = celebration,,LX-V2-0110,welrim-s2
+welrim,2,Yes,Noun,Shared feast / communal banquet,Wel + rim = celebration,,LX-V2-0110,welrim-s2
 welmor,1,Yes,Noun,Flowing earth,Wel + mor = ground,,LX-V2-0111,welmor-s1
 weknor,1,Yes,Noun,Cyclical time,Wek + nor = time,,LX-V2-0112,weknor-s1
 worvenak,1,Yes,Noun,Abundant stew,Wor + venak = warmth,,LX-V2-0113,worvenak-s1
-xilvar,1,Yes,Noun,A hidden spice; a seasoning or blend whose composition or preparation is deliberately concealed,The source gloss “Hidden spice” is preserved and clarified by concealed composition or preparation.,,LX-V2-0114; LX-V2-0160,xilvar-s1
-xilvar,2,Yes,Noun,Fragmented Salt,The separate established salt sense remains unchanged.,,LX-V2-0114; LX-V2-0160,xilvar-s2
+xilvar,1,Yes,Noun,Hidden spice / secret seasoning blend,A spice or seasoning blend whose composition or preparation is concealed.,,LX-V2-0114; LX-V2-0160,xilvar-s1
 xarvel,1,Yes,Noun,Veiled meal (covered meal),,,LX-V2-0115,xarvel-s1
 ohmbaen,1,Yes,Noun,Beloved or soulmate,,,LX-V2-0119,ohmbaen-s1
 tlakorin,1,Yes,Noun,Confidant or trusted companion,,,LX-V2-0120,tlakorin-s1
@@ -172,10 +161,8 @@ tlakhura,1,Yes,Noun,"A bond shared between two people, unspoken yet strong",,,LX
 jorkal,1,Yes,Noun,Charge / Attack / Assault. A command or description of a forceful offensive push.,Jor (surge/burst) + Kal (strength/power),,LX-V2-0127,jorkal-s1
 arthlor,1,Yes,Noun,Defensive Formation / Shield Wall / Fortified Position. Refers to holding a defensive position or a specific coordinated defensive setup.,Arth (protect/defend) + -or (place/location),,LX-V2-0128,arthlor-s1
 serenkal,1,Yes,Noun,"Elite Warrior / Vanguard / Shock Trooper. Refers specifically to experienced, strong front-line fighters or protectors.",Seren (guardian/protector) + Kal (strength),,LX-V2-0129,serenkal-s1
-belshara,1,Yes,Noun,"Coordinated Maneuver / Formation Movement / Tactical Path. Refers to moving troops in a specific, planned way.",Bel (bind/weave) + Shara (path/journey),,LX-V2-0130; LX-V4-0002; LX-V4-0066,belshara-s1
-belshara,2,Yes,Noun,Duty (Bound Path),Bel (bind) + Shara (path),,LX-V2-0130; LX-V4-0002; LX-V4-0066,belshara-s2
-belshara,3,Yes,Modal,Necessity (Must/Have to),"""on a bound path""",,LX-V2-0130; LX-V4-0002; LX-V4-0066,belshara-s3
-belshara,4,Yes,Noun,Necessity / Obligation,,,LX-V2-0130; LX-V4-0002; LX-V4-0066,belshara-s4
+belshara,2,Yes,Noun,Duty / Obligation (Bound Path),Bel (bind) + Shara (path),,LX-V2-0130; LX-V4-0002; LX-V4-0066,belshara-s2
+belshara,3,Yes,Modal,Must / Have to,"""on a bound path""",,LX-V2-0130; LX-V4-0002; LX-V4-0066,belshara-s3
 rathvethor,1,Yes,Noun,Hidden Enemy / Ambush / Unseen Threat. Used when scouting or warning about potential ambushes or concealed enemies.,Rath (enemy/foe) + Vethor (shadow/mystery),,LX-V2-0131,rathvethor-s1
 lianaen,1,Yes,Verb,To Pray / Prayer / Speaking Truth (to the divine/Heart/Balance). The act of spiritual communion or supplication.,Lian (truth) + -aen (verb-forming),,LX-V2-0132,lianaen-s1
 khumeth,1,Yes,Noun,Sacred Ritual / Ceremony / Circle Rite. Refers to a formal spiritual practice or ceremony.,Khum (circle/reconciliation) + -eth (ritual noun suffix),,LX-V2-0133,khumeth-s1
@@ -204,8 +191,8 @@ velithor,1,Yes,Noun,Strong Ale,Vel + ithor = energy strength; unchanged,,LX-V2-0
 tenarorin,1,Yes,Noun,Glow Wine,Tenar + orin = radiant essence,,LX-V2-0164,tenarorin-s1
 lianfel,1,Yes,Noun,Truth Tea,Lian + fel = clarity delicacy,,LX-V2-0165,lianfel-s1
 jorvilor,1,Yes,Noun,Bursting Berry Drink,Jor + vilor = energetic berry essence,,LX-V2-0166,jorvilor-s1
-zhelvek,1,Yes,Noun,Energy Bar,Zhel = spark/energy + vek = carrier,,LX-V2-0167,zhelvek-s1
-zhelvek,2,Yes,Noun,Energy carrier,,,LX-V2-0167,zhelvek-s2
+zhelvek,1,Yes,Noun,Energy bar / dense food ration,Zhel = spark/energy + vek = carrier,,LX-V2-0167,zhelvek-s1
+zhelvek,2,Yes,Noun,Energy carrier / power cell,,,LX-V2-0167,zhelvek-s2
 velmek,1,Yes,Noun,Synthetic Protein,Vel = sustenance + mek = forged,,LX-V2-0168,velmek-s1
 phelrin,1,Yes,Noun,Comfort Food,Phel = warmth + rin = essence,,LX-V2-0169,phelrin-s1
 jorvalin,1,Yes,Noun,Effervescent Beverage,Jor = burst + valin = bubbling essence,,LX-V2-0170,jorvalin-s1
@@ -250,32 +237,31 @@ thalorim,1,Yes,Noun,Lightning,"A sudden, balanced flash of energy.",,LX-V2-0209,
 krezrek,1,Yes,Noun,Heatwave,An overpowering wave of heat.,,LX-V2-0210,krezrek-s1
 drenvelesh,1,Yes,Noun,Morning Dew,Dew formed from the cold sky.,,LX-V2-0211,drenvelesh-s1
 eshvelaneth,1,Yes,Noun,Hailstorm,A storm of icy hail striking the ground.,,LX-V2-0212,eshvelaneth-s1
-eshvelaneth,2,Yes,Noun,Snowstorm Guidance Ritual,Derived From: Esh (sky) + vel (cold) + aneth (strike). Meaning: A ritual to seek guidance during challenging times.,,LX-V3-0118,eshvelaneth-s2
+eshvelaneth,2,Yes,Noun,Snowstorm Guidance Ritual,Nivveilian ceremonial use: a snowstorm guidance ritual; distinct from the general hailstorm meaning.,,LX-V3-0118,eshvelaneth-s2
 ilinor,1,Yes,Quantifier,All / Entire / Whole,Usage: Placed before the noun it modifies.,,LX-V2-0213,ilinor-s1
 som,1,Yes,Quantifier,Some / A few / Part of,Usage: Placed before the noun.,,LX-V2-0214,som-s1
 melen,1,Yes,Quantifier,Many / Much / Numerous,Usage: Placed before the noun.,,LX-V2-0215,melen-s1
 felin,1,Yes,Quantifier,Few / Little / Small amount,Usage: Placed before the noun.,,LX-V2-0216,felin-s1
 ekor,1,Yes,Quantifier,Each / Every,Usage: Placed before the noun.,,LX-V2-0217,ekor-s1
 liana,1,Yes,Noun,Lady,,,LX-V3-0001,liana-s1
-lianor,1,Yes,Noun,"Idea, Thought (Place of truth)",Lian (truth) + -or (place),,LX-V4-0068,lianor-s1
-lianor,2,Yes,Noun,Sir,,,LX-V3-0002,lianor-s2
+lianor,1,Yes,Noun,Idea / Thought,Lian (truth) + -or (domain/place); the current noun means an idea or thought.,,LX-V4-0068,lianor-s1
+lianor,2,Yes,Noun,Sir / Respected Master,Honorific title of address; distinct from Lianor meaning idea or thought.,,LX-V3-0002,lianor-s2
 liorin,1,Yes,Noun,Teacher/Elder,,,LX-V3-0003,liorin-s1
 liorinen,1,Yes,Noun,Honored Elder/Teacher,,,LX-V3-0004,liorinen-s1
 lorinen,1,Yes,Noun,Honored Guide,,,LX-V3-0006,lorinen-s1
 li-seren,1,Yes,Noun,Respected Guardian,,,LX-V3-0008,li-seren-s1
-kel,1,Yes,Verb,Say / Talk (informal),,,LX-V3-0012; LX-V4-0121; LX-SCP1-0001; XR-kel,kel-s1
-kel,2,Yes,Noun,Name,,,LX-V3-0012; LX-V4-0121; LX-SCP1-0001; XR-kel,kel-s2
-kel,3,Yes,Noun,Word,,,LX-V3-0012; LX-V4-0121; LX-SCP1-0001; XR-kel,kel-s3
-kel,4,Yes,Noun,A text; a connected body of written or encoded words rather than information or data generally,,,LX-SCP1-0001,kel-s4
+kel,1,Yes,Verb,Say / Talk (informal),Informal say/talk use remains without a direct example; ordinary speaking also uses Aen and Kelaen.,,LX-V3-0012; LX-V4-0121; LX-SCP1-0001; XR-kel,kel-s1
+kel,2,Yes,Verb,To name / to designate,Sentence-initial Kel means to name or designate. The noun for a name is Kelrin; do not read this verb example as a noun.,,LX-V3-0012; LX-V4-0121; LX-SCP1-0001; XR-kel,kel-s2
+kel,3,Yes,Noun,Word / spoken or written unit,,,LX-V3-0012; LX-V4-0121; LX-SCP1-0001; XR-kel,kel-s3
+kel,4,Yes,Noun,Text / inscribed passage,,,LX-SCP1-0001,kel-s4
 min,1,Yes,Verb,To go/walk/head over - casual,"Use in casual conversation, between friends/family, marketplaces. Avoid Li- / -en unless context requires politeness.",,LX-V3-0013,min-s1
 dro,1,,Noun,Basic physical water,"Builds ordinary terms for drinking, storing, measuring, and distributing physical water.",Yes,XR-dro,dro-s1
 dro,2,Yes,Noun,Water - basic,"Use in casual conversation, between friends/family, marketplaces. Avoid Li- / -en unless context requires politeness.",,LX-V3-0014,dro-s2
 ar,1,Yes,Particle,"Intensifier - very, intensely",Place after the verb/adjective. Fahaen I ar! (I am terrified!).,,LX-V3-0015; DM-RM-V3-0003,ar-s1
 fel,1,Yes,Particle,"Diminisher - slightly, a bit",Place after the verb/adjective. Theraen I fel. (I long a little.),,LX-V3-0016; DM-RM-V3-0004,fel-s1
 lia,1,Yes,Interjection,Yes,"“Lia, I var dren.” – “Yes, I go to the water.”",,LX-V3-0017,lia-s1
-rethlian,1,Yes,Modal,Possibility (May/Might),"""maybe/perhaps""",,LX-V3-0019; LX-V4-0003,rethlian-s1
-rethlian,2,Yes,Interjection,Maybe,"“Rethlian, I nor var dren.” – “Maybe, I will go to the water.”",,LX-V3-0019; LX-V4-0003,rethlian-s2
-rethlian,3,Yes,Particle,Possibility (May/Might),,,LX-V3-0019; LX-V4-0003,rethlian-s3
+rethlian,1,Yes,Modal,Possibility (may / might),Modal particle after a clause: may or might. Distinct from introductory Maybe.,,LX-V3-0019; LX-V4-0003,rethlian-s1
+rethlian,2,Yes,Interjection,Maybe / Perhaps,Standalone introductory Maybe or Perhaps.,,LX-V3-0019; LX-V4-0003,rethlian-s2
 mmm,1,Yes,Interjection,Considering or listening thoughtfully.,,,LX-V3-0021,mmm-s1
 lialor,1,Yes,Particle,“Indeed” or “Certainly.”,"“Lialor, serin vanesh shenakar.” – “Indeed, the friends trade coinage.”",,LX-V3-0022,lialor-s1
 varthen,1,Yes,Particle,“So” or “Thus.”,"“Varthen, Ya var dren?” – “So, you go to the water?”",,LX-V3-0023,varthen-s1
@@ -316,7 +302,7 @@ zhirkalor,1,Yes,Noun,Partner by Lineage,Zhir (lineage) + kal (strength) + or (sh
 xarfelvin,1,Yes,Noun,Adoptive Niece/Nephew,Xar (protection) + Fel (young) + vin (pulled).,,LX-V3-0057,xarfelvin-s1
 belvethral,1,Yes,Noun,Chosen Family,Bel (binding) + veth (shadow) + ral (caretaker).,,LX-V3-0058,belvethral-s1
 velmarin,1,Yes,Noun,Ancient Tree (species),Vel (wisdom) + Marin (branch),,LX-V4-0062,velmarin-s1
-velmarin,2,Yes,Noun,Honorary Elder,Vel (wisdom) + mar (branch) + in (connected).,,LX-V3-0059,velmarin-s2
+velmarin,2,Yes,Noun,Honorary Elder,Honorary Elder is a cultural extension of the ancient-tree name.,,LX-V3-0059,velmarin-s2
 pralvokesh,1,Yes,Noun,Trusted Ally or Friend,Pral (intricacy) + vok (unity) + esh (connection).,,LX-V3-0060,pralvokesh-s1
 ian,1,Yes,Possessive,My / Direct Possession marker,"Direct personal suffix -ian, attached after the possessed noun. My. Third-person possessor-ka is also permitted, including for body parts.",,LX-V3-0061,ian-s1
 anen,1,Yes,Possessive,Your / Direct Possession marker,,,LX-V3-0062,anen-s1
@@ -372,8 +358,8 @@ zhirelorim,1,Yes,Noun,Cosmic Coming-of-Age,Derived From: Zhir (lineage) + elor (
 morlatharim,1,Yes,Noun,Stone Heart Ceremony,Derived From: Morl (mountain) + thar (heart) + im (essence). Meaning: A ritual to honor resilience and fortify family bonds.,,LX-V3-0115,morlatharim-s1
 velmarineth,1,Yes,Noun,Elder's Blessing,Derived From: Vel (wisdom) + marin (branch) + eth (sacred). Meaning: A ceremony where elders bless the younger branches of the family tree.,,LX-V3-0116,velmarineth-s1
 velthaelvok,1,Yes,Noun,Winter Unity Ceremony,Derived From: Vel (cold) + thael (motion) + vok (unity). Meaning: A ritual for families to renew bonds during the harsh winter season.,,LX-V3-0117,velthaelvok-s1
-drenkorath,1,Yes,Noun,Oasis Blessing Ceremony,Derived From: Dren (water) + kor (source/strength) + ath (balance). Meaning: A ritual where families gather to honor and protect their oasis or water source.,,LX-V3-0119,drenkorath-s1
-drenkorath,2,Yes,Noun,Sacred spring,,,LX-V3-0119,drenkorath-s2
+drenkorath,1,Yes,Noun,Oasis Blessing Ceremony,Jasaran oasis blessing ceremony. Its poetic example personifies the blessing as speaking to the water.,,LX-V3-0119,drenkorath-s1
+drenkorath,2,Yes,Noun,Sacred spring / oasis spring,A sacred spring or oasis spring; in the example Drenkorath is a place reached by the speaker.,,LX-V3-0119,drenkorath-s2
 shalorveth,1,Yes,Noun,Shadowlight Ritual,"Derived From: Shal (light) + or (essence) + veth (shadow). Meaning: A mystical ceremony that represents the balance between opposites (light and shadow, joy and sorrow) within family ties.",,LX-V3-0120,shalorveth-s1
 velterim,1,Yes,Noun,Desert Passage Ceremony,"Derived From: Vel (stillness/cold) + ter (journey) + im (essence). Meaning: A coming-of-age ritual where individuals complete a journey across the desert, symbolizing growth and resilience.",,LX-V3-0121,velterim-s1
 krezmorath,1,Yes,Noun,Fire Bond Ritual,"Derived From: Krez (fire) + mor (earth/grounding) + ath (balance). Meaning: A ritual performed around a fire to fortify family unity and resolve, often before significant challenges.",,LX-V3-0122,krezmorath-s1
@@ -406,13 +392,12 @@ oven,1,Yes,Noun,Eight,,,LX-V3-0141,oven-s1
 oven,2,,Noun,Eight; unit of the nations,Numeric base for eight; used in counting and eight-part civic or cultural groupings.,Yes,XR-oven,oven-s2
 nevar,1,Yes,Noun,Nine,,,LX-V3-0142,nevar-s1
 nevar,2,,Noun,Nine; unit of threshold,Numeric base for nine; used in counting and threshold-like or near-complete groupings.,Yes,XR-nevar,nevar-s2
-tenar,1,Yes,Number,Ten,,,LX-V3-0143; XR-tenar,tenar-s1
-tenar,2,Yes,Noun,Radiance / Steady glow / Visible light,,,LX-V3-0143; XR-tenar,tenar-s2
-lianeth,1,Yes,Modal,Ability (Can/Able to),"""having true quality""",,LX-V4-0001,lianeth-s1
-lianeth,2,Yes,Verb,Ability (Can/Able to),,,LX-V4-0001,lianeth-s2
-lianeth,3,Yes,Adjective,Reliable / Sound / Dependable / Accurate / True to function,,,LX-V4-0001,lianeth-s3
+tenar,1,Yes,Number,Ten,Tenar unar is a number-system illustration: ten plus one makes eleven.,,LX-V3-0143; XR-tenar,tenar-s1
+tenar,2,Yes,Noun,Radiance / steady glow / visible light,,,LX-V3-0143; XR-tenar,tenar-s2
+lianeth,1,Yes,Modal,Ability (can / able to),Modal particle of ability after a clause: can or able to.,,LX-V4-0001,lianeth-s1
+lianeth,3,Yes,Adjective,Reliable / sound / dependable / accurate / true to function,,,LX-V4-0001,lianeth-s3
 thar-ka,1,Yes,Modal,Desire (Want to),"""by heart's desire""",,LX-V4-0004,thar-ka-s1
-thar-ka,2,Yes,Noun,Desire,"Translation note: thar-ka means desire in the abstract. In the original example Ohmaen I an thar-ka., the English rendering “my desire” is contextual, driven by the subject pronoun I; “my” is not encoded in thar-ka itself. This explains that example, rather than making I a general possessive marker.",,LX-V4-0004,thar-ka-s2
+thar-ka,2,Yes,Noun,Desire,Desire / inner drive as a noun; no ordinary noun sentence has been assigned yet.,,LX-V4-0004,thar-ka-s2
 inko,1,Yes,Pronoun,We two / Us two [Dual],,,LX-V4-0005,inko-s1
 yako,1,Yes,Pronoun,You two [Dual],,,LX-V4-0006,yako-s1
 lako,1,Yes,Pronoun,They two [Dual],,,LX-V4-0007,lako-s1
@@ -485,15 +470,13 @@ kinn,2,,Noun,daylight,Original root/morpheme entry preserved.,Yes,DM-RM-V2-0001,
 lunwek,1,Yes,Noun,Month,Lun (Lake/Moon) + Wek (Cycle). A full cycle of the moon.,,LX-V4-0083,lunwek-s1
 tharvin-wek,1,Yes,Noun,Year,"Tharvin (Autumn) + Wek (Cycle). A full cycle of the seasons, marked by the harvest/balancing season.",,LX-V4-0084,tharvin-wek-s1
 shen,1,Yes,Noun,Coinage / Currency,,,LX-V4-0085; LX-V4-0123; XR-shen,shen-s1
-shen,2,Yes,Measure,Unit of weight / measure,,,LX-V4-0085; LX-V4-0123; XR-shen,shen-s2
+shen,2,Yes,Measure,Unit of quantity / measure,A measure or count unit following a numeral; the current sentence names five measures.,,LX-V4-0085; LX-V4-0123; XR-shen,shen-s2
 shen,3,Yes,Verb,To measure / To count,,,LX-V4-0085; LX-V4-0123; XR-shen,shen-s3
 morkal,1,Yes,Noun,Stone-weight,"Mor (Stone/Earth) + Kal (Strength/Weight). A large, standard unit of weight for heavy goods.",,LX-V4-0086,morkal-s1
-kor,1,Yes,Noun,Source / Strength,,,LX-V4-0118; LX-SRD1-0003; XR-kor,kor-s1
 kor,2,Yes,Measure,Unit of length / handspan measure,,,LX-V4-0118; LX-SRD1-0003; XR-kor,kor-s2
-kor,3,Yes,Noun,Center or middle; the central position or region within a bounded whole,,,LX-SRD1-0003,kor-s3
-pral,1,Yes,Noun,Table,,,LX-V4-0119; XR-pral; DM-RM-V2-0010,pral-s1
-pral,2,Yes,Verb,Make,,,LX-V4-0119; XR-pral; DM-RM-V2-0010,pral-s2
-pral,3,Yes,Noun,Intricacy / Detail,,,LX-V4-0119; XR-pral; DM-RM-V2-0010,pral-s3
+kor,3,Yes,Noun,Center / Core / Middle; central position or functional interior within a whole,Spatial center or functional core. Strength/power belongs to Kal; Kor's handspan measure is a separate specialized use.,,LX-SRD1-0003; LX-V4-0118; XR-kor,kor-s3
+pral,2,Yes,Verb,Make,Standalone make/craft verb remains without a direct example. Pralaen is the established active craft verb.,,LX-V4-0119; XR-pral; DM-RM-V2-0010,pral-s2
+pral,3,Yes,Noun,Intricacy / Detail / Craftsmanship,,,LX-V4-0119; XR-pral; DM-RM-V2-0010,pral-s3
 vok,1,Yes,Noun,Unity / Bond,,,LX-V4-0120; XR-vok,vok-s1
 vok,2,Yes,Verb,Betray,,,LX-V4-0120; XR-vok,vok-s2
 eth,1,Yes,Noun,Essence / inherent quality,Primordial standalone root naming a thing's inherent nature; distinct from the -eth ending.,,LX-V4-0122,eth-s3
@@ -576,7 +559,7 @@ rakel,1,Yes,Interjection,Pardon? What did you say?,,,LX-CNE1-0032,rakel-s1
 serdel,1,Yes,Preposition,Between; in the interval or relation bounded by two anchors,,,LX-CNE1-0033,serdel-s1
 shalvar,1,Yes,Preposition,Ahead of or in front of relative to facing or motion,,,LX-CNE1-0034,shalvar-s1
 vethvar,1,Yes,Preposition,Behind or at the back of relative to facing or motion,,,LX-CNE1-0035,vethvar-s1
-shan,1,Yes,Verb,Passing; transfer; handoff between states,"Builds words for passing onward, ceremonial transfer, blessing transmission, and movement between holders or generations.",Yes,XR-shan,shan-s1
+shan,1,Yes,Verb,To pass / to transfer / to hand off,"Builds words for passing onward, ceremonial transfer, blessing transmission, and movement between holders or generations.",Yes,XR-shan,shan-s1
 shan,2,Yes,Preposition,Through or across from one side or boundary to another,,,LX-CNE1-0036,shan-s2
 shalnor,1,Yes,Preposition,Before or earlier than a reference event or time,,,LX-CNE1-0037,shalnor-s1
 vethnor,1,Yes,Preposition,After or later than a reference event or time,,,LX-CNE1-0038,vethnor-s1
@@ -669,10 +652,8 @@ felkalrav,1,Yes,Noun,Low gravity; gravitational pull substantially weaker than t
 kakalrav,1,Yes,Noun,Weightlessness caused by the local absence or cancellation of gravitational pull,,,LX-PFM1-0033,kakalrav-s1
 jekkalrav,1,Yes,Noun,Gravitational sway; repeated or unstable changes in the direction of local gravity,,,LX-PFM1-0034,jekkalrav-s1
 kalravaen,1,Yes,Verb,To exert gravitational pull or draw matter through a physical gravitational field,,,LX-PFM1-0035,kalravaen-s1
-lianrethshen,1,Yes,Measure,An anomaly reading; a measured value describing the intensity or instability of a reality anomaly,,,LX-PFM1-0036,lianrethshen-s1
-lianrethshen,2,Yes,Noun,An anomaly reading; a measured value describing the intensity or instability of a reality anomaly,,,LX-PFM1-0036,lianrethshen-s2
-vaarshen,1,Yes,Measure,A safe clearance distance established between a hazard and an unprotected person or place,,,LX-PFM1-0037,vaarshen-s1
-vaarshen,2,Yes,Noun,A safe clearance distance established between a hazard and an unprotected person or place,,,LX-PFM1-0037,vaarshen-s2
+lianrethshen,2,Yes,Noun,Anomaly reading; a measured value describing the intensity or instability of a reality anomaly,,,LX-PFM1-0036,lianrethshen-s2
+vaarshen,2,Yes,Noun,Safe clearance distance established between a hazard and an unprotected person or place,,,LX-PFM1-0037,vaarshen-s2
 keldoraen,1,Yes,Verb,To mark a location by deliberately placing a sign name or warning indicator there,,,LX-PFM1-0038,keldoraen-s1
 keldoraen,2,Yes,Verb,To write or inscribe visible language on a surface,,,LX-SCP1-0004,keldoraen-s2
 kasharaen,1,Yes,Verb,To avoid or route around a known person object place or hazard so it does not enter one's path,,,LX-PFM1-0039,kasharaen-s1
@@ -866,8 +847,7 @@ thalvekaen,1,Yes,Verb,To disembark; to leave or come out of a vehicle vessel or 
 thalvekaen,2,Yes,Verb,To unload cargo; to remove goods or material from transport after travel,,,LX-SCP1-0003,thalvekaen-s2
 weksharaen,1,Yes,Verb,To commute; to travel repeatedly along a regular route between recurring destinations,,,LX-TVO1-0023,weksharaen-s1
 dorvekaen,1,Yes,Verb,To park or berth; to place and leave a vehicle or vessel in an intended stopping position,,,LX-TVO1-0024,dorvekaen-s1
-jorvar,1,Yes,Measure,Speed; the rate at which a person creature object or vehicle moves through distance,,,LX-TVO1-0025,jorvar-s1
-jorvar,2,Yes,Noun,Speed; the rate at which a person creature object or vehicle moves through distance,,,LX-TVO1-0025,jorvar-s2
+jorvar,2,Yes,Noun,Speed; rate of movement through distance,,,LX-TVO1-0025,jorvar-s2
 jorvaraen,1,Yes,Verb,To accelerate; to increase the speed of movement or travel,,,LX-TVO1-0026,jorvaraen-s1
 velvaraen,1,Yes,Verb,To slow or decelerate; to reduce the speed of movement or travel,,,LX-TVO1-0027,velvaraen-s1
 belvekaen,1,Yes,Verb,To brake; to apply controlled resistance that slows or stops a vehicle or moving mechanism,,,LX-TVO1-0028,belvekaen-s1
@@ -1025,7 +1005,7 @@ mahrshalilaen,1,Yes,Verb,To surf or current-glide across moving water using a bo
 aennor,1,Yes,Noun,Music; intentionally organized sound unfolding through time,,,LX-PSAC1-0001,aennor-s1
 aennoraen,1,Yes,Verb,To make play or perform music,,,LX-PSAC1-0002,aennoraen-s1
 aennorral,1,Yes,Noun,Musician; a person with a practiced role making or performing music,,,LX-PSAC1-0003,aennorral-s1
-thael,1,Yes,Noun,Rhythm or beat; a recurring pattern of pulse sound or movement,,,LX-PSAC1-0004,thael-s1
+thael,1,Yes,Noun,Rhythm / beat / recurring pulse,,,LX-PSAC1-0004,thael-s1
 thael,2,Yes,Adjective,Gentle motion; breeze-like rhythm,"Builds words for breeze, gentle motion, rhythmic flow, and soft moving air.",Yes,XR-thael,thael-s2
 aenthael,1,Yes,Noun,A song; a bounded vocal or musical composition organized by rhythm,,,LX-PSAC1-0005,aenthael-s1
 aenthaelaen,1,Yes,Verb,To sing,,,LX-PSAC1-0006,aenthaelaen-s1
@@ -1494,13 +1474,11 @@ zhivor,1,Yes,Noun,Family line / Ancestral household / Kin group,,,LX-DR1-0006,zh
 tharvok,1,Yes,Noun,Family / Heart-bonded family / Clan,,,LX-DR1-0007,tharvok-s1
 evan,1,Yes,Noun,Market / Marketplace / Trading plaza,,,LX-DR1-0008,evan-s1
 shenakar,1,Yes,Noun,Coinage / Currency system / Official trade money,,,LX-DR1-0009,shenakar-s1
-em,1,Yes,Interjection,Um / Uh (hesitation or thinking particle),,,LX-DR1-0010,em-s1
-em,2,Yes,Particle,Conversational hesitation / Thinking particle,,,LX-DR1-0010,em-s2
+em,1,Yes,Interjection,Um / Uh; hesitation or thinking expression,Spoken hesitation or thinking filler.,,LX-DR1-0010,em-s1
 varin,1,Yes,Verb,To know / To be aware of,,,LX-DR1-0011,varin-s1
 shena,1,Yes,Noun,Coin / Coins / Physical money,,,LX-DR1-0012,shena-s1
 nkathal,1,Yes,Noun,Sadness / Grief / Sorrow / Enduring emotional pain,,,LX-DR1-0013,nkathal-s1
-vrak,1,Yes,Adjective,Gone / Missing / Depleted / Dry (Trerran dialect),,,LX-DR1-0014,vrak-s1
-vrak,2,Yes,Particle,Gone / Missing / Depleted (Trerran dialect),,,LX-DR1-0014,vrak-s2
+vrak,1,Yes,Adjective,Gone / Missing / Depleted / Dry (Trerran dialect),"Trerran predicate describing something gone, missing, or depleted. Dry is a contextual extension.",,LX-DR1-0014,vrak-s1
 theren,1,Yes,Noun,Village / Settlement / Local community,,,LX-DR1-0015,theren-s1
 serilin,1,Yes,Noun,Sister / Female sibling,,,LX-DR1-0016,serilin-s1
 aelin,1,Yes,Noun,Youth / Young person / Student / Pupil,,,LX-DR1-0017,aelin-s1
@@ -1529,7 +1507,7 @@ ohm,1,Yes,Noun,Connection; empathy; spiritual unity,"Builds words for attunement
 mor,1,Yes,Noun,Matter; soil; earthy substance; physical grounding,"Builds words for earthiness, grounding, matter, physical substance, grain, and material support.",Yes,XR-mor,mor-s1
 veth,1,Yes,Noun,Shade; mystery; hidden or sleeping things,"Builds words for shadow, sleep, hiddenness, mystery, stalking, and the unseen.",Yes,XR-veth,veth-s1
 neth,1,Yes,Noun,Rest; physical stillness; support,"Builds words for rest, seated stillness, support surfaces, and physically settled states.",Yes,XR-neth,neth-s1
-vanesh,1,Yes,Noun,Commerce; formal trade; merchant work,"Builds words for trade, market action, bargaining, goods, and merchant activity.",,XR-vanesh,vanesh-s1
+vanesh,1,Yes,Noun,Commerce; formal trade; merchant work,Commerce or formal trade as a noun; no ordinary noun sentence has been assigned yet.,,XR-vanesh,vanesh-s1
 vanesh,2,Yes,Verb,To trade / To conduct commerce,,,XR-vanesh,vanesh-s2
 kar,1,Yes,Noun,Strike; mechanical force; tool-work,"Builds words for striking, tool-use, applied force, and mechanical action.",,XR-kar,kar-s1
 kar,2,Yes,Verb,To strike / To apply force,,,XR-kar,kar-s2
@@ -1558,8 +1536,8 @@ bren,1,Yes,Noun,"Harvest (e.g., the act or result of gathering food).",Conceptua
 bren,2,Yes,Verb,To harvest / To gather,,,XR-bren; DM-RM-V2-0006,bren-s2
 jel,1,Yes,Noun,Flavor or zest (bright taste or sensory experience).,Conceptual range: Zest; bright flavor; sensory sharpness,Yes,DM-RM-V2-0013; XR-jel,jel-s1
 wel,1,Yes,Verb,"Sharing or unity (emphasizing communal aspects, symbolizing seamless connections or unbroken lines).",Conceptual range: Communal flow; sharing; seamless connection,Yes,DM-RM-V2-0015; XR-wel,wel-s1
-xar,1,Yes,Noun,Shadow or cover (tied to concealed or protective qualities).,Conceptual range: Cover; veil; concealment for protection,,XR-xar; DM-RM-V2-0019,xar-s1
-xar,2,Yes,Verb,To cover / To shelter / To close off,,,XR-xar; DM-RM-V2-0019,xar-s2
+xar,1,Yes,Noun,Cover / physical shelter,A cover or protective enclosure. Physical shadow is generally Veth or Vethor.,,XR-xar; DM-RM-V2-0019,xar-s1
+xar,2,Yes,Verb,To cover / to shelter / to close off / to seal,,,XR-xar; DM-RM-V2-0019,xar-s2
 xil,1,Yes,Adjective,Hidden or secret (used for foods with a mysterious origin or preparation).,Conceptual range: Shard; fragment; hidden crystal detail,Yes,DM-RM-V2-0018; XR-xil,xil-s1
 mb,1,Yes,Noun,Support; pillar; foundational weight,"Builds words for support, pillars, foundational burden, and figures who hold others up.",Yes,XR-mb,mb-s1
 rek,1,Yes,Noun,Peak intensity; burning or heated state,"Intensifies a hot or active base toward peak force, burning conditions, or seasonal extremity.",Yes,XR-rek,rek-s1
@@ -1631,8 +1609,8 @@ ven,1,Yes,Particle,Subtraction marker meaning minus/subtract,Corrected to match 
 -eth,1,Yes,Suffix,"Adjectival quality suffix: -like, -ful; marks a root's inherent quality or essential manifestation","Common adjectival examples: Shal -> Shaleth, Wor -> Woreth, Gorm -> Gormeth, Kal -> Kaleth.",,DM-RM-V4-0001,-eth-s1
 -eth,2,Yes,Suffix,Elevated or ritual noun suffix: sacred act or ritual of a root,Ritual examples: Khum + -eth -> Khumeth; Shal'taleth; Aen'Moreth.,,DM-RM-V4-0001,-eth-s2
 vael,1,Yes,Particle,Subjunctive mood: wishes/hypotheticals,Original root/morpheme entry preserved.,,DM-RM-V4-0002,vael-s1
-nor-ka,1,Yes,Particle,passive voice echo particle,Original root/morpheme entry preserved.,,DM-RM-V4-0003,nor-ka-s1
-nor-ka,2,Yes,Particle,Now / In this moment / At present,,,DM-RM-V4-0003,nor-ka-s2
+nor-ka,1,Yes,Particle,Passive voice echo particle,Original root/morpheme entry preserved.,,DM-RM-V4-0003,nor-ka-s1
+nor-ka,2,Yes,Particle,Now / in this moment / at present,In the phrase an nor-ka: in this present moment. Distinct from passive nor-ka.,,DM-RM-V4-0003,nor-ka-s2
 shal-,1,Yes,Noun,"Light, glow, brightness; hope, truth, creation, clarity, revelation, wisdom, life, beginnings.",Conceptual layer preserved; does not replace existing Shal lexicon rows.,Yes,DM-RM-S3-0001,shal--s1
 krez-,1,Yes,Noun,"Fire, heat, energy; passion, creation, strength, life-force, warmth, resilience, purification.",Conceptual layer preserved; Krezthal/Krezathal variation already flagged in euphony supplement.,Yes,DM-RM-S3-0003,krez--s1
 dren-,1,Yes,Noun,"Water, liquid, fluid; life, flow, change, healing, emotion, intuition, cleansing, adaptation.",Conceptual layer preserved; no standalone lexicon rows created for pairings.,Yes,DM-RM-S3-0004,dren--s1

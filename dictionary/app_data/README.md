@@ -19,7 +19,7 @@ When adding or reordering meanings, keep each existing `sense_id` with its meani
 
 In `dictionary_examples.csv`, `section` records the placement as direct usage, a related form, or a teaching illustration. `display_kind` lets the page separate sentences, phrases, idioms, teaching illustrations, and historical material. `sense_id` links an example to one visible meaning **only when that link has been reviewed**. Leave it blank when the example belongs to the word generally or its exact meaning has not been established. Do not fill it by matching English keywords alone. Keep `display_order` stable within each section.
 
-There are currently 1,494 headwords, 1,593 visible senses, and 9,257 placements of examples across entries. A sentence can appear under several words, so placements outnumber distinct sentences.
+There are currently 1,494 headwords, 1,571 visible senses, and 9,251 placements of examples across entries. A sentence can appear under several words, so placements outnumber distinct sentences.
 
 ## Rebuild after an edit
 

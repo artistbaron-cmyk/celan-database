@@ -49,62 +49,62 @@ Aen,aen-s1,Verb,Speak / Tell / Breathe,66,reviewed in first 50; applied
 Aen,aen-s2,Conjunction,That,66,reviewed in first 50; applied
 Aen,aen-s3,Suffix,-aen (verb-forming),66,reviewed in first 50; on hold
 Aen,aen-s4,Noun,Breath of Life,66,reviewed in first 50; on hold
-Kal,kal-s1,Noun,Strength / Power,47,not yet manually reviewed
-Kal,kal-s2,Adjective,Strong,47,not yet manually reviewed
-Kal,kal-s3,Verb,To strengthen,47,not yet manually reviewed
-Kalor,kalor-s1,Noun,Courage / Strength of Spirit,2,not yet manually reviewed
-Kalor,kalor-s2,Noun,Strength (of the mind or spirit),2,not yet manually reviewed
-Seren,seren-s1,Noun,Guardian / Protector,47,not yet manually reviewed
-Seren,seren-s2,Noun,Guardian/Protector,47,not yet manually reviewed
-Vaar,vaar-s1,Noun,Peace / Unity,10,not yet manually reviewed
-Vaar,vaar-s2,Adjective,Good,10,not yet manually reviewed
-Vaar,vaar-s3,Interjection,Relief / Phew,10,not yet manually reviewed
-Lorin,lorin-s1,Noun,Guide,41,not yet manually reviewed
-Lorin,lorin-s2,Noun,Guide / Teacher,41,not yet manually reviewed
-Lorin,lorin-s3,Verb,To guide,41,not yet manually reviewed
-Rath,rath-s1,Noun,Enemy / Foe,11,not yet manually reviewed
-Rath,rath-s2,Particle,Conditional “If”,11,not yet manually reviewed
-Rath,rath-s3,Particle,Conditional marker: if,11,not yet manually reviewed
-Fah,fah-s1,Noun,Darkness / Fear / Night,3,not yet manually reviewed
-Fah,fah-s2,Interjection,Ugh! / Bah!,3,not yet manually reviewed
-Reth,reth-s1,Noun,Confusion / Uncertainty,6,not yet manually reviewed
-Reth,reth-s2,Conjunction,Or,6,not yet manually reviewed
+Kal,kal-s1,Noun,Strength / Power,47,reviewed in 51–60; linked
+Kal,kal-s2,Adjective,Strong,47,reviewed in 51–60; adjective removed
+Kal,kal-s3,Verb,To strengthen,47,reviewed in 51–60; linked
+Kalor,kalor-s1,Noun,Courage / Strength of Spirit,2,reviewed in 51–60; merged meaning linked
+Kalor,kalor-s2,Noun,Strength (of the mind or spirit),2,reviewed in 51–60; merged into kalor-s1
+Seren,seren-s1,Noun,Guardian / Protector,47,reviewed in 51–60; linked
+Seren,seren-s2,Noun,Guardian/Protector,47,reviewed in 51–60; merged into seren-s1
+Vaar,vaar-s1,Noun,Peace / Unity,10,reviewed in 51–60; linked
+Vaar,vaar-s2,Adjective,Good,10,reviewed in 51–60; adjective removed
+Vaar,vaar-s3,Interjection,Relief / Phew,10,reviewed in 51–60; interjection on hold
+Lorin,lorin-s1,Noun,Guide,41,reviewed in 51–100; applied
+Lorin,lorin-s2,Noun,Guide / Teacher,41,reviewed in 51–100; merged
+Lorin,lorin-s3,Verb,To guide,41,reviewed in 51–100; applied
+Rath,rath-s1,Noun,Enemy / Foe,11,reviewed in 51–100; applied
+Rath,rath-s2,Particle,Conditional “If”,11,reviewed in 51–100; applied
+Rath,rath-s3,Particle,Conditional marker: if,11,reviewed in 51–100; merged
+Fah,fah-s1,Noun,Darkness / Fear / Night,3,reviewed in 51–100; applied
+Fah,fah-s2,Interjection,Ugh! / Bah!,3,reviewed in 51–100; on hold
+Reth,reth-s1,Noun,Confusion / Uncertainty,6,reviewed in 51–100; applied
+Reth,reth-s2,Conjunction,Or,6,reviewed in 51–100; applied
 Aenor,aenor-s1,Noun,Ear,2,reviewed in batch 01; corrections applied
 Aenor,aenor-s2,Noun,Moment / Instant,2,reviewed in batch 01; corrections applied
-Dral,dral-s1,Noun,Sky / Wonder / Heavens,2,not yet manually reviewed
-Dral,dral-s2,Interjection,Wow! / Heavens!,2,not yet manually reviewed
-Tal,tal-s1,Verb,Give / Offer,56,not yet manually reviewed
-Tal,tal-s2,Verb,Take / Receive,56,not yet manually reviewed
+Dral,dral-s1,Noun,Sky / Wonder / Heavens,2,reviewed in 51–100; applied
+Dral,dral-s2,Interjection,Wow! / Heavens!,2,reviewed in 51–100; on hold
+Tal,tal-s1,Verb,Give / Offer,56,reviewed in 51–100; applied
+Tal,tal-s2,Verb,Take / Receive,56,reviewed in 51–100; applied
 Morldren,morldren-s1,Noun,Waterfall (mountain + water),1,reviewed in batch 01; corrections applied
 Morldren,morldren-s2,Noun,waterfall/mountain stream,1,reviewed in batch 01; corrections applied
-Lun,lun-s1,Noun,Lake,9,not yet manually reviewed
-Lun,lun-s3,Noun,Moon; Ohnosha's natural satellite or lunar body,9,not yet manually reviewed
-Kaleth,kaleth-s1,Noun,Fortress / Stronghold,25,not yet manually reviewed
-Kaleth,kaleth-s2,Adjective,Strong / Powerful / Intense / High in magnitude or reading,25,not yet manually reviewed
-Krezor,krezor-s1,Noun,forge,12,not yet manually reviewed
-Krezor,krezor-s2,Noun,Forge / Place of Fire,12,not yet manually reviewed
-Krezor,krezor-s3,Noun,"Hearth, Fireplace, Forge",12,not yet manually reviewed
-Phelvin,phelvin-s1,Noun,Comforting drink,10,not yet manually reviewed
-Phelvin,phelvin-s2,Noun,Comfort Drink,10,not yet manually reviewed
-Jorvak,jorvak-s1,Noun,Bursting Stew,3,not yet manually reviewed
-Jorvak,jorvak-s2,Noun,Bursting warmth,3,not yet manually reviewed
-Welrim,welrim-s1,Noun,Continuous Feast,4,not yet manually reviewed
-Welrim,welrim-s2,Noun,Shared feast,4,not yet manually reviewed
-Xilvar,xilvar-s1,Noun,A hidden spice; a seasoning or blend whose composition or preparation is deliberately concealed,2,not yet manually reviewed
-Xilvar,xilvar-s2,Noun,Fragmented Salt,2,not yet manually reviewed
+Lun,lun-s1,Noun,Lake,9,reviewed in 51–100; applied
+Lun,lun-s3,Noun,Moon; Ohnosha's natural satellite or lunar body,9,reviewed in 51–100; applied
+Kaleth,kaleth-s1,Noun,Fortress / Stronghold,25,reviewed in 51–100; applied
+Kaleth,kaleth-s2,Adjective,Strong / Powerful / Intense / High in magnitude or reading,25,reviewed in 51–100; applied
+Krezor,krezor-s1,Noun,forge,12,reviewed in 51–100; applied
+Krezor,krezor-s2,Noun,Forge / Place of Fire,12,reviewed in 51–100; merged
+Krezor,krezor-s3,Noun,"Hearth, Fireplace, Forge",12,reviewed in 51–100; applied
+Phelvin,phelvin-s1,Noun,Comforting drink,10,reviewed in 51–100; applied
+Phelvin,phelvin-s2,Noun,Comfort Drink,10,reviewed in 51–100; merged
+Jorvak,jorvak-s1,Noun,Bursting Stew,3,reviewed in 51–100; applied
+Jorvak,jorvak-s2,Noun,Bursting warmth,3,reviewed in 51–100; archived
+Welrim,welrim-s1,Noun,Continuous Feast,4,reviewed in 51–100; archived
+Welrim,welrim-s2,Noun,Shared feast,4,reviewed in 51–100; applied
+Xilvar,xilvar-s1,Noun,A hidden spice; a seasoning or blend whose composition or preparation is deliberately concealed,2,reviewed in 51–100; applied
+Xilvar,xilvar-s2,Noun,Fragmented Salt,2,reviewed in 51–100; archived
 Xarvel,xarvel-s1,Noun,Covered meal,1,reviewed in batch 01; corrections applied
 Xarvel,xarvel-s2,Noun,Veiled Meal,1,reviewed in batch 01; corrections applied
-Belshara,belshara-s1,Noun,"Coordinated Maneuver / Formation Movement / Tactical Path. Refers to moving troops in a specific, planned way.",5,not yet manually reviewed
-Belshara,belshara-s2,Noun,Duty (Bound Path),5,not yet manually reviewed
-Belshara,belshara-s3,Modal,Necessity (Must/Have to),5,not yet manually reviewed
-Belshara,belshara-s4,Noun,Necessity / Obligation,5,not yet manually reviewed
-Felorin,felorin-s1,Noun,Berry from Coral Reefs,3,not yet manually reviewed
-Felorin,felorin-s2,Noun,Berry/Small Fruit,3,not yet manually reviewed
-Zhelvek,zhelvek-s1,Noun,Energy Bar,4,not yet manually reviewed
-Zhelvek,zhelvek-s2,Noun,Energy carrier,4,not yet manually reviewed
-Eshvelaneth,eshvelaneth-s1,Noun,Hailstorm,2,not yet manually reviewed
-Eshvelaneth,eshvelaneth-s2,Noun,Snowstorm Guidance Ritual,2,not yet manually reviewed
-Lianor,lianor-s1,Noun,"Idea, Thought (Place of truth)",5,not yet manually reviewed
+Belshara,belshara-s1,Noun,"Coordinated Maneuver / Formation Movement / Tactical Path. Refers to moving troops in a specific, planned way.",5,reviewed in 51–100; archived
+Belshara,belshara-s2,Noun,Duty (Bound Path),5,reviewed in 51–100; applied
+Belshara,belshara-s3,Modal,Necessity (Must/Have to),5,reviewed in 51–100; applied
+Belshara,belshara-s4,Noun,Necessity / Obligation,5,reviewed in 51–100; merged
+Felorin,felorin-s1,Noun,Berry from Coral Reefs,3,reviewed in 51–100; on hold
+Felorin,felorin-s2,Noun,Berry/Small Fruit,3,reviewed in 51–100; applied
+Zhelvek,zhelvek-s1,Noun,Energy Bar,4,reviewed in 51–100; applied
+Zhelvek,zhelvek-s2,Noun,Energy carrier,4,reviewed in 51–100; applied
+Eshvelaneth,eshvelaneth-s1,Noun,Hailstorm,2,reviewed in 51–100; applied
+Eshvelaneth,eshvelaneth-s2,Noun,Snowstorm Guidance Ritual,2,reviewed in 51–100; applied
+Lianor,lianor-s1,Noun,"Idea, Thought (Place of truth)",5,reviewed in 51–100; applied
 Lianor,lianor-s2,Noun,Sir,5,not yet manually reviewed
 Kel,kel-s1,Verb,Say / Talk (informal),19,not yet manually reviewed
 Kel,kel-s2,Noun,Name,19,not yet manually reviewed

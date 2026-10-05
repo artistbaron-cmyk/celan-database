@@ -975,10 +975,6 @@
       {
         "id": "wekvaraen",
         "term": "Wekvaraen"
-      },
-      {
-        "id": "xilvar",
-        "term": "Xilvar"
       }
     ],
     "relatedGroups": [
@@ -1073,10 +1069,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       }
@@ -4937,7 +4929,6 @@
     ],
     "familySenseIds": [
       "kal-s1",
-      "kal-s2",
       "kal-s3"
     ]
   },
@@ -4973,8 +4964,7 @@
       }
     ],
     "familySenseIds": [
-      "seren-s1",
-      "seren-s2"
+      "seren-s1"
     ]
   },
   "arthen": {
@@ -5410,7 +5400,6 @@
     ],
     "familySenseIds": [
       "lorin-s1",
-      "lorin-s2",
       "lorin-s3"
     ]
   },
@@ -8015,16 +8004,6 @@
         "entryId": "LX-V4-0017"
       },
       {
-        "form": "or",
-        "description": "",
-        "source": "Krez + or",
-        "id": "root:or",
-        "kind": "root",
-        "target": null,
-        "meaning": "Domain; place; time-bounded space",
-        "entryId": "LX-V2-0146"
-      },
-      {
         "form": "-or",
         "description": "(place)",
         "source": "Krez (fire) + -or (place)",
@@ -8342,12 +8321,10 @@
     ],
     "morphologySenseIds": [
       "krezor-s1",
-      "krezor-s2",
       "krezor-s3"
     ],
     "familySenseIds": [
       "krezor-s1",
-      "krezor-s2",
       "krezor-s3"
     ]
   },
@@ -12052,12 +12029,10 @@
       }
     ],
     "morphologySenseIds": [
-      "phelvin-s1",
-      "phelvin-s2"
+      "phelvin-s1"
     ],
     "familySenseIds": [
-      "phelvin-s1",
-      "phelvin-s2"
+      "phelvin-s1"
     ]
   },
   "prakorin": {
@@ -12322,10 +12297,6 @@
         "term": "Verdpel"
       },
       {
-        "id": "xilvar",
-        "term": "Xilvar"
-      },
-      {
         "id": "zhelpel",
         "term": "Zhelpel"
       },
@@ -12532,10 +12503,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       }
@@ -14302,8 +14269,7 @@
       "jorvak-s1"
     ],
     "familySenseIds": [
-      "jorvak-s1",
-      "jorvak-s2"
+      "jorvak-s1"
     ]
   },
   "jekvor": {
@@ -14876,11 +14842,9 @@
       }
     ],
     "morphologySenseIds": [
-      "welrim-s1",
       "welrim-s2"
     ],
     "familySenseIds": [
-      "welrim-s1",
       "welrim-s2"
     ]
   },
@@ -15954,29 +15918,28 @@
   },
   "xilvar": {
     "familyRoots": [
-      "XIL",
-      "Var-"
+      "XIL"
     ],
     "sharedAffixes": [],
     "components": [
       {
         "form": "Xil",
-        "description": "",
+        "description": "hidden; secret",
         "source": "Xil + var = shard of substance",
         "id": "root:xil",
         "kind": "root",
         "target": "xil",
-        "meaning": "Shard; fragment; hidden crystal detail; Hidden or secret (used for foods with a mysterious origin or preparation).",
+        "meaning": "hidden; secret",
         "entryId": "LX-V2-0160"
       },
       {
         "form": "var",
-        "description": "= shard of substance",
-        "source": "Xil + var = shard of substance",
-        "id": "root:var",
-        "kind": "root",
-        "target": "var",
-        "meaning": "= shard of substance",
+        "description": "seasoning substance (local word part)",
+        "source": "Xil (hidden) + var (seasoning substance); approved Xilvar explanation",
+        "id": "local:xilvar:var",
+        "kind": "local",
+        "target": null,
+        "meaning": "seasoning substance",
         "entryId": "LX-V2-0160"
       }
     ],
@@ -15987,108 +15950,16 @@
         "term": "Xil"
       },
       {
-        "id": "var",
-        "term": "Var"
-      },
-      {
         "id": "xilbren",
         "term": "Xilbren"
-      },
-      {
-        "id": "var-",
-        "term": "Var-"
       },
       {
         "id": "xilnalior",
         "term": "Xilnalior"
       },
       {
-        "id": "drenvaraen",
-        "term": "Drenvaraen"
-      },
-      {
         "id": "xilnor",
         "term": "Xilnor"
-      },
-      {
-        "id": "eshvaraen",
-        "term": "Eshvaraen"
-      },
-      {
-        "id": "jorvar",
-        "term": "Jorvar"
-      },
-      {
-        "id": "kesvar",
-        "term": "Kesvar"
-      },
-      {
-        "id": "mahrvaraen",
-        "term": "Mahrvaraen"
-      },
-      {
-        "id": "pelvar",
-        "term": "Pelvar"
-      },
-      {
-        "id": "pelvaraen",
-        "term": "Pelvaraen"
-      },
-      {
-        "id": "shalvar",
-        "term": "Shalvar"
-      },
-      {
-        "id": "thalwelvar",
-        "term": "Thalwelvar"
-      },
-      {
-        "id": "varan",
-        "term": "Varan"
-      },
-      {
-        "id": "varbelor",
-        "term": "Varbelor"
-      },
-      {
-        "id": "varnor",
-        "term": "Varnor"
-      },
-      {
-        "id": "varral",
-        "term": "Varral"
-      },
-      {
-        "id": "varrinmek",
-        "term": "Varrinmek"
-      },
-      {
-        "id": "varshanmek",
-        "term": "Varshanmek"
-      },
-      {
-        "id": "varshel",
-        "term": "Varshel"
-      },
-      {
-        "id": "varvek",
-        "term": "Varvek"
-      },
-      {
-        "id": "vekvaraen",
-        "term": "Vekvaraen"
-      },
-      {
-        "id": "velvaraen",
-        "term": "Velvaraen"
-      },
-      {
-        "id": "vethvar",
-        "term": "Vethvar"
-      },
-      {
-        "id": "wekvaraen",
-        "term": "Wekvaraen"
       }
     ],
     "relatedGroups": [
@@ -16113,108 +15984,10 @@
             "term": "Xilnor"
           }
         ]
-      },
-      {
-        "key": "root:var",
-        "label": "Var-",
-        "entries": [
-          {
-            "id": "var",
-            "term": "Var"
-          },
-          {
-            "id": "var-",
-            "term": "Var-"
-          },
-          {
-            "id": "drenvaraen",
-            "term": "Drenvaraen"
-          },
-          {
-            "id": "eshvaraen",
-            "term": "Eshvaraen"
-          },
-          {
-            "id": "jorvar",
-            "term": "Jorvar"
-          },
-          {
-            "id": "kesvar",
-            "term": "Kesvar"
-          },
-          {
-            "id": "mahrvaraen",
-            "term": "Mahrvaraen"
-          },
-          {
-            "id": "pelvar",
-            "term": "Pelvar"
-          },
-          {
-            "id": "pelvaraen",
-            "term": "Pelvaraen"
-          },
-          {
-            "id": "shalvar",
-            "term": "Shalvar"
-          },
-          {
-            "id": "thalwelvar",
-            "term": "Thalwelvar"
-          },
-          {
-            "id": "varan",
-            "term": "Varan"
-          },
-          {
-            "id": "varbelor",
-            "term": "Varbelor"
-          },
-          {
-            "id": "varnor",
-            "term": "Varnor"
-          },
-          {
-            "id": "varral",
-            "term": "Varral"
-          },
-          {
-            "id": "varrinmek",
-            "term": "Varrinmek"
-          },
-          {
-            "id": "varshanmek",
-            "term": "Varshanmek"
-          },
-          {
-            "id": "varshel",
-            "term": "Varshel"
-          },
-          {
-            "id": "varvek",
-            "term": "Varvek"
-          },
-          {
-            "id": "vekvaraen",
-            "term": "Vekvaraen"
-          },
-          {
-            "id": "velvaraen",
-            "term": "Velvaraen"
-          },
-          {
-            "id": "vethvar",
-            "term": "Vethvar"
-          },
-          {
-            "id": "wekvaraen",
-            "term": "Wekvaraen"
-          }
-        ]
       }
     ],
     "morphologySenseIds": [
-      "xilvar-s2"
+      "xilvar-s1"
     ],
     "familyReview": {
       "status": "open",
@@ -18849,7 +18622,6 @@
       }
     ],
     "morphologySenseIds": [
-      "belshara-s1",
       "belshara-s2"
     ],
     "familyReview": {
@@ -105909,10 +105681,6 @@
         "term": "Drenvor"
       },
       {
-        "id": "xilvar",
-        "term": "Xilvar"
-      },
-      {
         "id": "emildren",
         "term": "Emildren"
       },
@@ -106239,10 +106007,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       },
@@ -114223,10 +113987,6 @@
         "term": "Vershalaen"
       },
       {
-        "id": "xilvar",
-        "term": "Xilvar"
-      },
-      {
         "id": "vethshal",
         "term": "Vethshal"
       }
@@ -114425,10 +114185,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       }
@@ -114615,10 +114371,6 @@
       {
         "id": "wekvaraen",
         "term": "Wekvaraen"
-      },
-      {
-        "id": "xilvar",
-        "term": "Xilvar"
       }
     ],
     "relatedGroups": [
@@ -114779,10 +114531,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       },
@@ -116511,10 +116259,6 @@
         "term": "Sernor"
       },
       {
-        "id": "xilvar",
-        "term": "Xilvar"
-      },
-      {
         "id": "shalnor",
         "term": "Shalnor"
       },
@@ -116635,10 +116379,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       },
@@ -124298,10 +124038,6 @@
         "term": "Verdpel"
       },
       {
-        "id": "xilvar",
-        "term": "Xilvar"
-      },
-      {
         "id": "zhelpel",
         "term": "Zhelpel"
       },
@@ -124508,10 +124244,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       }
@@ -139551,11 +139283,9 @@
       }
     ],
     "morphologySenseIds": [
-      "lianrethshen-s1",
       "lianrethshen-s2"
     ],
     "familySenseIds": [
-      "lianrethshen-s1",
       "lianrethshen-s2"
     ]
   },
@@ -139917,11 +139647,9 @@
       }
     ],
     "morphologySenseIds": [
-      "vaarshen-s1",
       "vaarshen-s2"
     ],
     "familySenseIds": [
-      "vaarshen-s1",
       "vaarshen-s2"
     ]
   },
@@ -195849,10 +195577,6 @@
         "term": "Ndavivek"
       },
       {
-        "id": "xilvar",
-        "term": "Xilvar"
-      },
-      {
         "id": "nethvek",
         "term": "Nethvek"
       },
@@ -196021,10 +195745,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       },
@@ -203889,10 +203609,6 @@
         "term": "Nethvek"
       },
       {
-        "id": "xilvar",
-        "term": "Xilvar"
-      },
-      {
         "id": "ngarvek",
         "term": "Ngarvek"
       },
@@ -204231,10 +203947,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       }
@@ -205038,10 +204750,6 @@
       {
         "id": "wekvaraen",
         "term": "Wekvaraen"
-      },
-      {
-        "id": "xilvar",
-        "term": "Xilvar"
       }
     ],
     "relatedGroups": [
@@ -205198,10 +204906,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       }
@@ -205428,10 +205132,6 @@
       {
         "id": "eshthael",
         "term": "Eshthael"
-      },
-      {
-        "id": "xilvar",
-        "term": "Xilvar"
       },
       {
         "id": "eshtrakor",
@@ -205744,10 +205444,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       }
@@ -207904,10 +207600,6 @@
         "term": "Ravjor"
       },
       {
-        "id": "xilvar",
-        "term": "Xilvar"
-      },
-      {
         "id": "sadarjor",
         "term": "Sadarjor"
       },
@@ -208122,10 +207814,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       },
@@ -208141,11 +207829,9 @@
       }
     ],
     "morphologySenseIds": [
-      "jorvar-s1",
       "jorvar-s2"
     ],
     "familySenseIds": [
-      "jorvar-s1",
       "jorvar-s2"
     ]
   },
@@ -208417,10 +208103,6 @@
       {
         "id": "velmarin",
         "term": "Velmarin"
-      },
-      {
-        "id": "xilvar",
-        "term": "Xilvar"
       },
       {
         "id": "velmarineth",
@@ -208749,10 +208431,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       }
@@ -226233,10 +225911,6 @@
         "term": "Mekshara"
       },
       {
-        "id": "xilvar",
-        "term": "Xilvar"
-      },
-      {
         "id": "shanmorl",
         "term": "Shanmorl"
       },
@@ -226429,10 +226103,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       },
@@ -226949,10 +226619,6 @@
         "term": "Belthal"
       },
       {
-        "id": "xilvar",
-        "term": "Xilvar"
-      },
-      {
         "id": "belvekaen",
         "term": "Belvekaen"
       },
@@ -227157,10 +226823,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       },
@@ -252313,10 +251975,6 @@
       {
         "id": "wekvaraen",
         "term": "Wekvaraen"
-      },
-      {
-        "id": "xilvar",
-        "term": "Xilvar"
       }
     ],
     "relatedGroups": [
@@ -252473,10 +252131,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       }
@@ -276763,10 +276417,6 @@
         "term": "Zhelwel"
       },
       {
-        "id": "xilvar",
-        "term": "Xilvar"
-      },
-      {
         "id": "thalvanesh",
         "term": "Thalvanesh"
       },
@@ -277079,10 +276729,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       },
@@ -300466,10 +300112,6 @@
       {
         "id": "vethvar",
         "term": "Vethvar"
-      },
-      {
-        "id": "xilvar",
-        "term": "Xilvar"
       }
     ],
     "relatedGroups": [
@@ -300642,10 +300284,6 @@
           {
             "id": "vethvar",
             "term": "Vethvar"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       }
@@ -335170,10 +334808,6 @@
       {
         "id": "wekvaraen",
         "term": "Wekvaraen"
-      },
-      {
-        "id": "xilvar",
-        "term": "Xilvar"
       }
     ],
     "relatedGroups": [
@@ -335268,10 +334902,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       },
@@ -371765,10 +371395,6 @@
       {
         "id": "wekvaraen",
         "term": "Wekvaraen"
-      },
-      {
-        "id": "xilvar",
-        "term": "Xilvar"
       }
     ],
     "relatedGroups": [
@@ -371863,10 +371489,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       },
@@ -374531,10 +374153,6 @@
       {
         "id": "wekvaraen",
         "term": "Wekvaraen"
-      },
-      {
-        "id": "xilvar",
-        "term": "Xilvar"
       }
     ],
     "relatedGroups": [
@@ -374629,10 +374247,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       }
@@ -375956,10 +375570,6 @@
       {
         "id": "wekvaraen",
         "term": "Wekvaraen"
-      },
-      {
-        "id": "xilvar",
-        "term": "Xilvar"
       }
     ],
     "relatedGroups": [
@@ -376054,10 +375664,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       }
@@ -391416,10 +391022,6 @@
       {
         "id": "wekvaraen",
         "term": "Wekvaraen"
-      },
-      {
-        "id": "xilvar",
-        "term": "Xilvar"
       }
     ],
     "relatedGroups": [
@@ -391514,10 +391116,6 @@
           {
             "id": "wekvaraen",
             "term": "Wekvaraen"
-          },
-          {
-            "id": "xilvar",
-            "term": "Xilvar"
           }
         ]
       }

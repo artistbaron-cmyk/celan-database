@@ -1,0 +1,307 @@
+headword_id,entry_id,celan_text,translation,sense_id,display_kind
+kal,PE-V2-0002,kal kinnmor ser dren ser shal.,The morning strengthens with water and light.,,sentence
+kal,PE-V2-0085,kal tharmor an dren ser morl.,The rootbread strengthens at the water with the mountain.,,sentence
+kal,PE-V2-0098,kal kreztorin an dren ser morl.,The smoked meat strengthens at the water with the mountain.,,sentence
+kal,PE-V2-0110,kal Fenrek an dren.,Summer strengthens at the water.,,sentence
+kal,PE-V3-0078,kal Kalor an Reth.,True strength is shown when facing uncertainty.,,sentence
+kal,PE-ER2-0074,rinaen kal an kareth.,There is strength in the hammer.,kal-s1,sentence
+kal,PE-ER2-0075,tal Terra kal an Ilin.,The Earth gives strength to us.,,sentence
+kal,PE-V2-0008,Belrin kal dren.,The woven fabric strengthens with water.,,sentence
+kal,PE-V2-0012,Brenmor kal dren.,The harvested roots strengthen by the water.,,sentence
+kal,PE-V2-0017,Pralmor kal dren.,The carving strengthens with water.,,sentence
+kal,PE-V2-0026,Worvenak kal dren.,The abundant stew strengthens by the water.,,sentence
+kal,PE-V2-0030,Tlakorin kal dren an Varthas.,The confidant strengthens the city.,,sentence
+kal,PE-V2-0035,Tlankor kal dren ser Serin.,The ally strengthens by the water with friends.,,sentence
+kal,PE-V2-0053,Velrin kal dren an Serin.,The food strengthens with friends by the water.,,sentence
+kal,PE-V2-0055,Broslak kal dren.,The layered bread strengthens by the water.,,sentence
+kal,PE-V2-0058,Welrim kal dren.,The feast strengthens by the water.,,sentence
+kal,PE-V2-0060,Phelkarin kal dren.,The porridge strengthens with water.,,sentence
+kal,PE-V2-0064,Belmor kal dren.,The root spice strengthens with water.,,sentence
+kal,PE-V2-0070,Lianfel kal dren.,The tea strengthens with water.,,sentence
+kal,PE-V2-0074,Lorlivok kal dren an Teremil.,The earthbake strengthens at home by the water.,,sentence
+kal,PE-V2-0076,Phelvin kal dren.,The comforting drink strengthens with water.,,sentence
+kal,PE-V2-0077,Zhelvek kal dren.,The energy bar strengthens with water.,,sentence
+kal,PE-V2-0087,Brenvor kal dren.,The harvested nuts strengthen with water.,,sentence
+kal,PE-V2-0089,Krezfel kal dren.,The spiced grain strengthens with water.,,sentence
+kal,PE-V2-0092,Phelmorin kal dren.,The tea strengthens with water.,,sentence
+kal,PE-V2-0095,Thalshorin kal dren.,The ice stew strengthens by the water.,,sentence
+kal,PE-V2-0097,Morvenak kal dren.,The porridge strengthens with water.,,sentence
+kal,PE-V2-0104,Welkarin kal dren.,The drink strengthens with water.,,sentence
+kal,PE-V2-0105,Morlathor kal dren.,The bread strengthens by the water.,,sentence
+kal,PE-V2-0107,Krezlorin kal dren.,The grilled meat strengthens with water.,,sentence
+kal,PE-V2-0114,Shalithor kal dren an Evan.,The sunlight strengthens at the market.,,sentence
+kal,PE-V2-0119,Thalorim kal dren.,The lightning strikes the water.,,sentence
+kal,PE-V2-0122,Eshvelaneth kal morl.,The hailstorm strikes the mountain.,,sentence
+kal,PE-V2-0124,Kal Ilinor Terra.,Strengthens the whole World.,,sentence
+kal,PE-V2-0128,Kal melen dren.,Strengthens much water.,,sentence
+kal,PE-V2-0131,Kal Ekor Kadron.,Strengthens Each Man.,,sentence
+kal,PE-V3-0093,Dralshaneth kal dren an Belvok.,The heaven's blessing strengthens the family.,,sentence
+kal,PE-V3-0100,kal Shalorveth ser Tharvok an thal.,The shadowlight ritual strengthens with the family under balance.,,sentence
+kal,PE-V3-0102,Krezmorath kal dren an Belvok.,The fire bond strengthens with the family.,,sentence
+kal,PE-V3-0111,"Rath Nor-var ser, Nor-var kal Terra.","If the friend will go, I will find strength in the Earth.",,sentence
+kal,PE-FAP1-0001,kal balpral belvok.,Farming strengthens the family.,kal-s3,sentence
+kal,PE-TM1-0080,korinaen jekkal kal nethnor.,The spring still holds force.,,sentence
+kal,PE-DW1-0015,tal zhelbel kal an ngarzhel.,The power grid gives energy to the energy weapon.,,sentence
+kal,PE-SAC1-0002,kes shenral kal songaeth an songazun.,The researcher detects cosmic force in outer space.,,sentence
+kal,PE-GMMP1-0010,arukelaen arural arukel ser shankalaen kal shan ohmpel.,The practitioner casts the spell and channels power through the focus.,,sentence
+kal,PE-GMMP1-0011,shankalaen arural kal shan rinbel.,The practitioner channels power through the enchantment.,,sentence
+kalor,PE-V3-0078,kal Kalor an Reth.,True strength is shown when facing uncertainty.,,sentence
+kalor,PE-V3-0110,Va var kalor thal!,Go in strength and balance!,kalor-s1,sentence
+seren,PE-PFM1-0055,keldoraen seren lianrethxar.,The guardian marks the anomaly boundary.,,sentence
+seren,PE-DW1-0010,arth arthkal seren thal ravjorvek.,The shield protects the guardian from the arrow.,,sentence
+seren,PE-ER2-0029,arth Li-Seren kaleth.,The Respected Guardian defends the fortress.,seren-s1,sentence
+seren,PE-ER2-0030,var Li-Seren an Varthas.,The Respected Guardian goes to the city.,,sentence
+seren,PE-ER2-0057,dor seren xar an savin.,The guardian places a cover on the patient.,,sentence
+seren,PE-ER2-0070,aen Li-Seren-en an Ilin.,The Respected Guardian speaks to us.,,sentence
+seren,PE-V2-0038,Var Seren arthlor an Kaleth.,The Guardians go to the defensive formation at the Fortress.,,sentence
+seren,PE-V3-0005,"Li-Seren-en, var nor Varthas shenakar?","Honored guardian, do we proceed to the city's exchange now?",,sentence
+seren,PE-NE1-0052,arth seren thalorimor.,The guardian protects the storm station.,,sentence
+seren,PE-NE1-0057,var seren an kalwek.,The guardians go to the training drill.,,sentence
+seren,PE-NE1-0060,arth arthaxar seren.,The armor protects the guardian.,,sentence
+seren,PE-NE1-0067,rinaen kalshen an seren.,The guardian holds an official rank.,,sentence
+seren,PE-CNE1-0006,korinaen seren kareth.,The guardian holds the hammer.,,sentence
+seren,PE-CNE1-0032,kes seren rathvethor.,The guardian notices the hidden threat.,,sentence
+seren,PE-CNE1-0068,rinaen seren shalvar vorkor.,The guardian is in front of the door.,,sentence
+seren,PE-CNE1-0070,rinaen seren vethvar vorkor.,The guardian is behind the door.,,sentence
+seren,PE-PFM1-0002,kes seren norzhir.,The guardian identifies the timeline.,,sentence
+seren,PE-PFM1-0004,kes seren thalnor.,The guardian confirms temporal stability.,,sentence
+seren,PE-PFM1-0011,kes seren xilnor.,The guardian identifies a temporal fracture.,,sentence
+seren,PE-PFM1-0018,kes seren rethweknor.,The guardian detects the time loop.,,sentence
+seren,PE-PFM1-0028,thalnoraen seren shalor.,The guardian stabilizes time in the sanctuary.,,sentence
+seren,PE-PFM1-0043,kes seren lianreth.,The guardian detects a reality anomaly.,,sentence
+seren,PE-PFM1-0046,keldoraen seren lianrethor.,The guardian marks the anomaly zone.,,sentence
+seren,PE-PFM1-0052,lianthalaen seren lianrethor.,The guardian stabilizes the anomaly zone.,,sentence
+seren,PE-PFM1-0057,kes seren kalrav.,The guardian notices gravity.,,sentence
+seren,PE-PFM1-0059,kes seren kalravor.,The guardian detects a gravity pocket.,,sentence
+seren,PE-PFM1-0074,keldoraen seren vaarshen.,The guardian marks the safe distance.,,sentence
+seren,PE-PFM1-0079,belkoraen seren sharavok.,The guardian anchors the caravan.,,sentence
+seren,PE-FAP2-0042,kes seren mura an teremil.,The guardian notices smoke at the home.,,sentence
+seren,PE-DW1-0001,dor seren ngar an vorkor.,The guardian puts a weapon at the gate.,,sentence
+seren,PE-DW1-0004,korinaen seren ngarpel.,The guardian holds a sword.,,sentence
+seren,PE-DW1-0014,dor seren ngarjor an pralor.,The guardian puts the firearm on the table.,,sentence
+seren,PE-DW1-0017,dor seren ngarvek an xarvek.,The guardian puts the ammunition in the storage chest.,,sentence
+seren,PE-OC1-0013,lorpelaen seren arthkal.,The guardian aims at the shield.,,sentence
+seren,PE-OC1-0016,ngarjoraen seren ngarjor.,The guardian fires the gun.,,sentence
+seren,PE-OC1-0017,arthkaraen seren ravjorvek ser arthkal.,The guardian blocks the arrow with a shield.,,sentence
+seren,PE-OC1-0018,arthkaraen seren ngarpel ser ngarpel.,The guardian parries a sword with a sword.,,sentence
+seren,PE-GMMP1-0003,rinaen vek kaarueth; aruaen seren an shalor.,The carrier is nonmagical; the guardian practices magic in the sanctuary.,,sentence
+seren,PE-GMMP1-0017,kaaruaen arural rathrin ser tal vaarrin an seren.,The practitioner dispels the curse and gives the guardian a blessing.,,sentence
+seren,PE-GMMP1-0029,kathaenbelaen arural thaenin ser krezpralaen seren krez.,The practitioner releases the spirit-being and the guardian shapes the fire.,,sentence
+seren,PE-GMMP1-0030,krezpralaen arural krez ser dropralaen seren dro.,The practitioner shapes fire and the guardian shapes physical water.,,sentence
+seren,PE-GMMP1-0031,dropralaen arural dro ser eshpralaen seren esh.,The practitioner shapes water and the guardian shapes wind.,,sentence
+seren,PE-GMMP1-0032,eshpralaen arural esh ser morpralaen seren mor.,The practitioner shapes wind and the guardian shapes matter.,,sentence
+seren,PE-GMMP1-0033,morpralaen arural mor ser velpralaen seren vel.,The practitioner shapes stone and the guardian shapes ice.,,sentence
+seren,PE-GMMP1-0034,velpralaen arural vel ser zhelpralaen seren zhel.,The practitioner shapes ice and the guardian shapes electricity.,,sentence
+seren,PE-GMMP1-0035,zhelpralaen arural zhel ser tenarpralaen seren tenar.,The practitioner shapes electricity and the guardian shapes radiance.,,sentence
+seren,PE-GMMP1-0036,tenarpralaen arural tenar ser vethpralaen seren veth.,The practitioner shapes radiance and the guardian shapes shadow.,,sentence
+vaar,PE-V2-0044,tal Ilin talrin ser vaar.,We give an offering with peace.,,sentence
+vaar,PE-S3-0014,var I an vaar.,I go in peace.,vaar-s1,sentence
+vaar,PE-S4A-0002,rinaen Terra vaar.,The Earth is peaceful.,,sentence
+vaar,PE-ER2-0011,arth Ilin vok ser vaar.,We protect the bond with peace.,,sentence
+vaar,PE-V3-0054,Vialaen Ilin ser vaar.,We rejoice in peace.,,sentence
+vaar,PE-V4-0005,Vael vaar an shara-ya.,May peace be on your path.,,sentence
+vaar,PE-V4-0102,"Var I an velithor. Rinaen thar-ian moreth, ser vaar ka.",I'm going for strong ale. My spirit is hard/unsettled and lacks comfort.,,sentence
+vaar,PE-V4-0104,Var I an phelvin. Arth vel vaar.,I am going for a warm drink. Calm endurance preserves peace.,,sentence
+vaar,PE-SBD1-0016,dumaen liorin ser vaar.,The elder dies in peace.,,sentence
+vaar,PE-GMMP1-0024,tal thaenohm vaar; thaenohmaen arural thaenin.,The spirit contact is peaceful; the practitioner communes with the spirit-being.,,sentence
+lorin,PE-ER2-0012,lorin belshara Ilin shan vethor.,Duty guides us through the shadow.,,sentence
+lorin,PE-V4-0080,lorin belthal Ilin.,Order guides us.,,sentence
+lorin,PE-ER2-0026,lorin nor shara-ian.,Time guides my path.,lorin-s3,sentence
+lorin,PE-ER2-0035,lorin rin thar-ian.,Essence guides my heart.,,sentence
+lorin,PE-ER2-0076,lorin shara sharavok.,The path guides the caravan.,,sentence
+lorin,PE-V4-0095,"Lorin shara Ya an Kinnmor, Li-Ser?","Where does your path guide you this morning, Respected-Friend?",,sentence
+lorin,PE-V4-0105,"Shal lorin shara-ya an nor-ka, Ser?","Does the light guide your path in this moment, Friend?",,sentence
+lorin,PE-V4-0108,Lia. Var I an phelvin. Lorin belthal kel-ian.,Yes. I am going for a comforting drink. My actions are guided by order.,,sentence
+lorin,PE-NE1-0011,lorin mahrowek mahrvek.,The tide guides the ship.,,sentence
+lorin,PE-NE1-0019,lorin lormahr mahrvek.,Seamanship guides the ship.,,sentence
+lorin,PE-NE1-0025,lorin shenlian mekral.,The standard guides the technician.,,sentence
+lorin,PE-NE1-0027,lorin belwek mek.,The ordered cycle guides the machine.,,sentence
+lorin,PE-NE1-0061,lorin thalbel Ilin.,The law guides us.,,sentence
+lorin,PE-NE1-0068,lorin kalshen kalwek.,The assessed level guides the training cycle.,,sentence
+lorin,PE-NE1-0071,lorin dralshara sharavok.,The star route guides the caravan.,,sentence
+lorin,PE-NE1-0073,lorin eshlor sharavok.,The wind bearing guides the caravan.,,sentence
+lorin,PE-CNE1-0028,aen lorin tharshara.,The guide states the choice.,lorin-s1,sentence
+lorin,PE-CNE1-0056,aen lorin lianzhir.,The guide states the reason.,,sentence
+lorin,PE-FAP1-0002,lorin balpral bren.,Farming guides the harvest.,,sentence
+lorin,PE-FAP2-0016,lorin emilshara balral.,The recipe guides the cultivator.,,sentence
+lorin,PE-TM1-0035,lorin lormek sharavok.,The compass guides the caravan.,,sentence
+lorin,PE-TM1-0037,lorin sharashen sharavok.,The map guides the caravan.,,sentence
+lorin,PE-BSPI1-0040,lorin lorvekral kalmek an lormekor.,The operator directs the machine from the control room.,,sentence
+lorin,PE-GCI1-0004,lorin lorbel drobel.,The government directs the waterworks.,,sentence
+lorin,PE-GCI1-0013,lorin belvoklor belvok.,The chieftain guides the clan.,,sentence
+lorin,PE-GCI1-0022,lorin lorshara shental.,The policy guides the allocation.,,sentence
+lorin,PE-WRT1-0001,lorin ral teremil.,The steward manages the household.,,sentence
+lorin,PE-WRT1-0011,lorin lormekral ndavivek.,The engineer directs the elevator system.,,sentence
+lorin,PE-WRT1-0017,lorin sharalorin sharavok shan morl.,The navigator guides the caravan through the mountains.,,sentence
+lorin,PE-OC1-0004,lorin kalrin ngarwel.,The sovereign guides the army.,,sentence
+lorin,PE-RC1-0023,lorin naklorral dovath.,The referee guides the game.,,sentence
+lorin,PE-PSAC1-0014,lorin aenthaelral welaenthael.,The singer guides the chorus.,,sentence
+lorin,PE-EGE1-0010,kes lorin brossadar; kes lorin velkmorl.,The scholar observes the dune and the glacier.,,sentence
+lorin,PE-EGE1-0020,shen lorin eshweknor ser drenesh.,The scholar measures climate through cloud patterns.,,sentence
+lorin,PE-EGE1-0031,shen lorin felsadar ser krezshen.,The scholar measures the silt and temperature.,,sentence
+lorin,PE-EGE1-0042,kes lorin shalrin an nali.,The scholar recognizes the organism as part of a species.,,sentence
+lorin,PE-EGE1-0046,shen lorin welnali ser kornali.,The scholar measures the population of the native species.,,sentence
+lorin,PE-EGE1-0050,kes lorin dumanali an rathor ser rathnali an nor.,The scholar records past extinction and a presently endangered species.,,sentence
+lorin,PE-EGE1-0053,kes lorin rathzor ser welzor an selmor.,The scholar observes a predator and an animal group on the plain.,,sentence
+lorin,PE-ICAES1-0015,lorin rakushara rakukel.,The algorithm guides the code.,,sentence
+lorin,PE-ICAES1-0017,lorin belraku varokraku.,The program guides the automation.,,sentence
+rath,PE-V3-0028,"rath var Ya an dren, nor-vekaen I shena var Ya.","If you go to the water, I will bring coinage.",rath-s2,sentence
+rath,PE-V1-0028,"Rath var ser, I dren.","“If the friend goes, I will go to the water.”",,sentence
+rath,PE-V1-0029,"Rath Nor-var ser, Nor-var I dren.","“If the friend will go, I will go to the water.”",,sentence
+rath,PE-V1-0030,"Rath Tha-var ser, Tha-var I dren.","“If the friend had gone, I would have gone to the water.”",,sentence
+rath,PE-V2-0037,Va jorkal an rath!,Charge the enemy!,rath-s1,sentence
+rath,PE-V3-0029,"rath tha-var Ya an dren, tha-talaen I emil.","If you had gone to the water, I would have gotten food.",,sentence
+rath,PE-V3-0066,Vokaen Ser rath.,The friend betrays the enemy.,,sentence
+rath,PE-V3-0111,"Rath Nor-var ser, Nor-var kal Terra.","If the friend will go, I will find strength in the Earth.",,sentence
+rath,PE-EGE1-0064,tal xilnalior rath an nali; dor welrin terrakav.,Habitat fragmentation endangers the species; the people establish conservation.,,sentence
+rath,PE-GMMP1-0042,rinaen tharbel an vorkaral; tharbelaen rath la var vorkor.,The guard is under compulsion; the enemy compels them toward the gate.,,sentence
+rath,PE-GMMP1-0043,tharbelaen rath vorkaral; katharbelaen arural la.,The enemy compels the guard; the practitioner releases them from the compulsion.,,sentence
+fah,PE-V3-0060,rathaen lalin fah.,They hate the darkness.,fah-s1,sentence
+fah,PE-V3-0063,Vershalaen La nor fah.,They despair in the darkness.,,sentence
+fah,PE-V4-0025,Arth shalkor Ilin thal fah.,The lamp protects us from the darkness.,,sentence
+reth,PE-V3-0078,kal Kalor an Reth.,True strength is shown when facing uncertainty.,,sentence
+reth,PE-V4-0083,Ra drenaen Ya dren reth phelvin?,Do you drink water or the comfort-drink?,reth-s2,sentence
+reth,PE-ICAES1-0057,tal rethzheldava reth an dava.,Signal interference causes uncertainty in the information.,reth-s1,sentence
+reth,PE-GMMP1-0026,rinaen rinarshor reth an vorkor; kes arural thaenbel an la.,An unsettled aura surrounds the gate; the practitioner detects a spirit-binding there.,,sentence
+reth,PE-HLPS1-0002,rinaen hav ser reth.,The laughter carries uncertainty.,,sentence
+reth,PE-HLPS1-0004,havaen I ser reth.,I laugh in uncertainty.,,sentence
+dral,PE-V3-0064,Thaalaen Ilin an Dral.,We wonder at the heavens.,dral-s1,sentence
+dral,PE-BSPI1-0035,kes shenral dral an shenkesor.,The scholar observes a star at the observatory.,,sentence
+tal,PE-V2-0007,tal I dren nor kilvlum an veth.,I receive water at midnight in shadow.,,sentence
+tal,PE-V2-0044,tal Ilin talrin ser vaar.,We give an offering with peace.,tal-s1,sentence
+tal,PE-V4-0091,tal I peth shen morlak.,I give five measures of grain.,,sentence
+tal,PE-NE1-0034,tal zhaelral fennilphel an ser.,The healer gives an herbal remedy to the friend.,,sentence
+tal,PE-ER2-0013,tal theon thal an Ilin.,The neutral person gives balance to us.,,sentence
+tal,PE-ER2-0032,tal I shen an varadan.,I give currency to the merchant.,,sentence
+tal,PE-ER2-0044,tal Terra wor an Ilin.,The Earth gives plenty to us.,,sentence
+tal,PE-ER2-0045,tal krezor phel an Ilin.,The hearth gives warmth to us.,,sentence
+tal,PE-ER2-0075,tal Terra kal an Ilin.,The Earth gives strength to us.,,sentence
+tal,PE-V2-0003,Tal I dren an Kinnlin.,I receive the water at noon.,,sentence
+tal,PE-V2-0051,Tal Varadan vellian an Ilan.,The Merchant offers quality goods to the Student.,,sentence
+tal,PE-V2-0126,Tal I som dren.,Give I some water.,,sentence
+tal,PE-V2-0130,Tal I felin emil.,Give I little food.,,sentence
+tal,PE-NE1-0001,tal droral droshen an Ilin.,The water keeper gives the water ration to us.,,sentence
+tal,PE-NE1-0006,tal droral droshen an serin.,The water keeper gives water rations to the friends.,,sentence
+tal,PE-NE1-0032,tal zhaelral verdvin.,The restorative healer takes the plant extract.,,sentence
+tal,PE-NE1-0033,tal I fennilphel.,I take the herbal remedy.,tal-s2,sentence
+tal,PE-NE1-0076,tal I karvek.,I take the toolkit.,,sentence
+tal,PE-DSL1-0012,tal I kavvek thal eshpral.,I take the jar from the shelf.,,sentence
+tal,PE-FAP1-0043,tal I zordren an felka.,I give milk to the child.,,sentence
+tal,PE-FAP1-0058,tal ser fennildren an I.,The friend gives tea to me.,,sentence
+tal,PE-FAP1-0059,tal I emildren an ser.,I give a beverage to the friend.,,sentence
+tal,PE-FAP2-0060,tal I nesh emilpraleth an felka.,I give cooked fish to the child.,,sentence
+tal,PE-TM1-0002,tal I karmek an mekral.,I give the tool to the mechanic.,,sentence
+tal,PE-GCI1-0016,tal lorbelral belrinpel.,The public official gives the permit.,,sentence
+tal,PE-GCI1-0025,tal lorbelral belrinpel an ser.,The official gives the permit to the friend.,,sentence
+tal,PE-GCI1-0043,tal lorbel welrinath an ser.,The government grants citizenship to the friend.,,sentence
+tal,PE-DW1-0015,tal zhelbel kal an ngarzhel.,The power grid gives energy to the energy weapon.,,sentence
+tal,PE-RC1-0025,tal naklorral naktal an nakin.,The referee gives the prize to the competitor.,,sentence
+tal,PE-HTS1-0013,tal savin sava.,The patient receives care.,,sentence
+tal,PE-HTS1-0026,tal zhaelral zhaelphel an felka.,The healer gives medicine to the child.,,sentence
+tal,PE-HTS1-0028,tal zhaelral zhaelshen an savin.,The healer gives the patient a dose.,,sentence
+tal,PE-HTS1-0039,tal zhaelral zhaelolan an aivkor.,The healer applies salve to the wound.,,sentence
+tal,PE-HTS1-0045,tal zhaelral mavmorzhael an savin.,The healer gives the patient an antidote.,,sentence
+tal,PE-HTS1-0058,tal zhaelral dren an savin ser kadromav.,The healer gives water to the dehydrated patient.,,sentence
+tal,PE-HTS1-0068,tal kesvar vaarshan an ser.,The patrol brings rescue to the friend.,,sentence
+tal,PE-EGE1-0048,ka rinaen shannali rathshannali nor ka tal la terramav.,An introduced species is not invasive when it causes no ecological harm.,,sentence
+tal,PE-EGE1-0064,tal xilnalior rath an nali; dor welrin terrakav.,Habitat fragmentation endangers the species; the people establish conservation.,,sentence
+tal,PE-EGE1-0065,arth terrakav nalior; tal terrazhael zhael an terra.,Conservation protects the habitat; restoration gives renewal to the land.,,sentence
+tal,PE-ICAES1-0009,tal kalmek thalmek thal anmek.,The machine produces output from the input.,,sentence
+tal,PE-ICAES1-0010,tal raku thalmek.,The computation produces an output.,,sentence
+tal,PE-ICAES1-0030,tal felmekreth rekmekreth an rakumek.,The defect causes a crash in the computer.,,sentence
+tal,PE-ICAES1-0031,tal rekmekreth rethdava an beldava.,The crash causes data corruption in the database.,,sentence
+tal,PE-ICAES1-0043,tal zhelpel jorzhel nor dralorim.,The contact produces a power surge during the storm.,,sentence
+tal,PE-ICAES1-0044,tal jorzhel worzhel an zhelshara.,The surge causes an overload in the circuit.,,sentence
+tal,PE-ICAES1-0045,tal worzhel kazhel an felbelor.,The overload causes a power outage in the district.,,sentence
+tal,PE-ICAES1-0057,tal rethzheldava reth an dava.,Signal interference causes uncertainty in the information.,,sentence
+tal,PE-SAC1-0006,tal kreznyel shal nyeleth an Vora.,The sun casts stellar light upon the planet.,,sentence
+tal,PE-SAC1-0022,shal krezdralfel an Esh; tal shenral mordralfel.,The meteor shines in the sky; the researcher takes the meteorite.,,sentence
+tal,PE-SAC1-0041,tal shenral felshen; felshenaen la an dren.,The researcher takes the sample and samples the water.,,sentence
+tal,PE-SAC1-0051,tal weksivshen kesdava; weksivshenaen shenral an sivshen.,The replication yields evidence; the researcher replicates the experiment.,,sentence
+tal,PE-GMMP1-0017,kaaruaen arural rathrin ser tal vaarrin an seren.,The practitioner dispels the curse and gives the guardian a blessing.,,sentence
+tal,PE-GMMP1-0023,rinaen thaenin shalvar arural; tal la thaenohm.,A spirit-being is before the practitioner; they establish spirit contact.,,sentence
+tal,PE-GMMP1-0024,tal thaenohm vaar; thaenohmaen arural thaenin.,The spirit contact is peaceful; the practitioner communes with the spirit-being.,,sentence
+tal,PE-SIP1-0002,ra tal Ya mu?,What do you give?,,sentence
+tal,PE-SIP1-0004,ra tal Ya dren nu?,When do you give the water?,,sentence
+lun,PE-ER2-0042,sharaen Ilin wek an lun.,We follow the cycle of the moon.,,sentence
+lun,PE-LPC1-0001,rinaen Lun an esh.,The Moon is in the sky.,lun-s3,sentence
+lun,PE-LPC1-0002,kes I Lun an esh.,I notice the Moon in the sky.,,sentence
+lun,PE-FAP1-0025,rinaen nesh an lun.,The aquatic creature is in the lake.,lun-s1,sentence
+lun,PE-FAP1-0027,neshbrenaen I an lun.,I fish at the lake.,,sentence
+lun,PE-SAC1-0010,rinaen Lun an nyelbel ser wek luneth.,The moon is within the star system and follows a lunar cycle.,,sentence
+lun,PE-SAC1-0014,shen shenral ravwek; ravwekaen Lun an Vora.,The researcher measures the orbit; the moon orbits the planet.,,sentence
+lun,PE-SAC1-0017,rinaen dralxar; dralxaraen Lun an kreznyel.,An eclipse occurs; the moon eclipses the sun.,,sentence
+lun,PE-SAC1-0054,kes shenral Lun shan Drallor ser felshen shan Fellor.,The researcher observes the moon through the telescope and the sample through the microscope.,,sentence
+kaleth,PE-SP2-0004,rinaen theren an kaleth kaveth.,The village is at the old fortress.,kaleth-s1,sentence
+kaleth,PE-V1-0006,rinaen ser-ian Kadron kaleth.,My friend is a strong man.,,sentence
+kaleth,PE-V3-0141,moraen Theren an Kaleth Rathor.,The village stands at the ancient fortress-home.,,sentence
+kaleth,PE-DR2-0013,rinaen karjor kaleth.,The impact is powerful.,,sentence
+kaleth,PE-ER2-0029,arth Li-Seren kaleth.,The Respected Guardian defends the fortress.,,sentence
+kaleth,PE-ER2-0065,rinaen rav kaleth an kalravor.,There is a strong pull in the gravity pocket.,,sentence
+kaleth,PE-V2-0038,Var Seren arthlor an Kaleth.,The Guardians go to the defensive formation at the Fortress.,,sentence
+kaleth,PE-V4-0010,Pralaen an kaleth nor-ka.,The fortress was built.,,sentence
+kaleth,PE-V4-0015,Arth Imen an kaleth. Var Ya.,"We [the guards, not you] protect the fortress. You must go.",,sentence
+kaleth,PE-V4-0033,rinaen kaleth kaveth.,The fortress is old.,,sentence
+kaleth,PE-V4-0085,rinaen kaleth Hek-unar shar thalor.,The fortress is 100 strides outside.,,sentence
+kaleth,PE-NE1-0012,rinaen mahrowek kaleth nor.,The tide is strong now.,,sentence
+kaleth,PE-NE1-0013,rinaen mahrkal kaleth.,The deep-water pressure is strong.,,sentence
+kaleth,PE-NE1-0024,rinaen belzhir kaleth.,The communications network is strong.,,sentence
+kaleth,PE-DSL1-0085,rinaen nol-ian kaleth.,My sense of smell is strong.,,sentence
+kaleth,PE-PFM1-0058,rinaen kalrav kaleth.,Gravity is strong.,,sentence
+kaleth,PE-PFM1-0071,rinaen lianrethshen kaleth.,The anomaly reading is high.,,sentence
+kaleth,PE-CWM2-0001,rinaen kaleth thal kalmorl.,The fortress is made from granite.,,sentence
+kaleth,PE-CWM2-0006,rinaen brosmorl an kaleth.,The slate is in the fortress.,,sentence
+kaleth,PE-CWM2-0009,rinaen kaleth thal sadarmorl.,The fortress is made from sandstone.,,sentence
+kaleth,PE-TM1-0003,rinaen kalmek kaleth.,The machine is powerful.,kaleth-s2,sentence
+kaleth,PE-TVO1-0012,dorvekaen ser delkormek an kaleth.,The friend parks the motorcycle at the fortress.,,sentence
+kaleth,PE-TVO1-0047,dorvekaen lorvekral kormekvek an kaleth.,The driver parks the motor vehicle at the fortress.,,sentence
+kaleth,PE-TVO1-0054,velvaraen belzhirvek an kaleth.,The train slows at the fortress.,,sentence
+kaleth,PE-OC1-0008,rinaen felin emil an kaleth nor xarkaleth.,Food is scarce in the fortress during the siege.,,sentence
+krezor,PE-V4-0023,rinaen krezor feneth.,The hearth is hot.,krezor-s3,sentence
+krezor,PE-V4-0055,pralaen I krezor.,I am making a hearth.,,sentence
+krezor,PE-DR1-0004,thaal'ra rinaen dren an krezor.,I wonder if there is water at the hearth.,,sentence
+krezor,PE-DR1-0005,var I an dren kora rinaen krezor feneth.,I go to the water because the hearth is hot.,,sentence
+krezor,PE-ER2-0045,tal krezor phel an Ilin.,The hearth gives warmth to us.,,sentence
+krezor,PE-CNE1-0019,siv I pralaen krezor.,I try to make the hearth.,,sentence
+krezor,PE-CNE1-0021,sivathaen I pralaen krezor.,I succeed in making the hearth.,,sentence
+krezor,PE-CNE1-0047,pralaen Ilin krezor servok.,We make the hearth together.,,sentence
+krezor,PE-CNE1-0065,rinaen krezor serdel nethlor ser pralor.,The hearth is between the bed and the table.,,sentence
+krezor,PE-TM1-0020,rinaen delkorin an krezor.,The tongs are at the forge.,krezor-s1,sentence
+krezor,PE-PSAC1-0032,dar zhirkelral ser aennorral an krezor.,The storyteller waits with the musician by the hearth.,,sentence
+krezor,PE-HTS1-0070,vaarshanaen Ilin felka thal krezor.,We rescue the child from the fire.,,sentence
+phelvin,PE-V2-0013,Nethaen phelvin an dren.,The comforting drink rests by the water.,,sentence
+phelvin,PE-V2-0067,Shalilaen phelvin an dren.,The comforting drink flows by the water.,,sentence
+phelvin,PE-V2-0076,Phelvin kal dren.,The comforting drink strengthens with water.,,sentence
+phelvin,PE-V4-0059,Drenaen Ya phelvin.,You drink the comforting drink.,phelvin-s1,sentence
+phelvin,PE-V4-0083,Ra drenaen Ya dren reth phelvin?,Do you drink water or the comfort-drink?,,sentence
+phelvin,PE-V4-0098,Var I an phelvin. Rinaen kelvor-ian kadreneth. Rinaen belshara.,Proceeding to acquire a beverage. My mouth is dry. Hydration is a necessity.,,sentence
+phelvin,PE-V4-0104,Var I an phelvin. Arth vel vaar.,I am going for a warm drink. Calm endurance preserves peace.,,sentence
+phelvin,PE-V4-0108,Lia. Var I an phelvin. Lorin belthal kel-ian.,Yes. I am going for a comforting drink. My actions are guided by order.,,sentence
+phelvin,PE-DSL1-0058,drentalaen ser phelvin an drenvor.,The friend pours the drink into the cup.,,sentence
+phelvin,PE-WRT1-0021,thalvanesh varadan phelvin an welpralor.,The merchant sells a warm drink in the plaza.,,sentence
+jorvak,PE-V2-0057,Welaen jorvak an dren.,The bursting stew is shared by the water.,jorvak-s1,sentence
+jorvak,PE-V2-0072,Welaen morlak ser jorvak an dren.,The bread and stew are shared by the water.,,sentence
+welrim,PE-V2-0023,Welaen welrim ser dren ser Serin.,The feast is shared with friends and water.,welrim-s2,sentence
+welrim,PE-V2-0058,Welrim kal dren.,The feast strengthens by the water.,,sentence
+welrim,PE-BSPI1-0023,rinaen welrim an worxaror.,The feast is in the hall.,,sentence
+welrim,PE-BSPI1-0027,rinaen welrim an welpralor.,The feast is in the public square.,,sentence
+xilvar,PE-V2-0027,Nethaen xilvar an dren.,The hidden spice rests by the water.,xilvar-s1,sentence
+belshara,PE-ER2-0012,lorin belshara Ilin shan vethor.,Duty guides us through the shadow.,belshara-s2,sentence
+belshara,PE-V4-0002,Var I belshara.,I must go.,belshara-s3,sentence
+belshara,PE-V4-0072,Rinaen belshara an Ilin.,Duty is with us.,belshara-s2,sentence
+belshara,PE-V4-0098,Var I an phelvin. Rinaen kelvor-ian kadreneth. Rinaen belshara.,Proceeding to acquire a beverage. My mouth is dry. Hydration is a necessity.,,sentence
+belshara,PE-UHEI1-0015,mbaen an I nor-ka belshara.,I need help; I must be helped.,,sentence
+felorin,PE-V2-0062,Felorin vanesh dren.,The berries trade by the water.,,sentence
+felorin,PE-V2-0084,Nethaen felorin an dren.,The berries rest by the water.,felorin-s2,sentence
+felorin,PE-V2-0073,Felorin vanesh dren an Evan.,The berries trade at the market.,,sentence
+zhelvek,PE-V2-0077,Zhelvek kal dren.,The energy bar strengthens with water.,zhelvek-s1,sentence
+zhelvek,PE-CNE1-0014,jekaen mekral zhelvek.,The mechanic turns the energy carrier.,zhelvek-s2,sentence
+zhelvek,PE-CNE1-0022,sivathaen mekral karethaen zhelvek.,The mechanic succeeds in using the energy carrier.,,sentence
+zhelvek,PE-CNE1-0024,sivrethaen mekral karethaen zhelvek.,The mechanic fails to use the energy carrier.,,sentence
+eshvelaneth,PE-V2-0122,Eshvelaneth kal morl.,The hailstorm strikes the mountain.,eshvelaneth-s1,sentence
+eshvelaneth,PE-V3-0098,Eshvelaneth shan dren an Tharvok.,The snowstorm guidance passes to the family.,eshvelaneth-s2,sentence
+lianor,PE-DR2-0014,rinaen kavel an lianor-ian.,There is a memory gap in my thought.,,sentence
+lianor,PE-V4-0074,aen Ya lianor-ya.,You speak your thought.,lianor-s1,sentence
+lianor,PE-V3-0058,Seraen Kaikoa Lianor.,Kaikoa trusts the Sir.,,sentence
+lianor,PE-V4-0034,Rinaen lianor-ian vaareth.,My thought is good.,,sentence
+lianor,PE-SCP1-0011,rinaen sel an lianor-ian.,There is clarity in my thought.,,sentence
