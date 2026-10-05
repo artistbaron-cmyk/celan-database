@@ -2103,10 +2103,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -2259,10 +2255,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -2933,8 +2925,7 @@
     ],
     "familySenseIds": [
       "dren-s1",
-      "dren-s2",
-      "dren-s3"
+      "dren-s2"
     ]
   },
   "shal": {
@@ -5087,8 +5078,14 @@
     ],
     "sharedAffixes": [],
     "components": [],
-    "notes": [],
+    "notes": [
+      "The relief exclamation is Vaar'a!; Vaar is the peace noun."
+    ],
     "relatedEntries": [
+      {
+        "id": "vaar'a",
+        "term": "Vaar'a!"
+      },
       {
         "id": "vaarbelwek",
         "term": "Vaarbelwek"
@@ -5142,6 +5139,10 @@
           {
             "id": "vaarshen",
             "term": "Vaarshen"
+          },
+          {
+            "id": "vaar'a",
+            "term": "Vaar'a!"
           }
         ]
       }
@@ -23393,10 +23394,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -23595,10 +23592,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -29978,10 +29971,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -30152,10 +30141,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -33121,10 +33106,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -33295,10 +33276,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -38733,10 +38710,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -38919,10 +38892,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -40212,10 +40181,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -40368,10 +40333,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -41366,10 +41327,6 @@
         "term": "Velrathor"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "morldren",
         "term": "Morldren"
       },
@@ -41920,10 +41877,6 @@
             "term": "Eshxar"
           },
           {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
-          },
-          {
             "id": "mekeshpral",
             "term": "Mekeshpral"
           },
@@ -42236,10 +42189,6 @@
         "term": "Velpraltrakor"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "velrathor",
         "term": "Velrathor"
       },
@@ -42428,10 +42377,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -50599,39 +50544,30 @@
   "kalvokesh": {
     "familyRoots": [
       "KAL",
-      "VOK",
-      "ESH"
+      "VOK"
     ],
-    "sharedAffixes": [],
+    "sharedAffixes": [
+      "-esh"
+    ],
     "components": [
       {
-        "form": "Kal",
-        "description": "(strength)",
-        "source": "Kal (strength) + vok (unity) + esh (connection).",
-        "id": "root:kal",
-        "kind": "root",
-        "target": "kal",
-        "meaning": "(strength)",
+        "form": "Kalvok",
+        "description": "partner or spouse",
+        "source": "Kalvok spouse + -esh deep relational ties",
+        "id": "word:kalvok",
+        "kind": "word",
+        "target": "kalvok",
+        "meaning": "partner or spouse",
         "entryId": "LX-V3-0055"
       },
       {
-        "form": "vok",
-        "description": "(unity)",
-        "source": "Kal (strength) + vok (unity) + esh (connection).",
-        "id": "root:vok",
-        "kind": "root",
-        "target": "vok",
-        "meaning": "(unity)",
-        "entryId": "LX-V3-0055"
-      },
-      {
-        "form": "esh",
-        "description": "(connection)",
-        "source": "Kal (strength) + vok (unity) + esh (connection).",
-        "id": "root:esh",
-        "kind": "root",
-        "target": "esh",
-        "meaning": "(connection)",
+        "form": "-esh",
+        "description": "deep relational ties",
+        "source": "Kalvok spouse + -esh deep relational ties",
+        "id": "suffix:esh",
+        "kind": "affix",
+        "target": "-esh",
+        "meaning": "deep relational ties",
         "entryId": "LX-V3-0055"
       }
     ],
@@ -50646,20 +50582,12 @@
         "term": "Vok"
       },
       {
-        "id": "esh",
-        "term": "Esh"
-      },
-      {
         "id": "kal-",
         "term": "Kal-"
       },
       {
         "id": "vok-",
         "term": "Vok-"
-      },
-      {
-        "id": "esh-",
-        "term": "Esh-"
       },
       {
         "id": "arthkal",
@@ -50670,10 +50598,6 @@
         "term": "Belvok"
       },
       {
-        "id": "aneshxar",
-        "term": "Aneshxar"
-      },
-      {
         "id": "felkal",
         "term": "Felkal"
       },
@@ -50682,20 +50606,12 @@
         "term": "Drenvokesh"
       },
       {
-        "id": "drenesh",
-        "term": "Drenesh"
-      },
-      {
         "id": "jekkal",
         "term": "Jekkal"
       },
       {
         "id": "kalvok",
         "term": "Kalvok"
-      },
-      {
-        "id": "drenvelesh",
-        "term": "Drenvelesh"
       },
       {
         "id": "jorkal",
@@ -50714,20 +50630,12 @@
         "term": "Kelvok"
       },
       {
-        "id": "esharu",
-        "term": "Esharu"
-      },
-      {
         "id": "kalbelrin",
         "term": "Kalbelrin"
       },
       {
         "id": "lorlivok",
         "term": "Lorlivok"
-      },
-      {
-        "id": "eshdren",
-        "term": "Eshdren"
       },
       {
         "id": "kaldov",
@@ -50738,20 +50646,12 @@
         "term": "Pelvokaen"
       },
       {
-        "id": "eshdrenaen",
-        "term": "Eshdrenaen"
-      },
-      {
         "id": "kaleth",
         "term": "Kaleth"
       },
       {
         "id": "pralvokesh",
         "term": "Pralvokesh"
-      },
-      {
-        "id": "eshjor",
-        "term": "Eshjor"
       },
       {
         "id": "kalkel",
@@ -50762,20 +50662,12 @@
         "term": "Rethvok"
       },
       {
-        "id": "eshkar",
-        "term": "Eshkar"
-      },
-      {
         "id": "kalmek",
         "term": "Kalmek"
       },
       {
         "id": "servok",
         "term": "Servok"
-      },
-      {
-        "id": "eshkrezaen",
-        "term": "Eshkrezaen"
       },
       {
         "id": "kalmetha",
@@ -50786,20 +50678,12 @@
         "term": "Sharavok"
       },
       {
-        "id": "eshlin",
-        "term": "Eshlin"
-      },
-      {
         "id": "kalmorl",
         "term": "Kalmorl"
       },
       {
         "id": "sivvok",
         "term": "Sivvok"
-      },
-      {
-        "id": "eshlor",
-        "term": "Eshlor"
       },
       {
         "id": "kalorinath",
@@ -50810,20 +50694,12 @@
         "term": "Tharvok"
       },
       {
-        "id": "eshlorien",
-        "term": "Eshlorien"
-      },
-      {
         "id": "kalrath",
         "term": "Kalrath"
       },
       {
         "id": "velthaelvok",
         "term": "Velthaelvok"
-      },
-      {
-        "id": "eshlorral",
-        "term": "Eshlorral"
       },
       {
         "id": "kalrav",
@@ -50834,20 +50710,12 @@
         "term": "Vokaen"
       },
       {
-        "id": "eshmekor",
-        "term": "Eshmekor"
-      },
-      {
         "id": "kalrin",
         "term": "Kalrin"
       },
       {
         "id": "voktarin",
         "term": "Voktarin"
-      },
-      {
-        "id": "eshnor",
-        "term": "Eshnor"
       },
       {
         "id": "kalshen",
@@ -50858,116 +50726,52 @@
         "term": "Zhirvok"
       },
       {
-        "id": "eshpral",
-        "term": "Eshpral"
-      },
-      {
         "id": "zhivokesh",
         "term": "Zhivokesh"
-      },
-      {
-        "id": "eshpralaen",
-        "term": "Eshpralaen"
       },
       {
         "id": "kalwek",
         "term": "Kalwek"
       },
       {
-        "id": "eshpralor",
-        "term": "Eshpralor"
-      },
-      {
         "id": "mahrkal",
         "term": "Mahrkal"
-      },
-      {
-        "id": "eshtenor",
-        "term": "Eshtenor"
       },
       {
         "id": "morkal",
         "term": "Morkal"
       },
       {
-        "id": "eshthael",
-        "term": "Eshthael"
-      },
-      {
         "id": "rethkal",
         "term": "Rethkal"
-      },
-      {
-        "id": "eshtrakor",
-        "term": "Eshtrakor"
       },
       {
         "id": "serenkal",
         "term": "Serenkal"
       },
       {
-        "id": "eshvan",
-        "term": "Eshvan"
-      },
-      {
         "id": "shankalaen",
         "term": "Shankalaen"
-      },
-      {
-        "id": "eshvaraen",
-        "term": "Eshvaraen"
       },
       {
         "id": "tirkal",
         "term": "Tirkal"
       },
       {
-        "id": "eshvek",
-        "term": "Eshvek"
-      },
-      {
         "id": "worshankal",
         "term": "Worshankal"
-      },
-      {
-        "id": "eshvelaneth",
-        "term": "Eshvelaneth"
       },
       {
         "id": "zhirkalor",
         "term": "Zhirkalor"
       },
       {
-        "id": "eshvelor",
-        "term": "Eshvelor"
+        "id": "-esh",
+        "term": "-esh"
       },
       {
-        "id": "eshvilor",
-        "term": "Eshvilor"
-      },
-      {
-        "id": "eshweknor",
-        "term": "Eshweknor"
-      },
-      {
-        "id": "eshxar",
-        "term": "Eshxar"
-      },
-      {
-        "id": "mekeshpral",
-        "term": "Mekeshpral"
-      },
-      {
-        "id": "terraesh",
-        "term": "Terraesh"
-      },
-      {
-        "id": "xaresh",
-        "term": "Xaresh"
-      },
-      {
-        "id": "zunesh",
-        "term": "Zunesh"
+        "id": "thalesh",
+        "term": "Thalesh"
       }
     ],
     "relatedGroups": [
@@ -51180,160 +50984,16 @@
         ]
       },
       {
-        "key": "root:esh",
-        "label": "ESH",
+        "key": "suffix:esh",
+        "label": "-esh",
         "entries": [
           {
-            "id": "esh",
-            "term": "Esh"
+            "id": "-esh",
+            "term": "-esh"
           },
           {
-            "id": "esh-",
-            "term": "Esh-"
-          },
-          {
-            "id": "aneshxar",
-            "term": "Aneshxar"
-          },
-          {
-            "id": "drenesh",
-            "term": "Drenesh"
-          },
-          {
-            "id": "drenvelesh",
-            "term": "Drenvelesh"
-          },
-          {
-            "id": "drenvokesh",
-            "term": "Drenvokesh"
-          },
-          {
-            "id": "esharu",
-            "term": "Esharu"
-          },
-          {
-            "id": "eshdren",
-            "term": "Eshdren"
-          },
-          {
-            "id": "eshdrenaen",
-            "term": "Eshdrenaen"
-          },
-          {
-            "id": "eshjor",
-            "term": "Eshjor"
-          },
-          {
-            "id": "eshkar",
-            "term": "Eshkar"
-          },
-          {
-            "id": "eshkrezaen",
-            "term": "Eshkrezaen"
-          },
-          {
-            "id": "eshlin",
-            "term": "Eshlin"
-          },
-          {
-            "id": "eshlor",
-            "term": "Eshlor"
-          },
-          {
-            "id": "eshlorien",
-            "term": "Eshlorien"
-          },
-          {
-            "id": "eshlorral",
-            "term": "Eshlorral"
-          },
-          {
-            "id": "eshmekor",
-            "term": "Eshmekor"
-          },
-          {
-            "id": "eshnor",
-            "term": "Eshnor"
-          },
-          {
-            "id": "eshpral",
-            "term": "Eshpral"
-          },
-          {
-            "id": "eshpralaen",
-            "term": "Eshpralaen"
-          },
-          {
-            "id": "eshpralor",
-            "term": "Eshpralor"
-          },
-          {
-            "id": "eshtenor",
-            "term": "Eshtenor"
-          },
-          {
-            "id": "eshthael",
-            "term": "Eshthael"
-          },
-          {
-            "id": "eshtrakor",
-            "term": "Eshtrakor"
-          },
-          {
-            "id": "eshvan",
-            "term": "Eshvan"
-          },
-          {
-            "id": "eshvaraen",
-            "term": "Eshvaraen"
-          },
-          {
-            "id": "eshvek",
-            "term": "Eshvek"
-          },
-          {
-            "id": "eshvelaneth",
-            "term": "Eshvelaneth"
-          },
-          {
-            "id": "eshvelor",
-            "term": "Eshvelor"
-          },
-          {
-            "id": "eshvilor",
-            "term": "Eshvilor"
-          },
-          {
-            "id": "eshweknor",
-            "term": "Eshweknor"
-          },
-          {
-            "id": "eshxar",
-            "term": "Eshxar"
-          },
-          {
-            "id": "mekeshpral",
-            "term": "Mekeshpral"
-          },
-          {
-            "id": "pralvokesh",
-            "term": "Pralvokesh"
-          },
-          {
-            "id": "terraesh",
-            "term": "Terraesh"
-          },
-          {
-            "id": "xaresh",
-            "term": "Xaresh"
-          },
-          {
-            "id": "zhivokesh",
-            "term": "Zhivokesh"
-          },
-          {
-            "id": "zunesh",
-            "term": "Zunesh"
+            "id": "thalesh",
+            "term": "Thalesh"
           }
         ]
       }
@@ -54879,10 +54539,6 @@
             "term": "Eshxar"
           },
           {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
-          },
-          {
             "id": "mekeshpral",
             "term": "Mekeshpral"
           },
@@ -57640,10 +57296,6 @@
             "term": "Eshxar"
           },
           {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
-          },
-          {
             "id": "mekeshpral",
             "term": "Mekeshpral"
           },
@@ -57845,10 +57497,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -58001,10 +57649,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -60500,10 +60144,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -72997,10 +72637,6 @@
         "term": "Xarnesh"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "xaror",
         "term": "Xaror"
       },
@@ -73371,10 +73007,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -77956,10 +77588,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -78112,10 +77740,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -100532,10 +100156,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -100688,10 +100308,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -119048,10 +118664,6 @@
         "term": "Pralral"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "pralvek",
         "term": "Pralvek"
       },
@@ -119264,10 +118876,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -154464,10 +154072,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -154620,10 +154224,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -155798,10 +155398,6 @@
         "term": "Krezdrenvek"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "lorinshaldren",
         "term": "Lorinshaldren"
       },
@@ -155990,10 +155586,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -162215,10 +161807,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -162371,10 +161959,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -201213,10 +200797,6 @@
         "term": "Urenvek"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "varvek",
         "term": "Varvek"
       },
@@ -201413,10 +200993,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -205166,10 +204742,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -205322,10 +204894,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -212430,10 +211998,6 @@
         "term": "Zhirkelral"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -212586,10 +212150,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -214031,10 +213591,6 @@
         "term": "Xarmetha"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "xarmorl",
         "term": "Xarmorl"
       },
@@ -214231,10 +213787,6 @@
           {
             "id": "eshweknor",
             "term": "Eshweknor"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -215374,10 +214926,6 @@
         "term": "Xarmetha"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "xarmorl",
         "term": "Xarmorl"
       },
@@ -215620,10 +215168,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -220049,10 +219593,6 @@
         "term": "Velmek"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "pralvinor",
         "term": "Pralvinor"
       },
@@ -220419,10 +219959,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "pralvokesh",
@@ -227317,10 +226853,6 @@
         "term": "Pralral"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "pralvek",
         "term": "Pralvek"
       },
@@ -227533,10 +227065,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -231444,10 +230972,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -231600,10 +231124,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -283749,18 +283269,18 @@
     "components": [
       {
         "form": "Dren",
-        "description": "river or water",
-        "source": "Dren river or water + Fel small",
+        "description": "water",
+        "source": "Dren water + Fel small",
         "id": "root:dren",
         "kind": "root",
         "target": "dren",
-        "meaning": "river or water",
+        "meaning": "water",
         "entryId": "LX-EGE1-0013"
       },
       {
         "form": "Fel",
         "description": "small",
-        "source": "Dren river or water + Fel small",
+        "source": "Dren water + Fel small",
         "id": "root:fel",
         "kind": "root",
         "target": "fel",
@@ -286727,10 +286247,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -286883,10 +286399,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -287384,10 +286896,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -287540,10 +287048,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -288040,10 +287544,6 @@
         "term": "Lorinshaldren"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "morldren",
         "term": "Morldren"
       },
@@ -288396,10 +287896,6 @@
             "term": "Eshxar"
           },
           {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
-          },
-          {
             "id": "mekeshpral",
             "term": "Mekeshpral"
           },
@@ -288634,10 +288130,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -288790,10 +288282,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -289140,10 +288628,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -289296,10 +288780,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -289702,10 +289182,6 @@
         "term": "Krezdrenvek"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "lorinshaldren",
         "term": "Lorinshaldren"
       },
@@ -289894,10 +289370,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -324785,10 +324257,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -324941,10 +324409,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -341000,10 +340464,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -341206,10 +340666,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -349333,10 +348789,6 @@
         "term": "Pralral"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "pralvek",
         "term": "Pralvek"
       },
@@ -349549,10 +349001,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -374415,10 +373863,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -374585,10 +374029,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -375159,7 +374599,7 @@
       {
         "form": "Thal",
         "description": "from/out of",
-        "source": "Thal from/out of + -or place.",
+        "source": "Thal from/out of + -or; in Thalor, outside is an adverb of position, not a separate place noun.",
         "id": "root:thal",
         "kind": "root",
         "target": "thal",
@@ -375169,7 +374609,7 @@
       {
         "form": "-or",
         "description": "place",
-        "source": "Thal from/out of + -or place.",
+        "source": "Thal from/out of + -or; in Thalor, outside is an adverb of position, not a separate place noun.",
         "id": "suffix:or",
         "kind": "affix",
         "target": "-or",
@@ -375177,7 +374617,9 @@
         "entryId": "LX-DR1-0024"
       }
     ],
-    "notes": [],
+    "notes": [
+      "Thalor is used as the adverb outside. Its historical word parts do not make it a noun for a separate place."
+    ],
     "relatedEntries": [
       {
         "id": "thal",
@@ -375397,11 +374839,9 @@
       }
     ],
     "morphologySenseIds": [
-      "thalor-s1",
       "thalor-s2"
     ],
     "familySenseIds": [
-      "thalor-s1",
       "thalor-s2"
     ]
   },
@@ -387428,6 +386868,10 @@
     "notes": [],
     "relatedEntries": [
       {
+        "id": "kalvokesh",
+        "term": "Kalvokesh"
+      },
+      {
         "id": "thalesh",
         "term": "Thalesh"
       }
@@ -387437,6 +386881,10 @@
         "key": "suffix:esh",
         "label": "-esh",
         "entries": [
+          {
+            "id": "kalvokesh",
+            "term": "Kalvokesh"
+          },
           {
             "id": "thalesh",
             "term": "Thalesh"
@@ -389052,10 +388500,6 @@
         "term": "Eshxar"
       },
       {
-        "id": "kalvokesh",
-        "term": "Kalvokesh"
-      },
-      {
         "id": "mekeshpral",
         "term": "Mekeshpral"
       },
@@ -389208,10 +388652,6 @@
           {
             "id": "eshxar",
             "term": "Eshxar"
-          },
-          {
-            "id": "kalvokesh",
-            "term": "Kalvokesh"
           },
           {
             "id": "mekeshpral",
@@ -392892,6 +392332,43 @@
     "components": [],
     "notes": [],
     "relatedEntries": [],
+    "relatedGroups": []
+  },
+  "vaar'a": {
+    "familyRoots": [
+      "VAAR"
+    ],
+    "sharedAffixes": [],
+    "components": [
+      {
+        "form": "Vaar",
+        "description": "peace",
+        "source": "Approved expression: Vaar peace + emphatic -a",
+        "id": "word:vaar",
+        "kind": "word",
+        "target": "vaar",
+        "meaning": "peace",
+        "entryId": "LX-V2-0221"
+      },
+      {
+        "form": "-a",
+        "description": "emphasis in this exclamation",
+        "source": "Approved expression: Vaar peace + emphatic -a",
+        "id": "local:a",
+        "kind": "local",
+        "meaning": "emphasis in this exclamation",
+        "entryId": "LX-V2-0221"
+      }
+    ],
+    "notes": [
+      "The -a here is recorded for this approved exclamation; this entry does not establish a general productive suffix rule."
+    ],
+    "relatedEntries": [
+      {
+        "id": "vaar",
+        "term": "Vaar"
+      }
+    ],
     "relatedGroups": []
   }
 }

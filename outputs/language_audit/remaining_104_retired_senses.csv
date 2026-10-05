@@ -1,0 +1,8 @@
+headword_id,sense_order,visible,word_type,meaning,usage_note,root_word,source_entry_ids,sense_id,reason
+esh,3,Yes,Suffix,-esh (relational),,,LX-V1-0021; LX-V2-0006; LX-V2-0071; LX-V4-0110; XR-esh,esh-s3,Move relational suffix to separate -esh entry
+lian,2,Yes,Modal,Can / Able to,,,LX-V2-0026; LX-V2-0064; LX-V4-0114; XR-lian,lian-s3,Route ability to Lianeth
+aen,3,Yes,Suffix,-aen (verb-forming),,,LX-V2-0028; LX-V2-0062; LX-V3-0009; LX-V4-0102; DM-RM-V3-0005,aen-s3,Move verb-forming suffix to separate -aen entry
+vaar,3,Yes,Interjection,Relief / Phew,,,LX-V2-0037; LX-V2-0041; LX-V4-0113; XR-vaar,vaar-s3,Route relief interjection to Vaar'a!
+thalor,1,Yes,Noun,Exterior / outer place,,,LX-DR1-0024,thalor-s1,"Thalor names outside position, not a separate place"
+-en,2,Yes,Suffix,Honorific/Respected form,Original root/morpheme entry preserved.,,DM-RM-V2-0032,-en-s2,Merge duplicate honorific ending
+li-,2,Yes,Prefix,show respect,Original root/morpheme entry preserved.,,DM-RM-V3-0001,li--s2,Merge duplicate respect prefix

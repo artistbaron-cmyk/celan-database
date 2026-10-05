@@ -28,7 +28,6 @@ nor,1,Yes,Noun,Time / Flow of Time,,,LX-V1-0020; LX-V2-0020; LX-V4-0100; XR-nor,
 nor,2,Yes,Preposition,At / In (time),,,LX-V1-0020; LX-V2-0020; LX-V4-0100; XR-nor,nor-s2
 esh,1,Yes,Noun,Sky / Air,,,LX-V1-0021; LX-V2-0006; LX-V2-0071; LX-V4-0110; XR-esh,esh-s1
 esh,2,Yes,Preposition,Above / Over,,,LX-V1-0021; LX-V2-0006; LX-V2-0071; LX-V4-0110; XR-esh,esh-s2
-esh,3,Yes,Suffix,-esh (relational),,,LX-V1-0021; LX-V2-0006; LX-V2-0071; LX-V4-0110; XR-esh,esh-s3
 morl,1,Yes,Noun,Mountain,,,LX-V2-0005; LX-V2-0066,morl-s1
 morl,2,,Noun,Mountain; stone; endurance; the unchanging past,"Builds words for stone, mountain, endurance, stoicism, and unyielding material force.",Yes,XR-morl,morl-s2
 morl,3,Yes,Preposition,"Under, beneath",Var I morl dren.,,LX-V1-0022,morl-s3
@@ -36,7 +35,6 @@ terra,1,Yes,Noun,Earth / Physical ground,"Lowercase terra names ordinary soil, p
 terra,2,Yes,Noun,The Heart of Terra / Mystical force,Capitalized Terra names the living world-force or spiritual Earth entity.,,LX-V2-0001; LX-V2-0073; LX-V4-0108; XR-terra,terra-s2
 dren,1,Yes,Noun,Water (physical),,,LX-V2-0002,dren-s1
 dren,2,Yes,Noun,Water - symbolic,"Use in rituals, court, formal address, writing, when emphasizing depth. Combine with Li- / -en.",,LX-V3-0011,dren-s2
-dren,3,Yes,Noun,Water / River,,,LX-V2-0068,dren-s3
 dren,4,,Noun,Water; flow; emotion; connection,"Builds words for water, flow, drinking, weather, and emotional or relational movement.",Yes,XR-dren,dren-s4
 shal,1,Yes,Noun,Light / New Beginnings / Fate,,,LX-V2-0003; LX-V2-0069; LX-V4-0101; XR-shal,shal-s1
 krez,1,Yes,Noun,Fire,,,LX-V2-0004; LX-V2-0070; LX-V4-0105; XR-krez,krez-s1
@@ -61,12 +59,10 @@ shalor,1,Yes,Noun,Sanctuary (light-filled place),,,LX-V2-0084,shalor-s3
 thaal,1,Yes,Noun,The Unknown / Wonder,,,LX-V2-0025; LX-V2-0060,thaal-s1
 thaal,2,Yes,Particle,Superlative marker: most,Original root/morpheme entry preserved.,,DM-RM-V3-0008,thaal-s2
 lian,1,Yes,Noun,Truth / Honesty,,,LX-V2-0026; LX-V2-0064; LX-V4-0114; XR-lian,lian-s1
-lian,2,Yes,Modal,Can / Able to,,,LX-V2-0026; LX-V2-0064; LX-V4-0114; XR-lian,lian-s3
 lumor,1,Yes,Noun,Light (enlightenment or insight),,,LX-V2-0027,lumor-s1
 lumor,2,Yes,Noun,Talisman,,,LX-V2-0027,lumor-s2
 aen,1,Yes,Verb,Speak / Tell / Breathe,"Formal/poetic use: deeper or ritual speaking. Use in rituals, court, formal address, writing, and when emphasizing depth. Combine with Li- / -en.",,LX-V2-0028; LX-V2-0062; LX-V3-0009; LX-V4-0102; DM-RM-V3-0005,aen-s1
 aen,2,Yes,Conjunction,That,,,LX-V2-0028; LX-V2-0062; LX-V3-0009; LX-V4-0102; DM-RM-V3-0005,aen-s2
-aen,3,Yes,Suffix,-aen (verb-forming),,,LX-V2-0028; LX-V2-0062; LX-V3-0009; LX-V4-0102; DM-RM-V3-0005,aen-s3
 aen,4,Yes,Noun,Breath of Life,,,LX-V2-0028; LX-V2-0062; LX-V3-0009; LX-V4-0102; DM-RM-V3-0005,aen-s4
 varok,1,Yes,Verb,Command / Direct,,,LX-V2-0029,varok-s1
 arth,1,,Noun,Protection; defense; purposeful shielding,"Builds words for protection, defense, destiny-linked duty, and fortified purpose.",Yes,XR-arth,arth-s1
@@ -76,8 +72,8 @@ kal,3,Yes,Verb,To strengthen,,,LX-V2-0031; LX-V4-0111; XR-kal,kal-s3
 kalor,1,Yes,Noun,Courage / Strength of Spirit / Willpower,,,LX-V2-0042; LX-V2-0032,kalor-s1
 seren,1,Yes,Noun,Guardian / Protector,,,LX-V2-0033; LX-V3-0007,seren-s1
 arthen,1,Yes,Noun,Destiny / Purpose,,,LX-V2-0035,arthen-s1
-vaar,1,Yes,Noun,Peace / Unity / Calm,,,LX-V2-0037; LX-V2-0041; LX-V4-0113; XR-vaar,vaar-s1
-vaar,3,Yes,Interjection,Relief / Phew,,,LX-V2-0037; LX-V2-0041; LX-V4-0113; XR-vaar,vaar-s3
+vaar,1,Yes,Noun,Peace / Unity / Calm,"For the relief exclamation, see Vaar'a!",,LX-V2-0037; LX-V2-0041; LX-V4-0113; XR-vaar,vaar-s1
+vaar'a,1,Yes,Interjection,Phew! / Ahh!; relief or release of tension,Approved exclamation formed from Vaar with emphatic -a.,,LX-V2-0221,vaar'a-s1
 ilan,1,Yes,Noun,Student / Follower,,,LX-V2-0038,ilan-s1
 lorin,1,Yes,Noun,Guide / Mentor,,,LX-V2-0039; LX-V3-0005,lorin-s1
 lorin,3,Yes,Verb,To guide,,,LX-V2-0039; LX-V3-0005,lorin-s3
@@ -250,13 +246,14 @@ liorin,1,Yes,Noun,Teacher/Elder,,,LX-V3-0003,liorin-s1
 liorinen,1,Yes,Noun,Honored Elder/Teacher,,,LX-V3-0004,liorinen-s1
 lorinen,1,Yes,Noun,Honored Guide,,,LX-V3-0006,lorinen-s1
 li-seren,1,Yes,Noun,Respected Guardian,,,LX-V3-0008,li-seren-s1
-kel,1,Yes,Verb,Say / Talk (informal),Informal say/talk use remains without a direct example; ordinary speaking also uses Aen and Kelaen.,,LX-V3-0012; LX-V4-0121; LX-SCP1-0001; XR-kel,kel-s1
+kel,1,Yes,Verb,Say / Talk (informal),Informal say/talk; ordinary speaking also uses Aen and Kelaen.,,LX-V3-0012; LX-V4-0121; LX-SCP1-0001; XR-kel,kel-s1
 kel,2,Yes,Verb,To name / to designate,Sentence-initial Kel means to name or designate. The noun for a name is Kelrin; do not read this verb example as a noun.,,LX-V3-0012; LX-V4-0121; LX-SCP1-0001; XR-kel,kel-s2
 kel,3,Yes,Noun,Word / spoken or written unit,,,LX-V3-0012; LX-V4-0121; LX-SCP1-0001; XR-kel,kel-s3
 kel,4,Yes,Noun,Text / inscribed passage,,,LX-SCP1-0001,kel-s4
 min,1,Yes,Verb,To go/walk/head over - casual,"Use in casual conversation, between friends/family, marketplaces. Avoid Li- / -en unless context requires politeness.",,LX-V3-0013,min-s1
 dro,1,,Noun,Basic physical water,"Builds ordinary terms for drinking, storing, measuring, and distributing physical water.",Yes,XR-dro,dro-s1
 dro,2,Yes,Noun,Water - basic,"Use in casual conversation, between friends/family, marketplaces. Avoid Li- / -en unless context requires politeness.",,LX-V3-0014,dro-s2
+dro,3,Yes,Noun,River / waterway; a flowing body of physical water,"Use for a river or waterway in a geographical context. Dren names water; Drenfel names a stream or brook.",,PE-GCI1-0048,dro-s3
 ar,1,Yes,Particle,"Intensifier - very, intensely",Place after the verb/adjective. Fahaen I ar! (I am terrified!).,,LX-V3-0015; DM-RM-V3-0003,ar-s1
 fel,1,Yes,Particle,"Diminisher - slightly, a bit",Place after the verb/adjective. Theraen I fel. (I long a little.),,LX-V3-0016; DM-RM-V3-0004,fel-s1
 lia,1,Yes,Interjection,Yes,"“Lia, I var dren.” – “Yes, I go to the water.”",,LX-V3-0017,lia-s1
@@ -297,7 +294,7 @@ tavrel,1,Yes,Noun,Aunt/Uncle,Tav (giver/source) + rel (branch).,,LX-V3-0051,tavr
 felvin,1,Yes,Noun,Niece/Nephew,Fel (young/new) + vin (pulled).,,LX-V3-0052,felvin-s1
 zharin,1,Yes,Noun,Distant Relative,Zhir (lineage) + arin (far-reaching).,,LX-V3-0053,zharin-s1
 velxorin,1,Yes,Noun,Elder Ancestor,Vel (wisdom) + xor (hidden) + in (person).,,LX-V3-0054,velxorin-s1
-kalvokesh,1,Yes,Noun,Spouse's Family,Kal (strength) + vok (unity) + esh (connection).,,LX-V3-0055,kalvokesh-s1
+kalvokesh,1,Yes,Noun,Spouse's Family,Kalvok spouse + -esh relational family tie.,,LX-V3-0055,kalvokesh-s1
 zhirkalor,1,Yes,Noun,Partner by Lineage,Zhir (lineage) + kal (strength) + or (shared essence).,,LX-V3-0056,zhirkalor-s1
 xarfelvin,1,Yes,Noun,Adoptive Niece/Nephew,Xar (protection) + Fel (young) + vin (pulled).,,LX-V3-0057,xarfelvin-s1
 belvethral,1,Yes,Noun,Chosen Family,Bel (binding) + veth (shadow) + ral (caretaker).,,LX-V3-0058,belvethral-s1
@@ -397,7 +394,7 @@ tenar,2,Yes,Noun,Radiance / steady glow / visible light,,,LX-V3-0143; XR-tenar,t
 lianeth,1,Yes,Modal,Ability (can / able to),Modal particle of ability after a clause: can or able to.,,LX-V4-0001,lianeth-s1
 lianeth,3,Yes,Adjective,Reliable / sound / dependable / accurate / true to function,,,LX-V4-0001,lianeth-s3
 thar-ka,1,Yes,Modal,Desire (Want to),"""by heart's desire""",,LX-V4-0004,thar-ka-s1
-thar-ka,2,Yes,Noun,Desire,Desire / inner drive as a noun; no ordinary noun sentence has been assigned yet.,,LX-V4-0004,thar-ka-s2
+thar-ka,2,Yes,Noun,Desire,Desire / inner drive as a noun.,,LX-V4-0004,thar-ka-s2
 inko,1,Yes,Pronoun,We two / Us two [Dual],,,LX-V4-0005,inko-s1
 yako,1,Yes,Pronoun,You two [Dual],,,LX-V4-0006,yako-s1
 lako,1,Yes,Pronoun,They two [Dual],,,LX-V4-0007,lako-s1
@@ -1490,8 +1487,7 @@ eshvan,1,Yes,Noun,Shop / Store / Market stall,,,LX-DR1-0021,eshvan-s1
 noraen,1,Yes,Verb,To guide / To lead through time or experience / To instruct,,,LX-DR1-0022,noraen-s1
 thalesh,1,Yes,Noun,Ritual / Sacred balance ceremony,,,LX-DR1-0023,thalesh-s1
 thalesh,2,Yes,Verb,To perform a balance rite,,,LX-DR1-0023,thalesh-s2
-thalor,1,Yes,Noun,Exterior / outer place,,,LX-DR1-0024,thalor-s1
-thalor,2,Yes,Adverb,Outside; not within something,,,LX-DR1-0024,thalor-s2
+thalor,2,Yes,Adverb,Outside; not within something,"Describes a position outside something; it does not name a separate place.",,LX-DR1-0024,thalor-s2
 daraen,1,Yes,Verb,To wait / To pause / To remain pending,,,LX-DR1-0025,daraen-s1
 varral,1,Yes,Noun,Traveler / Wanderer / Person on a journey,,,LX-DR1-0026,varral-s1
 karjor,1,Yes,Noun,Impact / Mechanical surge / Strike force / Burst of energy,,,LX-DR1-0027,karjor-s1
@@ -1507,7 +1503,7 @@ ohm,1,Yes,Noun,Connection; empathy; spiritual unity,"Builds words for attunement
 mor,1,Yes,Noun,Matter; soil; earthy substance; physical grounding,"Builds words for earthiness, grounding, matter, physical substance, grain, and material support.",Yes,XR-mor,mor-s1
 veth,1,Yes,Noun,Shade; mystery; hidden or sleeping things,"Builds words for shadow, sleep, hiddenness, mystery, stalking, and the unseen.",Yes,XR-veth,veth-s1
 neth,1,Yes,Noun,Rest; physical stillness; support,"Builds words for rest, seated stillness, support surfaces, and physically settled states.",Yes,XR-neth,neth-s1
-vanesh,1,Yes,Noun,Commerce; formal trade; merchant work,Commerce or formal trade as a noun; no ordinary noun sentence has been assigned yet.,,XR-vanesh,vanesh-s1
+vanesh,1,Yes,Noun,Commerce; formal trade; merchant work,Commerce or formal trade as a noun.,,XR-vanesh,vanesh-s1
 vanesh,2,Yes,Verb,To trade / To conduct commerce,,,XR-vanesh,vanesh-s2
 kar,1,Yes,Noun,Strike; mechanical force; tool-work,"Builds words for striking, tool-use, applied force, and mechanical action.",,XR-kar,kar-s1
 kar,2,Yes,Verb,To strike / To apply force,,,XR-kar,kar-s2
@@ -1588,14 +1584,12 @@ nku-,1,Yes,Adjective,"Hidden, nurturing",Original root chart row preserved.,Yes,
 -in,2,Yes,Suffix,"Person or participant connected to a bond, place, or category",Additional participant sense; the existing consonant-noun plural sense remains valid. Interpret the established word in context.,,DM-RM-V2-0029,-in-s2
 -n,1,Yes,Suffix,Plural marker added to nouns ending in vowels,Original root/morpheme entry preserved.,,DM-RM-V2-0030,-n-s1
 -or,1,Yes,Suffix,Place/Location,Original root/morpheme entry preserved.,,DM-RM-V2-0031,-or-s1
--en,1,Yes,Suffix,Honorific/Formal-High Respect,Original root/morpheme entry preserved.,,DM-RM-V3-0002,-en-s1
--en,2,Yes,Suffix,Honorific/Respected form,Original root/morpheme entry preserved.,,DM-RM-V2-0032,-en-s2
+-en,1,Yes,Suffix,Honorific / respected form,Marks respect in a title or form of address.,,DM-RM-V3-0002; DM-RM-V2-0032,-en-s1
 -en,3,Yes,Suffix,Partner bonded to you,Original root/morpheme entry preserved.,,DM-RM-V3-0011,-en-s3
 -lin,1,Yes,Suffix,Collective/Diminutive,Original root/morpheme entry preserved.,,DM-RM-V2-0033,-lin-s1
 -aen,1,Yes,Suffix,Verb-forming,Original root/morpheme entry preserved.,,DM-RM-V2-0034,-aen-s1
 ver-,1,Yes,Prefix,Negation,Original root/morpheme entry preserved.,,DM-RM-V2-0037,ver--s1
-li-,1,Yes,Prefix,Respect/Honorific,Original root/morpheme entry preserved.,,DM-RM-V2-0038,li--s1
-li-,2,Yes,Prefix,show respect,Original root/morpheme entry preserved.,,DM-RM-V3-0001,li--s2
+li-,1,Yes,Prefix,Respect / honorific,Placed before an address form to show respect.,,DM-RM-V2-0038; DM-RM-V3-0001,li--s1
 lior,1,Yes,Pronoun,Relative Pronoun,Original root/morpheme entry preserved.,,DM-RM-V3-0006,lior-s1
 ther,1,Yes,Particle,Comparative marker: more than,Original root/morpheme entry preserved.,,DM-RM-V3-0007,ther-s1
 -esh,1,Yes,Suffix,deep relational ties,Original root/morpheme entry preserved.,,DM-RM-V3-0010,-esh-s1

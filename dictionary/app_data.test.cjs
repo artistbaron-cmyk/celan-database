@@ -42,9 +42,9 @@ const examples=parseCsv(bundle['dictionary_examples.csv']);
 const families=JSON.parse(bundle['dictionary_families.json']);
 const grammar=JSON.parse(bundle['grammar_guide.json']);
 const expressions=JSON.parse(bundle['expressions_app.json']);
-assert.equal(entries.length,1494);
-assert.equal(senses.filter(row=>row.visible==='Yes').length,1571);
-assert.equal(examples.length,9251);
+assert.equal(entries.length,1495);
+assert.equal(senses.filter(row=>row.visible==='Yes').length,1565);
+assert.equal(examples.length,9266);
 assert.equal(grammar.rules.length,48);
 assert.equal(expressions.length,107);
 const ids=new Set(entries.map(row=>row.id));
@@ -89,16 +89,32 @@ const exampleKeys=new Set();
 for(const row of examples){const key=row.headword_id+'/'+row.section+'/'+row.display_order;assert.ok(!exampleKeys.has(key),'duplicate example position: '+key);exampleKeys.add(key);}
 const kinds=new Set(['sentence','phrase','idiom','teaching','historical','related','related_phrase','related_idiom']);
 const visibleById=new Map(senses.filter(row=>row.visible==='Yes').map(row=>[row.sense_id,row]));
-let approvedExampleLinks=0;
+let explicitExampleLinks=0;
 for(const row of examples){
   assert.ok(kinds.has(row.display_kind),'missing example display kind: '+row.headword_id+'/'+row.display_order);
   if(row.sense_id){
-    approvedExampleLinks++;
+    explicitExampleLinks++;
     assert.equal(visibleById.get(row.sense_id)?.headword_id,row.headword_id,'broken example meaning link: '+row.sense_id);
     assert.equal(visibleById.get(row.sense_id)?.meaning,row.sense_meaning,'example meaning wording differs from its link: '+row.sense_id);
   }
 }
-assert.equal(approvedExampleLinks,269,'reviewed meaning links should remain explicit');
+assert.equal(explicitExampleLinks,286,'meaning links should remain explicit');
+for(const retiredId of ['esh-s3','lian-s3','aen-s3','vaar-s3','thalor-s1','-en-s2','li--s2']){
+  assert.ok(!senses.some(row=>row.sense_id===retiredId),'retired duplicate meaning remains visible: '+retiredId);
+}
+for(let n=1;n<=14;n++){
+  const entryId=`PE-AUD104-${String(n).padStart(4,'0')}`;
+  assert.equal(examples.filter(row=>row.entry_id===entryId).length,1,'missing new editorial example: '+entryId);
+}
+assert.equal(examples.filter(row=>row.entry_id==='PE-V3-0046').length,6,'Kalvokesh example should appear under five words and as a related -esh form');
+assert.ok(examples.filter(row=>row.entry_id==='PE-V3-0046').every(row=>row.celan_text==='rinaen kalvokesh an dren ser belvok.'),'Kalvokesh wording differs across pages');
+assert.deepEqual(families['kalvokesh'].components.map(part=>part.form),['Kalvok','-esh']);
+assert.ok(families['-esh'].relatedEntries.some(row=>row.id==='kalvokesh'));
+assert.equal(expressions.find(row=>row.expression_id==='EX-SRC-LX-V2-0221')?.dictionary_headwords,"Vaar'a!",'relief expression must link to its dictionary page');
+assert.ok(!senses.some(row=>row.sense_id==='dren-s3'),'retired Dren river meaning remains visible');
+assert.equal(senses.find(row=>row.sense_id==='dro-s3')?.meaning,'River / waterway; a flowing body of physical water');
+assert.equal(examples.find(row=>row.headword_id==='dro'&&row.entry_id==='PE-GCI1-0048')?.sense_id,'dro-s3');
+assert.equal(examples.find(row=>row.headword_id==='dro'&&row.entry_id==='PE-SRD1-0014')?.sense_id,'dro-s2');
 for(const senseId of ['rethlian-s3','lianeth-s2','kor-s1','pral-s1','lianrethshen-s1','vaarshen-s1','jorvar-s1','em-s2','vrak-s2']){
   assert.ok(!senses.some(row=>row.sense_id===senseId),'merged or moved 101–165 meaning remains in the app: '+senseId);
 }
@@ -118,7 +134,7 @@ for(const [headword,entryId,senseId] of [
   assert.equal(examples.find(row=>row.headword_id===headword&&row.entry_id===entryId)?.sense_id,senseId,'approved 101–165 meaning link: '+headword+'/'+entryId);
 }
 assert.equal(examples.find(row=>row.headword_id==='tenar'&&row.entry_id==='PE-V3-0203')?.display_kind,'teaching','ten plus one is a number illustration, not a sentence');
-for(const senseId of ['kel-s1','kor-s2','pral-s2','thael-s2','vanesh-s1','thar-ka-s2']){
+for(const senseId of ['kor-s2','pral-s2','thael-s2']){
   assert.ok(!examples.some(row=>row.sense_id===senseId),'101–165 held meaning received a direct link: '+senseId);
 }
 for(const senseId of ['kal-s2','kalor-s2','seren-s2','vaar-s2']){
@@ -133,7 +149,8 @@ for(const [headword,entryId,senseId] of [
 ]){
   assert.equal(examples.find(row=>row.headword_id===headword&&row.entry_id===entryId)?.sense_id,senseId,'approved 51–60 meaning link: '+headword+'/'+entryId);
 }
-assert.ok(!examples.some(row=>row.sense_id==='vaar-s3'),'Vaar interjection remains unlinked');
+assert.ok(!senses.some(row=>row.sense_id==='vaar-s3'),'Vaar interjection should use its own Vaar\'a! headword');
+assert.equal(examples.find(row=>row.headword_id==="vaar'a"&&row.entry_id==='PE-AUD104-0014')?.sense_id,"vaar'a-s1");
 assert.equal(examples.filter(row=>row.entry_id==='PE-V3-0110'&&row.translation==='Go in strength and balance!').length,4,'Kalor command translation should agree on every page');
 for(const senseId of ['lorin-s2','rath-s3','krezor-s2','phelvin-s2','belshara-s4','jorvak-s2','welrim-s1','xilvar-s2','belshara-s1']){
   assert.ok(!senses.some(row=>row.sense_id===senseId),'merged or superseded 61–100 meaning remains in the app: '+senseId);
@@ -157,7 +174,7 @@ for(const [headword,entryId,senseId] of [
 ]){
   assert.equal(examples.find(row=>row.headword_id===headword&&row.entry_id===entryId)?.sense_id,senseId,'approved 61–100 meaning link: '+headword+'/'+entryId);
 }
-for(const senseId of ['fah-s2','dral-s2','felorin-s1'])assert.ok(!examples.some(row=>row.sense_id===senseId),'held 61–100 meaning received a sentence: '+senseId);
+assert.ok(!examples.some(row=>row.sense_id==='felorin-s1'),'unsupported coral-reef meaning received an example');
 for(const entryId of ['PE-V2-0019','PE-V2-0065'])assert.ok(!examples.some(row=>row.entry_id===entryId),'old sentence still visible: '+entryId);
 assert.deepEqual(families['xilvar'].familyRoots,['XIL'],'Xilvar must not inherit the unrelated movement Var family');
 assert.equal(families['xilvar'].components.find(part=>part.form==='var')?.kind,'local','Xilvar var is a local seasoning part');
@@ -213,7 +230,7 @@ for(const [headword,entryId,senseId] of [
   assert.equal(examples.find(row=>row.headword_id===headword&&row.entry_id===entryId)?.sense_id,senseId,'approved first-50 meaning link: '+headword+'/'+entryId);
 }
 assert.equal(examples.find(row=>row.headword_id==='thar'&&row.entry_id==='PE-V4-0004')?.section,'related','Thar-ka sentence should not be direct usage of Thar');
-for(const senseId of ['dren-s2','dren-s3','krez-s2','lian-s3','aen-s3','aen-s4']){
+for(const senseId of ['dren-s3','lian-s3','aen-s3']){
   assert.ok(!examples.some(row=>row.sense_id===senseId),'held meaning received an example: '+senseId);
 }
 assert.equal(examples.filter(row=>row.headword_id==='li-'&&row.celan_text==='var Li-Ya an dren.').length,1,'overlapping Li- meanings should share one general illustration');
@@ -237,7 +254,7 @@ for(const retiredId of ['PE-V1-0015','PE-V1-0012'])assert.ok(!examples.some(row=
 assert.equal(examples.filter(row=>row.entry_id==='PE-V1-0009'&&row.display_kind==='phrase').length,2,'the old beloved boy phrase should appear as a phrase on both pages');
 for(let i=1;i<=12;i++)assert.equal(examples.filter(row=>row.entry_id===`PE-LA1-${String(i).padStart(4,'0')}`&&row.sense_id&&row.display_kind==='sentence').length,1,'missing approved batch 01 sentence '+i);
 const exportRows=parseCsv(fs.readFileSync(path.join(appDir,'exports','dictionary_entries.csv'),'utf8'));
-assert.equal(exportRows.length,1571,'spreadsheet export is missing visible senses');
+assert.equal(exportRows.length,1565,'spreadsheet export is missing visible senses');
 assert.deepEqual(new Set(exportRows.map(row=>row.sense_id)),new Set(senses.filter(row=>row.visible==='Yes').map(row=>row.sense_id)),'export sense IDs differ from visible app meanings');
 const exportedSense=id=>exportRows.find(row=>row.sense_id===id);
 for(const id of ['kadfel-s1','azfel-s1','theefel-s1','kadon-s1','aenvor-s1','sorl-s1','kalvar-s1','sharvar-s1','morlka-s1']){

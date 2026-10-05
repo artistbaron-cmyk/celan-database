@@ -51,6 +51,7 @@ kalor,Kalor,/kah-lohr/,,LX-V2-0032; LX-V2-0042,{},null,
 seren,Seren,/seh-rehn/,,LX-V2-0033; LX-V3-0007,{},null,
 arthen,Arthen,/ahrthehn/,,LX-V2-0035,{},null,
 vaar,Vaar,/vah-ahr/,Yes,LX-V2-0037; LX-V2-0041; LX-V4-0113; XR-vaar,{},null,
+vaar'a,Vaar'a!,/vah-ahr'ah/,,LX-V2-0221,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vaar peace + emphatic -a""],""variants"":[]}",Approved source expression
 ilan,Ilan,/ee-lahn/,,LX-V2-0038,{},null,
 lorin,Lorin,/loh-reen/,,LX-V2-0039; LX-V3-0005,{},null,
 rath,Rath,/rahth/,,LX-V2-0040; DM-RM-V1-0012; DM-RM-V3-0009,{},null,
@@ -974,7 +975,7 @@ kadromor,Kadromor,/kah-droh-mor/,,LX-EGE1-0009,{},"{""origins"":[],""nationalUse
 brossadar,Brossadar,/bros-sah-dahr/,,LX-EGE1-0010,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Bros layer or stratum + Sadar sand""],""variants"":[]}","Environment, Geography, and Ecology 1"
 velkmorl,Velkmorl,/velk-morl/,,LX-EGE1-0011,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Velk ice + Morl mountain or massive stone landform""],""variants"":[{""form"":""Velkamorl"",""pronunciation"":""/vehl-kah-morl/""}]}","Environment, Geography, and Ecology 1"
 terramahr,Terramahr,/teh-rah-mahr/,,LX-EGE1-0012,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Terra land + Mahr ocean""],""variants"":[]}","Environment, Geography, and Ecology 1"
-drenfel,Drenfel,/drehn-fehl/,,LX-EGE1-0013,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dren river or water + Fel small""],""variants"":[]}","Environment, Geography, and Ecology 1"
+drenfel,Drenfel,/drehn-fehl/,,LX-EGE1-0013,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dren water + Fel small""],""variants"":[]}","Environment, Geography, and Ecology 1"
 fellun,Fellun,/fehl-loon/,,LX-EGE1-0014,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Fel small + Lun lake""],""variants"":[]}","Environment, Geography, and Ecology 1"
 drenverd,Drenverd,/drehn-vehrd/,,LX-EGE1-0015,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dren water + Verd living plant growth""],""variants"":[]}","Environment, Geography, and Ecology 1"
 mahrmorl,Mahrmorl,/mahr-morl/,,LX-EGE1-0016,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mahr sea + Morl ridge or stone structure""],""variants"":[]}","Environment, Geography, and Ecology 1"
@@ -1335,7 +1336,7 @@ varshel,Varshel,/vahr-shehl/,,LX-DR1-0020,{},"{""origins"":[],""nationalUses"":[
 eshvan,Eshvan,/ehsh-vahn/,,LX-DR1-0021,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Esh sky/air + Van commercial site.""],""variants"":[]}",Dictionary Review 1
 noraen,Noraen,/nohr-ah-ehn/,,LX-DR1-0022,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Nor time + -aen verb; approved guidance-through-experience meaning.""],""variants"":[]}",Dictionary Review 1
 thalesh,Thalesh,/thah-lehsh/,,LX-DR1-0023,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Thal balance + -esh relational belonging; approved balance-rite meaning.""],""variants"":[]}",Dictionary Review 1
-thalor,Thalor,/thah-lohr/,,LX-DR1-0024,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Thal from/out of + -or place.""],""variants"":[]}",Dictionary Review 1
+thalor,Thalor,/thah-lohr/,,LX-DR1-0024,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Thal from/out of + -or; lexicalized as outside (position), not a place noun.""],""variants"":[]}",Dictionary Review 1
 daraen,Daraen,/dahr-ah-ehn/,,LX-DR1-0025,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dar waiting + -aen verb.""],""variants"":[]}",Dictionary Review 1
 varral,Varral,/vahr-rahl/,,LX-DR1-0026,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Var move + -ral agent/practitioner: one who carries out the activity. Independent Ral retains caretaker/watcher meanings.""],""variants"":[]}",Dictionary Review 1
 karjor,Karjor,/kahr-johr/,,LX-DR1-0027,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kar mechanical force + Jor surge.""],""variants"":[]}",Dictionary Review 1
