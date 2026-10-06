@@ -8,7 +8,7 @@ const dataFiles = [
   "dictionary_senses.csv",
   "dictionary_examples.csv",
   "dictionary_families.json",
-  "grammar_guide.json",
+  "grammar_guide.csv",
   "expressions_app.json",
   "phrase_builder.json"
 ];

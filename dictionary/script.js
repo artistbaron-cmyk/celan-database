@@ -168,6 +168,56 @@ async function loadJson(path) {
   return JSON.parse(await response.text());
 }
 
+function grammarFromCsvRows(rows) {
+  const [header, ...records] = rows;
+  const guide = { rules: [], lessons: [], companions: [] };
+  const destination = { rule: guide.rules, lesson: guide.lessons, companion: guide.companions };
+  for (const cells of records) {
+    if (!cells.some(Boolean)) continue;
+    const row = Object.fromEntries(header.map((name, index) => [name, cells[index] ?? ""]));
+    const target = destination[row.record_type];
+    if (!target) throw new Error(`Unknown Grammar Guide row type: ${row.record_type}`);
+    const fields = JSON.parse(row._fields || "[]");
+    const types = JSON.parse(row._types || "{}");
+    const keys = new Set([...fields, ...header.filter((name) =>
+      !["record_type", "_fields", "_types"].includes(name) && row[name] !== "")]);
+    const item = {};
+    for (const key of keys) {
+      const raw = row[key] ?? "";
+      if (types[key] === "json") item[key] = JSON.parse(raw);
+      else if (types[key] === "bool") item[key] = raw === "true";
+      else if (types[key] === "null" && raw === "") item[key] = null;
+      else item[key] = raw;
+    }
+    if (!item.id) throw new Error(`Grammar Guide ${row.record_type} row has no ID`);
+    if (row.record_type === "rule") {
+      const sectionText = (item.guideSections || []).flatMap((section) => [
+        section.title, section.body,
+        ...(section.list || []).flatMap((point) =>
+          typeof point === "string" ? [point] : [point.title, point.copy])
+      ]);
+      item.searchText = [item.id, item.rule_name, item.displayCategory, item.purpose,
+        item.original_wording, item.examples, item.notes, item.preview,
+        ...(item.relatedHeadwords || []), ...sectionText]
+        .filter(Boolean).join(" ").toLowerCase();
+    }
+    target.push(item);
+  }
+  return guide;
+}
+
+async function loadGrammarGuide() {
+  const path = "./app_data/grammar_guide.csv";
+  const embedded = window.EMBEDDED_DATA;
+  const text = embedded?.["grammar_guide.csv"] ||
+    (async () => {
+      const response = await fetch(path);
+      if (!response.ok) throw new Error(`Failed to load ${path}`);
+      return response.text();
+    })();
+  return grammarFromCsvRows(parseCsv(await text));
+}
+
 function azBucket(term) {
   const first = ((term || "").trim()[0] || "").toUpperCase();
   if (!first) return "";
@@ -445,7 +495,7 @@ function isWordEntry(row) {
 }
 
 function normalizeHeadword(term) {
-  return (term || "").normalize("NFKC").replace(/[‘’ʼ]/g, "'").trim().toLowerCase();
+  return (term || "").normalize("NFKC").replace(/[‘’ʼ]/g, "'").trim().replace(/[!?]+$/g, "").toLowerCase();
 }
 
 function cleanAlpha(term) {
@@ -2796,7 +2846,7 @@ async function init() {
     loadCsv("./app_data/dictionary_senses.csv"),
     loadCsv("./app_data/dictionary_examples.csv"),
     loadJson("./app_data/dictionary_families.json"),
-    loadJson("./app_data/grammar_guide.json"),
+    loadGrammarGuide(),
     loadJson("./app_data/expressions_app.json"),
     loadJson("./app_data/phrase_builder.json")
   ]);

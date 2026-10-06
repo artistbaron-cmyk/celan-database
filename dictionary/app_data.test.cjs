@@ -7,7 +7,7 @@ const appDir = __dirname;
 const dataDir = path.join(appDir, 'app_data');
 const sourceFiles = [
   'dictionary_entries.csv', 'dictionary_senses.csv', 'dictionary_examples.csv',
-  'dictionary_families.json', 'grammar_guide.json', 'expressions_app.json',
+  'dictionary_families.json', 'grammar_guide.csv', 'expressions_app.json',
   'phrase_builder.json'
 ];
 const html = fs.readFileSync(path.join(appDir, 'index.html'), 'utf8');
@@ -40,12 +40,27 @@ const entries=parseCsv(bundle['dictionary_entries.csv']);
 const senses=parseCsv(bundle['dictionary_senses.csv']);
 const examples=parseCsv(bundle['dictionary_examples.csv']);
 const families=JSON.parse(bundle['dictionary_families.json']);
-const grammar=JSON.parse(bundle['grammar_guide.json']);
+const grammarRows=parseCsv(bundle['grammar_guide.csv']);
+const grammar={
+  rules:grammarRows.filter(row=>row.record_type==='rule'),
+  lessons:grammarRows.filter(row=>row.record_type==='lesson'),
+  companions:grammarRows.filter(row=>row.record_type==='companion')
+};
+assert.equal(fs.existsSync(path.join(dataDir,'grammar_guide.json')),false,'old grammar JSON must not be a second app source');
 const expressions=JSON.parse(bundle['expressions_app.json']);
 assert.equal(entries.length,1495);
 assert.equal(senses.filter(row=>row.visible==='Yes').length,1565);
 assert.equal(examples.length,9266);
 assert.equal(grammar.rules.length,48);
+assert.equal(grammar.lessons.length,7);
+assert.equal(grammar.companions.length,1);
+assert.equal(new Set(grammarRows.map(row=>`${row.record_type}:${row.id}`)).size,grammarRows.length,'duplicate grammar CSV record');
+for(const row of grammarRows){
+  assert.ok(['rule','lesson','companion'].includes(row.record_type),'invalid grammar CSV row type');
+  assert.ok(JSON.parse(row._fields).includes('id'),'grammar CSV row is missing its ID field');
+  JSON.parse(row._types);
+  for(const field of ['guideSections','relatedHeadwords','childRuleIds'])if(row[field])JSON.parse(row[field]);
+}
 assert.equal(expressions.length,107);
 const ids=new Set(entries.map(row=>row.id));
 assert.equal(ids.size,entries.length,'duplicate headword ids');

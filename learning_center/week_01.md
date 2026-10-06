@@ -35,11 +35,13 @@ Help the learner hear that Celan starts with the verb, not the subject.
 - Celan primarily follows Verb-Subject-Object order.
 - The first word of a sentence is often the action.
 - Each syllable should be pronounced clearly and smoothly.
+- The pronoun `I` is pronounced **“ee”** (`/ee/`), not like the English word “eye.”
 
 ### Try
 - Listen to 5 short model sentences.
 - Tap the verb first, subject second, object third.
 - Repeat each sentence aloud twice.
+- Practice `var I dren.` with `I` pronounced “ee.”
 
 ### Exercise
 1. Mark the verb in each sentence.
@@ -119,6 +121,7 @@ The learner can complete a short 3-line command scene using VSO awareness and at
 ### Review Focus
 - VSO order
 - clear pronunciation
+- `I` pronounced “ee”
 - imperatives with `Va`
 - action-first thinking
 
@@ -151,4 +154,3 @@ The learner passes Week 1 if they can:
 - say 5 short VSO examples correctly
 - use `Va` to form 5 basic commands
 - complete one short mission without help
-

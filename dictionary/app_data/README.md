@@ -8,12 +8,14 @@ This folder contains **everything the current app reads to display dictionary en
 | `dictionary_senses.csv` | Every sense, word type, meaning, and usage note; `visible=Yes` means the sense appears to students. `sense_id` is a permanent link key for that meaning, separate from its display order |
 | `dictionary_examples.csv` | Every placed example, with Celan, English, source, placement, display kind, and any established link to a meaning |
 | `dictionary_families.json` | Built-from components, roots, affixes, related words, and family notes |
-| `grammar_guide.json` | The complete Grammar Guide: rules, lessons, and companion pages |
+| `grammar_guide.csv` | The complete Grammar Guide: one row per rule, lesson card, or companion page |
 | `expressions_app.json` | Every entry in the Expressions view |
 | `phrase_builder.json` | Phrase Builder root data, word parts, culture descriptions, and retrieval packs |
 | `phrase_builder_content.js` | Phrase Builder's conditional example responses and explanation text |
 
 `dictionary_entries.csv` is the headword list the app reads. Meanings are in `dictionary_senses.csv`, and all examples are in `dictionary_examples.csv` so no example has to be squeezed into a fixed number of columns. The `override_json` and `metadata_json` cells in the headword file hold the few structured display details that do not fit a simple text field. The app builds result previews and all-fields search from the current visible senses and metadata; there are no separate preview or search-text cells to keep in sync. The export also reads word-origin details from `metadata_json`.
+
+`grammar_guide.csv` is the app's **only current Grammar Guide source**. It contains 48 rule rows, 7 lesson rows, and 1 companion-page row. The `record_type` column identifies each kind. Ordinary wording and examples are in their named columns. `guideSections`, `relatedHeadwords`, and `childRuleIds` contain JSON in a CSV cell where the guide needs a list or a structured section. Keep those cells as valid JSON when editing them. The `_fields` and `_types` columns preserve which original fields were empty, absent, or structured; ordinary wording edits do not require changing those two columns. Grammar search is rebuilt from the current wording, so the older `searchText` cell does not need editing. The previous JSON is archived at `../source_history/grammar_guide_before_csv_2026-10-05.json` and is not read by the app.
 
 When adding or reordering meanings, keep each existing `sense_id` with its meaning. Assign a new ID only to a new meaning. The ID is for data links and is not printed on the reader's page.
 
@@ -32,7 +34,7 @@ node dictionary/app_data.test.cjs
 node dictionary/edit_rebuild.test.cjs
 ```
 
-`embedded_data.js` is generated from the seven CSV/JSON files so the app also works offline. The app reads the same source content whether it loads these files directly or uses that bundle. Do not edit the bundle by hand.
+`embedded_data.js` is generated from the seven CSV/JSON content files so the app also works offline. The app reads the same source content whether it loads these files directly or uses that bundle. Do not edit the bundle by hand.
 
 `../exports/dictionary_entries.csv` is a generated spreadsheet export. The app does **not** read it. It has one row per visible meaning. Its five preview slots contain ordinary sentence examples appropriate to that row: meaning-linked examples on their own row, plus unassigned word-level examples once on the first row. Each preview includes its `sense_id` if it has one. The count columns distinguish meaning-linked sentences, unassigned sentences, phrases, idioms, and related examples. `example_count` is the total number of direct placements, including phrases, idioms, and teaching illustrations; it repeats on every meaning row for that headword. The full set of examples remains in `dictionary_examples.csv`.
 

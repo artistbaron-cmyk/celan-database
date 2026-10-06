@@ -9,6 +9,7 @@ const fixtureDir = fs.mkdtempSync(path.join(sourceDir, '.edit-rebuild-check-'));
 const marker = 'Test-only surface material';
 const exampleMarker = 'Test-only example translation.';
 const originMarker = 'Test-only word origin';
+const grammarMarker = 'Test-only grammar heading';
 
 function parseCsv(text) {
   const rows=[]; let row=[],cell='',quoted=false;
@@ -46,7 +47,7 @@ async function readApp(){
     const filename=path.resolve(fixtureDir,src);
     vm.runInContext(fs.readFileSync(filename,'utf8'),context,{filename});
   }
-  vm.runInContext('globalThis.probe={state,renderDetail,findEnglishMatches,applyFilters};',context);
+  vm.runInContext('globalThis.probe={state,renderDetail,renderRuleDetail,findEnglishMatches,applyFilters};',context);
   for(let i=0;i<100&&!context.probe.state.groupedEntries.length;i++)await new Promise(resolve=>setTimeout(resolve,50));
   assert.ok(context.probe.state.groupedEntries.length,'test app did not load');
   return {api:context.probe,elements};
@@ -78,6 +79,11 @@ async function readApp(){
       assert.ok(example);
       example.translation=exampleMarker;
     });
+    editCsv('grammar_guide.csv',rows=>{
+      const rule=rows.find(row=>row.record_type==='rule'&&row.id==='RG-VSO');
+      assert.ok(rule);
+      rule.rule_name=grammarMarker;
+    });
     run('build_embedded_data.js');
     run('export_dictionary_csv.js');
     const {api,elements}=await readApp();
@@ -87,6 +93,8 @@ async function readApp(){
     const gormHtml=elements.get('detailView').innerHTML;
     api.renderDetail(anshanaen);
     const anshanaenHtml=elements.get('detailView').innerHTML;
+    api.renderRuleDetail(api.state.grammarRules.find(rule=>rule.id==='RG-VSO'));
+    const grammarHtml=elements.get('ruleDetailView').innerHTML;
     const exportRows=parseCsv(fs.readFileSync(path.join(fixtureDir,'exports','dictionary_entries.csv'),'utf8')).rows;
     const gormExport=exportRows.find(row=>row.headword==='Gorm');
     const anshanaenExport=exportRows.find(row=>row.headword==='Anshanaen');
@@ -101,7 +109,9 @@ async function readApp(){
       exportMeaning:gormExport?.meaning===marker,
       exportPronunciation:gormExport?.pronunciation==='/test-only/',
       exportExample:gormExport?.example_1_translation===exampleMarker,
-      exportOrigin:anshanaenExport?.derivation===originMarker
+      exportOrigin:anshanaenExport?.derivation===originMarker,
+      grammarGuide:grammarHtml.includes(grammarMarker),
+      grammarSearch:api.state.grammarRules.find(rule=>rule.id==='RG-VSO')?.searchText.includes(grammarMarker.toLowerCase())
     };
     console.log(JSON.stringify(checks,null,2));
     assert.deepEqual(Object.keys(checks).filter(key=>!checks[key]),[],'source edits did not reach every app and export surface');
