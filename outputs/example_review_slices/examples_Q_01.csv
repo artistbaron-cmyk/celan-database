@@ -1,0 +1,4 @@
+headword_id,section,display_order,entry_id,celan_text,translation,example_type,analysis,source_volume,source_section,notes,sense_meaning,display_kind,sense_id
+quen,direct,1,PE-ER2-0006,rinaen quen serin an teremil.,There are four friends at home.,Reviewed usage example,,User-reviewed dictionary examples,"September 24, 2026",ED-0044 FORM-PE-V3-0202; ED-0044 FORM-PE-V3-0210; ED-0044 LINK-quen,,sentence,
+quen,direct,2,PE-ER2-0007,rinaen quen trakorin an xaror.,There are four boots in the room.,Reviewed usage example,,User-reviewed dictionary examples,"September 24, 2026",ED-0044 FORM-PE-V3-0207,,sentence,
+quen,related,1,PE-V3-0215,Hek-Mel-quen,"400,000 (Four hundred thousand)",Number/math example,,"Volume 3: Culture, Context, and Advanced Expression",Numbering System and Basic Math in Celan,Original example preserved.,,related,
