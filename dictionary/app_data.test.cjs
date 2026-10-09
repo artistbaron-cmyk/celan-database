@@ -11,7 +11,7 @@ const sourceFiles = [
   'phrase_builder.json'
 ];
 const html = fs.readFileSync(path.join(appDir, 'index.html'), 'utf8');
-const scripts = [...html.matchAll(/<script src="([^"]+)"/g)].map(match => match[1]);
+const scripts = [...html.matchAll(/<script src="([^"]+)"/g)].map(match => match[1].split('?')[0]);
 assert.deepEqual(scripts, [
   './app_data/embedded_data.js',
   './app_data/phrase_builder_content.js',

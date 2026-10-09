@@ -9,7 +9,7 @@ const window={EMBEDDED_DATA:null,location:null,addEventListener(){},matchMedia()
 const context=vm.createContext({console,window,document,setTimeout,clearTimeout});
 const html=fs.readFileSync(path.join(__dirname,'index.html'),'utf8');
 for(const [,src] of html.matchAll(/<script src="([^"]+)"/g)){
- const filename=path.resolve(__dirname,src);
+ const filename=path.resolve(__dirname,src.split('?')[0]);
  vm.runInContext(fs.readFileSync(filename,'utf8'),context,{filename});
 }
 vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMatch,renderDetail,renderRuleDetail,renderExpressionDetail,analyzeForgeTerm,buildPronunciation,displayUses,normalizeHeadword}',context);
@@ -31,6 +31,7 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  const jekvarin=api.findBestLexiconMatch('Jekvarin');
  api.renderDetail(jekvarin);
  assert.match(elements.get('detailView').innerHTML,/<h3>Morphology<\/h3>/);
+ assert.match(elements.get('detailView').innerHTML,/data-entry-template="built"/);
  assert.doesNotMatch(elements.get('detailView').innerHTML,/Root: JEK/);
  const grammar=api.state.grammarRules[0];
  api.renderRuleDetail(grammar);
@@ -93,8 +94,11 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  page=elements.get('detailView').innerHTML;
  assert.equal((page.match(/class="sense-block"/g)||[]).length,1);
  assert.match(page,/Preposition/);
- assert.match(page,/<h3>Examples \(869\)<\/h3>/);
- assert.match(page,/<summary>More examples \(864\)<\/summary>/);
+ assert.match(page,/<h3>Examples using this word \(869\)<\/h3>/);
+ assert.match(page,/<summary>More examples \(867\)<\/summary>/);
+ const anPreview=page.match(/<h3>Examples using this word \(869\)<\/h3>([\s\S]*?)<details class="example-more">/)?.[1]||'';
+ assert.equal((anPreview.match(/data-example-placement=/g)||[]).length,2,'only two word-level examples should be visible before expansion');
+ assert.match(page,/<summary>Other examples and forms \(16\)<\/summary>/);
  assert.match(page,/<h3>Phrases \(1\)<\/h3>/);
  assert.match(page,/<h3>Related forms and constructions \(1\)<\/h3>/);
  assert.match(page,/<h3>Teaching illustrations \(14\)<\/h3>/);
@@ -103,6 +107,8 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  page=elements.get('detailView').innerHTML;
  assert.match(page,/<h3>Historical examples \(1\)<\/h3>/);
  assert.match(page,/Examples for this meaning \(3\)/);
+ const jorSensePreview=page.match(/Examples for this meaning \(3\)<\/h4>([\s\S]*?)<details class="example-more">/)?.[1]||'';
+ assert.equal((jorSensePreview.match(/data-example-placement=/g)||[]).length,2,'only two examples per meaning should be visible before expansion');
  api.renderDetail(api.findBestLexiconMatch('Thal'));
  page=elements.get('detailView').innerHTML;
  assert.match(page,/<h3>Idioms and sayings \(2\)<\/h3>/);
@@ -121,6 +127,10 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  assert.doesNotMatch(page,/<p class="family-label">Word origin<\/p>/);
  assert.match(page,/morphology-part--1/);
  assert.match(page,/morphology-part--2/);
+ api.renderDetail(api.findBestLexiconMatch('-eth'));
+ page=elements.get('detailView').innerHTML;
+ assert.match(page,/data-entry-template="form"/);
+ assert.match(page,/Examples in formed words/);
  api.renderDetail(api.findBestLexiconMatch('Velmarin'));
  page=elements.get('detailView').innerHTML;
  assert.match(page,/For: [^<]+\(Noun\)/);

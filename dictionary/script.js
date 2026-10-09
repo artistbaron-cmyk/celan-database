@@ -69,6 +69,7 @@ function splitIds(ids) {
 }
 
 const RESULT_BATCH_SIZE = 100;
+const EXAMPLE_PREVIEW_LIMIT = 2;
 let RULE_LESSONS = [];
 let RULE_COMPANIONS = [];
 let CULTURAL_LENSES = {};
@@ -2277,30 +2278,37 @@ function renderExampleCard(example) {
 }
 
 function renderExampleList(examples) {
-  const first = examples.slice(0, 5);
-  const additional = examples.slice(5);
+  const first = examples.slice(0, EXAMPLE_PREVIEW_LIMIT);
+  const additional = examples.slice(EXAMPLE_PREVIEW_LIMIT);
   return `<div class="example-list example-list--initial">${first.map(renderExampleCard).join('')}</div>${additional.length ? `<details class="example-more"><summary>More examples (${additional.length})</summary><div class="example-list">${additional.map(renderExampleCard).join('')}</div></details>` : ''}`;
 }
 
-function renderExampleSections(organized, uses) {
-  const groups = [];
+function renderExampleSections(organized, uses, template) {
   const section = (title, examples, note = '') => `<section class="card sentence-card"><h3>${title} (${examples.length})</h3>${note ? `<p class="example-section-note">${note}</p>` : ''}${renderExampleList(examples)}</section>`;
-  if (organized.ordinary.length) groups.push(section(uses.length > 1 ? 'Examples using this word' : 'Examples', organized.ordinary));
-  if (organized.phrases.length) groups.push(section('Phrases', organized.phrases));
-  if (organized.idioms.length) groups.push(section('Idioms and sayings', organized.idioms, 'These have a figurative or conventional meaning.'));
+  const categories = [
+    ['ordinary', 'Examples using this word', ''],
+    ['phrases', 'Phrases', ''],
+    ['idioms', 'Idioms and sayings', 'These have a figurative or conventional meaning.'],
+    ['related', template === 'form' ? 'Examples in formed words' : 'Related forms and constructions', 'These show the word as part of another form or construction.'],
+    ['teaching', 'Teaching illustrations', 'These illustrate forms or rules; they are not all everyday sentences.'],
+    ['historical', 'Historical examples', 'Older forms are kept for reference, not as current usage models.']
+  ];
   const linkedCount = [...organized.linkedBySense.values()].reduce((total, examples) => total + examples.length, 0);
-  if (!organized.ordinary.length && !organized.phrases.length && !organized.idioms.length && !linkedCount && !organized.related.length && !organized.teaching.length && !organized.historical.length) {
+  const populated = categories.filter(([key]) => organized[key].length);
+  const primary = populated.find(([key]) => key === 'ordinary') || (!linkedCount ? populated[0] : null);
+  if (!primary && !populated.length && !linkedCount) {
     const attachedForm = uses.every(use => use.type === 'Suffix' || use.type === 'Prefix') ||
       uses.some(use => /attached after the possessed noun/i.test(use.usage || ''));
     const message = attachedForm
       ? 'This form attaches to another word. No construction example is recorded yet.'
       : 'No example is recorded for this word yet.';
-    groups.push(`<section class="card sentence-card"><h3>Examples</h3><p>${message}</p></section>`);
+    return `<section class="card sentence-card"><h3>Examples</h3><p>${message}</p></section>`;
   }
-  if (organized.related.length) groups.push(section('Related forms and constructions', organized.related, 'These show the word as part of another form or construction.'));
-  if (organized.teaching.length) groups.push(section('Teaching illustrations', organized.teaching, 'These illustrate forms or rules; they are not all everyday sentences.'));
-  if (organized.historical.length) groups.push(section('Historical examples', organized.historical, 'Older forms are kept for reference, not as current usage models.'));
-  return groups.join('');
+  const supplemental = populated.filter(category => category !== primary);
+  const primaryMarkup = primary ? section(primary[1], organized[primary[0]], primary[2]) : '';
+  const supplementalCount = supplemental.reduce((total, [key]) => total + organized[key].length, 0);
+  const supplementalMarkup = supplemental.length ? `<section class="card supplementary-examples"><details><summary>Other examples and forms (${supplementalCount})</summary><div class="supplementary-groups">${supplemental.map(([key, title, note]) => section(title, organized[key], note)).join('')}</div></details></section>` : '';
+  return primaryMarkup + supplementalMarkup;
 }
 
 function extractInlineExamples(entries) {
@@ -2757,6 +2765,13 @@ function visibleWordBuilding(group, family, primaryUses, metadata) {
   return {morphologyAnalyses, displayedSources, visibleDerivations};
 }
 
+function entryTemplate(group, uses, morphologyAnalyses) {
+  const attachedForm = uses.length && uses.every(use => use.type === 'Prefix' || use.type === 'Suffix');
+  const rootForm = uses.some(use => displayRootWordMarker(group, use)) && !morphologyAnalyses.length;
+  if (attachedForm || rootForm) return 'form';
+  return morphologyAnalyses.length ? 'built' : 'ordinary';
+}
+
 function renderDetail(group) {
   const examples = relatedExamples(group);
   const family = state.familyIndex.get(group.id) || { familyRoots: [], relatedEntries: [] };
@@ -2772,6 +2787,7 @@ function renderDetail(group) {
   const organizedExamples = organizeExamples(group, displayExamples, primaryUses);
   const hasMultipleMeanings = primaryUses.length > 1;
   const {morphologyAnalyses, displayedSources, visibleDerivations} = visibleWordBuilding(group, family, primaryUses, metadata);
+  const template = entryTemplate(group, primaryUses, morphologyAnalyses);
   const hasVisibleMetadata = metadata && (metadata.origins.length || metadata.nationalUses.length || visibleDerivations.length);
   const showFamily = hasFamilyContent && (!hasMultipleMeanings || family.familySenseIds?.length);
   const familyScope = wordBuildingScope(family.familySenseIds, primaryUses);
@@ -2796,7 +2812,7 @@ function renderDetail(group) {
   els.detailView.innerHTML = `
     <div class="entry-title-row"><h2 class="entry-word">${escapeMarkup(group.term)}</h2></div>
     <p class="entry-pronunciation">${escapeMarkup(pronunciation || "Pronunciation not available.")}</p>
-    <div class="detail-grid">
+    <div class="detail-grid entry-template entry-template--${template}" data-entry-template="${template}">
       <section class="card meaning-card">
         ${useMarkup}
         ${override?.usageNote && displayUsageNote({usage:override.usageNote}) ? `<p class="sense-usage">${escapeMarkup(override.usageNote)}</p>` : ""}
@@ -2808,6 +2824,7 @@ function renderDetail(group) {
           <div class="morphology-parts">${analysis.parts.map((part, index) => `<div class="morphology-part morphology-part--${Math.min(index + 1, 5)}"><strong>${escapeMarkup(part.form)}</strong><span>${escapeMarkup(part.meaning.replace(/^=\s*/, ''))}</span></div>`).join('<span class="morphology-plus" aria-hidden="true">+</span>')}</div>
           ${analysis.spellingNote ? `<p class="morphology-spelling-note">${escapeMarkup(analysis.spellingNote)}</p>` : ''}
         </div>`).join('')}</section>` : ''}
+      ${renderExampleSections(organizedExamples, primaryUses, template)}
       ${hasVisibleMetadata ? `
       <section class="card">
         <h3>Usage</h3>
@@ -2816,7 +2833,6 @@ function renderDetail(group) {
         ${visibleDerivations.length ? `<div class="family-group"><p class="family-label">Word origin</p>${hasMultipleMeanings && morphologyAnalyses.length ? `<p class="word-building-scope">${escapeMarkup(wordBuildingScope(family.morphologySenseIds || morphologyAnalyses.flatMap(analysis => analysis.senseIds), primaryUses))}</p>` : ''}<p class="family-line">${visibleDerivations.map(escapeMarkup).join("; ")}</p></div>` : ""}
       </section>
       ` : ""}
-      ${renderExampleSections(organizedExamples, primaryUses)}
       ${showFamily ? `
       <section class="card">
         <h3>Word Family</h3>
