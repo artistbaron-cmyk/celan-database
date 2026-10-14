@@ -1,6 +1,6 @@
-"""Validate and record one downloaded Braon v4 dictionary example batch.
+"""Validate and record one downloaded v4 dictionary example batch.
 
-Usage: python3 record_batch.py pass_05 '<JSON array from next_examples.py plus generation_id and duration_seconds>'
+Usage: python3 record_batch.py pass_29 '<JSON array from next_examples.py plus generation_id, duration_seconds, voice_name, voice_id, and model_id>'
 """
 
 import csv
@@ -61,6 +61,8 @@ def main(pass_name, items):
         assert path.is_file() and path.stat().st_size > 1000, path
         assert subprocess.run(["afinfo", str(path)], capture_output=True).returncode == 0, path
         assert item["generation_id"] and item["duration_seconds"]
+        assert item["voice_name"] and item["voice_id"]
+        assert item["model_id"] == "eleven_v4"
         by_volume.setdefault(item["volume"], []).append(item)
 
     for volume_name, group in by_volume.items():
@@ -74,6 +76,8 @@ def main(pass_name, items):
             attention = []
             if re.search(r"(?<!\w)I(?!\w)", text):
                 attention.append("Review standalone I pronunciation")
+            if "x" in text.casefold():
+                attention.append("Review x pronunciation")
             if "ae" in text.casefold():
                 attention.append("Review ae vowel")
             rows.append(
@@ -86,9 +90,9 @@ def main(pass_name, items):
                     natural_meaning=item["translation"],
                     source_review_status="Approved",
                     audio_file=item["audio_file"],
-                    voice_name="Braon",
-                    voice_id="X4Lh5Ftnso6JSt25plzX",
-                    model_id="eleven_v4",
+                    voice_name=item["voice_name"],
+                    voice_id=item["voice_id"],
+                    model_id=item["model_id"],
                     generation_id=item["generation_id"],
                     duration_seconds=str(item["duration_seconds"]),
                     bytes=str(path.stat().st_size),

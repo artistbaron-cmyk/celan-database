@@ -1,0 +1,5 @@
+name,source_id,canonical,prompt,generation_id,duration_seconds,voice_name,voice_id,model_id,audio_file,bytes,sha256
+I_-ee,PE-CNE1-0071,var I shan vorkor.,var -ee shan vorkor.,aTtYEGxctPpnPWfDDOOs,1.6,Ehshara,ej0ekewUzWvTFUiKsxvp,eleven_v4,I_-ee.mp3,43918,ad85b1147261bb95c2eddb67b36d377a4692f6015bb0666d19e2a31aa5102224
+X_ks,Xar_Belxar,Xar. Belxar.,Ksar. Belksar.,k8rz9KxNhSumgSaKMjUU,2.16,Ehshara,ej0ekewUzWvTFUiKsxvp,eleven_v4,X_ks.mp3,52695,686ceb17f98630f2d8535f3a0f2c4776ecec951edcaa119ecf2d32853b383796
+X_kh,Xar_Belxar,Xar. Belxar.,Khar. Belkhar.,KzjixmDpbHKvRpNrOqFr,2,Ehshara,ej0ekewUzWvTFUiKsxvp,eleven_v4,X_kh.mp3,50187,6d70ce8649a13ce6cf3b98bb77cc31d8abbd0ac9062171d8e159ef09d575ed80
+X_IPA,Xar_Belxar,Xar. Belxar.,/xɑr/. /bɛlxɑr/.,TOLCr5U0iQEJMTVRbsVf,2.08,Ehshara,ej0ekewUzWvTFUiKsxvp,eleven_v4,X_IPA.mp3,51441,e8cf0f3aa8d82918815ca929577ee21cc98bef9fb4f01ed5e65cb1bd195e2956
