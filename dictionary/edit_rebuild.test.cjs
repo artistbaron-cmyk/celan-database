@@ -44,7 +44,7 @@ async function readApp(){
   const context=vm.createContext({console,window,document,setTimeout,clearTimeout});
   const html=fs.readFileSync(path.join(fixtureDir,'index.html'),'utf8');
   for(const [,src] of html.matchAll(/<script src="([^"]+)"/g)){
-    const filename=path.resolve(fixtureDir,src);
+    const filename=path.resolve(fixtureDir,src.split('?')[0]);
     vm.runInContext(fs.readFileSync(filename,'utf8'),context,{filename});
   }
   vm.runInContext('globalThis.probe={state,renderDetail,renderRuleDetail,findEnglishMatches,applyFilters};',context);

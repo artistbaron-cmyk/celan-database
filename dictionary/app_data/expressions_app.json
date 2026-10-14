@@ -22,7 +22,7 @@
   {
     "expression_id": "EX-SRC-LX-V2-0218",
     "celan_expression": "Aie! / Aia!",
-    "pronunciation": "/ah-ee-eh / ah-ee-ah/",
+    "pronunciation": "/eye-eh / eye-ah/",
     "natural_meaning": "Ouch! Ow! (Sudden pain).",
     "literal_meaning": "",
     "expression_type": "Interjection",
@@ -422,7 +422,7 @@
   {
     "expression_id": "EX-SRC-LX-V2-0016",
     "celan_expression": "Jexhaer",
-    "pronunciation": "/jehxhah-ehr/",
+    "pronunciation": "/zhehkhah-ehr/",
     "natural_meaning": "\"Good night\"",
     "literal_meaning": "",
     "expression_type": "Greeting or farewell",
@@ -1862,7 +1862,7 @@
   {
     "expression_id": "EX-LC1E-0003",
     "celan_expression": "Ver jekaen morl.",
-    "pronunciation": "/vehr jeh-kah-ehn mohrl/",
+    "pronunciation": "/vehr zheh-kah-ehn mohrl/",
     "natural_meaning": "The decision stands; the foundation will not be casually moved.",
     "literal_meaning": "Stone does not turn.",
     "expression_type": "National expression",

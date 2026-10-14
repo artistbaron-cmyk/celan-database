@@ -21,11 +21,11 @@ an,An,/ahn/,,LX-V1-0019; DM-RM-V1-0013,{},null,
 nor,Nor,/nor/,Yes,LX-V1-0020; LX-V2-0020; LX-V4-0100; XR-nor,{},null,
 esh,Esh,/ehsh/,Yes,LX-V1-0021; LX-V2-0006; LX-V2-0071; LX-V4-0110; XR-esh,{},null,
 morl,Morl,/mohrl/,Yes,LX-V1-0022; LX-V2-0005; LX-V2-0066; XR-morl,{},null,
-terra,Terra,/tehrrah/,Yes,LX-V2-0001; LX-V2-0073; LX-V4-0108; XR-terra,{},null,
-dren,Dren,/dren/,Yes,LX-V2-0002; LX-V2-0068; LX-V3-0011; XR-dren,{},null,
+terra,Terra,/tehr-rah/,Yes,LX-V2-0001; LX-V2-0073; LX-V4-0108; XR-terra,{},null,
+dren,Dren,/drehn/,Yes,LX-V2-0002; LX-V2-0068; LX-V3-0011; XR-dren,{},null,
 shal,Shal,/shahl/,Yes,LX-V2-0003; LX-V2-0069; LX-V4-0101; XR-shal,{},null,
 krez,Krez,/krehz/,Yes,LX-V2-0004; LX-V2-0070; LX-V4-0105; XR-krez,{},null,
-thar,Thar,/thar/,Yes,LX-V2-0007; LX-V2-0057; LX-V4-0115; XR-thar,"{""aliases"":[""Thaar""],""usageNote"":""Thaar is the approved Arvan regional spelling of Thar (heart / emotional core).""}",null,
+thar,Thar,/thahr/,Yes,LX-V2-0007; LX-V2-0057; LX-V4-0115; XR-thar,"{""aliases"":[""Thaar""],""usageNote"":""Thaar is the approved Arvan regional spelling of Thar (heart / emotional core).""}",null,
 vethor,Vethor,/vehthohr/,,LX-V2-0009; LX-V2-0067; LX-V4-0117,{},null,
 shara,Shara,/shah-rah/,Yes,LX-V2-0010; XR-shara,{},null,
 zhilva,Zhilva,/zheelvah/,,LX-V2-0011,{},null,
@@ -33,7 +33,7 @@ amthaen,Amthaen,/ahmthah-ehn/,,LX-V2-0012,{},null,
 nekvar,Nekvar,/nehkvahr/,,LX-V2-0013,{},null,
 kelithor,Kelithor,/keh-leethohr/,,LX-V2-0014,{},null,
 tlosen,Tlosen,/tloh-sehn/,,LX-V2-0015,{},null,
-jexhaer,Jexhaer,/jehxhah-ehr/,,LX-V2-0016,{},null,
+jexhaer,Jexhaer,/zhehkhah-ehr/,,LX-V2-0016,{},null,
 revalen,Revalen,/reh-vah-lehn/,,LX-V2-0017,{},null,
 zharinor,Zharinor,/zhah-ree-nohr/,,LX-V2-0018,{},null,
 vrekthael,Vrekthael,/vrehkthah-ehl/,,LX-V2-0019,{},null,
@@ -100,26 +100,26 @@ prakorin,Prakorin,/prah-koh-reen/,,LX-V2-0101,{},null,
 pelvar,Pelvar,/pehlvahr/,,LX-V2-0102; LX-V2-0151,{},null,
 peldren,Peldren,/pehldrehn/,,LX-V2-0103,{},null,
 pralmor,Pralmor,/prahlmohr/,,LX-V2-0104,{},null,
-jorlin,Jorlin,/johrleen/,,LX-V2-0105,{},null,
-jorvak,Jorvak,/johrvahk/,,LX-V2-0106; LX-V2-0152,{},null,
-jekvor,Jekvor,/jehkvohr/,,LX-V2-0107,{},null,
-jelvor,Jelvor,/jehlvohr/,,LX-V2-0108,{},null,
-jindral,Jindral,/jeendrahl/,,LX-V2-0109,{},null,
+jorlin,Jorlin,/zhohrleen/,,LX-V2-0105,{},null,
+jorvak,Jorvak,/zhohrvahk/,,LX-V2-0106; LX-V2-0152,{},null,
+jekvor,Jekvor,/zhehkvohr/,,LX-V2-0107,{},null,
+jelvor,Jelvor,/zhehlvohr/,,LX-V2-0108,{},null,
+jindral,Jindral,/zheendrahl/,,LX-V2-0109,{},null,
 welrim,Welrim,/wehlreem/,,LX-V2-0110; LX-V2-0153,{},null,
 welmor,Welmor,/wehlmohr/,,LX-V2-0111,{},null,
 weknor,Weknor,/wehknohr/,,LX-V2-0112,{},null,
 worvenak,Worvenak,/wohrveh-nahk/,,LX-V2-0113,{},null,
-xilvar,Xilvar,/xeelvahr/,,LX-V2-0114; LX-V2-0160,{},null,
-xarvel,Xarvel,/xahrvehl/,,LX-V2-0115; LX-V2-0156,{},null,
+xilvar,Xilvar,/kheelvahr/,,LX-V2-0114; LX-V2-0160,{},null,
+xarvel,Xarvel,/khahrvehl/,,LX-V2-0115; LX-V2-0156,{},null,
 ohmbaen,Ohmbaen,/ohhmbah-ehn/,,LX-V2-0119,{},null,
 tlakorin,Tlakorin,/tlah-koh-reen/,,LX-V2-0120,{},null,
-khumlor,Khumlor,/khoomlohr/,,LX-V2-0121,{},null,
-nkuvath,Nkuvath,/nkoo-vahth/,,LX-V2-0122,{},null,
-mbalan,Mbalan,/mbah-lahn/,,LX-V2-0123,{},null,
+khumlor,Khumlor,/khoom-lor/,,LX-V2-0121,{},null,
+nkuvath,Nkuvath,/n-koo-vahth/,,LX-V2-0122,{},null,
+mbalan,Mbalan,/m-bah-lahn/,,LX-V2-0123,{},null,
 nkural,Nkural,/nkoo-rahl/,,LX-V2-0124,{},null,
 tlankor,Tlankor,/tlahnkohr/,,LX-V2-0125,{},null,
 tlakhura,Tlakhura,/tlahkhoo-rah/,,LX-V2-0126,{},null,
-jorkal,Jorkal,/johrkahl/,,LX-V2-0127,{},null,
+jorkal,Jorkal,/zhohrkahl/,,LX-V2-0127,{},null,
 arthlor,Arthlor,/ahrthlohr/,,LX-V2-0128,{},null,
 serenkal,Serenkal,/seh-rehnkahl/,,LX-V2-0129,{},null,
 belshara,Belshara,/bel-shah-rah/,,LX-V2-0130; LX-V4-0002; LX-V4-0066,{},null,
@@ -143,20 +143,20 @@ broslak,Broslak,/brohslahk/,,LX-V2-0150,{},null,
 lorlivok,Lorlivok,/lohrlee-vohk/,,LX-V2-0154,{},null,
 phelkarin,Phelkarin,/phehlkah-reen/,,LX-V2-0155,{},null,
 felorin,Felorin,/feh-loh-reen/,,LX-V2-0157; LX-V2-0174,{},null,
-jekvin,Jekvin,/jehkveen/,,LX-V2-0158,{},null,
+jekvin,Jekvin,/zhehkveen/,,LX-V2-0158,{},null,
 belmor,Belmor,/behlmohr/,,LX-V2-0159,{},null,
 vethhar,Vethhar,/vehthhahr/,,LX-V2-0161,{},null,
 velithor,Velithor,/veh-leethohr/,,LX-V2-0163,{},null,
 tenarorin,Tenarorin,/teh-nah-roh-reen/,,LX-V2-0164,{},null,
 lianfel,Lianfel,/lee-ahnfehl/,,LX-V2-0165,{},null,
-jorvilor,Jorvilor,/johrvee-lohr/,,LX-V2-0166,{},null,
+jorvilor,Jorvilor,/zhohrvee-lohr/,,LX-V2-0166,{},null,
 zhelvek,Zhelvek,/zhehlvehk/,,LX-V2-0167,{},null,
 velmek,Velmek,/vehlmehk/,,LX-V2-0168,{},null,
 phelrin,Phelrin,/phehlreen/,,LX-V2-0169,{},null,
-jorvalin,Jorvalin,/johrvah-leen/,,LX-V2-0170,{},null,
+jorvalin,Jorvalin,/zhohrvah-leen/,,LX-V2-0170,{},null,
 drenlivar,Drenlivar,/drehnlee-vahr/,,LX-V2-0171,{},null,
 eshtenor,Eshtenor,/ehshteh-nohr/,,LX-V2-0172,{},null,
-jekvarin,Jekvarin,/jehkvah-reen/,,LX-V2-0173,{},null,
+jekvarin,Jekvarin,/zhehkvah-reen/,,LX-V2-0173,{},null,
 tharmor,Tharmor,/thahrmohr/,,LX-V2-0175,{},null,
 terafennil,Terafennil,/teh-rah-fehnneel/,,LX-V2-0176,{},null,
 brenvor,Brenvor,/brehnvohr/,,LX-V2-0177,{},null,
@@ -168,11 +168,11 @@ phelmorin,Phelmorin,/phehlmoh-reen/,,LX-V2-0182,{},null,
 velthamor,Velthamor,/vehlthah-mohr/,,LX-V2-0183,{},null,
 eshvilor,Eshvilor,/ehshvee-lohr/,,LX-V2-0184,{},null,
 thalshorin,Thalshorin,/thahlshoh-reen/,,LX-V2-0185,{},null,
-xarlorin,Xarlorin,/xahrloh-reen/,,LX-V2-0186,{},null,
+xarlorin,Xarlorin,/khahrloh-reen/,,LX-V2-0186,{},null,
 morvenak,Morvenak,/mohrveh-nahk/,,LX-V2-0187,{},null,
 kreztorin,Kreztorin,/krehztoh-reen/,,LX-V2-0188,{},null,
 velkorin,Velkorin,/vehlkoh-reen/,,LX-V2-0189,{},null,
-xilbren,Xilbren,/xeelbrehn/,,LX-V2-0190,{},null,
+xilbren,Xilbren,/kheelbrehn/,,LX-V2-0190,{},null,
 drenkor,Drenkor,/drehnkohr/,,LX-V2-0191,{},null,
 vethsoril,Vethsoril,/vehthsoh-reel/,,LX-V2-0192,{},null,
 shalorin,Shalorin,/shah-loh-reen/,,LX-V2-0193,{},null,
@@ -239,18 +239,18 @@ velar,Velar,/veh-lahr/,,LX-V3-0042,{},null,
 pralin,Pralin,/prah-leen/,,LX-V3-0043,{},null,
 velkavor,Velkavor,/vehlkah-vohr/,,LX-V3-0044,{},null,
 belvok,Belvok,/behlvohk/,,LX-V3-0045,{},null,
-xarvethral,Xarvethral,/xahrvehthrahl/,,LX-V3-0046,{},null,
-tavojorin,Tavojorin,/tah-voh-joh-reen/,,LX-V3-0047,{},null,
+xarvethral,Xarvethral,/khahrvehthrahl/,,LX-V3-0046,{},null,
+tavojorin,Tavojorin,/tah-voh-zhoh-reen/,,LX-V3-0047,{},null,
 zhivorin,Zhivorin,/zhee-voh-reen/,,LX-V3-0048,{},null,
 kalvok,Kalvok,/kahlvohk/,,LX-V3-0049,{},null,
 velpralor,Velpralor,/vehlprah-lohr/,,LX-V3-0050,{},null,
 tavrel,Tavrel,/tahvrehl/,,LX-V3-0051,{},null,
 felvin,Felvin,/fehlveen/,,LX-V3-0052,{},null,
 zharin,Zharin,/zhah-reen/,,LX-V3-0053,{},null,
-velxorin,Velxorin,/vehlxoh-reen/,,LX-V3-0054,{},null,
+velxorin,Velxorin,/vehlkhoh-reen/,,LX-V3-0054,{},null,
 kalvokesh,Kalvokesh,/kahlvoh-kehsh/,,LX-V3-0055,{},null,
 zhirkalor,Zhirkalor,/zheerkah-lohr/,,LX-V3-0056,{},null,
-xarfelvin,Xarfelvin,/xahrfehlveen/,,LX-V3-0057,{},null,
+xarfelvin,Xarfelvin,/khahrfehlveen/,,LX-V3-0057,{},null,
 belvethral,Belvethral,/behlvehthrahl/,,LX-V3-0058,{},null,
 velmarin,Velmarin,/vehlmah-reen/,,LX-V3-0059; LX-V4-0062,{},null,
 pralvokesh,Pralvokesh,/prahlvoh-kehsh/,,LX-V3-0060,{},null,
@@ -355,7 +355,7 @@ woreth,Woreth,/woh-rehth/,,LX-V4-0025,{},null,
 zun,Zun,/zoon/,,LX-V4-0026,{},null,
 kaveth,Kaveth,/kah-vehth/,,LX-V4-0027,{},null,
 vaareth,Vaareth,/vah-ahrehth/,,LX-V4-0028,{},null,
-joreth,Joreth,/joh-rehth/,,LX-V4-0029,{},null,
+joreth,Joreth,/zhor-eth/,,LX-V4-0029,{},null,
 feneth,Feneth,/feh-nehth/,,LX-V4-0030,{},null,
 veleth,Veleth,/veh-lehth/,,LX-V4-0031,{},null,
 praketh,Praketh,/prah-kehth/,,LX-V4-0032,{},null,
@@ -364,7 +364,7 @@ dreneth,Dreneth,/dreh-nehth/,,LX-V4-0034,{},null,
 kadreneth,Kadreneth,/kahdreh-nehth/,,LX-V4-0035,{},null,
 belkor,Belkor,/behlkohr/,,LX-V4-0036,{},null,
 sharbel,Sharbel,/shahrbehl/,,LX-V4-0037,{},null,
-xaresh,Xaresh,/xah-rehsh/,,LX-V4-0038,{},null,
+xaresh,Xaresh,/khah-rehsh/,,LX-V4-0038,{},null,
 trakor,Trakor,/trah-kohr/,,LX-V4-0039,{},null,
 zhirvok,Zhirvok,/zheervohk/,,LX-V4-0040,{},null,
 krelek,Krelek,/kreh-lehk/,,LX-V4-0041,{},null,
@@ -430,15 +430,15 @@ belverd,Belverd,/behl-vehrd/,,LX-NE1-0018,{},"{""origins"":[""Verdalris""],""nat
 arthverd,Arthverd,/ahrth-vehrd/,,LX-NE1-0019,{},"{""origins"":[""Verdalris""],""nationalUses"":[""A cultivated hedge or living plant barrier.""],""derivations"":[""Arth + Verd""],""variants"":[]}",National Expansion 1
 zhaelral,Zhaelral,/zhah-ehl-rahl/,,LX-NE1-0020,{},"{""origins"":[""Verdalris""],""nationalUses"":[""A caretaker of physical or ecological recovery.""],""derivations"":[""Zhael + Ral""],""variants"":[]}",National Expansion 1
 velmor,Velmor,/vehl-mohr/,,LX-NE1-0021,{},"{""origins"":[""Nivveil""],""nationalUses"":[""Ground held in enduring cold.""],""derivations"":[""Vel + Mor""],""variants"":[]}",National Expansion 1
-xarphelor,Xarphelor,/xahr-phehl-ohr/,,LX-NE1-0022,{},"{""origins"":[""Nivveil""],""nationalUses"":[""A Nivveilian insulated shelter built to preserve warmth.""],""derivations"":[""Xar + Phel + -or""],""variants"":[]}",National Expansion 1
+xarphelor,Xarphelor,/khahr-phehl-ohr/,,LX-NE1-0022,{},"{""origins"":[""Nivveil""],""nationalUses"":[""A Nivveilian insulated shelter built to preserve warmth.""],""derivations"":[""Xar + Phel + -or""],""variants"":[]}",National Expansion 1
 welkrez,Welkrez,/wehl-krehz/,,LX-NE1-0023,{},"{""origins"":[""Nivveil""],""nationalUses"":[""A communally maintained hearth or source of warmth.""],""derivations"":[""Wel + Krez""],""variants"":[]}",National Expansion 1
 velalivar,Velalivar,/vehl-ah-lee-vahr/,,LX-NE1-0024,{},"{""origins"":[""Nivveil""],""nationalUses"":[""Nivveilian cold storage; Verdalrisian preservation of seeds, herbs, or specimens.""],""derivations"":[""Vel + Livar""],""variants"":[{""form"":""Vellivar"",""pronunciation"":""/vehl-lee-vahr/""}]}",National Expansion 1
-veljor,Veljor,/vehl-johr/,,LX-NE1-0025,{},"{""origins"":[""Nivveil""],""nationalUses"":[""A brief and forceful onset of freezing weather.""],""derivations"":[""Vel + Jor""],""variants"":[]}",National Expansion 1
+veljor,Veljor,/vehl-zhohr/,,LX-NE1-0025,{},"{""origins"":[""Nivveil""],""nationalUses"":[""A brief and forceful onset of freezing weather.""],""derivations"":[""Vel + Jor""],""variants"":[]}",National Expansion 1
 thalorimor,Thalorimor,/thah-loh-reem-ohr/,,LX-NE1-0026,{},"{""origins"":[""Valkeldor""],""nationalUses"":[""A Valkeldorian lightning tower or storm-energy station.""],""derivations"":[""Thalorim + -or""],""variants"":[]}",National Expansion 1
 mormek,Mormek,/mohr-mehk/,,LX-NE1-0027,{},"{""origins"":[""Valkeldor""],""nationalUses"":[""Prepared mineral material used in construction.""],""derivations"":[""Mor + Mek""],""variants"":[]}",National Expansion 1
 dralbelaen,Dralbelaen,/drahl-behl-ah-ehn/,,LX-NE1-0028,{},"{""origins"":[""Valkeldor""],""nationalUses"":[""To bind or direct the force of a storm for purposeful use.""],""derivations"":[""Dral + Bel + -aen""],""variants"":[]}",National Expansion 1
 kalwek,Kalwek,/kahl-wehk/,,LX-NE1-0029,{},"{""origins"":[""Valkeldor""],""nationalUses"":[""A Valkeldorian drill or repeated combat-training exercise.""],""derivations"":[""Kal + Wek""],""variants"":[{""form"":""Kalewek"",""pronunciation"":""/kahl-eh-wehk/""},{""form"":""Kalowek"",""pronunciation"":""/kahl-oh-wehk/""}]}",National Expansion 1
-arthaxar,Arthaxar,/ahrth-ah-xahr/,,LX-NE1-0030,{},"{""origins"":[""Valkeldor""],""nationalUses"":[""Protective covering worn or fitted against physical harm.""],""derivations"":[""Arth + Xar""],""variants"":[{""form"":""Arthxar"",""pronunciation"":""/ahrth-xahr/""}]}",National Expansion 1
+arthaxar,Arthaxar,/ahrth-ah-khahr/,,LX-NE1-0030,{},"{""origins"":[""Valkeldor""],""nationalUses"":[""Protective covering worn or fitted against physical harm.""],""derivations"":[""Arth + Xar""],""variants"":[{""form"":""Arthxar"",""pronunciation"":""/ahrth-khahr/""}]}",National Expansion 1
 thalbel,Thalbel,/thahl-behl/,,LX-NE1-0031,{},"{""origins"":[""Marakor""],""nationalUses"":[""A formally bound system of law.""],""derivations"":[""Thal + Bel""],""variants"":[]}",National Expansion 1
 liankavor,Liankavor,/lee-ahn-kah-vohr/,,LX-NE1-0032,{},"{""origins"":[""Marakor""],""nationalUses"":[""A place where records and preserved knowledge are kept.""],""derivations"":[""Lian + Kav + -or""],""variants"":[]}",National Expansion 1
 kavral,Kavral,/kahv-rahl/,,LX-NE1-0033,{},"{""origins"":[""Marakor""],""nationalUses"":[""A Marakorian archivist or, elsewhere, a curator or preservation keeper.""],""derivations"":[""Kav + Ral""],""variants"":[]}",National Expansion 1
@@ -453,9 +453,9 @@ dor,Dor,/dohr/,Yes,LX-CNE1-0001; XR-dor,{},null,Conversational Narrative Engine 
 vekaen,Vekaen,/veh-kah-ehn/,,LX-CNE1-0002,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vek + -aen""],""variants"":[]}",Conversational Narrative Engine 1
 korinaen,Korinaen,/kohr-ee-nah-ehn/,,LX-CNE1-0003,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Korin + -aen""],""variants"":[]}",Conversational Narrative Engine 1
 aloraen,Aloraen,/ah-loh-rah-ehn/,,LX-CNE1-0004,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Alor + -aen""],""variants"":[]}",Conversational Narrative Engine 1
-kaxaraen,Kaxaraen,/kah-xah-rah-ehn/,,LX-CNE1-0005,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ka + Xar + -aen""],""variants"":[]}",Conversational Narrative Engine 1
-xaraen,Xaraen,/xah-rah-ehn/,,LX-CNE1-0006,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar + -aen""],""variants"":[]}",Conversational Narrative Engine 1
-jekaen,Jekaen,/jeh-kah-ehn/,,LX-CNE1-0007,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jek + -aen""],""variants"":[]}",Conversational Narrative Engine 1
+kaxaraen,Kaxaraen,/kah-khah-rah-ehn/,,LX-CNE1-0005,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ka + Xar + -aen""],""variants"":[]}",Conversational Narrative Engine 1
+xaraen,Xaraen,/khah-rah-ehn/,,LX-CNE1-0006,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar + -aen""],""variants"":[]}",Conversational Narrative Engine 1
+jekaen,Jekaen,/zheh-kah-ehn/,,LX-CNE1-0007,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jek + -aen""],""variants"":[]}",Conversational Narrative Engine 1
 sharaen,Sharaen,/shah-rah-ehn/,,LX-CNE1-0008,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Shara + -aen""],""variants"":[]}",Conversational Narrative Engine 1
 dar,Dar,/dahr/,Yes,LX-CNE1-0009; XR-dar,{},null,Conversational Narrative Engine 1
 siv,Siv,/seev/,Yes,LX-CNE1-0010; XR-siv,{},null,Conversational Narrative Engine 1
@@ -495,7 +495,7 @@ krezpral,Krezpral,/krehz-prahl/,,LX-DSL1-0003,{},"{""origins"":[],""nationalUses
 emilpral,Emilpral,/eh-meel-prahl/,,LX-DSL1-0004,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Emil + Pral""],""variants"":[]}",Domestic and Sensory Life 1
 kavvek,Kavvek,/kahv-vehk/,,LX-DSL1-0005,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kav + Vek""],""variants"":[{""form"":""Kavavek"",""pronunciation"":""/kah-vah-vehk/""}]}",Domestic and Sensory Life 1
 eshpral,Eshpral,/ehsh-prahl/,,LX-DSL1-0006,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Esh + Pral""],""variants"":[{""form"":""Eshapral"",""pronunciation"":""/eh-shah-prahl/""}]}",Domestic and Sensory Life 1
-xarvek,Xarvek,/xahr-vehk/,,LX-DSL1-0007,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar + Vek""],""variants"":[]}",Domestic and Sensory Life 1
+xarvek,Xarvek,/khahr-vehk/,,LX-DSL1-0007,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar + Vek""],""variants"":[]}",Domestic and Sensory Life 1
 rask,Rask,/rahsk/,Yes,LX-DSL1-0008; XR-rask,{},null,Domestic and Sensory Life 1
 mekrask,Mekrask,/mehk-rahsk/,,LX-DSL1-0009,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mek + Rask""],""variants"":[]}",Domestic and Sensory Life 1
 lem,Lem,/lehm/,Yes,LX-DSL1-0010; XR-lem,{},null,Domestic and Sensory Life 1
@@ -503,13 +503,13 @@ lemath,Lemath,/leh-mahth/,,LX-DSL1-0011,{},"{""origins"":[],""nationalUses"":[],
 selmek,Selmek,/sehl-mehk/,,LX-DSL1-0012,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Sel + Mek""],""variants"":[]}",Domestic and Sensory Life 1
 tir,Tir,/teer/,Yes,LX-DSL1-0013; XR-tir,{},null,Domestic and Sensory Life 1
 tirkal,Tirkal,/teer-kahl/,,LX-DSL1-0014,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Tir + Kal""],""variants"":[]}",Domestic and Sensory Life 1
-aiv,Aiv,/ah-eev/,Yes,LX-DSL1-0015; XR-aiv,{},null,Domestic and Sensory Life 1
-aivaen,Aivaen,/ah-ee-vah-ehn/,,LX-DSL1-0016,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Aiv + -aen""],""variants"":[]}",Domestic and Sensory Life 1
-pelaivaen,Pelaivaen,/pehl-ah-ee-vah-ehn/,,LX-DSL1-0017,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Pel + Aiv + -aen""],""variants"":[]}",Domestic and Sensory Life 1
-rekaivaen,Rekaivaen,/reh-kah-ee-vah-ehn/,,LX-DSL1-0018,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rek + Aiv + -aen""],""variants"":[]}",Domestic and Sensory Life 1
+aiv,Aiv,/eyev/,Yes,LX-DSL1-0015; XR-aiv,{},null,Domestic and Sensory Life 1
+aivaen,Aivaen,/eye-vah-ehn/,,LX-DSL1-0016,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Aiv + -aen""],""variants"":[]}",Domestic and Sensory Life 1
+pelaivaen,Pelaivaen,/pehl-eye-vah-ehn/,,LX-DSL1-0017,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Pel + Aiv + -aen""],""variants"":[]}",Domestic and Sensory Life 1
+rekaivaen,Rekaivaen,/rehk-eye-vah-ehn/,,LX-DSL1-0018,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rek + Aiv + -aen""],""variants"":[]}",Domestic and Sensory Life 1
 teshaen,Teshaen,/teh-shah-ehn/,,LX-DSL1-0019,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Tesh + -aen""],""variants"":[]}",Domestic and Sensory Life 1
 rivaen,Rivaen,/ree-vah-ehn/,,LX-DSL1-0020,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Riv + -aen""],""variants"":[]}",Domestic and Sensory Life 1
-jelaen,Jelaen,/jeh-lah-ehn/,,LX-DSL1-0021,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jel + -aen""],""variants"":[]}",Domestic and Sensory Life 1
+jelaen,Jelaen,/zheh-lah-ehn/,,LX-DSL1-0021,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jel + -aen""],""variants"":[]}",Domestic and Sensory Life 1
 kelvorthamaen,Kelvorthamaen,/kehl-vohr-thah-mah-ehn/,,LX-DSL1-0022,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kelvor + Tham + -aen""],""variants"":[]}",Domestic and Sensory Life 1
 feldrenaen,Feldrenaen,/fehl-dreh-nah-ehn/,,LX-DSL1-0023,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Fel + Dren + -aen""],""variants"":[]}",Domestic and Sensory Life 1
 pelvokaen,Pelvokaen,/pehl-voh-kah-ehn/,,LX-DSL1-0024,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Pel + Vok + -aen""],""variants"":[]}",Domestic and Sensory Life 1
@@ -518,7 +518,7 @@ pelvaraen,Pelvaraen,/pehl-vah-rah-ehn/,,LX-DSL1-0026,{},"{""origins"":[],""natio
 zem,Zem,/zehm/,Yes,LX-DSL1-0027; XR-zem,{},null,Domestic and Sensory Life 1
 kren,Kren,/krehn/,Yes,LX-DSL1-0028; XR-kren,{},null,Domestic and Sensory Life 1
 drentalaen,Drentalaen,/drehn-tah-lah-ehn/,,LX-DSL1-0029,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dren + Tal + -aen""],""variants"":[{""form"":""Drenatalaen"",""pronunciation"":""/dreh-nah-tah-lah-ehn/""}]}",Domestic and Sensory Life 1
-jekthamaen,Jekthamaen,/jehk-thah-mah-ehn/,,LX-DSL1-0030,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jek + Tham + -aen""],""variants"":[{""form"":""Jekathamaen"",""pronunciation"":""/jeh-kah-thah-mah-ehn/""}]}",Domestic and Sensory Life 1
+jekthamaen,Jekthamaen,/zhehk-thah-mah-ehn/,,LX-DSL1-0030,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jek + Tham + -aen""],""variants"":[{""form"":""Jekathamaen"",""pronunciation"":""/zheh-kah-thah-mah-ehn/""}]}",Domestic and Sensory Life 1
 drenselaen,Drenselaen,/drehn-seh-lah-ehn/,,LX-DSL1-0031,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dren + Sel + -aen""],""variants"":[]}",Domestic and Sensory Life 1
 numaen,Numaen,/noo-mah-ehn/,,LX-DSL1-0032,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Num + -aen""],""variants"":[]}",Domestic and Sensory Life 1
 nolaen,Nolaen,/noh-lah-ehn/,,LX-DSL1-0033,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Nol + -aen""],""variants"":[]}",Domestic and Sensory Life 1
@@ -527,7 +527,7 @@ emilrav,Emilrav,/eh-meel-rahv/,,LX-DSL1-0035,{},"{""origins"":[],""nationalUses"
 drorav,Drorav,/droh-rahv/,,LX-DSL1-0036,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dro + Rav""],""variants"":[]}",Domestic and Sensory Life 1
 felkal,Felkal,/fehl-kahl/,,LX-DSL1-0037,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Fel + Kal""],""variants"":[]}",Domestic and Sensory Life 1
 maveth,Maveth,/mah-vehth/,,LX-DSL1-0038,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mav + -eth""],""variants"":[]}",Domestic and Sensory Life 1
-aivkor,Aivkor,/ah-eev-kohr/,,LX-DSL1-0039,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Aiv + Kor""],""variants"":[{""form"":""Aivakor"",""pronunciation"":""/ah-ee-vah-kohr/""}]}",Domestic and Sensory Life 1
+aivkor,Aivkor,/eyev-kohr/,,LX-DSL1-0039,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Aiv + Kor""],""variants"":[{""form"":""Aivakor"",""pronunciation"":""/eye-vah-kohr/""}]}",Domestic and Sensory Life 1
 tesh,Tesh,/tehsh/,,LX-DSL1-0040,{},null,Domestic and Sensory Life 1
 riv,Riv,/reev/,,LX-DSL1-0041,{},null,Domestic and Sensory Life 1
 num,Num,/noom/,,LX-DSL1-0042,{},null,Domestic and Sensory Life 1
@@ -539,11 +539,11 @@ thalnor,Thalnor,/thahl-nor/,,LX-PFM1-0002,{},"{""origins"":[],""nationalUses"":[
 norreth,Norreth,/nor-rehth/,,LX-PFM1-0003,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Nor + Reth""],""variants"":[]}",Post-Fracture Mechanics 1
 normav,Normav,/nor-mahv/,,LX-PFM1-0004,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Nor + Mav""],""variants"":[]}",Post-Fracture Mechanics 1
 normaveth,Normaveth,/nor-mah-vehth/,,LX-PFM1-0005,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Normav + -eth""],""variants"":[]}",Post-Fracture Mechanics 1
-xilnor,Xilnor,/xeel-nor/,,LX-PFM1-0006,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xil + Nor""],""variants"":[]}",Post-Fracture Mechanics 1
+xilnor,Xilnor,/kheel-nor/,,LX-PFM1-0006,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xil + Nor""],""variants"":[]}",Post-Fracture Mechanics 1
 felnor,Felnor,/fehl-nor/,,LX-PFM1-0007,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Fel + Nor""],""variants"":[]}",Post-Fracture Mechanics 1
 delnor,Delnor,/dehl-nor/,,LX-PFM1-0008,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Del + Nor""],""variants"":[]}",Post-Fracture Mechanics 1
 rethweknor,Rethweknor,/rehth-wehk-nor/,,LX-PFM1-0009,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Reth + Weknor""],""variants"":[{""form"":""Retheweknor"",""pronunciation"":""/reh-theh-wehk-nor/""}]}",Post-Fracture Mechanics 1
-jornor,Jornor,/jor-nor/,,LX-PFM1-0010,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jor + Nor""],""variants"":[]}",Post-Fracture Mechanics 1
+jornor,Jornor,/zhor-nor/,,LX-PFM1-0010,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jor + Nor""],""variants"":[]}",Post-Fracture Mechanics 1
 velnor,Velnor,/vehl-nor/,,LX-PFM1-0011,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vel + Nor""],""variants"":[]}",Post-Fracture Mechanics 1
 norshan,Norshan,/nor-shahn/,,LX-PFM1-0012,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Nor + Shan""],""variants"":[]}",Post-Fracture Mechanics 1
 norshanaen,Norshanaen,/nor-shah-nah-ehn/,,LX-PFM1-0013,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Norshan + -aen""],""variants"":[]}",Post-Fracture Mechanics 1
@@ -553,7 +553,7 @@ shanvelrathor,Shanvelrathor,/shahn-vehl-rah-thor/,,LX-PFM1-0016,{},"{""origins""
 shanvelzhiraen,Shanvelzhiraen,/shahn-vehl-zhee-rah-ehn/,,LX-PFM1-0017,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Shan + Velzhiraen""],""variants"":[]}",Post-Fracture Mechanics 1
 delvelrathor,Delvelrathor,/dehl-vehl-rah-thor/,,LX-PFM1-0018,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Del + Velrathor""],""variants"":[]}",Post-Fracture Mechanics 1
 belvelrathor,Belvelrathor,/behl-vehl-rah-thor/,,LX-PFM1-0019,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Bel + Velrathor""],""variants"":[]}",Post-Fracture Mechanics 1
-rathorjor,Rathorjor,/rah-thor-jor/,,LX-PFM1-0020,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rathor + Jor""],""variants"":[]}",Post-Fracture Mechanics 1
+rathorjor,Rathorjor,/rah-thor-zhor/,,LX-PFM1-0020,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rathor + Jor""],""variants"":[]}",Post-Fracture Mechanics 1
 kavelrathor,Kavelrathor,/kah-vehl-rah-thor/,,LX-PFM1-0021,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ka + Velrathor""],""variants"":[]}",Post-Fracture Mechanics 1
 lianreth,Lianreth,/lee-ahn-rehth/,,LX-PFM1-0022,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Lian + Reth""],""variants"":[]}",Post-Fracture Mechanics 1
 lianrethor,Lianrethor,/lee-ahn-reh-thor/,,LX-PFM1-0023,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Lianreth + Or""],""variants"":[]}",Post-Fracture Mechanics 1
@@ -561,13 +561,13 @@ lianrethaen,Lianrethaen,/lee-ahn-reh-thah-ehn/,,LX-PFM1-0024,{},"{""origins"":[]
 lianthal,Lianthal,/lee-ahn-thahl/,,LX-PFM1-0025,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Lian + Thal""],""variants"":[]}",Post-Fracture Mechanics 1
 lianthalaen,Lianthalaen,/lee-ahn-thah-lah-ehn/,,LX-PFM1-0026,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Lian + Thal + -aen""],""variants"":[]}",Post-Fracture Mechanics 1
 rethmor,Rethmor,/rehth-mor/,,LX-PFM1-0027,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Reth + Mor""],""variants"":[{""form"":""Rethamor"",""pronunciation"":""/reh-thah-mor/""}]}",Post-Fracture Mechanics 1
-lianrethxar,Lianrethxar,/lee-ahn-rehth-xahr/,,LX-PFM1-0028,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Lianreth + Xar""],""variants"":[{""form"":""Lianrethaxar"",""pronunciation"":""/lee-ahn-reh-thah-xahr/""}]}",Post-Fracture Mechanics 1
+lianrethxar,Lianrethxar,/lee-ahn-rehth-khahr/,,LX-PFM1-0028,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Lianreth + Xar""],""variants"":[{""form"":""Lianrethaxar"",""pronunciation"":""/lee-ahn-reh-thah-khahr/""}]}",Post-Fracture Mechanics 1
 kalrav,Kalrav,/kahl-rahv/,,LX-PFM1-0029,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kal + Rav""],""variants"":[]}",Post-Fracture Mechanics 1
 kalravor,Kalravor,/kahl-rah-vor/,,LX-PFM1-0030,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kalrav + Or""],""variants"":[]}",Post-Fracture Mechanics 1
 workalrav,Workalrav,/wor-kahl-rahv/,,LX-PFM1-0031,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Wor + Kalrav""],""variants"":[]}",Post-Fracture Mechanics 1
 felkalrav,Felkalrav,/fehl-kahl-rahv/,,LX-PFM1-0032,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Fel + Kalrav""],""variants"":[]}",Post-Fracture Mechanics 1
 kakalrav,Kakalrav,/kah-kahl-rahv/,,LX-PFM1-0033,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ka + Kalrav""],""variants"":[]}",Post-Fracture Mechanics 1
-jekkalrav,Jekkalrav,/jehk-kahl-rahv/,,LX-PFM1-0034,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jek + Kalrav""],""variants"":[{""form"":""Jekakalrav"",""pronunciation"":""/jeh-kah-kahl-rahv/""}]}",Post-Fracture Mechanics 1
+jekkalrav,Jekkalrav,/zhehk-kahl-rahv/,,LX-PFM1-0034,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jek + Kalrav""],""variants"":[{""form"":""Jekakalrav"",""pronunciation"":""/zheh-kah-kahl-rahv/""}]}",Post-Fracture Mechanics 1
 kalravaen,Kalravaen,/kahl-rah-vah-ehn/,,LX-PFM1-0035,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kalrav + -aen""],""variants"":[]}",Post-Fracture Mechanics 1
 lianrethshen,Lianrethshen,/lee-ahn-rehth-shehn/,,LX-PFM1-0036,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Lianreth + Shen""],""variants"":[{""form"":""Lianrethashen"",""pronunciation"":""/lee-ahn-reh-thah-shehn/""}]}",Post-Fracture Mechanics 1
 vaarshen,Vaarshen,/vahr-shehn/,,LX-PFM1-0037,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vaar + Shen""],""variants"":[]}",Post-Fracture Mechanics 1
@@ -589,7 +589,7 @@ gavral,Gavral,/gahv-rahl/,,LX-FAP1-0012,{},"{""origins"":[],""nationalUses"":[],
 nesh,Nesh,/nehsh/,Yes,LX-FAP1-0013; XR-nesh,{},null,"Food, Agriculture, and Preservation 1"
 neshbrenaen,Neshbrenaen,/nehsh-brehn-ah-ehn/,,LX-FAP1-0014,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Nesh aquatic creature + Bren harvest + -aen""],""variants"":[{""form"":""Neshabrenaen"",""pronunciation"":""/neh-shah-brehn-ah-ehn/""}]}","Food, Agriculture, and Preservation 1"
 neshbrenral,Neshbrenral,/nehsh-brehn-rahl/,,LX-FAP1-0015,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Nesh aquatic creature + Bren harvest + Ral practitioner""],""variants"":[]}","Food, Agriculture, and Preservation 1"
-xarnesh,Xarnesh,/xahr-nehsh/,,LX-FAP1-0016,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar protective covering + Nesh aquatic creature""],""variants"":[]}","Food, Agriculture, and Preservation 1"
+xarnesh,Xarnesh,/khahr-nehsh/,,LX-FAP1-0016,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar protective covering + Nesh aquatic creature""],""variants"":[]}","Food, Agriculture, and Preservation 1"
 mahrfennil,Mahrfennil,/mahhr-fehn-neel/,,LX-FAP1-0017,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mahr ocean + Fennil leaf, herb, or soft greens""],""variants"":[]}","Food, Agriculture, and Preservation 1"
 zor,Zor,/zohr/,Yes,LX-FAP1-0018; XR-zor,{},null,"Food, Agriculture, and Preservation 1"
 belzor,Belzor,/behl-zohr/,,LX-FAP1-0019,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Bel maintained bond or system + Zor animal""],""variants"":[{""form"":""Belazor"",""pronunciation"":""/beh-lah-zohr/""}]}","Food, Agriculture, and Preservation 1"
@@ -601,7 +601,7 @@ felverd,Felverd,/fehl-vehrd/,,LX-FAP1-0024,{},"{""origins"":[],""nationalUses"":
 morlverd,Morlverd,/mohrl-vehrd/,,LX-FAP1-0025,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Morl stone or endurance + Verd botanical growth""],""variants"":[{""form"":""Morlaverd"",""pronunciation"":""/mohr-lah-vehrd/""}]}","Food, Agriculture, and Preservation 1"
 nelar,Nelar,/neh-lahr/,Yes,LX-FAP1-0026; XR-nelar,{},null,"Food, Agriculture, and Preservation 1"
 zornelar,Zornelar,/zohr-neh-lahr/,,LX-FAP1-0027,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Zor animal + Nelar nectar""],""variants"":[]}","Food, Agriculture, and Preservation 1"
-jelkor,Jelkor,/jehl-kohr/,,LX-FAP1-0028,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jel flavor or zest + Kor concentrated source or core""],""variants"":[]}","Food, Agriculture, and Preservation 1"
+jelkor,Jelkor,/zhehl-kohr/,,LX-FAP1-0028,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jel flavor or zest + Kor concentrated source or core""],""variants"":[]}","Food, Agriculture, and Preservation 1"
 fennildren,Fennildren,/fehn-neel-drehn/,,LX-FAP1-0029,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Fennil leaf or herb + Dren liquid""],""variants"":[{""form"":""Fenniladren"",""pronunciation"":""/fehn-nee-lah-drehn/""}]}","Food, Agriculture, and Preservation 1"
 emildren,Emildren,/eh-meel-drehn/,,LX-FAP1-0030,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Emil food or meal + Dren liquid""],""variants"":[{""form"":""Emiladren"",""pronunciation"":""/eh-mee-lah-drehn/""}]}","Food, Agriculture, and Preservation 1"
 saren,Saren,/sah-rehn/,Yes,LX-FAP2-0001; XR-saren,{},null,"Food, Agriculture, and Preservation 2"
@@ -613,7 +613,7 @@ morolan,Morolan,/mohr-oh-lahn/,,LX-FAP2-0006,{},"{""origins"":[],""nationalUses"
 pralfel,Pralfel,/prahl-fehl/,,LX-FAP2-0007,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Pral deliberate making + Fel constituent portion""],""variants"":[]}","Food, Agriculture, and Preservation 2"
 emilshara,Emilshara,/eh-meel-shah-rah/,,LX-FAP2-0008,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Emil food or meal + Shara path or ordered course""],""variants"":[]}","Food, Agriculture, and Preservation 2"
 emilpralaen,Emilpralaen,/eh-meel-prahl-ah-ehn/,,LX-FAP2-0009,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Emil food + Pral skilled making + -aen""],""variants"":[]}","Food, Agriculture, and Preservation 2"
-xarkrezaen,Xarkrezaen,/xahr-krehz-ah-ehn/,,LX-FAP2-0010,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar enclosure + Krez heat + -aen; food is supplied by the lexical meaning and context""],""variants"":[{""form"":""Xarakrezaen"",""pronunciation"":""/xah-rah-krehz-ah-ehn/""}]}","Food, Agriculture, and Preservation 2"
+xarkrezaen,Xarkrezaen,/khahr-krehz-ah-ehn/,,LX-FAP2-0010,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar enclosure + Krez heat + -aen; food is supplied by the lexical meaning and context""],""variants"":[{""form"":""Xarakrezaen"",""pronunciation"":""/khah-rah-krehz-ah-ehn/""}]}","Food, Agriculture, and Preservation 2"
 krezdrenaen,Krezdrenaen,/krehz-drehn-ah-ehn/,,LX-FAP2-0011,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Krez heat + Dren liquid + -aen""],""variants"":[]}","Food, Agriculture, and Preservation 2"
 eshkrezaen,Eshkrezaen,/ehsh-krehz-ah-ehn/,,LX-FAP2-0012,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Esh open air + Krez heat + -aen; food is supplied by the lexical meaning and context""],""variants"":[]}","Food, Agriculture, and Preservation 2"
 pelkrezaen,Pelkrezaen,/pehl-krehz-ah-ehn/,,LX-FAP2-0013,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Pel sharp concentration + Krez heat + -aen; food is supplied by the lexical meaning and context""],""variants"":[{""form"":""Pelakrezaen"",""pronunciation"":""/peh-lah-krehz-ah-ehn/""}]}","Food, Agriculture, and Preservation 2"
@@ -637,24 +637,24 @@ emilpraleth,Emilpraleth,/eh-meel-prah-leth/,,LX-FAP2-0030,{},"{""origins"":[],""
 kaemilpraleth,Kaemilpraleth,/kah-eh-meel-prah-leth/,,LX-FAP2-0031,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ka absence + Emilpraleth cooked""],""variants"":[]}","Food, Agriculture, and Preservation 2"
 talemilaen,Talemilaen,/tahl-eh-meel-ah-ehn/,,LX-FAP2-0032,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Tal give or offer + Emil food + -aen""],""variants"":[]}","Food, Agriculture, and Preservation 2"
 gav,Gav,/gahv/,,LX-FAP1-0031,{},null,"Food, Agriculture, and Preservation 1"
-belxar,Belxar,/behl-xahr/,,LX-CWM1-0001,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Bel woven or bound construction + Xar covering""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
-belxaraen,Belxaraen,/behl-xahr-ah-ehn/,,LX-CWM1-0002,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Belxar garment + -aen""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
-velbelxar,Velbelxar,/vehl-behl-xahr/,,LX-CWM1-0003,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vel cold endurance + Belxar garment""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
+belxar,Belxar,/behl-khahr/,,LX-CWM1-0001,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Bel woven or bound construction + Xar covering""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
+belxaraen,Belxaraen,/behl-khahr-ah-ehn/,,LX-CWM1-0002,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Belxar garment + -aen""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
+velbelxar,Velbelxar,/vehl-behl-khahr/,,LX-CWM1-0003,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vel cold endurance + Belxar garment""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
 eshtrakor,Eshtrakor,/ehsh-trah-kohr/,,LX-CWM1-0004,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Esh air or openness + Trakor footwear""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
 velpraltrakor,Velpraltrakor,/vehl-prahl-trah-kohr/,,LX-CWM1-0005,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vel cold + Pral flat working surface + Trakor footwear""],""variants"":[{""form"":""Velpralatrakor"",""pronunciation"":""/vehl-prah-lah-trah-kohr/""}]}","Clothing, Wearable Protection, and Ordinary Materials 1"
 pelveltrakor,Pelveltrakor,/pehl-vehl-trah-kohr/,,LX-CWM1-0006,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Pel sharp edge + Vel ice or cold + Trakor footwear""],""variants"":[{""form"":""Pelvelatrakor"",""pronunciation"":""/pehl-veh-lah-trah-kohr/""}]}","Clothing, Wearable Protection, and Ordinary Materials 1"
-lorinorxar,Lorinorxar,/loh-ree-nohr-xahr/,,LX-CWM1-0007,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Lorinor head + Xar covering""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
+lorinorxar,Lorinorxar,/loh-ree-nohr-khahr/,,LX-CWM1-0007,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Lorinor head + Xar covering""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
 rema,Rema,/reh-mah/,Yes,LX-CWM1-0008; XR-rema,{},null,"Clothing, Wearable Protection, and Ordinary Materials 1"
-remaxar,Remaxar,/reh-mah-xahr/,,LX-CWM1-0009,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rema face + Xar covering""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
+remaxar,Remaxar,/reh-mah-khahr/,,LX-CWM1-0009,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rema face + Xar covering""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
 zhirbel,Zhirbel,/zheer-behl/,,LX-CWM1-0010,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Zhir line or cord + Bel fastening""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
 welzhirbel,Welzhirbel,/wehl-zheer-behl/,,LX-CWM1-0011,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Wel joined system + Zhirbel strap""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
 belmek,Belmek,/behl-mehk/,,LX-CWM1-0012,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Bel fastening + Mek constructed mechanism""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
 belmekaen,Belmekaen,/behl-mehk-ah-ehn/,,LX-CWM1-0013,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Belmek fastener + -aen""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
 kabelmekaen,Kabelmekaen,/kah-behl-mehk-ah-ehn/,,LX-CWM1-0014,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ka reversal or removal + Belmek fastener + -aen""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
-korinxar,Korinxar,/koh-reen-xahr/,,LX-CWM1-0015,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Korin hand + Xar covering""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
-lorinshalxar,Lorinshalxar,/loh-reen-shahl-xahr/,,LX-CWM1-0016,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Lorinshal eye + Xar protective covering""],""variants"":[{""form"":""Lorinshalaxar"",""pronunciation"":""/loh-reen-shah-lah-xahr/""}]}","Clothing, Wearable Protection, and Ordinary Materials 1"
-remashalxar,Remashalxar,/reh-mah-shahl-xahr/,,LX-CWM1-0017,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rema face + Shal light or sight + Xar covering""],""variants"":[{""form"":""Remashalaxar"",""pronunciation"":""/reh-mah-shah-lah-xahr/""}]}","Clothing, Wearable Protection, and Ordinary Materials 1"
-rinbelxar,Rinbelxar,/reen-behl-xahr/,,LX-CWM1-0018,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rin identity + Belxar garment""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
+korinxar,Korinxar,/koh-reen-khahr/,,LX-CWM1-0015,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Korin hand + Xar covering""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
+lorinshalxar,Lorinshalxar,/loh-reen-shahl-khahr/,,LX-CWM1-0016,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Lorinshal eye + Xar protective covering""],""variants"":[{""form"":""Lorinshalaxar"",""pronunciation"":""/loh-reen-shah-lah-khahr/""}]}","Clothing, Wearable Protection, and Ordinary Materials 1"
+remashalxar,Remashalxar,/reh-mah-shahl-khahr/,,LX-CWM1-0017,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rema face + Shal light or sight + Xar covering""],""variants"":[{""form"":""Remashalaxar"",""pronunciation"":""/reh-mah-shah-lah-khahr/""}]}","Clothing, Wearable Protection, and Ordinary Materials 1"
+rinbelxar,Rinbelxar,/reen-behl-khahr/,,LX-CWM1-0018,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rin identity + Belxar garment""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
 felzhir,Felzhir,/fehl-zheer/,,LX-CWM1-0019,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Fel smallness or fineness + Zhir thread or line""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
 sura,Sura,/soo-rah/,Yes,LX-CWM1-0020; XR-sura,{},null,"Clothing, Wearable Protection, and Ordinary Materials 1"
 belsura,Belsura,/behl-soo-rah/,,LX-CWM1-0021,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Bel textile working + Sura animal hair or fur""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 1"
@@ -674,7 +674,7 @@ eran,Eran,/eh-rahn/,Yes,LX-CWM2-0006; XR-eran,{},null,"Clothing, Wearable Protec
 osar,Osar,/oh-sahr/,Yes,LX-CWM2-0007; XR-osar,{},null,"Clothing, Wearable Protection, and Ordinary Materials 2"
 dresh,Dresh,/drehsh/,Yes,LX-CWM2-0008; XR-dresh,{},null,"Clothing, Wearable Protection, and Ordinary Materials 2"
 neshmorl,Neshmorl,/nehsh-mohrl/,,LX-CWM2-0009,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Nesh aquatic creature + Morl stone or mineral structure""],""variants"":[{""form"":""Neshamorl"",""pronunciation"":""/neh-shah-mohrl/""}]}","Clothing, Wearable Protection, and Ordinary Materials 2"
-zorxar,Zorxar,/zohr-xahr/,,LX-CWM2-0010,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Zor animal + Xar protective covering""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 2"
+zorxar,Zorxar,/zohr-khahr/,,LX-CWM2-0010,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Zor animal + Xar protective covering""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 2"
 kavolan,Kavolan,/kahv-oh-lahn/,,LX-CWM2-0011,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kav preservation or enduring state + Olan oil-like water-resistant substance""],""variants"":[]}","Clothing, Wearable Protection, and Ordinary Materials 2"
 verdbel,Verdbel,/vehrd-behl/,,LX-CWM2-0012,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Verd botanical life + Bel binding""],""variants"":[{""form"":""Verdabel"",""pronunciation"":""/vehr-dah-behl/""}]}","Clothing, Wearable Protection, and Ordinary Materials 2"
 hir,Hir,/heer/,Yes,LX-CWM2-0013; XR-hir,{},null,"Clothing, Wearable Protection, and Ordinary Materials 2"
@@ -702,7 +702,7 @@ lormek,Lormek,/lohr-mehk/,,LX-TM1-0018,{},"{""origins"":[],""nationalUses"":[],"
 sharashen,Sharashen,/shah-rah-shehn/,,LX-TM1-0019,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Shara path or route + Shen measured reference""],""variants"":[]}",Tools and Machines 1
 normek,Normek,/nohr-mehk/,,LX-TM1-0020,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Nor time + Mek device""],""variants"":[]}",Tools and Machines 1
 belpralmek,Belpralmek,/behl-prahl-mehk/,,LX-TM1-0021,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Bel weaving + Pral skilled arrangement + Mek apparatus""],""variants"":[{""form"":""Belapralmek"",""pronunciation"":""/beh-lah-prahl-mehk/""}]}",Tools and Machines 1
-jekzhirvek,Jekzhirvek,/jehk-zheer-vehk/,,LX-TM1-0022,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jek spiral or winding + Zhir line + Vek holder""],""variants"":[{""form"":""Jekazhirvek"",""pronunciation"":""/jeh-kah-zheer-vehk/""}]}",Tools and Machines 1
+jekzhirvek,Jekzhirvek,/zhehk-zheer-vehk/,,LX-TM1-0022,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jek spiral or winding + Zhir line + Vek holder""],""variants"":[{""form"":""Jekazhirvek"",""pronunciation"":""/zheh-kah-zheer-vehk/""}]}",Tools and Machines 1
 shenmek,Shenmek,/shehn-mehk/,,LX-TM1-0023,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Shen measure + Mek device""],""variants"":[]}",Tools and Machines 1
 kesmek,Kesmek,/kehs-mehk/,,LX-TM1-0024,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kes detection or registration + Mek device""],""variants"":[]}",Tools and Machines 1
 shenlianaen,Shenlianaen,/shehn-lee-ahn-ah-ehn/,,LX-TM1-0025,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Shenlian reference standard + -aen""],""variants"":[]}",Tools and Machines 1
@@ -717,10 +717,10 @@ ravshan,Ravshan,/rahv-shahn/,,LX-TM1-0033,{},"{""origins"":[],""nationalUses"":[
 belshan,Belshan,/behl-shahn/,,LX-TM1-0034,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Bel binding or controlled restriction + Shan passage""],""variants"":[]}",Tools and Machines 1
 wekmek,Wekmek,/wehk-mehk/,,LX-TM1-0035,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Wek circular cycle + Mek constructed component""],""variants"":[]}",Tools and Machines 1
 korwek,Korwek,/kohr-wehk/,,LX-TM1-0036,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kor core + Wek rotation""],""variants"":[{""form"":""Korewek"",""pronunciation"":""/kohr-eh-wehk/""},{""form"":""Korowek"",""pronunciation"":""/kohr-oh-wehk/""}]}",Tools and Machines 1
-jekmek,Jekmek,/jehk-mehk/,,LX-TM1-0037,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jek rotation or twisting motion + Mek component""],""variants"":[{""form"":""Jekemek"",""pronunciation"":""/jeh-keh-mehk/""}]}",Tools and Machines 1
+jekmek,Jekmek,/zhehk-mehk/,,LX-TM1-0037,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jek rotation or twisting motion + Mek component""],""variants"":[{""form"":""Jekemek"",""pronunciation"":""/zheh-keh-mehk/""}]}",Tools and Machines 1
 ravkar,Ravkar,/rahv-kahr/,,LX-TM1-0038,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rav pull + Kar applied mechanical force""],""variants"":[{""form"":""Ravekar"",""pronunciation"":""/rah-veh-kahr/""}]}",Tools and Machines 1
 wekrav,Wekrav,/wehk-rahv/,,LX-TM1-0039,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Wek rotation + Rav pull""],""variants"":[{""form"":""Wekarav"",""pronunciation"":""/weh-kah-rahv/""}]}",Tools and Machines 1
-jekkal,Jekkal,/jehk-kahl/,,LX-TM1-0040,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jek coil or shaped turn + Kal stored force""],""variants"":[]}",Tools and Machines 1
+jekkal,Jekkal,/zhehk-kahl/,,LX-TM1-0040,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jek coil or shaped turn + Kal stored force""],""variants"":[]}",Tools and Machines 1
 varvek,Varvek,/vahr-vehk/,,LX-TVO1-0001,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Var movement or travel + Vek carrier""],""variants"":[{""form"":""Varavek"",""pronunciation"":""/vah-rah-vehk/""}]}",Transportation and Vehicle Operations 1
 felvek,Felvek,/fehl-vehk/,,LX-TVO1-0002,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Fel smallness + Vek carrier""],""variants"":[]}",Transportation and Vehicle Operations 1
 morvek,Morvek,/mohr-vehk/,,LX-TVO1-0003,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mor material load or grounded matter + Vek carrier""],""variants"":[]}",Transportation and Vehicle Operations 1
@@ -733,7 +733,7 @@ belzhirvek,Belzhirvek,/behl-zheer-vehk/,,LX-TVO1-0009,{},"{""origins"":[],""nati
 zhirshara,Zhirshara,/zheer-shah-rah/,,LX-TVO1-0010,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Zhir fixed line + Shara route""],""variants"":[]}",Transportation and Vehicle Operations 1
 shalilvek,Shalilvek,/shah-leel-vehk/,,LX-TVO1-0011,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Established Shalil flowing or moving lightly + Vek carrier""],""variants"":[]}",Transportation and Vehicle Operations 1
 eshvek,Eshvek,/ehsh-vehk/,,LX-TVO1-0012,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Esh air or sky + Vek carrier""],""variants"":[]}",Transportation and Vehicle Operations 1
-mahrxarvek,Mahrxarvek,/mahhr-xahr-vehk/,,LX-TVO1-0013,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mahr sea + Xar enclosure or cover + Vek carrier""],""variants"":[]}",Transportation and Vehicle Operations 1
+mahrxarvek,Mahrxarvek,/mahhr-khahr-vehk/,,LX-TVO1-0013,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mahr sea + Xar enclosure or cover + Vek carrier""],""variants"":[]}",Transportation and Vehicle Operations 1
 krenzhirvek,Krenzhirvek,/krehn-zheer-vehk/,,LX-TVO1-0014,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Krenzhir metal cable + Vek carrier""],""variants"":[{""form"":""Krenazhirvek"",""pronunciation"":""/kreh-nah-zheer-vehk/""}]}",Transportation and Vehicle Operations 1
 mahrpral,Mahrpral,/mahhr-prahl/,,LX-TVO1-0015,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mahr sea or broad water + Pral flat working surface""],""variants"":[]}",Transportation and Vehicle Operations 1
 vekvaraen,Vekvaraen,/vehk-vahr-ah-ehn/,,LX-TVO1-0016,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vek carried transport + Var travel + -aen""],""variants"":[]}",Transportation and Vehicle Operations 1
@@ -745,8 +745,8 @@ anvekaen,Anvekaen,/ahn-vehk-ah-ehn/,,LX-TVO1-0021; LX-SCP1-0002,{},"{""origins""
 thalvekaen,Thalvekaen,/thahl-vehk-ah-ehn/,,LX-TVO1-0022; LX-SCP1-0003,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Thal from or out of + Vek carrier + -aen""],""variants"":[]}",Transportation and Vehicle Operations 1; Semantic Continuity and Polysemy 1
 weksharaen,Weksharaen,/wehk-shah-rah-ehn/,,LX-TVO1-0023,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Wek repetition + Shara route + -aen""],""variants"":[]}",Transportation and Vehicle Operations 1
 dorvekaen,Dorvekaen,/dohr-vehk-ah-ehn/,,LX-TVO1-0024,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dor put or place + Vek vehicle or vessel + -aen""],""variants"":[]}",Transportation and Vehicle Operations 1
-jorvar,Jorvar,/johr-vahr/,,LX-TVO1-0025,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jor surge or quick movement + Var movement""],""variants"":[]}",Transportation and Vehicle Operations 1
-jorvaraen,Jorvaraen,/johr-vahr-ah-ehn/,,LX-TVO1-0026,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jorvar speed + -aen""],""variants"":[]}",Transportation and Vehicle Operations 1
+jorvar,Jorvar,/zhohr-vahr/,,LX-TVO1-0025,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jor surge or quick movement + Var movement""],""variants"":[]}",Transportation and Vehicle Operations 1
+jorvaraen,Jorvaraen,/zhohr-vahr-ah-ehn/,,LX-TVO1-0026,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jorvar speed + -aen""],""variants"":[]}",Transportation and Vehicle Operations 1
 velvaraen,Velvaraen,/vehl-vahr-ah-ehn/,,LX-TVO1-0027,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vel stillness or slowness + Var movement + -aen""],""variants"":[]}",Transportation and Vehicle Operations 1
 belvekaen,Belvekaen,/behl-vehk-ah-ehn/,,LX-TVO1-0028,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Bel binding or controlled restriction + Vek carrier + -aen""],""variants"":[]}",Transportation and Vehicle Operations 1
 ravvekaen,Ravvekaen,/rahv-vehk-ah-ehn/,,LX-TVO1-0029,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rav physical pull + Vek carrier + -aen""],""variants"":[]}",Transportation and Vehicle Operations 1
@@ -758,17 +758,17 @@ eshlorral,Eshlorral,/ehsh-lohr-rahl/,,LX-TVO1-0034,{},"{""origins"":[],""nationa
 welvek,Welvek,/wehl-vehk/,,LX-TVO1-0035,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Wel communal flow + Vek transport""],""variants"":[]}",Transportation and Vehicle Operations 1
 mekor,Mekor,/meh-kohr/,,LX-BSPI1-0001,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mek construction + -or place""],""variants"":[]}",Built Spaces and Public Infrastructure 1
 ndara,Ndara,/n-dah-rah/,Yes,LX-BSPI1-0002; XR-ndara,{},null,Built Spaces and Public Infrastructure 1
-eshxar,Eshxar,/ehsh-xahr/,,LX-BSPI1-0003,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Esh above + Xar cover""],""variants"":[{""form"":""Eshaxar"",""pronunciation"":""/eh-shah-xahr/""}]}",Built Spaces and Public Infrastructure 1
+eshxar,Eshxar,/ehsh-khahr/,,LX-BSPI1-0003,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Esh above + Xar cover""],""variants"":[{""form"":""Eshaxar"",""pronunciation"":""/eh-shah-khahr/""}]}",Built Spaces and Public Infrastructure 1
 morlpral,Morlpral,/mohrl-prahl/,,LX-BSPI1-0004,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Morl below or stone + Pral flat working surface""],""variants"":[{""form"":""Morlapral"",""pronunciation"":""/mohr-lah-prahl/""}]}",Built Spaces and Public Infrastructure 1
-aneshxar,Aneshxar,/ahn-ehsh-xahr/,,LX-BSPI1-0005,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""An within + Esh above + Xar cover""],""variants"":[{""form"":""Aneshaxar"",""pronunciation"":""/ahn-eh-shah-xahr/""}]}",Built Spaces and Public Infrastructure 1
+aneshxar,Aneshxar,/ahn-ehsh-khahr/,,LX-BSPI1-0005,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""An within + Esh above + Xar cover""],""variants"":[{""form"":""Aneshaxar"",""pronunciation"":""/ahn-eh-shah-khahr/""}]}",Built Spaces and Public Infrastructure 1
 shalshan,Shalshan,/shahl-shahn/,,LX-BSPI1-0006,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Shal light + Shan passage""],""variants"":[]}",Built Spaces and Public Infrastructure 1
-xarzhir,Xarzhir,/xahr-zheer/,,LX-BSPI1-0007,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar cover + Zhir line or thread""],""variants"":[]}",Built Spaces and Public Infrastructure 1
+xarzhir,Xarzhir,/khahr-zheer/,,LX-BSPI1-0007,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar cover + Zhir line or thread""],""variants"":[]}",Built Spaces and Public Infrastructure 1
 kormor,Kormor,/kohr-mohr/,,LX-BSPI1-0008,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kor core + Mor ground or matter""],""variants"":[]}",Built Spaces and Public Infrastructure 1
 mbalanmor,Mbalanmor,/m-bah-lahn-mohr/,,LX-BSPI1-0009,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mbalan relied-upon support + Mor physical matter""],""variants"":[]}",Built Spaces and Public Infrastructure 1
 ndavior,Ndavior,/n-dah-vee-ohr/,,LX-BSPI1-0010,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ndavi vertical level + -or place""],""variants"":[]}",Built Spaces and Public Infrastructure 1
-xaror,Xaror,/xahr-ohr/,,LX-BSPI1-0011,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar enclosure + -or place""],""variants"":[]}",Built Spaces and Public Infrastructure 1
-worxaror,Worxaror,/wohr-xahr-ohr/,,LX-BSPI1-0012,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Wor great or full + Xaror room""],""variants"":[{""form"":""Woraxaror"",""pronunciation"":""/woh-rah-xahr-ohr/""}]}",Built Spaces and Public Infrastructure 1
-xarwelor,Xarwelor,/xahr-weh-lohr/,,LX-BSPI1-0013,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar enclosure + Wel communal flow + -or place""],""variants"":[]}",Built Spaces and Public Infrastructure 1
+xaror,Xaror,/khahr-ohr/,,LX-BSPI1-0011,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar enclosure + -or place""],""variants"":[]}",Built Spaces and Public Infrastructure 1
+worxaror,Worxaror,/wohr-khahr-ohr/,,LX-BSPI1-0012,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Wor great or full + Xaror room""],""variants"":[{""form"":""Woraxaror"",""pronunciation"":""/woh-rah-khahr-ohr/""}]}",Built Spaces and Public Infrastructure 1
+xarwelor,Xarwelor,/khahr-weh-lohr/,,LX-BSPI1-0013,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar enclosure + Wel communal flow + -or place""],""variants"":[]}",Built Spaces and Public Infrastructure 1
 welpralor,Welpralor,/wehl-prah-lohr/,,LX-BSPI1-0014,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Wel communal flow + Pral flat surface + -or place""],""variants"":[{""form"":""Welapralor"",""pronunciation"":""/weh-lah-prah-lohr/""}]}",Built Spaces and Public Infrastructure 1
 mekeshpral,Mekeshpral,/mehk-ehsh-prahl/,,LX-BSPI1-0015,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mek construction + Esh raised + Pral flat surface""],""variants"":[{""form"":""Mekeshapral"",""pronunciation"":""/mehk-eh-shah-prahl/""}]}",Built Spaces and Public Infrastructure 1
 velkelor,Velkelor,/vehl-keh-lohr/,,LX-BSPI1-0016,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vel wisdom + Kel language or text + -or place""],""variants"":[]}",Built Spaces and Public Infrastructure 1
@@ -777,7 +777,7 @@ shenkesor,Shenkesor,/shehn-keh-sohr/,,LX-BSPI1-0018,{},"{""origins"":[],""nation
 belzhirkavor,Belzhirkavor,/behl-zheer-kah-vohr/,,LX-BSPI1-0019,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Bel system + Zhir connected line + Kav preservation + -or place""],""variants"":[{""form"":""Belazhirakavor"",""pronunciation"":""/beh-lah-zhee-rah-kah-vohr/""}]}",Built Spaces and Public Infrastructure 1
 lormekor,Lormekor,/lohr-meh-kohr/,,LX-BSPI1-0020,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Lor guidance or control + Mekor constructed place""],""variants"":[]}",Built Spaces and Public Infrastructure 1
 mekpralor,Mekpralor,/mehk-prah-lohr/,,LX-BSPI1-0021,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mek construction + Pral skilled work + -or place""],""variants"":[{""form"":""Mekapralor"",""pronunciation"":""/meh-kah-prah-lohr/""}]}",Built Spaces and Public Infrastructure 1
-njor,Njor,/n-johr/,Yes,LX-BSPI1-0022; LX-SCP1-0005; XR-njor,{},null,Built Spaces and Public Infrastructure 1; Semantic Continuity and Polysemy 1
+njor,Njor,/n-zhohr/,Yes,LX-BSPI1-0022; LX-SCP1-0005; XR-njor,{},null,Built Spaces and Public Infrastructure 1; Semantic Continuity and Polysemy 1
 mekshara,Mekshara,/mehk-shah-rah/,,LX-BSPI1-0023,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mek construction + Shara route""],""variants"":[]}",Built Spaces and Public Infrastructure 1
 brosshara,Brosshara,/brohs-shah-rah/,,LX-BSPI1-0024,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Bros layered or stacked + Shara route""],""variants"":[{""form"":""Brosashara"",""pronunciation"":""/broh-sah-shah-rah/""}]}",Built Spaces and Public Infrastructure 1
 morlshan,Morlshan,/mohrl-shahn/,,LX-BSPI1-0025,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Morl stone or beneath + Shan passage""],""variants"":[{""form"":""Morlashan"",""pronunciation"":""/mohr-lah-shahn/""}]}",Built Spaces and Public Infrastructure 1
@@ -786,14 +786,14 @@ varbelor,Varbelor,/vahr-beh-lohr/,,LX-BSPI1-0027,{},"{""origins"":[],""nationalU
 eshpralor,Eshpralor,/ehsh-prah-lohr/,,LX-BSPI1-0028,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Esh raised + Pral flat surface + -or place""],""variants"":[{""form"":""Eshapralor"",""pronunciation"":""/eh-shah-prah-lohr/""}]}",Built Spaces and Public Infrastructure 1
 ndavivek,Ndavivek,/n-dah-vee-vehk/,,LX-BSPI1-0029,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ndavi vertical level or change + Vek carrier""],""variants"":[]}",Built Spaces and Public Infrastructure 1
 mahrpralor,Mahrpralor,/mahr-prah-lohr/,,LX-BSPI1-0030,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mahr sea or water body + Pral platform + -or place""],""variants"":[{""form"":""Mahrapralor"",""pronunciation"":""/mah-rah-prah-lohr/""}]}",Built Spaces and Public Infrastructure 1
-mahrxaror,Mahrxaror,/mahr-xahr-ohr/,,LX-BSPI1-0031,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mahr sea or water body + Xar shelter + -or place""],""variants"":[{""form"":""Mahraxaror"",""pronunciation"":""/mah-rah-xahr-ohr/""}]}",Built Spaces and Public Infrastructure 1
-vekxaror,Vekxaror,/vehk-xahr-ohr/,,LX-BSPI1-0032,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vek carrier or vehicle + Xar enclosure + -or place""],""variants"":[{""form"":""Vekaxaror"",""pronunciation"":""/veh-kah-xahr-ohr/""}]}",Built Spaces and Public Infrastructure 1
+mahrxaror,Mahrxaror,/mahr-khahr-ohr/,,LX-BSPI1-0031,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mahr sea or water body + Xar shelter + -or place""],""variants"":[{""form"":""Mahraxaror"",""pronunciation"":""/mah-rah-khahr-ohr/""}]}",Built Spaces and Public Infrastructure 1
+vekxaror,Vekxaror,/vehk-khahr-ohr/,,LX-BSPI1-0032,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vek carrier or vehicle + Xar enclosure + -or place""],""variants"":[{""form"":""Vekaxaror"",""pronunciation"":""/veh-kah-khahr-ohr/""}]}",Built Spaces and Public Infrastructure 1
 vekpralor,Vekpralor,/vehk-prah-lohr/,,LX-BSPI1-0033,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vek vehicle + Pral prepared surface + -or place""],""variants"":[{""form"":""Vekapralor"",""pronunciation"":""/veh-kah-prah-lohr/""}]}",Built Spaces and Public Infrastructure 1
 droshara,Droshara,/droh-shah-rah/,,LX-BSPI1-0034,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dro ordinary physical water + Shara route""],""variants"":[]}",Built Spaces and Public Infrastructure 1
-dronjor,Dronjor,/droh-n-johr/,,LX-BSPI1-0035,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dro water + Njor structural span""],""variants"":[]}",Built Spaces and Public Infrastructure 1
+dronjor,Dronjor,/droh-n-zhohr/,,LX-BSPI1-0035,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dro water + Njor structural span""],""variants"":[]}",Built Spaces and Public Infrastructure 1
 eshmekor,Eshmekor,/ehsh-meh-kohr/,,LX-BSPI1-0036,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Esh above + Mekor building""],""variants"":[]}",Built Spaces and Public Infrastructure 1
-wekxar,Wekxar,/wehk-xahr/,,LX-BSPI1-0037,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Wek circularity + Xar cover""],""variants"":[{""form"":""Wekaxar"",""pronunciation"":""/weh-kah-xahr/""}]}",Built Spaces and Public Infrastructure 1
-drojormek,Drojormek,/droh-johr-mehk/,,LX-BSPI1-0038,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dro water + Jor surge + Mek construction""],""variants"":[]}",Built Spaces and Public Infrastructure 1
+wekxar,Wekxar,/wehk-khahr/,,LX-BSPI1-0037,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Wek circularity + Xar cover""],""variants"":[{""form"":""Wekaxar"",""pronunciation"":""/weh-kah-khahr/""}]}",Built Spaces and Public Infrastructure 1
+drojormek,Drojormek,/droh-zhohr-mehk/,,LX-BSPI1-0038,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dro water + Jor surge + Mek construction""],""variants"":[]}",Built Spaces and Public Infrastructure 1
 nethmek,Nethmek,/neht-hmehk/,,LX-BSPI1-0039,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Neth rest or support + Mek constructed object""],""variants"":[{""form"":""Nethamek"",""pronunciation"":""/neht-hah-mehk/""}]}",Built Spaces and Public Infrastructure 1
 ndavi,Ndavi,/n-dah-vee/,Yes,LX-BSPI1-0040; XR-ndavi,{},null,Built Spaces and Public Infrastructure 1
 belor,Belor,/beh-lohr/,,LX-GCI1-0001,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Bel organized system or binding + -or realized domain""],""variants"":[]}",Government and Civic Institutions 1
@@ -841,26 +841,26 @@ ianath,Ianath,/ee-ah-nahth/,,LX-WRT1-0014,{},"{""origins"":[],""nationalUses"":[
 ngar,Ngar,/n-gahr/,Yes,LX-DW1-0001; XR-ngar,{},null,Defense and Weapons 1
 ngarpel,Ngarpel,/n-gahr-pehl/,,LX-DW1-0002,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ngar weapon + Pel sharpness piercing quality""],""variants"":[{""form"":""Ngarapel"",""pronunciation"":""/n-gah-rah-pehl/""}]}",Defense and Weapons 1
 ngarzhir,Ngarzhir,/n-gahr-zheer/,,LX-DW1-0003,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ngar weapon + Zhir narrow linear form""],""variants"":[{""form"":""Ngarazhir"",""pronunciation"":""/n-gah-rah-zheer/""}]}",Defense and Weapons 1
-ravjor,Ravjor,/rahv-johr/,,LX-DW1-0004,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rav pull or tension + Jor sudden energetic release""],""variants"":[{""form"":""Ravajor"",""pronunciation"":""/rah-vah-johr/""}]}",Defense and Weapons 1
-ravjorvek,Ravjorvek,/rahv-johr-vehk/,,LX-DW1-0005,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ravjor bow + Vek carried projectile""],""variants"":[{""form"":""Ravajorvek"",""pronunciation"":""/rah-vah-johr-vehk/""}]}",Defense and Weapons 1
+ravjor,Ravjor,/rahv-zhohr/,,LX-DW1-0004,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rav pull or tension + Jor sudden energetic release""],""variants"":[{""form"":""Ravajor"",""pronunciation"":""/rah-vah-zhohr/""}]}",Defense and Weapons 1
+ravjorvek,Ravjorvek,/rahv-zhohr-vehk/,,LX-DW1-0005,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ravjor bow + Vek carried projectile""],""variants"":[{""form"":""Ravajorvek"",""pronunciation"":""/rah-vah-zhohr-vehk/""}]}",Defense and Weapons 1
 arthkal,Arthkal,/ahrth-kahl/,,LX-DW1-0006,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Arth defense + Kal force or strength""],""variants"":[{""form"":""Arthakal"",""pronunciation"":""/ahr-thah-kahl/""}]}",Defense and Weapons 1
-ngarjor,Ngarjor,/n-gahr-johr/,,LX-DW1-0007,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ngar weapon + Jor burst or discharge""],""variants"":[{""form"":""Ngarajor"",""pronunciation"":""/n-gah-rah-johr/""}]}",Defense and Weapons 1
+ngarjor,Ngarjor,/n-gahr-zhohr/,,LX-DW1-0007,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ngar weapon + Jor burst or discharge""],""variants"":[{""form"":""Ngarajor"",""pronunciation"":""/n-gah-rah-zhohr/""}]}",Defense and Weapons 1
 ngarzhel,Ngarzhel,/n-gahr-zhehl/,,LX-DW1-0008,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ngar weapon + Zhel spark energy or charge""],""variants"":[{""form"":""Ngarazhel"",""pronunciation"":""/n-gah-rah-zhehl/""}]}",Defense and Weapons 1
 ngarvek,Ngarvek,/n-gahr-vehk/,,LX-DW1-0009,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ngar weapon + Vek carried charge or substance""],""variants"":[{""form"":""Ngaravek"",""pronunciation"":""/n-gah-rah-vehk/""}]}",Defense and Weapons 1
 welarth,Welarth,/wehl-ahrth/,,LX-OC1-0001,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Wel community or shared action + Arth defense""],""variants"":[]}",Organized Conflict 1
 ngarwel,Ngarwel,/n-gahr-wehl/,,LX-OC1-0002,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ngar weapon + Wel organized collective""],""variants"":[{""form"":""Ngarawel"",""pronunciation"":""/n-gah-rah-wehl/""}]}",Organized Conflict 1
 kesvar,Kesvar,/kehs-vahr/,,LX-OC1-0003,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kes attention or noticing + Var purposeful movement""],""variants"":[{""form"":""Kesavar"",""pronunciation"":""/keh-sah-vahr/""}]}",Organized Conflict 1
-xarkaleth,Xarkaleth,/xahr-kah-leth/,,LX-OC1-0004,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar covering or enclosure + Kaleth fortress or stronghold""],""variants"":[]}",Organized Conflict 1
+xarkaleth,Xarkaleth,/khahr-kah-leth/,,LX-OC1-0004,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar covering or enclosure + Kaleth fortress or stronghold""],""variants"":[]}",Organized Conflict 1
 vethbel,Vethbel,/vehth-behl/,,LX-OC1-0005,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Veth hidden or unseen + Bel binding or restraint""],""variants"":[{""form"":""Vethabel"",""pronunciation"":""/veh-thah-behl/""}]}",Organized Conflict 1
 lorpel,Lorpel,/lohr-pehl/,,LX-OC1-0006,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Lor directed focus or sightline + Pel precise point""],""variants"":[{""form"":""Lorapel"",""pronunciation"":""/loh-rah-pehl/""}]}",Organized Conflict 1
 lorpelaen,Lorpelaen,/lohr-peh-lah-ehn/,,LX-OC1-0007,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Lorpel target + -aen verb""],""variants"":[]}",Organized Conflict 1
-ngarjoraen,Ngarjoraen,/n-gahr-johr-ah-ehn/,,LX-OC1-0008,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ngar weapon + Jor burst or release + -aen verb""],""variants"":[{""form"":""Ngarajoraen"",""pronunciation"":""/n-gah-rah-johr-ah-ehn/""}]}",Organized Conflict 1
+ngarjoraen,Ngarjoraen,/n-gahr-zhohr-ah-ehn/,,LX-OC1-0008,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ngar weapon + Jor burst or release + -aen verb""],""variants"":[{""form"":""Ngarajoraen"",""pronunciation"":""/n-gah-rah-zhohr-ah-ehn/""}]}",Organized Conflict 1
 arthkaraen,Arthkaraen,/ahrth-kahr-ah-ehn/,,LX-OC1-0009,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Arth defense + Kar strike or applied force + -aen verb""],""variants"":[{""form"":""Arthakaraen"",""pronunciation"":""/ahr-thah-kahr-ah-ehn/""}]}",Organized Conflict 1
 vethvaraen,Vethvaraen,/vehth-vahr-ah-ehn/,,LX-OC1-0010,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vethvar behind or toward the rear + -aen verb""],""variants"":[{""form"":""Vethavaraen"",""pronunciation"":""/veh-thah-vahr-ah-ehn/""}]}",Organized Conflict 1
 kaarthaen,Kaarthaen,/kah-ahr-thah-ehn/,,LX-OC1-0011,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ka cessation or without-state + Arth defense or resistance + -aen verb""],""variants"":[]}",Organized Conflict 1
 mavmor,Mavmor,/mahv-mohr/,,LX-OC1-0012,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mav bodily illness + Mor physical substance""],""variants"":[{""form"":""Mavamor"",""pronunciation"":""/mah-vah-mohr/""}]}",Organized Conflict 1
 rathnor,Rathnor,/rahth-nor/,,LX-OC1-0013,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rath hostile opposition or foe + Nor continuing time or event duration""],""variants"":[{""form"":""Rathanor"",""pronunciation"":""/rah-thah-nor/""}]}",Organized Conflict 1
-rathjor,Rathjor,/rahth-johr/,,LX-OC1-0014,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rath hostile opposition + Jor forceful surge or clash""],""variants"":[{""form"":""Rathajor"",""pronunciation"":""/rah-thah-johr/""}]}",Organized Conflict 1
+rathjor,Rathjor,/rahth-zhohr/,,LX-OC1-0014,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rath hostile opposition + Jor forceful surge or clash""],""variants"":[{""form"":""Rathajor"",""pronunciation"":""/rah-thah-zhohr/""}]}",Organized Conflict 1
 tlamor,Tlamor,/tlah-mohr/,,LX-SBD1-0001,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Tla intimacy or close connection + Mor physical embodiment or matter""],""variants"":[]}","Sex, Birth, and Death 1"
 tlamoraen,Tlamoraen,/tlah-moh-rah-ehn/,,LX-SBD1-0002,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Tlamor sex + -aen verb""],""variants"":[]}","Sex, Birth, and Death 1"
 tlamoreth,Tlamoreth,/tlah-moh-rehth/,,LX-SBD1-0003,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Tlamor sex + -eth adjective""],""variants"":[]}","Sex, Birth, and Death 1"
@@ -889,8 +889,8 @@ shalnakaen,Shalnakaen,/shahl-nah-kah-ehn/,,LX-RC1-0015,{},"{""origins"":[],""nat
 vethnak,Vethnak,/vehth-nahk/,,LX-RC1-0016,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Veth behind or shaded position + Nak competition""],""variants"":[{""form"":""Vethanak"",""pronunciation"":""/veh-thah-nahk/""}]}",Recreation and Competition 1
 vethnakaen,Vethnakaen,/vehth-nah-kah-ehn/,,LX-RC1-0017,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vethnak defeat + -aen verb""],""variants"":[{""form"":""Vethanakaen"",""pronunciation"":""/veh-thah-nah-kah-ehn/""}]}",Recreation and Competition 1
 thalnak,Thalnak,/thahl-nahk/,,LX-RC1-0018,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Thal equilibrium + Nak competition""],""variants"":[]}",Recreation and Competition 1
-jornak,Jornak,/johr-nahk/,,LX-RC1-0019,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jor energetic surge or speed + Nak competition""],""variants"":[]}",Recreation and Competition 1
-jornakaen,Jornakaen,/johr-nah-kah-ehn/,,LX-RC1-0020,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jornak race + -aen verb""],""variants"":[]}",Recreation and Competition 1
+jornak,Jornak,/zhohr-nahk/,,LX-RC1-0019,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jor energetic surge or speed + Nak competition""],""variants"":[]}",Recreation and Competition 1
+jornakaen,Jornakaen,/zhohr-nah-kah-ehn/,,LX-RC1-0020,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jornak race + -aen verb""],""variants"":[]}",Recreation and Competition 1
 trakshalilaen,Trakshalilaen,/trahk-shah-leel-ah-ehn/,,LX-RC1-0021,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Trak foot-borne movement + established Shalil flowing lightly + -aen verb""],""variants"":[{""form"":""Trakashalilaen"",""pronunciation"":""/trah-kah-shah-leel-ah-ehn/""}]}",Recreation and Competition 1
 mahrshalilaen,Mahrshalilaen,/mahr-shah-leel-ah-ehn/,,LX-RC1-0022,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mahr sea or ocean + established Shalil flowing lightly + -aen verb""],""variants"":[{""form"":""Mahrashalilaen"",""pronunciation"":""/mah-rah-shah-leel-ah-ehn/""}]}",Recreation and Competition 1
 aennor,Aennor,/ah-ehn-nohr/,,LX-PSAC1-0001,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Canonical Aen sound or breath + Nor time""],""variants"":[]}","Performance, Story Arts, and Celebration 1"
@@ -939,14 +939,14 @@ mavbal,Mavbal,/mahv-bahl/,,LX-HTS1-0017,{},"{""origins"":[],""nationalUses"":[],
 mavbaleth,Mavbaleth,/mahv-bah-lehth/,,LX-HTS1-0018,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mavbal infection + -eth adjective""],""variants"":[]}","Health, Treatment, and Survival 1"
 mavbalshaneth,Mavbalshaneth,/mahv-bahl-shah-nehth/,,LX-HTS1-0019,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mavbal infection + Shan passage or transfer + -eth adjective""],""variants"":[]}","Health, Treatment, and Survival 1"
 zhaelolan,Zhaelolan,/zhah-ehl-oh-lahn/,,LX-HTS1-0020,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Zhael restoration + Olan oil-like substance""],""variants"":[]}","Health, Treatment, and Survival 1"
-aivkorxar,Aivkorxar,/ah-eev-kohr-xahr/,,LX-HTS1-0021,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Aivkor wound + Xar protective covering""],""variants"":[{""form"":""Aivakorxar"",""pronunciation"":""/ah-ee-vah-kohr-xahr/""}]}","Health, Treatment, and Survival 1"
-jorzhael,Jorzhael,/johr-zhah-ehl/,,LX-HTS1-0022,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jor urgent burst + Zhael restoration""],""variants"":[]}","Health, Treatment, and Survival 1"
+aivkorxar,Aivkorxar,/eyev-kohr-khahr/,,LX-HTS1-0021,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Aivkor wound + Xar protective covering""],""variants"":[{""form"":""Aivakorxar"",""pronunciation"":""/eye-vah-kohr-khahr/""}]}","Health, Treatment, and Survival 1"
+jorzhael,Jorzhael,/zhohr-zhah-ehl/,,LX-HTS1-0022,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jor urgent burst + Zhael restoration""],""variants"":[]}","Health, Treatment, and Survival 1"
 mavmorzhael,Mavmorzhael,/mahv-mohr-zhah-ehl/,,LX-HTS1-0023,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mavmor poison + Zhael restoration""],""variants"":[{""form"":""Mavamorzhael"",""pronunciation"":""/mah-vah-mohr-zhah-ehl/""}]}","Health, Treatment, and Survival 1"
 rekrathlor,Rekrathlor,/rehk-rahth-lohr/,,LX-HTS1-0024,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rek peak intensity + Rathlor danger""],""variants"":[{""form"":""Rekarathlor"",""pronunciation"":""/reh-kah-rahth-lohr/""}]}","Health, Treatment, and Survival 1"
 rathlorkel,Rathlorkel,/rahth-lohr-kehl/,,LX-HTS1-0025,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rathlor danger + Kel stated message""],""variants"":[]}","Health, Treatment, and Survival 1"
 velmav,Velmav,/vehl-mahv/,,LX-HTS1-0026,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vel severe cold or cold endurance + Mav bodily illness""],""variants"":[{""form"":""Velamav"",""pronunciation"":""/veh-lah-mahv/""}]}","Health, Treatment, and Survival 1"
 rekmav,Rekmav,/rehk-mahv/,,LX-HTS1-0027,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rek peak heat or intensity + Mav bodily illness""],""variants"":[{""form"":""Rekamav"",""pronunciation"":""/reh-kah-mahv/""}]}","Health, Treatment, and Survival 1"
-velaivkor,Velaivkor,/vehl-ah-eev-kohr/,,LX-HTS1-0028,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vel cold + Aivkor wounded bodily site""],""variants"":[]}","Health, Treatment, and Survival 1"
+velaivkor,Velaivkor,/vehl-eyev-kohr/,,LX-HTS1-0028,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vel cold + Aivkor wounded bodily site""],""variants"":[]}","Health, Treatment, and Survival 1"
 kadromav,Kadromav,/kah-droh-mahv/,,LX-HTS1-0029,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ka absence + Dro physical water + Mav bodily illness""],""variants"":[]}","Health, Treatment, and Survival 1"
 kesrin,Kesrin,/kehs-reen/,,LX-HTS1-0030,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kes awareness + Rin embodied inner self""],""variants"":[]}","Health, Treatment, and Survival 1"
 kakesrin,Kakesrin,/kah-kehs-reen/,,LX-HTS1-0031,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ka absence + Kesrin wakeful consciousness""],""variants"":[]}","Health, Treatment, and Survival 1"
@@ -957,7 +957,7 @@ vaarshanaen,Vaarshanaen,/vahr-shah-nah-ehn/,,LX-HTS1-0035,{},"{""origins"":[],""
 thalwelvar,Thalwelvar,/thahl-wehl-vahr/,,LX-HTS1-0036,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Thal outward or from + Wel coordinated group + Var movement""],""variants"":[]}","Health, Treatment, and Survival 1"
 thalwelvaraen,Thalwelvaraen,/thahl-wehl-vah-rah-ehn/,,LX-HTS1-0037,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Thalwelvar evacuation + -aen verb""],""variants"":[]}","Health, Treatment, and Survival 1"
 mavbalshanaen,Mavbalshanaen,/mahv-bahl-shah-nah-ehn/,,LX-HTS1-0038,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mavbal infection + Shan passage + -aen verb""],""variants"":[]}","Health, Treatment, and Survival 1"
-mavbalxar,Mavbalxar,/mahv-bahl-xahr/,,LX-HTS1-0039,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mavbal infection + Xar protective enclosure""],""variants"":[{""form"":""Mavabalxar"",""pronunciation"":""/mah-vah-bahl-xahr/""}]}","Health, Treatment, and Survival 1"
+mavbalxar,Mavbalxar,/mahv-bahl-khahr/,,LX-HTS1-0039,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mavbal infection + Xar protective enclosure""],""variants"":[{""form"":""Mavabalxar"",""pronunciation"":""/mah-vah-bahl-khahr/""}]}","Health, Treatment, and Survival 1"
 shalkav,Shalkav,/shahl-kahv/,,LX-HTS1-0040,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Shal life + Kav preservation or endurance through time""],""variants"":[{""form"":""Shalakav"",""pronunciation"":""/shah-lah-kahv/""}]}","Health, Treatment, and Survival 1"
 kavaen,Kavaen,/kah-vah-ehn/,,LX-HTS1-0041,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kav preservation or endurance through time + -aen verb""],""variants"":[]}","Health, Treatment, and Survival 1"
 vaarbelwek,Vaarbelwek,/vahr-behl-wehk/,,LX-HTS1-0042,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vaar safety + Belwek ordered recurring process""],""variants"":[]}","Health, Treatment, and Survival 1"
@@ -967,7 +967,7 @@ felmorl,Felmorl,/fehl-morl/,,LX-EGE1-0001,{},"{""origins"":[],""nationalUses"":[
 delmorl,Delmorl,/dehl-morl/,,LX-EGE1-0002,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Del paired sides + Morl mountain or raised stone land""],""variants"":[]}","Environment, Geography, and Ecology 1"
 pelmorl,Pelmorl,/pehl-morl/,,LX-EGE1-0003,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Pel sharp edge + Morl stone landform""],""variants"":[]}","Environment, Geography, and Ecology 1"
 morlshara,Morlshara,/morl-shah-rah/,,LX-EGE1-0004,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Morl mountain + Shara path""],""variants"":[]}","Environment, Geography, and Ecology 1"
-xarmorl,Xarmorl,/xahr-morl/,,LX-EGE1-0005,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar protective or concealing cover + Morl stone""],""variants"":[]}","Environment, Geography, and Ecology 1"
+xarmorl,Xarmorl,/khahr-morl/,,LX-EGE1-0005,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar protective or concealing cover + Morl stone""],""variants"":[]}","Environment, Geography, and Ecology 1"
 shanmorl,Shanmorl,/shahn-morl/,,LX-EGE1-0006,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Shan passage through + Morl stone land""],""variants"":[]}","Environment, Geography, and Ecology 1"
 selmor,Selmor,/sehl-mor/,,LX-EGE1-0007,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Sel clear or unobstructed + Mor ground""],""variants"":[]}","Environment, Geography, and Ecology 1"
 ndavimor,Ndavimor,/n-dah-vee-mor/,,LX-EGE1-0008,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ndavi fixed vertical level + Mor ground""],""variants"":[]}","Environment, Geography, and Ecology 1"
@@ -979,26 +979,26 @@ drenfel,Drenfel,/drehn-fehl/,,LX-EGE1-0013,{},"{""origins"":[],""nationalUses"":
 fellun,Fellun,/fehl-loon/,,LX-EGE1-0014,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Fel small + Lun lake""],""variants"":[]}","Environment, Geography, and Ecology 1"
 drenverd,Drenverd,/drehn-vehrd/,,LX-EGE1-0015,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dren water + Verd living plant growth""],""variants"":[]}","Environment, Geography, and Ecology 1"
 mahrmorl,Mahrmorl,/mahr-morl/,,LX-EGE1-0016,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mahr sea + Morl ridge or stone structure""],""variants"":[]}","Environment, Geography, and Ecology 1"
-drenjor,Drenjor,/drehn-jor/,,LX-EGE1-0017,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dren water + Jor surge""],""variants"":[]}","Environment, Geography, and Ecology 1"
+drenjor,Drenjor,/drehn-zhor/,,LX-EGE1-0017,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dren water + Jor surge""],""variants"":[]}","Environment, Geography, and Ecology 1"
 mahrwel,Mahrwel,/mahr-wehl/,,LX-EGE1-0018,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mahr sea or large water + Wel continuous flow""],""variants"":[]}","Environment, Geography, and Ecology 1"
 eshnor,Eshnor,/esh-nor/,,LX-EGE1-0019,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Esh air or sky + Nor time-state""],""variants"":[]}","Environment, Geography, and Ecology 1"
 eshweknor,Eshweknor,/esh-wehk-nor/,,LX-EGE1-0020,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Esh sky or air + Wek recurring cycle + Nor extended time-state""],""variants"":[{""form"":""Eshwekenor"",""pronunciation"":""/esh-weh-keh-nor/""}]}","Environment, Geography, and Ecology 1"
 drenesh,Drenesh,/drehn-esh/,,LX-EGE1-0021,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dren water-bearing substance + Esh sky""],""variants"":[]}","Environment, Geography, and Ecology 1"
 eshkar,Eshkar,/esh-kahr/,,LX-EGE1-0022,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Esh sky + Kar strike""],""variants"":[]}","Environment, Geography, and Ecology 1"
-eshjor,Eshjor,/esh-jor/,,LX-EGE1-0023,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Esh air + Jor surge""],""variants"":[]}","Environment, Geography, and Ecology 1"
+eshjor,Eshjor,/esh-zhor/,,LX-EGE1-0023,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Esh air + Jor surge""],""variants"":[]}","Environment, Geography, and Ecology 1"
 eshdren,Eshdren,/esh-drehn/,,LX-EGE1-0024,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Esh air + Dren water""],""variants"":[]}","Environment, Geography, and Ecology 1"
 kadro,Kadro,/kah-droh/,,LX-EGE1-0025,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ka absence + Dro physical water""],""variants"":[]}","Environment, Geography, and Ecology 1"
 drenrek,Drenrek,/drehn-rehk/,,LX-EGE1-0026,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dren water + Rek peak intensity""],""variants"":[]}","Environment, Geography, and Ecology 1"
 morkar,Morkar,/mor-kahr/,,LX-EGE1-0027,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Mor earth or matter + Kar strike""],""variants"":[]}","Environment, Geography, and Ecology 1"
-morljor,Morljor,/morl-jor/,,LX-EGE1-0028,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Morl mountain or stone + Jor surge""],""variants"":[]}","Environment, Geography, and Ecology 1"
-sadarjor,Sadarjor,/sah-dahr-jor/,,LX-EGE1-0029,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Sadar sand + Jor surge""],""variants"":[]}","Environment, Geography, and Ecology 1"
-velxar,Velxar,/vehl-xahr/,,LX-EGE1-0030,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vel cold + Xar covering""],""variants"":[]}","Environment, Geography, and Ecology 1"
+morljor,Morljor,/morl-zhor/,,LX-EGE1-0028,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Morl mountain or stone + Jor surge""],""variants"":[]}","Environment, Geography, and Ecology 1"
+sadarjor,Sadarjor,/sah-dahr-zhor/,,LX-EGE1-0029,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Sadar sand + Jor surge""],""variants"":[]}","Environment, Geography, and Ecology 1"
+velxar,Velxar,/vehl-khahr/,,LX-EGE1-0030,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vel cold + Xar covering""],""variants"":[]}","Environment, Geography, and Ecology 1"
 felsadar,Felsadar,/fehl-sah-dahr/,,LX-EGE1-0031,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Fel small or fine + Sadar granular earth""],""variants"":[]}","Environment, Geography, and Ecology 1"
 krezshen,Krezshen,/krehz-shehn/,,LX-EGE1-0032,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Krez heat + Shen measure""],""variants"":[]}","Environment, Geography, and Ecology 1"
 verdin,Verdin,/vehr-deen/,,LX-EGE1-0033,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Verd botanical life + -in individual participant""],""variants"":[]}","Environment, Geography, and Ecology 1"
 verdmarin,Verdmarin,/vehrd-mah-reen/,,LX-EGE1-0034,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Verd plant life + Marin branch""],""variants"":[]}","Environment, Geography, and Ecology 1"
 morlzhir,Morlzhir,/morl-zheer/,,LX-EGE1-0035,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Morl ground or stone + Zhir thread""],""variants"":[]}","Environment, Geography, and Ecology 1"
-verdxar,Verdxar,/vehrd-xahr/,,LX-EGE1-0036,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Verd plant + Xar protective covering""],""variants"":[]}","Environment, Geography, and Ecology 1"
+verdxar,Verdxar,/vehrd-khahr/,,LX-EGE1-0036,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Verd plant + Xar protective covering""],""variants"":[]}","Environment, Geography, and Ecology 1"
 zhirverd,Zhirverd,/zheer-vehrd/,,LX-EGE1-0037,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Zhir thread + Verd plant""],""variants"":[]}","Environment, Geography, and Ecology 1"
 verdpel,Verdpel,/vehrd-pehl/,,LX-EGE1-0038,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Verd plant life + Pel narrow edge or blade""],""variants"":[]}","Environment, Geography, and Ecology 1"
 balvek,Balvek,/bahl-vehk/,,LX-EGE1-0039,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Bal living growth + Vek carrier""],""variants"":[]}","Environment, Geography, and Ecology 1"
@@ -1026,7 +1026,7 @@ mavverd,Mavverd,/mahv-vehrd/,,LX-EGE1-0060,{},"{""origins"":[],""nationalUses"":
 gorm,Gorm,/gorm/,Yes,LX-EGE1-0061; XR-gorm,{},null,"Environment, Geography, and Ecology 1"
 welgorm,Welgorm,/wehl-gorm/,,LX-EGE1-0062,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Wel shared or spreading field + Gorm contamination or soiling matter""],""variants"":[]}","Environment, Geography, and Ecology 1"
 pelnor,Pelnor,/pehl-nor/,,LX-EGE1-0063,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Pel cutting edge + Nor time""],""variants"":[]}","Environment, Geography, and Ecology 1"
-xilnalior,Xilnalior,/xil-nah-lee-or/,,LX-EGE1-0064,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xil fragmentation + Nalior habitat""],""variants"":[]}","Environment, Geography, and Ecology 1"
+xilnalior,Xilnalior,/khil-nah-lee-or/,,LX-EGE1-0064,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xil fragmentation + Nalior habitat""],""variants"":[]}","Environment, Geography, and Ecology 1"
 terrakav,Terrakav,/teh-rah-kahv/,,LX-EGE1-0065,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Terra living world + Kav preservation""],""variants"":[]}","Environment, Geography, and Ecology 1"
 terrazhael,Terrazhael,/teh-rah-zhah-ehl/,,LX-EGE1-0066,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Terra living world + Zhael renewal""],""variants"":[]}","Environment, Geography, and Ecology 1"
 sul,Sul,/sool/,Yes,LX-EGE1-0067; XR-sul,{},null,"Environment, Geography, and Ecology 1"
@@ -1038,7 +1038,7 @@ versul,Versul,/vehr-sool/,,LX-EGE1-0072,{},"{""origins"":[],""nationalUses"":[],
 dava,Dava,/dah-vah/,Yes,LX-ICAES1-0001; XR-dava,{},null,"Information, Computation, Automation, and Electrical Systems 1"
 shendava,Shendava,/shehn-dah-vah/,,LX-ICAES1-0002,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Shen measured value + Dava information""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
 kavdava,Kavdava,/kahv-dah-vah/,,LX-ICAES1-0003,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kav preservation through time + Dava information""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
-davaxar,Davaxar,/dah-vah-xahr/,,LX-ICAES1-0004,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dava information + Xar enclosing boundary""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
+davaxar,Davaxar,/dah-vah-khahr/,,LX-ICAES1-0004,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dava information + Xar enclosing boundary""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
 beldava,Beldava,/behl-dah-vah/,,LX-ICAES1-0005,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Bel organized system + Dava information""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
 davapral,Davapral,/dah-vah-prahl/,,LX-ICAES1-0006,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dava information + Pral prepared working surface""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
 zheldava,Zheldava,/zhehl-dah-vah/,,LX-ICAES1-0007,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Zhel energetic change + Dava information""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
@@ -1067,18 +1067,18 @@ mekreth,Mekreth,/mehk-rehth/,,LX-ICAES1-0029,{},"{""origins"":[],""nationalUses"
 felmekreth,Felmekreth,/fehl-mehk-rehth/,,LX-ICAES1-0030,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Fel small or bounded part + Mekreth system malfunction""],""variants"":[{""form"":""Felmekareth"",""pronunciation"":""/fehl-meh-kah-rehth/""}]}","Information, Computation, Automation, and Electrical Systems 1"
 rekmekreth,Rekmekreth,/rehk-mehk-rehth/,,LX-ICAES1-0031,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rek peak intensity + Mekreth malfunction""],""variants"":[{""form"":""Rekamekreth"",""pronunciation"":""/reh-kah-mehk-rehth/""}]}","Information, Computation, Automation, and Electrical Systems 1"
 rethdava,Rethdava,/rehth-dah-vah/,,LX-ICAES1-0032,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Reth confusion or disorder + Dava information""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
-xardava,Xardava,/xahr-dah-vah/,,LX-ICAES1-0033,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar protective concealment + Dava information""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
-xardavaen,Xardavaen,/xahr-dah-vah-ehn/,,LX-ICAES1-0034,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xardava protected information + -aen verb""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
-kaxardavaen,Kaxardavaen,/kah-xahr-dah-vah-ehn/,,LX-ICAES1-0035,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ka removal or reversal + Xardava encrypted information + -aen verb""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
+xardava,Xardava,/khahr-dah-vah/,,LX-ICAES1-0033,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar protective concealment + Dava information""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
+xardavaen,Xardavaen,/khahr-dah-vah-ehn/,,LX-ICAES1-0034,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xardava protected information + -aen verb""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
+kaxardavaen,Kaxardavaen,/kah-khahr-dah-vah-ehn/,,LX-ICAES1-0035,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ka removal or reversal + Xardava encrypted information + -aen verb""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
 zhelwel,Zhelwel,/zhehl-wehl/,,LX-ICAES1-0036,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Zhel charge or energy + Wel continuous flow""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
 zhelshara,Zhelshara,/zhehl-shah-rah/,,LX-ICAES1-0037,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Zhel charge + Shara path""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
 ravzhel,Ravzhel,/rahv-zhehl/,,LX-ICAES1-0038,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rav pull or attraction + Zhel charge""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
 zhelshan,Zhelshan,/zhehl-shahn/,,LX-ICAES1-0039,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Zhel charge + Shan passage""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
-zhelxar,Zhelxar,/zhehl-xahr/,,LX-ICAES1-0040,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Zhel charge + Xar protective cover""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
-jorzhelkav,Jorzhelkav,/johr-zhehl-kahv/,,LX-ICAES1-0041,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jor burst + Zhelkav energy-storage cell""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
+zhelxar,Zhelxar,/zhehl-khahr/,,LX-ICAES1-0040,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Zhel charge + Xar protective cover""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
+jorzhelkav,Jorzhelkav,/zhohr-zhehl-kahv/,,LX-ICAES1-0041,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jor burst + Zhelkav energy-storage cell""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
 zhelvorkor,Zhelvorkor,/zhehl-vohr-kohr/,,LX-ICAES1-0042,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Zhel charge + Vorkor gate""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
 zhelpel,Zhelpel,/zhehl-pehl/,,LX-ICAES1-0043,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Zhel charge + Pel precise edge or point""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
-jorzhel,Jorzhel,/johr-zhehl/,,LX-ICAES1-0044,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jor surge + Zhel energy""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
+jorzhel,Jorzhel,/zhohr-zhehl/,,LX-ICAES1-0044,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jor surge + Zhel energy""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
 worzhel,Worzhel,/wohr-zhehl/,,LX-ICAES1-0045,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Wor excess or abundance + Zhel energy""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
 kazhel,Kazhel,/kah-zhehl/,,LX-ICAES1-0046,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ka absence + Zhel power""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
 zhelreth,Zhelreth,/zhehl-rehth/,,LX-ICAES1-0047,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Zhel charge + Reth disorder""],""variants"":[]}","Information, Computation, Automation, and Electrical Systems 1"
@@ -1108,8 +1108,8 @@ nyelzhir,Nyelzhir,/nyehl-zheer/,,LX-SAC1-0013,{},"{""origins"":[],""nationalUses
 ravwek,Ravwek,/rahv-wehk/,,LX-SAC1-0014,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rav pull or attraction + Wek cycle""],""variants"":[]}","Science, Astronomy, and Cosmology 1"
 ravwekaen,Ravwekaen,/rahv-weh-kah-ehn/,,LX-SAC1-0015,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ravwek orbit + -aen verb""],""variants"":[]}","Science, Astronomy, and Cosmology 1"
 ravwekin,Ravwekin,/rahv-weh-keen/,,LX-SAC1-0016,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ravwek orbit + -in individual""],""variants"":[]}","Science, Astronomy, and Cosmology 1"
-dralxar,Dralxar,/drahl-xahr/,,LX-SAC1-0017,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dral heavens + Xar cover or shadow""],""variants"":[]}","Science, Astronomy, and Cosmology 1"
-dralxaraen,Dralxaraen,/drahl-xahr-ah-ehn/,,LX-SAC1-0018,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dralxar eclipse + -aen verb""],""variants"":[]}","Science, Astronomy, and Cosmology 1"
+dralxar,Dralxar,/drahl-khahr/,,LX-SAC1-0017,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dral heavens + Xar cover or shadow""],""variants"":[]}","Science, Astronomy, and Cosmology 1"
+dralxaraen,Dralxaraen,/drahl-khahr-ah-ehn/,,LX-SAC1-0018,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dralxar eclipse + -aen verb""],""variants"":[]}","Science, Astronomy, and Cosmology 1"
 felvora,Felvora,/fehl-voh-rah/,,LX-SAC1-0019,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Fel smaller + Vora planet or planetary body""],""variants"":[]}","Science, Astronomy, and Cosmology 1"
 zhirnyel,Zhirnyel,/zheer-nyehl/,,LX-SAC1-0020,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Zhir thread or line + Nyel star""],""variants"":[{""form"":""Zhiranyel"",""pronunciation"":""/zhee-rah-nyehl/""}]}","Science, Astronomy, and Cosmology 1"
 dralfel,Dralfel,/drahl-fehl/,,LX-SAC1-0021,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dral heavens + Fel small bounded part""],""variants"":[]}","Science, Astronomy, and Cosmology 1"
@@ -1162,7 +1162,7 @@ rinbel,Rinbel,/reen-behl/,,LX-GMMP1-0012,{},"{""origins"":[],""nationalUses"":[]
 rinbelaen,Rinbelaen,/reen-beh-lah-ehn/,,LX-GMMP1-0013,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rinbel enchantment + -aen verb""],""variants"":[]}",General Magic and Metaphysical Practice 1
 rinbeleth,Rinbeleth,/reen-beh-lehth/,,LX-GMMP1-0014,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rinbel enchantment + -eth adjective""],""variants"":[]}",General Magic and Metaphysical Practice 1
 arthrin,Arthrin,/ahrth-reen/,,LX-GMMP1-0015,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Arth protection + Rin essence""],""variants"":[{""form"":""Artharin"",""pronunciation"":""/ahr-thah-reen/""}]}",General Magic and Metaphysical Practice 1
-xarrin,Xarrin,/xahr-reen/,,LX-GMMP1-0016,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar cover or closure + Rin essence""],""variants"":[{""form"":""Xararin"",""pronunciation"":""/xah-rah-reen/""}]}",General Magic and Metaphysical Practice 1
+xarrin,Xarrin,/khahr-reen/,,LX-GMMP1-0016,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar cover or closure + Rin essence""],""variants"":[{""form"":""Xararin"",""pronunciation"":""/khah-rah-reen/""}]}",General Magic and Metaphysical Practice 1
 kaaruaen,Kaaruaen,/kah-ah-roo-ah-ehn/,,LX-GMMP1-0017,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ka reversal or absence + Aru magic + -aen verb""],""variants"":[]}",General Magic and Metaphysical Practice 1
 vaarrin,Vaarrin,/vahr-reen/,,LX-GMMP1-0018,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vaar peace or beneficial harmony + Rin essence""],""variants"":[]}",General Magic and Metaphysical Practice 1
 rathrin,Rathrin,/rahth-reen/,,LX-GMMP1-0019,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Rath hostile pressure or harm + Rin essence""],""variants"":[{""form"":""Ratharin"",""pronunciation"":""/rah-thah-reen/""}]}",General Magic and Metaphysical Practice 1
@@ -1191,8 +1191,8 @@ vethshaleth,Vethshaleth,/vehth-shah-lehth/,,LX-GMMP1-0041,{},"{""origins"":[],""
 tharbel,Tharbel,/thahr-behl/,,LX-GMMP1-0042,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Thar will or emotional core + Bel binding""],""variants"":[]}",General Magic and Metaphysical Practice 1
 tharbelaen,Tharbelaen,/thahr-beh-lah-ehn/,,LX-GMMP1-0043,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Tharbel compulsion + -aen verb""],""variants"":[]}",General Magic and Metaphysical Practice 1
 katharbelaen,Katharbelaen,/kah-thahr-beh-lah-ehn/,,LX-GMMP1-0044,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ka reversal + Tharbelaen compel""],""variants"":[]}",General Magic and Metaphysical Practice 1
-kesxar,Kesxar,/kehs-xahr/,,LX-GMMP1-0045,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kes awareness or noticing + Xar cover""],""variants"":[]}",General Magic and Metaphysical Practice 1
-kesxaraen,Kesxaraen,/kehs-xah-rah-ehn/,,LX-GMMP1-0046,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kesxar perceptual veil + -aen verb""],""variants"":[]}",General Magic and Metaphysical Practice 1
+kesxar,Kesxar,/kehs-khahr/,,LX-GMMP1-0045,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kes awareness or noticing + Xar cover""],""variants"":[]}",General Magic and Metaphysical Practice 1
+kesxaraen,Kesxaraen,/kehs-khah-rah-ehn/,,LX-GMMP1-0046,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kesxar perceptual veil + -aen verb""],""variants"":[]}",General Magic and Metaphysical Practice 1
 worshankal,Worshankal,/wohr-shahn-kahl/,,LX-GMMP1-0047,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Wor excess + Shan passage + Kal power""],""variants"":[{""form"":""Worashankal"",""pronunciation"":""/woh-rah-shahn-kahl/""}]}",General Magic and Metaphysical Practice 1
 worshankalaen,Worshankalaen,/wohr-shahn-kah-lah-ehn/,,LX-GMMP1-0048,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Worshankal overchanneling + -aen verb""],""variants"":[]}",General Magic and Metaphysical Practice 1
 rethkal,Rethkal,/rehth-kahl/,,LX-GMMP1-0049,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Reth disorder or uncertainty + Kal power""],""variants"":[{""form"":""Rethakal"",""pronunciation"":""/reh-thah-kahl/""}]}",General Magic and Metaphysical Practice 1
@@ -1215,13 +1215,13 @@ haveth,Haveth,/hah-veth/,,LX-HLPS1-0003,{},"{""origins"":[],""nationalUses"":[],
 dovhav,Dovhav,/dohv-hahv/,,LX-HLPS1-0004,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dov play + Hav laughter or amused response""],""variants"":[{""form"":""Dovahav"",""pronunciation"":""/doh-vah-hahv/""}]}","Humor, Laughter, and Playful Speech 1"
 dovkel,Dovkel,/dohv-kehl/,,LX-HLPS1-0005,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dov play + Kel speech or defined expression""],""variants"":[]}","Humor, Laughter, and Playful Speech 1"
 dovkelaen,Dovkelaen,/dohv-keh-lah-ehn/,,LX-HLPS1-0006,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dovkel joke + -aen verb""],""variants"":[]}","Humor, Laughter, and Playful Speech 1"
-keljek,Keljek,/kehl-jehk/,,LX-HLPS1-0007,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kel language + Jek twist""],""variants"":[]}","Humor, Laughter, and Playful Speech 1"
+keljek,Keljek,/kehl-zhehk/,,LX-HLPS1-0007,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kel language + Jek twist""],""variants"":[]}","Humor, Laughter, and Playful Speech 1"
 pralhav,Pralhav,/prahl-hahv/,,LX-HLPS1-0008,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Pral skilled intricate making + Hav comic response""],""variants"":[]}","Humor, Laughter, and Playful Speech 1"
 dovhavral,Dovhavral,/dohv-hahv-rahl/,,LX-HLPS1-0009,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dovhav humor + Ral practiced role""],""variants"":[{""form"":""Dovahavral"",""pronunciation"":""/doh-vah-hahv-rahl/""}]}","Humor, Laughter, and Playful Speech 1"
 havrath,Havrath,/hahv-rahth/,,LX-HLPS1-0010,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Hav laughter + Rath adversarial relation""],""variants"":[]}","Humor, Laughter, and Playful Speech 1"
 havrathaen,Havrathaen,/hahv-rah-thah-ehn/,,LX-HLPS1-0011,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Havrath mockery + -aen verb""],""variants"":[]}","Humor, Laughter, and Playful Speech 1"
-jekkel,Jekkel,/jehk-kehl/,,LX-HLPS1-0012,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jek turn or twist + Kel stated expression""],""variants"":[{""form"":""Jekakel"",""pronunciation"":""/jeh-kah-kehl/""}]}","Humor, Laughter, and Playful Speech 1"
-peljekkel,Peljekkel,/pehl-jehk-kehl/,,LX-HLPS1-0013,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Pel edge or point + Jekkel irony""],""variants"":[{""form"":""Pelajekkel"",""pronunciation"":""/peh-lah-jehk-kehl/""}]}","Humor, Laughter, and Playful Speech 1"
+jekkel,Jekkel,/zhehk-kehl/,,LX-HLPS1-0012,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Jek turn or twist + Kel stated expression""],""variants"":[{""form"":""Jekakel"",""pronunciation"":""/zheh-kah-kehl/""}]}","Humor, Laughter, and Playful Speech 1"
+peljekkel,Peljekkel,/pehl-zhehk-kehl/,,LX-HLPS1-0013,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Pel edge or point + Jekkel irony""],""variants"":[{""form"":""Pelajekkel"",""pronunciation"":""/peh-lah-zhehk-kehl/""}]}","Humor, Laughter, and Playful Speech 1"
 nem,Nem,/nehm/,Yes,LX-UHEI1-0001; XR-nem,{},null,"Understanding, Helping, and Emotional Interiority 1"
 nemaen,Nemaen,/nehm-ah-ehn/,,LX-UHEI1-0002,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Nem understanding + -aen verb""],""variants"":[]}","Understanding, Helping, and Emotional Interiority 1"
 rethnem,Rethnem,/rehth-nehm/,,LX-UHEI1-0003,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Reth uncertainty or disorder + Nem understanding""],""variants"":[{""form"":""Rethanem"",""pronunciation"":""/reh-thah-nehm/""}]}","Understanding, Helping, and Emotional Interiority 1"
@@ -1256,14 +1256,14 @@ korsharvar,Korsharvar,/kohr-shahr-vahr/,,LX-BIAOBF1-0010,{},"{""origins"":[],""n
 sharvargora,Sharvargora,/shahr-vahr-goh-rah/,,LX-BIAOBF1-0011,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Sharvar leg + Gora joint""],""variants"":[]}","Body, Internal Anatomy, and Ordinary Bodily Functions 1"
 morlkagora,Morlkagora,/mohrl-kah-goh-rah/,,LX-BIAOBF1-0012,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Morlka foot + Gora joint""],""variants"":[]}","Body, Internal Anatomy, and Ordinary Bodily Functions 1"
 morlkapir,Morlkapir,/mohrl-kah-peer/,,LX-BIAOBF1-0013,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Morlka foot + Pir digit""],""variants"":[]}","Body, Internal Anatomy, and Ordinary Bodily Functions 1"
-xarmetha,Xarmetha,/xahr-meh-thah/,,LX-BIAOBF1-0014,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar body or embodied exterior + Metha flesh or soft tissue""],""variants"":[]}","Body, Internal Anatomy, and Ordinary Bodily Functions 1"
+xarmetha,Xarmetha,/khahr-meh-thah/,,LX-BIAOBF1-0014,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Xar body or embodied exterior + Metha flesh or soft tissue""],""variants"":[]}","Body, Internal Anatomy, and Ordinary Bodily Functions 1"
 metha,Metha,/meh-thah/,Yes,LX-BIAOBF1-0015; XR-metha,{},null,"Body, Internal Anatomy, and Ordinary Bodily Functions 1"
 kalmetha,Kalmetha,/kahl-meh-thah/,,LX-BIAOBF1-0016,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kal strength + Metha flesh or soft tissue""],""variants"":[]}","Body, Internal Anatomy, and Ordinary Bodily Functions 1"
 zek,Zek,/zehk/,Yes,LX-BIAOBF1-0017; XR-zek,{},null,"Body, Internal Anatomy, and Ordinary Bodily Functions 1"
 lera,Lera,/leh-rah/,Yes,LX-BIAOBF1-0018; XR-lera,{},null,"Body, Internal Anatomy, and Ordinary Bodily Functions 1"
 numor,Numor,/noo-mohr/,,LX-BIAOBF1-0019,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Num swallow or consume + -or place or region""],""variants"":[]}","Body, Internal Anatomy, and Ordinary Bodily Functions 1"
 tash,Tash,/tahsh/,Yes,LX-BIAOBF1-0020; XR-tash,{},null,"Body, Internal Anatomy, and Ordinary Bodily Functions 1"
-khelu,Khelu,/keh-loo/,Yes,LX-BIAOBF1-0021; XR-khelu,{},null,"Body, Internal Anatomy, and Ordinary Bodily Functions 1"
+khelu,Khelu,/kheh-loo/,Yes,LX-BIAOBF1-0021; XR-khelu,{},null,"Body, Internal Anatomy, and Ordinary Bodily Functions 1"
 aentash,Aentash,/aehn-tahsh/,,LX-BIAOBF1-0022,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Aen breath + Tash organ""],""variants"":[]}","Body, Internal Anatomy, and Ordinary Bodily Functions 1"
 lumar,Lumar,/loo-mahr/,Yes,LX-BIAOBF1-0023; XR-lumar,{},null,"Body, Internal Anatomy, and Ordinary Bodily Functions 1"
 kedir,Kedir,/keh-deer/,Yes,LX-BIAOBF1-0024; XR-kedir,{},null,"Body, Internal Anatomy, and Ordinary Bodily Functions 1"
@@ -1295,13 +1295,13 @@ marasorl,Marasorl,/mah-rah-sohrl/,,LX-RABFE2-0005,{},"{""origins"":[],""national
 seki,Seki,/seh-kee/,Yes,LX-RABFE2-0006; XR-seki,{},null,"Reproductive Anatomy, Bodily Fluids, and Extremities 2"
 tava,Tava,/tah-vah/,Yes,LX-RABFE2-0007; XR-tava,{},null,"Reproductive Anatomy, Bodily Fluids, and Extremities 2"
 nderu,Nderu,/n-deh-roo/,Yes,LX-RABFE2-0008; XR-nderu,{},null,"Reproductive Anatomy, Bodily Fluids, and Extremities 2"
-nderuxar,Nderuxar,/n-deh-roo-xahr/,,LX-RABFE2-0009,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Nderu testicle + Xar protective covering""],""variants"":[]}","Reproductive Anatomy, Bodily Fluids, and Extremities 2"
+nderuxar,Nderuxar,/n-deh-roo-khahr/,,LX-RABFE2-0009,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Nderu testicle + Xar protective covering""],""variants"":[]}","Reproductive Anatomy, Bodily Fluids, and Extremities 2"
 urenshan,Urenshan,/oo-rehn-shahn/,,LX-RABFE2-0010,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Uren urine + Shan passage""],""variants"":[{""form"":""Urenashan"",""pronunciation"":""/oo-rehn-ah-shahn/""}]}","Reproductive Anatomy, Bodily Fluids, and Extremities 2"
 fena,Fena,/feh-nah/,Yes,LX-RABFE2-0011; XR-fena,{},null,"Reproductive Anatomy, Bodily Fluids, and Extremities 2"
 leya,Leya,/leh-yah/,Yes,LX-RABFE2-0012; XR-leya,{},null,"Reproductive Anatomy, Bodily Fluids, and Extremities 2"
 leyaen,Leyaen,/leh-yah-ehn/,,LX-RABFE2-0013,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Leya sexual arousal + -aen verb""],""variants"":[]}","Reproductive Anatomy, Bodily Fluids, and Extremities 2"
-leyajor,Leyajor,/leh-yah-johr/,,LX-RABFE2-0014,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Leya sexual arousal + Jor surge or burst""],""variants"":[]}","Reproductive Anatomy, Bodily Fluids, and Extremities 2"
-leyajoraen,Leyajoraen,/leh-yah-johr-ah-ehn/,,LX-RABFE2-0015,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Leyajor orgasm + -aen verb""],""variants"":[]}","Reproductive Anatomy, Bodily Fluids, and Extremities 2"
+leyajor,Leyajor,/leh-yah-zhohr/,,LX-RABFE2-0014,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Leya sexual arousal + Jor surge or burst""],""variants"":[]}","Reproductive Anatomy, Bodily Fluids, and Extremities 2"
+leyajoraen,Leyajoraen,/leh-yah-zhohr-ah-ehn/,,LX-RABFE2-0015,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Leyajor orgasm + -aen verb""],""variants"":[]}","Reproductive Anatomy, Bodily Fluids, and Extremities 2"
 kelvordren,Kelvordren,/kehl-vohr-drehn/,,LX-RABFE2-0016,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kelvor mouth + Dren fluid or flow""],""variants"":[{""form"":""Kelvoradren"",""pronunciation"":""/kehl-vohr-ah-drehn/""}]}","Reproductive Anatomy, Bodily Fluids, and Extremities 2"
 lorinshaldren,Lorinshaldren,/loh-reen-shahl-drehn/,,LX-RABFE2-0017,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Lorinshal eye + Dren fluid or flow""],""variants"":[{""form"":""Lorinshaladren"",""pronunciation"":""/loh-reen-shahl-ah-drehn/""}]}","Reproductive Anatomy, Bodily Fluids, and Extremities 2"
 korpir,Korpir,/kohr-peer/,,LX-RABFE2-0018,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kor source core or grip + Pir digit""],""variants"":[]}","Reproductive Anatomy, Bodily Fluids, and Extremities 2"
@@ -1339,7 +1339,7 @@ thalesh,Thalesh,/thah-lehsh/,,LX-DR1-0023,{},"{""origins"":[],""nationalUses"":[
 thalor,Thalor,/thah-lohr/,,LX-DR1-0024,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Thal from/out of + -or; lexicalized as outside (position), not a place noun.""],""variants"":[]}",Dictionary Review 1
 daraen,Daraen,/dahr-ah-ehn/,,LX-DR1-0025,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Dar waiting + -aen verb.""],""variants"":[]}",Dictionary Review 1
 varral,Varral,/vahr-rahl/,,LX-DR1-0026,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Var move + -ral agent/practitioner: one who carries out the activity. Independent Ral retains caretaker/watcher meanings.""],""variants"":[]}",Dictionary Review 1
-karjor,Karjor,/kahr-johr/,,LX-DR1-0027,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kar mechanical force + Jor surge.""],""variants"":[]}",Dictionary Review 1
+karjor,Karjor,/kahr-zhohr/,,LX-DR1-0027,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Kar mechanical force + Jor surge.""],""variants"":[]}",Dictionary Review 1
 kavel,Kavel,/kah-vehl/,,LX-DR1-0028,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Ka absence + Vel wisdom/stillness; approved lexicalized memory-gap meaning.""],""variants"":[]}",Dictionary Review 1
 vorkaral,Vorkaral,/vohr-kahr-ahl/,,LX-DR1-0029,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Vor active role/place of action + Kar tool-work/mechanical force + nominal agent -al one engaged in continuous work. This records the explicit approved component breakdown for this word; verbal continuous -al remains distinct.""],""variants"":[]}",Dictionary Review 1
 noral,Noral,/nohr-ahl/,,LX-DR1-0030,{},"{""origins"":[],""nationalUses"":[],""derivations"":[""Nor time + -al duration; lexicalized nighttime meaning approved by user.""],""variants"":[]}",Dictionary Review 1
@@ -1361,8 +1361,8 @@ vel,Vel,/vehl/,Yes,XR-vel,{},null,
 zhir,Zhir,/zheer/,Yes,XR-zhir,{},null,
 khum,Khum,/khoom/,Yes,XR-khum,{},null,
 tla,Tla,/tlah/,Yes,XR-tla,{},null,
-jor,Jor,/johr/,Yes,XR-jor; DM-RM-V2-0011,{},null,
-jek,Jek,/jehk/,Yes,XR-jek; DM-RM-V2-0012,{},null,
+jor,Jor,/zhohr/,Yes,XR-jor; DM-RM-V2-0011,{},null,
+jek,Jek,/zhehk/,Yes,XR-jek; DM-RM-V2-0012,{},null,
 wek,Wek,/wehk/,Yes,XR-wek; DM-RM-V2-0016,{},null,
 lor,Lor,/lohr/,Yes,XR-lor,{},null,
 wor,Wor,/wohr/,Yes,XR-wor; DM-RM-V2-0017,{},null,
@@ -1375,10 +1375,10 @@ prak,Prak,/prahk/,Yes,XR-prak; DM-RM-V2-0008,{},null,
 bros,Bros,/brohs/,Yes,XR-bros; DM-RM-V2-0004,{},null,
 bal,Bal,/bahl/,Yes,XR-bal; DM-RM-V2-0005,{},null,
 bren,Bren,/brehn/,Yes,XR-bren; DM-RM-V2-0006,{},null,
-jel,Jel,/jehl/,Yes,XR-jel; DM-RM-V2-0013,{},null,
+jel,Jel,/zhehl/,Yes,XR-jel; DM-RM-V2-0013,{},null,
 wel,Wel,/wehl/,Yes,XR-wel; DM-RM-V2-0015,{},null,
-xar,Xar,/xahr/,Yes,XR-xar; DM-RM-V2-0019,{},null,
-xil,Xil,/xeel/,Yes,XR-xil; DM-RM-V2-0018,{},null,
+xar,Xar,/khahr/,Yes,XR-xar; DM-RM-V2-0019,{},null,
+xil,Xil,/kheel/,Yes,XR-xil; DM-RM-V2-0018,{},null,
 mb,Mb,/mb/,Yes,XR-mb,{},null,
 rek,Rek,/rehk/,Yes,XR-rek,{},null,
 rav,Rav,/rahv/,Yes,XR-rav,{},null,
@@ -1414,7 +1414,7 @@ va,Va,/vah/,,DM-RM-V1-0011,{},null,
 -ka,-ka,/-kah/,,DM-RM-V1-0014,{},null,
 kilv,Kilv,/keelv/,Yes,DM-RM-V2-0002,{},null,
 pel,Pel,/pehl/,Yes,DM-RM-V2-0009,{},null,
-jin,Jin,/jeen/,Yes,DM-RM-V2-0014,{},null,
+jin,Jin,/zheen/,Yes,DM-RM-V2-0014,{},null,
 nk-,Nk-,/nk-/,Yes,DM-RM-V2-0020,{},null,
 rav-,Rav-,/rahv-/,Yes,DM-RM-V2-0021; DM-RM-S3-0021,{},null,
 mb-,Mb-,/mb-/,Yes,DM-RM-V2-0022,{},null,
@@ -1484,7 +1484,7 @@ vroshan,Vroshan,/vrohshahn/,,OHC-0010,{},null,
 brinnek,Brinnek,/breennehk/,,OHC-0011,{},null,
 thravic,Thravic,/thrah-veec/,,OHC-0012,{},null,
 fennlur,Fennlur,/fehnnloor/,,OHC-0013,{},null,
-vexflit,Vexflit,/vehxfleet/,,OHC-0014,{},null,
+vexflit,Vexflit,/vehkhfleet/,,OHC-0014,{},null,
 grivol,Grivol,/gree-vohl/,,OHC-0015,{},null,
 rethal,Rethal,/rehthahl/,,OHC-0016,{},null,
 lumora,Lumora,/loo-moh-rah/,,OHC-0017,{},null,

@@ -22,6 +22,10 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  assert.ok(api.findEnglishMatches(dren,'water').length);
  assert.ok(api.findBestLexiconMatch('Serilin'));
  assert.equal(api.findBestLexiconMatch('Thaar')?.term,'Thar');
+ assert.equal(api.buildPronunciation('Aiv'),'/eyev/');
+ assert.equal(api.buildPronunciation('Joreth'),'/zhor-eth/');
+ assert.equal(api.buildPronunciation('Xar'),'/khahr/');
+ assert.match(api.buildPronunciation('Jaixor',[]),/zh.*eye.*kh/);
  const gorm=api.findBestLexiconMatch('Gorm');
  api.renderDetail(gorm);
  assert.match(elements.get('detailView').innerHTML,/The farmer notices blight/);
@@ -36,6 +40,12 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  const grammar=api.state.grammarRules[0];
  api.renderRuleDetail(grammar);
  assert.ok(elements.get('ruleDetailView').innerHTML.length>100);
+ const phoneticGuide=api.state.grammarRules.find(rule=>rule.id==='RG-PRONUNCIATION');
+ assert.ok(phoneticGuide);
+ api.renderRuleDetail(phoneticGuide);
+ assert.match(elements.get('ruleDetailView').innerHTML,/X: KH or KS anywhere/);
+ assert.match(elements.get('ruleDetailView').innerHTML,/AI and OA/);
+ assert.match(elements.get('ruleDetailView').innerHTML,/MB, ND, and NK at the start/);
  api.renderExpressionDetail(api.state.expressions[0]);
  assert.ok(elements.get('expressionDetailView').innerHTML.length>100);
  assert.ok(api.state.rootLookup.length>0);
@@ -122,7 +132,7 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  assert.doesNotMatch(api.findBestLexiconMatch('Aivkorxar').searchText,/aivkor wound \+ xar protective covering/,'search must not index a hidden duplicate origin line');
  assert.match(page,/<h3>Variant forms<\/h3>/);
  assert.match(page,/<strong class="variant-form">Aivakorxar<\/strong>/);
- assert.match(page,/<span class="variant-pronunciation">\/ah-ee-vah-kohr-xahr\/<\/span>/);
+ assert.match(page,/<span class="variant-pronunciation">\/eye-vah-kohr-khahr\/<\/span>/);
  assert.match(page,/<strong>Aivkor<\/strong>[\s\S]*<strong>Xar<\/strong>/);
  assert.doesNotMatch(page,/<p class="family-label">Word origin<\/p>/);
  assert.match(page,/morphology-part--1/);

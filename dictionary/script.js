@@ -2367,10 +2367,6 @@ function buildPronunciation(term, entries = null) {
     .map((entry) => (entry.pronunciation || "").trim())
     .find(Boolean);
   if (explicitPronunciation) return explicitPronunciation;
-  const lookup = raw.toLowerCase();
-  if (PRONUNCIATION_OVERRIDES[lookup]) {
-    return PRONUNCIATION_OVERRIDES[lookup];
-  }
   const cleaned = raw
     .toLowerCase()
     .replace(/[^a-z'\/\-\s]/g, "")
@@ -2402,7 +2398,7 @@ function buildPronunciation(term, entries = null) {
       const prevIsVowel = vowels.has(prev);
 
       if (isVowel && nextIsVowel) {
-        out += "-";
+        if (!(ch === "a" && next === "i")) out += "-";
         continue;
       }
 
@@ -2427,6 +2423,20 @@ function buildPronunciation(term, entries = null) {
       const ch = chunk[i];
       if (ch === "'" || ch === "-") {
         out += ch;
+        continue;
+      }
+      if (ch === "a" && chunk[i + 1] === "i") {
+        out += "eye";
+        i += 1;
+        continue;
+      }
+      if (ch === "x") {
+        out += "kh";
+        if (chunk[i + 1] === "h") i += 1;
+        continue;
+      }
+      if (ch === "j") {
+        out += "zh";
         continue;
       }
       out += vowelSounds[ch] || ch;
