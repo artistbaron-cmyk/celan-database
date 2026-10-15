@@ -1,5 +1,11 @@
 # Celan dictionary audio — new-thread handoff
 
+## Current state — Volume 11 complete (2026-10-15)
+
+The user selected **Ayinde - young British Nigerian** (`77aEIu0qStu8Jwv1EdhX`) for **Volume 11** and asked to start immediately without a fixed 10-second wait. Volume 11 contains **163** Ayinde / `eleven_v4` dictionary-example MP3s in `pass_68` through `pass_73` (30, 30, 30, 30, 30, 13). The accepted Ayinde trial was copied into `pass_68` without generating a duplicate take. Speech prompts use standalone `I`→`-ee` and written `x`→`ks`; manifest text and filenames preserve Celan spelling.
+
+The final audit found **2,163 clips and 2,163 manifest rows** across volumes 1–11, with unique source IDs and normalized Celan texts. Volume 11 files all decode and match manifest filenames, byte sizes, and SHA-256 checksums. Its source records are Canon/Approved, and its rows record Ayinde, `eleven_v4`, and the exact transformed prompts. `next_examples.py --count 30` returns `[]`: no currently eligible unique approved dictionary example remains. Volume 11 intentionally has 37 unused slots. Audio awaits human listening review and is not integrated into the dictionary app. User edits and `ERROR_` filenames remain preserved. Sections below are historical and their continuation instructions are superseded.
+
 ## Current state — Volume 10 complete (2026-10-15)
 
 The user selected **Taiwo - Young African Female - Realistic Voice** (`RAVWJW17BPoSIf05iXxf`) for **Volume 10** after rejecting the new Braon sound. Volume 10 is complete: 200 Taiwo / `eleven_v4` dictionary-example MP3s in `pass_61` through `pass_67` (30, 30, 30, 30, 30, 30, 20). The speech prompt uses standalone `I`→`-ee` and written `x`→`ks`, while filenames and manifest `celan_text` preserve source spelling.
