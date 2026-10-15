@@ -1001,6 +1001,54 @@ input::placeholder { color: #aa9f94; }
 .forge-actions button:disabled { background: #624931; border-color: #624931; color: #aaa098; }
 .forge-list { color: var(--ink); }
 
+/* Grammar Guide: compact navigation and a readable lesson column. */
+.rules-controls { display: grid; grid-template-columns: 1fr; gap: 7px; margin: 0 0 14px; }
+.rule-search-label { color: #dec9b2; font-size: .82rem; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; }
+#ruleSearchInput { width: 100%; max-width: 680px; }
+.panel.rules-intro { padding: 20px 24px; }
+.rules-intro .forge-head h2 { font-size: clamp(1.6rem, 2.4vw, 2.3rem); }
+.rules-intro .forge-head p { max-width: 62ch; }
+.lesson-strip { grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.lesson-card { min-height: 75px; padding: 11px 14px; border-radius: 10px; }
+.lesson-card-title { margin-bottom: 4px; }
+.lesson-card-copy { color: #c9b9a8; font-size: .8rem; line-height: 1.3; }
+.lesson-card.active { box-shadow: inset 3px 0 var(--blue); }
+.companion-block { display: flex; align-items: center; gap: 14px; margin-top: 12px; padding-top: 12px; }
+.companion-block h3 { flex: 0 0 auto; margin: 0; }
+.companion-strip { flex: 1 1 auto; }
+.companion-card { max-width: 380px; min-height: 55px; padding: 9px 12px; }
+.rules-detail-panel { padding: clamp(22px, 3vw, 42px); }
+#ruleDetailView { max-width: 1000px; margin: 0 auto; }
+#ruleDetailView > .entry-word { color: #f3eee7; font-size: clamp(2rem, 3vw, 3rem); line-height: 1.12; }
+#ruleDetailView > .entry-kicker { color: #f0ad66; font-weight: 700; text-transform: uppercase; letter-spacing: .09em; font-size: .75rem; margin-top: 10px; }
+#ruleDetailView > .entry-meta { max-width: 72ch; color: #c9b9a8; font-size: 1rem; line-height: 1.55; }
+.rule-topic-nav, .guide-contents { border: 1px solid #574536; border-radius: 11px; background: #28221d; padding: 17px 19px; margin: 18px 0; }
+.rule-topic-nav h3 { margin: 0 0 11px; font-size: .9rem; color: #f0d2ad; }
+.rule-topic-nav--collapsed { padding: 10px 14px; }
+.rule-topic-nav--collapsed summary { color: #ffc37b; font-weight: 700; cursor: pointer; }
+.rule-topic-nav--collapsed .rule-child-links { margin-top: 12px; }
+.rule-child-links { gap: 7px; }
+.rule-child-link { border-radius: 7px; padding: 7px 11px; text-align: left; }
+.rule-child-link.active { border-color: var(--blue); background: var(--blue-soft); }
+.rule-back-link { border: 0; padding: 0; background: none; color: #ffc37b; font: inherit; font-weight: 700; cursor: pointer; margin: 0 0 8px; }
+.guide-contents { display: flex; flex-wrap: wrap; align-items: center; gap: 7px; background: #211d19; }
+.guide-contents > span { color: #d7c0a7; font-size: .8rem; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; margin-right: 6px; }
+.guide-contents button { border: 1px solid #5d4b3e; background: #2d2722; color: #f3d4ae; border-radius: 6px; padding: 6px 9px; font: inherit; font-size: .82rem; cursor: pointer; }
+.guide-contents button:hover { border-color: var(--blue); }
+#ruleDetailView .detail-grid { gap: 0; }
+#ruleDetailView .detail-grid > .card { padding: 21px 0; max-width: 850px; }
+#ruleDetailView .detail-grid > .card h3 { margin: 0 0 17px; color: #f0d2ad; }
+#ruleDetailView .guide-section { scroll-margin-top: 24px; padding: 16px 19px; border: 1px solid #423930; border-radius: 10px; background: #25211d; }
+#ruleDetailView .guide-section + .guide-section { margin-top: 10px; }
+#ruleDetailView .guide-section h4 { color: #ffc37b; font-size: 1.04rem; }
+#ruleDetailView .guide-section p, #ruleDetailView .guide-section li { color: #e5dbd1; line-height: 1.55; }
+#ruleDetailView .guide-section .guide-point-title { color: #f4dfc7; }
+#ruleDetailView .guide-section .guide-point-copy { color: #d8c9ba; }
+#ruleDetailView .rule-list { color: #e5dbd1; }
+.rule-results { max-height: 500px; overflow-y: auto; }
+.rule-result-list { grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); gap: 8px; }
+.rule-result-card { min-width: 0; }
+
 @media (max-width: 950px) {
   .app { padding: 16px; }
   .top { display: block; margin: 0 0 8px; }
@@ -1009,4 +1057,13 @@ input::placeholder { color: #aa9f94; }
   .controls { grid-template-columns: 1fr; }
   .layout { grid-template-columns: 1fr; }
   .detail-panel { padding: 18px; }
+  .panel.rules-intro { padding: 19px 16px; }
+  .lesson-strip { display: flex; overflow-x: auto; scroll-snap-type: x mandatory; padding-bottom: 6px; }
+  .lesson-card { flex: 0 0 190px; min-height: 95px; scroll-snap-align: start; }
+  .companion-block { display: block; }
+  .companion-block h3 { margin: 0 0 9px; }
+  .companion-card { max-width: none; }
+  .rules-detail-panel { padding: 20px 16px; }
+  .guide-contents { align-items: flex-start; }
+  #ruleDetailView .guide-section { padding: 14px; }
 }

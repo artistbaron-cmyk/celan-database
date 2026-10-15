@@ -197,8 +197,8 @@ function grammarFromCsvRows(rows) {
         ...(section.list || []).flatMap((point) =>
           typeof point === "string" ? [point] : [point.title, point.copy])
       ]);
-      item.searchText = [item.id, item.rule_name, item.displayCategory, item.purpose,
-        item.original_wording, item.examples, item.notes, item.preview,
+      item.searchText = [item.rule_name, item.displayCategory, item.purpose,
+        item.original_wording, item.examples,
         ...(item.relatedHeadwords || []), ...sectionText]
         .filter(Boolean).join(" ").toLowerCase();
     }
@@ -1412,11 +1412,8 @@ function resolveLessonSelection(lessonId) {
 }
 
 function viewerRuleEntries() {
-  const visibleIds = new Set([
-    ...RULE_LESSONS.map((lesson) => resolveLessonSelection(lesson.id)),
-    ...RULE_COMPANIONS.map((page) => page.id)
-  ]);
-  return state.grammarRules.filter((rule) => visibleIds.has(rule.id));
+  // The pronunciation card opens the full phonetic guide; its short overview is redundant.
+  return state.grammarRules.filter((rule) => rule.id !== "LESSON-PRONUNCIATION");
 }
 
 function buildLessonOverviewEntries(rules) {
@@ -1514,15 +1511,19 @@ function renderRuleSearchResults() {
   }
 
   const results = state.filteredRules
-    .slice(0, 10)
     .map((rule) => {
       const lesson = lessonMeta(rule.lessonId);
       const companion = companionMeta(rule.id);
+      const fullPreview = (isGenericRulePurpose(rule.purpose) ? getRuleBodyText(rule) : rule.purpose || getRuleBodyText(rule))
+        .replace(/`/g, "").replace(/\s+/g, " ").trim();
+      const preview = fullPreview.length > 160
+        ? `${fullPreview.slice(0, 160).replace(/\s+\S*$/, "")}…`
+        : fullPreview;
       return `
         <button class="rule-result-card" type="button" data-rule-id="${rule.id}">
           <span class="rule-result-kicker">${companion?.title || lesson?.title || rule.displayCategory}</span>
           <span class="rule-result-title">${rule.rule_name}</span>
-          <span class="rule-result-copy">${rule.preview || rule.purpose}</span>
+          <span class="rule-result-copy">${preview}</span>
         </button>
       `;
     })
@@ -1555,7 +1556,9 @@ function applyRuleFilters() {
   state.filteredRules = visibleEntries.filter((rule) => !needle || rule.searchText.includes(needle));
   state.filteredRules.sort((a, b) => (a.rule_name || "").localeCompare(b.rule_name || ""));
 
-  const selected = visibleEntries.find((rule) => rule.id === state.selectedRuleId) || visibleEntries.find((rule) => rule.id === "RG-PRONUNCIATION") || visibleEntries[0];
+  const selectionPool = needle ? state.filteredRules : visibleEntries;
+  const selected = selectionPool.find((rule) => rule.id === state.selectedRuleId)
+    || (needle ? selectionPool[0] : visibleEntries.find((rule) => rule.id === "RG-PRONUNCIATION") || visibleEntries[0]);
   state.selectedRuleId = selected?.id || null;
 
   renderRuleSearchResults();
@@ -1592,8 +1595,8 @@ function renderRuleBody(text) {
 }
 
 function renderGuideSections(sections) {
-  return sections.map((section) => `
-    <section class="guide-section">
+  return sections.map((section, index) => `
+    <section class="guide-section" id="guide-section-${index}">
       <h4>${formatRuleText(section.title)}</h4>
       ${section.body ? `<p>${formatRuleText(section.body)}</p>` : ""}
       ${section.list?.length ? `<ul class="rule-list">${section.list.map((item) => {
@@ -1620,6 +1623,10 @@ function getRuleBodyText(rule) {
     return rule.purpose;
   }
   return original;
+}
+
+function isGenericRulePurpose(purpose) {
+  return /^How this (part of Celan|sentence pattern|sound pattern) is meant to (work|be spoken)\.$/i.test((purpose || "").trim());
 }
 
 function shouldDisplayRuleNote(noteText) {
@@ -1649,13 +1656,29 @@ function renderRuleDetail(rule) {
   const bodyText = getRuleBodyText(rule);
   const hasGuideSections = Array.isArray(rule.guideSections) && rule.guideSections.length > 0;
   const isGuidePage = rule.id.startsWith("LESSON-") || rule.id.startsWith("RG-") || rule.id.startsWith("PAGE-");
+  const purposeText = isGenericRulePurpose(rule.purpose) ? "" : rule.purpose;
+  const lesson = lessonMeta(rule.lessonId);
+  const overview = state.grammarRules.find((entry) => entry.id === rule.lessonId);
+  const childIds = overview?.childRuleIds || [];
+  const childRules = childIds.map((id) => state.grammarRules.find((entry) => entry.id === id)).filter(Boolean);
+  const showAllChildren = rule.id === overview?.id || rule.id === lesson?.featuredRuleId;
+  const sectionLinks = hasGuideSections && rule.guideSections.length > 3
+    ? `<nav class="guide-contents" aria-label="On this page"><span>On this page</span>${rule.guideSections.map((section, index) => `<button type="button" data-scroll-section="${index}">${formatRuleText(section.title)}</button>`).join("")}</nav>`
+    : "";
 
   els.ruleEmptyState.classList.add("hidden");
   els.ruleDetailView.classList.remove("hidden");
   els.ruleDetailView.innerHTML = `
     <h2 class="entry-word">${rule.rule_name}</h2>
     <p class="entry-kicker">${companionMeta(rule.id) ? "Advanced Companion" : (rule.id.startsWith("LESSON-") || rule.id.startsWith("RG-") ? "Lesson" : rule.displayCategory)}</p>
-    <p class="entry-meta">${rule.purpose}</p>
+    ${purposeText ? `<p class="entry-meta">${purposeText}</p>` : ""}
+    ${lesson && !showAllChildren ? `<button class="rule-back-link" type="button" data-rule-id="${resolveLessonSelection(lesson.id)}">← ${lesson.title}</button>` : ""}
+    ${childRules.length && showAllChildren ? `<nav class="rule-topic-nav" aria-label="Rules in ${lesson?.title || "this lesson"}">
+      <h3>Explore this lesson</h3>
+      <div class="rule-child-links">${childRules.map((child) => `<button class="rule-child-link${child.id === rule.id ? " active" : ""}" type="button" data-rule-id="${child.id}">${child.rule_name}</button>`).join("")}</div>
+    </nav>` : ""}
+    ${childRules.length && !showAllChildren ? `<details class="rule-topic-nav rule-topic-nav--collapsed"><summary>More in ${lesson?.title || "this lesson"}</summary><div class="rule-child-links">${childRules.map((child) => `<button class="rule-child-link${child.id === rule.id ? " active" : ""}" type="button" data-rule-id="${child.id}">${child.rule_name}</button>`).join("")}</div></details>` : ""}
+    ${sectionLinks}
     <div class="detail-grid">
       <section class="card">
         <h3>${companionMeta(rule.id) ? "How This Companion Works" : (isGuidePage ? "How This Lesson Works" : "What This Rule Does")}</h3>
@@ -1663,7 +1686,7 @@ function renderRuleDetail(rule) {
       </section>
       ${exampleText ? `
       <section class="card">
-        <h3>${isGuidePage ? "Useful Examples" : "Canon Examples"}</h3>
+        <h3>Examples</h3>
         ${renderRuleBody(exampleText)}
       </section>
       ` : ""}
@@ -1681,6 +1704,19 @@ function renderRuleDetail(rule) {
       state.activeView = "dictionary";
       renderActiveView();
       jumpToHeadword(btn.dataset.headword);
+    });
+  });
+  els.ruleDetailView.querySelectorAll("[data-rule-id]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      state.selectedRuleId = btn.dataset.ruleId;
+      els.ruleSearchInput.value = "";
+      applyRuleFilters();
+      scrollRuleDetailIntoView();
+    });
+  });
+  els.ruleDetailView.querySelectorAll("[data-scroll-section]").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      els.ruleDetailView.querySelector(`#guide-section-${btn.dataset.scrollSection}`)?.scrollIntoView({ behavior: "smooth", block: "start" });
     });
   });
 }

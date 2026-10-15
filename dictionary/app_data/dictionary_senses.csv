@@ -23,7 +23,7 @@ thal,1,Yes,Noun,Balance / Harmony,,,LX-V1-0017; LX-V2-0008; LX-V2-0023; LX-V2-00
 thal,2,Yes,Preposition,From / Out of,,,LX-V1-0017; LX-V2-0008; LX-V2-0023; LX-V2-0072; LX-V4-0109; XR-thal,thal-s2
 ka,1,Yes,Preposition,Without,Standalone ka is exclusively without or no. Ownership uses a hyphenated possessor-ka form.,,LX-V1-0018; LX-V3-0018,ka-s1
 ka,2,Yes,Interjection,No,Standalone ka is exclusively without or no. Ownership uses a hyphenated possessor-ka form.,,LX-V1-0018; LX-V3-0018,ka-s2
-an,1,Yes,Preposition,At / in / on (spatial place),Marks place; nor marks time.,,LX-V1-0019; DM-RM-V1-0013,an-s2
+an,1,Yes,Preposition,At / in / on (spatial place),Usually marks place; also appears in established “in” expressions such as an kinnmor (“in the morning”). Nor explicitly marks a time setting.,,LX-V1-0019; DM-RM-V1-0013,an-s2
 nor,1,Yes,Noun,Time / Flow of Time,,,LX-V1-0020; LX-V2-0020; LX-V4-0100; XR-nor,nor-s1
 nor,2,Yes,Preposition,At / In (time),,,LX-V1-0020; LX-V2-0020; LX-V4-0100; XR-nor,nor-s2
 esh,1,Yes,Noun,Sky / Air,,,LX-V1-0021; LX-V2-0006; LX-V2-0071; LX-V4-0110; XR-esh,esh-s1
@@ -253,7 +253,7 @@ kel,4,Yes,Noun,Text / inscribed passage,,,LX-SCP1-0001,kel-s4
 min,1,Yes,Verb,To go/walk/head over - casual,"Use in casual conversation, between friends/family, marketplaces. Avoid Li- / -en unless context requires politeness.",,LX-V3-0013,min-s1
 dro,1,,Noun,Basic physical water,"Builds ordinary terms for drinking, storing, measuring, and distributing physical water.",Yes,XR-dro,dro-s1
 dro,2,Yes,Noun,Water - basic,"Use in casual conversation, between friends/family, marketplaces. Avoid Li- / -en unless context requires politeness.",,LX-V3-0014,dro-s2
-dro,3,Yes,Noun,River / waterway; a flowing body of physical water,"Use for a river or waterway in a geographical context. Dren names water; Drenfel names a stream or brook.",,PE-GCI1-0048,dro-s3
+dro,3,Yes,Noun,River / waterway; a flowing body of physical water,Use for a river or waterway in a geographical context. Dren names water; Drenfel names a stream or brook.,,PE-GCI1-0048,dro-s3
 ar,1,Yes,Particle,"Intensifier - very, intensely",Place after the verb/adjective. Fahaen I ar! (I am terrified!).,,LX-V3-0015; DM-RM-V3-0003,ar-s1
 fel,1,Yes,Particle,"Diminisher - slightly, a bit",Place after the verb/adjective. Theraen I fel. (I long a little.),,LX-V3-0016; DM-RM-V3-0004,fel-s1
 lia,1,Yes,Interjection,Yes,"“Lia, I var dren.” – “Yes, I go to the water.”",,LX-V3-0017,lia-s1
@@ -1487,7 +1487,7 @@ eshvan,1,Yes,Noun,Shop / Store / Market stall,,,LX-DR1-0021,eshvan-s1
 noraen,1,Yes,Verb,To guide / To lead through time or experience / To instruct,,,LX-DR1-0022,noraen-s1
 thalesh,1,Yes,Noun,Ritual / Sacred balance ceremony,,,LX-DR1-0023,thalesh-s1
 thalesh,2,Yes,Verb,To perform a balance rite,,,LX-DR1-0023,thalesh-s2
-thalor,2,Yes,Adverb,Outside; not within something,"Describes a position outside something; it does not name a separate place.",,LX-DR1-0024,thalor-s2
+thalor,2,Yes,Adverb,Outside; not within something,Describes a position outside something; it does not name a separate place.,,LX-DR1-0024,thalor-s2
 daraen,1,Yes,Verb,To wait / To pause / To remain pending,,,LX-DR1-0025,daraen-s1
 varral,1,Yes,Noun,Traveler / Wanderer / Person on a journey,,,LX-DR1-0026,varral-s1
 karjor,1,Yes,Noun,Impact / Mechanical surge / Strike force / Burst of energy,,,LX-DR1-0027,karjor-s1
