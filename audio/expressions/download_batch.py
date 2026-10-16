@@ -42,8 +42,8 @@ def main(queue_path):
         name = item["audio_file"]
         url = item["content_url"]
         parsed = urllib.parse.urlparse(url)
-        prefix = "HW-" if headword_volume or headword_trials else "PE-"
-        if pathlib.Path(name).name != name or not name.startswith(prefix) or not name.endswith(".mp3"):
+        prefixes = ("HW-",) if headword_volume or headword_trials else ("PE-", "EX-")
+        if pathlib.Path(name).name != name or not name.startswith(prefixes) or not name.endswith(".mp3"):
             raise ValueError(f"Invalid output filename: {name}")
         if parsed.scheme != "https" or parsed.hostname != "storage.googleapis.com" or not parsed.path.startswith(ALLOWED_PATH):
             raise ValueError("Unexpected download URL")

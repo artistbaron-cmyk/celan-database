@@ -15,6 +15,7 @@ import sys
 PROJECT = pathlib.Path(__file__).resolve().parents[2]
 AUDIO = PROJECT / "audio" / "expressions"
 EXAMPLES = PROJECT / "dictionary" / "app_data" / "dictionary_examples.csv"
+EXPRESSIONS = PROJECT / "dictionary" / "app_data" / "expressions_app.json"
 
 
 def read_csv(path):
@@ -38,6 +39,7 @@ def main(pass_name, items):
         for row in app
         if row["entry_id"]
     }
+    expression_by_id = {row["expression_id"]: row for row in json.loads(EXPRESSIONS.read_text())}
     manifest_paths = sorted(AUDIO.glob("volume_???/manifest.csv"))
     existing = [row for path in manifest_paths for row in read_csv(path)[1]]
     existing_ids = {row["source_id"] for row in existing}
@@ -48,7 +50,11 @@ def main(pass_name, items):
     # Validate the whole batch before changing a manifest.
     for item in items:
         ident, text = item["entry_id"], item["celan_text"]
-        assert (ident, text) in app_pairs
+        expression = expression_by_id.get(ident)
+        if expression:
+            assert expression["celan_expression"] == text
+        else:
+            assert (ident, text) in app_pairs
         assert ident not in existing_ids and text.strip().casefold() not in existing_texts
         existing_ids.add(ident)
         existing_texts.add(text.strip().casefold())
@@ -67,6 +73,7 @@ def main(pass_name, items):
         assert len(list(volume.glob("*.mp3"))) <= 200
         for item in group:
             text = item["celan_text"]
+            expression = expression_by_id.get(item["entry_id"])
             path = volume / item["audio_file"]
             attention = []
             if re.search(r"(?<!\w)I(?!\w)", text):
@@ -79,9 +86,9 @@ def main(pass_name, items):
                 dict(
                     slot=str(len(rows) + 1),
                     source_id=item["entry_id"],
-                    source_kind="Dictionary example",
+                    source_kind="Expression" if expression else "Dictionary example",
                     celan_text=text,
-                    pronunciation="",
+                    pronunciation=expression["pronunciation"] if expression else "",
                     natural_meaning=item["translation"],
                     source_review_status="Approved in dictionary app by user",
                     audio_file=item["audio_file"],

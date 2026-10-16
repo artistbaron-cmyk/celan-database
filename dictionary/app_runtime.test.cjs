@@ -38,9 +38,9 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  api.renderDetail(api.findBestLexiconMatch('-en'));
  assert.match(elements.get('detailView').innerHTML,/aria-label="Play Li-Seren-en, var nor Varthas shenakar\?"/);
  api.renderDetail(api.findBestLexiconMatch('-in'));
- assert.doesNotMatch(elements.get('detailView').innerHTML,/aria-label="Play var shalor-in an shalor\."/);
+ assert.match(elements.get('detailView').innerHTML,/aria-label="Play var shalor-in an shalor\."/);
  api.renderDetail(api.findBestLexiconMatch('-lin'));
- assert.doesNotMatch(elements.get('detailView').innerHTML,/aria-label="Play shalaen I eshlin\."/);
+ assert.match(elements.get('detailView').innerHTML,/aria-label="Play shalaen I eshlin\."/);
  const jekvarin=api.findBestLexiconMatch('Jekvarin');
  api.renderDetail(jekvarin);
  assert.match(elements.get('detailView').innerHTML,/<h3>Morphology<\/h3>/);
@@ -58,6 +58,10 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  api.renderExpressionDetail(api.state.expressions[0]);
  assert.ok(elements.get('expressionDetailView').innerHTML.length>100);
  assert.match(elements.get('expressionDetailView').innerHTML,/class="audio-play"/);
+ for(const expression of api.state.expressions){
+   api.renderExpressionDetail(expression);
+   assert.match(elements.get('expressionDetailView').innerHTML,/class="audio-play"/,`expression has no audio: ${expression.celan_expression}`);
+ }
  assert.ok(api.state.rootLookup.length>0);
  assert.ok(api.state.forgeParts.length>0);
  const visibleCount=api.state.groupedEntries.reduce((count,group)=>count+group.englishSenses.length,0);

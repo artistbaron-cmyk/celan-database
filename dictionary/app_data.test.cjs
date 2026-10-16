@@ -85,7 +85,12 @@ assert.equal(expressions.length,107);
 const ids=new Set(entries.map(row=>row.id));
 assert.equal(ids.size,entries.length,'duplicate headword ids');
 for(const row of senses)assert.ok(ids.has(row.headword_id),'orphan sense: '+row.headword_id);
-for(const row of examples){assert.ok(ids.has(row.headword_id),'orphan example: '+row.headword_id);assert.ok(['direct','related','teaching'].includes(row.section),'invalid example section');}
+for(const row of examples){
+  assert.ok(ids.has(row.headword_id),'orphan example: '+row.headword_id);
+  assert.ok(['direct','related','teaching'].includes(row.section),'invalid example section');
+  const aliasKey=row.entry_id||`text:${row.celan_text.trim().toLowerCase()}`;
+  assert.ok(audio.phrases[row.entry_id]||audio.phrases[audio.exampleAliases[aliasKey]],`example has no audio: ${row.celan_text}`);
+}
 for(const row of entries){
   const family=families[row.id];
   assert.ok(family,'missing family record: '+row.id);
