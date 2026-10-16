@@ -70,6 +70,29 @@ function splitIds(ids) {
 
 const RESULT_BATCH_SIZE = 100;
 const EXAMPLE_PREVIEW_LIMIT = 2;
+const THEME_STORAGE_KEY = "celan-dictionary-theme";
+
+function setTheme(theme) {
+  const light = theme === "light";
+  document.documentElement.dataset.theme = light ? "light" : "dark";
+  const toggle = document.getElementById("themeToggle");
+  if (toggle) {
+    toggle.textContent = light ? "☾ Dark" : "☀ Light";
+    toggle.setAttribute("aria-label", `Switch to ${light ? "dark" : "light"} theme`);
+    toggle.setAttribute("aria-pressed", String(light));
+  }
+  try { localStorage.setItem(THEME_STORAGE_KEY, light ? "light" : "dark"); } catch (_) {}
+}
+
+function wordTypeClass(type) {
+  return `word-type--${String(type || "").trim().toLowerCase().replace(/[^a-z0-9]+/g, "-")}`;
+}
+
+try { setTheme(localStorage.getItem(THEME_STORAGE_KEY) || "dark"); }
+catch (_) { setTheme("dark"); }
+document.getElementById("themeToggle")?.addEventListener("click", () => {
+  setTheme(document.documentElement.dataset.theme === "light" ? "dark" : "light");
+});
 let RULE_LESSONS = [];
 let RULE_COMPANIONS = [];
 let CULTURAL_LENSES = {};
@@ -2191,7 +2214,17 @@ function renderList(appendFrom = 0) {
     const gloss = document.createElement("span");
     gloss.className = "sub";
     gloss.textContent = preview || "No gloss";
+    const types = [...new Set(displayUses(group).map((use) => (use.type || "").trim()).filter(Boolean))];
+    const typeRow = document.createElement("span");
+    typeRow.className = "word-type-row";
+    types.forEach((type) => {
+      const chip = document.createElement("span");
+      chip.className = `word-type-chip ${wordTypeClass(type)}`;
+      chip.textContent = type;
+      typeRow.appendChild(chip);
+    });
     btn.append(term, gloss);
+    if (types.length) btn.appendChild(typeRow);
     btn.onclick = () => {
       navigateEntry({ kind: "word", value: group.id }, () => {
         state.selectedId = group.id;
@@ -2901,7 +2934,7 @@ function renderDetail(group) {
     const repeatedInMorphology = displayedSources.has(usageNote.toLowerCase());
     const linkedExamples = organizedExamples.linkedBySense.get(use.senseId) || [];
     return `
-      <section class="sense-block" data-sense-id="${escapeMarkup(use.senseId || '')}">
+      <section class="sense-block ${wordTypeClass(displayType)}" data-sense-id="${escapeMarkup(use.senseId || '')}">
         <div class="sense-heading">${displayType ? `<span class="sense-type">${escapeMarkup(displayType)}</span>` : ""}${rootWordMarker ? `<span class="sense-marker">${escapeMarkup(rootWordMarker)}</span>` : ""}</div>
         <p class="sense-meaning">${escapeMarkup(use.meaning || "No meaning available.")}</p>
         ${usageNote && !repeatedInMorphology ? `<p class="sense-usage">${escapeMarkup(usageNote)}</p>` : ""}

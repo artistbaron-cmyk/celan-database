@@ -3,8 +3,8 @@ const fs=require('node:fs');
 const path=require('node:path');
 const vm=require('node:vm');
 const elements=new Map();
-function element(){return {innerHTML:'',textContent:'',value:'',children:[],dataset:{},classList:{add(){},remove(){},toggle(){},contains(){return false}},append(){},appendChild(){},addEventListener(){},querySelectorAll(){return []},scrollIntoView(){}}}
-const document={getElementById(id){if(!elements.has(id))elements.set(id,element());return elements.get(id)},createElement:element,querySelector:element};
+function element(){return {innerHTML:'',textContent:'',value:'',children:[],dataset:{},classList:{add(){},remove(){},toggle(){},contains(){return false}},append(){},appendChild(){},addEventListener(){},setAttribute(){},querySelectorAll(){return []},scrollIntoView(){}}}
+const document={documentElement:{dataset:{}},getElementById(id){if(!elements.has(id))elements.set(id,element());return elements.get(id)},createElement:element,querySelector:element};
 const window={EMBEDDED_DATA:null,location:null,addEventListener(){},matchMedia(){return {matches:false}},requestAnimationFrame(fn){fn()}};
 const context=vm.createContext({console,window,document,setTimeout,clearTimeout});
 const html=fs.readFileSync(path.join(__dirname,'index.html'),'utf8');
@@ -12,14 +12,22 @@ for(const [,src] of html.matchAll(/<script src="([^"]+)"/g)){
  const filename=path.resolve(__dirname,src.split('?')[0]);
  vm.runInContext(fs.readFileSync(filename,'utf8'),context,{filename});
 }
-vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMatch,renderDetail,renderRuleDetail,renderExpressionDetail,analyzeForgeTerm,buildPronunciation,displayUses,normalizeHeadword}',context);
+vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMatch,renderDetail,renderRuleDetail,renderExpressionDetail,analyzeForgeTerm,buildPronunciation,displayUses,normalizeHeadword,setTheme}',context);
 (async()=>{
  const api=context.appTest;
+ assert.equal(document.documentElement.dataset.theme,'dark');
+ api.setTheme('light');
+ assert.equal(document.documentElement.dataset.theme,'light');
+ assert.equal(elements.get('themeToggle').textContent,'☾ Dark');
+ api.setTheme('dark');
  for(let i=0;i<100&&!api.state.groupedEntries.length;i++)await new Promise(resolve=>setTimeout(resolve,50));
  assert.equal(api.state.groupedEntries.length,1495);
  const dren=api.findBestLexiconMatch('Dren');
  assert.ok(dren);
  assert.ok(api.findEnglishMatches(dren,'water').length);
+ api.renderDetail(api.findBestLexiconMatch('Belshara'));
+ assert.match(elements.get('detailView').innerHTML,/class="sense-block word-type--noun"/);
+ assert.match(elements.get('detailView').innerHTML,/class="sense-block word-type--modal"/);
  assert.ok(api.findBestLexiconMatch('Serilin'));
  assert.equal(api.findBestLexiconMatch('Thaar')?.term,'Thar');
  assert.equal(api.buildPronunciation('Aiv'),'/eyev/');
@@ -85,7 +93,7 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
    for(const [,target] of page.matchAll(/data-headword="([^"]+)"/g)){
      assert.ok(api.state.groupedEntries.some(entry=>entry.id===api.normalizeHeadword(target)),`${group.term} links to a missing word: ${target}`);
    }
-   assert.equal((page.match(/class="sense-block"/g)||[]).length,visible.length,`${group.term} has an incorrect number of visible meanings`);
+   assert.equal((page.match(/class="sense-block word-type--[^"]+"/g)||[]).length,visible.length,`${group.term} has an incorrect number of visible meanings`);
    assert.equal((page.match(/class="sense-type"/g)||[]).length,visible.filter(sense=>sense.type).length,`${group.term} is missing a word type`);
    assert.doesNotMatch(page,/Sense assignment pending review|Retain as-is|Preserved as standalone root\/morpheme because source clearly defines it|The source gloss|Builds the approved|Source uses Ohnoshan|Names the organ without embedding an unapproved theory/i,`${group.term} exposes an internal note`);
    const family=api.state.familyIndex.get(group.id)||{};
@@ -116,7 +124,7 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  assert.match(page,/<strong>Aen<\/strong>[\s\S]*<strong>-or<\/strong>/);
  api.renderDetail(api.findBestLexiconMatch('An'));
  page=elements.get('detailView').innerHTML;
- assert.equal((page.match(/class="sense-block"/g)||[]).length,1);
+ assert.equal((page.match(/class="sense-block word-type--[^"]+"/g)||[]).length,1);
  assert.match(page,/Preposition/);
  assert.match(page,/<h3>Examples using this word \(869\)<\/h3>/);
  assert.match(page,/<summary>More examples \(867\)<\/summary>/);
