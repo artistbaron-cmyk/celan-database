@@ -14,12 +14,32 @@ const html = fs.readFileSync(path.join(appDir, 'index.html'), 'utf8');
 const scripts = [...html.matchAll(/<script src="([^"]+)"/g)].map(match => match[1].split('?')[0]);
 assert.deepEqual(scripts, [
   './app_data/embedded_data.js',
+  './app_data/audio_catalog.js',
   './app_data/phrase_builder_content.js',
   './script.js'
 ]);
 const bundleContext = vm.createContext({window:{}});
 vm.runInContext(fs.readFileSync(path.join(dataDir,'embedded_data.js'),'utf8'),bundleContext);
+vm.runInContext(fs.readFileSync(path.join(dataDir,'audio_catalog.js'),'utf8'),bundleContext);
 const bundle = bundleContext.window.EMBEDDED_DATA;
+const audio = bundleContext.window.CELAN_AUDIO_CATALOG;
+assert.equal(Object.keys(audio.headwords).length,1495);
+assert.equal(Object.keys(audio.variants).length,197);
+const expressionsDir=path.join(appDir,'..','audio','expressions');
+const expressionFileCount=fs.readdirSync(expressionsDir).filter(name=>/^volume_\d{3}$/.test(name)).reduce((count,name)=>
+  count+fs.readdirSync(path.join(expressionsDir,name)).filter(file=>file.endsWith('.mp3')&&!file.startsWith('ERROR_')).length,0);
+assert.equal(Object.keys(audio.phrases).length,expressionFileCount);
+assert.equal(audio.exampleAliases['text:li-seren-en, var nor varthas shenakar?'],'PE-V3-0005');
+for(const [alias, source] of Object.entries(audio.exampleAliases)){
+  assert.ok(audio.phrases[source],`example alias has no playable source: ${alias}`);
+}
+for(const clips of [audio.headwords,audio.variants,audio.phrases]){
+  for(const clip of Object.values(clips)){
+    const file=path.join(appDir,'..','audio',decodeURIComponent(clip.path));
+    assert.ok(fs.existsSync(file),`missing playable audio: ${file}`);
+    assert.ok(!path.basename(file).startsWith('ERROR_'),`flagged audio reached app: ${file}`);
+  }
+}
 assert.deepEqual(Object.keys(bundle).sort(),sourceFiles.slice().sort());
 for(const name of sourceFiles){
   assert.equal(bundle[name],fs.readFileSync(path.join(dataDir,name),'utf8'),name+' differs from offline bundle');

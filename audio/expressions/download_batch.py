@@ -1,7 +1,7 @@
 """Download approved Celan speech generations from a JSON queue.
 
 Each queue item has ``audio_file`` and a short-lived ElevenLabs ``content_url``.
-The script only writes new MP3s under expression volumes 7 through 11,
+The script only writes new MP3s under expression volumes,
 headword volumes 1 through 9 and pronunciation trials, or the volume 10 voice review
 folder. It never replaces a file.
 """
@@ -9,6 +9,7 @@ folder. It never replaces a file.
 import json
 import os
 import pathlib
+import re
 import sys
 import urllib.parse
 import urllib.request
@@ -22,7 +23,7 @@ ALLOWED_PATH = "/xi-backend/database/workspace/f11dacdb41c24801a857b71a40aec625/
 def main(queue_path):
     queue = pathlib.Path(queue_path).resolve()
     volume = queue.parent
-    normal_volume = volume.parent == AUDIO and volume.name in {"volume_007", "volume_008", "volume_009", "volume_010", "volume_011"}
+    normal_volume = volume.parent == AUDIO and re.fullmatch(r"volume_\d{3}", volume.name) is not None
     headword_volume = volume.parent == HEADWORDS and volume.name in {"volume_001", "volume_002", "volume_003", "volume_004", "volume_005", "volume_006", "volume_007", "volume_008", "volume_009"}
     headword_trials = volume == HEADWORDS / "pronunciation_trials"
     review_folder = volume == AUDIO / "volume_010" / "voice_review"

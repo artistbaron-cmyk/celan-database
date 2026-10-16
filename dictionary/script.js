@@ -75,6 +75,57 @@ let RULE_COMPANIONS = [];
 let CULTURAL_LENSES = {};
 let RETRIEVAL_PACKS = [];
 const appHeadwords = new Map();
+const audioCatalog = window.CELAN_AUDIO_CATALOG || {headwords: {}, variants: {}, phrases: {}};
+const audioBase = (window.CELAN_AUDIO_BASE || "../audio").replace(/\/+$/, "");
+let audioPlayer = null;
+let activeAudioButton = null;
+
+function audioButton(clip, label, compact = false) {
+  if (!clip?.path) return "";
+  return `<button class="audio-play${compact ? ' audio-play--compact' : ''}" type="button" data-audio-path="${escapeMarkup(clip.path)}" aria-label="Play ${escapeMarkup(label)}" title="Play ${escapeMarkup(label)}">${compact ? '▶' : '▶ Listen'}</button>`;
+}
+
+function resetAudioButton() {
+  if (!activeAudioButton) return;
+  const button = activeAudioButton;
+  button.classList.remove("is-playing");
+  button.textContent = button.classList.contains("audio-play--compact") ? "▶" : "▶ Listen";
+  button.setAttribute("aria-label", button.dataset.playLabel);
+  activeAudioButton = null;
+}
+
+function playAudioButton(button) {
+  if (!audioPlayer) {
+    audioPlayer = new Audio();
+    audioPlayer.addEventListener("ended", resetAudioButton);
+    audioPlayer.addEventListener("error", resetAudioButton);
+  }
+  if (activeAudioButton === button && !audioPlayer.paused) {
+    audioPlayer.pause();
+    resetAudioButton();
+    return;
+  }
+  audioPlayer.pause();
+  resetAudioButton();
+  activeAudioButton = button;
+  button.dataset.playLabel = button.getAttribute("aria-label");
+  button.classList.add("is-playing");
+  button.textContent = button.classList.contains("audio-play--compact") ? "❚❚" : "❚❚ Pause";
+  button.setAttribute("aria-label", "Pause audio");
+  audioPlayer.src = `${audioBase}/${button.dataset.audioPath}`;
+  audioPlayer.play().catch(() => {
+    if (activeAudioButton === button) {
+      resetAudioButton();
+      button.textContent = "Audio unavailable";
+    }
+  });
+}
+
+function attachAudioButtons(container) {
+  container.querySelectorAll(".audio-play").forEach(button => {
+    button.addEventListener("click", () => playAudioButton(button));
+  });
+}
 
 const state = {
   visibleResultCount: RESULT_BATCH_SIZE,
@@ -462,12 +513,15 @@ function expressionHeadwords(entry) {
 function renderExpressionDetail(entry) {
   const isSlur = entry.expression_type === "Slur";
   const headwords = expressionHeadwords(entry);
+  const standaloneHeadword = !/\s/.test(entry.celan_expression.trim())
+    ? audioCatalog.headwords[normalizeHeadword(entry.celan_expression)] : null;
+  const expressionClip = audioCatalog.phrases[entry.expression_id] || standaloneHeadword;
   const tags = [entry.expression_type, entry.register, entry.origin_nation]
     .filter(Boolean).map((value) => `<span class="expression-tag">${escapeMarkup(value)}</span>`).join("");
   els.expressionEmptyState.classList.add("hidden");
   els.expressionDetailView.classList.remove("hidden");
   els.expressionDetailView.innerHTML = `
-    <h2 class="entry-word">${escapeMarkup(entry.celan_expression)}</h2>
+    <div class="entry-title-row"><h2 class="entry-word">${escapeMarkup(entry.celan_expression)}</h2>${audioButton(expressionClip, entry.celan_expression)}</div>
     <p class="entry-pronunciation">${escapeMarkup(entry.pronunciation || "Pronunciation not available.")}</p>
     <div class="expression-meta">${tags}</div>
     ${isSlur ? `<p class="expression-warning"><strong>Offensive language:</strong> This entry documents how national hostility appears in Celan. It should not be treated as neutral address.</p>` : ""}
@@ -485,6 +539,7 @@ function renderExpressionDetail(entry) {
       jumpToHeadword(button.dataset.expressionHeadword);
     });
   });
+  attachAudioButtons(els.expressionDetailView);
 }
 
 function isWordEntry(row) {
@@ -2310,7 +2365,9 @@ function renderExampleCard(example) {
   const kind = example.display_kind || '';
   const kindLabel = kind === 'related_idiom' ? 'Idiom or saying' : kind === 'related_phrase' ? 'Phrase' : '';
   const placement = `${example.section || ''}:${example.display_order || ''}`;
-  return `<div class="sentence-example" data-example-placement="${escapeMarkup(placement)}">${kindLabel ? `<p class="example-kind">${kindLabel}</p>` : ''}<p class="example-celan">${escapeMarkup(example.celan_text)}</p>${example.translation ? `<p class="example-english">“${escapeMarkup(example.translation)}”</p>` : ''}</div>`;
+  const aliasKey = example.entry_id || `text:${example.celan_text.trim().toLowerCase()}`;
+  const clip = audioCatalog.phrases[example.entry_id] || audioCatalog.phrases[audioCatalog.exampleAliases?.[aliasKey]];
+  return `<div class="sentence-example" data-example-placement="${escapeMarkup(placement)}">${kindLabel ? `<p class="example-kind">${kindLabel}</p>` : ''}<p class="example-celan">${escapeMarkup(example.celan_text)}${audioButton(clip, example.celan_text, true)}</p>${example.translation ? `<p class="example-english">“${escapeMarkup(example.translation)}”</p>` : ''}</div>`;
 }
 
 function renderExampleList(examples) {
@@ -2856,14 +2913,14 @@ function renderDetail(group) {
   els.emptyState.classList.add("hidden");
   els.detailView.classList.remove("hidden");
   els.detailView.innerHTML = `
-    <div class="entry-title-row"><h2 class="entry-word">${escapeMarkup(group.term)}</h2></div>
+    <div class="entry-title-row"><h2 class="entry-word">${escapeMarkup(group.term)}</h2>${audioButton(audioCatalog.headwords[group.id], group.term)}</div>
     <p class="entry-pronunciation">${escapeMarkup(pronunciation || "Pronunciation not available.")}</p>
     <div class="detail-grid entry-template entry-template--${template}" data-entry-template="${template}">
       <section class="card meaning-card">
         ${useMarkup}
         ${override?.usageNote && displayUsageNote({usage:override.usageNote}) ? `<p class="sense-usage">${escapeMarkup(override.usageNote)}</p>` : ""}
       </section>
-      ${metadata?.variants?.length ? `<section class="card variant-card"><h3>Variant forms</h3><div class="variant-list">${metadata.variants.map(variant => `<div class="variant-item"><strong class="variant-form">${escapeMarkup(variant.form)}</strong>${variant.pronunciation ? `<span class="variant-pronunciation">${escapeMarkup(variant.pronunciation)}</span>` : ''}</div>`).join('')}</div></section>` : ''}
+      ${metadata?.variants?.length ? `<section class="card variant-card"><h3>Variant forms</h3><div class="variant-list">${metadata.variants.map((variant, index) => `<div class="variant-item"><strong class="variant-form">${escapeMarkup(variant.form)}</strong>${variant.pronunciation ? `<span class="variant-pronunciation">${escapeMarkup(variant.pronunciation)}</span>` : ''}${audioButton(audioCatalog.variants[`${group.id}#v${String(index + 1).padStart(2, '0')}`], variant.form, true)}</div>`).join('')}</div></section>` : ''}
       ${morphologyAnalyses.length ? `<section class="card morphology-card"><h3>Morphology</h3>${morphologyAnalyses.map(analysis => `
         <div class="morphology-analysis">
           ${wordBuildingScope(analysis.senseIds, primaryUses) ? `<p class="word-building-scope">${escapeMarkup(wordBuildingScope(analysis.senseIds, primaryUses))}</p>` : ''}
@@ -2900,6 +2957,7 @@ function renderDetail(group) {
       jumpToWordFamily(btn.dataset.rootTerm || "");
     });
   });
+  attachAudioButtons(els.detailView);
 }
 
 async function init() {

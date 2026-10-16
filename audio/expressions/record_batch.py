@@ -14,7 +14,6 @@ import sys
 
 PROJECT = pathlib.Path(__file__).resolve().parents[2]
 AUDIO = PROJECT / "audio" / "expressions"
-SOURCES = PROJECT / "data" / "phrases_and_examples.csv"
 EXAMPLES = PROJECT / "dictionary" / "app_data" / "dictionary_examples.csv"
 
 
@@ -33,13 +32,11 @@ def write_csv(path, fields, rows):
 
 def main(pass_name, items):
     assert items and len(items) <= 30
-    _, sources = read_csv(SOURCES)
-    source_by_id = {row["entry_id"]: row for row in sources}
     _, app = read_csv(EXAMPLES)
     app_pairs = {
         (row["entry_id"], row["celan_text"])
         for row in app
-        if row["display_kind"] == "sentence"
+        if row["entry_id"]
     }
     manifest_paths = sorted(AUDIO.glob("volume_???/manifest.csv"))
     existing = [row for path in manifest_paths for row in read_csv(path)[1]]
@@ -51,8 +48,6 @@ def main(pass_name, items):
     # Validate the whole batch before changing a manifest.
     for item in items:
         ident, text = item["entry_id"], item["celan_text"]
-        source = source_by_id[ident]
-        assert source["canon_status"] == "Canon" and source["review_status"] == "Approved"
         assert (ident, text) in app_pairs
         assert ident not in existing_ids and text.strip().casefold() not in existing_texts
         existing_ids.add(ident)
@@ -88,7 +83,7 @@ def main(pass_name, items):
                     celan_text=text,
                     pronunciation="",
                     natural_meaning=item["translation"],
-                    source_review_status="Approved",
+                    source_review_status="Approved in dictionary app by user",
                     audio_file=item["audio_file"],
                     voice_name=item["voice_name"],
                     voice_id=item["voice_id"],
@@ -97,9 +92,9 @@ def main(pass_name, items):
                     duration_seconds=str(item["duration_seconds"]),
                     bytes=str(path.stat().st_size),
                     sha256=hashlib.sha256(path.read_bytes()).hexdigest(),
-                    audio_review_status="Pending human listening review",
+                    audio_review_status="Unflagged; available for app playback",
                     pronunciation_attention="; ".join(attention),
-                    app_integration_status="Not integrated",
+                    app_integration_status="Integrated in local dictionary app after catalog rebuild",
                     source_pass=pass_name,
                     generation_prompt=item.get("generation_prompt", text),
                 )
@@ -122,7 +117,7 @@ def main(pass_name, items):
             body = (
                 f"# Celan dictionary audio · {volume_name.replace('_', ' ')}\n\n"
                 f"Capacity: 200 clips. Currently: {count} clips: {kinds['Expression']} Expressions entries and {kinds['Dictionary example']} dictionary example sentences. Add future clips here until the folder reaches 200; then start the next volume.\n\n"
-                "Each MP3 starts with its stable source ID and includes readable Celan text. The manifest records the source, translation, voice, model, checksum, and review state. Audio awaits human listening review and is not integrated into the dictionary app.\n"
+                "Each MP3 starts with its stable source ID and includes readable Celan text. The manifest records the source, translation, voice, model, checksum, and review state. Unflagged audio is available in the local dictionary app after its catalog is rebuilt.\n"
             )
         readme.write_text(body)
 

@@ -2,6 +2,8 @@
 
 This folder contains **everything the current app reads to display dictionary entries, examples, grammar, expressions, and Phrase Builder responses**. Edit these files to change what students see. The older lexicon and working files are preserved in `../source_history/` and the project `data/` folder; the app does not read them.
 
+`audio_catalog.js` is a generated link map for approved MP3s in the project `audio/` folder. It is not a dictionary content source. After adding or replacing an active recording, update its volume manifest and run `python3 dictionary/build_audio_catalog.py` from the project root. The builder checks file hashes and source IDs and leaves `ERROR_` clips out. See [audio integration notes](../AUDIO_INTEGRATION.md).
+
 | Edit this file | What it controls |
 | --- | --- |
 | `dictionary_entries.csv` | One row per headword: spelling, pronunciation, word-origin metadata, source IDs, and headword display settings |
@@ -29,6 +31,7 @@ From the project root:
 
 ```sh
 node dictionary/build_embedded_data.js
+python3 dictionary/build_audio_catalog.py
 node dictionary/export_dictionary_csv.js
 node dictionary/app_data.test.cjs
 node dictionary/edit_rebuild.test.cjs

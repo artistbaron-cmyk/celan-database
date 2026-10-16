@@ -29,9 +29,18 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  const gorm=api.findBestLexiconMatch('Gorm');
  api.renderDetail(gorm);
  assert.match(elements.get('detailView').innerHTML,/The farmer notices blight/);
+ assert.match(elements.get('detailView').innerHTML,/aria-label="Play Gorm"/);
  assert.match(elements.get('detailView').innerHTML,/data-headword="Gormeth"/);
  assert.equal((elements.get('detailView').innerHTML.match(/class="sentence-example"/g)||[]).length,3);
  assert.doesNotMatch(elements.get('detailView').innerHTML,/<summary>Source<\/summary>|Literal gloss|Expansion example/);
+ api.renderDetail(api.findBestLexiconMatch('I'));
+ assert.match(elements.get('detailView').innerHTML,/aria-label="Play var I an dren\."/);
+ api.renderDetail(api.findBestLexiconMatch('-en'));
+ assert.match(elements.get('detailView').innerHTML,/aria-label="Play Li-Seren-en, var nor Varthas shenakar\?"/);
+ api.renderDetail(api.findBestLexiconMatch('-in'));
+ assert.doesNotMatch(elements.get('detailView').innerHTML,/aria-label="Play var shalor-in an shalor\."/);
+ api.renderDetail(api.findBestLexiconMatch('-lin'));
+ assert.doesNotMatch(elements.get('detailView').innerHTML,/aria-label="Play shalaen I eshlin\."/);
  const jekvarin=api.findBestLexiconMatch('Jekvarin');
  api.renderDetail(jekvarin);
  assert.match(elements.get('detailView').innerHTML,/<h3>Morphology<\/h3>/);
@@ -48,6 +57,7 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  assert.match(elements.get('ruleDetailView').innerHTML,/MB, ND, and NK at the start/);
  api.renderExpressionDetail(api.state.expressions[0]);
  assert.ok(elements.get('expressionDetailView').innerHTML.length>100);
+ assert.match(elements.get('expressionDetailView').innerHTML,/class="audio-play"/);
  assert.ok(api.state.rootLookup.length>0);
  assert.ok(api.state.forgeParts.length>0);
  const visibleCount=api.state.groupedEntries.reduce((count,group)=>count+group.englishSenses.length,0);
@@ -131,6 +141,7 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  page=elements.get('detailView').innerHTML;
  assert.doesNotMatch(api.findBestLexiconMatch('Aivkorxar').searchText,/aivkor wound \+ xar protective covering/,'search must not index a hidden duplicate origin line');
  assert.match(page,/<h3>Variant forms<\/h3>/);
+ assert.match(page,/aria-label="Play Aivakorxar"/);
  assert.match(page,/<strong class="variant-form">Aivakorxar<\/strong>/);
  assert.match(page,/<span class="variant-pronunciation">\/eye-vah-kohr-khahr\/<\/span>/);
  assert.match(page,/<strong>Aivkor<\/strong>[\s\S]*<strong>Xar<\/strong>/);

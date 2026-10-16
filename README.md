@@ -23,6 +23,9 @@ The broader project also includes structured data files, phrase builder support 
 - `dictionary/app_data/`
   - The app's approved content source folder. Edit its headword, sense, and example files; see its README for the grammar, expressions, and Phrase Builder files.
 
+- `audio/`
+  - Active word, variant, and expression recordings with manifests. The dictionary app links to approved clips by stable ID.
+
 - `dictionary/exports/`
   - The generated full dictionary export. The app does not read it.
 
@@ -50,6 +53,8 @@ dictionary/index.html
 ```
 
 in a browser to use the current local app.
+
+The dictionary now shows **Listen** controls for recorded headwords, listed variants, examples, and expressions. Audio loads when you press a control. Keep the `dictionary/` and `audio/` folders together so the local links resolve. See [audio integration notes](dictionary/AUDIO_INTEGRATION.md) for catalog rebuilding, coverage, and hosting the files if the app is published.
 
 Choose **English → Celan** beside the dictionary search box and enter an English
 word or phrase. Exact recorded meanings appear first, followed by definitions

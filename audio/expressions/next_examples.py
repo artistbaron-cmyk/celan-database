@@ -1,4 +1,4 @@
-"""Select the next approved, unique dictionary example audio batch.
+"""Select the next unique example shown in the approved dictionary app.
 
 Read only. The JSON output includes the destination volume and readable filename.
 Selections are spread across source volumes so each review batch is varied.
@@ -16,7 +16,6 @@ import re
 PROJECT = pathlib.Path(__file__).resolve().parents[2]
 AUDIO = PROJECT / "audio" / "expressions"
 EXAMPLES = PROJECT / "dictionary" / "app_data" / "dictionary_examples.csv"
-SOURCES = PROJECT / "data" / "phrases_and_examples.csv"
 
 
 def read_csv(path):
@@ -34,7 +33,8 @@ def filename(entry_id, text):
 
 
 def select(count):
-    source_by_id = {row["entry_id"]: row for row in read_csv(SOURCES)}
+    app_rows = read_csv(EXAMPLES)
+    source_volume_by_id = {row["entry_id"]: row["source_volume"] or "Dictionary app examples" for row in app_rows if row["entry_id"]}
     manifests = sorted(AUDIO.glob("volume_???/manifest.csv"))
     recorded = [row for manifest in manifests for row in read_csv(manifest)]
     used_ids = {row["source_id"] for row in recorded}
@@ -42,30 +42,25 @@ def select(count):
 
     candidates = collections.OrderedDict()
     seen_texts = set()
-    for row in read_csv(EXAMPLES):
-        source = source_by_id.get(row["entry_id"])
+    for row in app_rows:
         text = row["celan_text"].strip()
         key = text.casefold()
         if (
-            not source
-            or row["display_kind"] != "sentence"
-            or source["canon_status"] != "Canon"
-            or source["review_status"] != "Approved"
+            not row["entry_id"]
+            or not text
             or row["entry_id"] in used_ids
             or key in used_texts
             or key in seen_texts
         ):
             continue
         seen_texts.add(key)
-        volume = row["source_volume"] or source["source_volume"]
+        volume = row["source_volume"] or "Dictionary app examples"
         candidates.setdefault(volume, []).append(row)
 
     made_by_source = collections.Counter()
     for row in recorded:
         if row["source_kind"] == "Dictionary example":
-            source = source_by_id.get(row["source_id"])
-            if source:
-                made_by_source[source["source_volume"]] += 1
+            made_by_source[source_volume_by_id.get(row["source_id"], "Dictionary app examples")] += 1
 
     volume_counts = {
         path.name: len(list(path.glob("*.mp3")))

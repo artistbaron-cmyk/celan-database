@@ -905,6 +905,16 @@ input::placeholder { color: #aa9f94; }
 .entry-navigation button { background: #242321; color: var(--ink); }
 .entry-navigation button:hover:not(:disabled) { background: var(--blue-soft); }
 .entry-title-row { display: flex; align-items: center; flex-wrap: wrap; gap: 14px; }
+.audio-play {
+  border: 1px solid #8c6745; border-radius: 999px;
+  background: #392c20; color: #ffcf96;
+  padding: 7px 13px; font-size: .85rem; font-weight: 700;
+  cursor: pointer; white-space: nowrap;
+}
+.audio-play:hover, .audio-play.is-playing { background: #57391f; color: #fff0dc; }
+.audio-play:focus-visible { outline: 2px solid #ffd096; outline-offset: 3px; }
+.audio-play--compact { min-width: 34px; padding: 4px 8px; margin-left: 10px; }
+.variant-item .audio-play { align-self: flex-start; margin-left: 0; }
 .entry-word { color: var(--ink); font-size: clamp(2.1rem, 3vw, 3.1rem); letter-spacing: -.025em; }
 .entry-pronunciation { margin: 2px 0 10px; color: #c5b8aa; }
 .detail-grid { gap: 0; }
