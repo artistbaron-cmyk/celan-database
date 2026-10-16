@@ -1,0 +1,60 @@
+{
+  "voice_name": "Ehshara",
+  "voice_id": "ej0ekewUzWvTFUiKsxvp",
+  "model_id": "eleven_v4",
+  "items": [
+    {
+      "headword_id": "rinaen",
+      "headword": "Rinaen",
+      "variant": "ipa",
+      "generation_prompt": "/riː.nɑː.ɛn/",
+      "audio_file": "HW-rinaen - IPA no h trial.mp3",
+      "status": "downloaded",
+      "generation_id": "1WcPl89mkgWMKI9jhvMo",
+      "session_id": "Zwn7fUIic2egPA9LTpxs",
+      "flow_id": "L3l55tqgC0H8KVp4Sqxc",
+      "node_id": "4KbguyNY2D8cSNE0nZiF",
+      "duration_seconds": 1.12
+    },
+    {
+      "headword_id": "rinaen",
+      "headword": "Rinaen",
+      "variant": "no_h_respelling",
+      "generation_prompt": "Ree-na-en",
+      "audio_file": "HW-rinaen - Ree-na-en trial.mp3",
+      "status": "downloaded",
+      "generation_id": "y1N6bS7DBXxGNM4WgODp",
+      "session_id": "m8Nf0QSIOOUYq3J2JKE9",
+      "flow_id": "L3l55tqgC0H8KVp4Sqxc",
+      "node_id": "vUQ8ywxslgFjOiZmtFv8",
+      "duration_seconds": 0.96
+    },
+    {
+      "headword_id": "aen",
+      "headword": "Aen",
+      "variant": "ipa",
+      "generation_prompt": "/ɑː.ɛn/",
+      "audio_file": "HW-aen - IPA no h trial.mp3",
+      "status": "downloaded",
+      "generation_id": "EO2Vp6fR8SkSKeTsFYll",
+      "session_id": "f9l0fRse7RufUTt43QhX",
+      "flow_id": "L3l55tqgC0H8KVp4Sqxc",
+      "node_id": "xVugpk72lu26mYrMxTNt",
+      "duration_seconds": 0.88
+    },
+    {
+      "headword_id": "aen",
+      "headword": "Aen",
+      "variant": "no_h_respelling",
+      "generation_prompt": "Aa-en",
+      "audio_file": "HW-aen - Aa-en trial.mp3",
+      "status": "downloaded",
+      "generation_id": "Wz1aHgGar13MnLVPdq0R",
+      "session_id": "osUPxddWGGXtcjPrjw0c",
+      "flow_id": "L3l55tqgC0H8KVp4Sqxc",
+      "node_id": "fFS9FseHgGa2ZyJjPe19",
+      "duration_seconds": 1.04
+    }
+  ],
+  "flow_id": "L3l55tqgC0H8KVp4Sqxc"
+}

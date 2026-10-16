@@ -1,0 +1,5 @@
+headword_id,headword,dictionary_pronunciation,variant,generation_prompt,audio_file,voice_name,voice_id,model_id,generation_id,duration_seconds,bytes,sha256,review_status
+rinaen,Rinaen,/ree-nah-ehn/,ahen,Rinahen,HW-rinaen - ahen trial.mp3,Ehshara,ej0ekewUzWvTFUiKsxvp,eleven_v4,GGFKjKx5yaCa6Qq11b99,0.96,33469,0658f8bf0532921a6893b9f8559d929bf780008adb80d85e47584d2025f717a4,Not selected; audible H or wrong vowel
+rinaen,Rinaen,/ree-nah-ehn/,a-en,Rina-en,HW-rinaen - a-en trial.mp3,Ehshara,ej0ekewUzWvTFUiKsxvp,eleven_v4,WwIHAdKLkhaFpjmPVHZi,0.88,32215,064725b6b87f39861561c3ab0537203a78f6d59662648abcfb8ed4a7b23e1b17,Not selected; audible H or wrong vowel
+aen,Aen,/ah-ehn/,ahen,Ahen,HW-aen - ahen trial.mp3,Ehshara,ej0ekewUzWvTFUiKsxvp,eleven_v4,qStiIpcJhAIeETAidCjl,0.96,33469,3dc75cbbf760120defcbfa484b80e02c2aa7fa85aba93ee55c299a201ef4c758,Not selected; audible H or wrong vowel
+aen,Aen,/ah-ehn/,a-en,A-en,HW-aen - a-en trial.mp3,Ehshara,ej0ekewUzWvTFUiKsxvp,eleven_v4,scqHN0fgN4DWUbblOyJK,1.44,41410,a022710edca7b93e78bc7b31b464567b646d9203465b54d91d07ab7622b272fd,Not selected; audible H or wrong vowel

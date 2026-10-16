@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 478" role="img" aria-labelledby="title desc">
+  <title id="title">How deni, denya, and denla point to places</title>
+  <desc id="desc">A speaker on the left stands by a toolkit labeled deni. A listener in the middle stands by a bowl labeled denya. A distant building on the right is labeled denla.</desc>
+  <defs>
+    <linearGradient id="bg" x2="0" y2="1"><stop stop-color="#322921"/><stop offset="1" stop-color="#24211d"/></linearGradient>
+    <pattern id="dots" width="20" height="20" patternUnits="userSpaceOnUse"><circle cx="2" cy="2" r="1" fill="#aa8d6c" opacity=".2"/></pattern>
+  </defs>
+  <rect width="1200" height="478" fill="url(#bg)"/><rect width="1200" height="478" fill="url(#dots)"/>
+  <path d="M0 333H1200" stroke="#76604b" stroke-width="2"/><path d="M0 335H1200V478H0Z" fill="#2e2c25"/>
+  <path d="M90 380Q570 304 1110 370" stroke="#b78f62" stroke-width="2" stroke-dasharray="4 11" fill="none" opacity=".5"/>
+  <path d="M392 118V409M805 118V409" stroke="#665343" stroke-width="2" stroke-dasharray="4 9" opacity=".7"/>
+  <g font-family="Avenir Next, Segoe UI, sans-serif" text-anchor="middle">
+    <text x="196" y="43" fill="#d6c6b6" font-size="17" font-weight="700">NEAR THE SPEAKER</text>
+    <text x="600" y="43" fill="#d6c6b6" font-size="17" font-weight="700">NEAR THE LISTENER</text>
+    <text x="1000" y="43" fill="#d6c6b6" font-size="17" font-weight="700">AWAY FROM BOTH</text>
+  </g>
+  <!-- Speaker -->
+  <g transform="translate(126 213)">
+    <circle cy="-21" r="28" fill="#c29773"/><path d="M-28-22Q-33-64 5-57Q30-51 30-21Q15-33-8-27Z" fill="#302722"/>
+    <path d="M-31 8Q-51 32-44 107L-24 118L-21 175H12L24 114L39 175H70L51 28Q41 8 22 4Z" fill="#b99873" stroke="#dfbc8c" stroke-width="3"/>
+    <path d="M36 20Q53 40 73 44" fill="none" stroke="#c29773" stroke-width="12" stroke-linecap="round"/>
+    <circle cx="75" cy="44" r="7" fill="#c29773"/>
+  </g>
+  <g transform="translate(284 335)">
+    <rect x="-49" y="-39" width="98" height="59" rx="7" fill="#976542" stroke="#efaa5b" stroke-width="3"/>
+    <path d="M-22-39v-15q0-7 8-7h28q8 0 8 7v15" fill="none" stroke="#efaa5b" stroke-width="6"/><rect x="-9" y="-30" width="18" height="15" rx="2" fill="#efaa5b"/>
+  </g>
+  <path d="M196 195Q240 166 284 199" fill="none" stroke="#efaa5b" stroke-width="3" stroke-dasharray="7 7"/><circle cx="284" cy="199" r="6" fill="#efaa5b"/>
+  <!-- Listener -->
+  <g transform="translate(533 213)">
+    <circle cy="-21" r="28" fill="#ae866a"/><path d="M-29-28Q-22-63 4-56Q34-56 31-20Q9-32-19-18Z" fill="#2f2c27"/>
+    <path d="M-28 8Q-49 33-46 108L-17 117L-18 175H13L23 115L35 175H66L50 28Q37 5 20 3Z" fill="#819086" stroke="#c0cbb0" stroke-width="3"/>
+    <path d="M37 22Q57 42 68 67" fill="none" stroke="#ae866a" stroke-width="12" stroke-linecap="round"/>
+  </g>
+  <g transform="translate(708 342)">
+    <path d="M-49-22Q-46 21 0 24Q46 21 49-22Z" fill="#829c91" stroke="#c6d7b5" stroke-width="3"/>
+    <ellipse cy="-22" rx="50" ry="12" fill="#cad7b4"/><ellipse cy="-22" rx="42" ry="7" fill="#6b8886"/>
+  </g>
+  <path d="M601 195Q650 165 708 198" fill="none" stroke="#b7c8aa" stroke-width="3" stroke-dasharray="7 7"/><circle cx="708" cy="198" r="6" fill="#b7c8aa"/>
+  <!-- Distant building -->
+  <g transform="translate(1004 279)">
+    <path d="M-56 67V-8L0-41L56-8V67Z" fill="#515054" stroke="#bac2d0" stroke-width="3"/><path d="M-68-8L0-54L67-8" fill="none" stroke="#bac2d0" stroke-width="7" stroke-linecap="round"/>
+    <path d="M-18 67V28Q-18 10 0 10Q18 10 18 28V67Z" fill="#987e65"/><rect x="-44" y="6" width="12" height="17" rx="4" fill="#9ba8b6"/><rect x="31" y="6" width="12" height="17" rx="4" fill="#9ba8b6"/>
+  </g>
+  <path d="M765 188Q865 116 986 184" fill="none" stroke="#b7bfd0" stroke-width="3" stroke-dasharray="7 7"/><circle cx="986" cy="184" r="6" fill="#b7bfd0"/>
+  <!-- Labels and plain English -->
+  <g font-family="Avenir Next, Segoe UI, sans-serif" text-anchor="middle">
+    <rect x="156" y="381" width="164" height="70" rx="11" fill="#443020" stroke="#a57543"/>
+    <text x="238" y="412" font-size="24" font-weight="800" fill="#efaa5b">deni</text><text x="238" y="436" font-size="13" fill="#e6d4be">this, by me</text>
+    <rect x="619" y="381" width="164" height="70" rx="11" fill="#30392e" stroke="#7c9277"/>
+    <text x="701" y="412" font-size="24" font-weight="800" fill="#b7c8aa">denya</text><text x="701" y="436" font-size="13" fill="#e3e3d7">that, by you</text>
+    <rect x="922" y="381" width="164" height="70" rx="11" fill="#33363b" stroke="#737c8d"/>
+    <text x="1004" y="412" font-size="24" font-weight="800" fill="#b7bfd0">denla</text><text x="1004" y="436" font-size="13" fill="#e1e1e5">that, over there</text>
+    <text x="126" y="127" font-size="15" font-weight="700" fill="#e7c8a0">YOU ARE SPEAKING</text>
+    <text x="533" y="127" font-size="15" font-weight="700" fill="#c8d6bf">YOUR LISTENER</text>
+  </g>
+</svg>

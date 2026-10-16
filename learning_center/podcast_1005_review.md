@@ -48,4 +48,4 @@ Only the text transcript was supplied, so this review cannot determine what the 
 | 10 | Restore correct lowercase openings, `I`, proper names, and meaningful capitals. | Short editing passage and answer key. |
 | 12 | Compare a short corrected excerpt with the transcript and explain which claims are fact, interpretation, or transcription error. | Optional advanced media-literacy exercise; never use the raw transcript as a pronunciation model. |
 
-**Editorial gate:** Before any podcast-inspired form enters a lesson, check its headword or expression in `dictionary/app_data/`, its sense, pronunciation, example, and grammar-guide rule. Record the source IDs in the curated example bank described in the course plan.
+**Course use:** Before placing a podcast-inspired form in a lesson, use its spelling, meaning, pronunciation, and grammar as shown in the approved Dictionary App. The transcript remains a source of ideas, not the wording learners should memorize.

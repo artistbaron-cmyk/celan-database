@@ -1,0 +1,60 @@
+{
+  "voice_name": "Ehshara",
+  "voice_id": "ej0ekewUzWvTFUiKsxvp",
+  "model_id": "eleven_v4",
+  "items": [
+    {
+      "headword_id": "rinaen",
+      "headword": "Rinaen",
+      "variant": "ahen",
+      "generation_prompt": "Rinahen",
+      "audio_file": "HW-rinaen - ahen trial.mp3",
+      "status": "downloaded",
+      "generation_id": "GGFKjKx5yaCa6Qq11b99",
+      "session_id": "baoKph6Quv4CmeZd66Qa",
+      "flow_id": "iTwl8hiOPnZpJ8xPgnGj",
+      "node_id": "CojTAVo03Od27uqBqkbL",
+      "duration_seconds": 0.96
+    },
+    {
+      "headword_id": "rinaen",
+      "headword": "Rinaen",
+      "variant": "a-en",
+      "generation_prompt": "Rina-en",
+      "audio_file": "HW-rinaen - a-en trial.mp3",
+      "status": "downloaded",
+      "generation_id": "WwIHAdKLkhaFpjmPVHZi",
+      "session_id": "dVMhMLR3120HpD3zhd36",
+      "flow_id": "iTwl8hiOPnZpJ8xPgnGj",
+      "node_id": "oY3D2xFE8F180lhXnbAd",
+      "duration_seconds": 0.88
+    },
+    {
+      "headword_id": "aen",
+      "headword": "Aen",
+      "variant": "ahen",
+      "generation_prompt": "Ahen",
+      "audio_file": "HW-aen - ahen trial.mp3",
+      "status": "downloaded",
+      "generation_id": "qStiIpcJhAIeETAidCjl",
+      "session_id": "yxO2wQ5uJFRPD1bPIm92",
+      "flow_id": "iTwl8hiOPnZpJ8xPgnGj",
+      "node_id": "IvTwcPFiXs1fstsKr0Wo",
+      "duration_seconds": 0.96
+    },
+    {
+      "headword_id": "aen",
+      "headword": "Aen",
+      "variant": "a-en",
+      "generation_prompt": "A-en",
+      "audio_file": "HW-aen - a-en trial.mp3",
+      "status": "downloaded",
+      "generation_id": "scqHN0fgN4DWUbblOyJK",
+      "session_id": "diU7Hr0LLtjdPl3xEddp",
+      "flow_id": "iTwl8hiOPnZpJ8xPgnGj",
+      "node_id": "i4iSQ0sD1x3U17hECIGy",
+      "duration_seconds": 1.44
+    }
+  ],
+  "flow_id": "iTwl8hiOPnZpJ8xPgnGj"
+}

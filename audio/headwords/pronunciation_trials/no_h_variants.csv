@@ -1,0 +1,5 @@
+headword_id,headword,dictionary_pronunciation,variant,generation_prompt,audio_file,voice_name,voice_id,model_id,generation_id,duration_seconds,bytes,sha256,review_status
+rinaen,Rinaen,/ree-nah-ehn/,ipa,/riː.nɑː.ɛn/,HW-rinaen - IPA no h trial.mp3,Ehshara,ej0ekewUzWvTFUiKsxvp,eleven_v4,1WcPl89mkgWMKI9jhvMo,1.12,35977,04606d3a1edc0fbb1685942cc43a0f1528af5c38401c5573b21879a2c261fd3c,Not selected for reference
+rinaen,Rinaen,/ree-nah-ehn/,no_h_respelling,Ree-na-en,HW-rinaen - Ree-na-en trial.mp3,Ehshara,ej0ekewUzWvTFUiKsxvp,eleven_v4,y1N6bS7DBXxGNM4WgODp,0.96,33469,d72954f8da14ac0a5748bf9d2510821f9d62dd1d22d2461a6cecba940affb874,Approved reference; copied to volume_001
+aen,Aen,/ah-ehn/,ipa,/ɑː.ɛn/,HW-aen - IPA no h trial.mp3,Ehshara,ej0ekewUzWvTFUiKsxvp,eleven_v4,EO2Vp6fR8SkSKeTsFYll,0.88,32215,e42e0dd0a209ac46e3e2007949bdfc609bf26ab9092bcd2d5c93b1934d4b6aad,Not selected for reference
+aen,Aen,/ah-ehn/,no_h_respelling,Aa-en,HW-aen - Aa-en trial.mp3,Ehshara,ej0ekewUzWvTFUiKsxvp,eleven_v4,Wz1aHgGar13MnLVPdq0R,1.04,34723,7cba3a0d832a30ce594eeb59fce9bc27409f696020d267ca5699fe45bfe8f1ba,Approved reference; copied to volume_001

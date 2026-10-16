@@ -34,7 +34,7 @@ Each lesson should contain a model, a plain-English explanation, 6–10 practice
 | **11. Linking Ideas** | Recognize `Rath` conditional clauses and `Lior` relative clauses; link short familiar ideas without losing VSO order inside clauses. | Match two-clause meanings → repair clause order → write a guided explanation. | Interpret four linked sentences and produce two approved-frame linked sentences. Keep this week introductory. |
 | **12. Living Use** | Bring together words, markers, time, relation, and social tone in an independent but bounded task. | Review personal weak spots → rehearse a scenario → complete a reading-and-writing capstone. | Read a 100–150-word curated passage, answer six questions, and write a six-to-eight-line exchange or description using at least four course patterns. |
 
-The creator-supplied podcast transcript offers memorable scenes and conceptual hooks. Its [course review](podcast_1005_review.md) identifies forms to correct and shows where those ideas can enter the lessons. Treat the transcript as a discussion prompt, not a pronunciation or grammar authority.
+The [36 lesson packs](lessons/README.md) expand these weekly outcomes into models, practice, independent tasks, hints, answer keys, and source references. The creator-supplied podcast transcript offers memorable scenes and conceptual hooks. Its [course review](podcast_1005_review.md) identifies forms to correct and shows where those ideas can enter the lessons. Treat the transcript as a discussion prompt, not a pronunciation or grammar authority.
 
 ## Assessment and progression
 
@@ -45,41 +45,41 @@ The creator-supplied podcast transcript offers memorable scenes and conceptual h
 
 ## Learning resources to build
 
-The project already has a learner-facing Grammar Guide, dictionary entries and examples, expressions, a Week 1 lesson, and a Learning App Build Manual. Those are source material, not yet a complete twelve-week teaching pack. The `learning_center/` folder currently contains this outline and Week 1; the project has no pronunciation audio files. Resource production should therefore start with reviewed text and work without audio.
+The project has a learner-facing Grammar Guide, dictionary entries and examples, expressions, Week 1, and a Learning App Build Manual. The 36 lesson packs now exist as text drafts. Audio files are being developed in `audio/`, but lesson mapping and pronunciation review remain separate work. The course must work without audio.
 
 | Resource | What it contains | When it is needed |
 | --- | --- | --- |
-| **Curated example bank** | Approved Celan sentence, English meaning, source IDs, taught words/rules, usage note, and editorial review status. Include safe alternate forms where needed. | **First.** Every lesson, worksheet, recording, and exercise should draw from it. |
-| **36 lesson packs** | Three lessons per week, each with model, short explanation, practice, independent task, hint, answer key, and source links. Supply both Build Words and Fix Sentences tasks where the objective supports both. | Build Weeks 1–4 first, then release later weeks in reviewed batches. |
-| **Learner vocabulary deck** | A small weekly set of approved headwords with pronunciation guidance, meaning in context, one reviewed example, and retrieval prompts. Record stable entry/sense IDs so cards survive wording changes. | From Week 1; cumulative reviews continue throughout. |
+| **Curated example bank** | Celan sentence, English meaning, taught words and rules, usage note, and useful alternate forms. Draw directly from the approved Dictionary App. | **First.** Every lesson, worksheet, recording, and exercise should draw from it. |
+| **36 lesson packs** | Three lessons per week, each with model, short explanation, six practice items, independent task, hint, answer guide, and source links. Supply both Build Words and sentence or meaning tasks where the objective supports both. | Text drafts exist in [lessons](lessons/README.md). Review Weeks 1–4 first, then pilot and release later weeks in batches. |
+| **Learner vocabulary deck** | A small weekly set of app headwords with pronunciation guidance, meaning in context, one example, and retrieval prompts. | From Week 1; cumulative reviews continue throughout. |
 | **Printable or downloadable practice sheets** | Word-part cards, VSO sentence strips, transformation grids, short writing spaces, and a separate answer key. A plain-text equivalent should accompany any visual card activity. | From Week 1 for learners studying without the app. |
 | **Weekly checks and review bank** | Parallel check forms, item-level explanations, delayed-review prompts, and a simple progress record by objective. Include mixed reviews at Weeks 4 and 8. | From Week 1; all twelve checks required before calling the course complete. |
 | **Scene and dialogue cards** | A short setting, roles, learner goal, allowed vocabulary, and a reviewed model response. Start with command and question scenes; add exchange, respect, and movement scenes later. | Weeks 1–3, 6, 8–9, and 12. |
-| **Reading pack** | Graded, human-reviewed passages with glossary, comprehension questions, answer evidence, and a complete answer key. Earlier passages can be very short; reserve 75–100 words for Week 10 and 100–150 for Week 12. | Draft early enough to check vocabulary coverage; essential by Week 10. |
+| **Reading pack** | Graded passages with glossary, comprehension questions, answer evidence, and a complete answer key. Earlier passages can be very short; reserve 75–100 words for Week 10 and 100–150 for Week 12. | Draft early enough to check vocabulary coverage; essential by Week 10. |
 | **Culture and address notes** | Brief, sourced explanations of social context, respectful forms, and national voice, paired with approved examples. Mark interpretation separately from a hard grammar rule. | Essential for Week 9; introduce small context notes earlier. |
-| **Pronunciation guide and audio** | Written sound guide, syllable breaks, and a consistent reading script; later, human-reviewed recordings of core words, model sentences, and scene lines, with transcripts. | Written guide from Week 1. Audio is an enhancement, never a gate to completion. |
+| **Pronunciation guide and audio** | Written sound guide, syllable breaks, and a consistent reading script; later, recordings of core words, model sentences, and scene lines, with transcripts. | Written guide from Week 1. Audio is an enhancement, never a gate to completion. |
 | **Teacher and self-study guide** | Weekly preparation, expected answers, common errors, repair prompts, pacing options, and instructions for learners who need extra review. | Before a coached pilot or public self-study release. |
-| **Corrected media companion** | A short guide to podcast-inspired ideas, with verified Celan forms and a distinction between grammar facts and cultural interpretation. | Use the [podcast review](podcast_1005_review.md) as the editorial starting point; prepare a learner version only after checking every quoted line. |
+| **Corrected media companion** | A short guide to podcast-inspired ideas, with Dictionary App spellings and a distinction between grammar facts and cultural interpretation. | Use the [podcast notes](podcast_1005_review.md) as the starting point for a learner version. |
 
 ### Minimum viable package and production order
 
-1. **Audit the starter material.** Review Week 1 examples and select a small approved word and sentence set for Weeks 1–4. Record source IDs and editorial decisions in the example bank.
-2. **Make Weeks 1–4 teachable.** Produce twelve complete lessons, four checks, a vocabulary deck, answer keys, and text-based scene cards. Pilot these before scaling the format.
-3. **Complete Weeks 5–9.** Add tense, place, possession, number, and social-use materials; create new approved examples only through normal editorial review.
-4. **Complete Weeks 10–12.** Write and review connected readings and the capstone; verify that every word and construction has already been taught or glossed.
-5. **Add delivery features.** Convert the reviewed packs into the Learning Center's curriculum and exercise data, progress tracking, and spaced review described in the [Learning App Build Manual](../docs/celan_learning_app_build_manual.md). Record audio after scripts and pronunciations are approved.
+1. **Prepare the starter material.** Select a small word and sentence set from the approved Dictionary App for Weeks 1–4, and record how each item will be taught in the example bank.
+2. **Pilot Weeks 1–4.** Review the twelve lesson drafts, create four checks and a vocabulary deck, and test the text-based scenes with learners.
+3. **Develop Weeks 5–9.** Check the tense, place, possession, number, and social-use lesson drafts against the current Dictionary App, and add more practice where learners need it.
+4. **Review Weeks 10–12.** Write connected readings and a full capstone exemplar; verify that every word and construction has already been taught or glossed.
+5. **Add delivery features.** Convert the lesson packs into the Learning Center's curriculum and exercise data, progress tracking, and spaced review described in the [Learning App Build Manual](../docs/celan_learning_app_build_manual.md). Record audio from the current Dictionary App spellings and pronunciation guide.
 
 For planning, 36 lessons at 6–10 practice items each implies roughly **216–360 practice items**, plus weekly checks and delayed reviews. Reuse a verified example in several exercise forms when it teaches different skills; count the forms separately only when each has its own prompt, accepted answers, and feedback.
 
 ## Content rules for lesson authors
 
-- Select teaching words and model sentences from `dictionary/app_data/` and check each chosen sense and example by hand. The app's example placements are not a blanket certification of translation or grammar accuracy.
-- Use `dictionary/app_data/grammar_guide.json` for the learner-facing rule. `data/grammar_rules_working.csv` is useful for planning but does not override the current app guide.
+- Select teaching words and model sentences from the approved content in `dictionary/app_data/`. Check that each chosen example teaches the intended skill clearly.
+- Use `dictionary/app_data/grammar_guide.csv` for the learner-facing rule. `data/grammar_rules_working.csv` is useful for planning but does not override the current app guide.
 - Only decompose a word when its derivation is recorded. Do not present a learner-built combination as an established Celan word unless it is an approved headword.
 - Keep Week 1's instructional arc, but review its individual sample forms against current app-facing records before publishing exercises or recording audio.
-- For tense, possession, and other rules with older conflicting source wording, use the current learner-facing form and mark any unresolved example for editorial review.
+- For tense, possession, and other rules with older conflicting wording, use the current Dictionary App form throughout.
 - For Weeks 10 and 12, commission or curate connected texts and verify every sentence before using them as assessment material. The suggested passage lengths are targets, not claims that suitable approved passages already exist.
 
 ## Next production step
 
-Turn each weekly row into three lesson files using the Week 1 format. For each lesson, record the objective, source IDs, model sentences, six to ten exercises across both paths, accepted answers, explanations, and a one-item independent check. Build the reviewed example bank before adding automated transformations.
+Review the [36 lesson drafts](lessons/README.md) one by one for clarity, answer variants, and pacing. Each has six practice items and an independent check. Expand the example bank before adding automated transformations, then pilot the first four weeks before a public release.

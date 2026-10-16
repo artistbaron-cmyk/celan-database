@@ -2,7 +2,8 @@
 
 Each queue item has ``audio_file`` and a short-lived ElevenLabs ``content_url``.
 The script only writes new MP3s under expression volumes 7 through 11,
-headword volume 1, or the volume 10 voice review folder. It never replaces a file.
+headword volumes 1 through 9 and pronunciation trials, or the volume 10 voice review
+folder. It never replaces a file.
 """
 
 import json
@@ -22,9 +23,10 @@ def main(queue_path):
     queue = pathlib.Path(queue_path).resolve()
     volume = queue.parent
     normal_volume = volume.parent == AUDIO and volume.name in {"volume_007", "volume_008", "volume_009", "volume_010", "volume_011"}
-    headword_volume = volume.parent == HEADWORDS and volume.name == "volume_001"
+    headword_volume = volume.parent == HEADWORDS and volume.name in {"volume_001", "volume_002", "volume_003", "volume_004", "volume_005", "volume_006", "volume_007", "volume_008", "volume_009"}
+    headword_trials = volume == HEADWORDS / "pronunciation_trials"
     review_folder = volume == AUDIO / "volume_010" / "voice_review"
-    if not (normal_volume or headword_volume or review_folder):
+    if not (normal_volume or headword_volume or headword_trials or review_folder):
         raise ValueError("Queue must be inside a permitted audio volume or volume_010/voice_review")
     if not queue.name.startswith(".pending_downloads_pass_") or queue.suffix != ".json":
         raise ValueError("Unexpected queue filename")
@@ -39,7 +41,7 @@ def main(queue_path):
         name = item["audio_file"]
         url = item["content_url"]
         parsed = urllib.parse.urlparse(url)
-        prefix = "HW-" if headword_volume else "PE-"
+        prefix = "HW-" if headword_volume or headword_trials else "PE-"
         if pathlib.Path(name).name != name or not name.startswith(prefix) or not name.endswith(".mp3"):
             raise ValueError(f"Invalid output filename: {name}")
         if parsed.scheme != "https" or parsed.hostname != "storage.googleapis.com" or not parsed.path.startswith(ALLOWED_PATH):

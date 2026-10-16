@@ -24,7 +24,7 @@ Action carries intention.
 - Imperatives formed with `Va`
 - Example forms:
   - `var I dren.`
-  - `Va var dren!`
+  - `va var an dren!`
 
 ## Lesson 1: Hear the Motion
 
@@ -75,9 +75,8 @@ Teach imperatives as the fastest way to speak a full sentence.
 3. Speak the command with the correct energy.
 
 ### Example Practice
-- `Va var dren!`
-- `Va var!`
-- `Va kel!`
+- `va var an dren!` — “Go to the water!”
+- Additional commands should be selected and checked against the current Grammar Guide and dictionary examples before classroom use.
 
 ### Fun Layer
 Call this the "Gatekeeper Mission." The learner must use commands to move through a short scene, as if the language is opening a door.

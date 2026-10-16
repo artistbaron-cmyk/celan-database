@@ -1,0 +1,84 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 940 630" role="img" aria-labelledby="title desc">
+  <title id="title">Speaker, listener, and a distant building</title>
+  <desc id="desc">Original dusk landscape illustration with a speaker beside a toolkit, a listener beside a bowl, and a building far away.</desc>
+  <defs>
+    <linearGradient id="sky" x2="0" y2="1">
+      <stop stop-color="#574032"/><stop offset=".5" stop-color="#9c6541"/><stop offset="1" stop-color="#d48a53"/>
+    </linearGradient>
+    <linearGradient id="ground" x2="0" y2="1">
+      <stop stop-color="#7a6140"/><stop offset=".5" stop-color="#4b4232"/><stop offset="1" stop-color="#2c2b26"/>
+    </linearGradient>
+    <linearGradient id="path" x2="0" y2="1">
+      <stop stop-color="#c59967"/><stop offset="1" stop-color="#684c34"/>
+    </linearGradient>
+    <linearGradient id="cloak" x2="0" y2="1"><stop stop-color="#d4ad7c"/><stop offset="1" stop-color="#856c56"/></linearGradient>
+    <linearGradient id="bowl" x2="0" y2="1"><stop stop-color="#bcbea9"/><stop offset="1" stop-color="#6e847b"/></linearGradient>
+    <pattern id="grain" width="30" height="30" patternUnits="userSpaceOnUse"><circle cx="4" cy="10" r=".7" fill="#fff" opacity=".14"/><circle cx="23" cy="24" r=".5" fill="#fff" opacity=".12"/></pattern>
+    <filter id="glow"><feGaussianBlur stdDeviation="18"/></filter>
+  </defs>
+  <rect width="940" height="630" fill="url(#sky)"/>
+  <circle cx="688" cy="202" r="78" fill="#f8c286" opacity=".32" filter="url(#glow)"/>
+  <circle cx="688" cy="202" r="56" fill="#f7c28c" opacity=".58"/>
+  <path d="M0 334Q134 278 280 310T564 306Q752 233 940 304V630H0Z" fill="#60483a" opacity=".7"/>
+  <path d="M0 364Q104 333 205 355T404 348Q539 307 663 332T940 338V630H0Z" fill="#3e3d34"/>
+  <path d="M0 403Q166 366 326 400T655 379Q818 360 940 391V630H0Z" fill="url(#ground)"/>
+  <path d="M704 408Q702 459 734 488Q776 530 745 630H324Q485 527 634 467Q684 446 704 408Z" fill="url(#path)" opacity=".67"/>
+  <path d="M722 427Q710 471 752 500" stroke="#ebbe8d" stroke-width="3" opacity=".28" fill="none"/>
+  <path d="M0 514Q130 473 278 492T527 486Q629 457 692 467" fill="none" stroke="#a88a62" stroke-width="3" opacity=".38"/>
+  <!-- The far building. -->
+  <g transform="translate(680 283)">
+    <path d="M-59 66V6L-3-26L53 8V68Z" fill="#382f2b" stroke="#b7976b" stroke-width="3"/>
+    <path d="M-66 7L-3-39L60 7" fill="none" stroke="#d8af74" stroke-width="6" stroke-linecap="round"/>
+    <path d="M-27 67V22Q-27 0-5 0Q17 0 17 22V67Z" fill="#bb7b4d"/>
+    <path d="M-21 67V23Q-21 5-5 5Q11 5 11 23V67Z" fill="#f4ba6a" opacity=".54"/>
+    <rect x="-48" y="17" width="14" height="20" rx="6" fill="#d69960"/><rect x="30" y="18" width="14" height="20" rx="6" fill="#d69960"/>
+    <path d="M-72 68H70" stroke="#282826" stroke-width="5"/>
+  </g>
+  <!-- A few layered desert trees and grasses. -->
+  <g stroke="#343e31" stroke-linecap="round" fill="none" opacity=".9">
+    <path d="M866 415V323M866 371L826 341M866 354L895 326" stroke-width="9"/><path d="M826 341L813 321M895 326L905 303" stroke-width="5"/>
+    <path d="M81 452V365M81 396L46 366M81 393L112 358" stroke-width="10"/><path d="M46 366L29 348M112 358L123 337" stroke-width="5"/>
+  </g>
+  <path d="M20 559q8-47 25-48m-7 26q-13-28-25-28m34 24q20-23 37-24M839 530q5-31 15-34m-5 19q-11-16-23-18m28 21q12-18 23-20" fill="none" stroke="#a99965" stroke-width="3" stroke-linecap="round" opacity=".7"/>
+  <!-- Speaker, left. -->
+  <g transform="translate(241 342)">
+    <ellipse cx="2" cy="246" rx="74" ry="14" fill="#241f1c" opacity=".5"/>
+    <path d="M-41 104Q-54 156-59 228L-16 233L-4 175L13 232L52 225Q45 143 29 103Z" fill="#433d37"/>
+    <path d="M-42 84Q-68 110-67 178Q-39 196 0 179Q43 194 65 165Q61 99 34 80Z" fill="url(#cloak)" stroke="#e4be8e" stroke-width="3"/>
+    <path d="M-16 43Q-25 18-8 7Q14-8 28 18L28 48Q15 76-10 62Z" fill="#a8795b"/>
+    <path d="M-21 29Q-32-7 1-15Q33-18 34 24Q16 9-4 18Z" fill="#342823"/>
+    <path d="M-48 91Q-79 116-83 153L-74 173" stroke="#a8795b" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <path d="M29 94Q64 106 84 83L107 69" stroke="#a8795b" stroke-width="15" stroke-linecap="round" fill="none"/>
+    <circle cx="107" cy="69" r="9" fill="#b88764"/>
+    <path d="M-42 100Q2 116 37 93" stroke="#e9c59a" stroke-width="5" opacity=".5" fill="none"/>
+  </g>
+  <!-- Toolkit by the speaker. -->
+  <g transform="translate(123 542)">
+    <ellipse cx="0" cy="48" rx="80" ry="13" fill="#211e1a" opacity=".55"/>
+    <rect x="-59" y="-4" width="119" height="50" rx="7" fill="#8f613d" stroke="#e1aa69" stroke-width="3"/>
+    <path d="M-62 11H63M-22-4V-22Q-22-30-13-30H17Q25-30 25-22V-4" stroke="#e1aa69" stroke-width="6" fill="none"/>
+    <rect x="-9" y="4" width="18" height="19" rx="3" fill="#dcab67"/>
+    <path d="M-45 19v15M44 19v15" stroke="#d2a070" stroke-width="3"/>
+  </g>
+  <!-- Listener, right. -->
+  <g transform="translate(503 341)">
+    <ellipse cx="5" cy="247" rx="73" ry="14" fill="#241f1c" opacity=".5"/>
+    <path d="M-30 102Q-42 158-44 230L-4 234L7 177L22 234L55 229Q48 143 29 104Z" fill="#2b3434"/>
+    <path d="M-43 85Q-62 106-60 180Q-14 196 53 176Q60 104 36 86Z" fill="#718078" stroke="#bec6af" stroke-width="3"/>
+    <path d="M-11 43Q-20 16-2 5Q19-6 29 19L27 51Q12 72-9 59Z" fill="#aa8064"/>
+    <path d="M-16 26Q-29-11 6-17Q35-10 35 24Q17 11-7 16Z" fill="#302a26"/>
+    <path d="M-47 100Q-67 126-57 163L-34 175" stroke="#aa8064" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <path d="M34 98Q58 120 66 156L56 182" stroke="#aa8064" stroke-width="14" stroke-linecap="round" fill="none"/>
+    <path d="M-41 99Q9 113 37 94" stroke="#d3dbc7" stroke-width="5" opacity=".4" fill="none"/>
+  </g>
+  <!-- Bowl by the listener. -->
+  <g transform="translate(592 565)">
+    <ellipse cx="0" cy="32" rx="57" ry="9" fill="#211e1a" opacity=".55"/>
+    <path d="M-49-4Q-47 30 0 31Q46 30 49-4Z" fill="url(#bowl)" stroke="#cbd2b5" stroke-width="3"/>
+    <ellipse cy="-4" rx="50" ry="13" fill="#cad2b7"/><ellipse cy="-5" rx="42" ry="9" fill="#608080"/>
+    <path d="M-22 13q22 14 44 0" fill="none" stroke="#d8d8b5" stroke-width="3" opacity=".7"/>
+  </g>
+  <!-- Three visual anchors in the composition. -->
+  <circle cx="124" cy="500" r="5" fill="#f5b465"/><circle cx="594" cy="517" r="5" fill="#c6d5b2"/><circle cx="680" cy="272" r="5" fill="#c7cce0"/>
+  <rect width="940" height="630" fill="url(#grain)" opacity=".5"/>
+</svg>
