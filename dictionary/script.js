@@ -2253,7 +2253,7 @@ function isDirectExample(group, text) {
     if (displayUses(group).some(use=>use.type==='Noun')) accepted.add(form + (/[aeiou]$/.test(form) ? 'n' : 'in'));
     return tokens.some(token => {
       if (accepted.has(token)) return true;
-      const stem = token.replace(/^(tha|nor|ver|li)-/, '').replace(/-(ian|ya|eshen|ka|esh|en)$/, '');
+      const stem = token.replace(/^(tha|nor|ver|li)-/, '').replace(/-(ian|ya|oshen|ka|esh|en)$/, '');
       return accepted.has(stem);
     });
   });

@@ -9,7 +9,7 @@ Celan is the shared language of Ohnosha. Start by learning what the letters soun
 1. [Sound and pronunciation](#1-sound-and-pronunciation)
 2. [Writing and capitalization](#2-writing-and-capitalization)
 3. [The basic clause](#3-the-basic-clause)
-4. [Pronouns and participants](#4-pronouns-and-participants)
+4. [People, pronouns, and address](#4-people-pronouns-and-address)
 5. [Questions, commands, and negation (`Ra`, `Va`, `Ver`)](#5-questions-commands-and-negation-ra-va-ver)
 6. [Tense, aspect, mood, and voice](#6-tense-aspect-mood-and-voice)
 7. [Nouns: which one and how many](#7-nouns-which-one-and-how-many)
@@ -18,9 +18,8 @@ Celan is the shared language of Ohnosha. Start by learning what the letters soun
 10. [Roots, derivation, and compounds](#10-roots-derivation-and-compounds)
 11. [Relations of place, time, and accompaniment](#11-relations-of-place-time-and-accompaniment)
 12. [Counting and measure](#12-counting-and-measure)
-13. [Linked clauses and comparison](#13-linked-clauses-and-comparison)
-14. [Address, identity, and cultural voice](#14-address-identity-and-cultural-voice)
-15. [Construction checklist](#15-construction-checklist)
+13. [One language, eight cultural voices](#13-one-language-eight-cultural-voices)
+14. [Construction checklist](#14-construction-checklist)
 
 ## 1. Sound and pronunciation
 
@@ -174,7 +173,49 @@ In the first pattern, you learn **who** is trying right after `siv`. In the seco
 
 When you meet a long line, count its action words first. If there are two, look for the subject **after the first action** or **after the second**. Then ask what the last part belongs to. This is why the usual VSO pattern is a **starting point**, not a command that every sentence must have exactly one action word.
 
-## 4. Pronouns and participants
+### 3.4 Describing and comparing
+
+Once you can name a thing and describe it, you can compare it with another. **`ther`** means **more than**. Put it after the describing word, then name what you are comparing with. **`thaal`** means **most** and follows the describing word without a second thing.
+
+| What you mean | Shape | Celan and meaning |
+| --- | --- | --- |
+| One thing is **more** than another | thing + description + **`ther`** + other thing | `rinaen dren-ian shaleth ther La-ka dren.` — “My water is brighter than their water.” |
+| One thing is **the most** | thing + description + **`thaal`** | `rinaen dren-ian shaleth thaal.` — “My water is brightest.” |
+
+In the first sentence, **`dren-ian`** means “my water,” **`La-ka dren`** means “their water,” and **`ther`** opens the comparison between them. The two ways of saying **whose** are explained in [§8](#8-possession-and-relationship). In the second sentence, **`thaal`** makes **`shaleth`** (“bright”) the strongest degree. **`Thaal`** can also mean “the Unknown” or “Wonder” as a separate word; its place after a description gives the comparison meaning here.
+
+### 3.5 Saying “if” with `rath`
+
+**`rath`** starts a condition: **if this happens**. Say the condition first, then the result. Each part keeps its own action and participants.
+
+| Condition | Result | Whole sentence |
+| --- | --- | --- |
+| If the friend goes | I go to the water | `rath var ser, var I dren.` |
+| If you go to the water | I will go to the water | `rath var Ya dren, nor-var I dren.` |
+| If you had gone to the water | I would have gotten food | `rath tha-var Ya an dren, tha-talaen I emil.` |
+
+The comma helps you see where the **if** part ends. The time pieces on the verbs can change the time or possibility of the thought. **`Rath`** also has a noun meaning, “enemy”; at the start of these two-part sentences it is the **if** word.
+
+### 3.6 Saying “who” or “which” with `Lior`
+
+Put **`Lior`** **after a noun** when the next clause helps identify that noun. Read **`Ser Lior var an dren`** in pieces: **`Ser`** is the friend; **`Lior`** means **who**; **`var an dren`** says the friend goes to the water. Together: “the friend **who goes to the water**.”
+
+It can be part of a full sentence: **`var I an terra ser Ser Lior var an dren.`** — “I go home with the friend who goes to the water.” The words after **`Lior`** describe **which friend**. They do not ask a question.
+
+| Look-alike word | Its job | Example |
+| --- | --- | --- |
+| **`Lior`** | **who/which**: links a noun to a describing clause | `Ser Lior var an dren` — the friend who goes to the water |
+| **`Liorin`** | **teacher/elder**: names a person | `Liorinen` — honored teacher or elder |
+
+The final **`in`** matters: **`Lior`** is a linking word; **`Liorin`** is a person word. They do different jobs even though they look and sound related.
+
+### 3.7 Joining with `ser` and `reth`
+
+Use **`ser`** to join things with **and** and **`reth`** to offer a choice with **or**. For example, **`Rinaen morlak ser dren.`** joins bread **and** water. **`Ra drenaen Ya dren reth phelvin?`** asks about water **or** a comforting drink. These short words also have other meanings in different positions: **`ser`** can mean **with** or **friend**, and **`reth`** can carry uncertainty. Read the sentence around them to see whether they are joining two things.
+
+## 4. People, pronouns, and address
+
+### 4.1 Who is speaking, listening, or being discussed?
 
 Celan has a word for **one**, a special word for **exactly two**, and a word for a **larger group**. First decide who you are talking about. Then choose the right column.
 
@@ -189,6 +230,40 @@ The word **`I`** sounds like **ee**. **`La`** does not tell you whether the pers
 **Exactly two?** Use the middle column. `Var Inko an Varthas.` means “We two are going to the city.” `Ra aen Yako an I?` asks, “Are you two speaking to me?” You do not need a plural word for a pair.
 
 **A larger “we”?** Ask whether the listener belongs in it. Imagine speaking to a friend about a meal you will share: `Velaen Ilin an morlak.` means “We [you and I] are eating the bread.” Now imagine guards speaking to someone who is leaving them: `Arth Imen an kaleth. Var Ya.` means “We [the guards, not you] protect the fortress. You must go.” The difference between **`Ilin`** and **`Imen`** tells the listener whether “we” includes them.
+
+### 4.2 Naming a person
+
+Pronouns such as **`La`** can refer to a person without naming their gender. When you do want to name or describe a person, Celan has words that carry more detail:
+
+| Word | Meaning | Example of a more specific description |
+| --- | --- | --- |
+| **`Kadron`** | man or masculine person | **`Kadron-Azon`** — a man carrying both masculine and feminine qualities |
+| **`Azron`** | woman or feminine person | **`Azron-Theon`** — a woman embodying neutrality and balance |
+| **`Theon`** | neutral or nonbinary person | Can also praise someone whose presence brings balance |
+| **`Azon`** | feminine man | Names a specific way of describing a person |
+| **`Kadon`** | masculine woman | Names a specific way of describing a person |
+
+These words can describe **identity**, **qualities**, or both, depending on the sentence and the person. Use the word that fits the person you mean. A poetic use of **`Theon`** does not erase its direct meaning as a neutral or nonbinary person.
+
+### 4.3 Honorifics and forms of address
+
+In Celan, respect can be **heard and seen in the words**. You may use someone's ordinary name or role, add **`Li-`** before a form of address, or use an honored title. The choice tells the listener how you are approaching the person.
+
+| How you address someone | Celan | What the listener hears |
+| --- | --- | --- |
+| As a friend | `Ser` | friend |
+| With explicit respect | `Li-Ser` | respected friend |
+| As a guardian | `Seren` | guardian |
+| With a higher formal title | `Li-Seren-en` | honored guardian |
+| As an honored elder or teacher | `Liorinen` | honored elder or teacher |
+
+Hear the change inside the same sentence: **`var I dren, Ser.`** means “I go to the water, friend.” **`var I dren, Li-Ser.`** means “I go to the water, respected friend.” The journey is the same; the speaker's way of addressing the listener changes.
+
+**`Li-`** goes **before** an address form. **`-en`** appears **after** certain titles to add honor, as in **`Liorinen`** and **`Li-Seren-en`**. Both can appear around a title in a high formal address. These are ways to show respect, not endings to add automatically to every name.
+
+A **title names a role** as well as a level of address. **`Ser`** means **friend**, while **`Seren`** means **guardian or protector**; adding letters has not merely made “friend” more polite. **`Liorin`** means **teacher or elder**, and **`Liorinen`** honors that person. **`Liana`** means **Lady**. **`Lianor`** can be **Sir or respected master** when used as a title; elsewhere the same word can mean **idea or thought**. The person being addressed and the sentence help you hear which meaning is intended.
+
+In a meeting, a speaker might say **`Ser`** to a friend, **`Li-Ser`** to mark respect, or an appropriate title when the person's role matters. In a ceremony, an honored title can carry still more weight. This is why honorifics belong near pronouns: first identify **who** is involved, then choose **how to address them**. A specific title or formal address keeps its established capital.
 
 ## 5. Questions, commands, and negation (`Ra`, `Va`, `Ver`)
 
@@ -354,15 +429,15 @@ The number comes before the measured thing in **`peth shen`** — “five measur
 
 ## 8. Possession and relationship
 
-Celan can tell us **whose thing it is**, **whose body or inner state it is**, or **what bond connects people and things**. These are three different questions. Start with the one you want to answer:
+Celan has more than one way to say **whose something is**. You can name the possessor **before** the thing, or put a personal ending **after** the thing. Celan can also name **the bond** between people or between people and things. First look at where the connecting form goes:
 
-| Ask yourself | Use | Example and meaning |
+| What are you saying? | Where does the form go? | Example and meaning |
 | --- | --- | --- |
-| **Whose thing is it?** | A possessor with **`-ka`**, or a possessive word before the thing | `I-ka dren` — my water; `anen morlak` — your bread |
-| **Whose body part or inner state is it?** | A personal ending after the thing | `doran-ian` — my torso |
-| **What bond does it express?** | A bond ending on the word | `Kalvokesh` — the spouse's family; `Morlak-vel` — bread shared among us |
+| **Whose is it?** | Name a possessor **before** the thing | `I-ka dren` — my water; `anen morlak` — your bread |
+| **Whose is it?** | Put a personal ending **after** the thing | `doran-ian` — my torso; `dren-ian` — my water |
+| **What bond does it express?** | Put a bond ending on the word | `Kalvokesh` — the spouse's family; `Morlak-vel` — bread shared among us |
 
-The first question is about **who has or is associated with something**. The second is about something **closely tied to a person**. The third names **the relationship itself**. You can read the sections below in that order.
+The first two rows both answer **whose?** They use different forms. The third row answers **what kind of connection?** That distinction will help you read the sections below.
 
 ### 8.1 Whose thing is it?
 
@@ -389,28 +464,30 @@ Celan also has **possessive words that stand on their own before the noun**. **`
 
 Likewise, **`Ilin-ka emil`** (“our meal”) and **`velian morlak`** (“our bread”) answer **whose?** **`Morlak-vel`** means something more specific: bread **shared among us**. That shared bond is explained in [§8.3](#83-what-kind-of-bond-is-it).
 
-### 8.2 Whose body part or inner state is it?
+### 8.2 Putting a personal ending after the thing
 
-For body parts, inner states, personal clothing, and primary personal gear, Celan can put a personal ending **after the thing itself**. With **`doran-ian`**, the ending **`-ian`** is attached to **`doran`** (“torso”):
+These endings say **my**, **your**, or **his/her/their** by attaching directly to the thing. They are especially useful for body parts, inner states, personal clothing, and primary personal gear. With **`doran-ian`**, the ending **`-ian`** is attached to **`doran`** (“torso”):
 
 | Ending | Whose? | Example in use |
 | --- | --- | --- |
 | **`-ian`** | mine | `doran-ian` — “my torso”; `rinaen aiv an doran-ian.` — “There is pain in my torso.” |
 | **`-ya`** | yours | `noka-ya` — “your vulva.” |
-| **`-eshen`** | his, hers, or theirs (one person) | `rinaen kelvor-eshen kadreneth.` — “Their mouth is dry.” |
+| **`-oshen`** | his, hers, or theirs (one person) | `rinaen kelvor-oshen kadreneth.` — “Their mouth is dry.” |
 
-**`-ian`** means **my**; **`-eshen`** means **his, hers, or theirs** for one person. Compare **`kelvor-eshen`** and **`La-ka kelvor`**: both can tell us “their mouth.” One puts an ending on **mouth**; the other puts **`-ka`** on the person. The examples show both forms, so do not treat the personal ending as the only way to speak about a body part.
+**Personal** describes **whose** it is, not a strict list of things the ending can follow. **`dren-ian`** means “my water” in the comparison you saw in §3.4; water is neither a body part nor a piece of clothing. **`I-ka dren`** also means “my water.” Both forms answer **whose water?** Their spelling shows which pattern the speaker used.
+
+**`-ian`** means **my**; **`-oshen`** means **his, hers, or theirs** for one person. Compare **`kelvor-oshen`** and **`La-ka kelvor`**: both can tell us “their mouth.” One puts an ending on **mouth**; the other puts **`-ka`** on the person. Read the whole phrase to see which pattern is being used.
 
 ### 8.3 What kind of bond is it?
 
-Possession is not the only way to link people and things. Celan can name the **kind of relationship**. These endings say more than a plain “belongs to.” **`-esh`** looks like the beginning of **`-eshen`**, but the two endings answer different questions:
+Possession is not the only way to link people and things. Celan can name the **kind of relationship**. These endings say more than a plain “belongs to.” The spellings **`-oshen`** and **`-esh`** are distinct, and they answer different questions:
 
 | Ending | Question it answers | Example |
 | --- | --- | --- |
-| **`-eshen`** | **Whose is it?** — his, hers, or theirs (one person) | `kelvor-eshen` — “their mouth” |
+| **`-oshen`** | **Whose is it?** — his, hers, or theirs (one person) | `kelvor-oshen` — “their mouth” |
 | **`-esh`** | **What bond is there?** — a deep personal or family tie | `Kalvokesh` — “the spouse's family” |
 
-Read the **whole ending**. **`-eshen`** names a person connected to the thing; **`-esh`** names the kind of bond. The extra **`en`** changes which ending you have. Here are the bond endings together:
+Read the **whole ending**. **`-oshen`** identifies whose thing it is; **`-esh`** names a deep personal or family bond. The first begins with **`o`** and the second with **`e`**. Here are the bond endings together:
 
 | Ending | Bond it points to | Example | What the example means |
 | --- | --- | --- | --- |
@@ -442,7 +519,19 @@ In **`Pralaen an belkor nor-ka.`**, the tunic receives the action while its make
 
 ### 10.1 Roots and established words
 
-Many Celan words grow from smaller words or roots. **`Krez`** brings the idea of fire; **`Dren`** brings the idea of water. Knowing a root helps you see why a larger word has its meaning. It does not let you guess every larger word exactly. Learn the meaning of the **whole word** too.
+Celan often builds a word around a **root**: a short piece that carries a central idea. **`Dren`** carries **water or flow**. **`Krez`** carries **fire or heat**. A root can stand as a word, take a word-building piece, or meet another root. The new word grows from the root's idea, but it has its **own meaning**.
+
+Follow one root through the system:
+
+| Step | Celan | What changed? |
+| --- | --- | --- |
+| **Root** | `Dren` — water | The core idea is water. |
+| **Root with an action ending** | `drenaen` — to drink | **`-aen`** turns the water idea into an action. |
+| **Two roots together** | `Dren` + `Shal` → `Drenshal` — reflective pool or clear spring | Water and light meet in one established word. |
+
+This gives you a way to **read** an unfamiliar word. First, find any root you know. Next, look for another root or an ending. Then ask what the **whole word** means in the sentence. **`Dren`** + **`Shal`** helps you picture water and light, but **`Drenshal`** names a particular kind of place. It does not mean every instance of water touched by light.
+
+The same root can also help you remember a **family of related words**. That family is a memory aid, not a rule that lets you invent a meaning for every possible combination. The established spelling and the sentence tell you which word you actually have. Sections 10.2 and 10.3 show the two main ways words grow: **joining roots** and **adding pieces**.
 
 ### 10.2 Compounding
 
@@ -477,36 +566,43 @@ Small pieces can change what a root does. The forms below have clear jobs, but e
 
 The two **`-eth`** rows show why you must read the **whole word**. The ending can help describe a quality, but it also appears in ritual nouns. **`Kaleth`** itself can mean **strong** as an adjective and **fortress** as a noun. The surrounding sentence tells you which meaning fits.
 
-The respectful beginning **`Li-`** works with forms of address, as in `Li-Ser` (“respected friend”); see [§14](#14-address-identity-and-cultural-voice). The time pieces **`tha-`** and **`nor-`**, and the negative word **`ver`**, shape a sentence as taught in Sections 5 and 6. They do a different job from the word-building endings in this chart.
+### 10.4 What does a small piece change?
+
+Small pieces do not all work at the same level. Some **make a new word**. Others tell you **when an action happens**, **whether it happens**, or **how someone is addressed**. Compare what each piece changes:
+
+| Piece | Where it goes | What it changes |
+| --- | --- | --- |
+| **`-aen`** | After a root: `Dren` → `drenaen` | Makes a **new action word**: water → drink. |
+| **`Li-`** | Before an address form: `Ser` → `Li-Ser` | Adds **respect** to the way someone is addressed; see [§4.3](#43-honorifics-and-forms-of-address). |
+| **`tha-`** | Before a verb: `var` → `tha-var` | Places the **same action in the past**: go → went. |
+| **`nor-`** | Before a verb: `var` → `nor-var` | Places the **same action in the future**: go → will go. |
+| **`ver`** | As a separate word before a verb: `ver var` | Says the action **does not happen**: do not go. |
+
+Here is the test: **Does the piece make a new word, change an action, or change an address?** **`Drenaen`** is a new verb built from **`Dren`**. **`Tha-var`**, **`nor-var`**, and **`ver var`** still concern **going**; they change its time or whether it happens. **`Li-Ser`** still addresses a friend, but with respect. That is why the pieces have different places in Celan grammar.
 
 ## 11. Relations of place, time, and accompaniment
 
-Celan uses short relation words to define how a participant, action, or object connects to another part of the clause. Several of these words also have a separate noun or verb sense. Their **position and context** establish the grammatical reading.
+These short words tell you **where**, **when**, **with whom**, or **without what** something happens. Read them beside the words they connect. Some also have a noun or verb meaning elsewhere; the sentence shows which job they are doing here.
 
-| Relation word | Grammatical use | Other familiar sense |
-| --- | --- | --- |
-| `var` | to, toward; direction of movement | go, move |
-| `ser` | with; accompaniment | friend, ally; also “and” as a conjunction |
-| `thal` | from, out of; origin | balance, harmony |
-| `ka` | without, no; absence | distinct from possessive `-ka` |
-| `esh` | above, over | sky, air |
-| `morl` | under, beneath | mountain |
-| `an` | at, in, on; commonly physical place | also present in established time expressions |
-| `nor` | at, during, in a time period | time; distinct from future `nor-` |
+| What you want to show | Celan form | Sentence | Meaning |
+| --- | --- | --- | --- |
+| Going **with** someone | **`ser`** | `Var I ser Yalin.` | I go **with** you all. |
+| Coming **from** somewhere | **`thal`** | `Tha-var La thal Shalor.` | They went **from** the sanctuary of light. |
+| Being **without** something | **`ka`** | `var I ka shal.` | I go **without** light. |
+| Being **above** something | **`esh`** | `var I esh dren.` | I go **above** the water. |
+| Being **beneath** something | **`morl`** | `var I morl dren.` | I go **under** the water. |
+| Being **in** a place | **`an`** | `Varan I an Varthas.` | I reside **in** the city. |
+| Acting **during** a time | **`nor`** | `dovaen I nor kilveth.` | I play **in** the evening. |
 
-Illustrations show these relations at work:
+**`An`** often marks a place, but it also appears in established time expressions: **`an kinnmor`** means “in the morning.” **`Nor`** makes time explicit in **`nor Kinnmor`**. The two words are not an absolute place-versus-time pair.
 
-> `var I ser ser.` — “I go with a friend.”  
-> `tha-var La thal Terra.` — “They went from the Earth.”  
-> `moraen I an Varthas.` — “I stand at the city.”  
-> `var I esh dren.` — “I go above the water.”  
-> `var I morl dren.` — “I go beneath the water.”
-
-`an` usually gives a place, but established phrases can also use it for time: `an kinnmor` means “in the morning.” `nor` explicitly names a time setting, as in `nor-var I nor Kinnmor.` (“I will go in the morning”). **Both** a valid `an` time phrase and an explicit `nor` time phrase can occur; do not impose an absolute place-versus-time split that excludes the recorded use of `an`.
-
-The verb `var` may appear with a bare goal or an explicit relation, as shown in [§3.1](#31-verbsubjectobject-as-the-default). This is a property of the recorded `var` frame, not blanket permission to omit relation words after every motion verb.
+Movement has its own pattern with **`var`** (“go”). **`var I dren.`** can mean “I go to the water,” with the goal following the verb; **`var I an dren.`** gives an explicit relation. See [§3.1](#31-verbsubjectobject-as-the-default). This pattern belongs to **`var`**; it does not tell you to leave relation words out after every motion verb.
 
 ## 12. Counting and measure
+
+Celan builds large numbers from **small number words plus scale markers**. You learn the base numbers once, then put a marker in front to say **tens**, **hundreds**, **thousands**, or more. A long number is read from the largest part down to the smallest part.
+
+Measuring has an Ohnoshan feel as well. Units are tied to things people can picture: **the width of a hand**, **a stride**, **a day's journey**, **a breath**, or **a cycle of the moon**. These familiar benchmarks make length, time, and quantity easier to imagine. First learn how the numbers are built; then see how they work with those units.
 
 ### 12.1 Base numbers
 
@@ -523,110 +619,110 @@ The verb `var` may appear with a bare goal or an explicit relation, as shown in 
 
 Large numbers are built with scale markers. State the **larger unit before the smaller**; adjacent number blocks are added in interpretation.
 
-| Scale | Marker | Illustration |
+| Scale | Marker | Example | Read the calculation |
+| --- | --- | --- | --- |
+| Tens | **`Ten-`** | `Ten-del` | 2 × 10 = **20** |
+| Hundreds | **`Hek-`** | `Hek-quen` | 4 × 100 = **400** |
+| Thousands | **`Mel-`** | `Mel-unar` | 1 × 1,000 = **1,000** |
+| Tens of thousands | **`Fen-`** | `Fen-peth` | 5 × 10,000 = **50,000** |
+| Hundreds of thousands | **`Hek-Mel-`** | `Hek-Mel-unar` | 1 × 100,000 = **100,000** |
+
+The **hyphen** joins a scale marker to its number. A **space** begins the next block. For example, **`Ten-del peth`** places the twenty block before five. Together they make twenty-five. The full equations are in §12.3.
+
+### 12.3 Reading the equations
+
+Putting number blocks next to each other **adds** them. **`Ven`** between two number expressions means **minus**. Here is the arithmetic written out, so you can check every part:
+
+| Celan | Equation | Result |
+| --- | --- | ---: |
+| `tenar unar` | 10 + 1 | **11** |
+| `Ten-del peth` | (2 × 10) + 5 = 20 + 5 | **25** |
+| `Hek-quen Ten-peth` | (4 × 100) + (5 × 10) = 400 + 50 | **450** |
+| `Hek-oven Ten-quen del` | (8 × 100) + (4 × 10) + 2 = 800 + 40 + 2 | **842** |
+| `Mel-quen Hek-sethe Ten-oven sethe` | (4 × 1,000) + (7 × 100) + (8 × 10) + 7 = 4,000 + 700 + 80 + 7 | **4,787** |
+| `Hek-quen Ven Hek-del` | 400 − 200 | **200** |
+| `Mel-quen Ven Hek-peth` | 4,000 − 500 | **3,500** |
+
+The **×** sign in this chart explains what a **scale prefix** means; it is not a separate Celan multiplication word. The **+** signs show what happens when you place number blocks in order. **`Ven`** is the Celan word that explicitly marks subtraction.
+
+### 12.4 Measuring the world
+
+After the number, name the unit. Each unit gives the number a real-world size:
+
+| Unit | What it measures | Example |
 | --- | --- | --- |
-| Tens | `Ten-` | `Ten-del` = 20; `Ten-del peth` = 25 |
-| Hundreds | `Hek-` | `Hek-quen` = 400 |
-| Thousands | `Mel-` | `Mel-unar` = 1,000 |
-| Tens of thousands | `Fen-` | `Fen-peth` = 50,000 |
+| **`korineth`** — handspan | Small lengths, such as craftwork | `Ten-del korineth` — 20 handspans |
+| **`shar`** — stride | Rooms, fields, and medium distances | `Hek-unar shar` — 100 strides |
+| **`kinnshara`** — day's journey | Long walking distance | `Ten-peth kinnshara` — 50 days' journeys |
+| **`aenor`** — breath-long moment | A short span of time | `an aenor` — in a moment |
+| **`lunwek`** — moon cycle | A month | `unar lunwek` — one month |
+| **`shen`** — measure | A small trade quantity | `peth shen` — five measures |
 
-`tenar unar` is 11, with ten followed by one. `Hek-quen Ten-peth` is 450. Longer examples follow the same descending order: `Hek-oven Ten-quen del` is 842, and `Mel-quen Hek-sethe Ten-oven sethe` is 4,787. The hyphen marks the scale construction, while the spaces divide added blocks.
+**`Shen`** can also refer to coinage. In **`peth shen`**, the surrounding sentence tells you whether someone means five measures or five units of currency. The pattern **number before unit** stays the same.
 
-### 12.3 Subtraction and measure
+## 13. One language, eight cultural voices
 
-Addition is generally expressed by stacking the number forms. Subtraction uses **`Ven` between the expressions**:
+Celan is shared across Ohnosha. Its nations use the same grammar, but people may choose different images, levels of formality, and rhythms. To hear the difference, imagine two friends meeting in a neutral market. One asks where the other is going; the other is looking for a drink. The **situation stays the same** while each pair of speakers shapes it in a national voice.
 
-> `Hek-quen Ven Hek-del` — 400 − 200 = 200.
+**Zarithan — direct and practical**
 
-`shen` can name a unit of quantity or measure. Put the number before it: `peth shen` means “five measures.” `Shen` also has a coinage sense, so context determines whether a measure or currency is intended.
+> **A:** `Ra min Ya, Ser?` — “Where are you headed, friend?”  
+> **B:** `Min I an dren. Rinaen kelvor-ian kadreneth ser Krez.` — “Headed to water. My mouth is dry with the heat.”
 
-## 13. Linked clauses and comparison
+The question goes straight to the destination. The answer names water and heat as immediate needs.
 
-### 13.1 Conditionals with `rath`
+**Verdalrisian — patient and lyrical**
 
-**`rath` introduces an if-clause.** The conditional clause comes before the result clause in the illustrated pattern, and each clause retains its own action-first organization:
+> **A:** `Lorin shara Ya an Kinnmor, Li-Ser?` — “Where does your path guide you this morning, respected friend?”  
+> **B:** `Theraen thar-ian an awek. Rinaen an-rin lian morlak kadreneth.` — “My heart longs for the spring. It feels like the truth of dry bread.”
 
-> `rath var ser, var I dren.` — “If the friend goes, I go to the water.”
+The journey becomes a **guided path**; thirst is spoken through longing and image. **`Li-Ser`** adds respect to the greeting.
 
-Future marking can appear in both clauses:
+**Mechuman — precise and purposeful**
 
-> `rath nor-var ser, nor-var I dren.` — “If the friend will go, I will go to the water.”
+> **A:** `Aen Ya varash, Ser.` — “State your destination, friend.”  
+> **B:** `Var I an phelvin. Rinaen kelvor-ian kadreneth. Rinaen belshara.` — “Proceeding to acquire a beverage. My mouth is dry. Hydration is a necessity.”
 
-A result may also carry future marking when the condition is stated without it: `rath var Ya dren, nor-var I dren.` means “If you go to the water, I will go to the water.” Past markers can build a contrary-to-fact past construction: `rath tha-var Ya an dren, tha-talaen I emil.` — “If you had gone to the water, I would have gotten food.” `Rath` as a conditional marker is a grammatical use distinct from its noun sense “enemy.”
+The request asks for a destination, and the reply gives a goal, a condition, and a reason.
 
-### 13.2 Relative clauses with `Lior`
+**Pelagaean — flowing and communal**
 
-**`Lior` follows the noun it describes**, then introduces a clause meaning “who” or “which”:
+> **A:** `Ra shalil Ya, Ser?` — “Where do you flow, friend?”  
+> **B:** `Shalil I an dren. Rinaen thar-ian ser mahr kadreneth.` — “I flow to the water. My heart feels like a dry sea.”
 
-> `Ser Lior var an dren.` — “The friend who goes to the water.”
+Movement becomes **flow**. Even thirst is pictured through water and sea.
 
-The relative construction can sit inside a longer sentence: `var I an terra ser Ser Lior var an dren.` — “I go home with the friend who goes to the water.” The phrase after `Lior` helps identify the preceding noun; it is not a separate `ra` question.
+**Valkeldorian — firm and resolute**
 
-### 13.3 Comparatives and superlatives
+> **A:** `Aen shara-ya, Ser!` — “State your path, friend!”  
+> **B:** `Var I an velithor. Rinaen thar-ian moreth, ser vaar ka.` — “I'm going for strong ale. My spirit is hard and unsettled, and lacks comfort.”
 
-The comparative marker **`ther`** means “more than.” It follows the descriptive word before the standard of comparison: **X + adjective + `ther` + Y**. The superlative marker **`thaal`** means “most”: **X + adjective + `thaal`**.
+The exchange is forceful. Path, strength, and discomfort are spoken plainly.
 
-> `rinaen dren-ian shaleth ther La-ka dren.` — “My water is brighter than their water.”  
-> `rinaen dren-ian shaleth thaal.` — “My water is brightest.”
+**Nivveilian — quiet and restrained**
 
-`Thaal` also has a separate lexical sense, “the Unknown / Wonder.” In a comparison, its position after the adjective selects the superlative reading.
+> **A:** `An eshreth, ra var Ya, Ser?` — “In this hazy sky, where are you going, friend?”  
+> **B:** `Var I an phelvin. Arth vel vaar.` — “I am going for a warm drink. Calm endurance preserves peace.”
 
-### 13.4 Joining with `ser` and `reth`
+The speaker notices the sky, then answers briefly. Endurance carries more weight than an elaborate account of thirst.
 
-`ser` can join material with the meaning **and**, extending its relational “with” sense. `reth` can join alternatives with the meaning **or**, extending its uncertainty sense. The forms are grammatical connectors in the appropriate position; their other dictionary meanings remain available elsewhere.
+**Jasaran — practical need and sacred balance**
 
-> `Rinaen morlak ser dren.`  
-> `Ra drenaen Ya dren reth phelvin?`
+> **A:** `Shal lorin shara-ya an nor-ka, Ser?` — “Does the light guide your path in this moment, friend?”  
+> **B:** `Lia, var I an Drenkorath. Rinaen vethor an thar-ian.` — “Yes, I go to the sacred spring. There is a shadow in my heart.”
 
-The first joins bread and water. The second asks about water or a comforting drink. When linking full clauses, keep each clause's internal word order clear rather than translating an English conjunction mechanically.
+The speaker has a destination, but light, the present moment, and an inner shadow shape how it is said.
 
-## 14. Address, identity, and cultural voice
+**Marakorian — formal and orderly**
 
-### 14.1 Identity words and descriptive combinations
+> **A:** `Ra rinaen shara-ya lian, Li-Ser?` — “Is your path a proper one, respected friend?”  
+> **B:** `Lia. Var I an phelvin. Lorin belthal kel-ian.` — “Yes. I am going for a comforting drink. My actions are guided by order.”
 
-Celan's person terms can identify a person directly or describe qualities in context. `Kadron` means a man or masculine person, `Azron` a woman or feminine person, and `Theon` a neutral or nonbinary person. Related forms include `Azon` (a feminine man) and `Kadon` (a masculine woman). Combinations can be more specific: `Kadron-Azon` describes a man carrying both masculine and feminine qualities; `Azron-Theon` describes a woman embodying neutrality and balance.
+The exchange gives the journey a question of propriety. **`Li-Ser`** and the closing thought about order keep the tone formal.
 
-The root associations `Kadren`, `Azan`, and `Thee` contribute masculine, feminine, and neutral imagery in the guide. These words are not a requirement to infer someone's identity from appearance. Use the form appropriate to the person and the social setting. A term can be literal in one exchange and poetic or honorific in another; `Theon`, for instance, can also praise a balancing presence.
+These are **national tendencies**, not rules that every person must follow. A speaker can be brief, poetic, formal, or direct because of the person they are addressing and the moment they are in. The shared grammar makes every exchange recognizable as Celan; the choices make each voice lived in.
 
-### 14.2 Familiar, respectful, and elevated address
-
-Ordinary familiar address can use an unmodified name or role. For polite respect, attach **`Li-`** before the address form. High formal respect may add **`-en`** to a title as well. The relevant social relation determines which form is suitable.
-
-| Register | Example | Meaning |
-| --- | --- | --- |
-| Familiar | `var I dren, Ser.` | I go to the water, friend. |
-| Respectful | `var I dren, Li-Ser.` | I go to the water, respected friend. |
-| Elevated title | `Liorinen` | honored elder or teacher |
-
-Specific titles such as `Liana`, `Lianor`, and `Seren` have their own conventional meanings. A title used as a specific name or formal form of address keeps its established capital. Respect is conveyed by construction and word choice as well as by voice.
-
-### 14.3 One shared grammar, eight cultural voices
-
-Celan remains one shared language across Ohnosha. National voices differ in preferred vocabulary, metaphor, register, sentence texture, pace, and euphonic choice; they are not eight separate grammars. These descriptions are typical stylistic tendencies, not compulsory traits of every individual speaker.
-
-| Cultural voice | Common stylistic tendency |
-| --- | --- |
-| **Verdalrisian** | Lyrical, patient forest imagery; often favors vowel harmony and smoothing. |
-| **Pelagaean** | Fluid, communal, water-centered metaphor and melodic flow. |
-| **Zarithan** | Direct, practical expression; often retains harder consonant clusters. |
-| **Valkeldorian** | Firm, conservative, martial texture and strong unsmoothed forms. |
-| **Mechuman** | Precise, systematic application and procedural clarity. |
-| **Nivveilian** | Reserved, economical, restrained expression. |
-| **Jasaran** | Poised balance of practical and mystical imagery. |
-| **Marakorian** | Formal, disciplined, tradition-conscious register. |
-
-Compare a few ways of shaping a question or request about someone's path:
-
-| Voice | Celan illustration | Sense |
-| --- | --- | --- |
-| Pelagaean | `ra shalil Ya, Ser?` | Where do you flow, friend? |
-| Zarithan | `ra min Ya, Ser?` | Where are you headed, friend? |
-| Mechuman | `aen Ya varash, Ser.` | State your destination, friend. |
-| Verdalrisian | `lorin shara Ya an Kinnmor, Li-Ser?` | Where does your path guide you this morning, respected friend? |
-
-These illustrations show how speakers select image and register inside a common language. A speaker's culture, immediate audience, and purpose can all shape the choice.
-
-## 15. Construction checklist
+## 14. Construction checklist
 
 The following sequence is a compact way to analyze or compose a Celan form without losing its distinctions:
 
