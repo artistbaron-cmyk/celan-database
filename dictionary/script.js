@@ -105,14 +105,14 @@ let activeAudioButton = null;
 
 function audioButton(clip, label, compact = false) {
   if (!clip?.path) return "";
-  return `<button class="audio-play${compact ? ' audio-play--compact' : ''}" type="button" data-audio-path="${escapeMarkup(clip.path)}" aria-label="Play ${escapeMarkup(label)}" title="Play ${escapeMarkup(label)}">${compact ? '▶' : '▶ Listen'}</button>`;
+  return `<button class="audio-play${compact ? ' audio-play--compact' : ''}" type="button" data-audio-path="${escapeMarkup(clip.path)}" aria-label="Play ${escapeMarkup(label)}" title="Play ${escapeMarkup(label)}">▶</button>`;
 }
 
 function resetAudioButton() {
   if (!activeAudioButton) return;
   const button = activeAudioButton;
   button.classList.remove("is-playing");
-  button.textContent = button.classList.contains("audio-play--compact") ? "▶" : "▶ Listen";
+  button.textContent = "▶";
   button.setAttribute("aria-label", button.dataset.playLabel);
   activeAudioButton = null;
 }
@@ -133,7 +133,7 @@ function playAudioButton(button) {
   activeAudioButton = button;
   button.dataset.playLabel = button.getAttribute("aria-label");
   button.classList.add("is-playing");
-  button.textContent = button.classList.contains("audio-play--compact") ? "❚❚" : "❚❚ Pause";
+  button.textContent = "❚❚";
   button.setAttribute("aria-label", "Pause audio");
   audioPlayer.src = `${audioBase}/${button.dataset.audioPath}`;
   audioPlayer.play().catch(() => {
