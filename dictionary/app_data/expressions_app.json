@@ -2138,5 +2138,25 @@
     "approval_batch": "Source canon",
     "notes": "Original vocabulary table row preserved.",
     "searchText": "ex-src-lx-v2-0011 zhilva /zheelvah/ general \"hello\"  greeting or farewell greetings    lx-v2-0011 zhilva canon approved  source canon original vocabulary table row preserved."
+  },
+  {
+    "expression_id": "EX-APP-KADREN-0001",
+    "celan_expression": "Rinaen kadren an rin-ian.",
+    "pronunciation": "/ree-nah-ehn kahdrehn ahn reen-ee-ahn/",
+    "natural_meaning": "Masculine essence is in my true self.",
+    "literal_meaning": "Masculine essence exists in my essence.",
+    "expression_type": "Affirmation",
+    "register": "Personal",
+    "origin_nation": "",
+    "social_context": "An affirmation of masculine essence as an inner quality, not a claim about the body.",
+    "tone_or_risk": "",
+    "source_entry_ids": "",
+    "dictionary_headwords": "Kadren; Rin; Rinaen",
+    "canon_status": "Proposed",
+    "review_status": "Pending lexical review",
+    "review_reason": "The user chose the meaning; this specific Celan wording was composed for the app.",
+    "approval_batch": "Kadren app correction",
+    "notes": "Replaces an unrelated Kadfel example on Kadren's page. The original Kadfel placement remains.",
+    "searchText": "ex-app-kadren-0001 rinaen kadren an rin-ian. /ree-nah-ehn kahdrehn ahn reen-ee-ahn/ masculine essence is in my true self. masculine essence exists in my essence. affirmation personal kadren rin rinaen"
   }
 ]

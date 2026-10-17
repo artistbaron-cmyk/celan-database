@@ -36,10 +36,10 @@ function run(filename){
   const result=spawnSync(process.execPath,[path.join(fixtureDir,filename)],{encoding:'utf8'});
   assert.equal(result.status,0,`${filename} failed:\n${result.stdout}\n${result.stderr}`);
 }
-function element(){return {innerHTML:'',textContent:'',value:'',children:[],dataset:{},classList:{add(){},remove(){},toggle(){},contains(){return false}},append(){},appendChild(){},addEventListener(){},querySelectorAll(){return []},scrollIntoView(){}};}
+function element(){return {innerHTML:'',textContent:'',value:'',children:[],dataset:{},classList:{add(){},remove(){},toggle(){},contains(){return false}},append(){},appendChild(){},addEventListener(){},setAttribute(){},querySelectorAll(){return []},scrollIntoView(){}};}
 async function readApp(){
   const elements=new Map();
-  const document={getElementById(id){if(!elements.has(id))elements.set(id,element());return elements.get(id);},createElement:element,querySelector:element};
+  const document={documentElement:element(),getElementById(id){if(!elements.has(id))elements.set(id,element());return elements.get(id);},createElement:element,querySelector:element};
   const window={EMBEDDED_DATA:null,location:null,addEventListener(){},matchMedia(){return {matches:false}},requestAnimationFrame(fn){fn();}};
   const context=vm.createContext({console,window,document,setTimeout,clearTimeout});
   const html=fs.readFileSync(path.join(fixtureDir,'index.html'),'utf8');

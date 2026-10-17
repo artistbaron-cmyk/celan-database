@@ -81,7 +81,7 @@ for(const row of grammarRows){
   JSON.parse(row._types);
   for(const field of ['guideSections','relatedHeadwords','childRuleIds'])if(row[field])JSON.parse(row[field]);
 }
-assert.equal(expressions.length,107);
+assert.equal(expressions.length,108);
 const ids=new Set(entries.map(row=>row.id));
 assert.equal(ids.size,entries.length,'duplicate headword ids');
 for(const row of senses)assert.ok(ids.has(row.headword_id),'orphan sense: '+row.headword_id);
