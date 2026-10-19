@@ -1,5 +1,7 @@
 # The 36 Celan lesson packs
 
+[Download the complete PDF edition](CELAN_36_LESSON_PACKS.pdf). Rebuild it from the lesson Markdown files with `python3 learning_center/build_lesson_packs_pdf.py` from the project root.
+
 Three lessons per week. Each pack has two models from the approved Dictionary App, six practice items, an independent task, a hint, an answer guide, and links to the current app content.
 
 These are editable text teaching drafts. Test lesson pacing and accepted answer variants with learners before using the packs for automated grading.
