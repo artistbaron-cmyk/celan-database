@@ -1,0 +1,9 @@
+{
+  "method": "Manual compositional and ambiguity review against current app meanings and grammar. Arithmetic checks verify intended boundaries only. No native-speaker or independent comprehension test was performed.",
+  "cases": 22,
+  "new_headwords_added": 0,
+  "grammar_rules_added": 0,
+  "source_files_unchanged": true,
+  "arithmetic_checks": "passed",
+  "new_words_needed_now": "No new root or -eth form justified by these tests; fraction and numeric-comparison conventions remain proposals."
+}

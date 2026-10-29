@@ -1,0 +1,8 @@
+Nara: [concerned] kes ee drenalor an esh
+Toren: [matter-of-factly] rinaen eshnor veleth
+Nara: [curious] ra var ya an evan nethnor?
+Toren: [decisive] ka ver var ee an evan
+Nara: [concerned] ra rinaen morlak an teremil?
+Toren: [regretful] ka ver rinaen morlak an teremil
+Nara: [determined] nor-var ee an eshvan
+Toren: [warmly] var ee ser ya

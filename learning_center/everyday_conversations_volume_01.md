@@ -1,472 +1,357 @@
 # Celan everyday conversations — Volume 1
 
-Thirty short conversations, mostly for two voices. Conversation 2 uses three voices. The **Celan script** under each title is the recording copy; the English section gives natural meanings for direction and subtitles rather than a word-by-word gloss. Speaker A, Speaker B, and (where present) Speaker C can be played by any voices. Read the written pronoun **I** as **ee** and the written **x** as **ks**. Leave a natural beat between turns. These are newly composed conversations built around established words, examples, and grammar; they are not quotations from the example bank.
-
-## 1. A morning meeting
+Thirty first conversations about people, shared space, work, play, and the natural world. These scenes stand alone. They give beginners useful ways to speak while letting each exchange lead to a small choice, response, or change. Volume 1 introduces ordinary relationships and habits; Volume 2 carries those skills into longer errands, disputes, and practical problems.
 
-**Situation:** Two friends meet on their way out.
+The **Celan** column is learner spelling. Each **English** turn gives a meaning a learner can infer from that Celan turn and the immediate situation. For recording, use the separate performance copy. Written **I** sounds like **ee**, and written **x** sounds like **ks**.
 
-```text
-A: Nekvar!
-B: Nekvar, Ser!
-A: Ra var Ya lo?
-B: Var I an evan.
-A: Var I sera an evan.
-B: Ra var Ilin an evan?
-A: Lia.
-B: Var Ilin an evan.
-```
+## 1. Your name
 
-**English:** Good morning! / Good morning, friend! / Where are you going? / I'm going to the market. / I'm going there too. / Shall we go together? / Yes. / Let's go.
+**Situation:** Nara and Toren meet for the first time.
 
-## 2. Names and introductions
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Toren | `Zhilva. Ra aen Ya kelrin-ya?` | Hello. Will you tell me your name? |
+| Nara | `Aen I kelrin-ian: Nara.` | I'm Nara. |
+| Toren | `Nara? Aen I kelrin-ian: Toren.` | Nara? I'm Toren. |
+| Nara | `Zhilva, Toren.` | Hello, Toren. |
 
-**Situation:** A friend introduces Toren and Nara. Their names are character names for these scripts.
+## 2. My sister
 
-**Speaker direction:** A is the introducer, B is Toren, and C is Nara. Use three distinct voices throughout this exchange.
+**Situation:** Toren sees Nara with another person and asks who she is.
 
-```text
-A: Zhilva!
-B: Zhilva!
-A: Ra aen Ya kelrin-ya?
-B: Aen I kelrin-ian: Toren.
-C: Aen I kelrin-ian: Nara.
-A: Ra var Ya lo?
-B: Var I an evan.
-C: Var I sera an evan.
-```
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Toren | `Ra rinaen La Ya-ka serilin?` | Is she your sister? |
+| Nara | `Lia. Rinaen La I-ka serilin.` | Yes. She's my sister. |
+| Toren | `Ra aen I ser La?` | May I speak with her? |
+| Nara | `Lia. Va aen Ya ser La.` | Yes. Go and speak with her. |
 
-**English:** Hello! / Hello! / Will you tell me your name? / I'm Toren. / I'm Nara. / Where are you going? / To the market. / I'm going there too.
+## 3. The teacher
 
-**Language note:** The `kelrin-ian` line is newly constructed from the attested `kelrin-ya` question and the personal possessive pattern.
+**Situation:** Nara greets an elder teacher and asks to use the writing slate.
 
-## 3. Are you tired?
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Zhilva, Liorinen.` | Hello, honored teacher. |
+| Liorin | `Zhilva, Nara.` | Hello, Nara. |
+| Nara | `Ra keldoraen I kelrin-ian an kelpral?` | May I write my name on the slate? |
+| Liorin | `Lia. Va keldoraen Ya.` | Yes. Write it. |
+| Nara | `Keldoraen I kelrin-ian.` | I'm writing my name. |
 
-**Situation:** A friend notices the other has had a long day.
+## 4. The blue tunic
 
-```text
-A: Ra rinaen Ya felkal?
-B: Lia. Rinaen I felkal.
-A: Ra mbaen I Ya?
-B: Lia. Va mbaen Ya I.
-A: Va var Ya an deni.
-B: Dar I an xaror.
-A: Rinaen dren an drenkavvek.
-B: Lia. Drenaen I drosel.
-```
+**Situation:** Nara holds up the wrong garment while helping Toren get ready.
 
-**English:** Are you tired? / Yes, I'm tired. / May I help you? / Yes, please help me. / Come here. / I'll wait in the room. / There's water in the flask. / Yes. I'll drink clean water.
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Ra rinaen belkor deni Ya-ka?` | Is this your tunic? |
+| Toren | `Ka. Rinaen I-ka belkor Lunor.` | No. Mine is blue. |
+| Nara | `Ra rinaen belkor denya Ya-ka?` | Is that one yours? |
+| Toren | `Lia. Va shan Ya belkor denya an I.` | Yes. Pass me that tunic. |
+| Nara | `Shan I belkor an Ya.` | Here you go. |
 
-## 4. Breakfast together
+## 5. A coat for the cold
 
-**Situation:** Two people decide what to eat and drink.
+**Situation:** Nara has left a coat at home. Toren offers one.
 
-```text
-A: Rinaen I emilrav.
-B: Rinaen morlak ser dren.
-A: Ra drenaen Ya dren reth phelvin?
-B: Drenaen I phelvin.
-A: Drenaen I dren.
-B: Velaen Ilin morlak.
-A: Lia.
-```
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Rinaen kinnmor veleth.` | It's a cold morning. |
+| Toren | `Ra belxaraen Ya velbelxar?` | Are you wearing a coat? |
+| Nara | `Ka. Rinaen I-ka velbelxar an teremil.` | No. My coat is at home. |
+| Toren | `Va talaen Ya I-ka velbelxar.` | Take my coat. |
+| Nara | `Ra rinaen Ya veleth?` | Are you cold? |
+| Toren | `Ka. Rinaen I feneth.` | No. I'm warm. |
 
-**English:** I'm hungry. / There's bread and water. / Will you drink water or a comforting drink? / I'll have the comforting drink. / I'll have water. / Let's eat the bread together. / Yes.
+## 6. The blue glove
 
-## 5. Leaving home
+**Situation:** Toren helps Nara sort out whose glove is whose.
 
-**Situation:** One person is about to go out; the other checks the plan.
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Ra rinaen korinxar deni Ya-ka?` | Is this your glove? |
+| Toren | `Ka. Rinaen I-ka korinxar Krelek.` | No. Mine is red. |
+| Nara | `Rinaen korinxar deni Lunor.` | This one is blue. |
+| Toren | `Lia. Rinaen korinxar deni Ya-ka.` | Right. This one is yours. |
+| Nara | `Lia'ser.` | Got it. |
 
-```text
-A: Kaxaraen I vorkor.
-B: Ra var Ya lo?
-A: Nor-var I an Eshvan.
-B: Ra rinaen emil an teremil?
-A: Ka. Ver rinaen emil an teremil.
-B: Dar I an teremil.
-A: Zharinor!
-B: Zharinor!
-```
+## 7. The wet shirt
 
-**English:** I'm opening the door. / Where are you going? / To the shop. / Is there food at home? / No, there isn't. / I'll wait here. / See you soon! / See you soon!
+**Situation:** Nara's shirt is still wet after washing. Toren offers another.
 
-## 6. At the market
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Drenselaen I belkor.` | I washed the shirt. |
+| Toren | `Ra rinaen belkor kadreneth?` | Is it dry? |
+| Nara | `Ka. Rinaen belkor dreneth.` | No. It's wet. |
+| Toren | `Va talaen Ya I-ka belkor.` | Take my shirt. |
+| Nara | `Lia. Nor-belxaraen I Ya-ka belkor.` | Yes. I'll wear yours. |
 
-**Situation:** A customer asks about food and buys bread.
+## 8. A first word
 
-```text
-A: Zhilva!
-B: Zhilva!
-A: Ra rinaen morlak an van?
-B: Lia. Rinaen morlak zhaeleth.
-A: Anvanesh I morlak.
-B: Tal I morlak an Ya.
-```
+**Situation:** Nara points to a word on the slate. Toren explains it through their friendship.
 
-**English:** Hello! / Hello! / Do you have bread? / Yes. The bread is fresh. / I'll buy some. / Here is your bread.
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Ra rinaen kel deni mu?` | What is this word? |
+| Toren | `Ser.` | Friend. |
+| Nara | `Ra rinaen ser mu?` | What is a friend? |
+| Toren | `Rinaen I Ya-ka ser.` | I'm your friend. |
+| Nara | `Lia'ser.` | I see. |
 
-**Recording note:** The exchange deliberately omits a price; it does not teach how to pay yet.
+## 9. Write it down
 
-## 7. Going together
+**Situation:** Toren asks Nara to put the new word on a slate.
 
-**Situation:** Two travelers discover they are going to the same city.
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Toren | `Va keldoraen Ya kel deni an kelpral.` | Write this word on the slate. |
+| Nara | `Keldoraen I ser an kelpral.` | I'm writing **ser** on the slate. |
+| Toren | `Ra shalaen Ya kel?` | Can you see the word? |
+| Nara | `Lia. Shalaen I.` | Yes. I see it. |
 
-```text
-A: Ra var Ya lo?
-B: Var I an Varthas.
-A: Ra var Ya ser ser?
-B: Ka.
-A: Var I sera an Varthas.
-B: Lia. Var Ilin an Varthas.
-```
+## 10. The written name
 
-**English:** Where are you going? / To Varthas. / Are you going with a friend? / No. / I'm going there too. / Then we'll go together.
+**Situation:** Toren looks for a name Nara has written.
 
-## 8. Waiting at the station
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Toren | `Ra rinaen kelrin-ian an kelpral?` | Is my name on the slate? |
+| Nara | `Lia. Tha-keldoraen I kelrin-ya.` | Yes. I wrote your name. |
+| Toren | `Ra shalaen I?` | May I see it? |
+| Nara | `Lia. Va shalaen Ya.` | Yes. Look. |
+| Toren | `Rinaen kelrin-ian an deni.` | Here's my name. |
 
-**Situation:** Two people wait for a train.
+## 11. The song
 
-```text
-A: Dar I an varbelor.
-B: Dar I belzhirvek.
-A: Ra var Ya lo?
-B: Nor-var I an Varthas.
-A: Var I sera an Varthas.
-B: Dar I ser Ya.
-```
+**Situation:** Nara hears Toren singing and asks to hear it again.
 
-**English:** I'm waiting at the station. / I'm waiting for the train. / Where are you going? / To Varthas. / I'm going there too. / I'll wait with you.
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Aenaen I aenthael.` | I hear a song. |
+| Toren | `Ra rinaen aenthael vaareth?` | Is it any good? |
+| Nara | `Lia. Ra aenthaelaen Ya wek'aen?` | Yes. Will you sing it again? |
+| Toren | `Lia. Aenthaelaen I wek'aen.` | Yes. I'll sing it again. |
 
-## 9. I didn't understand
+## 12. Learn the song
 
-**Situation:** One speaker needs the other to say something more clearly.
+**Situation:** Toren invites Nara to sing, then gives Nara a chance to listen first.
 
-```text
-A: Nor-var I an evan.
-B: Ver nemaen I.
-B: Va selnemaen Ya kel.
-A: Var I an evan.
-B: Ra var Ya an evan?
-A: Lia.
-B: Nemaen I.
-```
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Toren | `Ra aenthaelaen Ya ser I?` | Will you sing with me? |
+| Nara | `Ka. Ver varin I aenthael.` | I don't know the song. |
+| Toren | `Va aenaen Ya I.` | Listen to me. |
+| Nara | `Lia. Nor-aenthaelaen I ser Ya.` | All right. Then I'll sing with you. |
 
-**English:** I'll go to the market. / I don't understand. / Please say that more clearly. / I'm going to the market. / To the market? / Yes. / I understand.
+## 13. Dance or play?
 
-## 10. Can I help?
+**Situation:** Nara suggests dancing. Toren has another idea.
 
-**Situation:** Someone sees a friend carrying things.
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Ra thaelaen Ya ser I?` | Will you dance with me? |
+| Toren | `Ka. Ver thaelaen I.` | No. I don't dance. |
+| Nara | `Ra dovaen Ya ser I?` | Will you play with me? |
+| Toren | `Lia. Vael dovaen Inko.` | Yes. Let's play together. |
 
-```text
-A: Ra mbaen I Ya?
-B: Lia. Va mbaen Ya I.
-A: Ra rinaen kavvek an eshpral?
-B: Lia.
-A: Tal I kavvek thal eshpral.
-B: Va dor Ya kavvek an pralor.
-A: Dor I kavvek an pralor.
-B: Lia.
-```
+## 14. Who will win?
 
-**English:** May I help you? / Yes, please. / Is the jar on the shelf? / Yes. / I'll take it down. / Put it on the table. / I'm putting it there. / Yes.
+**Situation:** A playful argument starts before the game does.
 
-## 11. A meal at home
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Toren | `Ra dovaen Inko dovath?` | Shall we play a game? |
+| Nara | `Lia. Nor-shalnakaen I.` | Yes. I'll win. |
+| Toren | `Ka. Nor-shalnakaen I.` | No. I'll win. |
+| Nara | `Dovkelaen I Ya.` | I'm teasing you. |
+| Toren | `Lia'ser. Vael dovaen Inko.` | All right. Let's play. |
 
-**Situation:** A host welcomes a friend and serves food.
+## 15. Flowers in the garden
 
-```text
-A: Zhilva, Ser!
-B: Zhilva!
-A: Va anshanaen Ya xaror.
-B: Rinaen I emilrav.
-A: Rinaen emil zhaeleth.
-B: Ra rinaen morlak?
-A: Lia. Rinaen morlak ser dren.
-B: Velaen Ilin morlak.
-```
+**Situation:** Toren wants to pick a flower. Nara wants to leave the flowers growing.
 
-**English:** Hello, friend! / Hello! / Come in. / I'm hungry. / The meal is fresh. / Is there bread? / Yes, bread and water. / Let's eat together.
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Rinaen tren zhaelin an verdsov.` | There are three flowers in the garden. |
+| Toren | `Ra talaen I unar zhaelin?` | May I take one flower? |
+| Nara | `Ka. Va shalaen Ya zhaelin.` | No. Look at the flowers. |
+| Toren | `Lia'ser. Shalaen I.` | All right. I'll look. |
 
-## 12. Good night
+## 16. This one is for you
 
-**Situation:** Two people end the day at home.
+**Situation:** Toren mistakes a flower Nara is offering for a gift to someone else.
 
-```text
-A: Rinaen I felkal.
-B: Rinaen I felkal sera.
-A: Xaraen I shalshan.
-B: Xaraen I vorkor.
-A: Nor-vethoraen Ilin an nethlor.
-B: Lia.
-A: Jexhaer!
-B: Jexhaer!
-```
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Toren | `Ra tal Ya zhaelin an I-ka serilin?` | Are you giving the flower to my sister? |
+| Nara | `Ka. Tal I zhaelin an Ya.` | No. I'm giving it to you. |
+| Toren | `An I?` | To me? |
+| Nara | `Lia. An Ya.` | Yes. To you. |
 
-**English:** I'm tired. / Me too. / I'm closing the window. / I'll close the door. / We'll sleep now. / Yes. / Good night! / Good night!
+## 17. Three seeds
 
-## 13. Water or a warm drink?
+**Situation:** Nara shares the seeds before they both place them in the garden.
 
-**Situation:** Two friends pause for a drink.
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Tren balvek.` | Three seeds. |
+| Toren | `Ra talaen I unar balvek?` | May I take one? |
+| Nara | `Lia. Tal I unar balvek an Ya.` | Yes. I'll give you one. |
+| Toren | `Dor I balvek an verdsov.` | I'll put my seed in the garden. |
+| Nara | `Dor I del balvek an verdsov.` | I'll put the other two in the garden. |
 
-```text
-A: Ra drenaen Ya dren reth phelvin?
-B: Rinaen I felkal. Drenaen I phelvin.
-A: Drenaen I dren.
-B: Dar I ser Ya.
-```
+## 18. Under the tree
 
-**English:** Water or a comforting drink? / I'm tired; I'll have the comforting drink. / I'll have water. / I'll wait with you.
+**Situation:** The sun is hot. Toren notices a shady place for them both.
 
-## 14. Setting the table
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Rinaen kreznyel feneth.` | The sun is hot. |
+| Toren | `Rinaen verdmarin an deni.` | There's a tree here. |
+| Nara | `Ra nethaen Inko morl verdmarin?` | Shall we sit beneath it? |
+| Toren | `Lia. Vael nethaen Inko.` | Yes. Let's sit. |
 
-**Situation:** Two people prepare to eat.
+## 19. The bird at the window
 
-```text
-A: Dor I drenvor an pralor.
-B: Dor I shem an pralor.
-A: Rinaen morlak an pralor.
-B: Ra rinaen dren an drenkavvek?
-A: Lia.
-B: Velaen Ilin morlak.
-```
+**Situation:** Both friends catch a brief glimpse of a bird.
 
-**English:** I'll put the bowl on the table. / I'll put the spoon there. / The bread is on the table. / Is there water in the flask? / Yes, there is. / Let's eat the bread.
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Shalaen I eshlin.` | I see a bird. |
+| Toren | `Ra rinaen eshlin lo?` | Where is it? |
+| Nara | `An shalshan.` | At the window. |
+| Toren | `Shalaen I eshlin an nor-ka.` | I see it now. |
+| Nara | `Tha-eshvaraen eshlin.` | It flew away. |
 
-## 15. Where is the bowl?
+## 20. The wind and the window
 
-**Situation:** A bowl has been moved while a meal is prepared.
+**Situation:** A cold wind comes through the open window.
 
-```text
-A: Ra rinaen drenvor an pralor?
-B: Ka. Ver rinaen drenvor an pralor.
-A: Ra kes Ya mu?
-B: Kes I drenvor an xaror.
-A: Tal I drenvor.
-B: Va dor Ya drenvor an pralor.
-```
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Toren | `Aenaen I eshlor.` | I hear the wind. |
+| Nara | `Rinaen eshlor veleth.` | It's a cold wind. |
+| Toren | `Va xaraen Ya shalshan.` | Close the window. |
+| Nara | `Xaraen I shalshan.` | I'll close it. |
 
-**English:** Is the bowl on the table? / No, it isn't. / What do you see? / I see the bowl in the room. / I'll take the bowl. / Put the bowl on the table.
+## 21. Moonlight
 
-## 16. A small favor
+**Situation:** Nara and Toren notice the room is lit at night.
 
-**Situation:** One person asks another to adjust the room.
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Rinaen noral an nor-ka.` | It's night now. |
+| Toren | `Shalaen I lun an shalshan.` | I see the moon at the window. |
+| Nara | `Rinaen shal an xaror.` | There's light in the room. |
+| Toren | `Shal thal lun.` | Moonlight. |
+| Nara | `Shalaen I lun sera.` | I see the moon too. |
 
-```text
-A: Ra mbaen I Ya?
-B: Lia. Va xaraen Ya vorkor.
-A: Xaraen I vorkor.
-B: Va kaxaraen Ya shalshan.
-A: Kaxaraen I shalshan.
-B: Lia.
-```
+## 22. Wood for the hearth
 
-**English:** Can I help you? / Yes. Please close the door. / I'm closing it. / Please open the window. / I'm opening it. / Yes.
+**Situation:** They check their wood before the hearth goes cold.
 
-## 17. The hot hearth
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Ra rinaen zem worlian an krezor?` | Is there enough wood at the hearth? |
+| Toren | `Ka. Rinaen felin zem.` | No. There's only a little wood. |
+| Nara | `Nor-vekaen I zem an krezor.` | I'll carry wood to the hearth. |
+| Toren | `Vael vekaen Inko zem.` | Let's carry it together. |
 
-**Situation:** A host warns someone about the hearth and pan.
+## 23. Two jobs in the kitchen
 
-```text
-A: Rinaen krezor feneth.
-B: Ra rinaen krezpral feneth?
-A: Lia.
-B: Dar I an xaror.
-A: Rinaen emil emilpraleth an teremil.
-B: Rinaen I emilrav.
-```
+**Situation:** Nara gives Toren a different job while preparing a meal.
 
-**English:** The hearth is hot. / Is the pan hot too? / Yes. / I'll wait in the room. / The meal is ready. / I'm hungry.
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Pelaen I teravin.` | I'm cutting root vegetables. |
+| Toren | `Ra mbaen I Ya?` | Can I help? |
+| Nara | `Lia. Va drenselaen Ya fennil.` | Yes. Wash the herbs. |
+| Toren | `Drenselaen I fennil.` | I'm washing the herbs. |
+| Nara | `Nor-emilpralaen Inko.` | Then we'll cook together. |
 
-## 18. A trip to the water
+## 24. The hot tea
 
-**Situation:** One person is leaving to get water.
+**Situation:** Nara receives tea that needs a moment to cool.
 
-```text
-A: Ra var Ya lo?
-B: Var I an dren.
-A: Var I sera an dren.
-B: Lia. Var Ilin an dren.
-```
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Toren | `Tal I phelmorin an Ya.` | Here's your tea. |
+| Nara | `Rinaen phelmorin feneth.` | It's hot. |
+| Toren | `Va dar Ya nor aenor.` | Wait a moment. |
+| Nara | `Nolaen I phelmorin. Rinaen vaareth.` | It smells good. |
 
-**English:** Where are you going? / To the water. / I'll come too. / Yes, we'll go together.
+## 25. Taste it again
 
-## 19. An invitation to come in
+**Situation:** The stew needs a little seasoning, and Nara checks it twice.
 
-**Situation:** A host sees a friend at the door.
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Jelaen I jorvak. Ver rinaen jorvak vaareth.` | I'm tasting the stew. It isn't good. |
+| Toren | `Va dor Ya belmor an jorvak.` | Add the root spice. |
+| Nara | `Dor I belmor an jorvak. Jelaen I wek'aen.` | I'll add it and taste again. |
+| Toren | `Ra rinaen vaareth?` | Is it good now? |
+| Nara | `Lia. Rinaen vaareth.` | Yes. It's good. |
 
-```text
-A: Zhilva, Ser!
-B: Zhilva!
-A: Va var Ya an deni.
-B: Ra rinaen emil an teremil?
-A: Lia. Rinaen emil zhaeleth.
-B: Rinaen I emilrav.
-```
+## 26. A song for the teacher
 
-**English:** Hello, friend! / Hello! / Come here. / Is there food at home? / Yes, the meal is fresh. / I'm hungry.
+**Situation:** Nara offers a song to an honored teacher.
 
-## 20. Is the meal ready?
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Zhilva, Liorinen.` | Hello, honored teacher. |
+| Liorin | `Zhilva, Nara.` | Hello, Nara. |
+| Nara | `Ra aenthaelaen I an Ya?` | May I sing for you? |
+| Liorin | `Lialor. Va aenthaelaen Ya.` | Of course. Sing. |
+| Nara | `Aenthaelaen I aenthael.` | I'll sing a song. |
 
-**Situation:** Two people check on dinner.
+## 27. My sister sings
 
-```text
-A: Ra rinaen emil emilpraleth an teremil?
-B: Ka. Ver rinaen emil emilpraleth an teremil.
-A: Rinaen I emilrav.
-B: Rinaen morlak ser dren.
-A: Velaen Ilin morlak.
-B: Lia.
-```
+**Situation:** Toren draws Nara's attention to a familiar voice.
 
-**English:** Is the meal ready? / No, not yet. / I'm hungry. / There is bread and water. / Let's eat some bread. / Yes.
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Toren | `Aenthaelaen I-ka serilin aenthael.` | My sister is singing a song. |
+| Nara | `Ra aenaen I La?` | Can I hear her? |
+| Toren | `Lia. Va aenaen Ya.` | Yes. Listen. |
+| Nara | `Aenaen I La. Rinaen aenthael vaareth.` | I hear her. It's a good song. |
 
-## 21. A sick child
+## 28. That joke
 
-**Situation:** Two caregivers check on a child.
+**Situation:** Nara notices a joke did not land and changes course.
 
-```text
-A: Ra rinaen felka maveth?
-B: Lia. Savaen I felka.
-A: Ra mbaen I Ya?
-B: Lia. Va mbaen Ya I.
-A: Tal I zordren an felka.
-B: Lia.
-```
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Dovkelaen I Ya.` | I'm teasing you. |
+| Toren | `Ver havaen I.` | I'm not laughing. |
+| Nara | `Rakel. Nemaen I.` | Pardon. I understand. |
+| Toren | `Ra dovaen Inko?` | Shall we play instead? |
+| Nara | `Lia. Vael dovaen Inko.` | Yes. Let's play. |
 
-**English:** Is the child sick? / Yes. I'm caring for them. / Can I help? / Yes, please. / I'll give the child milk. / Yes.
+## 29. The forgotten word
 
-## 22. Help, or space?
+**Situation:** Nara points at Toren while searching for a familiar word.
 
-**Situation:** One person offers help; the other would rather manage alone.
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Nara | `Kavelzhiraen I kel. Ra rinaen kel mu?` | I've forgotten the word. What is it? |
+| Toren | `Ser.` | Friend. |
+| Nara | `Ser! Velzhiraen I an nor-ka.` | Friend! I remember now. |
+| Toren | `Rinaen I Ya-ka ser.` | I'm your friend. |
 
-```text
-A: Ra mbaen I Ya?
-B: Ka. Ver mbaen Ya I.
-A: Lia. Dar I an xaror.
-B: Rinaen I felkal.
-A: Rinaen dren an drenkavvek.
-B: Lia. Drenaen I dren.
-```
+## 30. A song before good night
 
-**English:** May I help? / No, please don't help me. / All right. I'll wait in the room. / I'm tired. / There is water in the flask. / Yes, I'll drink some.
+**Situation:** The two friends end an evening by singing together.
 
-## 23. Working while someone speaks
+| Speaker | Celan | English |
+| --- | --- | --- |
+| Toren | `Tlosen, Nara.` | Good evening, Nara. |
+| Nara | `Tlosen. Ra aenthaelaen Ya aenthael?` | Good evening. Are you singing? |
+| Toren | `Lia. Ra aenthaelaen Ya ser I?` | Yes. Will you sing with me? |
+| Nara | `Lia. Aenthaelaen Inko.` | Yes. We'll sing together. |
+| Toren | `Jexhaer, Ser.` | Good night, friend. |
+| Nara | `Jexhaer.` | Good night. |
 
-**Situation:** Two friends coordinate a task.
+## Recording preparation
 
-```text
-A: Pralaen I krezor.
-B: Ra mbaen I Ya?
-A: Lia. Va tal Ya karvek.
-B: Tal I karvek.
-```
-
-**English:** I'm making the hearth. / Can I help? / Yes. Please take the toolkit. / I'll take it.
-
-## 24. A call through the network
-
-**Situation:** Two people speak from different places.
-
-```text
-A: Zhilva!
-B: Zhilva!
-A: Ra rinaen Ya an teremil?
-B: Lia. Varan I an teremil.
-A: Nor-var I an teremil nor aenor.
-B: Zharinor!
-```
-
-**English:** Hello! / Hello! / Are you at home? / Yes, I'm home. / I'll be home soon. / See you soon!
-
-## 25. Home or market?
-
-**Situation:** Two people decide where to go next.
-
-```text
-A: Ra var Ya lo?
-B: Reth‘thal nor-var I an evan.
-A: Var I an teremil.
-B: Ra rinaen emil an teremil?
-A: Lia. Rinaen morlak ser dren.
-B: Nor-var I an teremil.
-```
-
-**English:** Where are you going? / Perhaps to the market. / I'm going home. / Is there food at home? / Yes, bread and water. / Then I'll go home too.
-
-## 26. Weather at the door
-
-**Situation:** Someone looks outside before leaving.
-
-```text
-A: Ra kes Ya mu?
-B: Kes I drenalor an esh.
-A: Ra var Ya an evan?
-B: Ka. Ver var I an evan.
-A: Xaraen I vorkor.
-B: Dar I an teremil.
-```
-
-**English:** What do you see? / I see rain in the sky. / Are you going to the market? / No, I'm not going. / I'll close the door. / I'll wait at home.
-
-## 27. I want to go
-
-**Situation:** A friend wants to join a trip.
-
-```text
-A: Nor-var I an Varthas.
-B: Var I thar-ka.
-A: Ra var Ya ser I?
-B: Lia. Var I ser Ya.
-A: Var Ilin an Varthas.
-B: Zharinor, Ser!
-```
-
-**English:** I'll go to Varthas. / I want to go too. / Will you go with me? / Yes, I'll go with you. / We'll go to Varthas together. / See you soon, friend!
-
-## 28. Back from the market
-
-**Situation:** One person arrives home carrying food.
-
-```text
-A: Tha-var I thal evan.
-B: Ra tha-anvanesh Ya morlak?
-A: Lia. Tha-anvanesh I morlak.
-B: Rinaen I emilrav.
-A: Dor I morlak an pralor.
-B: Velaen Ilin morlak.
-```
-
-**English:** I came from the market. / Did you buy bread? / Yes, I bought bread. / I'm hungry. / I'll put the bread on the table. / Let's eat it together.
-
-## 29. Waiting for a friend
-
-**Situation:** Two people arrive at a meeting place before a third friend.
-
-```text
-A: Dar I ser.
-B: Ra var ser lo?
-A: Nor-var ser an varbelor.
-B: Dar I an varbelor.
-A: Dar I ser Ya.
-B: Lia.
-```
-
-**English:** I'm waiting for our friend. / Where are they going? / To the station. / I'll wait there. / I'll wait with you. / Yes.
-
-## 30. The end of a visit
-
-**Situation:** A guest leaves after a meal.
-
-```text
-A: Nor-var I an teremil.
-B: Ra var Ya nu?
-A: Nor-var I an teremil nor aenor.
-B: Zharinor, Ser!
-A: Zharinor!
-```
-
-**English:** I'll go home. / When are you leaving? / Soon. / See you soon, friend! / See you soon!
-
-## Production order
-
-For each conversation, export a full dialogue and separate files for each speaker's turns. Keep English out of the Celan audio. Preserve the written pauses and speaker changes; the English summaries are for subtitle preparation.
+Keep the written Celan above for learners. Make a separate mood-tagged ElevenLabs script with sound cues such as **ee** for **I**. Keep one voice per character. The names **Nara** and **Toren** can use the Volume 2 voices; **Liorin** needs a distinct third voice. These are standalone scenes and need not imply one continuous day.

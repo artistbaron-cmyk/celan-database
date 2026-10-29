@@ -23,6 +23,7 @@ vm.runInContext(fs.readFileSync(path.join(dataDir,'embedded_data.js'),'utf8'),bu
 vm.runInContext(fs.readFileSync(path.join(dataDir,'audio_catalog.js'),'utf8'),bundleContext);
 const bundle = bundleContext.window.EMBEDDED_DATA;
 const audio = bundleContext.window.CELAN_AUDIO_CATALOG;
+const pendingAudio=JSON.parse(fs.readFileSync(path.join(appDir,'audio_pending.json'),'utf8'));
 assert.equal(Object.keys(audio.headwords).length,1495);
 assert.equal(Object.keys(audio.variants).length,197);
 const expressionsDir=path.join(appDir,'..','audio','expressions');
@@ -68,10 +69,10 @@ const grammar={
 };
 assert.equal(fs.existsSync(path.join(dataDir,'grammar_guide.json')),false,'old grammar JSON must not be a second app source');
 const expressions=JSON.parse(bundle['expressions_app.json']);
-assert.equal(entries.length,1495);
-assert.equal(senses.filter(row=>row.visible==='Yes').length,1565);
-assert.equal(examples.length,9266);
-assert.equal(grammar.rules.length,48);
+assert.equal(entries.length,1499);
+assert.equal(senses.filter(row=>row.visible==='Yes').length,1570);
+assert.equal(examples.length,9278);
+assert.equal(grammar.rules.length,51);
 assert.equal(grammar.lessons.length,7);
 assert.equal(grammar.companions.length,1);
 assert.equal(new Set(grammarRows.map(row=>`${row.record_type}:${row.id}`)).size,grammarRows.length,'duplicate grammar CSV record');
@@ -89,7 +90,7 @@ for(const row of examples){
   assert.ok(ids.has(row.headword_id),'orphan example: '+row.headword_id);
   assert.ok(['direct','related','teaching'].includes(row.section),'invalid example section');
   const aliasKey=row.entry_id||`text:${row.celan_text.trim().toLowerCase()}`;
-  assert.ok(audio.phrases[row.entry_id]||audio.phrases[audio.exampleAliases[aliasKey]],`example has no audio: ${row.celan_text}`);
+  assert.ok(audio.phrases[row.entry_id]||audio.phrases[audio.exampleAliases[aliasKey]]||pendingAudio.examples.includes(row.entry_id),`example has no audio or explicit pending record: ${row.celan_text}`);
 }
 for(const row of entries){
   const family=families[row.id];
@@ -138,7 +139,23 @@ for(const row of examples){
     assert.equal(visibleById.get(row.sense_id)?.meaning,row.sense_meaning,'example meaning wording differs from its link: '+row.sense_id);
   }
 }
-assert.equal(explicitExampleLinks,286,'meaning links should remain explicit');
+assert.equal(explicitExampleLinks,298,'meaning links should remain explicit');
+assert.deepEqual(pendingAudio.headwords,['nevu','arin','mbetu','senu']);
+assert.equal(pendingAudio.examples.length,11);
+for(const entryId of pendingAudio.examples){
+  assert.ok(examples.some(row=>row.entry_id===entryId&&row.source_section===pendingAudio.batch),'pending audio must identify an approved example: '+entryId);
+}
+for(const key of pendingAudio.headwords){
+  assert.ok(entries.some(row=>row.id===key&&row.approval_batch===pendingAudio.batch),'missing approved quantity/distance word: '+key);
+  assert.ok(examples.filter(row=>row.headword_id===key&&row.sense_id===key+'-s1').length>=2,'new word needs at least two meaning-linked examples: '+key);
+}
+assert.equal(senses.find(row=>row.sense_id==='sha-s1').meaning,'How; optional content-question particle requesting a manner method or means');
+assert.ok(senses.find(row=>row.sense_id==='sha-s2'&&row.visible==='Yes'),'distance question must preserve both Sha meanings');
+assert.equal(families.zharin.components.find(part=>part.form==='arin').target,'arin','Zharin must link to the approved Arin word');
+for(const id of ['GR-DQL1-0001','GR-DQL1-0002','GR-DQL1-0003']){
+  assert.ok(grammar.rules.some(row=>row.id===id&&row.review_status==='Approved'),'missing approved grammar: '+id);
+  assert.ok(JSON.parse(grammar.rules.find(row=>row.id==='LESSON-SENTENCE-SHAPE').childRuleIds).includes(id),'new grammar missing from lesson: '+id);
+}
 for(const retiredId of ['esh-s3','lian-s3','aen-s3','vaar-s3','thalor-s1','-en-s2','li--s2']){
   assert.ok(!senses.some(row=>row.sense_id===retiredId),'retired duplicate meaning remains visible: '+retiredId);
 }
@@ -294,7 +311,7 @@ for(const retiredId of ['PE-V1-0015','PE-V1-0012'])assert.ok(!examples.some(row=
 assert.equal(examples.filter(row=>row.entry_id==='PE-V1-0009'&&row.display_kind==='phrase').length,2,'the old beloved boy phrase should appear as a phrase on both pages');
 for(let i=1;i<=12;i++)assert.equal(examples.filter(row=>row.entry_id===`PE-LA1-${String(i).padStart(4,'0')}`&&row.sense_id&&row.display_kind==='sentence').length,1,'missing approved batch 01 sentence '+i);
 const exportRows=parseCsv(fs.readFileSync(path.join(appDir,'exports','dictionary_entries.csv'),'utf8'));
-assert.equal(exportRows.length,1565,'spreadsheet export is missing visible senses');
+assert.equal(exportRows.length,1570,'spreadsheet export is missing visible senses');
 assert.deepEqual(new Set(exportRows.map(row=>row.sense_id)),new Set(senses.filter(row=>row.visible==='Yes').map(row=>row.sense_id)),'export sense IDs differ from visible app meanings');
 const exportedSense=id=>exportRows.find(row=>row.sense_id===id);
 for(const id of ['kadfel-s1','azfel-s1','theefel-s1','kadon-s1','aenvor-s1','sorl-s1','kalvar-s1','sharvar-s1','morlka-s1']){

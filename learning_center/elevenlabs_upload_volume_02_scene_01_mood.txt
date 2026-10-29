@@ -1,0 +1,6 @@
+Nara: [friendly] nekvar toren
+Toren: [friendly] nekvar [curious] ra var ya an evan?
+Nara: [calmly] lia nor-var ee an evan nor aenor
+Toren: [pleased] var ee sera an evan
+Nara: [patiently] dar ee an vorkor
+Toren: [friendly] lia'ser

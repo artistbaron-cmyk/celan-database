@@ -1,0 +1,7 @@
+Nara: [friendly] zhilva varadan
+Varadan: [friendly] zhilva
+Nara: [hopeful] ra rinaen morlak an van?
+Varadan: [regretful] ka ver rinaen morlak an van
+Nara: [surprised] rakel?
+Varadan: [helpfully] rinaen vilor zhaeleth
+Nara: [accepting] lia'ser

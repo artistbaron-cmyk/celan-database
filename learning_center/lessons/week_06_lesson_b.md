@@ -47,6 +47,6 @@ Read the whole verb, not just its first three letters.
 5. **A**
 6. **B**
 
-**Independent response guide:** A describes movement toward the mountain; B describes residence in Varthas.
+**Independent response guide:** A describes movement toward the mountain; B describes residence in the city.
 
 **Review tomorrow:** Revisit the two headwords, then reproduce model B without looking. Review it again after three and seven days if correct.

@@ -923,3 +923,17 @@ Status: Applied from the user's September 27 numbered tables and follow-up clari
 All 32 records now have ordinary example placement. Twenty-three use the supplied Celan directly. Nine were reworded using established vocabulary: `an` for place rather than temporal `nor`; passive `nor-ka` for the traded protein; `Thal'vokaen` for harmonizing water and mountain; `Min` for walking; `Aenor` for “in a moment,” not `Felnor` (a time skip); `Moraen` for standing, not `Var` (going); `Vekaen` for bringing coinage to the addressee, not `Talaen` alone; and `Emilpraleth` for cooked food. The user clarified that “ready” in the meal question means cooked. These example repairs do not change existing headword meanings.
 
 The user's relative-clause examples establish `Ser Lior var an dren.` and `var I an terra ser Ser Lior var an dren.` as ordinary illustrations of noun + `Lior` + verb-first clause. The current grammar card and working lesson now teach this pattern. The user also supplied a verb-first past conditional example with `rath tha-var` and `tha-talaen`; the app and working lesson present it as a counterfactual past sentence. This approval is confined to these demonstrated constructions; it does not automatically validate unrelated older clauses.
+
+## ED-0048: Distance and Quantity Limits 1
+
+Status: Approved by the user on 2026-10-29.
+
+Four universal headwords are approved: **Nevu** /neh-voo/, near; **Arin** /ah-reen/, far; **Mbetu** /m-beh-too/, at least; and **Senu** /seh-noo/, at most. Nevu is a new spatial primitive. Arin becomes an independent spatial adjective from the far-reaching component already recorded in Zharin; Zharin retains its distant-relative meaning and its existing derivation witness. Mbetu and Senu are independent grammatical particles, with the initial mb in Mbetu articulated together. No unlisted derivative family is authorized.
+
+GR-DQL1-0001 establishes nevu/arin with an optional **thal + reference point**. Existing ther/thaal comparisons yield nearer/farther and nearest/farthest with a shared reference point. Spatial separation does not by itself specify route length, travel time, contact, safety, or reachability.
+
+GR-DQL1-0002 establishes **ra rinaen [place/person/object] arin [thal reference] sha?** as a neutral request for spatial distance: how far? It permits an answer saying the destination is near. Without sha, the corresponding ordinary question asks whether it is far. Sha gains this specific distance-question use while retaining its existing manner/method meaning; this does not establish a general degree-question system.
+
+GR-DQL1-0003 places mbetu/senu immediately before a numerical quantity and its noun or measure phrase. Mbetu includes that quantity and larger amounts; Senu includes that quantity and smaller amounts. Both include the stated boundary. Worlian retains its sufficiency meaning, and existing numeral and noun usage remains intact.
+
+The current app-facing integration and its pre-change snapshot are recorded in `outputs/quantity_composition_tests_2026_10_29/approved_integration.json` and `integration_before.json`. The app files in `dictionary/app_data/` are the editable authority; older expansion and example CSVs remain preserved witnesses. New text examples have explicit meaning links; their audio recordings remain pending.

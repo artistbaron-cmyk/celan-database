@@ -21,7 +21,24 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  assert.equal(elements.get('themeToggle').textContent,'☾ Dark');
  api.setTheme('dark');
  for(let i=0;i<100&&!api.state.groupedEntries.length;i++)await new Promise(resolve=>setTimeout(resolve,50));
- assert.equal(api.state.groupedEntries.length,1495);
+ assert.equal(api.state.groupedEntries.length,1499);
+ for(const [term,pronunciation,search] of [
+   ['Nevu','/neh-voo/','near'],['Arin','/ah-reen/','far'],
+   ['Mbetu','/m-beh-too/','at least'],['Senu','/seh-noo/','at most']
+ ]){
+   const group=api.findBestLexiconMatch(term);
+   assert.ok(group,term+' must be searchable');
+   assert.equal(api.buildPronunciation(term),pronunciation);
+   assert.ok(api.findEnglishMatches(group,search).length,term+' must match its English meaning');
+   api.renderDetail(group);
+   assert.match(elements.get('detailView').innerHTML,/class="sentence-example"/);
+ }
+ for(const id of ['GR-DQL1-0001','GR-DQL1-0002','GR-DQL1-0003']){
+   const rule=api.state.grammarRules.find(rule=>rule.id===id);
+   assert.ok(rule,'new grammar must load: '+id);
+   api.renderRuleDetail(rule);
+   assert.ok(elements.get('ruleDetailView').innerHTML.includes(rule.rule_name),'new grammar must render: '+id);
+ }
  const dren=api.findBestLexiconMatch('Dren');
  assert.ok(dren);
  assert.ok(api.findEnglishMatches(dren,'water').length);
@@ -73,8 +90,8 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  assert.ok(api.state.rootLookup.length>0);
  assert.ok(api.state.forgeParts.length>0);
  const visibleCount=api.state.groupedEntries.reduce((count,group)=>count+group.englishSenses.length,0);
- assert.equal(visibleCount,1565);
- assert.equal(api.state.groupedEntries.reduce((count,group)=>count+api.displayUses(group).length,0),1565);
+ assert.equal(visibleCount,1570);
+ assert.equal(api.state.groupedEntries.reduce((count,group)=>count+api.displayUses(group).length,0),1570);
  const senseIds=new Set();
  for(const group of api.state.groupedEntries){
    const visible=api.displayUses(group);
@@ -110,7 +127,7 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
      }
    }
  }
- assert.equal(senseIds.size,1565);
+ assert.equal(senseIds.size,1570);
  api.renderDetail(api.findBestLexiconMatch('Aenor'));
  let page=elements.get('detailView').innerHTML;
  assert.match(api.findBestLexiconMatch('Aenor').searchText,/breath/,'search must include visible word parts');

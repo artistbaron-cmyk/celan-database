@@ -49845,9 +49845,9 @@
         "form": "arin",
         "description": "(far-reaching)",
         "source": "Zhir (lineage) + arin (far-reaching).",
-        "id": "local:zharin:arin",
-        "kind": "local",
-        "target": null,
+        "id": "word:arin",
+        "kind": "word",
+        "target": "arin",
         "meaning": "(far-reaching)",
         "entryId": "LX-V3-0053"
       }
@@ -50005,6 +50005,10 @@
       {
         "id": "zhivorin",
         "term": "Zhivorin"
+      },
+      {
+        "id": "arin",
+        "term": "Arin"
       }
     ],
     "relatedGroups": [
@@ -50163,6 +50167,16 @@
           {
             "id": "zhivorin",
             "term": "Zhivorin"
+          }
+        ]
+      },
+      {
+        "key": "word:arin",
+        "label": "Arin",
+        "entries": [
+          {
+            "id": "arin",
+            "term": "Arin"
           }
         ]
       }
@@ -392369,6 +392383,51 @@
         "term": "Vaar"
       }
     ],
+    "relatedGroups": []
+  },
+  "nevu": {
+    "familyRoots": [],
+    "sharedAffixes": [],
+    "components": [],
+    "notes": [
+      "New independent primitive for spatial proximity; not derived from intimacy, smallness, or participant deixis."
+    ],
+    "relatedEntries": [],
+    "relatedGroups": []
+  },
+  "arin": {
+    "familyRoots": [],
+    "sharedAffixes": [],
+    "components": [],
+    "notes": [
+      "Independent spatial adjective developed from the far-reaching component recorded in Zharin. Zharin retains its established distant-relative meaning."
+    ],
+    "relatedEntries": [
+      {
+        "id": "zharin",
+        "term": "Zharin"
+      }
+    ],
+    "relatedGroups": []
+  },
+  "mbetu": {
+    "familyRoots": [],
+    "sharedAffixes": [],
+    "components": [],
+    "notes": [
+      "New independent quantity-limit particle; no compound derivation. Initial mb is articulated together."
+    ],
+    "relatedEntries": [],
+    "relatedGroups": []
+  },
+  "senu": {
+    "familyRoots": [],
+    "sharedAffixes": [],
+    "components": [],
+    "notes": [
+      "New independent quantity-limit particle; no compound derivation."
+    ],
+    "relatedEntries": [],
     "relatedGroups": []
   }
 }

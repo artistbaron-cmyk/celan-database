@@ -115,7 +115,7 @@ SCENE_KEYS = {
     (5, "B"): "nor-var I dren. states the future trip.",
     (5, "C"): "A is ongoing movement; B is residence in a city.",
     (6, "A"): "an dren in B explicitly marks the destination.",
-    (6, "B"): "A describes movement toward the mountain; B describes residence in Varthas.",
+    (6, "B"): "A describes movement toward the mountain; B describes residence in the city.",
     (6, "C"): "ra var ser lo? asks explicitly for a place.",
     (7, "A"): "I-ka dren means my water; var I ka shal. means I go without light.",
     (7, "B"): "The owner is the speaker in A and the addressee in B.",

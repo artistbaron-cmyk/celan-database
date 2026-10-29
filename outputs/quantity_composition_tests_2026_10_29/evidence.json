@@ -1,0 +1,276 @@
+{
+  "source_hashes": {
+    "dictionary_senses.csv": "d8639ea2b4a16f2fac653a7a1c0e25d0e2350d02dc00fc30cb6cd565066951e1",
+    "dictionary_examples.csv": "1f3ffdf117d8876918211fe5758838df05b9b628bf974649a0975b97b619a512",
+    "grammar_guide.csv": "afb8f37eea51e3060422b73193e6d0f30ac955bd6ba6a16677519c835b130930",
+    "dictionary_entries.csv": "d414d32a8af4aa3ce84cfb8f01ab071824ce0993ba9e626b48869cd36326a81b"
+  },
+  "visible_senses": [
+    {
+      "headword_id": "thal",
+      "word_type": "Noun",
+      "meaning": "Balance / Harmony",
+      "usage_note": "",
+      "sense_id": "thal-s1"
+    },
+    {
+      "headword_id": "thal",
+      "word_type": "Preposition",
+      "meaning": "From / Out of",
+      "usage_note": "",
+      "sense_id": "thal-s2"
+    },
+    {
+      "headword_id": "reth",
+      "word_type": "Noun",
+      "meaning": "Uncertainty / Confusion / Doubt",
+      "usage_note": "",
+      "sense_id": "reth-s1"
+    },
+    {
+      "headword_id": "reth",
+      "word_type": "Conjunction",
+      "meaning": "Or",
+      "usage_note": "",
+      "sense_id": "reth-s2"
+    },
+    {
+      "headword_id": "tal",
+      "word_type": "Verb",
+      "meaning": "Give / Offer",
+      "usage_note": "",
+      "sense_id": "tal-s1"
+    },
+    {
+      "headword_id": "tal",
+      "word_type": "Verb",
+      "meaning": "Take / Receive",
+      "usage_note": "",
+      "sense_id": "tal-s2"
+    },
+    {
+      "headword_id": "belshen",
+      "word_type": "Noun",
+      "meaning": "Price / Binding Value / Agreed Cost. The established or negotiated value that binds a trade.",
+      "usage_note": "Bel (bind/weave) + Shen(akar) (coinage - shortening for flow)",
+      "sense_id": "belshen-s1"
+    },
+    {
+      "headword_id": "morlak",
+      "word_type": "Noun",
+      "meaning": "Bread/Grain",
+      "usage_note": "unchanged; Mor + lak = earthy substance",
+      "sense_id": "morlak-s1"
+    },
+    {
+      "headword_id": "del",
+      "word_type": "Noun",
+      "meaning": "Two",
+      "usage_note": "",
+      "sense_id": "del-s1"
+    },
+    {
+      "headword_id": "tren",
+      "word_type": "Noun",
+      "meaning": "Three",
+      "usage_note": "",
+      "sense_id": "tren-s1"
+    },
+    {
+      "headword_id": "peth",
+      "word_type": "Noun",
+      "meaning": "Five",
+      "usage_note": "",
+      "sense_id": "peth-s1"
+    },
+    {
+      "headword_id": "vorkor",
+      "word_type": "Noun",
+      "meaning": "Door, Gateway (mundane)",
+      "usage_note": "Vor (place of bond) + Kor (source)",
+      "sense_id": "vorkor-s1"
+    },
+    {
+      "headword_id": "karethaen",
+      "word_type": "Verb",
+      "meaning": "To Use, To wield a tool",
+      "usage_note": "Kareth (hammer/tool) + -aen",
+      "sense_id": "karethaen-s1"
+    },
+    {
+      "headword_id": "shen",
+      "word_type": "Noun",
+      "meaning": "Coinage / Currency",
+      "usage_note": "",
+      "sense_id": "shen-s1"
+    },
+    {
+      "headword_id": "shen",
+      "word_type": "Measure",
+      "meaning": "Unit of quantity / measure",
+      "usage_note": "A measure or count unit following a numeral; the current sentence names five measures.",
+      "sense_id": "shen-s2"
+    },
+    {
+      "headword_id": "shen",
+      "word_type": "Verb",
+      "meaning": "To measure / To count",
+      "usage_note": "",
+      "sense_id": "shen-s3"
+    },
+    {
+      "headword_id": "shenlian",
+      "word_type": "Noun",
+      "meaning": "Standard; reference measure",
+      "usage_note": "",
+      "sense_id": "shenlian-s1"
+    },
+    {
+      "headword_id": "worlian",
+      "word_type": "Quantifier",
+      "meaning": "Enough; sufficient for the relevant need or purpose",
+      "usage_note": "",
+      "sense_id": "worlian-s1"
+    },
+    {
+      "headword_id": "shan",
+      "word_type": "Verb",
+      "meaning": "To pass / to transfer / to hand off",
+      "usage_note": "Builds words for passing onward, ceremonial transfer, blessing transmission, and movement between holders or generations.",
+      "sense_id": "shan-s1"
+    },
+    {
+      "headword_id": "shan",
+      "word_type": "Preposition",
+      "meaning": "Through or across from one side or boundary to another",
+      "usage_note": "",
+      "sense_id": "shan-s2"
+    },
+    {
+      "headword_id": "deni",
+      "word_type": "Particle",
+      "meaning": "Demonstrative marking a referent within the speaker's immediate sphere; this",
+      "usage_note": "",
+      "sense_id": "deni-s1"
+    },
+    {
+      "headword_id": "denya",
+      "word_type": "Particle",
+      "meaning": "Demonstrative marking a referent within the listener's immediate sphere; that by you",
+      "usage_note": "",
+      "sense_id": "denya-s1"
+    },
+    {
+      "headword_id": "shena",
+      "word_type": "Noun",
+      "meaning": "Coin / Coins / Physical money",
+      "usage_note": "",
+      "sense_id": "shena-s1"
+    },
+    {
+      "headword_id": "ther",
+      "word_type": "Particle",
+      "meaning": "Comparative marker: more than",
+      "usage_note": "Original root/morpheme entry preserved.",
+      "sense_id": "ther-s1"
+    }
+  ],
+  "established_examples": [
+    {
+      "headword_id": "belshen",
+      "section": "direct",
+      "display_order": "1",
+      "entry_id": "PE-V2-0047",
+      "celan_text": "Ra aen Ya belshen velrin?",
+      "translation": "Do you speak the price of the food?",
+      "example_type": "Jargon example",
+      "analysis": "",
+      "source_volume": "Volume 2: Dictionary and Word Formation",
+      "source_section": "Vocabulary > JARGON: (BATTLE, TEMPLE, MARKET) > Market Jargon",
+      "notes": "Original example preserved.",
+      "sense_meaning": "",
+      "display_kind": "sentence",
+      "sense_id": ""
+    },
+    {
+      "headword_id": "shenlian",
+      "section": "direct",
+      "display_order": "1",
+      "entry_id": "PE-NE1-0025",
+      "celan_text": "lorin shenlian mekral.",
+      "translation": "The standard guides the technician.",
+      "example_type": "National lexicon example",
+      "analysis": "Mechuman technical practice.",
+      "source_volume": "National Expansion 1",
+      "source_section": "Mechuma > Shenlian",
+      "notes": "User-approved expansion support.",
+      "sense_meaning": "",
+      "display_kind": "sentence",
+      "sense_id": ""
+    },
+    {
+      "headword_id": "shenlian",
+      "section": "direct",
+      "display_order": "2",
+      "entry_id": "PE-NE1-0026",
+      "celan_text": "rinaen morkal shenlian.",
+      "translation": "The stone-weight is the reference measure.",
+      "example_type": "National lexicon example",
+      "analysis": "Cross-national measurement use.",
+      "source_volume": "National Expansion 1",
+      "source_section": "Mechuma > Shenlian",
+      "notes": "User-approved expansion support.",
+      "sense_meaning": "",
+      "display_kind": "sentence",
+      "sense_id": ""
+    },
+    {
+      "headword_id": "worlian",
+      "section": "direct",
+      "display_order": "1",
+      "entry_id": "PE-CNE1-0043",
+      "celan_text": "rinaen dren worlian.",
+      "translation": "The water is enough.",
+      "example_type": "Expansion example",
+      "analysis": "Ordinary sufficiency.",
+      "source_volume": "Conversational Narrative Engine 1",
+      "source_section": "Common Celan > Worlian",
+      "notes": "User-approved expansion support.",
+      "sense_meaning": "",
+      "display_kind": "sentence",
+      "sense_id": ""
+    },
+    {
+      "headword_id": "worlian",
+      "section": "direct",
+      "display_order": "2",
+      "entry_id": "PE-CNE1-0044",
+      "celan_text": "rinaen droshen worlian.",
+      "translation": "The water ration is sufficient.",
+      "example_type": "Expansion example",
+      "analysis": "Measured sufficiency.",
+      "source_volume": "Conversational Narrative Engine 1",
+      "source_section": "Jasara > Worlian",
+      "notes": "User-approved expansion support.",
+      "sense_meaning": "",
+      "display_kind": "sentence",
+      "sense_id": ""
+    },
+    {
+      "headword_id": "ther",
+      "section": "direct",
+      "display_order": "1",
+      "entry_id": "PE-V3-0025",
+      "celan_text": "rinaen dren-ian shaleth ther La-ka dren.",
+      "translation": "My water is brighter than their water.",
+      "example_type": "Complex sentence example",
+      "analysis": "",
+      "source_volume": "Volume 3: Culture, Context, and Advanced Expression",
+      "source_section": "Complex Sentence Structures",
+      "notes": "Original example preserved. ED-0045 second-pass review; original wording in outputs/dictionary_second_pass/applied_changes.json.",
+      "sense_meaning": "",
+      "display_kind": "sentence",
+      "sense_id": ""
+    }
+  ]
+}

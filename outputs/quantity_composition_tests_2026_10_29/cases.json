@@ -1,0 +1,200 @@
+[
+  {
+    "id": "F1",
+    "topic": "Fractions",
+    "celan": "va karethaen unar thal del dren.",
+    "intent": "Use half the water.",
+    "context": "One identified supply of water.",
+    "result": "Proposed reusable construction",
+    "reason": "Thal supplies out of; treating the two as equal shares of the whole is the explicit new convention needed."
+  },
+  {
+    "id": "F2",
+    "topic": "Fractions",
+    "celan": "va karethaen unar thal quen dren.",
+    "intent": "Use a quarter of the water.",
+    "context": "Same whole, four equal shares.",
+    "result": "Proposed reusable construction",
+    "reason": "Same structure scales without adding a word for quarter."
+  },
+  {
+    "id": "F3",
+    "topic": "Fractions",
+    "celan": "va karethaen tren thal quen dren.",
+    "intent": "Use three quarters of the water.",
+    "context": "Same whole, four equal shares.",
+    "result": "Proposed reusable construction",
+    "reason": "The numerator selects three shares; the denominator fixes four equal shares."
+  },
+  {
+    "id": "F4",
+    "topic": "Fractions",
+    "celan": "va karethaen unar thal del dren.",
+    "intent": "Use half the combined water.",
+    "context": "Two containers hold unequal quantities.",
+    "result": "Fails if interpreted as choose one container",
+    "reason": "One of two containers need not contain half the total. The fraction must describe equal abstract shares, not count existing containers."
+  },
+  {
+    "id": "F5",
+    "topic": "Fractions",
+    "celan": "va karethaen unar thal verin dren.",
+    "intent": "Use one zeroth of the water.",
+    "context": "Denominator zero.",
+    "result": "Reject under proposed fraction rule",
+    "reason": "No division into zero equal shares is defined."
+  },
+  {
+    "id": "F6",
+    "topic": "Fractions",
+    "celan": "va karethaen peth thal quen dren.",
+    "intent": "Use five quarters of the water.",
+    "context": "Only one bounded supply is available.",
+    "result": "Needs a reference-unit explanation",
+    "reason": "Five quarters is mathematically meaningful but cannot be taken from one whole supply. Distinguish a reference unit from the entire available stock."
+  },
+  {
+    "id": "O1",
+    "topic": "Positions",
+    "celan": "va var shan vorkor «tren».",
+    "intent": "Go through door labelled three.",
+    "context": "Doors have visible number labels.",
+    "result": "Strong contextual composition",
+    "reason": "The quoted number identifies the label; no ordinal suffix or new meaning is needed."
+  },
+  {
+    "id": "O2",
+    "topic": "Positions",
+    "celan": "va var shan vorkor «tren».",
+    "intent": "Go through the third door encountered.",
+    "context": "Unlabelled doors; walking direction not stated.",
+    "result": "Does not establish a general ordinal",
+    "reason": "The label construction alone supplies neither counting direction nor a starting point."
+  },
+  {
+    "id": "O3",
+    "topic": "Positions",
+    "celan": "va var shan vorkor «tren».",
+    "intent": "Go through the third door counted from the agreed start.",
+    "context": "Speaker and listener first number the doors together.",
+    "result": "Works with shared numbering",
+    "reason": "The earlier counting supplies the order. This is a contextual solution, not a universal ordinal rule."
+  },
+  {
+    "id": "O4",
+    "topic": "Positions",
+    "celan": "va tal emilpral «del» var I.",
+    "intent": "Give me plate labelled two.",
+    "context": "Plates are numbered for a task.",
+    "result": "Strong contextual composition",
+    "reason": "Repeats the label strategy with another noun; does not mean give me two plates."
+  },
+  {
+    "id": "B1",
+    "topic": "Minimum amount",
+    "celan": "rinaen peth shen morlak worlian.",
+    "intent": "Five measures of grain are enough.",
+    "context": "Preparing a meal with a shared measure.",
+    "result": "Supported compositional paraphrase",
+    "reason": "Worlian already appears as a predicate. This states sufficiency, not an exact minimum."
+  },
+  {
+    "id": "B2",
+    "topic": "Minimum amount",
+    "celan": "rinaen peth shen morlak worlian. ver rinaen quen shen morlak worlian.",
+    "intent": "Five measures suffice; four do not.",
+    "context": "Only whole measures are offered; larger supplies are useful.",
+    "result": "Useful contextual workaround",
+    "reason": "Gives a practical threshold in this scenario. It does not resolve every quantity between four and five or independently promise that excess is acceptable."
+  },
+  {
+    "id": "B3",
+    "topic": "Minimum amount",
+    "celan": "peth reth ther peth",
+    "intent": "Five or more.",
+    "context": "An amount expression.",
+    "result": "Promising but new numeric construction",
+    "reason": "Reth and Ther have the right semantic ingredients, but current Ther syntax compares a stated quality: X adjective Ther Y. A bare-number comparison must be explicitly established."
+  },
+  {
+    "id": "B4",
+    "topic": "Minimum amount",
+    "celan": "rinaen peth shen morlak worlian. ver rinaen quen shen morlak worlian.",
+    "intent": "The minimum is exactly five.",
+    "context": "4.5 measures are possible.",
+    "result": "Insufficient for an exact lower bound",
+    "reason": "The clauses leave 4.5 unsettled. Do not label this wording an exact at-least construction."
+  },
+  {
+    "id": "E1",
+    "topic": "Equal amount",
+    "celan": "va tal peth shen morlak var I.",
+    "intent": "Give me the same amount as the other recipient.",
+    "context": "The other recipient received five of the same measure of grain.",
+    "result": "Works by repeating the known quantity",
+    "reason": "Numerical equality is communicated without a separate same word, provided the measure is shared."
+  },
+  {
+    "id": "E2",
+    "topic": "Equal amount",
+    "celan": "va tal unar shen morlak var Ya. va tal unar shen morlak var I.",
+    "intent": "Give us equal amounts.",
+    "context": "One calibrated measure is used for both recipients.",
+    "result": "Works through matched instructions",
+    "reason": "Two equal unit amounts establish equality operationally, without Thaleth."
+  },
+  {
+    "id": "E3",
+    "topic": "Equal amount",
+    "celan": "va tal shen denya var I.",
+    "intent": "Give me the same amount as that.",
+    "context": "The listener indicates a reference measure.",
+    "result": "Understandable but potentially ambiguous",
+    "reason": "May request the measure itself or a measured quantity matching it. Use a named material and explicit count when precision matters."
+  },
+  {
+    "id": "E4",
+    "topic": "Equal amount",
+    "celan": "va tal shenlian var I.",
+    "intent": "Give me the same amount.",
+    "context": "No shared reference amount.",
+    "result": "Does not preserve the instruction reliably",
+    "reason": "Shenlian names a standard/reference measure, not equality to an unnamed earlier quantity."
+  },
+  {
+    "id": "P1",
+    "topic": "Price",
+    "celan": "rinaen peth shen morlak-ka belshen peth shena.",
+    "intent": "The total price of five measures of grain is five coins.",
+    "context": "One agreed measure and one understood currency.",
+    "result": "Strong candidate composition",
+    "reason": "Read the possessor as the full phrase five measures of grain. No new price word is required; the phrase boundary should be taught explicitly."
+  },
+  {
+    "id": "P2",
+    "topic": "Price",
+    "celan": "rinaen unar shen morlak-ka belshen del shena.",
+    "intent": "One measure of grain costs two coins.",
+    "context": "Same market convention.",
+    "result": "Strong candidate composition",
+    "reason": "Changes quantity and price independently, so the example does not depend on both numbers being five."
+  },
+  {
+    "id": "P3",
+    "topic": "Price",
+    "celan": "rinaen peth shen morlak-ka belshen peth shena.",
+    "intent": "Each of five measures costs five coins.",
+    "context": "Seller intends a total of twenty-five coins.",
+    "result": "Wrong for this intention",
+    "reason": "The proposed wording states the price for the five-measure lot, not five coins per individual measure."
+  },
+  {
+    "id": "P4",
+    "topic": "Price",
+    "celan": "rinaen peth shen morlak-ka belshen peth shena.",
+    "intent": "A fully specified price independent of market context.",
+    "context": "Different measuring vessels or currencies are possible.",
+    "result": "Needs the unit and currency clarified",
+    "reason": "Coin type and measure must be shared or specified. This is a missing reference, not necessarily missing grammar. Counted Shena versus Shenan remains a separate teaching decision."
+  }
+]

@@ -1,6 +1,6 @@
-# Everyday conversations, Volume 1 audio
+# Earlier dialogue set
 
-All 30 conversations from [the Volume 1 script](../everyday_conversations_volume_01.md) have a numbered Eleven v4 MP3 in this folder. The current files total about 5 minutes 47 seconds. Each file is the complete conversation and uses Generation 2 from its two generated takes, following the user's choice for the pilot.
+These 30 recordings follow [the previous conversation draft](../../../learning_center/everyday_conversations_volume_01_previous_draft.md). They are kept for reference and are separate from the current Conversation Volumes 1 and 2. The files total about 5 minutes 47 seconds. Each file is a complete dialogue and uses Generation 2 from its two generated takes, following the user's choice for the pilot.
 
 ## Voices and pronunciation
 
