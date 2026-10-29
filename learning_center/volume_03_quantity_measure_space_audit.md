@@ -1,6 +1,6 @@
 # Volume 3 foundation audit: quantity, measure, and space
 
-This audit reads the **current Dictionary App**: its visible word meanings, examples, and Grammar Guide in [dictionary/app_data](../dictionary/app_data/README.md). It also checks what the [Volume 1](everyday_conversations_volume_01.md) and [Volume 2](everyday_conversations_volume_02_celan_vernacular.md) conversations already use. It proposes no new Celan spellings. A missing form here means the current app content does not give a clear, general expression for it; it does not mean the idea could never be expressed in Celan.
+This audit reads the **current Dictionary App**: its visible word meanings, examples, and Grammar Guide in [dictionary/app_data](../dictionary/app_data/README.md). It also checks what the [Volume 1](everyday_conversations_volume_01.md) and [Volume 2](everyday_conversations_volume_02_celan_vernacular.md) conversations already use. The app now includes the approved distance and quantity-limit additions: **nevu**, **arin**, **mbetu**, **senu**, and the specific **arin … sha?** distance question. A missing form here means the current app content does not give a clear, general expression for it; it does not mean the idea could never be expressed in Celan.
 
 ## What Volume 3 can teach
 
@@ -11,9 +11,15 @@ Volume 3 can move from **identifying a thing** to **being precise about it**:
 3. **How large or heavy?** Handspans, strides, journeys, stone-weights, and measured quantities.
 4. **Which one?** This by me, that by you, that yonder.
 5. **Where?** Here, left, right, between, in front, behind, inside, outside, through, and across.
-6. **How far?** Existing numeric distance examples work. A general near/far pair and a nearer/farther comparison are not yet explicit in the app.
+6. **How far?** Existing numeric distance examples now pair with **nevu** (near), **arin** (far), their **ther/thaal** comparisons, and the approved **arin … sha?** question.
 
 The strongest scene pattern is a small consequential correction: “three, not two”; “that one by you, not this one”; “outside the door, not inside”; “enough water for this task, but not for the next.” Each correction makes the distinction worth saying.
+
+### Proposed new cast
+
+Volume 3 introduces its own characters rather than continuing Nara and Toren's story. **Savi** keeps track of shared supplies and notices what people will need next. **Dalen** repairs and builds things, so a wrong count or measurement changes the work. **Meva** carries goods and messages between places, bringing travel, distance, and trade into the conversations. These are working character concepts for the volume, not new dictionary headwords.
+
+Savi and Dalen anchor most scenes. Meva joins only when a third person has something to ask, decide, or correct; every three-person scene must label all three speakers explicitly. The situations can connect across the volume while each conversation remains understandable on its own.
 
 ## 1. Exact number system
 
@@ -47,7 +53,7 @@ The app has full-sentence counting examples: `var tren serin an dren.` (“Three
 
 The hyphen binds a scale marker to its number. A space starts the next block. The [Master Grammar Guide §12](../docs/CELAN_MASTER_GRAMMAR_GUIDE.md#12-counting-and-measure) explains this with full equations. The app also gives `Mel-quen Hek-sethe Ten-oven sethe` = 4,787.
 
-**What not to infer from the chart:** addition is expressed by adjoining number blocks; the app does not establish a general spoken word for “plus.” The multiplication sign in the teaching equations explains the scale prefix; it is not a Celan multiplication word. Subtraction has **ven**. General division, multiplication, equality, and fractions are not given comparable spoken patterns.
+**What not to infer from the chart:** addition is expressed by adjoining number blocks; the app does not establish a general spoken word for “plus.” The multiplication sign in the teaching equations explains the scale prefix; it is not a Celan multiplication word. Subtraction has **ven**. General division, multiplication, and equality do not have comparable spoken patterns. The separately approved **number + thal + number** pattern expresses a fraction of a stated whole, such as **unar thal del** (one-half) or **peth thal oven** (five-eighths).
 
 ### Numbers in lived sentences
 
@@ -63,7 +69,7 @@ The app already supports several scene-ready shapes:
 
 The last example writes **tharvinwek** as one word. The current headword for “year” is **Tharvin-Wek**, and its entry explicitly accepts **tharvinwek** as the fused spelling. Volume 3 can teach the headword first and recognize the fused form in sentences. The form **tenar** also has a separate noun meaning “radiance”; context distinguishes the numeral.
 
-## 2. Amount without an exact count
+## 2. Amount, sufficiency, and bounds
 
 | Form | Current meaning | Supported use |
 | --- | --- | --- |
@@ -80,6 +86,10 @@ The last example writes **tharvinwek** as one word. The current headword for “
 The Grammar Guide's ordinary amount words precede the noun: `var som serin.` (“Some friends go”) and `var felin serin.` (“Few friends go”). **Worlian** deserves its own pattern in the course. Its app examples say `rinaen dren worlian.` and `rinaen droshen worlian.`; they do not show it preceding a noun.
 
 For supplies and containers, the app also has **woreth** (“full, abundant”), **zun** (“empty”), **worsul** (“resource surplus”), and **kasul** (“resource shortage”). The clean contrast is `rinaen drenvor woreth.` (“The bowl is full”) beside an appropriately established empty-container sentence. The app already records `rinaen drenvor woreth felath.` (“The bowl is almost full”). **Feleth** can mean light in weight, small, or new; **maganeth** can mean heavy, big, or imposing. Let the object and situation establish the intended sense.
+
+### Bounded numeric amounts
+
+The approved particles **mbetu** (“at least”) and **senu** (“at most”) go directly before a number and its counted noun or measure phrase. Both include the stated number. The app gives `tal I mbetu peth shena.` (“I give at least five coins”) and `tal I senu peth shena.` (“I give at most five coins”). They set numeric limits, while **worlian** still means sufficient for a purpose. See the app's “At least and at most” rule, `GR-DQL1-0003`.
 
 ### Comparisons
 
@@ -156,6 +166,12 @@ Left and right require a **point of view**. `rinaen nethor naku I.` means the ch
 
 The [Grammar Guide §11](../docs/CELAN_MASTER_GRAMMAR_GUIDE.md#11-relations-of-place-time-and-accompaniment) explains that a motion verb can take a destination directly in some established frames, while **an** makes a relation explicit. Volume 3 should use complete attested sentence frames; it should not treat every place word as interchangeable after every motion verb.
 
+### Near, far, and asking distance
+
+The app now defines **nevu** as near and **arin** as far from a stated or understood reference point. A speaker can name that point with **thal**: `rinaen evan nevu thal deni.` (“The market is near here”) and `rinaen evan arin thal deni.` (“The market is far from here”). With a shared reference point, **ther** and **thaal** also support nearer/farther and nearest/farthest comparisons.
+
+The approved question `ra rinaen evan arin thal deni sha?` means “How far is the market from here?” In this specific **arin … sha?** construction, **sha** asks degree of spatial separation without presuming the place is far. Elsewhere **sha** keeps its established manner or method use. Physical distance does not itself state route length, travel time, contact, safety, or reachability. See app rules `GR-DQL1-0001` and `GR-DQL1-0002`.
+
 ## 6. What the first 60 scenes already cover
 
 This count checks the current written scene scripts, not the recordings. Volume 1 and Volume 2 each have 30 scenes.
@@ -169,31 +185,28 @@ This count checks the current written scene scripts, not the recordings. Volume 
 | Left/right | Both occur in Volume 2's route scene. | Use changing viewpoint and correction, beyond a single turn instruction. |
 | Front/behind/between | **vethvar** appears; **shalvar** and **serdel** are absent. | Build location puzzles with two anchors. |
 | Inside/outside | **thalor** occurs in Volume 2; **kaan** and **anor** are absent. | Contrast a thing outside a boundary with one inside it. |
-| Near/far | Neither a general near/far pair nor a nearer/farther contrast is taught. | Needs a clear Celan expression before dialogue translation. |
+| Near/far | The first 60 scenes do not teach a general near/far pair or a nearer/farther contrast. | Use approved **nevu**, **arin**, and **arin … sha?** in new distance scenes. |
 
 Volume 3 therefore has real new territory. It need not repeat the existing conversations with different numbers inserted.
 
-## 7. Meanings that need a clear form or pattern
+## 7. Meanings that still need a clear form or pattern
 
-The app's visible word meanings and examples do **not** currently establish the following as general everyday expressions:
+The new app rules settle near/far, nearer/farther, the specific “how far?” construction, inclusive “at least/at most” bounds, and fractions of a stated whole. The following remain open for Volume 3 writing:
 
-1. **Near / far as relative location:** The app sometimes translates **an** as “near” in context, but **an** also means at/in/on. **Felath** means “almost,” not spatially near. **Denla** points away from both speakers but does not measure distance. A direct near/far pair is the largest Volume 3 gap.
-2. **Nearer / farther and closest / farthest:** **Ther** and **thaal** can compare an established adjective, but a general distance adjective is not supplied. Do not coin one silently by combining roots.
-3. **A full here/there/over-there locative set:** `an deni` is directly attested; Volume 2 uses `an denya`. A parallel **an denla** sentence should be established before it is presented as a routine learner transformation.
-4. **How far?** **Lo** asks where. The app has numeric distance statements, but no general question frame explicitly meaning “How far is it?”
-5. **Fractions and proportional amounts:** No clear everyday half, quarter, twice, ratio, or percentage pattern.
-6. **Ordinals:** No general first/second/third numbering pattern. Dual pronouns such as **Inko** (“we two”) count participants; they are not an ordinal system.
-7. **Approximate and bounded amounts:** No general “about five,” “at least five,” or “no more than five.” **Felath** (“almost”) and **shenreth** (measurement uncertainty) do different jobs.
-8. **Less/fewer/equal:** **Ther** gives “more than”; no matched general “less than,” “fewer than,” or “the same amount.” **Lian'lia** means “Exactly!” as agreement, not “exactly five.”
-9. **Capacity and everyday volume:** **Shen** provides a generic measure, but no specific capacity unit or standard “a cup of” construction is given. A bowl or bottle can contain something without automatically becoming a measurement unit.
-10. **Price and quantity phrasing:** The words for coin, currency, measure, and price exist. Full scenes should distinguish “five measures of grain,” “five coins,” and “the price is five coins” with verified sentence patterns.
-11. **Number agreement after count nouns:** Examples differ between plural-marked nouns and unmarked collective/unit nouns. Define teaching models noun by noun before building an automated count exercise.
+1. **A full here/there/over-there locative set:** `an deni` is directly attested; Volume 2 uses `an denya`. A parallel **an denla** sentence should be established before it is presented as a routine learner transformation.
+2. **Other proportional amounts:** **Number + thal + number** now expresses a fraction of the stated whole: **unar thal del** is 50%, **unar thal quen** is 25%, and **peth thal oven** is 62.5%. A physical piece or container may hold more or less than one mathematical share. Twice, ratios between independent quantities, and percentages still need approved expressions.
+3. **Ordinals:** No general first/second/third numbering pattern. Dual pronouns such as **Inko** (“we two”) count participants; they are not an ordinal system.
+4. **Approximate amounts:** No general “about five.” **Felath** (“almost”), **shenreth** (measurement uncertainty), and the approved inclusive bounds **mbetu/senu** do different jobs.
+5. **Less/fewer/equal:** **Ther** gives “more than”; no matched general “less than,” “fewer than,” or “the same amount.” **Lian'lia** means “Exactly!” as agreement, not “exactly five.”
+6. **Capacity and everyday volume:** **Shen** provides a generic measure, but no specific capacity unit or standard “a cup of” construction is given. A bowl or bottle can contain something without automatically becoming a measurement unit.
+7. **Price and quantity phrasing:** The app now distinguishes five coins from five measures of grain in complete examples with **mbetu/senu**. A full statement such as “the price is five coins” still needs a verified frame before a scene teaches it.
+8. **Number agreement after count nouns:** Examples differ between plural-marked nouns and unmarked collective/unit nouns. Define teaching models noun by noun before building an automated count exercise.
 
 These are opportunities for deliberate language development. They should remain visible in the Volume 3 writing process: draft the natural English scene, test whether the current Celan can say each line, and either choose an exact established meaning or develop the needed expression openly.
 
 ## 8. A 30-scene Volume 3 shape
 
-These are **situation briefs**, not Celan dialogue or translations. The first four groups can largely draw on established forms. The last two depend more heavily on resolving the gaps above.
+These are **situation briefs**, not Celan dialogue or translations. The approved distance, quantity-limit, and fraction rules support relevant scenes. Scenes that need approximate amounts, ordinals, or other open patterns must wait for those meanings to be settled or use established alternatives.
 
 | Scenes | Focus | Human reason for the exchange |
 | --- | --- | --- |
@@ -202,14 +215,14 @@ These are **situation briefs**, not Celan dialogue or translations. The first fo
 | 11–15 | Measure for work | Cut a rope by handspans, place something a number of strides away, weigh goods, count measures, and check a reference standard. |
 | 16–20 | Point to the right thing | Choose the thing by me, by you, or yonder; one person reaches for the wrong one and is redirected. |
 | 21–25 | Move through space | Give left/right turns, place an object between two others, locate it in front/behind, and cross an inside/outside boundary. |
-| 26–30 | Distance and distinction | Choose a nearer or farther place, ask how far, compare two routes, use an approximate amount, and settle a precise trade or travel plan. Write these after the missing forms are established. |
+| 26–30 | Distance and distinction | Choose a nearer or farther place, ask how far, compare two routes, set an inclusive quantity bound, and settle a precise trade or travel plan. Use the approved distance and limit frames. |
 
 Volume 3 should stay **standalone and useful** like the revised Volume 2. A scene can teach one distinction without feeling like a spoken worksheet. The learner should be able to hear why the speaker cares about the quantity or location.
 
 ## Production sequence
 
 1. Make a compact teaching set from the attested examples above, including each word's exact meaning and complete sentence frame.
-2. Settle the high-impact gaps: general near/far, nearer/farther, how far, locative pointing with **denla**, and price versus measure phrasing.
+2. Build from the newly approved **nevu/arin**, **arin … sha?**, and **mbetu/senu** frames. Establish a complete **an denla** place sentence and a price statement before teaching those specific uses.
 3. Write five English-first scenes across different groups; translate each Celan line back into English without looking at the intended English.
 4. Use those five to establish the Volume 3 voice: practical, warm, occasionally mistaken, and responsive to what the other person says.
 5. Write the remaining 25 scenes, with a separate pronunciation and mood copy for recording. Keep the written Celan as the learner text.

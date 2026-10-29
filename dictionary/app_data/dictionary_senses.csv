@@ -21,6 +21,7 @@ ser,2,Yes,Preposition,With,,,LX-V1-0016; LX-V2-0036; LX-V2-0065; LX-V4-0076; LX-
 ser,3,Yes,Conjunction,And,,,LX-V1-0016; LX-V2-0036; LX-V2-0065; LX-V4-0076; LX-V4-0112,ser-s3
 thal,1,Yes,Noun,Balance / Harmony,,,LX-V1-0017; LX-V2-0008; LX-V2-0023; LX-V2-0072; LX-V4-0109; XR-thal,thal-s1
 thal,2,Yes,Preposition,From / Out of,,,LX-V1-0017; LX-V2-0008; LX-V2-0023; LX-V2-0072; LX-V4-0109; XR-thal,thal-s2
+thal,3,Yes,Preposition,Of / out of a whole (in fractions),"Between two number words, marks a fraction of the stated or understood whole: numerator + thal + denominator. The denominator counts equal mathematical shares; actual pieces or containers may be unequal. peth thal oven = five-eighths. See GR-FRAC-0001.",,ED-0050,thal-s3
 ka,1,Yes,Preposition,Without,Standalone ka is exclusively without or no. Ownership uses a hyphenated possessor-ka form.,,LX-V1-0018; LX-V3-0018,ka-s1
 ka,2,Yes,Interjection,No,Standalone ka is exclusively without or no. Ownership uses a hyphenated possessor-ka form.,,LX-V1-0018; LX-V3-0018,ka-s2
 an,1,Yes,Preposition,At / in / on (spatial place),Usually marks place; also appears in established “in” expressions such as an kinnmor (“in the morning”). Nor explicitly marks a time setting.,,LX-V1-0019; DM-RM-V1-0013,an-s2

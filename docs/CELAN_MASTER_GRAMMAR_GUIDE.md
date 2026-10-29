@@ -660,6 +660,18 @@ After the number, name the unit. Each unit gives the number a real-world size:
 
 **`Shen`** can also refer to coinage. In **`peth shen`**, the surrounding sentence tells you whether someone means five measures or five units of currency. The pattern **number before unit** stays the same.
 
+### 12.5 Fractions of a whole
+
+Put the **numerator** before **`thal`** and the **denominator** after it: **number + `thal` + number**. In this use, **`thal`** means “out of” a stated whole; the denominator tells how many equal mathematical shares make up that whole, and the numerator tells how many of those shares are meant. The whole must be stated or clear from context.
+
+| Celan | Fraction of the whole |
+| --- | --- |
+| **`unar thal del`** | one-half (50%) |
+| **`unar thal quen`** | one-quarter (25%) |
+| **`peth thal oven`** | five-eighths (62.5%) |
+
+These are proportions of the whole, regardless of whether physical pieces or containers are equal. Selecting one of two unequal containers does not necessarily select half of their combined contents. The denominator cannot be zero. This fraction pattern does not establish a general spoken operation for division outside fractions.
+
 ## 13. One language, eight cultural voices
 
 Celan is shared across Ohnosha. Its nations use the same grammar, but people may choose different images, levels of formality, and rhythms. To hear the difference, imagine two friends meeting in a neutral market. One asks where the other is going; the other is looking for a drink. The **situation stays the same** while each pair of speakers shapes it in a national voice.

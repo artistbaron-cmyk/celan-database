@@ -70,9 +70,9 @@ const grammar={
 assert.equal(fs.existsSync(path.join(dataDir,'grammar_guide.json')),false,'old grammar JSON must not be a second app source');
 const expressions=JSON.parse(bundle['expressions_app.json']);
 assert.equal(entries.length,1499);
-assert.equal(senses.filter(row=>row.visible==='Yes').length,1570);
+assert.equal(senses.filter(row=>row.visible==='Yes').length,1571);
 assert.equal(examples.length,9278);
-assert.equal(grammar.rules.length,51);
+assert.equal(grammar.rules.length,52);
 assert.equal(grammar.lessons.length,7);
 assert.equal(grammar.companions.length,1);
 assert.equal(new Set(grammarRows.map(row=>`${row.record_type}:${row.id}`)).size,grammarRows.length,'duplicate grammar CSV record');
@@ -311,7 +311,7 @@ for(const retiredId of ['PE-V1-0015','PE-V1-0012'])assert.ok(!examples.some(row=
 assert.equal(examples.filter(row=>row.entry_id==='PE-V1-0009'&&row.display_kind==='phrase').length,2,'the old beloved boy phrase should appear as a phrase on both pages');
 for(let i=1;i<=12;i++)assert.equal(examples.filter(row=>row.entry_id===`PE-LA1-${String(i).padStart(4,'0')}`&&row.sense_id&&row.display_kind==='sentence').length,1,'missing approved batch 01 sentence '+i);
 const exportRows=parseCsv(fs.readFileSync(path.join(appDir,'exports','dictionary_entries.csv'),'utf8'));
-assert.equal(exportRows.length,1570,'spreadsheet export is missing visible senses');
+assert.equal(exportRows.length,1571,'spreadsheet export is missing visible senses');
 assert.deepEqual(new Set(exportRows.map(row=>row.sense_id)),new Set(senses.filter(row=>row.visible==='Yes').map(row=>row.sense_id)),'export sense IDs differ from visible app meanings');
 const exportedSense=id=>exportRows.find(row=>row.sense_id===id);
 for(const id of ['kadfel-s1','azfel-s1','theefel-s1','kadon-s1','aenvor-s1','sorl-s1','kalvar-s1','sharvar-s1','morlka-s1']){

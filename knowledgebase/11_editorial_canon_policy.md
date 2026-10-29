@@ -937,3 +937,19 @@ GR-DQL1-0002 establishes **ra rinaen [place/person/object] arin [thal reference]
 GR-DQL1-0003 places mbetu/senu immediately before a numerical quantity and its noun or measure phrase. Mbetu includes that quantity and larger amounts; Senu includes that quantity and smaller amounts. Both include the stated boundary. Worlian retains its sufficiency meaning, and existing numeral and noun usage remains intact.
 
 The current app-facing integration and its pre-change snapshot are recorded in `outputs/quantity_composition_tests_2026_10_29/approved_integration.json` and `integration_before.json`. The app files in `dictionary/app_data/` are the editable authority; older expansion and example CSVs remain preserved witnesses. New text examples have explicit meaning links; their audio recordings remain pending.
+
+## ED-0049: Proportional Half and Quarter
+
+Status: Approved by the user on 2026-10-29.
+
+**Unar thal del** means half (50%) of the stated whole. **Unar thal quen** means a quarter (25%) of the stated whole. The whole must be named or understood from context. These are proportional quantities even when physical pieces or containers are unequal. Selecting one of two unequal pieces does not, by itself, yield half of the whole. The approval establishes these two expressions only; general division, other fractions, ratios, and percentages remain open.
+
+The app's Grammar Guide rule GR-FRAC-0001 teaches the distinction, and the Number and Measure lesson links to it. No new headword or general meaning of **thal** is established by this decision.
+
+## ED-0050: General Fraction Pattern and Fractional Thal
+
+Status: Approved by the user on 2026-10-29, extending ED-0049.
+
+**Numerator + thal + denominator** expresses the numerator's share of a stated or contextually understood whole. In this construction, **thal** marks “out of” the whole, and the denominator gives the number of equal mathematical shares that constitute it. **Peth thal oven** means five-eighths (5/8) of the whole. **Unar thal del** and **unar thal quen** remain one-half and one-quarter. The denominator cannot be zero. The proportion is independent of the size of actual physical pieces or containers.
+
+This decision adds a distinct visible prepositional meaning for **Thal** in the Dictionary App and broadens GR-FRAC-0001. Its earlier balance/harmony and spatial from/out-of senses remain intact. A fraction expression is a quantity of a whole; this decision does not establish a general spoken division operation outside fractions, a ratio construction, or a percentage word.
