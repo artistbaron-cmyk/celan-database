@@ -24,7 +24,7 @@ vm.runInContext(fs.readFileSync(path.join(dataDir,'audio_catalog.js'),'utf8'),bu
 const bundle = bundleContext.window.EMBEDDED_DATA;
 const audio = bundleContext.window.CELAN_AUDIO_CATALOG;
 const pendingAudio=JSON.parse(fs.readFileSync(path.join(appDir,'audio_pending.json'),'utf8'));
-assert.equal(Object.keys(audio.headwords).length,1495);
+assert.equal(Object.keys(audio.headwords).length,1499);
 assert.equal(Object.keys(audio.variants).length,197);
 const expressionsDir=path.join(appDir,'..','audio','expressions');
 const expressionFileCount=fs.readdirSync(expressionsDir).filter(name=>/^volume_\d{3}$/.test(name)).reduce((count,name)=>
@@ -140,8 +140,8 @@ for(const row of examples){
   }
 }
 assert.equal(explicitExampleLinks,298,'meaning links should remain explicit');
-assert.deepEqual(pendingAudio.headwords,['nevu','arin','mbetu','senu']);
-assert.equal(pendingAudio.examples.length,11);
+assert.deepEqual(pendingAudio.headwords,[]);
+assert.equal(pendingAudio.examples.length,0);
 for(const entryId of pendingAudio.examples){
   assert.ok(examples.some(row=>row.entry_id===entryId&&row.source_section===pendingAudio.batch),'pending audio must identify an approved example: '+entryId);
 }

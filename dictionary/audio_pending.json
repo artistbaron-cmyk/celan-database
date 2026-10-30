@@ -1,12 +1,7 @@
 {
   "batch": "Distance and Quantity Limits 1",
   "approval_date": "2026-10-29",
-  "reason": "Approved text entries awaiting dedicated audio recordings.",
-  "headwords": ["nevu", "arin", "mbetu", "senu"],
-  "examples": [
-    "PE-DQL1-0001", "PE-DQL1-0002", "PE-DQL1-0003",
-    "PE-DQL1-0004", "PE-DQL1-0005", "PE-DQL1-0006",
-    "PE-DQL1-0007", "PE-DQL1-0008", "PE-DQL1-0009",
-    "PE-DQL1-0010", "PE-DQL1-0011"
-  ]
+  "reason": "All approved entries in this batch have dedicated audio recordings.",
+  "headwords": [],
+  "examples": []
 }

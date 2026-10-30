@@ -90,8 +90,8 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
  assert.ok(api.state.rootLookup.length>0);
  assert.ok(api.state.forgeParts.length>0);
  const visibleCount=api.state.groupedEntries.reduce((count,group)=>count+group.englishSenses.length,0);
- assert.equal(visibleCount,1570);
- assert.equal(api.state.groupedEntries.reduce((count,group)=>count+api.displayUses(group).length,0),1570);
+ assert.equal(visibleCount,1571);
+ assert.equal(api.state.groupedEntries.reduce((count,group)=>count+api.displayUses(group).length,0),1571);
  const senseIds=new Set();
  for(const group of api.state.groupedEntries){
    const visible=api.displayUses(group);
@@ -127,7 +127,7 @@ vm.runInContext('globalThis.appTest={state,findEnglishMatches,findBestLexiconMat
      }
    }
  }
- assert.equal(senseIds.size,1570);
+ assert.equal(senseIds.size,1571);
  api.renderDetail(api.findBestLexiconMatch('Aenor'));
  let page=elements.get('detailView').innerHTML;
  assert.match(api.findBestLexiconMatch('Aenor').searchText,/breath/,'search must include visible word parts');

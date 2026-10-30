@@ -1,18 +1,20 @@
 # Dictionary audio playback
 
-The local dictionary app plays the active MP3s in the sibling `audio/` folder. The user approved every active clip without an `ERROR_` marker for app playback on 2026-10-16. The app uses the current recordings, including approved retakes that replaced flagged originals.
+The local dictionary app plays the active MP3s in the sibling `audio/` folder. The user approved the earlier active clips for app playback on 2026-10-16. The app uses the current recordings, including approved retakes that replaced flagged originals and the new Distance and Quantity Limits first takes.
 
 ## What is linked
 
 | Content | Playable recordings | App link key |
 | --- | ---: | --- |
-| Headwords | 1,495 | `dictionary_entries.csv.id` |
+| Headwords | 1,499 | `dictionary_entries.csv.id` |
 | Listed variant forms | 197 | Parent headword ID plus `#vNN` in metadata order |
-| Examples and expressions | 2,374 | Example `entry_id` or expression `expression_id` |
+| Examples and expressions | 2,386 | Example `entry_id` or expression `expression_id` |
 
-The 2,374 phrase recordings include 2,278 dictionary example recordings and 96 Expressions recordings. All 2,288 distinct example texts displayed in the dictionary have an exact-text recording; some examples share a recording through the catalog's ID aliases. A sentence may appear under several words, and each placement points to the same take. All 107 entries in the separate Expressions view have a play control: 96 have their own recording and 11 single-word entries play the matching headword recording.
+The 2,386 phrase recordings include 2,289 dictionary example recordings and 97 Expressions recordings. All 2,300 distinct example texts displayed in the dictionary have an exact-text recording; some examples share a recording through the catalog's ID aliases. A sentence may appear under several words, and each placement points to the same take. The separate Expressions view uses its own recordings or a matching headword recording.
 
 The original recording selector read a narrower source file and only took rows displayed as `sentence`. That left 208 visible app example texts without audio. The 2026-10-16 completion pass used the user's approval of all visible app examples and recorded those 208 texts with Ayinde v4. Run `python3 audio/expressions/audit_app_gaps.py` to refresh the [gap audit](../audio/expressions/app_missing_audio.csv) after app content changes.
+
+The 2026-10-29 Distance and Quantity Limits batch added four headword clips with Ehshara and 11 distinct example clips with Ayinde v4. These are first takes linked to **nevu**, **arin**, **mbetu**, **senu**, and their examples.
 
 The controls appear beside a headword, a listed variant, an example, or an expression when a linked recording exists. The browser loads an MP3 when its play button is pressed. Only one recording plays at a time.
 
