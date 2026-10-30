@@ -60,7 +60,7 @@ Zarithan occupies the great deserts and steppes of east-central Ohnosha. Its rou
 
 Its living principle is **Survival and Transformation**. Zarithan emphasizes Eh'lara and Eth'vahlir: adaptation is an act of creation, and mobility is an expression of choice. Authority is distributed among chieftains, councils of elders, and shamans. Leaders earn trust through judgment, ancestral knowledge, spiritual insight, and their ability to guide people safely across severe terrain.
 
-Oral history, sacred storytelling, fire dances, celestial observance, land and sky spirits, and profound reverence for water define Zarithan life. The Tharokh endurance mount and other desert-adapted creatures belong to the practical ecology of movement. The nation speaks Trerran in daily and traditional contexts and uses Celan, sometimes reluctantly, for external trade and diplomacy.
+Oral history, sacred storytelling, fire dances, celestial observance, land and sky spirits, and profound reverence for water define Zarithan life. The Tharokh endurance mount and other desert-adapted creatures belong to the practical ecology of movement. The nation speaks the Trerran dialect of Celan in daily and traditional contexts and may adopt more widely familiar Celan phrasing, sometimes reluctantly, for external trade and diplomacy.
 
 Its central tension is **Sacred Mobility versus Generational Security**: if permanent settlements could protect future generations, would building them preserve Zarithan life or betray the very practice that made survival possible?
 
@@ -70,7 +70,7 @@ Jasara is a settled desert-oasis civilization of approximately 140 million peopl
 
 Its living principle is **Balance and Renewal**. Jasara strongly emphasizes Ka'tharyn and Nys'aleth, preserving inherited cycles while guarding ecological equilibrium. A Council of Elders governs alongside a revered Water Keeper. Resource management, spiritual interpretation, public order, and ritual authority are deeply entangled.
 
-Jasaran life includes water-conservation ceremonies, Spring observances, the Festival of Lights, sacred naming, textiles, spice trade, storytelling, canals, gardens, and agricultural systems built around careful distribution. Celan is used officially, while Trerran remains common in everyday life and reflects older regional ties.
+Jasaran life includes water-conservation ceremonies, Spring observances, the Festival of Lights, sacred naming, textiles, spice trade, storytelling, canals, gardens, and agricultural systems built around careful distribution. Celan is used officially, while its Trerran regional dialect remains common in everyday life and reflects older regional ties.
 
 Its central tension is **Timing versus Urgency**. Jasara's disciplines teach that right action must respect the proper cycle, yet a changing world may punish any institution that mistakes delay for wisdom. Its deepest political question is how to preserve sacred balance without making balance a justification for coercion.
 
@@ -80,7 +80,7 @@ Valkeldor is a mountain nation of roughly 200 million people, built into the sto
 
 Its living principle is **Resilience and Discipline**. Eth'vahlir is especially important: strength is understood as will made effective. General Thorne leads as a protector expected to embody courage, service, and proven commitment to the people. Military culture is prominent but exists beside artisan traditions, festivals, craft, family bonds, and strong communal responsibility.
 
-Valkeldor uses Celan widely and preserves Arvan in ritual and warrior oaths. It honors mountain and land spirits, ancestral legacies, public pacts, and the testing of commitment through disciplined practice. Its wealth lies primarily in self-sufficiency, craft, and martial strength rather than global commercial dominance.
+Valkeldor uses Celan widely and preserves its Arvan regional dialect in ritual and warrior oaths. It honors mountain and land spirits, ancestral legacies, public pacts, and the testing of commitment through disciplined practice. Its wealth lies primarily in self-sufficiency, craft, and martial strength rather than global commercial dominance.
 
 Its central tension is **Strength of Tradition versus Precision of Adaptation**. Valkeldor must decide when refining its methods makes it stronger and when doing so hollows out the code that gives strength meaning.
 
@@ -90,7 +90,7 @@ Nivveil occupies Ohnosha's far northern ice, glacier, forest, and frozen mountai
 
 Its living principle is **Mystery and Spirituality**. Ka'tharyn and Nys'aleth guide its preservation of inherited knowledge and its careful relationship with a deadly environment. King Eldric's lineage is believed to be blessed by winter spirits; he serves as both sovereign and spiritual conduit between land, people, spirits, and the Heart.
 
-Nivveilian culture uses Arvan natively and Celan for wider contact. Festivals of light, ice sculpture, winter-spirit observance, mystical fires, frostcraft, collective food gathering, and the **Hearth-Cluster** organize life. A Hearth-Cluster is commonly a multigenerational group of four to six adults sharing shelter, resources, defense, and responsibility for children; the survival of the unit takes precedence over a narrow ideal of the couple.
+Nivveilian culture uses the Arvan dialect of Celan natively and more widely familiar Celan phrasing for broader contact. Festivals of light, ice sculpture, winter-spirit observance, mystical fires, frostcraft, collective food gathering, and the **Hearth-Cluster** organize life. A Hearth-Cluster is commonly a multigenerational group of four to six adults sharing shelter, resources, defense, and responsibility for children; the survival of the unit takes precedence over a narrow ideal of the couple.
 
 Its central tension is **Reverence versus Relevance**. Nivveil's quiet spiritual authority is real to its people, but isolation creates the danger that other nations will neither understand nor heed it.
 

@@ -8,7 +8,7 @@ The main dictionary and grammar guide remain the canon-facing core of the projec
 
 - `phrasebank/phrasebank.csv`
   - A curated phrasebook layer.
-  - Stores English prompts, Celan phrasing, literal sense, tone, cultural voice, and source support.
+  - Stores English prompts, Celan phrasing, literal sense, tone, dialect, cultural voice, and source support. Dialect and cultural voice are separate fields.
   - This is not a replacement for the canon. It is a canon-grounded phrase layer.
 
 - `evaluation/evaluation_set.csv`

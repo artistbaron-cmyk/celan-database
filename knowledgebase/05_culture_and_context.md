@@ -401,7 +401,7 @@
 - Potential tension ID: 
 - Review status: Approved
 - Review reason: 
-- Notes: Original wording preserved.
+- Notes: Current canon (2026-10-30): Arvan and Trerran are regional dialects of Celan, not separate languages. Original wording retained as source history.
 
 ### CC-V3-0007: Verdalris
 
@@ -422,7 +422,7 @@
 - Potential tension ID: 
 - Review status: Approved
 - Review reason: 
-- Notes: Original wording preserved.
+- Notes: Current canon (2026-10-30): Arvan and Trerran are regional dialects of Celan, not separate languages. Original wording retained as source history.
 
 ### CC-V3-0008: Mechuma
 
@@ -443,7 +443,7 @@
 - Potential tension ID: 
 - Review status: Approved
 - Review reason: 
-- Notes: Original wording preserved.
+- Notes: Current canon (2026-10-30): Arvan and Trerran are regional dialects of Celan, not separate languages. Original wording retained as source history.
 
 ### CC-V3-0009: Pelagae
 
@@ -464,7 +464,7 @@
 - Potential tension ID: 
 - Review status: Approved
 - Review reason: 
-- Notes: Original wording preserved.
+- Notes: Current canon (2026-10-30): Arvan and Trerran are regional dialects of Celan, not separate languages. Original wording retained as source history.
 
 ### CC-V3-0010: Nivveil
 
@@ -485,7 +485,7 @@
 - Potential tension ID: 
 - Review status: Approved
 - Review reason: 
-- Notes: Original wording preserved.
+- Notes: Current canon (2026-10-30): Arvan and Trerran are regional dialects of Celan, not separate languages. Original wording retained as source history.
 
 ### CC-V3-0011: Valkeldor
 
@@ -506,7 +506,7 @@
 - Potential tension ID: 
 - Review status: Approved
 - Review reason: 
-- Notes: Original wording preserved.
+- Notes: Current canon (2026-10-30): Arvan and Trerran are regional dialects of Celan, not separate languages. Original wording retained as source history.
 
 ### CC-V3-0012: Zarithan
 
@@ -527,7 +527,7 @@
 - Potential tension ID: 
 - Review status: Approved
 - Review reason: 
-- Notes: Original wording preserved.
+- Notes: Current canon (2026-10-30): Arvan and Trerran are regional dialects of Celan, not separate languages. Original wording retained as source history.
 
 ### CC-V3-0013: Jasara
 
@@ -548,7 +548,7 @@
 - Potential tension ID: 
 - Review status: Approved
 - Review reason: 
-- Notes: Original wording preserved.
+- Notes: Current canon (2026-10-30): Arvan and Trerran are regional dialects of Celan, not separate languages. Original wording retained as source history.
 
 ### CC-V3-0014: Marakor
 
@@ -569,7 +569,7 @@
 - Potential tension ID: 
 - Review status: Approved
 - Review reason: 
-- Notes: Original wording preserved.
+- Notes: Current canon (2026-10-30): Arvan and Trerran are regional dialects of Celan, not separate languages. Original wording retained as source history.
 
 ### CC-V3-0015: Comparison Between Celan, Arvan, and Trerran
 
@@ -592,7 +592,7 @@
 - Potential tension ID: 
 - Review status: Approved
 - Review reason: 
-- Notes: Source table flattened into line-separated rows for CSV.
+- Notes: Current canon (2026-10-30): Arvan and Trerran are regional dialects of Celan, not separate languages. Original wording retained as source history.
 
 ### CC-V3-0016: Arvan: The Language of the North
 
@@ -607,7 +607,7 @@
 - Potential tension ID: 
 - Review status: Approved
 - Review reason: 
-- Notes: Original wording preserved.
+- Notes: Current canon (2026-10-30): Arvan and Trerran are regional dialects of Celan, not separate languages. Original wording retained as source history.
 
 ### CC-V3-0017: Trerran: The Language of the South
 
@@ -622,7 +622,7 @@
 - Potential tension ID: 
 - Review status: Approved
 - Review reason: 
-- Notes: Original wording preserved.
+- Notes: Current canon (2026-10-30): Arvan and Trerran are regional dialects of Celan, not separate languages. Original wording retained as source history.
 
 ### CC-V3-0018: Updated Regional Summary Table
 

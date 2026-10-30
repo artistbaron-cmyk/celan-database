@@ -381,9 +381,9 @@ Celan grows beyond trade and survival. Speakers need intimacy, humor, refusal, l
 
 Children acquire Celan as a primary language. What began as a contact solution becomes a complete natural language with ordinary irregularity, polysemy, metaphor, historical residue, and cultural ownership.
 
-### Phase 5: National differentiation
+### Phase 5: Regional and national differentiation
 
-The eight nations develop stable cultural voices. They share core grammar but differ in favored metaphors, cadence, vocabulary, register, and euphonic practice.
+Celan develops regional dialects and eight national cultural voices. The dialects share core grammar and are generally mutually intelligible; regional pronunciation, rhythm, expressions, and some vocabulary may differ. Cultural voices describe favored metaphors, register, and other expressive preferences within Celan.
 
 ## 4.3 Creole comparison without the simplification myth
 
@@ -405,16 +405,9 @@ The Haitian example belongs to the history of forced colonial contact, plantatio
 
 ## 4.4 Arvan and Trerran
 
-Arvan and Trerran survive beside Celan as regional languages. They demonstrate that Day One convergence did not erase linguistic plurality.
+Celan is the shared language of Ohnosha. Arvan names its northern regional dialect, especially associated with Nivveil and Valkeldor; Trerran names its southern regional dialect, especially associated with Zarithan and Jasara. Speakers share Celan’s core grammar and can generally understand one another. Regional pronunciation, rhythm, expressions, and some vocabulary may differ.
 
-The current canon establishes their continuing regional use and their contrasting cultural qualities. It does **not yet establish**:
-
-- whether either language is a direct ancestor of Celan,
-- which Celan roots originated in them,
-- whether they contributed substrate grammar,
-- or whether modern Arvan and Trerran changed through later contact with Celan.
-
-Those relationships require a separate historical-linguistic decision. Future writers should not infer an Arvan or Trerran origin for a Celan word merely because one national voice favors it.
+The names identify regional varieties of Celan, not separate languages. A national cultural voice is a different layer: it describes how a community tends to express itself in Celan and does not by itself establish a dialect rule. Specific sound differences remain open for future audio-led documentation. Older source references to Arvan and Trerran as separate languages are preserved as source history, superseded by the current editorial canon decision.
 
 ---
 
@@ -608,7 +601,7 @@ These questions do not weaken the five-pillar framework. Answering them will mak
 2. How do Bounce, Boom Bap, Amapiano, and Afrofuturist Trap map individually onto stress, repetition, breath, cadence, or register?
 3. Is `Tl- / Tla-` intended as `/tl/`, `/tɬ/`, or a nationally variable realization?
 4. Which pre-Day-One languages directly contributed to early Celan?
-5. Did Arvan and Trerran act as substrate languages, parallel survivors, or both?
+5. Which repeatable pronunciation and lexical differences distinguish Arvan and Trerran Celan in recorded speech?
 6. How many generations passed between emergency contact Celan and native acquisition?
 7. Which Celan forms are deliberate real-world lexical homages, as distinct from typological inspirations?
 8. Do national voices differ in stress, speech rate, vowel duration, or only in euphony, vocabulary, metaphor, and pragmatics?

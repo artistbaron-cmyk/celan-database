@@ -469,7 +469,7 @@
 - Relationship type: duplicate
 - Potential tension ID: PT-V2-0013
 - Review status: Approved
-- Review reason: 
+- Review reason:
 - Notes: Human-approved hyphen cleanup applied; no active canon conflict remains.
 
 ### PT-V2-0019: PT-V2-0019
@@ -806,15 +806,15 @@
 - Related source volume: Volume 3: Culture, Context, and Advanced Expression
 - Related source section: Language Familiarity / Arvan / Trerran
 - Issue type: Related usage
-- Canon status: Needs Human Review
+- Canon status: Canon
 - Original wording: Arvan / Trerran regional language use
-- Description: Regional languages coexist with Celan in national contexts. Preserved as language-use context, not a contradiction.
+- Description: Resolved: Arvan and Trerran are regional dialects of Celan. Older separate-language wording is preserved as source history.
 - Related entry IDs: CC-V3-0006; CC-V3-0015; CC-V3-0016; CC-V3-0017
 - Relationship type: related usage
 - Potential tension ID: PT-V3-0018
-- Review status: Needs Human Review
-- Review reason: terminology overlap
-- Notes: No resolution applied.
+- Review status: Approved
+- Review reason:
+- Notes: Approved by the creator 2026-10-30; see Editorial Canon Policy.
 
 ## Volume 4: Expansion, Tangible Lexicon, Modality, and National Speech
 

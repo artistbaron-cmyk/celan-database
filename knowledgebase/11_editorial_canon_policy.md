@@ -16,6 +16,14 @@ Technical consistency fixes may align search, exports, and supporting files with
 
 Preserve the source record, but do not allow known AI artifacts, outdated names, or corrected spellings to keep reproducing as current canon.
 
+## Arvan and Trerran — Regional Dialects of Celan
+
+Status: Approved by the creator, 2026-10-30.
+
+Celan is the shared language of Ohnosha. Arvan names its northern regional dialect, especially associated with Nivveil and Valkeldor; Trerran names its southern regional dialect, especially associated with Zarithan and Jasara. Speakers share Celan’s core grammar and can generally understand one another. Regional pronunciation, rhythm, expressions, and some vocabulary may differ.
+
+Arvan and Trerran are not separate languages in current canon. National cultural voice describes a community's expressive preferences and remains distinct from dialect. The exact pronunciation differences are not established by this decision. Older source wording that calls Arvan and Trerran languages remains preserved as source history, with this decision governing current use.
+
 When a conflict exists between an older source form and a human-approved editorial decision, the database should use the approved editorial decision as the current working canon while keeping the older source traceable through notes, source references, or potential tension records.
 
 ## Source Witness vs. Canon Edition

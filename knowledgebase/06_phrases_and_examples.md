@@ -4124,7 +4124,7 @@
 - Source section: Language Use Across the Nations of Ohnosha > Arvan Common Phrases
 - Page number: 19-20
 - Translation: The stars guide the heart.
-- Example type: Arvan phrase
+- Example type: Arvan dialect phrase
 - Analysis: Often said as a prayer or blessing before journeys, invoking cosmic guidance.
 - Canon status: Canon
 - Related entry IDs: 
@@ -4132,7 +4132,7 @@
 - Potential tension ID: 
 - Review status: Approved
 - Review reason: 
-- Notes: Original example preserved.
+- Notes: Current canon (2026-10-30): Celan in the named regional dialect. Original example and source label retained in source_section.
 
 ### PE-V3-0082: Thal morl ser, thal dral var.
 
@@ -4140,7 +4140,7 @@
 - Source section: Language Use Across the Nations of Ohnosha > Arvan Common Phrases
 - Page number: 19-20
 - Translation: Balance the mountain, balance the sky.
-- Example type: Arvan phrase
+- Example type: Arvan dialect phrase
 - Analysis: Reflects the need for equilibrium between the physical world and the spiritual or mystical world.
 - Canon status: Canon
 - Related entry IDs: 
@@ -4148,7 +4148,7 @@
 - Potential tension ID: 
 - Review status: Approved
 - Review reason: 
-- Notes: Original example preserved.
+- Notes: Current canon (2026-10-30): Celan in the named regional dialect. Original example and source label retained in source_section.
 
 ### PE-V3-0083: Kal thar, morl lorin ser.
 
@@ -4156,7 +4156,7 @@
 - Source section: Language Use Across the Nations of Ohnosha > Arvan Common Phrases
 - Page number: 19-20
 - Translation: Strength of heart, the mountain guides us.
-- Example type: Arvan phrase
+- Example type: Arvan dialect phrase
 - Analysis: A warrior's phrase, spoken to inspire courage and strength.
 - Canon status: Canon
 - Related entry IDs: 
@@ -4164,7 +4164,7 @@
 - Potential tension ID: 
 - Review status: Approved
 - Review reason: 
-- Notes: Original example preserved.
+- Notes: Current canon (2026-10-30): Celan in the named regional dialect. Original example and source label retained in source_section.
 
 ### PE-V3-0084: Vrak dren ka.
 
@@ -4172,7 +4172,7 @@
 - Source section: Language Use Across the Nations of Ohnosha > Trerran Common Phrases
 - Page number: 19-20
 - Translation: The water is gone.
-- Example type: Trerran phrase
+- Example type: Trerran dialect phrase
 - Analysis: Often used to indicate trouble or scarcity in the harsh desert environment.
 - Canon status: Canon
 - Related entry IDs: 
@@ -4180,7 +4180,7 @@
 - Potential tension ID: 
 - Review status: Approved
 - Review reason: 
-- Notes: Original example preserved.
+- Notes: Current canon (2026-10-30): Celan in the named regional dialect. Original example and source label retained in source_section.
 
 ### PE-V3-0085: Kal var morl.
 
@@ -4188,7 +4188,7 @@
 - Source section: Language Use Across the Nations of Ohnosha > Trerran Common Phrases
 - Page number: 19-20
 - Translation: Strength comes from stone.
-- Example type: Trerran phrase
+- Example type: Trerran dialect phrase
 - Analysis: A reminder of the need to be strong and unyielding.
 - Canon status: Canon
 - Related entry IDs: 
@@ -4196,7 +4196,7 @@
 - Potential tension ID: 
 - Review status: Approved
 - Review reason: 
-- Notes: Original example preserved.
+- Notes: Current canon (2026-10-30): Celan in the named regional dialect. Original example and source label retained in source_section.
 
 ### PE-V3-0086: Shal nor kal ser.
 
@@ -4204,7 +4204,7 @@
 - Source section: Language Use Across the Nations of Ohnosha > Trerran Common Phrases
 - Page number: 19-20
 - Translation: Light gives strength to the people.
-- Example type: Trerran phrase
+- Example type: Trerran dialect phrase
 - Analysis: Expresses the idea that the sun, though harsh, also provides energy necessary to survive.
 - Canon status: Canon
 - Related entry IDs: 
@@ -4212,7 +4212,7 @@
 - Potential tension ID: 
 - Review status: Approved
 - Review reason: 
-- Notes: Original example preserved.
+- Notes: Current canon (2026-10-30): Celan in the named regional dialect. Original example and source label retained in source_section.
 
 ### PE-V3-0087: Drenvokesh kal dren nor Belvok.
 
