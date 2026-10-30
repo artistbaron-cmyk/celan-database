@@ -5,12 +5,13 @@ import hashlib
 import json
 import os
 import pathlib
+import re
 import subprocess
 import sys
 import urllib.parse
 import urllib.request
 
-from prepare import FIELDS, ROOT, VOLUME
+from prepare import FIELDS, ROOT
 
 
 ALLOWED_PATH = "/xi-backend/database/workspace/f11dacdb41c24801a857b71a40aec625/content_generation/"
@@ -31,9 +32,11 @@ def write_csv(path, rows):
     os.replace(temp, path)
 
 
-def main(results_path):
-    journal = VOLUME / ".pending_batch.json"
-    manifest = VOLUME / "manifest.csv"
+def main(results_path, volume_name="volume_001"):
+    assert re.fullmatch(r"volume_\d{3}", volume_name), volume_name
+    volume = ROOT / "audio/headwords/variants" / volume_name
+    journal = volume / ".pending_batch.json"
+    manifest = volume / "manifest.csv"
     state = json.loads(journal.read_text())
     rows = list(csv.DictReader(manifest.open(newline="")))
     results = json.loads(pathlib.Path(results_path).read_text())
@@ -53,8 +56,8 @@ def main(results_path):
         assert not any(row["variant_id"] == item["variant_id"] or row["generation_id"] == result["id"] for row in rows)
         url = urllib.parse.urlparse(result["content_url"])
         assert url.scheme == "https" and url.hostname == "storage.googleapis.com" and url.path.startswith(ALLOWED_PATH)
-        path = VOLUME / item["audio_file"]
-        assert path.parent == VOLUME and path.name == item["audio_file"] and not path.exists()
+        path = volume / item["audio_file"]
+        assert path.parent == volume and path.name == item["audio_file"] and not path.exists()
         fd = os.open(path, os.O_CREAT | os.O_EXCL | os.O_WRONLY, 0o644)
         try:
             with os.fdopen(fd, "wb") as output, urllib.request.urlopen(result["content_url"], timeout=60) as response:
@@ -83,8 +86,8 @@ def main(results_path):
     pathlib.Path(results_path).unlink()
     print(f"Recorded {len(rows)} of {len(state['items'])} variants")
     if all(item["status"] == "recorded" for item in state["items"]):
-        journal.rename(VOLUME / ".completed_batch.json")
+        journal.rename(volume / ".completed_batch.json")
 
 
 if __name__ == "__main__":
-    main(sys.argv[1])
+    main(sys.argv[1], sys.argv[2] if len(sys.argv) > 2 else "volume_001")

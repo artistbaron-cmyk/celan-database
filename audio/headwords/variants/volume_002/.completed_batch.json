@@ -1,0 +1,150 @@
+{
+  "voice_name": "Ehshara",
+  "voice_id": "ej0ekewUzWvTFUiKsxvp",
+  "model_id": "eleven_v4",
+  "items": [
+    {
+      "variant_id": "awekshara#v01",
+      "parent_headword_id": "awekshara",
+      "parent_headword": "Awekshara",
+      "variant_form": "Awekashara",
+      "dictionary_pronunciation": "/ah-weh-kah-shah-rah/",
+      "generation_prompt": "Awekashara",
+      "audio_file": "HV-awekshara-v01 - Awekashara.mp3",
+      "status": "recorded",
+      "generation_id": "keJCA3fuhmyyYGR9sjVi"
+    },
+    {
+      "variant_id": "arthverd#v01",
+      "parent_headword_id": "arthverd",
+      "parent_headword": "Arthverd",
+      "variant_form": "Arthaverd",
+      "dictionary_pronunciation": "/ahr-thah-vehrd/",
+      "generation_prompt": "Arthaverd",
+      "audio_file": "HV-arthverd-v01 - Arthaverd.mp3",
+      "status": "recorded",
+      "generation_id": "NPXgrIJ4Xke9iQfuu1lM"
+    },
+    {
+      "variant_id": "vethdren#v01",
+      "parent_headword_id": "vethdren",
+      "parent_headword": "Vethdren",
+      "variant_form": "Vethadren",
+      "dictionary_pronunciation": "/veh-thah-drehn/",
+      "generation_prompt": "Vethadren",
+      "audio_file": "HV-vethdren-v01 - Vethadren.mp3",
+      "status": "recorded",
+      "generation_id": "SU8GC7XLk5P5XolQIhjj"
+    },
+    {
+      "variant_id": "rethshara#v01",
+      "parent_headword_id": "rethshara",
+      "parent_headword": "Rethshara",
+      "variant_form": "Rethashara",
+      "dictionary_pronunciation": "/reh-thah-shah-rah/",
+      "generation_prompt": "Rethashara",
+      "audio_file": "HV-rethshara-v01 - Rethashara.mp3",
+      "status": "recorded",
+      "generation_id": "hytW5PJTy5ET1v75vb5s"
+    },
+    {
+      "variant_id": "neshbrenral#v01",
+      "parent_headword_id": "neshbrenral",
+      "parent_headword": "Neshbrenral",
+      "variant_form": "Neshabrenral",
+      "dictionary_pronunciation": "/neh-shah-brehn-rahl/",
+      "generation_prompt": "Neshabrenral",
+      "audio_file": "HV-neshbrenral-v01 - Neshabrenral.mp3",
+      "status": "recorded",
+      "generation_id": "h2PClvLb2HYSpWjyVmeL"
+    },
+    {
+      "variant_id": "eshtrakor#v01",
+      "parent_headword_id": "eshtrakor",
+      "parent_headword": "Eshtrakor",
+      "variant_form": "Eshatrakor",
+      "dictionary_pronunciation": "/eh-shah-trah-kohr/",
+      "generation_prompt": "Eshatrakor",
+      "audio_file": "HV-eshtrakor-v01 - Eshatrakor.mp3",
+      "status": "recorded",
+      "generation_id": "4Lt6944epDe3oXjmETrD"
+    },
+    {
+      "variant_id": "mahrpral#v01",
+      "parent_headword_id": "mahrpral",
+      "parent_headword": "Mahrpral",
+      "variant_form": "Mahrapral",
+      "dictionary_pronunciation": "/mah-rah-prahl/",
+      "generation_prompt": "Mahrapral",
+      "audio_file": "HV-mahrpral-v01 - Mahrapral.mp3",
+      "status": "recorded",
+      "generation_id": "siHXTQRVbq9IJodVy7aV"
+    },
+    {
+      "variant_id": "morlshara#v01",
+      "parent_headword_id": "morlshara",
+      "parent_headword": "Morlshara",
+      "variant_form": "Morlashara",
+      "dictionary_pronunciation": "/mohr-lah-shah-rah/",
+      "generation_prompt": "Morlashara",
+      "audio_file": "HV-morlshara-v01 - Morlashara.mp3",
+      "status": "recorded",
+      "generation_id": "ASIMn50JYmkgZRDveSXK"
+    },
+    {
+      "variant_id": "eshdren#v01",
+      "parent_headword_id": "eshdren",
+      "parent_headword": "Eshdren",
+      "variant_form": "Eshadren",
+      "dictionary_pronunciation": "/eh-shah-drehn/",
+      "generation_prompt": "Eshadren",
+      "audio_file": "HV-eshdren-v01 - Eshadren.mp3",
+      "status": "recorded",
+      "generation_id": "iQCTXCgmkp4Po7HteKCv"
+    },
+    {
+      "variant_id": "morlzhir#v01",
+      "parent_headword_id": "morlzhir",
+      "parent_headword": "Morlzhir",
+      "variant_form": "Morlazhir",
+      "dictionary_pronunciation": "/mohr-lah-zheer/",
+      "generation_prompt": "Morlazhir",
+      "audio_file": "HV-morlzhir-v01 - Morlazhir.mp3",
+      "status": "recorded",
+      "generation_id": "PZrKt5iC22EFPehBzAM5"
+    },
+    {
+      "variant_id": "rethshen#v01",
+      "parent_headword_id": "rethshen",
+      "parent_headword": "Rethshen",
+      "variant_form": "Rethashen",
+      "dictionary_pronunciation": "/reh-thah-shehn/",
+      "generation_prompt": "Rethashen",
+      "audio_file": "HV-rethshen-v01 - Rethashen.mp3",
+      "status": "recorded",
+      "generation_id": "NJoDA0VmLrQLALUbFu34"
+    },
+    {
+      "variant_id": "eshpralaen#v01",
+      "parent_headword_id": "eshpralaen",
+      "parent_headword": "Eshpralaen",
+      "variant_form": "Eshapralaen",
+      "dictionary_pronunciation": "/eh-shah-prahl-ah-ehn/",
+      "generation_prompt": "E-sha-pral-a-en",
+      "audio_file": "HV-eshpralaen-v01 - Eshapralaen.mp3",
+      "status": "recorded",
+      "generation_id": "8eXXqA0li13E8097kYN6"
+    },
+    {
+      "variant_id": "vethshal#v01",
+      "parent_headword_id": "vethshal",
+      "parent_headword": "Vethshal",
+      "variant_form": "Vethashal",
+      "dictionary_pronunciation": "/veh-thah-shahl/",
+      "generation_prompt": "Vethashal",
+      "audio_file": "HV-vethshal-v01 - Vethashal.mp3",
+      "status": "recorded",
+      "generation_id": "P2cDCMkgpSGpYMyznVzE"
+    }
+  ]
+}

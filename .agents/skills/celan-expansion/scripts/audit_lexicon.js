@@ -23,8 +23,11 @@ function elementStub() {
     textContent: "",
     value: "",
     onclick: null,
+    dataset: {},
     appendChild() {},
     addEventListener() {},
+    setAttribute() {},
+    getAttribute() { return ""; },
     querySelectorAll() { return []; },
     classList: { add() {}, remove() {} }
   };
@@ -34,9 +37,10 @@ async function loadAppState(projectRoot) {
   const dictionaryDir = path.join(projectRoot, "dictionary");
   const scriptPath = path.join(dictionaryDir, "script.js");
   const source = await fsp.readFile(scriptPath, "utf8");
-  const exposed = `${source}\nglobalThis.__celanAudit = { state, buildPronunciation, displayUses };`;
+  const exposed = `${source}\nglobalThis.__celanAudit = { state, displayUses, parseCsv, rowsToObjects };`;
   const elements = new Map();
   const document = {
+    documentElement: { dataset: {} },
     getElementById(id) {
       if (!elements.has(id)) elements.set(id, elementStub());
       return elements.get(id);
@@ -70,26 +74,28 @@ function unique(values) {
 
 async function main() {
   const projectRoot = findProjectRoot(__dirname);
-  const { state, buildPronunciation, displayUses } = await loadAppState(projectRoot);
-  const expansionEntries = state.wordEntries.filter((entry) =>
-    String(entry.entry_id || "").startsWith("LX-NE") || entry.approval_batch
+  const { state, displayUses, parseCsv, rowsToObjects } = await loadAppState(projectRoot);
+  const appCsv = await fsp.readFile(path.join(projectRoot, "dictionary/app_data/dictionary_entries.csv"), "utf8");
+  const appEntries = rowsToObjects(parseCsv(appCsv));
+  const expansionEntries = appEntries.filter((entry) =>
+    String(entry.source_entry_ids || "").includes("LX-NE") || entry.approval_batch
   );
-  const expansionGroups = state.groupedEntries.filter((group) =>
-    group.entries.some((entry) => expansionEntries.includes(entry))
-  );
-  const missingPronunciation = expansionGroups
-    .filter((group) => !String(buildPronunciation(group.term, group.entries) || "").trim())
-    .map((group) => group.term);
+  const expansionIds = new Set(expansionEntries.map((entry) => entry.id));
+  const expansionGroups = state.groupedEntries.filter((group) => expansionIds.has(group.id));
+  const missingPronunciation = expansionEntries
+    .filter((entry) => !String(entry.pronunciation || "").trim())
+    .map((entry) => entry.headword);
   const nations = {};
   const batches = {};
   for (const entry of expansionEntries) {
-    const nation = String(entry.origin_nation || "Universal / no national origin").trim() || "Universal / no national origin";
+    const metadata = JSON.parse(entry.metadata_json || "null") || {};
+    const nation = (metadata.origins || []).join("; ") || "Universal / no national origin";
     nations[nation] = (nations[nation] || 0) + 1;
     const batch = String(entry.approval_batch || "Unspecified").trim() || "Unspecified";
     batches[batch] = (batches[batch] || 0) + 1;
   }
-  const variants = unique(expansionEntries.flatMap((entry) =>
-    String(entry.variant_forms || "").split(";").map((value) => value.trim())
+  const variants = unique(appEntries.flatMap((entry) =>
+    ((JSON.parse(entry.metadata_json || "null") || {}).variants || []).map((variant) => variant.form)
   ));
   const displayedSenseRows = state.groupedEntries.reduce((total, group) => {
     return total + displayUses(group).length;
@@ -97,7 +103,7 @@ async function main() {
   const report = {
     appHeadwords: state.groupedEntries.length,
     displayedSenseRows,
-    assembledEntryRecords: state.wordEntries.length,
+    assembledEntryRecords: appEntries.length,
     expansionRows: expansionEntries.length,
     expansionHeadwords: expansionGroups.length,
     euphonicOrAliasVariants: variants.length,
@@ -112,7 +118,7 @@ async function main() {
   }
   console.log(`Celan app headwords: ${report.appHeadwords}`);
   console.log(`Displayed dictionary senses: ${report.displayedSenseRows}`);
-  console.log(`Underlying records assembled by the app: ${report.assembledEntryRecords}`);
+  console.log(`Dictionary headword rows: ${report.assembledEntryRecords}`);
   console.log(`Approved expansion rows: ${report.expansionRows}`);
   console.log(`Expansion headwords in app: ${report.expansionHeadwords}`);
   console.log(`Stored euphonic/alias variants: ${report.euphonicOrAliasVariants} (not separate headwords)`);

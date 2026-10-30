@@ -1,0 +1,218 @@
+{
+  "approval_date": "2026-10-30",
+  "approved_variants": {
+    "Awekshara": {
+      "form": "Awekashara",
+      "pronunciation": "/ah-weh-kah-shah-rah/"
+    },
+    "Arthverd": {
+      "form": "Arthaverd",
+      "pronunciation": "/ahr-thah-vehrd/"
+    },
+    "Vethdren": {
+      "form": "Vethadren",
+      "pronunciation": "/veh-thah-drehn/"
+    },
+    "Rethshara": {
+      "form": "Rethashara",
+      "pronunciation": "/reh-thah-shah-rah/"
+    },
+    "Neshbrenral": {
+      "form": "Neshabrenral",
+      "pronunciation": "/neh-shah-brehn-rahl/"
+    },
+    "Eshtrakor": {
+      "form": "Eshatrakor",
+      "pronunciation": "/eh-shah-trah-kohr/"
+    },
+    "Mahrpral": {
+      "form": "Mahrapral",
+      "pronunciation": "/mah-rah-prahl/"
+    },
+    "Morlshara": {
+      "form": "Morlashara",
+      "pronunciation": "/mohr-lah-shah-rah/"
+    },
+    "Eshdren": {
+      "form": "Eshadren",
+      "pronunciation": "/eh-shah-drehn/"
+    },
+    "Morlzhir": {
+      "form": "Morlazhir",
+      "pronunciation": "/mohr-lah-zheer/"
+    },
+    "Rethshen": {
+      "form": "Rethashen",
+      "pronunciation": "/reh-thah-shehn/"
+    },
+    "Eshpralaen": {
+      "form": "Eshapralaen",
+      "pronunciation": "/eh-shah-prahl-ah-ehn/"
+    },
+    "Vethshal": {
+      "form": "Vethashal",
+      "pronunciation": "/veh-thah-shahl/"
+    }
+  },
+  "prior_metadata": {
+    "Awekshara": {
+      "origins": [
+        "Jasara"
+      ],
+      "nationalUses": [
+        "A channel carrying spring water into settlements or fields."
+      ],
+      "derivations": [
+        "Awek + Shara"
+      ],
+      "variants": []
+    },
+    "Arthverd": {
+      "origins": [
+        "Verdalris"
+      ],
+      "nationalUses": [
+        "A cultivated hedge or living plant barrier."
+      ],
+      "derivations": [
+        "Arth + Verd"
+      ],
+      "variants": []
+    },
+    "Vethdren": {
+      "origins": [
+        "Zarithan"
+      ],
+      "nationalUses": [
+        "A hidden survival source in Zarithan; a protected underground supply in Jasara."
+      ],
+      "derivations": [
+        "Veth + Dren"
+      ],
+      "variants": []
+    },
+    "Rethshara": {
+      "origins": [],
+      "nationalUses": [],
+      "derivations": [
+        "Reth + Shara"
+      ],
+      "variants": []
+    },
+    "Neshbrenral": {
+      "origins": [],
+      "nationalUses": [],
+      "derivations": [
+        "Nesh aquatic creature + Bren harvest + Ral practitioner"
+      ],
+      "variants": []
+    },
+    "Eshtrakor": {
+      "origins": [],
+      "nationalUses": [],
+      "derivations": [
+        "Esh air or openness + Trakor footwear"
+      ],
+      "variants": []
+    },
+    "Mahrpral": {
+      "origins": [],
+      "nationalUses": [],
+      "derivations": [
+        "Mahr sea or broad water + Pral flat working surface"
+      ],
+      "variants": []
+    },
+    "Morlshara": {
+      "origins": [],
+      "nationalUses": [],
+      "derivations": [
+        "Morl mountain + Shara path"
+      ],
+      "variants": []
+    },
+    "Eshdren": {
+      "origins": [],
+      "nationalUses": [],
+      "derivations": [
+        "Esh air + Dren water"
+      ],
+      "variants": []
+    },
+    "Morlzhir": {
+      "origins": [],
+      "nationalUses": [],
+      "derivations": [
+        "Morl ground or stone + Zhir thread"
+      ],
+      "variants": []
+    },
+    "Rethshen": {
+      "origins": [],
+      "nationalUses": [],
+      "derivations": [
+        "Reth uncertainty + Shen measure"
+      ],
+      "variants": []
+    },
+    "Eshpralaen": {
+      "origins": [],
+      "nationalUses": [],
+      "derivations": [
+        "Esh air or wind + Pral skilled shaping"
+      ],
+      "variants": []
+    },
+    "Vethshal": {
+      "origins": [],
+      "nationalUses": [],
+      "derivations": [
+        "Veth concealment + Shal light or revelation"
+      ],
+      "variants": []
+    }
+  },
+  "visible_senses": {
+    "Awekshara": [
+      "Spring-fed canal"
+    ],
+    "Arthverd": [
+      "Protective living vegetation"
+    ],
+    "Vethdren": [
+      "Concealed or subterranean water"
+    ],
+    "Rethshara": [
+      "Instead; by a substituted course or option"
+    ],
+    "Neshbrenral": [
+      "A fisher or aquatic harvester; a person whose regular work is catching aquatic creatures"
+    ],
+    "Eshtrakor": [
+      "A sandal; open or highly ventilated footwear that protects the sole while leaving much of the foot exposed"
+    ],
+    "Mahrpral": [
+      "A raft; a flat buoyant watercraft without an enclosed hull"
+    ],
+    "Morlshara": [
+      "Mountain pass; a traversable route through or between mountain heights"
+    ],
+    "Eshdren": [
+      "Humidity; the amount or felt presence of water vapor in the air"
+    ],
+    "Morlzhir": [
+      "Plant root; the usually hidden anchoring and absorbing structure extending through soil or another medium"
+    ],
+    "Rethshen": [
+      "Probability; a measured or formally estimated degree of likelihood under uncertainty"
+    ],
+    "Eshpralaen": [
+      "To shape or control air wind or atmospheric motion through extraordinary trained practice"
+    ],
+    "Vethshal": [
+      "Illusion; a deliberately formed sensory appearance that obscures substitutes for or misdirects perception of what is present"
+    ]
+  },
+  "audio_status": "generated; integrated in local dictionary app; all 13 recordings approved by user on 2026-10-30",
+  "audio_manifest": "audio/headwords/variants/volume_002/manifest.csv"
+}

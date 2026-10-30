@@ -25,7 +25,7 @@ const bundle = bundleContext.window.EMBEDDED_DATA;
 const audio = bundleContext.window.CELAN_AUDIO_CATALOG;
 const pendingAudio=JSON.parse(fs.readFileSync(path.join(appDir,'audio_pending.json'),'utf8'));
 assert.equal(Object.keys(audio.headwords).length,1499);
-assert.equal(Object.keys(audio.variants).length,197);
+assert.equal(Object.keys(audio.variants).length,210);
 const expressionsDir=path.join(appDir,'..','audio','expressions');
 const expressionFileCount=fs.readdirSync(expressionsDir).filter(name=>/^volume_\d{3}$/.test(name)).reduce((count,name)=>
   count+fs.readdirSync(path.join(expressionsDir,name)).filter(file=>file.endsWith('.mp3')&&!file.startsWith('ERROR_')).length,0);
@@ -58,6 +58,14 @@ const parseCsv=text=>{
   if(row.length||cell){row.push(cell);rows.push(row);}const [headers,...data]=rows;return data.map(cells=>Object.fromEntries(headers.map((h,i)=>[h,cells[i]||''])));
 };
 const entries=parseCsv(bundle['dictionary_entries.csv']);
+const variantIds=new Set(entries.flatMap(row=>{
+  const variants=(JSON.parse(row.metadata_json||'null')||{}).variants||[];
+  return variants.map((_,index)=>`${row.id}#v${String(index+1).padStart(2,'0')}`);
+}));
+const pendingVariantIds=new Set(pendingAudio.variants||[]);
+assert.equal(pendingVariantIds.size,(pendingAudio.variants||[]).length,'duplicate pending variant ID');
+for(const id of pendingVariantIds)assert.ok(!audio.variants[id],'recorded variant is also marked pending: '+id);
+assert.deepEqual(new Set([...Object.keys(audio.variants),...pendingVariantIds]),variantIds,'variant audio and pending IDs differ from dictionary forms');
 const senses=parseCsv(bundle['dictionary_senses.csv']);
 const examples=parseCsv(bundle['dictionary_examples.csv']);
 const families=JSON.parse(bundle['dictionary_families.json']);

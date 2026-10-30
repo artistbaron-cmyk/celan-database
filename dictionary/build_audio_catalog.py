@@ -55,7 +55,10 @@ def main():
         metadata = json.loads(row["metadata_json"] or "null") or {}
         for index, _ in enumerate(metadata.get("variants") or [], 1):
             variants.add(f"{row['id']}#v{index:02d}")
-    assert set(catalog["variants"]) == variants, "Variant audio and app IDs differ"
+    pending_audio = json.loads((ROOT / "dictionary/audio_pending.json").read_text())
+    pending_variants = set(pending_audio.get("variants") or [])
+    assert not set(catalog["variants"]) & pending_variants, "Recorded variant marked pending"
+    assert set(catalog["variants"]) | pending_variants == variants, "Variant audio and pending IDs differ from app"
     examples = rows(ROOT / "dictionary/app_data/dictionary_examples.csv")
     example_ids = {row["entry_id"] for row in examples if row["entry_id"]}
     expression_ids = {item["expression_id"] for item in json.loads((ROOT / "dictionary/app_data/expressions_app.json").read_text())}

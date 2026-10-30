@@ -3,5 +3,9 @@
   "approval_date": "2026-10-29",
   "reason": "All approved entries in this batch have dedicated audio recordings.",
   "headwords": [],
-  "examples": []
+  "examples": [],
+  "variant_batch": "Additional Euphony Variants 2026-10-30",
+  "variant_approval_date": "2026-10-30",
+  "variant_reason": "All 13 approved written variants have dedicated audio in volume_002; the user approved the recordings on 2026-10-30.",
+  "variants": []
 }

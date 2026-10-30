@@ -953,3 +953,11 @@ Status: Approved by the user on 2026-10-29, extending ED-0049.
 **Numerator + thal + denominator** expresses the numerator's share of a stated or contextually understood whole. In this construction, **thal** marks “out of” the whole, and the denominator gives the number of equal mathematical shares that constitute it. **Peth thal oven** means five-eighths (5/8) of the whole. **Unar thal del** and **unar thal quen** remain one-half and one-quarter. The denominator cannot be zero. The proportion is independent of the size of actual physical pieces or containers.
 
 This decision adds a distinct visible prepositional meaning for **Thal** in the Dictionary App and broadens GR-FRAC-0001. Its earlier balance/harmony and spatial from/out-of senses remain intact. A fraction expression is a quantity of a whole; this decision does not establish a general spoken division operation outside fractions, a ratio construction, or a percentage word.
+
+## ED-0051: Additional Optional Euphonic Variants
+
+Status: Approved by the user on 2026-10-30.
+
+The user approved the five strongest and eight additional forms in `outputs/euphony_variant_audit_2026_10_29.md`: **Eshadren**, **Eshapralaen**, **Mahrapral**, **Morlashara**, **Neshabrenral**, **Rethashara**, **Rethashen**, **Vethashal**, **Vethadren**, **Eshatrakor**, **Awekashara**, **Morlazhir**, and **Arthaverd**. Each is an optional pronunciation and spelling variant of its existing unsmoothed headword, with the same lexical meaning and no additional headword or sense. Their exact parent links and written pronunciations are recorded in `outputs/euphony_variant_approval_2026_10_30.json` and the app dictionary metadata.
+
+The user finds **Ravwek** and **Ndemwek** satisfactory without smoothing and chose to leave the lower-priority group as it is. No Wek alternatives or lower-priority forms from the audit are approved by this decision. The 13 new variants are visible in the app with dedicated Ehshara `eleven_v4` audio in `audio/headwords/variants/volume_002/`. The user listened to and approved all 13 recordings on 2026-10-30.
